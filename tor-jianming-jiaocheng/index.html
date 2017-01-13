@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>TOR 简明教程  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/tor-jianming-jiaocheng/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/tor-jianming-jiaocheng/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>06 Mar 2006, 15:44</time>
+      <h1>TOR 简明教程</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-下载">1、下载：</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>近日成功地拉拢我的表妹成为本 blog 的读者，因为要访问这个 blog 就需要突破
+Great Fire Wall，所以教她学会了用 TOR。顺便放出简明教程。</p>
+
+<h2 id="1-下载">1、下载：</h2>
+
+<p>的主页已经被屏蔽，所以没有办法直接下载到。可以到<a href="http://calon.xu.googlepages.com/tor-0.1.0.17-torcp-0.0.4-bundle.exe">这里</a>下载
+<a href="http://tor.eff.org/">TOR</a> +
+<a href="http://www.freehaven.net/~edmanm/torcp/">TorCP</a> +
+<a href="http://www.privoxy.org/">Privoxy</a> 打包安装程序。感谢 <a href="http://pages.google.com/">Google
+Pages</a> 提供的服务！</p>
+
+<p>如果今后有重大升级，我可能会更新下载地址。</p>
+
+<p>2、安装：<br />
+没什么好说的，一步一步照着提示做就成了。</p>
+
+<p>3、运行 TOR：<br />
+实际上是运行图形界面的 TorCP 和具备过滤内容、转换代理功能的 Privoxy。<br />
+从“开始”菜单-“所有程序”中找到 TorCP 和 Privoxy
+并运行即可，也可以设置批处理命令或用 TypeAndRun 启动。<br />
+注意：打包安装版可能会设置 TOR 随电脑启动运行。</p>
+
+<p>4、设置浏览器代理：<br />
+如果使用 IE，在“工具”-“Internet
+选项”-“连接”-“局域网（LAN）设置”-“代理服务器”中，钩选“为 LAN
+使用代理服务器”。<br />
+然后在“地址”一栏中填写表示本地 IP 的127.0.0.1，端口号设置为8118。<br />
+<img src="http://static.flickr.com/40/93397309_7759b63ccd_o.jpg" alt="" /></p>
+
+<p>如果使用 MyIE/Maxthon，应该在工具栏上有切换代理的工具，老老实实地填写
+IP、端口，启用即可。</p>
+
+<p>如果是使用 <a href="http://www.mozilla.org/products/firefox/">Firefox</a>，推荐使用
+<a href="http://xyzboard.com/?q=taxonomy/term/6/map">xyzproxy</a>
+插件。安装后在工具栏上
+<a href="http://xyzboard.com/?q=taxonomy/term/6/map">xyzproxy</a>
+图标的下拉菜单中选择“工具”-“编辑代理”，输入127.0.0.1:8118#Local。然后点击图标，使它由灰色变成彩色，便启用代理了。</p>
+
+<p>5、其他说明：<br />
+理论上到上一步就能突破封锁了。可以用浏览器打开这个 blog，或者 <a href="http://codex.wordpress.org/Main_Page">WordPress
+Documents</a>、<a href="http://zh.wikipedia.org/">维基百科</a>、<a href="http://xys.org/">新语丝</a>、<a href="http://www.google.com/">Google</a>
+的网页快照、<a href="http://www.bbc.co.uk/chinese">BBC
+中文网</a>、<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5">中国网络审查条目</a>等来测试是否成功。</p>
+
+<p>如果通过 TOR 使用 <a href="http://wordpress.org/">WordPress</a> 时出现和“<a href="http://codex.wordpress.org/Enable_Sending_Referrers">Enable
+Sending
+Referrers</a>”相关的错误信息，你就需要编辑
+Privoxy 的 User Actions 文件，在{ fragile
+}起始的一段中增加问题站点的地址，如 .weblogs.us</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftor-jianming-jiaocheng%2f&text= @calon TOR%20%e7%ae%80%e6%98%8e%e6%95%99%e7%a8%8b&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《TOR%20%e7%ae%80%e6%98%8e%e6%95%99%e7%a8%8b》&body=https%3a%2f%2fioerr.github.io%2ftor-jianming-jiaocheng%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/sanyue-chuntian-lifa-lixianji/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>三月春天·理发历险记</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/tuijian-firefox-kuozhan-yu-zhuti/" rel="next">
+    <span>推荐 Firefox 扩展与主题</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

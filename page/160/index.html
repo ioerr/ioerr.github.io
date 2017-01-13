@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/zhunbei-shengji-wordpress-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Jan 2006, 11:40</time>
+      <h1>准备升级 WordPress 2.0</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>因为安装 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>
+的时候受了打击，所以下定决心把“滞销书”一次<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
+<a href="http://wordpress.org/">WordPress</a> 2.0 版本，如果这几天 blog
+无法访问，说明正在升级，或者升级失败，或者恢复失败… Orz<br />
+另外 RSS Feed 也可能出现异常状况。</p>
+
+<p>先在 blog 上记录一下步骤，到时候也好知道到底是怎么死的。</p>
+
+<p>1、备份数据库。<br />
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
+插件导出数据库表。没有用
+PhpMyAdmin，因为我是个懒人。到时候出了问题再搬救兵好了。按照常理，像我这样经常很倒霉的人出问题的概率是相当大的，何况还要偷懒…</p>
+
+<p>2、备份文件。<br />
+虽然一些 blogger 说 wp-content
+目录中的内容可以不备份，但我修改过默认模板的文件，所以要备份一下，升级后再看具体情况作修改。</p>
+
+<p>3、停用所有的插件。<br />
+目前使用的插件有
+<a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a>、<a href="http://openmonday.martlev.com/small-projects/another-random-quote/">Another Random
+Quote</a>、<a href="http://www.victr.lm85.com/fancytooltips/">FancyTooltips</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>、[Twilight</p>
+
+<h2 id="autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></h2>
+
+<p>Warrior](<a href="http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress">http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress</a>
+Database Backup](<a href="http://www.skippy.net/blog/plugins/)、[Better">http://www.skippy.net/blog/plugins/)、[Better</a>
+Feed](<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。">http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。</a></p>
+
+<p>4、下载 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+<a href="http://wordpress.org/download/">下载地址</a>。</p>
+
+<p>5、删除文件。<br />
+保留的目录、文件：wp-config.php、wp-content 目录、wp-images
+目录，必要的话，保留 wp-includes/languages/ 目录、.htaccess
+文件，以及其他一些自己修改过的文件。<br />
+删除剩下的 <a href="http://wordpress.org/">WordPress</a> 1.5.x 的文件。</p>
+
+<p>6、上传 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+最后上传 wp-content 目录，覆盖的时候要小心谨慎。</p>
+
+<p>7、执行 wp-admin/upgrade.php。<br />
+然后就看人品是否过硬了。</p>
+
+<p>8、在 Options 面板中重新设置 Permalinks</p>
+
+<p>9、更新、激活插件。<br />
+更新 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>、<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">Better
+Feed</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>，试用
+<a href="http://www.zombierobot.com/wp-quotes/">Random
+Quote</a>、<a href="http://dev.wp-plugins.org/wiki/ThemeSwitcher">ThemeSwitcher</a>。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/lixiangde-shudian-xiaowenda/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:39</time>
+      <h1>“理想的书店”小问答</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.bighead.cn/">大头绿豆</a>在<a href="http://www.douban.com/">豆瓣</a>上问深圳的豆友“<a href="http://www.douban.com/group/topic/1021997/">深圳有你理想中的书店吗？如果有，是哪儿？如果没有，那么你理想中的书店应该是怎样的？应该有哪些东西或者服务？</a>”</p>
+
+<p><blockquote>
+0、你多久没逛书店了？如果很久，是因为什么？是和我一样，因为觉得深圳没有好的书店吗？</p>
+
+<p>1、如果你常常逛，那末通常是因为什么？为什么不在网上买而要到书店去？</p>
+
+<p>2、如果你在罗湖，有什么可以吸引你去一家南山的书店？坦白说，离得多远的书店是你能接受的？</p>
+
+<p>3、你希望这家书店能有地方让你坐下来读书吗？顺便来点喝的？</p>
+
+<p>4、如果它有一个足够的空间，你愿意和你的朋友们来这里聊天，或者只是听它的音乐吗？</p>
+
+<p>5、如果你选择到这家书店发一个下午的呆，你能够接受的消费是多少？</p>
+
+<p>6、你愿意把自己的一些旧书拿到这个书店卖吗，哪怕必须接受一些附加条件？</p>
+
+<p>7、你愿意在这里买一些旧书吗，如果它确实讨你喜欢？</p>
+
+<p>8、你希望在这家书店里看见一只猫或者什么别的动物吗？</p>
+
+<p>9、你希望它是白色的吗？
+</blockquote>
+在长沙的我也凑个热闹回答一下：<br />
+0、不算太久，不过比以前的频率低了。原因是工作的地方附近没有好书店，周末又一直很忙，又有不少书等着看完。</p>
+
+<p>1、经常逛的原因当然是来瘾了，还有就是经常有让人感兴趣的新书到货。如果是问书店吸引我的地方，除了质量和价格，那就是书籍的口味、稀有书籍的数量、店主的服务态度、检索查询是否方便、阅读环境如何。不喜欢上网买书的原因嘛，我一定要在手里面捧着才算放心，看中了又不买太折磨人，况且买书也讲究氛围，而且说不定可以遇到有同好的美女
+;P</p>
+
+<p>2、现在常去的书店离家里有好几公里吧？关键是要有直达的公交车，或者骑单车、寄存单车方便也行。</p>
+
+<p>3、当然要有坐的地方，喝的倒不必，怕倒在书上不好交差－－可是好像经常一边吃饭一边看书哦，那好吧，咖啡、茶、果汁、牛奶都可以，但不要卖碳酸饮料。</p>
+
+<p>4、聊天听音乐没兴趣，那已经是另一种氛围了。要是谁在我看到一本特别想翻翻看的书时硬拉着我聊天，我会发飙哦。</p>
+
+<p>5、能不能够不消费啊？我的要求不算高，收费的服务对我来说是多余。</p>
+
+<p>6、旧书？我会卖？那一定不是我的书…</p>
+
+<p>7、当然要买。本地买不到，到外地去买都成。</p>
+
+<p>8、无所谓，只要它不吃书不撕书就好，也不要太吵闹，否则必会招来人道毁灭－－我可不是无条件的动物保护主义者。有条件的话…长颈鹿怎么样？</p>
+
+<p>9、是纯棉的吗？没有小熊或南瓜图案吧？(-_-#)</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f&text= @calon %e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94》&body=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/kuaiditong/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:34</time>
+      <h1>快递通</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>忽然很无聊地想，如果 <a href="http://edad.com.cn/datou/">Datou</a>
+很无聊，可以用<a href="http://qiushibaike.com/">糗事百科</a>上的素材玩 Podcast
+嘛；而那些玩 Podcast
+的也可以用<a href="http://qiushibaike.com/">糗事百科</a>的内容耍一耍嘛。</p>
+
+<p>前几天和 <a href="http://www.donews.net/tinyfool/">Tinyfool</a>
+隐约好像似乎是扯到防 GFW
+时，建议每篇文章自动生成为一张图片，甚至每个文字都是动态生成的小图片，印象中这样的想法以前在哪里见过，不过得不到搜索引擎支持的话，估计愿意使用的人也不多。</p>
+
+<p>据说赵本山春节联欢晚会的节目终于定下来了，据说和中国足球无关，真是可惜，没有好好利用这次深入基层采风的大好机会啊～</p>
+
+<p><a href="http://www.kdt.cn/">快递通</a>这个工具还不错，支持动态 IP
+远程控制，缺点是好像不能够像 PCAnyWhere
+那样传递剪贴板内容、缩放屏幕、方便地传递文件，而且不算稳定。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f&text= @calon %e5%bf%ab%e9%80%92%e9%80%9a&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%bf%ab%e9%80%92%e9%80%9a》&body=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/wuji/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>08 Jan 2006, 16:34</time>
+      <h1>《无极》</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>已经忘了是哪一天看的了，今天才既有时间又有兴致写完，写作速度可见一斑。这年头难得进一回电影院，所以得评一评。</p>
+
+<p>因为临时决定不回去加班和同事想办法帮忙留住了要给别人的票，本来已经把票让给了同事的我最终还是去看了《<a href="http://ent.sina.com.cn/f/thepromise/index.shtml">无极</a>》。</p>
+
+<p>因为很反感公映前的烧钱造势，所以对《无极》没什么好感；因为公映之后网上骂声一片，所以看完之后也没觉得有那么不堪，有一些值得称道之处。但我评论电影一贯是批评居多，而且陈凯歌没有花钱收买我，就更不用客气了
+XD</p>
+
+<p>满神这个角色让人很自然地想起《麦克白》中的女巫，进一步还可以想到古希腊神话中的命运女神，这是整部电影最关键的人物，由她引出几个主要角色的剧情，但对这个角色的刻画显然与她的地位不相配。<br />
+“女巫”这个词很容易被认为与“邪恶”、“不安好心”、“为害他人”有关联，而命运女神的“命运”二字本身已能够赋予其“无常”、“不可违抗”、“冷面无情”的属性，可是“满神”呢？她为什么要出现？为什么只出现在倾城与光明面前？她预言、打赌有什么目的？既没有足够的交待，也没有让人摸得到线索的名字，这就会让一些人感到莫名其妙。<br />
+其实这本不应该有什么一时让人无法理解的，命运三女神就是这么令人畏惧地来去无踪、捉摸不透，在你意想不到的时候跳出来预言你无法更改的结局，让你一路带着看得见的诅咒走向生命的尽头－－关键问题是，古希腊神话有一个天马行空的幻想世界背景，命运女神代表着其中站在诸神“人性”对立面的自然的残酷无情、无法逃避，是平衡着这个虚构世界使其不至于成为充斥着纵情享乐的、粗俗下流的三流
+YY
+小说的重要因素，是在诸神灵、诸英雄悲剧命运的浓黑色幕布之后隐隐浮现的身影，即使她们不以具体的形象出现，读者也能真切地感觉到其所代表的“命运”；莎士比亚和黑泽明呢？虽然没有时间在舞台和银幕上平地构造出一个鲜活的世界出来，但至少他们的一贯风格、他们讲述的故事中设想的时代、语言和画面的设计，都不会让观众觉得很突兀。<br />
+反观《无极》，开头寥寥几行字幕介绍故事的背景世界，没有任何给人留下深刻印象的图像说明，这可是个完全虚构的想像世界，是后面将要“惊天地泣鬼神”的主角们大展拳脚的舞台，没有多少花心思的铺垫就三蹦两跳的捣鼓出一个神秘兮兮不知所云的满神，大多数的观众怎么可能不觉得古怪？</p>
+
+<p>光明大将军的角色设置和表演应该是一大败笔。<br />
+表演方面，真田广之的汉语发音虽然已经非常努力地练习得不错了，但关键时刻的油腔滑调配合一脸无赖的神情，无疑大大地冲淡了这个主要角色的悲剧色彩。这样一个一出场威风八面的常胜将军在之后的时间内，在临死之前，除了让围城军队纷纷躲闪之外，还有什么闪光之处？几次选择都错得可笑，还全无大将之风。他可以是个喜爱美色的人，可以是个冷酷残忍的人，可以是个虚伪自私的人，甚至可以是个彻头彻尾的坏人，但是，他必须是一个连坏都坏得有信心、有个性、有魅力、有生命力、有说服力，让观众都情不自禁投到他的阵营一边的人，唯有这样，因为骄傲而挑战命运、因为骄傲而伪装成救命恩人、因为骄傲而欲承担罪名的光明大将军的失败和死亡才会具有真正意义上的悲剧色彩，而《无极》中那个时而像个轻浮的小丑、时而像个好色的流氓、时而像个耍小聪明的政客、时而像个一败涂地丧失勇气和信心的懦夫的光明，显然和被应该赋予的角色使命相去甚远。<br />
+另外，山谷一战让蛮牛反冲敌人之后仍然是以寡击众的局面，甚至还要主将在没有支援保护的情况下近战肉搏，最后却能够全胜而归，要么说明光明的战术并不成功，要么说明双方单兵的实力都相差太多，战术安排的意义不大，无论哪一种，都削弱了大将军英雄盖世的效果－－因为在国人眼里，抛下部下杀入敌阵的只算是个先锋猛将而已，距离大将的境界还有很远呢。</p>
+
+<p>谢霆锋的无欢大概是带来笑场次数最多的角色了，因为说话阴阳怪气，动作女性化的男性角色在传统的眼光里本来就是不讨好的，如果没有足够有说服力的演绎，失败是必然的。为了塑造这样一个心理变态的角色，在前面的部分得到一些笑场，也是值得的，关键在于在最后海棠树下的部分，轮到无欢用打动人心的叙述挽回之前丢掉的形象分了，却迸出来更爆笑的语言，实在是编剧的罪过啊～<br />
+从当年的馒头、头盔，到中间数十年不为人知的经历，到光明被松绑后的数次言而无信，无欢都可以拿来作为大段陈述的材料，阐释影片英文名“The
+Promise”代表的深意，最后才在自我的剖析上面做文章，这样也给了其他角色与之冲突的空间，因为之前的铺垫还是太少，这样的处理方法或许不是最好的，但起码比直接由“一个馒头”的童年阴影跳跃到“失去了一个做好人的机会”带给观众的感觉要好一些吧？</p>
+
+<p>张柏芝的倾城作为另一个面对满神做出选择的角色，在犹豫着是回避命运还是接受爱情时，并没有把那种矛盾演绎得足够好。<br />
+一来大概是刚出场时缺少缓冲让人觉得好没道理的脱衣表演冲淡了她身上应有的倾城气质和悲剧色彩，要知道即使海伦与站在希腊人对立面的帕里斯恩爱如蜜，她也不用宽衣解带，只是让希腊人看见了而已，就让他们觉得十年的浴血奋战很值，这才叫做“倾城”，而《无极》里面那是倾城先把自己给倾了。于是观众难免会想，这样自暴自弃的角色又怎么会把自己的命运看得那么重要呢？经过这样的削弱，即使导演要安排倾城在遇见“光明”之后才觉醒，才真正开始面对命运的两难选择，观众也不会买账，看到的痛苦比演员想要表现出来的少得多。<br />
+二来审判三人的那场戏设计得很巧妙，一个是为了拯救心爱的人而自以为是说谎地“承认”是昆仑假扮光明杀了王，一个是为了不暴露自己谎言、为了留住芳心、更是为了“打赢生命中最后一仗”而“承认”自己杀了王，一个是为了救自己的主人、更是为了向心爱的人表明心迹而承认自己杀了王，知道真相的人猜不透别人为什么要说谎和说实话，也无法阻止别人说谎或说实话，不知道真相的人自以为知道真相，害怕自己的苦心白费，翻来覆去，真真假假，直到昆仑再次说出在悬崖边说的那句话…这样的场景是最适合演员发挥演技的，而不明真相的倾城更有机会超常发挥，可惜的是，在这个场景中，张柏芝的表现只能算及格，比真田广之还差一点点。</p>
+
+<p>张东健么，作为男主角表演得还是不错的，但是拙劣的普通话、失败的奔跑特效扣分太多，特别是高速奔跑的效果表现很差，在新京报《<a href="http://ent.sina.com.cn/r/m/2005-12-16/0457930505.html">〈无极〉被自己打败</a>》一文中就说得很中肯，这样的处理方式，观众只会联想到《功夫》和《The
+Mask》，而那两部，是喜剧电影…<br />
+而且说实话，光明和倾城纵马越过他头顶的那个好发挥的场景中－－没有人联想到《破坏之王》中断水流大师兄与阿丽翩翩起舞深情对唱时，外卖小子阿银血泪横流的惨况么？－－他的表演没有给我留下深刻的印象，倒是悬崖边、审判时的两次关键的说话、解救光明等场景表现还不赖。<br />
+还有一点让我想不通的是，要看到过去，非得用超人的速度么？观众好歹也有物理学常识，不是一句超越光速就能看到过去糊弄得了的，既然是一个幻想的世界，为什么不能够有其他的方式回到过去？就算高速奔跑是雪国人独有的本事，由此出发只让鬼狼和昆仑看到过去也许不错，但当这种设定影响到影片氛围的时候，就应该狠心撤掉。</p>
+
+<p>至于刘烨的鬼狼，估计导演想把家仇国恨与个人的卑微求生对立起来表现出来，然而我要说，导演能够把前面这些东西收拾好就已经不错了，再多一个有性格的角色会让整部电影更难控制－－于是乎鬼狼把心中一直逃避的那份愧疚转化为对昆仑这个同族人的庇护，在电影中经由软弱怯懦尖声细气的角色演绎出来就变成了让观众受不了的单方面同性之爱…</p>
+
+<p>综上所述，每一个主要角色都能够有充分发挥的余地，只要配合得好，相得益彰，《无极》这部电影完全可以做得好得多，但是制约这些演员塑造好角色、演绎好故事的恰恰是导演。不是陈凯歌导演鼓励演员尽情发挥出现反效果，而是他实在是想在这么多角色的身上表现出太多的东西，他驾驭多主线多角色命运交织的故事的能力不足，于是只好在不该用力的地方用力过猛，在应该向观众交待清楚的地方，像二流的文人一样沉浸在自己的主观理解中，以为观众都能够充分理解自己的表述领会自己的思想，所以想当然地跳跃式前进，同时，在可以一笔带过的地方又涂上浓墨重彩，寥寥几笔就能生动刻画的角色上猛劈板斧，致使整个结构被破坏，整部电影应该集中全力凸显的所谓“艺术品的特征”淹没于向各个不同方向用力的努力中，因此电影的内容显得空虚，支撑不起意图宏大的世界观，我本人倒是可以自动屏蔽那些无益于主题的材料带来的负面影响，通过想像力为导演补全缺失的叙述，也不看重那些并不精彩的电脑特效，可是其他观众呢？他们被铺天盖地的造势炒作提高了胃口，想进电影院爽一把，却看到这么一个不伦不类不知所云的大制做，出来后一头雾水、笑场连连、骂声一片，也就不足为奇了。</p>
+
+<p>尽管如此，导演对个人命运发问、走希腊式悲剧的尝试是值得鼓励的，如果说《英雄》在画面效果之外至少还有完整通顺的叙事这一点比《无极》强的话，那么《无极》着眼于个人命运的思路比《英雄》为集权专制找借口、粉饰太平、消解个人的抗争还是要强的，只可惜最后的结局还是蜕化成爱因斯坦版天外飞仙，更对不起那3亿多的投资了。至于中国的电影事业，这些靠炒作拉票房赔面子冲奖项的电影人看来还会继续玩下去，再怎么说也比赔钱也要玩死中国足球的那帮人有前途多了。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwuji%2f&text= @calon %e3%80%8a%e6%97%a0%e6%9e%81%e3%80%8b&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e3%80%8a%e6%97%a0%e6%9e%81%e3%80%8b》&body=https%3a%2f%2fioerr.github.io%2fwuji%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/tor/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>06 Jan 2006, 14:33</time>
+      <h1>Tor</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#torpark-http-blog-donews-com-tinyfool-archive-2006-01-04-683254-aspx-因此就装上了">TorPark](<a href="http://blog.donews.com/tinyfool/archive/2006/01/04/683254.aspx)，因此就装上了">http://blog.donews.com/tinyfool/archive/2006/01/04/683254.aspx)，因此就装上了</a></a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>前些日子看到 <a href="http://www.quakemachine.com/">AvP</a>
+的<a href="http://www.quakemachine.com/blog/software/22/">介绍</a>后下载了
+<a href="http://tor.eff.org/">TOR</a>，但是一直都懒得使用，因为我用
+<a href="http://www.cybersyndrome.net/">CyberSyndrome</a> 也习惯了。今天看到
+<a href="http://donews.net/tinyfool">Tinyfool</a> [大力推荐</p>
+
+<h2 id="torpark-http-blog-donews-com-tinyfool-archive-2006-01-04-683254-aspx-因此就装上了">TorPark](<a href="http://blog.donews.com/tinyfool/archive/2006/01/04/683254.aspx)，因此就装上了">http://blog.donews.com/tinyfool/archive/2006/01/04/683254.aspx)，因此就装上了</a></h2>
+
+<p>试试看，果然除了前期配置之外使用很方便，看来从此以后都不用网页代理或者搜索代理服务器了。</p>
+
+<p><a href="http://www.quakemachine.com/blog/software/secure/636/">较为详细的介绍和相关下载</a>在
+<a href="http://www.quakemachine.com/">AvP</a> 的
+<a href="http://www.quakemachine.com/blog/">blog</a>
+上都有，建议需要用到代理登录的都使用这个工具，登录被封杀的站点就不必像以前那么麻烦了。</p>
+
+<p>同时还上传了 TOR 的文件到
+<a href="http://www.mofile.com/">MoFile</a>，以备不时之需：<br />
+<a href="http://pickup.mofile.com/0710707292715317">TorCP/Privoxy/Tor v0.1.1.10
+集合安装包</a></p>
+
+<p><a href="http://mybloop.com/">MyBloop</a>
+上也有<a href="http://mybloop.com/?id=blobpoobloplbbllollooooolb.rar">存放</a>，就是速度慢了一点。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftor%2f&text= @calon Tor&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Tor》&body=https%3a%2f%2fioerr.github.io%2ftor%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/159/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i>
+  </a>
+  
+
+  PAGE 160 / 227
+
+  
+  <a href="/page/161/" rel="next">
+    <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on 读写错误</title>
+    <link>https://ioerr.github.io/tags/html/index.xml</link>
+    <description>Recent content in Html on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HTML 帽子</title>
+      <link>https://ioerr.github.io/html-maozi/</link>
+      <pubDate>Wed, 17 Dec 2008 15:01:50 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/html-maozi/</guid>
+      <description>&lt;p&gt;火星图一张：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=HTML-Head-Body-Tattoo.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/HTML-Head-Body-Tattoo.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然创意很好，但在脖子上面刺纹身的滋味可不好受，而且别人还不一定看得到，不如在帽子上面加个
+head 标签好了…&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-12-17_223821.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-12-17_223821.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

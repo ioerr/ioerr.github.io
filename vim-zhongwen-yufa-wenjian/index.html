@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vim 中文语法文件  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/vim-zhongwen-yufa-wenjian/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/vim-zhongwen-yufa-wenjian/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Dec 2010, 15:54</time>
+      <h1>Vim 中文语法文件</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>时常用 <a href="http://www.vim.org/">Vim</a>
+写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。</p>
+
+<p>去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
+<a href="http://www.vim.org/scripts/script.php?script_id=1532">txt.vim</a>
+比较接近要求，最大的不足是不支持中文标点符号。</p>
+
+<p>于是一边看语法文件帮助文档，一边在 Tomasz
+的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。</p>
+
+<p>预览效果如下：<br />
+<img src="http://i111.photobucket.com/albums/n154/calon_plus/_003.png" alt="Vim txt.vim syntax highlight
+preview" /></p>
+
+<p>除了高亮标点符号、数字之外，还可以用来检验单引号、双引号、书名号等需要配对的标点符号有没有正确地关闭，特别是方向相同的引号或者中英文混杂的括号分辨不清楚的时候，靠语法标记出的颜色可以很快定位哪个标点写错了。</p>
+
+<p>语法文件在<a href="http://www.vim.org/scripts/script.php?script_id=3365">官方脚本页面</a>下载：<br />
+<a href="http://www.vim.org/scripts/script.php?script_id=3365">http://www.vim.org/scripts/script.php?script_id=3365</a></p>
+
+<p>下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
+打开语法高亮，也可以默认打开 .txt 文件时自动高亮。</p>
+
+<p>如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。<br />
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
+\$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。</p>
+
+<p>我的主题配色是按自己需要修改后的 ir_black，原版请自行
+google，我的修改版本可以<a href="http://www.box.net/shared/g6h9lsv0dz">到这里下载</a>。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fvim-zhongwen-yufa-wenjian%2f&text= @calon Vim%20%e4%b8%ad%e6%96%87%e8%af%ad%e6%b3%95%e6%96%87%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Vim%20%e4%b8%ad%e6%96%87%e8%af%ad%e6%b3%95%e6%96%87%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fvim-zhongwen-yufa-wenjian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Vim 
+        
+      
+        #纯文本 
+        
+      
+        #语法 
+        
+      
+        #配色 
+        
+      
+        #高亮 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/2010-nian-zhaopian/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>2010年照片</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/zhaoshi-guer/" rel="next">
+    <span>赵氏孤儿</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

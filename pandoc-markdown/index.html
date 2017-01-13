@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Pandoc &amp; Markdown  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/pandoc-markdown/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/pandoc-markdown/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>23 Oct 2014, 07:25</time>
+      <h1>Pandoc &amp; Markdown</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>实在不明白为什么很多人需要编辑器有
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。<br />
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML
+等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。</p>
+
+<p>如果需要预览才能用好，那是否说明
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+还不够简单、直观？</p>
+
+<p>我使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+的次数不多，因为 <a href="http://www.vim.org/">Vim</a> + HTML
+插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>。</p>
+
+<p>如果要用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>，我一般会通过
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 转换输出为 HTML
+再发布，这样不管是不支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+语法的，还是支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 嵌套 HTML
+的发布渠道都没有问题，不会被发布渠道的能力束缚——在
+<a href="https://wordpress.org/">WordPress</a> 等平台上，当然还是用 HTML 比较通用。</p>
+
+<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+的一大好处是支持的输入输出格式极为丰富，简单的东西用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+写好，想转换成什么都比较方便，包含中文的 PDF
+文档除外，除非你知道怎么解决 LaTeX 相关的配置。<br />
+其次是可以自定义的参数一大堆，比如
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+中要求行末加双空格才转为换行，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+用 markdown+hard_line_breaks
+参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。</p>
+
+<p>如果配合 <a href="http://www.ghisler.com/">Total Commander</a> 使用，安装
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 后可以在工具栏中增加
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的快捷图标，参数栏中写上：</p>
+
+<pre><code>&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html&lt;/code&gt;
+</code></pre>
+
+<p>其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。</p>
+
+<p>不使用 <a href="http://www.ghisler.com/">Total Commander</a>
+也可以自己写个脚本或批处理干这事。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f&text= @calon Pandoc%20%26%20Markdown&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Pandoc%20%26%20Markdown》&body=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Markdown 
+        
+      
+        #Pandoc 
+        
+      
+        #写作 
+        
+      
+        #文本编辑 
+        
+      
+        #标记语言 
+        
+      
+        #格式转换 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/zhishi-de-cuojue/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>知识的错觉</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/yidong-yingyong-tongdian/" rel="next">
+    <span>移动应用痛点</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

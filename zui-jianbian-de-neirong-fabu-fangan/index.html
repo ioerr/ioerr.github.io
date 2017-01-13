@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>最简便的内容发布方案  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Feb 2014, 16:13</time>
+      <h1>最简便的内容发布方案</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#邮件发布">邮件发布</a></li>
+<li><a href="#编辑">编辑</a></li>
+<li><a href="#内容迁移">内容迁移</a></li>
+<li><a href="#理想方案">理想方案</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>宣传、推广 Markdown
+标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。</p>
+
+<p>比如说我们使用 <a href="http://wordpress.org/">WordPress</a>
+发布文章，至少要有这么几步：</p>
+
+<ol>
+<li><p>登录（假设自动登录并直接跳转到发布页面）</p></li>
+
+<li><p>编辑标题（可以省略，但严肃的作者通常不会忽视标题）</p></li>
+
+<li><p>撰写正文（或复制粘贴已经准备好的内容）</p></li>
+
+<li><p>发布（如果不放心还要打开文章页面看看效果）</p></li>
+</ol>
+
+<p>这还不包括选择类别、增加标签、设置 post slug 等操作。</p>
+
+<h3 id="邮件发布">邮件发布</h3>
+
+<p><a href="http://wordpress.org/">WordPress</a> 的 <a href="http://jetpack.me/">Jetpack</a>
+插件包中有 <a href="http://jetpack.me/support/post-by-email/">Post By Email</a>
+功能，<a href="http://www.tumblr.com/">Tumblr</a>
+等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。<br />
+如果习惯邮件发布的话，<a href="http://jetpack.me/">Jetpack</a>
+是不错的选择，因为能支持大多数参数设置。<br />
+不过使用邮件发布的用户始终是少数。</p>
+
+<h3 id="编辑">编辑</h3>
+
+<p>要是文章发布后不满意又要修改呢？还是至少要经过以下步骤：</p>
+
+<ol>
+<li><p>登录</p></li>
+
+<li><p>跳转到所有文章列表</p></li>
+
+<li><p>定位到要修改的文章</p></li>
+
+<li><p>修改正文（或者复制粘贴已经修改好的内容）</p></li>
+
+<li><p>发布更新</p></li>
+</ol>
+
+<p>如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。</p>
+
+<p>如果网站的编辑功能还不够完善呢？<br />
+比如说不支持更好用的 [Markdown]
+扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……<br />
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
+<a href="http://www.microsoft.com/en-us/download/details.aspx?id=8621">Windows Live
+Writer</a>、<a href="http://www.zoundry.com/download.html">Zoundry
+Raven</a>。</p>
+
+<h3 id="内容迁移">内容迁移</h3>
+
+<p>如果还考虑内容迁移呢？<br />
+后台不同的导出、格式转换、导入有多麻烦就不说了（当年汉字编码的转换就害死不少人），很多内容发布平台根本就不提供完整的导入、导出功能，而且导出来的也许是各种不好读的格式。</p>
+
+<h3 id="理想方案">理想方案</h3>
+
+<p>有没有一个服务能结合
+<a href="https://www.dropbox.com/">Dropbox</a>/<a href="https://www.box.com/">Box</a> +
+<a href="https://github.com/">Github</a>/<a href="https://readthedocs.org/">Read the Docs</a>
+并继续扩展呢？</p>
+
+<p>写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；<br />
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
+Docs 都适用；<br />
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于
+<a href="https://www.dropbox.com/">Dropbox</a>/<a href="https://www.box.com/">Box</a>
+的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；<br />
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考
+<a href="http://jetpack.me/support/post-by-email/">Jetpack</a> 的标签参数；<br />
+修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；<br />
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
+的超文本或文本格式文件，其中就是留言内容。</p>
+
+<p>这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzui-jianbian-de-neirong-fabu-fangan%2f&text= @calon %e6%9c%80%e7%ae%80%e4%be%bf%e7%9a%84%e5%86%85%e5%ae%b9%e5%8f%91%e5%b8%83%e6%96%b9%e6%a1%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%9c%80%e7%ae%80%e4%be%bf%e7%9a%84%e5%86%85%e5%ae%b9%e5%8f%91%e5%b8%83%e6%96%b9%e6%a1%88》&body=https%3a%2f%2fioerr.github.io%2fzui-jianbian-de-neirong-fabu-fangan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #WordPress 
+        
+      
+        #写作 
+        
+      
+        #发布 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/suishen-wuxian-wangka-wangpan/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>随身无线网卡网盘</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/gerenzhuyizhe-de-shehui-guannian/" rel="next">
+    <span>个人主义者的社会观念</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

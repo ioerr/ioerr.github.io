@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电脑 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E8%84%91/index.xml</link>
+    <description>Recent content in 电脑 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>好习惯</title>
+      <link>https://ioerr.github.io/hao-xiguan/</link>
+      <pubDate>Sun, 27 Apr 2008 14:11:52 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/hao-xiguan/</guid>
+      <description>&lt;p&gt;当修电脑的好人当久了之后，发现很多问题的发生其实不是因为电脑缺少什么 NB
+软硬件防护措施，也不是因为水平太菜，而在于使用者没有一种良好的使用习惯（而且通常不认为有必要改变）。&lt;br /&gt;
+其实如果能养成好习惯，会发现花费在维护上的时间越来越少——尤其是在国内这种时刻拿用户当傻瓜的互联网环境。&lt;/p&gt;
+
+&lt;p&gt;下面列举一下我认为使用电脑时有必要坚持的好习惯：&lt;br /&gt;
+1、一定要及时打上系统的补丁；&lt;br /&gt;
+2、如果有使用杀毒、防木马、防火墙等工具，一定要及时升级，不要认为只要开着就万事大吉；&lt;br /&gt;
+3、尽量使用非 IE
+内核、安全机制更让人放心的浏览器——就算“只是因为使用量小，不是众矢之的，所以才更加安全”，那毕竟也是更加安全啊；&lt;br /&gt;
+4、尽量使用正版、官方网站提供、有信誉而不是有名气的站点提供的程序，远离各种破解版、重新打包版、非官方增强版程序；&lt;br /&gt;
+5、安装应用程序的时候一定要多留个心眼，每一步都要仔细阅读提示信息；&lt;br /&gt;
+6、不要使用简单、重复、容易猜出来的密码和密码取回问题，也不要明文保存密码；&lt;br /&gt;
+7、便携存储设备给其他人使用的时候，如果不需要往里面写内容，记得打开写保护；&lt;br /&gt;
+8、IM 上看到的不熟悉的链接最好和对方确认以后再打开；&lt;br /&gt;
+9、看到界面花哨而混乱的网页一定要慎重点击链接，因为有故意误导浏览者的嫌疑；&lt;br /&gt;
+10、如果频繁出现的安全提示很烦人，最好是检查一下安全防护的设置，而不要图方便随便选择“确定”；&lt;br /&gt;
+11、定期清除临时文件和浏览器缓存；&lt;br /&gt;
+12、尽量不要把电脑给习惯不良的人使用，特别是你不在的时候；&lt;br /&gt;
+13、所有接触过你电脑的人都必须灭口。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

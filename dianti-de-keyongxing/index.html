@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>电梯的可用性  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/dianti-de-keyongxing/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/dianti-de-keyongxing/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>03 Sep 2010, 07:47</time>
+      <h1>电梯的可用性</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>Datou
+在《<a href="http://2simple.cn/2010/09/%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7%e9%97%ae%e9%a2%98.htm">电梯的可用性问题</a>》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，没去他想去的地方，他很茫然。”</p>
+
+<p>类似这样的情形我也看到过多次，通常是使用者正在干其他事情（比如接电话）时发生的，他在那一刻想的不是要“去下面的楼层”，而是想“控制电梯下来”载人上去，如果不是正忙着其他事情，根本不会搞错。也许，这说明电梯的操作方法还是经过学习和适应养成的，到了非常时刻，便会败给最直接的下意识。</p>
+
+<p>Datou
+提出了如何优化电梯可用性的问题，我的想法是，冗余的信息是扰乱用户的原因之一：<br />
+用户关心的不是电梯在哪一层，也不必要计算出和他所在楼层的相对位置，他只需要关心电梯离自己有多远（其实关注的是电梯多久可以来到这一层，但是时间不好估计，除非电梯控制中心能够知道所有等待和使用电梯的人的目标楼层）。</p>
+
+<p>比如说，用户在6楼等电梯时，电梯正从1楼向上走和电梯正从11楼向下走，对他来说都是一样的，他只要知道电梯正在向他走并且还差5层楼的距离就可以了，为什么要被更多的定位信息烦扰呢，电梯检修人员开门检修的时候才需要知道这些吧？</p>
+
+<p>效果图就是这样的：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2c9637db.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2c9637db.png" alt="Photobucket" /></a></p>
+
+<p>但是仍有几个问题：<br />
+1、挑战长久以来的使用习惯。<br />
+不管原有的设计如何不合理，只要大多数用户已经习惯了，那么任何大的改变都可能失败，何况目前电梯的操作相对已经很合理了。</p>
+
+<p>2、用户可能被信息缺失恐惧感打败。<br />
+即使不知道电梯所在楼层不是什么大事，用户还是可能因此惊恐抓狂，捶打着墙壁哀嚎，带着哭腔质问：电梯怎么弄丢了？！</p>
+
+<p>3、并不是完全没有损失。<br />
+通过楼层数字显示可以（让用户以为能）估算出到达的时间，用进度条就不好估算了，因为没有与现实对象的映射。<br />
+如果用文字告诉用户进度条上的每个进度格指代的是楼层的差距，那么习惯了楼层用数字展示的用户还需要重新学习和适应。</p>
+
+<p>4、电梯从楼下跑到了楼上，却不在本层停下，进度条该怎么显示？<br />
+这个问题好办，进度条增长到还差一格就不必动了，如果电梯继续远离，进度条就可以缩了。</p>
+
+<p>5、不同楼层的进度条要统一。<br />
+要么外观统一，进度格数量一致，这样进度格与楼层数就不是一一对应了；<br />
+要么外观不统一，顶楼、底楼的进度条最长，中间楼层的进度条最短，但建设成本会提高。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdianti-de-keyongxing%2f&text= @calon %e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7》&body=https%3a%2f%2fioerr.github.io%2fdianti-de-keyongxing%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #电梯 
+        
+      
+        #设计 
+        
+      
+        #进度条 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/minimalwall/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>MinimalWall</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/ohlife/" rel="next">
+    <span>OhLife</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Elo 排名系统  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/elo-paiming-xitong/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/elo-paiming-xitong/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>14 Nov 2009, 17:41</time>
+      <h1>Elo 排名系统</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>看到<a href="http://bbs.goalhi.com/464426.html">这篇文章</a>中提到的世界足坛埃罗排名系统（The
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：</p>
+
+<p>Elo Rating System 根据评价值进行排名，评价值的计算方式如下：</p>
+
+<p>Rn = Ro + K × (W - We)</p>
+
+<p>Rn 表示新的评价值</p>
+
+<p>Ro 表示原来的评价值</p>
+
+<p>K 表示比赛的权重，如：<br />
+世界杯决赛圈比赛，K取60；<br />
+洲级杯赛决赛圈比赛取50；<br />
+世界杯和洲级杯赛外围赛取40；<br />
+其他锦标赛取30；<br />
+友谊赛取20。<br />
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N
+为净胜球数。<br />
+如世界杯决赛圈比赛净胜3球，K=60 × (1 + <sup>3</sup>&frasl;<sub>4</sub> + (3-3)/8) = 105</p>
+
+<p>W 表示比赛的结果，胜取1，平取0.5，负取0</p>
+
+<p>We 表示预期结果，计算公式为：<br />
+We = 1 / (10\^(-dr/400) + 1)</p>
+
+<p>dr 表示双方排位的差距</p>
+
+<p>如果不嫌复杂的话，完整的公式可以写作：<br />
+Rn = Ro + K × (W - 1 / (10\^(-dr/400) + 1))</p>
+
+<p>以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：<br />
+法国队目前的评价值是1856，排名第10；<br />
+爱尔兰队目前的评价值是1742，排名第27；</p>
+
+<p>世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + <sup>3</sup>&frasl;<sub>4</sub> + (2-3)/8) = 65</p>
+
+<p>法国队的新评价值计算如下：<br />
+Rn = 1856 + 65 × (0 - 1 / (10\^(-<sup>17</sup>&frasl;<sub>400</sub>) +1)) = 1822</p>
+
+<p>爱尔兰队的新评价值计算如下：<br />
+Rn = 1742 + 65 × (1 - 1 / (10\^(-<sup>17</sup>&frasl;<sub>400</sub>) +1)) = 1773</p>
+
+<p>假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。</p>
+
+<p>Elo 排名系统的排名看上去未必就比 <a href="http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html">FIFA
+世界排名</a>靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2felo-paiming-xitong%2f&text= @calon Elo%20%e6%8e%92%e5%90%8d%e7%b3%bb%e7%bb%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Elo%20%e6%8e%92%e5%90%8d%e7%b3%bb%e7%bb%9f》&body=https%3a%2f%2fioerr.github.io%2felo-paiming-xitong%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Elo 
+        
+      
+        #排名 
+        
+      
+        #数学 
+        
+      
+        #统计 
+        
+      
+        #足球 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/ai-zuqiu-haishi-xurong/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>爱足球还是虚荣</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/duihua-shi-kenengde-ma/" rel="next">
+    <span>对话是可能的吗？</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

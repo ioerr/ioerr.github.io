@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>驯鹿 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E9%A9%AF%E9%B9%BF/index.xml</link>
+    <description>Recent content in 驯鹿 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E9%A9%AF%E9%B9%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>驯鹿</title>
+      <link>https://ioerr.github.io/xunlu/</link>
+      <pubDate>Thu, 25 Dec 2008 08:17:34 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/xunlu/</guid>
+      <description>&lt;p&gt;受到 &lt;a href=&#34;http://www.cubeecraft.com/&#34;&gt;cubeecraft&lt;/a&gt; 的启发，用 SketchUp
+做了一个方盒子版本的驯鹿应景：&lt;br /&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/calon/3133565448/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3287/3133565448_e70db8840a.jpg&#34; alt=&#34;Reindeer&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不过我 SketchUp
+水平不够，短时间内弄不出圣诞老人飘逸的大白胡子，所以圣诞老人就乖乖的给我消失好了…&lt;/p&gt;
+
+&lt;p&gt;本来准备昨天晚上发布到 blog 上的，没想到来了个：&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+数据库连接错误&lt;br /&gt;
+您在wp-config.php文件中提供的数据库用户名和密码可能不正确，或者无法连接到
+192.168.1.11 上数据库服务器，这意味着您的主机数据库服务器已停止工作。
+&lt;/blockquote&gt;
+:023:&lt;br /&gt;
+真是“圣诞前夜的噩梦”啊~&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

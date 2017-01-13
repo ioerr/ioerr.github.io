@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/qianzibaitai/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>15 May 2006, 17:18</time>
+      <h1>千姿百态</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>最近<a href="http://sports.163.com/special/00051TMG/ywsj.html">意大利的假球案</a>闹得沸沸扬扬，结果到底是大开杀戒还是不了了之，我并不关心。现在调查和判决的结果还没出来，那些球队参与了假球，最终有什么处罚，都还是未知数，不过各大足球论坛上的意假球迷的口水仗又升一级，已经足够让我们这些看热闹的人大饱眼福，而且从中我们可以明白，菊花党人在本朝势力庞大不是没有原因和根基的。</p>
+
+<blockquote>
+稳坐钓鱼台型：\
+作为尤文球迷，没啥好担心的。意大利90%以上的人是尤文的球迷，或者是法拉利的球迷，甚至是阿涅利集团的人，如何撼动？
+
+拉别人下水型：\
+至于巴萨，打假球的可能性比AC和国米其实要大的多
+
+高姿态型：\
+我们尤文人就是谦虚，懒得与那些垃圾们计较！
+
+成龙大哥型：\
+谁都有犯错的时候，为什么一旦是尤文，别人就会把什么事都往我们尤文身上按啊！
+
+丑陋的中国人型：\
+一支小的球会无论再怎末出色也总会受人非议，尤文图斯在没有鲜花和掌声的情况下一次又一次拿到了冠军。…受人嫉妒也是理所应当。试问一下。如果尤文所在的城市是罗马。那大家就会认为夺冠是应该的。这就是中国人的奴性。
+
+壮士断腕型：\
+我觉得这是莫吉的个人问题，不关上层的事，更不关俱乐部和球员的事，他们是无辜的，如果意大利足协有良知的话应该严肃处理莫吉，而不是尤文图斯足球俱乐部。
+
+花肥型：\
+我爱他，包括错误！
+
+法不责众型：\
+这次调查的矛头明显是针对尤文的，米兰就是湿湿脚，趟了一趟混水而已，要是都抓了就没人踢意甲了。
+
+死猪不怕开水烫型：\
+老子就是打假怎么样，抓我啊
+
+好猫万岁型：\
+成王败寇,陈水扁竞选"总统"用的伎俩虽然肮脏，但他最终还是当上了，没什么好说的，更何况只是一个联赛冠军
+
+老鼠屎型：\
+莫吉?他只是个经理而已,他不能代表我们百年的历史,他只是一个小污点而已,再说,我们已经辞退了他,现在的他,只代表他本人,他只是我们的一杆枪!
+
+乌鸦和猪型：\
+说我们不干净?难道你们就干净?\
+谁比谁黑在这里是不成立的!!
+
+撇清关系型：\
+新浪都是假新闻！和米兰没有关系！
+
+树立正确的荣辱观型：\
+意甲再假，还是假的有水平
+
+袖手旁观型：\
+只要不扯上米兰，爱咋整咋整
+
+FQ 型：\
+新浪是不是有日本人的股份？我好象记得有这么一回事
+
+顾左右而言他型：\
+可悲!中国人就这一坏毛病,喜欢道听途说,而且别人说什么就相信什么~~~~可悲~~~~管人家踢没踢假球,那根本跟咱中国扯不上边\~~~\`搞好自己才是关键~~
+
+无耻而后勇型：\
+这里还真有人天真到以为尤文会降级。\
+大家又不是不知道，尤文什么大风大浪没有经过\
+还怕这点小小的裁判事件吗
+
+一视同仁型：\
+尤文的假球应该说已经是事实了，而米兰只是刚刚出来的八卦新闻
+
+无间道型：\
+我怀疑那些抗议莫吉的尤文球迷的真实度。就算他们真的讨厌莫吉也不该在这个节骨眼上公然发出抗议。这不是给俱乐部添乱吗？如此痛恨莫吉的也就是洞洞和罗马的球迷了。我怀疑那些人是伪装的。
+
+怪你不懂风情型：\
+问题就在于----这个最接近中国的欧洲三流国家,真的那么完全讲法律么?!所以我才仍然忧虑着.
+
+分赃不匀型：\
+既然是神圣同盟,凭什么总是我们吃亏.他们获利.
+
+有人垫背型：\
+意大利绝对没有勇气让尤文米兰一起降级，如果尤文没事情，我们更没事情了。
+
+患难见真情型：\
+靠,我是米兰球迷都不相信尤文会降级
+
+划清界限型：\
+我就奇了怪，这现成的丑闻怎么就成了不止是尤文的呢？明明就是尤文引发的事情，难道报道有错误不成？\
+先别管这事情到最后波及多少队，反正现如今的还就是尤文一家的事情，别看今天俩队，明天仨支的这么辐射开来，其实风暴的中心依然还在尤文一家那里，压根就动都没动过。
+
+扬眉吐气型：\
+莫雷诺：意大利人应该感到耻辱。如果现在他们邀请我去执法联赛，我会很高兴去。
+
+一厢情愿型：\
+这次意大利的假球案（我们姑且先这么叫着）我从开始就并不关心，甚至连一个与此有关的新闻都没点开过，我从不相信今天的米兰或尤文会因为假球而被罚宽，扣分甚至降级，无论事情是否真的发生过。事情还未水落石出我还是打住，只说这个裁判。我没看见他的名字，但我相信他是德桑帝斯的朋友，更是名有尊严的人，无论外界的讨论如何凶猛，或是身边的人一个接着一个被请到法院，他所坚信的是：我是足球比赛的裁判，我用自己的眼睛观察，并凭良心去做出判罚，这就够了。他不经意间的判断让我看清了意大利足球毕竟还没有到了被颠覆的时刻，而克里纳的后来者并非一无是处。
+
+看破红尘型：\
+作为80年代的国米粉，多年前就放弃意甲了，被尤文黑过太多次已经麻木了……AC也不是什么好鸟
+
+非典型：\
+几年前 凯泽创造了先夺乙级联赛冠军次年夺甲级冠军的神话\
+几年后 尢文创造了先夺甲级联赛冠军次年夺乙级冠军的神话
+</blockquote>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fqianzibaitai%2f&text= @calon %e5%8d%83%e5%a7%bf%e7%99%be%e6%80%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8d%83%e5%a7%bf%e7%99%be%e6%80%81》&body=https%3a%2f%2fioerr.github.io%2fqianzibaitai%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/hotmail/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>15 May 2006, 14:28</time>
+      <h1>Hotmail</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>我不喜欢 <a href="http://www.hotmail.com/">Hotmail</a>
+邮件服务的一大原因是，30天不登录，就要重新激活帐号，而且之前的邮件全部给你清空。我不知道升级到上
+GB 的空间或 Live.com
+邮箱之后情况有没有改观，如果不低估他们的智商的话，应该不会再有这么龌龊的设置吧？但问题是，难道当邮箱空间只有2MB
+或者25MB
+的时候，用户就必然不会在其中存放重要的邮件吗，顺手把它清空掉就是合理的吗？<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/146768280/"><img src="http://static.flickr.com/47/146768280_6ee04d7d99_o.png" alt="Hotmail" /></a></p>
+
+<p>换个角度看，为什么要求用户每30天至少登录一次呢？如果你提供的邮件服务足够实用和安全，还需要设置这样的规则吗？我每天只要是在线，就至少要登录1次
+<a href="http://mail.google.com/mail">Gmail</a>
+查看邮件，有时候甚至比使用我的工作邮箱还频繁、长久。为什么？不是因为
+<a href="http://www.google.com/">Google</a> 威胁说你不登录就砍你全家，而是因为
+<a href="http://mail.google.com/mail">Gmail</a> 好用、安全。</p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/146768136/"><img src="http://static.flickr.com/47/146768136_69d8355d65.jpg" alt="Hotmail" /></a><br />
+我实在不知道这有什么好祝贺的…难道以丢失全部邮件为代价换取没有丝毫改进的服务是一件值得高兴的事情？</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fhotmail%2f&text= @calon Hotmail&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Hotmail》&body=https%3a%2f%2fioerr.github.io%2fhotmail%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/lastfm-tongji-cuowu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>15 May 2006, 14:25</time>
+      <h1>Last.Fm 统计错误</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.last.fm/">Last.Fm</a>
+的统计数据好像出了一点问题，上周因为狂听椎名林檎，所以周排行榜上，她以97次排名第一，但是在总排行榜上的统计数字却只有62，出现了局部大于整体的情况，另外歌曲排行也有点问题，因为听得最多的歌肯定不止7次了。</p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/146802980/"><img src="http://static.flickr.com/56/146802980_efea667430.jpg" alt="Last.Fm" /></a></p>
+
+<p>所以今后还是主要提供每周的歌曲排行好了。</p>
+
+<p><img src="http://imagegen.last.fm/munks/tracks/calonxu.gif" alt="" /></p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flastfm-tongji-cuowu%2f&text= @calon Last.Fm%20%e7%bb%9f%e8%ae%a1%e9%94%99%e8%af%af&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Last.Fm%20%e7%bb%9f%e8%ae%a1%e9%94%99%e8%af%af》&body=https%3a%2f%2fioerr.github.io%2flastfm-tongji-cuowu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/faguodui-shijiebei-23ren-damindan/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>14 May 2006, 15:57</time>
+      <h1>法国队世界杯23人大名单</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <hr />
+
+<p>Fabien Barthez (Marseille)</p>
+
+<p>Grégory Coupet (Lyon)</p>
+
+<p>Mickaël Landreau (Nantes)</p>
+
+<hr />
+
+<p>Lilian Thuram (Juventus)</p>
+
+<p>William Gallas (Chelsea)</p>
+
+<p>Willy Sagnol (Bayern)</p>
+
+<p>Eric Abidal (Lyon)</p>
+
+<p>Pascal Chimbonda (Wigan)</p>
+
+<p>Mikaël Silvestre (Man U)</p>
+
+<p>Jean-Alain Boumsong (Newcastle U)</p>
+
+<p>Gaël Givet (Monaco)</p>
+
+<p>防守型中场：</p>
+
+<p>Patrick Vieira (Juventus)</p>
+
+<p>Claude Makelele (Chelsea)</p>
+
+<p>Alou Diarra (Lens)</p>
+
+<p>Vikash Dhorasoo (PSG)</p>
+
+<p>进攻型中场：</p>
+
+<p>Zinedine Zidane (Real Madrid)</p>
+
+<p>Franck Ribéry (Marseille)</p>
+
+<p>Florent Malouda (Lyon)</p>
+
+<p>Sylvain Wiltord (Lyon)</p>
+
+<hr />
+
+<p>Thierry Henry (Arsenal)</p>
+
+<p>David Trezeguet (Juventus)</p>
+
+<p>Djibril Cissé (Liverpool)</p>
+
+<p>Louis Saha (Man U)</p>
+
+<p>俱乐部统计：</p>
+
+<p>4人：<br />
+Lyon</p>
+
+<p>3人：<br />
+Juventus</p>
+
+<p>2人：<br />
+Marseille<br />
+Chelsea<br />
+Man U</p>
+
+<p>1人：<br />
+Nantes<br />
+Bayern<br />
+Wigan<br />
+Newcastle U<br />
+Monaco<br />
+Lens<br />
+PSG<br />
+Real Madrid<br />
+Arsenal<br />
+Liverpool</p>
+
+<p>基本在意料之中，最可惜的是 Philippe Mexes
+没有入选，他在这个赛季的表现比同门师兄弟、英超的大漏勺 Boumsong
+强多了，看看后卫阵容，Boumsong、Silvestre
+皆在列，千万不要让其中一个打中后卫啊～替补的话，状态一般的 Givet
+也不让人放心…</p>
+
+<p>马赛的年轻球员 Ribéry 能够在最后时刻入选，实在是太让人激动了！难道
+Domenech 是受了豪赌一把的瑞典人刺激？再加上本赛季在 Wigan 表现出色的
+Chimbonda 入选，看来 Domenech 也不是保守到底嘛。</p>
+
+<p>Giuly、Micoud、Pires 最终还是没有挤进来，前两位也很可惜，特别是
+Micoud，本赛季的状态大好，又可以在 Zizou
+体力不支时顶上…不过现在的话，可能要靠 Ribéry 上去冲击了。</p>
+
+<p>Cissé 还能够去德国真让人失望，就算是在土耳其的 Anelka
+也比他稍微好一点吧，前锋里面射门成功率高的就只有 Trezeguet 一人了，但愿
+Henry、Saha 其中一人能够适时发飙吧。</p>
+
+<p>门将方面，据说 Barthez 已经确定为主力，Coupet
+终究没能够像德国人那样换位，好在他和 Landreau
+的替补都让人放心，可以说这次世界杯法国队是门将梯队最有实力的了－－虽然只是听上去很爽。</p>
+
+<p>从总体上说，主力阵容的年龄结构不合理，特别是 Zizou、Thuram、Makelele
+这几个高龄球员能不能够保持体力和状态是大问题，Barthez
+虽然一直在国家队大赛中表现稳健，但这几年下滑得很厉害，加上后防线上的几个定时炸弹、能力仍有疑问的主教练，估计正常的结果就是进入16强或8强，能够进入4强已经是谢天谢地，小组赛被瑞士和韩国挤出去也不是没可能。夺冠？比98年的难度大多了。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffaguodui-shijiebei-23ren-damindan%2f&text= @calon %e6%b3%95%e5%9b%bd%e9%98%9f%e4%b8%96%e7%95%8c%e6%9d%af23%e4%ba%ba%e5%a4%a7%e5%90%8d%e5%8d%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b3%95%e5%9b%bd%e9%98%9f%e4%b8%96%e7%95%8c%e6%9d%af23%e4%ba%ba%e5%a4%a7%e5%90%8d%e5%8d%95》&body=https%3a%2f%2fioerr.github.io%2ffaguodui-shijiebei-23ren-damindan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/qiaoke/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 May 2006, 15:44</time>
+      <h1>跷课</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>从昨天晚上开始 <a href="http://www.userscripts.org/">Userscripts.org</a>
+无法访问，报500 Internal Server
+Error，正好是我想要安装某个脚本的时候，然后 Weblogs.us
+似乎是因为停机调整或备份，昨天晚上也登录不了数据库。不能不佩服自己的人品…</p>
+
+<p>今天表妹犹豫着到底要不要跷课，我的观点是这样的，不妨作为决定的依据：<br />
+如果这门课不重要，当然要跷；<br />
+如果这门课不好玩，当然要跷；<br />
+如果老师很没意思，当然要跷；<br />
+如果抓跷课不严格，当然要跷；<br />
+如果以后跷课的机会不多了，比如大四只剩一门课，当然要跷；<br />
+如果以上几点相互冲突－－一般都是这种情况，比如说越重要的课越乏味－－那么如果以后有大把机会跷，则现在尽量不跷；<br />
+总而言之，言而总之，就是如果你觉得不爽，但跷无妨，只要不做得太过火，代价太大就成。</p>
+
+<p>把握一个原则：<br />
+上大学是为了快乐自由地主动求知，如果成了一种被动的任务，那么就太浪费学费了。首先要对得起自己，然后才对得起你的老师，鸭梨是秃头曾经曰过，“吾爱吾师，吾尤爱真理”，你不得不学的大概不叫做真理，所以，当跷则跷，不要学哈姆雷特。</p>
+
+<p>我表妹显然是个品性纯良的聪明学生，相信她能把握好度不会乱跷课，其他人如果受到毒害，我概不负责。</p>
+
+<p>最后，为了保证读者的知情权，我坦白上学的时候从没有过跷课的经历，以上的话纯属非专业人士意见。配套的好消息是，我经常在课堂上看与主题隔着一座山的书，这就是我从不跷课的原因，这下大家满足了吧？</p>
+
+<hr />
+
+<p>今天中午在食堂吃饭，一道名唤“木耳炒仔鸡”的菜中仅有两直角边不超过半厘米的鸡皮一块，简直可以称作“木耳炒鸡皮疙瘩”了，不禁士气低落，于是思路离开了饭桌开始打岔。回忆起这篇文章中间的那句“吾爱吾师，吾尤爱真理”，越想越不对头，好像应该是亚里士多德说的吧？对象才是柏拉图…不禁大寒，并感慨记忆力已经退化到这个地步了，所以士气低落，思路又回到了饭桌上…<br />
+好吧，这么明显而低级的错误，竟然没有人指出来，这是被国内封杀的附加好处吗？下次如果有这样的错误，千万不要给我面子啊。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fqiaoke%2f&text= @calon %e8%b7%b7%e8%af%be&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%b7%b7%e8%af%be》&body=https%3a%2f%2fioerr.github.io%2fqiaoke%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/143/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i>
+  </a>
+  
+
+  PAGE 144 / 227
+
+  
+  <a href="/page/145/" rel="next">
+    <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

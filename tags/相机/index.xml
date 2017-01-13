@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>相机 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%9B%B8%E6%9C%BA/index.xml</link>
+    <description>Recent content in 相机 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E7%9B%B8%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CHDK 支持 G7 1.00j 固件</title>
+      <link>https://ioerr.github.io/chdk-zhichi-g7-100j-gujian/</link>
+      <pubDate>Mon, 15 Oct 2007 15:03:54 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/chdk-zhichi-g7-100j-gujian/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK&#34;&gt;CHDK&lt;/a&gt;
+的固件脚本&lt;a href=&#34;http://calon.weblogs.us/ziwen_zida/&#34;&gt;已经支持&lt;/a&gt; Canon G7
+的1.00j
+版本，&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK_firmware_usage#.3CALT.3E_mode&#34;&gt;相关讨论见这里&lt;/a&gt;，&lt;a href=&#34;http://www.zshare.net/download/413542734fd1db/&#34;&gt;直接下载见这里&lt;/a&gt;，&lt;a href=&#34;http://scratchpad.wikia.com/wiki/CHDK/FAQ&#34;&gt;常见问题见这里&lt;/a&gt;，&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK_firmware_usage&#34;&gt;使用和设置方法见这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;如此，我的 G7已经可以支持 RAW
+格式记录，电量显示，包围曝光步进拍摄，实时直方图，高光斑马显示…如果实在无聊的话，还可以用相机看书、游戏甚至当手电筒…与
+G9相比已是各有千秋。&lt;/p&gt;
+
+&lt;p&gt;存在的问题有：&lt;br /&gt;
+虽然 FAQ 中说2G 以上存储卡对开机自动载入脚本的支持有问题，但我没有想到2G
+卡本身也存在此问题，如手工格式化为 FAT16
+格式则可以支持，但我觉得不爽啊~&lt;br /&gt;
+生成的 RAW 文件无法用 Total Commander
+直接从相机上转移出来，看来还是有必要入一个读卡器？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Canon G9</title>
+      <link>https://ioerr.github.io/canon-g9/</link>
+      <pubDate>Tue, 21 Aug 2007 08:16:15 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/canon-g9/</guid>
+      <description>&lt;p&gt;Canon 一口气发布了8款相机，其中最引人注目的应该是高端的 EOS-1Ds Mark III
+和中端的40D，其次是 SX100 IS 和
+G9。没有银子，所以不关注单反，自然有人积极评论吧。&lt;/p&gt;
+
+&lt;p&gt;G9相对于 G7的改进主要是&lt;a href=&#34;http://www.dpreview.com/news/0708/07082005canong9.asp&#34;&gt;重新支持
+RAW&lt;/a&gt;，这一手相当于把可怜兮兮的
+G7孤立在了 G 系列之外，好冤呐～&lt;br /&gt;
+CCD 升到了1/1.7&amp;rdquo;，在这样的体积下还算不错了；&lt;br /&gt;
+像素提升到了1200万，感觉不实用；&lt;br /&gt;
+LCD 面积增大，素质提高，感觉背面比较拥挤了。&lt;/p&gt;
+
+&lt;p&gt;备受期待但是没有改进的地方有：&lt;br /&gt;
+最大光圈还是2.8；&lt;br /&gt;
+仍然没有28mm 广角；&lt;br /&gt;
+仍然沿用 NB-2LH/NB-2L 电池型号。&lt;/p&gt;
+
+&lt;p&gt;不知镜头进灰的毛病有没有改善，按道理短时间内不会有什么变化。&lt;/p&gt;
+
+&lt;p&gt;从外观上看，除了 LCD 之外变化不大，很容易和 G7弄混淆。&lt;br /&gt;
+&lt;img src=&#34;http://www.dpreview.com/news/0708/Canon/canon_g9_3q-001.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.dpreview.com/news/0708/Canon/canon_g9_rear-001.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dpreview.com/news/0708/07082011canong9gallery.asp&#34;&gt;样张在这里可以看到&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;据说9月底上市价格在4000元左右，在这之前
+G7可能会降价，然后彻底消失，因为这次的升级变化小，G7的地位会非常尴尬。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dpreview.com/&#34;&gt;DPReview&lt;/a&gt;
+上的老外们还在猜测&lt;a href=&#34;http://forums.dpreview.com/forums/readflat.asp?forum=1000&amp;amp;thread=24447597&#34;&gt;为什么这一代的名字不叫做
+G8&lt;/a&gt;…&lt;/p&gt;
+
+&lt;p&gt;补充，&lt;a href=&#34;http://www.mobile01.com/topicdetail.php?f=244&amp;amp;t=384134&amp;amp;p=2#3416239&#34;&gt;Mobile01的讨论&lt;/a&gt;有提到以下几个不错的改良：&lt;br /&gt;
+终于有了电量显示 :829:；&lt;br /&gt;
+转盘的凹纹改成凸纹，中间的按键下凹，避免误操作。&lt;/p&gt;
+
+&lt;p&gt;再补充，CCD 由 Sharp 的改为了 Sony 的，上市价格会比 G7的上市价低，对
+G7有兴趣的还是多等等吧&lt;br /&gt;
+估计 G9会是 G 系列的最后一款，也算有纪念意义了。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

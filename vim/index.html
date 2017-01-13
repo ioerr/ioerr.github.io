@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vim  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/vim/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/vim/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>08 Sep 2009, 16:12</time>
+      <h1>Vim</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#命令-一边学习-经典教程-http-www-study-area-org-tips-vim-一边临时做了一个-在线速查手册备查-https-spreadsheets-google-com-ccc-key-0apku5byfgahedgt0ms1gyu9rb1u5otbyqk9xndi0m3c-hl-en-把一些常用基本快捷键和命令按照自己习惯的方式整理一下-因为">命令，一边学习<a href="http://www.study-area.org/tips/vim/">经典教程</a>一边临时做了一个<a href="https://spreadsheets.google.com/ccc?key=0ApkU5byfgAhEdGt0MS1GYU9rb1U5OTByQk9xNDI0M3c&amp;hl=en">在线速查手册备查</a>，把一些常用基本快捷键和命令按照自己习惯的方式整理一下。因为</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>最近又重新开始捣鼓 <a href="http://www.vim.org/">Vim</a>。<br />
+虽说基本不用写程序或者脚本，只是码码字，对 Vim
+的需求没这么高，但作为纯文本党人既然喜欢收集纯文本编辑器玩，没道理不把这个工具用好。</p>
+
+<p>为了方便自己查阅 Vim</p>
+
+<h2 id="命令-一边学习-经典教程-http-www-study-area-org-tips-vim-一边临时做了一个-在线速查手册备查-https-spreadsheets-google-com-ccc-key-0apku5byfgahedgt0ms1gyu9rb1u5otbyqk9xndi0m3c-hl-en-把一些常用基本快捷键和命令按照自己习惯的方式整理一下-因为">命令，一边学习<a href="http://www.study-area.org/tips/vim/">经典教程</a>一边临时做了一个<a href="https://spreadsheets.google.com/ccc?key=0ApkU5byfgAhEdGt0MS1GYU9rb1U5OTByQk9xNDI0M3c&amp;hl=en">在线速查手册备查</a>，把一些常用基本快捷键和命令按照自己习惯的方式整理一下。因为</h2>
+
+<p>博大精深，所以还有很多内容待补充，不过最后我会制作一个重新整理的电子表格文档出来，把最常用最适合新手入门的内容和高级内容分开的。</p>
+
+<p>装了
+<a href="http://www.vim.org/scripts/script.php?script_id=453">HTML</a>、<a href="http://www.vim.org/scripts/script.php?script_id=1708">FencView</a>、<a href="http://www.vim.org/scripts/script.php?script_id=42">Buffer
+Explorer</a>
+等几个插件，小小的修改了
+<a href="http://www.vim.org/scripts/script.php?script_id=1492">Pyte</a>
+配色方案，调教了一下配置文件，基本解决显示中文的问题后，就可以慢慢玩了。</p>
+
+<p>除了 Vim
+官方相关的文档、插件、配色方案、技巧外，顺藤摸瓜找到的资源还有：<br />
+基础教程：<a href="http://www.study-area.org/tips/vim/">大家來學VIM（一個歷久彌新的編輯器）</a><br />
+输入法：<a href="http://maxiangjiang.googlepages.com/vimim.html">VimIM</a><br />
+配色方案预览工具：<a href="http://vimcolorschemetest.googlecode.com/svn/html/index-html.html">VIM Color Scheme
+Test</a><br />
+Firefox 扩展：<a href="http://vimperator.org/trac/wiki/Vimperator">Vimperator</a></p>
+
+<p>对比常用的 EmEditor 等文本编辑器，目前还没有配置好的有：<br />
+光标所在行和列高亮（当前行高亮应该有现成的配置命令）；<br />
+未命名文件定时自动保存在固定的目录；<br />
+托盘图标右键快速新建粘贴；<br />
+分批高亮多次查找结果（有现成的插件）；<br />
+支持不等宽字体（有修改版，但对编码配置有限制，原版不支持非等宽字体）；<br />
+自动生成大纲（应该有现成的插件）；<br />
+窗口总在最前；<br />
+把标签页模式整得更加顺手，同时限制只有一个实例。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fvim%2f&text= @calon Vim&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Vim》&body=https%3a%2f%2fioerr.github.io%2fvim%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Vim 
+        
+      
+        #插件 
+        
+      
+        #教程 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/feichang-61-zhapian/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>非常6&#43;1诈骗</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/qingchunqi/" rel="next">
+    <span>青春期</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

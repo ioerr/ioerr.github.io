@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>搜狗输入法智慧版  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/sougou-shurufa-zhihuiban/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/sougou-shurufa-zhihuiban/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Oct 2012, 03:19</time>
+      <h1>搜狗输入法智慧版</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>搜狗输入法最近推出了<a href="http://pinyin.sogou.com/zhihui/">智慧版</a>，宣传的功能亮点如下：<br />
+1、情景感知：配合 IE
+内核的浏览器使用时，根据不同的输入框调整候选词排序；<br />
+2、文思泉涌：诗词提示补全，并且展示诗词信息；<br />
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；<br />
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；<br />
+5、拼音纠错：自动纠正和提示错误的拼音；<br />
+6、长词联想和云计算：都不是新鲜功能了。</p>
+
+<p>情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。<br />
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；<br />
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。</p>
+
+<p>搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。</p>
+
+<p>几年前在智能狂拼的 QQ
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。<br />
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。<br />
+另一方面，情境往往变化频繁，比如同时挂 IM
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。<br />
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。</p>
+
+<p>所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：<br />
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；<br />
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；<br />
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。</p>
+
+<p>真正做到了这些，我才会认为输入法是有智慧的。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fsougou-shurufa-zhihuiban%2f&text= @calon %e6%90%9c%e7%8b%97%e8%be%93%e5%85%a5%e6%b3%95%e6%99%ba%e6%85%a7%e7%89%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%90%9c%e7%8b%97%e8%be%93%e5%85%a5%e6%b3%95%e6%99%ba%e6%85%a7%e7%89%88》&body=https%3a%2f%2fioerr.github.io%2fsougou-shurufa-zhihuiban%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #云计算 
+        
+      
+        #情境 
+        
+      
+        #情景感知 
+        
+      
+        #拼音加加 
+        
+      
+        #搜狗 
+        
+      
+        #整句输入 
+        
+      
+        #智能学习 
+        
+      
+        #智能狂拼 
+        
+      
+        #输入法 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>为什么电子书翻页跳转不方便？</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/huangrong-nianling-zhi-mi/" rel="next">
+    <span>黄蓉年龄之谜</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

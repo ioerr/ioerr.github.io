@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电子书 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml</link>
+    <description>Recent content in 电子书 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>为什么电子书翻页跳转不方便？</title>
+      <link>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
+      <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
+      <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
+明明是有跳转功能的，但是用起来怎么就不如翻实体书方便呢？&lt;/p&gt;
+
+&lt;p&gt;使用 Kindle
+类电子墨水屏的设备是一个原因，毕竟屏幕的响应速度是先天制约。&lt;br /&gt;
+可是，使用 iPad 类的 IPS 屏幕平板设备为什么也是如此？&lt;br /&gt;
+想想看，进度条如果和屏幕等宽，对应同样的页数，随手翻阅的定位精度应该要远超通常只有几厘米厚的纸质书。&lt;/p&gt;
+
+&lt;p&gt;除此之外最容易想到的原因，可能是翻纸质书的时候，可以同时浏览页面内容——一秒钟翻完整本实体书很正常。&lt;br /&gt;
+只要辨识反应够快，在纸张翻页时总是可以知道当前页大致内容是什么，如果记住了图表、插图、章节名称等关键信息，就更容易定位。&lt;br /&gt;
+而许多电子书阅读设备在翻页时，受限于性能和功能，在拖动进度条跳转时不展现内容，又或者无法在快速翻动的页面上即时显示预览内容——某些电子书设备若单单是翻页还能预览，一秒钟内显示翻过的每一页，可能就比较吃力了。&lt;br /&gt;
+不过，这也不是全部原因。因为比如 iOS 上 GoodReader
+这样的应用，拖动进度条时就能即时刷新，虽然我不知道拖动过程中它是不是真的每一页都展示了。&lt;/p&gt;
+
+&lt;p&gt;其次，跳转往往只是临时回看或预览，往往还要跳回来继续阅读的，可是电子书在你拖动进度条的时候可分不清你到底是要干什么。&lt;br /&gt;
+而一只手翻实体书的时候，另一只手其实在默默地扮演书签，看完了回到这个人肉书签捏住的位置就行。&lt;br /&gt;
+电子书设备就不好这样玩了。新增书签倒是容易，可是要从跳转过去的地方再跳转回来，没有能够一步完成的操作，总是要比实体书上的操作麻烦。&lt;br /&gt;
+当然，这也是可以用软件解决的，就看开发者是不是用心了——但要做到自然而然、无需用户学习适应？很难。&lt;/p&gt;
+
+&lt;p&gt;最后一个我猜测的不太容易注意到的因素是：&lt;br /&gt;
+捧着纸质书时，阅读进度和双手感知的纸张厚度有关联，要回看时，跳转的大概范围凭借手感就能定下来，尤其是经常翻阅的书籍——也许这是阅读过程中悄悄建立的联系？也许只是我的猜测，还需要实验才能证明确有此事。&lt;br /&gt;
+如果这种因素真的存在，估计电子书设备就很难仿效和超越了。&lt;/p&gt;
+
+&lt;p&gt;回头一想，搜索、摘录、笔记功能，电子书又比实体书强多了，为了跳转的体验偏好实体书到底不划算啊。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>双屏幕电子书？</title>
+      <link>https://ioerr.github.io/shuang-pingmu-dianzishu/</link>
+      <pubDate>Fri, 01 Apr 2011 08:19:38 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/shuang-pingmu-dianzishu/</guid>
+      <description>&lt;p&gt;有多少人不肯接受电子书，是因为没有翻书的手感？&lt;br /&gt;
+&lt;a href=&#34;http://www.diginfo.tv/2011/03/23/11-0073-r-en.php&#34;&gt;单独作为一项偏门的发明&lt;/a&gt;来看很有趣，但是千万不要以为商业产品可以这么玩。&lt;/p&gt;
+
+&lt;p&gt;用户如果想拒绝一个事物，可以找到千百种理由。&lt;br /&gt;
+开发者若是一一迎合这些理由来折腾产品，最终只会让产品变得面目全非，而且谁都不讨好。&lt;/p&gt;
+
+&lt;p&gt;福特当年需要在 T
+型车上采用带马镫的跨坐式座椅，装个皮革包裹的加速板，让用户保持踢马刺的感觉吗？或者保留缰绳以维持方向控制和速度控制合一的习惯？&lt;br /&gt;
+除非他搞不清楚产品目标用户的业务核心需求吧。&lt;/p&gt;
+
+&lt;p&gt;话说回来，对未来电子书的需求，除了应用方面能促进有质量的交流之外，在硬件方面我最期待的是双屏幕（Barnes
+&amp;amp; Noble 的 NOOK
+有双屏，但小屏幕用处有限）或至少同屏幕上分两个独立应用窗口，因为：&lt;br /&gt;
+1、前后快速翻页查阅容易打断当前的阅读思路，保留当前页面在一个屏幕上比允许跳回上次阅读的地方更无害；&lt;br /&gt;
+2、利于同文档内不同页面、不同文档的比对，阅读技术、学术文档时这是很重要的；&lt;br /&gt;
+3、详细图示、表格、脚注、评论批注等的查阅和放大等操作可以移到另一个屏幕上。&lt;/p&gt;
+
+&lt;p&gt;不过基于增加的成本和带来的收益很可能不成比例，一个负责任的电子书产品经理会说，“你还是去买两个电子书拼接在一起吧，我们可以提供帐号间的内容即时共享服务和透明胶带。”&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>电子书的未来</title>
+      <link>https://ioerr.github.io/dianzishu-de-weilai/</link>
+      <pubDate>Fri, 02 Jan 2009 16:54:14 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/dianzishu-de-weilai/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/e/78c2e344-8d2d-c185-2657-9acb8b82e5cc&#34;&gt;FriendFeed&lt;/a&gt;
+从&lt;a href=&#34;http://www.ruanyifeng.com/&#34;&gt;阮一峰&lt;/a&gt;的《&lt;a href=&#34;http://www.ruanyifeng.com/blog/2009/01/e-books_start_to_take_hold.html&#34;&gt;电子书的时代正在来临&lt;/a&gt;》一文出发讨论电子书的未来，我把自己的观点记录在这里：&lt;/p&gt;
+
+&lt;p&gt;现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：&lt;br /&gt;
+优先屏幕面积然后才是便携性；&lt;br /&gt;
+价格比主流手机贵而功能相对单一；&lt;br /&gt;
+外形还是向传统书本看齐；&lt;br /&gt;
+大多仍然像书本一样独立于其他随身物品而不是融合在一起；&lt;br /&gt;
+…&lt;/p&gt;
+
+&lt;p&gt;也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？&lt;br /&gt;
+在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。&lt;/p&gt;
+
+&lt;p&gt;看看电子书产品追求的方向吧，Kindle
+式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。&lt;br /&gt;
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和
+CP/SP
+推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。&lt;br /&gt;
+消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。&lt;/p&gt;
+
+&lt;p&gt;所以，当分析师认为 Kindle
+在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。&lt;br /&gt;
+大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kindle 正式发布</title>
+      <link>https://ioerr.github.io/kindle-zhengshi-fabu/</link>
+      <pubDate>Mon, 19 Nov 2007 17:50:10 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/kindle-zhengshi-fabu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/&#34;&gt;Amazon&lt;/a&gt; 的电子书设备
+&lt;a href=&#34;http://www.amazon.com/kindle&#34;&gt;Kindle&lt;/a&gt; 正式发布。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-screen2._V4948245_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-whispernet._V4948240_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-ergo._V4948249_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-keyboard._V4948248_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;售价399美金；&lt;br /&gt;
+重量300克左右；&lt;br /&gt;
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；&lt;br /&gt;
+7.5&amp;rdquo;×5.3&amp;rdquo;×0.7&amp;rdquo;的身材；&lt;br /&gt;
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB
+2.0接口；&lt;br /&gt;
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；&lt;br /&gt;
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；&lt;br /&gt;
+88000本书可供选择，可免费试读第一章节；&lt;br /&gt;
+与多家报纸杂志合作提供内容；&lt;br /&gt;
+可订阅250多个知名
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；&lt;br /&gt;
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；&lt;br /&gt;
+耐操能力不错；&lt;br /&gt;
+日光下可直接阅读屏幕；&lt;br /&gt;
+直接支持的格式包括独家的
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。&lt;/p&gt;
+
+&lt;p&gt;看到以上的规格功能说明和产品外观你会有什么想法？&lt;/p&gt;
+
+&lt;p&gt;说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；&lt;br /&gt;
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；&lt;br /&gt;
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM
+之类的功能，才符合我的期望；&lt;br /&gt;
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

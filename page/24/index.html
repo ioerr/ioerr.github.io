@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/vim-zhongwen-yufa-wenjian/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Dec 2010, 15:54</time>
+      <h1>Vim 中文语法文件</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>时常用 <a href="http://www.vim.org/">Vim</a>
+写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。</p>
+
+<p>去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
+<a href="http://www.vim.org/scripts/script.php?script_id=1532">txt.vim</a>
+比较接近要求，最大的不足是不支持中文标点符号。</p>
+
+<p>于是一边看语法文件帮助文档，一边在 Tomasz
+的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。</p>
+
+<p>预览效果如下：<br />
+<img src="http://i111.photobucket.com/albums/n154/calon_plus/_003.png" alt="Vim txt.vim syntax highlight
+preview" /></p>
+
+<p>除了高亮标点符号、数字之外，还可以用来检验单引号、双引号、书名号等需要配对的标点符号有没有正确地关闭，特别是方向相同的引号或者中英文混杂的括号分辨不清楚的时候，靠语法标记出的颜色可以很快定位哪个标点写错了。</p>
+
+<p>语法文件在<a href="http://www.vim.org/scripts/script.php?script_id=3365">官方脚本页面</a>下载：<br />
+<a href="http://www.vim.org/scripts/script.php?script_id=3365">http://www.vim.org/scripts/script.php?script_id=3365</a></p>
+
+<p>下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
+打开语法高亮，也可以默认打开 .txt 文件时自动高亮。</p>
+
+<p>如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。<br />
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
+\$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。</p>
+
+<p>我的主题配色是按自己需要修改后的 ir_black，原版请自行
+google，我的修改版本可以<a href="http://www.box.net/shared/g6h9lsv0dz">到这里下载</a>。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fvim-zhongwen-yufa-wenjian%2f&text= @calon Vim%20%e4%b8%ad%e6%96%87%e8%af%ad%e6%b3%95%e6%96%87%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Vim%20%e4%b8%ad%e6%96%87%e8%af%ad%e6%b3%95%e6%96%87%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fvim-zhongwen-yufa-wenjian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Vim 
+        
+      
+        #纯文本 
+        
+      
+        #语法 
+        
+      
+        #配色 
+        
+      
+        #高亮 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zhaoshi-guer/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>06 Dec 2010, 15:26</time>
+      <h1>赵氏孤儿</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>周末庆祝岳父岳母结婚三十周年，一同去看电影。可是姜文的《让子弹飞》还没有上映，赵本山的《大笑江湖》自动无视，《哈利波特7.5》老人家说看不懂，于是只剩下《赵氏孤儿》可看了…</p>
+
+<p>以下有剧透。</p>
+
+<p>如果只用一句话评价《赵氏孤儿》，那就是“乱改编和习惯性烂尾”。</p>
+
+<p>前面三分之一的剧情（下宫之难和其他事件的综合体）发展让人眼前一亮，几个面熟的配角虽然出场时间不多就纷纷领便当去了，但性格鲜明、有血有肉，而且真有春秋时代特别的梗二愣的风采，虽然和《史记》记载相去甚远，还是可以接受的。</p>
+
+<p>中间三分之一唯一的亮点是貌似小林志颖的小孤儿程勃（即历史上的赵武），可惜在怪叔叔们的影响下最终长残了…</p>
+
+<p>最后三分之一就是一步步坏掉的过程：<br />
+屠岸贾提前知晓了程勃的真实身份，大大削弱了最后的冲击力；<br />
+程勃的心理冲突没有充分表现；<br />
+程勃的身手弱得像待宰的雏鸡，却打了个人肉盾牌的掩护就轻易得手，不愧是肇事孤儿啊；<br />
+程婴的目的是要让屠岸贾体会宠爱的是仇家之子的痛苦吗？可是人家倒是从容淡定的很呐；<br />
+韩厥的存在是为了活跃气氛的吗？和历史形象的差距也就算了，专门跳出来消解悲剧气氛才是败笔；<br />
+最后父子二人突然主动摊牌让人十分意外，本来程勃又一次因为屠岸贾的言行才相信并倒向程婴，可以抓住这个机会从屠岸贾的角度渲染悲剧宿命的意味，结果观众一惊愕，又没戏了；<br />
+在程婴承认被公孙杵臼打动之前，观众恐怕都以为他是没来得及说出真相而丧子的吧？主动忍辱负重的好友变成了被踢下鳄鱼池的倒霉蛋小人物，没有自由意志的忠义就流向教唆未成年人为亲人和养父拔刀砍干爹的心理变态…</p>
+
+<p>在最终决战屠岸贾背对二人时，曾经这么问程婴（大意如此）：你有什么权利决定他的生死？你有什么权利要他报仇？<br />
+那一刻我小小的激动了一下，以为照此发展下去还能够有新鲜的深度挖掘，结果再前进一步，就义无反顾地彻底崩坏了…</p>
+
+<p>最后，看看《史记》中赵氏孤儿故事的精华所在吧：</p>
+
+<p><blockquote>
+    公孙杵臼曰：“立孤与死孰难？”程婴曰：“死易，立孤难耳。”公孙杵臼曰：“赵氏先君遇子厚，子强为其难者，吾为其易者，请先死。”乃二人谋取他人婴儿负之，衣以文葆，匿山中。程婴出，谬谓诸将军曰：“婴不肖，不能立赵孤。 谁能与我千金，吾告赵氏孤处。”诸将皆喜，许之，发师随程婴攻公孙杵臼。 杵臼谬曰：“小人哉程婴！昔下宫之难不能死，与我谋匿赵氏孤儿，今又卖我。 纵不能立，而忍卖之乎！”抱儿呼曰：“天乎天乎！赵氏孤儿何罪？请活之，独杀杵臼可也。”诸将不许，遂杀杵臼与孤儿。诸将以为赵氏孤儿良已死，皆喜。</p>
+
+<pre><code>及赵武冠，为成人，程婴乃辞诸大夫，谓赵武曰：“昔下宫之难，皆能死。我非不能死，我思立赵氏之后。今赵武既立，为成人，复故位，我将下报赵宣孟与公孙杵臼。”赵武啼泣顿首固请，曰：“武愿苦筋骨以报子至死，而子忍去我死乎！”程婴曰：“不可。彼以我为能成事，故先我死；今我不报，是以我事为不成。”遂自杀。  
+</code></pre>
+
+<p></blockquote>
+估计陈凯歌认为观众理解不了这种春秋时期风度，所以想要改编出一个“现代”点的版本？<br />
+但正是这种直接赤裸毫不拖泥带水的报恩重诺舍生忍辱取义最能打动人，就像电影中提弥明和灵辄的舍身护主一样，为什么轮到刻画主角了，却要舍弃这么好的材料而自己编造一些不合情理的不入流剧情呢？</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhaoshi-guer%2f&text= @calon %e8%b5%b5%e6%b0%8f%e5%ad%a4%e5%84%bf&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%b5%b5%e6%b0%8f%e5%ad%a4%e5%84%bf》&body=https%3a%2f%2fioerr.github.io%2fzhaoshi-guer%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/guanggao-de-weilai/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>26 Nov 2010, 15:24</time>
+      <h1>广告的未来</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>一、永远要记住这一点：<br />
+挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。</p>
+
+<p>二、让信息自由、流畅而有序流动的 IT 才是好 IT</p>
+
+<p><blockquote>
+Peter Diamond、Dale Mortensen 和 Christopher Pissarides
+因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。
+</blockquote>
+挨踢技术存在的目标之一，不正是应该在实施层面解决这种因为信息交流成本造成的经济学问题么？</p>
+
+<p>三、为什么会变成这样？</p>
+
+<p>“我需要无广告版本。”<br />
+“我一眼就看出你是个枪手。”<br />
+“我的浏览器必装屏蔽广告的插件。”<br />
+“我的电子邮箱又被垃圾邮件填满了。”<br />
+“我最讨厌上那些浮动广告到处飞的网站了。”<br />
+“我晕，看个30秒的视频还要先看30秒的广告。”<br />
+“我对这个充满着拙劣的植入广告的世界绝望了！”<br />
+“我日，下载软件一不小心点了流氓软件下载链接。”<br />
+“我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”<br />
+“我的 blog 评论都加上了 nofollow
+属性，你们这些垃圾留言者为什么还要瞎忙？”<br />
+……</p>
+
+<p>这样的抱怨和要求你是否非常眼熟？<br />
+在你使用互联网的时候，是否经常会遇到同样的困扰？<br />
+你觉得这是正常现象吗？</p>
+
+<p>如今的互联网广告带给用户太多困扰，严重影响了用户体验。互联网的用户们像传统的报纸、收音机、电视机用户一样忍受着广告的轰炸，有时候甚至是被流氓强行闯进来灌输信息。<br />
+为什么？</p>
+
+<p>互联网带来信息的自由，也必然带来被动接受信息的不自由？<br />
+互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？<br />
+这是正常的吗？难道不能改变吗？</p>
+
+<p>有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords
+等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。</p>
+
+<p>而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords
+宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。</p>
+
+<p>有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。</p>
+
+<p>四、广告的本质</p>
+
+<p>还是从根本上来分析一下吧：<br />
+广告对消费者和广告主来说是什么？</p>
+
+<p>广告对广告主来说是向目标客户和潜在客户提供信息的渠道；<br />
+广告是消费者消费前获取产品信息的渠道。</p>
+
+<p>非目标用户获得了信息，对广告主来说没有什么价值，除非他是潜在用户，但对潜在用户的广告手段和效果期望又是不一样的，总之都是浪费；<br />
+消费者获得了不需要的信息，不但没有价值，而且是扰乱生活的垃圾。</p>
+
+<p>双方都需要的，是找到对口的信息提供/接收者，传递且只传递各自需要的信息，也就是图中蓝色的关系链接：</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=7caff0ab.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/7caff0ab.png" alt="Photobucket" /></a></p>
+
+<p>这是一个非常简单的需求关系链接，只要 IT 服务能够实现，世界将会是和谐的。</p>
+
+<p>理想很美好，但再深入一点就会发现，要想实现是非常复杂的：<br />
+用户需要的不一定是某个厂商的产品；<br />
+广告主需要向用户提供的，则必须是自己产品的信息，而且最好是利润最高的主推产品。<br />
+如何才能建立另双方都满意的关系链接？</p>
+
+<p>五、谁来实现理想？</p>
+
+<p>我们不妨分析一下“广告”的不同模式：</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=e2fcac76.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/e2fcac76.png" alt="Photobucket" /></a></p>
+
+<p>1、传统的广告模式：<br />
+生产商付费雇佣广告商，为自己的某类产品作广告宣传。<br />
+信息是从广告商单向流向消费者，但接收信息的消费者只有一部分会受到广告影响，体现为蓝色的箭头——表示有效的广告。<br />
+广告的手段、内容、预期目标可以很明确。<br />
+消费者基本是被动接受。</p>
+
+<p>2、搜索引擎的广告模式（或者应该说是广搜？）：<br />
+消费者主动搜索或者浏览，由搜索引擎提供指向产品信息的链接，引导用户找到目标。<br />
+生产商和搜索引擎不是紧密的雇佣关系，而是相对松散的服务关系。<br />
+用户需要付出查找、比对、筛选、评估的成本，否则用户只能倾向于相信搜索引擎提供的排序信息——为什么搜索引擎竞价排名模式不值得推广和效仿？因为它并没有致力于降低用户获取有效信息的成本，反而可能把用户带进沟里；对广告主而言，砸钱投入接近传统的模式，又没有得到广告公司的专业服务水平。</p>
+
+<p>3、新的模式？<br />
+新的信息服务应该专注于如何简化生产商和消费者之间相互选择的信息链接。</p>
+
+<p>生产商是否需要更多消费者的身份、产品使用习惯、品位和偏好等信息？能够从你的平台得到吗？<br />
+也许以前这只有侵犯个人隐私才能做到，但在2.0的时代，只要你让消费者得到足够的利益，是不是可以让他们主动提供？<br />
+能不能让他们借助你的服务平台主动帮助生产商宣传？</p>
+
+<p>消费者如何降低选择商品的成本和风险？<br />
+能否提供更加方便和实用的消费指导，就像有个内行导购或者熟悉的朋友一样知道你购物？<br />
+如何取得他们的信任，让他们满意？<br />
+如何及时、准确地响应消费者的购物冲动？<br />
+如何更好地猜出或引导消费者主动说出需求，而不是要他们花费时间精力描述和输入未必精确的“需求”？<br />
+如何在不引起消费者反感的情况下潜移默化地塑造品牌形象，而不是仅仅推荐具体的靠谱的产品？</p>
+
+<p>如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？</p>
+
+<p>还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon
+或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanggao-de-weilai%2f&text= @calon %e5%b9%bf%e5%91%8a%e7%9a%84%e6%9c%aa%e6%9d%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b9%bf%e5%91%8a%e7%9a%84%e6%9c%aa%e6%9d%a5》&body=https%3a%2f%2fioerr.github.io%2fguanggao-de-weilai%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #互联网 
+        
+      
+        #信息 
+        
+      
+        #广告 
+        
+      
+        #未来 
+        
+      
+        #经济学 
+        
+      
+        #软硬挨踢 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/gongtong-jinzhang-qu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>23 Nov 2010, 16:33</time>
+      <h1>共同紧张区</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。</p>
+
+<p>一、势如破竹<br />
+1个小时后，金正恩宣布已经完全占领朝鲜半岛；<br />
+2个小时后，地球沦陷；<br />
+3个小时后，宇宙也完了…<br />
+“将军，将军，醒一醒，北京来的电话找你。”</p>
+
+<p>二、永不消逝的电波<br />
+胡：打仗了怎么不先通知一声？<br />
+金：装了360，QQ上不去啊。<br />
+胡：那可以发邮件呀。<br />
+金：发了呀，难道被墙拦住了？<br />
+胡：电话也行！<br />
+金：欠费停机了…<br />
+胡：还真这么困难啊？<br />
+金：不说了，南边call我BP机了…<br />
+（以上对话通过 FaceTime 完成）</p>
+
+<p>三、科学捕捞<br />
+朝鲜海军陆战队登陆延坪岛，打满鱼以后又撤退了。<br />
+金将军表示，之前发射的炮弹是用来炸鱼的，纯属误会。</p>
+
+<p>四、艰难<br />
+金正恩：我们做了一个艰难的决定，您只能选择一个朝鲜。我们深知这样会给您造成一定的不便，我们诚恳地向您致歉。</p>
+
+<p>五、纯属巧合<br />
+中国办奥运，格鲁吉亚不老实；<br />
+中国办亚运，朝鲜不老实；<br />
+中国办世界杯…</p>
+
+<p>六、代表<br />
+金：真的可以吗？<br />
+胡：放心吧，没问题，芮成钢会代表韩国人第一时间投降的。</p>
+
+<p>七、表态<br />
+美国白宫声明称：“我们仍同我们的韩国盟友继续密切的接触。美国强烈谴责今天的攻击事件，呼吁朝鲜停止交战行动，并严格遵守休战协定。美国有责任保护我们的同盟——韩国，以及维护地区和平和稳定。”<br />
+美国：有什么事我会罩着你，你也要及时向我通报情况。</p>
+
+<p>俄罗斯政府当天警告，朝韩勿使紧急状态升级。<br />
+俄罗斯：都给我放老实点。</p>
+
+<p>中国外交部发言人回应称：“中方已经注意到相关报道，具体细节有待核实。希望有关各方多做有利于半岛和平稳定的事情。”<br />
+中国：我们已经看到其他国家的报道；我们的盟友还没告诉我们这到底是怎么回事；求你们别闹腾了，这儿开运动会呢。</p>
+
+<p>日本：要不赶紧联合中国把朝鲜半岛灭了？</p>
+
+<p>台湾：感谢金将军为杨淑君讨回公道所做的努力，但请不要采取非理性行为殃及无辜，要展现风范。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fgongtong-jinzhang-qu%2f&text= @calon %e5%85%b1%e5%90%8c%e7%b4%a7%e5%bc%a0%e5%8c%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b1%e5%90%8c%e7%b4%a7%e5%bc%a0%e5%8c%ba》&body=https%3a%2f%2fioerr.github.io%2fgongtong-jinzhang-qu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #延坪岛 
+        
+      
+        #朝鲜 
+        
+      
+        #炮击 
+        
+      
+        #韩国 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/shui-henshen/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>22 Nov 2010, 08:13</time>
+      <h1>水很深</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><strong>一、贝尼特斯历险记</strong></p>
+
+<p>“我对贝尼特斯有信心，即使国米在维罗纳输球了，我们仍然有机会，贝尼特斯帅位无忧。”——莫拉蒂</p>
+
+<p>“哈，我可以放心了。”——贝尼特斯</p>
+
+<p>“我是说这两轮他的帅位无忧。”——莫拉蒂</p>
+
+<p>“……”——贝尼特斯</p>
+
+<p>“贝尼特斯下课！下课！三冠王被你这个毒瘤带成这样，还好意思继续赖着？”——国际米兰球迷</p>
+
+<p>“我是毒瘤？让我下课？你们也不想想，接我班的一般都会更烂，比如拉涅利，比如霍奇森。”——贝尼特斯</p>
+
+<p>“……”——国际米兰球迷</p>
+
+<p>“从职业棒球联盟刚来到英格兰超级联赛，发现足球界的水好深！”——亨利</p>
+
+<p>“刚开始入主国际米兰的时候，我觉得这里的水更深！十多年来在这里淹死的教练已经超过了两位数。”——莫拉蒂</p>
+
+<p>“这不算什么。”——弗罗伦蒂诺和阿布拉莫维奇</p>
+
+<p>“我亲手推到水里的大概有10个。”——莫拉蒂</p>
+
+<p>“而我是特殊的那一个。”——穆里尼奥</p>
+
+<p>“但我现在手又痒了。”——莫拉蒂</p>
+
+<p>“……”——贝尼特斯</p>
+
+<p><strong>二、青春期烦恼</strong></p>
+
+<p>“靠一帮孩子，你不可能赢得任何东西。”——阿兰·汉森</p>
+
+<p>“介他妈哪个蛋头说的？！”——弗格森</p>
+
+<p>“别在意，这话说给我听的…”——温格</p>
+
+<p><strong>三、重建的难度</strong></p>
+
+<p>“法国队的重建还需要很长时间和很多努力。</p>
+
+<p>球队的核心正陷入，该死，又一个事业低谷。<br />
+其他里昂的球员则是已经习惯处于事业的低谷了。</p>
+
+<p>主力前锋需要在俱乐部和伊瓜因争夺主力位置，某个在大赛上溃败之后求婚的卢瑟，也就是我的前任，而且还被拒绝了，真不知道他的星相学成功的应用在了什么方面，难道是帮萨科奇竞选和把妹吗？他花了几年时间都没有把这个伊瓜因拉进法国国家队。</p>
+
+<p>来自阿森纳的球员要分心和阿什伯顿玻璃厂粗心大意的工人战斗。</p>
+
+<p>某些体格强壮的球员的大脑还泡在培养液中，他们有熊的体格，但是只有布兰布尔和布姆松在纽卡斯尔时的脑子。当然，他们的颅骨厚度比某个曾经效力过国际米兰、曼联、阿森纳、不来梅等众多豪门球队的著名球员的要薄得多，所以还有成长的空间。</p>
+
+<p>还有一直未能解决的中后卫问题，有时候我恨不得自己穿上球衣上场了，总比一直震荡下挫的罗马替补后卫和越来越抽风的科西嘉花匠强。”<br />
+——布兰克</p>
+
+<p>“英格兰的重建比想象中要容易得多，把舰队街推平就行了。”——卡佩罗</p>
+
+<p><strong>四、本土</strong></p>
+
+<p>“国家队应该由本土教练来执掌，特别是当外籍教练的成绩不尽如人意的时候。”——老雷德克纳普</p>
+
+<p>“你要知道…”——布鲁斯</p>
+
+<p>“亲爱的哈里…”——阿勒戴斯</p>
+
+<p>“你在俱乐部春风得意…”——卡佩罗</p>
+
+<p>“指挥国家队可是两回事…”——埃里克森</p>
+
+<p>“那里可没有你的人…”——霍奇森</p>
+
+<p>“莫德里奇是克罗地亚人…”——克罗地亚足协</p>
+
+<p>“范德法特是荷兰人…”——荷兰足协</p>
+
+<p>“而贝尔是威尔士人。”——威尔士足协</p>
+
+<p>“那我还有克劳奇和迪福。”——老雷德克纳普</p>
+
+<p>“但他们缺少雄心。”——弗格森</p>
+
+<p><strong>五、制霸</strong></p>
+
+<p>“我们西班牙…”——阿拉贡内斯</p>
+
+<p>“终于称霸世界了！”——博斯克</p>
+
+<p>“异议！”——巴蒂斯塔</p>
+
+<p>“异议！”——保罗·本托</p>
+
+<p>“当您看到这个公告的时候，我们刚刚做出了一个非常艰难的决定。在贵国新教练上岗满半年之前，作为世界和欧洲双料冠军，我们决定不与其所带球队打友谊赛，谢谢！”——西班牙足协</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fshui-henshen%2f&text= @calon %e6%b0%b4%e5%be%88%e6%b7%b1&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b0%b4%e5%be%88%e6%b7%b1》&body=https%3a%2f%2fioerr.github.io%2fshui-henshen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #吐槽 
+        
+      
+        #足球 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/23/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i>
+  </a>
+  
+
+  PAGE 24 / 227
+
+  
+  <a href="/page/25/" rel="next">
+    <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

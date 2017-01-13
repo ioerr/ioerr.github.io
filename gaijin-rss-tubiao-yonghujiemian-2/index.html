@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>改进 RSS 图标用户界面 \#2  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/gaijin-rss-tubiao-yonghujiemian-2/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/gaijin-rss-tubiao-yonghujiemian-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>09 Dec 2005, 18:12</time>
+      <h1>改进 RSS 图标用户界面 \#2</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://calon.weblogs.us/2005/12/07/gaijin_rss_tubiao_yonghujiemian/">上一篇</a>说到
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。</p>
+
+<p>首先逐个翻阅 <a href="http://www.bloglines.com/">Bloglines</a> 上订阅的
+blog，终于找到上一篇提到的 blog 就是 <a href="http://herock.net/">Herock Post</a>。</p>
+
+<p>接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。<br />
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。</p>
+
+<p>然后是在侧栏最下方增加 XML 图标，以及3个子栏目。<br />
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 <a href="http://herock.net/">Herock</a>
+的说明很不错，所以稍加修改就拿过来用了。</p>
+
+<p>在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。</p>
+
+<p>如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
+CSS，使得边框配色、字体与你的侧栏风格一致。</p>
+
+<p>如果你要像 <a href="http://herock.net/">Herock</a>
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 <a href="http://www.dynamicdrive.com/dynamicindex5/dhtmltooltip.htm">Cool DHTML
+Tooltip</a> 和
+[Tooltip.js]()。<br />
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
+tooltip，全部采用 <a href="http://herock.net/">Herock</a> 的方法。</p>
+
+<p>最终实现的效果请看 sidebar。<br />
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian-2%2f&text= @calon %e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/zuijin-wo-du-shenme-shu/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>最近我读什么书</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/gaijin-rss-tubiao-yonghujiemian/" rel="next">
+    <span>改进 RSS 图标用户界面</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

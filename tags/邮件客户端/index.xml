@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>邮件客户端 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF/index.xml</link>
+    <description>Recent content in 邮件客户端 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>选择邮件客户端</title>
+      <link>https://ioerr.github.io/xuanze-youjian-kehuduan/</link>
+      <pubDate>Mon, 25 Jan 2010 16:28:35 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/xuanze-youjian-kehuduan/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Becky! The Internet Mail&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;用了很长一段时间的 &lt;a href=&#34;http://www.rimarts.co.jp/&#34;&gt;Becky!&lt;/a&gt;
+作为主力邮件客户端（感谢 &lt;a href=&#34;http://wp.najja.org/&#34;&gt;Najja&lt;/a&gt;
+的推荐），虽然有许多其他客户端无法比拟的优点，如：&lt;br /&gt;
+搜索速度快，定位方便；&lt;br /&gt;
+邮件以单文件形式存档，不需要担心数据库文件出错，不需要老是重建索引；&lt;br /&gt;
+海量邮件处理速度快；&lt;br /&gt;
+资源占用很低，据我观察，应该是常用邮件客户端中资源占用最低的；&lt;br /&gt;
+可以调用外部编辑器编辑纯文本格式邮件；&lt;br /&gt;
+修改已收发的邮件头和正文很方便；&lt;br /&gt;
+远程管理功能好用；&lt;br /&gt;
+界面保守，不花里胡哨，适合工作使用。&lt;/p&gt;
+
+&lt;p&gt;但一些独特的问题却总是无法有效解决：&lt;br /&gt;
+通讯录功能简陋，不支持中文地址补全，导入导出非常麻烦；&lt;br /&gt;
+经过调教，虽然纯文本模式下中文乱码问题很少出现了，但 HTML 还是有问题；&lt;br /&gt;
+不能实现 Gmail 式的会话展示功能，只有树形线索模式；&lt;br /&gt;
+转发邮件时，有时候其他邮箱不认附件，如内部网页邮箱系统，不管是内联还是作为附件转发。&lt;/p&gt;
+
+&lt;h2 id=&#34;万般无奈之下-只好另寻替代-先后排除了需要收费-占用资源越来越大-上手就很不习惯的&#34;&gt;万般无奈之下，只好另寻替代，先后排除了需要收费、占用资源越来越大、上手就很不习惯的&lt;/h2&gt;
+
+&lt;p&gt;Bat!，越来越华而不实的几个国产邮件客户端，M\$系的几个客户端，还有一票从
+Wakoopa 和维基百科上找到的客户端，都不是非常满意。&lt;br /&gt;
+看看人家，觉得不满意操作系统就自己写一个，相比之下差距真大啊…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Foxmail&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;好不容易定下来随大流捡回新版的 Foxmail
+来用，结果在设置了几个新邮箱、导入了数百个联系人、数千封邮件之后，一个崩溃让一切都回到了解放前的状态，我不喜欢听刘欢的《重头再来》，于是心灰意懒，转向另一个老朋友
+Thunderbird。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thunderbird&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mozilla.com/Thunderbird/&#34;&gt;Thunderbird&lt;/a&gt;
+的毛病其实也不少，比如资源占用和乱码就是以前放弃使用它的原因，这次重新开始使用，不满意的地方还是存在：&lt;/p&gt;
+
+&lt;p&gt;HTML 模式下的邮件撰写编辑器相当的烂，代码混乱，功能弱；&lt;br /&gt;
+对中文的支持有小问题，如发出邮件后会自动插入、删除空格，部分文字变成乱码；&lt;br /&gt;
+全局搜索功能超级鸡肋，华而不实；&lt;br /&gt;
+没有原生的邮件快递功能；&lt;br /&gt;
+撰写邮件的时候，多个联系人地址不能批量操作；&lt;br /&gt;
+资源占用相对较高；&lt;br /&gt;
+远程管理功能弱。&lt;/p&gt;
+
+&lt;p&gt;然则 Thunderbird 的强大就在于有很大的调教空间，让它变得尽量顺手：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/11604&#34;&gt;Address Close
+Button&lt;/a&gt;&lt;br /&gt;
+在邮件撰写界面增加快速删除收件人地址的按钮；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/1556&#34;&gt;Allow HTML
+Temp&lt;/a&gt;&lt;br /&gt;
+临时显示超文本；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451&#34;&gt;gContactSync&lt;/a&gt;&lt;br /&gt;
+最强大贴心的 Google Contacts 同步工具，彻底解决在本地客户端和 Google
+Contacts 同步联系人的需求，比 &lt;a href=&#34;http://www.zindus.com/&#34;&gt;Zindus&lt;/a&gt; 强多了；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/54035&#34;&gt;GMail Conversation
+View&lt;/a&gt;&lt;br /&gt;
+实现类似 Gmail 会话模式的功能，比大多数邮件客户端的会话/线索模式强；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nic-nac-project.de/~kaosmos/mboximport-en.html&#34;&gt;ImportExportTools&lt;/a&gt;&lt;br /&gt;
+批量导入导出邮件的工具，效率相当高；&lt;br /&gt;
+以上两个扩展结合在一起，Thunderbird 导入导出功能很弱的缺点不再烦人；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://forums.mozillazine.org/viewtopic.php?t=72994&#34;&gt;KeyConfig&lt;/a&gt;&lt;br /&gt;
+自定义热键，适合键盘快速操作；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/6543&#34;&gt;Nightly Tester
+Tools&lt;/a&gt;&lt;br /&gt;
+玩扩展必备，遇到不兼容新版本的优秀扩展，还可以靠这个抢救一下；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/170&#34;&gt;Quote Colors&lt;/a&gt;&lt;br /&gt;
+改变邮件引文的文字、背景色；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/347&#34;&gt;QuoteCollapse&lt;/a&gt;&lt;br /&gt;
+自动收起引文，避免过长的引文导致阅读困难；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/4984&#34;&gt;Tag Dialog&lt;/a&gt;&lt;br /&gt;
+可方便快捷地创建标签，有已有标签列表作为提示，使得 Thunderbird
+的标签功能不那么鸡肋了；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/14395&#34;&gt;tbNotes&lt;/a&gt;&lt;br /&gt;
+为邮件增加记事贴用于备忘，可以统一管理记事贴；&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/5373&#34;&gt;ThunderBrowse&lt;/a&gt;&lt;br /&gt;
+在 Thunderbird 内部浏览网页，办公室忙里偷闲的好帮手。&lt;/p&gt;
+
+&lt;p&gt;正是某些扩展提供的功能不可替代，所以目前 Thunderbird
+还是首选邮件客户端。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Postbox&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.postbox-inc.com/&#34;&gt;Postbox&lt;/a&gt;
+是一个新出现不久的收费邮件客户端，在经过一段时间的 beta
+测试后，终于发布正式版本并进化到了1.1。&lt;br /&gt;
+可以把 Postbox 看成 Thunderbird 收费加强版——相对于 TB 裸奔版，内核相同的
+Postbox 集成了不少实用功能，优化了界面和性能，解决了一些顽疾，上手比
+Thunderbird
+要愉快许多，甚至可以用惊艳形容，许多细节和功能非常贴心，确实达到了收费的水准。&lt;/p&gt;
+
+&lt;p&gt;Postbox
+也可以使用&lt;a href=&#34;http://www.postbox-inc.com/extensions/&#34;&gt;扩展&lt;/a&gt;，基本都是从
+Thunderbird 扩展移植过来的，只可惜数量还很少，如没有
+&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451&#34;&gt;gContactSync&lt;/a&gt;
+只有 Zindus，有特殊需求的人就比较痛苦了。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

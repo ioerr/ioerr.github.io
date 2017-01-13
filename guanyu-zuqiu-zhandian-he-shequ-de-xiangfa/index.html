@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>关于足球站点和社区的想法  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/guanyu-zuqiu-zhandian-he-shequ-de-xiangfa/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/guanyu-zuqiu-zhandian-he-shequ-de-xiangfa/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>06 Jun 2007, 15:56</time>
+      <h1>关于足球站点和社区的想法</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>最近想为以前琢磨过的一个想法写个数据模型出来，但是真正写的时候发现我对数据库的了解实在太少。</p>
+
+<p>想法的起因是这样的，觉得目前没有一个让人满意的资料丰富、功能强大的足球站点和社区。什么是我想要的？</p>
+
+<p>一、详尽的资料库和强大的查询服务</p>
+
+<p>每个国家队、俱乐部球队、著名球员、教练等等都有相应的资料介绍，包括某场比赛的某个进球也能够有相应的视频资料链接。<br />
+各类资料的收集要考虑周全，如球员的原名、球衣名称、昵称、大陆译名、香港译名等。<br />
+各类信息分门别类建档，便于检索查询和统计，如根据日期、国家、球队级别查询出某个时间段内中国男子国家队入选球员名单、比赛交手记录、胜负情况，加上球员信息则可以查询出哪些球员在这段时期内入选过几次、首发情况、出场时间、进了几个球等等。<br />
+理想状况是，数据模型的合理构建加上充实的信息，能够提供给用户非常丰富的查询统计方式，用户面对的将是可以方便处置的元数据，和无处不相互关联的统计数据，而不是像很多足球数据网站提供的数据，看似很丰富实际不方便用户提取出他所需要的统计结果。<br />
+拿 <a href="http://www.fifa.com/">FIFA</a>
+的<a href="http://www.fifa.com/worldfootball/statisticsandrecords/index.html">数据统计</a>来举个例子：<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/tournaments/worldcup/matches/index.html">比赛记录</a>虽然做得不错，但是如果我想统计出其他的记录呢？<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/headtohead/team1=BRA/team2=FRA/index.html">法国和巴西的交锋记录</a>很详尽，但是我想看指定的十几只国家队中在非友谊赛上对巴西胜率最高的是哪个，该怎么统计呢？<br />
+如果我想查询近15年内在世界杯上总进球超过3个球员中谁的转会身价最低，欧洲冠军联赛改制以来单场比赛逆转次数最多同时又不是前一年联赛冠军的球队是哪一只，某年某场比赛某队中的国脚有哪几个，恐怕
+FIFA、UEFA
+或者各国足协的网站都无能为力吧，而有的专业足球数据库就算有这些资料，但是会向公众开放吗，能够达到这样的自由度吗？</p>
+
+<p>是的，这要求在拥有数据的基础上开放后台查询，但我估计以 FIFA
+目前的数据库来说，即使开放给用户做后台查询也未必能够查询到上面所说的某些结果，最根本的问题应该还是在数据模型上面吧。</p>
+
+<p>二、Wiki 式的资料收集方式</p>
+
+<p>除了要满足多种多样查询统计的需求之外，还想要有的是用户贡献的内容，有的资料是可以开放给用户自己编写的，类似于一个
+Wiki。但如何在资料的准确性和贡献者人数上取得平衡呢？也许应该借鉴
+Championship Manager/Football Manager
+系列的资料获取方法？不要求精确描述球员能力、潜力、精神属性的数值，相信难度会小很多，这几个项目相互合作也不错。</p>
+
+<p>三、主题论坛</p>
+
+<p>在 Wiki
+之外，每一个球队、每一个球员、每一场比赛、每一届赛事都对应一个讨分论坛，当你找到了球队、球员、比赛等等，也就自然找到了同主题进行讨论的地方。<br />
+而发布文章时，通过数量有限制的标签可以同时发布到几个论坛中，如标签为“Marseille”、“Bayern”、“Ribery”，那么文章就有三个分身分别出现在那三个主题的论坛中。<br />
+当然，这种方式还有很多问题要解决，如话题的分拆和合并，标签数量不够和垃圾标签轰炸等等。</p>
+
+<p>如果引入投票打分机制，或许还可以加上给不同阶段的某球队、某球员打分，评选精彩进球等等功能。<br />
+如果底层设计得优秀的话，还有很多功能可以快速实现呢。</p>
+
+<p>他喵的，这种事情应该由 FIFA、各洲际、各国足协来做，我操什么心嘛。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f&text= @calon %e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95》&body=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/flickr-bei-fengsha/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>Flickr 被封杀？</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/px-yu-64/" rel="next">
+    <span>PX 与6·4</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

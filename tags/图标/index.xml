@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图标 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%9B%BE%E6%A0%87/index.xml</link>
+    <description>Recent content in 图标 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E5%9B%BE%E6%A0%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>糟糕的图标</title>
+      <link>https://ioerr.github.io/zaogaode-tubiao/</link>
+      <pubDate>Tue, 14 Oct 2008 10:00:57 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/zaogaode-tubiao/</guid>
+      <description>&lt;p&gt;据说看一个人的领子和袖口是否整洁干净，就能看出他的素养，如果这两个地方拾掇不好，会影响他人的第一印象，这或许就是“领袖”一词的来历？&lt;/p&gt;
+
+&lt;p&gt;对一个程序来说，对应于领子和袖口的应该算是图标了。一款简洁明晰、赏心悦目的图标，能够大大提升用户的好感度，比如不少
+WinRAR 用户就因为7-Zip
+的图标朴素过头而不想使用——虽然我觉得既然能够欣然接受界面那么土的
+WinRAR，就没资格说这句话…&lt;/p&gt;
+
+&lt;p&gt;正所谓人生不如意者十之八九，总会有一些不那么简洁或明晰或美观的图标来告诉我们人生不是想象中的那么美好，下面试列举一二：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;不够简洁的图标：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;WinDVD&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_152557.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152557.png&#34; alt=&#34;WinDVD&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+作为一个 DVD
+播放软件，用光盘的形象就能够大致说明自己的身份了，顶多再增加几个字母以便和其他播放工具区别开来。但是
+WinDVD
+偏不，它的光盘图案一定要45度仰望天空，背景还奢侈地空出四成，下面码着一排貌似是电影胶片的东西。如果缩小成16×16的图标，这和涂鸦有什么区别？&lt;/p&gt;
+
+&lt;p&gt;Foxit Reader Uninstaller&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_152946.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152946.png&#34; alt=&#34;Foxit PDF
+Uninstall&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+一般的卸载程序，其图标一般都是有醒目的红叉、禁止符号或废纸篓形象，反正卸载程序通常就使用一次，不需要做得多么有个性（也可以顺便不给胆敢卸载的用户好脸色）。&lt;br /&gt;
+Foxit
+的这个卸载程序倒是使用了大红叉，但，后面那一片灰中带白的不规则物体是什么？&lt;/p&gt;
+
+&lt;p&gt;好吧，我终于悟到了！那个东西原来是 Foxit Reader
+图标去掉边框去色之后的形象，可为什么 Foxit 不像 Total Commander
+一样，卸载程序的图标就是原图标直接加一把红叉呢？&lt;/p&gt;
+
+&lt;p&gt;自然码&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_152236.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152236.png&#34; alt=&#34;ZRM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+自然码作为老牌的拼音输入法，其程序的界面和网站的主页都还是上个世纪的风格，从这个图标的设计也可以窥见一斑。&lt;br /&gt;
+一个小小的图标上，硬是挤进去了3个对象，握笔的手、2个“汉字”和3个“ZRM”的英文字母。&lt;br /&gt;
+这三者不但各据一方，不利用重叠来争取空间，而且2个汉字还采用了不适合的字体，缩小了看如同风干的发菜，英文字母更加上了阴影效果，于是整个图标看上去就变得极为不自然了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;不够明晰的图标：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;有一个未解之谜始终萦绕在我的心头，折磨着我那颗好奇的心，那就是局域网通信工具
+IPMSG 的图标：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00058.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00058.png&#34; alt=&#34;IPMSG&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+究竟是什么意思啊！&lt;/p&gt;
+
+&lt;p&gt;猜想之一：是一个扭曲的 X
+在对着一个黄色的小球翩翩起舞吗？难道作者暗示局域网通信的用户都心态扭曲且热衷于黄色内容？&lt;br /&gt;
+猜想之二：这是在对我国上古时代著名非主流异议人士夸父的一次惊世骇俗的行为艺术的致敬？看啊，那悬在天空的炽热的太阳，那脚下干旱灰暗的大地，和因为没有脑袋所以不辨方向且无法停止身体不断奔跑的夸父…&lt;br /&gt;
+猜想之三：罗素在《西方哲学史》中提到，休谟曾经如此形容卢梭：“他好像这样一个人，这人不仅被剥掉了衣服，而且被剥掉了其肤，在这情况下被赶出去和猛烈的狂风暴雨进行搏斗。”哦，这是一枚多么血腥暴力的图标啊～&lt;br /&gt;
+猜想之四：安迪同学挣扎着爬出了下水道，迎接他的是肖申克监狱的小太阳探照灯，一颗步枪子弹爆掉了他的头…哦，又一个提醒我们人生是一出悲剧的故事。&lt;/p&gt;
+
+&lt;p&gt;补充：感谢&lt;a href=&#34;http://menghao.net/&#34;&gt;麦可&lt;/a&gt;的提醒：&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+根据IP Messenger作者白水啓章的描述，IPMSG的这个图标是他根据电影「Star
+Trek:
+Generations」中「Dr.Soran」等待「Nexus」的这个画面制作而成的。但是当图标设计出来之后，自己也弄不太明白它到底是什么了。&lt;br /&gt;
+&lt;a href=&#34;http://www.ipmsg.org/ipmsg-history.html&#34;&gt;参考链接&lt;/a&gt;
+&lt;/blockquote&gt;
+看来原图就是这个了：&lt;br /&gt;
+&lt;img src=&#34;http://www.backyard-networks.de/the_enterprising_star_site/The%20Captains_files/image017.jpg&#34; alt=&#34;Nexus&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;仅次于 IMPSG 的谜语的，是 Foxit Reader 汉化版老版本的图标：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00057.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00057.png&#34; alt=&#34;Foxit PDF
+Reader&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+那4个方格子里面的绿色絮状物体究竟是什么啊？&lt;br /&gt;
+答案可能是（可能！我到现在还不能完全确定）在玻璃窗户中看到的绿色针叶林…&lt;/p&gt;
+
+&lt;p&gt;好吧，这和一款 PDF 阅读工具有什么关系呢？难道 PDF 的全称应该是 Pine in
+Deep Forest？救命～&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;不够赏心悦目的图标：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;简单的说，如果你想让大部分的用户觉得不舒服，最好的办法就是把图标和爬行/两栖动物的形象联系起来。&lt;br /&gt;
+比如由于大部分天生不害怕蛇的人类祖先在远古时代的树林里面都被咬死了咬死了咬死了，所以相当一部分的人对蛇有天生的恐惧感（但奇怪的是，蜘蛛和毛虫应该是祖先们的美餐才对，为何还有那么多人畏惧呢？难道饮食的品味也可以是自然选择的动力？）；比如说我们通常会形容长相丑陋的男女为青蛙和恐龙，童话里面设置了很高的门槛要美女们鼓起勇气去亲吻的也是一只青蛙，而不是整天卖萌的
+Hello Kitty。&lt;br /&gt;
+对爬行动物的天然抵触也许来自于白垩纪大资产阶级大地主恐龙灭绝之前哺乳动物们普遍形成的心理阴影，而对两栖类动物的反感可能纯粹是因为它们有变态期…&lt;/p&gt;
+
+&lt;p&gt;让我们来看看在这方面勇敢而无畏的程序吧，例如 Notepad++
+的老版本图标是一只彩色的避役：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=npplogo-1.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/npplogo-1.jpg&#34; alt=&#34;NPP&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+好在作者回头是岸，新版本中终于把长舌妇请走了。&lt;/p&gt;
+
+&lt;p&gt;而 K-Meleon 则是死性不改，一如既往的使用绿色的蜥蜴/蝾螈头像图标：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00059.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00059.png&#34; alt=&#34;K-Meleon&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;图标的设计者应该注意，远离低等脊椎动物不表示万事大吉，即使你选择人类的好朋友作为图标形象，也可能把事情搞砸。&lt;br /&gt;
+比如备受批评的 Irfanview，它的图标是一只四仰八叉装可怜的红色小狗：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_132213.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132213.jpg&#34; alt=&#34;Irfanview&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+图标放大了倒还可以让人接受，问题是如果把 Irfanview
+当作默认看图软件而你又选择了小图标模式浏览时，占领你眼帘的将是整屏幕的红叉——在小图标那个级别的时候谁还能领略到天皇巨狗的风范？&lt;/p&gt;
+
+&lt;p&gt;还有一个需要提到的就是 Crimson Editor 的图标：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_132143.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132143.jpg&#34; alt=&#34;Crimson&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+尽管狗也可以用来卖萌，但这粗糙的灰狗头像实在和软件的强大功能匹配不上，更重要的是，软件名称中的
+Crimson（深红）和灰狗到底有什么暧昧关系啊？！完全不能理解啊啊啊啊啊啊～&lt;/p&gt;
+
+&lt;p&gt;最后，《Don&amp;rsquo;t Make Me
+Think》的作者说，他的书甚少直接批评那些明显糟糕的设计，因为要设计制造出优秀的产品并不容易。这样的境界多么让人汗颜啊，但是如果真是这样，人生会少了多少乐趣啊～&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

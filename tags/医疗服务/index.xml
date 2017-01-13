@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>医疗服务 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/index.xml</link>
+    <description>Recent content in 医疗服务 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>可穿戴医疗设备</title>
+      <link>https://ioerr.github.io/kechuandai-yiliao-shebei/</link>
+      <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/kechuandai-yiliao-shebei/</guid>
+      <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
+大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有
+CT、透视乃至像大白一样全面检查。&lt;br /&gt;
+还有人提到要能够录音、录像和喷防狼喷雾以便应对医闹，说起来还真是心酸啊。&lt;/p&gt;
+
+&lt;p&gt;作为患者，我倒不奢求可穿戴医疗设备短期内增加足够精度的传感器后还能保证可用、实用、买得起，只要能够帮助优化就诊过程中的不良体验就谢天谢地了：&lt;/p&gt;
+
+&lt;p&gt;1、云端终身电子病历&lt;br /&gt;
+为什么病历本普遍还是纸质的（可以保留，但不应是必需），不同医院的病历不能共享作为参考？&lt;br /&gt;
+可穿戴设备中记录个人信息，无论到哪家医院，只要通过验证就能调取过往所有的就诊信息，即使没有联网也可以快速导出和导入。&lt;/p&gt;
+
+&lt;p&gt;2、尽量精简纸质材料&lt;br /&gt;
+除了用于报账的发票等信息外，其他如付账单、挂号单、取号单等等都应该可以在系统中流转，不需要患者攥在手中带着跑。&lt;br /&gt;
+即使是发票，都可以先交费，然后在离开医院时统一打印、盖章，就诊过程中不需要麻烦患者拿着。&lt;/p&gt;
+
+&lt;p&gt;3、便捷支付&lt;br /&gt;
+不要用每家医院一张专用诊疗充值卡的方案，可穿戴设备不能和患者银行账号打通直接付款太落后于时代了。&lt;br /&gt;
+既然已经有摆在门诊大厅的自助缴费机，也完全可以在医生面前就把钱付了。&lt;br /&gt;
+以后收费窗口完全可以省掉，确认费用后抬腕就交钱，可以节省多少排队时间。&lt;/p&gt;
+
+&lt;p&gt;4、流程指导&lt;br /&gt;
+挂号、收费、检查、诊断、取药、复查、各种入院出院手续……不清楚各个环节该怎么跑、要提前准备什么材料的人不在少数。这些搞不清楚状况的患者也时常让服务窗口的医生们抓狂。&lt;br /&gt;
+但只要没有简化流程，搞不清楚的患者就会层出不穷。&lt;br /&gt;
+倒不如让可穿戴设备自动提示下一个流程要做什么，要准备什么东西，剩下的还弄不明白的再引导到咨询台也只是极少数了吧。&lt;/p&gt;
+
+&lt;p&gt;5、指路&lt;br /&gt;
+内部结构如迷宫，地图指示缺失或看不懂的医院遇到过不少了，我甚至一度怀疑有的医院如此拙劣设计是有意为之，患者都在路上兜着圈呢，诊室的客流压力也就减轻了。&lt;br /&gt;
+结合上面所说的流程指导，可穿戴设备应该不但要提示下一个流程要去哪个窗口干什么，还实时指路告诉你应该怎么走过去。&lt;/p&gt;
+
+&lt;p&gt;6、预约排队&lt;br /&gt;
+属于基本功能了吧。&lt;br /&gt;
+现在多数医院电话、网上预约是没问题了，可还要到窗口取预约凭证。&lt;br /&gt;
+到了诊疗室，要取纸质号码条，或者交病历给护士人工排队。&lt;br /&gt;
+排队轮到多少号了，得守在门口的大屏幕前面盯着，没法获得提前通知，结果就是诊疗室门前人山人海。&lt;br /&gt;
+这些难道不都可以用电子手段取代吗？&lt;/p&gt;
+
+&lt;p&gt;7、预测耗时和统筹规划建议&lt;br /&gt;
+确定了检查项目，患者并不知道哪些检查的排队情况、检查过程、出结果时间分别怎样，可能在热门检查项目白白耗费太多时间，而错过了人少时间短的项目。&lt;br /&gt;
+如果可以结合检查项目情况和排队情况预测耗时，并且给出检查顺序的建议，相信可以节省很多时间。&lt;/p&gt;
+
+&lt;p&gt;8、诊疗结果同步通知&lt;br /&gt;
+接收诊疗结果是最基础的功能。&lt;br /&gt;
+要是家人不在本地，或没有时间陪伴就诊，诊疗结果也应该要能同步分享，省得一一通知。&lt;/p&gt;
+
+&lt;p&gt;9、服药、治疗提醒&lt;br /&gt;
+不用多说，有了诊断结果、药方、治疗方案信息，能提醒患者按时服药、治疗、交钱是最基本的功能。&lt;/p&gt;
+
+&lt;p&gt;10、优化停车、病房探望体验&lt;br /&gt;
+停车卡和诊疗卡的信息和付费应该能通过可穿戴设备打通，像 ETC 一样方便。&lt;br /&gt;
+另外，谁是留下来照顾住院患者的家属，谁是临时探望的亲戚朋友，通过可穿戴设备注册、验证身份和授权即可区分，可以据此更好的管理病房内闲杂人等。&lt;/p&gt;
+
+&lt;p&gt;11、吊针感应&lt;br /&gt;
+如果非要加新的感应器的话，感知吊瓶滴液的速度、压力来判断是否快滴完，或者没有插好，应该算是比较实用的附加功能吧？&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

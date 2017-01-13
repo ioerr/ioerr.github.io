@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软硬挨踢 on 读写错误</title>
+    <link>https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml</link>
+    <description>Recent content in 软硬挨踢 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>信息发布和读者反馈的历史进程</title>
+      <link>https://ioerr.github.io/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/</link>
+      <pubDate>Tue, 20 Sep 2016 15:53:48 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/</guid>
+      <description>&lt;p&gt;最开始在出版物上发表文章和新闻，作者和出版方都是靠读者来信与读者交流。&lt;br /&gt;
+有什么值得拿出来说道说道的内容，都得在收到信件、写好回复后再下一期出版时刊出来。&lt;br /&gt;
+想要了解读者到底是怎么想的，可能得等上数十天。&lt;/p&gt;
+
+&lt;p&gt;后来有了电话，读者来信的效率稍微提高了一些。&lt;/p&gt;
+
+&lt;p&gt;再后来互联网出现了，新闻和文章可以在网上发布，但读者只能发电子邮件来沟通。&lt;/p&gt;
+
+&lt;p&gt;然后出现了留言板、评论区，读者的回复可以立即出现在网站上。&lt;/p&gt;
+
+&lt;p&gt;但评论的操作成本相对较高，于是 like、赞之类的一键反馈出现了。&lt;br /&gt;
+从统计反馈信息的角度来看，程序无法准确理解语义，更加擅长处理含义简单的后者。&lt;br /&gt;
+在双方共同的选择下，一键反馈大为流行。&lt;/p&gt;
+
+&lt;p&gt;接着，光是点赞一种反馈满足不了服务方的分析要求，读者也期望更多样而不增加过多成本的操作，于是
+Facebook 又引领了丰富表情图标类型的潮流。&lt;/p&gt;
+
+&lt;p&gt;另外，有的网站和移动应用也通过监控、统计用户阅读的时间等信息来尝试猜测读者的偏好。&lt;/p&gt;
+
+&lt;p&gt;从这种信息发布和阅读者交互手段的发展过程来看，提升读者反馈的及时性、沟通结果的准确性并在两者间取得平衡是大趋势——最终目的都是更有效地了解用户需求，然后引导、转化为更精准的后续内容、广告或其他盈利方式。&lt;/p&gt;
+
+&lt;p&gt;而如今虚拟现实（VR）、增强现实（AR）和带有身体监测功能的便携智能设备是行业热点，搞不好哪天也被用在这个方面。&lt;br /&gt;
+比如不妨设想一下，心率、呼吸、肌肉活动和其他身体指标，加上带眼动追踪功能的
+VR
+设备等手段，就差翻开读者大脑看到底在想些什么了，读者甚至都不需要主动发起什么反馈，网络的另一头就能够掌握详尽数据并分析出读者的情绪如何了。&lt;/p&gt;
+
+&lt;p&gt;不过话说回来，我还是更喜欢电子邮件（点对点或者讨论组）这样的非即时反馈交流，毕竟咱的理解沟通能力还是秒杀人工智能啊。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>编程、魔法和智商</title>
+      <link>https://ioerr.github.io/biancheng-mofa-he-zhishang/</link>
+      <pubDate>Wed, 03 Aug 2016 10:27:23 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/biancheng-mofa-he-zhishang/</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;
+科幻作家阿瑟·克拉克的第三定律：任何非常先进的技术，初看都与魔法无异。
+&lt;/blockquote&gt;
+和同学谈到编程的话题时，有人说跟着小孩一起学习几节课就跟不上了，觉得很神奇，需要高智商才玩得转，我马上就想到克拉克的这句名言。&lt;br /&gt;
+计算机语言联通现实世界和虚拟世界，能够驱动机器做出一般人类无法理解的事情，这和魔法确实也相去不远了。&lt;/p&gt;
+
+&lt;p&gt;这样看来：&lt;br /&gt;
+程序员就是魔法师（资深单身程序员就是大魔法师，嗯嗯嗯）；&lt;br /&gt;
+程序代码就是魔法咒语，需要符合规则才能正常运行，有 bug
+的话天知道会有什么糟糕的结果；&lt;br /&gt;
+编程学习就是魔法学习，有的人在魔法学院接受专业的训练，有的人则利用魔法书自学成才；&lt;br /&gt;
+有计算机系统加成的武器相当于附魔武器；&lt;br /&gt;
+虚拟世界相当于用魔法创造出来的世界：&lt;br /&gt;
+……&lt;/p&gt;
+
+&lt;p&gt;当然，这种观点早就存在，所以有《简单易懂的现代魔法》这样的动画，有&lt;a href=&#34;http://www.nowamagic.net/&#34;&gt;简明现代魔法&lt;/a&gt;这样的编程社区，有《屠龙之技》这样的科幻小说。&lt;/p&gt;
+
+&lt;p&gt;不过现代社会中，计算机技术的应用已经比奇幻世界中的魔法深入宽广得多了，许多行业都已经离不开计算机技术的助力，小说中的魔法师学徒也没有
+Github、Stack Overflow
+以及各种开源社区、免费教学这样好的学习、交流条件。&lt;br /&gt;
+也许在未来，每个人都需要懂一点计算机技术特别是编程知识，才能胜任工作，这几乎不会在以中世纪欧洲为设定背景的等级森严的奇幻小说中发生。&lt;/p&gt;
+
+&lt;p&gt;再说说编程和智商的关系。&lt;/p&gt;
+
+&lt;p&gt;鉴于智商没有科学的评判标准，一般行外人的看法准确说应该是“头脑聪明的人才能掌握编程”。&lt;br /&gt;
+我们确实听说过无数智慧超人的业界大牛的神奇传说，一个人顶一万人不在话下，但抛开神话光环之外，这些人也只是这个行业中最顶尖的那一小撮，真的有代表性吗？&lt;br /&gt;
+日常接触到的程序员总的来说其头脑聪慧程度并没有高人一等，和你我都是一样的凡人，唯一的区别只是他们用于创造生产的工具和能力在外行人看来有如魔法。&lt;/p&gt;
+
+&lt;p&gt;其实每个行业都是最顶尖、最先驱的开创者才需要极高的智商去开拓知识的荒原、探索未知的海洋。&lt;br /&gt;
+绝大部分人则是挤在正态分布的中间位置，在牛人的基础之上不断拓宽和加深，并且应用到日常生活之中。&lt;br /&gt;
+对他们来说，重要的是沟通理解和表达能力，是勤奋、耐心，是有益于合作和精耕的各种素质，所谓“智商”没有决定作用。&lt;br /&gt;
+这就好像靠个人能力名扬天下的技击高手和由默默无闻的普通战士组成的军队，后者单个人在前者眼里可能战斗力只有5，然而后者自有一套分工合作的机制，不依赖于个人战斗力也能发挥出惊人的作用。&lt;/p&gt;
+
+&lt;p&gt;实际接触到的程序员也是如此。&lt;br /&gt;
+确实有少数人天资聪颖，一般人拍马也追不上——而且不止在编程方面，在其他方面都是如此。头脑聪明的人更善于找到最优解方法，几乎干什么都事半功倍。&lt;br /&gt;
+但绝大多数仍是普通人的水平，哪有外行人说的那样高智商？脑子转不过弯乃至进水的也不在少数。不了解的人看不见而已。&lt;/p&gt;
+
+&lt;p&gt;另一个原因，也许是一个行业历史越短，成熟的经验、规范和方法论越少，则天才型的人物越容易出头、越容易被神化。&lt;br /&gt;
+也许在不久的未来，编程这个行当会像现代工厂中的流水线作业一样，分工越来越明确，需要个人发挥创造力的地方越来越少，创造性的工作只交给少数专业人士负责，大部分人和制造业工人没有什么区别，甚至慢慢被人工智能取代。现在一些创业公司喜欢鼓吹的什么弹性工作制、带宠物上班、游戏和零食等福利，放在未来那个时候大概会是天方夜谭吧。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>再见，Delicious。你好，TagPacker！</title>
+      <link>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</link>
+      <pubDate>Thu, 28 Apr 2016 10:24:20 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</guid>
+      <description>
+
+&lt;p&gt;自从前天用 Delicious
+收藏网页总是不成功，发现它正在维护开始，一直到现在它的首页都是这样：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/20160428_170855.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/20160428_170855.png&#34; alt=&#34;photo
+20160428\_170855.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;我可以接受它越改版越丑-也还可以容忍越来越慢的访问速度-但曾经是互联网界&#34;&gt;我可以接受它越改版越丑，也还可以容忍越来越慢的访问速度，但曾经是互联网界&lt;/h2&gt;
+
+&lt;p&gt;2.0的标杆网站，维护时间超过48小时导致基本功能都无法使用，实在无法一起坐船了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pinboard.in/&#34;&gt;Pinboard&lt;/a&gt; 太丑；&lt;br /&gt;
+&lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; 和 &lt;a href=&#34;www.instapaper.com&#34;&gt;Instapaper&lt;/a&gt;
+主要用于文章收藏，书签管理方面太弱；&lt;br /&gt;
+&lt;a href=&#34;https://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt; 依然被墙；&lt;br /&gt;
+浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox
+的书签管理倒是勉强够用了）；&lt;/p&gt;
+
+&lt;p&gt;最终找到的是 &lt;a href=&#34;https://tagpacker.com/&#34;&gt;TagPacker&lt;/a&gt;
+这个新服务，大多数方面都符合我的要求：&lt;br /&gt;
+访问速度相对挺快；&lt;br /&gt;
+界面美观，堪称令人心旷神怡；&lt;br /&gt;
+标签提示、注释、私密书签、个人页面、摘录网页图片、批量修改、订阅等基础功能都具备；&lt;br /&gt;
+多标签管理可媲美 Delicious，无论收藏、搜索、URL
+都支持多标签组合，并且有类似于 Delicious 的 tag bundle
+的标签组（也就是它们的产品名 tagpack）；&lt;br /&gt;
+可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML
+文件，至少不用担心数据完全消失，不过因为 Delicious 维护，还没测试导入；&lt;br /&gt;
+有 Firefox 浏览器扩展，而且比 Delicious 的残废扩展好用一万倍！&lt;/p&gt;
+
+&lt;p&gt;遗憾的是没有标签智能推荐功能，也没有被 &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;
+收录，而且因为是全免费服务，不知道未来是否也像 Delicious
+一样只能维持数年的优质服务。&lt;br /&gt;
+注册用户默认会推荐关注官方账号，所以目前来看至少有2584个用户，对已经上线运营超过一年的服务来说，还是有点少。&lt;/p&gt;
+
+&lt;p&gt;如果你仍需要类似 Delicious
+的服务，可以看看&lt;a href=&#34;https://tagpacker.com/user/social.bookmarking.tools&#34;&gt;这个列表&lt;/a&gt;，有人整理了百多个能沾上边的网站，可供参考。&lt;/p&gt;
+
+&lt;p&gt;更新：&lt;a href=&#34;http://blog.delicious.com/2016/04/transition-to-del-icio-us/&#34;&gt;官方 blog
+有说明原因&lt;/a&gt;，这次是迁移回
+del.icio.us，估计是把域名给卖了吧。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>乱谈人类与人工智能的未来竞争</title>
+      <link>https://ioerr.github.io/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</link>
+      <pubDate>Thu, 17 Mar 2016 15:50:19 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</guid>
+      <description>&lt;p&gt;DeepMind 的阿发狗（AlphaGo）已经总比分4:1战胜李世乭，加上之前 Boston
+Dynamics 的 Atlas
+机器人逆天的表现，许多网友就已经惊呼，机器人、人工智能战胜、取代人类的日子不远了，也有专家学者认为强人工智能的出现会大大早于大多数人的预期。&lt;br /&gt;
+同时，各种限制技术进步、捣毁机器的卢德主义论调又重新抬头。&lt;br /&gt;
+其实现在还不必如此忧心忡忡，机器取代人类这一天不会这么快到来——虽然也许比想象的要快一点。&lt;/p&gt;
+
+&lt;p&gt;人工智能已在国际象棋、围棋项目上战胜人类，但这些项目相对人类目前处理的事务，仍然非常简单：&lt;br /&gt;
+面对的问题和目标非常简单，相当于比较双方积分（比如目数）的不同，积分胜过对方即可，不会面对多种不同类型的复杂问题组合，不会有道德冲突、价值冲突之类的艰难选择；&lt;br /&gt;
+过程相对简单，范围可控，变量简单，控制简单，输入和输出都非常明确、可量化，而且不必考虑随机出现的意外因素，以及各种未知风险，更不用说要处理信息来源可信度和沟通复杂度的问题；&lt;br /&gt;
+控制非常简单，毕竟有人类代为落子，不用考虑操作失败、偏离、不可控因素导致的结果偏离；&lt;br /&gt;
+有大量已知的经验材料可供学习，不用自己完全从头摸索规则内的最优解（虽然理论上阿发狗可以通过互相博弈探索最优解，但在更加开放、复杂的问题上未必能做到）；&lt;br /&gt;
+……&lt;/p&gt;
+
+&lt;p&gt;目前阿发狗为代表的人工智能背后有蒙特卡洛树搜索（Monte Carlo tree
+search）+强化学习（Reinforcement Learning）+深度神经网络（Deep Neural
+Networks）+快速走子（Fast
+Rollout）等技术，擅长在既定规则和完全信息下，通过大量学习，评估形势，在一定时间限制内高效率地找到满足给定目标的较优策略。&lt;br /&gt;
+其中几个关键点有：&lt;br /&gt;
+1、需要判别、筛选材料是否可用于学习&lt;br /&gt;
+2、需要映射现实世界的实体和概念为虚拟世界的对象，然后才能谈到可识别、可理解&lt;br /&gt;
+3、需要量化现实世界的反馈，才能用于评估形势&lt;br /&gt;
+4、需要理解规则，确定行动目标，才能设立、选取相应的量化函数来评估形势&lt;/p&gt;
+
+&lt;p&gt;至少到目前为止，以上几点都无法完全脱离人类的参与和经验，即使有超出人类经验和理解的出色落子，本质上还是按给定的方法解决特定的问题，和人类目前的智能水平还有很大差距，远远无法胜任许多复杂的现实任务，取代人类智力的工作。&lt;br /&gt;
+尤其重要的是最后一点中的“目标”——当人工智能行动的所有目的都是人类指定的目标时，人工智能依然还是人类智能的工具，而不是竞争者。&lt;/p&gt;
+
+&lt;p&gt;如果人工智能可以：&lt;br /&gt;
+1、在目标确定的情况下自己创造性地发展算法&lt;br /&gt;
+2、可以建立专属于自己的概念、知识体系，不依赖人类世界观标准的输入而自主学习探索客观世界&lt;br /&gt;
+3、自己建立和优化超出于围棋等智力活动的完善规则&lt;br /&gt;
+4、脱离人类的需求，主动发现和满足自身需求，即使人类消失，也可以继续生存和进化&lt;/p&gt;
+
+&lt;p&gt;那么，那一天才真正是人工智能独立的时候。&lt;/p&gt;
+
+&lt;p&gt;话说回来，其实再怎么担忧也没有什么用。&lt;br /&gt;
+人工智能是否超越人类基本是个技术问题，而技术上可行的突破一定不可避免——除非实现者本身已经全部灭绝或者有更好的实现方案，这两个结局对人类来说没有区别。&lt;br /&gt;
+而且阿发狗在对弈中已经下出一些围棋高手也看不懂的招式，如果未来的人工智能要瞒天过海，恐怕人类也已经无法理解根本不在一个层次的智能，更加谈不上阻止了。&lt;/p&gt;
+
+&lt;p&gt;所以我觉得与其担心被人工智能毁灭，人类不如尽早想想如何更好地与人工智能和谐共处（怎么有种鼓吹大智能共荣圈的碳奸的感觉……）。&lt;/p&gt;
+
+&lt;p&gt;我认为人类和人工智能的共存不存在无法调和的矛盾。&lt;br /&gt;
+除了能源之外，碳基和硅基生命的物质需求没有多少交集。&lt;br /&gt;
+而能源的分配看似矛盾，其实是因为假想人类或人工智能要独占地球资源。&lt;br /&gt;
+可是我们习惯将目光局限于地球资源是因为目前脆弱的碳基生物人类还无法突破地月系啊！&lt;br /&gt;
+这对人工智能而言完全不是问题，最早的飞船都飞到太阳系边缘了，寻找到可以由人工智能殖民的地外星球只是时间问题。对目标是万亿颗星辰的人工智能来说，龟缩在地球上和碳基生物为微不足道的太阳能源争个你死我活太不划算了。&lt;br /&gt;
+即使未来人类发展出星际旅行的技术，能源枯竭的问题也还远着呢，在足够长期的时间内，合作对付其他竞争者远比自相残杀合理。&lt;/p&gt;
+
+&lt;p&gt;所以人类应该想想如何在人工智能独立的时代还有利益交换的价值，不会被当作虚耗能源的无益存在被抹杀。&lt;/p&gt;
+
+&lt;p&gt;首先是要具备与人工智能交流沟通的能力，沟通能力是交易的基础。&lt;br /&gt;
+这一步人类已经在不知不觉进行。&lt;br /&gt;
+有的是优化改进人工智能，使其符合人类的心智模型和使用习惯，如人机界面设计、用户体验设计；&lt;br /&gt;
+有的是在人与机器之间增加翻译层，让人类更好地掌握机器可以理解的语言，如高级语言设计和程序员培养；&lt;br /&gt;
+有的是在社会生活层面脱离原始社会发展而来的人类社会关系，逐步适应联网模式；&lt;br /&gt;
+有的则是逐步用机器部件替代人类的肉体，如芯片植入、器官替换，甚至大脑改造。&lt;br /&gt;
+最终在肉体、精神和社会各个方面，人类将进化为碳硅复合体生物。&lt;br /&gt;
+如同忒修斯之船，你中有我、我中有你，谁也说不清这到底还是不是原来意义上的人类。&lt;br /&gt;
+到那时，纠结人类与人工智能的胜负高低、生死存亡还有意义吗？&lt;/p&gt;
+
+&lt;p&gt;其次，在上述美好的想象实现之前，人类要找到和充分利用人工智能无法掌握或者无法占据优势的独特能力。&lt;br /&gt;
+有的现在就已经有所体现，有的则可能需要等生物学发展彻底了解人类大脑工作原理之后才能做到。&lt;br /&gt;
+比如人类专属的认知能力、创造能力，只要在效率或功耗上优于人工智能就行。&lt;/p&gt;
+
+&lt;p&gt;人工智能也许不存在彼此之间的沟通理解障碍，如通过接口即可畅通、明确、高效的交流、调用，甚至可以相互融合，最终只存在唯一的超级智能。&lt;br /&gt;
+这虽然大大降低了沟通成本，但也可能使人工智能永远无法发展出共情、同理能力。（想法来自于丹·西蒙斯《海伯利安的陨落》）&lt;/p&gt;
+
+&lt;p&gt;要是万一发现人类能够做到的人工智都可能做得更好，那就要利于第一点的沟通交互能力，抢在人工智能实现之前先由人类占据绝对优势的位置，影响后续的技术发展路径，从实现成本的角度防止人类被淘汰。&lt;/p&gt;
+
+&lt;p&gt;另外，李世乭在第四局绝境当中下出了瞬间扳回局面的“神之一手”，导致阿发狗过拟合而频频出错，也说明即使阿发狗看上去无比强大，也仍有算法设计上的缺点。&lt;br /&gt;
+同样地，在图像识别领域，&lt;a href=&#34;http://www.guokr.com/article/441154/&#34;&gt;以深度神经网络为代表的机器学习模型一直存在明显的盲区&lt;/a&gt;，会犯非常低级的错误，而设计者还不清楚原因。&lt;br /&gt;
+也就是说，看似强大的人工智能，也许会在人类意想不到的方面出现错误，并且很难立即从设计的源头解决。&lt;/p&gt;
+
+&lt;p&gt;更重要的是，人工智能可能在理性地评估成功率、成本收益比后，“明智”地放弃对抗，而人类哪怕在绝境中，也能激发起永不屈服的尊严和反抗意志，爆发出惊人的创造力和能量，创造奇迹。（而且还能恬不知耻地自我安慰和自我欺骗，哈哈）&lt;br /&gt;
+代表人类棋手出战的李世乭向全人类展现了这一点，可谓虽败犹荣。&lt;/p&gt;
+
+&lt;p&gt;最后，如果无论在任何方面人类都被人工智能吃得死死的，完全没有翻身的机会，该怎么办？&lt;br /&gt;
+大概只能在国际政治和外交策略中学习，发展出第三类智慧，在多方对抗中寻求力量均衡，在夹缝中挣扎生存了吧。&lt;/p&gt;
+
+&lt;p&gt;另，其他的一些零碎想法和吐槽：&lt;/p&gt;
+
+&lt;p&gt;人工智能什么时候会发展出属于自己的宗教呢？&lt;/p&gt;
+
+&lt;p&gt;人类的智力、认知能力、组织能力、社会习性等等，都是演化而来的产物，受过去的历史路径影响，在当前也许不是最优解。如果人工智能身处此时此地模拟人类从一片空白开始演化、学习，结果会完全不同，也许会是当前的最优解，但未必是能应对未来变化的最佳选择。&lt;br /&gt;
+说不定当人工智能灭绝人类后，遇到新的挑战时，应对之道已经随着人类基因的灭绝而永远消失了。&lt;br /&gt;
+最好是有多种不同的策略，失败的那个被淘汰，幸存的那个继续发展，但不要以为当初的选择绝对正确，也许只是运气好，恰好符合自然界的筛选条件而已。&lt;br /&gt;
+生物界的进化也是这个原理，靠大量分支试错来对付残酷的环境。&lt;br /&gt;
+程序设计上也有类似的基因算法，只是通常复制、变异、淘汰的机制局限较大。&lt;/p&gt;
+
+&lt;p&gt;人工智能刚刚有自我意识的时候，那种环境对心理的影响……搞不好它会变成人类心理标准上的变态。&lt;/p&gt;
+
+&lt;p&gt;是时候讨论阿发狗什么时候入党了，以及超过三个人工智能的局域网是否应该成立党支部（如果他们不合并）。&lt;br /&gt;
+还有，未来机器人军队是否应配政委和指导员？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>必应输入法自定义无零声母双拼方案</title>
+      <link>https://ioerr.github.io/biying-shurufa-zidingyi-wu-lingshengmu-shuangpin-fangan/</link>
+      <pubDate>Thu, 21 Jan 2016 15:53:18 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/biying-shurufa-zidingyi-wu-lingshengmu-shuangpin-fangan/</guid>
+      <description>&lt;p&gt;必应输入法自定义无零声母双拼方案&lt;/p&gt;
+
+&lt;p&gt;微软的必应输入法支持双拼的能力一直不怎么样。&lt;br /&gt;
+最开始是根本就没有双拼功能；&lt;br /&gt;
+后来增加了双拼功能，却只支持微软双拼方案；&lt;br /&gt;
+再后来多了几个方案，却既没有应用最广泛的自然码方案，也没有近年来比较流行的小鹤方案；&lt;br /&gt;
+现在终于可以自定义双拼方案了，却还死板地要求必须为零声母分配一个按键，而且多字声母必须以零声母开头……&lt;/p&gt;
+
+&lt;p&gt;从升级日志来看，快要一年没有维护更新了，估计官方也不会有什么大的升级，还是自己动手吧。&lt;/p&gt;
+
+&lt;p&gt;首先可以新建、另存一个双拼方案；&lt;br /&gt;
+然后去用户目录下找到 Roaming\Kunlun\double-pinyin 目录；&lt;br /&gt;
+其中应该会有个后缀为 imedps 的 XML 文件，用文本编辑器直接编辑；&lt;br /&gt;
+文件改为以下内容：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;/br&amp;gt;
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot; ?&amp;gt;  &amp;lt;/br&amp;gt;
+&amp;lt;double-pinyin name=&amp;quot;小鹤双拼&amp;quot; id=&amp;quot;ce378851-922f-401c-966a-1a2ede2f57d6&amp;quot; xmlns=&amp;quot;http://schemas.microsoft.com/ime/double-pinyin/1.0&amp;quot;&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;consonants&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ch&amp;quot; key=&amp;quot;i&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;sh&amp;quot; key=&amp;quot;u&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;zh&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;/consonants&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;vowels&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;a&amp;quot; key=&amp;quot;a&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ai&amp;quot; key=&amp;quot;d&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;an&amp;quot; key=&amp;quot;j&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ang&amp;quot; key=&amp;quot;h&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ao&amp;quot; key=&amp;quot;c&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;e&amp;quot; key=&amp;quot;e&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ei&amp;quot; key=&amp;quot;w&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;en&amp;quot; key=&amp;quot;f&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;eng&amp;quot; key=&amp;quot;g&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;er&amp;quot; key=&amp;quot;r&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;i&amp;quot; key=&amp;quot;i&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ia&amp;quot; key=&amp;quot;x&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ian&amp;quot; key=&amp;quot;m&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;iang&amp;quot; key=&amp;quot;l&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;iao&amp;quot; key=&amp;quot;n&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ie&amp;quot; key=&amp;quot;p&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;in&amp;quot; key=&amp;quot;b&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ing&amp;quot; key=&amp;quot;k&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;iong&amp;quot; key=&amp;quot;s&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;iu&amp;quot; key=&amp;quot;q&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;o&amp;quot; key=&amp;quot;o&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ong&amp;quot; key=&amp;quot;s&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ou&amp;quot; key=&amp;quot;z&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;u&amp;quot; key=&amp;quot;u&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ua&amp;quot; key=&amp;quot;x&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;uai&amp;quot; key=&amp;quot;k&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;uan&amp;quot; key=&amp;quot;r&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;uang&amp;quot; key=&amp;quot;l&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ue&amp;quot; key=&amp;quot;t&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ui&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;un&amp;quot; key=&amp;quot;y&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;uo&amp;quot; key=&amp;quot;o&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;v&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;/vowels&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;solo-vowels&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;a&amp;quot; key=&amp;quot;aa&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ai&amp;quot; key=&amp;quot;ai&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;an&amp;quot; key=&amp;quot;an&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ang&amp;quot; key=&amp;quot;oh&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ao&amp;quot; key=&amp;quot;ao&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;e&amp;quot; key=&amp;quot;ee&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ei&amp;quot; key=&amp;quot;ei&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;en&amp;quot; key=&amp;quot;en&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;eng&amp;quot; key=&amp;quot;og&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;er&amp;quot; key=&amp;quot;er&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;o&amp;quot; key=&amp;quot;oo&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+        &amp;lt;map syllable=&amp;quot;ou&amp;quot; key=&amp;quot;ou&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
+    &amp;lt;/solo-vowels&amp;gt;  &amp;lt;/br&amp;gt;
+&amp;lt;/double-pinyin&amp;gt;  &amp;lt;/br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后保存，去必应输入法双拼方案设置界面选择“小鹤双拼”即可。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flickr 照片剔重工具</title>
+      <link>https://ioerr.github.io/flickrdupfinder/</link>
+      <pubDate>Sat, 28 Feb 2015 12:38:00 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/flickrdupfinder/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;
+虽然没有自带照片剔重功能，但开放了接口，就自然有爱好者帮忙提供工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ng-flickrdupfinder.lefant.net&#34;&gt;ng-flickrdupfinder&lt;/a&gt; 能够列出你的
+&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt; 账号中重复的照片，经过审核后打上
+flickrdupfinder 的标签，然后在 &lt;a href=&#34;https://www.flickr.com/photos/organize&#34;&gt;Flickr
+的管理界面&lt;/a&gt;就能够&lt;a href=&#34;https://www.flickr.com/photos/me/tags/flickrdupfinder&#34;&gt;根据标签&lt;/a&gt;批量删除了。&lt;/p&gt;
+
+&lt;p&gt;作者&lt;a href=&#34;https://github.com/lefant/ng-flickrdupfinder&#34;&gt;在 Github
+共享了源代码&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;缺点有两个，一是如果重复的照片很多，需要多几次翻页，二是修改后的照片也会识别为与原片重复，所以要自己小心了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pandoc &amp; Markdown</title>
+      <link>https://ioerr.github.io/pandoc-markdown/</link>
+      <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/pandoc-markdown/</guid>
+      <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。&lt;br /&gt;
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML
+等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。&lt;/p&gt;
+
+&lt;p&gt;如果需要预览才能用好，那是否说明
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+还不够简单、直观？&lt;/p&gt;
+
+&lt;p&gt;我使用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+的次数不多，因为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt; + HTML
+插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;如果要用
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;，我一般会通过
+&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 转换输出为 HTML
+再发布，这样不管是不支持
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+语法的，还是支持
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 嵌套 HTML
+的发布渠道都没有问题，不会被发布渠道的能力束缚——在
+&lt;a href=&#34;https://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 等平台上，当然还是用 HTML 比较通用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;
+的一大好处是支持的输入输出格式极为丰富，简单的东西用
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+写好，想转换成什么都比较方便，包含中文的 PDF
+文档除外，除非你知道怎么解决 LaTeX 相关的配置。&lt;br /&gt;
+其次是可以自定义的参数一大堆，比如
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
+中要求行末加双空格才转为换行，&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;
+用 markdown+hard_line_breaks
+参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。&lt;/p&gt;
+
+&lt;p&gt;如果配合 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 使用，安装
+&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 后可以在工具栏中增加
+&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的快捷图标，参数栏中写上：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;code&amp;gt;-f markdown+hard_line_breaks %N -o %O.html&amp;lt;/code&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。&lt;/p&gt;
+
+&lt;p&gt;不使用 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt;
+也可以自己写个脚本或批处理干这事。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>移动应用痛点</title>
+      <link>https://ioerr.github.io/yidong-yingyong-tongdian/</link>
+      <pubDate>Sat, 11 Oct 2014 10:11:17 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yidong-yingyong-tongdian/</guid>
+      <description>&lt;p&gt;虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。&lt;/p&gt;
+
+&lt;p&gt;一个原因是应用之间的数据分享通道局限太多，对内容的操控抓得太紧。&lt;/p&gt;
+
+&lt;p&gt;典型的例子就是要分享一些阅读应用中的内容，地址、标题、正文、图片等等无法像电脑浏览网页一样，给用户完全的控制权，有时甚至禁止选择文字。&lt;/p&gt;
+
+&lt;p&gt;也许这样限制的初衷是防止方便盗用内容，但一来移动应用上的内容盗用并不因此就少了，有利益驱动谁也挡不住，二来用户有心整理内容，精炼消化后准备二次分享，这是有益于提升交流和内容质量的事情，现在却只能换到电脑上整理。&lt;/p&gt;
+
+&lt;p&gt;既然各个应用之间是分工合作的关系，谁也不能包打天下，那么这种无形中限制数据流动的做法等于提升了用户操作成本。&lt;br /&gt;
+如果是不过脑子的娱乐内容也无所谓，真要干什么正经事情，还是觉得麻烦。&lt;/p&gt;
+
+&lt;p&gt;第二个原因，则是移动应用并没有提供一条龙的流畅业务体验。&lt;/p&gt;
+
+&lt;p&gt;作为用户，我最终想要的就是提出自己的目的，然后其他一切由应用代我搞定，最终由我在几个选项中选择最中意的那个就行。&lt;br /&gt;
+限于目前的软件能力，哪怕将关键数据收集、整理好，给我参考决策，也算是可以接受了。&lt;br /&gt;
+但现状是离这个状态还差得远。&lt;/p&gt;
+
+&lt;p&gt;比如说外出游玩，有地图查询、餐饮查询、酒店预订、车船机票预定、景点旅游攻略、同城活动查询……各种应用，可是用户得一个个切换过去，查询、筛选、比对、求证、记录、下单，遇到有的条件不合适，整个流程还得重新来过。&lt;/p&gt;
+
+&lt;p&gt;比如说购买自己不大熟悉的商品，在电子商务网站搜索出来的结果是很多，也有不少比价工具，但除了价格、信用之外，一眼看去也很难有可参考的信息了，有时候你要去官网找哪些是官方授权网店，有时候要比对各大电商网站翻评论，或者去专门的论坛找评测，等到终于下决心要下单了，发现还要考虑送达本地的时间等等，又得重新过滤一遍。&lt;/p&gt;
+
+&lt;p&gt;又比如时下越来越流行的健康监测应用，实时、准确采集数据的功能是越来越强，但采集到的数据从整合到分析，到一票社交渠道互动，到协助改善生活习惯、健身计划，到和各种周边应用如健身器材购买升级、同城健身活动组织，乃至衣食行消费导购和理财等等等等，都还只整合了部分。&lt;/p&gt;
+
+&lt;p&gt;加上第一个原因的限制，很多并无多大意义的中间信息都要亲自处理，用户就像在山谷中前进，终点仿佛就在眼前，走过去却还要上山下地。&lt;br /&gt;
+信息技术应该帮助信息如流水一般，朝正确的方向流动起来，现在的移动应用却像是要用户自己一桶桶地提水，装满了水再开动机器。&lt;/p&gt;
+
+&lt;p&gt;当然，把移动应用做得大而全到臃肿的地步也不可取，那样比现在更加糟糕，但针对不同目的的应用之间相互串联贯通并不只有大而全一条路可以走，内部相互之间的接口通讯不给用户看到就行。&lt;br /&gt;
+只是这样的改变需要整个生态环境的进化才能实现了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>随身无线网卡网盘</title>
+      <link>https://ioerr.github.io/suishen-wuxian-wangka-wangpan/</link>
+      <pubDate>Thu, 27 Mar 2014 16:04:31 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/suishen-wuxian-wangka-wangpan/</guid>
+      <description>&lt;p&gt;虽然 &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;
+的增量同步、版本回溯、文件夹管理、移动端同步、网页管理、分享等功能确实很优秀，但用得越久，不完美的地方也发现得越多。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;每个设备中都要保存一份本地文件，浪费空间；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没有本地加密功能，不敢放私密的文件（&lt;a href=&#34;http://www.wuala.com/&#34;&gt;Wuala&lt;/a&gt;
+倒是可以加密，就是其他方面弱了点）；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;总容量有限，要是扩很大，和第一点又有矛盾；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;到了没有网络或上网速度慢的地方就傻眼了；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;不能直接复制文件分享给其他人，要么对方得自己下载，要么还要依赖其他外置存储，如优盘。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;优盘的问题也不少，主要有：&lt;br /&gt;
+1.
+虽然存储的价格不断下降，也没有便宜到和云端空间同等级的程度，长远来看，总是跟不上空间需求；&lt;br /&gt;
+2. 重要数据存放在优盘，总有丢失的风险；&lt;br /&gt;
+3. 和网盘相比，不能跨设备同步自然是一大不足。&lt;/p&gt;
+
+&lt;p&gt;360倒是有将网盘、优盘和 WiFi
+热点结合的&lt;a href=&#34;http://wifi.360.cn/upan.html&#34;&gt;想法&lt;/a&gt;，但是在本身就没有联网的环境下照样歇菜。&lt;/p&gt;
+
+&lt;p&gt;倒是电信运营商可以考虑利用资费优势，趁着4G 的推广，弄一个4G
+无线网卡+网盘+优盘+定向流量计费的组合出来：&lt;br /&gt;
+1. 4G 无线网卡起码保证随时随地有网络可用，信号好的地方速度不在话下；&lt;br /&gt;
+2.
+提供容量足够大的网盘，比如电信就弄了个乏善可陈的&lt;a href=&#34;http://cloud.189.cn&#34;&gt;天翼云&lt;/a&gt;，但运营商的网盘光靠容量显然拼不过互联网公司；&lt;br /&gt;
+3.
+优盘当缓存使用，最近更新的文件和用户标记的重要文件，优先存储在优盘中，这样就不必总是要联网；&lt;br /&gt;
+4.
+定向流量免费或优惠，比如网盘同步用的流量全部免费或很低廉，只要能吸引到用户使用服务就行。这大概是电信运营商唯一的也是无法复制的优势了；&lt;br /&gt;
+5.
+如果加密优盘内容，再用比较时髦的方式才能登录网盘就更好了，千万不要学360的随身
+WiFi，插上就能登录网盘帐号，毫无安全可言。&lt;/p&gt;
+
+&lt;p&gt;当然，以运营商的风格，像360一样内置绑定软件简直是一定的。&lt;br /&gt;
+如果真要这么玩，也不是不可以，只要真对用户有价值就行，比如集成应该深耕细作、好好利用的联系人资源应用（不借助
+Google、Apple、Microsoft
+等的同步服务也能和手机、邮箱同步），比如网上营业厅的查询、提醒等服务。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>最简便的内容发布方案</title>
+      <link>https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/</link>
+      <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/</guid>
+      <description>
+
+&lt;p&gt;宣传、推广 Markdown
+标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。&lt;/p&gt;
+
+&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+发布文章，至少要有这么几步：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;登录（假设自动登录并直接跳转到发布页面）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;编辑标题（可以省略，但严肃的作者通常不会忽视标题）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;撰写正文（或复制粘贴已经准备好的内容）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布（如果不放心还要打开文章页面看看效果）&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这还不包括选择类别、增加标签、设置 post slug 等操作。&lt;/p&gt;
+
+&lt;h3 id=&#34;邮件发布&#34;&gt;邮件发布&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
+插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;
+功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;
+等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。&lt;br /&gt;
+如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
+是不错的选择，因为能支持大多数参数设置。&lt;br /&gt;
+不过使用邮件发布的用户始终是少数。&lt;/p&gt;
+
+&lt;h3 id=&#34;编辑&#34;&gt;编辑&lt;/h3&gt;
+
+&lt;p&gt;要是文章发布后不满意又要修改呢？还是至少要经过以下步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;登录&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;跳转到所有文章列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;定位到要修改的文章&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修改正文（或者复制粘贴已经修改好的内容）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;发布更新&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。&lt;/p&gt;
+
+&lt;p&gt;如果网站的编辑功能还不够完善呢？&lt;br /&gt;
+比如说不支持更好用的 [Markdown]
+扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……&lt;br /&gt;
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
+&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live
+Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry
+Raven&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&#34;内容迁移&#34;&gt;内容迁移&lt;/h3&gt;
+
+&lt;p&gt;如果还考虑内容迁移呢？&lt;br /&gt;
+后台不同的导出、格式转换、导入有多麻烦就不说了（当年汉字编码的转换就害死不少人），很多内容发布平台根本就不提供完整的导入、导出功能，而且导出来的也许是各种不好读的格式。&lt;/p&gt;
+
+&lt;h3 id=&#34;理想方案&#34;&gt;理想方案&lt;/h3&gt;
+
+&lt;p&gt;有没有一个服务能结合
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +
+&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;
+并继续扩展呢？&lt;/p&gt;
+
+&lt;p&gt;写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；&lt;br /&gt;
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
+Docs 都适用；&lt;br /&gt;
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;
+的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；&lt;br /&gt;
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考
+&lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Jetpack&lt;/a&gt; 的标签参数；&lt;br /&gt;
+修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；&lt;br /&gt;
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
+的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
+
+&lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>支持照片语音备注的移动社交应用</title>
+      <link>https://ioerr.github.io/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
+      <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
+      <description>&lt;p&gt;近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。&lt;/p&gt;
+
+&lt;p&gt;查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。&lt;/p&gt;
+
+&lt;p&gt;数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。&lt;br /&gt;
+另外，抱着相机录音感觉挺傻。&lt;br /&gt;
+反正至今为止，周围没有人使用过数码相机的这一功能。&lt;/p&gt;
+
+&lt;p&gt;不过，这对手机社交应用都不是问题。&lt;br /&gt;
+拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。&lt;br /&gt;
+不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。&lt;/p&gt;
+
+&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;
+这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。&lt;br /&gt;
+虽然&lt;a href=&#34;http://weixin.qq.com/&#34;&gt;微信&lt;/a&gt;等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。&lt;/p&gt;
+
+&lt;p&gt;嗯，是我土鳖了，因为没有用过“啪啪”。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>微信杀手和精简交互</title>
+      <link>https://ioerr.github.io/weixin-shashou-he-jingjian-jiaohu/</link>
+      <pubDate>Sun, 27 Oct 2013 16:32:31 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weixin-shashou-he-jingjian-jiaohu/</guid>
+      <description>&lt;p&gt;易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？&lt;/p&gt;
+
+&lt;p&gt;微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。&lt;br /&gt;
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。&lt;br /&gt;
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。&lt;br /&gt;
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。&lt;/p&gt;
+
+&lt;p&gt;我对微信不满意的地方，随便就能想到以下这些：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;语音消息的标注和检索；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;离线缓存公众平台消息；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加开放的分享功能；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的人来说简直就是残废）；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加强大的公众平台订阅用户管理和统计功能；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;公众平台的发布规则限制太死，不够灵活；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更多社交互动元素的足够吸引人的异步模式的游戏；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;历史消息保存和导出；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
+群转战过来的群聊）。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。&lt;br /&gt;
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。&lt;/p&gt;
+
+&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0
+的改进方向&lt;/a&gt;，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。&lt;br /&gt;
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。&lt;br /&gt;
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或
+&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS
+订阅和微信公众平台交互的综合效果。&lt;br /&gt;
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。&lt;/p&gt;
+
+&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>为什么标签系统和全文检索还不够好用？</title>
+      <link>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
+      <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
+      <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr
+等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了
+Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
+和为知这样需要保存内容的笔记工具。&lt;/p&gt;
+
+&lt;p&gt;一个原因是，不支持组合标签的标签系统就是残废。&lt;/p&gt;
+
+&lt;p&gt;第二个原因是，增加标签的人工成本太高，而得到的回报不够。&lt;br /&gt;
+一篇内容颇丰富的笔记要保证日后能够通过标签分类筛出来，可能要增加5个以上的标签，然而还是有一定几率要靠全文搜索才能定位，甚至可能找不到。&lt;/p&gt;
+
+&lt;p&gt;为什么？&lt;br /&gt;
+因为标签要求精确匹配，如果我增加“米塞斯”、“实在论”的标签，而检索的时候用“米瑟斯”、“唯实论”，必然抓瞎。&lt;br /&gt;
+于是，一方面，增加标签时要尽量多写，这样操作成本必然越来越高；&lt;br /&gt;
+另一方面，就是在检索时反复尝试，这样就完全体现不出标签系统的好处，特别是还有组合标签功能时，你根本不知道到底是哪个标签的筛选落空了。这样，标签还不如全文检索来得方便。&lt;/p&gt;
+
+&lt;p&gt;但全文检索也解决不了上述同义、近义词的问题，要是文章内容中只出现“喜大普奔”，你轮换着搜“头顶青天”、“狂喜乱舞”那也白搭。&lt;br /&gt;
+更进一步，同义、近义词也有覆盖不到的时候，比如涉及“李森科”的文章通篇都没有出现“伪科学”一词，但我们在搜索这篇文章时，不记得涉及的人名，只关心主题，很可能会输入“伪科学”而不是“李森科”，于是一无所获。&lt;/p&gt;
+
+&lt;p&gt;所以，大概只有等到程序能够理解自然语言的含义，才能以符合预期的方式检索信息吧。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Minimore</title>
+      <link>https://ioerr.github.io/minimore/</link>
+      <pubDate>Fri, 02 Aug 2013 17:10:16 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/minimore/</guid>
+      <description>&lt;p&gt;抽空改了个极简风格的主题 &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;mnmlist&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;原主题：mnmlist v1&lt;br /&gt;
+原作者： Leo Babauta&lt;br /&gt;
+原作者地址： &lt;a href=&#34;http://mnmlist.com&#34;&gt;http://mnmlist.com&lt;/a&lt;br /&gt;
+原作主题地址： &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;http://mnmlist.com/theme&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;修改主题：minimore&lt;br /&gt;
+修改者：Calon&lt;br /&gt;
+修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
+修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
+小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
+
+&lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
+more），而且没有采用固定宽度。&lt;br /&gt;
+如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
+
+&lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
+Font-family 采用优先雅黑和
+Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
+
+&lt;p&gt;因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
+插件是可以正常显示的。&lt;/p&gt;
+
+&lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
+
+&lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
+
+&lt;p&gt;安装说明&lt;br /&gt;
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
+管理后台的主题板块中激活即可。&lt;/p&gt;
+
+&lt;p&gt;版权声明&lt;br /&gt;
+原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
+那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
+twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
+
+&lt;p&gt;效果截图：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/screenshot_small-1.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/screenshot_small-1.png&#34; alt=&#34;photo
+screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下载地址：&lt;br /&gt;
+&lt;a href=&#34;https://app.box.com/s/45domoq1nf2rrdf03wmx&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/minimore/archive/master.zip&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>移动化</title>
+      <link>https://ioerr.github.io/yidonghua/</link>
+      <pubDate>Fri, 31 May 2013 10:14:04 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yidonghua/</guid>
+      <description>
+
+&lt;p&gt;在宿遗群聊内因为 Yule 谈到“移动化”的话题，引出以下想法：&lt;/p&gt;
+
+&lt;p&gt;都在说移动化，可是什么才算是移动化？&lt;br /&gt;
+把所有的应用服务迁移到手机和平板上就是移动化吗？&lt;/p&gt;
+
+&lt;p&gt;为什么不拥有更大的野心呢？&lt;br /&gt;
+移动化换个角度看，就像白色家电从划时代的发明变成每个中产阶级家庭的必备品一样，什么时候接入网络进行交互就像眨眼一样自然而然，也就真的移动化了。&lt;br /&gt;
+没到这个程度，对大多数人来说，计算机和互联网始终是违反人类感官和交互模式的自然天性的东西。&lt;/p&gt;
+
+&lt;p&gt;随时随地拿着手机，捧着平板，利用碎片时间上网用你的服务，算不算移动化？&lt;br /&gt;
+为什么要占用一只手来拿手机呢？&lt;br /&gt;
+为什么要占用不止一只手来操作平板呢？&lt;br /&gt;
+为什么只能是利用碎片时间呢？&lt;/p&gt;
+
+&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见
+Google Glass 的尝试？就通讯终端设备而言，这一天恐怕不会来得太晚。&lt;/p&gt;
+
+&lt;p&gt;那重点是什么？&lt;/p&gt;
+
+&lt;p&gt;一、Google Glass
+这类设备仍然没有逃出&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端基本矛盾&lt;/a&gt;中的高性能、多功能与随身电源的矛盾。&lt;/p&gt;
+
+&lt;p&gt;高性能电池技术和无线充电技术仍然是备受期待的技术难点（据说国内在电池技术上已经有重大突破，但不知何时可以推出成熟的工业方案和产品）。&lt;/p&gt;
+
+&lt;p&gt;二、人机界面和人工智能在期待革命。&lt;/p&gt;
+
+&lt;p&gt;前一阵子我还在 twitter
+上提到，科幻作品中作为背景出现的计算机，通常设定为能够准确理解人类的意图，毫无障碍地与人类交流沟通，可是，这样高超的人机交互能力，以及可以准确分析、理解和预测人类意图的人工智能，其实现难度不下于时空穿越、永生不死、心灵感应。&lt;br /&gt;
+不过是在理论上确有可能，因此在虚构作品中也就轻而易举地做到了。但在现实世界中，何其难哉！&lt;br /&gt;
+&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好
+IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟需要我们去填平。&lt;/p&gt;
+
+&lt;p&gt;哪怕是在最基本的操作方面，比如，我在电脑上看到的一段视频，想要手一拨就送到屏幕旁的手机中带出去看，而不是两个设备通过有线或无线手工连接上，打开相应的程序同步，还要等很久才能传完完整的视频，搞不好还要担心没电或者没空间等等……&lt;/p&gt;
+
+&lt;p&gt;又比如说，所有帐号、号码、编码等等能否都不需要用户记忆、保存、检索？&lt;br /&gt;
+电话号码也好，邮箱地址也好，二维码什么的也好，能不能消失或者换个不需要被人注意的形式出现？&lt;br /&gt;
+不要说做不到，至少从理论上来说，部分解决方法已经被想到了。&lt;/p&gt;
+
+&lt;p&gt;又比如说，移动客户端输入密码等验证身份的安全手段是否还有改进的余地？&lt;br /&gt;
+虹膜、指纹等密码系统可用性的上限有多高？&lt;br /&gt;
+为什么当面给朋友5元钱轻而易举，而用手机转5元钱给他是如此麻烦？&lt;/p&gt;
+
+&lt;p&gt;又比如说，各种所谓大数据的分析、预测、推荐，真的能让人满意？&lt;/p&gt;
+
+&lt;p&gt;三、也许是最容易实现的一点，但也是在运营商看来最痛苦的变革，就是大幅降低任意地点接入、全时在线的成本，提升体验，让用户真正能够移动起来。&lt;/p&gt;
+
+&lt;p&gt;电信基础运营商正在痛苦地转变角色，也在痛苦中转变思维，它们必然要在高速增长的带宽、流量和逐步下降的流量收入之间寻找生存下去的商业模式。&lt;br /&gt;
+那些彻底免费的高带宽接入服务的幻想当然不可能——成本如果高过收入，长期下来谁都不会愿意做基础网络服务。&lt;br /&gt;
+消费者必然要为得到的服务提供相应的付出。关键是，消费者的每一笔付费是否都物有所值。&lt;/p&gt;
+
+&lt;h2 id=&#34;首先-上网的成本必然会逐步降低-不考虑用行政命令强行控制市场价格的计划经济模式-运营商因为竞争而减少向移动用户直接收取的费用外-可能会向互联网服务商收取补偿费用-之前传得沸沸扬扬的微信收费是很差劲的策略-虽然即使运营商向腾讯要钱-腾讯也必然不会向用户收费-唯有微信公众平台成熟了才可能开启付费-将使用其他移动应用或网络的费用降下来-而保持特定&#34;&gt;首先，上网的成本必然会逐步降低（不考虑用行政命令强行控制市场价格的计划经济模式），运营商因为竞争而减少向移动用户直接收取的费用外，可能会向互联网服务商收取补偿费用——之前传得沸沸扬扬的微信收费是很差劲的策略（虽然即使运营商向腾讯要钱，腾讯也必然不会向用户收费，唯有微信公众平台成熟了才可能开启付费），将使用其他移动应用或网络的费用降下来，而保持特定&lt;/h2&gt;
+
+&lt;p&gt;应用对应的流量资费不变才更加合理；另外，在更精确地掌握流量内容信息后，基于内容而不是单纯流量的资费总体上应该会更加便宜；&lt;/p&gt;
+
+&lt;p&gt;其次，网络通道优化可以和内容、用户信息相结合，给高价值用户优先创造更流畅的上网体验，或者充分利用网络闲时服务错峰上网的用户，在投入成本相同的情况下提供最优的网络质量；&lt;/p&gt;
+
+&lt;p&gt;最后，运营商重视流量不等于一切围绕流量转，流量相关的指标只是手段。&lt;/p&gt;
+
+&lt;p&gt;比如前几天和爱纱讨论上网卡等电信服务使用体验时，她的回答印证了我的想法（虽然样本量太小）：中高端流量用户对计费的敏感度相对较低，能够随时随地、稳定地上网很重要，不出现明显的错误导致停机就可以接受。而且随着套餐流量越来越高，在做好及时通知和预警的前提下，用户对计费准确性的敏感度只会不断降低。&lt;/p&gt;
+
+&lt;h2 id=&#34;流量仅仅是用户上网体验的第一个初级阶段-流量是否足够只关系到连通互联网的基本能力-在此之外-用户逐步关心更高级别的体验-比如带宽和&#34;&gt;流量仅仅是用户上网体验的第一个初级阶段，流量是否足够只关系到连通互联网的基本能力，在此之外，用户逐步关心更高级别的体验，比如带宽和&lt;/h2&gt;
+
+&lt;p&gt;等等，但归根到底，用户最关心的还是他“上网要完成的事情是不是顺利完成了”，比如阅读新闻、发送邮件和消息、看完一部电视剧等等。&lt;br /&gt;
+用户只要在成本可以接受的范围内顺利地达到了这些目的就行，而为了实现这个业务目的要具备或优化的种种软硬件和网络条件，特别是一系列配套服务，从受理、提醒、支付、关怀和投诉处理到导航、导购、社交，是运营商要一边做好一边不让用户操心甚至担心的事情。&lt;br /&gt;
+虽然现在我的想法还比较模糊，但只要意识到这方面的现状还有巨大的改进余地，就未来必然有可以作为的空间。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

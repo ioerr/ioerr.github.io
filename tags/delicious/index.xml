@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Delicious on 读写错误</title>
+    <link>https://ioerr.github.io/tags/delicious/index.xml</link>
+    <description>Recent content in Delicious on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/delicious/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>再见，Delicious。你好，TagPacker！</title>
+      <link>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</link>
+      <pubDate>Thu, 28 Apr 2016 10:24:20 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</guid>
+      <description>
+
+&lt;p&gt;自从前天用 Delicious
+收藏网页总是不成功，发现它正在维护开始，一直到现在它的首页都是这样：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/20160428_170855.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/20160428_170855.png&#34; alt=&#34;photo
+20160428\_170855.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;我可以接受它越改版越丑-也还可以容忍越来越慢的访问速度-但曾经是互联网界&#34;&gt;我可以接受它越改版越丑，也还可以容忍越来越慢的访问速度，但曾经是互联网界&lt;/h2&gt;
+
+&lt;p&gt;2.0的标杆网站，维护时间超过48小时导致基本功能都无法使用，实在无法一起坐船了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pinboard.in/&#34;&gt;Pinboard&lt;/a&gt; 太丑；&lt;br /&gt;
+&lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; 和 &lt;a href=&#34;www.instapaper.com&#34;&gt;Instapaper&lt;/a&gt;
+主要用于文章收藏，书签管理方面太弱；&lt;br /&gt;
+&lt;a href=&#34;https://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt; 依然被墙；&lt;br /&gt;
+浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox
+的书签管理倒是勉强够用了）；&lt;/p&gt;
+
+&lt;p&gt;最终找到的是 &lt;a href=&#34;https://tagpacker.com/&#34;&gt;TagPacker&lt;/a&gt;
+这个新服务，大多数方面都符合我的要求：&lt;br /&gt;
+访问速度相对挺快；&lt;br /&gt;
+界面美观，堪称令人心旷神怡；&lt;br /&gt;
+标签提示、注释、私密书签、个人页面、摘录网页图片、批量修改、订阅等基础功能都具备；&lt;br /&gt;
+多标签管理可媲美 Delicious，无论收藏、搜索、URL
+都支持多标签组合，并且有类似于 Delicious 的 tag bundle
+的标签组（也就是它们的产品名 tagpack）；&lt;br /&gt;
+可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML
+文件，至少不用担心数据完全消失，不过因为 Delicious 维护，还没测试导入；&lt;br /&gt;
+有 Firefox 浏览器扩展，而且比 Delicious 的残废扩展好用一万倍！&lt;/p&gt;
+
+&lt;p&gt;遗憾的是没有标签智能推荐功能，也没有被 &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;
+收录，而且因为是全免费服务，不知道未来是否也像 Delicious
+一样只能维持数年的优质服务。&lt;br /&gt;
+注册用户默认会推荐关注官方账号，所以目前来看至少有2584个用户，对已经上线运营超过一年的服务来说，还是有点少。&lt;/p&gt;
+
+&lt;p&gt;如果你仍需要类似 Delicious
+的服务，可以看看&lt;a href=&#34;https://tagpacker.com/user/social.bookmarking.tools&#34;&gt;这个列表&lt;/a&gt;，有人整理了百多个能沾上边的网站，可供参考。&lt;/p&gt;
+
+&lt;p&gt;更新：&lt;a href=&#34;http://blog.delicious.com/2016/04/transition-to-del-icio-us/&#34;&gt;官方 blog
+有说明原因&lt;/a&gt;，这次是迁移回
+del.icio.us，估计是把域名给卖了吧。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Del.icio.us 2.0</title>
+      <link>https://ioerr.github.io/delicious-20/</link>
+      <pubDate>Sat, 02 Aug 2008 17:33:38 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/delicious-20/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt;
+&lt;a href=&#34;http://blog.delicious.com/blog/2008/07/oh-happy-day.html&#34;&gt;新版本&lt;/a&gt;经过&lt;a href=&#34;http://calon.weblogs.us/delicious_2_neice/&#34;&gt;这么久的测试&lt;/a&gt;之后终于上线了，&lt;a href=&#34;http://calon.weblogs.us/delicious-preview/&#34;&gt;如前所述&lt;/a&gt;，并没有特别震撼人的新功能。&lt;/p&gt;
+
+&lt;p&gt;对我来说，注释增加到支持1000字节，速度有了提升才是最实惠的。界面是有了进步，配色风格我很喜欢，但我更庆幸的是它没有变得无比华丽。&lt;/p&gt;
+
+&lt;p&gt;最后说说 &lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt; 默认地址变更为 delicious.com
+的事情。&lt;br /&gt;
+我觉得官方的态度很对，del.icio.us
+刚出道时这个名字是很酷，但不要忘记大多数人可能连 .com
+之外的域名都没什么概念，作为一个社会化的服务，如果只适合一小撮脱离群众的感觉良好人士，那么感觉再良好也是失败的。当然，能够保留原来的地址不变也很重要，老用户不会感到痛苦，升级的代价才会最小。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Del.icio.us Preview</title>
+      <link>https://ioerr.github.io/delicious-preview/</link>
+      <pubDate>Thu, 27 Sep 2007 14:39:31 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/delicious-preview/</guid>
+      <description>&lt;p&gt;昨天收到了 &lt;a href=&#34;http://preview.delicious.com/&#34;&gt;Del.icio.us Preview&lt;/a&gt;
+的邀请，因为已经有不少人剧透，所以今天进去转了一圈没有太多新发现，觉得最大的改变还是界面美化许多。&lt;/p&gt;
+
+&lt;p&gt;我感兴趣的新特性有：&lt;br /&gt;
+可以搜索 Network 中的书签；&lt;br /&gt;
+增强了对 Network 的管理，如创建群组、设置私有书签、报告 spam；&lt;br /&gt;
+增强了订阅功能，支持打包订阅；&lt;br /&gt;
+收藏时的 note 可支持1000个字符；&lt;br /&gt;
+可以设置与用户名不同的昵称；&lt;br /&gt;
+3类展示模式：title、regular、full；&lt;br /&gt;
+增加了随机浏览书签的模式。&lt;/p&gt;
+
+&lt;p&gt;感觉新版本在界面上更加突出 Network、Inbox 的地位：&lt;br /&gt;
+My Network 放在了专门新增的 People 按钮下；&lt;br /&gt;
+Inbox 看上去和 Flickr
+的收件箱差不多，实际是添加“for:auser”标签之后发送给指定用户看的，就是老版本中的“links
+for you”。&lt;/p&gt;
+
+&lt;p&gt;已经发现的问题：&lt;br /&gt;
+在 Tag Bar
+中输入关联标签时，自动补全的标签名只能够用键盘确认，鼠标不可，官方的说法是正在改进；&lt;br /&gt;
+自动补全的标签不能够自动识别是否是有效的关联标签，如我的 Blog
+标签中没有同时打上 Album 标签的条目，但是在Blog 标签页面的 Tag Bar
+中输入 A，自动补全选项中会出现 Album，如果选择了它便提示“You have no
+bookmarks with these tags used
+together.”，如果在此前的输入时进行判断后不提供 Album
+的补全选项更加合理；&lt;br /&gt;
+目前收录书签时的标签提示还未出现用户自己的书签，只有最受欢迎的书签会出现在补全提示中，可能是随机出现这种情况；&lt;br /&gt;
+订阅的界面反不如老版本清晰；&lt;br /&gt;
+目前还不知道接口开放的情况，也无法输出条目到其他站点看效果，顿时感觉
+Del.icio.us 的魅力减少许多。&lt;/p&gt;
+
+&lt;p&gt;在浏览标签的界面能实现不刷新页面地跳转标签，体验应会好很多，然则
+&lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt; 本来就是朴素为先，也就忍了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Del.icio.us 2.0 内测</title>
+      <link>https://ioerr.github.io/delicious-2-neice/</link>
+      <pubDate>Sun, 09 Sep 2007 15:32:48 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/delicious-2-neice/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.techcrunch.com/2007/09/06/exclusive-screen-shots-and-feature-overview-of-delicious-20-preview/&#34;&gt;看消息&lt;/a&gt;说
+&lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt; 2.0正在内测，已知的改变如下：&lt;/p&gt;
+
+&lt;p&gt;现在共有按收藏的时间、热度和首字母顺序三种排序方式；&lt;br /&gt;
+批量标签编辑；&lt;br /&gt;
+管理友邻和所关注用户的网络；&lt;br /&gt;
+增强的搜索，包括个人、个人网络和所有书签的搜索；&lt;br /&gt;
+新的浏览工具条、侧栏等等；&lt;br /&gt;
+使用 delicious.com 的地址。&lt;/p&gt;
+
+&lt;p&gt;没有能够打动我的新功能，貌似仍没有页面缓存功能，不知道条目输出和中文搜索有无改进，但界面看上去漂亮许多，估计是因为换成了一种更加养眼的蓝色，以及适当地增加使用了图标、色块，比之前朴素的界面多了一些点缀，又不至于太乱。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://del.icio.us/help/preview&#34;&gt;&lt;img src=&#34;http://www.techcrunch.com/wp-content/delp.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

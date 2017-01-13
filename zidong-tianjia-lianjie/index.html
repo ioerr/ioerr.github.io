@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>自动添加链接  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/zidong-tianjia-lianjie/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/zidong-tianjia-lianjie/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>30 Oct 2005, 05:37</time>
+      <h1>自动添加链接</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个
+<a href="http://wordpress.org/">WordPress</a> 插件处理中文都不尽人意，无法在 blog
+上使用。不过想到 <a href="http://www.vim.org/">gVim</a>
+有强大易用的缩略语功能，为什么不用来实现这个功能呢？</p>
+
+<p>在 _vimrc 文件中写入缩略语的定义，重新打开
+<a href="http://www.vim.org/">Vim</a>，剩下的就不用费心了。</p>
+
+<p>这样做的好处是：<br />
+1、输入自定义的英文字符串比每次原原本本输入完整的名称要方便得多。例如，我希望每次文中出现“维基百科”这个词的时候，自动转换为“”，那么不妨定义这个
+HTML 语句的缩略语为“Wikipedia”，这样每次只要输入该词，Vim
+就会自动转换了。<br />
+2、不局限于在某个 blog 上使用，只要有需要，用在哪里都可以，即时你的 blog
+没有支持链接替换功能的插件，也能够享受到此功能。<br />
+3、不必是转换为 HTML
+链接，仅仅做缩略语也很方便实用，例如懒得输入“第二次世界大战”，那就用 WII
+代替好了，而使用插件便只能老老实实输入完全符合的词组，不能够有偷懒。<br />
+4、插件自动转换链接有时可能出现错误，但你得等到 blog
+发布之后才能够看得到。而采用这种办法，在草稿阶段就能发现错误，保证链接正确。还可以灵活选择那些地方不用转换链接。<br />
+5、使用此方法同样可以代替
+<a href="http://www.zerohex.org/?page_id=35">WP-Define</a>
+这种插件的功能，当然你还可以用来实现更多的实用功能，而不必自己写插件。<br />
+6、如果插件不支持中文字符，那么可以用此方法绕过这个限制。</p>
+
+<p>缺点也是明显的：<br />
+1、对于已经发布的 blog 没有作用。如果链接更改、作废了，要更新也很麻烦。<br />
+2、不能用中文字符做缩略语。<br />
+3、本机上的_vimrc
+文件内容需要复制到编辑时所用的机器上，当然，如果使用网上空间作存储，也不是很严重的问题，就是麻烦一点。<br />
+4、最大的障碍：喜欢用 <a href="http://www.vim.org/">Vim</a> 毕竟只是极少数人…</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzidong-tianjia-lianjie%2f&text= @calon %e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0%e9%93%be%e6%8e%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0%e9%93%be%e6%8e%a5》&body=https%3a%2f%2fioerr.github.io%2fzidong-tianjia-lianjie%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/changyongde-gongjuruanjian/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>常用的工具软件</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/banjia/" rel="next">
+    <span>搬家</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

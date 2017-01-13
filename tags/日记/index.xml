@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日记 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%97%A5%E8%AE%B0/index.xml</link>
+    <description>Recent content in 日记 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OhLife</title>
+      <link>https://ioerr.github.io/ohlife/</link>
+      <pubDate>Mon, 23 Aug 2010 14:52:56 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/ohlife/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+是一个刚刚出现不久的日记服务，特色是简单、私密和精致。&lt;/p&gt;
+
+&lt;p&gt;1、简单&lt;br /&gt;
+从注册到使用非常快捷：&lt;br /&gt;
+* 注册&lt;br /&gt;
+*
+接收提醒撰写日记的邮件（除注册当天外，每天会在晚上8点发邮件提醒你回顾一天的生活并写下日记）&lt;br /&gt;
+* 回复邮件，发布日记&lt;/p&gt;
+
+&lt;p&gt;没有复杂的管理界面，没有太多关于发布、留言、主题设置等的使用流程，没有丰富的格式编辑，没有索引，没有搜索。&lt;br /&gt;
+对日记的操作只有浏览、编辑（只能编辑文字，不能编辑图片）、删除和导出四种。&lt;/p&gt;
+
+&lt;p&gt;2、私密&lt;br /&gt;
+不开放给任何人阅读，没有评论功能，没有 RSS 输出。&lt;br /&gt;
+虽说日记服务本来就应该是这样的，但在这样一个任何新生服务都想搭 Web 2.0
+社会化快车的时代，还是不多见，说明服务方能够节制欲望。&lt;/p&gt;
+
+&lt;p&gt;3、精致&lt;br /&gt;
+导航栏做成纸质笔记本皮革封面的风格，日记背景是细格纸，图标使用书签形象，一切都让人联想到真实世界中的笔记本，使用
+Palatino Linotype
+的默认字体，随机查看日记时有平滑切换效果，整体看来优雅而美观。&lt;/p&gt;
+
+&lt;p&gt;尽管定位不完全一样，但和
+&lt;a href=&#34;http://penzu.com/&#34;&gt;Penzu&lt;/a&gt;、&lt;a href=&#34;http://posterous.com/&#34;&gt;Posterous&lt;/a&gt;、&lt;a href=&#34;http://www.storyofmylife.com/&#34;&gt;Story
+of My Life&lt;/a&gt;
+放在一起的话，&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt; 更容易激起我写日记的欲望。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2010-08-23_161325.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2010-08-23_161325.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;说完了好话，该看看不足之处：&lt;/p&gt;
+
+&lt;p&gt;最大的问题是选择该服务的必要性。&lt;br /&gt;
+如果 &lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+的功能如此简单，那么为什么我不干脆设置一个定时发送的邮件提醒给自己的邮箱呢？&lt;br /&gt;
+有了
+Gmail，我的一切回复作为日记都能够保留下来，并且总比托付给第三方服务安全、稳定，而且没有字数限制（目前我还不知道
+&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+的字数限制，但单篇日志必然是有限制的）、没有贴图限制，要界面美观可以找
+Stylish 嘛。&lt;br /&gt;
+先别说怎么赚钱吧，如何吸引新用户，留住老用户都是个问题。毕竟再优秀的界面也只能让用户一见钟情，没有界面之外的特色功能是无法长久维持的，特别是这种简单的服务太容易复制了，用户为什么一定要选择你的呢？&lt;/p&gt;
+
+&lt;p&gt;其次，导出的日记只有纯文本格式。&lt;br /&gt;
+如果日记本来有照片，导出的时候却看不到，用户会抓狂吧。&lt;/p&gt;
+
+&lt;p&gt;第三，没有月历视图也没有搜索功能。&lt;br /&gt;
+如果日记太多的话，想要回顾不可能只依靠随机功能和前后浏览吧？用户还是会抓狂的。&lt;br /&gt;
+目前我只试验了一篇日记，不知道写了许多篇之后“past”页面一页可以容纳几篇日记。&lt;/p&gt;
+
+&lt;p&gt;所以给 OhLife 的建议中我提了以下几点：&lt;br /&gt;
+1、可以自定义字体，因为目标用户可能很看重字体是否美观；&lt;br /&gt;
+2、支持通过照片链接发布照片；&lt;br /&gt;
+3、支持导出照片或照片链接；&lt;br /&gt;
+4、支持导出为美观的 PDF 格式；&lt;br /&gt;
+5、支持一个帐号多个邮件地址；&lt;br /&gt;
+6、月历视图；&lt;br /&gt;
+7、每月发送日记的统计图表；&lt;br /&gt;
+8、搜索功能。&lt;/p&gt;
+
+&lt;p&gt;如果你觉得这个服务好用，不妨也提交一些实用的建议。&lt;/p&gt;
+
+&lt;p&gt;另，当小白鼠的一些成果：&lt;br /&gt;
+不用担心支持中文；&lt;br /&gt;
+同一个提醒邮件可以多次回复，回复的内容会附加在当天已有日记后面；&lt;br /&gt;
+发送多次照片只会显示第一张；&lt;br /&gt;
+照片会存储在 Amazon S3 的空间；&lt;br /&gt;
+导出结果只有纯文本内容；&lt;br /&gt;
+支持部分 HTML 语法，比如超链接；&lt;br /&gt;
+在“past”界面，鼠标移动到日记上，才会浮现编辑和删除的按钮；&lt;br /&gt;
+如果找不到上/下一篇日记，当前的日记会颤抖…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Yoono Desktop 代理设置  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/yoono-desktop-daili-shezhi/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/yoono-desktop-daili-shezhi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>04 Mar 2013, 06:57</time>
+      <h1>Yoono Desktop 代理设置</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>社交应用和即时通信的整合登录工具 <a href="http://www.yoono.com/">Yoono</a>
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。<br />
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。<br />
+官方就早给出了<a href="https://getsatisfaction.com/yoono/topics/add_proxy_setting_to_yoono_desktop">自己解决问题的方法</a>：</p>
+
+<p>在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+xxxx 分别是 Windows 登录用户名和随机字符串）。</p>
+
+<p>编辑 prefs.js 文件，在后面加上以下内容：<br />
+user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);<br />
+user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);<br />
+user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);<br />
+user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);<br />
+user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);<br />
+user_pref(&ldquo;network.proxy.type&rdquo;, 1);<br />
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
+your_proxy_ip&rdquo;);</p>
+
+<p>将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyoono-desktop-daili-shezhi%2f&text= @calon Yoono%20Desktop%20%e4%bb%a3%e7%90%86%e8%ae%be%e7%bd%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Yoono%20Desktop%20%e4%bb%a3%e7%90%86%e8%ae%be%e7%bd%ae》&body=https%3a%2f%2fioerr.github.io%2fyoono-desktop-daili-shezhi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #twitter 
+        
+      
+        #Yoono 
+        
+      
+        #代理 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/xianzhi-yonghu-xuanze-de-misi/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>“限制用户选择”的迷思</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/shishi-fufei-guanying-moshi/" rel="next">
+    <span>实时付费观影模式</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

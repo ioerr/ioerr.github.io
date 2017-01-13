@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软硬挨踢 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml</link>
+    <description>Recent content in 软硬挨踢 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>广告的未来</title>
+      <link>https://ioerr.github.io/guanggao-de-weilai/</link>
+      <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/guanggao-de-weilai/</guid>
+      <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
+挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。&lt;/p&gt;
+
+&lt;p&gt;二、让信息自由、流畅而有序流动的 IT 才是好 IT&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+Peter Diamond、Dale Mortensen 和 Christopher Pissarides
+因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。
+&lt;/blockquote&gt;
+挨踢技术存在的目标之一，不正是应该在实施层面解决这种因为信息交流成本造成的经济学问题么？&lt;/p&gt;
+
+&lt;p&gt;三、为什么会变成这样？&lt;/p&gt;
+
+&lt;p&gt;“我需要无广告版本。”&lt;br /&gt;
+“我一眼就看出你是个枪手。”&lt;br /&gt;
+“我的浏览器必装屏蔽广告的插件。”&lt;br /&gt;
+“我的电子邮箱又被垃圾邮件填满了。”&lt;br /&gt;
+“我最讨厌上那些浮动广告到处飞的网站了。”&lt;br /&gt;
+“我晕，看个30秒的视频还要先看30秒的广告。”&lt;br /&gt;
+“我对这个充满着拙劣的植入广告的世界绝望了！”&lt;br /&gt;
+“我日，下载软件一不小心点了流氓软件下载链接。”&lt;br /&gt;
+“我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”&lt;br /&gt;
+“我的 blog 评论都加上了 nofollow
+属性，你们这些垃圾留言者为什么还要瞎忙？”&lt;br /&gt;
+……&lt;/p&gt;
+
+&lt;p&gt;这样的抱怨和要求你是否非常眼熟？&lt;br /&gt;
+在你使用互联网的时候，是否经常会遇到同样的困扰？&lt;br /&gt;
+你觉得这是正常现象吗？&lt;/p&gt;
+
+&lt;p&gt;如今的互联网广告带给用户太多困扰，严重影响了用户体验。互联网的用户们像传统的报纸、收音机、电视机用户一样忍受着广告的轰炸，有时候甚至是被流氓强行闯进来灌输信息。&lt;br /&gt;
+为什么？&lt;/p&gt;
+
+&lt;p&gt;互联网带来信息的自由，也必然带来被动接受信息的不自由？&lt;br /&gt;
+互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？&lt;br /&gt;
+这是正常的吗？难道不能改变吗？&lt;/p&gt;
+
+&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords
+等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。&lt;/p&gt;
+
+&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords
+宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。&lt;/p&gt;
+
+&lt;p&gt;有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。&lt;/p&gt;
+
+&lt;p&gt;四、广告的本质&lt;/p&gt;
+
+&lt;p&gt;还是从根本上来分析一下吧：&lt;br /&gt;
+广告对消费者和广告主来说是什么？&lt;/p&gt;
+
+&lt;p&gt;广告对广告主来说是向目标客户和潜在客户提供信息的渠道；&lt;br /&gt;
+广告是消费者消费前获取产品信息的渠道。&lt;/p&gt;
+
+&lt;p&gt;非目标用户获得了信息，对广告主来说没有什么价值，除非他是潜在用户，但对潜在用户的广告手段和效果期望又是不一样的，总之都是浪费；&lt;br /&gt;
+消费者获得了不需要的信息，不但没有价值，而且是扰乱生活的垃圾。&lt;/p&gt;
+
+&lt;p&gt;双方都需要的，是找到对口的信息提供/接收者，传递且只传递各自需要的信息，也就是图中蓝色的关系链接：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=7caff0ab.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/7caff0ab.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个非常简单的需求关系链接，只要 IT 服务能够实现，世界将会是和谐的。&lt;/p&gt;
+
+&lt;p&gt;理想很美好，但再深入一点就会发现，要想实现是非常复杂的：&lt;br /&gt;
+用户需要的不一定是某个厂商的产品；&lt;br /&gt;
+广告主需要向用户提供的，则必须是自己产品的信息，而且最好是利润最高的主推产品。&lt;br /&gt;
+如何才能建立另双方都满意的关系链接？&lt;/p&gt;
+
+&lt;p&gt;五、谁来实现理想？&lt;/p&gt;
+
+&lt;p&gt;我们不妨分析一下“广告”的不同模式：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=e2fcac76.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/e2fcac76.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1、传统的广告模式：&lt;br /&gt;
+生产商付费雇佣广告商，为自己的某类产品作广告宣传。&lt;br /&gt;
+信息是从广告商单向流向消费者，但接收信息的消费者只有一部分会受到广告影响，体现为蓝色的箭头——表示有效的广告。&lt;br /&gt;
+广告的手段、内容、预期目标可以很明确。&lt;br /&gt;
+消费者基本是被动接受。&lt;/p&gt;
+
+&lt;p&gt;2、搜索引擎的广告模式（或者应该说是广搜？）：&lt;br /&gt;
+消费者主动搜索或者浏览，由搜索引擎提供指向产品信息的链接，引导用户找到目标。&lt;br /&gt;
+生产商和搜索引擎不是紧密的雇佣关系，而是相对松散的服务关系。&lt;br /&gt;
+用户需要付出查找、比对、筛选、评估的成本，否则用户只能倾向于相信搜索引擎提供的排序信息——为什么搜索引擎竞价排名模式不值得推广和效仿？因为它并没有致力于降低用户获取有效信息的成本，反而可能把用户带进沟里；对广告主而言，砸钱投入接近传统的模式，又没有得到广告公司的专业服务水平。&lt;/p&gt;
+
+&lt;p&gt;3、新的模式？&lt;br /&gt;
+新的信息服务应该专注于如何简化生产商和消费者之间相互选择的信息链接。&lt;/p&gt;
+
+&lt;p&gt;生产商是否需要更多消费者的身份、产品使用习惯、品位和偏好等信息？能够从你的平台得到吗？&lt;br /&gt;
+也许以前这只有侵犯个人隐私才能做到，但在2.0的时代，只要你让消费者得到足够的利益，是不是可以让他们主动提供？&lt;br /&gt;
+能不能让他们借助你的服务平台主动帮助生产商宣传？&lt;/p&gt;
+
+&lt;p&gt;消费者如何降低选择商品的成本和风险？&lt;br /&gt;
+能否提供更加方便和实用的消费指导，就像有个内行导购或者熟悉的朋友一样知道你购物？&lt;br /&gt;
+如何取得他们的信任，让他们满意？&lt;br /&gt;
+如何及时、准确地响应消费者的购物冲动？&lt;br /&gt;
+如何更好地猜出或引导消费者主动说出需求，而不是要他们花费时间精力描述和输入未必精确的“需求”？&lt;br /&gt;
+如何在不引起消费者反感的情况下潜移默化地塑造品牌形象，而不是仅仅推荐具体的靠谱的产品？&lt;/p&gt;
+
+&lt;p&gt;如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？&lt;/p&gt;
+
+&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon
+或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>为什么IT人员站在人民的反面</title>
+      <link>https://ioerr.github.io/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</link>
+      <pubDate>Wed, 14 Apr 2010 09:46:58 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</guid>
+      <description>&lt;p&gt;禅叔前几天在 twitter
+上回答别人的问题“为什么IT人员都站在人民的反面？”，他的&lt;a href=&#34;http://blog.kenengba.com/2010/04/10/745/&#34;&gt;回答&lt;/a&gt;是：&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+认为IT从业者站在“人民”的反面，原因在于互联网改变了信息获取的方式，政府能控制传媒，但无法完全控制互联网信息的流动。IT从业者能更好地利用互联网各种工具来获取多维的信息，于是他们凭着自己的判断很有可能就站在了所谓的“人民”的反面，这里的“人民”只不过是信息渠道不够多的人而已。
+&lt;/blockquote&gt;
+当时总觉得这样的回答有不妥之处，今天再想想，可能是我觉得这样的认识未免把
+IT 从业者们的信息获取能力和判断能力抬得太高了。&lt;/p&gt;
+
+&lt;p&gt;混熟了互联网的人经常会有一种错觉，以为自己获得的信息总是最全面、最及时、最准确、最接近真相的，至少比那些不会熟练使用互联网的人强，而实际上可能并不是这么回事。也许在许多敏感问题上你得到的信息是超过那些“人民”，但要了解这个社会及其背后的暗流，这样的优势还不是决定性的。别人的关注点可能和你完全不一样，而他们得到的信息的价值可能比你以为的高得多。&lt;/p&gt;
+
+&lt;p&gt;获取信息也不表示就能够认识到信息所代表的含义，尤其是如果你没有亲身参与的经历，信息获取的多少和认识的程度没有同比例的关系。如果还加上自以为是的态度，那么，搞不好最后会发现站在自己对立面的远不止是“政府的支持派”。&lt;/p&gt;
+
+&lt;p&gt;最后，IT
+人员真的是都站在“人民”的反面吗？连这也可能是个伪问题，提问者也许只属于
+IT 人员中的“一小撮”。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>电子邮件服务的优点</title>
+      <link>https://ioerr.github.io/dianziyoujian-fuwu-de-youdian/</link>
+      <pubDate>Sat, 29 Sep 2007 15:47:28 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/dianziyoujian-fuwu-de-youdian/</guid>
+      <description>&lt;p&gt;最近可能是 &lt;a href=&#34;http://www.klogs.org/&#34;&gt;Zheng&lt;/a&gt; 在 Twitter
+上大谈&lt;a href=&#34;http://www.linkist.com/&#34;&gt;联络家&lt;/a&gt;，所以间接地让我也开始&lt;a href=&#34;http://calon.weblogs.us/dianziyoujian_gongneng_chuangxin/&#34;&gt;重新思考关于电子邮件的事情&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;作为历史悠久的传统服务，电子邮件服务曾一度遭受冷落，直到 Gmail
+出现，引领 Web Mail
+创新潮流，人们才发现原来还可以这么玩。仔细审视电子邮件，你会发现其实它有很多优点（主要是和
+IM 服务作对比），只是还没有受到应有的重视而已。&lt;/p&gt;
+
+&lt;p&gt;个人认为它有3个主要的优点：广泛、开放、成熟&lt;/p&gt;
+
+&lt;p&gt;首先，几乎每个人都有一个电子邮件帐户，但是并不是所有的人都有即时通信帐户。&lt;br /&gt;
+确实存在上网只开 QQ
+的纯聊天+游戏族，可是一旦他要注册使用其他的在线服务，拥有至少一个电子邮件账号便是无法避免的了——而且
+QQ 早已允许使用电子邮件账号替代 QQ 号登录。&lt;br /&gt;
+各个网站的客服反馈渠道可能只有少数在使用 IM，但是很少有不放出邮箱的。&lt;br /&gt;
+企业内部未必会使用 IM
+沟通，但电子邮件系统必不可少（包括我很讨厌封闭的内部邮件系统）。&lt;br /&gt;
+电子邮件应用的广泛性决定了它成为整套在线服务中心结点的可能，这也是
+Google Account 以 Gmail 为中心的原因——不过 Gmail
+一家的电子邮件账号和全部的电子邮件账号还是有差别的，这也是 Google 推出
+Send mail as 和 Get mail from other accounts 的功能的原因之一？&lt;/p&gt;
+
+&lt;p&gt;其次，电子邮件天生就是多家运营，开放互通的。&lt;br /&gt;
+对方报上一个邮件地址，无论你自己是使用谁的邮箱服务——包括自己架站提供邮箱服务，都可以和他联络上，也不必更改自己的使用习惯和交际圈。不像
+IM，谁都寻思着一家做大后把其他竞争对手活活憋死，像我这样不喜欢同时开多个
+IM 软件的（集成多协议的 IM 软件如 Miranda IM、Pidgin、PSI
+还不够好，且一直受到打压），只好企盼 Twitter 类服务来革命了。&lt;br /&gt;
+不完美的一面则是，近年来电子邮件服务之间也开始使用封杀或者变相屏蔽的下作手段，还有一些邮箱因为
+spam 泛滥而被网站指名拒绝。&lt;/p&gt;
+
+&lt;p&gt;最后，电子邮件服务已经是一种非常成熟的服务了。无论一个邮件服务为了标新立异怎么折腾，最基本的功能、界面、操作、协议都是基本不变的，用户上手的速度通常很快，用户对电邮服务的定位差异不大，电子邮件服务本身就有一些成熟的功能和应用，如通讯录、笔记、备份、群组联系等。&lt;/p&gt;
+
+&lt;p&gt;所以，如果有人在寻找什么社会化应用的工具，不妨优先考虑一下能否利用电子邮件，看看是否可以发挥出它更多的潜力。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>电子邮件功能创新</title>
+      <link>https://ioerr.github.io/dianziyoujian-gongneng-chuangxin/</link>
+      <pubDate>Mon, 24 Sep 2007 15:35:24 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/dianziyoujian-gongneng-chuangxin/</guid>
+      <description>&lt;p&gt;这几天一直在想关于电子邮件服务的事情。&lt;/p&gt;
+
+&lt;p&gt;在大家都觉得免费电子邮件服务没什么搞头，国内邮件服务商纷纷琢磨着向用户收费的时候，Google
+推出了容量为1G 的
+&lt;a href=&#34;http://mail.google.com/mail&#34;&gt;Gmail&lt;/a&gt;，不但带动了邮箱容量不断扩充的潮流，而且改变了人们对
+Web Mail 的观念，使得电子邮箱的地位又有所回复。&lt;/p&gt;
+
+&lt;p&gt;我花了一点时间整理了一下几年来从非常原始、简陋的邮箱进化到主流电子邮箱服务中出现的创新功能点：&lt;/p&gt;
+
+&lt;p&gt;人机界面：&lt;br /&gt;
+1、自动补全联系人名称和邮件地址；&lt;br /&gt;
+2、快捷键；&lt;br /&gt;
+3、多标签页浏览；&lt;br /&gt;
+4、拼写检查；&lt;br /&gt;
+5、AJAX 效果；&lt;br /&gt;
+6、拖拽邮件；&lt;br /&gt;
+7、三栏布局；&lt;br /&gt;
+8、签名、主题、模板、表情；&lt;/p&gt;
+
+&lt;p&gt;邮件管理：&lt;br /&gt;
+1、统一的会话管理；&lt;br /&gt;
+2、转发整个会话内的邮件；&lt;br /&gt;
+3、获取其他邮箱的信件；&lt;br /&gt;
+4、切换发件人帐号；&lt;br /&gt;
+5、标签；&lt;br /&gt;
+6、自动筛选归类；&lt;br /&gt;
+7、邮件内容和附件的高级搜索；&lt;br /&gt;
+8、导入导出联系人列表；&lt;br /&gt;
+9、邮件回执；&lt;br /&gt;
+10、自动回复、转发；&lt;br /&gt;
+11、假期自动应答；&lt;br /&gt;
+12、定时发送；&lt;br /&gt;
+13、高亮搜索结果。&lt;/p&gt;
+
+&lt;p&gt;容量：&lt;br /&gt;
+1、超大邮箱容量；&lt;br /&gt;
+2、大容量附件。&lt;/p&gt;
+
+&lt;p&gt;安全：&lt;br /&gt;
+1、智能反垃圾邮件；&lt;br /&gt;
+2、服务器端杀毒。&lt;/p&gt;
+
+&lt;p&gt;内容：&lt;br /&gt;
+1、图片过滤；&lt;br /&gt;
+2、预览附件。&lt;/p&gt;
+
+&lt;p&gt;扩展、集成：&lt;br /&gt;
+1、集成日程表；&lt;br /&gt;
+2、集成 IM，邮箱联系人和 IM 联系人共用，保存 IM 聊天记录；&lt;br /&gt;
+3、集成笔记簿；&lt;br /&gt;
+4、集成相册；&lt;br /&gt;
+5、集成地图服务；&lt;br /&gt;
+6、集成RSS 订阅；&lt;br /&gt;
+7、推送邮件；&lt;br /&gt;
+8、手机通知；&lt;br /&gt;
+9、语音邮件；&lt;br /&gt;
+10、离线客户端的操作与在线邮箱同步。&lt;/p&gt;
+
+&lt;p&gt;如果像 Google 这样把 Gmail
+当成在线服务的中心是大势所趋，那么这一波电子邮件服务的创新还只是刚刚开头而已，毕竟用户对
+web mail
+的需求并不是简单的“在线”而已，如有人就很希望在线的服务也能够支持新闻组；如邮箱和相册、日程管理、文件管理等的集成还只停留在“初级阶段”，无缝连接甚至让用户感觉不到各个服务的界限才是王道；如
+spam
+仍然是最令人头痛的问题；如管理邮件还未达到随心所欲的地步；如发布和共享信息到
+web 还不是那么方便…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

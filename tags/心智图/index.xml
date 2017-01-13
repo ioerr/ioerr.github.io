@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>心智图 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%BF%83%E6%99%BA%E5%9B%BE/index.xml</link>
+    <description>Recent content in 心智图 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E5%BF%83%E6%99%BA%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vim 速查手册</title>
+      <link>https://ioerr.github.io/vim-sucha-shouce/</link>
+      <pubDate>Sat, 23 Oct 2010 17:49:43 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/vim-sucha-shouce/</guid>
+      <description>&lt;p&gt;之前用 Excel 写了个 &lt;a href=&#34;http://calon.weblogs.us/vim/&#34;&gt;Vim
+在线速查手册&lt;/a&gt;并上传到 Google Docs
+维护，因为 Google Docs 不方便打开，以及用 Excel
+表格会让人不由自主的追求收集整理大而全的资料，于是打算换用心智图形式重新制作，结构清晰一点，内容精简一点，风格清新一点，社会和谐一点。&lt;br /&gt;
+大纲视图截图如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=Vim.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/Vim_Outline.png&#34; alt=&#34;Outline&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下载地址：&lt;br /&gt;
+&lt;a href=&#34;http://www.box.net/shared/spl19q0qmy&#34;&gt;Vim.mm&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.box.net/shared/5dg5im2zso&#34;&gt;Vim.boo&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://i111.photobucket.com/albums/n154/calon_plus/Vim.png&#34;&gt;全图（PNG
+格式）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;说明：&lt;br /&gt;
+1、适合的用户：已经入门但还无法熟练使用一些常用操作和命令，即刚刚摸到一点门道但还处在学习曲线最陡峭那一段的用户，向前一步，也许就进入不断自我学习的良性循环，退后一步，也许就不再敢尝试，从此与
+Vim 无缘了；&lt;br /&gt;
+2、没有完全参照官方的功能主题分类，尽量按日常编辑应用场景制作分类目录；&lt;br /&gt;
+3、我主要将 Vim
+当作文本编辑器而不是开发工具，因此不求全面收录所有功能点。内容太多太杂只会降低检索效率，所以函数定义、脚本编写、编译调试、调用外部编程语言、调用操作系统命令等等可能展开太多或者与日常文本编辑关系不大的内容就没有放进来；&lt;br /&gt;
+4、各类主题也没有全部展开，道理同上。尽量给主题大类配上了相应的英文说明，如有更复杂的需求，可使用帮助文档按图索骥深入学习——但不是所有英文说明可以用做帮助文档检索的关键字；&lt;br /&gt;
+5、复杂而微妙的功能与概念，如全局、替换等命令，如可视模式，如模式的概念，参考帮助文档给出的是比较抽象的说明，运用之妙存乎一心，需要自己结合高手们的技巧实例达到熟练使用的境界；&lt;br /&gt;
+6、技巧和正则表达式的节点有急剧膨胀的危险，读者可以分别找官方站点和专著研究，这里拟采用链接外部文件的方式，分开展示；&lt;br /&gt;
+7、插件、配色方案和配置文件都是因人而异的东西，多说无益，自己用着好才是真的好；&lt;br /&gt;
+8、用 &lt;a href=&#34;http://freeplane.sourceforge.net/&#34;&gt;FreePlane&lt;/a&gt; 编辑，保存为
+&lt;a href=&#34;http://freemind.sourceforge.net/&#34;&gt;Freemind&lt;/a&gt; 的 mm
+格式，检索、编辑、展示、导出都非常方便，还有
+&lt;a href=&#34;http://www.boogu.me/index_zh.htm&#34;&gt;BooguNote&lt;/a&gt; 的 boo
+格式，更利于用纯文本工具查询；&lt;br /&gt;
+9、同类性质可举一反三的操作和命令，没有并列列出，而是作为父子节点出现，可减少人肉扫描的工作量；&lt;br /&gt;
+10、建议使用雅黑等宽字体，安装
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;fencview&lt;/a&gt;
+插件，不再被字体难看和中文乱码问题困扰，学习效率也会高很多；&lt;br /&gt;
+11、官方的帮助文档、教程是最好的资源，有英文基础的用户可以去官方网站看&lt;a href=&#34;http://vim.wikia.com/wiki/Vim_Tips_Wiki&#34;&gt;技巧&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/index.php&#34;&gt;插件脚本&lt;/a&gt;等内容，每天都会有惊喜；&lt;br /&gt;
+12、&lt;a href=&#34;http://hotoo.github.com/index.html&#34;&gt;闲耘的站点&lt;/a&gt;上收集的 &lt;a href=&#34;http://hotoo.github.com/vimwiki/Vim.html&#34;&gt;Vim
+相关资料&lt;/a&gt;较全，可顺藤摸瓜撒网捕鱼。&lt;br /&gt;
+13、不要恐慌！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

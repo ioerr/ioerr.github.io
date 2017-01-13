@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on 读写错误</title>
+    <link>https://ioerr.github.io/tags/twitter/index.xml</link>
+    <description>Recent content in Twitter on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Yoono Desktop 代理设置</title>
+      <link>https://ioerr.github.io/yoono-desktop-daili-shezhi/</link>
+      <pubDate>Mon, 04 Mar 2013 06:57:26 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yoono-desktop-daili-shezhi/</guid>
+      <description>&lt;p&gt;社交应用和即时通信的整合登录工具 &lt;a href=&#34;http://www.yoono.com/&#34;&gt;Yoono&lt;/a&gt;
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。&lt;br /&gt;
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。&lt;br /&gt;
+官方就早给出了&lt;a href=&#34;https://getsatisfaction.com/yoono/topics/add_proxy_setting_to_yoono_desktop&#34;&gt;自己解决问题的方法&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+xxxx 分别是 Windows 登录用户名和随机字符串）。&lt;/p&gt;
+
+&lt;p&gt;编辑 prefs.js 文件，在后面加上以下内容：&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.http&amp;rdquo;, &amp;ldquo;squid.home-server&amp;rdquo;);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.http_port&amp;rdquo;, 3128);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.share_proxy_settings&amp;rdquo;, true);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.ssl&amp;rdquo;, &amp;ldquo;squid.home-server&amp;rdquo;);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.ssl_port&amp;rdquo;, 3128);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.type&amp;rdquo;, 1);&lt;br /&gt;
+user_pref(&amp;ldquo;network.proxy.no_proxies_on&amp;rdquo;, &amp;ldquo;localhost, 127.0.0.1,
+your_proxy_ip&amp;rdquo;);&lt;/p&gt;
+
+&lt;p&gt;将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter 动态分页功能</title>
+      <link>https://ioerr.github.io/twitter-dongtai-fenye-gongneng/</link>
+      <pubDate>Tue, 15 Nov 2011 15:32:43 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/twitter-dongtai-fenye-gongneng/</guid>
+      <description>&lt;p&gt;今天 twitter
+增加了一个新功能：动态（Activity）分页，即，集中展示你关注的用户的收藏、关注、转推等活动。&lt;/p&gt;
+
+&lt;p&gt;其他人的转推我很少跟踪，其他人新关注的用户我也不感兴趣：我要关注的人，通常是好友在对话中提及，然后我顺藤摸瓜找过去觉得此人发言靠谱且对味——道理很简单，我关注的用户关注的用户不一定就是我关注的用户，发出我关注的言论的用户才是我应该关注的用户。&lt;/p&gt;
+
+&lt;p&gt;于我而言，动态分页功能最大的亮点乃是直接查看好友的收藏。&lt;br /&gt;
+很久之前曾在 twitter
+上说过，官方转推的定位不好。收藏应该取代官方转推，因为两者都没有改变原有的信息，定位有重叠。&lt;br /&gt;
+扩展收藏功能，可追溯源头和展示给跟随者，收藏就和官方转推同质了。而手工
+rt
+则提供修改原文和追加评论的自由空间，若官方支持，且实现现有官方转推的话题关联和追溯能力，与收藏功能互补起来，就没有官方转推什么事了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>长沙 twitter 聚会</title>
+      <link>https://ioerr.github.io/changsha-twitter-juhui/</link>
+      <pubDate>Sun, 01 Nov 2009 17:00:00 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/changsha-twitter-juhui/</guid>
+      <description>&lt;p&gt;昨天和女友参加了&lt;a href=&#34;https://twitter.com/SteveChou/changsha&#34;&gt;长沙 Twitter
+用户&lt;/a&gt;小规模聚会活动，除了早已经见过面的
+@Zuola 之外，还有 @SteveChou @mengite @zhangying997 @ChangshaNotes
+。人数是少了点，本来长沙玩 twitter
+的人就比一线大城市少了很多，还有一些人因种种原因没有到场。&lt;/p&gt;
+
+&lt;p&gt;下午在窑岭北“花时间”咖啡屋碰面，之后 Zuola 因为赶火车提前离开，晚饭之前
+@zhangying997
+也有事先走，于是剩下的5人杀到了“何式排骨”继续打屁聊天。因为没有随身携带上网本，手机发推影响现场沟通，所以回来再把部分聊到的内容记录一下。&lt;/p&gt;
+
+&lt;p&gt;1、今年的中文网志年会安排在连州举行并且侧重于集体旅游原来是有原因的。但因此我也没有足够的时间参加。&lt;br /&gt;
+不论是什么原因，网志年会慢慢蜕变成线下好友见面会，娱乐的成分越来越多，这和我最初的期待是有偏差的。&lt;/p&gt;
+
+&lt;p&gt;2、长沙的 twitter
+用户还是太少了，第一次正经聚会的人数只有个位。我觉得能够让参与者有时间用手机发
+twitter 与线上的推友同步交流而不会导致线下冷场，人数才算够。&lt;br /&gt;
+还谈到 TED 活动参与的人数也可能会不够，需要多多推广。&lt;/p&gt;
+
+&lt;p&gt;3、谈到国内留给有个性的人的自由空间不多，大多数人总是想把少数人同化成和他们一样，我认为原因是国内还没有形成一套稳定的主流价值观，因而不能够保持足够的自信和宽容。&lt;br /&gt;
+回来后仔细想了一下，可以扩充表述为：&lt;br /&gt;
+中国社会的转型还没有结束，与之相适应的一套主流价值观要在社会转型完成之后才能够确定下来；&lt;br /&gt;
+无论是东亚传统文化还是中式共产主义思想，都有强烈的集体主义色彩，个人的个性、权利、精神世界等等在集体面前微不足道，而转型后的社会在此方面与过去的文化必然有很大的差异，只是还没有来得及跟上社会的发展；&lt;br /&gt;
+主流价值观与社会现状要保持一致才能够成为稳定，但现在的“主流”价值观实际上是执政党强行推行的统一价值观，不是社会自发形成的主流+无数非主流价值观，本应自发形成的主流价值观被人为限制无法成型，非主流们更加无处容身。&lt;/p&gt;
+
+&lt;p&gt;我不时会嘲笑那些喊着要建立主流价值观的人们，不是因为主流价值观本身可笑，而是因为他们每个人都认为自己的那一套才应该是未来的主流，甚至不惜用强制的手段实现。&lt;/p&gt;
+
+&lt;p&gt;4、@zhangying997
+说到她很喜欢和菜头的文字，我则觉得语言文字魅力太强的人在文化艺术之外的领域是很危险的（并非针对和菜头，而是本能的对所有类似的人都保持警惕，比如演讲很强的小滨和乔大爷），就像大革命时期鼓动人心的街头演讲者，轻易就能让听众如醉如痴死心塌地，语言的魅力很轻松就掩盖过理性和逻辑的缺陷。在互联网上，尤其如此。&lt;br /&gt;
+当然，我更警惕的是道德圣人和万能救世方。&lt;/p&gt;
+
+&lt;p&gt;5、谈到了 FriendFeed 风光不再，UI 的改变让人难以适应，头号用户 Scoble
+也疏远了它，页面组织不适合在手机上展现…&lt;/p&gt;
+
+&lt;p&gt;6、谈到了对封锁新疆冲突事件消息的看法。&lt;br /&gt;
+我不否认封锁消息在短时间内能够避免在其他地区的新疆人遭到汉族人的无差别报复，但如果放大到整个事件的成因来看，封锁消息和激化民族问题（造成民族问题的原因就多了，我不认为全都是执政党带来的）的统治手段是一体的，其背后的统治思路是相同的，封锁消息既是后果，也是原因：&lt;br /&gt;
+激化了民族问题，于是封锁消息，封锁消息又加深了人们之间的隔阂，进一步削弱了官方的公信力，甚至把原本不是民族问题的转成了民族问题，有可能激起更大的相互敌视和仇恨，进而又成为不得不封锁消息的理由。&lt;/p&gt;
+
+&lt;p&gt;7、还有围绕音乐服务的闲扯。&lt;/p&gt;
+
+&lt;p&gt;更多的话题就不多说了，就算是上面的话题也很零散，现场只是有个念头，都来不及深入讨论。&lt;/p&gt;
+
+&lt;p&gt;晚餐时的主角是 @ChangshaNotes 在湖南的生活，本名 Colin
+的他很幽默很可爱，中文也说得很好哦。&lt;br /&gt;
+还发现 @mengite 原来工作的公司就是美食网站 &lt;a href=&#34;http://hoto.cn/&#34;&gt;Hoto&lt;/a&gt;
+的后台，他称赞的90后牛人原来就是仰慕已久的 @Saic 啊…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;@SteveChou 创建的&lt;a href=&#34;https://twitter.com/SteveChou/changsha&#34;&gt;长沙 twitter
+用户清单&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以及部分照片：&lt;br /&gt;
+@mengite 和 @Zuola：&lt;br /&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/calon/4064165480/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3514/4064165480_55b97de2f9.jpg&#34; alt=&#34;长沙推友聚会 (by
+calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;@SteveChou 和 @ChangshaNotes：&lt;br /&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/calon/4063409419/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2801/4063409419_06b896b7e5.jpg&#34; alt=&#34;长沙推友聚会 (by
+calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;@zhangying997 和 @mengite：&lt;br /&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/calon/4064153264/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2639/4064153264_7ba3c4080a.jpg&#34; alt=&#34;长沙推友聚会 (by
+calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>前奏</title>
+      <link>https://ioerr.github.io/qianzou/</link>
+      <pubDate>Tue, 02 Jun 2009 16:22:45 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/qianzou/</guid>
+      <description>
+
+&lt;p&gt;同一天之内，&lt;a href=&#34;http://twitter.com/&#34;&gt;Twitter&lt;/a&gt;、&lt;a href=&#34;http://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;、&lt;a href=&#34;http://www.live.com/&#34;&gt;Live&lt;/a&gt;（包括
+Hotmail）、&lt;a href=&#34;http://bing.com/&#34;&gt;Bing&lt;/a&gt; 遭到 GFW
+毒手，是前奏耶？警告耶？斩首行动耶？“&lt;a href=&#34;http://www.donews.com/Content/200906/fe171070af1e4d809779c73af5569a00.shtm&#34;&gt;巧合&lt;/a&gt;”耶？&lt;/p&gt;
+
+&lt;p&gt;Geek 扎堆的 Twitter 倒不怎么怕 GFW
+的关照，被封杀之后，各路人马&lt;a href=&#34;http://www.williamlong.info/archives/1816.html&#34;&gt;毫不费力&lt;/a&gt;的“&lt;a href=&#34;http://www.kenengba.com/post/1136.html&#34;&gt;红杏出墙&lt;/a&gt;”，&lt;a href=&#34;http://search.twitter.com/search?q=%23FuckGFW&#34;&gt;群情激愤&lt;/a&gt;，信息量倒比往常高出了许多，充分显示了
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale
+而不是坦克才能阻止它。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=4967.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/4967.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+为人进出的门紧锁着，&lt;br /&gt;
+一个声音高叫着：&lt;br /&gt;
+——你不是喜欢自由吗？&lt;br /&gt;
+乖乖的翻墙吧！&lt;/p&gt;
+
+&lt;p&gt;我渴望自由，&lt;br /&gt;
+但我深深知道&lt;br /&gt;
+——我们怎能翻一辈子的墙！&lt;/p&gt;
+
+&lt;p&gt;我希望有一天，&lt;br /&gt;
+互联网的大潮袭来，&lt;br /&gt;
+将我连这网络长城一齐冲走，&lt;br /&gt;
+&lt;a href=&#34;https://friendfeed.com/calon/9c8fb588&#34;&gt;我应该在浪花与热血中得到永生&lt;/a&gt;！
+&lt;/blockquote&gt;
+曾经进过小黑屋的 Flickr 就麻烦多了，目前 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/4286&#34;&gt;Access
+Flickr!&lt;/a&gt;
+插件失效，只能用代理工具访问，也不方便分享照片。&lt;/p&gt;
+
+&lt;p&gt;另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发&lt;/p&gt;
+
+&lt;h2 id=&#34;gfw-动作的国内用户不知好歹-这次当然也不例外&#34;&gt;GFW 动作的国内用户不知好歹，这次当然也不例外。&lt;/h2&gt;
+
+&lt;p&gt;还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>棒球赛直播</title>
+      <link>https://ioerr.github.io/bangqiusai-zhibo/</link>
+      <pubDate>Mon, 10 Mar 2008 14:06:47 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/bangqiusai-zhibo/</guid>
+      <description>&lt;p&gt;在 Twitter
+上“直播”中华台北棒球队对加拿大队的对岸推友情绪很高啊，连头像都统一换成了队标。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-03-10_220400.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-03-10_220400.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然最后很可惜的输了，但这种大规模的刷版&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-03-10_221138.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-03-10_221138.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;还真是热血啊！（嗯？有奇怪的东西混进来了…）&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>友种</title>
+      <link>https://ioerr.github.io/friendfeed/</link>
+      <pubDate>Wed, 27 Feb 2008 14:21:36 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/friendfeed/</guid>
+      <description>&lt;p&gt;很久没有写杂谈了，现在有了 Twitter，真是方便偷懒啊——其实主要是怕把已经
+Twitter 过的内容又拿到 blog 上说，会被大家打…&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+1938年10月26日，陈嘉庚在新加坡发了一封电报给重庆，阐述自己的参政提案：一、日寇未退出我国土之前凡公务员对任何人谈和平条件概以汉奸国贼论；二、大中学校在抗战期间禁放暑假；三、长衣马褂限期废除以振我民族雄武精神。
+&lt;/blockquote&gt;
+70年之后，在某些人口中，长衣马褂倒成为我民族精神的体现，不亦怪哉？&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+汪精卫的曲线救国论并不是他首次发明的，陈独秀在1914年就主张中国像朝鲜那样自并于日本，说亡国瓜分，亦以为非可恐可悲之事，1918年还在鼓吹请外国干涉中国内政，说这种出于国民自动外国好意的干涉，虽然失点虚面子，却受了实在的利益。
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+中国知识分子对于采用什么手段来救中国是不在乎的，只要能救中国，他们可以轮番使用西方启蒙思想、无政府主义、马克思主义、中国的儒家思想、法家和墨家的思想、阳明心学和气功内丹，也可以有意无意的造神、谀神、接受现代迷信，并能做到义无反顾、心悦诚服。
+&lt;/blockquote&gt;
+入手邓晓芒的再版《&lt;a href=&#34;http://www.douban.com/subject/2379619/&#34;&gt;新批判主义&lt;/a&gt;》不久，看起来很过瘾。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+问：有哪些游戏是融合科技和魔法的?&lt;br /&gt;
+答：《Super Mario Brothers》。&lt;br /&gt;
+有借助道具释放的魔法，比如巨人术，火球术，星光不死身，玄武变身，一叶飞天术。&lt;br /&gt;
+而敌方则拥有高度的机械文明，比如毒蘑菇生化人，生化炮弹，火焰防御阵。
+&lt;/blockquote&gt;
+&lt;a href=&#34;http://cjlcyb.blog.sohu.com/&#34;&gt;中国超级烂创意博&lt;/a&gt;，个性介绍为：“相信自己，你能发现最烂的，它就在你身边。”&lt;/p&gt;
+
+&lt;p&gt;获得 &lt;a href=&#34;http://friendfeed.com/&#34;&gt;FriendFeed&lt;/a&gt;
+邀请后才一天，它就开放注册了，真是不给我面子啊…&lt;br /&gt;
+人多了以后就在上面顺藤摸瓜加好友。虽然它有导入邮箱等联系人的功能，但导入联系人地址是一种多么没有情调的行为啊…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/calon&#34;&gt;FriendFeed&lt;/a&gt; 的中文译名可以叫什么呢？&lt;br /&gt;
+友种，朋档，纷飞，富人的肥…？&lt;/p&gt;
+
+&lt;p&gt;“你友种吗？”&lt;br /&gt;
+“我…我没有种…”&lt;br /&gt;
+“那还不赶快去注册一个？”&lt;br /&gt;
+——获“中国超级烂创意广告”提名&lt;/p&gt;
+
+&lt;p&gt;“格兰特不得人心 切迷官网留言近万条骂之”&lt;br /&gt;
+近万条留言算啥啊，要是中国队有官网评论，早就淹死了&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+&lt;a href=&#34;http://lionqing.blog.163.com/blog/static/39082424200812545352187/&#34;&gt;科幻、神话、童话题材的动画片要体现科学精神，注意防止渲染封建迷信和文化糟粕。&lt;/a&gt;
+&lt;/blockquote&gt;
+虽然我一贯是挺科学派的，但不挺这种脑残派。这禁令不给科学抹黑么？&lt;br /&gt;
+那些经典作品怎么办？比如《哪咤闹海》，问题可大了，宣扬造反，儿童暴力，家庭失和，不孝，自杀，违反计划生育，虐待动物（还是民族文化图腾），怪力乱神，破坏环境，人体试验，医疗事故，怪胎…&lt;br /&gt;
+想想看，光是虐猫、丑化龙的广告就搞得沸沸扬扬，哪吒抽龙筋还不得翻天？&lt;br /&gt;
+我国民众对此竟然丝毫不以为然！还津津乐道，这说明什么问题？堕落啊，道德堕落啊！逼哀啊，太逼哀了！要深刻反省，要加强教育！&lt;/p&gt;
+
+&lt;p&gt;《&lt;a href=&#34;http://www.douban.com/subject/1857099/&#34;&gt;No Country for Old
+Men&lt;/a&gt;》怎么可以翻译为“老无所依”呢？（拍桌！）&lt;br /&gt;
+应该是“前浪死在沙滩上”嘛（逃…）。&lt;/p&gt;
+
+&lt;p&gt;转载：&lt;br /&gt;
+我是霆锋，这是我的故事…&lt;br /&gt;
+&lt;img src=&#34;http://www.geekervision.com/50226711/sad-orange-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twhirl</title>
+      <link>https://ioerr.github.io/twhirl/</link>
+      <pubDate>Sat, 19 Jan 2008 09:46:48 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/twhirl/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt;，最好的 Twitter 客户端，前缀是“ Windows
+下”，后缀是“没有之一”。&lt;/p&gt;
+
+&lt;p&gt;Twhirl 自07年11月诞生以来，几乎每周都有升级，迅速超过了
+&lt;a href=&#34;http://www.tweet-r.com/&#34;&gt;Tweetr&lt;/a&gt; 等同类软件，成为最好用的客户端。&lt;/p&gt;
+
+&lt;p&gt;如果要使用 Twhirl，首先需要下载10 M 左右的 &lt;a href=&#34;http://labs.adobe.com/technologies/air&#34;&gt;Adobe AIR
+环境&lt;/a&gt;，然后在&lt;a href=&#34;http://www.twhirl.org/project/twhirl&#34;&gt;这个页面&lt;/a&gt;下载并安装。&lt;/p&gt;
+
+&lt;p&gt;第一次运行
+Twhirl，显示的会是账号管理面板，要你输入用户名，支持多账号管理。输入用户名之后点击“connect”登录。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00031.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00031.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;管理面板中还有色彩方案和升级的标签页，提供预览和切换色彩方案，以及手动检查更新的功能。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00032.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00032.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下图就是 Twhirl 的主界面了，默认显示 Twitter 的
+Timeline——其实是你和好友的所有消息。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00001.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00001.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;鼠标移动到其他用户的发言上，头像上就会出现4个小图标，分别用于公开回复、发送私信、将发言加入收藏和转发。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00036.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00036.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;相互回复的消息，左侧的头像都会有不同的展示。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00035.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00035.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击输入区右上的那个漏斗形图标可以使用筛选过滤功能，对用户名和消息内容都有效。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00029.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00029.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击输入区右侧的链接图标，可以使用 URL
+缩短服务，可惜需要手工粘贴，，这一点不如 Tweetr。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00030.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00030.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点开输入区下方的菜单，可以切换浏览其他信息，除了与 Twitter
+对应的几个之外，Lookup
+表示查找并查看某个用户的资料，还可以进行各种关系操作，在其他界面中点击用户名链接也会进入
+Lookup 面板；Search 则是利用 &lt;a href=&#34;http://www.terraminds.com/&#34;&gt;Terraminds&lt;/a&gt;
+提供全文搜索，经常没响应…&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00028.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00028.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击右上角的扳手图标，进入设置界面：&lt;/p&gt;
+
+&lt;p&gt;Appearance 标签页中可以设置：&lt;br /&gt;
+启动 Twhirl 即打开这个账号；&lt;br /&gt;
+Twhirl 面板始终置顶；&lt;br /&gt;
+最小化则隐藏到托盘区；&lt;br /&gt;
+自动隐藏输入区；&lt;br /&gt;
+在消息之前加发布者的用户名；&lt;br /&gt;
+默认在 Twhirl 还是浏览器中打开用户资料；&lt;br /&gt;
+Twhirl 面板的透明度，始终有半透明效果还是仅在未激活时有；&lt;br /&gt;
+字体；&lt;br /&gt;
+转发消息的格式（可自己写）。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00009.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00009.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 Notifications 标签页中设置消息通知选项：&lt;br /&gt;
+消息提醒声音的开关、音量；&lt;br /&gt;
+是否只在有回复和私信时才播放提醒声音；&lt;br /&gt;
+是否在右下角显示消息提示；&lt;br /&gt;
+是否只在 Twhirl 未激活的时候出现消息提示；&lt;br /&gt;
+消息提示显示的时间（我爱这个功能！右下角停留太短和太长都不方便）；&lt;br /&gt;
+自己发出的消息是否也出现在提示中。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00012.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00012.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;右下角的消息提示如果在3个以内，就会显示内容；&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00040.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00040.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;超过了就只提示消息条数：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00039.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00039.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+动态效果做得挺不错的。点击消息提示就会跳到主界面面板。&lt;/p&gt;
+
+&lt;p&gt;Connection 标签页中用于设置各类消息的更新频率：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00037.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00037.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+因为 Twitter 最近因为性能问题限制了第三方通过 API 发送请求的频率，因此
+Twhirl
+最快也就是每分钟刷新一次。虽然可以手工刷新，但是太频繁了就会强制暂停更新5分钟。&lt;/p&gt;
+
+&lt;p&gt;如果你想在进入账号管理面板切换账号，在主界面面板好像是没有出路的…反正我是找了半天才发现右键点击托盘图标方是正道…&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00033.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00033.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>滔滔</title>
+      <link>https://ioerr.github.io/taotao/</link>
+      <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/taotao/</guid>
+      <description>&lt;p&gt;腾讯的&lt;a href=&#34;http://www.taotao.com/&#34;&gt;滔滔/叨客&lt;/a&gt;正式上线，功能上自然还是追随
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。&lt;/p&gt;
+
+&lt;p&gt;1、只支持 QQ。&lt;br /&gt;
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。&lt;/p&gt;
+
+&lt;p&gt;2、不开放 API。&lt;br /&gt;
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。&lt;/p&gt;
+
+&lt;p&gt;3、没有 RSS。&lt;br /&gt;
+RSS 是什么？能赚钱吗？&lt;/p&gt;
+
+&lt;p&gt;4、发言首先要经过语意分析技术分析筛选之后才能够上首页&lt;br /&gt;
+估计也就是“过滤”换了一种说法，从效果来看并不如意。&lt;/p&gt;
+
+&lt;p&gt;5、无法输出到页面&lt;br /&gt;
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。&lt;/p&gt;
+
+&lt;p&gt;其他方面：&lt;/p&gt;
+
+&lt;p&gt;名字究竟是叨客还是滔滔？难道是滔滔上的叨客？&lt;br /&gt;
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；&lt;br /&gt;
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；&lt;br /&gt;
+多次出现系统繁忙的提示，不像是腾讯的服务水准；&lt;br /&gt;
+据说不支持 Opera，摇头…&lt;/p&gt;
+
+&lt;p&gt;总而言之，在我看来是既不开放也缺少诚意的产品。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

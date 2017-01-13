@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>我的快速启动程序最佳选择  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>26 May 2008, 16:05</time>
+      <h1>我的快速启动程序最佳选择</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>最近
+<a href="http://lifehacker.com/392136/best-application-launchers">LifeHacker</a>、<a href="http://xbeta.info/ask-quick-launch.htm">善用佳软</a>和<a href="http://www.appinn.com/ask-quick-launch/">小众软件</a>都在讨论快速启动程序工具软件的话题，我也正好凑个热闹。</p>
+
+<p>最初开始使用这一类软件时，我的选择是
+<a href="http://www.galanc.com/">TypeAndRun</a>，为此还专门写了<a href="http://calon.weblogs.us/duibi_launchy_he_tar/">对比 Launchy 和
+TAR</a> 的文章。</p>
+
+<p>后来偶然发现了 <a href="http://www.executor.dk/">Executor</a>，加上 TAR
+一直停止更新，于是换用了更新勤快功能也很强大的前者。<br />
+Executor
+既能够快速上手（如导入开始菜单项目），也适合蛋疼人士深入钻研各种参数、选项、变量、快捷键和功能，同时其身材和资源占用也保持的不错，所以一直使用到现在。<br />
+期间有写过一篇<a href="http://calon.weblogs.us/executor/">专门介绍它的文章</a>，以及<a href="http://calon.weblogs.us/executor_bangzhuwendang/">帮助文档的翻译</a>。</p>
+
+<p>除了上面提到的几款软件，还有
+<a href="http://www.donationcoder.com/Software/Mouser/findrun/index.html">FindAndRunRobot!</a>、<a href="http://www.3lsoft.com/">音速启动/VStart</a>、<a href="http://www.truelaunchbar.com/">Ture
+Launchy
+Bar</a>（我觉得这不能算啊，纯命令行的才是王道！），因为操作不习惯、资源占用和对华丽界面无兴趣的原因，就不一一介绍和比较了。<br />
+特别要介绍的是 JourneyBoy 写出来自用的
+<a href="http://journeyboy.blog.sohu.com/79386735.html">HotRun</a>，身材小巧，作者更新频繁，也有如支持通配符这样的特色功能。</p>
+
+<p>当然，谁是最佳的快速启动程序工具软件，就像谁是最佳浏览器、输入法、邮件客户端等等一样，只有适合自己才是最好的。对我来说，Executor
+就是我目前的最佳选择。</p>
+
+<p>接下来选择性的翻译一些 Executor
+<a href="http://home25.inet.tele.dk/mb/executor/didyouknow.html">小技巧</a>，有的在帮助文档和选项设置中是看不到的。</p>
+
+<p>输入文本后如果没找到目标，可以用 Ctrl+R
+切换成模糊匹配模式，相当于在文字前后加上通配符“*”；<br />
+每个关键词都可以指定相应的热键和群组；<br />
+导入 standard.exc 可以获得一些系统命令关键词，比如：<br />
+输入 apps 可以列出并管理进程；<br />
+recent 列出开始菜单中的最近打开的文件等；<br />
+clipboard
+不回车，列出复制过的文本，选择其中一条就相当于重新复制，可以替代部分剪贴板助手程序的功能；<br />
+$CE$ 表示当前选中的文本，通过设置 executor.ini 中 fastsearch
+对应的关键词（默认启动 Google
+搜索），配合快捷键，可以实现快速搜索、直接打开选中的
+URL、本地目录等功能；$C$ 则表示剪贴板内容。</p>
+
+<p>最后再说说到目前的新版本0.98b 为止增加的实用功能：<br />
+能够自己添加进行扫描和建立索引的目录；<br />
+增加关键字群组概念，输入群组名 browser 作为关键字，之前归类为 browser 的
+Firefox、Opera 等等就会出现在待选列表中；<br />
+新的设置界面；<br />
+可以选择为图标、关键词、历史记录建立缓存，牺牲一点内存换取速度。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwo-de-kuaisu-qidong-chengxu-zuijia-xuanze%2f&text= @calon %e6%88%91%e7%9a%84%e5%bf%ab%e9%80%9f%e5%90%af%e5%8a%a8%e7%a8%8b%e5%ba%8f%e6%9c%80%e4%bd%b3%e9%80%89%e6%8b%a9&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%88%91%e7%9a%84%e5%bf%ab%e9%80%9f%e5%90%af%e5%8a%a8%e7%a8%8b%e5%ba%8f%e6%9c%80%e4%bd%b3%e9%80%89%e6%8b%a9》&body=https%3a%2f%2fioerr.github.io%2fwo-de-kuaisu-qidong-chengxu-zuijia-xuanze%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Executor 
+        
+      
+        #TypeAndRun 
+        
+      
+        #快速启动 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/read-at-work/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>Read at Work</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/zhongguo-jiayou/" rel="next">
+    <span>中国，加油</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

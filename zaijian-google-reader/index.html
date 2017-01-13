@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>再见 Google Reader  &middot; 读写错误</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/zaijian-google-reader/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/zaijian-google-reader/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>08 Apr 2013, 09:39</time>
+      <h1>再见 Google Reader</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#的在线服务-feedly-http-www-feedly-com-bloglines-鲜果-http-xianguo-com-抓虾-http-www-zhuaxia-com-有道阅读-http-reader-youdao-com-the">的在线服务，<a href="http://www.feedly.com/">Feedly</a>、Bloglines、<a href="http://xianguo.com/">鲜果</a>、<a href="http://www.zhuaxia.com">抓虾</a>、<a href="http://reader.youdao.com/">有道阅读</a>、[The</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>Google 前一段时间宣布，将在7月1日关闭 Google Reader。<br />
+作为低调的老用户，咱就不贴出趋势图凑热闹了。</p>
+
+<p>Google 这几年被 Facebook
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
+Google Plus 这种没琢磨透需求的半成品。<br />
+作为用户，能够理解 Google
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
+不仅损失许多有能量的核心用户，更重要的是，Google
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；<br />
+同样作为用户，也犯不着可怜兮兮地请愿，Google
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。</p>
+
+<p>目前号称可以替代 Reader</p>
+
+<h2 id="的在线服务-feedly-http-www-feedly-com-bloglines-鲜果-http-xianguo-com-抓虾-http-www-zhuaxia-com-有道阅读-http-reader-youdao-com-the">的在线服务，<a href="http://www.feedly.com/">Feedly</a>、Bloglines、<a href="http://xianguo.com/">鲜果</a>、<a href="http://www.zhuaxia.com">抓虾</a>、<a href="http://reader.youdao.com/">有道阅读</a>、[The</h2>
+
+<p>Reader](<a href="http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS">http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS</a>
+能把 Delicious
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。</p>
+
+<p>于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
+等桌面客户端（Mac OS
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
+FeedDemon。<br />
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。</p>
+
+<p>FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
+Dropbox 等同步服务也可以勉强搞定。<br />
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。</p>
+
+<p>注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
+feed 看待，所以最好在导入之前自己先清理一下。</p>
+
+<p>另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？</p>
+
+<p>为了保险起见，建议只订阅了 <a href="http://feeds.feedburner.com/calon">http://feeds.feedburner.com/calon</a>
+的读者多个心眼，另外订阅 <a href="http://calon.weblogs.us/feed/">http://calon.weblogs.us/feed/</a>
+作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过
+<a href="http://www.feedblitz.com/">FeedBlitz</a> 也可以用邮箱收取 feed
+更新，美中不足是，有的文章标题变乱码）。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzaijian-google-reader%2f&text= @calon %e5%86%8d%e8%a7%81%20Google%20Reader&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%86%8d%e8%a7%81%20Google%20Reader》&body=https%3a%2f%2fioerr.github.io%2fzaijian-google-reader%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #feed 
+        
+      
+        #FeedDemon 
+        
+      
+        #Google 
+        
+      
+        #Reader 
+        
+      
+        #RSS 
+        
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  <a class="left" href="https://ioerr.github.io/wo-shi-geshou/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>我是歌手</span>
+  </a>
+  
+  
+  <a class="right" href="https://ioerr.github.io/houzi-fen-mianbao/" rel="next">
+    <span>猴子分面包</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

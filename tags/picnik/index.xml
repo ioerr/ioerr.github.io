@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Picnik on 读写错误</title>
+    <link>https://ioerr.github.io/tags/picnik/index.xml</link>
+    <description>Recent content in Picnik on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/picnik/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Flickr 整合 Picnik</title>
+      <link>https://ioerr.github.io/flickr-zhenghe-picnik/</link>
+      <pubDate>Wed, 05 Dec 2007 15:56:08 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/flickr-zhenghe-picnik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt; 整合了在线图片编辑工具
+&lt;a href=&#34;http://www.picnik.com/&#34;&gt;Picnik&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00089.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00089.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;但是为什么无论是直接从 Picnik 取 Flickr 的照片：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00088.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00088.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;还是从 Flickr 进入编辑界面：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00086.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00086.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;都不给我好脸色呢？ :050:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

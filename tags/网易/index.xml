@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网易 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%BD%91%E6%98%93/index.xml</link>
+    <description>Recent content in 网易 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E7%BD%91%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>微信杀手和精简交互</title>
+      <link>https://ioerr.github.io/weixin-shashou-he-jingjian-jiaohu/</link>
+      <pubDate>Sun, 27 Oct 2013 16:32:31 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weixin-shashou-he-jingjian-jiaohu/</guid>
+      <description>&lt;p&gt;易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？&lt;/p&gt;
+
+&lt;p&gt;微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。&lt;br /&gt;
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。&lt;br /&gt;
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。&lt;br /&gt;
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。&lt;/p&gt;
+
+&lt;p&gt;我对微信不满意的地方，随便就能想到以下这些：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;语音消息的标注和检索；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;离线缓存公众平台消息；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加开放的分享功能；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的人来说简直就是残废）；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更加强大的公众平台订阅用户管理和统计功能；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;公众平台的发布规则限制太死，不够灵活；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更多社交互动元素的足够吸引人的异步模式的游戏；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;历史消息保存和导出；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
+群转战过来的群聊）。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。&lt;br /&gt;
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。&lt;/p&gt;
+
+&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0
+的改进方向&lt;/a&gt;，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。&lt;br /&gt;
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。&lt;br /&gt;
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或
+&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS
+订阅和微信公众平台交互的综合效果。&lt;br /&gt;
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。&lt;/p&gt;
+
+&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

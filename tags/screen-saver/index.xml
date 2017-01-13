@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screen Saver on 读写错误</title>
+    <link>https://ioerr.github.io/tags/screen-saver/index.xml</link>
+    <description>Recent content in Screen Saver on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/screen-saver/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>屏幕保护程序</title>
+      <link>https://ioerr.github.io/pingmu-baohu-chengxu/</link>
+      <pubDate>Thu, 10 Apr 2008 14:03:41 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/pingmu-baohu-chengxu/</guid>
+      <description>&lt;p&gt;用惯了图片收藏的屏幕保护程序，目前使用的 Windows
+2000系统没有提供这个功能，比较郁闷。在 Twitter
+上一&lt;a href=&#34;http://twitter.com/calon/statuses/786195949&#34;&gt;问&lt;/a&gt;，马上就有&lt;a href=&#34;http://twitter.com/blt_fqx/statuses/786253497&#34;&gt;好人帮忙&lt;/a&gt;：我忘记了还有
+Google Pack 中的屏幕保护工具可以用。&lt;/p&gt;
+
+&lt;p&gt;于是在&lt;a href=&#34;http://wim.arkanasoft.com/blog/archive/2006/01/07/modified-google-pack-screensaver/&#34;&gt;这里&lt;/a&gt;单独下载了
+Google Pack Screensaver，很快搞定。&lt;/p&gt;
+
+&lt;p&gt;美中不足的是，Collage
+模式中的照片小了一点，无法设置，且所有模式中的刷新时间都不能超过10秒。&lt;/p&gt;
+
+&lt;p&gt;想来曾经长时间使用过的屏幕保护程序有 Earth
+3D、七彩泡泡、各种曲线、SETI@Home
+及各种协作计算程序，最终还是喜欢用幻灯片展示精美的照片和图片这种形式，可以保证赏心悦目又不会雷同。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

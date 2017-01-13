@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/liuyan-guanli-xitong/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>08 Mar 2009, 15:54</time>
+      <h1>留言管理系统</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>虽然 <a href="http://www.intensedebate.com/">IntenseDebate</a>
+近期<a href="http://www.intensedebate.com/plugins/">新增了插件功能</a>，已经可以通过插件支持简单的表情，但是自定义表情的路子暂时还是不通，除非自己改一下脚本实现点击表情图片就往
+IntenseDebate 留言区插入 img
+标签和表情图片地址的功能，但这是一种多么扭曲的方法啊，又或者参考官方表情插件作者
+Austin
+的方法在<a href="http://www.intensedebate.com/pluginEditor">插件编辑器</a>中自己改脚本，而且导入历史留言后其中的表情还不一定支持…</p>
+
+<p>这次想征求一下读者的意见，blog 的评论系统要不要更换成
+<a href="http://www.intensedebate.com/">IntenseDebate</a> 或者
+<a href="http://disqus.com/">Disqus</a> 的留言管理系统？</p>
+
+<p>好处是：<br />
+1、留言者可以统一管理自己的留言，如果在其他 blog 的留言也是通过
+<a href="http://www.intensedebate.com/">IntenseDebate</a> 或者
+<a href="http://disqus.com/">Disqus</a> 发布的；<br />
+2、支持同步 <a href="https://friendfeed.com/">FriendFeed</a> 等上面的评论；<br />
+3、发布留言失败的几率大大减小；<br />
+4、可以随时修改、删除自己的留言；<br />
+5、可以给留言打分。</p>
+
+<p>缺点是：<br />
+1、没有了特色表情， :010: 、 :023: 、 :233: 等只能脑内补完了；<br />
+2、影响页面载入的速度；<br />
+3、如果 <a href="http://www.intensedebate.com/">IntenseDebate</a> 或者
+<a href="http://disqus.com/">Disqus</a> 挂掉了，留言系统就会跟着完蛋；<br />
+4、可能无法全部导入历史留言，导入后也可能会有些问题；<br />
+5、版面设计不够精简。</p>
+
+<p>还有一个让人纠结的问题：<br />
+Disqus
+界面更加清爽、有条理，中文用户貌似更多，可以设置的选项更加丰富，但是不支持直接贴图，与
+<a href="http://wordpress.org/">WordPress</a> 的关系不如被
+<a href="http://automattic.com/">Automattic</a> 收购的
+IntenseDebate，还不支持插件；<br />
+IntenseDebate
+则是界面差强人意，选项太少，据说邮件通知不及时，网站速度相对慢，但开放了
+API，建立了插件机制。</p>
+
+<p>更新：<br />
+轮番启用了两个插件测试效果，感觉暂时还是 Disqus
+更好用一点，如果确定要统一管理留言就优先选择它，对比如下：<br />
+1、IntenseDebate 导入评论似乎不完整；<br />
+2、IntenseDebate 启用之后发表评论，然后再禁用，评论没有同步给
+<a href="http://wordpress.org/">WordPress</a> 的留言表，Disqus
+就没有这个问题－－但据说 Disqus 的定时同步比较耗 CPU 资源，未证实；<br />
+3、IntenseDebate 发表评论是 AJAX 效果，而 Disqus
+会重新刷新整个页面；也因此在这个 blog 上，前者留言的成功率高一些；<br />
+4、Disqus 貌似不支持直接删除已有留言，只能编辑，要删除得进 Disqus
+管理界面；<br />
+5、IntenseDebate 针对垃圾留言的选项更多；<br />
+6、IntenseDebate 的界面实在是太乱了…<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-03-10-01-32-52.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2009-03-10-01-32-52.png" alt="Photobucket" /></a></p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fliuyan-guanli-xitong%2f&text= @calon %e7%95%99%e8%a8%80%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%95%99%e8%a8%80%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f》&body=https%3a%2f%2fioerr.github.io%2fliuyan-guanli-xitong%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #Disqus 
+        
+      
+        #IntenseDebate 
+        
+      
+        #留言 
+        
+      
+        #留言管理系统 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/service/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>07 Mar 2009, 17:30</time>
+      <h1>杀必死</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>经常有人把 service 读成 [sə&rsquo;vais]，ultra 读成
+[&lsquo;ju:trə]，包括某些技术专家，因此时常怀疑自己是不是学艺不精，没有接触到比较高级而隐秘的用法…<br />
+当然，“杀必死”的读法不在此列。</p>
+
+<p>“vadi, vedi,
+vinci！”orz，看到某汽车杂志上的装逼文自信满满的引用恺撒的名言失败，真是大快人心。</p>
+
+<p>在宾馆中看 HBO
+放《<a href="http://www.douban.com/subject/1301746/">汉尼拔</a>》中文字幕版，烹调人脑的那一段竟然被和谐了！学什么不好非要学人家乱动剪刀，真应该剁手。<br />
+另外，Julianne Moore
+实在是太难看了，我能够联想到的和她最接近的明星级人物是辛追。</p>
+
+<p><a href="http://www0.modiface.com/weightmirror/">Weight Mirror</a>
+可以用来给照片中的人体快速“减肥”，上传照片后直接设定减轻多少重量后的效果，最高是减轻50磅。<br />
+然则在讨论中，<a href="https://friendfeed.com/e/b488b0ac-1046-4a05-91c0-59d63d188683/Look-Thin-Slim-in-your-Photographs-Instantly/">人民群众纷纷表示</a>，效果图中原装版本才是最好的，“减肥”过度的效果有点骇人：<br />
+<a href="http://www.labnol.org/internet/pictures/look-thin-slim-in-photographs/7655/"><img src="http://img.labnol.org/di/LookThinSliminyourPhotographswithout_F703/weightloss.jpg" alt="" /></a></p>
+
+<p>发现 Flickr
+中有的相片集很诡异的被解散了，或者其中一些照片被甩出来了，莫非近期系统出过问题做过回退？</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fservice%2f&text= @calon %e6%9d%80%e5%bf%85%e6%ad%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%9d%80%e5%bf%85%e6%ad%bb》&body=https%3a%2f%2fioerr.github.io%2fservice%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jideliyizhe/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>25 Feb 2009, 15:54</time>
+      <h1>既得利益者</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>公交车已经进入沙丁鱼罐头模式，每一站都仿佛有无穷的乘客等着挤上车来，攀附在车门“生死”边缘的乘客们说什么也不肯放手，因为一旦放弃，意味着又要再等待至少10分钟，而且很可能还是挤不上车。</p>
+
+<p>每当这个时候，车上的<strike>孙权</strike>乘客就会高喊“<strong>不要再上来了！</strong>”“坐下一趟！”“害得大家都走不成！”，而其实就在上一站，他们自己也是辛辛苦苦才杀入车厢站稳脚跟的，当时同样不乏人劝其“从头再来”，显然他们都没有向命运低头。</p>
+
+<p>这，就是身为既得利益者的正常行为模式吧。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjideliyizhe%2f&text= @calon %e6%97%a2%e5%be%97%e5%88%a9%e7%9b%8a%e8%80%85&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%97%a2%e5%be%97%e5%88%a9%e7%9b%8a%e8%80%85》&body=https%3a%2f%2fioerr.github.io%2fjideliyizhe%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #公交车 
+        
+      
+        #既得利益者 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/laji-fenlei/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>21 Feb 2009, 14:44</time>
+      <h1>垃圾分类</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？</p>
+
+<p>答案是：略知一二，不敢肯定。</p>
+
+<p>于是回家上网查得<a href="http://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E">答案如下</a>：</p>
+
+<p><blockquote>
+可回收的资源垃圾：<br />
+经过人类研究，可透过收集并经由回收工厂，透过技术处理成为纯净可再使用的资源，这些垃圾称为可回收的资源垃圾。细分类为：<br />
+* 纸类，例如纸皮；<br />
+* 金属类，如汽水罐、油罐、饼干罐等；<br />
+* 玻璃，如酒瓶；<br />
+* 聚合物类；<br />
+* 衣物；<br />
+* 废电池，如手机电池；<br />
+* 厨余肥料，转为猪吃的食物；<br />
+* 废家具；<br />
+* 电子电气品，如二手电视机；<br />
+* 动物粪便，转为燃料。</p>
+
+<p>不可回收的垃圾：<br />
+完全无法经由工厂的干净技术而产生纯净可再使用的垃圾，称为不可回收的垃圾。例如经垃圾车搅拌的混合物。
+</blockquote>
+但对不可回收垃圾的概念还是不够清楚，看来笨人要首先用枚举法剃掉可回收垃圾细分类之后才能确认？囧</p>
+
+<p>其实两种分类也是不够的，<a href="http://www.jbw.cn/news.jsp?NewsId=7071">生活类垃圾最好分为四类</a>分别处理：<br />
+可回收垃圾：包括纸类、金属、塑料、玻璃等，通过综合处理回收利用，可以减少污染，节省资源。<br />
+厨余垃圾：包括剩饭、骨头、菜根、菜叶等食品类废物，经生物技术就地处理堆肥，可生产有机肥料。<br />
+有害垃圾：包括废电池、废日光灯管、废水银温度计、过期药品等，这些垃圾需要特殊安全处理。<br />
+其他垃圾：包括除上述几类垃圾之外的砖瓦陶瓷、渣土、卫生间废纸等难以回收的废弃物，采取卫生填埋可有效减少对地下水、地表水、土壤及空气的污染。</p>
+
+<p>接下来的问题是，有多少市民清楚垃圾分类并且按照分类扔垃圾呢？据我的观察，答案是无限趋近于0…<br />
+这不是市民素质低的问题。以我个人的经验来看，从幼儿园一直到参加工作，从来没有人告诉过我关于垃圾分类的详细知识，城市生活垃圾具体是怎么处理的，也很少有人来告诉你。<br />
+没有人宣传，没有人教育，没有人鼓励，没有人监督和处罚，市政部门当然不能指望把垃圾桶统统换成分类式的，市民就自动习得垃圾分类技能。因此，分类垃圾桶成了无用的摆设，政府才应该好好反思是不是只做了表面文章。</p>
+
+<p>同时，<a href="http://news.sohu.com/20071218/n254144053.shtml">垃圾分类处理的情况也不乐观</a>。<br />
+收集、运输、压缩、回收处理等等流程，哪个是真正分类处理了？从源头分类就没做好的现状来看，因为后期再分类的成本过高，相信分类处理没有办法落到实处，否则就事倍功半了。<br />
+若最终并没有真正做到分类处理，又会让大多数了解情况的市民放弃分类的努力，从而陷入的恶性循环。</p>
+
+<p>要打破这个循环，还是得从宣传、教育、引导上入手。从<a href="http://news.sohu.com/20071218/n254144053.shtml">广州垃圾分类的问题分析</a>来看，建立垃圾分类回收利用体系、处理设施是政府完全可以操作的事情，提高回收效益虽然短期内无法实现，但还可以动用国家补贴，但广大市民没有了解垃圾分类回收的好处和意义，没有被引导和推动，没有配合从源头将垃圾分类做好，就只能永远耗费国家的补贴，建立的体系和设施也便无法发挥应有的作用了。</p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flaji-fenlei%2f&text= @calon %e5%9e%83%e5%9c%be%e5%88%86%e7%b1%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9e%83%e5%9c%be%e5%88%86%e7%b1%bb》&body=https%3a%2f%2fioerr.github.io%2flaji-fenlei%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #垃圾 
+        
+      
+        #垃圾分类 
+        
+      
+        #垃圾回收 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/yuanxiao-shang-yanhua/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>14 Feb 2009, 18:39</time>
+      <h1>元宵赏烟花</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>在元宵节央视大裤衩配楼着火的时候，我正在湘江边上欣赏另一出烟花表演。<br />
+州官放火，百姓点灯，真是其乐融融一派和谐啊。</p>
+
+<p>江边的人群实在拥挤，沿江风光带的栏杆边上围了至少三层人，还不断有人下到江岸抢占有利位置。<br />
+<a href="http://www.flickr.com/photos/calon/3278581568/"><img src="http://farm4.static.flickr.com/3412/3278581568_e10ec5db7e.jpg" alt="看烟花的人群 (by
+calon)" /></a><br />
+<a href="http://www.flickr.com/photos/calon/3278577102/"><img src="http://farm4.static.flickr.com/3521/3278577102_a2170a927c.jpg" alt="看烟花的人群 (by
+calon)" /></a></p>
+
+<p>于是烟花燃放完毕后，场面就变得恐怖了，还好没有出现踩踏的事故。<br />
+<a href="http://www.flickr.com/photos/calon/3278649118/"><img src="http://farm4.static.flickr.com/3533/3278649118_64ef0bffaf.jpg" alt="看烟花的人群 (by
+calon)" /></a></p>
+
+<p>虽然到达的时间比较晚，却抢占了有利的地形拍照，只可惜满意的照片不多：<br />
+<a href="http://www.flickr.com/photos/calon/3278532884/"><img src="http://farm4.static.flickr.com/3470/3278532884_374052f4d5.jpg" alt="湘江上的元宵烟花 (by
+calon)" /></a><br />
+<a href="http://www.flickr.com/photos/calon/3278597018/"><img src="http://farm4.static.flickr.com/3387/3278597018_8bddd0d312.jpg" alt="湘江上的元宵烟花 (by
+calon)" /></a></p>
+
+<p>人群散去之后，就只有激光射灯在孤独的摇摆：<br />
+<a href="http://www.flickr.com/photos/calon/3278669478/"><img src="http://farm4.static.flickr.com/3313/3278669478_bd03a0570f.jpg" alt="IMG\_6440 (by
+calon)" /></a><br />
+<a href="http://www.flickr.com/photos/calon/3278684378/"><img src="http://farm4.static.flickr.com/3472/3278684378_c6a0acccd2.jpg" alt="IMG\_6445 (by
+calon)" /></a></p>
+
+<p>太平街的戏台非常难得的有表演，应该是《白蛇传》吧：<br />
+<a href="http://www.flickr.com/photos/calon/3277911051/"><img src="http://farm4.static.flickr.com/3527/3277911051_dc536b4251.jpg" alt="白蛇传 (by
+calon)" /></a></p>
+
+<p>元宵节前一天在太平街口看到的正准备挂起来的灯笼：<br />
+<a href="http://www.flickr.com/photos/calon/3277653611/"><img src="http://farm4.static.flickr.com/3453/3277653611_70d0321408.jpg" alt="灯笼 (by
+calon)" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/calon/sets/72157613783847173">更多照片</a></p>
+
+</section>
+
+<div class="share">
+  
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyuanxiao-shang-yanhua%2f&text= @calon %e5%85%83%e5%ae%b5%e8%b5%8f%e7%83%9f%e8%8a%b1&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%83%e5%ae%b5%e8%b5%8f%e7%83%9f%e8%8a%b1》&body=https%3a%2f%2fioerr.github.io%2fyuanxiao-shang-yanhua%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  
+</div>
+
+<div class="post-meta-code">
+  
+  
+  
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        #元宵节 
+        
+      
+        #湘江 
+        
+      
+        #烟花 
+        
+      
+        #焰火 
+        
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/39/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i>
+  </a>
+  
+
+  PAGE 40 / 227
+
+  
+  <a href="/page/41/" rel="next">
+    <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

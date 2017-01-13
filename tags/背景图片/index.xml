@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>背景图片 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/index.xml</link>
+    <description>Recent content in 背景图片 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simple Desktops</title>
+      <link>https://ioerr.github.io/simple-desktops/</link>
+      <pubDate>Fri, 25 Feb 2011 03:31:44 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/simple-desktops/</guid>
+      <description>&lt;p&gt;之前介绍过提供简洁桌面背景图的
+&lt;a href=&#34;http://calon.weblogs.us/minimalwall/&#34;&gt;MinimalWall&lt;/a&gt;，不过图片内容基本都是文字，而
+&lt;a href=&#34;http://simpledesktops.com/&#34;&gt;Simple Desktops&lt;/a&gt;
+的技术含量高一点，背景图片的内容都是图案了。&lt;/p&gt;
+
+&lt;p&gt;比如说《&lt;strike&gt;情人节&lt;/strike&gt;圣诞节前的噩梦》中的 Jack：&lt;br /&gt;
+&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/feb/10/jack/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/02/10/Jack4.png.610x382_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;或者 Konami 游戏中的秘籍：&lt;br /&gt;
+&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/jan/10/konami-code/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/01/10/konami-code.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;还有《2001太空奥德赛》中的机器人 HAL 9000：&lt;br /&gt;
+&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/apr/01/hal-9000/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/04/01/hal-9000.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;可是，像这种宝丽莱相机的图案一点都不简洁好吗？&lt;br /&gt;
+&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/jun/09/fly-polaroid/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/06/07/pomo.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
