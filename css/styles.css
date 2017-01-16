@@ -1,10 +1,10 @@
 /*
 * HELLO-PROGRAMMER Theme CSS
 */
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css); */
 
 * {
-  font-family: 'Spoqa Han Sans', 'Sans-serif';
+  font-family: \5fae\8f6f\96c5\9ed1, arial, sans-serif;
 }
 
 html, body, h1, h2, h3, h4, h5 {
@@ -201,12 +201,12 @@ dt {
   padding-left: 10px;
 }
 
-.share {
+.comment {
   margin: 2rem;
   text-align: center;
 }
 
-.share a {
+.comment a {
   display: inline-block;
   width: 2.4rem;
   line-height: 2.4rem;
@@ -217,7 +217,7 @@ dt {
   margin: 0 .5rem;
 }
 
-.share a:hover {
+.comment a:hover {
   color: #64b5f6;
 }
 
