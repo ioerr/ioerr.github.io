@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>从 WordPress 迁移到 Hugo  &middot; 读写错误</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>17 Jan 2017, 17:32</time>
+      <h1>从 WordPress 迁移到 Hugo</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。<br />
+而且最近几年用静态网站写 blog 的风潮越来越流行，总想着可以尝试一把。</p>
+
+<p>最开始是考察了最流行基于 Ruby 的 Jekyll 和 Octopress，然后是基于 Python 的 Pelican 和基于 node.js 的 Hexo。<br />
+选择很多，主题也很丰富，然而实在不喜欢脚本语言折腾安装部署环境的操作。<br />
+就算已经安装了环境，还要考虑更换电脑之后如何重新配置，或者做绿色便携改造。<br />
+而且站点生成效率也是重要的考量因素。</p>
+
+<p>因此最后决定尝试基于 Golang 的 Hugo。<br />
+只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。</p>
+
+<ul>
+<li>安装 Hugo</li>
+</ul>
+
+<p>在 <a href="https://github.com/spf13/hugo/releases">Hugo 的 Github 发布页面</a>直接下载安装包或自己编译就行。</p>
+
+<ul>
+<li>导出和转换 WordPress 的内容</li>
+</ul>
+
+<p>如果你运气够好，可以安装直接导入的插件：<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter </a>。<br />
+然后从 WordPress 的管理面板 Tool 菜单中直接导出可以用于 Hugo 的内容。</p>
+
+<p>或者也可以用 <a href="https://github.com/SenjinDarashiva/JekyllToHugo">JekyllToHugo</a> 加 <a href="https://github.com/coderzh/ConvertToHugo">ConvertToHugo</a> 的组合搞定。</p>
+
+<p>然而悲剧的是，Weblogs.us 可以安装以上插件，却在导出时报权限不足：failed to open dir: Permission denied <br />
+推测与 Weblogs.us 的服务器设置有关，不想麻烦服务方帮忙，于是只能另想办法。</p>
+
+<p>最终还是用 WordPress 自带的导出功能，导出所有内容的 XML 文件。<br />
+然后结合 Python 脚本 <a href="https://github.com/thomasf/exitwp">Exitwp</a> 转换为 Jekyll 适用的内容。<br />
+注意，Exitwp 我是在 Ubuntu 下安装使用的，具体参考作者的文档。<br />
+如果遇到解析出错的情况，比如我遇到无法正确处理包含以下内容的部分：<br />
+<code>&lt;atom:link rel=&quot;hub&quot; href=&quot;http://pubsubhubbub.appspot.com&quot;/&gt;&lt;atom:link rel=&quot;hub&quot; href=&quot;http://pubsubhubbub.superfeedr.com&quot;/&gt;</code><br />
+直接删除再试就可以了。</p>
+
+<ul>
+<li>折腾 Markdown 内容</li>
+</ul>
+
+<p>Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过<a href="../pandoc-markdown">吐槽</a>）</p>
+
+<p>虽然可以用 Pandoc 批量转换，但Pandoc 在转换为 Markdown 格式时会在下划线前增加反斜线。<br />
+而导出的 WordPress XML 中包含有文章的 slug 地址，像我就在 slug 中统一使用下划线代替空格分隔单词和词组拼音。<br />
+于是，这就导致转换后的 slug 地址不正确。<br />
+只好祭出 sed 做批量调整，在包含有指定字符串的一行中将下划线替换为短横线连字号：</p>
+
+<pre><code>sed -i &quot;/slug:/s/_/-/g&quot; *.markdown
+sed -i &quot;/link:/s/_/-/g&quot; *.markdown
+</code></pre>
+
+<p>然后再写个 shell 脚本搞定 Pandoc 批量转换：</p>
+
+<pre><code>FILES=*.markdown
+for f in $FILES
+do
+  filename=&quot;${f%.*}&quot;
+  `pandoc -s -f markdown+hard_line_breaks $f -t markdown -o $filename.markdown`
+done
+</code></pre>
+
+<p>转换完之后，发现 Pandoc 将 Jekyll 导入文件头部的 YAML 格式部分的 <code>---</code> 替换成了 <code>...</code>，这会导致 Hugo 解析出错。<br />
+于是再用 sed 改回来：</p>
+
+<pre><code>sed -i &quot;s/^...$/---/g&quot; *.markdown
+</code></pre>
+
+<ul>
+<li>选择 Hugo 模板</li>
+</ul>
+
+<p>Hugo 官方站点有少量<a href="http://themes.gohugo.io/">模板演示</a>，不少是从 Jekyll 的模板改的。<br />
+美观的模板有不少，但要找到既好看又符合功能需求的就比较困难了。</p>
+
+<p>比如我的要求是：</p>
+
+<ol>
+<li>简洁风格；</li>
+<li>支持翻页；</li>
+<li>支持类别（category）展示；</li>
+<li>支持响应式布局优先；</li>
+<li>支持标签（tag）优先；</li>
+<li>单栏布局优先；</li>
+<li>方便自定义修改。</li>
+</ol>
+
+<p>尝试了多个主题之后，最终决定使用这款<a href="http://themes.gohugo.io/hugo-hello-programmer-theme/">Hello Programmer</a>。<br />
+默认支持类别、标签、翻页，单栏布局。<br />
+使用的主页图片和 favicon 则需要自己绘制。</p>
+
+<ul>
+<li>发布到 Github Pages</li>
+</ul>
+
+<p>因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。<br />
+操作步骤参考<a href="https://pages.github.com/">官方文档</a>就成。</p>
+
+<p>然而，因为主题中引用了 Font Awesome 字体，在默认限制 icon font 跨域访问的 Firefox 下会报错：<br />
+<code>已阻止交叉源请求：同源策略不允许读取...上的远程资源。可以将资源移动到相同的域名上或者启用 CORS 来解决这个问题。</code></p>
+
+<p>最省事的方法，就是将网络字体下载下来，合并在主题中，同时更改 CSS 中相应的地址为本地相对地址。</p>
+
+<p>一切就绪之后，用 Hugo 命令生成静态网页。<br />
+像这个 blog 有1000多篇文章，900多个标签，15个类别，生成的静态网站体积也有好几十 MB…<br />
+说实话，体积这么大，小文件又多，提交、拉取和通过网盘同步备份还是挺不爽的。<br />
+好在有 Golang 加持，生成的效率超高，生成时间只有1、2秒左右。</p>
+
+<p>最后，使用 Github Pages 的话，RSS 订阅地址也变成了 <a href="https://ioerr.github.io/index.xml">https://ioerr.github.io/index.xml</a></p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fcong-wordpress-qianyi-dao-hugo%2f&text= @calon %e4%bb%8e%20WordPress%20%e8%bf%81%e7%a7%bb%e5%88%b0%20Hugo&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bb%8e%20WordPress%20%e8%bf%81%e7%a7%bb%e5%88%b0%20Hugo》&body=https%3a%2f%2fioerr.github.io%2fcong-wordpress-qianyi-dao-hugo%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/blog">#Blog </a>
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
+      
+        <a href="https://ioerr.github.io/tags/hugo">#Hugo </a>
+      
+        <a href="https://ioerr.github.io/tags/%E4%B8%BB%E9%A2%98">#主题 </a>
+      
+        <a href="https://ioerr.github.io/tags/weblogs.us">#Weblogs.us </a>
+      
+        <a href="https://ioerr.github.io/tags/markdown">#Markdown </a>
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  
+  <a class="right" href="https://ioerr.github.io/tiyan-dangdang-shiti-shudian/" rel="next">
+    <span>体验当当实体书店</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

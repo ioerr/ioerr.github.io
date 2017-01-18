@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</loc>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tiyan-dangdang-shiti-shudian/</loc>
     <lastmod>2016-10-24T05:06:50+00:00</lastmod>
   </url>
@@ -5746,6 +5751,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/categories/blog/</loc>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/bolt/</loc>
     <lastmod>2008-08-20T15:20:20+00:00</lastmod>
     <priority>0</priority>
@@ -6105,6 +6116,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/hugo/</loc>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/ifttt/</loc>
     <lastmod>2011-06-08T07:09:20+00:00</lastmod>
     <priority>0</priority>
@@ -6196,7 +6213,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/markdown/</loc>
-    <lastmod>2014-10-23T07:25:28+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -6567,7 +6584,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/weblogs/index.us/</loc>
-    <lastmod>2008-08-30T08:04:17+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -6603,13 +6620,13 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/wordpress/</loc>
-    <lastmod>2014-02-10T16:13:52+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ioerr.github.io/categories/wordpress/</loc>
-    <lastmod>2014-02-10T16:13:52+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -6777,7 +6794,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2013-08-02T17:10:16+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7821,7 +7838,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/</loc>
-    <lastmod>2016-02-22T07:43:13+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10653,7 +10670,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2016-10-24T05:06:50+00:00</lastmod>
+    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
     <priority>0</priority>
   </url>
   
