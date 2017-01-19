@@ -42,6 +42,83 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/better-feed/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>31 Oct 2005, 01:29</time>
+      <h1>Better Feed</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>昨天试着安装了
+<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">BetterFeed</a>
+这个 <a href="http://wordpress.org/">WordPress</a> 插件，现在在 RSS Feed
+中应该已经可以看到效果了。如果你觉得有用，可以<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">到这里下载</a>并安装，装好之后到
+Plugins - Plugin Editor 界面中按照自己的意愿修改或在本地修改好再上传。<br />
+我只在 RSS Feed
+最下方增加了许多信息，没必要在多页浏览上搞什么花样，所以修改时在两个“FEEDFOOT”之间的位置加入自定义的文本即可。<br />
+我认为有用的变量：<br />
+* %%blogname%% : blog 的名称<br />
+* %%blogurl%% : blog 的地址（如 <a href="http://myblog.com/）">http://myblog.com/）</a<br />
+* %%posttitle%% : 文章的标题（如 Hello World）<br />
+* %%posturl%% : 文章的地址（如
+<a href="http://myblog.com/archives/2001/02/03/hello-world/">http://myblog.com/archives/2001/02/03/hello-world/</a> 或者
+<a href="http://myblog.com/?p=1337）">http://myblog.com/?p=1337）</a<br />
+* %%id%% : 文章的 ID（如上面的1337，这在你的 Manager 界面中可以看到）<br />
+* %%date[Y]%% : 文章发布的日期时间，遵循 PHP date()
+函数的语法格式，这在 Options 界面中可以定义<br />
+* %%categories%% : 文章所属的分类，用逗号分隔<br />
+* %%categorylinks%% : 文章所属的分类的链接，用逗号分隔<br />
+* %%comments%% : 评论的数目<br />
+* %%author_nick%% : 作者的昵称（如 Administrator、Calon）<br />
+* %%related[5]%% : 5篇相关的文章，数目可以自定义。需要有<br />
+* %%posturl%%#comments/ :
+文章评论的地址，自动跳到第一条评论的起始位置<br />
+* %%posturl%%#respond/ : 文章最后输入回复的位置，自动跳到留言框<br />
+* %%posturl%%trackback/ : 文章 trackback 的地址<br />
+* %%posturl%%feed/ : 文章评论的 RSS Feed 地址</p>
+
+<pre><code>如果你有能力修改它的函数的话，相信可以在 RSS Feed 中加入更多的信息。需要注意的是，加入太多的内容也不太好，我增加这些信息只是为了方便那些无法直接访问的订阅者。
+</code></pre>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbetter-feed%2f&text= @calon Better%20Feed&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Better%20Feed》&body=https%3a%2f%2fioerr.github.io%2fbetter-feed%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/changyongde-gongjuruanjian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -604,89 +681,6 @@ QQ 表情画的生日蛋糕</p>
           <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
         
           <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/about-blank/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>20 Oct 2005, 09:10</time>
-      <h1>about:blank</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>如果你用 <a href="http://del.icio.us/">Del.icio.us</a> 收藏 <a href="about:blank">about:blank</a>
-这个页面，会有什么后果呢？<br />
-到目前为止，包括<a href="http://del.icio.us/calon">我</a>在内的520名用户收藏了这个页面，在书签内的地址最终是指向一个如下所示的<a href="http://del.icio.us/doc/dangerous#about:blank">说明文档</a>：</p>
-
-<p><blockquote>
-only http, https, news, and ftp schema urls are allowed right now.</p>
-
-<p>if you have a really good reason i should allow another one, please
-email support@del.icio.us
-</blockquote>
-可以<a href="http://del.icio.us/url/a16ec720967bebcedbcb35695024a8a1">看到</a>有人将此页面归为
-mystartpage、zen、nothing、empty、blank、nil、nada、white、clean、nice、cool、existential、nothingness，有人留下这样的评语：</p>
-
-<p><blockquote>
-“Best page in the universe. Hands down.”<br />
-“it is about blank. or maybe just blank”<br />
-“Contemplate emptiness. Life is fleeting.”<br />
-“I really don&rsquo;t like this site. It&rsquo;s boring and there&rsquo;s nothing on it.”<br />
-“if you see one blank white page, pick this one. i visit this one every
-day.”<br />
-“the best homepage ever.”<br />
-It&rsquo;s a classic view of everything and nothing<br />
-An incredibly informative page<br />
-The page you get when you use a new tab<br />
-I&rsquo;ve been thinking about using del.icio.us to remember things that
-aren&rsquo;t urls (like where I put my keys (they&rsquo;re on the front table))<br />
-I can stare at this web page all day.<br />
-Perfect example of design
-</blockquote>
-确实是有够无聊 (-_-#)</p>
-
-<p>但从一些用户的<a href="http://del.icio.us/url/a16ec720967bebcedbcb35695024a8a1">描述</a>来看，收藏这个页面的最大原因是操作错误！很多用户将空白页面当做了要收藏的页面，如
-<a href="http://del.icio.us/tag/">tag</a> 为 system:import
-的估计是导入时出了问题。默认情况下收藏成功之后浏览器会返回原页面，如果收藏了空白页面，用户就能够看到<a href="http://del.icio.us/doc/dangerous#about:blank">系统提示</a>，所以一般情况下不会有什么问题，如果使用第三方工具，设置为收藏后关闭页面，或者批量导入，也许就不知道收藏了空白页面了吧。<br />
-不知这些用户回头查看时，会不会有人因为再也找不到当时收藏的地址而对
-<a href="http://del.icio.us/">Del.icio.us</a> 不满意？</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fabout-blank%2f&text= @calon about%3ablank&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《about%3ablank》&body=https%3a%2f%2fioerr.github.io%2fabout-blank%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>

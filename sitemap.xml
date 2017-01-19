@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/</loc>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</loc>
     <lastmod>2017-01-17T17:32:36+08:00</lastmod>
   </url>
@@ -6932,7 +6937,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/</loc>
-    <lastmod>2016-10-24T05:06:50+00:00</lastmod>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8624,7 +8629,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2013-10-12T10:07:33+00:00</lastmod>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9613,6 +9618,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/</loc>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E7%94%B0%E5%BE%84/</loc>
     <lastmod>2008-08-20T15:20:20+00:00</lastmod>
     <priority>0</priority>
@@ -9633,6 +9644,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
     <lastmod>2012-10-22T09:13:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1/</loc>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9740,7 +9757,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</loc>
-    <lastmod>2016-08-03T10:27:23+00:00</lastmod>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10670,7 +10687,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2017-01-17T17:32:36+08:00</lastmod>
+    <lastmod>2017-01-19T16:44:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
