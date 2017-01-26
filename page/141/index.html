@@ -42,6 +42,94 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/extended-talk/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>05 Jul 2006, 05:36</time>
+      <h1>Extended Talk</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>7月2日新版本的 <a href="http://www.meosoft.net/extendedtalk/index.html">Extended
+Talk</a>
+放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个
+Active Status 有点研究的价值。</p>
+
+<p>Active Status 就是通过脚本自动更改 <a href="http://talk.google.com/">Talk</a>
+的状态。既可以读取 RSS
+的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -
+3:15回来，现在是 1:49”这样的效果。<br />
+一般的操作就不介绍了，帮助文档写得很清楚。</p>
+
+<p>我想要实现的效果是类似于 Windows Media Player + MSN Messenger
+那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取
+<a href="http://www.last.fm/">Last.Fm</a> 上面 Recent Tracks 的 RSS
+Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS
+以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的
+RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
+一栏中的函数名，Turn On 即可。</p>
+
+<p>但是一来 RSS Feed
+更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。</p>
+
+<p>1、下载 <a href="http://www.windows-spy.com/">Winspector Spy</a>；<br />
+2、打开 Foobar2000，播放歌曲。<br />
+3、通过 <a href="http://www.windows-spy.com/">Winspector Spy</a> 找到 Foobar2000
+窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为
+{DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1<br />
+4、新建一个 Foobar2000.et 文件，内容如下：</p>
+
+<p><blockquote>
+<em>foobar</em><br />
+{<br />
+ETP<br />
+{DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1<br />
+}
+</blockquote>
+其中 ETP 表示这是 Windows Script 类型的插件脚本，foobar 是函数名；<br />
+5、如前所述，载入脚本，设置好状态栏的函数，激活插件。</p>
+
+<p>这样，Talk 的状态栏就和 Foobar2000
+窗口的标题一致，可以显示当前播放的歌曲了。这样的方案虽然比 Windows Media
+Player + MSN Messenger 要麻烦，但是灵活得多，通过 Windows Script、RSS
+Feed 和 VBScript，你也可以创造出更有趣更实用的功能了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fextended-talk%2f&text= @calon Extended%20Talk&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Extended%20Talk》&body=https%3a%2f%2fioerr.github.io%2fextended-talk%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/love/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -382,61 +470,6 @@ Juninho，具备决定比赛的能力。最重要的是，两支球队教练的�
     
       categories = 
       
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/chenggongde-jiashuai/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>26 Jun 2006, 17:33</time>
-      <h1>成功的假摔</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>一个成功的假摔需要什么条件：<br />
-1、腿要够长，这样即使突破了也能够勾到身后已经倒地的对方球员；<br />
-2、反应速度要够快；<br />
-3、某球员灵魂附体，以便提醒反应速度不够快的球员及时执行第一步。</p>
-
-<p>给平庸贴上伟大的标签，并不光明正大的胜利被当做一种光荣，对一个可敬的失败者缺乏应有的尊重，这样的表现叫做有激情？这样的人也能叫做真球迷、真汉子？</p>
-
-<p>有的人失败的时候没风度，有的人胜利的时候更没风度。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fchenggongde-jiashuai%2f&text= @calon %e6%88%90%e5%8a%9f%e7%9a%84%e5%81%87%e6%91%94&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%88%90%e5%8a%9f%e7%9a%84%e5%81%87%e6%91%94》&body=https%3a%2f%2fioerr.github.io%2fchenggongde-jiashuai%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
         
           <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
         
