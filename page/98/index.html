@@ -42,6 +42,94 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/guanyu-zuqiu-zhandian-he-shequ-de-xiangfa/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>06 Jun 2007, 15:56</time>
+      <h1>关于足球站点和社区的想法</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>最近想为以前琢磨过的一个想法写个数据模型出来，但是真正写的时候发现我对数据库的了解实在太少。</p>
+
+<p>想法的起因是这样的，觉得目前没有一个让人满意的资料丰富、功能强大的足球站点和社区。什么是我想要的？</p>
+
+<p>一、详尽的资料库和强大的查询服务</p>
+
+<p>每个国家队、俱乐部球队、著名球员、教练等等都有相应的资料介绍，包括某场比赛的某个进球也能够有相应的视频资料链接。<br />
+各类资料的收集要考虑周全，如球员的原名、球衣名称、昵称、大陆译名、香港译名等。<br />
+各类信息分门别类建档，便于检索查询和统计，如根据日期、国家、球队级别查询出某个时间段内中国男子国家队入选球员名单、比赛交手记录、胜负情况，加上球员信息则可以查询出哪些球员在这段时期内入选过几次、首发情况、出场时间、进了几个球等等。<br />
+理想状况是，数据模型的合理构建加上充实的信息，能够提供给用户非常丰富的查询统计方式，用户面对的将是可以方便处置的元数据，和无处不相互关联的统计数据，而不是像很多足球数据网站提供的数据，看似很丰富实际不方便用户提取出他所需要的统计结果。<br />
+拿 <a href="http://www.fifa.com/">FIFA</a>
+的<a href="http://www.fifa.com/worldfootball/statisticsandrecords/index.html">数据统计</a>来举个例子：<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/tournaments/worldcup/matches/index.html">比赛记录</a>虽然做得不错，但是如果我想统计出其他的记录呢？<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/headtohead/team1=BRA/team2=FRA/index.html">法国和巴西的交锋记录</a>很详尽，但是我想看指定的十几只国家队中在非友谊赛上对巴西胜率最高的是哪个，该怎么统计呢？<br />
+如果我想查询近15年内在世界杯上总进球超过3个球员中谁的转会身价最低，欧洲冠军联赛改制以来单场比赛逆转次数最多同时又不是前一年联赛冠军的球队是哪一只，某年某场比赛某队中的国脚有哪几个，恐怕
+FIFA、UEFA
+或者各国足协的网站都无能为力吧，而有的专业足球数据库就算有这些资料，但是会向公众开放吗，能够达到这样的自由度吗？</p>
+
+<p>是的，这要求在拥有数据的基础上开放后台查询，但我估计以 FIFA
+目前的数据库来说，即使开放给用户做后台查询也未必能够查询到上面所说的某些结果，最根本的问题应该还是在数据模型上面吧。</p>
+
+<p>二、Wiki 式的资料收集方式</p>
+
+<p>除了要满足多种多样查询统计的需求之外，还想要有的是用户贡献的内容，有的资料是可以开放给用户自己编写的，类似于一个
+Wiki。但如何在资料的准确性和贡献者人数上取得平衡呢？也许应该借鉴
+Championship Manager/Football Manager
+系列的资料获取方法？不要求精确描述球员能力、潜力、精神属性的数值，相信难度会小很多，这几个项目相互合作也不错。</p>
+
+<p>三、主题论坛</p>
+
+<p>在 Wiki
+之外，每一个球队、每一个球员、每一场比赛、每一届赛事都对应一个讨分论坛，当你找到了球队、球员、比赛等等，也就自然找到了同主题进行讨论的地方。<br />
+而发布文章时，通过数量有限制的标签可以同时发布到几个论坛中，如标签为“Marseille”、“Bayern”、“Ribery”，那么文章就有三个分身分别出现在那三个主题的论坛中。<br />
+当然，这种方式还有很多问题要解决，如话题的分拆和合并，标签数量不够和垃圾标签轰炸等等。</p>
+
+<p>如果引入投票打分机制，或许还可以加上给不同阶段的某球队、某球员打分，评选精彩进球等等功能。<br />
+如果底层设计得优秀的话，还有很多功能可以快速实现呢。</p>
+
+<p>他喵的，这种事情应该由 FIFA、各洲际、各国足协来做，我操什么心嘛。</p>
+
+</section>
+
+<div class="comment">
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f&text= @calon %e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95》&body=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/px-yu-64/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -142,8 +230,8 @@ PX 项目建设的，厦门民众是否会接受呢？</p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f&text= @calon PX%20%e4%b8%8e6%c2%b74&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《PX%20%e4%b8%8e6%c2%b74》&body=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f&text= @calon PX%20%e4%b8%8e6%c2%b74&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《PX%20%e4%b8%8e6%c2%b74》&body=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -209,8 +297,8 @@ calon)" /></a></p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f&text= @calon Zooomr%20Mark%20III&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Zooomr%20Mark%20III》&body=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f&text= @calon Zooomr%20Mark%20III&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《Zooomr%20Mark%20III》&body=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -283,8 +371,8 @@ calon)" /></a></p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f61%2f&text= @calon 6%c2%b71&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《6%c2%b71》&body=https%3a%2f%2fioerr.github.io%2f61%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f61%2f&text= @calon 6%c2%b71&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《6%c2%b71》&body=https%3a%2f%2fioerr.github.io%2f61%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -339,8 +427,8 @@ calon)" /></a></p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f&text= @calon %e6%96%b0%e9%9e%8b%e5%ad%90&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e9%9e%8b%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f&text= @calon %e6%96%b0%e9%9e%8b%e5%ad%90&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e9%9e%8b%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -350,95 +438,6 @@ calon)" /></a></p>
       
         
           <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/faststone-capture/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>29 May 2007, 16:38</time>
-      <h1>FastStone Capture</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>晚上遇到近距离雷电，电脑突然关机，重启之后，<a href="http://www.mozilla.org/products/firefox/">Firefox</a>
-的 Cookies 和历史记录丢失…<br />
-<a href="http://www.yupoo.com/photos/view?id=ff80808112d230e30112d86cf844729b"><img src="http://photo8.yupoo.com/20070529/232058_1579700915_scmukbdt.jpg" alt="del" /></a><br />
-在这个浮云之神经常发威的季节，只要硬盘不被干掉我就感到很幸运了。祥瑞御免，祥瑞御免~</p>
-
-<p>在 Twitter 机器人病入膏肓的日子里，Tweetr 整屏整屏地出现无效消息：<br />
-<a href="http://www.yupoo.com/photos/view?id=ff80808112d231d20112d8b747157b10"><img src="http://photo7.yupoo.com/20070530/004208_1902438697_fbfdmhid.jpg" alt="tweetr" /></a></p>
-
-<p>自己写文章的话，大部分时间用来动脑子，少部分时间用来动手，所以打字速度并不快。今天别人念稿子我打字，看了一下搜狗拼音的统计速度：<br />
-<a href="http://www.yupoo.com/photos/view?id=ff80808112d230e30112d86cf99e729c"><img src="http://photo8.yupoo.com/20070529/232059_1264631619_tuhexfpq.jpg" alt="sougou" /></a><br />
-感觉出错和找不到词组的时候，修改方式不符合我的习惯，如果换用用惯了的整句输入法应该会快一点吧。</p>
-
-<p><a href="http://flickr.com/groups/artoflight/">光的艺术</a>的 Photo Pool
-总算有90张照片了。下面是利用 <a href="http://bighugelabs.com/flickr/profile.php">Profile
-Widget</a> 工具制作的 widget：<br />
-<a href="http://flickr.com/groups/artoflight/"><img src="http://bighugelabs.com/flickr/profilewidget/group/random/000000/ffffff/34385773@N00.jpg" alt="Art of Light. Get yours at
-bighugelabs.com/flickr" /></a></p>
-
-<p><a href="http://flickr.com/groups/artoflight/"><img src="http://bighugelabs.com/flickr/profilewidget/group/random.vert/000000/ffffff/34385773@N00.jpg" alt="Art of Light. Get yours at
-bighugelabs.com/flickr" /></a><a href="http://flickr.com/groups/artoflight/"><img src="http://bighugelabs.com/flickr/profilewidget/group/random.compact/000000/ffffff/34385773@N00.jpg" alt="Art
-of Light. Get yours at
-bighugelabs.com/flickr" /></a><br />
-虽说数字很可怜，但是还是宁缺毋滥比较好，大概50张左右才会通过一张吧，所以每次审核的时候都觉得对不起那些提交照片的成员。</p>
-
-<p>从<a href="http://www.pengbone.com/?p=226">备案通知</a>来看，在我国，“网站内容或链接网站内容包括政治言论”的就算是“有违国家相关法律的网站”？好先进哟。</p>
-
-<p><a href="http://www.kenengba.com/post/96.html">中搜的关键字列表</a>中的广告词类别中，赫然发现有
-miibeian.gov.cn。<br />
-而敏感词中竟然还有“十七”！那到了下一届某会议的时候，是不是连《鹿鼎记》都要被禁？</p>
-
-<p><blockquote>
-那人微微一笑，说道：“你即当我是朋友，我便不能瞒你，我姓茅，茅草的茅，不是毛虫之虫，排行第
-(bleep)。茅 (bleep) 便是我了。”
-</blockquote>
-<a href="http://www.faststone.org/FSCaptureDetail.htm">FastStone Capture</a>
-升级到5.4之后就变成共享软件了。想要5.3的免费版本的可以<a href="http://www.box.net/shared/lh3ealgj7t">到这里下载原版</a>，不是绿色版也不是汉化版。<br />
-虽然使用 <a href="http://www.mirekw.com/winfreeware/mwsnap.html">MWSnap</a>
-的时间更长，但是发现要让截图和文字区分清楚，截图的边缘还是要美化的好，而
-MWSnap 这一点做的不够好。另外，它也无法使用 Print Screen
-组合键作为热键。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffaststone-capture%2f&text= @calon FastStone%20Capture&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《FastStone%20Capture》&body=https%3a%2f%2fioerr.github.io%2ffaststone-capture%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
@@ -459,7 +458,7 @@ MWSnap 这一点做的不够好。另外，它也无法使用 Print Screen
   </a>
   
 
-  PAGE 98 / 227
+  PAGE 98 / 228
 
   
   <a href="/page/99/" rel="next">

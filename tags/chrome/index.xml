@@ -11,6 +11,42 @@
     <atom:link href="https://ioerr.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Firefox 扩展机制的变化与未来</title>
+      <link>https://ioerr.github.io/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
+      <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
+      <description>&lt;p&gt;我正在使用 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt; 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。&lt;/p&gt;
+
+&lt;p&gt;最近他&lt;a href=&#34;http://fasezero.com/addons/&#34;&gt;在扩展的主页网站上发表了一篇文章&lt;/a&gt;，大意是：&lt;br /&gt;
+因为 Mozilla Firefox 的扩展机制会&lt;a href=&#34;https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/&#34;&gt;改为 WebExtensions&lt;/a&gt;，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、FindBar Tweak、OmniSidebar、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt;，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。&lt;/p&gt;
+
+&lt;p&gt;Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。&lt;/p&gt;
+
+&lt;p&gt;然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。&lt;/p&gt;
+
+&lt;p&gt;对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/&#34;&gt;Tab Tree&lt;/a&gt; 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。&lt;br /&gt;
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 扩展页面下的&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/&#34;&gt;一个评论&lt;/a&gt;说的好：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&amp;rsquo;s the case, why would anyone choose Firefox instead of Chrome?&lt;/p&gt;
+
+&lt;p&gt;Mozilla，你们他妈在想些什么？
+   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！
+   好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。&lt;br /&gt;
+只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）&lt;br /&gt;
+这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？&lt;/p&gt;
+
+&lt;p&gt;希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 &lt;a href=&#34;https://www.palemoon.org/&#34;&gt;Pale Moon&lt;/a&gt; 这样的替代品会越来越成熟。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Chrome 扩展</title>
       <link>https://ioerr.github.io/chrome-kuozhan/</link>
       <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>

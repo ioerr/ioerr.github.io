@@ -42,6 +42,103 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/zhunbei-shengji-dao-wp-23/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>25 Sep 2007, 14:33</time>
+      <h1>准备升级到 WP 2.3</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
+<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog
+无法访问，说明正在升级，或者升级失败，或者恢复失败…<br />
+主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
+
+<p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
+
+<p>1、备份数据库。<br />
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
+插件导出数据库表。</p>
+
+<p>2、备份文件。<br />
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
+备份目录的方式，但愿不要出问题…<br />
+之前也有做本地备份，应该不至于太危险。</p>
+
+<p>3、停用所有的插件。<br />
+<a href="http://wordpress.org/">WordPress</a>
+2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
+
+<p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br />
+这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是
+/WP/wordpress-2.3。</p>
+
+<p>5、移走旧文件。<br />
+保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br />
+移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
+
+<p>6、移动新文件。<br />
+将 /WP/wordpress-2.3的文件移动到根目录/下。</p>
+
+<p>7、执行 wp-admin/upgrade.php。<br />
+然后就看人品是否过硬了。<br />
+升级完之后删除或改名 upgrade.php 和 install.php。</p>
+
+<p>8、根据已经修改过的旧文件修改新版本的对应文件。<br />
+目前能够想到的有：<br />
+所有的表情文件；<br />
+所有的插件；<br />
+/wp-includes/vars.php<br />
+default 主题的
+comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br />
+default
+主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br />
+更新 veryplaintxt 主题；<br />
+根据原来的文件修改 comments.php、header.php、style.css；<br />
+新增的页面模板文件。</p>
+
+</section>
+
+<div class="comment">
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/zhongqiu-kuangxiangqu/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -76,8 +173,8 @@ Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f&text= @calon %e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2》&body=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f&text= @calon %e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2》&body=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -186,8 +283,8 @@ web 还不是那么方便…</p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdianziyoujian-gongneng-chuangxin%2f&text= @calon %e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0》&body=https%3a%2f%2fioerr.github.io%2fdianziyoujian-gongneng-chuangxin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdianziyoujian-gongneng-chuangxin%2f&text= @calon %e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0》&body=https%3a%2f%2fioerr.github.io%2fdianziyoujian-gongneng-chuangxin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -308,8 +405,8 @@ Reader Shared Items 整合起来。</li>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdiigo-09222007%2f&text= @calon Diigo%2009%2f22%2f2007&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Diigo%2009%2f22%2f2007》&body=https%3a%2f%2fioerr.github.io%2fdiigo-09222007%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdiigo-09222007%2f&text= @calon Diigo%2009%2f22%2f2007&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《Diigo%2009%2f22%2f2007》&body=https%3a%2f%2fioerr.github.io%2fdiigo-09222007%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -405,8 +502,8 @@ eBay.</p>
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftalk-like-a-pirate-day%2f&text= @calon Talk%20Like%20A%20Pirate%20Day&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Talk%20Like%20A%20Pirate%20Day》&body=https%3a%2f%2fioerr.github.io%2ftalk-like-a-pirate-day%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftalk-like-a-pirate-day%2f&text= @calon Talk%20Like%20A%20Pirate%20Day&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《Talk%20Like%20A%20Pirate%20Day》&body=https%3a%2f%2fioerr.github.io%2ftalk-like-a-pirate-day%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -428,71 +525,6 @@ eBay.</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/dengxiaomang-shexian-xueshu-buduan/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>17 Sep 2007, 16:07</time>
-      <h1>邓晓芒涉嫌学术不端？</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.xys.org/xys/ebooks/others/science/dajia8/dengxiaomang.txt">邓晓芒教授涉嫌学术不端</a>？我是不知道教育部的中国高校人文社会科学优秀成果奖是个什么分量的奖项，感觉邓教授还不至于为了这个奖项和2万元奖金就坑蒙老师杨祖陶啊，毕竟邓晓芒教授还曾经与赵林、彭富春两位教授一起批评湖北省哲学优秀成果评奖中的腐败现象。</p>
-
-<p>文中说“随着时间的推移，杨先生就不免心生诧异”、“杨祖陶先生已经年迈体衰，自然是没有精力也不屑于与这般无耻弟子计较”，究竟杨先生的态度是怎样的，似乎没有一个客观的说法，只看到主观的猜测？</p>
-
-<p>其次，在<a href="http://www.sinoss.net/sinoss_admin/webfiles_show.asp?id=244">第四届中国高校人文社会科学研究优秀成果奖获奖成果名单</a>（又是
-Excel 格式…）中，可以看到“康德三大批判新译(共三部)”后面所写的是“邓晓芒
-译”。不知道这个奖项对翻译校对人的处理是如何要求的，反正我在<a href="http://www2.ouc.edu.cn/wkc/Article_Show.asp?ArticleID=223">申报工作通知</a>的附件（又是
-Word
-格式…）中没有看到相关的说明，是否还有其他相关规定？没有填上翻译校对人杨祖陶先生的名字是在申报时没有填写还是颁发奖项时的修改？</p>
-
-<p>我觉得在该文中一些疑惑被解答之前，贸然说“整地球可能再也找不到几个比他更无耻的教授了”恐怕不妥。</p>
-
-<p>另：不管如何，三部《康德三大批判新译》水平还是很高的，感兴趣的朋友不妨入手。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdengxiaomang-shexian-xueshu-buduan%2f&text= @calon %e9%82%93%e6%99%93%e8%8a%92%e6%b6%89%e5%ab%8c%e5%ad%a6%e6%9c%af%e4%b8%8d%e7%ab%af%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%82%93%e6%99%93%e8%8a%92%e6%b6%89%e5%ab%8c%e5%ad%a6%e6%9c%af%e4%b8%8d%e7%ab%af%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fdengxiaomang-shexian-xueshu-buduan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E9%82%93%E6%99%93%E8%8A%92">#邓晓芒 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
 
 <div class="paging">
   
@@ -501,7 +533,7 @@ Word
   </a>
   
 
-  PAGE 83 / 227
+  PAGE 83 / 228
 
   
   <a href="/page/84/" rel="next">
