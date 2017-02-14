@@ -42,6 +42,66 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/shengji-dao-wp-203/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>21 Jul 2006, 00:06</time>
+      <h1>升级到 WordPress 2.0.3</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>从 <a href="http://wordpress.org/">WordPress</a> 2.0
+升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：</p>
+
+<p><blockquote>
+WordPress database error: [You have an error in your SQL syntax; check<br />
+the manual that corresponds to your MySQL server version for the right<br />
+syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY<br />
+comment_date&rsquo; at line 1]<br />
+SELECT * FROM wp_comments WHERE comment_post_ID = AND
+comment_approved<br />
+!= &lsquo;spam&rsquo; ORDER BY comment_date
+</blockquote>
+想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到
+<a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a> 上面。<br />
+所以以后升级还是不要偷懒的好，先停插件不是坏事。</p>
+
+</section>
+
+<div class="comment">
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fshengji-dao-wp-203%2f&text= @calon %e5%8d%87%e7%ba%a7%e5%88%b0%20WordPress%202.0.3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e5%8d%87%e7%ba%a7%e5%88%b0%20WordPress%202.0.3》&body=https%3a%2f%2fioerr.github.io%2fshengji-dao-wp-203%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/mai-jiushu/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -258,63 +318,6 @@ Hosting" /></a></p>
       
         
           <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/hanjiande-liuyan-diushi-wenti/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>15 Jul 2006, 13:49</time>
-      <h1>罕见的留言丢失情况</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>昨天 <a href="http://www.klogs.org/">Zheng</a> 在 blog
-上留言，我在邮箱中收到了通知：<br />
-<a href="http://photobucket.com"><img src="http://i111.photobucket.com/albums/n154/calon_plus/Comment.png" alt="Photobucket - Video and Image
-Hosting" /></a></p>
-
-<p>但是到页面上一看，却没有显示这个回复，后台界面中也找不到留言记录，通过
-Spam Karma 可以看到这条留言根本没有成功地写入数据库表中：<br />
-<a href="http://photobucket.com"><img src="http://i111.photobucket.com/albums/n154/calon_plus/SK2.png" alt="Photobucket - Video and Image
-Hosting" /></a></p>
-
-<p>好像没听说其他人遇到过这样的情况，是插件的原因还是
-<a href="http://wordpress.org/">WordPress</a> 本身的 bug 呢？</p>
-
-</section>
-
-<div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fhanjiande-liuyan-diushi-wenti%2f&text= @calon %e7%bd%95%e8%a7%81%e7%9a%84%e7%95%99%e8%a8%80%e4%b8%a2%e5%a4%b1%e6%83%85%e5%86%b5&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e7%bd%95%e8%a7%81%e7%9a%84%e7%95%99%e8%a8%80%e4%b8%a2%e5%a4%b1%e6%83%85%e5%86%b5》&body=https%3a%2f%2fioerr.github.io%2fhanjiande-liuyan-diushi-wenti%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
         
     
   </div>
