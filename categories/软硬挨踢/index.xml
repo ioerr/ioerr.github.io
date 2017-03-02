@@ -11,6 +11,44 @@
     <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>跨主机共享外设</title>
+      <link>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</link>
+      <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</guid>
+      <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
+
+&lt;p&gt;最先了解到的是 &lt;a href=&#34;https://symless.com/synergy/&#34;&gt;Synergy&lt;/a&gt;，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。&lt;/p&gt;
+
+&lt;p&gt;但代价就是要付费购买——然而我并没有跨系统共享的需求，所以找到了两款 Windows 下的软件代替。&lt;/p&gt;
+
+&lt;p&gt;第一款是微软车库项目出品的 &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=35460&#34;&gt;Mouse without Borders&lt;/a&gt;，这直白又冗长的名字真是忍不住要吐槽啊！&lt;/p&gt;
+
+&lt;p&gt;优势是体积小巧，上手配置方便，还支持跨主机拖拽文件，如果其他方面没有特别多的功能要求和个性化需求，已经足够用了。&lt;/p&gt;
+
+&lt;p&gt;第二款是 &lt;a href=&#34;http://www.inputdirector.com/&#34;&gt;Input Director&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_screenshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_globalprefscfg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;优势在于选项丰富，自定义功能更强。&lt;br /&gt;
+例如有各种快捷键的自定义设置，可以配置触碰屏幕边缘两次鼠标才跨越屏幕，鼠标跨越屏幕后有波纹效果，支持主机数量多，等等。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/features_ripples.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不过上手时要配置主/从系统和一大堆选项，可能会让很多人头晕。&lt;/p&gt;
+
+&lt;p&gt;两款软件共同的问题有：&lt;/p&gt;
+
+&lt;p&gt;如果网络状况不佳，鼠标会抖动或延迟，这应该是这类软件的通病了，Synergy 也不例外；&lt;br /&gt;
+自动寻找、发现局域网内系统并配对可能会失败，根据 IP 地址指定更加靠谱。&lt;/p&gt;
+
+&lt;p&gt;另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Firefox 扩展机制的变化与未来</title>
       <link>https://ioerr.github.io/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
       <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
@@ -736,34 +774,6 @@ blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&
 &lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
 比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
 但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>为什么标签系统和全文检索还不够好用？</title>
-      <link>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
-      <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
-      <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr
-等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了
-Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
-和为知这样需要保存内容的笔记工具。&lt;/p&gt;
-
-&lt;p&gt;一个原因是，不支持组合标签的标签系统就是残废。&lt;/p&gt;
-
-&lt;p&gt;第二个原因是，增加标签的人工成本太高，而得到的回报不够。&lt;br /&gt;
-一篇内容颇丰富的笔记要保证日后能够通过标签分类筛出来，可能要增加5个以上的标签，然而还是有一定几率要靠全文搜索才能定位，甚至可能找不到。&lt;/p&gt;
-
-&lt;p&gt;为什么？&lt;br /&gt;
-因为标签要求精确匹配，如果我增加“米塞斯”、“实在论”的标签，而检索的时候用“米瑟斯”、“唯实论”，必然抓瞎。&lt;br /&gt;
-于是，一方面，增加标签时要尽量多写，这样操作成本必然越来越高；&lt;br /&gt;
-另一方面，就是在检索时反复尝试，这样就完全体现不出标签系统的好处，特别是还有组合标签功能时，你根本不知道到底是哪个标签的筛选落空了。这样，标签还不如全文检索来得方便。&lt;/p&gt;
-
-&lt;p&gt;但全文检索也解决不了上述同义、近义词的问题，要是文章内容中只出现“喜大普奔”，你轮换着搜“头顶青天”、“狂喜乱舞”那也白搭。&lt;br /&gt;
-更进一步，同义、近义词也有覆盖不到的时候，比如涉及“李森科”的文章通篇都没有出现“伪科学”一词，但我们在搜索这篇文章时，不记得涉及的人名，只关心主题，很可能会输入“伪科学”而不是“李森科”，于是一无所获。&lt;/p&gt;
-
-&lt;p&gt;所以，大概只有等到程序能够理解自然语言的含义，才能以符合预期的方式检索信息吧。&lt;/p&gt;
 </description>
     </item>
     

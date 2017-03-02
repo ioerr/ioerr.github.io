@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>跨主机共享外设  &middot; 读写错误</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/kua-zhuji-gongxiang-waishe/">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+<a href="https://ioerr.github.io/kua-zhuji-gongxiang-waishe/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Mar 2017, 13:00</time>
+      <h1>跨主机共享外设</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。</p>
+
+<p>最先了解到的是 <a href="https://symless.com/synergy/">Synergy</a>，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。</p>
+
+<p>但代价就是要付费购买——然而我并没有跨系统共享的需求，所以找到了两款 Windows 下的软件代替。</p>
+
+<p>第一款是微软车库项目出品的 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=35460">Mouse without Borders</a>，这直白又冗长的名字真是忍不住要吐槽啊！</p>
+
+<p>优势是体积小巧，上手配置方便，还支持跨主机拖拽文件，如果其他方面没有特别多的功能要求和个性化需求，已经足够用了。</p>
+
+<p>第二款是 <a href="http://www.inputdirector.com/">Input Director</a>。</p>
+
+<p><img src="http://www.inputdirector.com/images/frontpage_screenshot.png" alt="" /></p>
+
+<p><img src="http://www.inputdirector.com/images/frontpage_globalprefscfg.png" alt="" /></p>
+
+<p>优势在于选项丰富，自定义功能更强。<br />
+例如有各种快捷键的自定义设置，可以配置触碰屏幕边缘两次鼠标才跨越屏幕，鼠标跨越屏幕后有波纹效果，支持主机数量多，等等。</p>
+
+<p><img src="http://www.inputdirector.com/images/features_ripples.png" alt="" /></p>
+
+<p>不过上手时要配置主/从系统和一大堆选项，可能会让很多人头晕。</p>
+
+<p>两款软件共同的问题有：</p>
+
+<p>如果网络状况不佳，鼠标会抖动或延迟，这应该是这类软件的通病了，Synergy 也不例外；<br />
+自动寻找、发现局域网内系统并配对可能会失败，根据 IP 地址指定更加靠谱。</p>
+
+<p>另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。</p>
+
+</section>
+
+<div class="comment">
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkua-zhuji-gongxiang-waishe%2f&text= @calon %e8%b7%a8%e4%b8%bb%e6%9c%ba%e5%85%b1%e4%ba%ab%e5%a4%96%e8%ae%be&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e8%b7%a8%e4%b8%bb%e6%9c%ba%e5%85%b1%e4%ba%ab%e5%a4%96%e8%ae%be》&body=https%3a%2f%2fioerr.github.io%2fkua-zhuji-gongxiang-waishe%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E8%AE%BE%E5%A4%87%E5%85%B1%E4%BA%AB">#设备共享 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7">#桌面工具 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF">#剪贴板 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%BC%A0%E6%A0%87">#鼠标 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%94%AE%E7%9B%98">#键盘 </a>
+      
+    
+  </div>
+</div>
+
+
+<div class="share"></div>
+
+
+
+<div class="paging post-paging">
+  
+  
+  <a class="right" href="https://ioerr.github.io/changshi-gongxiang-danche/" rel="next">
+    <span>尝试共享单车</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+<div class="share"></div>
+
+<div class="seperator">
+  <img src="/images/seperator.svg" />
+</div>
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

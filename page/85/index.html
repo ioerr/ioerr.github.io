@@ -42,6 +42,231 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/executor-bangzhuwendang/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Sep 2007, 09:59</time>
+      <h1>Executor 帮助文档</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://calon.weblogs.us/executor/">Executor</a> 帮助文档</p>
+
+<p>名词定义：<br />
+命令：原文 command，最终被执行的实际指令；<br />
+关键词：原文
+keyword，一般指由用户自定义的与一个或一组命令对应的字符串，有时也会包括“开始菜单程序”和“文件系统命令”；<br />
+程序：原文
+programs，“开始菜单”的“所有程序”中被索引的条目，可能还包括控制面板等的项目；<br />
+文件系统命令：原文 file system，Windows
+文件系统目录下可以直接执行的命令；<br />
+历史记录：原文 history，曾经使用过的别名；</p>
+
+<p>默认按键：<br />
+默认呼叫热键：Win+Z（我改为了 Pause/Break）；<br />
+在控制台输入命令时上下浏览其他自动补全的别名：↑/↓或 Tab/Shift+Tab
+或向前向后滚动；<br />
+打开下拉菜单浏览自动补全的别名：Alt+↓或 F4；<br />
+打开下拉菜单浏览历史记录和关键词：Shift+↓或 F5；<br />
+从历史记录中删除当前条目：Shift+Del；<br />
+从历史记录中删除下拉菜单中高亮的条目：Delete；<br />
+跳到下/上一个分隔符：Ctrl+Tab/Ctrl+Shift+Tab；<br />
+清除当前控制台上已输入的命令，如果控制台命令行无内容，则隐藏控制台：Esc；<br />
+隐藏控制台：Shift+Esc；<br />
+显示命令提示或关键词注释、命令类型：Ctrl+T；<br />
+打开设置界面：Ctrl+S；<br />
+打开关键词编辑器：Ctrl+K；<br />
+添加关键词：Ctrl+Alt+K ；<br />
+简单地说就是使用模糊匹配模式：Ctrl+R；<br />
+在关键词编辑器中打开当前输入的关键词：Ctrl+O；<br />
+在 Vista 下提高权限执行命令：Shift+Enter；<br />
+如果用列表取代下拉菜单，同时关闭快速启动选项，那么按住 ALT 或 Ctrl
+选择列表中的别名可以直接执行对应的命令，如果快速启动选项是打开的，则正好相反，按住
+ALT 或 Ctrl 表示选择别名。</p>
+
+<p>增加关键词到 Executor 的方法：<br />
+1、直接拖拽快捷方式、文件、文件夹、收藏到控制台上（如果控制台被文件浏览器挡住了，需要在拖拽的同时呼叫出控制台）；<br />
+2、在关键词编辑器中右键点击关键词列表，选择“增加关键词”；<br />
+3、拖拽快捷方式、文件、文件夹、收藏到关键词列表；<br />
+4、拖拽快捷方式、文件、文件夹、收藏到关键词基本信息编辑界面（就在关键词列表下方）；[!]注意，慎用该方法，如果覆盖了已有的关键词项目讲无法撤销，只能够手工改回，即使关闭了“自动应用”选项也是如此；<br />
+5、在关键词编辑器中右键点击关键词列表，选择“导入关键词”，可以导入开始菜单中的快捷方式和备份文件；<br />
+6、关键词基本信息编辑界面有“查找”按钮，可用于定位目标文件；<br />
+7、可以在设置界面打开“增加至‘发送到’菜单”选项，然后在资源浏览器的右键菜单中就可以直接发送到
+Executor 了。</p>
+
+<p>使用一个关键词启动多个关键词、网址、文件系统命令、程序等等：<br />
+1、可以在控制台输入多个关键词，在多个命令间增加双竖线分隔符“||”，如“www.deviantart.com||gimp||google
+gimp tutorial”；<br />
+2、可以使用一个关键词，如“example”启动上述命令或关键词，就是把它们作为关键词“example”对应的命令；<br />
+3、关键词之间的对应关系只有第一层生效，不会出现循环调用的问题；<br />
+4、呼叫其他关键词会传递参数，例如，建立一个名为“supersearch”的关键词，对应的命令为“google
+$U$||wiki $U$||groups
+$U$”，“google”、“wiki”、“groups”又是分别启动三类搜索的关键词，那么在控制台输入“supersearch
+calon”，那么参数“calon”会传递给那三个关键词并分别启动三类搜索的动作；[!]注意，在有的电脑上可能需要在每个命令后面增加“$W$”参数，用于等待一段时间才启动下一个命令，否则有的浏览器可能不会分别开始搜索；<br />
+5、自动补全和下拉菜单对控制台上输入的多重命令仍然有效，其效果相当于被“||”分割为多个关键词；<br />
+6、在隐藏设置中，可以修改默认分隔符“||”为你自己喜欢的其他符号。</p>
+
+<p>关于下拉菜单和列表中的程序：<br />
+1、打开选项之后可以自动将开始菜单、控制面板、我的文档等中的项目加入进来；<br />
+2、匹配方式是模糊匹配，可以从每个单词的开头开始匹配，如在控制台输入“fire”会匹配“windows
+firewall”，但不会匹配“wildfire”；<br />
+3、Executor
+启动时会自动检测刷新，运行过程中也会在后台定时刷新，禁用程序的关键词则不会占用系统资源；<br />
+4、智能排序；<br />
+5、不依赖任何 Windows 索引服务；<br />
+6、在隐藏设置中可以选择仅在第一次启动时刷新。</p>
+
+<p>特殊命令和参数：<br />
+$P$：表示参数部分输入的文本，如“photoshop”是关键词，则输入“photoshop
+-nosplash”时$P$会替换为“-nosplash”；<br />
+$U$：类同$P$，用于 URL 格式的参数；<br />
+$W$：表示执行命令后会等待1秒钟，直接跟在关键词后，如“photoshop$W$”；<br />
+$M$：最小化所有窗口，等同于显示桌面，写在命令之前或之后皆可，如“$M$c:\program files\adobe\photoshop.exe”；<br />
+$R$：撤销最小化所有窗口；<br />
+$D$：插入 Executor 所在的驱动器盘符，把 Executor 和其他程序都放在 U
+盘上使用的时候很有用，如“$D$\tools\winhex\winhex.exe”；<br />
+上述所有命令可以一同使用，互不冲突；<br />
+支持下列环境变量：%systemroot%、%programfiles%、%temp%、%tmp%、%windir%、%homedrive%、%homedrive%；</p>
+
+<p>$TIME$：显示当前的时间、日期、今年第几周，默认关键词为“time”，以下类同；<br />
+$LOCK$：注销，显示切换用户对话框，“?lock”；<br />
+$SHUTDOWN$：关机，“?shutdown”；<br />
+$RESTART$：重启，“?restart”；<br />
+$STANDBY$：待机，“?standby”；<br />
+$HIBERNATE$：休眠，“?hibernate”；<br />
+$SCREENSAVER$：启动屏幕保护程序，“?screensaver”；<br />
+$MUTE$：打开和关闭声音，“mute”；<br />
+$MONITOR$：关闭显示器，“?monitor”；<br />
+$SHOWIP$：列出本机所有的 IP 地址，“ip”；<br />
+$SEARCH$：打开系统自带的搜索，“search”；<br />
+$EMPTYRECYCLEBIN$：清空回收站，“?emptyrecyclebin”；<br />
+$NEXT$、$PREV$、$PLAY$、$STOP$、$MEDIA$：控制默认的媒体播放器，跳到下/上一首、播放、停止、打开播放器，“next”、“previous”、“play”、“stop”、“media”。如果是
+Winamp，需要打开 Winamp 的全局热键选项；<br />
+$WOPEN$、$WCLOSE$、$WMAXIMIZE$、$WMINIMIZE$、$WRESTORE$：显示、关闭、最大化、最小化、恢复当前窗口，“open”、“close”、“maximize”、“minimize”、“restore”。导入
+windowkeywords.exc 这个文件之后才会生效。</p>
+
+<p>可以在控制台输入以下命令：<br />
+-s 或 -settings：打开设置界面；<br />
+-k 或 -keywords：打开关键词配置界面；<br />
+-a 或
+-add：打开添加关键词的对话框，如果后面加上字符串，则表示将其作为新的关键词并开始编辑；<br />
+-i 或 -import：打开开始菜单导入界面；<br />
+-ad 或 -about：显示“关于”页面；<br />
+-v 或 -version：显示版本信息；<br />
+-q 或 -x 或 -quit：退出 Executor，关闭进程。</p>
+
+<p>Executor.exe 本身可以使用的参数：<br />
+-exit：关闭已经在运行的 Executor；<br />
+-s：如果自动隐藏的选项是打开的，则以最小化方式启动；<br />
+文件路径：启动后进入关键词编辑界面，将该文件路径作为新的关键词。</p>
+
+<p>内置的计算器：<br />
+1、要使用内置计算器，以“#”为开头，如“#52*10+14”；<br />
+2、支持的运算符包括：+、-、*、/、\^、abs、sqrt、sqr、sin、cos、arctan、ln、log、exp、fak、pi、e、x；<br />
+3、要使用代数，用这种语法：“#x=[value]”；<br />
+示例：#x=403 exp(cos(-2*Sqr(x) - 4*x+ 3))/(1/(x+0.01))</p>
+
+<p>其他细节和技巧：<br />
+如果没有成功执行命令，则控制台中的文本会变成红色，在隐藏设置中可以修改这个颜色；<br />
+使用皮肤的话，控制台宽度和字体都有限制；<br />
+常用命令可以改为更短小的关键词，如“google”改为“.”；<br />
+在历史记录中查找所有的 doc 格式文档，可以输入“.doc”，再按下 Ctrl+R；</p>
+
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/help.html">Executor
+Documentation/help/hints</a></p>
+
+<p>设置界面中的重要选项：<br />
+Save history是否保存历史记录；<br />
+Autohide：是否自动隐藏；<br />
+Stay on top：控制台总在最上方；<br />
+Start on windows startup：随系统启动；<br />
+Add to windows &ldquo;Send to&rdquo; menu：加入到右键菜单中的“发送”菜单；<br />
+Auto-complete and order：自动补全时，三类关键词出现的顺序；<br />
+Enabled types and order：选择在控制台下拉菜单中出现的关键词类型和顺序；<br />
+Auto open when items：自动打开下拉菜单；<br />
+Quick launch items：一旦选择某个项目则立即执行；<br />
+Show type headers in drop down：在下拉菜单中显示关键词的类别；<br />
+Button will show
+auto-completed：点击下拉菜单按钮时，仅显示匹配当前输入文本的项目，否则显示全部的关键词。</p>
+
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/help-settings.html">Executor Settings
+help</a></p>
+
+<p>隐藏设置选项：<br />
+可在 executor.ini 文件中编辑以下选项，如Executor
+目录中没有该文件，可以自己新建一个。[!]注意，首先请关闭
+Executor。如果使用了 Executor 一段时间之后才打算使用
+executor.ini，最好先导出已经配置好的关键词和皮肤再新建该文件。<br />
+failcolor：命令执行失败时控制台字体的颜色，默认为红色；<br />
+separator：关键词分隔符，默认为“||”；<br />
+browser：指定浏览器，如
+browser=d:\program files\mozilla firefox\firefox.exe；<br />
+noindexrefresh：不自动刷新开始菜单程序等的索引，0=选项无效，1=选项生效，默认该选项无效；<br />
+explore：指定资源浏览器，如
+explore=&ldquo;c:\program files\totalcmd\totalcmd.exe&rdquo;；<br />
+listinherittransparency：列表是否继承控制台的透明效果，0=选项无效，1=选项生效，默认该选项无效；<br />
+infoenabled：未激活时控制台可以显示指定的信息，需要关闭自动隐藏和打开总在最上方的选项，0=选项无效，1=选项生效，默认该选项无效；<br />
+infoonfocus：激活时控制台可以显示指定的信息，一旦输入文本则信息会消失，0=选项无效，1=选项生效，默认该选项无效；<br />
+infosyntax：支持显示的信息如下：<br />
+$dd$=较短格式的日期；<br />
+$ddd$=日期时间；<br />
+$mpct$=已使用的内存百分比；<br />
+$mfree$=空闲内存；<br />
+$mused$=已使用的内存数，单位 MB；<br />
+$mtotal$=总内存数，单位 MB；<br />
+$wnum$=今年的第几个星期；<br />
+$ip$：本机 IP 列表，如果是\$ip1则仅显示一个 IP 地址。</p>
+
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/hidden.html">executor.ini file hidden
+settings</a></p>
+
+</section>
+
+<div class="comment">
+  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fexecutor-bangzhuwendang%2f&text= @calon Executor%20%e5%b8%ae%e5%8a%a9%e6%96%87%e6%a1%a3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《Executor%20%e5%b8%ae%e5%8a%a9%e6%96%87%e6%a1%a3》&body=https%3a%2f%2fioerr.github.io%2fexecutor-bangzhuwendang%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/executor">#Executor </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%B8%AE%E5%8A%A9">#帮助 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%A1%A3">#文档 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%BF%BB%E8%AF%91">#翻译 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/transformer-yulu-zhaiyi/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -281,92 +506,6 @@ StarsCream
       
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/shuailao/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>05 Sep 2007, 15:06</time>
-      <h1>衰老</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>虽然总体提到死亡，但其实死亡哪里有这么可怕呢？<br />
-无论你是谁，总会是要死，而死亡之后，什么感觉也不会有，其本身并不会让人痛苦。<br />
-比死亡更加难受的，应该是衰老。</p>
-
-<p>试试列举一下衰老的症状吧：<br />
-头发会变白、脱落，男性通常会变成秃顶，女性的头发会变得稀疏；<br />
-眼睛会有近视、老花、白内障，最后变成一片模糊和失明；<br />
-听力先是变得很差，能够听到声音响，却不知道说的是什么内容，接着需要戴助听器，最后干脆失聪；<br />
-嗅觉也会慢慢退化，虽然不会完全消失，却会严重影响食欲；<br />
-味觉也退化，同样影响食欲；<br />
-牙齿很早就开始脱落，口水时不时地从牙缝中流出来，牙龈上不舒服的感觉每天都折磨你；<br />
-说话没有气力，舌头不听指挥了，说出口的话常常不是自己要表达的，要么就成了含糊不清的发音；<br />
-脸上皮肤老化，眼角、嘴角、额角皱纹丛生，最后爬满整个面部，像黄土高原的沟壑，老年斑开始出现；<br />
-智力开始减退，以前很快就能够解决出来的问题，现在束手无策，新出现的名词变得很难理解，无法集中精神；<br />
-记忆力更是明显降低，走进另一间屋子就忘记要干什么了，眼前的东西很熟悉，但就是回忆不起名字；<br />
-长期失眠多梦，精神不振，容易疲劳，整日昏昏沉沉，畏惧周围的声音、亮光；<br />
-时不时有轻微的中风，严重的时候会无法说话、失明、偏瘫，不知道哪天就一头栽倒在地；<br />
-脖子、背、腰的骨头明显僵化，整天疼痛，低头弯腰变成一种酷刑；<br />
-双手无法握紧物件，也无法长时间保持平衡和静止状态，开始有帕金森氏症初期症状，行走也时有无法保持平衡的现象；<br />
-呼吸不畅，肺部像是破烂的风箱，总会觉得气管中有异物，常常咳嗽，吐痰，抽烟的后遗症越来越厉害；<br />
-稍微一活动就剧烈心跳，头晕脑胀，血压升高；<br />
-年轻时的恶习导致经常胃痛；<br />
-经常便秘，痛苦不堪；<br />
-男性前列腺发炎，排尿不畅不尽，女性则是一堆妇科疾病；<br />
-双腿无力，不能够长时间走路，更不用说跑步，在家里就只想坐在沙发或床上；<br />
-风湿病愈发严重，变天之前都会关节疼痛，湿冷的冬天更是痛彻骨髓；<br />
-骨头极为脆弱，一个趔趄，手臂稍微用力地撑一下身体，突然间被人轻轻撞一下也可能骨裂、骨折，恢复起来非常慢；<br />
-擦伤、撞上造成的淤血也很难迅速消散；<br />
-没有性欲，或者男性有心无力；<br />
-肌肉变成了赘肉，坚挺的身材迅速松弛，乳房下垂，大腿全是赘肉，身材失控；<br />
-皮肤发黄、发暗、干燥，变得像无生命无弹性的松垮的皮囊，身上还发散出一股难闻的气味；<br />
-会莫名其妙的心烦；<br />
-容易得糖尿病、心血管疾病、癌症；<br />
-手脚发冷，无法靠自身体温暖被子；<br />
-出现声音和光线的幻觉；</p>
-
-<p>更可怕的是，如果你比较长寿的话，可能要在这种状态下生活几十年。</p>
-
-<p>记得有位大学同学说，希望活到60岁自然死亡，可见在衰老的酷刑面前，死亡也不是终极的恐怖。</p>
-
-<p>但是，毕竟还是有这么多老年人为了活得久一点，宁愿乖乖地送钱给推销种种十分可疑的号称抗衰老益寿延年治百病的保健药品的骗子。</p>
-
-</section>
-
-<div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fshuailao%2f&text= @calon %e8%a1%b0%e8%80%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e8%a1%b0%e8%80%81》&body=https%3a%2f%2fioerr.github.io%2fshuailao%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
         
     
   </div>

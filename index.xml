@@ -8,8 +8,46 @@
     <language>zh-CN</language>
     <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
     <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <lastBuildDate>Mon, 13 Feb 2017 16:22:11 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 13:00:13 +0800</lastBuildDate>
     <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>跨主机共享外设</title>
+      <link>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</link>
+      <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</guid>
+      <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
+
+&lt;p&gt;最先了解到的是 &lt;a href=&#34;https://symless.com/synergy/&#34;&gt;Synergy&lt;/a&gt;，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。&lt;/p&gt;
+
+&lt;p&gt;但代价就是要付费购买——然而我并没有跨系统共享的需求，所以找到了两款 Windows 下的软件代替。&lt;/p&gt;
+
+&lt;p&gt;第一款是微软车库项目出品的 &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=35460&#34;&gt;Mouse without Borders&lt;/a&gt;，这直白又冗长的名字真是忍不住要吐槽啊！&lt;/p&gt;
+
+&lt;p&gt;优势是体积小巧，上手配置方便，还支持跨主机拖拽文件，如果其他方面没有特别多的功能要求和个性化需求，已经足够用了。&lt;/p&gt;
+
+&lt;p&gt;第二款是 &lt;a href=&#34;http://www.inputdirector.com/&#34;&gt;Input Director&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_screenshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_globalprefscfg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;优势在于选项丰富，自定义功能更强。&lt;br /&gt;
+例如有各种快捷键的自定义设置，可以配置触碰屏幕边缘两次鼠标才跨越屏幕，鼠标跨越屏幕后有波纹效果，支持主机数量多，等等。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/features_ripples.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不过上手时要配置主/从系统和一大堆选项，可能会让很多人头晕。&lt;/p&gt;
+
+&lt;p&gt;两款软件共同的问题有：&lt;/p&gt;
+
+&lt;p&gt;如果网络状况不佳，鼠标会抖动或延迟，这应该是这类软件的通病了，Synergy 也不例外；&lt;br /&gt;
+自动寻找、发现局域网内系统并配对可能会失败，根据 IP 地址指定更加靠谱。&lt;/p&gt;
+
+&lt;p&gt;另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>尝试共享单车</title>
@@ -20,6 +58,8 @@
       <description>
 
 &lt;p&gt;听说了很久的共享单车，比如摩拜和 ofo，去一线城市出差也能时常看到4、5种共享单车扎堆，可以感受到激烈的竞争。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://om4cm3rqt.bkt.clouddn.com/PUB-0000009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;最近 ofo 开始在二线城市发力，长沙也能零星地看到小黄车的身影。&lt;br /&gt;
 据说 ofo 连山城重庆都进入了！真是不惜血本啊，之前宿遗群内大家还说没有哪家共享单车公司会脑子进入去重庆的……&lt;/p&gt;
@@ -72,7 +112,7 @@
 
 &lt;h3 id=&#34;共享单车哪里不好&#34;&gt;共享单车哪里不好？&lt;/h3&gt;
 
-&lt;p&gt;本地还没有摩拜，据说因为设计考量，导致骑行十分费力，后来又推出轻量版。&lt;/p&gt;
+&lt;p&gt;本地还没有摩拜（2月中旬还没有看到，到了3月底已经较多了），据说因为设计考量，导致骑行十分费力，后来又推出轻量版。&lt;/p&gt;
 
 &lt;p&gt;酷骑的车中规中矩，就是一般的女式公路车改装的，可以调节座椅，除了前后刹刹车距离差异太大、缺少反光装置、早晨室外容易凝结露水之外，本身没有什么特别明显的缺点。&lt;/p&gt;
 
@@ -82,23 +122,38 @@
 
 &lt;ol&gt;
 &lt;li&gt;车身 GPS 定位不准确&lt;br /&gt;
-打开应用看地图上有许多辆，实际去找却可能扑个空，又或者带着人不停兜圈就是到不了单车所在的精确地点，对用户的信心打击相当大。&lt;/li&gt;
+打开应用看地图上有许多辆，实际去找却可能扑个空，又或者带着人不停兜圈就是到不了单车所在的精确地点，对用户的信心打击相当大。&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;骑行过程中要求蓝牙和移动网络都打开&lt;br /&gt;
-特别是后者，如果关闭，即使开了 GPS 应用也不会记录行程。
-于是我现在的统计数据显示，累计骑行4个半小时，总行程还只有0.48公里…&lt;/li&gt;
+特别是后者，如果关闭，即使开了 GPS 应用也不会记录行程。&lt;br /&gt;
+于是我现在的统计数据显示，累计骑行4个半小时，总行程还只有0.48公里…&lt;br /&gt;
+补充：现在全部定位手段都打开也经常无法记录行程，感觉要废了。&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;另外，虽然可以邀请新用户赚用车券，也可以做活动，但没有花心思做社交功能，比如添加好友、发现同好、和好友分享骑行路线和经历、邀约骑车等等，还挺不习惯的（这方面做得好并不会引起用户反感）。&lt;br /&gt;
-而且不明白为什么功能如此简单，应用体积却20+MB。&lt;/p&gt;
+活动也没有可以吸引用户的地方。&lt;br /&gt;
+不明白为什么功能如此简单，应用体积却20+MB。&lt;/p&gt;
 
 &lt;p&gt;Ofo 我还没有试用，据说移动应用体验相当糟糕，比如因为没有 GPS 精确定位，你只能知道附近有多少辆 ofo，却不知道它们在哪里…&lt;/p&gt;
 
-&lt;p&gt;而且因为 ofo 简陋的安全配置，如固定密码的机械锁、没有定位功能等，导致盗用、滥用、公车私用现象最严重。&lt;br /&gt;
+&lt;p&gt;而且因为 ofo 简陋的安全配置，如固定密码的机械锁（现在偶尔可以看到第二代锁的车辆，但是不多）、没有定位功能等，导致盗用、滥用、公车私用现象最严重。&lt;br /&gt;
 反正到目前为止，我看到被人拿回家当私车用的、自己破坏车锁的、记录密码后免费重复使用的，全都是 ofo 的单车。&lt;br /&gt;
 据说 ofo 的损失率达到了5%以上，不知道是否是砸钱用成本换市场扩张的战术手段，初期一定的损失率也可以接受？&lt;/p&gt;
 
+&lt;p&gt;补充：&lt;br /&gt;
+目前酷骑单车的损坏情况也非常严重，车锁无法打开、座椅松动不能固定、车胎被人恶意破坏的情况最多，还有链条故障、踏板脱落等，找到可用单车的几率已经差不多低于50%了。&lt;br /&gt;
+因为没有完善定位功能，高峰时期找不到车的情况更加突出，好不容易找到又是坏的，严重影响体验！&lt;/p&gt;
+
+&lt;p&gt;3月1酷奇在下班高峰期出现长时间、大面积的服务故障，无法登录、开锁。&lt;/p&gt;
+
+&lt;p&gt;又注册了摩拜单车，见识到了传说中效率低的轴传动，骑车上坡那是真费力！下坡也要时不时蹬一下。&lt;br /&gt;
+第一代摩拜不能调节座椅高低，我这种身高处于中等水平的骑着都有点别扭，高个子基本就告别摩拜单车了…&lt;br /&gt;
+同时刹车柄与握把之间的距离偏长，个子矮的也不爽。&lt;/p&gt;
+
 &lt;h4 id=&#34;环境配套情况&#34;&gt;环境配套情况&lt;/h4&gt;
+
+&lt;p&gt;共享单车用户多了之后，以前熟悉的逆行、闯红灯、乱跨车道等现象也渐渐多了起来。&lt;br /&gt;
+不但危及自身安全，还有可能被人当作攻击共享单车服务的把柄，哪怕这根本不能算是共享单车服务商的责任。&lt;/p&gt;
 
 &lt;p&gt;除了用户素质之外，还有一个不可忽视而很少看到有人提起的问题：&lt;/p&gt;
 
@@ -873,91 +928,6 @@ Rollout）等技术，擅长在既定规则和完全信息下，通过大量学�
 急需时才购物，提升了需求的重要性和紧急性，一旦满足，那种久旱逢甘霖式的快感更甚一筹。&lt;/p&gt;
 
 &lt;p&gt;说得好像很有道理呢，连我自己都快要相信了。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>必应输入法自定义无零声母双拼方案</title>
-      <link>https://ioerr.github.io/biying-shurufa-zidingyi-wu-lingshengmu-shuangpin-fangan/</link>
-      <pubDate>Thu, 21 Jan 2016 15:53:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/biying-shurufa-zidingyi-wu-lingshengmu-shuangpin-fangan/</guid>
-      <description>&lt;p&gt;必应输入法自定义无零声母双拼方案&lt;/p&gt;
-
-&lt;p&gt;微软的必应输入法支持双拼的能力一直不怎么样。&lt;br /&gt;
-最开始是根本就没有双拼功能；&lt;br /&gt;
-后来增加了双拼功能，却只支持微软双拼方案；&lt;br /&gt;
-再后来多了几个方案，却既没有应用最广泛的自然码方案，也没有近年来比较流行的小鹤方案；&lt;br /&gt;
-现在终于可以自定义双拼方案了，却还死板地要求必须为零声母分配一个按键，而且多字声母必须以零声母开头……&lt;/p&gt;
-
-&lt;p&gt;从升级日志来看，快要一年没有维护更新了，估计官方也不会有什么大的升级，还是自己动手吧。&lt;/p&gt;
-
-&lt;p&gt;首先可以新建、另存一个双拼方案；&lt;br /&gt;
-然后去用户目录下找到 Roaming\Kunlun\double-pinyin 目录；&lt;br /&gt;
-其中应该会有个后缀为 imedps 的 XML 文件，用文本编辑器直接编辑；&lt;br /&gt;
-文件改为以下内容：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;lt;/br&amp;gt;
-&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot; ?&amp;gt;  &amp;lt;/br&amp;gt;
-&amp;lt;double-pinyin name=&amp;quot;小鹤双拼&amp;quot; id=&amp;quot;ce378851-922f-401c-966a-1a2ede2f57d6&amp;quot; xmlns=&amp;quot;http://schemas.microsoft.com/ime/double-pinyin/1.0&amp;quot;&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;consonants&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ch&amp;quot; key=&amp;quot;i&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;sh&amp;quot; key=&amp;quot;u&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;zh&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;/consonants&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;vowels&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;a&amp;quot; key=&amp;quot;a&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ai&amp;quot; key=&amp;quot;d&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;an&amp;quot; key=&amp;quot;j&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ang&amp;quot; key=&amp;quot;h&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ao&amp;quot; key=&amp;quot;c&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;e&amp;quot; key=&amp;quot;e&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ei&amp;quot; key=&amp;quot;w&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;en&amp;quot; key=&amp;quot;f&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;eng&amp;quot; key=&amp;quot;g&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;er&amp;quot; key=&amp;quot;r&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;i&amp;quot; key=&amp;quot;i&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ia&amp;quot; key=&amp;quot;x&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ian&amp;quot; key=&amp;quot;m&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;iang&amp;quot; key=&amp;quot;l&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;iao&amp;quot; key=&amp;quot;n&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ie&amp;quot; key=&amp;quot;p&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;in&amp;quot; key=&amp;quot;b&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ing&amp;quot; key=&amp;quot;k&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;iong&amp;quot; key=&amp;quot;s&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;iu&amp;quot; key=&amp;quot;q&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;o&amp;quot; key=&amp;quot;o&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ong&amp;quot; key=&amp;quot;s&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ou&amp;quot; key=&amp;quot;z&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;u&amp;quot; key=&amp;quot;u&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ua&amp;quot; key=&amp;quot;x&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;uai&amp;quot; key=&amp;quot;k&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;uan&amp;quot; key=&amp;quot;r&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;uang&amp;quot; key=&amp;quot;l&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ue&amp;quot; key=&amp;quot;t&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ui&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;un&amp;quot; key=&amp;quot;y&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;uo&amp;quot; key=&amp;quot;o&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;v&amp;quot; key=&amp;quot;v&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;/vowels&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;solo-vowels&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;a&amp;quot; key=&amp;quot;aa&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ai&amp;quot; key=&amp;quot;ai&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;an&amp;quot; key=&amp;quot;an&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ang&amp;quot; key=&amp;quot;oh&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ao&amp;quot; key=&amp;quot;ao&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;e&amp;quot; key=&amp;quot;ee&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ei&amp;quot; key=&amp;quot;ei&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;en&amp;quot; key=&amp;quot;en&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;eng&amp;quot; key=&amp;quot;og&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;er&amp;quot; key=&amp;quot;er&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;o&amp;quot; key=&amp;quot;oo&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-        &amp;lt;map syllable=&amp;quot;ou&amp;quot; key=&amp;quot;ou&amp;quot;/&amp;gt;  &amp;lt;/br&amp;gt;
-    &amp;lt;/solo-vowels&amp;gt;  &amp;lt;/br&amp;gt;
-&amp;lt;/double-pinyin&amp;gt;  &amp;lt;/br&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;然后保存，去必应输入法双拼方案设置界面选择“小鹤双拼”即可。&lt;/p&gt;
 </description>
     </item>
     
