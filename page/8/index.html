@@ -42,6 +42,113 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/pandoc-markdown/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>23 Oct 2014, 07:25</time>
+      <h1>Pandoc &amp; Markdown</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>实在不明白为什么很多人需要编辑器有
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。<br />
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML
+等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。</p>
+
+<p>如果需要预览才能用好，那是否说明
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+还不够简单、直观？</p>
+
+<p>我使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+的次数不多，因为 <a href="http://www.vim.org/">Vim</a> + HTML
+插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>。</p>
+
+<p>如果要用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>，我一般会通过
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 转换输出为 HTML
+再发布，这样不管是不支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+语法的，还是支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 嵌套 HTML
+的发布渠道都没有问题，不会被发布渠道的能力束缚——在
+<a href="https://wordpress.org/">WordPress</a> 等平台上，当然还是用 HTML 比较通用。</p>
+
+<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+的一大好处是支持的输入输出格式极为丰富，简单的东西用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+写好，想转换成什么都比较方便，包含中文的 PDF
+文档除外，除非你知道怎么解决 LaTeX 相关的配置。<br />
+其次是可以自定义的参数一大堆，比如
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+中要求行末加双空格才转为换行，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+用 markdown+hard_line_breaks
+参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。</p>
+
+<p>如果配合 <a href="http://www.ghisler.com/">Total Commander</a> 使用，安装
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 后可以在工具栏中增加
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的快捷图标，参数栏中写上：</p>
+
+<pre><code>&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html&lt;/code&gt;
+</code></pre>
+
+<p>其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。</p>
+
+<p>不使用 <a href="http://www.ghisler.com/">Total Commander</a>
+也可以自己写个脚本或批处理干这事。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f&text= @calon Pandoc%20%26%20Markdown&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Pandoc%20%26%20Markdown》&body=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/markdown">#Markdown </a>
+      
+        <a href="https://ioerr.github.io/tags/pandoc">#Pandoc </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%86%99%E4%BD%9C">#写作 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91">#文本编辑 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">#标记语言 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2">#格式转换 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/yidong-yingyong-tongdian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -92,8 +199,8 @@
 </section>
 
 <div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f&text= @calon %e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9》&body=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f&text= @calon %e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9》&body=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -164,8 +271,8 @@
 </section>
 
 <div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdanxin%2f&text= @calon %e6%8b%85%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e6%8b%85%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2fdanxin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdanxin%2f&text= @calon %e6%8b%85%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8b%85%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2fdanxin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -221,8 +328,8 @@
 </section>
 
 <div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f&text= @calon %e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb》&body=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f&text= @calon %e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb》&body=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -282,8 +389,8 @@
 </section>
 
 <div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f&text= @calon %e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f&text= @calon %e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -307,69 +414,6 @@
         <a href="https://ioerr.github.io/tags/%E5%B0%8F%E8%AF%B4">#小说 </a>
       
         <a href="https://ioerr.github.io/tags/%E7%A7%91%E5%B9%BB">#科幻 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/wuxia/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>16 Jul 2014, 16:11</time>
-      <h1>武侠</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.zhihu.com/question/19566189/answer/14792901">中国武侠精神的核心价值观是什么？</a></p>
-
-<p>武＝暴力<br />
-侠＝在朝廷之外建立和维护的民间价值体系<br />
-合起来，武侠就是在朝廷力所不及或者胡作非为的地方，通过暴力建立或维护一套独立于官方意识形态的价值体系。<br />
-不管这套价值体系包含的是路见不平行侠仗义、锄强扶弱、快意恩仇、浪漫精神……都是官方体系不能包容或不能实现的，而且必以官方最防范的暴力为维护或构建的基本手段。</p>
-
-<p>所以游侠总是以武犯禁，豪侠往往被官府打压，底层边缘社会的游民组织自有一套意识形态、暴力组织和话语体系，武侠小说中的江湖总是远离庙堂或者与朝廷作对。<br />
-就算是郭靖这样“为国为民”的大侠，也只是朝廷体制外的民间抵抗人士，还得在小说里面写得官方无能才对比出大侠的中流砥柱作用。这还是在有共同的外敌时容忍大侠对防务指手画脚，只要外患一退，武侠与朝廷就立刻闹翻，金庸笔下吃了牢饭险些没命的萧峰也是一例。</p>
-
-</section>
-
-<div class="comment">
-  <a title="Comment via Twitter" href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwuxia%2f&text= @calon %e6%ad%a6%e4%be%a0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a title="Comment via Mail" href="mailto:calon.xu@gmail.com?subject=评论《%e6%ad%a6%e4%be%a0》&body=https%3a%2f%2fioerr.github.io%2fwuxia%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E6%9A%B4%E5%8A%9B">#暴力 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%AD%A6%E4%BE%A0">#武侠 </a>
       
     
   </div>
