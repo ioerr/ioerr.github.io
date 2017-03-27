@@ -42,6 +42,289 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/gmail-zhichi-oauth-fangshi-fangwen/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>31 Mar 2010, 07:59</time>
+      <h1>Gmail 支持 OAuth 方式访问</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>Google <a href="http://googlecode.blogspot.com/2010/03/oauth-access-to-imapsmtp-in-gmail.html">在官方 blog 中宣布 Gmail 可通过 OAuth
+方式访问</a>，支持
+IMAP 和 SMTP 协议（POP3好像没戏）。</p>
+
+<p>好消息是，今后将可以通过第三方服务访问 Gmail，即使 Gmail
+被封也不会妨碍收发邮件；<br />
+另一个好消息是，由于不需要提供登录密码，只需要到 Gmail
+的页面确认授权给第三方应用，所以 Gmail
+周边应用的开发限制和给用户带来的风险会少得多。</p>
+
+<p>坏消息是，如果 Gmail
+真的被封杀，有可能会收不到国内的邮件，只能够通过其他邮箱迂回；<br />
+另一个坏消息是，虽然 OAuth
+的方式不会直接泄露邮箱密码，但很多人的邮箱会接收一些服务的注册信息，而有的服务的注册确认邮件中会带上注册密码，如果你的密码比较单一，还是存在泄露的危险；<br />
+最后一个坏消息是，每次 OAuth 方式的授权验证应该还是要到 Gmail
+页面去，所以翻墙的基本功还是要继续修炼以备不时之需。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fgmail-zhichi-oauth-fangshi-fangwen%2f&text= @calon Gmail%20%e6%94%af%e6%8c%81%20OAuth%20%e6%96%b9%e5%bc%8f%e8%ae%bf%e9%97%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Gmail%20%e6%94%af%e6%8c%81%20OAuth%20%e6%96%b9%e5%bc%8f%e8%ae%bf%e9%97%ae》&body=https%3a%2f%2fioerr.github.io%2fgmail-zhichi-oauth-fangshi-fangwen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/gmail">#Gmail </a>
+      
+        <a href="https://ioerr.github.io/tags/oauth">#OAuth </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/boogunote/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>30 Mar 2010, 13:28</time>
+      <h1>BooguNote</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#加粗-图标功能可以用于-gtd-应用-但我认为-boogunote-的发展方向不应该是">加粗、图标功能可以用于 GTD 应用，但我认为 BooguNote 的发展方向不应该是</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>BooguNote
+这款小巧而强大的树型笔记软件终于推出了0.3.1.1正式版本，你可以在它的<a href="http://boogu.me/index_zh.htm">中文</a>和<a href="http://boogu.me/">英文</a>主页分别下载不同语言的版本。</p>
+
+<p>详细的使用方法，在主页上已经有给出一些介绍的文章，如《<a href="http://geek4.us/all-in-boogunote/">BooguNote
+全解</a>》和《<a href="http://www.gtdstudy.com/?p=1761&amp;replytocom=124821">提升生活效能的小软件：BooguNote的三种应用</a>》，同时，软件也自带了一个简单的教程，浏览一遍就大致清楚用法了。</p>
+
+<p>BooguNote 基本界面：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2010-03-30-20-25-29.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2010-03-30-20-25-29.png" alt="BooguNote
+基本界面" /></a></p>
+
+<p>自从上手之后，BooguNote 已经取代 Evernote
+等成为我的首选笔记工具，主要的原因有：</p>
+
+<p>1、BooguNote 最大的特色：树形结构的信息组织方式<br />
+OneNote
+类的笔记软件，主要的信息组织方式是分组卡片式，辅助的则有项目符号、段落标记、表格；<br />
+Evernote、CintaNotes
+类的笔记软件，信息组织方式是多标签，辅助的是项目符号等；<br />
+SEO Note、KeyNote 类的笔记软件，信息组织方式是树形目录加卡片；<br />
+MiniPad2类的笔记软件，信息组织方式只有树形目录；<br />
+WikidPad 类的笔记软件（如果你把它当成笔记工具的话），信息组织方式是 Wiki
+式的链接加树形目录。</p>
+
+<p>而 BooguNote
+的信息组织方式直接就是树形目录，笔记的目录结构和树叶节点的内容（文字块）都集中在一个窗口中，简单易懂，不需要在多个工作区来回切换，不需要与太多的附加信息和格式打交道，层次清晰又简洁。</p>
+
+<p>2、方便的键盘操作<br />
+光有树形目录也不行，只有给移动、展开、收缩、编辑节点配上快捷的键盘操作，树形目录才不会拖累用户。<br />
+除此之外，BooguNote 大部分的操作都可以自定义快捷键，这比
+Evernote、OneNote 等贴心多了。</p>
+
+<p>3、纯文本加图片和超链接的内容<br />
+作为纯文本党人，我对 Evernote、OneNote 等富文本笔记工具很有意见，比如
+Evernote 的全局抓取和粘贴，每次都要 Ctrl+Shift+V
+再选择粘贴纯文本，否则从网页、富文本文档等信息源头抓取来的内容就会带上不同的字体、大小、颜色、格式，使得整个界面混乱无比。</p>
+
+<p>不过，纯文本也不是万能的，所以 BooguNote
+也可以在笔记中嵌入图片和超链接内容，支持文字加粗、文字块收缩、给文字块加上集中图标，提高了软件的应用能力。<br />
+超链接支持点击打开，图片是作为独立的文件保存，笔记中只是存储其相对/绝对位置并显示缩略图，这样便不会使得笔记文件本身的体积急速膨胀，间接提高了性能。</p>
+
+<h2 id="加粗-图标功能可以用于-gtd-应用-但我认为-boogunote-的发展方向不应该是">加粗、图标功能可以用于 GTD 应用，但我认为 BooguNote 的发展方向不应该是</h2>
+
+<p>工具，因为树形目录的长处在于组织和展示信息，而不是管理待完成事务和提醒。</p>
+
+<p>BooguNote 保存的笔记文件后缀名是 boo，其实内容就是 XML
+格式，可以同时保存一份相对易于直接阅读的纯文本文件，还可以在配置中打开记录操作日志，这些都是可以自己用文本编辑工具打开自己查看修改的。<br />
+用户完全可以将笔记文件另做后期处理，一些 BooguNote
+暂时未能完善的功能，如搜索定位、批量替换等等，可以自己完成，这就比采用加密或封闭的存储格式更加方便。</p>
+
+<p>4、便携性<br />
+BooguNote 是绿色软件，不需要安装；<br />
+压缩后300KB，展开也不超过700KB，与安装文件40MB 的 Evernote、200-300MB 的
+OneNote 相比是超轻量级，与 MiniPad2、CintaNotes
+等一个量级。当然，它没有手写识别、富文本、加密、办公软件集成等功能，如果你不需要这些功能的话，自然没有必要选择体积更加臃肿的工具；<br />
+设置默认存储路径后，默认存储路径中的图片插入笔记就会记录相对路径，移动笔记文件的时同时移动图片，就不会丢失笔记中的缩略图了；<br />
+可惜的是目前还没有在线同步功能，毕竟作者资源有限，现阶段只能先完善基础功能。结合
+Dropbox 的同步功能也基本够用了，只剩下移动设备平台的编辑问题。</p>
+
+<p>5、其他特色<br />
+右键拖拽可以移动屏幕<br />
+侧边停靠适合宽屏显示器<br />
+抓取内容时可以自动带上窗口标题和链接/路径<br />
+配色方案有丰富的自定义属性<br />
+文本文件格式可以自定义编码方式<br />
+另存为 FreeMind Notes 的 mm 格式，这是其他文本笔记工具无法做到的</p>
+
+<p>6、开发者<br />
+最后，也许是最重要的一点，就是 BooguNote
+的开发者能够及时响应用户反馈的信息，非常勤快的增加功能和修补 bug。<br />
+而要在 Evernote、OneNote 等工具那里得到及时的反馈就相当困难了。</p>
+
+<p><strong>待改进的地方：</strong></p>
+
+<p>1、稳定性<br />
+尽管在前期测试阶段，勤奋的作者经过了多次升级修改，目前的正式版仍然有一些小问题。<br />
+发现的问题可以到<a href="http://groups.google.de/group/boogunote?hl=zh-cn">讨论组</a>向作者反映，或者<a href="boogunote@gmail.com">直接发邮件</a>。</p>
+
+<p>2、完善基本功能<br />
+如完善撤销功能、增加最近打开的文件列表、全局抓取后的托盘气泡提示等。</p>
+
+<p>3、同步<br />
+前面已经提到，建议配合使用 <a href="http://www.dropbox.com/">Dropbox</a>
+等同步工具。</p>
+
+<p>4、搜索定位<br />
+笔记内容越来越多的时候，更加强大精准的搜索定位功能就十分必要了。然而目前
+BooguNote
+的搜索功能只能说非常简陋，暂时的解决之道就是配合文本搜索工具以提升能力。</p>
+
+<p>5、多标签组合<br />
+多标签组合功能不是万能的，管理海量信息并不合适以多标签方式为主，而没有多标签组合即使不是“万万不能”，也会让人困扰，尤其是
+BooguNote 搜索定位功能不强大的情况下。<br />
+在结构化信息存储的目标实现后，这个应不是问题。</p>
+
+<p>6、进一步优化树形目录操作<br />
+BooguNote
+已经是操作最舒服快捷的笔记工具了，但还不够完美，当内容条目很多、树结构复杂的时候，操作就会显得力不从心了。<br />
+因此作者和用户还要多想想如何进一步完善优化树形目录的操作，如增加快速返回父节点和收缩所有层级子节点的快捷键、同级文字块排序、临时高亮显示子节点和父节点的连线等等。</p>
+
+<p><strong>开发者的野望</strong><br />
+开发者 hawk 在讨论组中多次提到了今后的发展规划，感觉 BooguNote
+还有许多潜力可挖：</p>
+
+<p>1、富文本支持<br />
+作为纯文本党人，我觉得目前只要能够增加删除线格式就行了。<br />
+开发者则打算实现富文本功能，即 HTML 和 RTF
+数据的抓取和保存，不过在抓取文本的时候，可以去掉文字大小、字体属性，尽量保证版面的整齐。</p>
+
+<p>2、网络同步和发布<br />
+如与 Google Calendar 和 Outlook
+的同步，在网络/企业内部社区发布、共享笔记。</p>
+
+<p><blockquote>
+通过快捷方式能保存文件。<br />
+以后不光保存 boo 文件，也保存 boo
+文件中快捷方式指向的文件。这样在任何地方都可以用boo的文件快捷方式访问想要的文件。这样一体化的存储，可以有效的和
+Dropbox 竞争。
+</blockquote>
+3、跨平台支持<br />
+Linux 下有 <a href="http://basket.kde.org/">Basket Note Pads</a>，但 Windows
+版本还只在计划中；<br />
+Windows Mobile 平台上有
+<a href="http://www.iliumsoft.com/site/lp/listpro.php">ListPro</a>
+这样的神器，但不免费不跨平台，同步也很难用；<br />
+Evernote
+虽然跨多平台、可同步，移动设备上的免费版却不能本地保存，而且不好用…</p>
+
+<p>如果 BooguNote
+可以跨平台，又内建了同步功能，那么其他同类工具就更没有优势了。</p>
+
+<p>4、结构化信息<br />
+最重头的未来功能，BooguNote 的信息组织能力会凭此上一个新的台阶。</p>
+
+<p><blockquote>
+0.4.0左右的BooguNote将会出现结构化信息。什么叫结构化信息呢？<br />
+学过数据库的人大家都知道这样的概念：<br />
+学生的属性包括:姓名，出生日期，学号。<br />
+那我就可以在BooguNote里面标注某个文字块就是名字，出生日期，或者学号。<br />
+这就是结构化信息。只要我按照这个模板填写。以后就可以很容易用搜索功能从各个不同的文件里，搜出所有学生的信息。<br />
+更进一步，我甚至可以实现关系数据库的功能。通过 sql 语句进行查询。<br />
+结构化信息存储主要是方便以后信息的提取和使用。
+</blockquote>
+标签、模板等功能都可以顺带实现了。</p>
+
+<p>5、显示文件内容缩略图</p>
+
+<p>6、打印功能</p>
+
+<p>7、拖拽功能<br />
+目前还不支持鼠标直接拖拽文字块</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fboogunote%2f&text= @calon BooguNote&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《BooguNote》&body=https%3a%2f%2fioerr.github.io%2fboogunote%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/boogunote">#BooguNote </a>
+      
+        <a href="https://ioerr.github.io/tags/evernote">#Evernote </a>
+      
+        <a href="https://ioerr.github.io/tags/onenote">#OneNote </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0">#笔记 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/danxiang-lamen/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -278,248 +561,6 @@
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/monopoly-deal/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>15 Feb 2010, 15:45</time>
-      <h1>Monopoly Deal</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>买了 Monopoly Deal
-桌面纸牌游戏，规则不算复杂，没有接触过桌面游戏的人也可以迅速上手，价钱也十分便宜。</p>
-
-<p>不过这款桌游和 Monopoly
-桌面游戏只是主题有关系，前者是抽取卡牌，现金仅用于偿付不能够收购地产，最终以成套地产的多少判断胜负，而后者是掷骰子走地图，可以用现金购买房产，以现金的有无判断是否破产，耗时长很多。</p>
-
-<p>Monopoly Deal
-比较依靠运气，如“接管物业”的功能太过强大，假若没有“作出反对”牌制约，形势很容易一边倒，尤其是在玩家人数较少的时候。<br />
-游戏节奏很快，留给玩家运筹帷幄的回合不多，形势不利的时候，很难通过策略反败为胜，另一方面则利于新手上手。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fmonopoly-deal%2f&text= @calon Monopoly%20Deal&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Monopoly%20Deal》&body=https%3a%2f%2fioerr.github.io%2fmonopoly-deal%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">#互动娱乐 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/monopoly-deal">#Monopoly Deal </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E6%B8%B8%E6%88%8F">#桌面游戏 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/xuanze-youjian-kehuduan/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>25 Jan 2010, 16:28</time>
-      <h1>选择邮件客户端</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#万般无奈之下-只好另寻替代-先后排除了需要收费-占用资源越来越大-上手就很不习惯的">万般无奈之下，只好另寻替代，先后排除了需要收费、占用资源越来越大、上手就很不习惯的</a></li>
-</ul></li>
-</ul>
-</nav>
-</div>
-
-<section class="post-content">
-  
-
-<p><strong>Becky! The Internet Mail</strong></p>
-
-<p>用了很长一段时间的 <a href="http://www.rimarts.co.jp/">Becky!</a>
-作为主力邮件客户端（感谢 <a href="http://wp.najja.org/">Najja</a>
-的推荐），虽然有许多其他客户端无法比拟的优点，如：<br />
-搜索速度快，定位方便；<br />
-邮件以单文件形式存档，不需要担心数据库文件出错，不需要老是重建索引；<br />
-海量邮件处理速度快；<br />
-资源占用很低，据我观察，应该是常用邮件客户端中资源占用最低的；<br />
-可以调用外部编辑器编辑纯文本格式邮件；<br />
-修改已收发的邮件头和正文很方便；<br />
-远程管理功能好用；<br />
-界面保守，不花里胡哨，适合工作使用。</p>
-
-<p>但一些独特的问题却总是无法有效解决：<br />
-通讯录功能简陋，不支持中文地址补全，导入导出非常麻烦；<br />
-经过调教，虽然纯文本模式下中文乱码问题很少出现了，但 HTML 还是有问题；<br />
-不能实现 Gmail 式的会话展示功能，只有树形线索模式；<br />
-转发邮件时，有时候其他邮箱不认附件，如内部网页邮箱系统，不管是内联还是作为附件转发。</p>
-
-<h2 id="万般无奈之下-只好另寻替代-先后排除了需要收费-占用资源越来越大-上手就很不习惯的">万般无奈之下，只好另寻替代，先后排除了需要收费、占用资源越来越大、上手就很不习惯的</h2>
-
-<p>Bat!，越来越华而不实的几个国产邮件客户端，M\$系的几个客户端，还有一票从
-Wakoopa 和维基百科上找到的客户端，都不是非常满意。<br />
-看看人家，觉得不满意操作系统就自己写一个，相比之下差距真大啊…</p>
-
-<p><strong>Foxmail</strong></p>
-
-<p>好不容易定下来随大流捡回新版的 Foxmail
-来用，结果在设置了几个新邮箱、导入了数百个联系人、数千封邮件之后，一个崩溃让一切都回到了解放前的状态，我不喜欢听刘欢的《重头再来》，于是心灰意懒，转向另一个老朋友
-Thunderbird。</p>
-
-<p><strong>Thunderbird</strong></p>
-
-<p><a href="http://www.mozilla.com/Thunderbird/">Thunderbird</a>
-的毛病其实也不少，比如资源占用和乱码就是以前放弃使用它的原因，这次重新开始使用，不满意的地方还是存在：</p>
-
-<p>HTML 模式下的邮件撰写编辑器相当的烂，代码混乱，功能弱；<br />
-对中文的支持有小问题，如发出邮件后会自动插入、删除空格，部分文字变成乱码；<br />
-全局搜索功能超级鸡肋，华而不实；<br />
-没有原生的邮件快递功能；<br />
-撰写邮件的时候，多个联系人地址不能批量操作；<br />
-资源占用相对较高；<br />
-远程管理功能弱。</p>
-
-<p>然则 Thunderbird 的强大就在于有很大的调教空间，让它变得尽量顺手：</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/11604">Address Close
-Button</a><br />
-在邮件撰写界面增加快速删除收件人地址的按钮；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/1556">Allow HTML
-Temp</a><br />
-临时显示超文本；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451">gContactSync</a><br />
-最强大贴心的 Google Contacts 同步工具，彻底解决在本地客户端和 Google
-Contacts 同步联系人的需求，比 <a href="http://www.zindus.com/">Zindus</a> 强多了；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/54035">GMail Conversation
-View</a><br />
-实现类似 Gmail 会话模式的功能，比大多数邮件客户端的会话/线索模式强；</p>
-
-<p><a href="http://nic-nac-project.de/~kaosmos/mboximport-en.html">ImportExportTools</a><br />
-批量导入导出邮件的工具，效率相当高；<br />
-以上两个扩展结合在一起，Thunderbird 导入导出功能很弱的缺点不再烦人；</p>
-
-<p><a href="http://forums.mozillazine.org/viewtopic.php?t=72994">KeyConfig</a><br />
-自定义热键，适合键盘快速操作；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/6543">Nightly Tester
-Tools</a><br />
-玩扩展必备，遇到不兼容新版本的优秀扩展，还可以靠这个抢救一下；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/170">Quote Colors</a><br />
-改变邮件引文的文字、背景色；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/347">QuoteCollapse</a><br />
-自动收起引文，避免过长的引文导致阅读困难；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/4984">Tag Dialog</a><br />
-可方便快捷地创建标签，有已有标签列表作为提示，使得 Thunderbird
-的标签功能不那么鸡肋了；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/14395">tbNotes</a><br />
-为邮件增加记事贴用于备忘，可以统一管理记事贴；</p>
-
-<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/5373">ThunderBrowse</a><br />
-在 Thunderbird 内部浏览网页，办公室忙里偷闲的好帮手。</p>
-
-<p>正是某些扩展提供的功能不可替代，所以目前 Thunderbird
-还是首选邮件客户端。</p>
-
-<p><strong>Postbox</strong></p>
-
-<p><a href="http://www.postbox-inc.com/">Postbox</a>
-是一个新出现不久的收费邮件客户端，在经过一段时间的 beta
-测试后，终于发布正式版本并进化到了1.1。<br />
-可以把 Postbox 看成 Thunderbird 收费加强版——相对于 TB 裸奔版，内核相同的
-Postbox 集成了不少实用功能，优化了界面和性能，解决了一些顽疾，上手比
-Thunderbird
-要愉快许多，甚至可以用惊艳形容，许多细节和功能非常贴心，确实达到了收费的水准。</p>
-
-<p>Postbox
-也可以使用<a href="http://www.postbox-inc.com/extensions/">扩展</a>，基本都是从
-Thunderbird 扩展移植过来的，只可惜数量还很少，如没有
-<a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451">gContactSync</a>
-只有 Zindus，有特殊需求的人就比较痛苦了。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxuanze-youjian-kehuduan%2f&text= @calon %e9%80%89%e6%8b%a9%e9%82%ae%e4%bb%b6%e5%ae%a2%e6%88%b7%e7%ab%af&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%80%89%e6%8b%a9%e9%82%ae%e4%bb%b6%e5%ae%a2%e6%88%b7%e7%ab%af》&body=https%3a%2f%2fioerr.github.io%2fxuanze-youjian-kehuduan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/becky">#Becky </a>
-      
-        <a href="https://ioerr.github.io/tags/email">#Email </a>
-      
-        <a href="https://ioerr.github.io/tags/foxmail">#Foxmail </a>
-      
-        <a href="https://ioerr.github.io/tags/postbox">#Postbox </a>
-      
-        <a href="https://ioerr.github.io/tags/thunderbird">#Thunderbird </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%89%A9%E5%B1%95">#扩展 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E9%82%AE%E4%BB%B6%E5%AE%A2%E6%88%B7%E7%AB%AF">#邮件客户端 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
 
 <div class="paging">
   
@@ -528,7 +569,7 @@ Thunderbird 扩展移植过来的，只可惜数量还很少，如没有
   </a>
   
 
-  PAGE 31 / 228
+  PAGE 31 / 229
 
   
   <a href="/page/32/" rel="next">

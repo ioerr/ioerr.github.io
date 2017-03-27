@@ -42,6 +42,160 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/zhunbei-shengji-dao-wp-23/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>25 Sep 2007, 14:33</time>
+      <h1>准备升级到 WP 2.3</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
+<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog
+无法访问，说明正在升级，或者升级失败，或者恢复失败…<br />
+主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
+
+<p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
+
+<p>1、备份数据库。<br />
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
+插件导出数据库表。</p>
+
+<p>2、备份文件。<br />
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
+备份目录的方式，但愿不要出问题…<br />
+之前也有做本地备份，应该不至于太危险。</p>
+
+<p>3、停用所有的插件。<br />
+<a href="http://wordpress.org/">WordPress</a>
+2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
+
+<p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br />
+这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是
+/WP/wordpress-2.3。</p>
+
+<p>5、移走旧文件。<br />
+保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br />
+移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
+
+<p>6、移动新文件。<br />
+将 /WP/wordpress-2.3的文件移动到根目录/下。</p>
+
+<p>7、执行 wp-admin/upgrade.php。<br />
+然后就看人品是否过硬了。<br />
+升级完之后删除或改名 upgrade.php 和 install.php。</p>
+
+<p>8、根据已经修改过的旧文件修改新版本的对应文件。<br />
+目前能够想到的有：<br />
+所有的表情文件；<br />
+所有的插件；<br />
+/wp-includes/vars.php<br />
+default 主题的
+comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br />
+default
+主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br />
+更新 veryplaintxt 主题；<br />
+根据原来的文件修改 comments.php、header.php、style.css；<br />
+新增的页面模板文件。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zhongqiu-kuangxiangqu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>24 Sep 2007, 16:35</time>
+      <h1>中秋狂想曲</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://twitter.com/calon/statuses/289503822">无数个兔子在征嫦娥</a>，<a href="http://twitter.com/calon/statuses/289505012">如果嫦娥豢养的是熊猫，竞争就不会那么激烈了</a><br />
+<img src="http://q.yesky.com/pictures/2007/09/s3_1464179_12404305.GIF" alt="Panda!" /><br />
+（里屋胖达女王的新签名不错，借过来一用）</p>
+
+<p><a href="http://twitter.com/calon/statuses/289576822">月兔是捣药、年糕还是麻糬？</a></p>
+
+<p><a href="http://twitter.com/calon/statuses/289578962">邪恶计划：把桂花树砍了烤兔子吃，代表月亮消灭嫦娥</a></p>
+
+<p><a href="http://twitter.com/calon/statuses/289585532">应该写一部以兔子为主角的悬念、惊悚、奇幻、科幻、恐怖、战争、文艺、情色、荒诞cult片剧本，就叫印第安纳·囧死和玉兔好了</a></p>
+
+<p><a href="http://twitter.com/calon/statuses/289597972">Woody
+Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间思考造反的意义，结果在印第安纳·囧死和嫦娥的联合镇压下起义失败</a></p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f&text= @calon %e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2》&body=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/dianziyoujian-gongneng-chuangxin/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -371,213 +525,6 @@ eBay.</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/dengxiaomang-shexian-xueshu-buduan/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>17 Sep 2007, 16:07</time>
-      <h1>邓晓芒涉嫌学术不端？</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.xys.org/xys/ebooks/others/science/dajia8/dengxiaomang.txt">邓晓芒教授涉嫌学术不端</a>？我是不知道教育部的中国高校人文社会科学优秀成果奖是个什么分量的奖项，感觉邓教授还不至于为了这个奖项和2万元奖金就坑蒙老师杨祖陶啊，毕竟邓晓芒教授还曾经与赵林、彭富春两位教授一起批评湖北省哲学优秀成果评奖中的腐败现象。</p>
-
-<p>文中说“随着时间的推移，杨先生就不免心生诧异”、“杨祖陶先生已经年迈体衰，自然是没有精力也不屑于与这般无耻弟子计较”，究竟杨先生的态度是怎样的，似乎没有一个客观的说法，只看到主观的猜测？</p>
-
-<p>其次，在<a href="http://www.sinoss.net/sinoss_admin/webfiles_show.asp?id=244">第四届中国高校人文社会科学研究优秀成果奖获奖成果名单</a>（又是
-Excel 格式…）中，可以看到“康德三大批判新译(共三部)”后面所写的是“邓晓芒
-译”。不知道这个奖项对翻译校对人的处理是如何要求的，反正我在<a href="http://www2.ouc.edu.cn/wkc/Article_Show.asp?ArticleID=223">申报工作通知</a>的附件（又是
-Word
-格式…）中没有看到相关的说明，是否还有其他相关规定？没有填上翻译校对人杨祖陶先生的名字是在申报时没有填写还是颁发奖项时的修改？</p>
-
-<p>我觉得在该文中一些疑惑被解答之前，贸然说“整地球可能再也找不到几个比他更无耻的教授了”恐怕不妥。</p>
-
-<p>另：不管如何，三部《康德三大批判新译》水平还是很高的，感兴趣的朋友不妨入手。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdengxiaomang-shexian-xueshu-buduan%2f&text= @calon %e9%82%93%e6%99%93%e8%8a%92%e6%b6%89%e5%ab%8c%e5%ad%a6%e6%9c%af%e4%b8%8d%e7%ab%af%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%82%93%e6%99%93%e8%8a%92%e6%b6%89%e5%ab%8c%e5%ad%a6%e6%9c%af%e4%b8%8d%e7%ab%af%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fdengxiaomang-shexian-xueshu-buduan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E9%82%93%E6%99%93%E8%8A%92">#邓晓芒 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/mother-teresa/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>17 Sep 2007, 15:33</time>
-      <h1>德雷莎修女</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>在关天茶舍看到这个帖子《<a href="http://cache.tianya.cn/publicforum/content/no01/1/367272.shtml">人类需要的是德雷莎修女这样受错误宗教观影响的慈善家吗?</a>》，于是去<a href="http://wikipedia.org/">维基百科</a>找相关的条目，与该文相关的内容如下。</p>
-
-<p>英文维基的 <a href="http://en.wikipedia.org/wiki/Teresa%2C_Mother">Mother Teresa
-条目</a>：</p>
-
-<p><blockquote>
-Miracle and beatification</p>
-
-<p>Following Mother Teresa&rsquo;s death in 1997, the Holy See began the process
-of beatification, the second step towards possible canonization. This
-process requires the documentation of a miracle performed from the
-intercession of Mother Teresa. In 2002, the Vatican recognized as a
-miracle the healing of a tumor in the abdomen of an Indian woman, Monica
-Besra, following the application of a locket containing Mother Teresa&rsquo;s
-picture. Monica Besra said that a beam of light emanated from the
-picture, curing the cancerous tumor. Some of Besra&rsquo;s medical staff and,
-initially, Besra&rsquo;s husband insist that conventional medical treatment
-eradicated the tumor. Unless dispensed by the Pope, a second miracle is
-required for her to proceed to canonization.</p>
-
-<p>Christopher Hitchens, a British-born American author, journalist and
-literary critic, was the only witness called by the Vatican to give
-evidence against Mother Teresa&rsquo;s beatification and canonization process,
-as the Vatican had abolished the traditional &ldquo;devil&rsquo;s advocate&rdquo; role
-that filled a similar purpose. Hitchens has written that Mother Teresa&rsquo;s
-own words on poverty proved that &ldquo;her intention was not to help people&rdquo;,
-and he alleged that she lied to donors about the use of their
-contributions. “It was by talking to her that I discovered, and she
-assured me, that she wasn&rsquo;t working to alleviate poverty,” says
-Hitchens. “She was working to expand the number of Catholics. She said,
-‘I&rsquo;m not a social worker. I don&rsquo;t do it for this reason. I do it for
-Christ. I do it for the church.’&rdquo; In the process of examining Teresa&rsquo;s
-suitability for beatification and canonization, the Roman Curia (the
-Vatican) pored over a great deal of documentation of published and
-unpublished criticisms against her life and work. Vatican officials say
-Hitchens&rsquo; allegations have been investigated by the agency charged with
-such matters, the Congregation for the Causes of Saints, and they found
-no obstacle to Mother Teresa&rsquo;s beatification. Due to the attacks she has
-received, some Catholic writers have called her a sign of contradiction.
-</blockquote>
-中文维基的<a href="http://zh.wikipedia.org/wiki/%E7%9C%9F%E7%A6%8F%E5%BE%B7%E8%98%AD%E4%BF%AE%E5%A5%B3#.E5.A5.87.E8.B9.9F.E5.92.8C.E5.AE.A3.E7.A6.8F">真福德兰修女条目</a>：</p>
-
-<p><blockquote>
-批評</p>
-
-<p>奇蹟和宣福</p>
-
-<p>德蕾莎修女過世之後，被尊敬她的印度人神化，由於天主教進行宣福儀式前，必須要有奇蹟的見證記錄，德蕾莎修女的奇蹟見證紀錄來自於一位印度婦女，
-Monica
-Besra，她聲稱自己是德蕾莎修女神蹟的見證人，她將德蕾莎修女的照片，放在腹部，癌腫瘤就消失，但她的丈夫卻對媒體說，這事實上是她接受醫院手術治療的結果，他們之所以如此做是受到天主教教會要替德蕾莎修女進行宣福的壓力，根據時代雜誌的報導，治療她的醫生也受到天主教教會的壓力，必須對外聲稱這是一個奇蹟，此羅生門最後沒有定案，Monica
-Besra的丈夫後來也改變說詞，將癌腫瘤的治癒稱為德蕾莎修女的奇蹟。目前天主教教會在等待第二個奇蹟以將德蕾莎修女進行到冊封為聖徒的程序中。</p>
-
-<p>給垂死者以天主教洗禮</p>
-
-<p>收容所里的垂死者多數為印度教徒和伊斯蘭教徒，但德蕾莎修女總是敦促工作者們給他們施以天主教洗禮。這個做法引發很多爭議。</p>
-
-<p>慈善行為的動機</p>
-
-<p>克里斯多弗·息金斯（Christopher
-Hitchens）認為，德蕾莎修女的組織的目的是以信仰的方式倡導受苦，而不是幫助有需求的人。在1981年的一次新聞發佈會上，有記者問：「您是否在教導窮人應該忍受苦難？」德蕾莎修女回答道：「我認為，窮人接受自己的命運、與受難的基督分享痛苦是非常美好的。我認為，窮人受苦會對這個世界更有幫助。」</p>
-
-<p>查特基（Chatterjee）說，德蕾莎修女以「窮人的幫助者」的形像出現，誤導了公眾。在她最大的收容所里，也僅有二、三百人。加爾各答的另一清教慈善組織，上帝的集會，每日發放18000份免費餐，遠遠多於德蕾莎修女全部收容所發放數量的總和。</p>
-
-<p>查特基說，德蕾莎修女的許多機構只傳教而不做任何慈善活動。如，在巴布亞紐幾內亞，八所設施未收容任何人，全部經費都用於傳教。</p>
-
-<p>醫療護理的質量</p>
-
-<p>1991年，英國著名醫學雜誌《柳葉刀》的編輯羅賓·福克斯博士訪問了加爾各答的「垂死者的家」發現，許多服務的修女和志願者沒有任何醫學知識，但卻要常常做醫療決定。他們也不區分「可醫治」與「不可醫治」的病人，而前者可能處於由於感染而死去的危險中。另外，他們嚴重缺乏麻醉劑，使病人不得不忍受劇痛。他們用過的針頭只在溫水中洗一下。</p>
-
-<p>與此形成對照的是，德蕾莎修女自己有醫療需要時，她會去美國、歐洲、印度的有名望的醫院獲得醫治。</p>
-
-<p>捐款的去向</p>
-
-<p>德蕾莎修女的前僱員們、及前修女蘇刪·希爾茲（Susan
-Shields）稱，德蕾莎修女不允許她們買醫療器械，而是將捐款轉入梵蒂岡銀行作為一般用途，即使捐贈者特別注明將捐款用於慈善行為。</p>
-
-<p>除了法律要求的有關部門，德蕾莎修女從不向公眾提供她的組織的財政狀況。
-</blockquote>
-对德雷莎修女的某些批评是需要进一步证实的，如 Christopher Hitchens
-的书需要更多的证据和其他来源支持，中文条目中的一些引言需要注明出处，慈善活动、传教活动、医疗护理质量、财政透明度的真实情况需要得到确认——这应该是能够做到的。<br />
-<a href="http://website.lineone.net/~bajuu/index1.htm">Aroup Chatterjee
-的网站</a>应该算是能够提供可信度较大的接近第一手资料的地方。</p>
-
-<p>对德雷莎修女的神化则是基本可以确定的，天主教进行封圣时要求的奇迹见证记录大部分教外人士都明白是怎么回事，《TIME》的<a href="http://www.time.com/time/magazine/article/0,9171,501021021-364433,00.html">报道（修正了中文维基上的出处链接）</a>也很能说明问题。当然，这是可以理解的。</p>
-
-<p>最终的结论如何，只能够坐在这里的我当然说不出来。不过，即使目前我无法了解真实的情况，也不是一无所得呢。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fmother-teresa%2f&text= @calon %e5%be%b7%e9%9b%b7%e8%8e%8e%e4%bf%ae%e5%a5%b3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%be%b7%e9%9b%b7%e8%8e%8e%e4%bf%ae%e5%a5%b3》&body=https%3a%2f%2fioerr.github.io%2fmother-teresa%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E5%AE%97%E6%95%99">#宗教 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E5%BE%B7%E9%9B%B7%E8%8E%8E">#德雷莎 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E9%81%93%E5%BE%B7">#道德 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
 
 <div class="paging">
   
@@ -586,7 +533,7 @@ Shields）稱，德蕾莎修女不允許她們買醫療器械，而是將捐款�
   </a>
   
 
-  PAGE 84 / 228
+  PAGE 84 / 229
 
   
   <a href="/page/85/" rel="next">
