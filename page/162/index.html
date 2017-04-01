@@ -42,6 +42,112 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/zhunbei-shengji-wordpress-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Jan 2006, 11:40</time>
+      <h1>准备升级 WordPress 2.0</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>因为安装 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>
+的时候受了打击，所以下定决心把“滞销书”一次<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
+<a href="http://wordpress.org/">WordPress</a> 2.0 版本，如果这几天 blog
+无法访问，说明正在升级，或者升级失败，或者恢复失败… Orz<br />
+另外 RSS Feed 也可能出现异常状况。</p>
+
+<p>先在 blog 上记录一下步骤，到时候也好知道到底是怎么死的。</p>
+
+<p>1、备份数据库。<br />
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
+插件导出数据库表。没有用
+PhpMyAdmin，因为我是个懒人。到时候出了问题再搬救兵好了。按照常理，像我这样经常很倒霉的人出问题的概率是相当大的，何况还要偷懒…</p>
+
+<p>2、备份文件。<br />
+虽然一些 blogger 说 wp-content
+目录中的内容可以不备份，但我修改过默认模板的文件，所以要备份一下，升级后再看具体情况作修改。</p>
+
+<p>3、停用所有的插件。<br />
+目前使用的插件有
+<a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a>、<a href="http://openmonday.martlev.com/small-projects/another-random-quote/">Another Random
+Quote</a>、<a href="http://www.victr.lm85.com/fancytooltips/">FancyTooltips</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>、[Twilight</p>
+
+<h2 id="autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></h2>
+
+<p>Warrior](<a href="http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress">http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress</a>
+Database Backup](<a href="http://www.skippy.net/blog/plugins/)、[Better">http://www.skippy.net/blog/plugins/)、[Better</a>
+Feed](<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。">http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。</a></p>
+
+<p>4、下载 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+<a href="http://wordpress.org/download/">下载地址</a>。</p>
+
+<p>5、删除文件。<br />
+保留的目录、文件：wp-config.php、wp-content 目录、wp-images
+目录，必要的话，保留 wp-includes/languages/ 目录、.htaccess
+文件，以及其他一些自己修改过的文件。<br />
+删除剩下的 <a href="http://wordpress.org/">WordPress</a> 1.5.x 的文件。</p>
+
+<p>6、上传 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+最后上传 wp-content 目录，覆盖的时候要小心谨慎。</p>
+
+<p>7、执行 wp-admin/upgrade.php。<br />
+然后就看人品是否过硬了。</p>
+
+<p>8、在 Options 面板中重新设置 Permalinks</p>
+
+<p>9、更新、激活插件。<br />
+更新 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>、<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">Better
+Feed</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>，试用
+<a href="http://www.zombierobot.com/wp-quotes/">Random
+Quote</a>、<a href="http://dev.wp-plugins.org/wiki/ThemeSwitcher">ThemeSwitcher</a>。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/lixiangde-shudian-xiaowenda/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -339,120 +445,6 @@ Mask》，而那两部，是喜剧电影…<br />
       
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/happy-new-year/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>31 Dec 2005, 16:00</time>
-      <h1>Happy New Year</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#喜怒哀乐">喜怒哀乐</a></li>
-<li><a href="#喜怒哀乐-1">喜怒哀乐</a></li>
-<li><a href="#喜怒哀乐-2">喜怒哀乐</a></li>
-</ul></li>
-</ul>
-</nav>
-</div>
-
-<section class="post-content">
-  
-
-<p><blockquote>
-<a href="http://mybloop.com/?id=bloobobpobopooooboooopoolb.wma"><strong>与非门 - Happy New
-Year</strong></a></p>
-
-<p>可爱的小吉飞往温哥华<br />
-陪在父母的身旁；<br />
-漂亮的露易依然还在<br />
-每天不停地繁忙</p>
-
-<p>坚强的阿琳在马来西亚<br />
-追逐自己的梦想<br />
-聪明的丹丹依然还在<br />
-应付不断地奔忙</p>
-
-<p>无论天涯<br />
-不分海角</p>
-
-<h2 id="喜怒哀乐">喜怒哀乐</h2>
-
-<p>Happy new year to you<br />
-Happy new year to you<br />
-Happy new year<br />
-Happy new year</p>
-
-<p>勇敢的兔子还留在他乡<br />
-寻找新鲜的方向<br />
-温柔的嫂嫂依然还在<br />
-望着娃娃的成长</p>
-
-<p>无论天涯<br />
-不分海角</p>
-
-<h2 id="喜怒哀乐-1">喜怒哀乐</h2>
-
-<p>Happy new year to you<br />
-Happy new year to you<br />
-Happy new year<br />
-Happy new year</p>
-
-<p>无论天涯<br />
-不分海角</p>
-
-<h2 id="喜怒哀乐-2">喜怒哀乐</h2>
-
-<p>Happy new year to you<br />
-Happy new year to you<br />
-Happy new year<br />
-Happy new year</p>
-
-<p>Happy new year to you<br />
-Happy new year to you<br />
-Happy new year<br />
-Happy new year
-</blockquote>
-感谢你在过去的一年阅读这个 blog，感谢你对 Calon 的支持！<br />
-新的一年来到，祝愿各位身体健康，快乐无边，张驰有道，忙得有盼头，闲得有情趣，该脱团的脱团，该入团的入团～</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fhappy-new-year%2f&text= @calon Happy%20New%20Year&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Happy%20New%20Year》&body=https%3a%2f%2fioerr.github.io%2fhappy-new-year%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">#弦动我心 </a>
         
     
   </div>

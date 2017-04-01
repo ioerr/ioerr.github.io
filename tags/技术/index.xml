@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml</link>
+    <description>Recent content in 技术 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
+    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
+    <atom:link href="https://ioerr.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>现代杞人忧天</title>
+      <link>https://ioerr.github.io/xiandai-qirenyoutian/</link>
+      <pubDate>Wed, 29 Mar 2017 12:11:30 +0800</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/xiandai-qirenyoutian/</guid>
+      <description>&lt;p&gt;阮一峰最近在&lt;a href=&#34;www.ruanyifeng.com/blog/2017/03/boundary.html&#34;&gt;《技术的边界》&lt;/a&gt;中提到一个不算新鲜的观点：技术高速发展所蕴含的巨大能量，最终将把人类社会带到难以预测的脆弱状态。&lt;/p&gt;
+
+&lt;p&gt;其逻辑要点是：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;系统越来越复杂，分工越来越细，大多数人已经不能够理解技术了，一个人也不可能从头到尾掌握整个系统。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;因为无法理解技术，人类不知道今后技术会突破到什么程度。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;只要技术有能力做到的事情，最终都会做到。人类没有办法遏制它的发展。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;无法理解和无法控制发展，因此人类无法控制新技术的后果，可能实现能摧毁文明的技术。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;结论：依赖技术的高科技、高度自动化的社会非常脆弱。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我觉得这完全是现代版的杞人忧天：&lt;/p&gt;
+
+&lt;p&gt;细致分工导致隔行如隔山、一个人无法掌握整个系统，不是大问题。&lt;br /&gt;
+只要人类的沟通、交流、利益驱动、组织能力还在，分别掌握了技术细节的人可以随时组织起来，重建技术文明。&lt;br /&gt;
+而且历史证明，行业分工合作的社会，其竞争力远超没有分工的社会，从头再来仍然还会是这个结果，从分工导致的现象开始担忧没有道理。&lt;/p&gt;
+
+&lt;p&gt;人类无法预测技术的未来发展也不是大问题。&lt;br /&gt;
+事实上人类从来就没有搞清楚技术的未来在什么方向，只是技术进步的速度加快，让现代人普遍能体会到这种对未来的无知。&lt;br /&gt;
+我看到有网友评论得好：这种担忧只是人类对未知的原始本能的恐惧。&lt;/p&gt;
+
+&lt;p&gt;技术上能够实现的事情最终都会实现也不是大问题。&lt;br /&gt;
+这种表述方式有点像 Kevin Kelly 的《What Technology Wants》中将技术视为某种生命存在方式，或者盖亚假说中将整个地球生态视为有意识有目的的生命。&lt;br /&gt;
+仿佛冥冥之中人类会不由自主地为技术这种生命形式的目的服务。&lt;br /&gt;
+但实际上决定某项技术能否实现的，归根到底是人类的需求。&lt;/p&gt;
+
+&lt;p&gt;我们看到的许多实现难度很高或者为主流社会不容的技术突破，都是因为有人类需求源源不断地驱动。&lt;br /&gt;
+这需求不止是要用真金白银兑现的市场需求，也包括人类天生好奇心所催生的不求回报的需求。&lt;br /&gt;
+而同时，还有海量的本可能实现，但因为缺少需求驱动而胎死腹中、脑中的潜在的技术突破点，根本不需要妄图阻止技术进步的卢德主义者出手，就默默无闻地消失在历史长河中了，而我们只能看到那些突破重重险阻实现了的。&lt;br /&gt;
+一旦落到人类自身需求的层面上来，对技术发展的担忧就转变为对人类社会组织存续能力的担忧。&lt;/p&gt;
+
+&lt;p&gt;新技术不可控的问题那得看是对谁而言。&lt;br /&gt;
+如果你是希望全局掌控社会发展动态的控制狂，那么这确实是大问题。&lt;br /&gt;
+但如果你明白社会竞争发展的常态本来就是一种“基本可控的不可控”状态，那么这也不是什么大问题。&lt;/p&gt;
+
+&lt;p&gt;要担心的是能够一下子毁灭所有人类的技术被某个漠视现世价值的疯子掌握，或者技术发展导致人类的演变出现严重撕裂社会进而引起世界战争的情况。&lt;br /&gt;
+但这也不是技术层面的问题，和之前所说一样，还是人类社会组织存续能力的问题，也就是政治学范畴的问题。&lt;br /&gt;
+这锅，不能让技术来背。&lt;/p&gt;
+
+&lt;p&gt;依赖高科技、自动化的社会非常脆弱吗？&lt;br /&gt;
+原文中举飞机的飞行控制软件的例子并不妥当。&lt;br /&gt;
+飞机商用之前会经过严格的测试和试飞，必要时也有高科技、自动化之外的人工干预手段。&lt;br /&gt;
+因此软件出现问题导致飞机坠毁的概率微乎其微。&lt;br /&gt;
+而且越是了解飞行的人，越清楚飞行没有百分之百的安全，能够接受事故概率而坐上飞机的人，不会对这种问题盲目恐惧。&lt;/p&gt;
+
+&lt;p&gt;如果回到人类社会上，也就是说，人类的存在和发展本来就不是天经地义、百分之百安全。&lt;br /&gt;
+技术是人类对抗残酷的大自然的手段之一，技术发展到今天，正是人类社会自我保存和发展的需求所驱动的。&lt;br /&gt;
+为了未来未知的技术风险，忽视当下无时无刻不在涌现的实际需求，不是因噎废食、杞人忧天是什么呢？&lt;br /&gt;
+就是不知道不知道这是身为技术人员的阮一峰的真实想法，还是为了推广书而故意为之的宣传策略了。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
