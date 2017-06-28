@@ -42,6 +42,178 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/kylin-shijian/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>17 May 2006, 14:11</time>
+      <h1>麒麟事件</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>在<a href="http://blog.donews.com/biantaishabi">变态家族</a>看到《<a href="http://blog.donews.com/biantaishabi/archive/2006/05/17/872448.aspx">软件界的中国芯？</a>》一文，才知道<a href="http://www.kylin.org.cn/">麒麟操作系统</a>事件这回事，于是在
+<a href="http://blog.csdn.net/DanceFire/">DanceFire</a>
+整理的基础上再集中一下，希望有用。</p>
+
+<p><blockquote>
+<a href="http://www.863.org.cn/863_105/indust/indust_news/200409160008.html">Kylin服务器操作系统是国家863计划的重大研究成果，拥有<strong>完全自主版权的内核</strong>，与Linux在应用上二进制兼容，并支持64位，是中国<strong>独立研发</strong>成功的、<strong>具有完全自主知识产权</strong>的服务器操作系统。</a>
+</blockquote>
+DanceFire
+的《<a href="http://blog.csdn.net/DanceFire/archive/2006/04/27/679782.aspx">麒麟操作系统内核同其他操作系统内核的相似性分析</a>》：</p>
+
+<p><blockquote>
+麒麟操作系统中至少有60%的代码是来自于FreeBSD
+5.3的源代码。……实际的麒麟操作系统与FreeBSD
+5.3在源代码上的相似度很有可能会达到甚至超过90%。</p>
+
+<p>我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。<br />
+首先是在FreeBSD
+5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。<br />
+然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。<br />
+最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。<br />
+如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD
+5.3更为恰当。
+</blockquote>
+<blockquote>
+麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。
+</blockquote>
+《<a href="http://www.kylin.org.cn/KylinForum/read.php?tid=1350&amp;fpage=1">银河麒麟操作系统官方公告</a>》：</p>
+
+<p><blockquote>
+银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire
+到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。
+</blockquote>
+《<a href="http://www.freebsdchina.org/forum/viewtopic.php?t=29841&amp;sid=d53bd90548f50f1d0e2871930f9a4d82">关于银河麒麟操作系统的说明</a>》</p>
+
+<p>DanceFire 的一系列文章：<br />
+《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725422.aspx">今日看到IEEE上麒麟操作系统多线程的论文，发现和FreeBSD的KSE机制很像。</a>》<br />
+《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/15/728837.aspx">Kylin的Kyth和FreeBSD的libpthread多线程库所用的源文件列表对比</a>》<br />
+《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/15/728840.aspx">用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功</a>》<br />
+《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/15/729046.aspx">用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功</a>》<br />
+《关于麒麟操作系统相似性分析的网友回复的整理》<br />
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725436.aspx">#1</a>
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725443.aspx">#2</a>
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725446.aspx">#3</a>
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725518.aspx">#4</a></p>
+
+<p><blockquote>
+FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD
+5.0起步，三年之后，和FreeBSD
+5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD
+5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。
+</blockquote>
+<blockquote>
+在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。
+</blockquote>
+<blockquote>
+I am a BSD engineer from P.R.China. Now we have just finished a BSD
+version. It has some features:<br />
+1)<strong>It uses BSD kernel and Linux runtime environment</strong>, that means the
+userland is linux applications, and it<br />
+can run directly on our system without modifcation such as Oracle
+Database.<br />
+2)We can support desktop environment well. The can support office suite
+and resource manager on our<br />
+system. It is much like windows 95 interface.<br />
+3)We have passed Linux Standard Base (LSB 1.3) for our system. <strong><a href="http://blog.gmane.org/gmane.os.bsd.certification/day=20050418">Its
+chinese name is
+kylin</a></strong>.
+</blockquote>
+虽然我的心情很不好，但还是忍不住要来这么一段：</p>
+
+<p>正气凛然型：<br />
+你想说明什么问题？世界上有多少人给中国付过四大发明的版权费，日本偷取景泰兰的工艺，偷中国的文字，前些日子要注册四大名著当商标，怎么没见你说个什么。韩国的狗屁教授说广州是新罗国的，也没见你说什么。freeBSD，都没有发言，你在这里闹个什么劲？有啥目地？kylin碍着你什么了？</p>
+
+<p>你丫闭嘴型：<br />
+你要有本事自己写个操作系统，再来bs kylin，在这里乱叫一通没意义</p>
+
+<p>天下大同型：<br />
+其实没有什么好争的，真的！没有必要这样~<br />
+数字是阿拉伯数字，<br />
+字母是英文字母，<br />
+键盘是US布局，<br />
+&hellip;..<br />
+所有的一切都属于全人类<br />
+&hellip;..<br />
+何必太在意。</p>
+
+<p>情有可原型：<br />
+kyliin也只是某country的人,利用关系,抄袭freebsd的必然产物,难道让他们重新设计一套操作系统?</p>
+
+<p>好猫型：<br />
+希望麒麟能顶住压力，继续开发改进，提高品质。小平同志说得好：“黑猫白猫，能抓住老鼠就是好猫！”操作系统也一样，安全好用就是好系统！</p>
+
+<p>两个凡是型：<br />
+凡是能在实际应用中产生效应的<br />
+凡是能解决实际问题的<br />
+都是有用的创新<br />
+支持麒麟,支持国产<br />
+不能因为出了个汉芯就去怀疑麒麟。</p>
+
+<p>天外飞仙型：<br />
+波音飞机的部件(不是零件)来自全世界(包括中国),谁说波音公司对波音飞机没有完全自主的知识产权?</p>
+
+<p>思维混乱型：<br />
+中国人早已丢掉了“东亚病夫”的帽子，借鉴别人的东西是正常的，吸取他人的不足，才可以把我们自己的技术更快地推向成熟。一个操作系统是何其庞大的一个软件，我想大家知道绝不是靠借鉴就可以开发出来的，更多的还是自主的水平，否则我们为什么到现在才学，我们早在早些年就可以把系统给搞定了不是吗！所以一句话，相信我们自己。看看新闻，我们的祖国在国际声誉是越来越好，我们祖国的实力是越来越强大！</p>
+
+<p>稳定推倒一切型：<br />
+中国人毛病多，但是中国的机构，中国的政府都只百里挑一的，没理由不相信人家对吧。<br />
+所谓的议论分子，就算你自己觉得说的有几分对，考虑一下影响嘛。如果放了一大堆烟，最后证明你是错的，不是误导了人吗？小孩子一旦带坏心里就有阴影了，你负这责任吗？肯定悄悄多一边去了，这伙人！想证明自己是行家懂得多吗？</p>
+
+<p>关你鸟事型：<br />
+咱是粗人，高深的理论不太懂，只是觉得既然国人搞出了这么个东西来，咱就要抱着支持肯定的态度来看待，别动不动就搬出什么知识产权来恶搞！即便跟什么知识产权有牵扯，自有人家有知识产权的人来理论，人家有知识产权的人还什么都没说呢，你们在这儿叽叽喳喳个啥呢？</p>
+
+<p>思维跳跃型：<br />
+有人一直围绕“自主产权”上做“文章”。举个例子windows，发明者在开发的过程中用的键盘，显示器，主机，编辑软件这些工具，难道这些也是他发明的吗，那能说windows不是属于拥有自主产权的吗</p>
+
+<p>崇尚经典型：<br />
+抄freebsd怎么了，有经典的现成的东西不用，那就算开发出自主产权但又不好用的产品又有什么用<br />
+楼上有几个能看懂麒麟的，就因为某某人发表的一篇文章，你们就在跟风，自己不懂就没有发言权<br />
+不为祖国做贡献，来这浪费时间，你们要是觉得麒麟很差不值一提，你们帮忙开发去啊！！！</p>
+
+<p>爬行：<br />
+不懂的站在别人肩上爬起来的人不配做人！<br />
+不管麒麟是怎么产生的，至少比在这里乱哄的猪牛！！！<br />
+我参与了麒麟开发，有本事的你们自己用freebsd搞个出来。<br />
+我在这里想对Dancefire说，干你娘！</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkylin-shijian%2f&text= @calon %e9%ba%92%e9%ba%9f%e4%ba%8b%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%ba%92%e9%ba%9f%e4%ba%8b%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fkylin-shijian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/huaixiaoxi-liangze/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -338,157 +510,6 @@ GB 的空间或 Live.com
       
         
           <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/faguodui-shijiebei-23ren-damindan/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>14 May 2006, 15:57</time>
-      <h1>法国队世界杯23人大名单</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <hr />
-
-<p>Fabien Barthez (Marseille)</p>
-
-<p>Grégory Coupet (Lyon)</p>
-
-<p>Mickaël Landreau (Nantes)</p>
-
-<hr />
-
-<p>Lilian Thuram (Juventus)</p>
-
-<p>William Gallas (Chelsea)</p>
-
-<p>Willy Sagnol (Bayern)</p>
-
-<p>Eric Abidal (Lyon)</p>
-
-<p>Pascal Chimbonda (Wigan)</p>
-
-<p>Mikaël Silvestre (Man U)</p>
-
-<p>Jean-Alain Boumsong (Newcastle U)</p>
-
-<p>Gaël Givet (Monaco)</p>
-
-<p>防守型中场：</p>
-
-<p>Patrick Vieira (Juventus)</p>
-
-<p>Claude Makelele (Chelsea)</p>
-
-<p>Alou Diarra (Lens)</p>
-
-<p>Vikash Dhorasoo (PSG)</p>
-
-<p>进攻型中场：</p>
-
-<p>Zinedine Zidane (Real Madrid)</p>
-
-<p>Franck Ribéry (Marseille)</p>
-
-<p>Florent Malouda (Lyon)</p>
-
-<p>Sylvain Wiltord (Lyon)</p>
-
-<hr />
-
-<p>Thierry Henry (Arsenal)</p>
-
-<p>David Trezeguet (Juventus)</p>
-
-<p>Djibril Cissé (Liverpool)</p>
-
-<p>Louis Saha (Man U)</p>
-
-<p>俱乐部统计：</p>
-
-<p>4人：<br />
-Lyon</p>
-
-<p>3人：<br />
-Juventus</p>
-
-<p>2人：<br />
-Marseille<br />
-Chelsea<br />
-Man U</p>
-
-<p>1人：<br />
-Nantes<br />
-Bayern<br />
-Wigan<br />
-Newcastle U<br />
-Monaco<br />
-Lens<br />
-PSG<br />
-Real Madrid<br />
-Arsenal<br />
-Liverpool</p>
-
-<p>基本在意料之中，最可惜的是 Philippe Mexes
-没有入选，他在这个赛季的表现比同门师兄弟、英超的大漏勺 Boumsong
-强多了，看看后卫阵容，Boumsong、Silvestre
-皆在列，千万不要让其中一个打中后卫啊～替补的话，状态一般的 Givet
-也不让人放心…</p>
-
-<p>马赛的年轻球员 Ribéry 能够在最后时刻入选，实在是太让人激动了！难道
-Domenech 是受了豪赌一把的瑞典人刺激？再加上本赛季在 Wigan 表现出色的
-Chimbonda 入选，看来 Domenech 也不是保守到底嘛。</p>
-
-<p>Giuly、Micoud、Pires 最终还是没有挤进来，前两位也很可惜，特别是
-Micoud，本赛季的状态大好，又可以在 Zizou
-体力不支时顶上…不过现在的话，可能要靠 Ribéry 上去冲击了。</p>
-
-<p>Cissé 还能够去德国真让人失望，就算是在土耳其的 Anelka
-也比他稍微好一点吧，前锋里面射门成功率高的就只有 Trezeguet 一人了，但愿
-Henry、Saha 其中一人能够适时发飙吧。</p>
-
-<p>门将方面，据说 Barthez 已经确定为主力，Coupet
-终究没能够像德国人那样换位，好在他和 Landreau
-的替补都让人放心，可以说这次世界杯法国队是门将梯队最有实力的了－－虽然只是听上去很爽。</p>
-
-<p>从总体上说，主力阵容的年龄结构不合理，特别是 Zizou、Thuram、Makelele
-这几个高龄球员能不能够保持体力和状态是大问题，Barthez
-虽然一直在国家队大赛中表现稳健，但这几年下滑得很厉害，加上后防线上的几个定时炸弹、能力仍有疑问的主教练，估计正常的结果就是进入16强或8强，能够进入4强已经是谢天谢地，小组赛被瑞士和韩国挤出去也不是没可能。夺冠？比98年的难度大多了。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffaguodui-shijiebei-23ren-damindan%2f&text= @calon %e6%b3%95%e5%9b%bd%e9%98%9f%e4%b8%96%e7%95%8c%e6%9d%af23%e4%ba%ba%e5%a4%a7%e5%90%8d%e5%8d%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b3%95%e5%9b%bd%e9%98%9f%e4%b8%96%e7%95%8c%e6%9d%af23%e4%ba%ba%e5%a4%a7%e5%90%8d%e5%8d%95》&body=https%3a%2f%2fioerr.github.io%2ffaguodui-shijiebei-23ren-damindan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
         
     
   </div>

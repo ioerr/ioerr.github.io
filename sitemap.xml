@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ioerr.github.io/zhongchan_jieji_de_jiaolv/</loc>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/pingguo-weixin-zhizheng/</loc>
     <lastmod>2017-04-24T22:22:53+08:00</lastmod>
   </url>
@@ -6777,6 +6782,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E4%B8%AD%E4%BA%A7%E9%98%B6%E7%BA%A7/</loc>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E4%B8%AD%E5%8C%BB/</loc>
     <lastmod>2015-05-21T14:17:57+00:00</lastmod>
     <priority>0</priority>
@@ -9453,6 +9464,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/</loc>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2008-08-05T17:09:28+00:00</lastmod>
     <priority>0</priority>
@@ -9587,6 +9604,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E7%83%9F%E8%8A%B1/</loc>
     <lastmod>2009-02-14T18:39:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E7%84%A6%E8%99%91/</loc>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9916,7 +9939,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</loc>
-    <lastmod>2017-04-24T22:22:53+08:00</lastmod>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10858,7 +10881,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2017-04-24T22:22:53+08:00</lastmod>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11231,6 +11254,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E9%98%B2%E6%B0%B4/</loc>
     <lastmod>2010-03-01T02:24:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E9%98%B6%E5%B1%82%E5%9B%BA%E5%8C%96/</loc>
+    <lastmod>2017-05-28T10:12:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
