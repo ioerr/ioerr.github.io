@@ -42,6 +42,303 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/tuijian-mianfeide-wenben-bianjigongju/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>29 Nov 2005, 16:25</time>
+      <h1>推荐免费的文本编辑工具</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.devzoo.com/">DevZoo</a> 列出了一个 Windows
+下免费文本编辑软件的<a href="http://www.devzoo.com/index.php?tooltype=WindowsEditor">清单</a>，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。</p>
+
+<p><a href="http://www.fixedsys.com/context/">ConTEXT</a><br />
+界面平常，功能中规中矩。用了一段之后我的疑问是，虽然主要是用来写代码的，可也不至于设置了自动换行也没反应吧？</p>
+
+<p><a href="http://cream.sf.net/">Cream</a><br />
+现在我使用的就是 <a href="http://cream.sf.net/">Cream</a>，所以介绍得详细一点：<br />
+安装之前需要修改 install.bat 文件，将 <a href="http://www.vim.org/">Vim</a>
+的安装路径按照实际情况进行更改，然后在原 <a href="http://www.vim.org/">Vim</a>
+的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中
+[DIR] 为 <a href="http://www.vim.org/">Vim</a>
+的安装目录。其他的许多设置启动后在菜单中就可以设置了。<br />
+如果不习惯没有 <a href="http://www.vim.org/">Vim</a>
+的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc
+文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去
+<a href="http://cream.sf.net/">Cream</a> 所在的目录中摸索各个 vim 文件吧。</p>
+
+<p>它对原来 <a href="http://www.vim.org/">gVim</a>
+的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的
+Windows 编辑软件，实乃我等菜鸟之福音。</p>
+
+<p>值得注意的是，由于使用了不少的脚本来改进界面、增加功能，<a href="http://cream.sf.net/">Cream</a>
+占用的系统资源要远远超过 <a href="http://www.vim.org/">Vim</a>，因此除了担心使用
+<a href="http://cream.sf.net/">Cream</a> 会影响深入学习 <a href="http://www.vim.org/">Vim</a>
+的人之外，优先节约系统资源的人也有理由放弃这个工具。</p>
+
+<p><a href="http://www.crimsoneditor.com/">Crimson Editor</a><br />
+以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和
+EmEditor 这样的付费软件作比较，未免有些不公平。<br />
+除此之外，这款软件没有多少可以批评的地方了…嗯…好吧…其实…我想说，那个狗头的图标未免太丑陋了一点…</p>
+
+<p><a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.xemacs.org/">XEmacs</a><br />
+和 <a href="http://www.vim.org/">Vi/Vim</a> 齐名的软件，但可耻的是我首先被
+<a href="http://www.vim.org/">Vim</a> 拉拢了…:P<br />
+这类软件的阴险之处在于，由于功能异常强大，内涵异常丰富，要摸清楚它的底细简直是不可能的，因此，一般只会有人夸它的好，没人敢说它的坏话。如果你对它的第一印象很好，那么尽管放心大胆地深入学习，保证不会让你失望，它们绝不只是一个文本编辑工具这么简单，而如果是相反的情况，那么还是早早收手换一个工具的好，否则它会不断地打击你的信心。</p>
+
+<p>经常有人争论
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a> 和
+<a href="http://www.vim.org/">Vim</a>
+哪个更好，结论往往是适合自己的才是最好的。作为一个注重人机界面的用户，我觉得还是只向经常编辑代码的人推荐比较好…</p>
+
+<p><a href="http://www.vim.org/">Vi/Vim/gVim</a><br />
+<a href="http://cream.sf.net/">Cream</a> 只是个外壳，它才是灵魂。<br />
+喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的
+Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed
+MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然
+GUI 经过了改进，但如果要我选择学习曲线最陡的流行软件，估计就是它了 :P<br />
+当然，一款人机界面如此之差以至于不但有 GUI
+改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim
+isn&rsquo;t an editor designed to hold its users&rsquo; hands. It is a tool, the use
+of which must be
+learned.”你越是深入学习它，就会越觉得它的功能强大，最后觉得其他工具都不称手。</p>
+
+<p><a href="http://jedit.org/">jEdit</a><br />
+最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java
+有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java
+做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载
+Java，我一定会把它作为首选的文本编辑工具。</p>
+
+<p>最近有许多人收藏了 <a href="http://ifakedit.com/">Jesse Crouch</a>
+的<a href="http://ifakedit.com/log/other/apps/">一篇文章</a>，其中就强烈推荐
+<a href="http://jedit.org/">jEdit</a>。</p>
+
+<p><a href="http://www.cs.virginia.edu/~lcc-win32/">LCC</a><br />
+这个，把它卸载了之后，我已经忘记它有什么特性了…可能稍后再补上吧，如果没补上也不要怪我，反正不在推荐之列。</p>
+
+<p><a href="http://notepad-plus.sourceforge.net/">Notepad++</a><br />
+<strike>平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且
+language 菜单太长、plugins
+菜单组织得很差劲…总体处于比上不足比下有余的位置。<br />
+另外，我宁愿选择 <a href="http://www.crimsoneditor.com/">Crimson Editor</a>
+的狗头也不愿意面对 NPP 的避役…</strike><br />
+新版本的 NPP
+终于把原来丑陋的图标改掉了，而且更加适合中级以上的用户自己配置使用。在功能方面，它已经非常强大，推荐经常编辑代码或网页的人使用。<br />
+不过对我来说，它还有一些小问题：<br />
+函数补全的快捷键是 Ctrl+Space，与输入法快捷键相冲突，又不能自己修改；<br />
+快速插入 HTML 标签（类似 EmEditor HTML Tag 插件）并自动定位不方便；<br />
+列块模式的用法很奇怪；</p>
+
+<p><a href="http://www.pspad.com/">PSPad</a><br />
+如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.vim.org/">Vim</a>，那么它成为首选是没问题的。<br />
+就固有功能来说，与 NPP
+各有千秋；它的扩展基本都是脚本形式，且支持多种脚本语言，方便自己修改。<br />
+现在唯一让我不爽的就是，不能够使用非等宽字体！于是
+Georgia、Palatino、Times New Roman
+等美观字体就只能呆在一边了，中文字体也不堪入目。</p>
+
+<p><a href="http://www.scintilla.org/SciTE.html">SciTE</a><br />
+一个语法选项十分丰富的最好是专门用于各类代码编辑的工具，也是备受好评。<br />
+修改配置需要自己编辑配置文件，对初级用户不够友好。</p>
+
+<p><a href="http://madedit.sourceforge.net/">MadEdit</a><br />
+界面朴素，但是功能不弱，16进制和列块模式可以替代 UE。</p>
+
+<p><a href="http://www.emeditor.com/">EmEditor</a><br />
+最后说一说为什么我总是对 <a href="http://www.emeditor.com/">EmEditor</a>
+这个收费软件念念不忘，原因是它的一些优点其他软件都没有能够做到：<br />
+首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的
+Windows 窗口没什么不同，整体的感觉却不在一个档次上。<br />
+其次是丰富的自定义设置，其中最方便的又属设置第 n
+次搜索时搜索结果的高亮字体，如第一次的搜索结果在全文范围内用绿色背景表示，第二次搜索之后就变成明黄色背景，这样多次搜索之后每次的搜索结果都能够一目了然。<br />
+第三是和 Windows
+系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>、<a href="http://www.vim.org/">Vim</a>
+也未做到最好。<br />
+第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了
+V5系列已经得到了解决。<br />
+第五是常驻托盘的 EmEDTray
+有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的
+UE 虽然也有托盘图标，但仅仅是用来最大化最小化的。</p>
+
+<p>随时更新的<a href="http://calon.tiddlyspot.com/#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91">文本编辑工具推荐列表</a>。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftuijian-mianfeide-wenben-bianjigongju%2f&text= @calon %e6%8e%a8%e8%8d%90%e5%85%8d%e8%b4%b9%e7%9a%84%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8e%a8%e8%8d%90%e5%85%8d%e8%b4%b9%e7%9a%84%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2ftuijian-mianfeide-wenben-bianjigongju%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/crimson-editor">#Crimson Editor </a>
+      
+        <a href="https://ioerr.github.io/tags/emacs">#eMacs </a>
+      
+        <a href="https://ioerr.github.io/tags/emeditor">#EmEditor </a>
+      
+        <a href="https://ioerr.github.io/tags/madedit">#MadEdit </a>
+      
+        <a href="https://ioerr.github.io/tags/notepad&#43;&#43;">#Notepad&#43;&#43; </a>
+      
+        <a href="https://ioerr.github.io/tags/npp">#NPP </a>
+      
+        <a href="https://ioerr.github.io/tags/pspad">#PSPad </a>
+      
+        <a href="https://ioerr.github.io/tags/scite">#Scite </a>
+      
+        <a href="https://ioerr.github.io/tags/vim">#Vim </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8">#文本编辑器 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zaixian-blog-gongju/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>27 Nov 2005, 12:30</time>
+      <h1>在线 blog 工具</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>最近用 <a href="http://zoundry.com/">Zoundry</a> Blog Writer 在
+<a href="http://wordpress.com/">WordPress.com</a> 上发文章，除了 post
+slug、代理的问题之外，还有不爽的地方。<br />
+首先，我没有上传图片到 blog 空间的习惯，尽量都往
+<a href="http://www.flickr.com/">Flickr</a> 丢，但 <a href="http://zoundry.com/">Zoundry</a>
+Blog Writer 给我的选项只有上传到 blog 空间或指定的
+FTP。当然，我能够上传图片到 <a href="http://www.flickr.com/">Flickr</a>
+再添加图片链接，可发布工具能否进一步简化这个操作呢？<br />
+其次，还是本地软件的局限。我弃用了 GreatNews 这样的本地 RSS
+订阅工具而选择 <a href="http://www.bloglines.com/">Bloglines</a>
+就是因为不想在公司和家里重复阅读。同理，我也不希望在某地的
+<a href="http://zoundry.com/">Zoundry</a> Blog Writer 中新增了 tag、blog
+帐号之后，到另一个地方还要再输入一遍，为什么不像分类那样可以在线刷新呢？－－虽然后者有
+blog 系统本身的支持，但本地软件可以想办法突破这个局限啊。</p>
+
+<p>其实本地 RSS
+订阅工具可以和网站结合起来，订阅信息等等都存储在服务器上，通过体积小巧的本地工具对取到本地的临时文件进行访问操作，这样用户不必打开浏览器窗口，不会占用太多磁盘空间，不用担心在两个地方重复阅读，方便升级，网站又可以得到用户数和订阅情况的统计信息－－当然，为了防止网站出现意外后用户无法登录，定时同步
+OPML 文件也是必要的。</p>
+
+<p>同理可得，blog
+发布工具完全也可以做成在线式或者本地工具+网站式的，在我的想象中，利用
+<a href="http://wordpress.org/">WordPress</a> 等 Blog
+系统、<a href="http://www.flickr.com/">Flickr</a>
+等图像存储服务、<a href="http://del.icio.us/">Del.icio.us</a>
+等书签服务、<a href="http://www.google.com/">Google</a>
+<a href="http://maps.google.com/">Maps</a>/<a href="http://earth.google.com/">Earth</a>
+等地图服务、<a href="http://www.douban.com/">豆瓣</a>等图书信息服务、<a href="http://www.imdb.com/">IMDB</a>
+等电影信息服务、<a href="http://wikipedia.org/">维基百科</a>等
+Wiki、<a href="http://www.orkut.com/">Orkut</a> 等朋友圈…的开放的
+API－－虽然许多服务目前还没有开放 API－－完全可以构建出这么一个以 blog
+信息发布为中心的服务站点，对用户来说，它所做的工作除了利用接口取得、发布信息外还有：<br />
+保存 blog 内容的备份<br />
+保存用户的习惯设置</p>
+
+<p>而开发者主要专注于支持新服务的
+API、改进网页/客户端的人机界面设计。使用网页还是客户端工具操作完全由用户决定，重要的是配置信息要保存在服务器端。</p>
+
+<p>可以举个例子说明一下：<br />
+1、我看到新浪新闻和其他人的 blog 之后想要发布一篇关于哈尔滨市水源污染的
+blog，于是使用<a href="http://365key.com/">365Key</a> 将这些页面都保存下来。<br />
+2、点击浏览器书签工具栏上的“Blog”按钮，跳转到 blog
+发布页面，或者启动本地 blog 发布工具，开始写文章。<br />
+3、提及或引用的时候，就在界面上的工具栏中选择引用<a href="http://365key.com/">365Key</a>
+的收藏，通过查看最新收藏/分类/搜索关键字找到刚才收藏的页面，直接插入文章。文章中提到了<a href="http://wozlog.net/">窝子</a>
+，于是在工具条上选择“<a href="http://del.icio.us/">Del.icio.us</a>
+收藏”，搜索到他的 blog
+地址并添加主题相关的文章地址到文中。需要引用新闻图片，先从本地图片收藏目录上传一张图片－－图片其实送到了
+<a href="http://www.flickr.com/">Flickr</a>，而你要做的只是在定好图片属性之后得到图片的地址，还可以调用
+<a href="http://www.google.com/">Google</a> <a href="http://earth.google.com/">Earth</a>
+在哈尔滨上空拍一张鸟瞰图，也上传到
+<a href="http://www.flickr.com/">Flickr</a>。查找<a href="http://wikipedia.org/">维基百科</a>上有没有关于“苯”的条目，如果有，在文末添加链接。<br />
+4、选择发布在哪个 blog，点击发布。<br />
+5、自动用
+<a href="http://del.icio.us/">Del.icio.us</a>、<a href="http://365key.com/">365Key</a>
+收藏这篇文章。自动通知朋友圈或者 IM
+上的指定好友群组。将本文的地址、分类、tag、添加过的链接、引用的图片等等，连同帐号信息、发布设置与服务器进行一次同步，保存备用。</p>
+
+<p>这个例子中用到的其他服务不算多，至少表明了我 blog 时懒得开 N
+个窗口收集信息之类的良好愿望。今后有用的服务越来越多，利用开放的 API
+进行整合未尝不是一个好办法。从另一方面说，如果做得绝一点，完全可以由一个网站扮演
+BSP、图像存储、朋友圈、书签收藏等等服务提供者的角色，而不开放 API
+给竞争对手，但我想，各类特色服务层出不穷，没有人可以保证在每一个方面都做到最好，如果就这样强行整合，反不如由用户自己选择哪几个服务像玩积木一样进行组合，你只要提供好信息发布中心的服务就成了。</p>
+
+<p><a href="http://www.flickr.com/">Flickr</a> 早就提供 Blog This
+功能，但仅限于单张图片，而且功能也十分有限，远远达不到要求啊…<br />
+顺便说一句，刚才测试这个功能的时候，<a href="http://www.flickr.com/">Flickr</a>
+一遍又一遍地提示我发布失败，然后询问是否再试一次，于是我一遍又一遍地“踹阿甘”，直到没有耐心最后放弃，结果数分钟后，邮箱里面连续出现了13封含有这篇
+blog 内容的信件…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzaixian-blog-gongju%2f&text= @calon %e5%9c%a8%e7%ba%bf%20blog%20%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%a8%e7%ba%bf%20blog%20%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2fzaixian-blog-gongju%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/dizhen/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -280,146 +577,6 @@ Japanese？(-_-#)</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/wordpresscom-kaifang-zhuce/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>22 Nov 2005, 15:57</time>
-      <h1>WordPress.com 开放注册</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://del.icio.us/">Del.icio.us</a> 再次改变界面，红色的 tag
-变成深蓝色，还真有些不习惯啊～功能也增强了，不知道 notes
-是不是也是这次变为支持写入多行文本。</p>
-
-<p><a href="http://wordpress.com/">WordPress.com</a>
-开放注册，第一个想法是把很久没更新的<a href="http://11players.blogbus.com/">11players</a>
-转移过去，这样就可以用 <a href="http://zoundry.com/">Zoundry</a> Blog Writer
-节约发布的时间。但是我要说，我真的很讨厌 WYSIWYG 编辑模式！<br />
-最近几乎什么球赛都没看到，错过了从世界杯小组赛最末几轮到世纪大战大屠杀的一大段，所以没什么货可以写。倒是周日晚上加班回来之后明明精疲力竭却还脑子发烧似的看完了
-Fiorentina 很利索地做掉了不干不脆的 Milan 的那场。</p>
-
-<p>心血来潮安装了 <a href="http://redalt.com/wiki/Adhesive">Adhensive</a>
-插件，但还没想好用来干什么…看来最近倒霉的事情太多，大大超出每日倒霉指数正常值，把我弄得晕头转向了…</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f&text= @calon WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/suprglu/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>21 Nov 2005, 13:51</time>
-      <h1>SuprGlu</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>查看了一下在 <a href="http://www.ubuntu.com/">Ubuntu</a>
-免费订的光盘，10月7日就已经寄出来了，不知道什么时候才能够到达这里，看到别人陆续拿到光盘，我却还要考虑什么时候把坏掉的光驱给换了…</p>
-
-<p><a href="http://www.lazyweb.org/">LazyWeb</a>
-的想法很简单，把自己解决不了的问题写在 blog 上，然后通过 [trackback]()
-告知
-<a href="http://www.lazyweb.org/">LazyWeb</a>，以便让别人集中回复。我觉得如果参与的人数太多，恐怕就要好好考虑怎么组织信息了。<br />
-如果你对这个页面的功能感兴趣，还可以在<a href="http://www.benhammersley.com/code/building_your_own_lazyweb.html">这里</a>下载它的代码，要求是安装了
-Movable Type。</p>
-
-<p><a href="http://wordpress.org/">WordPress</a> <a href="http://wordpress.org/support/forum/12">2.0
-beta</a>
-已经放出，据说大部分的插件还能够正常工作。</p>
-
-<p>参考<a href="http://home.1asphost.com/HomespunMagixx/downloads/crystal.gif">这张图片</a>可以用纸折出一个漂亮的晶体。</p>
-
-<p>今年6月5日才转为开源软件的 <a href="http://www.jhorman.org/wikidPad/">WikiPad</a>
-是又一个 wiki 式的本地文本编辑工具，不过我怀疑本地的 wiki
-是否足够实用，或许只有面对纷繁复杂的大项目的人才真正用得上吧？</p>
-
-<p>虽然 <a href="http://www.suprglu.com/">SuprGlu</a> 输出的 RSS Feed
-对中文的支持不好，但具有留言功能，因此如果不想到 blog 留言的话，去
-<a href="http://calon.suprglu.com/">Calon&rsquo;s Portal</a>
-也可以。可惜目前有新留言时还不能用邮件通知，而且为了防止
-spam，只允许注册用户留言，所以说到底，还是不够方便。<br />
-如果能够解决 RSS Feed 乱码、开放留言/防止 spam、邮件通知的问题和取消
-feed 源数目的限制，这个站点的服务就太棒了！</p>
-
-<p><a href="http://zoundry.com/">Zoundry Blog Writer</a>
-果然在分类名为中文时工作不正常。在论坛里面看到今后的版本将加入设置代理的功能，但还是缺少对
-<a href="http://wordpress.org/">WordPress</a> Post Slug 的支持。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fsuprglu%2f&text= @calon SuprGlu&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《SuprGlu》&body=https%3a%2f%2fioerr.github.io%2fsuprglu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
 
 <div class="paging">
   
@@ -428,7 +585,7 @@ feed 源数目的限制，这个站点的服务就太棒了！</p>
   </a>
   
 
-  PAGE 167 / 229
+  PAGE 167 / 230
 
   
   <a href="/page/168/" rel="next">

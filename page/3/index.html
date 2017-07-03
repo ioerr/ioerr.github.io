@@ -42,6 +42,178 @@
       </div>
 
 
+  <a href="https://ioerr.github.io/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>01 Feb 2017, 12:52</time>
+      <h1>Firefox 扩展机制的变化与未来</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>我正在使用 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 和 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a> 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。</p>
+
+<p>最近他<a href="http://fasezero.com/addons/">在扩展的主页网站上发表了一篇文章</a>，大意是：<br />
+因为 Mozilla Firefox 的扩展机制会<a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">改为 WebExtensions</a>，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、FindBar Tweak、OmniSidebar、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a>，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。</p>
+
+<p>Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。</p>
+
+<p>然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。</p>
+
+<p>对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/">Tab Tree</a> 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。<br />
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？</p>
+
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 扩展页面下的<a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/">一个评论</a>说的好：</p>
+
+<blockquote>
+<p>Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&rsquo;s the case, why would anyone choose Firefox instead of Chrome?</p>
+
+<p>Mozilla，你们他妈在想些什么？
+   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！
+   好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？</p>
+</blockquote>
+
+<p>好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。<br />
+只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）<br />
+这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？</p>
+
+<p>希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 <a href="https://www.palemoon.org/">Pale Moon</a> 这样的替代品会越来越成熟。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffirefox-kuozhan-jizhi-de-bianhua-yu-weilai%2f&text= @calon Firefox%20%e6%89%a9%e5%b1%95%e6%9c%ba%e5%88%b6%e7%9a%84%e5%8f%98%e5%8c%96%e4%b8%8e%e6%9c%aa%e6%9d%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Firefox%20%e6%89%a9%e5%b1%95%e6%9c%ba%e5%88%b6%e7%9a%84%e5%8f%98%e5%8c%96%e4%b8%8e%e6%9c%aa%e6%9d%a5》&body=https%3a%2f%2fioerr.github.io%2ffirefox-kuozhan-jizhi-de-bianhua-yu-weilai%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/firefox">#firefox </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%89%A9%E5%B1%95">#扩展 </a>
+      
+        <a href="https://ioerr.github.io/tags/chrome">#chrome </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8">#浏览器 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jiqi-yu-jiquan/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>25 Jan 2017, 16:00</time>
+      <h1>机器与极权</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：<br />
+要防范奴隶结社造反<br />
+要操心奴隶是否会消极工作<br />
+要避免手下叛变夺权<br />
+一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。</p>
+
+<p>而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：<br />
+如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？<br />
+或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？</p>
+
+<p>这个新的社会组织模型看上去很像中央计划经济模型：<br />
+奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；<br />
+机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；<br />
+而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。</p>
+
+<p>如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。<br />
+如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。</p>
+
+<p>这样可以引出不少有意思的问题和结论：</p>
+
+<ol>
+<li>只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。<br /></li>
+<li>人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？</li>
+<li>人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？</li>
+<li>人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？</li>
+<li>各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？</li>
+</ol>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjiqi-yu-jiquan%2f&text= @calon %e6%9c%ba%e5%99%a8%e4%b8%8e%e6%9e%81%e6%9d%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%9c%ba%e5%99%a8%e4%b8%8e%e6%9e%81%e6%9d%83》&body=https%3a%2f%2fioerr.github.io%2fjiqi-yu-jiquan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">#市场经济 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA">#机器人 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">#人工智能 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%A5%B4%E9%9A%B6%E5%88%B6">#奴隶制 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%9E%81%E6%9D%83">#极权 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E8%AE%A1%E5%88%92%E7%BB%8F%E6%B5%8E">#计划经济 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
   <a href="https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
@@ -417,175 +589,6 @@ Kohler 的洁具吗？），层高高，空间大，灯光柔和。侧门还有�
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>20 Sep 2016, 15:53</time>
-      <h1>信息发布和读者反馈的历史进程</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>最开始在出版物上发表文章和新闻，作者和出版方都是靠读者来信与读者交流。<br />
-有什么值得拿出来说道说道的内容，都得在收到信件、写好回复后再下一期出版时刊出来。<br />
-想要了解读者到底是怎么想的，可能得等上数十天。</p>
-
-<p>后来有了电话，读者来信的效率稍微提高了一些。</p>
-
-<p>再后来互联网出现了，新闻和文章可以在网上发布，但读者只能发电子邮件来沟通。</p>
-
-<p>然后出现了留言板、评论区，读者的回复可以立即出现在网站上。</p>
-
-<p>但评论的操作成本相对较高，于是 like、赞之类的一键反馈出现了。<br />
-从统计反馈信息的角度来看，程序无法准确理解语义，更加擅长处理含义简单的后者。<br />
-在双方共同的选择下，一键反馈大为流行。</p>
-
-<p>接着，光是点赞一种反馈满足不了服务方的分析要求，读者也期望更多样而不增加过多成本的操作，于是
-Facebook 又引领了丰富表情图标类型的潮流。</p>
-
-<p>另外，有的网站和移动应用也通过监控、统计用户阅读的时间等信息来尝试猜测读者的偏好。</p>
-
-<p>从这种信息发布和阅读者交互手段的发展过程来看，提升读者反馈的及时性、沟通结果的准确性并在两者间取得平衡是大趋势——最终目的都是更有效地了解用户需求，然后引导、转化为更精准的后续内容、广告或其他盈利方式。</p>
-
-<p>而如今虚拟现实（VR）、增强现实（AR）和带有身体监测功能的便携智能设备是行业热点，搞不好哪天也被用在这个方面。<br />
-比如不妨设想一下，心率、呼吸、肌肉活动和其他身体指标，加上带眼动追踪功能的
-VR
-设备等手段，就差翻开读者大脑看到底在想些什么了，读者甚至都不需要主动发起什么反馈，网络的另一头就能够掌握详尽数据并分析出读者的情绪如何了。</p>
-
-<p>不过话说回来，我还是更喜欢电子邮件（点对点或者讨论组）这样的非即时反馈交流，毕竟咱的理解沟通能力还是秒杀人工智能啊。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxinxi-fabu-he-duzhe-fankui-de-lishi-jincheng%2f&text= @calon %e4%bf%a1%e6%81%af%e5%8f%91%e5%b8%83%e5%92%8c%e8%af%bb%e8%80%85%e5%8f%8d%e9%a6%88%e7%9a%84%e5%8e%86%e5%8f%b2%e8%bf%9b%e7%a8%8b&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bf%a1%e6%81%af%e5%8f%91%e5%b8%83%e5%92%8c%e8%af%bb%e8%80%85%e5%8f%8d%e9%a6%88%e7%9a%84%e5%8e%86%e5%8f%b2%e8%bf%9b%e7%a8%8b》&body=https%3a%2f%2fioerr.github.io%2fxinxi-fabu-he-duzhe-fankui-de-lishi-jincheng%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/biancheng-mofa-he-zhishang/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>03 Aug 2016, 10:27</time>
-      <h1>编程、魔法和智商</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><blockquote>
-科幻作家阿瑟·克拉克的第三定律：任何非常先进的技术，初看都与魔法无异。
-</blockquote>
-和同学谈到编程的话题时，有人说跟着小孩一起学习几节课就跟不上了，觉得很神奇，需要高智商才玩得转，我马上就想到克拉克的这句名言。<br />
-计算机语言联通现实世界和虚拟世界，能够驱动机器做出一般人类无法理解的事情，这和魔法确实也相去不远了。</p>
-
-<p>这样看来：<br />
-程序员就是魔法师（资深单身程序员就是大魔法师，嗯嗯嗯）；<br />
-程序代码就是魔法咒语，需要符合规则才能正常运行，有 bug
-的话天知道会有什么糟糕的结果；<br />
-编程学习就是魔法学习，有的人在魔法学院接受专业的训练，有的人则利用魔法书自学成才；<br />
-有计算机系统加成的武器相当于附魔武器；<br />
-虚拟世界相当于用魔法创造出来的世界：<br />
-……</p>
-
-<p>当然，这种观点早就存在，所以有《简单易懂的现代魔法》这样的动画，有<a href="http://www.nowamagic.net/">简明现代魔法</a>这样的编程社区，有《屠龙之技》这样的科幻小说。</p>
-
-<p>不过现代社会中，计算机技术的应用已经比奇幻世界中的魔法深入宽广得多了，许多行业都已经离不开计算机技术的助力，小说中的魔法师学徒也没有
-Github、Stack Overflow
-以及各种开源社区、免费教学这样好的学习、交流条件。<br />
-也许在未来，每个人都需要懂一点计算机技术特别是编程知识，才能胜任工作，这几乎不会在以中世纪欧洲为设定背景的等级森严的奇幻小说中发生。</p>
-
-<p>再说说编程和智商的关系。</p>
-
-<p>鉴于智商没有科学的评判标准，一般行外人的看法准确说应该是“头脑聪明的人才能掌握编程”。<br />
-我们确实听说过无数智慧超人的业界大牛的神奇传说，一个人顶一万人不在话下，但抛开神话光环之外，这些人也只是这个行业中最顶尖的那一小撮，真的有代表性吗？<br />
-日常接触到的程序员总的来说其头脑聪慧程度并没有高人一等，和你我都是一样的凡人，唯一的区别只是他们用于创造生产的工具和能力在外行人看来有如魔法。</p>
-
-<p>其实每个行业都是最顶尖、最先驱的开创者才需要极高的智商去开拓知识的荒原、探索未知的海洋。<br />
-绝大部分人则是挤在正态分布的中间位置，在牛人的基础之上不断拓宽和加深，并且应用到日常生活之中。<br />
-对他们来说，重要的是沟通理解和表达能力，是勤奋、耐心，是有益于合作和精耕的各种素质，所谓“智商”没有决定作用。<br />
-这就好像靠个人能力名扬天下的技击高手和由默默无闻的普通战士组成的军队，后者单个人在前者眼里可能战斗力只有5，然而后者自有一套分工合作的机制，不依赖于个人战斗力也能发挥出惊人的作用。</p>
-
-<p>实际接触到的程序员也是如此。<br />
-确实有少数人天资聪颖，一般人拍马也追不上——而且不止在编程方面，在其他方面都是如此。头脑聪明的人更善于找到最优解方法，几乎干什么都事半功倍。<br />
-但绝大多数仍是普通人的水平，哪有外行人说的那样高智商？脑子转不过弯乃至进水的也不在少数。不了解的人看不见而已。</p>
-
-<p>另一个原因，也许是一个行业历史越短，成熟的经验、规范和方法论越少，则天才型的人物越容易出头、越容易被神化。<br />
-也许在不久的未来，编程这个行当会像现代工厂中的流水线作业一样，分工越来越明确，需要个人发挥创造力的地方越来越少，创造性的工作只交给少数专业人士负责，大部分人和制造业工人没有什么区别，甚至慢慢被人工智能取代。现在一些创业公司喜欢鼓吹的什么弹性工作制、带宠物上班、游戏和零食等福利，放在未来那个时候大概会是天方夜谭吧。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbiancheng-mofa-he-zhishang%2f&text= @calon %e7%bc%96%e7%a8%8b%e3%80%81%e9%ad%94%e6%b3%95%e5%92%8c%e6%99%ba%e5%95%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%bc%96%e7%a8%8b%e3%80%81%e9%ad%94%e6%b3%95%e5%92%8c%e6%99%ba%e5%95%86》&body=https%3a%2f%2fioerr.github.io%2fbiancheng-mofa-he-zhishang%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E6%99%BA%E5%95%86">#智商 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E7%BC%96%E7%A8%8B">#编程 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF">#计算机技术 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E9%AD%94%E6%B3%95">#魔法 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
 
 <div class="paging">
   
@@ -594,7 +597,7 @@ Github、Stack Overflow
   </a>
   
 
-  PAGE 3 / 229
+  PAGE 3 / 230
 
   
   <a href="/page/4/" rel="next">
