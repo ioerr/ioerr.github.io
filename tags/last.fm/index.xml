@@ -33,5 +33,28 @@
 </description>
     </item>
     
+    <item>
+      <title>OMI</title>
+      <link>https://ioerr.github.io/omi/</link>
+      <pubDate>Thu, 08 Nov 2007 13:26:09 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/omi/</guid>
+      <description>&lt;p&gt;OMI=Open Mind Index，由 &lt;a href=&#34;http://www.musickum.com/&#34;&gt;Musickum&lt;/a&gt; 根据
+&lt;a href=&#34;http://www.last.fm/&#34;&gt;Last.Fm&lt;/a&gt;
+提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。&lt;/p&gt;
+
+&lt;p&gt;我的指数只有126…&lt;br /&gt;
+&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/omi/c/ocalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/taste/c/tcalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;而目前的平均指数是94.48：&lt;br /&gt;
+&lt;img src=&#34;http://s217122409.online.de/musickum/omi/images/tags_gauss.php5?allomis=94.48&amp;amp;usersumme=99019&amp;amp;user_omi=126&amp;amp;tagdata=0,0.2,0.3,0.8,1.8,4.1,8,12.5,15.7,16.7,14.8,11.3,7.3,3.9,1.7,0.6,0.2,0,0,0&amp;amp;tagname=5,15,25,35,45,55,65,75,85,95,105,115,125,135,145,155,165,175,185,195&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;中国大陆的用户 OMI 平均指数是103.32，台湾是91.96，香港则是87.39。&lt;/p&gt;
+
+&lt;p&gt;更多统计结果见&lt;a href=&#34;http://www.musickum.com/omi/index.php5?username=calonxu&#34;&gt;我的统计页面&lt;/a&gt;。&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

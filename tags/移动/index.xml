@@ -41,6 +41,73 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
     </item>
     
     <item>
+      <title>通讯录服务应有的变革</title>
+      <link>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</link>
+      <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</guid>
+      <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
+
+&lt;p&gt;其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。&lt;/p&gt;
+
+&lt;p&gt;为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。&lt;br /&gt;
+在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如
+YouKnowWho at
+Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。&lt;br /&gt;
+用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。&lt;/p&gt;
+
+&lt;p&gt;想像一下，手机一碰，或者生成一次性二维码让对方识别，我的联系信息就授权运营商开放给对方查询了，同时运营商也记录下我将联系信息开放给谁。&lt;br /&gt;
+若限定是商务来往，通过运营商发过去的就只有商务邮箱地址和工作用的手机号码。&lt;br /&gt;
+要是还不够熟，也可以只发给对方一段代码，运营商根据此代码仅提供指向我联系方式的“链接”或永久绑定的伪号码，呼叫过去，对方并不知道真实的被叫号码是多少，邮件、短信也同理。&lt;br /&gt;
+倘若双方绝交，只要告知运营商收回对方查询调用权限即可，完全没必要在移动端设置黑名单，甚至更换自己的手机号。&lt;br /&gt;
+而如果哪天真要更换、增减联系方式了，也只是告知运营商“逻辑号码”原来指向的“物理号码（同时包括现在运营商定义的逻辑和物理号码）”变了，再也不需要一个个地通知所有联系人，还担心有遗漏。&lt;/p&gt;
+
+&lt;p&gt;至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。&lt;/p&gt;
+
+&lt;p&gt;其实这就像即时通讯软件 ID
+从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。&lt;br /&gt;
+而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>移动设备需求分析</title>
+      <link>https://ioerr.github.io/yidong-shebei-xuqiu-fenxi/</link>
+      <pubDate>Fri, 15 Oct 2010 14:56:32 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yidong-shebei-xuqiu-fenxi/</guid>
+      <description>&lt;p&gt;曾经在《&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;》中提到过三个基本矛盾：&lt;br /&gt;
+一、显示面积和设备体积、重量的矛盾；&lt;br /&gt;
+二、操作舒适性和设备体积的矛盾；&lt;br /&gt;
+三、高性能、多功能与耗电量、电池贮存量的矛盾。&lt;/p&gt;
+
+&lt;p&gt;在《&lt;a href=&#34;http://calon.weblogs.us/cong_iphone_kan_sanda_maodun/&#34;&gt;从 iPhone
+看三大矛盾&lt;/a&gt;》中也分析过
+iPhone 的情况，现在以 iPad
+为首的平板电脑开始普及，云计算（为什么不干脆翻译成云算？）的概念忽悠正在变成有利可图的产业（也许以后
+Google 瘫掉还能活，Amazon
+残废许多小企业就要去死了？），不妨再评估一下，而且这三个矛盾已不能只属于“移动通信终端”，而是所有移动设备：&lt;/p&gt;
+
+&lt;p&gt;一、平板电脑的显示面积是不小了，在 iPod/iPhone
+上几近鸡肋的脑图工具（iThoughts 3.0也许是优化得最好的）推出 HD
+版本才能用得下去，可是 iPad
+从开始卖的时候就有用户抱怨单手握持看书是个体力活。至于便携性，除非你把平板电脑当护心镜用，否则还达不到赤条条来去的境界；&lt;br /&gt;
+话说回来，如果要达到最理想的显示境界，10英寸规模的尺寸其实还是小了，甚至屏幕只有一个都会是缺点。&lt;/p&gt;
+
+&lt;p&gt;二、既然设备体积的问题没有解决，那么这个矛盾也还是存在的。&lt;br /&gt;
+而且触摸屏的输入体验短期内没有改善的希望——也许我们应该说服自己，移动设备就不是用来输入长篇文字的？&lt;/p&gt;
+
+&lt;p&gt;三、电池的问题 iPad 和
+Kindle（好吧，严格说这不算平板电脑，但如果哪天高刷新率低耗电的彩色电子墨水具备进入市场的条件了呢？也许那时人类已经冲出太阳系了？）走两个不同的途径解决了，代价是前者的体积和重量并不完美而后者的显示效果只能用于静态画面，所以矛盾仍然存在，对需要长时间上网和娱乐的用户来说，目前的电池都不够用。&lt;/p&gt;
+
+&lt;p&gt;用 &lt;a href=&#34;http://freeplane.sourceforge.net/&#34;&gt;FreePlane&lt;/a&gt;
+画了一个需求分析和相应解决方案的草图，目前还看不到发展瓶颈的技术，比如减轻重量和增强功能，就没有深究了。这样整理一下之后，感觉思路还是清晰一些了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=3e69e48e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/3e69e48e.png&#34; alt=&#34;移动设备需求&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>移动设备需求分析</title>
       <link>https://ioerr.github.io/yidong-shebei-xuqiu-fenxi/</link>
       <pubDate>Fri, 15 Oct 2010 14:56:32 +0000</pubDate>

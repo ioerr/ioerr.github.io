@@ -38,5 +38,33 @@ Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；&lt;
 </description>
     </item>
     
+    <item>
+      <title>PK</title>
+      <link>https://ioerr.github.io/pk/</link>
+      <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/pk/</guid>
+      <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;
+试试不干正事的浏览体验，结果…&lt;/p&gt;
+
+&lt;p&gt;遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；&lt;br /&gt;
+没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；&lt;br /&gt;
+快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；&lt;br /&gt;
+拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；&lt;br /&gt;
+便捷直观不如 Download Statusbar，内功修为不及
+DownThemAll!，下载我还用不惯；&lt;br /&gt;
+虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？&lt;br /&gt;
+不支持 Greasemonkey 这样的脚本平台就少了很多精彩…&lt;br /&gt;
+看到超大图片总是会提醒我该使用 Image Zoom 了；&lt;br /&gt;
+Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；&lt;br /&gt;
+如果 Flickr 再被墙奸，就能体会到 Access Flickr! 是多么的有爱了！&lt;br /&gt;
+&lt;a href=&#34;http://calon.weblogs.us/tuijian_firefox_kuozhan_yu_zhuti/&#34;&gt;…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;所以最终的结论是…&lt;/p&gt;
+
+&lt;p&gt;把 &lt;a href=&#34;http://kmeleon.sourceforge.net/&#34;&gt;K-Meleon&lt;/a&gt; 给替换掉 :023:&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

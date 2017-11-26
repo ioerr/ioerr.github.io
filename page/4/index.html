@@ -42,12 +42,12 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/">
+  <a href="https://ioerr.github.io/xiandai-qirenyoutian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>17 Jan 2017, 17:32</time>
-      <h1>从 WordPress 迁移到 Hugo</h1>
+      <time>29 Mar 2017, 12:11</time>
+      <h1>现代杞人忧天</h1>
     </div>
   </div>
 </a>
@@ -60,398 +60,66 @@
 </div>
 
 <section class="post-content">
-  <p>虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。<br />
-而且最近几年用静态网站写 blog 的风潮越来越流行，总想着可以尝试一把。</p>
+  <p>阮一峰最近在<a href="www.ruanyifeng.com/blog/2017/03/boundary.html">《技术的边界》</a>中提到一个不算新鲜的观点：技术高速发展所蕴含的巨大能量，最终将把人类社会带到难以预测的脆弱状态。</p>
 
-<p>最开始是考察了最流行基于 Ruby 的 Jekyll 和 Octopress，然后是基于 Python 的 Pelican 和基于 node.js 的 Hexo。<br />
-选择很多，主题也很丰富，然而实在不喜欢脚本语言折腾安装部署环境的操作。<br />
-就算已经安装了环境，还要考虑更换电脑之后如何重新配置，或者做绿色便携改造。<br />
-而且站点生成效率也是重要的考量因素。</p>
-
-<p>因此最后决定尝试基于 Golang 的 Hugo。<br />
-只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。</p>
-
-<ul>
-<li>安装 Hugo</li>
-</ul>
-
-<p>在 <a href="https://github.com/spf13/hugo/releases">Hugo 的 Github 发布页面</a>直接下载安装包或自己编译就行。</p>
-
-<ul>
-<li>导出和转换 WordPress 的内容</li>
-</ul>
-
-<p>如果你运气够好，可以安装直接导入的插件：<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter </a>。<br />
-然后从 WordPress 的管理面板 Tool 菜单中直接导出可以用于 Hugo 的内容。</p>
-
-<p>或者也可以用 <a href="https://github.com/SenjinDarashiva/JekyllToHugo">JekyllToHugo</a> 加 <a href="https://github.com/coderzh/ConvertToHugo">ConvertToHugo</a> 的组合搞定。</p>
-
-<p>然而悲剧的是，Weblogs.us 可以安装以上插件，却在导出时报权限不足：failed to open dir: Permission denied <br />
-推测与 Weblogs.us 的服务器设置有关，不想麻烦服务方帮忙，于是只能另想办法。</p>
-
-<p>最终还是用 WordPress 自带的导出功能，导出所有内容的 XML 文件。<br />
-然后结合 Python 脚本 <a href="https://github.com/thomasf/exitwp">Exitwp</a> 转换为 Jekyll 适用的内容。<br />
-注意，Exitwp 我是在 Ubuntu 下安装使用的，具体参考作者的文档。<br />
-如果遇到解析出错的情况，比如我遇到无法正确处理包含以下内容的部分：<br />
-<code>&lt;atom:link rel=&quot;hub&quot; href=&quot;http://pubsubhubbub.appspot.com&quot;/&gt;&lt;atom:link rel=&quot;hub&quot; href=&quot;http://pubsubhubbub.superfeedr.com&quot;/&gt;</code><br />
-直接删除再试就可以了。</p>
-
-<ul>
-<li>折腾 Markdown 内容</li>
-</ul>
-
-<p>Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过<a href="../pandoc-markdown">吐槽</a>）</p>
-
-<p>虽然可以用 Pandoc 批量转换，但Pandoc 在转换为 Markdown 格式时会在下划线前增加反斜线。<br />
-而导出的 WordPress XML 中包含有文章的 slug 地址，像我就在 slug 中统一使用下划线代替空格分隔单词和词组拼音。<br />
-于是，这就导致转换后的 slug 地址不正确。<br />
-只好祭出 sed 做批量调整，在包含有指定字符串的一行中将下划线替换为短横线连字号：</p>
-
-<pre><code>sed -i &quot;/slug:/s/_/-/g&quot; *.markdown
-sed -i &quot;/link:/s/_/-/g&quot; *.markdown
-</code></pre>
-
-<p>然后再写个 shell 脚本搞定 Pandoc 批量转换：</p>
-
-<pre><code>FILES=*.markdown
-for f in $FILES
-do
-  filename=&quot;${f%.*}&quot;
-  `pandoc -s -f markdown+hard_line_breaks $f -t markdown -o $filename.markdown`
-done
-</code></pre>
-
-<p>转换完之后，发现 Pandoc 将 Jekyll 导入文件头部的 YAML 格式部分的 <code>---</code> 替换成了 <code>...</code>，这会导致 Hugo 解析出错。<br />
-于是再用 sed 改回来：</p>
-
-<pre><code>sed -i &quot;s/^...$/---/g&quot; *.markdown
-</code></pre>
-
-<ul>
-<li>选择 Hugo 模板</li>
-</ul>
-
-<p>Hugo 官方站点有少量<a href="http://themes.gohugo.io/">模板演示</a>，不少是从 Jekyll 的模板改的。<br />
-美观的模板有不少，但要找到既好看又符合功能需求的就比较困难了。</p>
-
-<p>比如我的要求是：</p>
+<p>其逻辑要点是：</p>
 
 <ol>
-<li>简洁风格；</li>
-<li>支持翻页；</li>
-<li>支持类别（category）展示；</li>
-<li>支持响应式布局优先；</li>
-<li>支持标签（tag）优先；</li>
-<li>单栏布局优先；</li>
-<li>方便自定义修改。</li>
+<li><p>系统越来越复杂，分工越来越细，大多数人已经不能够理解技术了，一个人也不可能从头到尾掌握整个系统。</p></li>
+
+<li><p>因为无法理解技术，人类不知道今后技术会突破到什么程度。</p></li>
+
+<li><p>只要技术有能力做到的事情，最终都会做到。人类没有办法遏制它的发展。</p></li>
+
+<li><p>无法理解和无法控制发展，因此人类无法控制新技术的后果，可能实现能摧毁文明的技术。</p></li>
+
+<li><p>结论：依赖技术的高科技、高度自动化的社会非常脆弱。</p></li>
 </ol>
 
-<p>尝试了多个主题之后，最终决定使用这款<a href="http://themes.gohugo.io/hugo-hello-programmer-theme/">Hello Programmer</a>。<br />
-默认支持类别、标签、翻页，单栏布局。<br />
-使用的主页图片和 favicon 则需要自己绘制。</p>
+<p>我觉得这完全是现代版的杞人忧天：</p>
 
-<ul>
-<li>发布到 Github Pages</li>
-</ul>
+<p>细致分工导致隔行如隔山、一个人无法掌握整个系统，不是大问题。<br />
+只要人类的沟通、交流、利益驱动、组织能力还在，分别掌握了技术细节的人可以随时组织起来，重建技术文明。<br />
+而且历史证明，行业分工合作的社会，其竞争力远超没有分工的社会，从头再来仍然还会是这个结果，从分工导致的现象开始担忧没有道理。</p>
 
-<p>因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。<br />
-操作步骤参考<a href="https://pages.github.com/">官方文档</a>就成。</p>
+<p>人类无法预测技术的未来发展也不是大问题。<br />
+事实上人类从来就没有搞清楚技术的未来在什么方向，只是技术进步的速度加快，让现代人普遍能体会到这种对未来的无知。<br />
+我看到有网友评论得好：这种担忧只是人类对未知的原始本能的恐惧。</p>
 
-<p>然而，因为主题中引用了 Font Awesome 字体，在默认限制 icon font 跨域访问的 Firefox 下会报错：<br />
-<code>已阻止交叉源请求：同源策略不允许读取...上的远程资源。可以将资源移动到相同的域名上或者启用 CORS 来解决这个问题。</code></p>
+<p>技术上能够实现的事情最终都会实现也不是大问题。<br />
+这种表述方式有点像 Kevin Kelly 的《What Technology Wants》中将技术视为某种生命存在方式，或者盖亚假说中将整个地球生态视为有意识有目的的生命。<br />
+仿佛冥冥之中人类会不由自主地为技术这种生命形式的目的服务。<br />
+但实际上决定某项技术能否实现的，归根到底是人类的需求。</p>
 
-<p>最省事的方法，就是将网络字体下载下来，合并在主题中，同时更改 CSS 中相应的地址为本地相对地址。</p>
+<p>我们看到的许多实现难度很高或者为主流社会不容的技术突破，都是因为有人类需求源源不断地驱动。<br />
+这需求不止是要用真金白银兑现的市场需求，也包括人类天生好奇心所催生的不求回报的需求。<br />
+而同时，还有海量的本可能实现，但因为缺少需求驱动而胎死腹中、脑中的潜在的技术突破点，根本不需要妄图阻止技术进步的卢德主义者出手，就默默无闻地消失在历史长河中了，而我们只能看到那些突破重重险阻实现了的。<br />
+一旦落到人类自身需求的层面上来，对技术发展的担忧就转变为对人类社会组织存续能力的担忧。</p>
 
-<p>一切就绪之后，用 Hugo 命令生成静态网页。<br />
-像这个 blog 有1000多篇文章，900多个标签，15个类别，生成的静态网站体积也有好几十 MB…<br />
-说实话，体积这么大，小文件又多，提交、拉取和通过网盘同步备份还是挺不爽的。<br />
-好在有 Golang 加持，生成的效率超高，生成时间只有1、2秒左右。</p>
+<p>新技术不可控的问题那得看是对谁而言。<br />
+如果你是希望全局掌控社会发展动态的控制狂，那么这确实是大问题。<br />
+但如果你明白社会竞争发展的常态本来就是一种“基本可控的不可控”状态，那么这也不是什么大问题。</p>
 
-<p>最后，使用 Github Pages 的话，RSS 订阅地址也变成了 <a href="https://ioerr.github.io/index.xml">https://ioerr.github.io/index.xml</a></p>
+<p>要担心的是能够一下子毁灭所有人类的技术被某个漠视现世价值的疯子掌握，或者技术发展导致人类的演变出现严重撕裂社会进而引起世界战争的情况。<br />
+但这也不是技术层面的问题，和之前所说一样，还是人类社会组织存续能力的问题，也就是政治学范畴的问题。<br />
+这锅，不能让技术来背。</p>
 
-</section>
+<p>依赖高科技、自动化的社会非常脆弱吗？<br />
+原文中举飞机的飞行控制软件的例子并不妥当。<br />
+飞机商用之前会经过严格的测试和试飞，必要时也有高科技、自动化之外的人工干预手段。<br />
+因此软件出现问题导致飞机坠毁的概率微乎其微。<br />
+而且越是了解飞行的人，越清楚飞行没有百分之百的安全，能够接受事故概率而坐上飞机的人，不会对这种问题盲目恐惧。</p>
 
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fcong-wordpress-qianyi-dao-hugo%2f&text= @calon %e4%bb%8e%20WordPress%20%e8%bf%81%e7%a7%bb%e5%88%b0%20Hugo&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bb%8e%20WordPress%20%e8%bf%81%e7%a7%bb%e5%88%b0%20Hugo》&body=https%3a%2f%2fioerr.github.io%2fcong-wordpress-qianyi-dao-hugo%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/blog">#Blog </a>
-        
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
-      
-        <a href="https://ioerr.github.io/tags/hugo">#Hugo </a>
-      
-        <a href="https://ioerr.github.io/tags/%E4%B8%BB%E9%A2%98">#主题 </a>
-      
-        <a href="https://ioerr.github.io/tags/weblogs.us">#Weblogs.us </a>
-      
-        <a href="https://ioerr.github.io/tags/markdown">#Markdown </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/tiyan-dangdang-shiti-shudian/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>24 Oct 2016, 05:06</time>
-      <h1>体验当当实体书店</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>周末去了一趟梅溪湖步步高新天地的当当梅溪书院，听说是当当试水实体书店后在长沙开的第一家，价格与当当网上价格一致，而且有专门的儿童阅读区，正好让儿子感受一下。</p>
-
-<p>进去的第一感觉是人不少，比新华书店热闹多了，和定王台图书城、书市一个等级。<br />
-装修设计感觉比较显档次（结账时听见身旁的小女生对朋友说，“厕所的设施好高级，快去上！”囧，不就是
-Kohler 的洁具吗？），层高高，空间大，灯光柔和。侧门还有咖啡馆。<br />
-看着书籍不少，上下三层之外，还有夹层和楼梯墙面到处摆着书。最上面一层是讲座交流厅，去的时候正好有个名叫麦洛洛的作家的读者见面会。<br />
-成人阅读区放着长桌和椅子，儿童阅读区则是像小游泳池一样的小池子，小孩子可以坐在池底或靠在池边看书。</p>
-
-<p>在里面待到下午才离开，感觉体验上的问题还是不少：</p>
-
-<p>1、不能试读的书太多<br />
-实体书店因为成本高，不可避免要面对顾客看书多、买书少的问题，所以现在的趋势是很多书都不拆封，顾客要么上网查评价，要么看书名、封面、封底就决定要不要买。</p>
-
-<p>但是这样对看重书籍内容质量的读者来说简直就是灾难：<br />
-网上评价良莠不齐，水军横行，别人的评价可以参考，但书好不好，自己摸过才最清楚；<br />
-市面上的名家推荐全部都不靠谱，甚至可以当作排雷指南；<br />
-设计装帧也完全不能和内容质量联系起来。</p>
-
-<p>而当当的书店中大部分书都不允许拆封、无法试读。<br />
-儿童书籍尤其突出，只有阅读区周围一圈书架上还有已经拆封的，其他书架上就是摆看的。</p>
-
-<p>我们倒是很想买一套儿童科普类书籍，但是成套书籍不能拆封，完全无法获得足够多的有效信息。<br />
-特别是内是否浅显易懂，容是否符合这个阶段小朋友的认知水平，这是决定购买的最重要因素，现在基本靠瞎蒙。</p>
-
-<p>2、布局杂乱<br />
-装修虽然高大上，但区域划分、信息指示和楼梯通道设计都造成初来的顾客不容易摸清方向。<br />
-大部分书架附近没有阅读区，导致不少读者只能在窗台、楼梯、墙角看书，也增加了杂乱的感觉。</p>
-
-<p>3、书籍分拣杂乱<br />
-感觉书架分拣整理不到位，经常发现不属于这一类的书籍，也可能与阅读区太少、离书架比较远的原因——读者看完了书更愿意往附近的书架放，懒得多走几步分别放回原位。</p>
-
-<p>4、书籍种类还是太少<br />
-放眼望去，成人类书籍大部分还是挺主流的，我关心的几个分类下面，冷门偏门的书籍少得可怜，还不如定王台一些有专业优势的小店铺选择多。<br />
-三层当中，一层是交流区，一层是儿童专区（包括部分育儿类书籍），一层有一大半是畅销书展示柜、收银台和通俗文学区，剩下的留给学术类书籍的比例有多少可想而知（其中还有鸡汤类营养学书籍）。</p>
-
-<p>5、收银买单效率低<br />
-结账买单时，排队等待的时间太长，前面一位更是花了5分钟时间。<br />
-人流较多的时候，两个收银台都排了7、8位。</p>
-
-<p>综合来说，我觉得当当的实体书店的体验和想象中的差距比较大。<br />
-我心目中的网络书店的实体店面，应该是为网络书店服务的，只是为看重体验和内容的用户增加体验的渠道。<br />
-书一般不是急需当场消费的商品，携带不便，排队付款也浪费时间，没有必要引导顾客现场购买实体商品。<br />
-倒不如优化会员体验以及线上购物车联动的下单付款流程，在实体书店挑到中意的书籍后，现场付费后送货上门就行，而且免费送货上门的门槛可以更低。<br />
-怕拆封的书太多增加成本，就不要摆许多不允许拆封的，每种书提供2、3本试读本就行，这样可以丰富种类，提高冷门偏门书籍露面的机会，网络书店的个性化推荐系统很难让人发现惊喜，而实体书店的随机浏览模式更容易取悦喜欢在书海中漫游的人。同时也能降低一点物流、库存周转、占地的成本。<br />
-真心看重内容和实物体验的顾客，比一般的顾客更舍得花钱投入，实体书店与其拼规模，不如做好这部分高价值顾客的服务——前提是能够找准这类顾客，而消费流程并没有脱离网络，也更有利于挖掘发现这类顾客。</p>
-
-<p><a href="http://s111.photobucket.com/user/calon_plus/media/3ae34f05-4740-44c0-b369-57e113961fc3.jpg.html"><img src="http://i111.photobucket.com/albums/n154/calon_plus/3ae34f05-4740-44c0-b369-57e113961fc3.jpg" alt="photo
-3ae34f05-4740-44c0-b369-57e113961fc3.jpg" /></a></p>
-
-<p><a href="http://s111.photobucket.com/user/calon_plus/media/95f49390-5edc-4dd5-868c-4f3311378a9b.jpg.html"><img src="http://i111.photobucket.com/albums/n154/calon_plus/95f49390-5edc-4dd5-868c-4f3311378a9b.jpg" alt="photo
-95f49390-5edc-4dd5-868c-4f3311378a9b.jpg" /></a></p>
+<p>如果回到人类社会上，也就是说，人类的存在和发展本来就不是天经地义、百分之百安全。<br />
+技术是人类对抗残酷的大自然的手段之一，技术发展到今天，正是人类社会自我保存和发展的需求所驱动的。<br />
+为了未来未知的技术风险，忽视当下无时无刻不在涌现的实际需求，不是因噎废食、杞人忧天是什么呢？<br />
+就是不知道不知道这是身为技术人员的阮一峰的真实想法，还是为了推广书而故意为之的宣传策略了。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftiyan-dangdang-shiti-shudian%2f&text= @calon %e4%bd%93%e9%aa%8c%e5%bd%93%e5%bd%93%e5%ae%9e%e4%bd%93%e4%b9%a6%e5%ba%97&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bd%93%e9%aa%8c%e5%bd%93%e5%bd%93%e5%ae%9e%e4%bd%93%e4%b9%a6%e5%ba%97》&body=https%3a%2f%2fioerr.github.io%2ftiyan-dangdang-shiti-shudian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E5%AE%9E%E4%BD%93%E4%B9%A6%E5%BA%97">#实体书店 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E5%BD%93%E5%BD%93">#当当 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>20 Sep 2016, 15:53</time>
-      <h1>信息发布和读者反馈的历史进程</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>最开始在出版物上发表文章和新闻，作者和出版方都是靠读者来信与读者交流。<br />
-有什么值得拿出来说道说道的内容，都得在收到信件、写好回复后再下一期出版时刊出来。<br />
-想要了解读者到底是怎么想的，可能得等上数十天。</p>
-
-<p>后来有了电话，读者来信的效率稍微提高了一些。</p>
-
-<p>再后来互联网出现了，新闻和文章可以在网上发布，但读者只能发电子邮件来沟通。</p>
-
-<p>然后出现了留言板、评论区，读者的回复可以立即出现在网站上。</p>
-
-<p>但评论的操作成本相对较高，于是 like、赞之类的一键反馈出现了。<br />
-从统计反馈信息的角度来看，程序无法准确理解语义，更加擅长处理含义简单的后者。<br />
-在双方共同的选择下，一键反馈大为流行。</p>
-
-<p>接着，光是点赞一种反馈满足不了服务方的分析要求，读者也期望更多样而不增加过多成本的操作，于是
-Facebook 又引领了丰富表情图标类型的潮流。</p>
-
-<p>另外，有的网站和移动应用也通过监控、统计用户阅读的时间等信息来尝试猜测读者的偏好。</p>
-
-<p>从这种信息发布和阅读者交互手段的发展过程来看，提升读者反馈的及时性、沟通结果的准确性并在两者间取得平衡是大趋势——最终目的都是更有效地了解用户需求，然后引导、转化为更精准的后续内容、广告或其他盈利方式。</p>
-
-<p>而如今虚拟现实（VR）、增强现实（AR）和带有身体监测功能的便携智能设备是行业热点，搞不好哪天也被用在这个方面。<br />
-比如不妨设想一下，心率、呼吸、肌肉活动和其他身体指标，加上带眼动追踪功能的
-VR
-设备等手段，就差翻开读者大脑看到底在想些什么了，读者甚至都不需要主动发起什么反馈，网络的另一头就能够掌握详尽数据并分析出读者的情绪如何了。</p>
-
-<p>不过话说回来，我还是更喜欢电子邮件（点对点或者讨论组）这样的非即时反馈交流，毕竟咱的理解沟通能力还是秒杀人工智能啊。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxinxi-fabu-he-duzhe-fankui-de-lishi-jincheng%2f&text= @calon %e4%bf%a1%e6%81%af%e5%8f%91%e5%b8%83%e5%92%8c%e8%af%bb%e8%80%85%e5%8f%8d%e9%a6%88%e7%9a%84%e5%8e%86%e5%8f%b2%e8%bf%9b%e7%a8%8b&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bf%a1%e6%81%af%e5%8f%91%e5%b8%83%e5%92%8c%e8%af%bb%e8%80%85%e5%8f%8d%e9%a6%88%e7%9a%84%e5%8e%86%e5%8f%b2%e8%bf%9b%e7%a8%8b》&body=https%3a%2f%2fioerr.github.io%2fxinxi-fabu-he-duzhe-fankui-de-lishi-jincheng%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/biancheng-mofa-he-zhishang/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>03 Aug 2016, 10:27</time>
-      <h1>编程、魔法和智商</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><blockquote>
-科幻作家阿瑟·克拉克的第三定律：任何非常先进的技术，初看都与魔法无异。
-</blockquote>
-和同学谈到编程的话题时，有人说跟着小孩一起学习几节课就跟不上了，觉得很神奇，需要高智商才玩得转，我马上就想到克拉克的这句名言。<br />
-计算机语言联通现实世界和虚拟世界，能够驱动机器做出一般人类无法理解的事情，这和魔法确实也相去不远了。</p>
-
-<p>这样看来：<br />
-程序员就是魔法师（资深单身程序员就是大魔法师，嗯嗯嗯）；<br />
-程序代码就是魔法咒语，需要符合规则才能正常运行，有 bug
-的话天知道会有什么糟糕的结果；<br />
-编程学习就是魔法学习，有的人在魔法学院接受专业的训练，有的人则利用魔法书自学成才；<br />
-有计算机系统加成的武器相当于附魔武器；<br />
-虚拟世界相当于用魔法创造出来的世界：<br />
-……</p>
-
-<p>当然，这种观点早就存在，所以有《简单易懂的现代魔法》这样的动画，有<a href="http://www.nowamagic.net/">简明现代魔法</a>这样的编程社区，有《屠龙之技》这样的科幻小说。</p>
-
-<p>不过现代社会中，计算机技术的应用已经比奇幻世界中的魔法深入宽广得多了，许多行业都已经离不开计算机技术的助力，小说中的魔法师学徒也没有
-Github、Stack Overflow
-以及各种开源社区、免费教学这样好的学习、交流条件。<br />
-也许在未来，每个人都需要懂一点计算机技术特别是编程知识，才能胜任工作，这几乎不会在以中世纪欧洲为设定背景的等级森严的奇幻小说中发生。</p>
-
-<p>再说说编程和智商的关系。</p>
-
-<p>鉴于智商没有科学的评判标准，一般行外人的看法准确说应该是“头脑聪明的人才能掌握编程”。<br />
-我们确实听说过无数智慧超人的业界大牛的神奇传说，一个人顶一万人不在话下，但抛开神话光环之外，这些人也只是这个行业中最顶尖的那一小撮，真的有代表性吗？<br />
-日常接触到的程序员总的来说其头脑聪慧程度并没有高人一等，和你我都是一样的凡人，唯一的区别只是他们用于创造生产的工具和能力在外行人看来有如魔法。</p>
-
-<p>其实每个行业都是最顶尖、最先驱的开创者才需要极高的智商去开拓知识的荒原、探索未知的海洋。<br />
-绝大部分人则是挤在正态分布的中间位置，在牛人的基础之上不断拓宽和加深，并且应用到日常生活之中。<br />
-对他们来说，重要的是沟通理解和表达能力，是勤奋、耐心，是有益于合作和精耕的各种素质，所谓“智商”没有决定作用。<br />
-这就好像靠个人能力名扬天下的技击高手和由默默无闻的普通战士组成的军队，后者单个人在前者眼里可能战斗力只有5，然而后者自有一套分工合作的机制，不依赖于个人战斗力也能发挥出惊人的作用。</p>
-
-<p>实际接触到的程序员也是如此。<br />
-确实有少数人天资聪颖，一般人拍马也追不上——而且不止在编程方面，在其他方面都是如此。头脑聪明的人更善于找到最优解方法，几乎干什么都事半功倍。<br />
-但绝大多数仍是普通人的水平，哪有外行人说的那样高智商？脑子转不过弯乃至进水的也不在少数。不了解的人看不见而已。</p>
-
-<p>另一个原因，也许是一个行业历史越短，成熟的经验、规范和方法论越少，则天才型的人物越容易出头、越容易被神化。<br />
-也许在不久的未来，编程这个行当会像现代工厂中的流水线作业一样，分工越来越明确，需要个人发挥创造力的地方越来越少，创造性的工作只交给少数专业人士负责，大部分人和制造业工人没有什么区别，甚至慢慢被人工智能取代。现在一些创业公司喜欢鼓吹的什么弹性工作制、带宠物上班、游戏和零食等福利，放在未来那个时候大概会是天方夜谭吧。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbiancheng-mofa-he-zhishang%2f&text= @calon %e7%bc%96%e7%a8%8b%e3%80%81%e9%ad%94%e6%b3%95%e5%92%8c%e6%99%ba%e5%95%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%bc%96%e7%a8%8b%e3%80%81%e9%ad%94%e6%b3%95%e5%92%8c%e6%99%ba%e5%95%86》&body=https%3a%2f%2fioerr.github.io%2fbiancheng-mofa-he-zhishang%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxiandai-qirenyoutian%2f&text= @calon %e7%8e%b0%e4%bb%a3%e6%9d%9e%e4%ba%ba%e5%bf%a7%e5%a4%a9&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%8e%b0%e4%bb%a3%e6%9d%9e%e4%ba%ba%e5%bf%a7%e5%a4%a9》&body=https%3a%2f%2fioerr.github.io%2fxiandai-qirenyoutian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -462,21 +130,21 @@ Github、Stack Overflow
         
           <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
         
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
     
   </div>
   <div class="desc">
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/%E6%99%BA%E5%95%86">#智商 </a>
+        <a href="https://ioerr.github.io/tags/%E6%8A%80%E6%9C%AF">#技术 </a>
       
-        <a href="https://ioerr.github.io/tags/%E7%BC%96%E7%A8%8B">#编程 </a>
+        <a href="https://ioerr.github.io/tags/%E6%97%A0%E7%9F%A5%E6%81%90%E6%83%A7">#无知恐惧 </a>
       
-        <a href="https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF">#计算机技术 </a>
+        <a href="https://ioerr.github.io/tags/%E6%8E%A7%E5%88%B6">#控制 </a>
       
-        <a href="https://ioerr.github.io/tags/%E9%AD%94%E6%B3%95">#魔法 </a>
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E7%B1%BB">#人类 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A">#社会 </a>
       
     
   </div>
@@ -486,12 +154,12 @@ Github、Stack Overflow
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/2016-nian-ouzhoubei-faguodui-biaoxian-duanping/">
+  <a href="https://ioerr.github.io/zhenjing/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>11 Jul 2016, 08:32</time>
-      <h1>2016年欧洲杯法国队表现短评</h1>
+      <time>27 Mar 2017, 21:18</time>
+      <h1>震惊</h1>
     </div>
   </div>
 </a>
@@ -504,106 +172,33 @@ Github、Stack Overflow
 </div>
 
 <section class="post-content">
-  <p>年纪大了，没法场场熬夜看球，只能看回放加决赛看直播。</p>
+  <p>前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。</p>
 
-<p>这届法国队出征的目的是为2018年世界杯练兵，目标是四强，而且赛前有 Benzema
-和 Valbuena
-的场外闹剧，有中后场球员纷纷受伤退出的厄运，能够杀入决赛并且复仇苦主德国队，还是可以接受的。</p>
+<p>背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：</p>
 
-<p>不过从过程来看，挺进决赛并不是实力的真实反映，这支队伍的问题依然多多，随便一列就是一串：</p>
+<blockquote>
+<p>哈克：我太震惊了！<br />
+汉弗莱：你还震惊，我才震惊呢！<br />
+哈克：真不敢相信，我…太震惊了。你怎么想？<br />
+伯纳德：我震惊了，大臣。<br />
+哈克：我也是。震惊啊！<br />
+汉弗莱：让人震惊！<br />
+哈克：震惊…我简直没法形容！<br />
+伯纳德：震惊？<br />
+哈克：震惊！<br />
+可这是真的吗？<br />
+他不是吓唬你吧？<br />
+一个部门怎能说废就废？<br />
+汉弗莱：听起来很像真的，对吧？</p>
+</blockquote>
 
-<p>1、小组赛时的433已经被证明运转不畅，中场三后腰太浪费了，Pogba
-发挥不出俱乐部一半的实力，Kante 和 Matuidi 都很别扭；<br />
-改为4231之后，前场 Griezmann 解放出来了，Pogba 在后面调度，Giroud
-在前面做支点中锋，面对弱队时还是表现不错的。<br />
-但总感觉调度欠缺火候，没有人有能力掌控节奏，不是乱拳打死对手，就是陷入绞杀战心浮气躁。<br />
-如何树立中场指挥官，并且让年轻球员成熟稳重起来，可谓法国队最大的任务。<br />
-都说 Pogba
-是新生一代世界第一人，应该成为国家队核心，但在阵中的表现还不如
-Griezmann、前几场的 Payet 等人。<br />
-除了位置与俱乐部中有所不同的原因之外，在国家队有时候踢大爷球，逆境下思路不清，关键时候出球不合理，仍有年轻天才球员的通病。<br />
-当然他还算年轻，不能要求像齐达内那样举重若轻，但如果仗着身强腿长继续这样踢，第一人的称号恐怕不会落在他头上。<br />
-当年的 C. Ronaldo
-技术天赋甚至在他之上，但如果像刚到曼联时那样只知道耍耍花拳绣腿，脑子不开窍，哪有可能有今天的成就？</p>
-
-<p>另外攻坚不利时有没有行之有效的第二、第三方案？目前也看不出来。<br />
-总不能依靠 Payet 时灵时不灵的远射吧？</p>
-
-<p>3、Griezmann 无疑是淘汰赛以来表现最好，输出最精确的球员。<br />
-如果不是葡萄牙门将发挥出色，也许他已经在90分钟内解决战斗。<br />
-但 Griezmann 的影锋位置比较依赖身前 Giroud
-的支点做球和吸引防守，加上自身身体条件有限，无法以他为核心运转。<br />
-挖掘出能替代 Giroud 的中锋做他的肉盾和辅助是当务之急。</p>
-
-<p>4、Giroud
-的表现没有什么可黑的，打脸侠拼尽了全力，完美发挥了既定的战术作用。<br />
-既能够吸引多名防守队员，为身后的攻击群开路，也能争顶头球，做前场支点和直接威胁球门，还能时不时前场抢断，黑他脚下拿球、带球技术不行就要求太高了。<br />
-问题是 Benzema 回归了怎么办？Griezmann
-的作用会不会弱化？谁来扛住对方的中后卫？<br />
-如果 Benzema 还继续被排除在国家队之外，谁能充当可靠的替补？<br />
-Gignac
-是不用指望了，这位仁兄除了决赛时好不容易等满了技能冷却时间来了一脚门柱之外，简直一无是处，不是拿球停出底线就是跑不到位、望球兴叹，人家
-Giroud
-虽说射门准度不行，起码机会还可以跑出来甚至自己创造出来呢。就是98年公认的水货前锋
-Guivarc&rsquo;h，浪费了无数射门良机，起码人家的中锋战术作用还有一点，而且没有身穿10号球衣。</p>
-
-<p>5、中后卫人才储备虽然奢侈到 Deschamps 一直不召 Laporte
-入队，但目前来看，只有 Koscielny
-勉强可算世界一流中后卫，还要祈祷不要被对方身体素质优秀的球员针对性冲击。<br />
-其他的如 Varane、Sakho 等都需要时间历练。<br />
-Umtiti 起点很高，希望不要让人失望。<br />
-另外，从06年被意大利人虐到14年被德国人力压，中后卫防空的痼疾似乎仍未彻底解决，每次定位球我看着都心惊肉跳，越发怀念
-Blanc 他们还在的日子。</p>
-
-<p>6、边后卫人才断档问题不可忽视。<br />
-Evra 和 Sagna
-已经是勉强支撑，三爷还莫名其妙脑子短路送个点球，可两个替补根本不放心放上场。<br />
-曾几何时，边后卫套上助攻是国家队常规武器，威力不逊于巴西的巅峰双边卫，如今反倒成了对方重点利用的漏洞。<br />
-而且老将退出国家队之后，放眼望去找不到可以顶上来的人才。<br />
-究竟是改变后场阵型和防守体系，还是凭借深厚的腰力弥补攻防两端的不足？这也是
-Deschamps 以后要操心的。</p>
-
-<p>7、Sisskho 的无脑猪突流看着是很爽，但不会控制节奏就是浪费体力；<br />
-Coman 的突破看着犀利，可传球时机的掌握实在糟糕，球商捉急怎能接过 Ribery
-的班；<br />
-Payet
-踢了几场好球，进了几个神仙球之后，就有点搞不清自己的角色，处理球越发不合理，决赛还下黑脚，堪称虎头蛇尾；<br />
-Martial
-干脆浑浑噩噩，上场不知道来干嘛了。其实我觉得以他在曼联某些场次客串中锋的打法，至少也比
-Gignac 这种降低己方士气的球员强。<br />
-角色球员执行力不行，喧兵夺主，看着场面热闹，实则对球队的胜利没有好处，这方面都应该向老实人
-Matuidi 学习——虽然433时发挥糟糕，但那是 Deschamps
-排兵布阵的锅，与他无关。</p>
-
-<p>8、Deschamps
-的教练水平还是有限，几次换人效果不彰，我就不重复其他人批评的观点了。<br />
-Ronaldo 受伤下场之后，总觉得他连应对的方案都没有，白白错过机会。<br />
-带入加时赛的节奏明显对法国队不利，也没有带摩纳哥和马赛时拼刺刀的果敢，换人还是那么循规蹈矩，当时就觉得危险了。<br />
-倒是在巨大压力下坚决拿下 Benzema
-保证队伍团结可圈可点，但不提高赛前准备和临场调度水平，如何与其他传统强国的年轻教练对抗呢？<br />
-目前来说，从水平和资历而言，本土没有能够替代他的优秀教练（除非 Blanc
-二进宫，但 PSG 带的并不如人意，国家队表现还不如 Deschamps），也许，要等
-Zidane 在皇马练级练满了再继续到国家队来刷成就？</p>
-
-<p>最后说说可圈可点之处和期望：</p>
-
-<p>1、终于边赛边调整确认了4231的阵型为第一方案，希望接下来好好磨合，不要再干这种临时变阵的事情了；<br />
-2、找到了在国家队激活 Griezmann
-的方法，拿到了赛事金靴。当然如前所说，还要丰富火力点才行；<br />
-3、Umtiti 毫不怯场，比 Rami
-这种资历不够的老将还稳健，需要在人员齐整后尽快确定中后卫主力搭档和替补顺位；<br />
-4、Payet
-的闪光说明，有一个哪怕是临时充数的中场大脑，带全队合理踢球，对这支法国队而言多么重要，长远来看
-Payet 虽不可倚仗，但建队思路不能乱。<br />
-5、最后一点私心，多希望 Schneiderlin
-能够踢上主力啊，现在看来他的顺位还在 Cabaye 之后，等到 Cabaye 和 Matuidi
-淡出主力阵容，他只怕也要被层出不穷的后浪拍死了…</p>
+<p><img src="http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif" alt="" /></p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f&text= @calon 2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84》&body=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhenjing%2f&text= @calon %e9%9c%87%e6%83%8a&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9c%87%e6%83%8a》&body=https%3a%2f%2fioerr.github.io%2fzhenjing%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -612,7 +207,9 @@ Payet 虽不可倚仗，但建队思路不能乱。<br />
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
         
     
   </div>
@@ -620,9 +217,210 @@ Payet 虽不可倚仗，但建队思路不能乱。<br />
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/%E6%AC%A7%E6%B4%B2%E6%9D%AF">#欧洲杯 </a>
+        <a href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A">#震惊 </a>
       
-        <a href="https://ioerr.github.io/tags/%E6%B3%95%E5%9B%BD%E9%98%9F">#法国队 </a>
+        <a href="https://ioerr.github.io/tags/%E6%98%AF%E7%9A%84%E5%A4%A7%E8%87%A3">#《是的，大臣》 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zhenjing/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>27 Mar 2017, 21:18</time>
+      <h1>震惊</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。</p>
+
+<p>背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：</p>
+
+<blockquote>
+<p>哈克：我太震惊了！<br />
+汉弗莱：你还震惊，我才震惊呢！<br />
+哈克：真不敢相信，我…太震惊了。你怎么想？<br />
+伯纳德：我震惊了，大臣。<br />
+哈克：我也是。震惊啊！<br />
+汉弗莱：让人震惊！<br />
+哈克：震惊…我简直没法形容！<br />
+伯纳德：震惊？<br />
+哈克：震惊！<br />
+可这是真的吗？<br />
+他不是吓唬你吧？<br />
+一个部门怎能说废就废？<br />
+汉弗莱：听起来很像真的，对吧？</p>
+</blockquote>
+
+<p><img src="http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif" alt="" /></p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhenjing%2f&text= @calon %e9%9c%87%e6%83%8a&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9c%87%e6%83%8a》&body=https%3a%2f%2fioerr.github.io%2fzhenjing%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A">#震惊 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%98%AF%E7%9A%84%E5%A4%A7%E8%87%A3">#《是的，大臣》 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>27 Mar 2017, 20:18</time>
+      <h1>小区灵堂扰民与城乡差异</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>大城市中应该很少见到在公共场所摆设灵堂，放鞭炮、请乐队奏乐这种事情了吧，但在我所住的小区，因为安置的农村、郊县拆迁户较多，隔一段时间就有灵堂摆进来，锣鼓喧天，鞭炮齐鸣，还有不入流的弹四郎歌手放声高歌（但不是以前弹四郎一曲的风格了）。因为有不少业主接受这种风俗，小区的物业也不好管。</p>
+
+<p>为什么这种乡村几乎家家户户都遵循的习俗到了城市中就变成扰民了呢？是因为素质差异，是城市居民的生活更容易被打扰，还是因为其他原因？</p>
+
+<p>印象中小时候住在长沙城中心的宝南街时，附近有人去世，都会摆灵堂做白事，相互认识的街坊邻居全去凑热闹，顺便也搭把手帮个忙。而现在小区中相互认识的往往不超过同层、对门的邻居，大事小事都不好麻烦人家，更何况是不吉利的丧事。</p>
+
+<p>也许这才是真正的原因：<br />
+乡村中多是家族聚居，去世的往往是大家都认识的亲朋好友，摆灵堂这事更多的是一个公共事件，你我都有份参与，也就无所谓扰不扰民；<br />
+而城市小区中大家相互陌生，摆灵堂是逝者一家自家的私事，公共事件时很正常的行为放在这里就变成了冒犯和打扰，只是他们自己还不习惯这种场景转换，没有意识到这种差异。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxiaoqu-lingdang-raomin-yu-chengxiang-chayi%2f&text= @calon %e5%b0%8f%e5%8c%ba%e7%81%b5%e5%a0%82%e6%89%b0%e6%b0%91%e4%b8%8e%e5%9f%8e%e4%b9%a1%e5%b7%ae%e5%bc%82&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b0%8f%e5%8c%ba%e7%81%b5%e5%a0%82%e6%89%b0%e6%b0%91%e4%b8%8e%e5%9f%8e%e4%b9%a1%e5%b7%ae%e5%bc%82》&body=https%3a%2f%2fioerr.github.io%2fxiaoqu-lingdang-raomin-yu-chengxiang-chayi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B">#丧事 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%81%B5%E5%A0%82">#灵堂 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%85%AC%E5%85%B1%E4%BA%8B%E4%BB%B6">#公共事件 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>27 Mar 2017, 20:18</time>
+      <h1>小区灵堂扰民与城乡差异</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>大城市中应该很少见到在公共场所摆设灵堂，放鞭炮、请乐队奏乐这种事情了吧，但在我所住的小区，因为安置的农村、郊县拆迁户较多，隔一段时间就有灵堂摆进来，锣鼓喧天，鞭炮齐鸣，还有不入流的弹四郎歌手放声高歌（但不是以前弹四郎一曲的风格了）。因为有不少业主接受这种风俗，小区的物业也不好管。</p>
+
+<p>为什么这种乡村几乎家家户户都遵循的习俗到了城市中就变成扰民了呢？是因为素质差异，是城市居民的生活更容易被打扰，还是因为其他原因？</p>
+
+<p>印象中小时候住在长沙城中心的宝南街时，附近有人去世，都会摆灵堂做白事，相互认识的街坊邻居全去凑热闹，顺便也搭把手帮个忙。而现在小区中相互认识的往往不超过同层、对门的邻居，大事小事都不好麻烦人家，更何况是不吉利的丧事。</p>
+
+<p>也许这才是真正的原因：<br />
+乡村中多是家族聚居，去世的往往是大家都认识的亲朋好友，摆灵堂这事更多的是一个公共事件，你我都有份参与，也就无所谓扰不扰民；<br />
+而城市小区中大家相互陌生，摆灵堂是逝者一家自家的私事，公共事件时很正常的行为放在这里就变成了冒犯和打扰，只是他们自己还不习惯这种场景转换，没有意识到这种差异。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxiaoqu-lingdang-raomin-yu-chengxiang-chayi%2f&text= @calon %e5%b0%8f%e5%8c%ba%e7%81%b5%e5%a0%82%e6%89%b0%e6%b0%91%e4%b8%8e%e5%9f%8e%e4%b9%a1%e5%b7%ae%e5%bc%82&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b0%8f%e5%8c%ba%e7%81%b5%e5%a0%82%e6%89%b0%e6%b0%91%e4%b8%8e%e5%9f%8e%e4%b9%a1%e5%b7%ae%e5%bc%82》&body=https%3a%2f%2fioerr.github.io%2fxiaoqu-lingdang-raomin-yu-chengxiang-chayi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B">#丧事 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%81%B5%E5%A0%82">#灵堂 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%85%AC%E5%85%B1%E4%BA%8B%E4%BB%B6">#公共事件 </a>
       
     
   </div>
@@ -640,7 +438,7 @@ Payet 虽不可倚仗，但建队思路不能乱。<br />
   </a>
   
 
-  PAGE 4 / 230
+  PAGE 4 / 460
 
   
   <a href="/page/5/" rel="next">

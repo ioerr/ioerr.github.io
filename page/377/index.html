@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/jiemi-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>05 Jun 2005, 11:02</time>
+      <h1>解密 \#2</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>11，12，15，16，21，24，37，42，44，51，56，61，65，66，73，77<br />
+表示在8×8的坐标纸上的方格位置</p>
+
+<p>也就是如下图所示黑色方格：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569600/"><img src="http://photos12.flickr.com/17569600_99b0cdc3e4_o.jpg" alt="方格图" /></a></p>
+
+<p>挖去黑色方格的部分，就得到了用于解密的工具。由于这张图可以作90°旋转，因此可以将最开始的那个状态称为状态1，顺时针旋转90°之后的称为状态2，依此类推。</p>
+
+<p>1，3<br />
+表示那段文字是通过这个工具由两次转换得到，其中第一次是由状态1开始，第二次则是由状态3开始。</p>
+
+<p>首先将需要解密的文字从左至右、由上至下填写进8×8的方格图内。<br />
+然后将工具旋转到状态3的位置，如下图所示：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17572757/"><img src="http://photos12.flickr.com/17572757_b919e6e9a0_o.jpg" alt="状态3" /></a></p>
+
+<p>然后将工具覆盖在写着文字的方格图上，从左至右、由上至下读取空格内的文字，并按顺序记录下来。读完了16个空则顺时针旋转90°，直到读完64个字符并回到状态3。<br />
+将读出的文字再次从左至右、由上至下填写入8×8的方格图，又从状态1开始重复以上步骤，便能够得到顺序正确的原文了。</p>
+
+<p>如果你要制作只属于自己的方格图，可以使用下图作参考：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569601/"><img src="http://photos11.flickr.com/17569601_3f17a70684_o.jpg" alt="参考" /></a><br />
+每种颜色的格子挖去一个就可以了。</p>
+
+<p>下面这张图则可以用来填写文字：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569602/"><img src="http://photos13.flickr.com/17569602_ae223c27b5_o.jpg" alt="参考" /></a></p>
+
+<p>其它说明一般只需要用状态1转换一次就够了，如果不满意就多做几次。<br />
+使用字母文字比使用汉字保密性要好得多。<br />
+如果觉得8×8的方格不过瘾，自己增加方格数就行了，一般没这个必要。<br />
+如果觉得有趣，不妨自己写个小程序做加密解密，相信要方便许多。只要像我那样输入坐标、状态和需要解密的文字，就能够解读了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjiemi-2%2f&text= @calon %e8%a7%a3%e5%af%86%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%a7%a3%e5%af%86%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fjiemi-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jiemi-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>05 Jun 2005, 11:02</time>
+      <h1>解密 \#2</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>11，12，15，16，21，24，37，42，44，51，56，61，65，66，73，77<br />
+表示在8×8的坐标纸上的方格位置</p>
+
+<p>也就是如下图所示黑色方格：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569600/"><img src="http://photos12.flickr.com/17569600_99b0cdc3e4_o.jpg" alt="方格图" /></a></p>
+
+<p>挖去黑色方格的部分，就得到了用于解密的工具。由于这张图可以作90°旋转，因此可以将最开始的那个状态称为状态1，顺时针旋转90°之后的称为状态2，依此类推。</p>
+
+<p>1，3<br />
+表示那段文字是通过这个工具由两次转换得到，其中第一次是由状态1开始，第二次则是由状态3开始。</p>
+
+<p>首先将需要解密的文字从左至右、由上至下填写进8×8的方格图内。<br />
+然后将工具旋转到状态3的位置，如下图所示：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17572757/"><img src="http://photos12.flickr.com/17572757_b919e6e9a0_o.jpg" alt="状态3" /></a></p>
+
+<p>然后将工具覆盖在写着文字的方格图上，从左至右、由上至下读取空格内的文字，并按顺序记录下来。读完了16个空则顺时针旋转90°，直到读完64个字符并回到状态3。<br />
+将读出的文字再次从左至右、由上至下填写入8×8的方格图，又从状态1开始重复以上步骤，便能够得到顺序正确的原文了。</p>
+
+<p>如果你要制作只属于自己的方格图，可以使用下图作参考：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569601/"><img src="http://photos11.flickr.com/17569601_3f17a70684_o.jpg" alt="参考" /></a><br />
+每种颜色的格子挖去一个就可以了。</p>
+
+<p>下面这张图则可以用来填写文字：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/17569602/"><img src="http://photos13.flickr.com/17569602_ae223c27b5_o.jpg" alt="参考" /></a></p>
+
+<p>其它说明一般只需要用状态1转换一次就够了，如果不满意就多做几次。<br />
+使用字母文字比使用汉字保密性要好得多。<br />
+如果觉得8×8的方格不过瘾，自己增加方格数就行了，一般没这个必要。<br />
+如果觉得有趣，不妨自己写个小程序做加密解密，相信要方便许多。只要像我那样输入坐标、状态和需要解密的文字，就能够解读了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjiemi-2%2f&text= @calon %e8%a7%a3%e5%af%86%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%a7%a3%e5%af%86%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fjiemi-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/women-doushi-youpigude-ren/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>04 Jun 2005, 18:39</time>
+      <h1>我们都是有屁股的人</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>我们都是有屁股的人<br />
+屁股，就是最好扁的那部分<br />
+它的皮又薄，肉又嫩，打起来还很疼<br />
+屁股它一疼，脑袋就犯浑<br />
+脑袋一犯浑，嘴巴就来神</p>
+
+<p>（背景音：<br />
+文成武德，泽被苍生<br />
+算无遗策，仁义圣明<br />
+号令天下，莫敢不从<br />
+一统江湖，千秋万载…）</p>
+
+<p>它的皮又粗，肉又厚，打起来不心疼<br />
+这么一块肉，当然要好好整</p>
+
+<p>（背景音：<br />
+左右，拖下去，杖责八十！）</p>
+
+<p>直打得皮开又肉绽<br />
+直打得哭爹又喊娘<br />
+直打得呼天又抢地<br />
+直打得落魄又失魂<br />
+咬紧牙关忍啊忍<br />
+哦啦哦啦哦啦哦<br />
+没用没用都没用</p>
+
+<p>（背景音：<br />
+我不知道～我什么都不知道～）</p>
+
+<p>直打得口吐白沫气若游丝<br />
+直打得眼放青光精神亢奋<br />
+直打得涕泪横流大彻大悟<br />
+直打得神魂颠倒乐在其中<br />
+直打得一佛升天二佛涅槃<br />
+直打得条件反射低头求饶<br />
+直打得指鹿为马混淆是非<br />
+直打得唯唯诺诺点头哈腰</p>
+
+<p>（背景音：<br />
+我是知道～我不是什么都不知道～<br />
+我是不知道我不是不知道～）</p>
+
+<p>来来来，抹上金创药，涂上止痛膏<br />
+屁股一好，羞耻和痛苦立马抛脑后<br />
+就如同好了伤疤，自然忘了疼<br />
+于是你就能慢慢学会亲吻<br />
+赐予你安宁与平静<br />
+财富与希望的那双手<br />
+就能慢慢习惯亲吻<br />
+始终握着板子的那双手<br />
+带着一脸的幸福与光荣<br />
+自豪与服从</p>
+
+<p>（背景音：<br />
+对，要的就是这个效果～<br />
+思考那么多有什么用呢？为什么不好好的活着呢？<br />
+好好的活着，乖乖的活着，才是你要的，不是么？）</p>
+
+<p>有道是<br />
+命苦不能怨政府，点背不能赖社会<br />
+若是人品无问题，屁股怎会遭活罪？</p>
+
+<p>（背景音：<br />
+你没问题？你没问题我们会抓你吗？）</p>
+
+<p>俗话说<br />
+吃得苦中苦，方为人上人<br />
+拍得屁中屁，才能救灵魂</p>
+
+<p>（背景音：<br />
+它喵的，还不快乖乖地撅屁股？）</p>
+
+<p>常言道<br />
+屁股决定脑袋<br />
+谁掌握了屁股，谁就掌握了脑袋<br />
+而我们，都是有屁股的人<br />
+脑袋，则云游四海不知所踪<br />
+那么，一切就都好办了</p>
+
+<p>（背景音：<br />
+故治民者，刑胜，治之首也。<br />
+夫严刑重罚者，民之所恶也，而国之所以治也；哀怜百姓，轻刑法者，民之所喜，而国之所危也。<br />
+非所以恶民，爱之本也。<br />
+境内之民，其言谈者必轨于法。<br />
+言行不轨于法令者必禁。<br />
+禁奸之法，太上禁其心，其次禁其言，其次禁其事。）</p>
+
+<p>我们都是有屁股的人<br />
+是的，我们都是有屁股的人<br />
+我们都将会是只有屁股的人…</p>
+
+<p>（背景音：<br />
+脱了裤子给我狠狠地打！看你小子还说大逆不道的话！）</p>
+
+<p>********************* 胡言乱语的分隔线
+*********************</p>
+
+<p><a href="http://zh.wikipedia.org/wiki/六四天安门事件">Tiananmen Square
+protests</a><br />
+<a href="http://www.wozy.net/blog/2005/06/post_1.html">纪念这个先驱为国人自由民主而奋斗和流血的日子</a><br />
+<a href="http://userpage.fu-berlin.de/~wanchen/2005/06/blog-post_03.html">爱之和解</a><br />
+<a href="http://sidekick.myblog.hk/archives/2005/05/14/530/">十六周年</a><br />
+16年而已，一切都变得模糊，变得虚虚实实真真假假乱人眼，甚至，对普通人来说，已经不存在，或者，他们都快没有知晓的兴趣了…<br />
+即使有着数千年的古老历史又怎样？当下的历史不正在我们自己手中毁坏、消失、不可复原么？<br />
+即使有着数千年的古老文化又怎样？自己的历史都没有勇气去面对，又哪里有资格谈论“以史为鉴、面向未来”呢？</p>
+
+<p>（背景音：<br />
+<a href="http://news.sina.com.cn/c/2005-04-29/21325787664s.shtml">安理会常任理事国必须是一个负责任的大国，…如果连历史问题都不能正确认识和正确对待，那么又怎能承担起应尽的国际责任，又怎能赢得亚洲各国的信任和支持呢？</a><br />
+<a href="http://news.sina.com.cn/c/2005-04-26/15535756598s.shtml">任何人也无法改变历史，但人们必须正确对待历史，只有真正以史为鉴，才能找到连接历史、今天和未来的正确道路。</a><br />
+<a href="http://news.sina.com.cn/c/2005-04-27/06255760305s.shtml">难道我们不应让自己的青少年知道这段历史的真相吗？</a>）</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwomen-doushi-youpigude-ren%2f&text= @calon %e6%88%91%e4%bb%ac%e9%83%bd%e6%98%af%e6%9c%89%e5%b1%81%e8%82%a1%e7%9a%84%e4%ba%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%88%91%e4%bb%ac%e9%83%bd%e6%98%af%e6%9c%89%e5%b1%81%e8%82%a1%e7%9a%84%e4%ba%ba》&body=https%3a%2f%2fioerr.github.io%2fwomen-doushi-youpigude-ren%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/women-doushi-youpigude-ren/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>04 Jun 2005, 18:39</time>
+      <h1>我们都是有屁股的人</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>我们都是有屁股的人<br />
+屁股，就是最好扁的那部分<br />
+它的皮又薄，肉又嫩，打起来还很疼<br />
+屁股它一疼，脑袋就犯浑<br />
+脑袋一犯浑，嘴巴就来神</p>
+
+<p>（背景音：<br />
+文成武德，泽被苍生<br />
+算无遗策，仁义圣明<br />
+号令天下，莫敢不从<br />
+一统江湖，千秋万载…）</p>
+
+<p>它的皮又粗，肉又厚，打起来不心疼<br />
+这么一块肉，当然要好好整</p>
+
+<p>（背景音：<br />
+左右，拖下去，杖责八十！）</p>
+
+<p>直打得皮开又肉绽<br />
+直打得哭爹又喊娘<br />
+直打得呼天又抢地<br />
+直打得落魄又失魂<br />
+咬紧牙关忍啊忍<br />
+哦啦哦啦哦啦哦<br />
+没用没用都没用</p>
+
+<p>（背景音：<br />
+我不知道～我什么都不知道～）</p>
+
+<p>直打得口吐白沫气若游丝<br />
+直打得眼放青光精神亢奋<br />
+直打得涕泪横流大彻大悟<br />
+直打得神魂颠倒乐在其中<br />
+直打得一佛升天二佛涅槃<br />
+直打得条件反射低头求饶<br />
+直打得指鹿为马混淆是非<br />
+直打得唯唯诺诺点头哈腰</p>
+
+<p>（背景音：<br />
+我是知道～我不是什么都不知道～<br />
+我是不知道我不是不知道～）</p>
+
+<p>来来来，抹上金创药，涂上止痛膏<br />
+屁股一好，羞耻和痛苦立马抛脑后<br />
+就如同好了伤疤，自然忘了疼<br />
+于是你就能慢慢学会亲吻<br />
+赐予你安宁与平静<br />
+财富与希望的那双手<br />
+就能慢慢习惯亲吻<br />
+始终握着板子的那双手<br />
+带着一脸的幸福与光荣<br />
+自豪与服从</p>
+
+<p>（背景音：<br />
+对，要的就是这个效果～<br />
+思考那么多有什么用呢？为什么不好好的活着呢？<br />
+好好的活着，乖乖的活着，才是你要的，不是么？）</p>
+
+<p>有道是<br />
+命苦不能怨政府，点背不能赖社会<br />
+若是人品无问题，屁股怎会遭活罪？</p>
+
+<p>（背景音：<br />
+你没问题？你没问题我们会抓你吗？）</p>
+
+<p>俗话说<br />
+吃得苦中苦，方为人上人<br />
+拍得屁中屁，才能救灵魂</p>
+
+<p>（背景音：<br />
+它喵的，还不快乖乖地撅屁股？）</p>
+
+<p>常言道<br />
+屁股决定脑袋<br />
+谁掌握了屁股，谁就掌握了脑袋<br />
+而我们，都是有屁股的人<br />
+脑袋，则云游四海不知所踪<br />
+那么，一切就都好办了</p>
+
+<p>（背景音：<br />
+故治民者，刑胜，治之首也。<br />
+夫严刑重罚者，民之所恶也，而国之所以治也；哀怜百姓，轻刑法者，民之所喜，而国之所危也。<br />
+非所以恶民，爱之本也。<br />
+境内之民，其言谈者必轨于法。<br />
+言行不轨于法令者必禁。<br />
+禁奸之法，太上禁其心，其次禁其言，其次禁其事。）</p>
+
+<p>我们都是有屁股的人<br />
+是的，我们都是有屁股的人<br />
+我们都将会是只有屁股的人…</p>
+
+<p>（背景音：<br />
+脱了裤子给我狠狠地打！看你小子还说大逆不道的话！）</p>
+
+<p>********************* 胡言乱语的分隔线
+*********************</p>
+
+<p><a href="http://zh.wikipedia.org/wiki/六四天安门事件">Tiananmen Square
+protests</a><br />
+<a href="http://www.wozy.net/blog/2005/06/post_1.html">纪念这个先驱为国人自由民主而奋斗和流血的日子</a><br />
+<a href="http://userpage.fu-berlin.de/~wanchen/2005/06/blog-post_03.html">爱之和解</a><br />
+<a href="http://sidekick.myblog.hk/archives/2005/05/14/530/">十六周年</a><br />
+16年而已，一切都变得模糊，变得虚虚实实真真假假乱人眼，甚至，对普通人来说，已经不存在，或者，他们都快没有知晓的兴趣了…<br />
+即使有着数千年的古老历史又怎样？当下的历史不正在我们自己手中毁坏、消失、不可复原么？<br />
+即使有着数千年的古老文化又怎样？自己的历史都没有勇气去面对，又哪里有资格谈论“以史为鉴、面向未来”呢？</p>
+
+<p>（背景音：<br />
+<a href="http://news.sina.com.cn/c/2005-04-29/21325787664s.shtml">安理会常任理事国必须是一个负责任的大国，…如果连历史问题都不能正确认识和正确对待，那么又怎能承担起应尽的国际责任，又怎能赢得亚洲各国的信任和支持呢？</a><br />
+<a href="http://news.sina.com.cn/c/2005-04-26/15535756598s.shtml">任何人也无法改变历史，但人们必须正确对待历史，只有真正以史为鉴，才能找到连接历史、今天和未来的正确道路。</a><br />
+<a href="http://news.sina.com.cn/c/2005-04-27/06255760305s.shtml">难道我们不应让自己的青少年知道这段历史的真相吗？</a>）</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwomen-doushi-youpigude-ren%2f&text= @calon %e6%88%91%e4%bb%ac%e9%83%bd%e6%98%af%e6%9c%89%e5%b1%81%e8%82%a1%e7%9a%84%e4%ba%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%88%91%e4%bb%ac%e9%83%bd%e6%98%af%e6%9c%89%e5%b1%81%e8%82%a1%e7%9a%84%e4%ba%ba》&body=https%3a%2f%2fioerr.github.io%2fwomen-doushi-youpigude-ren%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jiemi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Jun 2005, 11:11</time>
+      <h1>解密</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#11-12-15-16-21-24-37-42-44-51-56-61-65-66-73-77">11，12，15，16，21，24，37，42，44，51，56，61，65，66，73，77</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>衰祸也圣天重不，，凤莫也刑兮追人。可待，方之仅凤知下兮。焉如莫往免今之载世有，。道生福知来世德避之轻乎之羽乎，何也。不焉。时，可</p>
+
+<p>上面这段话不难猜出出处，但是没有提示的话要弄清楚怎么还原就不容易了。如果我使用白话文，再多来几句，看不出出处，靠人脑是没什么解密的希望的。<br />
+点击 More 可以看到一点提示。<br />
+<!-- more --></p>
+
+<h2 id="11-12-15-16-21-24-37-42-44-51-56-61-65-66-73-77">11，12，15，16，21，24，37，42，44，51，56，61，65，66，73，77</h2>
+
+<p>一种很简单的加密方式，一张纸，一支笔就可以解密，答案明天或者后天放出吧。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjiemi%2f&text= @calon %e8%a7%a3%e5%af%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%a7%a3%e5%af%86》&body=https%3a%2f%2fioerr.github.io%2fjiemi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/376/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> Prev
+  </a>
+  
+
+  PAGE 377 / 460
+
+  
+  <a href="/page/378/" rel="next">
+    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/zhunbei-shengji-wordpress-2/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>12 Jan 2006, 11:40</time>
+      <h1>准备升级 WordPress 2.0</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>因为安装 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>
+的时候受了打击，所以下定决心把“滞销书”一次<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
+<a href="http://wordpress.org/">WordPress</a> 2.0 版本，如果这几天 blog
+无法访问，说明正在升级，或者升级失败，或者恢复失败… Orz<br />
+另外 RSS Feed 也可能出现异常状况。</p>
+
+<p>先在 blog 上记录一下步骤，到时候也好知道到底是怎么死的。</p>
+
+<p>1、备份数据库。<br />
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
+插件导出数据库表。没有用
+PhpMyAdmin，因为我是个懒人。到时候出了问题再搬救兵好了。按照常理，像我这样经常很倒霉的人出问题的概率是相当大的，何况还要偷懒…</p>
+
+<p>2、备份文件。<br />
+虽然一些 blogger 说 wp-content
+目录中的内容可以不备份，但我修改过默认模板的文件，所以要备份一下，升级后再看具体情况作修改。</p>
+
+<p>3、停用所有的插件。<br />
+目前使用的插件有
+<a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a>、<a href="http://openmonday.martlev.com/small-projects/another-random-quote/">Another Random
+Quote</a>、<a href="http://www.victr.lm85.com/fancytooltips/">FancyTooltips</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>、[Twilight</p>
+
+<h2 id="autosave-http-twilightuniverse-com-2005-04-twilight-autosave-ultimate">AutoSave](<a href="http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate">http://twilightuniverse.com/2005/04/twilight-autosave/)、[Ultimate</a></h2>
+
+<p>Warrior](<a href="http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress">http://www.neato.co.nz/ultimate-tag-warrior/)、[wp-Define](http://www.zerohex.org/)、[WordPress</a>
+Database Backup](<a href="http://www.skippy.net/blog/plugins/)、[Better">http://www.skippy.net/blog/plugins/)、[Better</a>
+Feed](<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。">http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/)。</a></p>
+
+<p>4、下载 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+<a href="http://wordpress.org/download/">下载地址</a>。</p>
+
+<p>5、删除文件。<br />
+保留的目录、文件：wp-config.php、wp-content 目录、wp-images
+目录，必要的话，保留 wp-includes/languages/ 目录、.htaccess
+文件，以及其他一些自己修改过的文件。<br />
+删除剩下的 <a href="http://wordpress.org/">WordPress</a> 1.5.x 的文件。</p>
+
+<p>6、上传 <a href="http://wordpress.org/">WordPress</a> 2.0 文件。<br />
+最后上传 wp-content 目录，覆盖的时候要小心谨慎。</p>
+
+<p>7、执行 wp-admin/upgrade.php。<br />
+然后就看人品是否过硬了。</p>
+
+<p>8、在 Options 面板中重新设置 Permalinks</p>
+
+<p>9、更新、激活插件。<br />
+更新 <a href="http://www.neato.co.nz/ultimate-tag-warrior/">Ultimate Tag
+Warrior</a>、<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">Better
+Feed</a>、<a href="http://www.quakemachine.com/blog/myplugins/searchnow/">SearchNow</a>，试用
+<a href="http://www.zombierobot.com/wp-quotes/">Random
+Quote</a>、<a href="http://dev.wp-plugins.org/wiki/ThemeSwitcher">ThemeSwitcher</a>。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%20WordPress%202.0》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-wordpress-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/lixiangde-shudian-xiaowenda/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:39</time>
+      <h1>“理想的书店”小问答</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.bighead.cn/">大头绿豆</a>在<a href="http://www.douban.com/">豆瓣</a>上问深圳的豆友“<a href="http://www.douban.com/group/topic/1021997/">深圳有你理想中的书店吗？如果有，是哪儿？如果没有，那么你理想中的书店应该是怎样的？应该有哪些东西或者服务？</a>”</p>
+
+<p><blockquote>
+0、你多久没逛书店了？如果很久，是因为什么？是和我一样，因为觉得深圳没有好的书店吗？</p>
+
+<p>1、如果你常常逛，那末通常是因为什么？为什么不在网上买而要到书店去？</p>
+
+<p>2、如果你在罗湖，有什么可以吸引你去一家南山的书店？坦白说，离得多远的书店是你能接受的？</p>
+
+<p>3、你希望这家书店能有地方让你坐下来读书吗？顺便来点喝的？</p>
+
+<p>4、如果它有一个足够的空间，你愿意和你的朋友们来这里聊天，或者只是听它的音乐吗？</p>
+
+<p>5、如果你选择到这家书店发一个下午的呆，你能够接受的消费是多少？</p>
+
+<p>6、你愿意把自己的一些旧书拿到这个书店卖吗，哪怕必须接受一些附加条件？</p>
+
+<p>7、你愿意在这里买一些旧书吗，如果它确实讨你喜欢？</p>
+
+<p>8、你希望在这家书店里看见一只猫或者什么别的动物吗？</p>
+
+<p>9、你希望它是白色的吗？
+</blockquote>
+在长沙的我也凑个热闹回答一下：<br />
+0、不算太久，不过比以前的频率低了。原因是工作的地方附近没有好书店，周末又一直很忙，又有不少书等着看完。</p>
+
+<p>1、经常逛的原因当然是来瘾了，还有就是经常有让人感兴趣的新书到货。如果是问书店吸引我的地方，除了质量和价格，那就是书籍的口味、稀有书籍的数量、店主的服务态度、检索查询是否方便、阅读环境如何。不喜欢上网买书的原因嘛，我一定要在手里面捧着才算放心，看中了又不买太折磨人，况且买书也讲究氛围，而且说不定可以遇到有同好的美女
+;P</p>
+
+<p>2、现在常去的书店离家里有好几公里吧？关键是要有直达的公交车，或者骑单车、寄存单车方便也行。</p>
+
+<p>3、当然要有坐的地方，喝的倒不必，怕倒在书上不好交差－－可是好像经常一边吃饭一边看书哦，那好吧，咖啡、茶、果汁、牛奶都可以，但不要卖碳酸饮料。</p>
+
+<p>4、聊天听音乐没兴趣，那已经是另一种氛围了。要是谁在我看到一本特别想翻翻看的书时硬拉着我聊天，我会发飙哦。</p>
+
+<p>5、能不能够不消费啊？我的要求不算高，收费的服务对我来说是多余。</p>
+
+<p>6、旧书？我会卖？那一定不是我的书…</p>
+
+<p>7、当然要买。本地买不到，到外地去买都成。</p>
+
+<p>8、无所谓，只要它不吃书不撕书就好，也不要太吵闹，否则必会招来人道毁灭－－我可不是无条件的动物保护主义者。有条件的话…长颈鹿怎么样？</p>
+
+<p>9、是纯棉的吗？没有小熊或南瓜图案吧？(-_-#)</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f&text= @calon %e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94》&body=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/lixiangde-shudian-xiaowenda/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:39</time>
+      <h1>“理想的书店”小问答</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.bighead.cn/">大头绿豆</a>在<a href="http://www.douban.com/">豆瓣</a>上问深圳的豆友“<a href="http://www.douban.com/group/topic/1021997/">深圳有你理想中的书店吗？如果有，是哪儿？如果没有，那么你理想中的书店应该是怎样的？应该有哪些东西或者服务？</a>”</p>
+
+<p><blockquote>
+0、你多久没逛书店了？如果很久，是因为什么？是和我一样，因为觉得深圳没有好的书店吗？</p>
+
+<p>1、如果你常常逛，那末通常是因为什么？为什么不在网上买而要到书店去？</p>
+
+<p>2、如果你在罗湖，有什么可以吸引你去一家南山的书店？坦白说，离得多远的书店是你能接受的？</p>
+
+<p>3、你希望这家书店能有地方让你坐下来读书吗？顺便来点喝的？</p>
+
+<p>4、如果它有一个足够的空间，你愿意和你的朋友们来这里聊天，或者只是听它的音乐吗？</p>
+
+<p>5、如果你选择到这家书店发一个下午的呆，你能够接受的消费是多少？</p>
+
+<p>6、你愿意把自己的一些旧书拿到这个书店卖吗，哪怕必须接受一些附加条件？</p>
+
+<p>7、你愿意在这里买一些旧书吗，如果它确实讨你喜欢？</p>
+
+<p>8、你希望在这家书店里看见一只猫或者什么别的动物吗？</p>
+
+<p>9、你希望它是白色的吗？
+</blockquote>
+在长沙的我也凑个热闹回答一下：<br />
+0、不算太久，不过比以前的频率低了。原因是工作的地方附近没有好书店，周末又一直很忙，又有不少书等着看完。</p>
+
+<p>1、经常逛的原因当然是来瘾了，还有就是经常有让人感兴趣的新书到货。如果是问书店吸引我的地方，除了质量和价格，那就是书籍的口味、稀有书籍的数量、店主的服务态度、检索查询是否方便、阅读环境如何。不喜欢上网买书的原因嘛，我一定要在手里面捧着才算放心，看中了又不买太折磨人，况且买书也讲究氛围，而且说不定可以遇到有同好的美女
+;P</p>
+
+<p>2、现在常去的书店离家里有好几公里吧？关键是要有直达的公交车，或者骑单车、寄存单车方便也行。</p>
+
+<p>3、当然要有坐的地方，喝的倒不必，怕倒在书上不好交差－－可是好像经常一边吃饭一边看书哦，那好吧，咖啡、茶、果汁、牛奶都可以，但不要卖碳酸饮料。</p>
+
+<p>4、聊天听音乐没兴趣，那已经是另一种氛围了。要是谁在我看到一本特别想翻翻看的书时硬拉着我聊天，我会发飙哦。</p>
+
+<p>5、能不能够不消费啊？我的要求不算高，收费的服务对我来说是多余。</p>
+
+<p>6、旧书？我会卖？那一定不是我的书…</p>
+
+<p>7、当然要买。本地买不到，到外地去买都成。</p>
+
+<p>8、无所谓，只要它不吃书不撕书就好，也不要太吵闹，否则必会招来人道毁灭－－我可不是无条件的动物保护主义者。有条件的话…长颈鹿怎么样？</p>
+
+<p>9、是纯棉的吗？没有小熊或南瓜图案吧？(-_-#)</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f&text= @calon %e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e2%80%9c%e7%90%86%e6%83%b3%e7%9a%84%e4%b9%a6%e5%ba%97%e2%80%9d%e5%b0%8f%e9%97%ae%e7%ad%94》&body=https%3a%2f%2fioerr.github.io%2flixiangde-shudian-xiaowenda%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/kuaiditong/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:34</time>
+      <h1>快递通</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>忽然很无聊地想，如果 <a href="http://edad.com.cn/datou/">Datou</a>
+很无聊，可以用<a href="http://qiushibaike.com/">糗事百科</a>上的素材玩 Podcast
+嘛；而那些玩 Podcast
+的也可以用<a href="http://qiushibaike.com/">糗事百科</a>的内容耍一耍嘛。</p>
+
+<p>前几天和 <a href="http://www.donews.net/tinyfool/">Tinyfool</a>
+隐约好像似乎是扯到防 GFW
+时，建议每篇文章自动生成为一张图片，甚至每个文字都是动态生成的小图片，印象中这样的想法以前在哪里见过，不过得不到搜索引擎支持的话，估计愿意使用的人也不多。</p>
+
+<p>据说赵本山春节联欢晚会的节目终于定下来了，据说和中国足球无关，真是可惜，没有好好利用这次深入基层采风的大好机会啊～</p>
+
+<p><a href="http://www.kdt.cn/">快递通</a>这个工具还不错，支持动态 IP
+远程控制，缺点是好像不能够像 PCAnyWhere
+那样传递剪贴板内容、缩放屏幕、方便地传递文件，而且不算稳定。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f&text= @calon %e5%bf%ab%e9%80%92%e9%80%9a&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%bf%ab%e9%80%92%e9%80%9a》&body=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/kuaiditong/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>10 Jan 2006, 15:34</time>
+      <h1>快递通</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>忽然很无聊地想，如果 <a href="http://edad.com.cn/datou/">Datou</a>
+很无聊，可以用<a href="http://qiushibaike.com/">糗事百科</a>上的素材玩 Podcast
+嘛；而那些玩 Podcast
+的也可以用<a href="http://qiushibaike.com/">糗事百科</a>的内容耍一耍嘛。</p>
+
+<p>前几天和 <a href="http://www.donews.net/tinyfool/">Tinyfool</a>
+隐约好像似乎是扯到防 GFW
+时，建议每篇文章自动生成为一张图片，甚至每个文字都是动态生成的小图片，印象中这样的想法以前在哪里见过，不过得不到搜索引擎支持的话，估计愿意使用的人也不多。</p>
+
+<p>据说赵本山春节联欢晚会的节目终于定下来了，据说和中国足球无关，真是可惜，没有好好利用这次深入基层采风的大好机会啊～</p>
+
+<p><a href="http://www.kdt.cn/">快递通</a>这个工具还不错，支持动态 IP
+远程控制，缺点是好像不能够像 PCAnyWhere
+那样传递剪贴板内容、缩放屏幕、方便地传递文件，而且不算稳定。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f&text= @calon %e5%bf%ab%e9%80%92%e9%80%9a&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%bf%ab%e9%80%92%e9%80%9a》&body=https%3a%2f%2fioerr.github.io%2fkuaiditong%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/325/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> Prev
+  </a>
+  
+
+  PAGE 326 / 460
+
+  
+  <a href="/page/327/" rel="next">
+    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

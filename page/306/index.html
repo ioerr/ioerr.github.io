@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/scite-bendi-hanhua-wenjian/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>03 Apr 2006, 15:53</time>
+      <h1>SciTE 本地汉化文件</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>花了一个晚上的时间，把
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a> v1.68
+的界面汉化完成了，可以直接下载
+<a href="http://calon.xu.googlepages.com/locale.properties">locale.properties</a>
+文件，或者下载
+<a href="http://calon.xu.googlepages.com/locale.zh_gb2312.properties">locale.zh_gb2312.properties</a>
+后改名，然后保存到 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+的工作目录。<br />
+已经发邮件给 Neil Hodgson 看看能不能在 <a href="http://scintilla.sourceforge.net/SciTETranslation.html">SciTE
+Translation</a>
+上作个链接。当然，大部分的工作都是前人做的，感谢廖啟邑、林原志、Edward
+Hsieh、龔維正和高显华！</p>
+
+<p>如果使用过程中发现翻译有问题，请在这里留言或者发信给我。</p>
+
+<p>如果要给 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+增加宏功能，需要到 <a href="http://llt.chez-alice.fr/">Filerx</a>
+的页面下载程序。它的配置文件改起来比较麻烦，还没有开始试呢。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fscite-bendi-hanhua-wenjian%2f&text= @calon SciTE%20%e6%9c%ac%e5%9c%b0%e6%b1%89%e5%8c%96%e6%96%87%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《SciTE%20%e6%9c%ac%e5%9c%b0%e6%b1%89%e5%8c%96%e6%96%87%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fscite-bendi-hanhua-wenjian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/scite-shiyong-shezhi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Apr 2006, 16:02</time>
+      <h1>SciTE 实用设置</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><strong>全局配置：</strong><br />
+打开 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a> 所在目录中的
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改
+SciTEUser.properties 或 SciTE.properties。</p>
+
+<p>1、文字编码<br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。</p>
+
+<p>UTF-8：code.page=65001<br />
+GBK：code.page=936<br />
+Big5：code.page=950</p>
+
+<p>2、换行<br />
+由于 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+一般用于编写代码，所以默认设置是不换行的。</p>
+
+<p>wrap=1</p>
+
+<p>3、窗口最大化<br />
+默认窗口是长条形，不符合通常的习惯。</p>
+
+<p>position.width=-1<br />
+position.height=-1</p>
+
+<p>4、工作目录</p>
+
+<p>SciteDefaultHome=SciTE 所在的目录</p>
+
+<p>5、最小化到系统托盘</p>
+
+<p>minimize.to.tray=1</p>
+
+<p>6、文件尾留空<br />
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。</p>
+
+<p>end.at.last.line=0</p>
+
+<p>7、工具条<br />
+默认不显示工具条，可能是觉得快捷键更好吧。</p>
+
+<p>toolbar.visible=1</p>
+
+<p>8、状态条<br />
+默认不显示状态条。</p>
+
+<p>statusbar.visible=1</p>
+
+<p>9、选中部分颜色<br />
+分别为前景色和后景色，都换成了我习惯用的颜色。</p>
+
+<p>selection.fore=#FFFFFF<br />
+selection.back=#0080FF</p>
+
+<p>10、设置语法提示<br />
+除了默认的语法提示之外，还可以通过新增 API
+文件增加语法提示种类。需要告诉程序 API
+文件的位置。我建议是在工作目录中新建一个 api
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。</p>
+
+<p>如<br />
+api.<em>.c=$(SciteDefaultHome)\api\c.api api.</em>.py=$(SciteDefaultHome)\api\python.api<br />
+api.*.php=\$(SciteDefaultHome)\api\php.api</p>
+
+<p>11、设置 Tab<br />
+默认是缩排8位，最好是统一改为4位。</p>
+
+<p>tabsize=4<br />
+indent.size=4</p>
+
+<p>12、文件中搜索<br />
+默认搜索 <em>.c、</em>.cxx 和 *.h 文件。</p>
+
+<p>find.files=<em>.</em></p>
+
+<p>13、自动完成</p>
+
+<p>autocompleteword.automatic=1</p>
+
+<p>14、自动补全 XML 标签</p>
+
+<p>xml.auto.close.tags=1</p>
+
+<p>15、显示最近打开的文件</p>
+
+<p>save.recent=1</p>
+
+<p>16、设置 Home/End<br />
+默认跳至逻辑行的行首和行尾，即使打开了自动换行。</p>
+
+<p>wrap.aware.home.end.keys=1</p>
+
+<p><strong>缩略词配置：</strong><br />
+编辑 abbrev.properties 文件，按照如下格式定义缩略词。</p>
+
+<p>缩略词=完整词句</p>
+
+<p>如 Calon=Remainder Book</p>
+
+<p>编辑后输入“Calon”后按下 Ctrl+B，则自动替换为 Remainder Book。</p>
+
+<p>如果想让光标在替换之后定位在词尾之外的位置，则用一个管道符“|”指示该位置。</p>
+
+<p>如 Calon=Remainder|Book</p>
+
+<p><strong>其他：</strong><br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE 主页</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDownload.html">下载页面</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDoc.html">帮助文档</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEExtras.html">附加内容</a><br />
+<a href="http://calon.xu.googlepages.com/SciTEGlobal.properties">我的全局设置</a>（SciteDefaultHome
+为空，请自己设置）<br />
+<a href="http://calon.xu.googlepages.com/gen_python_api.py">由 Markus Gritsch 编写的 Python
+语法提示文件生成脚本</a>（需要安装
+<a href="http://www.python.org/">Python</a>）</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fscite-shiyong-shezhi%2f&text= @calon SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae》&body=https%3a%2f%2fioerr.github.io%2fscite-shiyong-shezhi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/scite-shiyong-shezhi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Apr 2006, 16:02</time>
+      <h1>SciTE 实用设置</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><strong>全局配置：</strong><br />
+打开 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a> 所在目录中的
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改
+SciTEUser.properties 或 SciTE.properties。</p>
+
+<p>1、文字编码<br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。</p>
+
+<p>UTF-8：code.page=65001<br />
+GBK：code.page=936<br />
+Big5：code.page=950</p>
+
+<p>2、换行<br />
+由于 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a>
+一般用于编写代码，所以默认设置是不换行的。</p>
+
+<p>wrap=1</p>
+
+<p>3、窗口最大化<br />
+默认窗口是长条形，不符合通常的习惯。</p>
+
+<p>position.width=-1<br />
+position.height=-1</p>
+
+<p>4、工作目录</p>
+
+<p>SciteDefaultHome=SciTE 所在的目录</p>
+
+<p>5、最小化到系统托盘</p>
+
+<p>minimize.to.tray=1</p>
+
+<p>6、文件尾留空<br />
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。</p>
+
+<p>end.at.last.line=0</p>
+
+<p>7、工具条<br />
+默认不显示工具条，可能是觉得快捷键更好吧。</p>
+
+<p>toolbar.visible=1</p>
+
+<p>8、状态条<br />
+默认不显示状态条。</p>
+
+<p>statusbar.visible=1</p>
+
+<p>9、选中部分颜色<br />
+分别为前景色和后景色，都换成了我习惯用的颜色。</p>
+
+<p>selection.fore=#FFFFFF<br />
+selection.back=#0080FF</p>
+
+<p>10、设置语法提示<br />
+除了默认的语法提示之外，还可以通过新增 API
+文件增加语法提示种类。需要告诉程序 API
+文件的位置。我建议是在工作目录中新建一个 api
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。</p>
+
+<p>如<br />
+api.<em>.c=$(SciteDefaultHome)\api\c.api api.</em>.py=$(SciteDefaultHome)\api\python.api<br />
+api.*.php=\$(SciteDefaultHome)\api\php.api</p>
+
+<p>11、设置 Tab<br />
+默认是缩排8位，最好是统一改为4位。</p>
+
+<p>tabsize=4<br />
+indent.size=4</p>
+
+<p>12、文件中搜索<br />
+默认搜索 <em>.c、</em>.cxx 和 *.h 文件。</p>
+
+<p>find.files=<em>.</em></p>
+
+<p>13、自动完成</p>
+
+<p>autocompleteword.automatic=1</p>
+
+<p>14、自动补全 XML 标签</p>
+
+<p>xml.auto.close.tags=1</p>
+
+<p>15、显示最近打开的文件</p>
+
+<p>save.recent=1</p>
+
+<p>16、设置 Home/End<br />
+默认跳至逻辑行的行首和行尾，即使打开了自动换行。</p>
+
+<p>wrap.aware.home.end.keys=1</p>
+
+<p><strong>缩略词配置：</strong><br />
+编辑 abbrev.properties 文件，按照如下格式定义缩略词。</p>
+
+<p>缩略词=完整词句</p>
+
+<p>如 Calon=Remainder Book</p>
+
+<p>编辑后输入“Calon”后按下 Ctrl+B，则自动替换为 Remainder Book。</p>
+
+<p>如果想让光标在替换之后定位在词尾之外的位置，则用一个管道符“|”指示该位置。</p>
+
+<p>如 Calon=Remainder|Book</p>
+
+<p><strong>其他：</strong><br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE 主页</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDownload.html">下载页面</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDoc.html">帮助文档</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEExtras.html">附加内容</a><br />
+<a href="http://calon.xu.googlepages.com/SciTEGlobal.properties">我的全局设置</a>（SciteDefaultHome
+为空，请自己设置）<br />
+<a href="http://calon.xu.googlepages.com/gen_python_api.py">由 Markus Gritsch 编写的 Python
+语法提示文件生成脚本</a>（需要安装
+<a href="http://www.python.org/">Python</a>）</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fscite-shiyong-shezhi%2f&text= @calon SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae》&body=https%3a%2f%2fioerr.github.io%2fscite-shiyong-shezhi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/yetantan-gei-blog-dafen/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Apr 2006, 10:01</time>
+      <h1>也谈谈给 blog 打分</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://blog.donews.com/laobai/">老白</a>最近在说<a href="http://blog.donews.com/laobai/archive/2006/03/30/803099.aspx">给 blog
+打分</a>的事情，不管到底该怎么打分，对订阅数量很多的人来说，一套自动给
+blog 排名、筛选的机制看来是急需的了。</p>
+
+<p>说到打分，我觉得有三点需要重点谈一谈：</p>
+
+<p>第一是作弊。<br />
+当你把投票权交给用户的时候，怎样才能够保证其中不会有人疯狂地作弊，使得打分结果出现严重偏差？一个机制首先要有效防范人性恶的一面，才够资格让人信赖，否则的话就要靠其他人的力量－－比如说站点管理员－－来制衡。但很多时候就算投入人力也无法制约，比如经常能够见到有人到论坛中请人帮忙投票，这种投票是无法防范的。</p>
+
+<p>第二是方便。<br />
+说实话，看完文章后愿意打分的用户是少之有少，毕竟要看这么多文章工作量也实在太大，搞不好到最后只有作弊者愿意打分了。所以，要让用户参与评价，“投票”方法越方便越好，最好的当然是不劳用户自己动手，比如<a href="http://in.comengo.net/">未完成</a>在《<a href="http://in.comengo.net/archives/rss-reading-and-attention/">RSS阅读排序与过滤的7种方式</a>》中介绍的几种统计分析方式。</p>
+
+<p>第三是排名的合理性。<br />
+个人以为像 <a href="http://www.google.com/">Google</a> Rank
+那样一个大杂烩式的排名是不适合 blog
+的，因为每个人的口味偏好都不相同，大多数人认为最好的 blog
+并不一定就是我最喜欢的，所以，需要根据某一部分与你偏好差不多的特定人群来决定排序。这不是一个简单的打分就能够实现的，也不是仅仅一个
+blog 排序页面能够展现的。</p>
+
+<p>既要防范作弊，又要方便操作，还要能够细分数据，符合这三个条件的，我首先就想到了
+<a href="http://www.last.fm/">Last.Fm</a>。</p>
+
+<p>在你听音乐的时候，<a href="http://www.last.fm/">Last.Fm</a> 的 <a href="http://www.last.fm/downloads.php">AudioScrobbler
+插件</a>在后台就已经把歌曲信息上传到了服务器，你听过哪支乐队的哪支歌曲，就决定了在
+<a href="http://www.last.fm/">Last.Fm</a>
+上显示的统计数据。这样提交信息的成本几乎是0，只要第一次配置正确了，后面的工作完全不用操心，而作弊比不作弊的成本高太多，又没有什么好处，可以说基本不会有人作弊。</p>
+
+<p><a href="http://www.last.fm/">Last.Fm</a>
+提供的统计数据也是非常详尽的，无论是根据歌曲寻找同好，根据同好寻找歌曲都非常方便，还是按照风格等分类寻找资源，都不在话下，只要用户数的规模够大，即使是品位另类的人也不用担心找不到有用的信息。</p>
+
+<p>回到 blog 打分这个话题上面来，我想其实完全可以借鉴
+<a href="http://www.last.fm/">Last.Fm</a> 的方式。Blogger
+对应的就是乐队或歌手，blog 相当于专辑，因为一个 blogger 可能有多个
+blog，而一篇 post 即相当于一首歌曲。</p>
+
+<p>生搬硬套也不行，至少有以下几个问题：</p>
+
+<p>第一，是根据阅读 RSS Feed 还是根据浏览的页面进行统计，是通过类似
+<a href="http://www.bloglines.com/">Bloglines</a>
+的在线订阅服务、为离线阅读器开发插件还是为浏览器开发插件来收集信息？不论用什么方法，都要注意保证用户学习的东西别太多，这个是吸引尽可能多的用户的基础，而用户数足够多的时候，即使只是一部分
+blog 读者，其产生的统计数据也足够作参考了。</p>
+
+<p>第二是音乐文件有现成的 tag，blog 大概只有 URL 和 RSS Feed
+地址能够作为标识，所以处理的时候会复杂一点；音乐文件有时间长度的概念，听完自然就切换到下一首，很少有人会同时听数首或者反复播放同一首歌，可你很难知道一个用户阅读
+feed 或者 post
+的准确时间，可能他只是忘记关闭窗口，或者先阅读其他文章，过一会儿再切换到这一篇。</p>
+
+<p>第三，用户规模不容乐观。<br />
+相对于传统用户，订阅、浏览 blog
+的用户本来就不算多，和使用电脑听音乐的用户数也有很大差距。<br />
+订阅 blog 数量太多，需要有服务帮忙筛选的人只占其中一小部分。<br />
+愿意寻找优秀的 blog 的人比愿意寻找感兴趣的音乐的人更少。<br />
+愿意安装插件、换用服务的用户比例也不会高，即使并不麻烦。<br />
+用户不多又会带来难以吸引新用户的恶性循环。</p>
+
+<p>想到这里，到底还是和操作系统捆绑有优势啊…</p>
+
+<p>当然 <a href="http://www.last.fm/">Last.Fm</a>
+也有不足之处，如要么根据某支乐队、某支歌曲，要么根据某个用户听过的所有歌曲预测相关的资源，却不能够根据某个用户的部分歌曲集合预测，假如我想找同时喜欢
+U2、Beatles、Eels 和 Akira Yamaoka 的 Silent Hill
+系列音乐的用户－－这个预测不应该被其他乐队、歌手的信息干扰，如 James
+Blunt－－那么现在的 <a href="http://www.last.fm/">Last.Fm</a> 是无能为力的。<br />
+同样的道理，我经常阅读的 blog 既有 IT
+类的又有人文类的还有娱乐类的，如果另一名用户在后两类 blog
+中的选择与我口味相近，我该怎么找到他呢？</p>
+
+<p>如果这个 blog
+评价系统行得通，那么针对不同类型用户的分类广告也就好做一些了。另外如果是基于
+feed 进行信息收集，也许可以实现这样的功能，blog
+作者能够知道谁、多少人正在通过 feed 阅读他的 blog。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyetantan-gei-blog-dafen%2f&text= @calon %e4%b9%9f%e8%b0%88%e8%b0%88%e7%bb%99%20blog%20%e6%89%93%e5%88%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b9%9f%e8%b0%88%e8%b0%88%e7%bb%99%20blog%20%e6%89%93%e5%88%86》&body=https%3a%2f%2fioerr.github.io%2fyetantan-gei-blog-dafen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/yetantan-gei-blog-dafen/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>02 Apr 2006, 10:01</time>
+      <h1>也谈谈给 blog 打分</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><a href="http://blog.donews.com/laobai/">老白</a>最近在说<a href="http://blog.donews.com/laobai/archive/2006/03/30/803099.aspx">给 blog
+打分</a>的事情，不管到底该怎么打分，对订阅数量很多的人来说，一套自动给
+blog 排名、筛选的机制看来是急需的了。</p>
+
+<p>说到打分，我觉得有三点需要重点谈一谈：</p>
+
+<p>第一是作弊。<br />
+当你把投票权交给用户的时候，怎样才能够保证其中不会有人疯狂地作弊，使得打分结果出现严重偏差？一个机制首先要有效防范人性恶的一面，才够资格让人信赖，否则的话就要靠其他人的力量－－比如说站点管理员－－来制衡。但很多时候就算投入人力也无法制约，比如经常能够见到有人到论坛中请人帮忙投票，这种投票是无法防范的。</p>
+
+<p>第二是方便。<br />
+说实话，看完文章后愿意打分的用户是少之有少，毕竟要看这么多文章工作量也实在太大，搞不好到最后只有作弊者愿意打分了。所以，要让用户参与评价，“投票”方法越方便越好，最好的当然是不劳用户自己动手，比如<a href="http://in.comengo.net/">未完成</a>在《<a href="http://in.comengo.net/archives/rss-reading-and-attention/">RSS阅读排序与过滤的7种方式</a>》中介绍的几种统计分析方式。</p>
+
+<p>第三是排名的合理性。<br />
+个人以为像 <a href="http://www.google.com/">Google</a> Rank
+那样一个大杂烩式的排名是不适合 blog
+的，因为每个人的口味偏好都不相同，大多数人认为最好的 blog
+并不一定就是我最喜欢的，所以，需要根据某一部分与你偏好差不多的特定人群来决定排序。这不是一个简单的打分就能够实现的，也不是仅仅一个
+blog 排序页面能够展现的。</p>
+
+<p>既要防范作弊，又要方便操作，还要能够细分数据，符合这三个条件的，我首先就想到了
+<a href="http://www.last.fm/">Last.Fm</a>。</p>
+
+<p>在你听音乐的时候，<a href="http://www.last.fm/">Last.Fm</a> 的 <a href="http://www.last.fm/downloads.php">AudioScrobbler
+插件</a>在后台就已经把歌曲信息上传到了服务器，你听过哪支乐队的哪支歌曲，就决定了在
+<a href="http://www.last.fm/">Last.Fm</a>
+上显示的统计数据。这样提交信息的成本几乎是0，只要第一次配置正确了，后面的工作完全不用操心，而作弊比不作弊的成本高太多，又没有什么好处，可以说基本不会有人作弊。</p>
+
+<p><a href="http://www.last.fm/">Last.Fm</a>
+提供的统计数据也是非常详尽的，无论是根据歌曲寻找同好，根据同好寻找歌曲都非常方便，还是按照风格等分类寻找资源，都不在话下，只要用户数的规模够大，即使是品位另类的人也不用担心找不到有用的信息。</p>
+
+<p>回到 blog 打分这个话题上面来，我想其实完全可以借鉴
+<a href="http://www.last.fm/">Last.Fm</a> 的方式。Blogger
+对应的就是乐队或歌手，blog 相当于专辑，因为一个 blogger 可能有多个
+blog，而一篇 post 即相当于一首歌曲。</p>
+
+<p>生搬硬套也不行，至少有以下几个问题：</p>
+
+<p>第一，是根据阅读 RSS Feed 还是根据浏览的页面进行统计，是通过类似
+<a href="http://www.bloglines.com/">Bloglines</a>
+的在线订阅服务、为离线阅读器开发插件还是为浏览器开发插件来收集信息？不论用什么方法，都要注意保证用户学习的东西别太多，这个是吸引尽可能多的用户的基础，而用户数足够多的时候，即使只是一部分
+blog 读者，其产生的统计数据也足够作参考了。</p>
+
+<p>第二是音乐文件有现成的 tag，blog 大概只有 URL 和 RSS Feed
+地址能够作为标识，所以处理的时候会复杂一点；音乐文件有时间长度的概念，听完自然就切换到下一首，很少有人会同时听数首或者反复播放同一首歌，可你很难知道一个用户阅读
+feed 或者 post
+的准确时间，可能他只是忘记关闭窗口，或者先阅读其他文章，过一会儿再切换到这一篇。</p>
+
+<p>第三，用户规模不容乐观。<br />
+相对于传统用户，订阅、浏览 blog
+的用户本来就不算多，和使用电脑听音乐的用户数也有很大差距。<br />
+订阅 blog 数量太多，需要有服务帮忙筛选的人只占其中一小部分。<br />
+愿意寻找优秀的 blog 的人比愿意寻找感兴趣的音乐的人更少。<br />
+愿意安装插件、换用服务的用户比例也不会高，即使并不麻烦。<br />
+用户不多又会带来难以吸引新用户的恶性循环。</p>
+
+<p>想到这里，到底还是和操作系统捆绑有优势啊…</p>
+
+<p>当然 <a href="http://www.last.fm/">Last.Fm</a>
+也有不足之处，如要么根据某支乐队、某支歌曲，要么根据某个用户听过的所有歌曲预测相关的资源，却不能够根据某个用户的部分歌曲集合预测，假如我想找同时喜欢
+U2、Beatles、Eels 和 Akira Yamaoka 的 Silent Hill
+系列音乐的用户－－这个预测不应该被其他乐队、歌手的信息干扰，如 James
+Blunt－－那么现在的 <a href="http://www.last.fm/">Last.Fm</a> 是无能为力的。<br />
+同样的道理，我经常阅读的 blog 既有 IT
+类的又有人文类的还有娱乐类的，如果另一名用户在后两类 blog
+中的选择与我口味相近，我该怎么找到他呢？</p>
+
+<p>如果这个 blog
+评价系统行得通，那么针对不同类型用户的分类广告也就好做一些了。另外如果是基于
+feed 进行信息收集，也许可以实现这样的功能，blog
+作者能够知道谁、多少人正在通过 feed 阅读他的 blog。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyetantan-gei-blog-dafen%2f&text= @calon %e4%b9%9f%e8%b0%88%e8%b0%88%e7%bb%99%20blog%20%e6%89%93%e5%88%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b9%9f%e8%b0%88%e8%b0%88%e7%bb%99%20blog%20%e6%89%93%e5%88%86》&body=https%3a%2f%2fioerr.github.io%2fyetantan-gei-blog-dafen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/305/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> Prev
+  </a>
+  
+
+  PAGE 306 / 460
+
+  
+  <a href="/page/307/" rel="next">
+    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

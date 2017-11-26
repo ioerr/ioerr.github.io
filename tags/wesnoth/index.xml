@@ -28,6 +28,111 @@ the Battle for Wesnoth
     </item>
     
     <item>
+      <title>Wesnoth 高级战术手册</title>
+      <link>https://ioerr.github.io/wesnoth-gaoji-zhanshu-shouce/</link>
+      <pubDate>Sun, 17 Apr 2011 12:26:43 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/wesnoth-gaoji-zhanshu-shouce/</guid>
+      <description>&lt;p&gt;因为&lt;a href=&#34;http://www.wesnoth.cn/&#34;&gt;韦诺之战中文论坛&lt;/a&gt;中有人提出来，所以抽时间翻译了下
+the Battle for Wesnoth
+的《高级战术手册》，只润色了一遍，而且因为游戏水平有限，一些存疑的地方给出了原文。&lt;/p&gt;
+
+&lt;p&gt;译自 Wesnoth Wiki 的
+&lt;a href=&#34;http://wiki.wesnoth.org/AdvancedTactics&#34;&gt;AdvancedTactics&lt;/a&gt;，&lt;a href=&#34;http://wiki.wesnoth.org/Advanced_Tactics_%28Simplified_Chinese%29&#34;&gt;这里是简体中文的页面&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;翻译过程中学到了一些之前没有发现的战术，比如用夜行单位堵路、背刺单位成对狩猎落单的单位、在不利时段开始前下毒、即将过关时不要升级。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wesnoth</title>
+      <link>https://ioerr.github.io/wesnoth/</link>
+      <pubDate>Wed, 29 Jul 2009 17:09:26 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/wesnoth/</guid>
+      <description>&lt;p&gt;虽然现在我没有多少时间钻研 &lt;a href=&#34;http://www.wesnoth.org/&#34;&gt;Wesnoth&lt;/a&gt;
+这样的游戏，但还是想把我之前试玩一段时间的心得写出来，谈谈这个游戏的特点和带来的启发。&lt;br /&gt;
+对 Wesnoth 的基本介绍，可以先看看它的&lt;a href=&#34;http://wiki.wesnoth.cn/&#34;&gt;中文
+Wiki&lt;/a&gt; 和&lt;a href=&#34;http://www.wesnoth.cn/&#34;&gt;论坛&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;首先，如果你经常玩战棋游戏，特别是皇家骑士团、FFT、高级战争、英杰传/曹操传这种类型的，上手
+Wesnoth 最不适应的估计就是它的&lt;strong&gt;高随机性&lt;/strong&gt;。&lt;br /&gt;
+即，攻击实际伤害的变动幅度可以非常大，能否在本回合内消灭敌方目标和保住己方的单位变得不那么有把握了。&lt;/p&gt;
+
+&lt;p&gt;直接的结果是，&lt;strong&gt;单位更加容易阵亡&lt;/strong&gt;。&lt;br /&gt;
+即使你出动最高等级的精英部队，也没有把握能够保证1、2个回合之内能够全身而退，一个高等级的精英部队运气不好时可能被2、3个低等级部队一回合就殴打致死，这在练级型的
+SRPG、蓄养精英部队的 SLG 中几乎是不可想象的。&lt;br /&gt;
+肉盾型的部队有很大几率一去不复返，高伤害高速度低防御的攻击型部队可能会频频失手导致陷入长期肉搏战，习惯了步步为营0伤亡过关的玩家可能会被它的高阵亡率和高失手率吓住。从另一个角度来看，Wesnoth
+是一个鼓励或者要求玩家果断舍弃作战单位并且充分考虑失算后的后招的游戏，有牺牲的勇气才有胜利的希望，有备无患才有抗打击的能力，缩手缩脚和没有远虑是没有好下场的——当然，总有最高难度挑战0伤亡的变态人士存在，但联机对战的时候你还能追求0伤亡么？&lt;/p&gt;
+
+&lt;p&gt;高随机率的另一个结果，是在作战部队较少的情况下，&lt;strong&gt;高手被击败的概率提高了&lt;/strong&gt;。&lt;br /&gt;
+虽然有的人抱怨这样显得运气重于实力，但真实的战场上运气确实对战局有很大的影响，名将在计算中会对厄运的影响留有一手，这也是名将为何能在逆势中力挽狂澜的原因。&lt;br /&gt;
+再者，如果两人的水准相差太大，运气通常还不足以使高手蒙羞，战术技巧和经验仍是决定性的因素。&lt;/p&gt;
+
+&lt;p&gt;高随机率还有一个好处，就是&lt;strong&gt;降低了先手优势&lt;/strong&gt;。&lt;br /&gt;
+我们知道，战棋游戏中的先手优势是非常大的，因为遭到攻击的部队通常不会实时反击，就算有反击也通常是低于标准攻击伤害或者随机发动的，而且无法选择攻击对象，因此先接敌发起攻击的一方在战术上有非常大的优势，有可能第一个回合就消灭了对方前列的先锋部队、完成休整并组织好防御阵势。&lt;br /&gt;
+但高随机率在一定程度上降低了这种先手优势，因为主动攻击者失算的概率大大提高了，善于精确计算和计划的玩家可能会发现，有时候一个目标单位还存活在地图上，后续的进攻计划就无法展开，结果经常被自己的进攻计划玩死，而防守方往往能够在阵型没被打乱的情况下组织反击。&lt;/p&gt;
+
+&lt;p&gt;如果你实在不习惯 Wesnoth
+的这个特性，还可以更改源码去掉随机成分，不过联机对战时无效。&lt;/p&gt;
+
+&lt;p&gt;Wesnoth
+的等级系统也比较特殊，一般战棋游戏如果有等级设置的话，最高等级是10、20、25、60、99这样的数字（作弊改到255的不算），可是
+Wesnoth 的许多战役最高等级都只有3、4，连5都算很高了，还是有主角光环的。&lt;br /&gt;
+这样的结果就是，&lt;strong&gt;初级单位和最高级单位之间的实力差距比较小&lt;/strong&gt;，疯狂练级意义不大（通常是微微提高最高生命值，但划不来）。这与高随机性结合之后，单位阵亡率就更高了，而且对习惯了练级的狂人来说又是当头一棒。&lt;/p&gt;
+
+&lt;p&gt;Wesnoth 第三个明显的特点是，&lt;strong&gt;远程攻击部队射程也只有一格&lt;/strong&gt;！&lt;br /&gt;
+习惯了用远程攻击部队（弓箭手、投石车、魔法师…猪如此累）躲在肉盾后面偷袭的玩家要当心了，Wesnoth
+中的远程攻击部队也是要贴近对方部队才能发起攻击的，只有当对方是近距离肉搏型单位时，才能获得不会被反击的优势。&lt;br /&gt;
+这意味着什么呢？意味着四格战棋中完全包围后，4肉搏+至少8远程，或者六格战棋中6肉搏+至少6远程攻击一个单位的战术是没有市场的。无论你有多少单位包围了敌人，最多也只能有6个单位在一回合内发起攻击。这在一定程度上降低了阵亡率，同时大大削弱了远程攻击型部队的战术价值（至少没有其他战棋游戏中那么重要），相对提高了肉搏型部队的地位，还削弱了进攻方的优势。&lt;/p&gt;
+
+&lt;p&gt;Wesnoth
+的第四个特点是&lt;strong&gt;补给治疗单位的补给量是分摊给周围单位&lt;/strong&gt;，而不是每个单位都补给全量。&lt;br /&gt;
+一般的战棋游戏中，如果补给单位单回合的补给能力是 a，那么它最多可以给 n
+个单位每个补给 a 的生命或者士气，而 Wesnoth 中，a 的补给量是要 n
+个部队平分的。&lt;br /&gt;
+我认为在后勤补给必不可少的情况下，这反倒提高了补给单位的地位。&lt;/p&gt;
+
+&lt;p&gt;第五个特点是&lt;strong&gt;招募系统&lt;/strong&gt;。&lt;br /&gt;
+Wesnoth
+中的部队除了剧情人物之外，其他的是可以用金钱招募的，每个关卡幸存的部队带着经验值和等级可以在下一关卡重新招募，每个回合要消耗金钱养兵，要通过占领村庄获取收入。&lt;br /&gt;
+这样部队组成就比一般的 SRPG
+灵活，可以自由控制，尝试多种组合，同时也要求玩家不止有战术思想，还要有经济和战略头脑。&lt;br /&gt;
+由于高级单位的招募和养兵费用更高，这也限制了过多的高级单位出场，有平衡作用。&lt;/p&gt;
+
+&lt;p&gt;第六个特点是阵亡设计。&lt;br /&gt;
+每个关卡中&lt;strong&gt;阵亡的部队将永远不再出现&lt;/strong&gt;！这是名副其实的阵亡。&lt;br /&gt;
+SRPG
+中习惯让肉盾型部队冲锋在前挂掉之后下个关卡又生龙活虎继续出场干脏活卖苦力的玩家这下傻眼了，这回可是真正的牺牲，所以在勇于牺牲之外也一定要懂得珍惜精英部队。&lt;/p&gt;
+
+&lt;p&gt;Wesnoth 的第六个特点是&lt;strong&gt;默认全图行动&lt;/strong&gt;。&lt;br /&gt;
+大部分大地图的 SRPG
+游戏，只有在你进入其警戒范围之内敌人才会向你移动并发起攻击，相隔甚远的敌人只会喝茶聊天。玩家通常会一层一层的清除敌人，直至亲密接触大老板。如果这些高等级的敌人从第一回合就一拥而上，难度就提高了不止一个等级——例如有追击场景的关卡。（嗯，我很久没有玩这类
+SRPG 了，已经不记得是不是都是这样了，一般 SRPG
+应该只有追击关卡是全部敌人每回合都向玩家的部队移动，通常还是用固定的脚本实现的…）&lt;br /&gt;
+SLG 游戏如三国志5、大战略、War in Russia，则是全地图全单位行动，Wesnoth
+的敌人行动模式属于后面这一种。&lt;/p&gt;
+
+&lt;p&gt;其他特点：&lt;br /&gt;
+相对于其他 SRPG，Wesnoth
+不但削弱了高等级精英部队的地位，还弱化了武器装备的因素，加上战争迷雾，感觉更加&lt;strong&gt;倾向于联机对战&lt;/strong&gt;。&lt;br /&gt;
+&lt;strong&gt;昼夜变化对战斗力有很大的影响&lt;/strong&gt;，选择正确的时机和地形有时候比拥有高等级单位更关键。&lt;br /&gt;
+单人战役中，Wesnoth 是&lt;strong&gt;可以回退到任意回合开始&lt;/strong&gt;的，这无疑是 SL
+狂人的福音。&lt;br /&gt;
+因为&lt;strong&gt;存档文件不加密&lt;/strong&gt;，所以单人战役要作弊你需要的只是一个文本编辑器…&lt;/p&gt;
+
+&lt;p&gt;最后，也是最重要的一个特性是， Wesnoth 是&lt;strong&gt;跨平台&lt;/strong&gt;（Windows、Mac、Linux
+都支持）、&lt;strong&gt;免费&lt;/strong&gt;、&lt;strong&gt;开源&lt;/strong&gt;的游戏，资源可以自己制作和加入，公式和参数可以自己修改，战役和时代（相当于
+MOD）可以自己定制。&lt;/p&gt;
+
+&lt;p&gt;另：因为最开始接触的是四格战棋，所以一直对六格战棋不怎么习惯（大战略、英雄无敌、WIR、Advanced
+Tactics 在哭泣），几个月前玩了一段时间的 Wesnoth
+之后，我才发现两者在计算移动步数、围攻时攻防优劣有差异外，还有：&lt;br /&gt;
+如果防守方组成线性阵型，那么在四格战棋中，防守方的单位最多只会遭到1个进攻方单位的近身攻击，而在六格战棋中最多会遭到2个进攻方单位的近身攻击——虽然线性阵型进攻线性阵型时理论上平均下来其实都是单挑，但只要有2戳1的机会，打开线性阵型上的缺口的概率就会大增。因此，即使是线性布阵，四格战棋也是更有利于防守方的。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wesnoth</title>
       <link>https://ioerr.github.io/wesnoth/</link>
       <pubDate>Wed, 29 Jul 2009 17:09:26 +0000</pubDate>

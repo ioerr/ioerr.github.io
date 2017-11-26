@@ -48,6 +48,43 @@
     </item>
     
     <item>
+      <title>搜狗输入法智慧版</title>
+      <link>https://ioerr.github.io/sougou-shurufa-zhihuiban/</link>
+      <pubDate>Fri, 12 Oct 2012 03:19:47 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/sougou-shurufa-zhihuiban/</guid>
+      <description>&lt;p&gt;搜狗输入法最近推出了&lt;a href=&#34;http://pinyin.sogou.com/zhihui/&#34;&gt;智慧版&lt;/a&gt;，宣传的功能亮点如下：&lt;br /&gt;
+1、情景感知：配合 IE
+内核的浏览器使用时，根据不同的输入框调整候选词排序；&lt;br /&gt;
+2、文思泉涌：诗词提示补全，并且展示诗词信息；&lt;br /&gt;
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；&lt;br /&gt;
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；&lt;br /&gt;
+5、拼音纠错：自动纠正和提示错误的拼音；&lt;br /&gt;
+6、长词联想和云计算：都不是新鲜功能了。&lt;/p&gt;
+
+&lt;p&gt;情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。&lt;br /&gt;
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；&lt;br /&gt;
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。&lt;/p&gt;
+
+&lt;p&gt;搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。&lt;/p&gt;
+
+&lt;p&gt;几年前在智能狂拼的 QQ
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。&lt;br /&gt;
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。&lt;br /&gt;
+另一方面，情境往往变化频繁，比如同时挂 IM
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。&lt;br /&gt;
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。&lt;/p&gt;
+
+&lt;p&gt;所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：&lt;br /&gt;
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；&lt;br /&gt;
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；&lt;br /&gt;
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。&lt;/p&gt;
+
+&lt;p&gt;真正做到了这些，我才会认为输入法是有智慧的。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>豆瓣改版</title>
       <link>https://ioerr.github.io/douban-gaiban/</link>
       <pubDate>Thu, 15 Nov 2007 15:43:03 +0000</pubDate>
@@ -74,6 +111,58 @@ Please&lt;/a&gt;
 有朋友&lt;a href=&#34;http://calon.weblogs.us/qiangnei/#comment-35183&#34;&gt;提醒&lt;/a&gt;这里的页面被挂了木马，我的
 Firefox+Avira AntiVir 没有任何反应，后来再用 IE
 打开貌似也无反应，不知道现在是否还有？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>豆瓣改版</title>
+      <link>https://ioerr.github.io/douban-gaiban/</link>
+      <pubDate>Thu, 15 Nov 2007 15:43:03 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/douban-gaiban/</guid>
+      <description>&lt;p&gt;拼音加加推出了&lt;a href=&#34;http://bbs.jjol.cn/showthread.php?t=2374&#34;&gt;新的4.2.0.16版本&lt;/a&gt;，对我来说比较实用的新功能只有
+Backspace
+自动删除新词，这是向搜狗学习的实用功能，总算加入进来了。如此，在保留焦点方面更胜一筹的拼音加加又追上了搜狗一段距离。&lt;br /&gt;
+自定义辅助码比较上等，但估计只会有非常上等的用户才会用到。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stardict.sourceforge.net/&#34;&gt;StarDict&lt;/a&gt;
+更新到了3.0.1版本。版本升3之后，与网络词典的结合更加紧密，直接调用各大翻译服务进行文章词句翻译的做法对用户来说非常方便，但本地程序在操作细节方面并不比上一个版本好用多少，比如取词的时候依旧上蹿下跳，翻译结果有延时的时候展现方式不佳…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.douban.com/&#34;&gt;豆瓣&lt;/a&gt;则进行了改版，有人说界面变好看了，变得更加清爽了，有的说喜欢新的搜索框，有的说很丑，不喜欢绿色的导航条，有的说字体太小，有的说链接没有下划线不习惯，还有人不喜欢要多点几次的二级导航菜单。&lt;br /&gt;
+从豆瓣加入音乐、电影、blog
+要素之后，导航条的重整就是不可避免的事情，所以豆粉大可不必对新的二级导航条捶胸顿足，新改版中的这个变动虽然会让部分人不习惯，但绝对是有利于新用户的。&lt;br /&gt;
+至于字体、配色、下划线等等，如果实在无法适应，那么就祭出
+Firefox+Greasemonkey/Stylish，请高手或自己整一个顺眼的界面吧。&lt;/p&gt;
+
+&lt;p&gt;为了测试一下反 spam 的效果以及表达一下我对外国友人的正当歧视，特安装了
+&lt;a href=&#34;http://bingu.net/blog/447/wp-plugin-some-chinese-please/&#34;&gt;Some Chinese
+Please&lt;/a&gt;
+插件。&lt;br /&gt;
+有朋友&lt;a href=&#34;http://calon.weblogs.us/qiangnei/#comment-35183&#34;&gt;提醒&lt;/a&gt;这里的页面被挂了木马，我的
+Firefox+Avira AntiVir 没有任何反应，后来再用 IE
+打开貌似也无反应，不知道现在是否还有？&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>拼音加加4.2.0.10公测版</title>
+      <link>https://ioerr.github.io/pinyinjiajia-42010-gongceban/</link>
+      <pubDate>Mon, 10 Sep 2007 05:33:29 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/pinyinjiajia-42010-gongceban/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dir.jjol.cn/Pyjj/&#34;&gt;拼音加加&lt;/a&gt;&lt;a href=&#34;http://bbs.jjol.cn/showthread.php?t=856&#34;&gt;发布了4.2.0.10公测版&lt;/a&gt;，我一直还有在用2.204版，趁着最近各大输入法升级较少的时段测试了一下这个公测版。&lt;/p&gt;
+
+&lt;p&gt;本身的能力没什么好说的，2.204版就已经是一个水准很高的版本了，发展到现在，在词库管理、智能组词、编辑修改词组等方面还有如搜狗这样的后来者值得学习的地方；&lt;br /&gt;
+自定义皮肤非常方便，也有不少好看的皮肤可选，默认的就太丑了；&lt;br /&gt;
+状态条的外观无法更换，很难看；&lt;br /&gt;
+有了繁體字輸入功能，但繁體詞組的問題和其他輸入法一樣；&lt;br /&gt;
+新发现的 bug 是，在 &lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;
+下，词组还未上屏时使用右键弹出菜单，会造成编辑器非法操作，还好
+&lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt; 有存档挽救功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pix.ie/calon/358072&#34;&gt;&lt;img src=&#34;http://photos3.pix.ie/CC/BC/CCBC0AC5F2CA4B06B1E67F3079DE3347.jpg&#34; alt=&#34;ScreenShot00009&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;顺便测试 &lt;a href=&#34;http://pix.ie/&#34;&gt;Pix.ie&lt;/a&gt; 的贴图。&lt;/p&gt;
 </description>
     </item>
     

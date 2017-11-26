@@ -39,5 +39,34 @@ Make Me Think》中有以 Amazon
 </description>
     </item>
     
+    <item>
+      <title>标签页的细节</title>
+      <link>https://ioerr.github.io/biaoqianye-de-xijie/</link>
+      <pubDate>Mon, 06 Oct 2008 09:26:37 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/biaoqianye-de-xijie/</guid>
+      <description>&lt;p&gt;发现一个奇怪的现象：使用 Foxit PDF Reader
+时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如
+Firefox、WPS，却很少出现这种乌龙，这是为什么呢？&lt;/p&gt;
+
+&lt;p&gt;于是我看了一下这几个软件的标签栏：&lt;/p&gt;
+
+&lt;p&gt;Foxit PDF Reader 的标签栏：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-06_155653.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-06_155653.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;WPS 表格的标签栏：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-06_155505.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-06_155505.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;可以发现存在这样的区别：&lt;br /&gt;
+当前标签页的标题是否加粗；&lt;br /&gt;
+当前标签的背景颜色是否与众不同，如加亮、变色；&lt;br /&gt;
+标签页是否有醒目的图标。&lt;/p&gt;
+
+&lt;p&gt;如果标签页缺少存在感，自然容易在执行关闭操作的时候被无视。记得在《Don&amp;rsquo;t
+Make Me Think》中有以 Amazon
+为例专门阐述标签页设计的章节，如果你开发的软件或者网页有标签页/标签栏的设计，建议要读一读。&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

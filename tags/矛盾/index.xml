@@ -48,6 +48,66 @@ Kindle（好吧，严格说这不算平板电脑，但如果哪天高刷新率�
     </item>
     
     <item>
+      <title>移动设备需求分析</title>
+      <link>https://ioerr.github.io/yidong-shebei-xuqiu-fenxi/</link>
+      <pubDate>Fri, 15 Oct 2010 14:56:32 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yidong-shebei-xuqiu-fenxi/</guid>
+      <description>&lt;p&gt;曾经在《&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;》中提到过三个基本矛盾：&lt;br /&gt;
+一、显示面积和设备体积、重量的矛盾；&lt;br /&gt;
+二、操作舒适性和设备体积的矛盾；&lt;br /&gt;
+三、高性能、多功能与耗电量、电池贮存量的矛盾。&lt;/p&gt;
+
+&lt;p&gt;在《&lt;a href=&#34;http://calon.weblogs.us/cong_iphone_kan_sanda_maodun/&#34;&gt;从 iPhone
+看三大矛盾&lt;/a&gt;》中也分析过
+iPhone 的情况，现在以 iPad
+为首的平板电脑开始普及，云计算（为什么不干脆翻译成云算？）的概念忽悠正在变成有利可图的产业（也许以后
+Google 瘫掉还能活，Amazon
+残废许多小企业就要去死了？），不妨再评估一下，而且这三个矛盾已不能只属于“移动通信终端”，而是所有移动设备：&lt;/p&gt;
+
+&lt;p&gt;一、平板电脑的显示面积是不小了，在 iPod/iPhone
+上几近鸡肋的脑图工具（iThoughts 3.0也许是优化得最好的）推出 HD
+版本才能用得下去，可是 iPad
+从开始卖的时候就有用户抱怨单手握持看书是个体力活。至于便携性，除非你把平板电脑当护心镜用，否则还达不到赤条条来去的境界；&lt;br /&gt;
+话说回来，如果要达到最理想的显示境界，10英寸规模的尺寸其实还是小了，甚至屏幕只有一个都会是缺点。&lt;/p&gt;
+
+&lt;p&gt;二、既然设备体积的问题没有解决，那么这个矛盾也还是存在的。&lt;br /&gt;
+而且触摸屏的输入体验短期内没有改善的希望——也许我们应该说服自己，移动设备就不是用来输入长篇文字的？&lt;/p&gt;
+
+&lt;p&gt;三、电池的问题 iPad 和
+Kindle（好吧，严格说这不算平板电脑，但如果哪天高刷新率低耗电的彩色电子墨水具备进入市场的条件了呢？也许那时人类已经冲出太阳系了？）走两个不同的途径解决了，代价是前者的体积和重量并不完美而后者的显示效果只能用于静态画面，所以矛盾仍然存在，对需要长时间上网和娱乐的用户来说，目前的电池都不够用。&lt;/p&gt;
+
+&lt;p&gt;用 &lt;a href=&#34;http://freeplane.sourceforge.net/&#34;&gt;FreePlane&lt;/a&gt;
+画了一个需求分析和相应解决方案的草图，目前还看不到发展瓶颈的技术，比如减轻重量和增强功能，就没有深究了。这样整理一下之后，感觉思路还是清晰一些了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=3e69e48e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/3e69e48e.png&#34; alt=&#34;移动设备需求&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>从 iPhone 看三大矛盾</title>
+      <link>https://ioerr.github.io/cong-iphone-kan-sanda-maodun/</link>
+      <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/cong-iphone-kan-sanda-maodun/</guid>
+      <description>&lt;p&gt;曾经在&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;中提到过三个基本矛盾：&lt;br /&gt;
+一、显示面积和设备体积、重量的矛盾&lt;br /&gt;
+二、操作舒适性和设备体积的矛盾&lt;br /&gt;
+三、高性能、多功能与耗电量、电池贮存量的矛盾&lt;/p&gt;
+
+&lt;p&gt;现在以仍然在吸引眼球的 iPhone 为例，看看这三个矛盾是否还存在：&lt;/p&gt;
+
+&lt;p&gt;一、iPhone
+的屏幕占据了几乎整个面板正面，应该说在保持体积/面积的前提下，不可能再有扩展空间了，除非采用折叠、投影或眼镜式显示屏等方式。从目前的反响来看，没有人还嫌屏幕太小？&lt;br /&gt;
+二、无数人大赞 iPhone
+的多点触摸屏幕和软件带来的优良的操作体验，这个矛盾似乎也不成问题，但别忘了，触摸显示屏没有按键操作的反馈手感，这个问题确有不少人抱怨过。要不我们可以把塑胶泡泡粘在手指上，对着屏幕指指点点就把它挤得噼啪作响？&lt;br /&gt;
+三、最致命的问题还是在这里啊！从 iPod 到
+iPhone，电池都是遭到批评的部分，从 iPhone
+的身上我们完全看不出这个矛盾有缓解的迹象啊！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>从 iPhone 看三大矛盾</title>
       <link>https://ioerr.github.io/cong-iphone-kan-sanda-maodun/</link>
       <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>

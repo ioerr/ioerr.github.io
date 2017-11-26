@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/dianzishu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>20 Dec 2004, 15:14</time>
+      <h1>电子书</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>找到了很久之前写的一篇关于电子书籍硬件的东西，又是大发宏愿啦，都是泛泛而谈的东西，我可不想写一个正规的需求说明书。</p>
+
+<p>在“<a href="http://blog.twblog.net/jeph/">音谋笔记</a>”上看到关于电子书籍的讨论，忽然想到自己以前也想过这方面的问题，只是忘记整理了。</p>
+
+<p>最重要的当然是“显示”。目前看来，耗电量小能够长时间使用、屏幕面积大、显示效果好，都是很重要的。<br />
+如果 e-ink
+能够降低成本广泛使用并且解决好刷新的问题，那么无疑比传统的显示手段更有前景－－毕竟它最初提出来就是针对电子书籍的。像
+<a href="http://nmb.musizworms.org/minibu/">Minibu
+電書閱讀器實機使用報告</a>里面提到的胆固醇稳态记忆屏幕就实用性来说已经很不错了。<br />
+屏幕的面积当然不能够太小，但是32开还是大了一点。阅读的时候固然有读普通纸质书籍的感觉，但总要考虑别人出行携带的方便呀。个人认为64开左右比较理想了，相应的重量也可以减轻。最好是有各种档次的产品，便于消费者各取所需。<br />
+显示效果又有对比度、分辨率及字体、色彩等问题。对比度就不用说了，电子书应该是能够全天候的，光线稍微暗一点就只能够打开背光，省电也就无从说起了，当然必要的时候背光还是少不了。<br />
+分辨率和字体外观提高的空间不多，只要不是太丑就行，如果要能够显示彩色图片，那么色彩和分辨率就不得不多考虑，但是我觉得现在过多的考虑这个会使成本难以降下来。话又说回来，如果要支持
+PDF、JPG、Office
+家族格式的文件，那么显示彩色图片的问题就不能够回避呀，虽然可以自由转换文件格式，丢掉了色彩到底还是影响阅读效果。</p>
+
+<p>其次就是“功能”。<br />
+阅读功能必不可少，不知是否能够很好的支持超级链接（那这样格式转换的时候就要多下点功夫了，而且可能还要弄个手写笔、光标或者其他的折衷办法…）。</p>
+
+<p>最好能够有修改编辑功能，成本允许的话，支持手写笔是最好的。<br />
+如果要能够编辑，如何输入呢？触摸屏、手写？语音？数字按键？还是用英文键盘输入？如果采用后两种，一个速度慢，一个影响可视面积；而前两种如果保证了输入质量，成本又会不可避免的提高…干脆还是传输到电脑上编辑算了：P
+另外，如果稳态记忆屏幕刷新速度不够的话，要很好的实现编辑功能恐怕比较困难。<br />
+说到用电子书籍作教材使用，最需要解决的仍然是笔记功能。如果好几届学生可以使用同一套电子书籍，不知道会不会较为节省开支－－前提是成本降下来，耐用性升上去：）</p>
+
+<p>上传下载功能。从电脑传到电子书上的功能自不必说，可是反过来呢？会不会被当作传输交流盗版书籍的平台？看样子如果版权问题不能很好解决，从电子书到电脑的途径就没办法畅通，不过很多书仍然可以从网上找到免费版本－－电子书的硬件制造商可能不会有太多抱怨，可是出版方呢？…</p>
+
+<p>如果有笔记功能的话，还要可以单独导出笔记文件才行…</p>
+
+<p>检索功能要足够实用。这又牵涉到文字输入的问题…</p>
+
+<p>联网功能。用户之间联网通信那是以后的事情了，现在可不可以实现电子杂志订阅功能呢？其实用电脑订阅再上传的话就足够了吧…为这个增加无线通讯功能代价未免太高了…</p>
+
+<p>还有，最重要的“功能”之一就是软件、硬件要符合用户的习惯，或者说，用起来方便、轻松。优秀的人机界面可以使一个产品的品质提升不止一个档次，如果不重视这一点，无疑是浪费了</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdianzishu%2f&text= @calon %e7%94%b5%e5%ad%90%e4%b9%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e4%b9%a6》&body=https%3a%2f%2fioerr.github.io%2fdianzishu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/dianzishu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>20 Dec 2004, 15:14</time>
+      <h1>电子书</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>找到了很久之前写的一篇关于电子书籍硬件的东西，又是大发宏愿啦，都是泛泛而谈的东西，我可不想写一个正规的需求说明书。</p>
+
+<p>在“<a href="http://blog.twblog.net/jeph/">音谋笔记</a>”上看到关于电子书籍的讨论，忽然想到自己以前也想过这方面的问题，只是忘记整理了。</p>
+
+<p>最重要的当然是“显示”。目前看来，耗电量小能够长时间使用、屏幕面积大、显示效果好，都是很重要的。<br />
+如果 e-ink
+能够降低成本广泛使用并且解决好刷新的问题，那么无疑比传统的显示手段更有前景－－毕竟它最初提出来就是针对电子书籍的。像
+<a href="http://nmb.musizworms.org/minibu/">Minibu
+電書閱讀器實機使用報告</a>里面提到的胆固醇稳态记忆屏幕就实用性来说已经很不错了。<br />
+屏幕的面积当然不能够太小，但是32开还是大了一点。阅读的时候固然有读普通纸质书籍的感觉，但总要考虑别人出行携带的方便呀。个人认为64开左右比较理想了，相应的重量也可以减轻。最好是有各种档次的产品，便于消费者各取所需。<br />
+显示效果又有对比度、分辨率及字体、色彩等问题。对比度就不用说了，电子书应该是能够全天候的，光线稍微暗一点就只能够打开背光，省电也就无从说起了，当然必要的时候背光还是少不了。<br />
+分辨率和字体外观提高的空间不多，只要不是太丑就行，如果要能够显示彩色图片，那么色彩和分辨率就不得不多考虑，但是我觉得现在过多的考虑这个会使成本难以降下来。话又说回来，如果要支持
+PDF、JPG、Office
+家族格式的文件，那么显示彩色图片的问题就不能够回避呀，虽然可以自由转换文件格式，丢掉了色彩到底还是影响阅读效果。</p>
+
+<p>其次就是“功能”。<br />
+阅读功能必不可少，不知是否能够很好的支持超级链接（那这样格式转换的时候就要多下点功夫了，而且可能还要弄个手写笔、光标或者其他的折衷办法…）。</p>
+
+<p>最好能够有修改编辑功能，成本允许的话，支持手写笔是最好的。<br />
+如果要能够编辑，如何输入呢？触摸屏、手写？语音？数字按键？还是用英文键盘输入？如果采用后两种，一个速度慢，一个影响可视面积；而前两种如果保证了输入质量，成本又会不可避免的提高…干脆还是传输到电脑上编辑算了：P
+另外，如果稳态记忆屏幕刷新速度不够的话，要很好的实现编辑功能恐怕比较困难。<br />
+说到用电子书籍作教材使用，最需要解决的仍然是笔记功能。如果好几届学生可以使用同一套电子书籍，不知道会不会较为节省开支－－前提是成本降下来，耐用性升上去：）</p>
+
+<p>上传下载功能。从电脑传到电子书上的功能自不必说，可是反过来呢？会不会被当作传输交流盗版书籍的平台？看样子如果版权问题不能很好解决，从电子书到电脑的途径就没办法畅通，不过很多书仍然可以从网上找到免费版本－－电子书的硬件制造商可能不会有太多抱怨，可是出版方呢？…</p>
+
+<p>如果有笔记功能的话，还要可以单独导出笔记文件才行…</p>
+
+<p>检索功能要足够实用。这又牵涉到文字输入的问题…</p>
+
+<p>联网功能。用户之间联网通信那是以后的事情了，现在可不可以实现电子杂志订阅功能呢？其实用电脑订阅再上传的话就足够了吧…为这个增加无线通讯功能代价未免太高了…</p>
+
+<p>还有，最重要的“功能”之一就是软件、硬件要符合用户的习惯，或者说，用起来方便、轻松。优秀的人机界面可以使一个产品的品质提升不止一个档次，如果不重视这一点，无疑是浪费了</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdianzishu%2f&text= @calon %e7%94%b5%e5%ad%90%e4%b9%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e4%b9%a6》&body=https%3a%2f%2fioerr.github.io%2fdianzishu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/kalaok/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>19 Dec 2004, 15:05</time>
+      <h1>卡拉OK</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…</p>
+
+<p>在<a href="http://xys.3322.org/">新语丝</a>看到 <a href="http://www.klogs.org/">Zheng</a> 谈论
+blog
+和“博客”的<a href="http://xys.3322.org/xys/netters/others/net/blog.txt">转载文章</a>，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。</p>
+
+<p><a href="http://del.icio.us/">Del.icio.us</a> 这些网站怎么不用多级 tag
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从
+tag 列表中找到匹配待查询信息的那一个吗？</p>
+
+<p>今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有
+U2 的 With Or Without
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。</p>
+
+<p><blockquote>
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”
+</blockquote>
+－－埃德华·O·威尔逊 《融会贯通》</p>
+
+<p><blockquote>
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。</p>
+
+<p>我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”
+</blockquote>
+－－Rudy Baum
+《<a href="http://www.oursci.com/magazine/200405/0522.htm">科学以及敬畏的本质</a>》</p>
+
+<p><blockquote>
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。
+</blockquote>
+<blockquote>
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？
+</blockquote>
+－－石青
+《<a href="http://www.oursci.com/magazine/200405/0517.htm">最可怕的东西</a>》</p>
+
+<p>为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？<br />
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。<br />
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkalaok%2f&text= @calon %e5%8d%a1%e6%8b%89OK&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8d%a1%e6%8b%89OK》&body=https%3a%2f%2fioerr.github.io%2fkalaok%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/kalaok/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>19 Dec 2004, 15:05</time>
+      <h1>卡拉OK</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…</p>
+
+<p>在<a href="http://xys.3322.org/">新语丝</a>看到 <a href="http://www.klogs.org/">Zheng</a> 谈论
+blog
+和“博客”的<a href="http://xys.3322.org/xys/netters/others/net/blog.txt">转载文章</a>，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。</p>
+
+<p><a href="http://del.icio.us/">Del.icio.us</a> 这些网站怎么不用多级 tag
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从
+tag 列表中找到匹配待查询信息的那一个吗？</p>
+
+<p>今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有
+U2 的 With Or Without
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。</p>
+
+<p><blockquote>
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”
+</blockquote>
+－－埃德华·O·威尔逊 《融会贯通》</p>
+
+<p><blockquote>
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。</p>
+
+<p>我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”
+</blockquote>
+－－Rudy Baum
+《<a href="http://www.oursci.com/magazine/200405/0522.htm">科学以及敬畏的本质</a>》</p>
+
+<p><blockquote>
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。
+</blockquote>
+<blockquote>
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？
+</blockquote>
+－－石青
+《<a href="http://www.oursci.com/magazine/200405/0517.htm">最可怕的东西</a>》</p>
+
+<p>为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？<br />
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。<br />
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fkalaok%2f&text= @calon %e5%8d%a1%e6%8b%89OK&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8d%a1%e6%8b%89OK》&body=https%3a%2f%2fioerr.github.io%2fkalaok%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jietou-pianzi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>18 Dec 2004, 14:59</time>
+      <h1>街头骗子</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>《五月槐花香》拍得还不错嘛，只看了一集就有了很深也很好的印象了。</p>
+
+<p>可它的配乐并不怎么样，片头片尾曲听起来挺突兀的，和本子本身的气氛不和。记忆中片尾曲最好的是一个讲梨园旧事的电视剧，可惜名字已经忘了，好像是和天桥什么的有关？<br />
+那个旁白也有些多嘴。</p>
+
+<p>人生的道理说得太明白，就是哲学家<br />
+说得不那么直白，就成了文学家</p>
+
+<p>下面说一个以前遇到街头骗子的事情：<br />
+还在读高中的时候，有一天中午与两个同学吃完午饭去散步，在街边发现几个“摸奖”的小摊贩。我对此类事情一向没有兴趣，但他们二位兴致勃勃，我也只好一起上前看看热闹。</p>
+
+<p>摸奖的规则是这样的，先交20元左右的钱，然后从袋子里面摸10个乒乓球，球上写着“5”或者“10”，然后根据10个球上的数字之和来领取相应的奖品－－奖品最低是两瓶明显假冒的洗发水，最高的好像价值不菲。</p>
+
+<p>按照正态分布的常理，分布在75分周围的分数应该是最有可能的，那么75分左右没奖品，分数越高或者越低奖品越丰厚才对，可是我一看兑奖规则就心生疑虑：越靠近75分，奖品价值反而越高。假如这其中没有问题，那么从总体来看，顾客越多，这摊主的损失就应该越大。</p>
+
+<p>于是我留意看了看摊主的手法和乒乓球这些道具，顿时明白了是怎么回事：</p>
+
+<p>乒乓球上的数字是这样画的，而且占地面积比较大：<br />
+<img src="http://photos2.flickr.com/2281627_a4885d662b.jpg" alt="" /><br />
+这样的话，如果不仔细看整个球体，或者用手遮住数字的一部分，两个数字就很容易混淆。</p>
+
+<p>摸奖人刚从摊主手边的袋子里面掏出一个小球，摊主就会很快速地一把夺过来，报个数然后就丢回袋子。乍一看没什么玄机，可由于上面说的，速度快、又有手遮住大部分球体，你看着是“5”的，实际上很可能是“10”，反之亦然。于是，只要摊主手脚够快够熟练，就可以“决定”每个球的分数，让大多数的摸奖结果不符合统计学规律也就是很自然的了。</p>
+
+<p>可惜我的那两位同学觉得那种兑奖规则很有赚头，不顾我的强力劝阻掏钱玩了一把。虽然我在他们摸球之后试图要求摊主先让我们看清楚再丢回口袋，但摊主做贼心虚般的反而加快了动作，那两位同学也没意识到这其中有诈而来帮忙。于是总分数一出来，果然他们那20元钱就用来买劣质洗发水了。</p>
+
+<p>结果呢？我还指望他们在我的指点下和摊主据理力争，知道上当受骗的他们却匆匆逃走了，摊主想要扣住我要我付钱，结果我说敢扣我就反说他行骗，而且我并未交钱参与游戏，他也无权利扣押我，于是摊主只好放手让我走了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjietou-pianzi%2f&text= @calon %e8%a1%97%e5%a4%b4%e9%aa%97%e5%ad%90&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%a1%97%e5%a4%b4%e9%aa%97%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fjietou-pianzi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/420/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> Prev
+  </a>
+  
+
+  PAGE 421 / 460
+
+  
+  <a href="/page/422/" rel="next">
+    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

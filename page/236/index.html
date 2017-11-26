@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.18.1" />
+    <base href="https://ioerr.github.io/">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>读写错误 </title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="bookmark" href="/favicon.ico">
+    <link rel="canonical" href="https://ioerr.github.io/">
+    
+    <link href="https://ioerr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/default.min.css">
+    
+    <script src="/js/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/categories">CATEGORIES</a></li>
+            <li><a href="/project">PROJECTS</a></li>
+        </ul>
+    </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          <a href="/">
+            <img src="/images/logo.svg" />
+          </a>
+        </div>
+        <div><img src="/images/seperator.svg" /></div>
+        <div class="logo-title">Don't Panic</div>
+      </div>
+
+
+  <a href="https://ioerr.github.io/duibi-launchy-he-tar/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>28 Jan 2007, 05:17</time>
+      <h1>对比 Launchy 和 TAR</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>多次听到别人说 <a href="http://www.launchy.net/">Launchy</a> 很好用，虽然目前手头的
+<a href="http://www.galanc.com/">TypeAndRun</a>
+已经足够了，还是忍不住好奇要试一试，万一错过了更好的东西多可惜啊。<br />
+不过短时间试用之后，感觉还是 TAR
+更加顺手。这里给两个软件一起做个对比（功能和影响力差一些的 RunFast
+之类的就不介绍了）：</p>
+
+<p>一、上手速度<br />
+Launchy：<br />
+安装后会自动建立开始菜单快捷方式的索引，只要你呼叫出它的工具栏，输入几个字母，就能够看到效果。然而，如果你在安装后没有阅读说明文档，可能根本就不知道怎么调出它的工具栏，因为它没有显示托盘图标。</p>
+
+<p>TAR：<br />
+如果没有预装 tar_system
+之类的插件，在安装之后其别名文件列表都是空的，用户无法第一时间体验到它的功能，非得自己先添加个别名才行。而且别名文件列表这个对新手来说最重要的功能的编辑界面处于配置界面中的倒数第二项，等到摸索到这里只怕大部分人已经晕了。</p>
+
+<p>二、界面美观<br />
+Launchy：<br />
+毫无疑问这是它的强项。1.0正式版自带了多种皮肤，默认的效果就足够漂亮了。<br />
+有浮动式工具栏和嵌入任务栏的工具栏皮肤。<br />
+提示还带有图标。</p>
+
+<p>TAR：<br />
+毫无花哨的地方，这也是我喜欢的地方。除了控制台的字体、颜色之外，没有多少美化的选项。<br />
+提示仅有文字。</p>
+
+<p>三、功能<br />
+Launchy：<br />
+可以只对指定目录下的指定文件类型进行索引，如
+exe/lnk/mp3等等，但要小心索引到同一目录下多余的同类型文件，这是目前困扰我的问题之一。当然，<a href="http://sourceforge.net/forum/message.php?msg_id=3933471">笨办法</a>也是有的。<br />
+输入字符时，可以进行模糊匹配，例如输入 fox 也能够找到 Firefox
+的快捷方式。<br />
+无法自定义快捷方式别名，如不能够自定义输入 ff 或 fx 就找到
+Firefox，遇到某些比较难记忆的快捷名称就歇菜了，除非手工修改文件名。这是目前困扰我的问题之二。<br />
+支持插件，不过目前插件不多且不够实用。<br />
+支持中文快捷方式。</p>
+
+<p>TAR：<br />
+建立索引的方式比 Launchy
+要灵活许多，通常是通过浏览器界面的右键菜单将对应的文件加入别名列表，不必关心它的文件类型，也不必担心加入太多无关的快捷方式和可执行文件，还支持控制面板等虚拟文件夹。<br />
+输入字符时都是从头匹配，例如存在名为 foobar2000 的别名，那么你输入 foo
+时也许能够在提示菜单中看到 foobar2000 对应的程序，但是输入 2000
+却看不到。这样的设置有利有弊，总的来说我觉得还是优于 Launchy
+的模糊匹配的，因为只有在建立大量文件的快捷方式索引时 Launchy
+才有优势－－那通常用于寻找文档或音乐。<br />
+支持插件，自带的插件就有12个，少部分还是很实用的，例如 tar_system
+能够用来快速关机、重启、杀死进程，tar_hotkey 能够用来扩展快捷键。<br />
+支持中文别名，但是输入部分文字时不会有提示，好在可以自定义别名。</p>
+
+<p>四、自定义<br />
+Launchy：<br />
+除了皮肤和快捷键自定义之外乏善可陈，而且快捷键必须是组合键。<br />
+无法自定义工具栏是否自动消失。<br />
+无法自定义是否索引子目录内容。</p>
+
+<p>TAR：<br />
+自定义调出控制台的快捷键没什么限制，但是下拉列表不会自动显示，而且快捷键只能是
+Alt＋↓，实在奇怪。<br />
+控制台、提示信息、别名列表、历史记录等等都有丰富的自定义选项，唯一要担心的是不知道怎么下手。</p>
+
+<p>五、资源占用<br />
+Launchy：<br />
+包含皮肤和插件在内，安装文件个头很小，只有800KB 左右。<br />
+有15MB 左右的内存占用，也有人反映 CPU 占用率较高。</p>
+
+<p>TAR：<br />
+包含插件的安装包有2.8MB。<br />
+内存占用在8MB 左右。</p>
+
+<p>六、稳定性<br />
+Launchy：<br />
+在论坛中有看到反映不太稳定，但是正式版使用过程中还没有发现类似现象。</p>
+
+<p>TAR：<br />
+老版本曾经被杀毒软件自动清除过。<br />
+有的机器上会有添加别名失败的现象，估计还是和杀毒监控软件有关。</p>
+
+<p>综上所述，Launchy 和 TypeAndRun
+各有所长，如果喜欢美观的界面和傻瓜式的操作，或者喜欢临时定位单个的文档、音乐或其他什么文件，Launchy
+是个好选择，如果有好几个固定的常用文件，或者需要进行许多非关文件执行的快捷操作，或者追求强大功能，那么
+TypeAndRun 最合适。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fduibi-launchy-he-tar%2f&text= @calon %e5%af%b9%e6%af%94%20Launchy%20%e5%92%8c%20TAR&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%af%b9%e6%af%94%20Launchy%20%e5%92%8c%20TAR》&body=https%3a%2f%2fioerr.github.io%2fduibi-launchy-he-tar%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/platini-dangxuan-ouzulian-zhuxi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>26 Jan 2007, 17:29</time>
+      <h1>Platini 当选欧足联主席</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>基本上这几天都在养病，并且自参加工作以来第一次请病假…难道真的开始老了吗？:023:</p>
+
+<p>Platini
+以不大的优势当选欧足联主席，这可能预示着今后几年欧洲足球的风向会有所改变，至少，会稍稍顺着国际足联的风向继续吹。Platini
+的施政纲领如果得以实施，有可能会降低冠军联赛和欧洲杯的精彩程度，至少欧洲杯名额扩编的提议看上去和国际足联主席
+Blatter 世界杯改为2年一届的创意一样愚蠢。</p>
+
+<p>如果 Platini
+只是个政客的料子，也许这些提议不会有多少会真正施行，“足球是一项运动，然后才是一件产品”的高论可能只是一个用来拉选票的幌子。然而如果这个法国人空想太多的话，恐怕也不是好事，看上去一片繁荣的欧洲足球不会喜欢大动干戈的改革，那些惯常于见风使舵的足球小国也不会一直支持他。</p>
+
+<p>另一方面，
+G14们的豪门联赛设想虽然在冠军杯上得到了部分成功的体现，但其他足球小国的不满也是显而易见的。你可以说小国足协只是见钱眼开想分一杯羹，并不真的抱有发展足球的崇高理念，但财富越来越集中于豪门的经营体系，使得小国家连食物渣滓都分不到多少，最终仍然是对推广和发展足球不利的，如果说足球已经成为了产品的话，那么也应该是一件大家都玩得起也玩得开心的产品。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fplatini-dangxuan-ouzulian-zhuxi%2f&text= @calon Platini%20%e5%bd%93%e9%80%89%e6%ac%a7%e8%b6%b3%e8%81%94%e4%b8%bb%e5%b8%ad&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Platini%20%e5%bd%93%e9%80%89%e6%ac%a7%e8%b6%b3%e8%81%94%e4%b8%bb%e5%b8%ad》&body=https%3a%2f%2fioerr.github.io%2fplatini-dangxuan-ouzulian-zhuxi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/platini-dangxuan-ouzulian-zhuxi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>26 Jan 2007, 17:29</time>
+      <h1>Platini 当选欧足联主席</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>基本上这几天都在养病，并且自参加工作以来第一次请病假…难道真的开始老了吗？:023:</p>
+
+<p>Platini
+以不大的优势当选欧足联主席，这可能预示着今后几年欧洲足球的风向会有所改变，至少，会稍稍顺着国际足联的风向继续吹。Platini
+的施政纲领如果得以实施，有可能会降低冠军联赛和欧洲杯的精彩程度，至少欧洲杯名额扩编的提议看上去和国际足联主席
+Blatter 世界杯改为2年一届的创意一样愚蠢。</p>
+
+<p>如果 Platini
+只是个政客的料子，也许这些提议不会有多少会真正施行，“足球是一项运动，然后才是一件产品”的高论可能只是一个用来拉选票的幌子。然而如果这个法国人空想太多的话，恐怕也不是好事，看上去一片繁荣的欧洲足球不会喜欢大动干戈的改革，那些惯常于见风使舵的足球小国也不会一直支持他。</p>
+
+<p>另一方面，
+G14们的豪门联赛设想虽然在冠军杯上得到了部分成功的体现，但其他足球小国的不满也是显而易见的。你可以说小国足协只是见钱眼开想分一杯羹，并不真的抱有发展足球的崇高理念，但财富越来越集中于豪门的经营体系，使得小国家连食物渣滓都分不到多少，最终仍然是对推广和发展足球不利的，如果说足球已经成为了产品的话，那么也应该是一件大家都玩得起也玩得开心的产品。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fplatini-dangxuan-ouzulian-zhuxi%2f&text= @calon Platini%20%e5%bd%93%e9%80%89%e6%ac%a7%e8%b6%b3%e8%81%94%e4%b8%bb%e5%b8%ad&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Platini%20%e5%bd%93%e9%80%89%e6%ac%a7%e8%b6%b3%e8%81%94%e4%b8%bb%e5%b8%ad》&body=https%3a%2f%2fioerr.github.io%2fplatini-dangxuan-ouzulian-zhuxi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jianhua-caozuo-de-gedou-youxi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>23 Jan 2007, 14:04</time>
+      <h1>简化操作的格斗游戏</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>之前提到希望有<a href="http://calon.weblogs.us/2006/09/09/jianhua_caozuo_de_zuqiu_youxi/">简化操作的足球游戏</a>，好在现在对实况系列还有爱，不过呢，格斗类游戏就真的是永远的菜鸟了。曾经身边的高手很多，但我从来都是围观者的水准。</p>
+
+<p>为什么会是菜鸟？还是因为按键太多了…多希望人物能够根据运动方向、加速度、双方的站位和姿势以及不超过2个按键的指令进行半自动的格斗…</p>
+
+<p>我真的已经懒惰到这种地步了么？:023:</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjianhua-caozuo-de-gedou-youxi%2f&text= @calon %e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c%e7%9a%84%e6%a0%bc%e6%96%97%e6%b8%b8%e6%88%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c%e7%9a%84%e6%a0%bc%e6%96%97%e6%b8%b8%e6%88%8f》&body=https%3a%2f%2fioerr.github.io%2fjianhua-caozuo-de-gedou-youxi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">#互动娱乐 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/jianhua-caozuo-de-gedou-youxi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>23 Jan 2007, 14:04</time>
+      <h1>简化操作的格斗游戏</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>之前提到希望有<a href="http://calon.weblogs.us/2006/09/09/jianhua_caozuo_de_zuqiu_youxi/">简化操作的足球游戏</a>，好在现在对实况系列还有爱，不过呢，格斗类游戏就真的是永远的菜鸟了。曾经身边的高手很多，但我从来都是围观者的水准。</p>
+
+<p>为什么会是菜鸟？还是因为按键太多了…多希望人物能够根据运动方向、加速度、双方的站位和姿势以及不超过2个按键的指令进行半自动的格斗…</p>
+
+<p>我真的已经懒惰到这种地步了么？:023:</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjianhua-caozuo-de-gedou-youxi%2f&text= @calon %e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c%e7%9a%84%e6%a0%bc%e6%96%97%e6%b8%b8%e6%88%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c%e7%9a%84%e6%a0%bc%e6%96%97%e6%b8%b8%e6%88%8f》&body=https%3a%2f%2fioerr.github.io%2fjianhua-caozuo-de-gedou-youxi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">#互动娱乐 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+
+<div class="paging">
+  
+  <a href="/page/235/" rel="prev">
+    <i class="fa fa-caret-left" aria-hidden="true"></i> Prev
+  </a>
+  
+
+  PAGE 236 / 460
+
+  
+  <a href="/page/237/" rel="next">
+    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
+  </a>
+  
+</div>
+
+
+<footer class="footer">
+    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+</footer>
+
+
+
+</body>
+
+</html>
+

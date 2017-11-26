@@ -32,5 +32,27 @@ FFFFOUND 的邀请。&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>imgfave</title>
+      <link>https://ioerr.github.io/imgfave/</link>
+      <pubDate>Mon, 15 Sep 2008 04:31:58 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/imgfave/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://ffffound.com/&#34;&gt;FFFFOUND&lt;/a&gt;
+是一个收藏分享图片的优秀站点，经常可以在上面看到有意思的图片，但是它的注册机制是邀请制的，于是经常可以看到有人求
+FFFFOUND 的邀请。&lt;/p&gt;
+
+&lt;p&gt;如果你求不到 FFFFOUND
+的邀请而又只是想要一个类似的服务，那么可以试试这个刚刚出来的
+&lt;a href=&#34;http://imgfave.com/&#34;&gt;imgfave&lt;/a&gt;，它的程序是在开源 micro-blogging 程序
+&lt;a href=&#34;http://laconi.ca/&#34;&gt;Laconica&lt;/a&gt; 基础上进行改动的版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://imgfave.com/index.php?action=doc&amp;amp;title=post&#34;&gt;转载图片的方式目前只有书签&lt;/a&gt;：&lt;a href=&#34;javascript:void((function()%7Bvar%20e=document.createElement(&#34; title=&#34;script&#34;&gt;imgfave&lt;/a&gt;;e.setAttribute(&amp;lsquo;type&amp;rsquo;,&amp;lsquo;text/javascript&amp;rsquo;);e.setAttribute(&amp;lsquo;src&amp;rsquo;,&amp;lsquo;&lt;a href=&#34;http://imgfave.com/js/bookmarklet.js&#39;);document.body.appendChild(e)%7D)()))&#34;&gt;http://imgfave.com/js/bookmarklet.js&#39;);document.body.appendChild(e)%7D)()))&lt;/a&lt;br /&gt;
+拖到收藏夹工具栏，看见心仪的图片就点击书签，然后点击该图片即可。&lt;/p&gt;
+
+&lt;p&gt;目前我访问 imgfave 的速度比较慢，社会化功能方面与 FFFFOUND 还有差距。&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

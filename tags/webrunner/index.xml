@@ -25,5 +25,20 @@
 </description>
     </item>
     
+    <item>
+      <title>Prism 升级</title>
+      <link>https://ioerr.github.io/prism-shengji/</link>
+      <pubDate>Sat, 08 Mar 2008 15:29:08 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/prism-shengji/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/webrunner/&#34;&gt;WebRunner&lt;/a&gt; 升级到
+&lt;a href=&#34;http://labs.mozilla.com/2007/10/prism/&#34;&gt;Prism&lt;/a&gt;
+之后，现在又有了新的进展。Prism 可以以 Firefox
+3的扩展形式出现，创建网页的桌面应用版变得更加容易。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://labs.mozilla.com/uploads/2008/03/prism-menu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -44,6 +44,67 @@
     </item>
     
     <item>
+      <title>为什么电子书翻页跳转不方便？</title>
+      <link>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
+      <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
+      <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
+明明是有跳转功能的，但是用起来怎么就不如翻实体书方便呢？&lt;/p&gt;
+
+&lt;p&gt;使用 Kindle
+类电子墨水屏的设备是一个原因，毕竟屏幕的响应速度是先天制约。&lt;br /&gt;
+可是，使用 iPad 类的 IPS 屏幕平板设备为什么也是如此？&lt;br /&gt;
+想想看，进度条如果和屏幕等宽，对应同样的页数，随手翻阅的定位精度应该要远超通常只有几厘米厚的纸质书。&lt;/p&gt;
+
+&lt;p&gt;除此之外最容易想到的原因，可能是翻纸质书的时候，可以同时浏览页面内容——一秒钟翻完整本实体书很正常。&lt;br /&gt;
+只要辨识反应够快，在纸张翻页时总是可以知道当前页大致内容是什么，如果记住了图表、插图、章节名称等关键信息，就更容易定位。&lt;br /&gt;
+而许多电子书阅读设备在翻页时，受限于性能和功能，在拖动进度条跳转时不展现内容，又或者无法在快速翻动的页面上即时显示预览内容——某些电子书设备若单单是翻页还能预览，一秒钟内显示翻过的每一页，可能就比较吃力了。&lt;br /&gt;
+不过，这也不是全部原因。因为比如 iOS 上 GoodReader
+这样的应用，拖动进度条时就能即时刷新，虽然我不知道拖动过程中它是不是真的每一页都展示了。&lt;/p&gt;
+
+&lt;p&gt;其次，跳转往往只是临时回看或预览，往往还要跳回来继续阅读的，可是电子书在你拖动进度条的时候可分不清你到底是要干什么。&lt;br /&gt;
+而一只手翻实体书的时候，另一只手其实在默默地扮演书签，看完了回到这个人肉书签捏住的位置就行。&lt;br /&gt;
+电子书设备就不好这样玩了。新增书签倒是容易，可是要从跳转过去的地方再跳转回来，没有能够一步完成的操作，总是要比实体书上的操作麻烦。&lt;br /&gt;
+当然，这也是可以用软件解决的，就看开发者是不是用心了——但要做到自然而然、无需用户学习适应？很难。&lt;/p&gt;
+
+&lt;p&gt;最后一个我猜测的不太容易注意到的因素是：&lt;br /&gt;
+捧着纸质书时，阅读进度和双手感知的纸张厚度有关联，要回看时，跳转的大概范围凭借手感就能定下来，尤其是经常翻阅的书籍——也许这是阅读过程中悄悄建立的联系？也许只是我的猜测，还需要实验才能证明确有此事。&lt;br /&gt;
+如果这种因素真的存在，估计电子书设备就很难仿效和超越了。&lt;/p&gt;
+
+&lt;p&gt;回头一想，搜索、摘录、笔记功能，电子书又比实体书强多了，为了跳转的体验偏好实体书到底不划算啊。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QQ 秀是不是在骗钱？</title>
+      <link>https://ioerr.github.io/qq-show-shibushi-zai-pianqian/</link>
+      <pubDate>Sun, 29 Nov 2009 02:27:48 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/qq-show-shibushi-zai-pianqian/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://2simple.cn/2009/11/qqshow.htm&#34;&gt;QQ 秀是不是在骗钱？&lt;/a&gt;&lt;br /&gt;
+按照 Datou 的&lt;a href=&#34;http://2simple.cn/2009/11/qqshow.htm&#34;&gt;说法&lt;/a&gt;，QQ
+秀是明码标价，不存在欺骗行为。&lt;/p&gt;
+
+&lt;p&gt;但是，为什么我一打开 QQ 聊天窗口，我自己的布衣 QQ 秀就一定要出现？&lt;br /&gt;
+并且只能暂时收起侧栏，找不到今后不再显示侧栏的设置。下次打开聊天窗口 QQ
+秀仍然会出现。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-28-13-27-39.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-28-13-27-39.png&#34; alt=&#34;QQ
+Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;即使彻底注销掉 QQ 秀，也会有空白的鬼影形象占用侧栏空间。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-28-14-01-43.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-28-14-01-43.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;而且还是不能永久取消，至少在我的 QQ 2009 Beta (375)
+版本上和官方页面找不到设置的地方。腾讯官方的答复也是无法永久取消。&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-29-09-52-16.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-29-09-52-16.png&#34; alt=&#34;QQ秀答复&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;免费赠送加多了盐的面包，然后在旁边摆摊卖矿泉水，这种行为总觉得哪里不对劲啊。&lt;br /&gt;
+我想，“体验经济”不应该包括“必须体验”的体验吧，至少当我不想体验的时候不要来烦我。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>QQ 秀是不是在骗钱？</title>
       <link>https://ioerr.github.io/qq-show-shibushi-zai-pianqian/</link>
       <pubDate>Sun, 29 Nov 2009 02:27:48 +0000</pubDate>

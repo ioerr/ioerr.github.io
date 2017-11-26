@@ -44,6 +44,88 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
     </item>
     
     <item>
+      <title>云输入法启示</title>
+      <link>https://ioerr.github.io/yun-shurufa-qishi/</link>
+      <pubDate>Fri, 06 Nov 2009 05:13:33 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/yun-shurufa-qishi/</guid>
+      <description>&lt;p&gt;搜狗发布云输入法后，正面的赞扬主要有：&lt;br /&gt;
+1、跨平台；&lt;br /&gt;
+2、无需安装；&lt;br /&gt;
+3、识别率高，整句输入有优势。&lt;/p&gt;
+
+&lt;p&gt;但刚刚推出的产品问题也不少：&lt;br /&gt;
+1、只能在浏览器中使用；&lt;br /&gt;
+2、浏览器地址栏、部分网站文本区域无法使用；&lt;br /&gt;
+3、与传统的本地输入法软件相比，实用功能差太远，如模糊音、自造词、快捷键自定义等等；&lt;br /&gt;
+4、响应速度慢，没有流畅的感觉。&lt;/p&gt;
+
+&lt;p&gt;虽然还达不到取代本地输入法的程度，但不可否认这个产品很有想法。而我最看重的是，云输入法这种模式也许正是整句输入法翻身的好机会。&lt;/p&gt;
+
+&lt;p&gt;目前中文输入法主要分为两类：&lt;br /&gt;
+整句输入法包括微软拼音、智能狂拼、黑马神拼、自然码等，其哲学是：让用户在输入一个整句的时候不用打断思路，一次性输入整句文字的拼音再做后期调整，最终目标是几乎不用调整；&lt;br /&gt;
+词组输入法是主流，包括智能ABC、拼音加加、紫光华宇、搜狗、谷歌、QQ等，其哲学是：以词组或词组群为单位输入，保证用户能够最快速的选中正确的词组。&lt;br /&gt;
+两者在技术上的根本区别在于语料库的处理和整句算法。&lt;br /&gt;
+词组输入法通常只需要关心词组的使用频率，即使有上下文关联功能也比较简单。而整句输入法的算法更接近人类的自然思维模式，但依靠庞大的语料库、用户整句输入历史数据分析才能得到可以接受的结果——这就导致整句输入法的体积非常庞大，智能狂拼曾经要用一张光盘装，自然码使用的黑马神拼语料库在200MB
+以上，微软拼音也有将近100
+MB，这大大影响了整句输入法的普及，语料库体积和整句正确率成为了整句输入法的基本矛盾。&lt;/p&gt;
+
+&lt;p&gt;而依照云输入法的思路，整句输入法完全可以将语料库的存储、用户语言习惯的分析交给服务端完成，客户端只是一个输入输出的界面，或者是断网时可以满足基本需要的词组输入法。&lt;/p&gt;
+
+&lt;p&gt;于是，将只剩下一个问题要关注：用户隐私。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>良民也当不下去了</title>
+      <link>https://ioerr.github.io/liangmin-ye-dangbuxiaqule/</link>
+      <pubDate>Thu, 16 Apr 2009 16:02:16 +0000</pubDate>
+      <author>calon.xu@gmail.com (Calon)</author>
+      <guid>https://ioerr.github.io/liangmin-ye-dangbuxiaqule/</guid>
+      <description>&lt;p&gt;看到有人在 twitter
+上提起，才在&lt;a href=&#34;http://www.douban.com/&#34;&gt;豆瓣的首页&lt;/a&gt;发现还有这么一条通知：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-16-21-53-48.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-48.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？&lt;/p&gt;
+
+&lt;p&gt;点进去一看：&lt;br /&gt;
+&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-16-21-53-16.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-16.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+&lt;strong&gt;依据国家相关法律、法规和政策规定&lt;/strong&gt;，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000
+(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）
+&lt;/blockquote&gt;
+要求组长提供的身份信息包括：真实姓名、住址、手机号&lt;/p&gt;
+
+&lt;p&gt;然后去查阅一下&lt;a href=&#34;http://www.douban.com/about?policy=privacy&#34;&gt;隐私原则&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。&lt;/p&gt;
+
+&lt;p&gt;　　只有两种情况例外：&lt;/p&gt;
+
+&lt;p&gt;　　1.
+你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。&lt;/p&gt;
+
+&lt;p&gt;　　2. &lt;strong&gt;政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　　豆瓣将在网站大的更新或紧急意外出现时向你发出email.
+除此之外任何向你email的发送必须经过你明确的许可。
+&lt;/blockquote&gt;
+那么我想问几个问题：&lt;br /&gt;
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000
+的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？&lt;br /&gt;
+2、这样的措施就能够使组长有效管理小组了吗？&lt;/p&gt;
+
+&lt;p&gt;对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。&lt;br /&gt;
+既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。&lt;/p&gt;
+
+&lt;p&gt;是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？&lt;/p&gt;
+
+&lt;p&gt;如果你想成为&lt;a href=&#34;http://www.douban.com/group/72544/&#34;&gt;豆瓣人肉搜索引擎小组&lt;/a&gt;组长，请和我联系，给我一些说得过去的理由就行。这不是一个多么牛的小组，但至少帮助过一些人。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>良民也当不下去了</title>
       <link>https://ioerr.github.io/liangmin-ye-dangbuxiaqule/</link>
       <pubDate>Thu, 16 Apr 2009 16:02:16 +0000</pubDate>
