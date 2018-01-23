@@ -41,36 +41,5 @@
 </description>
     </item>
     
-    <item>
-      <title>iWatch</title>
-      <link>https://ioerr.github.io/iwatch/</link>
-      <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/iwatch/</guid>
-      <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch
-会不会改变世界，会有什么酷炫功能。&lt;/p&gt;
-
-&lt;p&gt;要我说，如果真往功能强大的可穿戴智能设备上靠，iWatch 只会死得很惨。&lt;br /&gt;
-从设计限制和使用习惯上，还有强大的市场传统来说，手表比手机难突破多了。&lt;/p&gt;
-
-&lt;p&gt;手表按客户需求分成两类：&lt;br /&gt;
-大众类的需求要求精准、快速、便利地获取时间等信息，不用的时候几乎没有存在感，不需要多操心；&lt;br /&gt;
-奢侈类的——算了吧，苹果的产品还到不了奢侈品的境界，其目标也不是小众土豪，智能设备的“潮”也挡不住电子设备的廉价感。&lt;br /&gt;
-另外两者都有装饰的需求——智能手表首先要满足的必然不是装饰，否则智能是次要的，但为了功能而牺牲装饰作用，那消费者也不会买账。&lt;/p&gt;
-
-&lt;p&gt;手表的可视、可操作界面小（除非用上整个腕带），语音（可以利用骨传导接收声音么？老是对着手腕说话挺傻的）、手势（那个人在狂喜乱舞什么，头顶青天吗？）等交互方式远谈不上成熟和为大众接受，如果让用户频繁低头操作手表，而做不到查看直观、操作便捷，那为何不干脆掏手机呢？&lt;br /&gt;
-电池续航也是大问题，上太阳能足够智能设备坚持很久吗？无线充电或运动发电是否实用？做不到的话，让用户总是担心电池会用完，死得更快；&lt;br /&gt;
-在上面这些限制下，还要期待上网、通话、装各种应用之类的功能，那就是不知道“死”字怎么写。&lt;/p&gt;
-
-&lt;p&gt;目前相对合理的实现，我觉得可以覆盖：&lt;br /&gt;
-重要通知提醒；&lt;br /&gt;
-身份认证、识别（登录、开关、名片交换，等等。是否支撑近场支付还要看如何应对上述限制）；&lt;br /&gt;
-身体信息监控和记录。&lt;/p&gt;
-
-&lt;p&gt;其他的功能尽量砍掉吧，外形做的好看点培养出初级用户和使用习惯再说，人类毕竟不是铁血战士。&lt;br /&gt;
-&lt;img src=&#34;http://www.whatsyourobsession.com/review/hot-toys/guardian-predator-2-low.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

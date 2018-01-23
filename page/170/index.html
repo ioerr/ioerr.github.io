@@ -42,12 +42,12 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/delicious-preview/">
+  <a href="https://ioerr.github.io/better-feed/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>27 Sep 2007, 14:39</time>
-      <h1>Del.icio.us Preview</h1>
+      <time>31 Oct 2005, 01:29</time>
+      <h1>Better Feed</h1>
     </div>
   </div>
 </a>
@@ -60,46 +60,42 @@
 </div>
 
 <section class="post-content">
-  <p>昨天收到了 <a href="http://preview.delicious.com/">Del.icio.us Preview</a>
-的邀请，因为已经有不少人剧透，所以今天进去转了一圈没有太多新发现，觉得最大的改变还是界面美化许多。</p>
+  <p>昨天试着安装了
+<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">BetterFeed</a>
+这个 <a href="http://wordpress.org/">WordPress</a> 插件，现在在 RSS Feed
+中应该已经可以看到效果了。如果你觉得有用，可以<a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-plugin-better-feed-rss/">到这里下载</a>并安装，装好之后到
+Plugins - Plugin Editor 界面中按照自己的意愿修改或在本地修改好再上传。<br />
+我只在 RSS Feed
+最下方增加了许多信息，没必要在多页浏览上搞什么花样，所以修改时在两个“FEEDFOOT”之间的位置加入自定义的文本即可。<br />
+我认为有用的变量：<br />
+* %%blogname%% : blog 的名称<br />
+* %%blogurl%% : blog 的地址（如 <a href="http://myblog.com/）">http://myblog.com/）</a<br />
+* %%posttitle%% : 文章的标题（如 Hello World）<br />
+* %%posturl%% : 文章的地址（如
+<a href="http://myblog.com/archives/2001/02/03/hello-world/">http://myblog.com/archives/2001/02/03/hello-world/</a> 或者
+<a href="http://myblog.com/?p=1337）">http://myblog.com/?p=1337）</a<br />
+* %%id%% : 文章的 ID（如上面的1337，这在你的 Manager 界面中可以看到）<br />
+* %%date[Y]%% : 文章发布的日期时间，遵循 PHP date()
+函数的语法格式，这在 Options 界面中可以定义<br />
+* %%categories%% : 文章所属的分类，用逗号分隔<br />
+* %%categorylinks%% : 文章所属的分类的链接，用逗号分隔<br />
+* %%comments%% : 评论的数目<br />
+* %%author_nick%% : 作者的昵称（如 Administrator、Calon）<br />
+* %%related[5]%% : 5篇相关的文章，数目可以自定义。需要有<br />
+* %%posturl%%#comments/ :
+文章评论的地址，自动跳到第一条评论的起始位置<br />
+* %%posturl%%#respond/ : 文章最后输入回复的位置，自动跳到留言框<br />
+* %%posturl%%trackback/ : 文章 trackback 的地址<br />
+* %%posturl%%feed/ : 文章评论的 RSS Feed 地址</p>
 
-<p>我感兴趣的新特性有：<br />
-可以搜索 Network 中的书签；<br />
-增强了对 Network 的管理，如创建群组、设置私有书签、报告 spam；<br />
-增强了订阅功能，支持打包订阅；<br />
-收藏时的 note 可支持1000个字符；<br />
-可以设置与用户名不同的昵称；<br />
-3类展示模式：title、regular、full；<br />
-增加了随机浏览书签的模式。</p>
-
-<p>感觉新版本在界面上更加突出 Network、Inbox 的地位：<br />
-My Network 放在了专门新增的 People 按钮下；<br />
-Inbox 看上去和 Flickr
-的收件箱差不多，实际是添加“for:auser”标签之后发送给指定用户看的，就是老版本中的“links
-for you”。</p>
-
-<p>已经发现的问题：<br />
-在 Tag Bar
-中输入关联标签时，自动补全的标签名只能够用键盘确认，鼠标不可，官方的说法是正在改进；<br />
-自动补全的标签不能够自动识别是否是有效的关联标签，如我的 Blog
-标签中没有同时打上 Album 标签的条目，但是在Blog 标签页面的 Tag Bar
-中输入 A，自动补全选项中会出现 Album，如果选择了它便提示“You have no
-bookmarks with these tags used
-together.”，如果在此前的输入时进行判断后不提供 Album
-的补全选项更加合理；<br />
-目前收录书签时的标签提示还未出现用户自己的书签，只有最受欢迎的书签会出现在补全提示中，可能是随机出现这种情况；<br />
-订阅的界面反不如老版本清晰；<br />
-目前还不知道接口开放的情况，也无法输出条目到其他站点看效果，顿时感觉
-Del.icio.us 的魅力减少许多。</p>
-
-<p>在浏览标签的界面能实现不刷新页面地跳转标签，体验应会好很多，然则
-<a href="http://del.icio.us/">Del.icio.us</a> 本来就是朴素为先，也就忍了。</p>
+<pre><code>如果你有能力修改它的函数的话，相信可以在 RSS Feed 中加入更多的信息。需要注意的是，加入太多的内容也不太好，我增加这些信息只是为了方便那些无法直接访问的订阅者。
+</code></pre>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdelicious-preview%2f&text= @calon Del.icio.us%20Preview&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Del.icio.us%20Preview》&body=https%3a%2f%2fioerr.github.io%2fdelicious-preview%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbetter-feed%2f&text= @calon Better%20Feed&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Better%20Feed》&body=https%3a%2f%2fioerr.github.io%2fbetter-feed%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -107,6 +103,8 @@ Del.icio.us 的魅力减少许多。</p>
     
       categories = 
       
+        
+          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
@@ -114,13 +112,6 @@ Del.icio.us 的魅力减少许多。</p>
   </div>
   <div class="desc">
     
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/delicious">#delicious </a>
-      
-        <a href="https://ioerr.github.io/tags/preview">#preview </a>
-      
-    
   </div>
 </div>
 
@@ -128,12 +119,12 @@ Del.icio.us 的魅力减少许多。</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zhunbei-shengji-dao-wp-23/">
+  <a href="https://ioerr.github.io/changyongde-gongjuruanjian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>25 Sep 2007, 14:33</time>
-      <h1>准备升级到 WP 2.3</h1>
+      <time>30 Oct 2005, 10:15</time>
+      <h1>常用的工具软件</h1>
     </div>
   </div>
 </a>
@@ -146,59 +137,254 @@ Del.icio.us 的魅力减少许多。</p>
 </div>
 
 <section class="post-content">
-  <p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
-<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog
-无法访问，说明正在升级，或者升级失败，或者恢复失败…<br />
-主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
+  <p>我常用的工具软件：</p>
 
-<p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
+<p>编辑器：<br />
+<a href="http://www.emeditor.com/">EmEditor</a>，以前曾经多次介绍过这个功能强大、方便易用的文本编辑工具。支持正则表达式、丰富的搜索高亮显示、自定义选项多、人机界面设计出色、扩展能力强是它的优点。该软件需要付费使用，如果你是在校学生、研究机构，可以申请免费使用（成功率低），当然，国内的汉化版可以让你免费使用，不过不推荐。</p>
 
-<p>1、备份数据库。<br />
-使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
-插件导出数据库表。</p>
+<p><del>
+<a href="http://www.ultraedit.com/">UltraEdit</a>，老牌文本编辑工具，被许多人看作是
+Windows
+下功能最强的编辑器。如果你是程序员，估计会经常使用它。虽然人机界面不如
+<a href="http://www.emeditor.com/">EmEditor</a>，但功能实用，足可独当一面。仍然要付费使用。
+</del>
+<a href="http://www.vim.org/">gVim</a>，或许 Windows 下还有文本编辑器的功能超过
+UE，但和 Vi 的衍生产品相比，绝对是小巫见大巫。虽然
+<a href="http://www.vim.org/">Vim</a> 面向 CLN 的人机界面让许多人望而却步，但 gVim
+已经尽了很大的努力贴近普通的用户。如果经常使用
+<a href="http://www.vim.org/">gVim</a>，记住许多命令也不是太困难的事情吧？何况，这可是开源和免费的软件，比让你掏出美元或者违反用户许可协议要好吧。</p>
 
-<p>2、备份文件。<br />
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
-备份目录的方式，但愿不要出问题…<br />
-之前也有做本地备份，应该不至于太危险。</p>
+<p>播放器：<br />
+<a href="http://sourceforge.net/projects/guliverkli/">Media Player
+Classic</a>，基本上不需要其他播放工具了。</p>
 
-<p>3、停用所有的插件。<br />
-<a href="http://wordpress.org/">WordPress</a>
-2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
+<p><a href="http://www.foobar2000.org/">Foobar
+2000</a>，但是播放音乐我还是选择这一位。</p>
 
-<p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br />
-这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是
-/WP/wordpress-2.3。</p>
+<p>浏览器：<br />
+<a href="http://www.mozilla.org/products/firefox/">Firefox</a>，结合丰富多样的扩展和主题，个人认为比
+Maxthon
+更顺手。当然也有不足之处，一些网页无法正常浏览，每个版本都有安全漏洞，尽管如此，综合评价还是最高的。</p>
 
-<p>5、移走旧文件。<br />
-保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br />
-移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
+<p><a href="http://www.opera.com/">Opera</a>，偶尔会使用它，所以有的好处没发现只能够怪我自己。</p>
 
-<p>6、移动新文件。<br />
-将 /WP/wordpress-2.3的文件移动到根目录/下。</p>
+<p>输入法：</p>
 
-<p>7、执行 wp-admin/upgrade.php。<br />
-然后就看人品是否过硬了。<br />
-升级完之后删除或改名 upgrade.php 和 install.php。</p>
+<p><del>
+智能狂拼2，用得最顺手的整句输入法，以前也多次介绍过。和一些程序有冲突，有的小地方也待完善，可惜3代太让人失望。
+</del>
+最新更新的<a href="http://www.kuangpin.com/">智能狂拼3</a>差强人意，整体来说仍然算是整句输入的首选。</p>
 
-<p>8、根据已经修改过的旧文件修改新版本的对应文件。<br />
-目前能够想到的有：<br />
-所有的表情文件；<br />
-所有的插件；<br />
-/wp-includes/vars.php<br />
-default 主题的
-comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br />
-default
-主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br />
-更新 veryplaintxt 主题；<br />
-根据原来的文件修改 comments.php、header.php、style.css；<br />
-新增的页面模板文件。</p>
+<p><a href="http://www.sogou.com/pinyin/">搜狗拼音输入法</a>，目前最好用的词组输入法。谷歌拼音的功能还差了点。</p>
+
+<p><del>
+<a href="http://dir.jjol.cn/Pyjj/">拼音加加</a>2.204集合版，个人认为是最好的拼音词组输入法，集合版提供了实用工具，也不会修改首页设置了，虽然现在修改首页设置基本没什么用处。新一代同样让人失望。
+</del>
+下载工具：<br />
+<del><a href="http://www.bitcomet.com/">BitComet</a>，觉得和 BitSpirit
+没有太多不同。近来很少用 BT 下载了…</del></p>
+
+<p>使用 BT 下载的话，现在还是 <a href="http://www.utorrent.com/">uTorrent</a>
+最舒服啊~</p>
+
+<p><a href="http://www.emule-project.net/">eMule</a>，目前最常用的下载工具，好处是不用上不兼容
+<a href="http://www.mozilla.org/products/firefox/">Firefox</a> 的
+BTChina，能够找到一些很古老稀奇的资源。</p>
+
+<p><a href="http://www.kugoo.com/">Kugoo</a>，稀缺资源较少，速度倒是快，偶尔有让人惊喜的内容出现。</p>
+
+<p><del>
+[Net Transport]()，其实使用 <a href="http://www.amazesoft.com/">Flashget</a>
+更多，但都用得很少了。
+</del>
+<a href="http://www.slsknet.org/">SoulSeek</a>，英文 MP3下载的利器。</p>
+
+<p><del>
+<a href="http://www.winmx.com/">WinMX</a>，MP3下载的利器，因为官司缠身，已经不提供下载，也不好找服务器了。
+</del>
+邮件客户端：<br />
+<a href="http://www.mozilla.org/products/thunderbird/">Thunderbird</a>，主要在公司使用，替换了原来的
+Foxmail。至于个人的邮件，当然都放在了
+<a href="http://mail.google.com/mail">Gmail</a> 中。</p>
+
+<p>当要处理的邮件越来越多的时候，才知道还是
+<a href="http://www.rimarts.co.jp/becky.htm">Becky</a>!
+好。界面虽然土了一点，但是胜在功能强、速度快。</p>
+
+<p><del>
+<a href="http://fox.foxmail.com.cn/index.htm">Foxmail</a>，需要使用远程管理功能时还是这个方便一点。好几次邮箱文件损坏，导致信件无法恢复，让我不敢用它保存重要邮件。
+</del>
+实时通讯软件：<br />
+<a href="http://www.google.com/talk/">Google Talk</a>，这个出来以后我就废掉了 MSN
+Messenger，定位差不多，我更喜欢简洁一点的，人机界面设计更优秀的。在 GT
+上的朋友不少，我也不是喜欢花很多时间单对单聊天的人，所以转移的成本也就小多了。</p>
+
+<p><a href="http://www.qq.com/">QQ</a>/TM，<a href="http://spaces.msn.com/members/smdyw/">宿命的遗忘</a>、<a href="http://edad.com.cn/datou/">2Simple</a>
+等几个朋友多的群还在上面，所以必须保留 <a href="http://www.qq.com/">QQ</a>。使用 TM
+是因为它的界面稍微简洁一点。</p>
+
+<p>阅读工具：<br />
+<a href="http://www.foxitsoftware.com/pdf/rd_intro.php">Foxit PDF Reader</a>，比
+Acrobat Reader 的启动速度和响应速度快多了，体积也很小巧。</p>
+
+<p>ReadBook，偶尔还会用它看看书，不过能够让我花很长一段时间轻轻松松地坐在电脑前面看的
+TXT/HTML 格式书籍不多了。</p>
+
+<p>其他工具:<br />
+<a href="http://galanc.com/">TypeAndRun</a>，之前有过介绍，大大简化了我启动应用程序的操作。不过现在已经被后来者
+<a href="http://www.executor.dk/">Executor</a> 取代了。</p>
+
+<p><del>
+<a href="http://www.teamcti.com/trayit/trayit.htm">TrayIt!</a>，用来把程序缩小至托盘区。
+</del>
+<a href="http://www.palma.com.au/winroll/">WinRoll</a>，用于收起窗口只剩下标题栏。</p>
+
+<p><del>
+[PPLive]()，看网络电视的工具，电视被抢占，球赛没转播的时候就靠它了。
+</del>
+<del>
+UltraSurf，代理工具，有时候会无效。
+</del>
+翻墙，当然首选 <a href="http://tor.anonymity.cn/">TOR</a>。</p>
+
+<p>IME Tool，设置输入法的工具，关于输入法的疑难杂症可以找它。</p>
+
+<p><del>
+PowerStrip，显示参数设置工具，在窗口模式下玩 CM 01/02就要用到。
+</del>
+<del>
+EasyToon，制作黑白 GIF 图片的小工具。
+</del>
+<del>
+Vcool，CPU 降温工具，我的老 Duron 在夏天有时是顶不住的。
+</del>
+<del>
+i.Disk，用于分析硬盘上各个目录空间占用情况，方便整理空间。
+</del>
+<del>
+<a href="http://www.deskperience.com/aqua/">Aqua
+Deskperience</a>，截图软件，能够捕捉到鼠标选定不了了文本，如标题栏、目录树中的文字。缺点是按下截图热键后，画面不会静止不动，点击鼠标选定截图区域时，一些响应鼠标事件的对象会改变状态，因此菜单、托盘提示等地方的文本还是无法捕获。
+</del>
+<del>
+ACDSee 2.44，古老版本的看图软件，够用就行。
+</del>
+<a href="http://www.faststone.org/FSMaxViewDownload.htm">FastStone MaxView</a> 和
+<a href="http://www.irfanview.com/">Irfan View</a> 现在轮换着用来看图。</p>
+
+<p>ePSXe/VBA/MAME/FinalBurn/Callus…，各种模拟器。</p>
+
+<p><a href="http://www.daemon-tools.cc">Daemon
+Tools</a>，虚拟光驱软件，据说输入秘技可以让你凭空多出一个
+CD-ROM。</p>
+
+<p><del>
+<a href="http://www.nvu.com/">NVU</a>，网页编辑软件，至今还未用到顺手，不过本来就没有多少机会编辑大量网页…
+</del>
+<del>
+<a href="http://www.angusj.com/delphi/textdiff.html">TextDiff</a>，功能简单的文本比较工具，有时比
+UE 的比较功能要好用，何况是开源、免费的。
+</del>
+<del>
+<a href="http://www.zabkat.com">Xplorer2
+Lite</a>，对个人免费的增强型资源浏览器，比有30天试用期的
+<a href="http://www.ghisler.com/">Total Commander</a>
+好一点。而且其自带的文本编辑器还不错。
+</del>
+最终还是拜倒在 <a href="http://www.ghisler.com/">Total Commander</a> 的脚下膜拜…</p>
+
+<p><a href="http://www.getdropbox.com/">Dropbox</a> 绝对是跨平台同步文件的首选。</p>
+
+<p><a href="http://www.teamviewer.com/">TeamViewer</a>
+免费又小巧，还可以穿透内网，远程控制就靠它了。</p>
+
+<p>照片管理和简单的处理交给了 <a href="http://picasa.google.com/">Picasa</a>。</p>
+
+<hr />
+
+<p>以上的这些工具不包括工作时用的软件，其中有不少是使用了破解版，如果你知道有开源、免费、方便使用的工具，欢迎告诉我。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fchangyongde-gongjuruanjian%2f&text= @calon %e5%b8%b8%e7%94%a8%e7%9a%84%e5%b7%a5%e5%85%b7%e8%bd%af%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b8%b8%e7%94%a8%e7%9a%84%e5%b7%a5%e5%85%b7%e8%bd%af%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fchangyongde-gongjuruanjian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zidong-tianjia-lianjie/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>30 Oct 2005, 05:37</time>
+      <h1>自动添加链接</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个
+<a href="http://wordpress.org/">WordPress</a> 插件处理中文都不尽人意，无法在 blog
+上使用。不过想到 <a href="http://www.vim.org/">gVim</a>
+有强大易用的缩略语功能，为什么不用来实现这个功能呢？</p>
+
+<p>在 _vimrc 文件中写入缩略语的定义，重新打开
+<a href="http://www.vim.org/">Vim</a>，剩下的就不用费心了。</p>
+
+<p>这样做的好处是：<br />
+1、输入自定义的英文字符串比每次原原本本输入完整的名称要方便得多。例如，我希望每次文中出现“维基百科”这个词的时候，自动转换为“”，那么不妨定义这个
+HTML 语句的缩略语为“Wikipedia”，这样每次只要输入该词，Vim
+就会自动转换了。<br />
+2、不局限于在某个 blog 上使用，只要有需要，用在哪里都可以，即时你的 blog
+没有支持链接替换功能的插件，也能够享受到此功能。<br />
+3、不必是转换为 HTML
+链接，仅仅做缩略语也很方便实用，例如懒得输入“第二次世界大战”，那就用 WII
+代替好了，而使用插件便只能老老实实输入完全符合的词组，不能够有偷懒。<br />
+4、插件自动转换链接有时可能出现错误，但你得等到 blog
+发布之后才能够看得到。而采用这种办法，在草稿阶段就能发现错误，保证链接正确。还可以灵活选择那些地方不用转换链接。<br />
+5、使用此方法同样可以代替
+<a href="http://www.zerohex.org/?page_id=35">WP-Define</a>
+这种插件的功能，当然你还可以用来实现更多的实用功能，而不必自己写插件。<br />
+6、如果插件不支持中文字符，那么可以用此方法绕过这个限制。</p>
+
+<p>缺点也是明显的：<br />
+1、对于已经发布的 blog 没有作用。如果链接更改、作废了，要更新也很麻烦。<br />
+2、不能用中文字符做缩略语。<br />
+3、本机上的_vimrc
+文件内容需要复制到编辑时所用的机器上，当然，如果使用网上空间作存储，也不是很严重的问题，就是麻烦一点。<br />
+4、最大的障碍：喜欢用 <a href="http://www.vim.org/">Vim</a> 毕竟只是极少数人…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzidong-tianjia-lianjie%2f&text= @calon %e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0%e9%93%be%e6%8e%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0%e9%93%be%e6%8e%a5》&body=https%3a%2f%2fioerr.github.io%2fzidong-tianjia-lianjie%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -209,14 +395,11 @@ default
         
           <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
         
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
     
   </div>
   <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
-      
     
   </div>
 </div>
@@ -225,12 +408,12 @@ default
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zhunbei-shengji-dao-wp-23/">
+  <a href="https://ioerr.github.io/banjia/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>25 Sep 2007, 14:33</time>
-      <h1>准备升级到 WP 2.3</h1>
+      <time>25 Oct 2005, 05:36</time>
+      <h1>搬家</h1>
     </div>
   </div>
 </a>
@@ -243,121 +426,17 @@ default
 </div>
 
 <section class="post-content">
-  <p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到
-<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog
-无法访问，说明正在升级，或者升级失败，或者恢复失败…<br />
-主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
+  <p>最近一直都在忙搬家的事情。现在家具、书籍、电器等大件要件都已经就位，剩下厨房用品和窗帘之类杂七杂八的东西要清理，地板要打蜡，灶台、热水器也要改装以适应管道煤气。<br />
+电话办理移机不改号需要1周左右的时间，移 ADSL
+则需要15天左右，虽然在公司可以偷偷 blog，但很明显不可能保证正常频率。</p>
 
-<p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
-
-<p>1、备份数据库。<br />
-使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a>
-插件导出数据库表。</p>
-
-<p>2、备份文件。<br />
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
-备份目录的方式，但愿不要出问题…<br />
-之前也有做本地备份，应该不至于太危险。</p>
-
-<p>3、停用所有的插件。<br />
-<a href="http://wordpress.org/">WordPress</a>
-2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
-
-<p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br />
-这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是
-/WP/wordpress-2.3。</p>
-
-<p>5、移走旧文件。<br />
-保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br />
-移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
-
-<p>6、移动新文件。<br />
-将 /WP/wordpress-2.3的文件移动到根目录/下。</p>
-
-<p>7、执行 wp-admin/upgrade.php。<br />
-然后就看人品是否过硬了。<br />
-升级完之后删除或改名 upgrade.php 和 install.php。</p>
-
-<p>8、根据已经修改过的旧文件修改新版本的对应文件。<br />
-目前能够想到的有：<br />
-所有的表情文件；<br />
-所有的插件；<br />
-/wp-includes/vars.php<br />
-default 主题的
-comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br />
-default
-主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br />
-更新 veryplaintxt 主题；<br />
-根据原来的文件修改 comments.php、header.php、style.css；<br />
-新增的页面模板文件。</p>
+<p>搬过去的一个感觉是，在附近活动的野猫们都换成了被带出来遛的狗…</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f&text= @calon %e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%87%86%e5%a4%87%e5%8d%87%e7%ba%a7%e5%88%b0%20WP%202.3》&body=https%3a%2f%2fioerr.github.io%2fzhunbei-shengji-dao-wp-23%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/wordpress">#WordPress </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/zhongqiu-kuangxiangqu/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>24 Sep 2007, 16:35</time>
-      <h1>中秋狂想曲</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://twitter.com/calon/statuses/289503822">无数个兔子在征嫦娥</a>，<a href="http://twitter.com/calon/statuses/289505012">如果嫦娥豢养的是熊猫，竞争就不会那么激烈了</a><br />
-<img src="http://q.yesky.com/pictures/2007/09/s3_1464179_12404305.GIF" alt="Panda!" /><br />
-（里屋胖达女王的新签名不错，借过来一用）</p>
-
-<p><a href="http://twitter.com/calon/statuses/289576822">月兔是捣药、年糕还是麻糬？</a></p>
-
-<p><a href="http://twitter.com/calon/statuses/289578962">邪恶计划：把桂花树砍了烤兔子吃，代表月亮消灭嫦娥</a></p>
-
-<p><a href="http://twitter.com/calon/statuses/289585532">应该写一部以兔子为主角的悬念、惊悚、奇幻、科幻、恐怖、战争、文艺、情色、荒诞cult片剧本，就叫印第安纳·囧死和玉兔好了</a></p>
-
-<p><a href="http://twitter.com/calon/statuses/289597972">Woody
-Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间思考造反的意义，结果在印第安纳·囧死和嫦娥的联合镇压下起义失败</a></p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f&text= @calon %e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2》&body=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbanjia%2f&text= @calon %e6%90%ac%e5%ae%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%90%ac%e5%ae%b6》&body=https%3a%2f%2fioerr.github.io%2fbanjia%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -379,12 +458,12 @@ Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zhongqiu-kuangxiangqu/">
+  <a href="https://ioerr.github.io/qingli-qunliao-tupian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>24 Sep 2007, 16:35</time>
-      <h1>中秋狂想曲</h1>
+      <time>22 Oct 2005, 16:20</time>
+      <h1>清理群聊图片</h1>
     </div>
   </div>
 </a>
@@ -397,24 +476,200 @@ Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间
 </div>
 
 <section class="post-content">
-  <p><a href="http://twitter.com/calon/statuses/289503822">无数个兔子在征嫦娥</a>，<a href="http://twitter.com/calon/statuses/289505012">如果嫦娥豢养的是熊猫，竞争就不会那么激烈了</a><br />
-<img src="http://q.yesky.com/pictures/2007/09/s3_1464179_12404305.GIF" alt="Panda!" /><br />
-（里屋胖达女王的新签名不错，借过来一用）</p>
+  <p>因为硬盘空间紧张，所以用 i.Disk 查看了一下目录占用情况，结果在 QQ 的
+image 目录下找到了群聊中看到过的图片，上传部分好玩的（杀猫！）：</p>
 
-<p><a href="http://twitter.com/calon/statuses/289576822">月兔是捣药、年糕还是麻糬？</a></p>
+<p><img src="http://static.flickr.com/25/54000108_3a19b55e60_o.jpg" alt="" /><br />
+高难度的骑车姿势，且有儿童不宜的嫌疑，据说有套图，莫非和某“情侣骑车接吻撞上大树”的新闻有联系？<br />
+建议11月11日去死去死团圣战日来临时把“<a href="http://www.pcgames.com.cn/pcgames/xiao/0504/622415_1.html">让德鲁伊们都去操树吧！</a>”的口号临时改为“让情侣们都去撞树吧！”</p>
 
-<p><a href="http://twitter.com/calon/statuses/289578962">邪恶计划：把桂花树砍了烤兔子吃，代表月亮消灭嫦娥</a></p>
+<p><img src="http://static.flickr.com/33/54000109_6dc3f80bdb_o.jpg" alt="" /><br />
+某人的绝妙灵感，建议《阿里布达年代记》封面采用此素材。</p>
 
-<p><a href="http://twitter.com/calon/statuses/289585532">应该写一部以兔子为主角的悬念、惊悚、奇幻、科幻、恐怖、战争、文艺、情色、荒诞cult片剧本，就叫印第安纳·囧死和玉兔好了</a></p>
+<p><img src="http://static.flickr.com/27/54000110_5d4e90c2d5.jpg" alt="" /><br />
+这个…世外高人都是与众不同的…</p>
 
-<p><a href="http://twitter.com/calon/statuses/289597972">Woody
-Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间思考造反的意义，结果在印第安纳·囧死和嫦娥的联合镇压下起义失败</a></p>
+<p><img src="http://static.flickr.com/27/54000112_229866bd55.jpg" alt="" /><br />
+这首歌曲的歌词曾经风靡一时，据说遭受这种攻击智商会下降至少15个百分点。</p>
+
+<p><img src="http://static.flickr.com/28/54000111_0d2fd28041.jpg" alt="" /><br />
+开玩笑～台上一分钟，台下十年功！北腿咱不熟，南拳还是挺有把握的。</p>
+
+<p><img src="http://static.flickr.com/29/54000321_874ae79d7e_o.jpg" alt="" /><br />
+看画风，似乎是郑问的作品，但眉目间隐约有猥琐之气直冲霄汉？</p>
+
+<p><img src="http://static.flickr.com/31/54000322_fcffb2b079_o.jpg" alt="" /><br />
+历史的记录…</p>
+
+<p><img src="http://static.flickr.com/32/54000323_e33673140d.jpg" alt="" /><br />
+Winning Eleven PC 版的画面…怀疑是不是显卡温度过高了…</p>
+
+<p><img src="http://static.flickr.com/26/54000324_da7fa009b5_o.jpg" alt="" /><br />
+天哪～如果当年我看到这张盗版 CD 封面，一定会留下心理阴影，彻底和 Beatles
+绝缘了…</p>
+
+<p><img src="http://static.flickr.com/32/54000325_6651b67279_o.jpg" alt="" /><br />
+《Team America》真人版？人兽版？</p>
+
+<p><img src="http://static.flickr.com/24/54000326_699650e65c_o.jpg" alt="" /><br />
+可惜从没有亲眼看到过 Smart 任何一款车。</p>
+
+<p><img src="http://static.flickr.com/26/54000444_db229384e6_o.jpg" alt="" /><br />
+<img src="http://static.flickr.com/33/54000445_6791c159f7_o.jpg" alt="" /><br />
+<img src="http://static.flickr.com/33/54000447_a6ddd02a0e_o.jpg" alt="" /><br />
+让人倍感亲切的名字，Championship Manager 01/02 中的著名“妖人”球员，可是
+Barsom
+怎么长得像某动画片里面的大灰狼呢？难怪每次都要抛弃我去更大的俱乐部发展。</p>
+
+<p><img src="http://static.flickr.com/33/54000448_8021e6b0bd_o.jpg" alt="" /><br />
+那简直是一定的！(-_-#)</p>
+
+<p><img src="http://static.flickr.com/31/54000449_f6fe9fd384.jpg" alt="" /><br />
+当然是作弊的结果，但是为什么留下红黄牌的不完美呢？</p>
+
+<p><img src="http://static.flickr.com/30/54000450_fee2fb2299_o.jpg" alt="" /><br />
+相信我，这只是古老的风俗而已，没什么大惊小怪的。</p>
+
+<p><img src="http://static.flickr.com/32/54000827_f323f83eeb_o.jpg" alt="" /><br />
+我怎么没有一点印象？真是纯洁呀</p>
+
+<p><img src="http://static.flickr.com/27/54000828_5aa0cebac5.jpg" alt="" /><br />
+我还是得说，我很能理解《GTO》中神崎丽美的感受…</p>
+
+<p><img src="http://static.flickr.com/29/54000829_baad9b0978_o.jpg" alt="" /><br />
+这才是货真价实的“三个代表”么？</p>
+
+<p><img src="http://static.flickr.com/31/54000830_7a989098f3_o.jpg" alt="" /><br />
+哦，可怜的米蜀黍…惨遭无影脚暗算…</p>
+
+<p><img src="http://static.flickr.com/27/54000831_2ed5e827ca_o.jpg" alt="" /><br />
+青蛙真命苦…</p>
+
+<p><img src="http://static.flickr.com/24/54000832_7c1dc529f2_o.jpg" alt="" /><br />
+说起来我倒很久没看这档节目了。</p>
+
+<p><img src="http://static.flickr.com/25/54001527_a3bc07762c_o.jpg" alt="" /><br />
+我最反感这样的基督徒了，看不到一丝仁爱，只有赤裸裸的功利心理。</p>
+
+<p><img src="http://static.flickr.com/24/54001529_4f7318478b_o.jpg" alt="" /><br />
+邪恶的产品，不过对我这个御推办成员无效。</p>
+
+<p><img src="http://static.flickr.com/27/54001530_ba03d0818b_o.jpg" alt="" /><br />
+<a href="http://www.mop.com/">猫扑</a>上大学英语四级考试试题泄露的贴子内容。</p>
+
+<p><img src="http://static.flickr.com/27/54001531_dc28f8ecde_o.jpg" alt="" /><br />
+很搞笑的<a href="http://www.ronny.idv.tw/~ronnywang/files/J-fanta.rmvb">芬达广告</a>中流氓老师的片断，翻译得也颇有水准啊～</p>
+
+<p><img src="http://static.flickr.com/31/54001532_2ede0432c7_o.jpg" alt="" /><br />
+StarCraft、C&C; 不是也被记者大人们当作网络游戏嘛。</p>
+
+<p><img src="http://static.flickr.com/30/54003357_f60a585ccf_o.jpg" alt="" /><br />
+邪恶的画面…</p>
+
+<p><img src="http://static.flickr.com/32/54804778_3675f6ffef_o.jpg" alt="" /><br />
+不知战果如何。</p>
+
+<p><img src="http://static.flickr.com/25/54804780_89c93e0fae.jpg" alt="" /><br />
+哪位南拳很行的？北腿才是王道嘛！</p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/54804781/"><img src="http://static.flickr.com/30/54804781_ecec3ab667.jpg" alt="" /></a><br />
+长沙市区的卫星地图，感觉有重影。</p>
+
+<p><img src="http://static.flickr.com/30/54804782_06180e9701_o.jpg" alt="" /><br />
+华丽的指示牌，有 PS 的嫌疑。</p>
+
+<p><img src="http://static.flickr.com/25/54804783_ee6b570a44_o.jpg" alt="" /><br />
+Duncan 大哥在聚气准备发元气弹？</p>
+
+<p><img src="http://static.flickr.com/25/54804784_5d22007e26_o.jpg" alt="" /><br />
+<a href="http://www.2simple.com/">2Simple.com</a> 的标志</p>
+
+<p><img src="http://static.flickr.com/31/54808997_24b2f91444.jpg" alt="" /><br />
+许多人感兴趣的 T恤。不要问我，我也想要…</p>
+
+<p><img src="http://static.flickr.com/24/54808998_42a9dbdd35.jpg" alt="" /><br />
+好像是抵制日货示威游行现场</p>
+
+<p><img src="http://static.flickr.com/26/54808999_c89b9416f3_o.jpg" alt="" /><br />
+以及用实际行动支持“<a href="http://smdyw.blogchina.com/1164528.html">抗日经济</a>”的商家，可惜出手还不够份量</p>
+
+<p><img src="http://static.flickr.com/33/54809000_9cf453b0fa_o.jpg" alt="" /><br />
+真是考验人品啊(-_-*)</p>
+
+<p><img src="http://static.flickr.com/28/54809001_a0c29bda46.jpg" alt="" /><br />
+这位仁兄的品位果然与众不同</p>
+
+<p><img src="http://static.flickr.com/24/54809002_aea51d94c5_o.jpg" alt="" /><br />
+还真是挺像的！</p>
+
+<p><img src="http://static.flickr.com/25/54810311_cb811e246b.jpg" alt="" /><br />
+你属于哪个阵营？</p>
+
+<p><img src="http://static.flickr.com/32/54810312_d695a51531_o.jpg" alt="" /><br />
+完美的结合！Kuso 得紧…</p>
+
+<p><img src="http://static.flickr.com/29/54810313_cccf774b45_o.jpg" alt="" /><br />
+言简意赅，话糙理不糙</p>
+
+<p><img src="http://static.flickr.com/30/54810315_f1dd427392_o.jpg" alt="" /><br />
+原来《One Piece》的名字来源于此</p>
+
+<p><img src="http://static.flickr.com/25/54810317_7b8eafe1b9_o.jpg" alt="" /><br />
+这是咱们国人最拿手的了</p>
+
+<p><img src="http://static.flickr.com/31/54810789_5a102283c8_m.jpg" alt="" /><br />
+<img src="http://static.flickr.com/29/54810318_0be958a287_m.jpg" alt="" /><br />
+不知道销量如何？</p>
+
+<p><img src="http://static.flickr.com/28/54810790_f644f725d7_o.jpg" alt="" /><br />
+另一部名言“辈出”的电视剧，而且据说该片女性角色的形象有导致中风的奇效。</p>
+
+<p><img src="http://static.flickr.com/31/54810791_f82961c97b.jpg" alt="" /><br />
+成本最低的 Cosplay 之一，如果不知道出处，罚玩 Half-Life
+通关3次，条件是不能使用任何枪枝弹药。</p>
+
+<p><img src="http://static.flickr.com/32/54810792_748b1824e0_o.jpg" alt="" /><br />
+真可爱，可是会不会不舍得清空冰箱呢？</p>
+
+<p><img src="http://static.flickr.com/29/54810793_e43327fd60_o.jpg" alt="" /><br />
+去死去死团作战手册精简版。<br />
+另：不骑熊猫车的定是因为实力不济呀</p>
+
+<p><img src="http://static.flickr.com/30/54811336_1f05b7d0ce_o.jpg" alt="" /><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/54811339/"><img src="http://static.flickr.com/27/54811339_57e9f060c0.jpg" alt="" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/54811338/"><img src="http://static.flickr.com/30/54811338_02f351f6a3.jpg" alt="" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/54811337/"><img src="http://static.flickr.com/26/54811337_3c910522cb.jpg" alt="" /></a><br />
+当年写这些书画这些画的人今天如果还活着，会怎么想呢？</p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/54810794/"><img src="http://static.flickr.com/26/54810794_1b1939e3a3.jpg" alt="" /></a><br />
+“Read The Fxxking Manual！”他们喊道。</p>
+
+<p><img src="http://static.flickr.com/28/54812442_28e7c964bb_o.jpg" alt="" /><br />
+影片黑名单。和今天文化部、中宣部的作为没有多少不同。现在觉得以前可笑，今后又何尝不会觉得今日可笑？</p>
+
+<p><img src="http://static.flickr.com/27/54811335_5d266b0ad7.jpg" alt="" /><br />
+这是在逼供么？忘了内容是什么了。</p>
+
+<p><img src="http://static.flickr.com/26/54811340_2b6383307d_o.jpg" alt="" /><br />
+QQ 表情画的生日蛋糕</p>
+
+<p><img src="http://static.flickr.com/32/54812443_65724de701.jpg" alt="" /><br />
+裸露的主板，这样对硬盘和光驱可不好。</p>
+
+<p><img src="http://static.flickr.com/29/54812445_673e29b93a.jpg" alt="" /><br />
+睡得挺香的嘛～</p>
+
+<p><img src="http://static.flickr.com/32/54812446_84d354334d_o.jpg" alt="" /><br />
+这是在背后谋杀车王么？</p>
+
+<p><img src="http://static.flickr.com/30/54812447_a07737c324.jpg" alt="" /><br />
+即使是在 Chinglish 中也算是低级错误了。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f&text= @calon %e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e7%a7%8b%e7%8b%82%e6%83%b3%e6%9b%b2》&body=https%3a%2f%2fioerr.github.io%2fzhongqiu-kuangxiangqu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fqingli-qunliao-tupian%2f&text= @calon %e6%b8%85%e7%90%86%e7%be%a4%e8%81%8a%e5%9b%be%e7%89%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b8%85%e7%90%86%e7%be%a4%e8%81%8a%e5%9b%be%e7%89%87》&body=https%3a%2f%2fioerr.github.io%2fqingli-qunliao-tupian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -422,6 +677,8 @@ Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间
     
       categories = 
       
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
         
           <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
         
@@ -444,7 +701,7 @@ Allen主演，身披粉红色兔子装起义造反，最后因为花太多时间
   </a>
   
 
-  PAGE 170 / 460
+  PAGE 170 / 229
 
   
   <a href="/page/171/" rel="next">

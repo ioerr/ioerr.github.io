@@ -42,12 +42,12 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/ifttt/">
+  <a href="https://ioerr.github.io/shouji-naoling/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>08 Jun 2011, 07:09</time>
-      <h1>ifttt</h1>
+      <time>04 Nov 2008, 01:40</time>
+      <h1>手机闹铃</h1>
     </div>
   </div>
 </a>
@@ -60,537 +60,37 @@
 </div>
 
 <section class="post-content">
-  <p>这是一个神奇的网站，嗯，不是 XX 同城，而是
-<a href="http://ifttt.com/">ifttt</a>，<a href="http://ifttt.com/wtf">if this then
-that</a>，5月17日才对外开放 beta 测试的网站。</p>
+  <p>作为一个死上班族和去死去死团团员，每天早上第一个要打交道的自然是手机的闹铃功能了，一款设计出色的闹铃能够让你保持至少5分钟的愉悦，而糟糕的设计，只能用来试探你的底线。</p>
 
-<p>它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果
-A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。<br />
-这些贡献出接口的网站被称为通道（channel）。</p>
+<p>虽然到目前为止还没有一款手机闹钟完全让人满意，但我至少能够提炼出那些我喜欢的特性是不是？</p>
 
-<p>官方说明中举出了一个任务的例子：</p>
+<p>1、有懒人模式，能够自定义每隔几分钟重复闹铃，如果闹铃间隔能够越来越短就更好；<br />
+窃以为懒人模式应该成为手机闹钟的标准功能，因为懒人实在太多了！而闹铃间隔时间越来越短可以提醒懒人们时间越来越紧迫了；</p>
 
-<p>如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签<br />
-那么就在 @ltibbets 的帐号上发 twitter 消息</p>
+<p>2、允许选择暂停闹铃，过几分钟（可以自定义，比如5分钟）再响，而且是默认首选项；<br />
+最后一点是关键，如果首选项是停止闹铃，用户很容易就继续睡下去；<br />
+有人会说，让用户无法第一时间停止闹铃声才最有效，但我觉得这是对用户自制力的侮辱，那些以“要花费一番功夫才能关掉闹铃”为宣传卖点的变态产品是可以接受的，因为它明确的亮出了这个功能点，选择权在用户手里，而一般的闹钟则应该以人为本——况且，这样对手机本身的寿命也有好处；</p>
 
-<p><img src="http://ifttt.com/images/statement_ex.png?1302323172" alt="通道示例" /></p>
+<p>3、可以设置周末不闹铃；<br />
+周五睡觉之前总是担心第二天一早被闹醒是会导致神经衰弱的；</p>
 
-<p>相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。<br />
-而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。</p>
+<p>4、有一次性的临时闹钟，并且能够一键进入；<br />
+除了设置闹铃时间之外，从进入到设置完成最好不要超过3次按键；</p>
 
-<p>我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter
-上有@回复时通过 Google Talk 得到即时通知。</p>
+<p>5、闹铃的震动模式和手机震动是可以独立设置的，而且都能够方便切换；<br />
+手机进入静音震动模式之后要询问是否将闹钟也静音；</p>
 
-<p>感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发
-twitter 了）、雅虎财经股票信息、RSS
-feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google
-Reader、Google
-Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it
-Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。<br />
-不过有的网站接口功能还不够实用，比如 Flickr
-接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。</p>
+<p>6、支持无限循环闹铃；<br />
+我还真的被最多只响铃3次的闹铃坑害过！</p>
 
-<p>ifttt 建立任务非常简单，全程都有明确提示，演示如下：</p>
-
-<p>1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155437_1.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155437_1.png" alt="Photobucket" /></a></p>
-
-<p>2、点击那个 this，就会出现可以用来当做触发器的频道：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155646_2.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155646_2.png" alt="Photobucket" /></a></p>
-
-<p>3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155917_5.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155917_5.png" alt="Photobucket" /></a></p>
-
-<p>4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155955_6.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155955_6.png" alt="Photobucket" /></a></p>
-
-<p>5、接下来就到了 that 环节了：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160033_7.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160033_7.png" alt="Photobucket" /></a></p>
-
-<p>6、还是频道列表，选择要执行动作的频道，比如 Email：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160116_8.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160116_8.png" alt="Photobucket" /></a></p>
-
-<p>7、动作就是给我发邮件（邮箱地址就是注册 ifttt 时填写的地址）：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160220_11.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160220_11.png" alt="Photobucket" /></a></p>
-
-<p>8、邮件内容和标题也是可以进一步自定义的：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160323_12.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160323_12.png" alt="Photobucket" /></a></p>
-
-<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160510_13.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160510_13.png" alt="Photobucket" /></a></p>
-
-<p>9、一切选定以后，创建并激活任务，至此大功告成：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160619_14.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160619_14.png" alt="Photobucket" /></a></p>
-
-<p>任务管理和通道激活流程就不演示了。有的服务支持授权，还算安全，但像
-Delicious、Instapaper
-这样的要填写用户名、密码才能激活通道，安全问题就只能自己把握了。</p>
-
-<p>补充一个坏消息：ifttt 目前最多只能配置10个任务…</p>
+<p>7、不同时段可以设置不同铃音；<br />
+其实也不要弄得太复杂，因为只对那些睁开眼睛还搞不清楚到底是上午还是下午的人有用。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fifttt%2f&text= @calon ifttt&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《ifttt》&body=https%3a%2f%2fioerr.github.io%2fifttt%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/ifttt">#ifttt </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%B7%B7%E6%90%AD">#混搭 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%9E%8D%E5%90%88">#融合 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/ifttt/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>08 Jun 2011, 07:09</time>
-      <h1>ifttt</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>这是一个神奇的网站，嗯，不是 XX 同城，而是
-<a href="http://ifttt.com/">ifttt</a>，<a href="http://ifttt.com/wtf">if this then
-that</a>，5月17日才对外开放 beta 测试的网站。</p>
-
-<p>它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果
-A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。<br />
-这些贡献出接口的网站被称为通道（channel）。</p>
-
-<p>官方说明中举出了一个任务的例子：</p>
-
-<p>如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签<br />
-那么就在 @ltibbets 的帐号上发 twitter 消息</p>
-
-<p><img src="http://ifttt.com/images/statement_ex.png?1302323172" alt="通道示例" /></p>
-
-<p>相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。<br />
-而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。</p>
-
-<p>我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter
-上有@回复时通过 Google Talk 得到即时通知。</p>
-
-<p>感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发
-twitter 了）、雅虎财经股票信息、RSS
-feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google
-Reader、Google
-Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it
-Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。<br />
-不过有的网站接口功能还不够实用，比如 Flickr
-接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。</p>
-
-<p>ifttt 建立任务非常简单，全程都有明确提示，演示如下：</p>
-
-<p>1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155437_1.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155437_1.png" alt="Photobucket" /></a></p>
-
-<p>2、点击那个 this，就会出现可以用来当做触发器的频道：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155646_2.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155646_2.png" alt="Photobucket" /></a></p>
-
-<p>3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155917_5.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155917_5.png" alt="Photobucket" /></a></p>
-
-<p>4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155955_6.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155955_6.png" alt="Photobucket" /></a></p>
-
-<p>5、接下来就到了 that 环节了：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160033_7.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160033_7.png" alt="Photobucket" /></a></p>
-
-<p>6、还是频道列表，选择要执行动作的频道，比如 Email：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160116_8.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160116_8.png" alt="Photobucket" /></a></p>
-
-<p>7、动作就是给我发邮件（邮箱地址就是注册 ifttt 时填写的地址）：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160220_11.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160220_11.png" alt="Photobucket" /></a></p>
-
-<p>8、邮件内容和标题也是可以进一步自定义的：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160323_12.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160323_12.png" alt="Photobucket" /></a></p>
-
-<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160510_13.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160510_13.png" alt="Photobucket" /></a></p>
-
-<p>9、一切选定以后，创建并激活任务，至此大功告成：<br />
-<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160619_14.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160619_14.png" alt="Photobucket" /></a></p>
-
-<p>任务管理和通道激活流程就不演示了。有的服务支持授权，还算安全，但像
-Delicious、Instapaper
-这样的要填写用户名、密码才能激活通道，安全问题就只能自己把握了。</p>
-
-<p>补充一个坏消息：ifttt 目前最多只能配置10个任务…</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fifttt%2f&text= @calon ifttt&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《ifttt》&body=https%3a%2f%2fioerr.github.io%2fifttt%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/ifttt">#ifttt </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%B7%B7%E6%90%AD">#混搭 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%9E%8D%E5%90%88">#融合 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/bitcoin/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>20 May 2011, 15:32</time>
-      <h1>Bitcoin</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>最近 <a href="http://www.bitcoin.org/">Bitcoin</a>
-虚拟货币的话题引人注目，比如36氪的《<a href="http://www.36kr.com/dangerous-bitcoin-p2p-currency/">Bitcoin P2P
-货币：有史以来最危险的项目</a>》和云风的《<a href="http://blog.codingnow.com/2011/05/bitcoin.html">Bitcoin
-的基本原理</a>》到处被转载和讨论，说明大家的兴趣高昂。</p>
-
-<p>我也觉得这个想法非常有意思，但本能地觉得有什么地方不太对头，对超乎寻常的美好是不是应该有超乎寻常的怀疑呢？</p>
-
-<p>找 Bitcoin 相关的资料看了一下，特别是 <a href="http://www.quora.com/Bitcoin/Is-the-cryptocurrency-Bitcoin-a-good-idea?">Quora
-上的这轮讨论</a>，我的经济学和货币理论知识属于门外汉级别，综合别人的观点再结合自己的想法来谈谈，希望有专家出来指正和解惑。</p>
-
-<p>● Bitcoin
-的算法不关心供求关系，与市场上的商品价值、经济总量没有任何关系，因而其币值是不稳定和不可控的，而且在通货膨胀或通货紧缩时没有与市场供求关系相关的负反馈手段来进行遏制。币值不稳定本身会增加交易成本，这与
-Bitcoin
-的初衷是相悖的，也与<a href="http://www.cenet.org.cn/article.asp?articleid=25227">货币的基本用途</a>相悖。</p>
-
-<p>● Bitcoin
-就像凭空发明的度量衡单位，不能额外满足多少有利于市场健康运作的实际需求。</p>
-
-<p>● 个人设备损坏可能导致永久损失
-Bitcoin，对个人而言这比“传统”的虚拟货币更加脆弱。</p>
-
-<p>● Bitcoin
-是凭空产生的、没有任何实物和实体为其担保的通货，其他虚拟货币都是与真实货币挂钩才进入市场的，追根朔源最终由发行货币的银行为其担保，有政府的税收和国家的财富作为基础，而
-Bitcoin 是没有担保就进入市场流通并兑换现实中有担保的货币。</p>
-
-<p>● 当 Bitcoin
-出现安全问题时，不会像金银一样物理存在不受影响，而且会影响所有持有者，而担保的责任会被摊到所有持有人身上，结果就是没有任何人能负责，先前白白耗费的计算能力也没有任何偿还作用，击鼓传花的游戏停止了，Bitcoin
-的泡沫就会破裂。</p>
-
-<p>● 信任 Bitcoin 超过信任政府和银行的前提是民众都信任 Bitcoin
-的算法和机制（打死你我也不相信大众会这么
-geeky），除非他们是<a href="http://www.36kr.com/bitcoin-investment-vehicle/">为了投机而使用
-Bitcoin</a>。</p>
-
-<p>●
-如果发现现有的机制有问题，或者太多人加入导致计算和存储开销呈指数级别增长，Bitcoin
-是要让所有生产者升级程序算法吗？会影响原来持有的
-Bitcoin吗？会影响来不及升级的人吗？如果有人不升级怎么办？</p>
-
-<p>● 直觉告诉我白白浪费时间和电力制造 Bitcoin
-这样的纯符号是很蠢的行为。可能我的直觉是错的，但货币是否具有购买能力应取决于人们是否认可它的信用担保，而不是取决于是否耗费财富制造了它。</p>
-
-<p>● 耗费时间、电力利用计算能力生产 Bitcoin
-的人本质上是在投机。先生产和购入 Bitcoin
-的人拉更多的人进来生产、兑换它，期望 Bitcoin
-在手中升值之后抛给下家。宣传 Bitcoin
-好处的文章会告诉你，它将会升值，进一步升值，反正越早参与进来从升值得到的好处越大。</p>
-
-<p>为啥我嗅到了荷兰郁金香泡沫和庞氏骗局的气味呢？</p>
-
-<p><a href="http://songshuhui.net/archives/45531">科学松鼠会刊过这样一则漫画</a>（<a href="http://spikedmath.com/183.html">原作地址</a>），物理学家、化学家、生物学家等都可能因为试验出错毁灭世界，但数学家人畜无害。<br />
-但假如 Bitcoin
-机制和算法大规模应用起来真的非常危险又能蛊惑人心，那么要恭喜数学家们了，你们的历史地位又要升格了，无政府主义者和计算机专家们也能跟着鸡犬升天——除非不招人待见的经济学家们出来拯救世界。</p>
-
-<p>话说回来，就算 Bitcoin
-没有看上去的那么美好，这种尝试也是挺好玩的。最好是有更多的虚拟货币出来相互竞争，等那些实际是投机工具的虚拟货币死在泡沫和直接竞争里面后，剩下的那个可能就是我们真正想要的东西了。</p>
-
-<p>另：</p>
-
-<p>我觉得没有必要以不受监控的地下金钱交易为理由批评虚拟货币，遏制非法交易不是这么玩的，如果虚拟货币大大有利于降低所有交易的成本，这样做得不偿失。</p>
-
-<p>我也不认同环保主义者以浪费能源为理由反对
-Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇人埋和挖钞票一样愚蠢。但凯恩斯理论的缺陷不是因为这种看上去愚蠢的现象，而应该是实践的失败。</p>
-
-<p>交易没有政府监管和控制也不是什么致命的问题，反而我会很欢迎无需政府插手的交易机制，前提是该机制要被证明确实成功，不是玩不下去的骗局。<br />
-还有，Bitcoin 和哈耶克的非国家化的货币本质上也不是一码事。</p>
-
-<p>有人认为 Bitcoin
-的目的不是取代目前的主流货币，我认为倘若这样就没有意思了，否则无政府主义者和货币阴谋论主义者完全没必要如此激动。没有希望成为主流货币的虚拟货币不是好货币。</p>
-
-<p>最后，本来想写一篇《论屎作为货币的优劣》，介绍屎的去中心化生产机制、与每个人一一对应的永远有限的产量（个人超发的结果是自杀）、唯一形态带来的保密性和安全性、无需浪费多余的能源、便携性、各国通用无需多余语言描述…虽然缺点也不少，比如可能被直接用于恐怖袭击（乾坤一掷？），但只要有足够多的人愿意使用它买卖，它还是有望立足于世界货币之林的。<br />
-但担心热心支持 Bitcoin
-并积极挖矿甚至不惜在页面上挂利用读者挖矿的脚本的朋友们反应过度以为我是恶意嘲讽，遂作罢。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbitcoin%2f&text= @calon Bitcoin&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Bitcoin》&body=https%3a%2f%2fioerr.github.io%2fbitcoin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">#市场经济 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/bitcoin">#Bitcoin </a>
-      
-        <a href="https://ioerr.github.io/tags/%E7%BB%8F%E6%B5%8E">#经济 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81">#虚拟货币 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%B4%A7%E5%B8%81">#货币 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/bitcoin/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>20 May 2011, 15:32</time>
-      <h1>Bitcoin</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>最近 <a href="http://www.bitcoin.org/">Bitcoin</a>
-虚拟货币的话题引人注目，比如36氪的《<a href="http://www.36kr.com/dangerous-bitcoin-p2p-currency/">Bitcoin P2P
-货币：有史以来最危险的项目</a>》和云风的《<a href="http://blog.codingnow.com/2011/05/bitcoin.html">Bitcoin
-的基本原理</a>》到处被转载和讨论，说明大家的兴趣高昂。</p>
-
-<p>我也觉得这个想法非常有意思，但本能地觉得有什么地方不太对头，对超乎寻常的美好是不是应该有超乎寻常的怀疑呢？</p>
-
-<p>找 Bitcoin 相关的资料看了一下，特别是 <a href="http://www.quora.com/Bitcoin/Is-the-cryptocurrency-Bitcoin-a-good-idea?">Quora
-上的这轮讨论</a>，我的经济学和货币理论知识属于门外汉级别，综合别人的观点再结合自己的想法来谈谈，希望有专家出来指正和解惑。</p>
-
-<p>● Bitcoin
-的算法不关心供求关系，与市场上的商品价值、经济总量没有任何关系，因而其币值是不稳定和不可控的，而且在通货膨胀或通货紧缩时没有与市场供求关系相关的负反馈手段来进行遏制。币值不稳定本身会增加交易成本，这与
-Bitcoin
-的初衷是相悖的，也与<a href="http://www.cenet.org.cn/article.asp?articleid=25227">货币的基本用途</a>相悖。</p>
-
-<p>● Bitcoin
-就像凭空发明的度量衡单位，不能额外满足多少有利于市场健康运作的实际需求。</p>
-
-<p>● 个人设备损坏可能导致永久损失
-Bitcoin，对个人而言这比“传统”的虚拟货币更加脆弱。</p>
-
-<p>● Bitcoin
-是凭空产生的、没有任何实物和实体为其担保的通货，其他虚拟货币都是与真实货币挂钩才进入市场的，追根朔源最终由发行货币的银行为其担保，有政府的税收和国家的财富作为基础，而
-Bitcoin 是没有担保就进入市场流通并兑换现实中有担保的货币。</p>
-
-<p>● 当 Bitcoin
-出现安全问题时，不会像金银一样物理存在不受影响，而且会影响所有持有者，而担保的责任会被摊到所有持有人身上，结果就是没有任何人能负责，先前白白耗费的计算能力也没有任何偿还作用，击鼓传花的游戏停止了，Bitcoin
-的泡沫就会破裂。</p>
-
-<p>● 信任 Bitcoin 超过信任政府和银行的前提是民众都信任 Bitcoin
-的算法和机制（打死你我也不相信大众会这么
-geeky），除非他们是<a href="http://www.36kr.com/bitcoin-investment-vehicle/">为了投机而使用
-Bitcoin</a>。</p>
-
-<p>●
-如果发现现有的机制有问题，或者太多人加入导致计算和存储开销呈指数级别增长，Bitcoin
-是要让所有生产者升级程序算法吗？会影响原来持有的
-Bitcoin吗？会影响来不及升级的人吗？如果有人不升级怎么办？</p>
-
-<p>● 直觉告诉我白白浪费时间和电力制造 Bitcoin
-这样的纯符号是很蠢的行为。可能我的直觉是错的，但货币是否具有购买能力应取决于人们是否认可它的信用担保，而不是取决于是否耗费财富制造了它。</p>
-
-<p>● 耗费时间、电力利用计算能力生产 Bitcoin
-的人本质上是在投机。先生产和购入 Bitcoin
-的人拉更多的人进来生产、兑换它，期望 Bitcoin
-在手中升值之后抛给下家。宣传 Bitcoin
-好处的文章会告诉你，它将会升值，进一步升值，反正越早参与进来从升值得到的好处越大。</p>
-
-<p>为啥我嗅到了荷兰郁金香泡沫和庞氏骗局的气味呢？</p>
-
-<p><a href="http://songshuhui.net/archives/45531">科学松鼠会刊过这样一则漫画</a>（<a href="http://spikedmath.com/183.html">原作地址</a>），物理学家、化学家、生物学家等都可能因为试验出错毁灭世界，但数学家人畜无害。<br />
-但假如 Bitcoin
-机制和算法大规模应用起来真的非常危险又能蛊惑人心，那么要恭喜数学家们了，你们的历史地位又要升格了，无政府主义者和计算机专家们也能跟着鸡犬升天——除非不招人待见的经济学家们出来拯救世界。</p>
-
-<p>话说回来，就算 Bitcoin
-没有看上去的那么美好，这种尝试也是挺好玩的。最好是有更多的虚拟货币出来相互竞争，等那些实际是投机工具的虚拟货币死在泡沫和直接竞争里面后，剩下的那个可能就是我们真正想要的东西了。</p>
-
-<p>另：</p>
-
-<p>我觉得没有必要以不受监控的地下金钱交易为理由批评虚拟货币，遏制非法交易不是这么玩的，如果虚拟货币大大有利于降低所有交易的成本，这样做得不偿失。</p>
-
-<p>我也不认同环保主义者以浪费能源为理由反对
-Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇人埋和挖钞票一样愚蠢。但凯恩斯理论的缺陷不是因为这种看上去愚蠢的现象，而应该是实践的失败。</p>
-
-<p>交易没有政府监管和控制也不是什么致命的问题，反而我会很欢迎无需政府插手的交易机制，前提是该机制要被证明确实成功，不是玩不下去的骗局。<br />
-还有，Bitcoin 和哈耶克的非国家化的货币本质上也不是一码事。</p>
-
-<p>有人认为 Bitcoin
-的目的不是取代目前的主流货币，我认为倘若这样就没有意思了，否则无政府主义者和货币阴谋论主义者完全没必要如此激动。没有希望成为主流货币的虚拟货币不是好货币。</p>
-
-<p>最后，本来想写一篇《论屎作为货币的优劣》，介绍屎的去中心化生产机制、与每个人一一对应的永远有限的产量（个人超发的结果是自杀）、唯一形态带来的保密性和安全性、无需浪费多余的能源、便携性、各国通用无需多余语言描述…虽然缺点也不少，比如可能被直接用于恐怖袭击（乾坤一掷？），但只要有足够多的人愿意使用它买卖，它还是有望立足于世界货币之林的。<br />
-但担心热心支持 Bitcoin
-并积极挖矿甚至不惜在页面上挂利用读者挖矿的脚本的朋友们反应过度以为我是恶意嘲讽，遂作罢。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbitcoin%2f&text= @calon Bitcoin&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Bitcoin》&body=https%3a%2f%2fioerr.github.io%2fbitcoin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">#市场经济 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/bitcoin">#Bitcoin </a>
-      
-        <a href="https://ioerr.github.io/tags/%E7%BB%8F%E6%B5%8E">#经济 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81">#虚拟货币 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E8%B4%A7%E5%B8%81">#货币 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>19 May 2011, 14:31</time>
-      <h1>小额支付支持内容作者</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html">阮一峰最近发表文章说他的 Google Adsense
-被关闭</a>，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。</p>
-
-<p>之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。</p>
-
-<p>当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。<br />
-至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。</p>
-
-<p>好在 <a href="http://xhbang.com/">Sonic</a>
-在阮一峰文章的回复中提醒，支付宝还有<a href="https://shenghuo.alipay.com/escore.htm">担保交易</a>功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。</p>
-
-<p>好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。<br />
-单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。</p>
-
-<p>另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。<br />
-也有 <a href="http://flattr.com/">Flattr</a>
-这样的项目，到目前为止的用户数大约10万。</p>
-
-<p>又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了<a href="https://gist.github.com/2246054">这个收款主页</a>，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxiaoe-zhifu-zhichi-neirong-zuozhe%2f&text= @calon %e5%b0%8f%e9%a2%9d%e6%94%af%e4%bb%98%e6%94%af%e6%8c%81%e5%86%85%e5%ae%b9%e4%bd%9c%e8%80%85&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b0%8f%e9%a2%9d%e6%94%af%e4%bb%98%e6%94%af%e6%8c%81%e5%86%85%e5%ae%b9%e4%bd%9c%e8%80%85》&body=https%3a%2f%2fioerr.github.io%2fxiaoe-zhifu-zhichi-neirong-zuozhe%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fshouji-naoling%2f&text= @calon %e6%89%8b%e6%9c%ba%e9%97%b9%e9%93%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%89%8b%e6%9c%ba%e9%97%b9%e9%93%83》&body=https%3a%2f%2fioerr.github.io%2fshouji-naoling%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -601,7 +101,502 @@ Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇�
         
           <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
         
-          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA">#手机 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%97%B9%E9%92%9F">#闹钟 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%97%B9%E9%93%83">#闹铃 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/guanyu-ma-jiaoyu-de-taolun/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>24 Oct 2008, 10:26</time>
+      <h1>关于骂教育的讨论</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>由 <a href="http://yyq123.journalspace.com/">yyq</a>
+的《<a href="http://feeds.feedburner.com/~r/yyq123-blog/~3/429710368/">去他妈的教育</a>》引出了<a href="https://groups.google.com/group/mindex/browse_thread/thread/51d6fa8897657bd7?hl=zh-CN">一次短暂的讨论</a>：</p>
+
+<p>Calon：<br />
+我记得yyq同学在这里也谈过这个问题。<br />
+我对&rdquo;教育&rdquo;的理解和他不一样，总觉得他强调的都是&rdquo;教育&rdquo;违反天性的那一面，把&rdquo;学习&rdquo;和&rdquo;天分&rdquo;想得太理想，而我认为这几者之间的鸿沟没这么大。<br />
+泯灭人性（泯灭这个词太严重了，教育在一定程度上违反人的天性我是承认的，文明的产物几无例外）、强调一致不是教育的基本属性，只是很多时候我们把教育当成实现这个目的的工具而已。<br />
+教的内容是什么，育的原则是什么，传承什么知识，都是跟着人类文明社会的需求走的，yyq所反对的不是教育的基本属性，而是现代文明的基本属性。</p>
+
+<p>所以整个的反对教育（根本就不需要教育），和控诉整个现代文明的弊病，要把它整个推翻差不多一个性质，看上去顺天应人很美好，实际上和小国寡民理想差不多。</p>
+
+<p>Zheng YAN：<br />
+我覺得他的意思是要導師，不要老師<br />
+一開始總不能沒人帶，至少要人領進門<br />
+不過，私人家庭教師太貴，沒辦法，只能將就一下去學校了</p>
+
+<p>Calon：<br />
+从需求、成本、人才和规模综合考虑，导师不可避免的要向老师变化啊，如果有5个奴隶供养我不必担心生计问题，我觉得很多问题就不是问题了</p>
+
+<p>yyq：<br />
+我不反对什么，尤其是教育这么恶心的事，我更不会反对，我怎么反对，我凭什么反对。只是我恰巧发现PINK<br />
+FLOYD，劳伦斯，老罗，陈丹青都在骂这个泯灭人性的东西。并不完全是我孤立的偏激。人类总是倾向于过度解释、美化和神化所有东西。我只是想提醒，这是件很恶心的事。仅此而已。</p>
+
+<p>Cathayan：<br />
+你这是反社会。。。</p>
+
+<p>社会，尤其是中国社会太成型了，是需要反一反，但不应该是造反革命那种反法，也不是老毛那种破坏的反法。到底是教育灭了些东西，还是其他因素在灭，使人不能达到自由，进行自由的生活或创作，其实是很值得考虑的问题。我倾向于认为，yyq文中提到的天才们都是偶然。另外许多人不能做这类的事，牵扯住他们的手的也未必就是他们的头脑或者教育</p>
+
+<p>Calon：<br />
+老罗现在好像还在干这一行？陈丹青当年如果处在不同的教学环境中，是否还会这么骂教育？他们骂的只是一部分，并不是教育的&rdquo;全集&rdquo;；<br />
+Pink
+Floyd反对的是灌输式的整齐划一的教育，但是否教育只能是这样子？你认为是，我认为不是，所以我说理解不同；<br />
+劳伦斯要日的就是现代文明，那就是另一个大话题了。</p>
+
+<p>Cathayan：<br />
+老罗的广告很大啊，著名的西直门地铁换乘路线上就有。</p>
+
+<p>Zoom.Quiet：<br />
+太有力了,,,,<br />
+教育对人本身是无用的多,但是对于社会的确是有用的多,是个社会资源分配的比较合理的准绳之一,,,</p>
+
+<p>教育本身是没有问题的,只是人类一思考上帝就发笑,,,
+教育体制/课本/从业者/舆论等等掺合在一起出来的就是个死臭的老酱缸了,谁可以提前提醒过来,谁成功!</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanyu-ma-jiaoyu-de-taolun%2f&text= @calon %e5%85%b3%e4%ba%8e%e9%aa%82%e6%95%99%e8%82%b2%e7%9a%84%e8%ae%a8%e8%ae%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e9%aa%82%e6%95%99%e8%82%b2%e7%9a%84%e8%ae%a8%e8%ae%ba》&body=https%3a%2f%2fioerr.github.io%2fguanyu-ma-jiaoyu-de-taolun%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E6%80%A7">#人性 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%AD%A6%E4%B9%A0">#学习 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%95%99%E8%82%B2">#教育 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%98%8E">#文明 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A">#社会 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/guanyu-weiruan-longduan-de-taolun/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>22 Oct 2008, 04:19</time>
+      <h1>关于微软垄断的讨论</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#10-13-17-中家">10:13:17 中家</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+<section class="post-content">
+  
+
+<p>8:50:57 中家<br />
+我觉得微软的windows定价不合理，美国卖199美元，中国也是199美元，这是强盗逻辑，所以盗版有理</p>
+
+<p>8:51:42 中家<br />
+中国政府太愚昧了</p>
+
+<p>8:51:50 中家<br />
+不懂得保护自己</p>
+
+<p>8:52:56 中家<br />
+要换我，在中国卖199美元也行，你微软要做大量的慈善，把过高的利润吐出来，回馈给社会</p>
+
+<p>8:55:51 聊\^_\^无聊<br />
+总的来说，需要中国的自己的企业能够开发出能够同微软的产品相当的产品</p>
+
+<p>8:56:15 中家<br />
+这是很难的</p>
+
+<p>8:56:20 中家<br />
+不切合实际</p>
+
+<p>8:56:47 中家<br />
+就说wps，与office还是有一定差距的。</p>
+
+<p>8:57:55 聊\^_\^无聊<br />
+是的，永中office还可以</p>
+
+<p>8:57:56 中家<br />
+政府采购应该侧重国产软件</p>
+
+<p>8:58:46 中家<br />
+合理定价也是要重点抓的一件事</p>
+
+<p>8:59:07 中家<br />
+不能由着微软想卖多少就卖多少</p>
+
+<p>8:59:40 中家<br />
+windows是每台电脑必备的操作系统</p>
+
+<p>9:00:13 中家<br />
+与大米食盐一样，必备品的价格还是要管制的好</p>
+
+<p>9:06:32 Calon<br />
+要管制操作系统的价格，windows是每台电脑必备的操作系统这个理由就站不住脚</p>
+
+<p>9:07:17 中家<br />
+差不多现实就是这样了吧？</p>
+
+<p>9:07:53 中家<br />
+安装windows系统的电脑不说100％，起码也有99％吧？</p>
+
+<p>9:08:35 Calon<br />
+讲道理的时候当然不能这样，是我们的消费者死活要用Windows，凭什么微软要为之付出代价？</p>
+
+<p>9:10:15 中家<br />
+反垄断法</p>
+
+<p>9:11:24 中家<br />
+如果这也不行，政府下一道法令，禁止windows进入中国市场 ：）</p>
+
+<p>9:12:00 中家<br />
+一个不懂得保护自己老百姓的政府是无能的政府</p>
+
+<p>9:13:11 Calon<br />
+垄断本身并不违法，利用垄断地位压制竞争对手损害消费者利益才是违法，但微软允许你免费使用盗版，出个警告也是提醒性质的，消费者并没有损失，反而得利；至于竞争对手，那更多的是被盗版和消费者联手害死的，微软并不是最大的责任者</p>
+
+<p>9:14:26 中家<br />
+垄断法不行，还有一个招，征收微软暴利税</p>
+
+<p>9:15:02 中家<br />
+敲他一个50％的暴利税再说</p>
+
+<p>9:16:38 Calon<br />
+那正版的价格会不会更高了，盗版更加泛滥？呵呵</p>
+
+<p>9:16:51 中家<br />
+现在的关键是微软手里一直保留起诉盗版的权利，这跟A股里面大量的大小非一样</p>
+
+<p>9:17:43 中家<br />
+价格更高好啊，关键是不能让微软把大量的利润赚走</p>
+
+<p>9:17:47 Calon<br />
+但是大多数消费者并不管这些，能够用盗版的professional，就不会去用免费或廉价的home版本</p>
+
+<p>9:18:27 中家<br />
+起码我们的政府要与微软有一个博弈的过程</p>
+
+<p>9:18:49 中家<br />
+现在我们是傻乎乎的任由微软来摆布</p>
+
+<p>9:19:01 中家<br />
+说黑屏就给你来个黑屏</p>
+
+<p>9:19:28 中家<br />
+这是让微软骑到我们头上来拉屎</p>
+
+<p>9:20:11 中家<br />
+唉，草包当政何时是个头</p>
+
+<p>9:23:41 Calon<br />
+微软的利润不仅来自于操作系统的利润啊，Windows价格越高，盗版越多，能够与其竞争的操作系统就越没有市场，事实上帮助了Windows的垄断，而Windows上微软的其他软件比如Office、IE也就成了事实的标准，这些产品的利润渠道可能是不同的，比如IE可以用来协助整合推进Live计划，Office可以控制大部分不得不交钱的企业而不是个人消费者，还有开发方面MS的环境也可以获得优势，到时候就更难和微软对抗了</p>
+
+<p>9:24:42 中家<br />
+确实是这个问题</p>
+
+<p>9:25:33 中家<br />
+目前这种现状，你有什么高招？</p>
+
+<p>9:26:19 中家<br />
+我总觉得要给微软一点颜色看看，不能让他们太嚣张了</p>
+
+<p>9:26:55 Calon<br />
+打击盗版，宣传免费/开源/廉价、多平台替代产品<br />
+不过短期内很难见效<br />
+最终还是要靠提高消费者购买力来解决</p>
+
+<p>9:28:21 中家<br />
+我们已经发函邀请微软的几位老板24号过来，就是要讨论这个事情</p>
+
+<p>9:29:00 Calon<br />
+你们和微软是什么关系呢？企业客户？</p>
+
+<p>9:29:01 中家<br />
+强硬态度要求微软保证政府部门的电脑不受黑屏的干扰</p>
+
+<p>9:29:35 中家<br />
+要不前两年我们政府的正版化岂不是白干了？</p>
+
+<p>9:29:45 Calon<br />
+这次只是黑桌面吧？Office的话，暂使用WPS代替吧</p>
+
+<p>9:30:20 中家<br />
+微软黑屏的举动是否合法？</p>
+
+<p>9:31:00 中家<br />
+要保证政府工作的连续性，临时找替代可行性不大</p>
+
+<p>9:31:05 Calon<br />
+应该是合法的，我觉得不存在私自执法的问题，它只是提醒，不是惩罚</p>
+
+<p>9:31:42 Calon<br />
+像以前的江民事件就属于私自执法了</p>
+
+<p>9:32:56 Calon<br />
+是否安装WGA是会提醒消费者的，而且可以自己关掉WGA，MS已经算厚道了</p>
+
+<p>9:33:17 中家<br />
+我主要考虑，举办一些慈善活动，让微软向我们本地的学校、农民免费赠送windows
+xp和office，我政府买单了1000套，你微软给我送1000套，此举是否可行？</p>
+
+<p>9:34:18 中家<br />
+微软价格定得太贵，让他出一点血，给他一个好名声 ：）</p>
+
+<p>9:34:22 Calon<br />
+如果我是微软肯定会同意，但是站在政府的角度值得商榷</p>
+
+<p>9:34:59 中家<br />
+有何不妥？愿听高见</p>
+
+<p>9:35:13 Calon<br />
+让我先想想，我只是本能的觉得有问题</p>
+
+<p>9:41:23 Calon<br />
+如果我是微软的竞争者，这样的行为会被当作政府牵头为微软作优惠推广，本来可能属于我的顾客结果被政府推到微软那边去了，原因只是因为微软的产品在政府机关的垄断地位。<br />
+我觉得政府不应当以这样的角色出面。</p>
+
+<p>不过这种想法太理想，中国的现实和理想的情况不一样</p>
+
+<p>9:42:23 中家<br />
+也有道理</p>
+
+<p>9:43:19 中家<br />
+windows xp暂时没有竞争对手，我觉得可以这么敲他</p>
+
+<p>9:43:35 Calon<br />
+总之微软的垄断问题很难办，要不也不会到现在都没有进步，政府相关的人不会比我们蠢到哪里去，呵呵</p>
+
+<p>9:43:41 中家<br />
+office就免了，给wps条活路</p>
+
+<p>9:45:06 中家<br />
+你不知道，就您这水平，在我们政府当信产局局长都行了</p>
+
+<p>9:45:18 中家<br />
+蠢人太多</p>
+
+<p>9:45:50 Calon<br />
+[图片]<br />
+可能是利益相关或者利益不相关吧</p>
+
+<p>9:46:35 中家<br />
+是啊，保护消费者这些利益，这些官员口袋里不会多一毛钱</p>
+
+<p>9:46:44 Calon<br />
+和自己的利益没关系怎么折腾也不心疼，和自己的利益相关就比谁都精明</p>
+
+<p>9:47:33 中家<br />
+这是严重的短视行为</p>
+
+<p>9:50:10 中家<br />
+中国老城区的街道一样的道理，你摆出来一点点，卖的钱多一些，我一看眼红了，也放出来一点点，比你还要出来，这样一来一往的，整条街道变得拥挤不堪，全在街上买东西，店里反而是空空的，大家的生意都不好做了</p>
+
+<p>9:52:33 Calon<br />
+是啊，所以市场引导和管理很重要</p>
+
+<p>9:53:18 中家<br />
+微软这个事情，难道就没有一个好的办法来引导引导？</p>
+
+<p>9:56:29 中家<br />
+设置个擂台，各大软件厂家来本地我政府指定的部门举办技术培训，谁的培训工作做得好，我政府优先考虑谁的产品</p>
+
+<p>9:58:01 中家<br />
+我总觉得不能让微软白白赚走这么高的利润</p>
+
+<p>10:03:15 Calon<br />
+和政府部门的招标差不多性质吧，还不就是那么回事<br />
+拥有垄断地位的话，完全可以只是象征性的降价，就算这个时候不采购他们的产品，以后也会投降<br />
+之前不是有政府采购Linux、WPS等的举动么？最后能够坚持并在工作中实际使用的有多少？</p>
+
+<p>10:05:00 Calon<br />
+如果是招标，微软把各种利弊一列，你也不得不优先采用他们的<br />
+如果采购其他厂商的产品，今后钱投了水漂，要不要负责？</p>
+
+<p>10:08:08 中家<br />
+那你的意思是微软没法治了？</p>
+
+<p>10:08:43 中家<br />
+你说的这些确实是政府工作中碰到的事实</p>
+
+<p>10:09:09 Calon<br />
+现在这个阶段，是的<br />
+垄断的打破不是一下子可以实现的</p>
+
+<p>10:09:49 中家<br />
+尤其是linux，简直就是扶不起的阿斗</p>
+
+<p>10:10:19 醉爱智能全拼<br />
+主要还是习惯问题，微软已经用盗版让国人养成了用他软件的习惯，你用WPS，其他用盗版的人只有OFFICE打不开你的文件还要再装一个软件，都怕麻烦</p>
+
+<p>10:10:19 中家<br />
+服务态度不行，买他产品跟求他一样</p>
+
+<p>10:10:38 醉爱智能全拼<br />
+linux的易用性太差</p>
+
+<p>10:10:42 Calon<br />
+Linux的进步已经很大了，要有耐心，呵呵</p>
+
+<p>10:10:57 Calon<br />
+企业办公的话差距还大着呢</p>
+
+<p>10:12:02 中家<br />
+我们当时也是挣扎了很久，最终还是选择了微软</p>
+
+<p>10:12:27 醉爱智能全拼<br />
+LINUX什么时候进步到什么都是下一步的时候才会让人接受吧</p>
+
+<p>10:13:04 中家<br />
+第一批做的linux，我没做的调查结果居然是正版的linux放在抽屉里，盗版xp依然大行其道</p>
+
+<h2 id="10-13-17-中家">10:13:17 中家</h2>
+
+<p>10:13:19 Calon<br />
+是的，这是很普遍的情况</p>
+
+<p>10:13:38 中家<br />
+一了解为什么</p>
+
+<p>10:13:47 醉爱智能全拼<br />
+其实政府部门该用LINUX，这样就不会让人逮到上班斗地主了，因为LINUX上一般人不能玩斗地主</p>
+
+<p>10:13:48 Calon<br />
+预装机器使用Linux，很多用户也是拿回来就换成盗版的XP</p>
+
+<p>10:13:48 中家<br />
+说是不会用</p>
+
+<p>10:14:30 Calon<br />
+其实学校中的计算机课程就应该各种操作系统都教一点</p>
+
+<p>10:14:47 中家<br />
+结果组织linux方面的培训，有关公司推三拖四</p>
+
+<p>10:15:18 中家<br />
+对他们这么好的事情，居然来个本末倒置</p>
+
+<p>10:15:23 Calon<br />
+从小就有实际的操作经验，也就不会那么陌生<br />
+很多方面其实不是Windows最好，只是大多数人不习惯其他方式</p>
+
+<p>10:15:45 醉爱智能全拼<br />
+linux的培训比windows技术含量高</p>
+
+<p>10:16:45 中家<br />
+从战略眼光这一点上，我们国内的企业却是远远不如人家微软</p>
+
+<p>10:17:05 Calon<br />
+来做Linux培训的是什么公司？</p>
+
+<p>10:18:01 中家<br />
+本地的一家公司</p>
+
+<p>10:18:26 醉爱智能全拼<br />
+其实就跟QQ一样，并不是MSN或别的不能用，只是要找人聊天要去用人多的软件，恶性循环</p>
+
+<p>10:19:44 中家<br />
+看来反垄断已经要提上日程了</p>
+
+<p>10:20:13 中家<br />
+这些垄断严重制约了信息产业的发展</p>
+
+<p>10:20:59 中家<br />
+政府还有一个政策，我们的小软件企业不会去利用</p>
+
+<p>10:22:10 中家<br />
+完全可以向当地的科技部门申请科研经费，政府还是倾向于扶持小企业发展的，当然腐败的官员除外</p>
+
+<p>10:23:34 中家<br />
+就像智能狂拼这样的公司，完全可以以狂拼输入法作为项目研发去申请适当的科研经费。</p>
+
+<p>10:24:41 中家<br />
+这些钱是法律规定要花的，你不去争，他也是要挥霍完</p>
+
+<p>10:30:50 Calon<br />
+嗯，这是个办法，但以前万码奔腾的时代是不是科技部门被输入法搞怕了？</p>
+
+<p>10:32:27 中家<br />
+科技部门领工资干的就是这活</p>
+
+<p>10:32:44 中家<br />
+怎么说害怕呢</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanyu-weiruan-longduan-de-taolun%2f&text= @calon %e5%85%b3%e4%ba%8e%e5%be%ae%e8%bd%af%e5%9e%84%e6%96%ad%e7%9a%84%e8%ae%a8%e8%ae%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e5%be%ae%e8%bd%af%e5%9e%84%e6%96%ad%e7%9a%84%e8%ae%a8%e8%ae%ba》&body=https%3a%2f%2fioerr.github.io%2fguanyu-weiruan-longduan-de-taolun%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
@@ -611,15 +606,237 @@ Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇�
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/flattr">#Flattr </a>
+        <a href="https://ioerr.github.io/tags/office">#Office </a>
       
-        <a href="https://ioerr.github.io/tags/paypal">#Paypal </a>
+        <a href="https://ioerr.github.io/tags/%E5%8F%8D%E5%9E%84%E6%96%AD">#反垄断 </a>
       
-        <a href="https://ioerr.github.io/tags/%E4%BB%98%E8%B4%B9">#付费 </a>
+        <a href="https://ioerr.github.io/tags/%E5%9E%84%E6%96%AD">#垄断 </a>
       
-        <a href="https://ioerr.github.io/tags/%E5%B0%8F%E9%A2%9D%E6%94%AF%E4%BB%98">#小额支付 </a>
+        <a href="https://ioerr.github.io/tags/%E5%B8%82%E5%9C%BA">#市场 </a>
       
-        <a href="https://ioerr.github.io/tags/%E6%94%AF%E4%BB%98%E5%AE%9D">#支付宝 </a>
+        <a href="https://ioerr.github.io/tags/%E5%BE%AE%E8%BD%AF">#微软 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F">#操作系统 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%94%BF%E5%BA%9C">#政府 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%9B%97%E7%89%88">#盗版 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E8%AE%A8%E8%AE%BA">#讨论 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/friendfeed-shishi-liulan-moshi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>16 Oct 2008, 04:24</time>
+      <h1>FriendFeed 实时浏览模式</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>FriendFeed 又新增了一项 beta 功能：Real-time（实时浏览模式）</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-16_085207.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-16_085207.png" alt="Photobucket" /></a></p>
+
+<p>就是像流水一样实时显示发布到 FriendFeed
+的消息，其实也不是什么重大的功能，只是看上去比较新鲜。</p>
+
+<p>这样也带来一个问题：本来相互关联的评论现在都变得支离破碎了：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-16_085648.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-16_085648.png" alt="Photobucket" /></a><br />
+FriendFeed 本来很有特色的集中讨论在实时浏览模式下就 Twitter 化了…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffriendfeed-shishi-liulan-moshi%2f&text= @calon FriendFeed%20%e5%ae%9e%e6%97%b6%e6%b5%8f%e8%a7%88%e6%a8%a1%e5%bc%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《FriendFeed%20%e5%ae%9e%e6%97%b6%e6%b5%8f%e8%a7%88%e6%a8%a1%e5%bc%8f》&body=https%3a%2f%2fioerr.github.io%2ffriendfeed-shishi-liulan-moshi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/firendfeed">#firendfeed </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%AE%9E%E6%97%B6%E6%B5%8F%E8%A7%88">#实时浏览 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/zaogaode-tubiao/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>14 Oct 2008, 10:00</time>
+      <h1>糟糕的图标</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>据说看一个人的领子和袖口是否整洁干净，就能看出他的素养，如果这两个地方拾掇不好，会影响他人的第一印象，这或许就是“领袖”一词的来历？</p>
+
+<p>对一个程序来说，对应于领子和袖口的应该算是图标了。一款简洁明晰、赏心悦目的图标，能够大大提升用户的好感度，比如不少
+WinRAR 用户就因为7-Zip
+的图标朴素过头而不想使用——虽然我觉得既然能够欣然接受界面那么土的
+WinRAR，就没资格说这句话…</p>
+
+<p>正所谓人生不如意者十之八九，总会有一些不那么简洁或明晰或美观的图标来告诉我们人生不是想象中的那么美好，下面试列举一二：</p>
+
+<p><strong>不够简洁的图标：</strong></p>
+
+<p>WinDVD<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-07_152557.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152557.png" alt="WinDVD" /></a><br />
+作为一个 DVD
+播放软件，用光盘的形象就能够大致说明自己的身份了，顶多再增加几个字母以便和其他播放工具区别开来。但是
+WinDVD
+偏不，它的光盘图案一定要45度仰望天空，背景还奢侈地空出四成，下面码着一排貌似是电影胶片的东西。如果缩小成16×16的图标，这和涂鸦有什么区别？</p>
+
+<p>Foxit Reader Uninstaller<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-07_152946.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152946.png" alt="Foxit PDF
+Uninstall" /></a><br />
+一般的卸载程序，其图标一般都是有醒目的红叉、禁止符号或废纸篓形象，反正卸载程序通常就使用一次，不需要做得多么有个性（也可以顺便不给胆敢卸载的用户好脸色）。<br />
+Foxit
+的这个卸载程序倒是使用了大红叉，但，后面那一片灰中带白的不规则物体是什么？</p>
+
+<p>好吧，我终于悟到了！那个东西原来是 Foxit Reader
+图标去掉边框去色之后的形象，可为什么 Foxit 不像 Total Commander
+一样，卸载程序的图标就是原图标直接加一把红叉呢？</p>
+
+<p>自然码<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-07_152236.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152236.png" alt="ZRM" /></a><br />
+自然码作为老牌的拼音输入法，其程序的界面和网站的主页都还是上个世纪的风格，从这个图标的设计也可以窥见一斑。<br />
+一个小小的图标上，硬是挤进去了3个对象，握笔的手、2个“汉字”和3个“ZRM”的英文字母。<br />
+这三者不但各据一方，不利用重叠来争取空间，而且2个汉字还采用了不适合的字体，缩小了看如同风干的发菜，英文字母更加上了阴影效果，于是整个图标看上去就变得极为不自然了。</p>
+
+<p><strong>不够明晰的图标：</strong></p>
+
+<p>有一个未解之谜始终萦绕在我的心头，折磨着我那颗好奇的心，那就是局域网通信工具
+IPMSG 的图标：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00058.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00058.png" alt="IPMSG" /></a><br />
+究竟是什么意思啊！</p>
+
+<p>猜想之一：是一个扭曲的 X
+在对着一个黄色的小球翩翩起舞吗？难道作者暗示局域网通信的用户都心态扭曲且热衷于黄色内容？<br />
+猜想之二：这是在对我国上古时代著名非主流异议人士夸父的一次惊世骇俗的行为艺术的致敬？看啊，那悬在天空的炽热的太阳，那脚下干旱灰暗的大地，和因为没有脑袋所以不辨方向且无法停止身体不断奔跑的夸父…<br />
+猜想之三：罗素在《西方哲学史》中提到，休谟曾经如此形容卢梭：“他好像这样一个人，这人不仅被剥掉了衣服，而且被剥掉了其肤，在这情况下被赶出去和猛烈的狂风暴雨进行搏斗。”哦，这是一枚多么血腥暴力的图标啊～<br />
+猜想之四：安迪同学挣扎着爬出了下水道，迎接他的是肖申克监狱的小太阳探照灯，一颗步枪子弹爆掉了他的头…哦，又一个提醒我们人生是一出悲剧的故事。</p>
+
+<p>补充：感谢<a href="http://menghao.net/">麦可</a>的提醒：</p>
+
+<p><blockquote>
+根据IP Messenger作者白水啓章的描述，IPMSG的这个图标是他根据电影「Star
+Trek:
+Generations」中「Dr.Soran」等待「Nexus」的这个画面制作而成的。但是当图标设计出来之后，自己也弄不太明白它到底是什么了。<br />
+<a href="http://www.ipmsg.org/ipmsg-history.html">参考链接</a>
+</blockquote>
+看来原图就是这个了：<br />
+<img src="http://www.backyard-networks.de/the_enterprising_star_site/The%20Captains_files/image017.jpg" alt="Nexus" /></p>
+
+<p>仅次于 IMPSG 的谜语的，是 Foxit Reader 汉化版老版本的图标：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00057.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00057.png" alt="Foxit PDF
+Reader" /></a><br />
+那4个方格子里面的绿色絮状物体究竟是什么啊？<br />
+答案可能是（可能！我到现在还不能完全确定）在玻璃窗户中看到的绿色针叶林…</p>
+
+<p>好吧，这和一款 PDF 阅读工具有什么关系呢？难道 PDF 的全称应该是 Pine in
+Deep Forest？救命～</p>
+
+<p><strong>不够赏心悦目的图标：</strong></p>
+
+<p>简单的说，如果你想让大部分的用户觉得不舒服，最好的办法就是把图标和爬行/两栖动物的形象联系起来。<br />
+比如由于大部分天生不害怕蛇的人类祖先在远古时代的树林里面都被咬死了咬死了咬死了，所以相当一部分的人对蛇有天生的恐惧感（但奇怪的是，蜘蛛和毛虫应该是祖先们的美餐才对，为何还有那么多人畏惧呢？难道饮食的品味也可以是自然选择的动力？）；比如说我们通常会形容长相丑陋的男女为青蛙和恐龙，童话里面设置了很高的门槛要美女们鼓起勇气去亲吻的也是一只青蛙，而不是整天卖萌的
+Hello Kitty。<br />
+对爬行动物的天然抵触也许来自于白垩纪大资产阶级大地主恐龙灭绝之前哺乳动物们普遍形成的心理阴影，而对两栖类动物的反感可能纯粹是因为它们有变态期…</p>
+
+<p>让我们来看看在这方面勇敢而无畏的程序吧，例如 Notepad++
+的老版本图标是一只彩色的避役：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=npplogo-1.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/npplogo-1.jpg" alt="NPP" /></a><br />
+好在作者回头是岸，新版本中终于把长舌妇请走了。</p>
+
+<p>而 K-Meleon 则是死性不改，一如既往的使用绿色的蜥蜴/蝾螈头像图标：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00059.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00059.png" alt="K-Meleon" /></a></p>
+
+<p>图标的设计者应该注意，远离低等脊椎动物不表示万事大吉，即使你选择人类的好朋友作为图标形象，也可能把事情搞砸。<br />
+比如备受批评的 Irfanview，它的图标是一只四仰八叉装可怜的红色小狗：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-07_132213.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132213.jpg" alt="Irfanview" /></a><br />
+图标放大了倒还可以让人接受，问题是如果把 Irfanview
+当作默认看图软件而你又选择了小图标模式浏览时，占领你眼帘的将是整屏幕的红叉——在小图标那个级别的时候谁还能领略到天皇巨狗的风范？</p>
+
+<p>还有一个需要提到的就是 Crimson Editor 的图标：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-10-07_132143.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132143.jpg" alt="Crimson" /></a><br />
+尽管狗也可以用来卖萌，但这粗糙的灰狗头像实在和软件的强大功能匹配不上，更重要的是，软件名称中的
+Crimson（深红）和灰狗到底有什么暧昧关系啊？！完全不能理解啊啊啊啊啊啊～</p>
+
+<p>最后，《Don&rsquo;t Make Me
+Think》的作者说，他的书甚少直接批评那些明显糟糕的设计，因为要设计制造出优秀的产品并不容易。这样的境界多么让人汗颜啊，但是如果真是这样，人生会少了多少乐趣啊～</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzaogaode-tubiao%2f&text= @calon %e7%b3%9f%e7%b3%95%e7%9a%84%e5%9b%be%e6%a0%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%b3%9f%e7%b3%95%e7%9a%84%e5%9b%be%e6%a0%87》&body=https%3a%2f%2fioerr.github.io%2fzaogaode-tubiao%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%9B%BE%E6%A0%87">#图标 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1">#设计 </a>
       
     
   </div>
@@ -637,7 +854,7 @@ Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇�
   </a>
   
 
-  PAGE 47 / 460
+  PAGE 47 / 229
 
   
   <a href="/page/48/" rel="next">

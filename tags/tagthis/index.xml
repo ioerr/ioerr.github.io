@@ -26,21 +26,5 @@
 </description>
     </item>
     
-    <item>
-      <title>TagThis</title>
-      <link>https://ioerr.github.io/tagthis/</link>
-      <pubDate>Sat, 23 Feb 2008 17:03:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tagthis/</guid>
-      <description>&lt;p&gt;因为是半路启用标签功能，所以以前的许多文章都没有打上标签，懒得自己一个个加标签，所以装上了这个“&lt;a href=&#34;http://www.brajeshwar.com/2008/tagthis-wordpress-plugin/&#34;&gt;TagThis&lt;/a&gt;”插件。&lt;/p&gt;
-
-&lt;p&gt;目前提交的标签要经过手工审核才会显示。&lt;br /&gt;
-估计添加标签的人不会很多，所以同样的标签只要用户提交一次就会出现在页面中（推荐设置是2－5次）。&lt;/p&gt;
-
-&lt;p&gt;原插件的脚本和 Style 感觉比较马虎，在 IE
-中可能十分难看，作者自己的页面上都有难看的大片空白…所以自己稍微改了一下，反正懒得调整控制显隐的脚本，干脆就删掉了一部分…&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

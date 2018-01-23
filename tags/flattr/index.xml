@@ -38,33 +38,5 @@
 </description>
     </item>
     
-    <item>
-      <title>小额支付支持内容作者</title>
-      <link>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
-      <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense
-被关闭&lt;/a&gt;，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。&lt;/p&gt;
-
-&lt;p&gt;之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。&lt;/p&gt;
-
-&lt;p&gt;当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。&lt;br /&gt;
-至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。&lt;/p&gt;
-
-&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;
-在阮一峰文章的回复中提醒，支付宝还有&lt;a href=&#34;https://shenghuo.alipay.com/escore.htm&#34;&gt;担保交易&lt;/a&gt;功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。&lt;/p&gt;
-
-&lt;p&gt;好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。&lt;br /&gt;
-单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。&lt;/p&gt;
-
-&lt;p&gt;另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。&lt;br /&gt;
-也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;
-这样的项目，到目前为止的用户数大约10万。&lt;/p&gt;
-
-&lt;p&gt;又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了&lt;a href=&#34;https://gist.github.com/2246054&#34;&gt;这个收款主页&lt;/a&gt;，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

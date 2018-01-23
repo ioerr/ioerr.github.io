@@ -42,37 +42,5 @@ Reader&lt;/a&gt;、Bloglines、Gmail、&lt;a href=&#34;http://twitter.com/calon/
 </description>
     </item>
     
-    <item>
-      <title>FeedBurner 被 GFW？</title>
-      <link>https://ioerr.github.io/feedburner-bei-gfw/</link>
-      <pubDate>Thu, 30 Aug 2007 09:40:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/feedburner-bei-gfw/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5104419267717223682&#34;&gt;&lt;img src=&#34;http://lh3.google.com/calon.xu/RtaKR5Tx1QI/AAAAAAAAAO0/3QZOvI3saJ4/s800/ScreenShot00008.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;消息本身没什么好说的：至少在电信网络内，目前已经&lt;a href=&#34;http://twitter.com/calon/statuses/234682382&#34;&gt;无法正常访问
-feeds.feedburner.com
-二级域名&lt;/a&gt;。是不是 GFW
-所为，其他电信运营商网络会不会跟进，还需要进一步观察。&lt;br /&gt;
-最直接的影响就是，许多 blog 通过 &lt;a href=&#34;http://feedburner.com/&#34;&gt;FeedBurner&lt;/a&gt;
-跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅
-FeedBurner 托管的 feed。&lt;/p&gt;
-
-&lt;p&gt;解决办法如下：&lt;br /&gt;
-1、停止 FeedBurner 的 FeedBurner Stats
-功能，去掉页面跳转。反正这个统计也是鸡肋；&lt;br /&gt;
-2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed
-地址，虽然现在已经晚了；&lt;br /&gt;
-3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如
-Reader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；&lt;br /&gt;
-4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。&lt;/p&gt;
-
-&lt;p&gt;如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。&lt;br /&gt;
-下一个会是谁呢，&lt;a href=&#34;http://twitter.com/calon/statuses/235932662&#34;&gt;Google
-Reader&lt;/a&gt;、Bloglines、Gmail、&lt;a href=&#34;http://twitter.com/calon/statuses/236059612&#34;&gt;Twitter&lt;/a&gt;
-还是 Del.icio.us？&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

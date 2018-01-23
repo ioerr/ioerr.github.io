@@ -49,44 +49,5 @@ Museum of Glass&lt;/a&gt;
 </description>
     </item>
     
-    <item>
-      <title>Prince Rupert’s Drop</title>
-      <link>https://ioerr.github.io/prince-ruperts-drop/</link>
-      <pubDate>Sun, 04 Jan 2009 13:47:37 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/prince-ruperts-drop/</guid>
-      <description>&lt;p&gt;在 Youtube 看到 &lt;a href=&#34;http://en.wikipedia.org/wiki/Prince_Rupert%27s_Drop&#34;&gt;Prince Rupert’s
-Drop&lt;/a&gt;（鲁珀特王子的玻璃滴）的视频：&lt;/p&gt;
-
-&lt;p&gt;制作过程和演示头部的抗打击力：&lt;/p&gt;
-
-&lt;p&gt;另一个制作过程和演示破坏尾部引起爆炸：&lt;/p&gt;
-
-&lt;p&gt;在 &lt;a href=&#34;http://museumofglass.org/education/learn-about-glass/exploding-glass-ruperts-drop/&#34;&gt;Museum of
-Glass&lt;/a&gt;、&lt;a href=&#34;http://cmog.org/dynamic.aspx?id=5660&amp;amp;terms=rupert&#34;&gt;Corning
-Museum of Glass&lt;/a&gt;
-、&lt;a href=&#34;http://www.popsci.com/diy/article/2008-06/shattering-strongest-glass&#34;&gt;PopSci&lt;/a&gt;
-以及&lt;a href=&#34;http://en.wikipedia.org/wiki/Prince_Rupert%27s_Drop&#34;&gt;维基百科&lt;/a&gt;可以找到相应的介绍文章。&lt;/p&gt;
-
-&lt;p&gt;这是爆炸瞬间的照片：&lt;br /&gt;
-&lt;img src=&#34;http://www.popsci.com/files/imagecache/article_image_large/files/articles/glassmain.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;大致的原理是这样的，如果说的不对请指正：&lt;br /&gt;
-当熔化的玻璃落入水中后，外部表面迅速冷却收缩，而内部的降温收缩相对缓慢；&lt;br /&gt;
-当外层完全冷却硬化之后，内核还在降温并继续趋向于收缩，此时外层已经不能够根据内核的收缩改变形状了，于是外层在各个方向上受到一个向内的压力，形成压应力，内层则反过来形成张应力；&lt;br /&gt;
-内核完全冷却之后这样的应力就保留了下来，整体上形成平衡状态。&lt;/p&gt;
-
-&lt;p&gt;玻璃材料抗压力强而抗拉力弱，这样处理之后，外层的压应力可以抵消外力带来的部分拉应力，又因为收缩时消除表面的大部分裂纹，因此裂纹少而本来强度就超过钢铁的玻璃就变得非常坚固了。这接近钢化玻璃的原理——不过换成了吹冷空气，而且是降温较慢的退火而不是降温很快的淬火。&lt;/p&gt;
-
-&lt;p&gt;而当玻璃滴或者说玻璃蝌蚪的小尾巴被破坏之后，表层产生了裂纹，打破了内外层之间的压力平衡，于是之前被“锁”住的能量就释放出来，在极短的时间内以连锁反应的形式将整滴玻璃炸成粉末。&lt;/p&gt;
-
-&lt;p&gt;Prince Rupert’s Drop
-的名称来自莱茵的鲁珀特王子；据说他喜欢用这种玩意儿搞恶作剧吓人。&lt;br /&gt;
-&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/1/13/Prince_Rupert.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Samuel Pepys 在1662年1月13日的日记中有提到此事。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

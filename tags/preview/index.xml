@@ -53,48 +53,5 @@ Del.icio.us 的魅力减少许多。&lt;/p&gt;
 </description>
     </item>
     
-    <item>
-      <title>Del.icio.us Preview</title>
-      <link>https://ioerr.github.io/delicious-preview/</link>
-      <pubDate>Thu, 27 Sep 2007 14:39:31 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/delicious-preview/</guid>
-      <description>&lt;p&gt;昨天收到了 &lt;a href=&#34;http://preview.delicious.com/&#34;&gt;Del.icio.us Preview&lt;/a&gt;
-的邀请，因为已经有不少人剧透，所以今天进去转了一圈没有太多新发现，觉得最大的改变还是界面美化许多。&lt;/p&gt;
-
-&lt;p&gt;我感兴趣的新特性有：&lt;br /&gt;
-可以搜索 Network 中的书签；&lt;br /&gt;
-增强了对 Network 的管理，如创建群组、设置私有书签、报告 spam；&lt;br /&gt;
-增强了订阅功能，支持打包订阅；&lt;br /&gt;
-收藏时的 note 可支持1000个字符；&lt;br /&gt;
-可以设置与用户名不同的昵称；&lt;br /&gt;
-3类展示模式：title、regular、full；&lt;br /&gt;
-增加了随机浏览书签的模式。&lt;/p&gt;
-
-&lt;p&gt;感觉新版本在界面上更加突出 Network、Inbox 的地位：&lt;br /&gt;
-My Network 放在了专门新增的 People 按钮下；&lt;br /&gt;
-Inbox 看上去和 Flickr
-的收件箱差不多，实际是添加“for:auser”标签之后发送给指定用户看的，就是老版本中的“links
-for you”。&lt;/p&gt;
-
-&lt;p&gt;已经发现的问题：&lt;br /&gt;
-在 Tag Bar
-中输入关联标签时，自动补全的标签名只能够用键盘确认，鼠标不可，官方的说法是正在改进；&lt;br /&gt;
-自动补全的标签不能够自动识别是否是有效的关联标签，如我的 Blog
-标签中没有同时打上 Album 标签的条目，但是在Blog 标签页面的 Tag Bar
-中输入 A，自动补全选项中会出现 Album，如果选择了它便提示“You have no
-bookmarks with these tags used
-together.”，如果在此前的输入时进行判断后不提供 Album
-的补全选项更加合理；&lt;br /&gt;
-目前收录书签时的标签提示还未出现用户自己的书签，只有最受欢迎的书签会出现在补全提示中，可能是随机出现这种情况；&lt;br /&gt;
-订阅的界面反不如老版本清晰；&lt;br /&gt;
-目前还不知道接口开放的情况，也无法输出条目到其他站点看效果，顿时感觉
-Del.icio.us 的魅力减少许多。&lt;/p&gt;
-
-&lt;p&gt;在浏览标签的界面能实现不刷新页面地跳转标签，体验应会好很多，然则
-&lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt; 本来就是朴素为先，也就忍了。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

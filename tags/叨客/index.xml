@@ -50,45 +50,5 @@ RSS 是什么？能赚钱吗？&lt;/p&gt;
 </description>
     </item>
     
-    <item>
-      <title>滔滔</title>
-      <link>https://ioerr.github.io/taotao/</link>
-      <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/taotao/</guid>
-      <description>&lt;p&gt;腾讯的&lt;a href=&#34;http://www.taotao.com/&#34;&gt;滔滔/叨客&lt;/a&gt;正式上线，功能上自然还是追随
-Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。&lt;/p&gt;
-
-&lt;p&gt;1、只支持 QQ。&lt;br /&gt;
-站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。&lt;/p&gt;
-
-&lt;p&gt;2、不开放 API。&lt;br /&gt;
-和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。&lt;/p&gt;
-
-&lt;p&gt;3、没有 RSS。&lt;br /&gt;
-RSS 是什么？能赚钱吗？&lt;/p&gt;
-
-&lt;p&gt;4、发言首先要经过语意分析技术分析筛选之后才能够上首页&lt;br /&gt;
-估计也就是“过滤”换了一种说法，从效果来看并不如意。&lt;/p&gt;
-
-&lt;p&gt;5、无法输出到页面&lt;br /&gt;
-没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。&lt;/p&gt;
-
-&lt;p&gt;其他方面：&lt;/p&gt;
-
-&lt;p&gt;名字究竟是叨客还是滔滔？难道是滔滔上的叨客？&lt;br /&gt;
-能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；&lt;br /&gt;
-添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；&lt;br /&gt;
-多次出现系统繁忙的提示，不像是腾讯的服务水准；&lt;br /&gt;
-据说不支持 Opera，摇头…&lt;/p&gt;
-
-&lt;p&gt;总而言之，在我看来是既不开放也缺少诚意的产品。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

@@ -42,12 +42,12 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/2016-nian-ouzhoubei-faguodui-biaoxian-duanping/">
+  <a href="https://ioerr.github.io/pandoc-markdown/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>11 Jul 2016, 08:32</time>
-      <h1>2016年欧洲杯法国队表现短评</h1>
+      <time>23 Oct 2014, 07:25</time>
+      <h1>Pandoc &amp; Markdown</h1>
     </div>
   </div>
 </a>
@@ -60,486 +60,59 @@
 </div>
 
 <section class="post-content">
-  <p>年纪大了，没法场场熬夜看球，只能看回放加决赛看直播。</p>
+  <p>实在不明白为什么很多人需要编辑器有
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。<br />
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML
+等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。</p>
 
-<p>这届法国队出征的目的是为2018年世界杯练兵，目标是四强，而且赛前有 Benzema
-和 Valbuena
-的场外闹剧，有中后场球员纷纷受伤退出的厄运，能够杀入决赛并且复仇苦主德国队，还是可以接受的。</p>
+<p>如果需要预览才能用好，那是否说明
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+还不够简单、直观？</p>
 
-<p>不过从过程来看，挺进决赛并不是实力的真实反映，这支队伍的问题依然多多，随便一列就是一串：</p>
+<p>我使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+的次数不多，因为 <a href="http://www.vim.org/">Vim</a> + HTML
+插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>。</p>
 
-<p>1、小组赛时的433已经被证明运转不畅，中场三后腰太浪费了，Pogba
-发挥不出俱乐部一半的实力，Kante 和 Matuidi 都很别扭；<br />
-改为4231之后，前场 Griezmann 解放出来了，Pogba 在后面调度，Giroud
-在前面做支点中锋，面对弱队时还是表现不错的。<br />
-但总感觉调度欠缺火候，没有人有能力掌控节奏，不是乱拳打死对手，就是陷入绞杀战心浮气躁。<br />
-如何树立中场指挥官，并且让年轻球员成熟稳重起来，可谓法国队最大的任务。<br />
-都说 Pogba
-是新生一代世界第一人，应该成为国家队核心，但在阵中的表现还不如
-Griezmann、前几场的 Payet 等人。<br />
-除了位置与俱乐部中有所不同的原因之外，在国家队有时候踢大爷球，逆境下思路不清，关键时候出球不合理，仍有年轻天才球员的通病。<br />
-当然他还算年轻，不能要求像齐达内那样举重若轻，但如果仗着身强腿长继续这样踢，第一人的称号恐怕不会落在他头上。<br />
-当年的 C. Ronaldo
-技术天赋甚至在他之上，但如果像刚到曼联时那样只知道耍耍花拳绣腿，脑子不开窍，哪有可能有今天的成就？</p>
+<p>如果要用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>，我一般会通过
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 转换输出为 HTML
+再发布，这样不管是不支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+语法的，还是支持
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 嵌套 HTML
+的发布渠道都没有问题，不会被发布渠道的能力束缚——在
+<a href="https://wordpress.org/">WordPress</a> 等平台上，当然还是用 HTML 比较通用。</p>
 
-<p>另外攻坚不利时有没有行之有效的第二、第三方案？目前也看不出来。<br />
-总不能依靠 Payet 时灵时不灵的远射吧？</p>
+<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+的一大好处是支持的输入输出格式极为丰富，简单的东西用
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+写好，想转换成什么都比较方便，包含中文的 PDF
+文档除外，除非你知道怎么解决 LaTeX 相关的配置。<br />
+其次是可以自定义的参数一大堆，比如
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+中要求行末加双空格才转为换行，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>
+用 markdown+hard_line_breaks
+参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。</p>
 
-<p>3、Griezmann 无疑是淘汰赛以来表现最好，输出最精确的球员。<br />
-如果不是葡萄牙门将发挥出色，也许他已经在90分钟内解决战斗。<br />
-但 Griezmann 的影锋位置比较依赖身前 Giroud
-的支点做球和吸引防守，加上自身身体条件有限，无法以他为核心运转。<br />
-挖掘出能替代 Giroud 的中锋做他的肉盾和辅助是当务之急。</p>
+<p>如果配合 <a href="http://www.ghisler.com/">Total Commander</a> 使用，安装
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 后可以在工具栏中增加
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的快捷图标，参数栏中写上：</p>
 
-<p>4、Giroud
-的表现没有什么可黑的，打脸侠拼尽了全力，完美发挥了既定的战术作用。<br />
-既能够吸引多名防守队员，为身后的攻击群开路，也能争顶头球，做前场支点和直接威胁球门，还能时不时前场抢断，黑他脚下拿球、带球技术不行就要求太高了。<br />
-问题是 Benzema 回归了怎么办？Griezmann
-的作用会不会弱化？谁来扛住对方的中后卫？<br />
-如果 Benzema 还继续被排除在国家队之外，谁能充当可靠的替补？<br />
-Gignac
-是不用指望了，这位仁兄除了决赛时好不容易等满了技能冷却时间来了一脚门柱之外，简直一无是处，不是拿球停出底线就是跑不到位、望球兴叹，人家
-Giroud
-虽说射门准度不行，起码机会还可以跑出来甚至自己创造出来呢。就是98年公认的水货前锋
-Guivarc&rsquo;h，浪费了无数射门良机，起码人家的中锋战术作用还有一点，而且没有身穿10号球衣。</p>
+<pre><code>&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html&lt;/code&gt;
+</code></pre>
 
-<p>5、中后卫人才储备虽然奢侈到 Deschamps 一直不召 Laporte
-入队，但目前来看，只有 Koscielny
-勉强可算世界一流中后卫，还要祈祷不要被对方身体素质优秀的球员针对性冲击。<br />
-其他的如 Varane、Sakho 等都需要时间历练。<br />
-Umtiti 起点很高，希望不要让人失望。<br />
-另外，从06年被意大利人虐到14年被德国人力压，中后卫防空的痼疾似乎仍未彻底解决，每次定位球我看着都心惊肉跳，越发怀念
-Blanc 他们还在的日子。</p>
+<p>其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。</p>
 
-<p>6、边后卫人才断档问题不可忽视。<br />
-Evra 和 Sagna
-已经是勉强支撑，三爷还莫名其妙脑子短路送个点球，可两个替补根本不放心放上场。<br />
-曾几何时，边后卫套上助攻是国家队常规武器，威力不逊于巴西的巅峰双边卫，如今反倒成了对方重点利用的漏洞。<br />
-而且老将退出国家队之后，放眼望去找不到可以顶上来的人才。<br />
-究竟是改变后场阵型和防守体系，还是凭借深厚的腰力弥补攻防两端的不足？这也是
-Deschamps 以后要操心的。</p>
-
-<p>7、Sisskho 的无脑猪突流看着是很爽，但不会控制节奏就是浪费体力；<br />
-Coman 的突破看着犀利，可传球时机的掌握实在糟糕，球商捉急怎能接过 Ribery
-的班；<br />
-Payet
-踢了几场好球，进了几个神仙球之后，就有点搞不清自己的角色，处理球越发不合理，决赛还下黑脚，堪称虎头蛇尾；<br />
-Martial
-干脆浑浑噩噩，上场不知道来干嘛了。其实我觉得以他在曼联某些场次客串中锋的打法，至少也比
-Gignac 这种降低己方士气的球员强。<br />
-角色球员执行力不行，喧兵夺主，看着场面热闹，实则对球队的胜利没有好处，这方面都应该向老实人
-Matuidi 学习——虽然433时发挥糟糕，但那是 Deschamps
-排兵布阵的锅，与他无关。</p>
-
-<p>8、Deschamps
-的教练水平还是有限，几次换人效果不彰，我就不重复其他人批评的观点了。<br />
-Ronaldo 受伤下场之后，总觉得他连应对的方案都没有，白白错过机会。<br />
-带入加时赛的节奏明显对法国队不利，也没有带摩纳哥和马赛时拼刺刀的果敢，换人还是那么循规蹈矩，当时就觉得危险了。<br />
-倒是在巨大压力下坚决拿下 Benzema
-保证队伍团结可圈可点，但不提高赛前准备和临场调度水平，如何与其他传统强国的年轻教练对抗呢？<br />
-目前来说，从水平和资历而言，本土没有能够替代他的优秀教练（除非 Blanc
-二进宫，但 PSG 带的并不如人意，国家队表现还不如 Deschamps），也许，要等
-Zidane 在皇马练级练满了再继续到国家队来刷成就？</p>
-
-<p>最后说说可圈可点之处和期望：</p>
-
-<p>1、终于边赛边调整确认了4231的阵型为第一方案，希望接下来好好磨合，不要再干这种临时变阵的事情了；<br />
-2、找到了在国家队激活 Griezmann
-的方法，拿到了赛事金靴。当然如前所说，还要丰富火力点才行；<br />
-3、Umtiti 毫不怯场，比 Rami
-这种资历不够的老将还稳健，需要在人员齐整后尽快确定中后卫主力搭档和替补顺位；<br />
-4、Payet
-的闪光说明，有一个哪怕是临时充数的中场大脑，带全队合理踢球，对这支法国队而言多么重要，长远来看
-Payet 虽不可倚仗，但建队思路不能乱。<br />
-5、最后一点私心，多希望 Schneiderlin
-能够踢上主力啊，现在看来他的顺位还在 Cabaye 之后，等到 Cabaye 和 Matuidi
-淡出主力阵容，他只怕也要被层出不穷的后浪拍死了…</p>
+<p>不使用 <a href="http://www.ghisler.com/">Total Commander</a>
+也可以自己写个脚本或批处理干这事。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f&text= @calon 2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84》&body=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E6%AC%A7%E6%B4%B2%E6%9D%AF">#欧洲杯 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%B3%95%E5%9B%BD%E9%98%9F">#法国队 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/2016-nian-ouzhoubei-faguodui-biaoxian-duanping/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>11 Jul 2016, 08:32</time>
-      <h1>2016年欧洲杯法国队表现短评</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>年纪大了，没法场场熬夜看球，只能看回放加决赛看直播。</p>
-
-<p>这届法国队出征的目的是为2018年世界杯练兵，目标是四强，而且赛前有 Benzema
-和 Valbuena
-的场外闹剧，有中后场球员纷纷受伤退出的厄运，能够杀入决赛并且复仇苦主德国队，还是可以接受的。</p>
-
-<p>不过从过程来看，挺进决赛并不是实力的真实反映，这支队伍的问题依然多多，随便一列就是一串：</p>
-
-<p>1、小组赛时的433已经被证明运转不畅，中场三后腰太浪费了，Pogba
-发挥不出俱乐部一半的实力，Kante 和 Matuidi 都很别扭；<br />
-改为4231之后，前场 Griezmann 解放出来了，Pogba 在后面调度，Giroud
-在前面做支点中锋，面对弱队时还是表现不错的。<br />
-但总感觉调度欠缺火候，没有人有能力掌控节奏，不是乱拳打死对手，就是陷入绞杀战心浮气躁。<br />
-如何树立中场指挥官，并且让年轻球员成熟稳重起来，可谓法国队最大的任务。<br />
-都说 Pogba
-是新生一代世界第一人，应该成为国家队核心，但在阵中的表现还不如
-Griezmann、前几场的 Payet 等人。<br />
-除了位置与俱乐部中有所不同的原因之外，在国家队有时候踢大爷球，逆境下思路不清，关键时候出球不合理，仍有年轻天才球员的通病。<br />
-当然他还算年轻，不能要求像齐达内那样举重若轻，但如果仗着身强腿长继续这样踢，第一人的称号恐怕不会落在他头上。<br />
-当年的 C. Ronaldo
-技术天赋甚至在他之上，但如果像刚到曼联时那样只知道耍耍花拳绣腿，脑子不开窍，哪有可能有今天的成就？</p>
-
-<p>另外攻坚不利时有没有行之有效的第二、第三方案？目前也看不出来。<br />
-总不能依靠 Payet 时灵时不灵的远射吧？</p>
-
-<p>3、Griezmann 无疑是淘汰赛以来表现最好，输出最精确的球员。<br />
-如果不是葡萄牙门将发挥出色，也许他已经在90分钟内解决战斗。<br />
-但 Griezmann 的影锋位置比较依赖身前 Giroud
-的支点做球和吸引防守，加上自身身体条件有限，无法以他为核心运转。<br />
-挖掘出能替代 Giroud 的中锋做他的肉盾和辅助是当务之急。</p>
-
-<p>4、Giroud
-的表现没有什么可黑的，打脸侠拼尽了全力，完美发挥了既定的战术作用。<br />
-既能够吸引多名防守队员，为身后的攻击群开路，也能争顶头球，做前场支点和直接威胁球门，还能时不时前场抢断，黑他脚下拿球、带球技术不行就要求太高了。<br />
-问题是 Benzema 回归了怎么办？Griezmann
-的作用会不会弱化？谁来扛住对方的中后卫？<br />
-如果 Benzema 还继续被排除在国家队之外，谁能充当可靠的替补？<br />
-Gignac
-是不用指望了，这位仁兄除了决赛时好不容易等满了技能冷却时间来了一脚门柱之外，简直一无是处，不是拿球停出底线就是跑不到位、望球兴叹，人家
-Giroud
-虽说射门准度不行，起码机会还可以跑出来甚至自己创造出来呢。就是98年公认的水货前锋
-Guivarc&rsquo;h，浪费了无数射门良机，起码人家的中锋战术作用还有一点，而且没有身穿10号球衣。</p>
-
-<p>5、中后卫人才储备虽然奢侈到 Deschamps 一直不召 Laporte
-入队，但目前来看，只有 Koscielny
-勉强可算世界一流中后卫，还要祈祷不要被对方身体素质优秀的球员针对性冲击。<br />
-其他的如 Varane、Sakho 等都需要时间历练。<br />
-Umtiti 起点很高，希望不要让人失望。<br />
-另外，从06年被意大利人虐到14年被德国人力压，中后卫防空的痼疾似乎仍未彻底解决，每次定位球我看着都心惊肉跳，越发怀念
-Blanc 他们还在的日子。</p>
-
-<p>6、边后卫人才断档问题不可忽视。<br />
-Evra 和 Sagna
-已经是勉强支撑，三爷还莫名其妙脑子短路送个点球，可两个替补根本不放心放上场。<br />
-曾几何时，边后卫套上助攻是国家队常规武器，威力不逊于巴西的巅峰双边卫，如今反倒成了对方重点利用的漏洞。<br />
-而且老将退出国家队之后，放眼望去找不到可以顶上来的人才。<br />
-究竟是改变后场阵型和防守体系，还是凭借深厚的腰力弥补攻防两端的不足？这也是
-Deschamps 以后要操心的。</p>
-
-<p>7、Sisskho 的无脑猪突流看着是很爽，但不会控制节奏就是浪费体力；<br />
-Coman 的突破看着犀利，可传球时机的掌握实在糟糕，球商捉急怎能接过 Ribery
-的班；<br />
-Payet
-踢了几场好球，进了几个神仙球之后，就有点搞不清自己的角色，处理球越发不合理，决赛还下黑脚，堪称虎头蛇尾；<br />
-Martial
-干脆浑浑噩噩，上场不知道来干嘛了。其实我觉得以他在曼联某些场次客串中锋的打法，至少也比
-Gignac 这种降低己方士气的球员强。<br />
-角色球员执行力不行，喧兵夺主，看着场面热闹，实则对球队的胜利没有好处，这方面都应该向老实人
-Matuidi 学习——虽然433时发挥糟糕，但那是 Deschamps
-排兵布阵的锅，与他无关。</p>
-
-<p>8、Deschamps
-的教练水平还是有限，几次换人效果不彰，我就不重复其他人批评的观点了。<br />
-Ronaldo 受伤下场之后，总觉得他连应对的方案都没有，白白错过机会。<br />
-带入加时赛的节奏明显对法国队不利，也没有带摩纳哥和马赛时拼刺刀的果敢，换人还是那么循规蹈矩，当时就觉得危险了。<br />
-倒是在巨大压力下坚决拿下 Benzema
-保证队伍团结可圈可点，但不提高赛前准备和临场调度水平，如何与其他传统强国的年轻教练对抗呢？<br />
-目前来说，从水平和资历而言，本土没有能够替代他的优秀教练（除非 Blanc
-二进宫，但 PSG 带的并不如人意，国家队表现还不如 Deschamps），也许，要等
-Zidane 在皇马练级练满了再继续到国家队来刷成就？</p>
-
-<p>最后说说可圈可点之处和期望：</p>
-
-<p>1、终于边赛边调整确认了4231的阵型为第一方案，希望接下来好好磨合，不要再干这种临时变阵的事情了；<br />
-2、找到了在国家队激活 Griezmann
-的方法，拿到了赛事金靴。当然如前所说，还要丰富火力点才行；<br />
-3、Umtiti 毫不怯场，比 Rami
-这种资历不够的老将还稳健，需要在人员齐整后尽快确定中后卫主力搭档和替补顺位；<br />
-4、Payet
-的闪光说明，有一个哪怕是临时充数的中场大脑，带全队合理踢球，对这支法国队而言多么重要，长远来看
-Payet 虽不可倚仗，但建队思路不能乱。<br />
-5、最后一点私心，多希望 Schneiderlin
-能够踢上主力啊，现在看来他的顺位还在 Cabaye 之后，等到 Cabaye 和 Matuidi
-淡出主力阵容，他只怕也要被层出不穷的后浪拍死了…</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f&text= @calon 2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《2016%e5%b9%b4%e6%ac%a7%e6%b4%b2%e6%9d%af%e6%b3%95%e5%9b%bd%e9%98%9f%e8%a1%a8%e7%8e%b0%e7%9f%ad%e8%af%84》&body=https%3a%2f%2fioerr.github.io%2f2016-nian-ouzhoubei-faguodui-biaoxian-duanping%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E6%AC%A7%E6%B4%B2%E6%9D%AF">#欧洲杯 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%B3%95%E5%9B%BD%E9%98%9F">#法国队 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/zhuanjiyin-shipin-wuhai-baogao-zuoyong-buda/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>27 May 2016, 03:26</time>
-      <h1>转基因食品无害报告作用不大</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><blockquote>
-<a href="http://www.nap.edu/catalog/23395/genetically-engineered-crops-experiences-and-prospects">美国国家科学院发布报告</a>宣布转基因食品对人体无害。转基因食品不会增加癌症、糖尿病、肥胖症、肾病、消化道疾病、过敏症以及自闭症等疾病的风险。</p>
-
-<p>这篇报告 388 页，由 50
-位来自美国国家科学院、工程院、医学院以及其他领域的学者专家分析 900
-多份、时间跨度长达 20 年的研究与数据得出的结论。
-</blockquote>
-看不惯反转基因的人可能会觉得扬眉吐气，其实对说服反转基因一派没有什么作用。<br />
-因为反转基因的理由有：<br />
-1、现在无害不代表没有潜在危害，而报告只能说明20年的有限方面的观察研究结果；<br />
-2、转基因这事有阴谋论，政府、公司或者科学机构都不可靠；<br />
-3、中国的食品安全不可靠，在国外没事不代表在国内也没事；<br />
-4、对人体没有危害不代表对环境没有危害；<br />
-5、现代科学改良过的食品就是没有“自然”的食品好。<br />
-现在还可以加一句，把这事简化为“转基因无害”并大肆宣传，既是迷信权威，又是以偏概全，在逻辑上就站不住脚。<br />
-报告完全针对不上这些理由，甚至还会进一步强化部分反转基因人士的信念。<br />
-实际看到各个论坛和社交网站上的争论大都如此，与报告发布之前没什么不同。<br />
-所以还是重复之前在《<a href="http://calon.weblogs.us/zhuanjiyin_zhengyi/">转基因争议</a>》中的看法，最终还得让市场来发挥作用，让各方各自用钱来投票选择吧。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhuanjiyin-shipin-wuhai-baogao-zuoyong-buda%2f&text= @calon %e8%bd%ac%e5%9f%ba%e5%9b%a0%e9%a3%9f%e5%93%81%e6%97%a0%e5%ae%b3%e6%8a%a5%e5%91%8a%e4%bd%9c%e7%94%a8%e4%b8%8d%e5%a4%a7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%bd%ac%e5%9f%ba%e5%9b%a0%e9%a3%9f%e5%93%81%e6%97%a0%e5%ae%b3%e6%8a%a5%e5%91%8a%e4%bd%9c%e7%94%a8%e4%b8%8d%e5%a4%a7》&body=https%3a%2f%2fioerr.github.io%2fzhuanjiyin-shipin-wuhai-baogao-zuoyong-buda%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">#市场经济 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E8%BD%AC%E5%9F%BA%E5%9B%A0">#转基因 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/zhuanjiyin-shipin-wuhai-baogao-zuoyong-buda/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>27 May 2016, 03:26</time>
-      <h1>转基因食品无害报告作用不大</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><blockquote>
-<a href="http://www.nap.edu/catalog/23395/genetically-engineered-crops-experiences-and-prospects">美国国家科学院发布报告</a>宣布转基因食品对人体无害。转基因食品不会增加癌症、糖尿病、肥胖症、肾病、消化道疾病、过敏症以及自闭症等疾病的风险。</p>
-
-<p>这篇报告 388 页，由 50
-位来自美国国家科学院、工程院、医学院以及其他领域的学者专家分析 900
-多份、时间跨度长达 20 年的研究与数据得出的结论。
-</blockquote>
-看不惯反转基因的人可能会觉得扬眉吐气，其实对说服反转基因一派没有什么作用。<br />
-因为反转基因的理由有：<br />
-1、现在无害不代表没有潜在危害，而报告只能说明20年的有限方面的观察研究结果；<br />
-2、转基因这事有阴谋论，政府、公司或者科学机构都不可靠；<br />
-3、中国的食品安全不可靠，在国外没事不代表在国内也没事；<br />
-4、对人体没有危害不代表对环境没有危害；<br />
-5、现代科学改良过的食品就是没有“自然”的食品好。<br />
-现在还可以加一句，把这事简化为“转基因无害”并大肆宣传，既是迷信权威，又是以偏概全，在逻辑上就站不住脚。<br />
-报告完全针对不上这些理由，甚至还会进一步强化部分反转基因人士的信念。<br />
-实际看到各个论坛和社交网站上的争论大都如此，与报告发布之前没什么不同。<br />
-所以还是重复之前在《<a href="http://calon.weblogs.us/zhuanjiyin_zhengyi/">转基因争议</a>》中的看法，最终还得让市场来发挥作用，让各方各自用钱来投票选择吧。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhuanjiyin-shipin-wuhai-baogao-zuoyong-buda%2f&text= @calon %e8%bd%ac%e5%9f%ba%e5%9b%a0%e9%a3%9f%e5%93%81%e6%97%a0%e5%ae%b3%e6%8a%a5%e5%91%8a%e4%bd%9c%e7%94%a8%e4%b8%8d%e5%a4%a7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%bd%ac%e5%9f%ba%e5%9b%a0%e9%a3%9f%e5%93%81%e6%97%a0%e5%ae%b3%e6%8a%a5%e5%91%8a%e4%bd%9c%e7%94%a8%e4%b8%8d%e5%a4%a7》&body=https%3a%2f%2fioerr.github.io%2fzhuanjiyin-shipin-wuhai-baogao-zuoyong-buda%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">#市场经济 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E8%BD%AC%E5%9F%BA%E5%9B%A0">#转基因 </a>
-      
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>28 Apr 2016, 10:24</time>
-      <h1>再见，Delicious。你好，TagPacker！</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>自从前天用 Delicious
-收藏网页总是不成功，发现它正在维护开始，一直到现在它的首页都是这样：</p>
-
-<p><a href="http://s111.photobucket.com/user/calon_plus/media/20160428_170855.png.html"><img src="http://i111.photobucket.com/albums/n154/calon_plus/20160428_170855.png" alt="photo
-20160428\_170855.png" /></a></p>
-
-<p>我可以接受它越改版越丑，也还可以容忍越来越慢的访问速度，但曾经是互联网界 Web 2.0的标杆网站，维护时间超过48小时导致基本功能都无法使用，实在无法一起坐船了。</p>
-
-<p><a href="http://pinboard.in/">Pinboard</a> 太丑；<br />
-<a href="https://getpocket.com/">Pocket</a> 和 <a href="www.instapaper.com">Instapaper</a>
-主要用于文章收藏，书签管理方面太弱；<br />
-<a href="https://www.diigo.com/">Diigo</a> 依然被墙；<br />
-浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox
-的书签管理倒是勉强够用了）；</p>
-
-<p>最终找到的是 <a href="https://tagpacker.com/">TagPacker</a>
-这个新服务，大多数方面都符合我的要求：<br />
-访问速度相对挺快；<br />
-界面美观，堪称令人心旷神怡；<br />
-标签提示、注释、私密书签、个人页面、摘录网页图片、批量修改、订阅等基础功能都具备；<br />
-多标签管理可媲美 Delicious，无论收藏、搜索、URL
-都支持多标签组合，并且有类似于 Delicious 的 tag bundle
-的标签组（也就是它们的产品名 tagpack）；<br />
-可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML
-文件，至少不用担心数据完全消失，不过因为 Delicious 维护，还没测试导入；<br />
-有 Firefox 浏览器扩展，而且比 Delicious 的残废扩展好用一万倍！</p>
-
-<p>遗憾的是没有标签智能推荐功能，也没有被 <a href="https://ifttt.com/">IFTTT</a>
-收录，而且因为是全免费服务，不知道未来是否也像 Delicious
-一样只能维持数年的优质服务。<br />
-注册用户默认会推荐关注官方账号，所以目前来看至少有2584个用户，对已经上线运营超过一年的服务来说，还是有点少。</p>
-
-<p>如果你仍需要类似 Delicious
-的服务，可以看看<a href="https://tagpacker.com/user/social.bookmarking.tools">这个列表</a>，有人整理了百多个能沾上边的网站，可供参考。</p>
-
-<p>更新：<a href="http://blog.delicious.com/2016/04/transition-to-del-icio-us/">官方 blog
-有说明原因</a>，这次是迁移回
-del.icio.us，估计是把域名给卖了吧。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzaijian-delicious-nihao-tagpacker%2f&text= @calon %e5%86%8d%e8%a7%81%ef%bc%8cDelicious%e3%80%82%e4%bd%a0%e5%a5%bd%ef%bc%8cTagPacker%ef%bc%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%86%8d%e8%a7%81%ef%bc%8cDelicious%e3%80%82%e4%bd%a0%e5%a5%bd%ef%bc%8cTagPacker%ef%bc%81》&body=https%3a%2f%2fioerr.github.io%2fzaijian-delicious-nihao-tagpacker%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f&text= @calon Pandoc%20%26%20Markdown&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Pandoc%20%26%20Markdown》&body=https%3a%2f%2fioerr.github.io%2fpandoc-markdown%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -556,15 +129,291 @@ del.icio.us，估计是把域名给卖了吧。</p>
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/delicious">#delicious </a>
+        <a href="https://ioerr.github.io/tags/markdown">#Markdown </a>
       
-        <a href="https://ioerr.github.io/tags/tagpacker">#TagPacker </a>
+        <a href="https://ioerr.github.io/tags/pandoc">#Pandoc </a>
       
-        <a href="https://ioerr.github.io/tags/web2.0">#web2.0 </a>
+        <a href="https://ioerr.github.io/tags/%E5%86%99%E4%BD%9C">#写作 </a>
       
-        <a href="https://ioerr.github.io/tags/%E4%B9%A6%E7%AD%BE">#书签 </a>
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91">#文本编辑 </a>
       
-        <a href="https://ioerr.github.io/tags/%E7%A4%BE%E4%BA%A4%E4%B9%A6%E7%AD%BE%E6%9C%8D%E5%8A%A1">#社交书签服务 </a>
+        <a href="https://ioerr.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">#标记语言 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2">#格式转换 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/yidong-yingyong-tongdian/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>11 Oct 2014, 10:11</time>
+      <h1>移动应用痛点</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。</p>
+
+<p>一个原因是应用之间的数据分享通道局限太多，对内容的操控抓得太紧。</p>
+
+<p>典型的例子就是要分享一些阅读应用中的内容，地址、标题、正文、图片等等无法像电脑浏览网页一样，给用户完全的控制权，有时甚至禁止选择文字。</p>
+
+<p>也许这样限制的初衷是防止方便盗用内容，但一来移动应用上的内容盗用并不因此就少了，有利益驱动谁也挡不住，二来用户有心整理内容，精炼消化后准备二次分享，这是有益于提升交流和内容质量的事情，现在却只能换到电脑上整理。</p>
+
+<p>既然各个应用之间是分工合作的关系，谁也不能包打天下，那么这种无形中限制数据流动的做法等于提升了用户操作成本。<br />
+如果是不过脑子的娱乐内容也无所谓，真要干什么正经事情，还是觉得麻烦。</p>
+
+<p>第二个原因，则是移动应用并没有提供一条龙的流畅业务体验。</p>
+
+<p>作为用户，我最终想要的就是提出自己的目的，然后其他一切由应用代我搞定，最终由我在几个选项中选择最中意的那个就行。<br />
+限于目前的软件能力，哪怕将关键数据收集、整理好，给我参考决策，也算是可以接受了。<br />
+但现状是离这个状态还差得远。</p>
+
+<p>比如说外出游玩，有地图查询、餐饮查询、酒店预订、车船机票预定、景点旅游攻略、同城活动查询……各种应用，可是用户得一个个切换过去，查询、筛选、比对、求证、记录、下单，遇到有的条件不合适，整个流程还得重新来过。</p>
+
+<p>比如说购买自己不大熟悉的商品，在电子商务网站搜索出来的结果是很多，也有不少比价工具，但除了价格、信用之外，一眼看去也很难有可参考的信息了，有时候你要去官网找哪些是官方授权网店，有时候要比对各大电商网站翻评论，或者去专门的论坛找评测，等到终于下决心要下单了，发现还要考虑送达本地的时间等等，又得重新过滤一遍。</p>
+
+<p>又比如时下越来越流行的健康监测应用，实时、准确采集数据的功能是越来越强，但采集到的数据从整合到分析，到一票社交渠道互动，到协助改善生活习惯、健身计划，到和各种周边应用如健身器材购买升级、同城健身活动组织，乃至衣食行消费导购和理财等等等等，都还只整合了部分。</p>
+
+<p>加上第一个原因的限制，很多并无多大意义的中间信息都要亲自处理，用户就像在山谷中前进，终点仿佛就在眼前，走过去却还要上山下地。<br />
+信息技术应该帮助信息如流水一般，朝正确的方向流动起来，现在的移动应用却像是要用户自己一桶桶地提水，装满了水再开动机器。</p>
+
+<p>当然，把移动应用做得大而全到臃肿的地步也不可取，那样比现在更加糟糕，但针对不同目的的应用之间相互串联贯通并不只有大而全一条路可以走，内部相互之间的接口通讯不给用户看到就行。<br />
+只是这样的改变需要整个生态环境的进化才能实现了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f&text= @calon %e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%97%9b%e7%82%b9》&body=https%3a%2f%2fioerr.github.io%2fyidong-yingyong-tongdian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8">#移动应用 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/danxin/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>24 Sep 2014, 15:49</time>
+      <h1>担心</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p><blockquote>
+她说：“你永远不会停止担心，永远不会。你记得他第一次从婴儿床爬出来，你来不及抓住他，他便摔倒在地上，你以为他死了。虽然仅仅是一秒钟，但你记得那种想法有多么恐怖。等他渐渐长大，开始骑脚踏车，爬树，自己走路去上学，不等绿灯就冲到车子前面，你都假装没事。你说：‘小孩都这样，我在他那个年纪也做同样的事。’只是在你嗓门底下总有这样一声惊呼是你一直勉强抑制住的。别这样！停止啊！拜托不要受伤！”她转过身来，目光在暗影中直视我们。“它永远不会消失，那种担心，那种恐惧，一秒钟也不会消失。那就是把生命带到这世上来的代价。”
+</blockquote>
+——丹尼斯·勒翰《<a href="http://book.douban.com/subject/4199607/">黑暗，带我走</a>》</p>
+
+<p>自从有了儿子，而且还特别好动，就特别理解这种恐惧的感觉。<br />
+当他绊倒、从床上摔下甚至只是失去平衡，心底确实就会有一个声音：千万不要受伤啊！<br />
+哪怕什么事也没有发生，脑海中也会想象他万一不慎弄伤了自己，会有多么严重，该如何应付，常常把自己吓了一跳。</p>
+
+<p>以前看韩国电影《<a href="http://movie.douban.com/subject/1763134/">汉江怪物</a>》和凑佳苗的《<a href="http://book.douban.com/subject/4836682/">告白</a>》时，就特别受不了那么可爱的女儿无辜死去。<br />
+如果以后真有了女儿，只会更加担心吧。</p>
+
+<p><img src="http://img3.douban.com/view/photo/photo/public/p457142703.jpg" alt="高雅星" /></p>
+
+<p><img src="http://img3.douban.com/view/photo/photo/public/p816387124.jpg" alt="芦田爱菜" /></p>
+
+<p>上周末参加大学同学包子的婚礼，岳父大人将女儿交给新郎包子后，发表了一番深情的演说，和新人紧紧拥抱，然后转身离开。众人的目光都集中在聚光灯下的新人身上，大概只有我还在注视着他，弯着腰、低着头缓缓地走开，在黑暗中一步一回头地不停回望着，那么不舍，那么落寞，那么不放心，仿佛下一秒世界就要毁灭，担心要和女儿永远分离一样。<br />
+那一刻，我都想一起流泪了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdanxin%2f&text= @calon %e6%8b%85%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8b%85%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2fdanxin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/bailuyuan-zhong-de-baoban-hunyin/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>07 Sep 2014, 09:58</time>
+      <h1>《白鹿原》中的包办婚姻</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>大概是高中的时候，断断续续翻过一下陈忠实的《白鹿原》，情节早就忘得差不多了。最近重新看了一遍，有的内容在当年如果看懂了，可能会挺震撼，现在也没有什么冲击力了——小说毕竟还是不能和更加深刻残酷的现实相提并论，更何况看《百年孤独》在前。</p>
+
+<p>但还是有一点与现实和阅读《百年孤独》不同的体验：</p>
+
+<p>前半部分不仅写了白鹿两家的渊源，作为大儒象征的朱先生和作为族长的主人公白嘉轩的仁义道德之举，白嘉轩几任妻子的暴死，还写了几桩包办的婚姻。<br />
+奇妙的是，在小说中描述的时代背景下，这些包办婚姻写出来竟然感觉十分“和谐”：家族之间一向相处融洽，危难时相互救济，家长们对对方的儿女品性也知根知底，做子女的心甘情愿，婚后的生活也幸福美满。<br />
+以至于当鹿兆鹏为了躲避父辈的安排一走了之，间接害得鹿冷氏独自承受悲剧的婚姻时，我竟然对打破这种“和谐”的鹿兆鹏更加不满，而不是首先从并没有表面上那么“和谐”的包办婚姻上找原因。</p>
+
+<p>直到鹿冷氏被父亲冷先生毒哑然后悲惨的死去，以及婚姻思想更加现代的白灵也主动反抗，我才猛然醒悟过来，并感到后怕。<br />
+我一向反感任何形式的包办婚姻，为什么也会一时认为小说所处背景下的包办婚姻是相对合理的呢？</p>
+
+<p>如果身处另一种时代背景，更多的人是否也会轻易认同一种更高形式的集体“和谐”呢？</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f&text= @calon %e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e3%80%8a%e7%99%bd%e9%b9%bf%e5%8e%9f%e3%80%8b%e4%b8%ad%e7%9a%84%e5%8c%85%e5%8a%9e%e5%a9%9a%e5%a7%bb》&body=https%3a%2f%2fioerr.github.io%2fbailuyuan-zhong-de-baoban-hunyin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E5%8C%85%E5%8A%9E%E5%A9%9A%E5%A7%BB">#包办婚姻 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%92%8C%E8%B0%90">#和谐 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%99%BD%E9%B9%BF%E5%8E%9F">#白鹿原 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/rengong-zhineng-de-tonglixin/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>20 Aug 2014, 11:04</time>
+      <h1>人工智能的同理心</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    Table of contents
+  </span>
+  
+</div>
+
+<section class="post-content">
+  <p>读《<a href="http://book.douban.com/subject/25941905/">海伯利安的陨落</a>》不如读第一本的《<a href="http://book.douban.com/subject/2052049/">海伯利安</a>》那么有趣，但是有一点启发很有意思，那就是如果人工智能不具备同理心，可能离人类的智慧标准还有很长的距离。</p>
+
+<p>而如果采用类似于基因算法的方法进化出人工智能自己的同理心，也许与人类的同理心能力是完全隔绝的，也许能够达到人类无法理解的同理能力。</p>
+
+<p>《<a href="http://book.douban.com/subject/1442869/">献给阿尔吉侬的花束</a>》则是几年来唯一让我看得眼眶湿润的科幻小说，看来属于人类的同理心还没有完全退化。</p>
+
+<p>而且我很喜欢这种从科幻创意出发，尽力描述到极致——起码是读者未能事先想到的戏剧冲突和矛盾，让读者很过瘾的小说，不像某些科幻小说，立意上佳，但受限于思维深度和广度，总也挖掘不到关键点，如隔靴搔痒，甚是无趣。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f&text= @calon %e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e5%90%8c%e7%90%86%e5%bf%83》&body=https%3a%2f%2fioerr.github.io%2frengong-zhineng-de-tonglixin%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">#人工智能 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%90%8C%E7%90%86%E5%BF%83">#同理心 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E5%B0%8F%E8%AF%B4">#小说 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E7%A7%91%E5%B9%BB">#科幻 </a>
       
     
   </div>
@@ -582,7 +431,7 @@ del.icio.us，估计是把域名给卖了吧。</p>
   </a>
   
 
-  PAGE 9 / 460
+  PAGE 9 / 229
 
   
   <a href="/page/10/" rel="next">

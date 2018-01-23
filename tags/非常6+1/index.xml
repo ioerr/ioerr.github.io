@@ -52,47 +52,5 @@
 </description>
     </item>
     
-    <item>
-      <title>非常6&#43;1诈骗</title>
-      <link>https://ioerr.github.io/feichang-61-zhapian/</link>
-      <pubDate>Sun, 13 Sep 2009 14:13:15 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/feichang-61-zhapian/</guid>
-      <description>&lt;p&gt;今天收到我妈转发的一个中奖短信，要我上网查一查是不是真的中了奖。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-    温馨提示：李咏场外&lt;strong&gt;飞信&lt;/strong&gt;抽奖活动，您&lt;strong&gt;被随机抽选验证码为&lt;/strong&gt;1168，请登网址www.cctv&lt;strong&gt;h.cn&lt;/strong&gt;领取奖品，客服热线&lt;strong&gt;4006-191990&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/blockquote&gt;
-一看短信的内容我就笑了：&lt;br /&gt;
-1、我妈使用联通的号码，为什么会参加飞信的抽奖活动？&lt;br /&gt;
-2、“被抽选验证码为”这句子好奇怪；&lt;br /&gt;
-3、网址明显不正确；&lt;br /&gt;
-4、客服热线4006号段是属于联通运营的400长途免费号码，经常被骗子使用。《非常6+1》的栏目组联系电话应该是010-68550777。&lt;/p&gt;
-
-&lt;p&gt;然后去那个网址看了一下，导航栏和链接根本就是假的，活动规则中的时间限制太苛刻了，简直就是催着人赶紧上钩：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-    当日抽选，当日办理。领取奖品时间为当日08:00至17:00截止。&lt;br /&gt;
-    当天收到消息的用户,必在当天17:00时前办理完毕领取相关手续,17:00时后收到消息的用户,务必在17:00至明天的10:30时前办理完毕领取相关手续,逾期系统自动取消领奖资格。注:每一位获奖用户办理领取时间只限3小时,如有个人逾期,视为自动放弃!&lt;/p&gt;
-
-&lt;p&gt;&lt;/blockquote&gt;
-输入手机上收到的验证码之后，页面跳转到了&lt;a href=&#34;http://zxc001.x169.zgsj.net/6+1/indextx.htm&#34;&gt;这个页面&lt;/a&gt;，这回部分链接总算正常了，可是问题也更多了。&lt;/p&gt;
-
-&lt;p&gt;1、一级域名变成了 &lt;a href=&#34;http://zgsj.net/&#34;&gt;http://zgsj.net/&lt;/a&gt; 明显不是中央电视台的网站；&lt;br /&gt;
-2、所谓的&lt;a href=&#34;http://zxc001.x169.zgsj.net/6+1/gz.htm&#34;&gt;北京公证处页面&lt;/a&gt;相当的山寨，各类证件和资料介绍都有明显的修改痕迹，一些该签字的地方也是用打印字体的文字遮盖，证件有效期非常诡异，该页面属于画蛇添足欲盖弥彰的类型；&lt;br /&gt;
-3、要求输入银行账号、身份证号码，相当可疑；&lt;br /&gt;
-4、奖品中有凯美瑞的汽车、三星的笔记本电脑、诺基亚的手机，但是页面下方感谢的赞助商只有诺基亚？丰田和三星向隅而泣啊…&lt;br /&gt;
-5、原始页面的京ICP备05065290号、公证处页面的京ICP备05046676号备案号都是查无此号，而且没有指向工信部网站和经营性网站备案信息页面的链接，&lt;a href=&#34;http://www.miibeian.gov.cn/CX/main.jsp&#34;&gt;工信部备案管理系统&lt;/a&gt;总算还有一点点用处，但是我还是要鄙视它的管理政策和拙劣的系统。&lt;/p&gt;
-
-&lt;p&gt;最重要的是，《非常6+1》栏目的官方页面是中央电视台网站上的&lt;a href=&#34;http://space.tv.cctv.com/podcast/feichang61&#34;&gt;这个页面&lt;/a&gt;，在该页面上有一个不算非常醒目的“&lt;a href=&#34;http://space.tv.cctv.com/page/PAGE1250844388619785&#34;&gt;重要声明&lt;/a&gt;”页面，声明“栏目从未举办过任何形式的抽奖活动，请广大观众提高警惕，不要轻信虚假信息，以免上当受骗。”并曝光了部分仿冒地址，可惜尚没有收入我看到的这个。&lt;/p&gt;
-
-&lt;p&gt;这个事情告诉我们：&lt;br /&gt;
-1、不要心存幻想以为天上有馅饼掉下来，就算真的掉下来了，不妨心存怀疑，小心求证；&lt;br /&gt;
-2、玩诈骗也要有专业水准，最起码要有敬业精神，虽然不专业也能够骗到钱。但永远不会得到蛋疼人士的尊重；&lt;br /&gt;
-3、不要根据官方页面设计水平判断是否诈骗网站，《非常6+1》的&lt;a href=&#34;http://space.tv.cctv.com/page/PAGE1250844388619785&#34;&gt;声明页面&lt;/a&gt;字符编码写的是charset=&lt;strong&gt;gb2132&lt;/strong&gt;，非常不专业…&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
