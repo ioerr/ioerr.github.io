@@ -42,36 +42,62 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/dizhen/">
+  <a href="https://ioerr.github.io/gaijin-rss-tubiao-yonghujiemian-2/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>27 Nov 2005, 11:41</time>
-      <h1>地震</h1>
+      <time>09 Dec 2005, 18:12</time>
+      <h1>改进 RSS 图标用户界面 \#2</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian-2%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p><img src="http://static.flickr.com/32/67134045_a39f811e4e.jpg" alt="" /><br />
-昨天上午江西发生地震，据说长沙也有轻微震感，所幸不像其他受波及的地区有人伤亡。当时我应该刚起床不久，却没有发觉任何异常，看来真的是太迟钝了。<br />
-在我的印象中，长沙发生过大洪水、大火灾，地震倒是边都没有挨过，这次受到一点点波及，也是非常罕见的了。我估计建筑物的防震措施不像地震多发地区的做得那么好，万一还有更严重距离更近的地震发生，可能也会有人员伤亡。</p>
+  <p><a href="http://calon.weblogs.us/2005/12/07/gaijin_rss_tubiao_yonghujiemian/">上一篇</a>说到
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。</p>
 
-<p>本篇原本通过 <a href="http://www.flickr.com/">Flickr</a> 的 Blog This
-功能发布，效果相当差…</p>
+<p>首先逐个翻阅 <a href="http://www.bloglines.com/">Bloglines</a> 上订阅的
+blog，终于找到上一篇提到的 blog 就是 <a href="http://herock.net/">Herock Post</a>。</p>
+
+<p>接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。<br />
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。</p>
+
+<p>然后是在侧栏最下方增加 XML 图标，以及3个子栏目。<br />
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 <a href="http://herock.net/">Herock</a>
+的说明很不错，所以稍加修改就拿过来用了。</p>
+
+<p>在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。</p>
+
+<p>如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
+CSS，使得边框配色、字体与你的侧栏风格一致。</p>
+
+<p>如果你要像 <a href="http://herock.net/">Herock</a>
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 <a href="http://www.dynamicdrive.com/dynamicindex5/dhtmltooltip.htm">Cool DHTML
+Tooltip</a> 和
+[Tooltip.js]()。<br />
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
+tooltip，全部采用 <a href="http://herock.net/">Herock</a> 的方法。</p>
+
+<p>最终实现的效果请看 sidebar。<br />
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdizhen%2f&text= @calon %e5%9c%b0%e9%9c%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%b0%e9%9c%87》&body=https%3a%2f%2fioerr.github.io%2fdizhen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian-2%2f&text= @calon %e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian-2%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -80,70 +106,7 @@
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/emeditor-pro-5-rc/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>25 Nov 2005, 13:27</time>
-      <h1>EmEditor Pro 5.00 RC</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.emeditor.com/">EmEditor</a> 在17日发布 Professional 5.00 RC
-版。这一版主要在多标签方面进行了改进，即使在多标签模式下打开多个文件也只有一个进程，号称在测试时同时打开60个
-HTML 文件，占用的内存由 Professional 4.13 版的352M
-下降到了不到9M，启动速度也由15秒下降到了1秒！看来在
-<a href="http://www.emeditor.com/">EmEditor</a> 4引入 MDI
-特性后启动速度变慢的缺点这次也被克服了。</p>
-
-<p><img src="http://www.emeditor.com/images/taskman4.jpg" alt="" /><br />
-Professional 4.13 资源占用情况</p>
-
-<p><img src="http://www.emeditor.com/images/taskman5.jpg" alt="" /><br />
-Professional 5.00 RC 资源占用情况</p>
-
-<p>我曾经用 <a href="http://www.emeditor.com/">EmEditor</a> 3.36版本打开体积上 G
-的文件，启动速度倒未见得比 UE
-快多少，但是打开之后上下拖动丝毫没有延迟，这就明显要占优势了。</p>
-
-<p>顺便说一句，今晚写到这里的时候遇到了停电，但我正好<a href="安全起见，一般我都会顺手保存的">没有保存</a>！幸好用的是
-<a href="http://www.vim.org/">Vim</a>，来电后在安装目录中找到了 _.swp
-文件，只弄丢了几个字而已。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2femeditor-pro-5-rc%2f&text= @calon EmEditor%20Pro%205.00%20RC&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《EmEditor%20Pro%205.00%20RC》&body=https%3a%2f%2fioerr.github.io%2femeditor-pro-5-rc%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
@@ -158,107 +121,42 @@ Professional 5.00 RC 资源占用情况</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/da-font/">
+  <a href="https://ioerr.github.io/gaijin-rss-tubiao-yonghujiemian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>23 Nov 2005, 13:37</time>
-      <h1>DaFont</h1>
+      <time>06 Dec 2005, 16:20</time>
+      <h1>改进 RSS 图标用户界面</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2》&body=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>现在才想起来要隆重介绍这个提供大量免费字体资源的
-<a href="http://www.dafont.com/">DaFont</a> 网站。</p>
+  <p>在 <a href="http://groups.google.com/group/DeDream">De Dream</a>
+中<a href="http://www.misuisui.com/weblog/">米随随</a>谈到很多人<a href="http://blog.donews.com/keso/archive/2005/11/29/641894.aspx">不知道 RSS
+是干什么</a>的，因为点击
+XML 图标后呈现给用户的是源码页面，新手肯定如堕五里雾中。</p>
 
-<p>你可以按照主题、发布日期、作者等等进行分类查看，也可以去 Top 100
-查看，或直接搜索，还能够搜索到其他站点的免费或收费字体，最方便的则是看到感兴趣的字体后，可以通过
-custom preview
-功能输入测试的文字快速查看字体效果，不必因为示例图片中看不到某些字母的效果而一一下载试验那么麻烦。</p>
+<p>所以我想，为什么非要是一个死板的 XML 图标加 RSS 链接呢？既然有了 AJAX
+技术，为什么不在用户点击 XML 图标的时候扩展为一个小菜单，分别是复制 RSS
+地址、通过 Bloglines 订阅、简要介绍什么是 RSS 的链接等等，其中介绍 RSS
+的信息也可以用 javascripts tooltip
+方式显示，这总比转到一个源代码页面要友好。</p>
 
-<p>当然，最重要的是，这里的字体种类丰富、质量上乘，而且基本都免费，至少我看到的都对个人免费。</p>
-
-<p>找到一些我喜欢的字体，用 Calon 和 Remainder Book
-作试验的效果如下。我觉得直接用来做 Logo/Button 也不错啊：<br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162102/"><img src="http://static.flickr.com/35/66162102_66cbf19fd5_o.jpg" alt="28 days
-later" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=28_days_later">28 Days Later</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162103/"><img src="http://static.flickr.com/25/66162103_f87f1a0a78_o.jpg" alt="Abaddon" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=abaddon">Abaddon</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162104/"><img src="http://static.flickr.com/28/66162104_cfaec5e01a_o.jpg" alt="Argor" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=argor_got_scaqh">Argor</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162106/"><img src="http://static.flickr.com/25/66162106_55d763ff72.jpg" alt="Army" /></a><br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162105/"><img src="http://static.flickr.com/33/66162105_0f08ef17c9_o.jpg" alt="Army2" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=army">Army</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162606/"><img src="http://static.flickr.com/29/66162606_9a79013e30.jpg" alt="Asie" /></a><br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162107/"><img src="http://static.flickr.com/31/66162107_a4a0f6ec2f_o.jpg" alt="Asie2" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=asie">Asie</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162608/"><img src="http://static.flickr.com/24/66162608_a04dc7a121_o.jpg" alt="barcode" /></a><br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162607/"><img src="http://static.flickr.com/32/66162607_f7d75b43ed_o.jpg" alt="barcode2" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=barcode_font">Barcode</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162609/"><img src="http://static.flickr.com/25/66162609_a970d582a1.jpg" alt="CS" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=facelift">Counter Strike</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162610/"><img src="http://static.flickr.com/24/66162610_3775d31393_o.jpg" alt="Dark
-11" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=dark11">Dark 11</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162611/"><img src="http://static.flickr.com/29/66162611_8e687dccf8_o.jpg" alt="Jerusalem" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=jerusalem">Jerusalem</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162967/"><img src="http://static.flickr.com/24/66162967_7e037f7586_o.jpg" alt="JJ
-Stencil" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=jj_stencil">JJ Stencil</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162968/"><img src="http://static.flickr.com/35/66162968_f6268711a6.jpg" alt="Last
-Ninja" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=last_ninja">Last Ninja</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162970/"><img src="http://static.flickr.com/29/66162970_87035bef82.jpg" alt="Lightmorning" /></a><br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162969/"><img src="http://static.flickr.com/24/66162969_049438a6e9_o.jpg" alt="Lightmorning2" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=lightmorning">Lightmorning</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66162971/"><img src="http://static.flickr.com/24/66162971_8bde32b606_o.jpg" alt="Napalm
-Vertigo" /></a><br />
-Napalm Vertigo</p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66164191/"><img src="http://static.flickr.com/28/66164191_e104634942.jpg" alt="Plexifont" /></a><br />
-<a href="http://www.flickr.com/photos/51035672039@N01/66162972/"><img src="http://static.flickr.com/25/66162972_76dc971203_o.jpg" alt="Plexifont2" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=plexifont_bv">Plexifont</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66164192/"><img src="http://static.flickr.com/35/66164192_1be367a02c.jpg" alt="Storybook" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=storybook">Storybook</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66164193/"><img src="http://static.flickr.com/26/66164193_65d771536a_o.jpg" alt="Tchnojap" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=tecnojap">Tchnojap</a></p>
-
-<p><a href="http://www.flickr.com/photos/51035672039@N01/66167355/"><img src="http://static.flickr.com/32/66167355_a3b0f72f1f.jpg" alt="VT Portable
-Remington" /></a><br />
-<a href="http://www.dafont.com/en/font.php?file=vt_portable_remingt">VT Portable
-Remington</a></p>
-
-<p>最后,为什么<a href="http://www.dafont.com/en/font.php?file=japanese">这款字体</a>明明取自简体中文楷体，名字却叫做
-Japanese？(-_-#)</p>
+<p>印象当中有个 blog 在每篇文章下方都放上了介绍 RSS
+的文字，用户点击的时候才会伸展开来，如果做得更紧凑，基本就是我的设想了。可惜忘记是哪一家的了…</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fda-font%2f&text= @calon DaFont&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《DaFont》&body=https%3a%2f%2fioerr.github.io%2fda-font%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian%2f&text= @calon %e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2》&body=https%3a%2f%2fioerr.github.io%2fgaijin-rss-tubiao-yonghujiemian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -267,7 +165,7 @@ Japanese？(-_-#)</p>
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
         
     
   </div>
@@ -280,43 +178,57 @@ Japanese？(-_-#)</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/wordpresscom-kaifang-zhuce/">
+  <a href="https://ioerr.github.io/lord-of-war/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>22 Nov 2005, 15:57</time>
-      <h1>WordPress.com 开放注册</h1>
+      <time>06 Dec 2005, 16:00</time>
+      <h1>Lord of War</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《Lord%20of%20War》&body=https%3a%2f%2fioerr.github.io%2flord-of-war%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p><a href="http://del.icio.us/">Del.icio.us</a> 再次改变界面，红色的 tag
-变成深蓝色，还真有些不习惯啊～功能也增强了，不知道 notes
-是不是也是这次变为支持写入多行文本。</p>
+  <p><a href="http://www.imdb.com/title/tt0399295/"><img src="http://static.flickr.com/34/70870164_627afb6e55_o.jpg" alt="" /></a><br />
+尽管许多人批评这张海报让许多人感到眩晕和恶心，但确实给我留下了非常深刻而良好的印象。</p>
 
-<p><a href="http://wordpress.com/">WordPress.com</a>
-开放注册，第一个想法是把很久没更新的<a href="http://11players.blogbus.com/">11players</a>
-转移过去，这样就可以用 <a href="http://zoundry.com/">Zoundry</a> Blog Writer
-节约发布的时间。但是我要说，我真的很讨厌 WYSIWYG 编辑模式！<br />
-最近几乎什么球赛都没看到，错过了从世界杯小组赛最末几轮到世纪大战大屠杀的一大段，所以没什么货可以写。倒是周日晚上加班回来之后明明精疲力竭却还脑子发烧似的看完了
-Fiorentina 很利索地做掉了不干不脆的 Milan 的那场。</p>
+<p>Nicolas Cage
+的表现一贯值得信赖，不过在弟弟死亡以及被家庭抛弃之后，看重家庭的主人公的表现可以更加刻骨铭心一点，在非洲的那一次精神恍惚也可以用更多的笔墨，这样有利于进一步突出个人内心的冲突。</p>
 
-<p>心血来潮安装了 <a href="http://redalt.com/wiki/Adhesive">Adhensive</a>
-插件，但还没想好用来干什么…看来最近倒霉的事情太多，大大超出每日倒霉指数正常值，把我弄得晕头转向了…</p>
+<p>Jared Leto 饰演的 Vitaly 在吸毒之后怎么越看越像 Kurt Cobain
+呢？我很喜欢这个角色，在酒精、毒品、金钱、被枪毙的儿童和没有品位的女人的世界中挣扎，迷惘了一生的时间，最后一刻他的眸子却那么清澈。</p>
+
+<p>Ethan Hawke
+感觉太瘦小了，难怪在《<a href="http://www.imdb.com/title/tt0119177/">Gattaca</a>》里面要做手术才扮得了
+Jude Law。戏份不算多，在非洲和审讯室里面本来有文章可做，却都被 Cage
+的发言遮盖住了。还有，整部片子感觉只有他这么一个人物不会被贿赂，其他的都太容易打点了…</p>
+
+<p>制片、编剧加导演都是 Andrew Niccol 一个人，同时他也是《<a href="http://www.imdb.com/title/tt0120382/">The Truman
+Show</a>》的编剧和制片，《<a href="http://www.imdb.com/title/tt0119177/">Gattaca</a>》的编剧和导演－－难怪和
+Ethan Hawke
+有一腿。感觉他的导演风格挺沉得住气的，如果关键的地方再多些力度就完美了。</p>
+
+<p>电影中至理名言发人深省，唯一可惜的是感觉稍微多了一点，虽然作为观众看的很爽，但多少破坏了整体协调的感觉，和《<a href="http://www.imdb.com/title/tt0068646/">The
+Godfather</a>》那类看起来平平淡淡，但细读受益匪浅的境界还是有些距离的。所以无论是写小说、拍电影还是搞戏剧都得记住，读者、观众应该通过你塑造的角色这个人来领会你要表达的思想，当他是一个活生生的人的时候，除了语言之外，还有很多活动都能够承担起这个任务，千万不要让角色沦为你的传声筒，否则就变成了李敖的《北京法源寺》。</p>
+
+<p>前面都是些挑剔的评价，整体来说这片子绝对值得一看，对我来说，算是2005年出品的电影中的上上之选了－－虽然因为
+DVD-ROM 坏了没看多少新电影…</p>
+
+<p>16位数字：5155140619610147<br />
+该片的一首插曲是 Jeff Buckley 翻唱的《Hallelujah》，Leonard Cohen
+原唱。此外还有 Rufus Wainwright 和 Bono 的翻唱。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f&text= @calon WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2flord-of-war%2f&text= @calon Lord%20of%20War&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Lord%20of%20War》&body=https%3a%2f%2fioerr.github.io%2flord-of-war%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -325,11 +237,7 @@ Fiorentina 很利索地做掉了不干不脆的 Milan 的那场。</p>
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
         
     
   </div>
@@ -342,61 +250,42 @@ Fiorentina 很利索地做掉了不干不脆的 Milan 的那场。</p>
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/suprglu/">
+  <a href="https://ioerr.github.io/shizhi/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>21 Nov 2005, 13:51</time>
-      <h1>SuprGlu</h1>
+      <time>02 Dec 2005, 19:33</time>
+      <h1>实质</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%ae%9e%e8%b4%a8》&body=https%3a%2f%2fioerr.github.io%2fshizhi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>查看了一下在 <a href="http://www.ubuntu.com/">Ubuntu</a>
-免费订的光盘，10月7日就已经寄出来了，不知道什么时候才能够到达这里，看到别人陆续拿到光盘，我却还要考虑什么时候把坏掉的光驱给换了…</p>
+  <p>人民网网站上有一篇吉方平的文章，《<a href="http://www.people.com.cn/GB/40531/40540/3011647.html">透过表象看实质——析“公共知识分子”论</a>》，其中警惕知识分子总是以人民的代言者自居的观点我还是赞同的，包括像我这样的小知识分子确实容易产生自以为是的虚幻感觉，所以时刻保持头脑清醒时必要的。</p>
 
-<p><a href="http://www.lazyweb.org/">LazyWeb</a>
-的想法很简单，把自己解决不了的问题写在 blog 上，然后通过 [trackback]()
-告知
-<a href="http://www.lazyweb.org/">LazyWeb</a>，以便让别人集中回复。我觉得如果参与的人数太多，恐怕就要好好考虑怎么组织信息了。<br />
-如果你对这个页面的功能感兴趣，还可以在<a href="http://www.benhammersley.com/code/building_your_own_lazyweb.html">这里</a>下载它的代码，要求是安装了
-Movable Type。</p>
+<p>不过这次重点不在这里，不在作者看到的所谓公共知识分子脱离党的领导和掌握话语霸权的实质，而在本文真正的实质。用作者一针见血的一句话来说明，即，“一部中国现当代史证明，只有当知识分子跟着共产党走…才有崇高的历史地位和社会地位。（和人民大众打成一片？充分显示自己的才华？靠，人家既不靠
+Page View
+赚广告，又不靠内容收费，关心这些干啥？都精明着呢）”此言不可谓不真切也。<br />
+跟着党走的知识分子未必都混得开心－－所以用的是“只有…才”句式而不是“只要…就”－－但是跟党八字不合的，其在国内的那些个
+XX
+地位必然拿不出手，例如从照片和文字中消失，仿佛历史上从来没有这个人，例如只有符合的党的意志把某人变成十足的恶棍的那一部分“史实”才能够光明正大的流传，或者干脆来个颠倒黑白，例如在这个国际不联网的时代，一个人会因为说了不合时宜的话而从被广为宣传的英雄变成只剩下各大站点过滤词的存在。相反的，如果你肯“<a href="http://www.cantonline.com/index.php?op=ViewArticle&amp;articleId=214&amp;blogId=1">举起拳头宣誓一些自己都不相信的东西</a>”，顺从一套对你的前途大大有利的体制，听命于一个代表你来思考又能够直接决定你的
+XX 地位的政党，那么，仿佛前途就变得一片光明起来。</p>
 
-<p><a href="http://wordpress.org/">WordPress</a> <a href="http://wordpress.org/support/forum/12">2.0
-beta</a>
-已经放出，据说大部分的插件还能够正常工作。</p>
+<p>事实证明，面对这样的两种选择，有的人是看得很清楚的，作为人的尊严也好，作为知识分子的责任也好，怎么比得上那“崇高的历史地位和社会地位”呢？那才是能够让他们觉得自己还是个人物的东西呀。所以，对吉方平们来说，公共知识分子究竟说了些什么做了些什么其实不重要，社会是不是万马齐喑人民是不是失语的沉默羔羊，其实不重要，重要的只有，有没有始终跟着党走，有极大的教育意义的“一部中国现当代史”摆在那里，这些聪明人怎会看不透实质？</p>
 
-<p>参考<a href="http://home.1asphost.com/HomespunMagixx/downloads/crystal.gif">这张图片</a>可以用纸折出一个漂亮的晶体。</p>
-
-<p>今年6月5日才转为开源软件的 <a href="http://www.jhorman.org/wikidPad/">WikiPad</a>
-是又一个 wiki 式的本地文本编辑工具，不过我怀疑本地的 wiki
-是否足够实用，或许只有面对纷繁复杂的大项目的人才真正用得上吧？</p>
-
-<p>虽然 <a href="http://www.suprglu.com/">SuprGlu</a> 输出的 RSS Feed
-对中文的支持不好，但具有留言功能，因此如果不想到 blog 留言的话，去
-<a href="http://calon.suprglu.com/">Calon&rsquo;s Portal</a>
-也可以。可惜目前有新留言时还不能用邮件通知，而且为了防止
-spam，只允许注册用户留言，所以说到底，还是不够方便。<br />
-如果能够解决 RSS Feed 乱码、开放留言/防止 spam、邮件通知的问题和取消
-feed 源数目的限制，这个站点的服务就太棒了！</p>
-
-<p><a href="http://zoundry.com/">Zoundry Blog Writer</a>
-果然在分类名为中文时工作不正常。在论坛里面看到今后的版本将加入设置代理的功能，但还是缺少对
-<a href="http://wordpress.org/">WordPress</a> Post Slug 的支持。</p>
+<p>当然，有的道理人人心知肚明但又不能够赤裸裸地明说，所以还要从“党是中国最广大人民根本利益的忠实代表者和坚定维护者，所以要坚持党的领导”和“…（比如说，公共知识分子）不能够代表全体人民的意志，不能够让他们建立一言堂，所以要坚持党的领导”这种假设前提已经成立和不知所云的逻辑出发发表自己都不觉得脸红的一本正经的高论，实乃有中国特色的精彩景观。所以，出现像《<a href="http://www.china-culture.com.cn/wx/mz/19.htm">〈登黄山偶感〉艺术品赏</a>》这种华丽的马屁文，我们也不用觉得世界真奇妙，竟然有时光倒流，要知道，在这个知识分子的独立思想连钙片都不如的时代，人家不高喊“鸟生鱼汤”已经很对得住观众了。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fsuprglu%2f&text= @calon SuprGlu&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《SuprGlu》&body=https%3a%2f%2fioerr.github.io%2fsuprglu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fshizhi%2f&text= @calon %e5%ae%9e%e8%b4%a8&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%ae%9e%e8%b4%a8》&body=https%3a%2f%2fioerr.github.io%2fshizhi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -405,13 +294,194 @@ feed 源数目的限制，这个站点的服务就太棒了！</p>
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/tuijian-mianfeide-wenben-bianjigongju/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>29 Nov 2005, 16:25</time>
+      <h1>推荐免费的文本编辑工具</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8e%a8%e8%8d%90%e5%85%8d%e8%b4%b9%e7%9a%84%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2ftuijian-mianfeide-wenben-bianjigongju%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+  </span>
+</div>
+
+<section class="post-content">
+  <p><a href="http://www.devzoo.com/">DevZoo</a> 列出了一个 Windows
+下免费文本编辑软件的<a href="http://www.devzoo.com/index.php?tooltype=WindowsEditor">清单</a>，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。</p>
+
+<p><a href="http://www.fixedsys.com/context/">ConTEXT</a><br />
+界面平常，功能中规中矩。用了一段之后我的疑问是，虽然主要是用来写代码的，可也不至于设置了自动换行也没反应吧？</p>
+
+<p><a href="http://cream.sf.net/">Cream</a><br />
+现在我使用的就是 <a href="http://cream.sf.net/">Cream</a>，所以介绍得详细一点：<br />
+安装之前需要修改 install.bat 文件，将 <a href="http://www.vim.org/">Vim</a>
+的安装路径按照实际情况进行更改，然后在原 <a href="http://www.vim.org/">Vim</a>
+的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中
+[DIR] 为 <a href="http://www.vim.org/">Vim</a>
+的安装目录。其他的许多设置启动后在菜单中就可以设置了。<br />
+如果不习惯没有 <a href="http://www.vim.org/">Vim</a>
+的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc
+文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去
+<a href="http://cream.sf.net/">Cream</a> 所在的目录中摸索各个 vim 文件吧。</p>
+
+<p>它对原来 <a href="http://www.vim.org/">gVim</a>
+的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的
+Windows 编辑软件，实乃我等菜鸟之福音。</p>
+
+<p>值得注意的是，由于使用了不少的脚本来改进界面、增加功能，<a href="http://cream.sf.net/">Cream</a>
+占用的系统资源要远远超过 <a href="http://www.vim.org/">Vim</a>，因此除了担心使用
+<a href="http://cream.sf.net/">Cream</a> 会影响深入学习 <a href="http://www.vim.org/">Vim</a>
+的人之外，优先节约系统资源的人也有理由放弃这个工具。</p>
+
+<p><a href="http://www.crimsoneditor.com/">Crimson Editor</a><br />
+以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和
+EmEditor 这样的付费软件作比较，未免有些不公平。<br />
+除此之外，这款软件没有多少可以批评的地方了…嗯…好吧…其实…我想说，那个狗头的图标未免太丑陋了一点…</p>
+
+<p><a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.xemacs.org/">XEmacs</a><br />
+和 <a href="http://www.vim.org/">Vi/Vim</a> 齐名的软件，但可耻的是我首先被
+<a href="http://www.vim.org/">Vim</a> 拉拢了…:P<br />
+这类软件的阴险之处在于，由于功能异常强大，内涵异常丰富，要摸清楚它的底细简直是不可能的，因此，一般只会有人夸它的好，没人敢说它的坏话。如果你对它的第一印象很好，那么尽管放心大胆地深入学习，保证不会让你失望，它们绝不只是一个文本编辑工具这么简单，而如果是相反的情况，那么还是早早收手换一个工具的好，否则它会不断地打击你的信心。</p>
+
+<p>经常有人争论
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a> 和
+<a href="http://www.vim.org/">Vim</a>
+哪个更好，结论往往是适合自己的才是最好的。作为一个注重人机界面的用户，我觉得还是只向经常编辑代码的人推荐比较好…</p>
+
+<p><a href="http://www.vim.org/">Vi/Vim/gVim</a><br />
+<a href="http://cream.sf.net/">Cream</a> 只是个外壳，它才是灵魂。<br />
+喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的
+Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed
+MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然
+GUI 经过了改进，但如果要我选择学习曲线最陡的流行软件，估计就是它了 :P<br />
+当然，一款人机界面如此之差以至于不但有 GUI
+改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim
+isn&rsquo;t an editor designed to hold its users&rsquo; hands. It is a tool, the use
+of which must be
+learned.”你越是深入学习它，就会越觉得它的功能强大，最后觉得其他工具都不称手。</p>
+
+<p><a href="http://jedit.org/">jEdit</a><br />
+最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java
+有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java
+做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载
+Java，我一定会把它作为首选的文本编辑工具。</p>
+
+<p>最近有许多人收藏了 <a href="http://ifakedit.com/">Jesse Crouch</a>
+的<a href="http://ifakedit.com/log/other/apps/">一篇文章</a>，其中就强烈推荐
+<a href="http://jedit.org/">jEdit</a>。</p>
+
+<p><a href="http://www.cs.virginia.edu/~lcc-win32/">LCC</a><br />
+这个，把它卸载了之后，我已经忘记它有什么特性了…可能稍后再补上吧，如果没补上也不要怪我，反正不在推荐之列。</p>
+
+<p><a href="http://notepad-plus.sourceforge.net/">Notepad++</a><br />
+<strike>平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且
+language 菜单太长、plugins
+菜单组织得很差劲…总体处于比上不足比下有余的位置。<br />
+另外，我宁愿选择 <a href="http://www.crimsoneditor.com/">Crimson Editor</a>
+的狗头也不愿意面对 NPP 的避役…</strike><br />
+新版本的 NPP
+终于把原来丑陋的图标改掉了，而且更加适合中级以上的用户自己配置使用。在功能方面，它已经非常强大，推荐经常编辑代码或网页的人使用。<br />
+不过对我来说，它还有一些小问题：<br />
+函数补全的快捷键是 Ctrl+Space，与输入法快捷键相冲突，又不能自己修改；<br />
+快速插入 HTML 标签（类似 EmEditor HTML Tag 插件）并自动定位不方便；<br />
+列块模式的用法很奇怪；</p>
+
+<p><a href="http://www.pspad.com/">PSPad</a><br />
+如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.vim.org/">Vim</a>，那么它成为首选是没问题的。<br />
+就固有功能来说，与 NPP
+各有千秋；它的扩展基本都是脚本形式，且支持多种脚本语言，方便自己修改。<br />
+现在唯一让我不爽的就是，不能够使用非等宽字体！于是
+Georgia、Palatino、Times New Roman
+等美观字体就只能呆在一边了，中文字体也不堪入目。</p>
+
+<p><a href="http://www.scintilla.org/SciTE.html">SciTE</a><br />
+一个语法选项十分丰富的最好是专门用于各类代码编辑的工具，也是备受好评。<br />
+修改配置需要自己编辑配置文件，对初级用户不够友好。</p>
+
+<p><a href="http://madedit.sourceforge.net/">MadEdit</a><br />
+界面朴素，但是功能不弱，16进制和列块模式可以替代 UE。</p>
+
+<p><a href="http://www.emeditor.com/">EmEditor</a><br />
+最后说一说为什么我总是对 <a href="http://www.emeditor.com/">EmEditor</a>
+这个收费软件念念不忘，原因是它的一些优点其他软件都没有能够做到：<br />
+首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的
+Windows 窗口没什么不同，整体的感觉却不在一个档次上。<br />
+其次是丰富的自定义设置，其中最方便的又属设置第 n
+次搜索时搜索结果的高亮字体，如第一次的搜索结果在全文范围内用绿色背景表示，第二次搜索之后就变成明黄色背景，这样多次搜索之后每次的搜索结果都能够一目了然。<br />
+第三是和 Windows
+系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>、<a href="http://www.vim.org/">Vim</a>
+也未做到最好。<br />
+第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了
+V5系列已经得到了解决。<br />
+第五是常驻托盘的 EmEDTray
+有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的
+UE 虽然也有托盘图标，但仅仅是用来最大化最小化的。</p>
+
+<p>随时更新的<a href="http://calon.tiddlyspot.com/#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91">文本编辑工具推荐列表</a>。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftuijian-mianfeide-wenben-bianjigongju%2f&text= @calon %e6%8e%a8%e8%8d%90%e5%85%8d%e8%b4%b9%e7%9a%84%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8e%a8%e8%8d%90%e5%85%8d%e8%b4%b9%e7%9a%84%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2ftuijian-mianfeide-wenben-bianjigongju%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">#人品界面 </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
   <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/crimson-editor">#Crimson Editor </a>
+      
+        <a href="https://ioerr.github.io/tags/emacs">#eMacs </a>
+      
+        <a href="https://ioerr.github.io/tags/emeditor">#EmEditor </a>
+      
+        <a href="https://ioerr.github.io/tags/madedit">#MadEdit </a>
+      
+        <a href="https://ioerr.github.io/tags/notepad&#43;&#43;">#Notepad&#43;&#43; </a>
+      
+        <a href="https://ioerr.github.io/tags/npp">#NPP </a>
+      
+        <a href="https://ioerr.github.io/tags/pspad">#PSPad </a>
+      
+        <a href="https://ioerr.github.io/tags/scite">#Scite </a>
+      
+        <a href="https://ioerr.github.io/tags/vim">#Vim </a>
+      
+        <a href="https://ioerr.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8">#文本编辑器 </a>
+      
     
   </div>
 </div>
@@ -428,7 +498,7 @@ feed 源数目的限制，这个站点的服务就太棒了！</p>
   </a>
   
 
-  PAGE 167 / 229
+  PAGE 167 / 230
 
   
   <a href="/page/168/" rel="next">

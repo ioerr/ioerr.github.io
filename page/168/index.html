@@ -42,93 +42,97 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/wankongge/">
+  <a href="https://ioerr.github.io/zaixian-blog-gongju/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>16 Nov 2005, 15:06</time>
-      <h1>万空歌</h1>
+      <time>27 Nov 2005, 12:30</time>
+      <h1>在线 blog 工具</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%a8%e7%ba%bf%20blog%20%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2fzaixian-blog-gongju%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <blockquote>
-[万空歌](http://www.pcchong.com/OtherBread/5.htm)\
-寒来暑往春复冬\
-看得浮生总是空\
-名也空\
-利也空\
-人生渺渺在空中
+  <p>最近用 <a href="http://zoundry.com/">Zoundry</a> Blog Writer 在
+<a href="http://wordpress.com/">WordPress.com</a> 上发文章，除了 post
+slug、代理的问题之外，还有不爽的地方。<br />
+首先，我没有上传图片到 blog 空间的习惯，尽量都往
+<a href="http://www.flickr.com/">Flickr</a> 丢，但 <a href="http://zoundry.com/">Zoundry</a>
+Blog Writer 给我的选项只有上传到 blog 空间或指定的
+FTP。当然，我能够上传图片到 <a href="http://www.flickr.com/">Flickr</a>
+再添加图片链接，可发布工具能否进一步简化这个操作呢？<br />
+其次，还是本地软件的局限。我弃用了 GreatNews 这样的本地 RSS
+订阅工具而选择 <a href="http://www.bloglines.com/">Bloglines</a>
+就是因为不想在公司和家里重复阅读。同理，我也不希望在某地的
+<a href="http://zoundry.com/">Zoundry</a> Blog Writer 中新增了 tag、blog
+帐号之后，到另一个地方还要再输入一遍，为什么不像分类那样可以在线刷新呢？－－虽然后者有
+blog 系统本身的支持，但本地软件可以想办法突破这个局限啊。</p>
 
-妻也空\
-子也空\
-黄泉路上不相逢
+<p>其实本地 RSS
+订阅工具可以和网站结合起来，订阅信息等等都存储在服务器上，通过体积小巧的本地工具对取到本地的临时文件进行访问操作，这样用户不必打开浏览器窗口，不会占用太多磁盘空间，不用担心在两个地方重复阅读，方便升级，网站又可以得到用户数和订阅情况的统计信息－－当然，为了防止网站出现意外后用户无法登录，定时同步
+OPML 文件也是必要的。</p>
 
-日也空\
-月也空\
-东升西堕为谁功
+<p>同理可得，blog
+发布工具完全也可以做成在线式或者本地工具+网站式的，在我的想象中，利用
+<a href="http://wordpress.org/">WordPress</a> 等 Blog
+系统、<a href="http://www.flickr.com/">Flickr</a>
+等图像存储服务、<a href="http://del.icio.us/">Del.icio.us</a>
+等书签服务、<a href="http://www.google.com/">Google</a>
+<a href="http://maps.google.com/">Maps</a>/<a href="http://earth.google.com/">Earth</a>
+等地图服务、<a href="http://www.douban.com/">豆瓣</a>等图书信息服务、<a href="http://www.imdb.com/">IMDB</a>
+等电影信息服务、<a href="http://wikipedia.org/">维基百科</a>等
+Wiki、<a href="http://www.orkut.com/">Orkut</a> 等朋友圈…的开放的
+API－－虽然许多服务目前还没有开放 API－－完全可以构建出这么一个以 blog
+信息发布为中心的服务站点，对用户来说，它所做的工作除了利用接口取得、发布信息外还有：<br />
+保存 blog 内容的备份<br />
+保存用户的习惯设置</p>
 
-房也空\
-院也空\
-转眼荒郊土一封
+<p>而开发者主要专注于支持新服务的
+API、改进网页/客户端的人机界面设计。使用网页还是客户端工具操作完全由用户决定，重要的是配置信息要保存在服务器端。</p>
 
-田也空\
-土也空\
-换来多少主人翁
+<p>可以举个例子说明一下：<br />
+1、我看到新浪新闻和其他人的 blog 之后想要发布一篇关于哈尔滨市水源污染的
+blog，于是使用<a href="http://365key.com/">365Key</a> 将这些页面都保存下来。<br />
+2、点击浏览器书签工具栏上的“Blog”按钮，跳转到 blog
+发布页面，或者启动本地 blog 发布工具，开始写文章。<br />
+3、提及或引用的时候，就在界面上的工具栏中选择引用<a href="http://365key.com/">365Key</a>
+的收藏，通过查看最新收藏/分类/搜索关键字找到刚才收藏的页面，直接插入文章。文章中提到了<a href="http://wozlog.net/">窝子</a>
+，于是在工具条上选择“<a href="http://del.icio.us/">Del.icio.us</a>
+收藏”，搜索到他的 blog
+地址并添加主题相关的文章地址到文中。需要引用新闻图片，先从本地图片收藏目录上传一张图片－－图片其实送到了
+<a href="http://www.flickr.com/">Flickr</a>，而你要做的只是在定好图片属性之后得到图片的地址，还可以调用
+<a href="http://www.google.com/">Google</a> <a href="http://earth.google.com/">Earth</a>
+在哈尔滨上空拍一张鸟瞰图，也上传到
+<a href="http://www.flickr.com/">Flickr</a>。查找<a href="http://wikipedia.org/">维基百科</a>上有没有关于“苯”的条目，如果有，在文末添加链接。<br />
+4、选择发布在哪个 blog，点击发布。<br />
+5、自动用
+<a href="http://del.icio.us/">Del.icio.us</a>、<a href="http://365key.com/">365Key</a>
+收藏这篇文章。自动通知朋友圈或者 IM
+上的指定好友群组。将本文的地址、分类、tag、添加过的链接、引用的图片等等，连同帐号信息、发布设置与服务器进行一次同步，保存备用。</p>
 
-官也空\
-职也空\
-尽是蘖债恨无穷
+<p>这个例子中用到的其他服务不算多，至少表明了我 blog 时懒得开 N
+个窗口收集信息之类的良好愿望。今后有用的服务越来越多，利用开放的 API
+进行整合未尝不是一个好办法。从另一方面说，如果做得绝一点，完全可以由一个网站扮演
+BSP、图像存储、朋友圈、书签收藏等等服务提供者的角色，而不开放 API
+给竞争对手，但我想，各类特色服务层出不穷，没有人可以保证在每一个方面都做到最好，如果就这样强行整合，反不如由用户自己选择哪几个服务像玩积木一样进行组合，你只要提供好信息发布中心的服务就成了。</p>
 
-金也空\
-银也空\
-死后何曾在手中
-
-车也空\
-马也空\
-人去物存永无踪
-
-看来只有一事实\
-信仰耶稣是真宗
-
--   按此词作者本为一和尚，\
-    后信仰基督，故作此词以作见证。
-    </blockquote>
-
-<p>莫非这个和尚指的是明朝的悟空禅师？他后来改为信仰耶稣基督了么？Orz<br />
-在下孤陋寡闻，希望有高人告诉我真实情况…<br />
-不过从上面这“歌”的脉络诡异得很呀，即使指的不是悟空禅师，也会让人觉得“有的事情做得太露骨了效果可就相反了”。</p>
-
-<blockquote>
-[萬空詞](http://www.gaya.org.tw/bcp/file/sec3_right_11.htm)\
-天也空 地也空 人生渺渺在其中\
-日也空 月也空 東昇西墜為誰功\
-金也空 銀也空 死後何曾在手中\
-妻也空 子也空 黃泉路上不相逢\
-權也空 名也空 轉眼荒郊土一封
-
-萬空歌\
-天也空 地也空 人生渺渺在其中\
-日也空 月也空 東昇西墜為誰功\
-田也空 屋也空 換了多少主人翁\
-金也空 銀也空 死後何曾在手中\
-妻也空 子也空 黃泉路上不相逢\
-情也空 義也空 洗淨塵緣樂無窮
-</blockquote>
+<p><a href="http://www.flickr.com/">Flickr</a> 早就提供 Blog This
+功能，但仅限于单张图片，而且功能也十分有限，远远达不到要求啊…<br />
+顺便说一句，刚才测试这个功能的时候，<a href="http://www.flickr.com/">Flickr</a>
+一遍又一遍地提示我发布失败，然后询问是否再试一次，于是我一遍又一遍地“踹阿甘”，直到没有耐心最后放弃，结果数分钟后，邮箱里面连续出现了13封含有这篇
+blog 内容的信件…</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwankongge%2f&text= @calon %e4%b8%87%e7%a9%ba%e6%ad%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%87%e7%a9%ba%e6%ad%8c》&body=https%3a%2f%2fioerr.github.io%2fwankongge%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzaixian-blog-gongju%2f&text= @calon %e5%9c%a8%e7%ba%bf%20blog%20%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%a8%e7%ba%bf%20blog%20%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2fzaixian-blog-gongju%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -137,7 +141,7 @@
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
         
     
   </div>
@@ -150,57 +154,35 @@
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/tuijian-wordpress-zhuti/">
+  <a href="https://ioerr.github.io/dizhen/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>15 Nov 2005, 15:54</time>
-      <h1>推荐 WordPress 主题</h1>
+      <time>27 Nov 2005, 11:41</time>
+      <h1>地震</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%b0%e9%9c%87》&body=https%3a%2f%2fioerr.github.io%2fdizhen%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>用惯了 <a href="http://wordpress.org/">WordPress</a> 的默认模板
-<a href="http://binarybonsai.com/wordpress/kubrick/">Kubrick</a>，也会有更换模板的念头。不过一来我很懒，二来看得到页面的不多，三来合我心意的主题实在不多，所以看是一切照旧。也不排除哪一天心血来潮唰的一下就更换了主题，或者弄个主题切换插件，所以先列出几个我觉得挺优秀的候选者，也方便其他
-<a href="http://wordpress.org/">WordPress</a> 使用者作出选择。</p>
+  <p><img src="http://static.flickr.com/32/67134045_a39f811e4e.jpg" alt="" /><br />
+昨天上午江西发生地震，据说长沙也有轻微震感，所幸不像其他受波及的地区有人伤亡。当时我应该刚起床不久，却没有发觉任何异常，看来真的是太迟钝了。<br />
+在我的印象中，长沙发生过大洪水、大火灾，地震倒是边都没有挨过，这次受到一点点波及，也是非常罕见的了。我估计建筑物的防震措施不像地震多发地区的做得那么好，万一还有更严重距离更近的地震发生，可能也会有人员伤亡。</p>
 
-<p>◆<a href="http://www.bighead.cn/">大头</a>的
-<a href="http://www.bighead.cn/?p=100">ChinaRed</a>。<br />
-配色和图案都非常棒，缺点则是默认的中文字体太小。相比之下，同一站点切换使用的
-OrangeSky 就差劲许多。</p>
-
-<p>◆<a href="http://www.pikemurdy.com/quentin/">Quentin 1.0</a><br />
-让人联想到牛奶加巧克力,但我喜欢巧克力的味道胜过它的颜色…</p>
-
-<p>◆<a href="http://raven.za.net/index.php/contempt-wordpress-theme/">Contempt Wordpress
-Theme</a><br />
-看上去就是 <a href="http://binarybonsai.com/wordpress/kubrick/">Kubrick</a>
-的近亲，不过更富有现代感。</p>
-
-<p>◆<a href="http://www.phpzen.com/wordpress/adventure-theme/">ADVENTURE theme</a><br />
-颜色不花哨，采用我喜欢的 Georgia
-字体，看上去有点正式出版物的样子。但#600的颜色真的不好看…</p>
-
-<p>◆<a href="http://www.fahlstad.se/">Fahlstad.se</a>
-的<a href="http://www.fahlstad.se/themes">一系列主题</a><br />
-就一个词，养眼。所以要从中间挑一个特别出众的也不是容易的事情。</p>
-
-<p>◆<a href="http://ldufrane.com/blog/?p=39">Ocean</a><br />
-新鲜出炉的一个主题。</p>
+<p>本篇原本通过 <a href="http://www.flickr.com/">Flickr</a> 的 Blog This
+功能发布，效果相当差…</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftuijian-wordpress-zhuti%2f&text= @calon %e6%8e%a8%e8%8d%90%20WordPress%20%e4%b8%bb%e9%a2%98&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8e%a8%e8%8d%90%20WordPress%20%e4%b8%bb%e9%a2%98》&body=https%3a%2f%2fioerr.github.io%2ftuijian-wordpress-zhuti%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fdizhen%2f&text= @calon %e5%9c%b0%e9%9c%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%b0%e9%9c%87》&body=https%3a%2f%2fioerr.github.io%2fdizhen%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -209,9 +191,7 @@ Theme</a><br />
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
         
     
   </div>
@@ -224,37 +204,49 @@ Theme</a><br />
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/tinypic/">
+  <a href="https://ioerr.github.io/emeditor-pro-5-rc/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>13 Nov 2005, 14:08</time>
-      <h1>TinyPic</h1>
+      <time>25 Nov 2005, 13:27</time>
+      <h1>EmEditor Pro 5.00 RC</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《EmEditor%20Pro%205.00%20RC》&body=https%3a%2f%2fioerr.github.io%2femeditor-pro-5-rc%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p><a href="http://www.tinypic.com/">TinyPic</a>
-是一个提供临时上传图片服务的网站，以前我曾经用它上传照片，因为操作简单、速度和稳定性也不错，图片生存周期也往往比网站承诺的要长，因此使用的人越来越多，无聊的时候还能够<a href="http://www.tinypic.com/view/">随机查看</a>其他人上传的图片，往往有意外的惊喜和乐趣。<br />
-今天为了上传一张临时图片又跑到了那里，结果发现页面上写着一行不怎么醒目却很刺眼的文字：</p>
+  <p><a href="http://www.emeditor.com/">EmEditor</a> 在17日发布 Professional 5.00 RC
+版。这一版主要在多标签方面进行了改进，即使在多标签模式下打开多个文件也只有一个进程，号称在测试时同时打开60个
+HTML 文件，占用的内存由 Professional 4.13 版的352M
+下降到了不到9M，启动速度也由15秒下降到了1秒！看来在
+<a href="http://www.emeditor.com/">EmEditor</a> 4引入 MDI
+特性后启动速度变慢的缺点这次也被克服了。</p>
 
-<blockquote>
-This country banned for multiple violations
-</blockquote>
+<p><img src="http://www.emeditor.com/images/taskman4.jpg" alt="" /><br />
+Professional 4.13 资源占用情况</p>
+
+<p><img src="http://www.emeditor.com/images/taskman5.jpg" alt="" /><br />
+Professional 5.00 RC 资源占用情况</p>
+
+<p>我曾经用 <a href="http://www.emeditor.com/">EmEditor</a> 3.36版本打开体积上 G
+的文件，启动速度倒未见得比 UE
+快多少，但是打开之后上下拖动丝毫没有延迟，这就明显要占优势了。</p>
+
+<p>顺便说一句，今晚写到这里的时候遇到了停电，但我正好<a href="安全起见，一般我都会顺手保存的">没有保存</a>！幸好用的是
+<a href="http://www.vim.org/">Vim</a>，来电后在安装目录中找到了 _.swp
+文件，只弄丢了几个字而已。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ftinypic%2f&text= @calon TinyPic&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《TinyPic》&body=https%3a%2f%2fioerr.github.io%2ftinypic%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2femeditor-pro-5-rc%2f&text= @calon EmEditor%20Pro%205.00%20RC&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《EmEditor%20Pro%205.00%20RC》&body=https%3a%2f%2fioerr.github.io%2femeditor-pro-5-rc%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -276,36 +268,106 @@ This country banned for multiple violations
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/cc-25-by-sa/">
+  <a href="https://ioerr.github.io/da-font/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>13 Nov 2005, 13:53</time>
-      <h1>CC 2.5 By-Sa</h1>
+      <time>23 Nov 2005, 13:37</time>
+      <h1>DaFont</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《DaFont》&body=https%3a%2f%2fioerr.github.io%2fda-font%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>将侧栏上的“<a href="http://creativecommons.org/">创作共用协议</a>”更新到了<a href="http://creativecommons.org/licenses/by-sa/2.5/">2.5版的
-Attribution 和 Share
-Alike</a>，同时修改 <a href="http://calon.weblogs.us/2005/10/31/better_feed/">Better
-Feed</a> 插件以改变 RSS
-Feed
-中相应的信息，结果修改完之后该插件就报错…语法没有任何问题，重新激活无用，上传修改前的插件也无济于事，只好暂时把它给喀嚓掉了…</p>
+  <p>现在才想起来要隆重介绍这个提供大量免费字体资源的
+<a href="http://www.dafont.com/">DaFont</a> 网站。</p>
+
+<p>你可以按照主题、发布日期、作者等等进行分类查看，也可以去 Top 100
+查看，或直接搜索，还能够搜索到其他站点的免费或收费字体，最方便的则是看到感兴趣的字体后，可以通过
+custom preview
+功能输入测试的文字快速查看字体效果，不必因为示例图片中看不到某些字母的效果而一一下载试验那么麻烦。</p>
+
+<p>当然，最重要的是，这里的字体种类丰富、质量上乘，而且基本都免费，至少我看到的都对个人免费。</p>
+
+<p>找到一些我喜欢的字体，用 Calon 和 Remainder Book
+作试验的效果如下。我觉得直接用来做 Logo/Button 也不错啊：<br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162102/"><img src="http://static.flickr.com/35/66162102_66cbf19fd5_o.jpg" alt="28 days
+later" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=28_days_later">28 Days Later</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162103/"><img src="http://static.flickr.com/25/66162103_f87f1a0a78_o.jpg" alt="Abaddon" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=abaddon">Abaddon</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162104/"><img src="http://static.flickr.com/28/66162104_cfaec5e01a_o.jpg" alt="Argor" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=argor_got_scaqh">Argor</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162106/"><img src="http://static.flickr.com/25/66162106_55d763ff72.jpg" alt="Army" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162105/"><img src="http://static.flickr.com/33/66162105_0f08ef17c9_o.jpg" alt="Army2" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=army">Army</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162606/"><img src="http://static.flickr.com/29/66162606_9a79013e30.jpg" alt="Asie" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162107/"><img src="http://static.flickr.com/31/66162107_a4a0f6ec2f_o.jpg" alt="Asie2" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=asie">Asie</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162608/"><img src="http://static.flickr.com/24/66162608_a04dc7a121_o.jpg" alt="barcode" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162607/"><img src="http://static.flickr.com/32/66162607_f7d75b43ed_o.jpg" alt="barcode2" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=barcode_font">Barcode</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162609/"><img src="http://static.flickr.com/25/66162609_a970d582a1.jpg" alt="CS" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=facelift">Counter Strike</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162610/"><img src="http://static.flickr.com/24/66162610_3775d31393_o.jpg" alt="Dark
+11" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=dark11">Dark 11</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162611/"><img src="http://static.flickr.com/29/66162611_8e687dccf8_o.jpg" alt="Jerusalem" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=jerusalem">Jerusalem</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162967/"><img src="http://static.flickr.com/24/66162967_7e037f7586_o.jpg" alt="JJ
+Stencil" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=jj_stencil">JJ Stencil</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162968/"><img src="http://static.flickr.com/35/66162968_f6268711a6.jpg" alt="Last
+Ninja" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=last_ninja">Last Ninja</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162970/"><img src="http://static.flickr.com/29/66162970_87035bef82.jpg" alt="Lightmorning" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162969/"><img src="http://static.flickr.com/24/66162969_049438a6e9_o.jpg" alt="Lightmorning2" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=lightmorning">Lightmorning</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66162971/"><img src="http://static.flickr.com/24/66162971_8bde32b606_o.jpg" alt="Napalm
+Vertigo" /></a><br />
+Napalm Vertigo</p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66164191/"><img src="http://static.flickr.com/28/66164191_e104634942.jpg" alt="Plexifont" /></a><br />
+<a href="http://www.flickr.com/photos/51035672039@N01/66162972/"><img src="http://static.flickr.com/25/66162972_76dc971203_o.jpg" alt="Plexifont2" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=plexifont_bv">Plexifont</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66164192/"><img src="http://static.flickr.com/35/66164192_1be367a02c.jpg" alt="Storybook" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=storybook">Storybook</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66164193/"><img src="http://static.flickr.com/26/66164193_65d771536a_o.jpg" alt="Tchnojap" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=tecnojap">Tchnojap</a></p>
+
+<p><a href="http://www.flickr.com/photos/51035672039@N01/66167355/"><img src="http://static.flickr.com/32/66167355_a3b0f72f1f.jpg" alt="VT Portable
+Remington" /></a><br />
+<a href="http://www.dafont.com/en/font.php?file=vt_portable_remingt">VT Portable
+Remington</a></p>
+
+<p>最后,为什么<a href="http://www.dafont.com/en/font.php?file=japanese">这款字体</a>明明取自简体中文楷体，名字却叫做
+Japanese？(-_-#)</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fcc-25-by-sa%2f&text= @calon CC%202.5%20By-Sa&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《CC%202.5%20By-Sa》&body=https%3a%2f%2fioerr.github.io%2fcc-25-by-sa%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fda-font%2f&text= @calon DaFont&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《DaFont》&body=https%3a%2f%2fioerr.github.io%2fda-font%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -327,34 +389,42 @@ Feed
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/searchnow/">
+  <a href="https://ioerr.github.io/wordpresscom-kaifang-zhuce/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>13 Nov 2005, 13:09</time>
-      <h1>SearchNow</h1>
+      <time>22 Nov 2005, 15:57</time>
+      <h1>WordPress.com 开放注册</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p><a href="http://www.quakemachine.com/blog/">AvP</a> 修改了
-<a href="http://www.lucky-33.com/scripts/javascript/searchnow/">SearchNow</a> 这个
-<a href="http://wordpress.org/">WordPress</a> 的 AJAX
-搜索插件，改进后的好处和使用方法可以看他的<a href="http://www.quakemachine.com/blog/php/wordpress/516/">这篇文章</a>。我已经当了一回小白鼠,效果还不错，虽然能够访问这里的大多是通过速度不快的代理，基本上都不会用到搜索功能。</p>
+  <p><a href="http://del.icio.us/">Del.icio.us</a> 再次改变界面，红色的 tag
+变成深蓝色，还真有些不习惯啊～功能也增强了，不知道 notes
+是不是也是这次变为支持写入多行文本。</p>
+
+<p><a href="http://wordpress.com/">WordPress.com</a>
+开放注册，第一个想法是把很久没更新的<a href="http://11players.blogbus.com/">11players</a>
+转移过去，这样就可以用 <a href="http://zoundry.com/">Zoundry</a> Blog Writer
+节约发布的时间。但是我要说，我真的很讨厌 WYSIWYG 编辑模式！<br />
+最近几乎什么球赛都没看到，错过了从世界杯小组赛最末几轮到世纪大战大屠杀的一大段，所以没什么货可以写。倒是周日晚上加班回来之后明明精疲力竭却还脑子发烧似的看完了
+Fiorentina 很利索地做掉了不干不脆的 Milan 的那场。</p>
+
+<p>心血来潮安装了 <a href="http://redalt.com/wiki/Adhesive">Adhensive</a>
+插件，但还没想好用来干什么…看来最近倒霉的事情太多，大大超出每日倒霉指数正常值，把我弄得晕头转向了…</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fsearchnow%2f&text= @calon SearchNow&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《SearchNow》&body=https%3a%2f%2fioerr.github.io%2fsearchnow%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f&text= @calon WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《WordPress.com%20%e5%bc%80%e6%94%be%e6%b3%a8%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fwordpresscom-kaifang-zhuce%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -364,6 +434,8 @@ Feed
       
         
           <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
@@ -386,7 +458,7 @@ Feed
   </a>
   
 
-  PAGE 168 / 229
+  PAGE 168 / 230
 
   
   <a href="/page/169/" rel="next">

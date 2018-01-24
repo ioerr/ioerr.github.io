@@ -42,34 +42,96 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/jutou-fuwu/">
+  <a href="https://ioerr.github.io/executor/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>19 Aug 2007, 08:11</time>
-      <h1>剧透服务</h1>
+      <time>29 Aug 2007, 03:31</time>
+      <h1>Executor</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《Executor》&body=https%3a%2f%2fioerr.github.io%2fexecutor%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>话说就没有一个专门用来剧透的网络服务么？</p>
+  <p>看到 <a href="http://www.cnbeta.com/articles/37583.htm">CB
+上有人推荐</a>命令行运行工具
+<a href="http://www.executor.dk/">Executor</a>，收藏页面时发现原来6月份就已经关注过了，正好顺手试试效果。</p>
 
-<p>那些对剧透彻底免疫的人类，比如在下，对某个烂片的结尾有兴趣又觉得没有必要看完整部电影；<br />
-以及追求<a href="http://blog.sina.com.cn/u/561ee475010009ja">剧透艺术</a>的人类，比如马亲王，需要一个进行这种行为学艺术创作而不至于被广大人民群众唾弃的空间。</p>
+<p>Executor
+的<a href="http://www.executor.dk/">主页</a>，<a href="http://home25.inet.tele.dk/mb/executor/presentation.html">简介</a>，<a href="http://home25.inet.tele.dk/mb/executor/screenshots.html">界面演示</a>，<a href="http://home25.inet.tele.dk/mb/executor/help.html">帮助文档</a>，<a href="http://executor.21.forumer.com/">论坛</a>。</p>
+
+<p>因为我目前使用的是 <a href="http://www.galanc.com/">TAR</a>，而
+<a href="http://www.launchy.net/">Launchy</a> 很流行，所以在介绍 Executor
+之外还会和这两款同类软件作比较（TAR 与 Launchy
+的对比见<a href="http://calon.weblogs.us/duibi_launchy_he_tar/">这篇文章</a>）。由于
+Launchy 被我弃用，没有跟踪关注，可能会有没照顾到它的新特性新功能的情况。</p>
+
+<p>一、上手速度</p>
+
+<p>基本上摸清楚了最基本的 Executor 的控制台快捷键，就可以上手了，系统命令和
+Windows 自带的应用程序已经可以调用。不会像 Launchy
+那样一启动就搜索整个目录树，把各类文件全部加入索引，而是更加靠近 TAR
+的风格。</p>
+
+<p>二、界面</p>
+
+<p>Executor 支持换肤、自制皮肤，支持显示图标，不过论美观程度还是比不上
+Launchy。于我而言，反正命令行不用有多花哨，TAR 那种简陋的界面就足够了。<br />
+托盘图标没有菜单，只能够通过控制台右键菜单调出设置界面；</p>
+
+<p>三、功能</p>
+
+<p>Executor
+通过右键菜单中的“发送”添加别名，别名保存在文本格式的配置文件中；<br />
+别名从头匹配的方式与 TAR 类似，不同于 Launchy 的模糊匹配；<br />
+目前还不支持插件，但扩展别名已经集成了不少实用命令了，如运行屏幕保护程序、显示桌面、开关机、打开控制面板、调节音量、关闭显示器等等，不过没找到像
+TAR 那样直接杀死进程的别名；<br />
+支持单个别名对应批量操作命令；<br />
+支持热键启动，并设定运行别名对应的程序后自动退出，如此可以进一步节省资源占用。</p>
+
+<p>四、自定义</p>
+
+<p>Executor 支持单个快捷键，比 Launchy 强，也支持使用 Pause/Break
+作为快捷键，比 TAR 强；<br />
+细节设定虽然不如 TAR 详细，但是重要的几个参数都没丢下；<br />
+自定义设置的界面在一个窗口中，比 TAR 更加一目了然；<br />
+添加、修改自定义的别名比 Launchy 方便得多，因为 Launchy 的重点不在此；<br />
+支持别名注释、测试执行别名，这点强于 TAR ，但 TAR
+可以将别名+参数+运行目录等合并为一行显示和修改，方便复制粘贴导入导出，Executor
+便有所不及，好在维护别名的时候复制粘贴还算贴心，会自动将复制的别名更改为“Copy_of_xxx”；<br />
+自定义选项默认是自动应用的，只提供恢复为默认设置的选项，万一设置错了，不能够取消或撤销，未免有点不友好。</p>
+
+<p>五、资源占用</p>
+
+<p>免安装 Zip 包体积760KB 左右；<br />
+内存和 CPU 占用略高于 TAR，低于 Launchy。</p>
+
+<p>六、稳定性</p>
+
+<p>目前还没有发现异常情况。</p>
+
+<p>七、总结</p>
+
+<p>Executor 在定位上应该是靠近 TAR
+的，即添加、管理、快速执行常用命令、操作、文件，与更适合在大量文件中临时定位单个文件的
+Launchy 有一些差异；<br />
+除了资源占用稍高和功能稍弱之外，对入门和中级用户更加友好，完全可以取代
+TAR；<br />
+由于 <a href="http://www.galanc.com/">TAR
+的主页</a>一直在维护中，很久不见新版本推出，建议舍
+TAR 而取 Executor，除非你需要用到 TAR 的一些无法取代的功能。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjutou-fuwu%2f&text= @calon %e5%89%a7%e9%80%8f%e6%9c%8d%e5%8a%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%89%a7%e9%80%8f%e6%9c%8d%e5%8a%a1》&body=https%3a%2f%2fioerr.github.io%2fjutou-fuwu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fexecutor%2f&text= @calon Executor&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Executor》&body=https%3a%2f%2fioerr.github.io%2fexecutor%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -78,7 +140,7 @@
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
@@ -86,7 +148,7 @@
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/%E5%89%A7%E9%80%8F">#剧透 </a>
+        <a href="https://ioerr.github.io/tags/executor">#Executor </a>
       
     
   </div>
@@ -96,71 +158,36 @@
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zhuliu/">
+  <a href="https://ioerr.github.io/hanguo-renzhi-shijian-youzhuanji/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>15 Aug 2007, 17:05</time>
-      <h1>主流</h1>
+      <time>28 Aug 2007, 16:13</time>
+      <h1>韩国人质事件有转机</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9f%a9%e5%9b%bd%e4%ba%ba%e8%b4%a8%e4%ba%8b%e4%bb%b6%e6%9c%89%e8%bd%ac%e6%9c%ba》&body=https%3a%2f%2fioerr.github.io%2fhanguo-renzhi-shijian-youzhuanji%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>经过了几年的实践学习，我已经深刻地领悟到，作为国内的互联网用户，最重要的原则是什么，那就是一定要靠近主流，只有主流才能够生存，这绝对是不二法门。</p>
+  <p>据说<a href="http://newsvote.bbc.co.uk/chinese/simp/hi/newsid_6960000/newsid_6967100/6967182.stm">塔利班将会有条件地释放19名韩国人质</a>，等了这么久终于有一个还算不错的消息了，希望谈判能够成功达成协议，人质平安回家。</p>
 
-<p>比如说，自从 NN 没落以来，浏览器市场就是以 IE
-为主流的，如果你不幸生在了中国，并且悍然使用了非 IE 的浏览器，例如
-Firefox、Opera 等等，那么在门户、网站、论坛、Blog
-乃至办公网络等诸多地方就活该无法正常浏览页面，无法正常使用功能，一般这些站点上做网页开发的人员会非常认为非
-IE
-用户最好统统都死掉，就好像快餐店恨不得所有顾客都点标准套餐，那些变着法子专点5分钟之内没法现做的套餐的活该饿死一样。<br />
-比如说，阿里巴巴宣布支付宝不再支持 Firefox 等非 IE
-内核浏览器，说了也就说了，遭到抗议也就弄篇回应对付一下，到时候不支持还是不支持，你能够如何？几家较大的网络银行就是不支持非
-IE 内核浏览器，你又能够怎么样？有本事自己开银行开网站去啊～<br />
-所以再怎么样，至少也要用 IE
-内核各种外壳的浏览器，千万不要站错了队伍自绝于人民，到时候没有人可怜你的。</p>
+<p>这一个多月以来，网络上关于人质事件的争论也不少，冷漠、热心、狂热、幸灾乐祸、别有用心的各类人都有。</p>
 
-<p>比如说，主流的文档是 Microsoft Word
-的最新版本文档，从来都不是纯文本，不是
-HTML，也不是其他什么格式。如果你既不肯花钱买个正版，又不肯使用盗版，却要和其他人交流、共同编辑文档，那就等着被憋死吧。<br />
-当然，我们还有 WPS Office，但自从进入 Windows
-时代以来，它自身还有什么竞争力？<br />
-至于在线合作编辑文档，那都是没有任何意义的，因为你交流文档的方式通常都是在邮件的附件中获得
-Word
-文档，修改后再发回去。如果你不是这样的，小心了！你已经在主流的圈子之外了。</p>
+<p>里屋曾经有过<a href="http://www.tamiaode.com/txt/55142232942287731.htm">相关的讨论</a>（今天里屋来大姨妈，<a href="http://www.diigo.com/cached?url=http%3A%2F%2Fwww.tamiaode.com%2Ftxt%2F55142232942287731.htm">网页快照见这里</a>），让我惊讶的则是不少人竟然还叫好，说是活该。我想，不管这23名基督徒再怎么不明智，再怎么被人看作是纱布、脑残，不管现实中人命其实真的是不平等的，总还是一条条的人命。</p>
 
-<p>据说，以下做法可有效打击对方士气至崩溃：<br />
-用国内各大门户的邮箱给对方的国外邮箱发邮件，标题乱码，正文为空，附件是
-WinRAR
-多卷多层嵌套压缩，文件名亦为乱码，密码写在压缩包注释中，压缩包内容是最新版本
-Word 文档，文字部分所使用的格式和特效无所不用其极地华丽，当然低版本 Word
-并不支持，其实最重要的不过是一系列桌面 BMP
-格式的截图，而截图的内容是在写字板上的一句话。</p>
-
-<p>比如说，我国的主流是和谐的，所以在网上千万不要接触和发布不和谐的内容，跟九个指头的手势不一致，就要当心被斩。<br />
-Blogspot
-总是上不去？那玩意儿只是在米帝受欢迎，我们应该和巴基斯坦、印度进行国际接轨，在国内要向各大门户的
-blog 积极靠拢嘛；<br />
-维基百科上不去？不容于主流的东西太多了嘛，完全不符合我国国情，国内有现成的百科全书，干嘛要辛辛苦苦地抄后路呢？<br />
-还有，在重要问题上，一定要紧跟主流的声音，非主流的观点不要说，非主流的关键字不要提，非主流的立场不要坚持，否则如果群众觉得你这小子屁股摆放位置朝向与众不同，自发组织就把你和谐了，连警察蜀黍都不好意思出手。</p>
-
-<p>所以，当 MSN Messenger 像 QQ 一样越来越臃肿，当 TM 的界面风格不断向 MSN
-Messenger
-靠拢，我们应该而且能够做的，就是衷心拥护这种天下和谐一家的主流。</p>
+<p>而对于有趁着这个机会进行一些不合适的传教活动的国内基督徒，我的态度和天涯上的<a href="http://cache.tianya.cn/publicforum/content/no01/1/346698.shtml">这个帖子</a>中“要命一条”的差不多。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhuliu%2f&text= @calon %e4%b8%bb%e6%b5%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%bb%e6%b5%81》&body=https%3a%2f%2fioerr.github.io%2fzhuliu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fhanguo-renzhi-shijian-youzhuanji%2f&text= @calon %e9%9f%a9%e5%9b%bd%e4%ba%ba%e8%b4%a8%e4%ba%8b%e4%bb%b6%e6%9c%89%e8%bd%ac%e6%9c%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9f%a9%e5%9b%bd%e4%ba%ba%e8%b4%a8%e4%ba%8b%e4%bb%b6%e6%9c%89%e8%bd%ac%e6%9c%ba》&body=https%3a%2f%2fioerr.github.io%2fhanguo-renzhi-shijian-youzhuanji%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -168,6 +195,98 @@ Messenger
     
       categories = 
       
+        
+          <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+    tags = 
+      
+        <a href="https://ioerr.github.io/tags/%E4%BA%BA%E8%B4%A8">#人质 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%98%BF%E5%AF%8C%E6%B1%97">#阿富汗 </a>
+      
+        <a href="https://ioerr.github.io/tags/%E9%9F%A9%E5%9B%BD">#韩国 </a>
+      
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/wenben-bingdu/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>27 Aug 2007, 02:15</time>
+      <h1>文本病毒</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%87%e6%9c%ac%e7%97%85%e6%af%92》&body=https%3a%2f%2fioerr.github.io%2fwenben-bingdu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+  </span>
+</div>
+
+<section class="post-content">
+  <p><blockquote>
+紧急通告：<br />
+请大家互相告~~~~要速传！你有可能收到一封带有称为 「生活是美好的!
+.ppt」的
+PowrPnt的演示文件。如果你收到它，在任何环境下都不要打开它，且立即删除它。如果你打开了它，你的屏幕上将会跳出一条消息：「现在为时已晚，你的生活将不再美好」。随之而来，你会失去个人电脑上的一切东西，而那个发信给你的人将获得你的姓名、电子邮件和密码。这是一个新的病毒，我们需要尽一切可能来阻止这种病毒。美国已经确认了它的危险性，而杀毒软件不能清除它。是一位自称&rdquo;生命拥有者&rdquo;的黑客制造的。他的目标是摧毁个人电脑。
+请copy 这封信给你认识的群</p>
+
+<p>不知道是不是真的<br />
+宁可信其有。
+</blockquote>
+看上去很像那么回事，其实多半是假消息或夸大其辞，以一种善意的提醒、警告，或者是恐吓的形式，利用“宁可信其有，不可信其无”的心理传播，这是典型的
+<a href="http://people.howstuffworks.com/urban-legend.htm">urban legend</a> 啊～<br />
+作为怀疑主义者，看到宁可信其有主义者不厌其烦地参与这种文本病毒的传播，实在是对人类的未来非常悲观啊～</p>
+
+<p>找了一下这条假消息的相关信息，看到了“来自 Microsoft 和
+Norton”的版本，加上说话有点西洋味，于是用“virus powerpoint life is
+beautiful”作为关键字一搜，真相就浮出水面：完全没有任何人因为中了该病毒在网上哭诉求助控诉嘛！<br />
+而<a href="http://www.snopes.com/computer/virus/life.asp">搜索结果的第一条</a>就是来自专门搜集各类流言的
+<a href="http://www.snopes.com/">Snopes</a>，经鉴定该传闻纯粹是愚弄人的恶作剧。</p>
+
+<p>这则假消息至少在2002年1月就已经开始流传，堪称火星通讯！<br />
+最开始它的标题是“Life is Beautiful”，2002年9月开始一度更名为“Everything
+is Beautiful”，到了2003年又改了回来，至于什么时候传入中国就不可考了。<br />
+除了这个最原始的英文版，在
+<a href="http://www.symantec.com/security_response/print_writeup.jsp?docid=2002-011511-0444-99">Symantec</a>
+和
+<a href="http://us.mcafee.com/virusInfo/default.asp?id=description&amp;virus_k=99307">McAfee</a>
+澄清谣言的页面上我们还可以看到繁体中文、法语、德语、意大利语、葡萄牙语、西班牙语、匈牙利语的各个版本…</p>
+
+<p>话说很久以前有尝试翻译 <a href="http://www.howstuffworks.com/">HowStuffWorks</a>
+上的这篇 <a href="http://people.howstuffworks.com/urban-legend.htm">How Urban Legends
+Work</a>，后来因为比较忙所以放下了。Urban
+Legend 这个词我还没想到完美的翻译呢…</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fwenben-bingdu%2f&text= @calon %e6%96%87%e6%9c%ac%e7%97%85%e6%af%92&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%87%e6%9c%ac%e7%97%85%e6%af%92》&body=https%3a%2f%2fioerr.github.io%2fwenben-bingdu%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">#求知求是 </a>
         
           <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
         
@@ -184,41 +303,42 @@ Messenger
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/heian/">
+  <a href="https://ioerr.github.io/nomads/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>15 Aug 2007, 16:44</time>
-      <h1>黑暗</h1>
+      <time>23 Aug 2007, 02:05</time>
+      <h1>数字游牧计划</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%95%b0%e5%ad%97%e6%b8%b8%e7%89%a7%e8%ae%a1%e5%88%92》&body=https%3a%2f%2fioerr.github.io%2fnomads%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>多年来，人们一直相信电灯是发射光线的。然而，最近有信息表明，实际上是另一回事。电灯并不射出光线，而是吞噬黑暗。因此我们将电灯泡称为噬暗体。噬暗体理论显示出黑暗的存在，黑暗具有比光更大的质量和更快的速度。</p>
+  <p><a href="http://www.socialbrain.org/">群智基金会</a>推出<a href="http://nomads.cnblog.org/">数字游牧计划</a>，一个帮助创建独立、自由的个人网志站点的非赢利项目。</p>
 
-<p>噬暗体理论的基础是，电灯泡其实是在吞噬黑暗。你房间中的噬暗体就是个例子。黑暗在靠近它们的地方要少得多。噬暗体越大，则吞噬黑暗的能力越强。停车场中的大型噬暗体，能力就比在室内的强。和所有的事物一样，噬暗体不会永远工作。一旦它们被黑暗完全占据，便不再吞噬黑暗。完全黑暗的噬暗体上的黑斑就是明证。蜡烛是一种初级的噬暗体。未点燃的蜡烛有白色的灯芯。你会注意到，一旦使用灯芯就变黑了，这表示黑暗都被吞到了灯芯中。如果把一支铅笔靠近正在工作的灯芯，笔尖会变黑，因为它挡住了要流进蜡烛的黑暗。不幸的是，这类初级噬暗体的作用范围十分有限。另外还有可移植的噬暗体。灯泡有时必须依靠黑暗存储单元的协助才能对付黑暗。当黑暗存储单元充满黑暗后，必须清空或者替换掉才能使噬暗体继续起作用。</p>
+<p><a href="http://nomads.cnblog.org/service.html">具体服务项目包括</a>：<br />
+申请和维护独立的域名；<br />
+建立用户喜欢的 Blog 站点，并培训使用发布工具；<br />
+对 Blog 站点进行年度维护；<br />
+宣传和推广新的 Blog 站点。</p>
 
-<p>黑暗具有质量。当黑暗进入噬暗体，会因为摩擦产生热。因此触摸正在工作的噬暗体是不明智的。蜡烛是个典型的例子，因为黑暗必须进入固体的灯芯而不是穿越透明的玻璃。这一过程会产生大量的热，因此触摸正在工作的蜡烛是很危险的。另外，黑暗比光明更重。如果你在湖泊的浅水层游泳，可以看到大量的光线。如果慢慢地潜深，周围也会越来越暗。当潜到大约50尺深的时候，就完全是漆黑一片了。这是因为密度更大的黑暗沉在湖底，而更轻的光明浮在上方。人类可以开发利用黑暗的巨大力量。我们可以收集湖底的黑暗，让它们通过涡轮进入海洋——在那里存储黑暗更为安全——从而产生电力。获得河流和湖泊中的黑暗比建造涡轮困难多了。印第安人就意识到了这个问题并尝试解决它。当独木舟与黑暗流动的方向相同时，印第安人会慢慢地划桨，避免阻碍黑暗的流动；而当他们与黑暗的流向相反时，便急速地划桨以帮助黑暗流动。</p>
+<p><a href="http://nomads.cnblog.org/price.html">目前服务的价格是</a>：<br />
+一般的 BLOG 服务：独立域名+主机：120元/年，只买主机：50元/年；<br />
+特殊数据维护：50元/次。</p>
 
-<p>最后，我们必须证明黑暗运动的速度比光明快。站在一个有照明的房间内，对着一个黑暗、封闭的壁橱，慢慢打开壁橱的门，你会看见光线缓缓进入壁橱；但因为黑暗是如此快速，你根本无法看清楚它是如何离开壁橱的。</p>
-
-<p>最后我想说，噬暗体让我们的生活更加和谐。因此下次看到电灯泡时，请记住它其实是噬暗体。</p>
-
-<p>翻译自《<a href="http://www.textfiles.com/science/dark.txt">D A R K</a>》。</p>
+<p>这样的价格对个人用户来说应该还是不错的，支持支付宝、贝宝付费，也比走其他途径给国外空间商付费方便得多。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fheian%2f&text= @calon %e9%bb%91%e6%9a%97&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%bb%91%e6%9a%97》&body=https%3a%2f%2fioerr.github.io%2fheian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fnomads%2f&text= @calon %e6%95%b0%e5%ad%97%e6%b8%b8%e7%89%a7%e8%ae%a1%e5%88%92&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%95%b0%e5%ad%97%e6%b8%b8%e7%89%a7%e8%ae%a1%e5%88%92》&body=https%3a%2f%2fioerr.github.io%2fnomads%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -227,18 +347,11 @@ Messenger
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
   <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E6%81%B6%E6%90%9E">#恶搞 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E7%BF%BB%E8%AF%91">#翻译 </a>
-      
     
   </div>
 </div>
@@ -247,52 +360,81 @@ Messenger
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zangyu-xuexi-shouce/">
+  <a href="https://ioerr.github.io/jiaohu-fenxiang-ditu-zhaopian/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>15 Aug 2007, 14:42</time>
-      <h1>藏语学习手册</h1>
+      <time>22 Aug 2007, 16:36</time>
+      <h1>交互、分享地图照片</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%a4%e4%ba%92%e3%80%81%e5%88%86%e4%ba%ab%e5%9c%b0%e5%9b%be%e7%85%a7%e7%89%87》&body=https%3a%2f%2fioerr.github.io%2fjiaohu-fenxiang-ditu-zhaopian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>传说中的藏语学习小册子，有20多年的历史了。<br />
-<a href="http://www.flickr.com/photo.gne?id=1125817031"><img src="http://static.flickr.com/1119/1125817031_1f6192d2e4_m.jpg" alt="藏语学习手册" /></a><br />
-点击看大图，如果你访问不了 Flickr，请自寻出路或无视本文。</p>
+  <p><a href="http://blog.timetide.net/">Owen</a> 曾经在05年发起 <a href="http://blog.timetide.net/archives/2005/01/21/20050121224101.php">10 Places of My
+City</a>
+的活动，没想到到前天<a href="http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry">还有人</a>加上<a href="http://www.technorati.com/tag/10placesofmycity">这个标签</a>——但现在
+Technorati 上也只查到这一个 blog 了，Flickr
+上则到06年7月为止，而且貌似还不是参与这次活动的。</p>
 
-<p>摘几句体验体验，可惜我不会输入藏文。</p>
+<p>这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n
+只爪子都数不过来。</p>
 
-<p>汉：这个东西藏语怎么说？<br />
-藏：嘉拉底名拉勃给拉卡热色给热</p>
+<p>2年后的现在，我们有了 <a href="http://earth.google.com/">Google Earth</a>/<a href="http://maps.google.com/">Google
+Maps</a> +
+<a href="http://www.panoramio.com/">Panoramio</a>，<a href="http://picasa.google.com/">Picasa</a>
+支持方便地标注地理位置，<a href="http://flickr.com/">Flickr</a>
+也支持坐标了，类似这样的活动是不是可以有更新的形式呢？</p>
 
-<p>汉：我们尊重你们的宗教信仰<br />
-藏：昂崔切让崔却德拉曾觉切给热</p>
+<p>我的想法是这样的：<br />
+1、Blogger
+首先公布自己所在的坐标，例如我的位置就在<a href="http://maps.google.com/maps/ms?msa=0&amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;ll=28.256459,112.982111&amp;spn=0.019203,0.029182&amp;t=k&amp;z=15&amp;om=1">这里</a>，坐标大概是28.254200,
+112.982000；<br />
+2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；<br />
+3、访问 blog
+的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">这个体育场</a>；<br />
+4、访客记录下这个位置的坐标，通过留言等方式告诉
+blogger，如这个<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">链接</a>，或28.1817°
+112.977°，或+28° 10&rsquo; 54.12&rdquo;, +112° 58&rsquo; 37.20&rdquo;等等；<br />
+5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到
+<a href="http://picasaweb.google.com/">Picasa Web
+Album</a>、<a href="http://www.panoramio.com/">Panoramio</a>
+或 <a href="http://flickr.com/">Flickr</a>，标记坐标和标签，并在 blog
+上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger
+发布的 KML 地标文件。</p>
 
-<p>汉：一定不要忘记过去<br />
-藏：额安切给奈醋玉窘乃节久约玛热</p>
+<p>这样的好处是：<br />
+1、也许能够因此发现之前一直都不知道的有趣的地方；<br />
+2、让宅在家里的人有动力出去放放风；<br />
+3、相当于替别人进行了一次小小的旅行；<br />
+4、增进与读者的交流。</p>
 
-<p>汉：毛主席的话句句是真理<br />
-藏：毛主席松贝噶美仑马丹敦热</p>
+<p>不方便的地方有：<br />
+1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio
+照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；<br />
+2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；<br />
+3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；<br />
+4、会有人感兴趣吗？</p>
 
-<p>汉：拖拉机<br />
-藏：拖拉机</p>
+<p>这类活动的名称还没有想好，包括这篇 blog
+的名字也很难想啊~而且不知道是否重新发明了轮子…</p>
 
-<p>内容完全健康向上，积极和谐，绝对不会出现什么“你很丑”或者“奥你(bleep)运”之类字眼。</p>
+<p>我在 Panoramio
+的照片在<a href="http://www.panoramio.com/user/516541">这里</a>，可以<a href="http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;ln=112.9924185&amp;z=6">直接在地图上查看</a>，也可以下载并用
+Google Earth 打开相应的 <a href="http://www.panoramio.com/kml/?user=516541">KML
+地标文件</a>。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzangyu-xuexi-shouce%2f&text= @calon %e8%97%8f%e8%af%ad%e5%ad%a6%e4%b9%a0%e6%89%8b%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%97%8f%e8%af%ad%e5%ad%a6%e4%b9%a0%e6%89%8b%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fzangyu-xuexi-shouce%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fjiaohu-fenxiang-ditu-zhaopian%2f&text= @calon %e4%ba%a4%e4%ba%92%e3%80%81%e5%88%86%e4%ba%ab%e5%9c%b0%e5%9b%be%e7%85%a7%e7%89%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%a4%e4%ba%92%e3%80%81%e5%88%86%e4%ba%ab%e5%9c%b0%e5%9b%be%e7%85%a7%e7%89%87》&body=https%3a%2f%2fioerr.github.io%2fjiaohu-fenxiang-ditu-zhaopian%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -301,7 +443,13 @@ Messenger
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">#书香剑气 </a>
+          <a href="https://ioerr.github.io//categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">#互动娱乐 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">#流光飞影 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
@@ -309,164 +457,15 @@ Messenger
     
     tags = 
       
-        <a href="https://ioerr.github.io/tags/%E5%A6%88%E5%A6%88">#妈妈 </a>
+        <a href="https://ioerr.github.io/tags/flickr">#flickr </a>
       
-        <a href="https://ioerr.github.io/tags/%E6%89%8E%E8%A5%BF%E5%BE%97%E5%8B%92">#扎西得勒 </a>
+        <a href="https://ioerr.github.io/tags/panoramio">#panoramio </a>
       
-        <a href="https://ioerr.github.io/tags/%E8%97%8F%E8%AF%AD">#藏语 </a>
+        <a href="https://ioerr.github.io/tags/%E5%88%86%E4%BA%AB">#分享 </a>
       
-        <a href="https://ioerr.github.io/tags/%E8%A5%BF%E8%97%8F">#西藏 </a>
+        <a href="https://ioerr.github.io/tags/%E5%9C%B0%E7%90%86">#地理 </a>
       
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/zhongwen-rumen-shouce/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>15 Aug 2007, 09:44</time>
-      <h1>中文入门手册</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。</p>
-
-<p>在 <a href="http://www.textfiles.com/">TextFiles</a>
-翻到一篇古老的<a href="http://www.textfiles.com/fun/chinesec.hum">中文简易教学的奇文</a>，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
-l、r 至今都分不清楚…</p>
-
-<p>以下标记有[?]的为存疑，[&amp;]的为不靠谱，[!]的为神来之笔。</p>
-
-<p>干＝Ga=Fuck<br />
-你的＝Lin=Your<br />
-伢[?]＝Yah=Mother<br />
-这显然是将一个活生生的句子腰斩之后的结果，而且“Yah”听上去倒像是湖南话中的“伢”，问候对方的母亲大人就变味了。</p>
-
-<p>我＝Wuh=I, me<br />
-爱＝I=Love<br />
-你＝Nee=You<br />
-为什么这个充满爱的组合出现在这里让我觉得动机不纯？</p>
-
-<p>爸爸＝Papa =Father<br />
-他/她＝Ta=He, She<br />
-[?]＝More =More<br />
-还要多＝Hie a dore=More than anything<br />
-好多＝Hando=Very much<br />
-大＝Da=Big<br />
-没＝Me=Doesn&rsquo;t have<br />
-老二＝La er=A dick<br />
-鸡巴[&amp;]＝Jeba =Pussy<br />
-不要告诉我你想说的其实是“结巴”</p>
-
-<p>美丽＝Malee=Beautiful<br />
-想＝Shaw =Think<br />
-一个 x 的发音，害死多少外国友人…</p>
-
-<p>你有没有[!]＝Nio meo=Do you have<br />
-[?]＝gice =Them<br />
-同性恋[&amp;]＝Tonesinglien =Gay<br />
-是＝Su=Are<br />
-女孩＝Nuhie=Girl<br />
-看＝Cawn =See<br />
-想＝Shaw =Want<br />
-你能不能？[?]＝Nee numoo num?=Will you?<br />
-啦[?]＝La=Oh!<br />
-二＝Er=2<br />
-独独学习这个“二”的发音，可见这个教学者还是有些水准的啊～</p>
-
-<p>跟（某人）出去＝Gun (Name) choo chee =Go out with<br />
-你可不可以？[!]＝Nee cub cuy? =Can you?<br />
-喂＝Way=Hello<br />
-你好吗？＝Nee how ma?=How are you?<br />
-星期一＝Sheen chee ee=Monday<br />
-星期五（晚上）＝Sing she ooh(Wansa)=Friday (Night)<br />
-今晚＝Jeenwhy=Tonite<br />
-是＝See=Yes<br />
-不＝Boo=No<br />
-你喜欢谁？＝Nee she wah say?=Who do you like?<br />
-谁？＝Say? =Who?<br />
-今天＝Chingtien=Today<br />
-今天你好吗？＝Chingtien nee how ma?=How are you today?<br />
-[?]＝Jeenee=Spurm<br />
-因为＝Eenway=Because<br />
-丑＝Tso=Ugly<br />
-你很丑＝Nee hun tso=You are very ugly.<br />
-下一句是不是“老板，退货”？</p>
-
-<p>你喜欢我吗？＝Nee she whine wu ma? =Do you like me?<br />
-为什么？＝Wa sa ma?=Why?<br />
-男孩＝Nahnhie=Boy<br />
-你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful
-girl<br />
-我希望你在这＝Wa she wa ni tsie tsa=I wish you were here<br />
-闭嘴＝Bejuay=Shut up<br />
-脸＝Lien =Face<br />
-我想起你[?]＝Wa shu chee nee=I miss you<br />
-这是什么？＝Tsa tsi su bu?=What is this?<br />
-嗯，这是纱布</p>
-
-<p>我将会＝Wa jawngway=I will<br />
-你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a
-very, dirty, big, dick.<br />
-你是一大鸡巴[&amp;][!]＝Ni she needa jeba.=You are a big pussy.<br />
-真声东击西之典范也！</p>
-
-<p>干你妈鸡巴[&amp;][!]＝Ga ne ma jeba.=Fuch your mothers pussy.<br />
-中国人不是雌雄同体生物！</p>
-
-<p>去干老师＝Chu ga lousi =Go fuck the teacher.<br />
-Hey! Kids! Leave them teachers alone!</p>
-
-<p>你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the
-ugliest dick in the world.<br />
-其实我觉得翻译作“最矬”效果更神奇。</p>
-
-<p>感想：<br />
-1、学习外语果然还是要靠性趣和脏话；<br />
-2、米帝国主义果然玩我之心不死；<br />
-3、中文果然不是这么好学的；<br />
-4、还是我国以前的藏语学习小册子境界高啊，有时间再介绍。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhongwen-rumen-shouce%2f&text= @calon %e4%b8%ad%e6%96%87%e5%85%a5%e9%97%a8%e6%89%8b%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e6%96%87%e5%85%a5%e9%97%a8%e6%89%8b%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fzhongwen-rumen-shouce%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-    tags = 
-      
-        <a href="https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87">#中文 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E6%81%B6%E6%90%9E">#恶搞 </a>
-      
-        <a href="https://ioerr.github.io/tags/%E7%BF%BB%E8%AF%91">#翻译 </a>
+        <a href="https://ioerr.github.io/tags/%E7%85%A7%E7%89%87">#照片 </a>
       
     
   </div>
@@ -484,7 +483,7 @@ ugliest dick in the world.<br />
   </a>
   
 
-  PAGE 90 / 229
+  PAGE 90 / 230
 
   
   <a href="/page/91/" rel="next">

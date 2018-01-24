@@ -42,71 +42,68 @@
       </div>
 
 
-  <a href="https://ioerr.github.io/faguodui-23ren-mindan/">
+  <a href="https://ioerr.github.io/guanyu-zuqiu-zhandian-he-shequ-de-xiangfa/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>25 May 2007, 00:59</time>
-      <h1>法国队23人名单</h1>
+      <time>06 Jun 2007, 15:56</time>
+      <h1>关于足球站点和社区的想法</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95》&body=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#觉得联盟杯冠军队成员-escude-和-lyon-系的-squillaci-更适合和-gallas">觉得联盟杯冠军队成员 Escude 和 Lyon 系的 Squillaci 更适合和 Gallas</a></li>
-</ul></li>
-</ul>
-</nav>
 </div>
 
 <section class="post-content">
-  
+  <p>最近想为以前琢磨过的一个想法写个数据模型出来，但是真正写的时候发现我对数据库的了解实在太少。</p>
 
-<p>法国国家队公布6月2日对阵乌克兰和6月6日对阵格鲁吉亚的<a href="http://www.fff.fr/servfff/historique/selection/der_selec.shtml">23人名单</a>。</p>
+<p>想法的起因是这样的，觉得目前没有一个让人满意的资料丰富、功能强大的足球站点和社区。什么是我想要的？</p>
 
-<p>Henry、Vieira、Sagnol 因为重伤没能入选；<br />
-Trezeguet 继续被排斥在国家队大门之外，以他本赛季的表现和精神状态，以及和
-Domenech 的关系，这是很正常的；</p>
+<p>一、详尽的资料库和强大的查询服务</p>
 
-<p>Frey 第一次入选国家队，但是横在他面前的还有正选门将 Coupet
-和同一代的长久对手 Landreau。有意思的是，Frey 接过了 Barthez
-的16号球衣。</p>
+<p>每个国家队、俱乐部球队、著名球员、教练等等都有相应的资料介绍，包括某场比赛的某个进球也能够有相应的视频资料链接。<br />
+各类资料的收集要考虑周全，如球员的原名、球衣名称、昵称、大陆译名、香港译名等。<br />
+各类信息分门别类建档，便于检索查询和统计，如根据日期、国家、球队级别查询出某个时间段内中国男子国家队入选球员名单、比赛交手记录、胜负情况，加上球员信息则可以查询出哪些球员在这段时期内入选过几次、首发情况、出场时间、进了几个球等等。<br />
+理想状况是，数据模型的合理构建加上充实的信息，能够提供给用户非常丰富的查询统计方式，用户面对的将是可以方便处置的元数据，和无处不相互关联的统计数据，而不是像很多足球数据网站提供的数据，看似很丰富实际不方便用户提取出他所需要的统计结果。<br />
+拿 <a href="http://www.fifa.com/">FIFA</a>
+的<a href="http://www.fifa.com/worldfootball/statisticsandrecords/index.html">数据统计</a>来举个例子：<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/tournaments/worldcup/matches/index.html">比赛记录</a>虽然做得不错，但是如果我想统计出其他的记录呢？<br />
+<a href="http://www.fifa.com/worldfootball/statisticsandrecords/headtohead/team1=BRA/team2=FRA/index.html">法国和巴西的交锋记录</a>很详尽，但是我想看指定的十几只国家队中在非友谊赛上对巴西胜率最高的是哪个，该怎么统计呢？<br />
+如果我想查询近15年内在世界杯上总进球超过3个球员中谁的转会身价最低，欧洲冠军联赛改制以来单场比赛逆转次数最多同时又不是前一年联赛冠军的球队是哪一只，某年某场比赛某队中的国脚有哪几个，恐怕
+FIFA、UEFA
+或者各国足协的网站都无能为力吧，而有的专业足球数据库就算有这些资料，但是会向公众开放吗，能够达到这样的自由度吗？</p>
 
-<p>后卫线上，Auxerre 的边后卫 Sagna 入选，但预计 Lyon 系的 Clerc
-会是正选。<br />
-Mexes 不见踪影，不知道是因为伤势没好还是 Domenech
-又看这个刺头不顺眼了。<br />
-Thuram
-仍然出现在名单中，而且估计还是首发。130次代表国家队出场又是一个新的里程碑了。<br />
-Stuttgart 的夺冠功臣 Delpierre 本赛季非常抢眼，但 Domenech</p>
+<p>是的，这要求在拥有数据的基础上开放后台查询，但我估计以 FIFA
+目前的数据库来说，即使开放给用户做后台查询也未必能够查询到上面所说的某些结果，最根本的问题应该还是在数据模型上面吧。</p>
 
-<h2 id="觉得联盟杯冠军队成员-escude-和-lyon-系的-squillaci-更适合和-gallas">觉得联盟杯冠军队成员 Escude 和 Lyon 系的 Squillaci 更适合和 Gallas</h2>
+<p>二、Wiki 式的资料收集方式</p>
 
-<p>Bodmer
-很遗憾地又没有入选，正宗的中路组织进攻者只有刚刚拿到法甲最佳新人的
-Nasri——但他会是首发吗？概率很小吧…<br />
-剩下的中场除了几个铁打的主力之外基本都是后腰类型的，法国继续炫耀着它的欧洲第一后腰人才储备（Flamini、Dacourt、Luccin
-这些还都没机会呢），但拜托不要像上一场那样面对弱旅也排满后腰玩防守了！</p>
+<p>除了要满足多种多样查询统计的需求之外，还想要有的是用户贡献的内容，有的资料是可以开放给用户自己编写的，类似于一个
+Wiki。但如何在资料的准确性和贡献者人数上取得平衡呢？也许应该借鉴
+Championship Manager/Football Manager
+系列的资料获取方法？不要求精确描述球员能力、潜力、精神属性的数值，相信难度会小很多，这几个项目相互合作也不错。</p>
 
-<p>首发前锋估计是 Anelka 和近来频频发飙的 Cisse。<br />
-一看到干儿子 Govou 还在阵中就不爽，如果前锋换人的话，他的存在会减少
-Benzema
-的上场机会，还是等到对阵意大利的时候再进国家队来个“不正常发挥”吧…<br />
-科班出身的 Briand
-首次入选国家队，但他似乎效率不高。效率最高的那一位最近正郁闷呢。</p>
+<p>三、主题论坛</p>
+
+<p>在 Wiki
+之外，每一个球队、每一个球员、每一场比赛、每一届赛事都对应一个讨分论坛，当你找到了球队、球员、比赛等等，也就自然找到了同主题进行讨论的地方。<br />
+而发布文章时，通过数量有限制的标签可以同时发布到几个论坛中，如标签为“Marseille”、“Bayern”、“Ribery”，那么文章就有三个分身分别出现在那三个主题的论坛中。<br />
+当然，这种方式还有很多问题要解决，如话题的分拆和合并，标签数量不够和垃圾标签轰炸等等。</p>
+
+<p>如果引入投票打分机制，或许还可以加上给不同阶段的某球队、某球员打分，评选精彩进球等等功能。<br />
+如果底层设计得优秀的话，还有很多功能可以快速实现呢。</p>
+
+<p>他喵的，这种事情应该由 FIFA、各洲际、各国足协来做，我操什么心嘛。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffaguodui-23ren-mindan%2f&text= @calon %e6%b3%95%e5%9b%bd%e9%98%9f23%e4%ba%ba%e5%90%8d%e5%8d%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b3%95%e5%9b%bd%e9%98%9f23%e4%ba%ba%e5%90%8d%e5%8d%95》&body=https%3a%2f%2fioerr.github.io%2ffaguodui-23ren-mindan%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f&text= @calon %e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e8%b6%b3%e7%90%83%e7%ab%99%e7%82%b9%e5%92%8c%e7%a4%be%e5%8c%ba%e7%9a%84%e6%83%b3%e6%b3%95》&body=https%3a%2f%2fioerr.github.io%2fguanyu-zuqiu-zhandian-he-shequ-de-xiangfa%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -115,7 +112,11 @@ Benzema
       categories = 
       
         
+          <a href="https://ioerr.github.io//categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">#灯泡短路 </a>
+        
           <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+        
+          <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
         
     
   </div>
@@ -128,46 +129,100 @@ Benzema
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/zhehui-zhende-sile/">
+  <a href="https://ioerr.github.io/px-yu-64/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>24 May 2007, 15:04</time>
-      <h1>这回真的死了</h1>
+      <time>04 Jun 2007, 17:37</time>
+      <h1>PX 与6·4</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《PX%20%e4%b8%8e6%c2%b74》&body=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>大前天晚上上床比较早，结果反而还做了个噩梦。</p>
+  
 
-<p>梦的前半段就不多说了，大致是一个场面火爆的警匪卧底片，有在炸坏堤防后在洪水中的城市驾驶快艇进行巷战追逐的场景。等到大局一定进入尾声，就慢慢平淡下来了。</p>
+<p>尽管已经是64，但这几天最引人注目的话题依然还是厦门，因为临近特殊日子的市民自发的游行活动，这次游行也被某些人与18年前的事件联系起来看，甚至成了封杀消息、封杀反对意见的理由。这种把本来可以在行政和法律范围内解决的问题往政治上靠，以期获得压制效果的手法非常卑劣，但今天我谈到厦门事件，最后也会和64联系起来说。</p>
 
-<p>当时的情景是，我倚在某间公寓的门口（似乎是自己的家，门口在我右手边）和女友还有好友三个人轻松地聊天，大概是黄昏时分。远处传来警笛，还有警察追捕剩余的罪犯和盘查路人的喧哗声。</p>
+<p>一、对民众一方的反思</p>
 
-<p>说着说着，他们两个一同朝门外看去，我也转过头看个究竟，只见一个穿着黑色运动服，用运动帽遮住面孔的人正慢慢走过来，然后他的手一抬，我就觉得好像被什么东西摇了一下，四周立刻安静了下来，脑袋下意识地往左看去。只见我的女朋友的眉心上有个弹孔，正向后倒去，我的朋友似乎一边大喊（我听不见他说什么）一边冲出去想要抓住那人。</p>
+<p><a href="http://xys.3322.org/">新语丝</a>在6月1日刊登了桓二心的《<a href="http://xys.3322.org/xys/netters/others/comments/xiamen5.txt">我看厦门PX事件</a>》一文，其中心论点就是：对
+PX
+项目危害的宣传有危言耸听的嫌疑，在政治问题上一定要以事实说话，避免煽情、造谣、以讹传讹。<br />
+说煽情、造谣或许有点重，但对-二甲苯不属于剧毒高致癌物质是事实，而反对 PX
+项目的宣传中有不少是强调对-二甲苯的“剧毒、高致癌性”也是事实。而且到目前为止，我都没有看到一个足够有说服力的报告来证明目前的
+PX
+项目是不符合国家环保标准的——虽然这个举证责任不在反对者一方，但是反对方的宣传还是应该基于可信的科学结论。</p>
 
-<p>我想靠过去扶起女友，却发现身体不大听使唤，每一步都走得非常吃力，走了两步的动作仿佛过了好几分钟一样，慢慢也倒了下去。斜躺在地上，我用左手捂住感到有些不适的左额角，发现头骨上凹下去一块，并没有什么痛感，只有鲜血喷涌而出，根本无法按住。随着大量失血，眼前的场景很快地黯淡下去。等到朋友回身想救我的时候，我已经失去知觉。</p>
+<p>遗憾的是，在互相传达反对 PX
+项目的消息时，类似的夸大其辞和以讹传讹一直存在，包括刚开始游行时有人声称人数达到2万人等等。同时，当听到一些质疑和反对的意见的时候，一些人条件反射式的给其扣上“托儿”的帽子，这样的反应也颇让人失望。</p>
 
-<p>然后，就醒来了。</p>
+<p>当然，不管怎么说，游行的厦门民众反对暴力的态度和良好的秩序都让人赞赏，大方向上也不能够说不对。</p>
 
-<p>当梦中发现头上致命的伤口时，我心里很清楚一定没救了，可是心里竟然一点都不感到绝望或者恐惧，倒有些坦然接受的心情。或许是因为如果真是这样的死法，要比备受折磨的惨死幸福多了吧。</p>
+<p>二、容许一些错误</p>
 
-<p>至于为什么会梦见头上有伤口，也许是当时脑袋中有小血管爆裂吧 XD<br />
-那个女朋友嘛，我还没有看清楚什么样子就挂掉了！太可惜了！</p>
+<p>尽管反对 PX
+项目一方的观点和证据有值得商榷的地方，但是我十分赞同这次充分表达自己观点的和平集会游行。就算是观点不正确又如何？谁能够保证自己的观点就一定正确？<br />
+游行应该是民众公开表达自己观点的一种方式，也是和执政者面对面交流的一种正常渠道，有什么差异很大的分歧，是正常的，发起游行的一方有错误的观点，也是正常的。首先要有表达的权利，然后才有对话和协商的可能，指出对方观点错误应该成为谈判的筹码，而不是堵住对方嘴巴的胶布。</p>
+
+<p>三、如何讲道理？</p>
+
+<p>之前有说过，举证责任不在反对者一方，要求民众举证证明 PX
+项目有什么问题无疑是不合适的，按照《<a href="http://www.people.com.cn/GB/shehui/212/3572/3574/20021029/853043.html">环境影响评价法</a>》，“专项规划的编制机关对可能造成不良环境影响并直接涉及公众环境权益的规划，应当在该规划草案报送审批前，举行论证会、听证会，或者采取其他形式，征求有关单位、专家和公众对环境影响报告书草案的意见。编制机关应当认真考虑有关单位、专家和公众对环境影响报告书草案的意见，并应当在报送审查的环境影响报告书中附具对意见采纳或者不采纳的说明。”，“对环境可能造成重大影响、应当编制环境影响报告书的建设项目，建设单位应当在报批建设项目环境影响报告书前，举行论证会、听证会，或者采取其他形式，征求有关单位、专家和公众的意见。建设单位报批的环境影响报告书应当附具对有关单位、专家和公众的意见采纳或者不采纳的说明。”<br />
+也就是说，谁要建设可能影响环境的项目，论证该项目符合规范，听取专家和公众意见的责任也就由谁承担。</p>
+
+<p>不过我没有找到符合“如果公众参与程度太低，或者投票赞成的数字不够，那环保局不应该通过该项目的环境评价”的这一段，仅有“编制机关应当认真考虑有关单位、专家和公众对环境影响报告书草案的意见，并应当在报送审查的环境影响报告书中附具对意见采纳或者不采纳的说明。”和“建设单位报批的环境影响报告书应当附具对有关单位、专家和公众的意见采纳或者不采纳的说明。”<br />
+也就是说，即使有关单位、专家和公众对环境影响报告书草案和环境影响报告书有很多意见，编制机关、建设单位在提供不采纳意见的说明之后仍可能审查通过？</p>
+
+<p>我好奇的是，这两个必要的论证、听证会是否有举行过，通过审查的环评报告是否有向民众公开，内容是什么。如果真是如<a href="http://www.bullog.cn/blogs/rosu/archives/67542.aspx">目前所看到的消息</a>，没有征求过意见，或者环评报告本身存在问题，那么不管
+PX 项目实际的危害如何，这个程序有问题的项目审查都是站不住脚的。</p>
+
+<p>如果按照这样的思路，举证的责任不在于专业程度不够的民众，而在于项目规划和建设方，是否项目反对者的失误几率和压力都会小一些呢？这也是为什么我说希望这次事件演变成法律事件的原因。</p>
+
+<p>除了利用现行的法律作为武器进行有理有据的抗议之外，还能够促成环境保护相关法律和危险信息公开制度的完善也说不定——毕竟比直接高喊某人下台或要求追查腐败官员更容易让政府方面妥协，也更加现实。如果整个事件的着眼点是在法律之外的，这样的希望就很渺茫了。</p>
+
+<p>四、相信谁的道理？</p>
+
+<p>目前厦门事件的现状是，PX
+项目缓建，但是环评报告是否会公开，是否会有新的环评报告出来，还是未知数。而许多人关心的其实并不是环评报告会怎么评价这个项目，而是环评报告是否值得信赖？</p>
+
+<p>从城市规划、项目规划、环境影响报告、环境评价报告到项目审查和建设，整个过程对可能受到很大影响的厦门人民来说是不透明的；在普遍对政府信任缺失的情况下，后续的处理，环评报告的新版本，如果仍然是支持
+PX 项目建设的，厦门民众是否会接受呢？</p>
+
+<p>如今民众不但不太信任政府的话，也习惯性地相信站在政府对立面的传言。除了前面所说的民众需要反思之外，政府方面是否更加需要反省呢？<br />
+决策和审查过程不透明，封杀网络、短信消息，制造假消息粉饰太平，发出开除和退学威胁，上纲上线，再加上普遍认为的相关人员有腐败的嫌疑，或者为了政绩不惜牺牲环境的一贯作风，就算缓建项目的决定是以接纳民众意见为出发点做出的（何况目前还有项目并未停工的消息），被认为是缓兵之计也绝对不冤枉，因从为多年来的作为来看，政府已经失掉了公信力。</p>
+
+<p>当你失掉了别人的信任的时候，不是简简单单的等价补偿就能够赢回这份信任的，必须花费许多倍的功夫才行。</p>
+
+<p>五、两个事件背后的对比</p>
+
+<p>从64到61，我们可以看出以下几点：</p>
+
+<p>政府的态度依然是：<br />
+决策的权力牢牢掌握，因为无论从表面的政绩到背后的利益都是向权力看齐的；<br />
+防备民众的集体行动，这一次游行者素质很高，非暴力的原则得到贯彻，没有不切实际的政治诉求，所以控制手段还算温和，不过已经准备好了政治武器，用作实施强硬手段的理由的；</p>
+
+<h2 id="与64相比公信力有所回升-但是仍然得不到民众信任-缺少监督-缺少透明机制带来的腐败问题-不对民众负责而是以">与64相比公信力有所回升，但是仍然得不到民众信任，缺少监督、缺少透明机制带来的腐败问题，不对民众负责而是以</h2>
+
+<p>数字为政绩衡量标准的弊端，都是原因之一，根本上来说还是一个政治问题；<br />
+18年前是在一个阶段性的转型期面临政治和经济双重的迷惑，到了今天，起码在经济方面，政府已经没有迷惑了，至少15年来的经济政策是一脉相承的，尽管这样的经济政策带来的成果被指责为是“虚假繁荣”“外强中干”；而在政治层面，应该说18年前的迷惑依然存在，只是一来用遗忘对抗迷惑的手法越来越纯熟，大部分时候也就不觉得很重要；二来18年前的梦魇还在，和其他种种因素合起来造成的结果就是，有心主动做些调整，但往往挪动两步又退回两步，非不为也，是不能也；三来，对言论管制、审查和封杀的手法已经相当纯熟了，甚至可能已经产生了这样的新的疑惑——如果始终掌握了这样的技术和人才，18年前的事件还可能会重演吗？政治方面的自我突破还有必要吗？</p>
+
+<p>在另一方面则可以看到：<br />
+当年颇为激进的大学生，到今天几乎完全犬儒化了，主动回避政治、历史话题（不是那种“犯我强汉者，虽远必诛”之类的历史话题啦）和向往部分待遇优厚的公职是一体两面（后者算是正常的趋利，前者则是不正常的）。政治思想教育在大多数学生看来至少是可有可无的，但他们并没有自己的政治上的想法，当他们也面临处理政治问题的处境时，思维模式和逻辑还是逃不出政治思想教育的模式——即使是一些看似这种模式的反叛者，在其独立思考的结果和政治理想在现实面前被撞得粉碎的时候，其退缩的脚步一点也不比其他人小。<br />
+民众关注民生问题远超过关注民主问题的程度，应该说原因很复杂，也许18年来莫谈国事也未见得给城市居民少带来多少好处，以及学会了从短信、网络中的牢骚、嘲笑和自我嘲笑寻求到了安慰，还有物价飞涨、忙着买房都是原因之一。或许在继续一百步笑五十步地揶揄台湾式的民主同时，才发现从18年前的事件中学到最多的倒是适时的妥协、非暴力的对话比毫不退让的强硬冲突更可取，如果对话中能够绕过政治这个黑洞，自然是皆大欢喜，但会不会以后有一天无法绕过去，会演变成什么局面，好像并不值得操心。<br />
+18年前，和其他社会主义国家一样，下一步的政治方向似乎并不是个问题，大多数人在打开一扇关闭很久的窗户之后，眺望的方向基本是相同的，结果就像许多同向的分力合并在一起，狠狠的撞击在铁板上一样；而现在则同时存在着许多种思想，谁也不知道他们的合力指向何方，或者最终的目的地是确定的，而行走的路线蜿蜒崎岖。</p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzhehui-zhende-sile%2f&text= @calon %e8%bf%99%e5%9b%9e%e7%9c%9f%e7%9a%84%e6%ad%bb%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%bf%99%e5%9b%9e%e7%9c%9f%e7%9a%84%e6%ad%bb%e4%ba%86》&body=https%3a%2f%2fioerr.github.io%2fzhehui-zhende-sile%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f&text= @calon PX%20%e4%b8%8e6%c2%b74&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《PX%20%e4%b8%8e6%c2%b74》&body=https%3a%2f%2fioerr.github.io%2fpx-yu-64%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -178,98 +233,7 @@ Benzema
         
           <a href="https://ioerr.github.io//categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">#人生记录 </a>
         
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/milan-jibai-liverpool/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>23 May 2007, 21:44</time>
-      <h1>Milan 击败 Liverpool</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p>大概是我看过的最难看的一届冠军杯决赛了，比2003年的那一届0:0更加难看。倒不是因为场面沉闷，而是双方的失误多如牛毛。</p>
-
-<p>感觉 Milan 是想要放缓并控制节奏，但是经常出现原地拿球发呆，然后被
-Liverpool 球员从后面抢走的情况，Jankulovski
-失误最多，多次滑倒、被断球；而 Liverpool
-在进攻方面到了关键时候就人球分离，支离破碎，毫无气势可言。出现这种情况最有可能的就是体力不够，可是这两支队伍好像都花了不少时间调整状态和积蓄体力吧？</p>
-
-<p>在场面被动的情况下，Inzaghi
-的2个进球很关键。这位机灵的射手一直是欧洲赛场上最可怕的杀手之一，只要有他在场，对手就会担心随时遭到致命打击。今天的第1个进球是他用肩膀（从慢镜头回放来看其实是上臂啦）改变
-Pirlo
-任意球的方向射进的，虽然有运气成分在里面，但也是他积极抢点的回报；第2个进球之前，他浪费了几个好机会，不过一旦突破越位变成单刀，他难以控球摆脱后卫的弱点就不用计较了。</p>
-
-<p>Milan 的其他队员都没有良好的表现。<br />
-Dida 能够扑出 Gerrard 的射门更多是因为后者的意图明显，发力又不足；<br />
-Benitez 对 Kaka 的“照顾”还是基本成功的，Alonso
-对他的犯规和造越位的失误造成失球并不能够说明他的表现有多好，基本上是低于应有的水准的；<br />
-中场长时间失去控制力，Seedorf
-的表现尤其差劲，进攻中基本消失之外，拿球也屡屡被抢下；<br />
-虽然最后时刻才让对手得分，但后卫其实是有很多失误的，没有被早早扳平只是
-Liverpool 人的进攻做得太差了而已。</p>
-
-<p>Ancelotti
-的临场调度一如既往地看不出什么水平。状态调整不好本来就是失败，换人也没有解决问题的迹象。如果不是可能有进入加时赛的顾虑，前2次换人完全可以提前，如果真的被扳平，也许这就成了败笔。</p>
-
-<p>红军方面，Benitez 少见的没有进行果断的调整。<br />
-上半场一结束，我就在群里面问，要攻坚的话，会上 Crouch 吗？<br />
-米兰上半场1:0，状态又不好，下半场肯定会坚决防守反击，既然能够压制住对方状态不好的中场，这个时候就应该加强边路冲击，换下一个状态最差的中场，上
-Crouch 摆渡、会做给 Kuyt
-支援，或分球给边路插上，这样才能够打开局面，同时在定位球方面多了一个抢点的，他自己又能够以匪夷所思的扭曲体位射门，一举多得。<br />
-可是这个换人直到80分钟左右才来到，此后虽然追回1球，但时间已经不够了。</p>
-
-<p>站在全场的角度看，Liverpool
-和对方一样缺少足够的决心，边路进攻不够坚决，甚至连球也不想要的感觉，Finnan
-在前场一次配合中的发呆就是最佳例证，Kewell 上场之后基本消失，只有 Riise
-的几次射门还有点威胁。<br />
-Pennant 和 Zenden
-很卖力，但是他们不属于那种聪明的球员，多次机会都选择了最没有威胁的方案。<br />
-Gerrard 和 Alonso
-等人在防守经验丰富的对手面前想要在中路做文章基本是失败的，而且 Gerrard
-明显不在状态，抽射、头球、单刀都算是自己帮对手化解的。<br />
-于是大部分时间里，Liverpool
-虽然占有场面上的优势，但是在这种不是他们擅长的节奏和局面下，始终找不到进球的办法。1:2算是一个公平结果。</p>
-
-<p>在比分落后，局面无法打开，而且对手没有状态的情况下，Benitez
-没有选择拼刺刀的方案，没有吹响反击的号角，丢掉了 Liverpool
-最大的优势——气势，在一场连激烈都称不上（对比欧冠半决赛和足总杯决赛）的比赛中憋死，也就不奇怪了。</p>
-
-<p>最后总结一下，说得重一点，两队都是一副缺少体力、缺少状态、缺少士气、缺少欲望、缺少决心的疲沓样子，感觉就是两个快要到达终点的长跑选手抱在一起滚过线。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fmilan-jibai-liverpool%2f&text= @calon Milan%20%e5%87%bb%e8%b4%a5%20Liverpool&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Milan%20%e5%87%bb%e8%b4%a5%20Liverpool》&body=https%3a%2f%2fioerr.github.io%2fmilan-jibai-liverpool%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
-        
-          <a href="https://ioerr.github.io//categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">#纯粹体育 </a>
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
         
     
   </div>
@@ -282,47 +246,49 @@ Gerrard 和 Alonso
     <img src="/images/seperator.svg" />
   </div>
 
-  <a href="https://ioerr.github.io/feed-luanma/">
+  <a href="https://ioerr.github.io/zooomr-mark-iii/">
   <div class="post-title">
     <img src="/images/post-title-icon.svg" />
     <div class="post-meta">
-      <time>23 May 2007, 05:12</time>
-      <h1>Feed 乱码</h1>
+      <time>03 Jun 2007, 14:35</time>
+      <h1>Zooomr Mark III</h1>
     </div>
   </div>
 </a>
 
 <div class="post-toc">
   <span class="title">
-    Table of contents
+    <a href="mailto:calon.xu@gmail.com?subject=评论《Zooomr%20Mark%20III》&body=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
   </span>
-  
 </div>
 
 <section class="post-content">
-  <p>因为近期出现 feed 在 Google Reader 变成问号的问题（我用 Reader
-却一直没发现…所以说人品很重要的），所以怀疑是不是新增加的插件带来的问题。目前禁用了
-<a href="http://www.terenzani.it/29/editing-manager-plugin-wordpress">Editing
-Manager</a>
-看看效果，无论有没有修正错误，希望能够得到你们的反馈，谢谢。</p>
+  <p><a href="http://beta.zooomr.com/">Zooomr Mark III</a>
+在经过多次跳票之后终于上线了，其实问题还是不少的，比如还有中英文混杂的界面，上传图片后页面没有自动跳转，查看原图时提示“Sorry,
+this photo is currently
+unavailable”，某些尺寸规格的图片页面就是打不开，执行一次上传操作却上传了多次等等（不要再等等啦！这么多问题都让我遇上了，究竟是站点不稳定，还是我点背？
+:050: ），虽然没有任何限制比 Flickr
+的条件要好，但是衡量一个相册服务的水准可不仅仅在于这方面，所以 Zooomr
+还有很多要改进的地方，好好加油吧！</p>
 
-<p>禁用插件时手一抖，误点中禁用 <a href="http://www.deanlee.cn/wordpress/permalinks-migration-plugin/">Permalinks
-Migration</a>
-的链接，赶紧重新激活。不知道会不会造成又一波的 trackback 更新狂潮。</p>
+<p><a href="http://www.box.net/">Box.net</a>
+是什么时候增加邮件上传功能的提示信息的？今天在上传文件时发现多了一个提示：<br />
+<a href="http://www.zooomr.com/photos/35535@Z01/2404517/"><img src="http://static.zooomr.com/images/2404517_69afb2a262_m.jpg" alt="box" /></a><br />
+印象中这个功能应该早就有了吧…</p>
 
-<p>最后，把 <a href="http://txfx.net/code/wordpress/subscribe-to-comments/">Subscribe To
-Comments</a>
-的默认选项改为不订阅，因为我不知道 trackback
-大量更新会不会骚扰到订阅回复通知的读者，安全起见，今后还是默认关掉的好。</p>
+<p>有没有什么图片搜索引擎让我能够上传一张图片然后获知关于这张图片的背景信息？</p>
 
-<p>补充：表情功能好像失效了，正在查找原因、寻找替代的插件和调整页面，如果有可怕的事情发生，请勿惊恐。<br />
-:023:</p>
+<p>周六球赛没踢成，于是骑单车出去乱逛，可惜是阴晴不定的天气，光线不适合拍照。<br />
+<a href="http://www.flickr.com/photo.gne?id=526458051"><img src="http://static.flickr.com/1141/526458051_0d4a349dc2.jpg" alt="桥与船" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/calon/526352852/"><img src="http://static.flickr.com/208/526352852_0641a340bb.jpg" alt="小舟 (by
+calon)" /></a></p>
 
 </section>
 
 <div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2ffeed-luanma%2f&text= @calon Feed%20%e4%b9%b1%e7%a0%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《Feed%20%e4%b9%b1%e7%a0%81》&body=https%3a%2f%2fioerr.github.io%2ffeed-luanma%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f&text= @calon Zooomr%20Mark%20III&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《Zooomr%20Mark%20III》&body=https%3a%2f%2fioerr.github.io%2fzooomr-mark-iii%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
 </div>
 
 <div class="post-meta-code">
@@ -331,113 +297,135 @@ Comments</a>
       categories = 
       
         
-          <a href="https://ioerr.github.io//categories/wordpress">#WordPress </a>
-        
-    
-  </div>
-  <div class="desc">
-    
-  </div>
-</div>
-
-  <div class="seperator">
-    <img src="/images/seperator.svg" />
-  </div>
-
-  <a href="https://ioerr.github.io/duibi-diigo-he-linebuzz/">
-  <div class="post-title">
-    <img src="/images/post-title-icon.svg" />
-    <div class="post-meta">
-      <time>22 May 2007, 15:33</time>
-      <h1>对比 Diigo 和 Linebuzz</h1>
-    </div>
-  </div>
-</a>
-
-<div class="post-toc">
-  <span class="title">
-    Table of contents
-  </span>
-  
-</div>
-
-<section class="post-content">
-  <p><a href="http://www.hecaitou.net/">和菜头</a>大力推荐
-<a href="http://linebuzz.com/">Linebuzz</a>，因为这项服务允许网站访问者高亮页面上的一段话，并且针对这段话添加评论。</p>
-
-<p>对，我的第一反应就是：这和<a href="http://www.diigo.com/">第一狗</a>的书签服务不是很相近么？<br />
-但是转念一想，也许 Linebuzz
-的使用门槛更低，毕竟第一狗还需要安装<a href="http://www.diigo.com/tools/toolbar">工具栏</a>或者<a href="http://www.diigo.com/tools/diigolet">书签</a>。</p>
-
-<p>不过在<a href="http://www.hecaitou.net/?p=1567">和菜头的 blog
-页面</a>上尝试一下才发现，其实 Linebuzz
-的门槛也不见得比第一狗低多少。</p>
-
-<p>首先，Linebuzz 的评论要求填写验证码，而第一狗不需要；</p>
-
-<p>其次，Linebuzz
-仍然需要先注册一下，这和我先前以为的无需注册/登录就可以直接使用的想法差远了，而既然都要注册的话，那么顺手增加一个第一狗脚本书签也不是多麻烦的事情。</p>
-
-<p>另一方面，第一狗的功能则强过 Linebuzz 太多：</p>
-
-<p>首先它是个以书签为主的服务，所有被高亮和评论过的页面都被当作在线书签处理，管理更加方便，还有网页快照、标签、<a href="http://groups.diigo.com/">群组</a>、群组讨论、<a href="Blog%20This">快速发布
-blog</a>、收藏视频、转发邮件、<a href="http://about.diigo.com/">页面信息</a>、<a href="http://www.diigo.com/tools/import_all">导入</a><a href="http://www.diigo.com/tools/export">导出</a>、同时收藏到其他书签站点等众多功能；<br />
-<a href="http://www.yupoo.com/photos/view?id=ff808081129fa9e00112b4717ddf090f"><img src="http://photo6.yupoo.com/20070522/233935_1079502581_hpjhevai.jpg" alt="diigo\_2" /></a></p>
-
-<p>其次，添加了 Linebuzz
-脚本的页面载入速度非常慢，发布评论也要等很久，还常出现脚本失效需要重新载入的情况，这也和这个服务最近使用人数暴增有关系。第一狗的脚本书签也可能载入慢，但如果使用工具条的话，速度很快，可以显示该页面是否已经评论，而且就算第一次发布失败，还会不断尝试直到成功为止。</p>
-
-<p>第三，Linebuzz
-的页面效果是不可控的，如果评论过多，或者其他人的高亮遮挡了你的，你不喜欢它的高亮形式，载入速度太慢，影响选择文字，作为浏览者是很头痛的。而第一狗可以选择让其他人或者所有的高亮、评论隐身。</p>
-
-<p>第四，不是所有的页面都可以增加脚本代码，虽然这样的做法方便了浏览者，但也同时制约了
-Linebuzz
-的适用范围。而第一狗的工具栏和书签已经有多种主流浏览器的版本，包括
-Firefox、Opera、IE、Safari、Flock。</p>
-
-<p>第五，通过第一狗发布的评论可以通过
-<a href="http://www.diigo.com/tools/linkrolls">Linkrolls</a> 和 <a href="http://www.diigo.com/blog_this/daily_blog">Daily Blog
-Post</a> 自动展示、发布到自己的
-blog 上面。</p>
-
-<p>第六，要查看页面上的评论，还需要多点击一次，“Click for
-more&hellip;”，而第一狗的评论是直接展现的，没有多余操作。<br />
-<a href="http://www.yupoo.com/photos/view?id=ff808081129fa9e00112b4717b8f090e"><img src="http://photo8.yupoo.com/20070522/233934_218893867_atkqmary.jpg" alt="diigo\_1" /></a></p>
-
-<p>第七，Linebuzz
-提交评论之后需要重新刷新页面，而第一狗不重新载入就可以完成收藏、高亮、评论操作，无疑更加节约时间和流量，特别是图片和视频很多的页面。</p>
-
-<p>第八，目前还没有找到 Linebuzz
-提交评论之后进行修改、进行私有评论的功能，而第一狗一开始就具备此功能。</p>
-
-<p>第九，Linebuzz 的收藏没有 RSS Feed
-输出功能，而向主流书签站点看齐的第一狗在这方面做得很周到。</p>
-
-<p>第十，第一狗的开发人员是华人，如
-<a href="http://www.diigo.com/user/maggie_diigo">Maggie</a>，在它的<a href="http://forum.diigo.com/">论坛</a>中进行交流时比
-Linebuzz 更加方便。</p>
-
-<p><a href="http://www.webware.com/100">Webware
-100的投票活动</a>将在明天开始，我肯定会给第一狗投上一票。</p>
-
-<p>另：还记得那个<a href="http://www.youtube.com/watch?v=6gmP4nk0EOE">Web 2.0 &hellip; The Machine is Us/ing Us
-的视频</a>么？其中第一狗也作为代表性的
-Web 2.0服务露了一小脸。</p>
-
-</section>
-
-<div class="comment">
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fduibi-diigo-he-linebuzz%2f&text= @calon %e5%af%b9%e6%af%94%20Diigo%20%e5%92%8c%20Linebuzz&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%af%b9%e6%af%94%20Diigo%20%e5%92%8c%20Linebuzz》&body=https%3a%2f%2fioerr.github.io%2fduibi-diigo-he-linebuzz%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
-</div>
-
-<div class="post-meta-code">
-  <div class="desc">
-    
-      categories = 
-      
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
         
           <a href="https://ioerr.github.io//categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">#软硬挨踢 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/61/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>31 May 2007, 17:46</time>
+      <h1>6·1</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    <a href="mailto:calon.xu@gmail.com?subject=评论《6%c2%b71》&body=https%3a%2f%2fioerr.github.io%2f61%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+  </span>
+</div>
+
+<section class="post-content">
+  <p><blockquote>
+这也不能全怪国民素质如何，到底为何会变成这样还是有历史原因的，这种现象又不是中国传统。毕竟刚从种种文化劫难中走出来，几年前的文化积淀一时间全被破坏，恢复还是要很长时间的。
+</blockquote>
+大哥，这一招人家孔老夫子已经用老啦，对圣斗士使用重复的招数是无效的。</p>
+
+<p><blockquote>
+此次活动选择6月1日是有目的，与18年前6.4有一定的关系，现已发现一此（应该是&rdquo;些&rdquo;）敌对势力介入并提供资金。
+</blockquote>
+收了1亿元毒害人民，这才叫做货真价实的敌对势力吧？</p>
+
+<p>Ocean&rsquo;s Thirteen 呼之欲出，Al Pacino
+才是重点。不过老是这么出续集…最后变成108明星上梁山？<br />
+下面请欣赏由 George Clooney VIII 领衔主演的《Ocean&rsquo;s 512》！<br />
+每个明星亮相半分钟；<br />
+影片到此结束，谢谢观赏，再见！</p>
+
+<p><blockquote>
+学校和大部分单位告示员工：明天参加者开除。
+</blockquote>
+如果我是学校领导，第一反应可能也是劝阻学生参加吧，万一有什么意外，自己也是有责任的——虽说这种活动比南联盟大使馆事件期间打砸抢活动好多了，让学生参与维护自身权益的活动也比课堂上面道德教育、社会责任百遍有效多了。<br />
+第二反应是，学生不去没关系，学校领导、教授学者（还包括之前表过态的人大、政协代表？）倒应该参加。政府官员不把公民的利益当回事，为人师表者可不能够甩一甩衣袖当没看见，否则当你们指责新的一代缺少责任感、道德状况堪忧时，不应该感到脸红吗？当你们希望得到的不过是唯唯诺诺的应声虫时，又怎能期望他们在被动的道德和责任灌输中，在无风无骨无品无格的长辈言传身教下，培养出自由之精神，独立之人格？</p>
+
+<p><blockquote>
+这属于政治事件，凡是参与短信和邮件转发，论坛讨论和游行的都属于反动行为。
+</blockquote>
+我倒是希望这次能够演变成法律事件。<br />
+至于贴上&rdquo;政治事件&rdquo;的标签，归类为&rdquo;反动行为&rdquo;，还是那句话，大哥，这一招人家革命小将已经用老啦，太没有创意了。如果谁指责或反对这种违背人民意愿、损害人民利益和控制舆论的行为，就归为政治上的反动分子，那中国的反动分子真是不计其数了。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2f61%2f&text= @calon 6%c2%b71&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《6%c2%b71》&body=https%3a%2f%2fioerr.github.io%2f61%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">#百无禁忌 </a>
+        
+    
+  </div>
+  <div class="desc">
+    
+  </div>
+</div>
+
+  <div class="seperator">
+    <img src="/images/seperator.svg" />
+  </div>
+
+  <a href="https://ioerr.github.io/xinxiezi/">
+  <div class="post-title">
+    <img src="/images/post-title-icon.svg" />
+    <div class="post-meta">
+      <time>31 May 2007, 14:30</time>
+      <h1>新鞋子</h1>
+    </div>
+  </div>
+</a>
+
+<div class="post-toc">
+  <span class="title">
+    <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e9%9e%8b%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+  </span>
+</div>
+
+<section class="post-content">
+  <p>终于买了一双新鞋，由穿了一年的棕黄色系变成了蓝白色系，也是第一次穿帆布休闲鞋。</p>
+
+<p>话说现在要找一双便宜又耐穿，舒适又美观，风格低调的休闲鞋或运动鞋还真难，动不动就是大红色、金色、银色、淫光绿色的鬼画符图案，生怕别人不知道自己还在青春期一样。</p>
+
+<p>转了一圈发现比较符合我的审美观的还是 Adidas
+的设计，特别是灰色系的，低调内敛。可惜越是看得上眼的款式价格飙得越高。就好像逛家具城一样，好不容易在一堆浮华、恶俗的家具中找到一款符合自己口味的，价格一报出来就只好咂舌摇头转身走人…</p>
+
+<p>所以万般无奈之下只好选择从没穿过的硫化橡胶帆布鞋。</p>
+
+<p>另：今天 <a href="http://www.google.com/">Google</a>
+很热闹，等读者看到这篇文章的时候估计全都知道了而且早就腻味了，所以我就不说就不说就不说。</p>
+
+</section>
+
+<div class="comment">
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f&text= @calon %e6%96%b0%e9%9e%8b%e5%ad%90&tw_p=tweetbutton" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e9%9e%8b%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fxinxiezi%2f" onclick="window.open(this.href); return false;"><i class="fa  fa-envelope-o"></i></a>
+</div>
+
+<div class="post-meta-code">
+  <div class="desc">
+    
+      categories = 
+      
+        
+          <a href="https://ioerr.github.io//categories/%E5%A4%A7%E6%9D%82%E7%83%A9">#大杂烩 </a>
         
     
   </div>
@@ -458,7 +446,7 @@ Web 2.0服务露了一小脸。</p>
   </a>
   
 
-  PAGE 101 / 229
+  PAGE 101 / 230
 
   
   <a href="/page/102/" rel="next">
