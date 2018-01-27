@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firefox 1.0 增强版 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Firefox 1.0 增强版" />
+<meta property="og:description" content="Mozilla China 推出了 Firefox 1.0
+增强版，如某些人所愿，加入了一些常用的
+Extension，我还是比较喜欢自己摆弄，所以就没用这个增强版，不知道有没有预先更改一些设置以符合大部分用户的使用习惯。
+The 46 Best-ever Freeware
+Utilities
+列举了一些好用的免费软件，我试了试其中的 Xplorer2
+Lite、3D
+Traceroute 和 EditPad
+Lite。而在E步有
+Xplorer2 Pro v1.1.0.2
+汉化版下载。那里的
+Process Explorer 8.60
+汉化版也不错。
+NASA 弄的一个 World
+Wind 看上去很好玩的样子，可是
+1.2c
+版本就要259.2M…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/firefox-10-zengqiangban/" />
+
+
+
+<meta property="article:published_time" content="2004-12-21T15:24:13&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-12-21T15:24:13&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Firefox 1.0 增强版">
+<meta itemprop="description" content="Mozilla China 推出了 Firefox 1.0
+增强版，如某些人所愿，加入了一些常用的
+Extension，我还是比较喜欢自己摆弄，所以就没用这个增强版，不知道有没有预先更改一些设置以符合大部分用户的使用习惯。
+The 46 Best-ever Freeware
+Utilities
+列举了一些好用的免费软件，我试了试其中的 Xplorer2
+Lite、3D
+Traceroute 和 EditPad
+Lite。而在E步有
+Xplorer2 Pro v1.1.0.2
+汉化版下载。那里的
+Process Explorer 8.60
+汉化版也不错。
+NASA 弄的一个 World
+Wind 看上去很好玩的样子，可是
+1.2c
+版本就要259.2M…">
+
+
+<meta itemprop="datePublished" content="2004-12-21T15:24:13&#43;00:00" />
+<meta itemprop="dateModified" content="2004-12-21T15:24:13&#43;00:00" />
+<meta itemprop="wordCount" content="34">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Firefox 1.0 增强版"/>
+<meta name="twitter:description" content="Mozilla China 推出了 Firefox 1.0
+增强版，如某些人所愿，加入了一些常用的
+Extension，我还是比较喜欢自己摆弄，所以就没用这个增强版，不知道有没有预先更改一些设置以符合大部分用户的使用习惯。
+The 46 Best-ever Freeware
+Utilities
+列举了一些好用的免费软件，我试了试其中的 Xplorer2
+Lite、3D
+Traceroute 和 EditPad
+Lite。而在E步有
+Xplorer2 Pro v1.1.0.2
+汉化版下载。那里的
+Process Explorer 8.60
+汉化版也不错。
+NASA 弄的一个 World
+Wind 看上去很好玩的样子，可是
+1.2c
+版本就要259.2M…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-12-21 03:24">2004-12-21</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Firefox 1.0 增强版</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.mozilla.net.cn/">Mozilla China</a> 推出了 <a href="http://www.mozilla.net.cn/firefox/downloads/Firefox%20Setup%201.0.exe">Firefox 1.0<br />
+增强版</a>，如某些人所愿，加入了一些常用的<br />
+Extension，我还是比较喜欢自己摆弄，所以就没用这个增强版，不知道有没有预先更改一些设置以符合大部分用户的使用习惯。</p>
+
+<p><a href="http://www.techsupportalert.com/best_46_free_utilities.htm">The 46 Best-ever Freeware<br />
+Utilities</a><br />
+列举了一些好用的免费软件，我试了试其中的 <a href="ftp://ftp.sogang.ac.kr/pub/simtelnet/win95/filemngr/xplorer2_lite.zip">Xplorer2<br />
+Lite</a>、<a href="http://hlembke.fileburst.com/d3tr.exe">3D<br />
+Traceroute</a> 和 <a href="http://download.jgsoft.com/editpad/SetupEditPadLite.exe">EditPad<br />
+Lite</a>。而在<a href="http://www.donews.net/eb/">E步</a>有<br />
+<a href="http://www.donews.net/eb/archive/2004/12/20/208153.aspx">Xplorer2 Pro v1.1.0.2<br />
+汉化版</a><a href="http://down.crsky.com/crsky/xplorer2-v1.1h.rar">下载</a>。那里的<br />
+<a href="http://www20.fixdown.com/hh/HA-ProcessExplorer.rar">Process Explorer 8.60<br />
+汉化版</a>也不错。</p>
+
+<p><a href="http://www.nasa.gov/">NASA</a> 弄的一个 <a href="http://learn.arc.nasa.gov/worldwind/">World<br />
+Wind</a> 看上去很好玩的样子，可是<br />
+<a href="http://opensource.arc.nasa.gov:8888/archives/worldwind-1_2.zip">1.2c<br />
+版本</a>就要259.2M…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Firefox%201.0%20%e5%a2%9e%e5%bc%ba%e7%89%88》&body=https%3a%2f%2fioerr.github.io%2fposts%2ffirefox-10-zengqiangban%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ffirefox-10-zengqiangban%2f&text= @calon Firefox%201.0%20%e5%a2%9e%e5%bc%ba%e7%89%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

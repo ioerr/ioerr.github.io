@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>焰火 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%84%B0%E7%81%AB/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%84%B0%E7%81%AB/</link>
     <description>Recent content in 焰火 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%84%B0%E7%81%AB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2009 18:39:40 +0000</lastBuildDate>
     
-    <item>
-      <title>元宵赏烟花</title>
-      <link>https://ioerr.github.io/yuanxiao-shang-yanhua/</link>
-      <pubDate>Sat, 14 Feb 2009 18:39:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yuanxiao-shang-yanhua/</guid>
-      <description>&lt;p&gt;在元宵节央视大裤衩配楼着火的时候，我正在湘江边上欣赏另一出烟花表演。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%84%B0%E7%81%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>元宵赏烟花</title>
+        <link>https://ioerr.github.io/posts/yuanxiao-shang-yanhua/</link>
+        <pubDate>Sat, 14 Feb 2009 18:39:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yuanxiao-shang-yanhua/</guid>
+        <description>&lt;p&gt;在元宵节央视大裤衩配楼着火的时候，我正在湘江边上欣赏另一出烟花表演。&lt;br /&gt;
 州官放火，百姓点灯，真是其乐融融一派和谐啊。&lt;/p&gt;
 
 &lt;p&gt;江边的人群实在拥挤，沿江风光带的栏杆边上围了至少三层人，还不断有人下到江岸抢占有利位置。&lt;br /&gt;
@@ -51,15 +51,14 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/sets/72157613783847173&#34;&gt;更多照片&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>除夕焰火</title>
-      <link>https://ioerr.github.io/chuxi-yanhuo/</link>
-      <pubDate>Sat, 09 Feb 2008 16:10:36 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/chuxi-yanhuo/</guid>
-      <description>&lt;p&gt;除夕晚上跑出去练习拍摄焰火。周围的大型焰火不多，我又没有三角架，所以像打游击一般在小区走来走去，用2秒的曝光手持拍摄…&lt;/p&gt;
+      <item>
+        <title>除夕焰火</title>
+        <link>https://ioerr.github.io/posts/chuxi-yanhuo/</link>
+        <pubDate>Sat, 09 Feb 2008 16:10:36 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/chuxi-yanhuo/</guid>
+        <description>&lt;p&gt;除夕晚上跑出去练习拍摄焰火。周围的大型焰火不多，我又没有三角架，所以像打游击一般在小区走来走去，用2秒的曝光手持拍摄…&lt;/p&gt;
 
 &lt;p&gt;最开始是跑到天台上拍摄，结果发现爆炸点就在很近的同水平位置，还是前后夹击，加上无法拍摄到完整的焰火，为安全着想，没有呆多久就下来了。&lt;br /&gt;
 留下两张下半层后在窗户拍到的近距离焰火说明情况。&lt;br /&gt;
@@ -82,7 +81,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最后是黑暗中写字的游戏，但是人家只知道在空中乱舞，作为偷窥者我又不能指挥他们…&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/2249107480/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2389/2249107480_4b0daf6714.jpg&#34; alt=&#34;烟花&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>良民也当不下去了 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="良民也当不下去了" />
+<meta property="og:description" content="看到有人在 twitter
+上提起，才在豆瓣的首页发现还有这么一条通知：
+
+我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？
+点进去一看：
+
+
+依据国家相关法律、法规和政策规定，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000
+(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）
+
+要求组长提供的身份信息包括：真实姓名、住址、手机号
+然后去查阅一下隐私原则：
+
+不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。
+　只有两种情况例外：
+　1.
+你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。
+　2. 政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。
+　豆瓣将在网站大的更新或紧急意外出现时向你发出email.
+除此之外任何向你email的发送必须经过你明确的许可。
+
+那么我想问几个问题：
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000
+的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？
+2、这样的措施就能够使组长有效管理小组了吗？
+对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。
+既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。
+是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？
+如果你想成为豆瓣人肉搜索引擎小组组长，请和我联系，给我一些说得过去的理由就行。这不是一个多么牛的小组，但至少帮助过一些人。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/liangmin-ye-dangbuxiaqule/" />
+
+
+
+<meta property="article:published_time" content="2009-04-16T16:02:16&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-04-16T16:02:16&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="良民也当不下去了">
+<meta itemprop="description" content="看到有人在 twitter
+上提起，才在豆瓣的首页发现还有这么一条通知：
+
+我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？
+点进去一看：
+
+
+依据国家相关法律、法规和政策规定，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000
+(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）
+
+要求组长提供的身份信息包括：真实姓名、住址、手机号
+然后去查阅一下隐私原则：
+
+不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。
+　只有两种情况例外：
+　1.
+你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。
+　2. 政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。
+　豆瓣将在网站大的更新或紧急意外出现时向你发出email.
+除此之外任何向你email的发送必须经过你明确的许可。
+
+那么我想问几个问题：
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000
+的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？
+2、这样的措施就能够使组长有效管理小组了吗？
+对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。
+既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。
+是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？
+如果你想成为豆瓣人肉搜索引擎小组组长，请和我联系，给我一些说得过去的理由就行。这不是一个多么牛的小组，但至少帮助过一些人。">
+
+
+<meta itemprop="datePublished" content="2009-04-16T16:02:16&#43;00:00" />
+<meta itemprop="dateModified" content="2009-04-16T16:02:16&#43;00:00" />
+<meta itemprop="wordCount" content="25">
+
+
+
+<meta itemprop="keywords" content="人肉搜索引擎,小组,监管,豆瓣,隐私," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="良民也当不下去了"/>
+<meta name="twitter:description" content="看到有人在 twitter
+上提起，才在豆瓣的首页发现还有这么一条通知：
+
+我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？
+点进去一看：
+
+
+依据国家相关法律、法规和政策规定，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000
+(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）
+
+要求组长提供的身份信息包括：真实姓名、住址、手机号
+然后去查阅一下隐私原则：
+
+不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。
+　只有两种情况例外：
+　1.
+你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。
+　2. 政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。
+　豆瓣将在网站大的更新或紧急意外出现时向你发出email.
+除此之外任何向你email的发送必须经过你明确的许可。
+
+那么我想问几个问题：
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000
+的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？
+2、这样的措施就能够使组长有效管理小组了吗？
+对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。
+既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。
+是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？
+如果你想成为豆瓣人肉搜索引擎小组组长，请和我联系，给我一些说得过去的理由就行。这不是一个多么牛的小组，但至少帮助过一些人。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-04-16 04:02">2009-04-16</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>良民也当不下去了</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E">
+              <span class="hash">#</span>人肉搜索引擎</a>
+          
+            , 
+            <a href="/tags/%E5%B0%8F%E7%BB%84">
+              <span class="hash">#</span>小组</a>
+          
+            , 
+            <a href="/tags/%E7%9B%91%E7%AE%A1">
+              <span class="hash">#</span>监管</a>
+          
+            , 
+            <a href="/tags/%E8%B1%86%E7%93%A3">
+              <span class="hash">#</span>豆瓣</a>
+          
+            , 
+            <a href="/tags/%E9%9A%90%E7%A7%81">
+              <span class="hash">#</span>隐私</a>
+          
+        
+      </p>
+    </header>
+    <section><p>看到有人在 twitter<br />
+上提起，才在<a href="http://www.douban.com/">豆瓣的首页</a>发现还有这么一条通知：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-16-21-53-48.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-48.png" alt="Photobucket" /></a><br />
+我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？</p>
+
+<p>点进去一看：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-16-21-53-16.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-16.png" alt="Photobucket" /></a></p>
+
+<p><blockquote><br />
+<strong>依据国家相关法律、法规和政策规定</strong>，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000<br />
+(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）<br />
+</blockquote><br />
+要求组长提供的身份信息包括：真实姓名、住址、手机号</p>
+
+<p>然后去查阅一下<a href="http://www.douban.com/about?policy=privacy">隐私原则</a>：</p>
+
+<p><blockquote><br />
+不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。</p>
+
+<p>　　只有两种情况例外：</p>
+
+<p>　　1.<br />
+你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。</p>
+
+<p>　　2. <strong>政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。</strong></p>
+
+<p>　　豆瓣将在网站大的更新或紧急意外出现时向你发出email.<br />
+除此之外任何向你email的发送必须经过你明确的许可。<br />
+</blockquote><br />
+那么我想问几个问题：<br />
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000<br />
+的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？<br />
+2、这样的措施就能够使组长有效管理小组了吗？</p>
+
+<p>对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。<br />
+既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。</p>
+
+<p>是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？</p>
+
+<p>如果你想成为<a href="http://www.douban.com/group/72544/">豆瓣人肉搜索引擎小组</a>组长，请和我联系，给我一些说得过去的理由就行。这不是一个多么牛的小组，但至少帮助过一些人。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%89%af%e6%b0%91%e4%b9%9f%e5%bd%93%e4%b8%8d%e4%b8%8b%e5%8e%bb%e4%ba%86》&body=https%3a%2f%2fioerr.github.io%2fposts%2fliangmin-ye-dangbuxiaqule%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fliangmin-ye-dangbuxiaqule%2f&text= @calon %e8%89%af%e6%b0%91%e4%b9%9f%e5%bd%93%e4%b8%8d%e4%b8%8b%e5%8e%bb%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

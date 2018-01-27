@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记本 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
     <description>Recent content in 笔记本 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2010 15:04:43 +0000</lastBuildDate>
     
-    <item>
-      <title>纸质笔记本的好处</title>
-      <link>https://ioerr.github.io/zhizhi-bijiben-de-haochu/</link>
-      <pubDate>Tue, 17 Aug 2010 15:04:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhizhi-bijiben-de-haochu/</guid>
-      <description>&lt;p&gt;纸质笔记本有几个好处是现在的电子笔记本无法赶上的：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>纸质笔记本的好处</title>
+        <link>https://ioerr.github.io/posts/zhizhi-bijiben-de-haochu/</link>
+        <pubDate>Tue, 17 Aug 2010 15:04:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhizhi-bijiben-de-haochu/</guid>
+        <description>&lt;p&gt;纸质笔记本有几个好处是现在的电子笔记本无法赶上的：&lt;br /&gt;
 1、快速翻页浏览，电子设备虽然可以快速定位到任意一页，但是翻页时的显示还是慢了，查找直观的图形内容比不上纸质笔记本；&lt;br /&gt;
 2、立即分享，发邮件短信等等都不如直接撕一张纸给对方；&lt;br /&gt;
 3、不用担心没电，甚至水浸也还有救；&lt;br /&gt;
@@ -31,15 +31,14 @@
 
 &lt;p&gt;小偷光顾的时候，房门是反锁的，但警察说这样的锁几秒钟就可以打开，于是我家换了据说是最新的防盗门锁，警察叔叔又说了，这样的锁不错，小偷要打开得花一分钟左右…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>笔记本送修</title>
-      <link>https://ioerr.github.io/bijiben-songxiu/</link>
-      <pubDate>Thu, 26 Jun 2008 16:03:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/bijiben-songxiu/</guid>
-      <description>&lt;p&gt;手头的 &lt;a href=&#34;http://www.hp.com/&#34;&gt;HP&lt;/a&gt;
+      <item>
+        <title>笔记本送修</title>
+        <link>https://ioerr.github.io/posts/bijiben-songxiu/</link>
+        <pubDate>Thu, 26 Jun 2008 16:03:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/bijiben-songxiu/</guid>
+        <description>&lt;p&gt;手头的 &lt;a href=&#34;http://www.hp.com/&#34;&gt;HP&lt;/a&gt;&lt;br /&gt;
 笔记本频繁死机，于是昨天抽了个时间送修。从来没注意过保修期的我以为早就过了期限，结果维修人员一查机器序号，满室皆惊：“只有两天就过保了！&lt;strike&gt;老栓，就是运气了你！&lt;/strike&gt;”&lt;br /&gt;
 因为是临近下班才送过去的，实际上再过一天就是最后期限了…&lt;/p&gt;
 
@@ -54,7 +53,7 @@
 calontream)&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 为了保证公司机密资料的安全，先把笔记本硬盘卸了下来。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

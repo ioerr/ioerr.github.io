@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>信息 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BF%A1%E6%81%AF/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BF%A1%E6%81%AF/</link>
     <description>Recent content in 信息 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BF%A1%E6%81%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2015 14:55:10 +0000</lastBuildDate>
     
-    <item>
-      <title>互联网才刚刚开始</title>
-      <link>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</link>
-      <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</guid>
-      <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%BF%A1%E6%81%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>互联网才刚刚开始</title>
+        <link>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</link>
+        <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</guid>
+        <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
 
-&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P
+&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P&lt;br /&gt;
 资源、破坏内容分享体系导致有价值内容的消失，移动互联网瓦解有价值的信息生产能力，还是互联网加速遗忘的速度，我都不赞同。&lt;/p&gt;
 
 &lt;p&gt;资产阶级兴起冲击特权贵族社会地位，彻底改变社会关系和大众生活方式的时候，也被后者认为品位恶俗鄙陋，道德堕落不堪。&lt;br /&gt;
-单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。
+单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。&lt;br /&gt;
 哲学、科学、艺术都是有闲者的玩物，商人一开始只想拿来充数好混入上流社会，小资至今都还向往高大上的贵族式生活。&lt;br /&gt;
 但那是把集中优秀资源到金字塔顶的产物和全社会合作分工的产物作比较。在精英和特权阶级看不到的地方，价值和品位的提升其实远甚以往。&lt;/p&gt;
 
@@ -38,11 +38,11 @@
 &lt;p&gt;迅雷是在服务端集中了资源，但大部分的资源都是盗版，丢失云端海量文件的用户真的认为这些内容很重要吗？&lt;br /&gt;
 我不觉得，否则为什么用户只给迅雷付费，不为内容付费呢？&lt;br /&gt;
 而且已经在无数个本地保留的文件随时可以凭借传统的 P2P 网络复活。&lt;br /&gt;
-更不用说，没有作为流通渠道的 P2P
+更不用说，没有作为流通渠道的 P2P&lt;br /&gt;
 网络，与内容生产者何干？丝毫不影响重新创造更优质的内容。&lt;br /&gt;
 至于害怕政府审查的内容，有心防范的用户本就不会信任迅雷这种服务。&lt;/p&gt;
 
-&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook
+&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook&lt;br /&gt;
 和微信，正在全盛期的社交服务大有把整个互联网熟人关系纳入信息孤岛的趋势，有人甚至担心整个互联网被这些社交服务垄断。&lt;br /&gt;
 但我一点也不担心这会成真，因为互联网存在就说明信息的自由流动和开放的需求存在。&lt;/p&gt;
 
@@ -59,36 +59,33 @@
 庞贝被火山毁灭，亚历山大图书馆被人类毁灭，人类文明照样不断发展，到如今羊皮纸卷上的文字仅有考古的意义。&lt;br /&gt;
 互联网不过是信息交流和存储的工具之一，已经流到人类脑海中的信息和人类本身的行为才代表了文明。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>自由意志与主观客观的分界</title>
-      <link>https://ioerr.github.io/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</link>
-      <pubDate>Fri, 27 Feb 2015 04:52:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</guid>
-      <description>&lt;p&gt;自由意志与主观客观的分界&lt;/p&gt;
-
-&lt;p&gt;有关自由意志是否存在的讨论中，一种观点认为，自由意志与决定论可以兼容的自由意志纯粹是一种感觉，甚至是错觉。&lt;br /&gt;
+      <item>
+        <title>自由意志与主观客观的分界</title>
+        <link>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</link>
+        <pubDate>Fri, 27 Feb 2015 04:52:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</guid>
+        <description>&lt;p&gt;有关自由意志是否存在的讨论中，一种观点认为，自由意志与决定论可以兼容的自由意志纯粹是一种感觉，甚至是错觉。&lt;br /&gt;
 即使无法证明或证否自由意志是一种错觉，也可以通过假设该命题成立而与决定论兼容。&lt;/p&gt;
 
 &lt;p&gt;这种错觉从何而来呢？&lt;br /&gt;
 一种看法是，信息不足是自由意志错觉的源头。&lt;br /&gt;
-如 Aether
+如 Aether&lt;br /&gt;
 在《&lt;a href=&#34;http://aetherwu.com/wei-du-de-cuo-jue/&#34;&gt;有关自由的维度错觉，以及主观和客观问题&lt;/a&gt;》中说：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 &amp;gt; 在我们的世俗视角来看，我们生活于这个世界以内，我们的一切行为受制于这个时空和内在的规则，我们在从右（过去）到左（未来）的历程中，自由是存在的：对于信息不足不充分的我们来说。或者说，这种不充分的信息和时间箭头，支撑了我们对于自由的真实感受。然而这种感受在高维生物的角度来看则是不存在的。也就是说，自由是一种纯主观的感受。&lt;br /&gt;
 &amp;gt; 我们总是在强调人的主观能动性，只不过是因为主观所处的那个特殊的位置（就在现在的边缘差数毫秒到数百毫秒不等的位置），信息不足而导致的误解，这就是作为主观感受而存在的自由感。&lt;/p&gt;
 
-&lt;p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/blockquote&gt;&lt;br /&gt;
 这种差异也带来评价判断是“主观的”还是“客观的”的差异：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 &amp;gt; 信息上的充分导致客观，不够充分，就是所谓的主观。对于我们生活在这个时空的生物来说来说，我们的信息永远是相对不充分的。我们通常所说的客观，总是相对的客观。信息更充分一些，决策就相对更客观一些，信息越少，关键信息越不足，决策就相对更主观一些。&lt;br /&gt;
 &amp;gt; 主观和客观这两个概念并不是所谓的身心二元对立这个古老的哲学难题，而是说信息处理机所掌握的信息的充分必要程度。而从人脑这个信息处理机的角度而言，它的一切有关信息和决策都是主观的，尽管它可以通过科学的实证方法做到尽量客观。&lt;/p&gt;
 
-&lt;p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/blockquote&gt;&lt;br /&gt;
 要注意的是，这种说法不能理解为“信息、知识越多则越没有自由”。&lt;br /&gt;
 只能说，掌握信息更多的人会认为信息更少的人更不自由，他们自己面临的未知并不会变少。&lt;br /&gt;
 也许我们能够一眼看穿低维生物的整个世界，但我们同样也受缚于自身所处的高维度世界。&lt;/p&gt;
@@ -102,23 +99,22 @@
 
 &lt;p&gt;换个角度看，在资源有限的世界中，也就永远不会出现全知因而也是完全客观的生物。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>广告的未来</title>
-      <link>https://ioerr.github.io/guanggao-de-weilai/</link>
-      <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanggao-de-weilai/</guid>
-      <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
+      <item>
+        <title>广告的未来</title>
+        <link>https://ioerr.github.io/posts/guanggao-de-weilai/</link>
+        <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanggao-de-weilai/</guid>
+        <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
 挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。&lt;/p&gt;
 
 &lt;p&gt;二、让信息自由、流畅而有序流动的 IT 才是好 IT&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-Peter Diamond、Dale Mortensen 和 Christopher Pissarides
-因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+Peter Diamond、Dale Mortensen 和 Christopher Pissarides&lt;br /&gt;
+因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 挨踢技术存在的目标之一，不正是应该在实施层面解决这种因为信息交流成本造成的经济学问题么？&lt;/p&gt;
 
 &lt;p&gt;三、为什么会变成这样？&lt;/p&gt;
@@ -132,7 +128,7 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 “我对这个充满着拙劣的植入广告的世界绝望了！”&lt;br /&gt;
 “我日，下载软件一不小心点了流氓软件下载链接。”&lt;br /&gt;
 “我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”&lt;br /&gt;
-“我的 blog 评论都加上了 nofollow
+“我的 blog 评论都加上了 nofollow&lt;br /&gt;
 属性，你们这些垃圾留言者为什么还要瞎忙？”&lt;br /&gt;
 ……&lt;/p&gt;
 
@@ -147,10 +143,10 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？&lt;br /&gt;
 这是正常的吗？难道不能改变吗？&lt;/p&gt;
 
-&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords
+&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords&lt;br /&gt;
 等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。&lt;/p&gt;
 
-&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords
+&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords&lt;br /&gt;
 宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。&lt;/p&gt;
 
 &lt;p&gt;有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。&lt;/p&gt;
@@ -210,35 +206,34 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 
 &lt;p&gt;如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？&lt;/p&gt;
 
-&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon
+&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon&lt;br /&gt;
 或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>为什么IT人员站在人民的反面</title>
-      <link>https://ioerr.github.io/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</link>
-      <pubDate>Wed, 14 Apr 2010 09:46:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</guid>
-      <description>&lt;p&gt;禅叔前几天在 twitter
+      <item>
+        <title>为什么IT人员站在人民的反面</title>
+        <link>https://ioerr.github.io/posts/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</link>
+        <pubDate>Wed, 14 Apr 2010 09:46:58 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-it-renyuan-zhanzai-renmin-de-fanmian/</guid>
+        <description>&lt;p&gt;禅叔前几天在 twitter&lt;br /&gt;
 上回答别人的问题“为什么IT人员都站在人民的反面？”，他的&lt;a href=&#34;http://blog.kenengba.com/2010/04/10/745/&#34;&gt;回答&lt;/a&gt;是：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-认为IT从业者站在“人民”的反面，原因在于互联网改变了信息获取的方式，政府能控制传媒，但无法完全控制互联网信息的流动。IT从业者能更好地利用互联网各种工具来获取多维的信息，于是他们凭着自己的判断很有可能就站在了所谓的“人民”的反面，这里的“人民”只不过是信息渠道不够多的人而已。
-&lt;/blockquote&gt;
-当时总觉得这样的回答有不妥之处，今天再想想，可能是我觉得这样的认识未免把
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+认为IT从业者站在“人民”的反面，原因在于互联网改变了信息获取的方式，政府能控制传媒，但无法完全控制互联网信息的流动。IT从业者能更好地利用互联网各种工具来获取多维的信息，于是他们凭着自己的判断很有可能就站在了所谓的“人民”的反面，这里的“人民”只不过是信息渠道不够多的人而已。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
+当时总觉得这样的回答有不妥之处，今天再想想，可能是我觉得这样的认识未免把&lt;br /&gt;
 IT 从业者们的信息获取能力和判断能力抬得太高了。&lt;/p&gt;
 
 &lt;p&gt;混熟了互联网的人经常会有一种错觉，以为自己获得的信息总是最全面、最及时、最准确、最接近真相的，至少比那些不会熟练使用互联网的人强，而实际上可能并不是这么回事。也许在许多敏感问题上你得到的信息是超过那些“人民”，但要了解这个社会及其背后的暗流，这样的优势还不是决定性的。别人的关注点可能和你完全不一样，而他们得到的信息的价值可能比你以为的高得多。&lt;/p&gt;
 
 &lt;p&gt;获取信息也不表示就能够认识到信息所代表的含义，尤其是如果你没有亲身参与的经历，信息获取的多少和认识的程度没有同比例的关系。如果还加上自以为是的态度，那么，搞不好最后会发现站在自己对立面的远不止是“政府的支持派”。&lt;/p&gt;
 
-&lt;p&gt;最后，IT
-人员真的是都站在“人民”的反面吗？连这也可能是个伪问题，提问者也许只属于
+&lt;p&gt;最后，IT&lt;br /&gt;
+人员真的是都站在“人民”的反面吗？连这也可能是个伪问题，提问者也许只属于&lt;br /&gt;
 IT 人员中的“一小撮”。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

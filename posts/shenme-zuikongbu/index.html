@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>什么最恐怖 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="什么最恐怖" />
+<meta property="og:description" content="最恐怖小说和电影的内容不是异种怪兽，不是变态杀人，不是面对未知的危险求生不得求死不能。
+最恐怖的是，主人公是和你我一样的平凡人，他生活的社会就是和我们一样的社会，他遇到的事件是我们都可能遇到的日常事件，他的勇气和能力与我们是同一个量级，他的抗争和逃脱是我们能够达到的极限，而他无可避免的被伤害、被抹杀、被诋毁、被遗忘，无处逃避，没有希望，无法面对。
+最恐怖的是你明天就可能变成他，你知道这是事实，但没有勇气接受这种可能性。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shenme-zuikongbu/" />
+
+
+
+<meta property="article:published_time" content="2010-06-02T14:56:35&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-06-02T14:56:35&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="什么最恐怖">
+<meta itemprop="description" content="最恐怖小说和电影的内容不是异种怪兽，不是变态杀人，不是面对未知的危险求生不得求死不能。
+最恐怖的是，主人公是和你我一样的平凡人，他生活的社会就是和我们一样的社会，他遇到的事件是我们都可能遇到的日常事件，他的勇气和能力与我们是同一个量级，他的抗争和逃脱是我们能够达到的极限，而他无可避免的被伤害、被抹杀、被诋毁、被遗忘，无处逃避，没有希望，无法面对。
+最恐怖的是你明天就可能变成他，你知道这是事实，但没有勇气接受这种可能性。">
+
+
+<meta itemprop="datePublished" content="2010-06-02T14:56:35&#43;00:00" />
+<meta itemprop="dateModified" content="2010-06-02T14:56:35&#43;00:00" />
+<meta itemprop="wordCount" content="3">
+
+
+
+<meta itemprop="keywords" content="恐怖," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="什么最恐怖"/>
+<meta name="twitter:description" content="最恐怖小说和电影的内容不是异种怪兽，不是变态杀人，不是面对未知的危险求生不得求死不能。
+最恐怖的是，主人公是和你我一样的平凡人，他生活的社会就是和我们一样的社会，他遇到的事件是我们都可能遇到的日常事件，他的勇气和能力与我们是同一个量级，他的抗争和逃脱是我们能够达到的极限，而他无可避免的被伤害、被抹杀、被诋毁、被遗忘，无处逃避，没有希望，无法面对。
+最恐怖的是你明天就可能变成他，你知道这是事实，但没有勇气接受这种可能性。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2010-06-02 02:56">2010-06-02</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>什么最恐怖</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%81%90%E6%80%96">
+              <span class="hash">#</span>恐怖</a>
+          
+        
+      </p>
+    </header>
+    <section><p>最恐怖小说和电影的内容不是异种怪兽，不是变态杀人，不是面对未知的危险求生不得求死不能。</p>
+
+<p>最恐怖的是，主人公是和你我一样的平凡人，他生活的社会就是和我们一样的社会，他遇到的事件是我们都可能遇到的日常事件，他的勇气和能力与我们是同一个量级，他的抗争和逃脱是我们能够达到的极限，而他无可避免的被伤害、被抹杀、被诋毁、被遗忘，无处逃避，没有希望，无法面对。</p>
+
+<p>最恐怖的是你明天就可能变成他，你知道这是事实，但没有勇气接受这种可能性。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bb%80%e4%b9%88%e6%9c%80%e6%81%90%e6%80%96》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshenme-zuikongbu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshenme-zuikongbu%2f&text= @calon %e4%bb%80%e4%b9%88%e6%9c%80%e6%81%90%e6%80%96&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

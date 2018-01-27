@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>进度条 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/</link>
     <description>Recent content in 进度条 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Sep 2010 07:47:58 +0000</lastBuildDate>
     
-    <item>
-      <title>电梯的可用性</title>
-      <link>https://ioerr.github.io/dianti-de-keyongxing/</link>
-      <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianti-de-keyongxing/</guid>
-      <description>&lt;p&gt;Datou
+      <atom:link href="https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>电梯的可用性</title>
+        <link>https://ioerr.github.io/posts/dianti-de-keyongxing/</link>
+        <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dianti-de-keyongxing/</guid>
+        <description>&lt;p&gt;Datou&lt;br /&gt;
 在《&lt;a href=&#34;http://2simple.cn/2010/09/%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7%e9%97%ae%e9%a2%98.htm&#34;&gt;电梯的可用性问题&lt;/a&gt;》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，没去他想去的地方，他很茫然。”&lt;/p&gt;
 
 &lt;p&gt;类似这样的情形我也看到过多次，通常是使用者正在干其他事情（比如接电话）时发生的，他在那一刻想的不是要“去下面的楼层”，而是想“控制电梯下来”载人上去，如果不是正忙着其他事情，根本不会搞错。也许，这说明电梯的操作方法还是经过学习和适应养成的，到了非常时刻，便会败给最直接的下意识。&lt;/p&gt;
 
-&lt;p&gt;Datou
+&lt;p&gt;Datou&lt;br /&gt;
 提出了如何优化电梯可用性的问题，我的想法是，冗余的信息是扰乱用户的原因之一：&lt;br /&gt;
 用户关心的不是电梯在哪一层，也不必要计算出和他所在楼层的相对位置，他只需要关心电梯离自己有多远（其实关注的是电梯多久可以来到这一层，但是时间不好估计，除非电梯控制中心能够知道所有等待和使用电梯的人的目标楼层）。&lt;/p&gt;
 
@@ -48,7 +48,7 @@
 要么外观统一，进度格数量一致，这样进度格与楼层数就不是一一对应了；&lt;br /&gt;
 要么外观不统一，顶楼、底楼的进度条最长，中间楼层的进度条最短，但建设成本会提高。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

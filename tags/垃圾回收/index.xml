@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>垃圾回收 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</link>
     <description>Recent content in 垃圾回收 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2009 14:44:27 +0000</lastBuildDate>
     
-    <item>
-      <title>垃圾分类</title>
-      <link>https://ioerr.github.io/laji-fenlei/</link>
-      <pubDate>Sat, 21 Feb 2009 14:44:27 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/laji-fenlei/</guid>
-      <description>&lt;p&gt;好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>垃圾分类</title>
+        <link>https://ioerr.github.io/posts/laji-fenlei/</link>
+        <pubDate>Sat, 21 Feb 2009 14:44:27 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/laji-fenlei/</guid>
+        <description>&lt;p&gt;好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？&lt;/p&gt;
 
 &lt;p&gt;答案是：略知一二，不敢肯定。&lt;/p&gt;
 
 &lt;p&gt;于是回家上网查得&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E&#34;&gt;答案如下&lt;/a&gt;：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 可回收的资源垃圾：&lt;br /&gt;
 经过人类研究，可透过收集并经由回收工厂，透过技术处理成为纯净可再使用的资源，这些垃圾称为可回收的资源垃圾。细分类为：&lt;br /&gt;
 * 纸类，例如纸皮；&lt;br /&gt;
@@ -37,8 +37,8 @@
 * 动物粪便，转为燃料。&lt;/p&gt;
 
 &lt;p&gt;不可回收的垃圾：&lt;br /&gt;
-完全无法经由工厂的干净技术而产生纯净可再使用的垃圾，称为不可回收的垃圾。例如经垃圾车搅拌的混合物。
-&lt;/blockquote&gt;
+完全无法经由工厂的干净技术而产生纯净可再使用的垃圾，称为不可回收的垃圾。例如经垃圾车搅拌的混合物。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 但对不可回收垃圾的概念还是不够清楚，看来笨人要首先用枚举法剃掉可回收垃圾细分类之后才能确认？囧&lt;/p&gt;
 
 &lt;p&gt;其实两种分类也是不够的，&lt;a href=&#34;http://www.jbw.cn/news.jsp?NewsId=7071&#34;&gt;生活类垃圾最好分为四类&lt;/a&gt;分别处理：&lt;br /&gt;
@@ -57,7 +57,7 @@
 
 &lt;p&gt;要打破这个循环，还是得从宣传、教育、引导上入手。从&lt;a href=&#34;http://news.sohu.com/20071218/n254144053.shtml&#34;&gt;广州垃圾分类的问题分析&lt;/a&gt;来看，建立垃圾分类回收利用体系、处理设施是政府完全可以操作的事情，提高回收效益虽然短期内无法实现，但还可以动用国家补贴，但广大市民没有了解垃圾分类回收的好处和意义，没有被引导和推动，没有配合从源头将垃圾分类做好，就只能永远耗费国家的补贴，建立的体系和设施也便无法发挥应有的作用了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

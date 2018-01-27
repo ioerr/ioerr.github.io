@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>加油站 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/</link>
     <description>Recent content in 加油站 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2008 17:02:40 +0000</lastBuildDate>
     
-    <item>
-      <title>中国，加油</title>
-      <link>https://ioerr.github.io/zhongguo-jiayou/</link>
-      <pubDate>Sat, 24 May 2008 17:02:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongguo-jiayou/</guid>
-      <description>&lt;p&gt;因为不开车，所以对汽油柴油供应没什么感觉，据说一直价格飞涨供应紧张？反正天天晚上都可以在附近的加油站看到排队加油的车辆：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>中国，加油</title>
+        <link>https://ioerr.github.io/posts/zhongguo-jiayou/</link>
+        <pubDate>Sat, 24 May 2008 17:02:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongguo-jiayou/</guid>
+        <description>&lt;p&gt;因为不开车，所以对汽油柴油供应没什么感觉，据说一直价格飞涨供应紧张？反正天天晚上都可以在附近的加油站看到排队加油的车辆：&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/2517923521/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3121/2517923521_38d2a1cbf6.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 下班回家出去吃饭的时候顺便就照了几张，前几天看到的队伍更加壮观。&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 EchoPic&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 “中国！加油！”&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

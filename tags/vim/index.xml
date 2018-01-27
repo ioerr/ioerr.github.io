@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on 读写错误</title>
-    <link>https://ioerr.github.io/tags/vim/index.xml</link>
+    <link>https://ioerr.github.io/tags/vim/</link>
     <description>Recent content in Vim on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2010 15:54:54 +0000</lastBuildDate>
     
-    <item>
-      <title>Vim 中文语法文件</title>
-      <link>https://ioerr.github.io/vim-zhongwen-yufa-wenjian/</link>
-      <pubDate>Sun, 12 Dec 2010 15:54:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/vim-zhongwen-yufa-wenjian/</guid>
-      <description>&lt;p&gt;时常用 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
+      <atom:link href="https://ioerr.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Vim 中文语法文件</title>
+        <link>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</link>
+        <pubDate>Sun, 12 Dec 2010 15:54:54 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</guid>
+        <description>&lt;p&gt;时常用 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。&lt;/p&gt;
 
-&lt;p&gt;去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1532&#34;&gt;txt.vim&lt;/a&gt;
+&lt;p&gt;去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的&lt;br /&gt;
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1532&#34;&gt;txt.vim&lt;/a&gt;&lt;br /&gt;
 比较接近要求，最大的不足是不支持中文标点符号。&lt;/p&gt;
 
-&lt;p&gt;于是一边看语法文件帮助文档，一边在 Tomasz
+&lt;p&gt;于是一边看语法文件帮助文档，一边在 Tomasz&lt;br /&gt;
 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。&lt;/p&gt;
 
 &lt;p&gt;预览效果如下：&lt;br /&gt;
@@ -35,27 +35,26 @@ preview&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;语法文件在&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=3365&#34;&gt;官方脚本页面&lt;/a&gt;下载：&lt;br /&gt;
 &lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=3365&#34;&gt;http://www.vim.org/scripts/script.php?script_id=3365&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
+&lt;p&gt;下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt&lt;br /&gt;
 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。&lt;/p&gt;
 
 &lt;p&gt;如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。&lt;br /&gt;
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so&lt;br /&gt;
 \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。&lt;/p&gt;
 
-&lt;p&gt;我的主题配色是按自己需要修改后的 ir_black，原版请自行
+&lt;p&gt;我的主题配色是按自己需要修改后的 ir_black，原版请自行&lt;br /&gt;
 google，我的修改版本可以&lt;a href=&#34;http://www.box.net/shared/g6h9lsv0dz&#34;&gt;到这里下载&lt;/a&gt;。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Vim 速查手册</title>
-      <link>https://ioerr.github.io/vim-sucha-shouce/</link>
-      <pubDate>Sat, 23 Oct 2010 17:49:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/vim-sucha-shouce/</guid>
-      <description>&lt;p&gt;之前用 Excel 写了个 &lt;a href=&#34;http://calon.weblogs.us/vim/&#34;&gt;Vim
-在线速查手册&lt;/a&gt;并上传到 Google Docs
-维护，因为 Google Docs 不方便打开，以及用 Excel
+      <item>
+        <title>Vim 速查手册</title>
+        <link>https://ioerr.github.io/posts/vim-sucha-shouce/</link>
+        <pubDate>Sat, 23 Oct 2010 17:49:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/vim-sucha-shouce/</guid>
+        <description>&lt;p&gt;之前用 Excel 写了个 &lt;a href=&#34;http://calon.weblogs.us/vim/&#34;&gt;Vim&lt;br /&gt;
+在线速查手册&lt;/a&gt;并上传到 Google Docs&lt;br /&gt;
+维护，因为 Google Docs 不方便打开，以及用 Excel&lt;br /&gt;
 表格会让人不由自主的追求收集整理大而全的资料，于是打算换用心智图形式重新制作，结构清晰一点，内容精简一点，风格清新一点，社会和谐一点。&lt;br /&gt;
 大纲视图截图如下：&lt;/p&gt;
 
@@ -64,45 +63,44 @@ google，我的修改版本可以&lt;a href=&#34;http://www.box.net/shared/g6h9l
 &lt;p&gt;下载地址：&lt;br /&gt;
 &lt;a href=&#34;http://www.box.net/shared/spl19q0qmy&#34;&gt;Vim.mm&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.box.net/shared/5dg5im2zso&#34;&gt;Vim.boo&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://i111.photobucket.com/albums/n154/calon_plus/Vim.png&#34;&gt;全图（PNG
+&lt;a href=&#34;http://i111.photobucket.com/albums/n154/calon_plus/Vim.png&#34;&gt;全图（PNG&lt;br /&gt;
 格式）&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;说明：&lt;br /&gt;
-1、适合的用户：已经入门但还无法熟练使用一些常用操作和命令，即刚刚摸到一点门道但还处在学习曲线最陡峭那一段的用户，向前一步，也许就进入不断自我学习的良性循环，退后一步，也许就不再敢尝试，从此与
+1、适合的用户：已经入门但还无法熟练使用一些常用操作和命令，即刚刚摸到一点门道但还处在学习曲线最陡峭那一段的用户，向前一步，也许就进入不断自我学习的良性循环，退后一步，也许就不再敢尝试，从此与&lt;br /&gt;
 Vim 无缘了；&lt;br /&gt;
 2、没有完全参照官方的功能主题分类，尽量按日常编辑应用场景制作分类目录；&lt;br /&gt;
-3、我主要将 Vim
+3、我主要将 Vim&lt;br /&gt;
 当作文本编辑器而不是开发工具，因此不求全面收录所有功能点。内容太多太杂只会降低检索效率，所以函数定义、脚本编写、编译调试、调用外部编程语言、调用操作系统命令等等可能展开太多或者与日常文本编辑关系不大的内容就没有放进来；&lt;br /&gt;
 4、各类主题也没有全部展开，道理同上。尽量给主题大类配上了相应的英文说明，如有更复杂的需求，可使用帮助文档按图索骥深入学习——但不是所有英文说明可以用做帮助文档检索的关键字；&lt;br /&gt;
 5、复杂而微妙的功能与概念，如全局、替换等命令，如可视模式，如模式的概念，参考帮助文档给出的是比较抽象的说明，运用之妙存乎一心，需要自己结合高手们的技巧实例达到熟练使用的境界；&lt;br /&gt;
 6、技巧和正则表达式的节点有急剧膨胀的危险，读者可以分别找官方站点和专著研究，这里拟采用链接外部文件的方式，分开展示；&lt;br /&gt;
 7、插件、配色方案和配置文件都是因人而异的东西，多说无益，自己用着好才是真的好；&lt;br /&gt;
-8、用 &lt;a href=&#34;http://freeplane.sourceforge.net/&#34;&gt;FreePlane&lt;/a&gt; 编辑，保存为
-&lt;a href=&#34;http://freemind.sourceforge.net/&#34;&gt;Freemind&lt;/a&gt; 的 mm
-格式，检索、编辑、展示、导出都非常方便，还有
-&lt;a href=&#34;http://www.boogu.me/index_zh.htm&#34;&gt;BooguNote&lt;/a&gt; 的 boo
+8、用 &lt;a href=&#34;http://freeplane.sourceforge.net/&#34;&gt;FreePlane&lt;/a&gt; 编辑，保存为&lt;br /&gt;
+&lt;a href=&#34;http://freemind.sourceforge.net/&#34;&gt;Freemind&lt;/a&gt; 的 mm&lt;br /&gt;
+格式，检索、编辑、展示、导出都非常方便，还有&lt;br /&gt;
+&lt;a href=&#34;http://www.boogu.me/index_zh.htm&#34;&gt;BooguNote&lt;/a&gt; 的 boo&lt;br /&gt;
 格式，更利于用纯文本工具查询；&lt;br /&gt;
 9、同类性质可举一反三的操作和命令，没有并列列出，而是作为父子节点出现，可减少人肉扫描的工作量；&lt;br /&gt;
-10、建议使用雅黑等宽字体，安装
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;fencview&lt;/a&gt;
+10、建议使用雅黑等宽字体，安装&lt;br /&gt;
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;fencview&lt;/a&gt;&lt;br /&gt;
 插件，不再被字体难看和中文乱码问题困扰，学习效率也会高很多；&lt;br /&gt;
 11、官方的帮助文档、教程是最好的资源，有英文基础的用户可以去官方网站看&lt;a href=&#34;http://vim.wikia.com/wiki/Vim_Tips_Wiki&#34;&gt;技巧&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/index.php&#34;&gt;插件脚本&lt;/a&gt;等内容，每天都会有惊喜；&lt;br /&gt;
-12、&lt;a href=&#34;http://hotoo.github.com/index.html&#34;&gt;闲耘的站点&lt;/a&gt;上收集的 &lt;a href=&#34;http://hotoo.github.com/vimwiki/Vim.html&#34;&gt;Vim
+12、&lt;a href=&#34;http://hotoo.github.com/index.html&#34;&gt;闲耘的站点&lt;/a&gt;上收集的 &lt;a href=&#34;http://hotoo.github.com/vimwiki/Vim.html&#34;&gt;Vim&lt;br /&gt;
 相关资料&lt;/a&gt;较全，可顺藤摸瓜撒网捕鱼。&lt;br /&gt;
 13、不要恐慌！&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Vim</title>
-      <link>https://ioerr.github.io/vim/</link>
-      <pubDate>Tue, 08 Sep 2009 16:12:19 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/vim/</guid>
-      <description>
+      <item>
+        <title>Vim</title>
+        <link>https://ioerr.github.io/posts/vim/</link>
+        <pubDate>Tue, 08 Sep 2009 16:12:19 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/vim/</guid>
+        <description>
 
 &lt;p&gt;最近又重新开始捣鼓 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;。&lt;br /&gt;
-虽说基本不用写程序或者脚本，只是码码字，对 Vim
+虽说基本不用写程序或者脚本，只是码码字，对 Vim&lt;br /&gt;
 的需求没这么高，但作为纯文本党人既然喜欢收集纯文本编辑器玩，没道理不把这个工具用好。&lt;/p&gt;
 
 &lt;p&gt;为了方便自己查阅 Vim&lt;/p&gt;
@@ -111,18 +109,18 @@ Vim 无缘了；&lt;br /&gt;
 
 &lt;p&gt;博大精深，所以还有很多内容待补充，不过最后我会制作一个重新整理的电子表格文档出来，把最常用最适合新手入门的内容和高级内容分开的。&lt;/p&gt;
 
-&lt;p&gt;装了
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=453&#34;&gt;HTML&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;FencView&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=42&#34;&gt;Buffer
-Explorer&lt;/a&gt;
-等几个插件，小小的修改了
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1492&#34;&gt;Pyte&lt;/a&gt;
+&lt;p&gt;装了&lt;br /&gt;
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=453&#34;&gt;HTML&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;FencView&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=42&#34;&gt;Buffer&lt;br /&gt;
+Explorer&lt;/a&gt;&lt;br /&gt;
+等几个插件，小小的修改了&lt;br /&gt;
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1492&#34;&gt;Pyte&lt;/a&gt;&lt;br /&gt;
 配色方案，调教了一下配置文件，基本解决显示中文的问题后，就可以慢慢玩了。&lt;/p&gt;
 
-&lt;p&gt;除了 Vim
+&lt;p&gt;除了 Vim&lt;br /&gt;
 官方相关的文档、插件、配色方案、技巧外，顺藤摸瓜找到的资源还有：&lt;br /&gt;
 基础教程：&lt;a href=&#34;http://www.study-area.org/tips/vim/&#34;&gt;大家來學VIM（一個歷久彌新的編輯器）&lt;/a&gt;&lt;br /&gt;
 输入法：&lt;a href=&#34;http://maxiangjiang.googlepages.com/vimim.html&#34;&gt;VimIM&lt;/a&gt;&lt;br /&gt;
-配色方案预览工具：&lt;a href=&#34;http://vimcolorschemetest.googlecode.com/svn/html/index-html.html&#34;&gt;VIM Color Scheme
+配色方案预览工具：&lt;a href=&#34;http://vimcolorschemetest.googlecode.com/svn/html/index-html.html&#34;&gt;VIM Color Scheme&lt;br /&gt;
 Test&lt;/a&gt;&lt;br /&gt;
 Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;&gt;Vimperator&lt;/a&gt;&lt;/p&gt;
 
@@ -136,15 +134,14 @@ Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;
 窗口总在最前；&lt;br /&gt;
 把标签页模式整得更加顺手，同时限制只有一个实例。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>推荐免费的文本编辑工具</title>
-      <link>https://ioerr.github.io/tuijian-mianfeide-wenben-bianjigongju/</link>
-      <pubDate>Tue, 29 Nov 2005 16:25:50 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tuijian-mianfeide-wenben-bianjigongju/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.devzoo.com/&#34;&gt;DevZoo&lt;/a&gt; 列出了一个 Windows
+      <item>
+        <title>推荐免费的文本编辑工具</title>
+        <link>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</link>
+        <pubDate>Tue, 29 Nov 2005 16:25:50 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.devzoo.com/&#34;&gt;DevZoo&lt;/a&gt; 列出了一个 Windows&lt;br /&gt;
 下免费文本编辑软件的&lt;a href=&#34;http://www.devzoo.com/index.php?tooltype=WindowsEditor&#34;&gt;清单&lt;/a&gt;，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.fixedsys.com/context/&#34;&gt;ConTEXT&lt;/a&gt;&lt;br /&gt;
@@ -152,72 +149,72 @@ Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;
 
 &lt;p&gt;&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;&lt;br /&gt;
 现在我使用的就是 &lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;，所以介绍得详细一点：&lt;br /&gt;
-安装之前需要修改 install.bat 文件，将 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的安装路径按照实际情况进行更改，然后在原 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中
-[DIR] 为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
+安装之前需要修改 install.bat 文件，将 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
+的安装路径按照实际情况进行更改，然后在原 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
+的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中&lt;br /&gt;
+[DIR] 为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
 的安装目录。其他的许多设置启动后在菜单中就可以设置了。&lt;br /&gt;
-如果不习惯没有 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc
-文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去
+如果不习惯没有 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
+的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc&lt;br /&gt;
+文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去&lt;br /&gt;
 &lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 所在的目录中摸索各个 vim 文件吧。&lt;/p&gt;
 
-&lt;p&gt;它对原来 &lt;a href=&#34;http://www.vim.org/&#34;&gt;gVim&lt;/a&gt;
-的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的
+&lt;p&gt;它对原来 &lt;a href=&#34;http://www.vim.org/&#34;&gt;gVim&lt;/a&gt;&lt;br /&gt;
+的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的&lt;br /&gt;
 Windows 编辑软件，实乃我等菜鸟之福音。&lt;/p&gt;
 
-&lt;p&gt;值得注意的是，由于使用了不少的脚本来改进界面、增加功能，&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;
-占用的系统资源要远远超过 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;，因此除了担心使用
-&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 会影响深入学习 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
+&lt;p&gt;值得注意的是，由于使用了不少的脚本来改进界面、增加功能，&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;&lt;br /&gt;
+占用的系统资源要远远超过 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;，因此除了担心使用&lt;br /&gt;
+&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 会影响深入学习 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
 的人之外，优先节约系统资源的人也有理由放弃这个工具。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.crimsoneditor.com/&#34;&gt;Crimson Editor&lt;/a&gt;&lt;br /&gt;
-以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和
+以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和&lt;br /&gt;
 EmEditor 这样的付费软件作比较，未免有些不公平。&lt;br /&gt;
 除此之外，这款软件没有多少可以批评的地方了…嗯…好吧…其实…我想说，那个狗头的图标未免太丑陋了一点…&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;/&lt;a href=&#34;http://www.xemacs.org/&#34;&gt;XEmacs&lt;/a&gt;&lt;br /&gt;
-和 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vi/Vim&lt;/a&gt; 齐名的软件，但可耻的是我首先被
+和 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vi/Vim&lt;/a&gt; 齐名的软件，但可耻的是我首先被&lt;br /&gt;
 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt; 拉拢了…:P&lt;br /&gt;
 这类软件的阴险之处在于，由于功能异常强大，内涵异常丰富，要摸清楚它的底细简直是不可能的，因此，一般只会有人夸它的好，没人敢说它的坏话。如果你对它的第一印象很好，那么尽管放心大胆地深入学习，保证不会让你失望，它们绝不只是一个文本编辑工具这么简单，而如果是相反的情况，那么还是早早收手换一个工具的好，否则它会不断地打击你的信心。&lt;/p&gt;
 
-&lt;p&gt;经常有人争论
-&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt; 和
-&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
+&lt;p&gt;经常有人争论&lt;br /&gt;
+&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt; 和&lt;br /&gt;
+&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
 哪个更好，结论往往是适合自己的才是最好的。作为一个注重人机界面的用户，我觉得还是只向经常编辑代码的人推荐比较好…&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vi/Vim/gVim&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 只是个外壳，它才是灵魂。&lt;br /&gt;
-喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的
-Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed
-MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然
+喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的&lt;br /&gt;
+Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed&lt;br /&gt;
+MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然&lt;br /&gt;
 GUI 经过了改进，但如果要我选择学习曲线最陡的流行软件，估计就是它了 :P&lt;br /&gt;
-当然，一款人机界面如此之差以至于不但有 GUI
-改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim
-isn&amp;rsquo;t an editor designed to hold its users&amp;rsquo; hands. It is a tool, the use
-of which must be
+当然，一款人机界面如此之差以至于不但有 GUI&lt;br /&gt;
+改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim&lt;br /&gt;
+isn&amp;rsquo;t an editor designed to hold its users&amp;rsquo; hands. It is a tool, the use&lt;br /&gt;
+of which must be&lt;br /&gt;
 learned.”你越是深入学习它，就会越觉得它的功能强大，最后觉得其他工具都不称手。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jedit.org/&#34;&gt;jEdit&lt;/a&gt;&lt;br /&gt;
-最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java
-有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java
-做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载
+最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java&lt;br /&gt;
+有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java&lt;br /&gt;
+做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载&lt;br /&gt;
 Java，我一定会把它作为首选的文本编辑工具。&lt;/p&gt;
 
-&lt;p&gt;最近有许多人收藏了 &lt;a href=&#34;http://ifakedit.com/&#34;&gt;Jesse Crouch&lt;/a&gt;
-的&lt;a href=&#34;http://ifakedit.com/log/other/apps/&#34;&gt;一篇文章&lt;/a&gt;，其中就强烈推荐
+&lt;p&gt;最近有许多人收藏了 &lt;a href=&#34;http://ifakedit.com/&#34;&gt;Jesse Crouch&lt;/a&gt;&lt;br /&gt;
+的&lt;a href=&#34;http://ifakedit.com/log/other/apps/&#34;&gt;一篇文章&lt;/a&gt;，其中就强烈推荐&lt;br /&gt;
 &lt;a href=&#34;http://jedit.org/&#34;&gt;jEdit&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~lcc-win32/&#34;&gt;LCC&lt;/a&gt;&lt;br /&gt;
 这个，把它卸载了之后，我已经忘记它有什么特性了…可能稍后再补上吧，如果没补上也不要怪我，反正不在推荐之列。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://notepad-plus.sourceforge.net/&#34;&gt;Notepad++&lt;/a&gt;&lt;br /&gt;
-&lt;strike&gt;平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且
-language 菜单太长、plugins
+&lt;strike&gt;平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且&lt;br /&gt;
+language 菜单太长、plugins&lt;br /&gt;
 菜单组织得很差劲…总体处于比上不足比下有余的位置。&lt;br /&gt;
-另外，我宁愿选择 &lt;a href=&#34;http://www.crimsoneditor.com/&#34;&gt;Crimson Editor&lt;/a&gt;
+另外，我宁愿选择 &lt;a href=&#34;http://www.crimsoneditor.com/&#34;&gt;Crimson Editor&lt;/a&gt;&lt;br /&gt;
 的狗头也不愿意面对 NPP 的避役…&lt;/strike&gt;&lt;br /&gt;
-新版本的 NPP
+新版本的 NPP&lt;br /&gt;
 终于把原来丑陋的图标改掉了，而且更加适合中级以上的用户自己配置使用。在功能方面，它已经非常强大，推荐经常编辑代码或网页的人使用。&lt;br /&gt;
 不过对我来说，它还有一些小问题：&lt;br /&gt;
 函数补全的快捷键是 Ctrl+Space，与输入法快捷键相冲突，又不能自己修改；&lt;br /&gt;
@@ -225,12 +222,12 @@ language 菜单太长、plugins
 列块模式的用法很奇怪；&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;&lt;br /&gt;
-如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯
+如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯&lt;br /&gt;
 &lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;/&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;，那么它成为首选是没问题的。&lt;br /&gt;
-就固有功能来说，与 NPP
+就固有功能来说，与 NPP&lt;br /&gt;
 各有千秋；它的扩展基本都是脚本形式，且支持多种脚本语言，方便自己修改。&lt;br /&gt;
-现在唯一让我不爽的就是，不能够使用非等宽字体！于是
-Georgia、Palatino、Times New Roman
+现在唯一让我不爽的就是，不能够使用非等宽字体！于是&lt;br /&gt;
+Georgia、Palatino、Times New Roman&lt;br /&gt;
 等美观字体就只能呆在一边了，中文字体也不堪入目。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.scintilla.org/SciTE.html&#34;&gt;SciTE&lt;/a&gt;&lt;br /&gt;
@@ -241,25 +238,25 @@ Georgia、Palatino、Times New Roman
 界面朴素，但是功能不弱，16进制和列块模式可以替代 UE。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;&lt;br /&gt;
-最后说一说为什么我总是对 &lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;
+最后说一说为什么我总是对 &lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;&lt;br /&gt;
 这个收费软件念念不忘，原因是它的一些优点其他软件都没有能够做到：&lt;br /&gt;
-首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的
+首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的&lt;br /&gt;
 Windows 窗口没什么不同，整体的感觉却不在一个档次上。&lt;br /&gt;
-其次是丰富的自定义设置，其中最方便的又属设置第 n
+其次是丰富的自定义设置，其中最方便的又属设置第 n&lt;br /&gt;
 次搜索时搜索结果的高亮字体，如第一次的搜索结果在全文范围内用绿色背景表示，第二次搜索之后就变成明黄色背景，这样多次搜索之后每次的搜索结果都能够一目了然。&lt;br /&gt;
-第三是和 Windows
-系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如
-&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
+第三是和 Windows&lt;br /&gt;
+系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如&lt;br /&gt;
+&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
 也未做到最好。&lt;br /&gt;
-第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了
+第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了&lt;br /&gt;
 V5系列已经得到了解决。&lt;br /&gt;
-第五是常驻托盘的 EmEDTray
-有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的
+第五是常驻托盘的 EmEDTray&lt;br /&gt;
+有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的&lt;br /&gt;
 UE 虽然也有托盘图标，但仅仅是用来最大化最小化的。&lt;/p&gt;
 
 &lt;p&gt;随时更新的&lt;a href=&#34;http://calon.tiddlyspot.com/#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91&#34;&gt;文本编辑工具推荐列表&lt;/a&gt;。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

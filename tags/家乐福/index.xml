@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>家乐福 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%AE%B6%E4%B9%90%E7%A6%8F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%AE%B6%E4%B9%90%E7%A6%8F/</link>
     <description>Recent content in 家乐福 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%AE%B6%E4%B9%90%E7%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2008 15:22:28 +0000</lastBuildDate>
     
-    <item>
-      <title>家乐福</title>
-      <link>https://ioerr.github.io/carrefour/</link>
-      <pubDate>Tue, 29 Apr 2008 15:22:28 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/carrefour/</guid>
-      <description>&lt;p&gt;早上经过家乐福，远远就发现门口站着一堆人，还有警车在旁边维持秩序，以为爱国青年抵制家乐福的热情仍高烧不退呢。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%AE%B6%E4%B9%90%E7%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>家乐福</title>
+        <link>https://ioerr.github.io/posts/carrefour/</link>
+        <pubDate>Tue, 29 Apr 2008 15:22:28 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/carrefour/</guid>
+        <description>&lt;p&gt;早上经过家乐福，远远就发现门口站着一堆人，还有警车在旁边维持秩序，以为爱国青年抵制家乐福的热情仍高烧不退呢。&lt;br /&gt;
 走近一看，居然还秩序井然地在排队，敢情抗议也要用单任务轮询机制？&lt;br /&gt;
 再看才知道原来是几周之前百盛神秘地消失之后，国美接管了家乐福上层的百盛店铺，今天试营业限量大优惠，一大早开门之前，闻讯而来的消费者就蹲在外面摩拳擦掌准备领票入场了…&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;p&gt;原因只有一个：离家比较近。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

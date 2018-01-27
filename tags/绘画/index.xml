@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>绘画 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%BB%98%E7%94%BB/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%BB%98%E7%94%BB/</link>
     <description>Recent content in 绘画 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%BB%98%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2009 14:57:31 +0000</lastBuildDate>
     
-    <item>
-      <title>画出一首歌</title>
-      <link>https://ioerr.github.io/huachu-yishouge/</link>
-      <pubDate>Tue, 21 Apr 2009 14:57:31 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/huachu-yishouge/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%BB%98%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>画出一首歌</title>
+        <link>https://ioerr.github.io/posts/huachu-yishouge/</link>
+        <pubDate>Tue, 21 Apr 2009 14:57:31 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/huachu-yishouge/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt;&lt;br /&gt;
 可以让你发送匿名邮件，发件人的地址可以随便填写，支持中文。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.sendanonymousemail.net/&#34;&gt;Send Anonymous Email&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sendanonymousemail.net/&#34;&gt;Send Anonymous Email&lt;/a&gt;&lt;br /&gt;
 是另一个同类工具，区别主要在于需要填写验证码，但尝试给我的邮箱发信一直没有收到…&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt; 还有个同样免费的服务，&lt;a href=&#34;http://verify-email.org/&#34;&gt;Free
-Email Address
-Verifier&lt;/a&gt;，验证指定邮箱是否存在。花44.90美元可以&lt;a href=&#34;http://verify-email.org/buy-script.htm&#34;&gt;买到验证邮箱的
-PHP 脚本&lt;/a&gt;（WIndows
+&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt; 还有个同样免费的服务，&lt;a href=&#34;http://verify-email.org/&#34;&gt;Free&lt;br /&gt;
+Email Address&lt;br /&gt;
+Verifier&lt;/a&gt;，验证指定邮箱是否存在。花44.90美元可以&lt;a href=&#34;http://verify-email.org/buy-script.htm&#34;&gt;买到验证邮箱的&lt;br /&gt;
+PHP 脚本&lt;/a&gt;（WIndows&lt;br /&gt;
 环境不适用）。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://lab.andre-michelle.com/tonematrix&#34;&gt;ToneMatrix&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://lab.andre-michelle.com/tonematrix&#34;&gt;ToneMatrix&lt;/a&gt;&lt;br /&gt;
 是一个可以用来玩作曲的16×16格矩阵，从上到下是音调高低，从左至右是时间流顺序，循环播放。有人声称曾沉迷其中多日。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-20-34-51.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-34-51.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;这让我想起了一个玩节拍器/节奏鼓模拟器的软件
+&lt;p&gt;这让我想起了一个玩节拍器/节奏鼓模拟器的软件&lt;br /&gt;
 &lt;a href=&#34;http://www.threechords.com/hammerhead/introduction.shtml&#34;&gt;HammerHead&lt;/a&gt;，也是容易让人沉迷的。&lt;br /&gt;
 &lt;img src=&#34;http://www.threechords.com/hammerhead/images/hammerhead.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;还有一个比较实用的体积非常小的节拍器是 &lt;a href=&#34;http://www.pinkandaint.com/weirdmet.shtml&#34;&gt;Weird
+&lt;p&gt;还有一个比较实用的体积非常小的节拍器是 &lt;a href=&#34;http://www.pinkandaint.com/weirdmet.shtml&#34;&gt;Weird&lt;br /&gt;
 Metronome&lt;/a&gt;，可以方便的设置节拍速率。&lt;br /&gt;
 &lt;img src=&#34;http://www.pinkandaint.com/images/weirdmet.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;最近很流行的 Flash 是 &lt;a href=&#34;http://soytuaire.labuat.com/&#34;&gt;Pintando una
+&lt;p&gt;最近很流行的 Flash 是 &lt;a href=&#34;http://soytuaire.labuat.com/&#34;&gt;Pintando una&lt;br /&gt;
 canción&lt;/a&gt;（画出一首歌），&lt;a href=&#34;http://soytuaire.labuat.com/mp3/mix.mp3&#34;&gt;音乐&lt;/a&gt;好听，水墨画效果很惊人，最棒的还是这个创意，让你随着音乐挥舞鼠标画水墨画。&lt;br /&gt;
 可以先看看别人录制的&lt;a href=&#34;http://v.youku.com/v_show/id_XODE4MTk0ODg=.html&#34;&gt;动画&lt;/a&gt;：&lt;/p&gt;
 
@@ -129,7 +129,7 @@ I&amp;rsquo;m careful to eat only virgins for lunch.&lt;/p&gt;
 
 &lt;p&gt;[#2]&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

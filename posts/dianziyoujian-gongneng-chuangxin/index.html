@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电子邮件功能创新 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="电子邮件功能创新" />
+<meta property="og:description" content="这几天一直在想关于电子邮件服务的事情。
+在大家都觉得免费电子邮件服务没什么搞头，国内邮件服务商纷纷琢磨着向用户收费的时候，Google
+推出了容量为1G 的
+Gmail，不但带动了邮箱容量不断扩充的潮流，而且改变了人们对
+Web Mail 的观念，使得电子邮箱的地位又有所回复。
+我花了一点时间整理了一下几年来从非常原始、简陋的邮箱进化到主流电子邮箱服务中出现的创新功能点：
+人机界面：
+1、自动补全联系人名称和邮件地址；
+2、快捷键；
+3、多标签页浏览；
+4、拼写检查；
+5、AJAX 效果；
+6、拖拽邮件；
+7、三栏布局；
+8、签名、主题、模板、表情；
+邮件管理：
+1、统一的会话管理；
+2、转发整个会话内的邮件；
+3、获取其他邮箱的信件；
+4、切换发件人帐号；
+5、标签；
+6、自动筛选归类；
+7、邮件内容和附件的高级搜索；
+8、导入导出联系人列表；
+9、邮件回执；
+10、自动回复、转发；
+11、假期自动应答；
+12、定时发送；
+13、高亮搜索结果。
+容量：
+1、超大邮箱容量；
+2、大容量附件。
+安全：
+1、智能反垃圾邮件；
+2、服务器端杀毒。
+内容：
+1、图片过滤；
+2、预览附件。
+扩展、集成：
+1、集成日程表；
+2、集成 IM，邮箱联系人和 IM 联系人共用，保存 IM 聊天记录；
+3、集成笔记簿；
+4、集成相册；
+5、集成地图服务；
+6、集成RSS 订阅；
+7、推送邮件；
+8、手机通知；
+9、语音邮件；
+10、离线客户端的操作与在线邮箱同步。
+如果像 Google 这样把 Gmail
+当成在线服务的中心是大势所趋，那么这一波电子邮件服务的创新还只是刚刚开头而已，毕竟用户对
+web mail
+的需求并不是简单的“在线”而已，如有人就很希望在线的服务也能够支持新闻组；如邮箱和相册、日程管理、文件管理等的集成还只停留在“初级阶段”，无缝连接甚至让用户感觉不到各个服务的界限才是王道；如
+spam
+仍然是最令人头痛的问题；如管理邮件还未达到随心所欲的地步；如发布和共享信息到
+web 还不是那么方便…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dianziyoujian-gongneng-chuangxin/" />
+
+
+
+<meta property="article:published_time" content="2007-09-24T15:35:24&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-09-24T15:35:24&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="电子邮件功能创新">
+<meta itemprop="description" content="这几天一直在想关于电子邮件服务的事情。
+在大家都觉得免费电子邮件服务没什么搞头，国内邮件服务商纷纷琢磨着向用户收费的时候，Google
+推出了容量为1G 的
+Gmail，不但带动了邮箱容量不断扩充的潮流，而且改变了人们对
+Web Mail 的观念，使得电子邮箱的地位又有所回复。
+我花了一点时间整理了一下几年来从非常原始、简陋的邮箱进化到主流电子邮箱服务中出现的创新功能点：
+人机界面：
+1、自动补全联系人名称和邮件地址；
+2、快捷键；
+3、多标签页浏览；
+4、拼写检查；
+5、AJAX 效果；
+6、拖拽邮件；
+7、三栏布局；
+8、签名、主题、模板、表情；
+邮件管理：
+1、统一的会话管理；
+2、转发整个会话内的邮件；
+3、获取其他邮箱的信件；
+4、切换发件人帐号；
+5、标签；
+6、自动筛选归类；
+7、邮件内容和附件的高级搜索；
+8、导入导出联系人列表；
+9、邮件回执；
+10、自动回复、转发；
+11、假期自动应答；
+12、定时发送；
+13、高亮搜索结果。
+容量：
+1、超大邮箱容量；
+2、大容量附件。
+安全：
+1、智能反垃圾邮件；
+2、服务器端杀毒。
+内容：
+1、图片过滤；
+2、预览附件。
+扩展、集成：
+1、集成日程表；
+2、集成 IM，邮箱联系人和 IM 联系人共用，保存 IM 聊天记录；
+3、集成笔记簿；
+4、集成相册；
+5、集成地图服务；
+6、集成RSS 订阅；
+7、推送邮件；
+8、手机通知；
+9、语音邮件；
+10、离线客户端的操作与在线邮箱同步。
+如果像 Google 这样把 Gmail
+当成在线服务的中心是大势所趋，那么这一波电子邮件服务的创新还只是刚刚开头而已，毕竟用户对
+web mail
+的需求并不是简单的“在线”而已，如有人就很希望在线的服务也能够支持新闻组；如邮箱和相册、日程管理、文件管理等的集成还只停留在“初级阶段”，无缝连接甚至让用户感觉不到各个服务的界限才是王道；如
+spam
+仍然是最令人头痛的问题；如管理邮件还未达到随心所欲的地步；如发布和共享信息到
+web 还不是那么方便…">
+
+
+<meta itemprop="datePublished" content="2007-09-24T15:35:24&#43;00:00" />
+<meta itemprop="dateModified" content="2007-09-24T15:35:24&#43;00:00" />
+<meta itemprop="wordCount" content="71">
+
+
+
+<meta itemprop="keywords" content="电子邮件,软硬挨踢,邮件," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="电子邮件功能创新"/>
+<meta name="twitter:description" content="这几天一直在想关于电子邮件服务的事情。
+在大家都觉得免费电子邮件服务没什么搞头，国内邮件服务商纷纷琢磨着向用户收费的时候，Google
+推出了容量为1G 的
+Gmail，不但带动了邮箱容量不断扩充的潮流，而且改变了人们对
+Web Mail 的观念，使得电子邮箱的地位又有所回复。
+我花了一点时间整理了一下几年来从非常原始、简陋的邮箱进化到主流电子邮箱服务中出现的创新功能点：
+人机界面：
+1、自动补全联系人名称和邮件地址；
+2、快捷键；
+3、多标签页浏览；
+4、拼写检查；
+5、AJAX 效果；
+6、拖拽邮件；
+7、三栏布局；
+8、签名、主题、模板、表情；
+邮件管理：
+1、统一的会话管理；
+2、转发整个会话内的邮件；
+3、获取其他邮箱的信件；
+4、切换发件人帐号；
+5、标签；
+6、自动筛选归类；
+7、邮件内容和附件的高级搜索；
+8、导入导出联系人列表；
+9、邮件回执；
+10、自动回复、转发；
+11、假期自动应答；
+12、定时发送；
+13、高亮搜索结果。
+容量：
+1、超大邮箱容量；
+2、大容量附件。
+安全：
+1、智能反垃圾邮件；
+2、服务器端杀毒。
+内容：
+1、图片过滤；
+2、预览附件。
+扩展、集成：
+1、集成日程表；
+2、集成 IM，邮箱联系人和 IM 联系人共用，保存 IM 聊天记录；
+3、集成笔记簿；
+4、集成相册；
+5、集成地图服务；
+6、集成RSS 订阅；
+7、推送邮件；
+8、手机通知；
+9、语音邮件；
+10、离线客户端的操作与在线邮箱同步。
+如果像 Google 这样把 Gmail
+当成在线服务的中心是大势所趋，那么这一波电子邮件服务的创新还只是刚刚开头而已，毕竟用户对
+web mail
+的需求并不是简单的“在线”而已，如有人就很希望在线的服务也能够支持新闻组；如邮箱和相册、日程管理、文件管理等的集成还只停留在“初级阶段”，无缝连接甚至让用户感觉不到各个服务的界限才是王道；如
+spam
+仍然是最令人头痛的问题；如管理邮件还未达到随心所欲的地步；如发布和共享信息到
+web 还不是那么方便…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-09-24 03:35">2007-09-24</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>电子邮件功能创新</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6">
+              <span class="hash">#</span>电子邮件</a>
+          
+            , 
+            <a href="/tags/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">
+              <span class="hash">#</span>软硬挨踢</a>
+          
+            , 
+            <a href="/tags/%E9%82%AE%E4%BB%B6">
+              <span class="hash">#</span>邮件</a>
+          
+        
+      </p>
+    </header>
+    <section><p>这几天一直在想关于电子邮件服务的事情。</p>
+
+<p>在大家都觉得免费电子邮件服务没什么搞头，国内邮件服务商纷纷琢磨着向用户收费的时候，Google<br />
+推出了容量为1G 的<br />
+<a href="http://mail.google.com/mail">Gmail</a>，不但带动了邮箱容量不断扩充的潮流，而且改变了人们对<br />
+Web Mail 的观念，使得电子邮箱的地位又有所回复。</p>
+
+<p>我花了一点时间整理了一下几年来从非常原始、简陋的邮箱进化到主流电子邮箱服务中出现的创新功能点：</p>
+
+<p>人机界面：<br />
+1、自动补全联系人名称和邮件地址；<br />
+2、快捷键；<br />
+3、多标签页浏览；<br />
+4、拼写检查；<br />
+5、AJAX 效果；<br />
+6、拖拽邮件；<br />
+7、三栏布局；<br />
+8、签名、主题、模板、表情；</p>
+
+<p>邮件管理：<br />
+1、统一的会话管理；<br />
+2、转发整个会话内的邮件；<br />
+3、获取其他邮箱的信件；<br />
+4、切换发件人帐号；<br />
+5、标签；<br />
+6、自动筛选归类；<br />
+7、邮件内容和附件的高级搜索；<br />
+8、导入导出联系人列表；<br />
+9、邮件回执；<br />
+10、自动回复、转发；<br />
+11、假期自动应答；<br />
+12、定时发送；<br />
+13、高亮搜索结果。</p>
+
+<p>容量：<br />
+1、超大邮箱容量；<br />
+2、大容量附件。</p>
+
+<p>安全：<br />
+1、智能反垃圾邮件；<br />
+2、服务器端杀毒。</p>
+
+<p>内容：<br />
+1、图片过滤；<br />
+2、预览附件。</p>
+
+<p>扩展、集成：<br />
+1、集成日程表；<br />
+2、集成 IM，邮箱联系人和 IM 联系人共用，保存 IM 聊天记录；<br />
+3、集成笔记簿；<br />
+4、集成相册；<br />
+5、集成地图服务；<br />
+6、集成RSS 订阅；<br />
+7、推送邮件；<br />
+8、手机通知；<br />
+9、语音邮件；<br />
+10、离线客户端的操作与在线邮箱同步。</p>
+
+<p>如果像 Google 这样把 Gmail<br />
+当成在线服务的中心是大势所趋，那么这一波电子邮件服务的创新还只是刚刚开头而已，毕竟用户对<br />
+web mail<br />
+的需求并不是简单的“在线”而已，如有人就很希望在线的服务也能够支持新闻组；如邮箱和相册、日程管理、文件管理等的集成还只停留在“初级阶段”，无缝连接甚至让用户感觉不到各个服务的界限才是王道；如<br />
+spam<br />
+仍然是最令人头痛的问题；如管理邮件还未达到随心所欲的地步；如发布和共享信息到<br />
+web 还不是那么方便…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdianziyoujian-gongneng-chuangxin%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdianziyoujian-gongneng-chuangxin%2f&text= @calon %e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8a%9f%e8%83%bd%e5%88%9b%e6%96%b0&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

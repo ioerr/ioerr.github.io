@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>京剧 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BA%AC%E5%89%A7/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BA%AC%E5%89%A7/</link>
     <description>Recent content in 京剧 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BA%AC%E5%89%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2008 14:53:55 +0000</lastBuildDate>
     
-    <item>
-      <title>《梅兰芳》</title>
-      <link>https://ioerr.github.io/meilanfang/</link>
-      <pubDate>Sun, 07 Dec 2008 14:53:55 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/meilanfang/</guid>
-      <description>&lt;p&gt;第一段对台斗戏、打破传统、变革京剧，王学圻扮演的十三燕和余少群扮演的少年梅兰芳都非常精彩，主要人物间的对话和冲突舍得暗暗发力，看起来也韵味十足。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%BA%AC%E5%89%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>《梅兰芳》</title>
+        <link>https://ioerr.github.io/posts/meilanfang/</link>
+        <pubDate>Sun, 07 Dec 2008 14:53:55 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/meilanfang/</guid>
+        <description>&lt;p&gt;第一段对台斗戏、打破传统、变革京剧，王学圻扮演的十三燕和余少群扮演的少年梅兰芳都非常精彩，主要人物间的对话和冲突舍得暗暗发力，看起来也韵味十足。&lt;br /&gt;
 倒是孙红雷的邱如白看戏的时候喉头滚动吞口水有点邪恶，后来自称和梅兰芳“是干净的”有点此地无银三百两的感觉。&lt;/p&gt;
 
 &lt;p&gt;第二段的事业顶峰、与孟小冬的纠葛一段，剧本就开始混乱，导演的掌控就将开始力不从心了。&lt;br /&gt;
@@ -40,7 +40,7 @@
 陈红的福芝芳咄咄逼人的时候太多，本身的表演算是及格；&lt;br /&gt;
 最后再赞赏一下王学圻和余少群，他们撑起的第一段保证了这部影片值回票价，如果时间紧张，建议看完第一段就可以出来了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

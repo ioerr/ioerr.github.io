@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elo 排名系统 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Elo 排名系统" />
+<meta property="og:description" content="看到这篇文章中提到的世界足坛埃罗排名系统（The
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：
+Elo Rating System 根据评价值进行排名，评价值的计算方式如下：
+Rn = Ro &#43; K × (W - We)
+Rn 表示新的评价值
+Ro 表示原来的评价值
+K 表示比赛的权重，如：
+世界杯决赛圈比赛，K取60；
+洲级杯赛决赛圈比赛取50；
+世界杯和洲级杯赛外围赛取40；
+其他锦标赛取30；
+友谊赛取20。
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 &#43; (N-3)/8，其中 N
+为净胜球数。
+如世界杯决赛圈比赛净胜3球，K=60 × (1 &#43; 3&frasl;4 &#43; (3-3)/8) = 105
+W 表示比赛的结果，胜取1，平取0.5，负取0
+We 表示预期结果，计算公式为：
+We = 1 / (10\^(-dr/400) &#43; 1)
+dr 表示双方排位的差距
+如果不嫌复杂的话，完整的公式可以写作：
+Rn = Ro &#43; K × (W - 1 / (10\^(-dr/400) &#43; 1))" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/elo-paiming-xitong/" />
+
+
+
+<meta property="article:published_time" content="2009-11-14T17:41:16&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-11-14T17:41:16&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Elo 排名系统">
+<meta itemprop="description" content="看到这篇文章中提到的世界足坛埃罗排名系统（The
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：
+Elo Rating System 根据评价值进行排名，评价值的计算方式如下：
+Rn = Ro &#43; K × (W - We)
+Rn 表示新的评价值
+Ro 表示原来的评价值
+K 表示比赛的权重，如：
+世界杯决赛圈比赛，K取60；
+洲级杯赛决赛圈比赛取50；
+世界杯和洲级杯赛外围赛取40；
+其他锦标赛取30；
+友谊赛取20。
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 &#43; (N-3)/8，其中 N
+为净胜球数。
+如世界杯决赛圈比赛净胜3球，K=60 × (1 &#43; 3&frasl;4 &#43; (3-3)/8) = 105
+W 表示比赛的结果，胜取1，平取0.5，负取0
+We 表示预期结果，计算公式为：
+We = 1 / (10\^(-dr/400) &#43; 1)
+dr 表示双方排位的差距
+如果不嫌复杂的话，完整的公式可以写作：
+Rn = Ro &#43; K × (W - 1 / (10\^(-dr/400) &#43; 1))">
+
+
+<meta itemprop="datePublished" content="2009-11-14T17:41:16&#43;00:00" />
+<meta itemprop="dateModified" content="2009-11-14T17:41:16&#43;00:00" />
+<meta itemprop="wordCount" content="122">
+
+
+
+<meta itemprop="keywords" content="Elo,排名,数学,统计,足球," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Elo 排名系统"/>
+<meta name="twitter:description" content="看到这篇文章中提到的世界足坛埃罗排名系统（The
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：
+Elo Rating System 根据评价值进行排名，评价值的计算方式如下：
+Rn = Ro &#43; K × (W - We)
+Rn 表示新的评价值
+Ro 表示原来的评价值
+K 表示比赛的权重，如：
+世界杯决赛圈比赛，K取60；
+洲级杯赛决赛圈比赛取50；
+世界杯和洲级杯赛外围赛取40；
+其他锦标赛取30；
+友谊赛取20。
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 &#43; (N-3)/8，其中 N
+为净胜球数。
+如世界杯决赛圈比赛净胜3球，K=60 × (1 &#43; 3&frasl;4 &#43; (3-3)/8) = 105
+W 表示比赛的结果，胜取1，平取0.5，负取0
+We 表示预期结果，计算公式为：
+We = 1 / (10\^(-dr/400) &#43; 1)
+dr 表示双方排位的差距
+如果不嫌复杂的话，完整的公式可以写作：
+Rn = Ro &#43; K × (W - 1 / (10\^(-dr/400) &#43; 1))"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-11-14 05:41">2009-11-14</time> &bull;
+          
+            
+            <a href="/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">纯粹体育</a>
+          </p>
+      <h1>Elo 排名系统</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/elo">
+              <span class="hash">#</span>Elo</a>
+          
+            , 
+            <a href="/tags/%E6%8E%92%E5%90%8D">
+              <span class="hash">#</span>排名</a>
+          
+            , 
+            <a href="/tags/%E6%95%B0%E5%AD%A6">
+              <span class="hash">#</span>数学</a>
+          
+            , 
+            <a href="/tags/%E7%BB%9F%E8%AE%A1">
+              <span class="hash">#</span>统计</a>
+          
+            , 
+            <a href="/tags/%E8%B6%B3%E7%90%83">
+              <span class="hash">#</span>足球</a>
+          
+        
+      </p>
+    </header>
+    <section><p>看到<a href="http://bbs.goalhi.com/464426.html">这篇文章</a>中提到的世界足坛埃罗排名系统（The<br />
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：</p>
+
+<p>Elo Rating System 根据评价值进行排名，评价值的计算方式如下：</p>
+
+<p>Rn = Ro + K × (W - We)</p>
+
+<p>Rn 表示新的评价值</p>
+
+<p>Ro 表示原来的评价值</p>
+
+<p>K 表示比赛的权重，如：<br />
+世界杯决赛圈比赛，K取60；<br />
+洲级杯赛决赛圈比赛取50；<br />
+世界杯和洲级杯赛外围赛取40；<br />
+其他锦标赛取30；<br />
+友谊赛取20。<br />
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N<br />
+为净胜球数。<br />
+如世界杯决赛圈比赛净胜3球，K=60 × (1 + <sup>3</sup>&frasl;<sub>4</sub> + (3-3)/8) = 105</p>
+
+<p>W 表示比赛的结果，胜取1，平取0.5，负取0</p>
+
+<p>We 表示预期结果，计算公式为：<br />
+We = 1 / (10\^(-dr/400) + 1)</p>
+
+<p>dr 表示双方排位的差距</p>
+
+<p>如果不嫌复杂的话，完整的公式可以写作：<br />
+Rn = Ro + K × (W - 1 / (10\^(-dr/400) + 1))</p>
+
+<p>以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：<br />
+法国队目前的评价值是1856，排名第10；<br />
+爱尔兰队目前的评价值是1742，排名第27；</p>
+
+<p>世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + <sup>3</sup>&frasl;<sub>4</sub> + (2-3)/8) = 65</p>
+
+<p>法国队的新评价值计算如下：<br />
+Rn = 1856 + 65 × (0 - 1 / (10\^(-<sup>17</sup>&frasl;<sub>400</sub>) +1)) = 1822</p>
+
+<p>爱尔兰队的新评价值计算如下：<br />
+Rn = 1742 + 65 × (1 - 1 / (10\^(-<sup>17</sup>&frasl;<sub>400</sub>) +1)) = 1773</p>
+
+<p>假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。</p>
+
+<p>Elo 排名系统的排名看上去未必就比 <a href="http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html">FIFA<br />
+世界排名</a>靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Elo%20%e6%8e%92%e5%90%8d%e7%b3%bb%e7%bb%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2felo-paiming-xitong%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2felo-paiming-xitong%2f&text= @calon Elo%20%e6%8e%92%e5%90%8d%e7%b3%bb%e7%bb%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

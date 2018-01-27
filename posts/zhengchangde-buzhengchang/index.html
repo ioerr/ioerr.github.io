@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>正常的不正常 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="正常的不正常" />
+<meta property="og:description" content="Chiu Yung 曰：
+
+通常在中国，一个充满了各种内容的网站down了让人第一反应都不是技术问题，可见这是一个什么样的网络环境。
+
+不但这种“第一反应”不正常，而且在知道是因为什么“非技术原因”而倒掉的时候，人们通常也平静得一如往常。更让人佩服的是，这些不缺少日常训练的人还能够迅速指出哪些东西有违禁的嫌疑。
+另一个有意思的现象是，总有以长辈自居的人语重心长地告诉那些稚气未脱的后辈，“你们要学好政治啊！政治这个东西，是非常重要的。”
+而真到了这些人埋头研究政治中的奥妙时，“莫谈国是，莫谈政治”又成了人人皆知的规矩。
+我想，大概有两个原因：
+1、此“政治”非彼“政治”也。你们想知道的和想让你们知道的，是两个东西，
+2、“学习”“政治”是应该的，但是“研究”就只能是某些人的专利了。你们要做的，是好好领会学习吸收实践别人的伟大的思想光明的理论正确的研究成果－－不管那是冠冕堂皇的漂亮话还是不够冠冕堂皇的潜规则－－最好是能够让人卖了还一脸特光荣地帮忙数票子。
+在 Tinyfool
+那里有这么一篇老帖子：《如果发现你的文章被删除了，请来这里看（我们不会活在真空里）》
+看到 Tiny
+这样的老实人为了网站的安全和用户的理解而作这样的说明，我觉得很不爽。这本来都不应该发生的，为何我们会觉得很正常呢？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhengchangde-buzhengchang/" />
+
+
+
+<meta property="article:published_time" content="2005-02-28T14:57:34&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-02-28T14:57:34&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="正常的不正常">
+<meta itemprop="description" content="Chiu Yung 曰：
+
+通常在中国，一个充满了各种内容的网站down了让人第一反应都不是技术问题，可见这是一个什么样的网络环境。
+
+不但这种“第一反应”不正常，而且在知道是因为什么“非技术原因”而倒掉的时候，人们通常也平静得一如往常。更让人佩服的是，这些不缺少日常训练的人还能够迅速指出哪些东西有违禁的嫌疑。
+另一个有意思的现象是，总有以长辈自居的人语重心长地告诉那些稚气未脱的后辈，“你们要学好政治啊！政治这个东西，是非常重要的。”
+而真到了这些人埋头研究政治中的奥妙时，“莫谈国是，莫谈政治”又成了人人皆知的规矩。
+我想，大概有两个原因：
+1、此“政治”非彼“政治”也。你们想知道的和想让你们知道的，是两个东西，
+2、“学习”“政治”是应该的，但是“研究”就只能是某些人的专利了。你们要做的，是好好领会学习吸收实践别人的伟大的思想光明的理论正确的研究成果－－不管那是冠冕堂皇的漂亮话还是不够冠冕堂皇的潜规则－－最好是能够让人卖了还一脸特光荣地帮忙数票子。
+在 Tinyfool
+那里有这么一篇老帖子：《如果发现你的文章被删除了，请来这里看（我们不会活在真空里）》
+看到 Tiny
+这样的老实人为了网站的安全和用户的理解而作这样的说明，我觉得很不爽。这本来都不应该发生的，为何我们会觉得很正常呢？">
+
+
+<meta itemprop="datePublished" content="2005-02-28T14:57:34&#43;00:00" />
+<meta itemprop="dateModified" content="2005-02-28T14:57:34&#43;00:00" />
+<meta itemprop="wordCount" content="16">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="正常的不正常"/>
+<meta name="twitter:description" content="Chiu Yung 曰：
+
+通常在中国，一个充满了各种内容的网站down了让人第一反应都不是技术问题，可见这是一个什么样的网络环境。
+
+不但这种“第一反应”不正常，而且在知道是因为什么“非技术原因”而倒掉的时候，人们通常也平静得一如往常。更让人佩服的是，这些不缺少日常训练的人还能够迅速指出哪些东西有违禁的嫌疑。
+另一个有意思的现象是，总有以长辈自居的人语重心长地告诉那些稚气未脱的后辈，“你们要学好政治啊！政治这个东西，是非常重要的。”
+而真到了这些人埋头研究政治中的奥妙时，“莫谈国是，莫谈政治”又成了人人皆知的规矩。
+我想，大概有两个原因：
+1、此“政治”非彼“政治”也。你们想知道的和想让你们知道的，是两个东西，
+2、“学习”“政治”是应该的，但是“研究”就只能是某些人的专利了。你们要做的，是好好领会学习吸收实践别人的伟大的思想光明的理论正确的研究成果－－不管那是冠冕堂皇的漂亮话还是不够冠冕堂皇的潜规则－－最好是能够让人卖了还一脸特光荣地帮忙数票子。
+在 Tinyfool
+那里有这么一篇老帖子：《如果发现你的文章被删除了，请来这里看（我们不会活在真空里）》
+看到 Tiny
+这样的老实人为了网站的安全和用户的理解而作这样的说明，我觉得很不爽。这本来都不应该发生的，为何我们会觉得很正常呢？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-02-28 02:57">2005-02-28</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>正常的不正常</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.cantonline.com/">Chiu Yung</a> 曰：</p>
+
+<p><blockquote><br />
+<a href="http://www.cantonline.com/index.php?op=ViewArticle&amp;articleId=139&amp;blogId=1">通常在中国，一个充满了各种内容的网站down了让人第一反应都不是技术问题，可见这是一个什么样的网络环境。</a><br />
+</blockquote><br />
+不但这种“第一反应”不正常，而且在知道是因为什么“非技术原因”而倒掉的时候，人们通常也平静得一如往常。更让人佩服的是，这些不缺少日常训练的人还能够迅速指出哪些东西有违禁的嫌疑。</p>
+
+<p>另一个有意思的现象是，总有以长辈自居的人语重心长地告诉那些稚气未脱的后辈，“你们要学好政治啊！政治这个东西，是非常重要的。”<br />
+而真到了这些人埋头研究政治中的奥妙时，“莫谈国是，莫谈政治”又成了人人皆知的规矩。<br />
+我想，大概有两个原因：<br />
+1、此“政治”非彼“政治”也。你们想知道的和想让你们知道的，是两个东西，<br />
+2、“学习”“政治”是应该的，但是“研究”就只能是某些人的专利了。你们要做的，是好好领会学习吸收实践别人的伟大的思想光明的理论正确的研究成果－－不管那是冠冕堂皇的漂亮话还是不够冠冕堂皇的潜规则－－最好是能够让人卖了还一脸特光荣地帮忙数票子。</p>
+
+<p>在 <a href="http://www.tinydust.net/">Tinyfool</a><br />
+<a href="http://blog.codelphi.com/tinyfool/">那里</a>有这么一篇老帖子：《<a href="http://blog.codelphi.com/tinyfool/archive/2004/09/21/22459.aspx">如果发现你的文章被删除了，请来这里看（我们不会活在真空里）</a>》<br />
+看到 Tiny<br />
+这样的老实人为了网站的安全和用户的理解而作这样的说明，我觉得很不爽。这本来都不应该发生的，为何我们会觉得很正常呢？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%ad%a3%e5%b8%b8%e7%9a%84%e4%b8%8d%e6%ad%a3%e5%b8%b8》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhengchangde-buzhengchang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhengchangde-buzhengchang%2f&text= @calon %e6%ad%a3%e5%b8%b8%e7%9a%84%e4%b8%8d%e6%ad%a3%e5%b8%b8&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

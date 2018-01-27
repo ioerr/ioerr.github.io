@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web2.0 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/web2.0/index.xml</link>
+    <link>https://ioerr.github.io/tags/web2.0/</link>
     <description>Recent content in Web2.0 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/web2.0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2016 10:24:20 +0000</lastBuildDate>
     
-    <item>
-      <title>再见，Delicious。你好，TagPacker！</title>
-      <link>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</link>
-      <pubDate>Thu, 28 Apr 2016 10:24:20 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zaijian-delicious-nihao-tagpacker/</guid>
-      <description>&lt;p&gt;自从前天用 Delicious
+      <atom:link href="https://ioerr.github.io/tags/web2.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>再见，Delicious。你好，TagPacker！</title>
+        <link>https://ioerr.github.io/posts/zaijian-delicious-nihao-tagpacker/</link>
+        <pubDate>Thu, 28 Apr 2016 10:24:20 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zaijian-delicious-nihao-tagpacker/</guid>
+        <description>&lt;p&gt;自从前天用 Delicious&lt;br /&gt;
 收藏网页总是不成功，发现它正在维护开始，一直到现在它的首页都是这样：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/20160428_170855.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/20160428_170855.png&#34; alt=&#34;photo
@@ -25,37 +25,37 @@
 &lt;p&gt;我可以接受它越改版越丑，也还可以容忍越来越慢的访问速度，但曾经是互联网界 Web 2.0的标杆网站，维护时间超过48小时导致基本功能都无法使用，实在无法一起坐船了。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://pinboard.in/&#34;&gt;Pinboard&lt;/a&gt; 太丑；&lt;br /&gt;
-&lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; 和 &lt;a href=&#34;www.instapaper.com&#34;&gt;Instapaper&lt;/a&gt;
+&lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; 和 &lt;a href=&#34;www.instapaper.com&#34;&gt;Instapaper&lt;/a&gt;&lt;br /&gt;
 主要用于文章收藏，书签管理方面太弱；&lt;br /&gt;
 &lt;a href=&#34;https://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt; 依然被墙；&lt;br /&gt;
-浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox
+浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox&lt;br /&gt;
 的书签管理倒是勉强够用了）；&lt;/p&gt;
 
-&lt;p&gt;最终找到的是 &lt;a href=&#34;https://tagpacker.com/&#34;&gt;TagPacker&lt;/a&gt;
+&lt;p&gt;最终找到的是 &lt;a href=&#34;https://tagpacker.com/&#34;&gt;TagPacker&lt;/a&gt;&lt;br /&gt;
 这个新服务，大多数方面都符合我的要求：&lt;br /&gt;
 访问速度相对挺快；&lt;br /&gt;
 界面美观，堪称令人心旷神怡；&lt;br /&gt;
 标签提示、注释、私密书签、个人页面、摘录网页图片、批量修改、订阅等基础功能都具备；&lt;br /&gt;
-多标签管理可媲美 Delicious，无论收藏、搜索、URL
-都支持多标签组合，并且有类似于 Delicious 的 tag bundle
+多标签管理可媲美 Delicious，无论收藏、搜索、URL&lt;br /&gt;
+都支持多标签组合，并且有类似于 Delicious 的 tag bundle&lt;br /&gt;
 的标签组（也就是它们的产品名 tagpack）；&lt;br /&gt;
-可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML
+可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML&lt;br /&gt;
 文件，至少不用担心数据完全消失，不过因为 Delicious 维护，还没测试导入；&lt;br /&gt;
 有 Firefox 浏览器扩展，而且比 Delicious 的残废扩展好用一万倍！&lt;/p&gt;
 
-&lt;p&gt;遗憾的是没有标签智能推荐功能，也没有被 &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;
-收录，而且因为是全免费服务，不知道未来是否也像 Delicious
+&lt;p&gt;遗憾的是没有标签智能推荐功能，也没有被 &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;&lt;br /&gt;
+收录，而且因为是全免费服务，不知道未来是否也像 Delicious&lt;br /&gt;
 一样只能维持数年的优质服务。&lt;br /&gt;
 注册用户默认会推荐关注官方账号，所以目前来看至少有2584个用户，对已经上线运营超过一年的服务来说，还是有点少。&lt;/p&gt;
 
-&lt;p&gt;如果你仍需要类似 Delicious
+&lt;p&gt;如果你仍需要类似 Delicious&lt;br /&gt;
 的服务，可以看看&lt;a href=&#34;https://tagpacker.com/user/social.bookmarking.tools&#34;&gt;这个列表&lt;/a&gt;，有人整理了百多个能沾上边的网站，可供参考。&lt;/p&gt;
 
-&lt;p&gt;更新：&lt;a href=&#34;http://blog.delicious.com/2016/04/transition-to-del-icio-us/&#34;&gt;官方 blog
-有说明原因&lt;/a&gt;，这次是迁移回
+&lt;p&gt;更新：&lt;a href=&#34;http://blog.delicious.com/2016/04/transition-to-del-icio-us/&#34;&gt;官方 blog&lt;br /&gt;
+有说明原因&lt;/a&gt;，这次是迁移回&lt;br /&gt;
 del.icio.us，估计是把域名给卖了吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

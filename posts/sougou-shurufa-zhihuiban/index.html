@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>搜狗输入法智慧版 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="搜狗输入法智慧版" />
+<meta property="og:description" content="搜狗输入法最近推出了智慧版，宣传的功能亮点如下：
+1、情景感知：配合 IE
+内核的浏览器使用时，根据不同的输入框调整候选词排序；
+2、文思泉涌：诗词提示补全，并且展示诗词信息；
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；
+5、拼音纠错：自动纠正和提示错误的拼音；
+6、长词联想和云计算：都不是新鲜功能了。
+情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。
+搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。
+几年前在智能狂拼的 QQ
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。
+另一方面，情境往往变化频繁，比如同时挂 IM
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。
+所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。
+真正做到了这些，我才会认为输入法是有智慧的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/sougou-shurufa-zhihuiban/" />
+
+
+
+<meta property="article:published_time" content="2012-10-12T03:19:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-10-12T03:19:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="搜狗输入法智慧版">
+<meta itemprop="description" content="搜狗输入法最近推出了智慧版，宣传的功能亮点如下：
+1、情景感知：配合 IE
+内核的浏览器使用时，根据不同的输入框调整候选词排序；
+2、文思泉涌：诗词提示补全，并且展示诗词信息；
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；
+5、拼音纠错：自动纠正和提示错误的拼音；
+6、长词联想和云计算：都不是新鲜功能了。
+情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。
+搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。
+几年前在智能狂拼的 QQ
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。
+另一方面，情境往往变化频繁，比如同时挂 IM
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。
+所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。
+真正做到了这些，我才会认为输入法是有智慧的。">
+
+
+<meta itemprop="datePublished" content="2012-10-12T03:19:47&#43;00:00" />
+<meta itemprop="dateModified" content="2012-10-12T03:19:47&#43;00:00" />
+<meta itemprop="wordCount" content="28">
+
+
+
+<meta itemprop="keywords" content="云计算,情境,情景感知,拼音加加,搜狗,整句输入,智能学习,智能狂拼,输入法," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="搜狗输入法智慧版"/>
+<meta name="twitter:description" content="搜狗输入法最近推出了智慧版，宣传的功能亮点如下：
+1、情景感知：配合 IE
+内核的浏览器使用时，根据不同的输入框调整候选词排序；
+2、文思泉涌：诗词提示补全，并且展示诗词信息；
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；
+5、拼音纠错：自动纠正和提示错误的拼音；
+6、长词联想和云计算：都不是新鲜功能了。
+情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。
+搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。
+几年前在智能狂拼的 QQ
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。
+另一方面，情境往往变化频繁，比如同时挂 IM
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。
+所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。
+真正做到了这些，我才会认为输入法是有智慧的。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2012-10-12 03:19">2012-10-12</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>搜狗输入法智慧版</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BA%91%E8%AE%A1%E7%AE%97">
+              <span class="hash">#</span>云计算</a>
+          
+            , 
+            <a href="/tags/%E6%83%85%E5%A2%83">
+              <span class="hash">#</span>情境</a>
+          
+            , 
+            <a href="/tags/%E6%83%85%E6%99%AF%E6%84%9F%E7%9F%A5">
+              <span class="hash">#</span>情景感知</a>
+          
+            , 
+            <a href="/tags/%E6%8B%BC%E9%9F%B3%E5%8A%A0%E5%8A%A0">
+              <span class="hash">#</span>拼音加加</a>
+          
+            , 
+            <a href="/tags/%E6%90%9C%E7%8B%97">
+              <span class="hash">#</span>搜狗</a>
+          
+            , 
+            <a href="/tags/%E6%95%B4%E5%8F%A5%E8%BE%93%E5%85%A5">
+              <span class="hash">#</span>整句输入</a>
+          
+            , 
+            <a href="/tags/%E6%99%BA%E8%83%BD%E5%AD%A6%E4%B9%A0">
+              <span class="hash">#</span>智能学习</a>
+          
+            , 
+            <a href="/tags/%E6%99%BA%E8%83%BD%E7%8B%82%E6%8B%BC">
+              <span class="hash">#</span>智能狂拼</a>
+          
+            , 
+            <a href="/tags/%E8%BE%93%E5%85%A5%E6%B3%95">
+              <span class="hash">#</span>输入法</a>
+          
+        
+      </p>
+    </header>
+    <section><p>搜狗输入法最近推出了<a href="http://pinyin.sogou.com/zhihui/">智慧版</a>，宣传的功能亮点如下：<br />
+1、情景感知：配合 IE<br />
+内核的浏览器使用时，根据不同的输入框调整候选词排序；<br />
+2、文思泉涌：诗词提示补全，并且展示诗词信息；<br />
+3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；<br />
+4、搜狗卷轴：候选字用矩阵形式展示（貌似是紫光最先实现的）；<br />
+5、拼音纠错：自动纠正和提示错误的拼音；<br />
+6、长词联想和云计算：都不是新鲜功能了。</p>
+
+<p>情景感知的思路不错，可是因为技术限制和输入法本身的定位，距离我的期待还挺远的。<br />
+第一，看介绍是只能通过输入框感知情景变化，而且只针对 IE 内核浏览器；<br />
+第二，只对候选词排序有效，对整句无效——如果只是用来优化词组调频，还是无法帮助用户精简输入过程中多次选择候选词组并确认上屏的操作。</p>
+
+<p>搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。</p>
+
+<p>几年前在智能狂拼的 QQ<br />
+群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。<br />
+同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。<br />
+另一方面，情境往往变化频繁，比如同时挂 IM<br />
+多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。<br />
+如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。</p>
+
+<p>所以，如果按搜狗输入法智慧版情景感知的思路走下去，最终我期待的效果是：<br />
+第一，捕捉所有应用了输入法的程序的动作，为不同的程序、沟通对象、使用场景分别建立情境；<br />
+第二，根据程序窗口、输入框、沟通对象、文件命名、上下文内容等等信息，自动识别和切换情境；<br />
+第三，对应不同情境，不但候选词排序要有变化，云端的整句识别结果也要有所区别。</p>
+
+<p>真正做到了这些，我才会认为输入法是有智慧的。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%90%9c%e7%8b%97%e8%be%93%e5%85%a5%e6%b3%95%e6%99%ba%e6%85%a7%e7%89%88》&body=https%3a%2f%2fioerr.github.io%2fposts%2fsougou-shurufa-zhihuiban%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fsougou-shurufa-zhihuiban%2f&text= @calon %e6%90%9c%e7%8b%97%e8%be%93%e5%85%a5%e6%b3%95%e6%99%ba%e6%85%a7%e7%89%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

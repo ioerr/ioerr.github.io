@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>机器人 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
     <description>Recent content in 机器人 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jan 2017 16:00:52 +0800</lastBuildDate>
     
-    <item>
-      <title>机器与极权</title>
-      <link>https://ioerr.github.io/jiqi-yu-jiquan/</link>
-      <pubDate>Wed, 25 Jan 2017 16:00:52 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jiqi-yu-jiquan/</guid>
-      <description>&lt;p&gt;过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>机器与极权</title>
+        <link>https://ioerr.github.io/posts/jiqi-yu-jiquan/</link>
+        <pubDate>Wed, 25 Jan 2017 16:00:52 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/jiqi-yu-jiquan/</guid>
+        <description>&lt;p&gt;过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：&lt;br /&gt;
 要防范奴隶结社造反&lt;br /&gt;
 要操心奴隶是否会消极工作&lt;br /&gt;
 要避免手下叛变夺权&lt;br /&gt;
@@ -38,13 +38,13 @@
 
 &lt;ol&gt;
 &lt;li&gt;只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;/li&gt;
-&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;/li&gt;
-&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;/li&gt;
-&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;/li&gt;
+&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

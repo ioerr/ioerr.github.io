@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人品界面 on 读写错误</title>
-    <link>https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/index.xml</link>
+    <link>https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/</link>
     <description>Recent content in 人品界面 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2017 16:22:11 +0800</lastBuildDate>
     
-    <item>
-      <title>尝试共享单车</title>
-      <link>https://ioerr.github.io/changshi-gongxiang-danche/</link>
-      <pubDate>Mon, 13 Feb 2017 16:22:11 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/changshi-gongxiang-danche/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>尝试共享单车</title>
+        <link>https://ioerr.github.io/posts/changshi-gongxiang-danche/</link>
+        <pubDate>Mon, 13 Feb 2017 16:22:11 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/changshi-gongxiang-danche/</guid>
+        <description>
 
 &lt;p&gt;听说了很久的共享单车，比如摩拜和 ofo，去一线城市出差也能时常看到4、5种共享单车扎堆，可以感受到激烈的竞争。&lt;/p&gt;
 
@@ -64,9 +64,10 @@
 &lt;p&gt;对消费者来说，好处确实很多。简单罗列几点就行，不需要说得太细：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;不用担心车辆被盗。&lt;/li&gt;
-&lt;li&gt;随走随停，骑累了、变天了都不用担心怎么回去。&lt;/li&gt;
-&lt;li&gt;押金和单次消费不算贵。&lt;/li&gt;
+&lt;li&gt;不用担心车辆被盗。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;随走随停，骑累了、变天了都不用担心怎么回去。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;押金和单次消费不算贵。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;所以注册之后，还挺有积极性的，一有机会就骑上出发。&lt;/p&gt;
@@ -88,7 +89,8 @@
 特别是后者，如果关闭，即使开了 GPS 应用也不会记录行程。&lt;br /&gt;
 于是我现在的统计数据显示，累计骑行4个半小时，总行程还只有0.48公里…&lt;br /&gt;
 补充：现在全部定位手段都打开也经常无法记录行程，感觉要废了。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;/li&gt;
+&lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;另外，虽然可以邀请新用户赚用车券，也可以做活动，但没有花心思做社交功能，比如添加好友、发现同好、和好友分享骑行路线和经历、邀约骑车等等，还挺不习惯的（这方面做得好并不会引起用户反感）。&lt;br /&gt;
@@ -147,15 +149,14 @@
 单车本身有一定的负载能力，一些扩展的硬件设备，如太阳能发电、充电、移动热点、数据采集器等等未必没有应用的可能。&lt;br /&gt;
 只要前期的市场行为习惯培养起来了，解决了政策风险、用户破坏和滥用的问题，这门生意还有许多潜力可挖。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>电商网站搜索体验的问题</title>
-      <link>https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/</link>
-      <pubDate>Thu, 19 Jan 2017 16:44:31 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/</guid>
-      <description>&lt;p&gt;不得不说在淘宝、天猫这种有大量第三方商家入驻的平台搜索商品的体验非常差。&lt;/p&gt;
+      <item>
+        <title>电商网站搜索体验的问题</title>
+        <link>https://ioerr.github.io/posts/dianshang-wangzhan-sousuo-tiyan-de-wenti/</link>
+        <pubDate>Thu, 19 Jan 2017 16:44:31 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/dianshang-wangzhan-sousuo-tiyan-de-wenti/</guid>
+        <description>&lt;p&gt;不得不说在淘宝、天猫这种有大量第三方商家入驻的平台搜索商品的体验非常差。&lt;/p&gt;
 
 &lt;p&gt;一大问题就是商品图片相互抄袭多，一个关键词搜出来的结果，满屏幕都是雷同的图片。&lt;br /&gt;
 不但毫无区分商品的作用，还变相鼓励商家互相抄袭——反正用户也不在乎/没法在乎商品图片的差异，为何不偷别人的图片呢？&lt;/p&gt;
@@ -170,15 +171,17 @@
 店家甲的套餐如下：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;套餐一15000元：相机+三脚架+存储卡&lt;/li&gt;
-&lt;li&gt;套餐二17000元：相机+三脚架+存储卡+某镜头&lt;/li&gt;
+&lt;li&gt;套餐一15000元：相机+三脚架+存储卡&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;套餐二17000元：相机+三脚架+存储卡+某镜头&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;店家乙的套餐如下：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;套餐一15000元：相机+存储卡+读卡器+副厂电池+闪光灯&lt;/li&gt;
-&lt;li&gt;套餐二16000元：相机+存储卡+读卡器+原厂电池+原厂充电器+相机包+闪光灯+引闪线++UV镜&lt;/li&gt;
+&lt;li&gt;套餐一15000元：相机+存储卡+读卡器+副厂电池+闪光灯&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;套餐二16000元：相机+存储卡+读卡器+原厂电池+原厂充电器+相机包+闪光灯+引闪线++UV镜&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;这时一个已经有闪光灯，不需要多配电池、相机包，但是可能需要三脚架和替换镜头的消费者，无法直接在搜索结果中了解到店家甲的套餐可能更合适，而店家乙的套餐根本不用看。&lt;br /&gt;
@@ -200,18 +203,17 @@
 &lt;p&gt;而现在的搜索和筛选结果实在距离这个要求太远。&lt;br /&gt;
 结果就是，如果有得选择，我还是更加相信专业的评测（比如 &lt;a href=&#34;http://thewirecutter.com/&#34;&gt;Wirecutter&lt;/a&gt;）、身边熟人的推荐，并尽量在靠谱的 B2C 电商平台上购买。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>体验当当实体书店</title>
-      <link>https://ioerr.github.io/tiyan-dangdang-shiti-shudian/</link>
-      <pubDate>Mon, 24 Oct 2016 05:06:50 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tiyan-dangdang-shiti-shudian/</guid>
-      <description>&lt;p&gt;周末去了一趟梅溪湖步步高新天地的当当梅溪书院，听说是当当试水实体书店后在长沙开的第一家，价格与当当网上价格一致，而且有专门的儿童阅读区，正好让儿子感受一下。&lt;/p&gt;
+      <item>
+        <title>体验当当实体书店</title>
+        <link>https://ioerr.github.io/posts/tiyan-dangdang-shiti-shudian/</link>
+        <pubDate>Mon, 24 Oct 2016 05:06:50 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tiyan-dangdang-shiti-shudian/</guid>
+        <description>&lt;p&gt;周末去了一趟梅溪湖步步高新天地的当当梅溪书院，听说是当当试水实体书店后在长沙开的第一家，价格与当当网上价格一致，而且有专门的儿童阅读区，正好让儿子感受一下。&lt;/p&gt;
 
 &lt;p&gt;进去的第一感觉是人不少，比新华书店热闹多了，和定王台图书城、书市一个等级。&lt;br /&gt;
-装修设计感觉比较显档次（结账时听见身旁的小女生对朋友说，“厕所的设施好高级，快去上！”囧，不就是
+装修设计感觉比较显档次（结账时听见身旁的小女生对朋友说，“厕所的设施好高级，快去上！”囧，不就是&lt;br /&gt;
 Kohler 的洁具吗？），层高高，空间大，灯光柔和。侧门还有咖啡馆。&lt;br /&gt;
 看着书籍不少，上下三层之外，还有夹层和楼梯墙面到处摆着书。最上面一层是讲座交流厅，去的时候正好有个名叫麦洛洛的作家的读者见面会。&lt;br /&gt;
 成人阅读区放着长桌和椅子，儿童阅读区则是像小游泳池一样的小池子，小孩子可以坐在池底或靠在池边看书。&lt;/p&gt;
@@ -260,16 +262,15 @@ Kohler 的洁具吗？），层高高，空间大，灯光柔和。侧门还有�
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/95f49390-5edc-4dd5-868c-4f3311378a9b.jpg.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/95f49390-5edc-4dd5-868c-4f3311378a9b.jpg&#34; alt=&#34;photo
 95f49390-5edc-4dd5-868c-4f3311378a9b.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>可穿戴医疗设备</title>
-      <link>https://ioerr.github.io/kechuandai-yiliao-shebei/</link>
-      <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kechuandai-yiliao-shebei/</guid>
-      <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
-大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有
+      <item>
+        <title>可穿戴医疗设备</title>
+        <link>https://ioerr.github.io/posts/kechuandai-yiliao-shebei/</link>
+        <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kechuandai-yiliao-shebei/</guid>
+        <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
+大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有&lt;br /&gt;
 CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 还有人提到要能够录音、录像和喷防狼喷雾以便应对医闹，说起来还真是心酸啊。&lt;/p&gt;
 
@@ -322,17 +323,16 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 &lt;p&gt;11、吊针感应&lt;br /&gt;
 如果非要加新的感应器的话，感知吊瓶滴液的速度、压力来判断是否快滴完，或者没有插好，应该算是比较实用的附加功能吧？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>为什么标签系统和全文检索还不够好用？</title>
-      <link>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
-      <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
-      <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr
-等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了
-Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
+      <item>
+        <title>为什么标签系统和全文检索还不够好用？</title>
+        <link>https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
+        <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
+        <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr&lt;br /&gt;
+等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了&lt;br /&gt;
+Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote&lt;br /&gt;
 和为知这样需要保存内容的笔记工具。&lt;/p&gt;
 
 &lt;p&gt;一个原因是，不支持组合标签的标签系统就是残废。&lt;/p&gt;
@@ -350,15 +350,14 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
 
 &lt;p&gt;所以，大概只有等到程序能够理解自然语言的含义，才能以符合预期的方式检索信息吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>iWatch</title>
-      <link>https://ioerr.github.io/iwatch/</link>
-      <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/iwatch/</guid>
-      <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch
+      <item>
+        <title>iWatch</title>
+        <link>https://ioerr.github.io/posts/iwatch/</link>
+        <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/iwatch/</guid>
+        <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch&lt;br /&gt;
 会不会改变世界，会有什么酷炫功能。&lt;/p&gt;
 
 &lt;p&gt;要我说，如果真往功能强大的可穿戴智能设备上靠，iWatch 只会死得很惨。&lt;br /&gt;
@@ -381,15 +380,14 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
 &lt;p&gt;其他的功能尽量砍掉吧，外形做的好看点培养出初级用户和使用习惯再说，人类毕竟不是铁血战士。&lt;br /&gt;
 &lt;img src=&#34;http://www.whatsyourobsession.com/review/hot-toys/guardian-predator-2-low.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>移动化</title>
-      <link>https://ioerr.github.io/yidonghua/</link>
-      <pubDate>Fri, 31 May 2013 10:14:04 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidonghua/</guid>
-      <description>
+      <item>
+        <title>移动化</title>
+        <link>https://ioerr.github.io/posts/yidonghua/</link>
+        <pubDate>Fri, 31 May 2013 10:14:04 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yidonghua/</guid>
+        <description>
 
 &lt;p&gt;在宿遗群聊内因为 Yule 谈到“移动化”的话题，引出以下想法：&lt;/p&gt;
 
@@ -405,22 +403,22 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
 为什么要占用不止一只手来操作平板呢？&lt;br /&gt;
 为什么只能是利用碎片时间呢？&lt;/p&gt;
 
-&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见
+&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见&lt;br /&gt;
 Google Glass 的尝试？就通讯终端设备而言，这一天恐怕不会来得太晚。&lt;/p&gt;
 
 &lt;p&gt;那重点是什么？&lt;/p&gt;
 
-&lt;p&gt;一、Google Glass
+&lt;p&gt;一、Google Glass&lt;br /&gt;
 这类设备仍然没有逃出&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端基本矛盾&lt;/a&gt;中的高性能、多功能与随身电源的矛盾。&lt;/p&gt;
 
 &lt;p&gt;高性能电池技术和无线充电技术仍然是备受期待的技术难点（据说国内在电池技术上已经有重大突破，但不知何时可以推出成熟的工业方案和产品）。&lt;/p&gt;
 
 &lt;p&gt;二、人机界面和人工智能在期待革命。&lt;/p&gt;
 
-&lt;p&gt;前一阵子我还在 twitter
+&lt;p&gt;前一阵子我还在 twitter&lt;br /&gt;
 上提到，科幻作品中作为背景出现的计算机，通常设定为能够准确理解人类的意图，毫无障碍地与人类交流沟通，可是，这样高超的人机交互能力，以及可以准确分析、理解和预测人类意图的人工智能，其实现难度不下于时空穿越、永生不死、心灵感应。&lt;br /&gt;
 不过是在理论上确有可能，因此在虚构作品中也就轻而易举地做到了。但在现实世界中，何其难哉！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好
+&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好&lt;br /&gt;
 IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟需要我们去填平。&lt;/p&gt;
 
 &lt;p&gt;哪怕是在最基本的操作方面，比如，我在电脑上看到的一段视频，想要手一拨就送到屏幕旁的手机中带出去看，而不是两个设备通过有线或无线手工连接上，打开相应的程序同步，还要等很久才能传完完整的视频，搞不好还要担心没电或者没空间等等……&lt;/p&gt;
@@ -457,15 +455,14 @@ IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟�
 用户只要在成本可以接受的范围内顺利地达到了这些目的就行，而为了实现这个业务目的要具备或优化的种种软硬件和网络条件，特别是一系列配套服务，从受理、提醒、支付、关怀和投诉处理到导航、导购、社交，是运营商要一边做好一边不让用户操心甚至担心的事情。&lt;br /&gt;
 虽然现在我的想法还比较模糊，但只要意识到这方面的现状还有巨大的改进余地，就未来必然有可以作为的空间。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>“限制用户选择”的迷思</title>
-      <link>https://ioerr.github.io/xianzhi-yonghu-xuanze-de-misi/</link>
-      <pubDate>Sun, 17 Mar 2013 09:15:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xianzhi-yonghu-xuanze-de-misi/</guid>
-      <description>&lt;p&gt;经常听到的一个观点是，如果给用户太多选择，他们通常不会配置出最好的、最高效、最有品位的方案，给他们一个精心设计的默认方案，其他的选择越少越好。大多数的用户并不需要大多数的功能和设置，选择太多会带来困扰，或者让用户误解产品，又或者设计者容易被无效需求牵着鼻子走，分散精力，增加开发和维护的工作量。&lt;/p&gt;
+      <item>
+        <title>“限制用户选择”的迷思</title>
+        <link>https://ioerr.github.io/posts/xianzhi-yonghu-xuanze-de-misi/</link>
+        <pubDate>Sun, 17 Mar 2013 09:15:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xianzhi-yonghu-xuanze-de-misi/</guid>
+        <description>&lt;p&gt;经常听到的一个观点是，如果给用户太多选择，他们通常不会配置出最好的、最高效、最有品位的方案，给他们一个精心设计的默认方案，其他的选择越少越好。大多数的用户并不需要大多数的功能和设置，选择太多会带来困扰，或者让用户误解产品，又或者设计者容易被无效需求牵着鼻子走，分散精力，增加开发和维护的工作量。&lt;/p&gt;
 
 &lt;p&gt;不错，这个观点在一定程度上是对的，在这种思路指导下，很多产品都取得了成功。但是，成功，不等于成功者的理论就绝对正确，它可能还有进步和修正的余地，在不同的环境下，甚至可以大错特错。&lt;/p&gt;
 
@@ -485,15 +482,14 @@ IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟�
 &lt;p&gt;不扯太玄的东西，就算设计者确实看不起大多数用户的审美品位、配置能力，那也不是以自己的思维限制住所有用户选择的充足理由。&lt;br /&gt;
 可控的选择项向新手和大众用户开放，更加深入细致的选项（当然不是什么都开放）则做成仅内行用户可用的方式，既可避免轻率而不负责任的用户抱怨，也能够满足核心用户不断深入的需求，整体上这仍然是可控的，以秀价值观优越感的方法（开发维护成本的理由另当别论）逃避这种解决之道，在我看来，是用时髦的理论为懒惰找借口。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>什么是整句输入法？</title>
-      <link>https://ioerr.github.io/shenme-shi-zhengju-shurufa/</link>
-      <pubDate>Mon, 26 Nov 2012 03:35:34 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shenme-shi-zhengju-shurufa/</guid>
-      <description>&lt;p&gt;长期围观本 blog
+      <item>
+        <title>什么是整句输入法？</title>
+        <link>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</link>
+        <pubDate>Mon, 26 Nov 2012 03:35:34 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</guid>
+        <description>&lt;p&gt;长期围观本 blog&lt;br /&gt;
 的读者应该知道，我写过不少关于整句输入法的东西，是智能狂拼的拥趸，虽然因为兼容性（2代）和稳定性（3代）的原因，没有用它当主力输入法，而且现在智能狂拼的开发基本停滞，但我始终相信整句输入法是有市场的，随时准备转回使用满意的整句输入法。&lt;/p&gt;
 
 &lt;p&gt;看到知乎上有人问：中文输入法中的「整句输入」特性指的是什么，真的对中文输入有很大帮助吗？觉得有必要为不熟悉整句输入法的人宣传一下。&lt;/p&gt;
@@ -514,21 +510,20 @@ IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟�
 排除智能自动功能的干扰：有的时候本来一句话中只有一个词是不对的，可是将其改正之后，因为上下文智能匹配功能发挥作用，其他更多的词反而又自动改错了，所以需要提供手段告知输入法哪些是不需要其插手的，这方面有分段确认、提供关闭智能匹配的选项等办法。&lt;br /&gt;
 语境参与智能判断：智能狂拼3在挣扎着求突破的时期曾经提出过语境切换的概念，但实现手段还非常原始，搜狗输入法最近的智慧版也提出了情景感知的概念，同样还有很大的局限。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>通讯录服务应有的变革</title>
-      <link>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</link>
-      <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</guid>
-      <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
+      <item>
+        <title>通讯录服务应有的变革</title>
+        <link>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</link>
+        <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</guid>
+        <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
 
 &lt;p&gt;其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。&lt;/p&gt;
 
 &lt;p&gt;为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。&lt;br /&gt;
-在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如
-YouKnowWho at
+在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如&lt;br /&gt;
+YouKnowWho at&lt;br /&gt;
 Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。&lt;br /&gt;
 用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。&lt;/p&gt;
 
@@ -540,22 +535,21 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 
 &lt;p&gt;至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。&lt;/p&gt;
 
-&lt;p&gt;其实这就像即时通讯软件 ID
+&lt;p&gt;其实这就像即时通讯软件 ID&lt;br /&gt;
 从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。&lt;br /&gt;
 而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>为什么电子书翻页跳转不方便？</title>
-      <link>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
-      <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
-      <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
+      <item>
+        <title>为什么电子书翻页跳转不方便？</title>
+        <link>https://ioerr.github.io/posts/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
+        <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
+        <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
 明明是有跳转功能的，但是用起来怎么就不如翻实体书方便呢？&lt;/p&gt;
 
-&lt;p&gt;使用 Kindle
+&lt;p&gt;使用 Kindle&lt;br /&gt;
 类电子墨水屏的设备是一个原因，毕竟屏幕的响应速度是先天制约。&lt;br /&gt;
 可是，使用 iPad 类的 IPS 屏幕平板设备为什么也是如此？&lt;br /&gt;
 想想看，进度条如果和屏幕等宽，对应同样的页数，随手翻阅的定位精度应该要远超通常只有几厘米厚的纸质书。&lt;/p&gt;
@@ -563,7 +557,7 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 &lt;p&gt;除此之外最容易想到的原因，可能是翻纸质书的时候，可以同时浏览页面内容——一秒钟翻完整本实体书很正常。&lt;br /&gt;
 只要辨识反应够快，在纸张翻页时总是可以知道当前页大致内容是什么，如果记住了图表、插图、章节名称等关键信息，就更容易定位。&lt;br /&gt;
 而许多电子书阅读设备在翻页时，受限于性能和功能，在拖动进度条跳转时不展现内容，又或者无法在快速翻动的页面上即时显示预览内容——某些电子书设备若单单是翻页还能预览，一秒钟内显示翻过的每一页，可能就比较吃力了。&lt;br /&gt;
-不过，这也不是全部原因。因为比如 iOS 上 GoodReader
+不过，这也不是全部原因。因为比如 iOS 上 GoodReader&lt;br /&gt;
 这样的应用，拖动进度条时就能即时刷新，虽然我不知道拖动过程中它是不是真的每一页都展示了。&lt;/p&gt;
 
 &lt;p&gt;其次，跳转往往只是临时回看或预览，往往还要跳回来继续阅读的，可是电子书在你拖动进度条的时候可分不清你到底是要干什么。&lt;br /&gt;
@@ -577,15 +571,14 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 
 &lt;p&gt;回头一想，搜索、摘录、笔记功能，电子书又比实体书强多了，为了跳转的体验偏好实体书到底不划算啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>购物自助声明卡片</title>
-      <link>https://ioerr.github.io/gouwu-zizhu-shengming-kapian/</link>
-      <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gouwu-zizhu-shengming-kapian/</guid>
-      <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
+      <item>
+        <title>购物自助声明卡片</title>
+        <link>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</link>
+        <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</guid>
+        <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
 其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和介绍——有时候客人不敢开口，不敢呆太久，又不知道自己想要的东西放在哪里，好不好用，本来想买的最后硬生生的忍住了只好默默走掉；有的时候客人更怕店员上来说话，店员一开口他/她就红着脸走掉了。&lt;/p&gt;
 
 &lt;p&gt;作为顾客，我也时常有这样的矛盾心理。&lt;br /&gt;
@@ -598,127 +591,7 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 
 &lt;p&gt;为了降低成本，卡片或贴纸的背面可以印广告。&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Dungeon Raid</title>
-      <link>https://ioerr.github.io/dungeon-raid/</link>
-      <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dungeon-raid/</guid>
-      <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
-
-&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon
-Raid&lt;/a&gt;
-是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的
-Dungeon Raid）。&lt;br /&gt;
-这个游戏上市的时间很久了，不过其设计值得学习。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://a5.mzstatic.com/us/r1000/031/Purple/3e/bb/d4/mzl.ggwriucc.320x480-75.jpg&#34; alt=&#34;Dungeon
-Raid&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;1、图文识别&lt;br /&gt;
-缺点是仍有太小的图文，比如怪物的描述文字、技能和特性的图标等等。&lt;br /&gt;
-而且怪物的描述文字出现在图标下方，正好被手指挡住，是个败笔。&lt;br /&gt;
-不过熟悉了各种图标之后，需要看文字的机会不多。&lt;/p&gt;
-
-&lt;p&gt;2、指点操作&lt;br /&gt;
-6×6的方格，一般人手指操作已是游刃有余了。&lt;br /&gt;
-作为连线游戏，基本的连线操作错误率低，即使划到一半，跳出恼人的通知窗口，也不会导致误操作。&lt;/p&gt;
-
-&lt;p&gt;3、单手操作&lt;br /&gt;
-单手划线足够了，当然，也有人喜欢一手掌握机身，一手用食指划线。&lt;/p&gt;
-
-&lt;p&gt;4、不需要时刻关心&lt;br /&gt;
-非即时互动，偷闲玩玩毫无压力。&lt;/p&gt;
-
-&lt;p&gt;5、信息量合适&lt;br /&gt;
-怪物和各种道具的布局情况，血量、防御、攻击、经验、金币、技能等等指标均一目了然，基本上不需要进入统计页面查看细项，通常切换回游戏中瞟一眼就可以马上接着玩。&lt;/p&gt;
-
-&lt;p&gt;6、成就感&lt;br /&gt;
-有多种难度和玩法选择；&lt;br /&gt;
-有多种怪物，包括天敌怪物；&lt;br /&gt;
-有多种技能、种族、特性组合；&lt;br /&gt;
-有多种升级选择和发展路径；&lt;br /&gt;
-简而言之，容易沉迷。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动设备触屏游戏六戒</title>
-      <link>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</link>
-      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</guid>
-      <description>&lt;p&gt;时常觉得 iPod/iPhone
-上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
-
-&lt;p&gt;1、图文难以识别。&lt;br /&gt;
-本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。&lt;br /&gt;
-比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。&lt;/p&gt;
-
-&lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
-
-&lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
-中变更球员名单，很容易点错球员；&lt;br /&gt;
-直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
-间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
-
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
-swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
-如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
-
-&lt;p&gt;至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。&lt;/p&gt;
-
-&lt;p&gt;3、必须双手或横屏操作，无法充分解放另一只手&lt;br /&gt;
-在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。&lt;br /&gt;
-有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。&lt;/p&gt;
-
-&lt;p&gt;4、需要实时关注，一刻不能分心&lt;br /&gt;
-漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。&lt;br /&gt;
-如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。&lt;br /&gt;
-即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。&lt;br /&gt;
-所以应该尽量采用回合制或短场景。&lt;br /&gt;
-如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。&lt;/p&gt;
-
-&lt;p&gt;5、信息量太大，不容易重新关注&lt;br /&gt;
-有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。&lt;/p&gt;
-
-&lt;p&gt;6、没有足够的成就感&lt;br /&gt;
-规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
-这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>小额支付支持内容作者</title>
-      <link>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
-      <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense
-被关闭&lt;/a&gt;，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。&lt;/p&gt;
-
-&lt;p&gt;之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。&lt;/p&gt;
-
-&lt;p&gt;当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。&lt;br /&gt;
-至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。&lt;/p&gt;
-
-&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;
-在阮一峰文章的回复中提醒，支付宝还有&lt;a href=&#34;https://shenghuo.alipay.com/escore.htm&#34;&gt;担保交易&lt;/a&gt;功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。&lt;/p&gt;
-
-&lt;p&gt;好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。&lt;br /&gt;
-单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。&lt;/p&gt;
-
-&lt;p&gt;另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。&lt;br /&gt;
-也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;
-这样的项目，到目前为止的用户数大约10万。&lt;/p&gt;
-
-&lt;p&gt;又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了&lt;a href=&#34;https://gist.github.com/2246054&#34;&gt;这个收款主页&lt;/a&gt;，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。&lt;/p&gt;
-</description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>号码 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/</link>
     <description>Recent content in 号码 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Nov 2012 09:55:39 +0000</lastBuildDate>
     
-    <item>
-      <title>通讯录服务应有的变革</title>
-      <link>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</link>
-      <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</guid>
-      <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>通讯录服务应有的变革</title>
+        <link>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</link>
+        <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</guid>
+        <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
 
 &lt;p&gt;其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。&lt;/p&gt;
 
 &lt;p&gt;为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。&lt;br /&gt;
-在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如
-YouKnowWho at
+在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如&lt;br /&gt;
+YouKnowWho at&lt;br /&gt;
 Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。&lt;br /&gt;
 用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。&lt;/p&gt;
 
@@ -34,11 +34,11 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 
 &lt;p&gt;至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。&lt;/p&gt;
 
-&lt;p&gt;其实这就像即时通讯软件 ID
+&lt;p&gt;其实这就像即时通讯软件 ID&lt;br /&gt;
 从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。&lt;br /&gt;
 而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

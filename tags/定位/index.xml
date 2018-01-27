@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>定位 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%AE%9A%E4%BD%8D/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%AE%9A%E4%BD%8D/</link>
     <description>Recent content in 定位 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%AE%9A%E4%BD%8D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Oct 2012 09:13:14 +0000</lastBuildDate>
     
-    <item>
-      <title>为什么电子书翻页跳转不方便？</title>
-      <link>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
-      <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
-      <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%AE%9A%E4%BD%8D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>为什么电子书翻页跳转不方便？</title>
+        <link>https://ioerr.github.io/posts/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>
+        <pubDate>Mon, 22 Oct 2012 09:13:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</guid>
+        <description>&lt;p&gt;为什么阅读电子书时，要查看之前读过的内容，翻阅定位的体验总是不如纸质书呢？&lt;br /&gt;
 明明是有跳转功能的，但是用起来怎么就不如翻实体书方便呢？&lt;/p&gt;
 
-&lt;p&gt;使用 Kindle
+&lt;p&gt;使用 Kindle&lt;br /&gt;
 类电子墨水屏的设备是一个原因，毕竟屏幕的响应速度是先天制约。&lt;br /&gt;
 可是，使用 iPad 类的 IPS 屏幕平板设备为什么也是如此？&lt;br /&gt;
 想想看，进度条如果和屏幕等宽，对应同样的页数，随手翻阅的定位精度应该要远超通常只有几厘米厚的纸质书。&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;p&gt;除此之外最容易想到的原因，可能是翻纸质书的时候，可以同时浏览页面内容——一秒钟翻完整本实体书很正常。&lt;br /&gt;
 只要辨识反应够快，在纸张翻页时总是可以知道当前页大致内容是什么，如果记住了图表、插图、章节名称等关键信息，就更容易定位。&lt;br /&gt;
 而许多电子书阅读设备在翻页时，受限于性能和功能，在拖动进度条跳转时不展现内容，又或者无法在快速翻动的页面上即时显示预览内容——某些电子书设备若单单是翻页还能预览，一秒钟内显示翻过的每一页，可能就比较吃力了。&lt;br /&gt;
-不过，这也不是全部原因。因为比如 iOS 上 GoodReader
+不过，这也不是全部原因。因为比如 iOS 上 GoodReader&lt;br /&gt;
 这样的应用，拖动进度条时就能即时刷新，虽然我不知道拖动过程中它是不是真的每一页都展示了。&lt;/p&gt;
 
 &lt;p&gt;其次，跳转往往只是临时回看或预览，往往还要跳回来继续阅读的，可是电子书在你拖动进度条的时候可分不清你到底是要干什么。&lt;br /&gt;
@@ -41,15 +41,14 @@
 
 &lt;p&gt;回头一想，搜索、摘录、笔记功能，电子书又比实体书强多了，为了跳转的体验偏好实体书到底不划算啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>手机应用创意</title>
-      <link>https://ioerr.github.io/shouji-yingyong-chuangyi/</link>
-      <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-yingyong-chuangyi/</guid>
-      <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
+      <item>
+        <title>手机应用创意</title>
+        <link>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</link>
+        <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</guid>
+        <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
 最关心的是，定位功能和手机结合起来能够有什么好玩法。&lt;/p&gt;
 
 &lt;p&gt;现在的 LBS 服务普遍功能单调，实用性不够，签到的操作麻烦。&lt;br /&gt;
@@ -221,7 +220,7 @@ Google的搜索结果实时通知不靠谱，因为它不能准确了解你期�
 
 &lt;p&gt;** 正品商标识别**&lt;/p&gt;
 
-&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG
+&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG&lt;br /&gt;
 Amycall手机、康帅傅方便面。&lt;br /&gt;
 用这个应用拍下商标，就可以自动分析是否正品。&lt;br /&gt;
 如果所有产品使用统一的二维码或条码校验，也可以结合二维码和条码验证，准确率更高。这样山寨品牌要造假，标志必须做得完全一样，二维码或条码也必须与正牌完全一样，就很难打擦边球了。&lt;/p&gt;
@@ -287,7 +286,7 @@ Amycall手机、康帅傅方便面。&lt;br /&gt;
 在钥匙上贴标签吧，又怕旁人知道，不太安全。&lt;br /&gt;
 这个应用可以拍照、扫描钥匙的齿形，记录匹配的锁的信息，今后，当你偶然翻出一把很久都没用过的钥匙，又想不起来是用在哪里的时候，用摄像头照一下，答案就出现了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

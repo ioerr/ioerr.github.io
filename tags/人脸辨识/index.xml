@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人脸辨识 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BA%BA%E8%84%B8%E8%BE%A8%E8%AF%86/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BA%BA%E8%84%B8%E8%BE%A8%E8%AF%86/</link>
     <description>Recent content in 人脸辨识 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BA%BA%E8%84%B8%E8%BE%A8%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Oct 2007 03:07:30 +0000</lastBuildDate>
     
-    <item>
-      <title>岁月如刀</title>
-      <link>https://ioerr.github.io/suiyuerudao/</link>
-      <pubDate>Sun, 21 Oct 2007 03:07:30 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/suiyuerudao/</guid>
-      <description>&lt;p&gt;用5年之前的照片做人脸辨识，最相似的10个名人结果如下：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%BA%BA%E8%84%B8%E8%BE%A8%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>岁月如刀</title>
+        <link>https://ioerr.github.io/posts/suiyuerudao/</link>
+        <pubDate>Sun, 21 Oct 2007 03:07:30 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/suiyuerudao/</guid>
+        <description>&lt;p&gt;用5年之前的照片做人脸辨识，最相似的10个名人结果如下：&lt;br /&gt;
 &lt;a href=&#34;http://www.yupoo.com/photos/view?id=ff80808115a315af0115c07474605480&#34;&gt;&lt;img src=&#34;http://photo5.yupoo.com/20071021/104637_80931022_rylipcph.jpg&#34; alt=&#34;2002&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-依相似度排序分别是容祖儿、徐若瑄、舒琪、宇多田光、松隆子、竹内结子、Janie
+依相似度排序分别是容祖儿、徐若瑄、舒琪、宇多田光、松隆子、竹内结子、Janie&lt;br /&gt;
 Tienphosuwan、魏圣美、伴都美子、香取慎吾&lt;/p&gt;
 
 &lt;p&gt;然后用刚刚自拍的照片做人脸辨识，结果如下：&lt;br /&gt;
 &lt;a href=&#34;http://www.yupoo.com/photos/view?id=ff80808115a315af0115c074768d5484&#34;&gt;&lt;img src=&#34;http://photo11.yupoo.com/20071021/104638_1025422751_ooftkqoi.jpg&#34; alt=&#34;2007&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-依相似度排序分别是周星驰、Jesse L. Martin、Garcelle
+依相似度排序分别是周星驰、Jesse L. Martin、Garcelle&lt;br /&gt;
 Beauvais、陈凯歌、Dakota Fanning、张国荣、李英爱、徐若瑄、郭淑贤、滨崎步&lt;/p&gt;
 
 &lt;p&gt;为什么会从9女1男变成6女4男，还混进来了陈凯歌啊？这倒也罢了，可是前一组的平均年龄是28岁，而后一组的平均年龄就已经是38岁了呀！真是岁月如刀刀刀催人老啊～&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

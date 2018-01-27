@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>不吉祥物 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="不吉祥物" />
+<meta property="og:description" content="96年亚洲杯中国队对阵沙特阿拉伯，同学要我猜猜比分，我说比分猜不准，丢球可能是4个…结果中国队2:0领先后3:4被淘汰…
+97年大连金州没有眼泪，那个时候我正在厨房洗碗，听到电视转播中说中国队已经2:0领先伊朗，于是兴冲冲地跑过去看…结果就看到了人肉马达
+Mahdavikia 那脚世界波，以及2:4的大翻盘。
+后来某次预选赛大循环圈两次遭遇伊朗，第一回合主场作战，我预测比分是1:4，不幸再次言中。客场比赛时，我早早上床，打算不闻不问，但还是按捺不住竖起耳朵听转播，于是来了一个0:4…
+今天，就在今天，打开在线转播，看到比分4:0——中国队领先马来西亚。然则不到5分钟，马上被打入一个漂亮的远射，然后两位核心球员相继领到黄牌，场面一度混乱不堪…
+笑容僵硬的我赶紧关掉窗口假装没看见…
+事后得知我关掉直播窗口后中国队倒进了个球…看来我果然是中国队不吉祥物啊…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/bujixiangwu/" />
+
+
+
+<meta property="article:published_time" content="2007-07-10T15:46:23&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-07-10T15:46:23&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="不吉祥物">
+<meta itemprop="description" content="96年亚洲杯中国队对阵沙特阿拉伯，同学要我猜猜比分，我说比分猜不准，丢球可能是4个…结果中国队2:0领先后3:4被淘汰…
+97年大连金州没有眼泪，那个时候我正在厨房洗碗，听到电视转播中说中国队已经2:0领先伊朗，于是兴冲冲地跑过去看…结果就看到了人肉马达
+Mahdavikia 那脚世界波，以及2:4的大翻盘。
+后来某次预选赛大循环圈两次遭遇伊朗，第一回合主场作战，我预测比分是1:4，不幸再次言中。客场比赛时，我早早上床，打算不闻不问，但还是按捺不住竖起耳朵听转播，于是来了一个0:4…
+今天，就在今天，打开在线转播，看到比分4:0——中国队领先马来西亚。然则不到5分钟，马上被打入一个漂亮的远射，然后两位核心球员相继领到黄牌，场面一度混乱不堪…
+笑容僵硬的我赶紧关掉窗口假装没看见…
+事后得知我关掉直播窗口后中国队倒进了个球…看来我果然是中国队不吉祥物啊…">
+
+
+<meta itemprop="datePublished" content="2007-07-10T15:46:23&#43;00:00" />
+<meta itemprop="dateModified" content="2007-07-10T15:46:23&#43;00:00" />
+<meta itemprop="wordCount" content="8">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="不吉祥物"/>
+<meta name="twitter:description" content="96年亚洲杯中国队对阵沙特阿拉伯，同学要我猜猜比分，我说比分猜不准，丢球可能是4个…结果中国队2:0领先后3:4被淘汰…
+97年大连金州没有眼泪，那个时候我正在厨房洗碗，听到电视转播中说中国队已经2:0领先伊朗，于是兴冲冲地跑过去看…结果就看到了人肉马达
+Mahdavikia 那脚世界波，以及2:4的大翻盘。
+后来某次预选赛大循环圈两次遭遇伊朗，第一回合主场作战，我预测比分是1:4，不幸再次言中。客场比赛时，我早早上床，打算不闻不问，但还是按捺不住竖起耳朵听转播，于是来了一个0:4…
+今天，就在今天，打开在线转播，看到比分4:0——中国队领先马来西亚。然则不到5分钟，马上被打入一个漂亮的远射，然后两位核心球员相继领到黄牌，场面一度混乱不堪…
+笑容僵硬的我赶紧关掉窗口假装没看见…
+事后得知我关掉直播窗口后中国队倒进了个球…看来我果然是中国队不吉祥物啊…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-07-10 03:46">2007-07-10</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          
+            , 
+            <a href="/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">纯粹体育</a>
+          </p>
+      <h1>不吉祥物</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>96年亚洲杯中国队对阵沙特阿拉伯，同学要我猜猜比分，我说比分猜不准，丢球可能是4个…结果中国队2:0领先后3:4被淘汰…</p>
+
+<p>97年大连金州没有眼泪，那个时候我正在厨房洗碗，听到电视转播中说中国队已经2:0领先伊朗，于是兴冲冲地跑过去看…结果就看到了人肉马达<br />
+Mahdavikia 那脚世界波，以及2:4的大翻盘。</p>
+
+<p>后来某次预选赛大循环圈两次遭遇伊朗，第一回合主场作战，我预测比分是1:4，不幸再次言中。客场比赛时，我早早上床，打算不闻不问，但还是按捺不住竖起耳朵听转播，于是来了一个0:4…</p>
+
+<p>今天，就在今天，打开在线转播，<a href="http://twitter.com/calon/statuses/143049892">看到比分4:0</a>——<a href="http://twitter.com/calon/statuses/143050182">中国队领先马来西亚</a>。然则不到5分钟，<a href="http://twitter.com/calon/statuses/143052642">马上被打入一个漂亮的远射</a>，然后两位核心球员相继领到黄牌，场面一度混乱不堪…<br />
+笑容僵硬的我<a href="http://twitter.com/calon/statuses/143059222">赶紧关掉窗口</a>假装没看见…</p>
+
+<p>事后得知我关掉直播窗口后中国队倒进了个球…看来我果然是中国队不吉祥物啊…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%8d%e5%90%89%e7%a5%a5%e7%89%a9》&body=https%3a%2f%2fioerr.github.io%2fposts%2fbujixiangwu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fbujixiangwu%2f&text= @calon %e4%b8%8d%e5%90%89%e7%a5%a5%e7%89%a9&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

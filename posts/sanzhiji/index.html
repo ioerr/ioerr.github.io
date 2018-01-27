@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三只鸡 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="三只鸡" />
+<meta property="og:description" content="今天看了这篇《苏联人的暗房技术》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。
+比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。
+过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。
+还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/sanzhiji/" />
+
+
+
+<meta property="article:published_time" content="2007-10-16T14:33:49&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-10-16T14:33:49&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="三只鸡">
+<meta itemprop="description" content="今天看了这篇《苏联人的暗房技术》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。
+比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。
+过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。
+还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。">
+
+
+<meta itemprop="datePublished" content="2007-10-16T14:33:49&#43;00:00" />
+<meta itemprop="dateModified" content="2007-10-16T14:33:49&#43;00:00" />
+<meta itemprop="wordCount" content="4">
+
+
+
+<meta itemprop="keywords" content="林彪,游行,知青," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="三只鸡"/>
+<meta name="twitter:description" content="今天看了这篇《苏联人的暗房技术》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。
+比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。
+过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。
+还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-10-16 02:33">2007-10-16</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          </p>
+      <h1>三只鸡</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%9E%97%E5%BD%AA">
+              <span class="hash">#</span>林彪</a>
+          
+            , 
+            <a href="/tags/%E6%B8%B8%E8%A1%8C">
+              <span class="hash">#</span>游行</a>
+          
+            , 
+            <a href="/tags/%E7%9F%A5%E9%9D%92">
+              <span class="hash">#</span>知青</a>
+          
+        
+      </p>
+    </header>
+    <section><p>今天看了这篇《<a href="http://sonicbbs.eastday.com/topicdisplay_safe.asp?TopicID=2140699&amp;Page=2&amp;BoardID=4">苏联人的暗房技术</a>》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。<br />
+比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。<br />
+过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。</p>
+
+<p>还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%89%e5%8f%aa%e9%b8%a1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fsanzhiji%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fsanzhiji%2f&text= @calon %e4%b8%89%e5%8f%aa%e9%b8%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

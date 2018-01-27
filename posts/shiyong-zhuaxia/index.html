@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>试用抓虾 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="试用抓虾" />
+<meta property="og:description" content="禁不住好奇，注册试用了抓虾的服务。
+首先，可能是国外的邮箱收国内的信件速度慢一点，注册激活信件差不多1个多小时才出现在收件箱内；
+然后，找了半天也没找到导入 OPML
+文件的地方，即使是帮助页面也没有提及。建议把导入的选项同时在“添加频道”页面最下方也放一份，不要学
+Bloglines 的坏榜样；
+第三，Bloglines
+导出的文件到了抓虾这里就少了82个。就算有部分失效和重复的，也不至于少这么多吧？包括我自己的
+RSS Feed
+也弄丢了，要手工添加。当然，比 GreatNews
+好一点，不会遇到乱码干脆就罢工，手工编辑 OPML
+才能过关…可是，如果我真的搬家的话，要花多少功夫找出丢掉的 Feed？
+第四，我总共订阅了多少个频道，最好在总目录旁边也显示出来；
+第五，未读频道不够醒目；
+第六，右键操作的想法和实现不错；
+第七，国内网站的速度就是不一样，虽然也有人抱怨速度慢；
+第八，不是我喜欢的配色风格；
+第九，收藏和频道大全功能还不错；
+第十，未读文章数上限超过了 Bloglines
+的200条；
+第十一，帮助页面中“&rdquo;频道订阅&rdquo;页面每个图标(icon)的作用?”这个问题没有回答；
+第十二，各站点的 favicon 图标没有显示出来，更难辨别清楚；
+第十三，添加频道的操作比较舒服；
+第十四，期待加强搜索功能；
+第十五，左侧导航栏的高度被不必要的按钮缩减了；
+第十六，抓虾 blog
+的回馈和沟通做得很好，有前途的表现。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shiyong-zhuaxia/" />
+
+
+
+<meta property="article:published_time" content="2006-07-24T16:02:53&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-07-24T16:02:53&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="试用抓虾">
+<meta itemprop="description" content="禁不住好奇，注册试用了抓虾的服务。
+首先，可能是国外的邮箱收国内的信件速度慢一点，注册激活信件差不多1个多小时才出现在收件箱内；
+然后，找了半天也没找到导入 OPML
+文件的地方，即使是帮助页面也没有提及。建议把导入的选项同时在“添加频道”页面最下方也放一份，不要学
+Bloglines 的坏榜样；
+第三，Bloglines
+导出的文件到了抓虾这里就少了82个。就算有部分失效和重复的，也不至于少这么多吧？包括我自己的
+RSS Feed
+也弄丢了，要手工添加。当然，比 GreatNews
+好一点，不会遇到乱码干脆就罢工，手工编辑 OPML
+才能过关…可是，如果我真的搬家的话，要花多少功夫找出丢掉的 Feed？
+第四，我总共订阅了多少个频道，最好在总目录旁边也显示出来；
+第五，未读频道不够醒目；
+第六，右键操作的想法和实现不错；
+第七，国内网站的速度就是不一样，虽然也有人抱怨速度慢；
+第八，不是我喜欢的配色风格；
+第九，收藏和频道大全功能还不错；
+第十，未读文章数上限超过了 Bloglines
+的200条；
+第十一，帮助页面中“&rdquo;频道订阅&rdquo;页面每个图标(icon)的作用?”这个问题没有回答；
+第十二，各站点的 favicon 图标没有显示出来，更难辨别清楚；
+第十三，添加频道的操作比较舒服；
+第十四，期待加强搜索功能；
+第十五，左侧导航栏的高度被不必要的按钮缩减了；
+第十六，抓虾 blog
+的回馈和沟通做得很好，有前途的表现。">
+
+
+<meta itemprop="datePublished" content="2006-07-24T16:02:53&#43;00:00" />
+<meta itemprop="dateModified" content="2006-07-24T16:02:53&#43;00:00" />
+<meta itemprop="wordCount" content="36">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="试用抓虾"/>
+<meta name="twitter:description" content="禁不住好奇，注册试用了抓虾的服务。
+首先，可能是国外的邮箱收国内的信件速度慢一点，注册激活信件差不多1个多小时才出现在收件箱内；
+然后，找了半天也没找到导入 OPML
+文件的地方，即使是帮助页面也没有提及。建议把导入的选项同时在“添加频道”页面最下方也放一份，不要学
+Bloglines 的坏榜样；
+第三，Bloglines
+导出的文件到了抓虾这里就少了82个。就算有部分失效和重复的，也不至于少这么多吧？包括我自己的
+RSS Feed
+也弄丢了，要手工添加。当然，比 GreatNews
+好一点，不会遇到乱码干脆就罢工，手工编辑 OPML
+才能过关…可是，如果我真的搬家的话，要花多少功夫找出丢掉的 Feed？
+第四，我总共订阅了多少个频道，最好在总目录旁边也显示出来；
+第五，未读频道不够醒目；
+第六，右键操作的想法和实现不错；
+第七，国内网站的速度就是不一样，虽然也有人抱怨速度慢；
+第八，不是我喜欢的配色风格；
+第九，收藏和频道大全功能还不错；
+第十，未读文章数上限超过了 Bloglines
+的200条；
+第十一，帮助页面中“&rdquo;频道订阅&rdquo;页面每个图标(icon)的作用?”这个问题没有回答；
+第十二，各站点的 favicon 图标没有显示出来，更难辨别清楚；
+第十三，添加频道的操作比较舒服；
+第十四，期待加强搜索功能；
+第十五，左侧导航栏的高度被不必要的按钮缩减了；
+第十六，抓虾 blog
+的回馈和沟通做得很好，有前途的表现。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-07-24 04:02">2006-07-24</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>试用抓虾</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>禁不住好奇，注册试用了<a href="http://www.zhuaxia.com/">抓虾</a>的服务。</p>
+
+<p>首先，可能是国外的邮箱收国内的信件速度慢一点，注册激活信件差不多1个多小时才出现在收件箱内；<br />
+然后，找了半天也没找到导入 OPML<br />
+文件的地方，即使是<a href="http://www.zhuaxia.com/help.php">帮助页面</a>也没有提及。建议把导入的选项同时在“添加频道”页面最下方也放一份，不要学<br />
+<a href="http://www.bloglines.com/">Bloglines</a> 的坏榜样；<br />
+第三，<a href="http://www.bloglines.com/">Bloglines</a><br />
+导出的文件到了<a href="http://www.zhuaxia.com/">抓虾</a>这里就少了82个。就算有部分失效和重复的，也不至于少这么多吧？包括我自己的<br />
+<a href="http://feeds.feedburner.com/calon">RSS Feed</a><br />
+也弄丢了，要手工添加。当然，比 <a href="http://www.curiostudio.com/">GreatNews</a><br />
+好一点，不会遇到乱码干脆就罢工，手工编辑 OPML<br />
+才能过关…可是，如果我真的搬家的话，要花多少功夫找出丢掉的 Feed？<br />
+第四，我总共订阅了多少个频道，最好在总目录旁边也显示出来；<br />
+第五，未读频道不够醒目；<br />
+第六，右键操作的想法和实现不错；<br />
+第七，国内网站的速度就是不一样，虽然也有人抱怨速度慢；<br />
+第八，不是我喜欢的配色风格；<br />
+第九，<a href="http://www.zhuaxia.com/mytags.php">收藏</a>和<a href="http://www.zhuaxia.com/mydirectory.php">频道大全</a>功能还不错；<br />
+第十，未读文章数上限超过了 <a href="http://www.bloglines.com/">Bloglines</a><br />
+的200条；<br />
+第十一，<a href="http://www.zhuaxia.com/help.php">帮助页面</a>中“&rdquo;频道订阅&rdquo;页面每个图标(icon)的作用?”这个问题没有回答；<br />
+第十二，各站点的 favicon 图标没有显示出来，更难辨别清楚；<br />
+第十三，添加频道的操作比较舒服；<br />
+第十四，期待加强搜索功能；<br />
+第十五，左侧导航栏的高度被不必要的按钮缩减了；<br />
+第十六，<a href="http://www.zhuaxia.com/blog/">抓虾 blog</a><br />
+的回馈和沟通做得很好，有前途的表现。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%af%95%e7%94%a8%e6%8a%93%e8%99%be》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshiyong-zhuaxia%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshiyong-zhuaxia%2f&text= @calon %e8%af%95%e7%94%a8%e6%8a%93%e8%99%be&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

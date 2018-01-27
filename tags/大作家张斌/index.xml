@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>大作家张斌 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%A4%A7%E4%BD%9C%E5%AE%B6%E5%BC%A0%E6%96%8C/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%A4%A7%E4%BD%9C%E5%AE%B6%E5%BC%A0%E6%96%8C/</link>
     <description>Recent content in 大作家张斌 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%A4%A7%E4%BD%9C%E5%AE%B6%E5%BC%A0%E6%96%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Nov 2007 15:37:20 +0000</lastBuildDate>
     
-    <item>
-      <title>觉醒吧！道德！！</title>
-      <link>https://ioerr.github.io/juexingba-daode/</link>
-      <pubDate>Fri, 02 Nov 2007 15:37:20 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/juexingba-daode/</guid>
-      <description>&lt;p&gt;谨以此文纪念一个叫做“大作家张斌”的人，以及一个业已结束的时代。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%A4%A7%E4%BD%9C%E5%AE%B6%E5%BC%A0%E6%96%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>觉醒吧！道德！！</title>
+        <link>https://ioerr.github.io/posts/juexingba-daode/</link>
+        <pubDate>Fri, 02 Nov 2007 15:37:20 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/juexingba-daode/</guid>
+        <description>&lt;p&gt;谨以此文纪念一个叫做“大作家张斌”的人，以及一个业已结束的时代。&lt;/p&gt;
 
 &lt;p&gt;曾经有一个振聋发聩的声音在网络间不停地回响：“&lt;a href=&#34;http://www.dzjzb.com&#34;&gt;觉醒吧！道德！&lt;/a&gt;”&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 &lt;p&gt;********** 不道德的分隔线 **********&lt;/p&gt;
 
-&lt;p&gt;本来今天想写关于 Ricoh 发布 GR Digital II
+&lt;p&gt;本来今天想写关于 Ricoh 发布 GR Digital II&lt;br /&gt;
 的文章，不过反正已经迟了，也就不在乎再迟几天了…&lt;br /&gt;
 &lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5128258334568849138&#34;&gt;&lt;img src=&#34;http://lh5.google.com/calon.xu/Rys7yNxpnvI/AAAAAAAAAXw/NBO7gMni4_w/s400/046.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5128258313094012626&#34;&gt;&lt;img src=&#34;http://lh4.google.com/calon.xu/Rys7w9xpntI/AAAAAAAAAXg/dDREkqEZShc/s400/1e82dbed903c8cd8b31cb1f7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
@@ -104,7 +104,7 @@
 
 &lt;p&gt;最后附&lt;a href=&#34;http://www.box.net/shared/344de9nqek&#34;&gt;“觉醒吧！道德！！”的声音下载&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

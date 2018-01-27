@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on 读写错误</title>
-    <link>https://ioerr.github.io/tags/wordpress/index.xml</link>
+    <link>https://ioerr.github.io/tags/wordpress/</link>
     <description>Recent content in Wordpress on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jan 2017 17:32:36 +0800</lastBuildDate>
     
-    <item>
-      <title>从 WordPress 迁移到 Hugo</title>
-      <link>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</link>
-      <pubDate>Tue, 17 Jan 2017 17:32:36 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</guid>
-      <description>&lt;p&gt;虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>从 WordPress 迁移到 Hugo</title>
+        <link>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</link>
+        <pubDate>Tue, 17 Jan 2017 17:32:36 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</guid>
+        <description>&lt;p&gt;虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。&lt;br /&gt;
 而且最近几年用静态网站写 blog 的风潮越来越流行，总想着可以尝试一把。&lt;/p&gt;
 
 &lt;p&gt;最开始是考察了最流行基于 Ruby 的 Jekyll 和 Octopress，然后是基于 Python 的 Pelican 和基于 node.js 的 Hexo。&lt;br /&gt;
@@ -28,13 +28,15 @@
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;安装 Hugo&lt;/li&gt;
+&lt;li&gt;安装 Hugo&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;在 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo 的 Github 发布页面&lt;/a&gt;直接下载安装包或自己编译就行。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;导出和转换 WordPress 的内容&lt;/li&gt;
+&lt;li&gt;导出和转换 WordPress 的内容&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;如果你运气够好，可以安装直接导入的插件：&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;wordpress-to-hugo-exporter &lt;/a&gt;。&lt;br /&gt;
@@ -53,7 +55,8 @@
 直接删除再试就可以了。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;折腾 Markdown 内容&lt;/li&gt;
+&lt;li&gt;折腾 Markdown 内容&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过&lt;a href=&#34;../pandoc-markdown&#34;&gt;吐槽&lt;/a&gt;）&lt;/p&gt;
@@ -84,7 +87,8 @@ done
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;选择 Hugo 模板&lt;/li&gt;
+&lt;li&gt;选择 Hugo 模板&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Hugo 官方站点有少量&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;模板演示&lt;/a&gt;，不少是从 Jekyll 的模板改的。&lt;br /&gt;
@@ -93,13 +97,14 @@ done
 &lt;p&gt;比如我的要求是：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;简洁风格；&lt;/li&gt;
-&lt;li&gt;支持翻页；&lt;/li&gt;
-&lt;li&gt;支持类别（category）展示；&lt;/li&gt;
-&lt;li&gt;支持响应式布局优先；&lt;/li&gt;
-&lt;li&gt;支持标签（tag）优先；&lt;/li&gt;
-&lt;li&gt;单栏布局优先；&lt;/li&gt;
-&lt;li&gt;方便自定义修改。&lt;/li&gt;
+&lt;li&gt;简洁风格；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持翻页；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持类别（category）展示；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持响应式布局优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持标签（tag）优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;单栏布局优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;方便自定义修改。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;尝试了多个主题之后，最终决定使用这款&lt;a href=&#34;http://themes.gohugo.io/hugo-hello-programmer-theme/&#34;&gt;Hello Programmer&lt;/a&gt;。&lt;br /&gt;
@@ -107,7 +112,8 @@ done
 使用的主页图片和 favicon 则需要自己绘制。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;发布到 Github Pages&lt;/li&gt;
+&lt;li&gt;发布到 Github Pages&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。&lt;br /&gt;
@@ -125,20 +131,19 @@ done
 
 &lt;p&gt;最后，使用 Github Pages 的话，RSS 订阅地址也变成了 &lt;a href=&#34;https://ioerr.github.io/index.xml&#34;&gt;https://ioerr.github.io/index.xml&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>最简便的内容发布方案</title>
-      <link>https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/</link>
-      <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zui-jianbian-de-neirong-fabu-fangan/</guid>
-      <description>
+      <item>
+        <title>最简便的内容发布方案</title>
+        <link>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</link>
+        <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
+        <description>
 
-&lt;p&gt;宣传、推广 Markdown
+&lt;p&gt;宣传、推广 Markdown&lt;br /&gt;
 标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。&lt;/p&gt;
 
-&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
 发布文章，至少要有这么几步：&lt;/p&gt;
 
 &lt;ol&gt;
@@ -155,11 +160,11 @@ done
 
 &lt;h3 id=&#34;邮件发布&#34;&gt;邮件发布&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
-插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;
-功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
+插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;&lt;br /&gt;
+功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;&lt;br /&gt;
 等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。&lt;br /&gt;
-如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
+如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
 是不错的选择，因为能支持大多数参数设置。&lt;br /&gt;
 不过使用邮件发布的用户始终是少数。&lt;/p&gt;
 
@@ -182,11 +187,11 @@ done
 &lt;p&gt;如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。&lt;/p&gt;
 
 &lt;p&gt;如果网站的编辑功能还不够完善呢？&lt;br /&gt;
-比如说不支持更好用的 [Markdown]
+比如说不支持更好用的 [Markdown]&lt;br /&gt;
 扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……&lt;br /&gt;
-在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
-&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live
-Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的&lt;br /&gt;
+&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live&lt;br /&gt;
+Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry&lt;br /&gt;
 Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;内容迁移&#34;&gt;内容迁移&lt;/h3&gt;
@@ -196,34 +201,33 @@ Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;理想方案&#34;&gt;理想方案&lt;/h3&gt;
 
-&lt;p&gt;有没有一个服务能结合
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +
-&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;
+&lt;p&gt;有没有一个服务能结合&lt;br /&gt;
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +&lt;br /&gt;
+&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;&lt;br /&gt;
 并继续扩展呢？&lt;/p&gt;
 
 &lt;p&gt;写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；&lt;br /&gt;
-格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word&lt;br /&gt;
 Docs 都适用；&lt;br /&gt;
-写完了复制到某个指定文件夹就是发布，这个文件夹类似于
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于&lt;br /&gt;
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
 的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；&lt;br /&gt;
-标题就是文件名，post slug 在文件名中的括号中指定，或者参考
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考&lt;br /&gt;
 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Jetpack&lt;/a&gt; 的标签参数；&lt;br /&gt;
 修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；&lt;br /&gt;
-要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment&lt;br /&gt;
 的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
 
 &lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Minimore</title>
-      <link>https://ioerr.github.io/minimore/</link>
-      <pubDate>Fri, 02 Aug 2013 17:10:16 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/minimore/</guid>
-      <description>&lt;p&gt;抽空改了个极简风格的主题 &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;mnmlist&lt;/a&gt;。&lt;/p&gt;
+      <item>
+        <title>Minimore</title>
+        <link>https://ioerr.github.io/posts/minimore/</link>
+        <pubDate>Fri, 02 Aug 2013 17:10:16 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/minimore/</guid>
+        <description>&lt;p&gt;抽空改了个极简风格的主题 &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;mnmlist&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;原主题：mnmlist v1&lt;br /&gt;
 原作者： Leo Babauta&lt;br /&gt;
@@ -235,20 +239,20 @@ Docs 都适用；&lt;br /&gt;
 修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
 修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
+&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets&lt;br /&gt;
 小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
 
 &lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
-我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个&lt;br /&gt;
 more），而且没有采用固定宽度。&lt;br /&gt;
 如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
 
 &lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
-Font-family 采用优先雅黑和
+Font-family 采用优先雅黑和&lt;br /&gt;
 Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
 
-&lt;p&gt;因为我自己是用 Disqus
-评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
+&lt;p&gt;因为我自己是用 Disqus&lt;br /&gt;
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus&lt;br /&gt;
 插件是可以正常显示的。&lt;/p&gt;
 
 &lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
@@ -256,13 +260,13 @@ Arial，最终回落到非衬线字体的方案，在保证基本可读性的基
 &lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
 
 &lt;p&gt;安装说明&lt;br /&gt;
-将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress&lt;br /&gt;
 管理后台的主题板块中激活即可。&lt;/p&gt;
 
 &lt;p&gt;版权声明&lt;br /&gt;
 原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
-那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want
-To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
+那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want&lt;br /&gt;
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用&lt;br /&gt;
 twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
 
 &lt;p&gt;效果截图：&lt;br /&gt;
@@ -273,52 +277,50 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;a href=&#34;https://app.box.com/s/45domoq1nf2rrdf03wmx&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://github.com/calon/minimore/archive/master.zip&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>TagThis</title>
-      <link>https://ioerr.github.io/tagthis/</link>
-      <pubDate>Sat, 23 Feb 2008 17:03:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tagthis/</guid>
-      <description>&lt;p&gt;因为是半路启用标签功能，所以以前的许多文章都没有打上标签，懒得自己一个个加标签，所以装上了这个“&lt;a href=&#34;http://www.brajeshwar.com/2008/tagthis-wordpress-plugin/&#34;&gt;TagThis&lt;/a&gt;”插件。&lt;/p&gt;
+      <item>
+        <title>TagThis</title>
+        <link>https://ioerr.github.io/posts/tagthis/</link>
+        <pubDate>Sat, 23 Feb 2008 17:03:58 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tagthis/</guid>
+        <description>&lt;p&gt;因为是半路启用标签功能，所以以前的许多文章都没有打上标签，懒得自己一个个加标签，所以装上了这个“&lt;a href=&#34;http://www.brajeshwar.com/2008/tagthis-wordpress-plugin/&#34;&gt;TagThis&lt;/a&gt;”插件。&lt;/p&gt;
 
 &lt;p&gt;目前提交的标签要经过手工审核才会显示。&lt;br /&gt;
 估计添加标签的人不会很多，所以同样的标签只要用户提交一次就会出现在页面中（推荐设置是2－5次）。&lt;/p&gt;
 
-&lt;p&gt;原插件的脚本和 Style 感觉比较马虎，在 IE
+&lt;p&gt;原插件的脚本和 Style 感觉比较马虎，在 IE&lt;br /&gt;
 中可能十分难看，作者自己的页面上都有难看的大片空白…所以自己稍微改了一下，反正懒得调整控制显隐的脚本，干脆就删掉了一部分…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>准备升级到 WP 2.3</title>
-      <link>https://ioerr.github.io/zhunbei-shengji-dao-wp-23/</link>
-      <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhunbei-shengji-dao-wp-23/</guid>
-      <description>&lt;p&gt;打算把“滞销书”&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;升级&lt;/a&gt;到
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 版本，如果这几天 blog
+      <item>
+        <title>准备升级到 WP 2.3</title>
+        <link>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</link>
+        <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</guid>
+        <description>&lt;p&gt;打算把“滞销书”&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;升级&lt;/a&gt;到&lt;br /&gt;
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 版本，如果这几天 blog&lt;br /&gt;
 无法访问，说明正在升级，或者升级失败，或者恢复失败…&lt;br /&gt;
 主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。&lt;/p&gt;
 
 &lt;p&gt;升级步骤参考&lt;a href=&#34;http://calon.weblogs.us/zhunbei_shengji_wordpress_2/&#34;&gt;以前的文章&lt;/a&gt;修改而成：&lt;/p&gt;
 
 &lt;p&gt;1、备份数据库。&lt;br /&gt;
-使用 &lt;a href=&#34;http://www.skippy.net/blog/plugins/&#34;&gt;Database Backup&lt;/a&gt;
+使用 &lt;a href=&#34;http://www.skippy.net/blog/plugins/&#34;&gt;Database Backup&lt;/a&gt;&lt;br /&gt;
 插件导出数据库表。&lt;/p&gt;
 
 &lt;p&gt;2、备份文件。&lt;br /&gt;
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP&lt;br /&gt;
 备份目录的方式，但愿不要出问题…&lt;br /&gt;
 之前也有做本地备份，应该不至于太危险。&lt;/p&gt;
 
 &lt;p&gt;3、停用所有的插件。&lt;br /&gt;
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
 2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。&lt;/p&gt;
 
 &lt;p&gt;4、下载并上传 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 文件。&lt;br /&gt;
-这里是&lt;a href=&#34;http://wordpress.org/download/&#34;&gt;下载地址&lt;/a&gt;，已经上传到了指定目录，目前是
+这里是&lt;a href=&#34;http://wordpress.org/download/&#34;&gt;下载地址&lt;/a&gt;，已经上传到了指定目录，目前是&lt;br /&gt;
 /WP/wordpress-2.3。&lt;/p&gt;
 
 &lt;p&gt;5、移走旧文件。&lt;br /&gt;
@@ -337,15 +339,15 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 所有的表情文件；&lt;br /&gt;
 所有的插件；&lt;br /&gt;
 /wp-includes/vars.php&lt;br /&gt;
-default 主题的
+default 主题的&lt;br /&gt;
 comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；&lt;br /&gt;
-default
+default&lt;br /&gt;
 主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；&lt;br /&gt;
 更新 veryplaintxt 主题；&lt;br /&gt;
 根据原来的文件修改 comments.php、header.php、style.css；&lt;br /&gt;
 新增的页面模板文件。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

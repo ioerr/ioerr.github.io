@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>桌面工具 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/</link>
     <description>Recent content in 桌面工具 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 13:00:13 +0800</lastBuildDate>
     
-    <item>
-      <title>跨主机共享外设</title>
-      <link>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</link>
-      <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</guid>
-      <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>跨主机共享外设</title>
+        <link>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</link>
+        <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</guid>
+        <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
 
 &lt;p&gt;最先了解到的是 &lt;a href=&#34;https://symless.com/synergy/&#34;&gt;Synergy&lt;/a&gt;，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 
 &lt;p&gt;另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

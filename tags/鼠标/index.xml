@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>鼠标 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%BC%A0%E6%A0%87/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%BC%A0%E6%A0%87/</link>
     <description>Recent content in 鼠标 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%BC%A0%E6%A0%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 13:00:13 +0800</lastBuildDate>
     
-    <item>
-      <title>跨主机共享外设</title>
-      <link>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</link>
-      <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</guid>
-      <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%BC%A0%E6%A0%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>跨主机共享外设</title>
+        <link>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</link>
+        <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</guid>
+        <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
 
 &lt;p&gt;最先了解到的是 &lt;a href=&#34;https://symless.com/synergy/&#34;&gt;Synergy&lt;/a&gt;，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。&lt;/p&gt;
 
@@ -46,26 +46,25 @@
 
 &lt;p&gt;另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>双鼠标</title>
-      <link>https://ioerr.github.io/shuang-shubiao/</link>
-      <pubDate>Wed, 31 Oct 2007 03:17:35 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shuang-shubiao/</guid>
-      <description>&lt;p&gt;想必曾经无聊到用非惯用手操作鼠标的用户不在少数，其实习惯了也还过得去是吧。那么在换只手使用鼠标之后，有没有想过同时使用2只鼠标呢？&lt;br /&gt;
+      <item>
+        <title>双鼠标</title>
+        <link>https://ioerr.github.io/posts/shuang-shubiao/</link>
+        <pubDate>Wed, 31 Oct 2007 03:17:35 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shuang-shubiao/</guid>
+        <description>&lt;p&gt;想必曾经无聊到用非惯用手操作鼠标的用户不在少数，其实习惯了也还过得去是吧。那么在换只手使用鼠标之后，有没有想过同时使用2只鼠标呢？&lt;br /&gt;
 嗯，我不是指2个鼠标同时控制1个指针，当然也不是这种&lt;a href=&#34;http://ni9e.com/2xmouse.php&#34;&gt;脚踏两只船的劈腿鼠标&lt;/a&gt;，更不是这种&lt;a href=&#34;http://forevergeek.com/gadgets/first_dual_cursor_mouse.php&#34;&gt;患有鼠格分裂症的鼠标&lt;/a&gt;，而是同时存在2个指针，2个鼠标分别控制。&lt;br /&gt;
 &lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5127311083826683394&#34;&gt;&lt;img src=&#34;http://lh4.google.com/calon.xu/RyfeQ9xpngI/AAAAAAAAAUY/_F3YeAJtXH4/s800/ScreenShot00026.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-在寻找和拖动对象、操作3D
+在寻找和拖动对象、操作3D&lt;br /&gt;
 物件等时候，为什么我们觉得很别扭？一大原因可能是我们在现实生活中习惯了两只手同时操作，相互配合，而在电脑屏幕上只能够同时操纵一个指针，一个简单的操作也要分解为几步才能够完成。&lt;br /&gt;
-那么在 Multi-Touch
+那么在 Multi-Touch&lt;br /&gt;
 多点触摸屏广泛应用之前，是不是可以用双鼠标的方式先玩一把呢？左右双鼠标组合键不但能提供双倍指针，而且有的操作效率高又易于理解：&lt;br /&gt;
 如，左鼠选定窗体，右鼠的滚轮控制窗体缩放，右键关闭窗体；双鼠依次拨开遮挡在前方的窗体；这只鼠标抓取，那只鼠标放置对象，实现瞬间移动和准确定位；左鼠指定旋转中心点，右鼠拖动对象旋转，等等。&lt;/p&gt;
 
 &lt;p&gt;貌似有个名叫“&lt;a href=&#34;http://www.doublemouse.net/&#34;&gt;双鼠标&lt;/a&gt;”的软件已经实现双光标并存了，但不知有什么高级功能，网站我无法打开，找到的下载都已经失效，我也没有条件测试。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

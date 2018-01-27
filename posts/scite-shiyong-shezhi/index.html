@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SciTE 实用设置 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="SciTE 实用设置" />
+<meta property="og:description" content="全局配置：
+打开 SciTE 所在目录中的
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改
+SciTEUser.properties 或 SciTE.properties。
+1、文字编码
+SciTE
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。
+UTF-8：code.page=65001
+GBK：code.page=936
+Big5：code.page=950
+2、换行
+由于 SciTE
+一般用于编写代码，所以默认设置是不换行的。
+wrap=1
+3、窗口最大化
+默认窗口是长条形，不符合通常的习惯。
+position.width=-1
+position.height=-1
+4、工作目录
+SciteDefaultHome=SciTE 所在的目录
+5、最小化到系统托盘
+minimize.to.tray=1
+6、文件尾留空
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。
+end.at.last.line=0
+7、工具条
+默认不显示工具条，可能是觉得快捷键更好吧。
+toolbar.visible=1
+8、状态条
+默认不显示状态条。
+statusbar.visible=1
+9、选中部分颜色
+分别为前景色和后景色，都换成了我习惯用的颜色。
+selection.fore=#FFFFFF
+selection.back=#0080FF
+10、设置语法提示
+除了默认的语法提示之外，还可以通过新增 API
+文件增加语法提示种类。需要告诉程序 API
+文件的位置。我建议是在工作目录中新建一个 api
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。
+如
+api..c=$(SciteDefaultHome)\api\c.api api..py=$(SciteDefaultHome)\api\python.api
+api.*.php=\$(SciteDefaultHome)\api\php.api
+11、设置 Tab
+默认是缩排8位，最好是统一改为4位。
+tabsize=4
+indent.size=4
+12、文件中搜索
+默认搜索 .c、.cxx 和 *.h 文件。
+find.files=.
+13、自动完成
+autocompleteword.automatic=1
+14、自动补全 XML 标签" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/scite-shiyong-shezhi/" />
+
+
+
+<meta property="article:published_time" content="2006-04-02T16:02:01&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-04-02T16:02:01&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="SciTE 实用设置">
+<meta itemprop="description" content="全局配置：
+打开 SciTE 所在目录中的
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改
+SciTEUser.properties 或 SciTE.properties。
+1、文字编码
+SciTE
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。
+UTF-8：code.page=65001
+GBK：code.page=936
+Big5：code.page=950
+2、换行
+由于 SciTE
+一般用于编写代码，所以默认设置是不换行的。
+wrap=1
+3、窗口最大化
+默认窗口是长条形，不符合通常的习惯。
+position.width=-1
+position.height=-1
+4、工作目录
+SciteDefaultHome=SciTE 所在的目录
+5、最小化到系统托盘
+minimize.to.tray=1
+6、文件尾留空
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。
+end.at.last.line=0
+7、工具条
+默认不显示工具条，可能是觉得快捷键更好吧。
+toolbar.visible=1
+8、状态条
+默认不显示状态条。
+statusbar.visible=1
+9、选中部分颜色
+分别为前景色和后景色，都换成了我习惯用的颜色。
+selection.fore=#FFFFFF
+selection.back=#0080FF
+10、设置语法提示
+除了默认的语法提示之外，还可以通过新增 API
+文件增加语法提示种类。需要告诉程序 API
+文件的位置。我建议是在工作目录中新建一个 api
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。
+如
+api..c=$(SciteDefaultHome)\api\c.api api..py=$(SciteDefaultHome)\api\python.api
+api.*.php=\$(SciteDefaultHome)\api\php.api
+11、设置 Tab
+默认是缩排8位，最好是统一改为4位。
+tabsize=4
+indent.size=4
+12、文件中搜索
+默认搜索 .c、.cxx 和 *.h 文件。
+find.files=.
+13、自动完成
+autocompleteword.automatic=1
+14、自动补全 XML 标签">
+
+
+<meta itemprop="datePublished" content="2006-04-02T16:02:01&#43;00:00" />
+<meta itemprop="dateModified" content="2006-04-02T16:02:01&#43;00:00" />
+<meta itemprop="wordCount" content="109">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="SciTE 实用设置"/>
+<meta name="twitter:description" content="全局配置：
+打开 SciTE 所在目录中的
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改
+SciTEUser.properties 或 SciTE.properties。
+1、文字编码
+SciTE
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。
+UTF-8：code.page=65001
+GBK：code.page=936
+Big5：code.page=950
+2、换行
+由于 SciTE
+一般用于编写代码，所以默认设置是不换行的。
+wrap=1
+3、窗口最大化
+默认窗口是长条形，不符合通常的习惯。
+position.width=-1
+position.height=-1
+4、工作目录
+SciteDefaultHome=SciTE 所在的目录
+5、最小化到系统托盘
+minimize.to.tray=1
+6、文件尾留空
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。
+end.at.last.line=0
+7、工具条
+默认不显示工具条，可能是觉得快捷键更好吧。
+toolbar.visible=1
+8、状态条
+默认不显示状态条。
+statusbar.visible=1
+9、选中部分颜色
+分别为前景色和后景色，都换成了我习惯用的颜色。
+selection.fore=#FFFFFF
+selection.back=#0080FF
+10、设置语法提示
+除了默认的语法提示之外，还可以通过新增 API
+文件增加语法提示种类。需要告诉程序 API
+文件的位置。我建议是在工作目录中新建一个 api
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。
+如
+api..c=$(SciteDefaultHome)\api\c.api api..py=$(SciteDefaultHome)\api\python.api
+api.*.php=\$(SciteDefaultHome)\api\php.api
+11、设置 Tab
+默认是缩排8位，最好是统一改为4位。
+tabsize=4
+indent.size=4
+12、文件中搜索
+默认搜索 .c、.cxx 和 *.h 文件。
+find.files=.
+13、自动完成
+autocompleteword.automatic=1
+14、自动补全 XML 标签"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-04-02 04:02">2006-04-02</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>SciTE 实用设置</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><strong>全局配置：</strong><br />
+打开 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a> 所在目录中的<br />
+SciTEGlobal.properties 文件，按照以下说明修改并保存。不过最好是修改<br />
+SciTEUser.properties 或 SciTE.properties。</p>
+
+<p>1、文字编码<br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a><br />
+默认似乎是采用西方语言编码的，这样会把一个中文字符视为两个单字节字符。</p>
+
+<p>UTF-8：code.page=65001<br />
+GBK：code.page=936<br />
+Big5：code.page=950</p>
+
+<p>2、换行<br />
+由于 <a href="http://scintilla.sourceforge.net/SciTE.html">SciTE</a><br />
+一般用于编写代码，所以默认设置是不换行的。</p>
+
+<p>wrap=1</p>
+
+<p>3、窗口最大化<br />
+默认窗口是长条形，不符合通常的习惯。</p>
+
+<p>position.width=-1<br />
+position.height=-1</p>
+
+<p>4、工作目录</p>
+
+<p>SciteDefaultHome=SciTE 所在的目录</p>
+
+<p>5、最小化到系统托盘</p>
+
+<p>minimize.to.tray=1</p>
+
+<p>6、文件尾留空<br />
+默认设置中，光标在文件最后一行时垂直滑动条无法再向下滚动，不符合使用习惯。</p>
+
+<p>end.at.last.line=0</p>
+
+<p>7、工具条<br />
+默认不显示工具条，可能是觉得快捷键更好吧。</p>
+
+<p>toolbar.visible=1</p>
+
+<p>8、状态条<br />
+默认不显示状态条。</p>
+
+<p>statusbar.visible=1</p>
+
+<p>9、选中部分颜色<br />
+分别为前景色和后景色，都换成了我习惯用的颜色。</p>
+
+<p>selection.fore=#FFFFFF<br />
+selection.back=#0080FF</p>
+
+<p>10、设置语法提示<br />
+除了默认的语法提示之外，还可以通过新增 API<br />
+文件增加语法提示种类。需要告诉程序 API<br />
+文件的位置。我建议是在工作目录中新建一个 api<br />
+目录，专门存放这些文件。\$(SciteDefaultHome) 表示工作目录。</p>
+
+<p>如<br />
+api.<em>.c=$(SciteDefaultHome)\api\c.api api.</em>.py=$(SciteDefaultHome)\api\python.api<br />
+api.*.php=\$(SciteDefaultHome)\api\php.api</p>
+
+<p>11、设置 Tab<br />
+默认是缩排8位，最好是统一改为4位。</p>
+
+<p>tabsize=4<br />
+indent.size=4</p>
+
+<p>12、文件中搜索<br />
+默认搜索 <em>.c、</em>.cxx 和 *.h 文件。</p>
+
+<p>find.files=<em>.</em></p>
+
+<p>13、自动完成</p>
+
+<p>autocompleteword.automatic=1</p>
+
+<p>14、自动补全 XML 标签</p>
+
+<p>xml.auto.close.tags=1</p>
+
+<p>15、显示最近打开的文件</p>
+
+<p>save.recent=1</p>
+
+<p>16、设置 Home/End<br />
+默认跳至逻辑行的行首和行尾，即使打开了自动换行。</p>
+
+<p>wrap.aware.home.end.keys=1</p>
+
+<p><strong>缩略词配置：</strong><br />
+编辑 abbrev.properties 文件，按照如下格式定义缩略词。</p>
+
+<p>缩略词=完整词句</p>
+
+<p>如 Calon=Remainder Book</p>
+
+<p>编辑后输入“Calon”后按下 Ctrl+B，则自动替换为 Remainder Book。</p>
+
+<p>如果想让光标在替换之后定位在词尾之外的位置，则用一个管道符“|”指示该位置。</p>
+
+<p>如 Calon=Remainder|Book</p>
+
+<p><strong>其他：</strong><br />
+<a href="http://scintilla.sourceforge.net/SciTE.html">SciTE 主页</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDownload.html">下载页面</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEDoc.html">帮助文档</a><br />
+<a href="http://scintilla.sourceforge.net/SciTEExtras.html">附加内容</a><br />
+<a href="http://calon.xu.googlepages.com/SciTEGlobal.properties">我的全局设置</a>（SciteDefaultHome<br />
+为空，请自己设置）<br />
+<a href="http://calon.xu.googlepages.com/gen_python_api.py">由 Markus Gritsch 编写的 Python<br />
+语法提示文件生成脚本</a>（需要安装<br />
+<a href="http://www.python.org/">Python</a>）</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae》&body=https%3a%2f%2fioerr.github.io%2fposts%2fscite-shiyong-shezhi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fscite-shiyong-shezhi%2f&text= @calon SciTE%20%e5%ae%9e%e7%94%a8%e8%ae%be%e7%bd%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

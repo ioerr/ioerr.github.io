@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2009 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/2009/index.xml</link>
+    <link>https://ioerr.github.io/tags/2009/</link>
     <description>Recent content in 2009 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/2009/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2010 16:59:33 +0000</lastBuildDate>
     
-    <item>
-      <title>09年照片</title>
-      <link>https://ioerr.github.io/09-nian-zhaopian/</link>
-      <pubDate>Fri, 01 Jan 2010 16:59:33 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/09-nian-zhaopian/</guid>
-      <description>&lt;p&gt;从09年每月的照片中各挑一张作为小小的总结，可惜不是每个月都有时间出门拍照。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/2009/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>09年照片</title>
+        <link>https://ioerr.github.io/posts/09-nian-zhaopian/</link>
+        <pubDate>Fri, 01 Jan 2010 16:59:33 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/09-nian-zhaopian/</guid>
+        <description>&lt;p&gt;从09年每月的照片中各挑一张作为小小的总结，可惜不是每个月都有时间出门拍照。&lt;/p&gt;
 
 &lt;p&gt;1月：白日过隙&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/3203868596/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3496/3203868596_a5e5d9f6cc.jpg&#34; alt=&#34;白日过隙 (by
@@ -56,7 +56,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/archives/date-taken/2009/&#34;&gt;09年全部照片在此&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

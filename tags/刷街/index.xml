@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>刷街 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%88%B7%E8%A1%97/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%88%B7%E8%A1%97/</link>
     <description>Recent content in 刷街 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%88%B7%E8%A1%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2014 09:58:18 +0000</lastBuildDate>
     
-    <item>
-      <title>轮滑刷街心得</title>
-      <link>https://ioerr.github.io/lunhua-shuajie-xinde/</link>
-      <pubDate>Mon, 19 May 2014 09:58:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/lunhua-shuajie-xinde/</guid>
-      <description>&lt;p&gt;前一段时间在上海长期出差，上下班乘车不方便，走路又无聊，尝试了一下轮滑上下班和晚上刷街，这里说说心得：&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%88%B7%E8%A1%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>轮滑刷街心得</title>
+        <link>https://ioerr.github.io/posts/lunhua-shuajie-xinde/</link>
+        <pubDate>Mon, 19 May 2014 09:58:18 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/lunhua-shuajie-xinde/</guid>
+        <description>&lt;p&gt;前一段时间在上海长期出差，上下班乘车不方便，走路又无聊，尝试了一下轮滑上下班和晚上刷街，这里说说心得：&lt;/p&gt;
 
 &lt;p&gt;一、安全第一&lt;br /&gt;
 不管玩轮滑的目的是什么，安全第一永远是最重要的原则。&lt;br /&gt;
@@ -30,7 +30,7 @@
 低重心、眼观六路、强力刹车是诀窍。&lt;/p&gt;
 
 &lt;p&gt;尽量降低重心，身体前倾。&lt;br /&gt;
-勤练刹车，掌握至少一种可以应付多种情况的刹车方法，对刹车没把握不要上街。我习惯
+勤练刹车，掌握至少一种可以应付多种情况的刹车方法，对刹车没把握不要上街。我习惯&lt;br /&gt;
 t 刹，因为严格控制速度，所以虽然动作不算标准，但效果还可以。&lt;br /&gt;
 避免双脚并排滑行，前后错开，或者一边提起，有助于应付突发的意外。&lt;br /&gt;
 上下楼梯要有耐心，一脚站稳了再变换重心，较低的那只鞋子要横置，防止滑下楼梯。&lt;br /&gt;
@@ -38,7 +38,7 @@ t 刹，因为严格控制速度，所以虽然动作不算标准，但效果还
 如果是较宽的下坡，又只有你一个人，可以使用蛇形路线降低下坡速度。&lt;/p&gt;
 
 &lt;p&gt;三、装备&lt;br /&gt;
-高手推荐选择82a 左右硬度的轮子。我选的85a
+高手推荐选择82a 左右硬度的轮子。我选的85a&lt;br /&gt;
 的高硬度轮，因为路况不算平整，也考虑到很久没玩了，要勤练刹车技术，硬度太低会导致磨损非常厉害。&lt;br /&gt;
 轮子直径越大越好，我将默认配置的香蕉轮中前后两个76毫米的轮子都换成了80毫米，四轮着地也有利于稳定，反正我不玩平花练花样技术。&lt;br /&gt;
 地上有水就不要刷街了，轴承非常容易生锈。&lt;br /&gt;
@@ -52,7 +52,7 @@ t 刹，因为严格控制速度，所以虽然动作不算标准，但效果还
 能够学会轮滑的人毕竟是少数，能上街敢上街的更少，没法和单车、汽车比；&lt;br /&gt;
 地铁禁止轮滑，上公交车不换鞋危险，换鞋麻烦，这点不如滑板。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

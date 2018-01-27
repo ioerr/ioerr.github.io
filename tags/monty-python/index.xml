@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monty Python on 读写错误</title>
-    <link>https://ioerr.github.io/tags/monty-python/index.xml</link>
+    <link>https://ioerr.github.io/tags/monty-python/</link>
     <description>Recent content in Monty Python on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/monty-python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Sep 2007 08:51:40 +0000</lastBuildDate>
     
-    <item>
-      <title>和谐之歌</title>
-      <link>https://ioerr.github.io/hexie-zhi-ge/</link>
-      <pubDate>Mon, 03 Sep 2007 08:51:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hexie-zhi-ge/</guid>
-      <description>&lt;p&gt;Monty Python
-是个神奇的团体，演了几部神奇的电视剧和电影，也附带创作了几十首神奇的歌。这首《I
-bet you they won&amp;rsquo;t play this song on the
+      <atom:link href="https://ioerr.github.io/tags/monty-python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>和谐之歌</title>
+        <link>https://ioerr.github.io/posts/hexie-zhi-ge/</link>
+        <pubDate>Mon, 03 Sep 2007 08:51:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/hexie-zhi-ge/</guid>
+        <description>&lt;p&gt;Monty Python&lt;br /&gt;
+是个神奇的团体，演了几部神奇的电视剧和电影，也附带创作了几十首神奇的歌。这首《I&lt;br /&gt;
+bet you they won&amp;rsquo;t play this song on the&lt;br /&gt;
 radio》就是我最喜欢的之一，歌词原文和翻译如下：&lt;/p&gt;
 
 &lt;p&gt;I bet you they won&amp;rsquo;t play this song on the radio&lt;br /&gt;
@@ -62,7 +62,7 @@ I bet you they won&amp;rsquo;t tell you the (bleep) truth&lt;br /&gt;
 I bet you the (bleep) good strong big brother&lt;br /&gt;
 Will think you&amp;rsquo;re too simple and somtimes (bleep)&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

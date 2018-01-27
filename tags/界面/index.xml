@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>界面 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2/</link>
     <description>Recent content in 界面 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2011 11:17:57 +0000</lastBuildDate>
     
-    <item>
-      <title>移动设备触屏游戏六戒</title>
-      <link>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</link>
-      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</guid>
-      <description>&lt;p&gt;时常觉得 iPod/iPhone
+      <atom:link href="https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>移动设备触屏游戏六戒</title>
+        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+        <description>&lt;p&gt;时常觉得 iPod/iPhone&lt;br /&gt;
 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
 
 &lt;p&gt;1、图文难以识别。&lt;br /&gt;
@@ -26,12 +26,12 @@
 &lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
 
 &lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld&lt;br /&gt;
 中变更球员名单，很容易点错球员；&lt;br /&gt;
 直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
 间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
 
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
+&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的&lt;br /&gt;
 swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
 如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
 
@@ -53,20 +53,19 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
 
 &lt;p&gt;6、没有足够的成就感&lt;br /&gt;
 规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
+比如 Minesweeper&lt;br /&gt;
 这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>注册登录界面的八大错误</title>
-      <link>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</link>
-      <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
-      <description>&lt;p&gt;Cisco
+      <item>
+        <title>注册登录界面的八大错误</title>
+        <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
+        <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
+        <description>&lt;p&gt;Cisco&lt;br /&gt;
 在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。&lt;br /&gt;
-Jared M. Spool
+Jared M. Spool&lt;br /&gt;
 以此为例提到&lt;a href=&#34;http://www.uie.com/articles/account_design_mistakes/&#34;&gt;了注册和登录界面中的一些糟糕设计，主要存在以下8个常见错误&lt;/a&gt;：&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;错误1：万事以登录为先&lt;/strong&gt;&lt;br /&gt;
@@ -93,18 +92,17 @@ Jared M. Spool
 &lt;p&gt;&lt;strong&gt;错误8：不告诉用户怎么使用他们的信息&lt;/strong&gt;&lt;br /&gt;
 如果非要询问用户名、密码之外的信息，特别是真实姓名、住址、电话号码等重要信息，要么把问题设计得风趣可爱一点（有时并不起作用），要么明确告诉用户这些信息的用处，而且要有说服力，最好马上给他们看到实实在在的好处。简言之即，欲先取之，必先语之。&lt;/p&gt;
 
-&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。
+&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。&lt;br /&gt;
 :023:&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>豆瓣快速注册界面</title>
-      <link>https://ioerr.github.io/douban-kuaisu-zhuce-jiemian/</link>
-      <pubDate>Fri, 21 Dec 2007 17:58:09 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/douban-kuaisu-zhuce-jiemian/</guid>
-      <description>&lt;p&gt;很久以来一直存在的问题不吐不快。每次在豆瓣要以未登录状态进行什么操作，就会出现类似这样的快速注册界面（有时候记住登录状态会失效）：&lt;br /&gt;
+      <item>
+        <title>豆瓣快速注册界面</title>
+        <link>https://ioerr.github.io/posts/douban-kuaisu-zhuce-jiemian/</link>
+        <pubDate>Fri, 21 Dec 2007 17:58:09 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/douban-kuaisu-zhuce-jiemian/</guid>
+        <description>&lt;p&gt;很久以来一直存在的问题不吐不快。每次在豆瓣要以未登录状态进行什么操作，就会出现类似这样的快速注册界面（有时候记住登录状态会失效）：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00097.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00097.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;于是我不得不再点击登录的链接跳到另一个页面完成登录操作。可是，为什么不在快速注册界面上也提供快速登录的选项呢？&lt;/p&gt;
@@ -115,7 +113,7 @@ Jared M. Spool
 短短几天，成员已经快要超过100了，比我预期的要快啊。虽然问题解决率并不高，但随着成员人数增多，应该会有越来越多的人满意而归吧。&lt;br /&gt;
 最重要的问题是，成员无法跟踪自己参与的话题，豆瓣的小组论坛无法有效的区分未解决和已解决问题，并不适合这种类型的应用。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

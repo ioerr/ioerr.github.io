@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>篮球 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%AF%AE%E7%90%83/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%AF%AE%E7%90%83/</link>
     <description>Recent content in 篮球 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%AF%AE%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2009 16:13:55 +0000</lastBuildDate>
     
-    <item>
-      <title>足球献祭学</title>
-      <link>https://ioerr.github.io/zuqiu-xianjixue/</link>
-      <pubDate>Wed, 13 May 2009 16:13:55 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zuqiu-xianjixue/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%AF%AE%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>足球献祭学</title>
+        <link>https://ioerr.github.io/posts/zuqiu-xianjixue/</link>
+        <pubDate>Wed, 13 May 2009 16:13:55 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zuqiu-xianjixue/</guid>
+        <description>&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 麦蒂赛季报销 火箭21胜8负&lt;br /&gt;
 老穆赛季报销 毙掉开拓者&lt;br /&gt;
 姚明赛季报销 打懵湖人&lt;br /&gt;
-下一个谁来牺牲一下
-&lt;/blockquote&gt;
-前几天&lt;a href=&#34;http://twitter.com/coollias/&#34;&gt;特爱蚂蚁&lt;/a&gt;在 twitter
+下一个谁来牺牲一下&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
+前几天&lt;a href=&#34;http://twitter.com/coollias/&#34;&gt;特爱蚂蚁&lt;/a&gt;在 twitter&lt;br /&gt;
 上&lt;a href=&#34;http://twitter.com/coollias/statuses/1759235259&#34;&gt;感慨火箭队的神奇&lt;/a&gt;，可以不断砍掉队员来增加功力。&lt;br /&gt;
 但事实证明篮球界是黑暗的，付出未必有收获，接下来的比赛火箭立马被操得太狠几乎再起不能，可见即使绞死阿德尔曼也未必能够打入总决赛；&lt;br /&gt;
 而足球界就不同了，只要比你的对手心诚，用伤病和红牌将球队灵魂献祭出去，自然就会得到命运女神的垂青。&lt;/p&gt;
@@ -87,7 +87,7 @@
 
 &lt;p&gt;08年欧洲杯，此前只要健康就必定参加大赛的Raul脱下球衣躺在了阿拉贡内斯的祭坛上，老帅老泪纵横：西班牙人民会记住你的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

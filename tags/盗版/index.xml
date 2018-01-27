@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>盗版 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%9B%97%E7%89%88/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%9B%97%E7%89%88/</link>
     <description>Recent content in 盗版 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%9B%97%E7%89%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2008 04:19:26 +0000</lastBuildDate>
     
-    <item>
-      <title>关于微软垄断的讨论</title>
-      <link>https://ioerr.github.io/guanyu-weiruan-longduan-de-taolun/</link>
-      <pubDate>Wed, 22 Oct 2008 04:19:26 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-weiruan-longduan-de-taolun/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E7%9B%97%E7%89%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>关于微软垄断的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-weiruan-longduan-de-taolun/</link>
+        <pubDate>Wed, 22 Oct 2008 04:19:26 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-weiruan-longduan-de-taolun/</guid>
+        <description>
 
 &lt;p&gt;8:50:57 中家&lt;br /&gt;
 我觉得微软的windows定价不合理，美国卖199美元，中国也是199美元，这是强盗逻辑，所以盗版有理&lt;/p&gt;
@@ -165,7 +165,7 @@ windows是每台电脑必备的操作系统&lt;/p&gt;
 是否安装WGA是会提醒消费者的，而且可以自己关掉WGA，MS已经算厚道了&lt;/p&gt;
 
 &lt;p&gt;9:33:17 中家&lt;br /&gt;
-我主要考虑，举办一些慈善活动，让微软向我们本地的学校、农民免费赠送windows
+我主要考虑，举办一些慈善活动，让微软向我们本地的学校、农民免费赠送windows&lt;br /&gt;
 xp和office，我政府买单了1000套，你微软给我送1000套，此举是否可行？&lt;/p&gt;
 
 &lt;p&gt;9:34:18 中家&lt;br /&gt;
@@ -350,7 +350,7 @@ linux的培训比windows技术含量高&lt;/p&gt;
 &lt;p&gt;10:32:44 中家&lt;br /&gt;
 怎么说害怕呢&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

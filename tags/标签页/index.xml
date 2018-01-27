@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>标签页 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%A0%87%E7%AD%BE%E9%A1%B5/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%A0%87%E7%AD%BE%E9%A1%B5/</link>
     <description>Recent content in 标签页 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%A0%87%E7%AD%BE%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Oct 2008 09:26:37 +0000</lastBuildDate>
     
-    <item>
-      <title>标签页的细节</title>
-      <link>https://ioerr.github.io/biaoqianye-de-xijie/</link>
-      <pubDate>Mon, 06 Oct 2008 09:26:37 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/biaoqianye-de-xijie/</guid>
-      <description>&lt;p&gt;发现一个奇怪的现象：使用 Foxit PDF Reader
-时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如
+      <atom:link href="https://ioerr.github.io/tags/%E6%A0%87%E7%AD%BE%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>标签页的细节</title>
+        <link>https://ioerr.github.io/posts/biaoqianye-de-xijie/</link>
+        <pubDate>Mon, 06 Oct 2008 09:26:37 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/biaoqianye-de-xijie/</guid>
+        <description>&lt;p&gt;发现一个奇怪的现象：使用 Foxit PDF Reader&lt;br /&gt;
+时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如&lt;br /&gt;
 Firefox、WPS，却很少出现这种乌龙，这是为什么呢？&lt;/p&gt;
 
 &lt;p&gt;于是我看了一下这几个软件的标签栏：&lt;/p&gt;
@@ -33,11 +33,11 @@ Firefox、WPS，却很少出现这种乌龙，这是为什么呢？&lt;/p&gt;
 当前标签的背景颜色是否与众不同，如加亮、变色；&lt;br /&gt;
 标签页是否有醒目的图标。&lt;/p&gt;
 
-&lt;p&gt;如果标签页缺少存在感，自然容易在执行关闭操作的时候被无视。记得在《Don&amp;rsquo;t
-Make Me Think》中有以 Amazon
+&lt;p&gt;如果标签页缺少存在感，自然容易在执行关闭操作的时候被无视。记得在《Don&amp;rsquo;t&lt;br /&gt;
+Make Me Think》中有以 Amazon&lt;br /&gt;
 为例专门阐述标签页设计的章节，如果你开发的软件或者网页有标签页/标签栏的设计，建议要读一读。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

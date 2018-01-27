@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash 游戏 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Flash 游戏" />
+<meta property="og:description" content="比较简单但是挺可爱的游戏，不知道名字。
+
+规则很简单的 Blob Wars
+
+流麺道場，需要反应和节奏感。
+
+ふにゃ麺道場，当然，还需要好胃口。
+
+SuDoKu，闻名已久的数独游戏，这个是每天一盘，防止沉迷 :P
+
+控制旋转的黑色小方块躲避红色方块，吃掉其他黑色方块。
+
+Who Likes Mazes？控制小点到达目的地，不要碰到墙壁和障碍物。
+
+难度颇高的游戏，控制小人来回跳跃躲避机关，进入逃生门。
+
+射箭小人，确定方向和力度，剩下的听天由命吧。
+
+Flash 版 Metal Slug：Heli Attack 3。
+
+Orbox &amp; Orbox B，任务主要是撞墙。
+
+
+挺无聊的射杀野鸡的野兔版，仅推荐给心理异常人士。
+
+类似于百战天虫中的连续荡秋千技巧，不过一旦失手可不是喊一声“Ouch!”就没事了。
+
+躲避飞扑过来的…呃…子弹？标准模式下时间再长难度也不会提升。
+
+Flash 版死亡打字员&#43;Crimson Land：QWERTY（快踢…orz）战士
+
+如果你的手气和我是一个档次，建议远离此类游戏。
+
+在有引力的星球间乱窜。如果逃逸的时间达到较低的要求则进入下一级别，如果超过较高的要求，则连升2级。
+
+其他的游戏以前忘记收藏地址，只在本地有了。
+用鼠标左键控制直升飞机躲避障碍，按住不动是上升，松开是下降。
+风光一时的舰炮射击，有人把炮弹升级到了严重影响系统速度的程度…
+属于水管工们的游戏，比如马里奥兄弟或 Bloglines。
+史上最奇特的消灭外星人方式－－用炸上天的疣猪侦察车砸死它们…
+规则简单又杀时间的动物管理员。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/flash-youxi/" />
+
+
+
+<meta property="article:published_time" content="2006-11-08T16:06:36&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-11-08T16:06:36&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Flash 游戏">
+<meta itemprop="description" content="比较简单但是挺可爱的游戏，不知道名字。
+
+规则很简单的 Blob Wars
+
+流麺道場，需要反应和节奏感。
+
+ふにゃ麺道場，当然，还需要好胃口。
+
+SuDoKu，闻名已久的数独游戏，这个是每天一盘，防止沉迷 :P
+
+控制旋转的黑色小方块躲避红色方块，吃掉其他黑色方块。
+
+Who Likes Mazes？控制小点到达目的地，不要碰到墙壁和障碍物。
+
+难度颇高的游戏，控制小人来回跳跃躲避机关，进入逃生门。
+
+射箭小人，确定方向和力度，剩下的听天由命吧。
+
+Flash 版 Metal Slug：Heli Attack 3。
+
+Orbox &amp; Orbox B，任务主要是撞墙。
+
+
+挺无聊的射杀野鸡的野兔版，仅推荐给心理异常人士。
+
+类似于百战天虫中的连续荡秋千技巧，不过一旦失手可不是喊一声“Ouch!”就没事了。
+
+躲避飞扑过来的…呃…子弹？标准模式下时间再长难度也不会提升。
+
+Flash 版死亡打字员&#43;Crimson Land：QWERTY（快踢…orz）战士
+
+如果你的手气和我是一个档次，建议远离此类游戏。
+
+在有引力的星球间乱窜。如果逃逸的时间达到较低的要求则进入下一级别，如果超过较高的要求，则连升2级。
+
+其他的游戏以前忘记收藏地址，只在本地有了。
+用鼠标左键控制直升飞机躲避障碍，按住不动是上升，松开是下降。
+风光一时的舰炮射击，有人把炮弹升级到了严重影响系统速度的程度…
+属于水管工们的游戏，比如马里奥兄弟或 Bloglines。
+史上最奇特的消灭外星人方式－－用炸上天的疣猪侦察车砸死它们…
+规则简单又杀时间的动物管理员。">
+
+
+<meta itemprop="datePublished" content="2006-11-08T16:06:36&#43;00:00" />
+<meta itemprop="dateModified" content="2006-11-08T16:06:36&#43;00:00" />
+<meta itemprop="wordCount" content="39">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Flash 游戏"/>
+<meta name="twitter:description" content="比较简单但是挺可爱的游戏，不知道名字。
+
+规则很简单的 Blob Wars
+
+流麺道場，需要反应和节奏感。
+
+ふにゃ麺道場，当然，还需要好胃口。
+
+SuDoKu，闻名已久的数独游戏，这个是每天一盘，防止沉迷 :P
+
+控制旋转的黑色小方块躲避红色方块，吃掉其他黑色方块。
+
+Who Likes Mazes？控制小点到达目的地，不要碰到墙壁和障碍物。
+
+难度颇高的游戏，控制小人来回跳跃躲避机关，进入逃生门。
+
+射箭小人，确定方向和力度，剩下的听天由命吧。
+
+Flash 版 Metal Slug：Heli Attack 3。
+
+Orbox &amp; Orbox B，任务主要是撞墙。
+
+
+挺无聊的射杀野鸡的野兔版，仅推荐给心理异常人士。
+
+类似于百战天虫中的连续荡秋千技巧，不过一旦失手可不是喊一声“Ouch!”就没事了。
+
+躲避飞扑过来的…呃…子弹？标准模式下时间再长难度也不会提升。
+
+Flash 版死亡打字员&#43;Crimson Land：QWERTY（快踢…orz）战士
+
+如果你的手气和我是一个档次，建议远离此类游戏。
+
+在有引力的星球间乱窜。如果逃逸的时间达到较低的要求则进入下一级别，如果超过较高的要求，则连升2级。
+
+其他的游戏以前忘记收藏地址，只在本地有了。
+用鼠标左键控制直升飞机躲避障碍，按住不动是上升，松开是下降。
+风光一时的舰炮射击，有人把炮弹升级到了严重影响系统速度的程度…
+属于水管工们的游戏，比如马里奥兄弟或 Bloglines。
+史上最奇特的消灭外星人方式－－用炸上天的疣猪侦察车砸死它们…
+规则简单又杀时间的动物管理员。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-11-08 04:06">2006-11-08</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
+          </p>
+      <h1>Flash 游戏</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>比较简单但是挺可爱的游戏，不知道名字。<br />
+<a href="http://ericfish.myrice.com/game1.swf"><img src="http://photo4.yupoo.com/20061108/214208_195114637_jnlixmgx.jpg" alt="" /></a></p>
+
+<p>规则很简单的 Blob Wars<br />
+<a href="http://www.aaafreegames.com/games/blobwars.swf"><img src="http://photo4.yupoo.com/20061108/213725_1940364205_jzlldcfr.jpg" alt="" /></a></p>
+
+<p>流麺道場，需要反应和节奏感。<br />
+<a href="http://www.funyamora.com/pc/game/ryu/"><img src="http://photo4.yupoo.com/20061108/214524_965503689_m.jpg" alt="" /></a></p>
+
+<p>ふにゃ麺道場，当然，还需要好胃口。<br />
+<a href="http://www.funyamora.com/pc/game/men/"><img src="http://photo4.yupoo.com/20061108/214644_1213189522_m.jpg" alt="" /></a></p>
+
+<p>SuDoKu，闻名已久的数独游戏，这个是每天一盘，防止沉迷 :P<br />
+<a href="http://www.fingertime.com/sudoku.php"><img src="http://photo4.yupoo.com/20061108/215502_2137168633_m.jpg" alt="" /></a></p>
+
+<p>控制旋转的黑色小方块躲避红色方块，吃掉其他黑色方块。<br />
+<a href="http://www.twincannon.com/squares2.swf"><img src="http://photo4.yupoo.com/20061108/220110_167647487_kpwdntoh.jpg" alt="" /></a></p>
+
+<p>Who Likes Mazes？控制小点到达目的地，不要碰到墙壁和障碍物。<br />
+<a href="http://www.transbuddha.com/mediaHolder.php?id=13"><img src="http://photo4.yupoo.com/20061108/220111_917483132_m.jpg" alt="" /></a></p>
+
+<p>难度颇高的游戏，控制小人来回跳跃躲避机关，进入逃生门。<br />
+<a href="http://70.84.34.106/~mediaun/ngame.swf"><img src="http://photo4.yupoo.com/20061108/220711_1934019310_wirwtfzn.jpg" alt="" /></a></p>
+
+<p>射箭小人，确定方向和力度，剩下的听天由命吧。<br />
+<a href="http://www.pconline.com.cn/pcedu/carton/games/0510/flash/051010bowman.swf"><img src="http://photo4.yupoo.com/20061108/222028_1869459690_smlgrlws.jpg" alt="" /></a></p>
+
+<p>Flash 版 Metal Slug：Heli Attack 3。<br />
+<a href="http://www.ln.cei.gov.cn/dworm/h.swf"><img src="http://photo4.yupoo.com/20061108/223404_158708527_zifupdtd.jpg" alt="" /></a></p>
+
+<p>Orbox &amp; Orbox B，任务主要是撞墙。<br />
+<a href="http://www.disloyal.org/games/94/orbox.html"><img src="http://photo4.yupoo.com/20061108/224021_207928553.jpg" alt="" /></a><br />
+<a href="http://www.disloyal.org/games/630/orboxb.html"><img src="http://photo4.yupoo.com/20061108/224020_305075481_mbuxjqim.jpg" alt="" /></a></p>
+
+<p>挺无聊的射杀野鸡的野兔版，仅推荐给心理异常人士。<br />
+<a href="http://www.themaninblue.com/experiment/BunnyHunt/"><img src="http://photo4.yupoo.com/20061108/224613_1393055210_m.jpg" alt="" /></a></p>
+
+<p>类似于百战天虫中的连续荡秋千技巧，不过一旦失手可不是喊一声“Ouch!”就没事了。<br />
+<a href="http://www.yarukinoki.net/flash/pendulumeca/"><img src="http://photo4.yupoo.com/20061108/225200_1036160194_m.jpg" alt="" /></a></p>
+
+<p>躲避飞扑过来的…呃…子弹？标准模式下时间再长难度也不会提升。<br />
+<a href="http://www.zeronews-fr.com/flash/l.php"><img src="http://photo4.yupoo.com/20061108/225825_936155680_m.jpg" alt="" /></a></p>
+
+<p>Flash 版死亡打字员+Crimson Land：QWERTY（快踢…orz）战士<br />
+<a href="http://www.freewebarcade.com/game/qwerty-warriors/"><img src="http://photo4.yupoo.com/20061108/230306_403419927_m.jpg" alt="" /></a></p>
+
+<p>如果你的手气和我是一个档次，建议远离此类游戏。<br />
+<a href="http://www.freewebarcade.com/game/dicewars/"><img src="http://photo4.yupoo.com/20061108/230624_553688312_m.jpg" alt="" /></a></p>
+
+<p>在有引力的星球间乱窜。如果逃逸的时间达到较低的要求则进入下一级别，如果超过较高的要求，则连升2级。<br />
+<a href="http://www.2dplay.com/orbit/orbit.swf"><img src="http://photo4.yupoo.com/20061108/231113_1100010593_m.jpg" alt="" /></a></p>
+
+<p>其他的游戏以前忘记收藏地址，只在本地有了。</p>
+
+<p>用鼠标左键控制直升飞机躲避障碍，按住不动是上升，松开是下降。<br />
+<img src="http://photo4.yupoo.com/20061108/233147_254910066_m.jpg" alt="" /></p>
+
+<p>风光一时的舰炮射击，有人把炮弹升级到了严重影响系统速度的程度…<br />
+<img src="http://photo4.yupoo.com/20061108/233146_1074718128_ayzagnkp.jpg" alt="" /></p>
+
+<p>属于水管工们的游戏，比如马里奥兄弟或 Bloglines。<br />
+<img src="http://photo4.yupoo.com/20061108/233147_1323363249_hqnwrolr.jpg" alt="" /></p>
+
+<p>史上最奇特的消灭外星人方式－－用炸上天的疣猪侦察车砸死它们…<br />
+<img src="http://photo4.yupoo.com/20061108/233148_1042247418_hhffgqzr.jpg" alt="" /></p>
+
+<p>规则简单又杀时间的动物管理员。<br />
+<img src="http://photo4.yupoo.com/20061108/233148_411640744_m.jpg" alt="" /></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Flash%20%e6%b8%b8%e6%88%8f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fflash-youxi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fflash-youxi%2f&text= @calon Flash%20%e6%b8%b8%e6%88%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>回归 Furl - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="回归 Furl" />
+<meta property="og:description" content="本来 BlogSome
+计划只停机20至25分钟，换上内存就完事。但据说到手的内存规格不对，于是系统停机的时间延长。看样子更换的货还没有送到，估计近期还会有一次停机？
+提供 Voiz Online 服务的
+PhpMore.com 也是一副“503 Service Temporarily
+Unavailable”的面孔，毕竟不如 365Key
+这样的服务有保障。
+说到 365Key，由于最近解决了
+Furl 的乱码问题，我打算把网络文摘的重心又放回
+Furl。
+一个是因为 365Key
+的非弹出窗口模式收藏之后不会自动回到原始页面；
+第二是因为 365Key
+的人工自定义、系统规范的两套分类让人感觉很麻烦，因为
+Furl 和 Del.icio.us
+不会考虑在首页按照系统规范死的分类列出各自最新的收藏，它们只列出最新收藏而不管是什么分类。也许
+365Key
+是要考虑国内的特殊情况吧，如果照搬那两家，我估计
+365Key 的首页便都是“女人叫床
+男人叫苦”、“一个‘自慰’女生的秘密”或者“意志的凯旋”、“日货清单”吧。
+第三是因为收藏的某些文章可能对 365Key
+本身没有好处吧，而使用国外的服务就不用顾虑太多。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/huigui-furl/" />
+
+
+
+<meta property="article:published_time" content="2005-04-29T08:39:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-04-29T08:39:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="回归 Furl">
+<meta itemprop="description" content="本来 BlogSome
+计划只停机20至25分钟，换上内存就完事。但据说到手的内存规格不对，于是系统停机的时间延长。看样子更换的货还没有送到，估计近期还会有一次停机？
+提供 Voiz Online 服务的
+PhpMore.com 也是一副“503 Service Temporarily
+Unavailable”的面孔，毕竟不如 365Key
+这样的服务有保障。
+说到 365Key，由于最近解决了
+Furl 的乱码问题，我打算把网络文摘的重心又放回
+Furl。
+一个是因为 365Key
+的非弹出窗口模式收藏之后不会自动回到原始页面；
+第二是因为 365Key
+的人工自定义、系统规范的两套分类让人感觉很麻烦，因为
+Furl 和 Del.icio.us
+不会考虑在首页按照系统规范死的分类列出各自最新的收藏，它们只列出最新收藏而不管是什么分类。也许
+365Key
+是要考虑国内的特殊情况吧，如果照搬那两家，我估计
+365Key 的首页便都是“女人叫床
+男人叫苦”、“一个‘自慰’女生的秘密”或者“意志的凯旋”、“日货清单”吧。
+第三是因为收藏的某些文章可能对 365Key
+本身没有好处吧，而使用国外的服务就不用顾虑太多。">
+
+
+<meta itemprop="datePublished" content="2005-04-29T08:39:47&#43;00:00" />
+<meta itemprop="dateModified" content="2005-04-29T08:39:47&#43;00:00" />
+<meta itemprop="wordCount" content="37">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="回归 Furl"/>
+<meta name="twitter:description" content="本来 BlogSome
+计划只停机20至25分钟，换上内存就完事。但据说到手的内存规格不对，于是系统停机的时间延长。看样子更换的货还没有送到，估计近期还会有一次停机？
+提供 Voiz Online 服务的
+PhpMore.com 也是一副“503 Service Temporarily
+Unavailable”的面孔，毕竟不如 365Key
+这样的服务有保障。
+说到 365Key，由于最近解决了
+Furl 的乱码问题，我打算把网络文摘的重心又放回
+Furl。
+一个是因为 365Key
+的非弹出窗口模式收藏之后不会自动回到原始页面；
+第二是因为 365Key
+的人工自定义、系统规范的两套分类让人感觉很麻烦，因为
+Furl 和 Del.icio.us
+不会考虑在首页按照系统规范死的分类列出各自最新的收藏，它们只列出最新收藏而不管是什么分类。也许
+365Key
+是要考虑国内的特殊情况吧，如果照搬那两家，我估计
+365Key 的首页便都是“女人叫床
+男人叫苦”、“一个‘自慰’女生的秘密”或者“意志的凯旋”、“日货清单”吧。
+第三是因为收藏的某些文章可能对 365Key
+本身没有好处吧，而使用国外的服务就不用顾虑太多。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-04-29 08:39">2005-04-29</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>回归 Furl</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>本来 <a href="http://www.blogsome.com/">BlogSome</a><br />
+计划只停机20至25分钟，换上内存就完事。但<a href="http://www.blogsome.com/forum/viewtopic.php?t=522">据说</a>到手的内存规格不对，于是系统停机的时间延长。看样子更换的货还没有送到，估计近期还会有一次停机？</p>
+
+<p>提供 <a href="http://phpmore.com/talk/">Voiz Online</a> 服务的<br />
+<a href="http://phpmore.com/">PhpMore.com</a> 也是一副“503 Service Temporarily<br />
+Unavailable”的面孔，毕竟不如 <a href="http://www.365key.com/">365Key</a><br />
+这样的服务有保障。</p>
+
+<p>说到 <a href="http://www.365key.com/">365Key</a>，由于最近解决了<br />
+<a href="http://www.furl.net/">Furl</a> 的乱码问题，我打算把网络文摘的重心又放回<br />
+<a href="http://www.furl.net/">Furl</a>。<br />
+一个是因为 <a href="http://www.365key.com/">365Key</a><br />
+的非弹出窗口模式收藏之后不会自动回到原始页面；<br />
+第二是因为 <a href="http://www.365key.com/">365Key</a><br />
+的人工自定义、系统规范的两套分类让人感觉很麻烦，因为<br />
+<a href="http://www.furl.net/">Furl</a> 和 <a href="http://del.icio.us/">Del.icio.us</a><br />
+不会考虑在首页按照系统规范死的分类列出各自最新的收藏，它们只列出最新收藏而不管是什么分类。也许<br />
+<a href="http://www.365key.com/">365Key</a><br />
+是要考虑国内的特殊情况吧，如果照搬那两家，我估计<br />
+<a href="http://www.365key.com/">365Key</a> 的首页便都是“女人叫床<br />
+男人叫苦”、“一个‘自慰’女生的秘密”或者“意志的凯旋”、“日货清单”吧。<br />
+第三是因为收藏的某些文章可能对 <a href="http://www.365key.com/">365Key</a><br />
+本身没有好处吧，而使用国外的服务就不用顾虑太多。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9b%9e%e5%bd%92%20Furl》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhuigui-furl%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhuigui-furl%2f&text= @calon %e5%9b%9e%e5%bd%92%20Furl&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

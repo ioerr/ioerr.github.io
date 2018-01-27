@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>韩国 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%9F%A9%E5%9B%BD/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%9F%A9%E5%9B%BD/</link>
     <description>Recent content in 韩国 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%9F%A9%E5%9B%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2010 16:33:38 +0000</lastBuildDate>
     
-    <item>
-      <title>共同紧张区</title>
-      <link>https://ioerr.github.io/gongtong-jinzhang-qu/</link>
-      <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gongtong-jinzhang-qu/</guid>
-      <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%9F%A9%E5%9B%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>共同紧张区</title>
+        <link>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</link>
+        <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</guid>
+        <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
 
 &lt;p&gt;一、势如破竹&lt;br /&gt;
 1个小时后，金正恩宣布已经完全占领朝鲜半岛；&lt;br /&gt;
@@ -65,15 +65,14 @@
 
 &lt;p&gt;台湾：感谢金将军为杨淑君讨回公道所做的努力，但请不要采取非理性行为殃及无辜，要展现风范。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>韩国人质事件有转机</title>
-      <link>https://ioerr.github.io/hanguo-renzhi-shijian-youzhuanji/</link>
-      <pubDate>Tue, 28 Aug 2007 16:13:17 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hanguo-renzhi-shijian-youzhuanji/</guid>
-      <description>&lt;p&gt;据说&lt;a href=&#34;http://newsvote.bbc.co.uk/chinese/simp/hi/newsid_6960000/newsid_6967100/6967182.stm&#34;&gt;塔利班将会有条件地释放19名韩国人质&lt;/a&gt;，等了这么久终于有一个还算不错的消息了，希望谈判能够成功达成协议，人质平安回家。&lt;/p&gt;
+      <item>
+        <title>韩国人质事件有转机</title>
+        <link>https://ioerr.github.io/posts/hanguo-renzhi-shijian-youzhuanji/</link>
+        <pubDate>Tue, 28 Aug 2007 16:13:17 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/hanguo-renzhi-shijian-youzhuanji/</guid>
+        <description>&lt;p&gt;据说&lt;a href=&#34;http://newsvote.bbc.co.uk/chinese/simp/hi/newsid_6960000/newsid_6967100/6967182.stm&#34;&gt;塔利班将会有条件地释放19名韩国人质&lt;/a&gt;，等了这么久终于有一个还算不错的消息了，希望谈判能够成功达成协议，人质平安回家。&lt;/p&gt;
 
 &lt;p&gt;这一个多月以来，网络上关于人质事件的争论也不少，冷漠、热心、狂热、幸灾乐祸、别有用心的各类人都有。&lt;/p&gt;
 
@@ -81,7 +80,7 @@
 
 &lt;p&gt;而对于有趁着这个机会进行一些不合适的传教活动的国内基督徒，我的态度和天涯上的&lt;a href=&#34;http://cache.tianya.cn/publicforum/content/no01/1/346698.shtml&#34;&gt;这个帖子&lt;/a&gt;中“要命一条”的差不多。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

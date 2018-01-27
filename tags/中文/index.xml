@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中文 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87/</link>
     <description>Recent content in 中文 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Apr 2010 09:55:03 +0000</lastBuildDate>
     
-    <item>
-      <title>中文键盘</title>
-      <link>https://ioerr.github.io/zhongwen-jianpan/</link>
-      <pubDate>Mon, 12 Apr 2010 09:55:03 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongwen-jianpan/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>中文键盘</title>
+        <link>https://ioerr.github.io/posts/zhongwen-jianpan/</link>
+        <pubDate>Mon, 12 Apr 2010 09:55:03 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongwen-jianpan/</guid>
+        <description>
 
 &lt;p&gt;中国中央电视台最近接到有关部门通知，&lt;a href=&#34;http://sports.163.com/10/0406/08/63IS95BA00051CA1.html&#34;&gt;要求在央视今后的转播中必须要屏蔽一些外文的缩略词&lt;/a&gt;，例如“NBA”、“CBA”和“F1”等，一定要说的话，就说赛事的中文全称。&lt;br /&gt;
 各省（直辖市）电视台也接到了相同的通知，不知道以后还会不会向其他领域扩展。&lt;/p&gt;
@@ -94,18 +94,17 @@ NumLock=数码锁定/数字锁定/数&lt;/p&gt;
 
 &lt;p&gt;其实其中有一个不是中文字，看看谁能够找出来…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>中文入门手册</title>
-      <link>https://ioerr.github.io/zhongwen-rumen-shouce/</link>
-      <pubDate>Wed, 15 Aug 2007 09:44:38 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongwen-rumen-shouce/</guid>
-      <description>&lt;p&gt;以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。&lt;/p&gt;
+      <item>
+        <title>中文入门手册</title>
+        <link>https://ioerr.github.io/posts/zhongwen-rumen-shouce/</link>
+        <pubDate>Wed, 15 Aug 2007 09:44:38 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongwen-rumen-shouce/</guid>
+        <description>&lt;p&gt;以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。&lt;/p&gt;
 
-&lt;p&gt;在 &lt;a href=&#34;http://www.textfiles.com/&#34;&gt;TextFiles&lt;/a&gt;
-翻到一篇古老的&lt;a href=&#34;http://www.textfiles.com/fun/chinesec.hum&#34;&gt;中文简易教学的奇文&lt;/a&gt;，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
+&lt;p&gt;在 &lt;a href=&#34;http://www.textfiles.com/&#34;&gt;TextFiles&lt;/a&gt;&lt;br /&gt;
+翻到一篇古老的&lt;a href=&#34;http://www.textfiles.com/fun/chinesec.hum&#34;&gt;中文简易教学的奇文&lt;/a&gt;，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果&lt;br /&gt;
 l、r 至今都分不清楚…&lt;/p&gt;
 
 &lt;p&gt;以下标记有[?]的为存疑，[&amp;amp;]的为不靠谱，[!]的为神来之笔。&lt;/p&gt;
@@ -169,7 +168,7 @@ l、r 至今都分不清楚…&lt;/p&gt;
 &lt;p&gt;你喜欢我吗？＝Nee she whine wu ma? =Do you like me?&lt;br /&gt;
 为什么？＝Wa sa ma?=Why?&lt;br /&gt;
 男孩＝Nahnhie=Boy&lt;br /&gt;
-你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful
+你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful&lt;br /&gt;
 girl&lt;br /&gt;
 我希望你在这＝Wa she wa ni tsie tsa=I wish you were here&lt;br /&gt;
 闭嘴＝Bejuay=Shut up&lt;br /&gt;
@@ -179,7 +178,7 @@ girl&lt;br /&gt;
 嗯，这是纱布&lt;/p&gt;
 
 &lt;p&gt;我将会＝Wa jawngway=I will&lt;br /&gt;
-你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a
+你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a&lt;br /&gt;
 very, dirty, big, dick.&lt;br /&gt;
 你是一大鸡巴[&amp;amp;][!]＝Ni she needa jeba.=You are a big pussy.&lt;br /&gt;
 真声东击西之典范也！&lt;/p&gt;
@@ -190,7 +189,7 @@ very, dirty, big, dick.&lt;br /&gt;
 &lt;p&gt;去干老师＝Chu ga lousi =Go fuck the teacher.&lt;br /&gt;
 Hey! Kids! Leave them teachers alone!&lt;/p&gt;
 
-&lt;p&gt;你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the
+&lt;p&gt;你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the&lt;br /&gt;
 ugliest dick in the world.&lt;br /&gt;
 其实我觉得翻译作“最矬”效果更神奇。&lt;/p&gt;
 
@@ -200,7 +199,7 @@ ugliest dick in the world.&lt;br /&gt;
 3、中文果然不是这么好学的；&lt;br /&gt;
 4、还是我国以前的藏语学习小册子境界高啊，有时间再介绍。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>分拣 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%88%86%E6%8B%A3/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%88%86%E6%8B%A3/</link>
     <description>Recent content in 分拣 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%88%86%E6%8B%A3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2015 05:22:42 +0000</lastBuildDate>
     
-    <item>
-      <title>快递条例</title>
-      <link>https://ioerr.github.io/kuaidi-tiaoli/</link>
-      <pubDate>Thu, 19 Nov 2015 05:22:42 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kuaidi-tiaoli/</guid>
-      <description>&lt;p&gt;国务院法制办近日公布《&lt;a href=&#34;http://yijian.chinalaw.gov.cn/.../law.../1447635960401.doc&#34;&gt;快递条例（征求意见稿）&lt;/a&gt;》。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%88%86%E6%8B%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>快递条例</title>
+        <link>https://ioerr.github.io/posts/kuaidi-tiaoli/</link>
+        <pubDate>Thu, 19 Nov 2015 05:22:42 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kuaidi-tiaoli/</guid>
+        <description>&lt;p&gt;国务院法制办近日公布《&lt;a href=&#34;http://yijian.chinalaw.gov.cn/.../law.../1447635960401.doc&#34;&gt;快递条例（征求意见稿）&lt;/a&gt;》。&lt;br /&gt;
 关注的重点之一是因为之前落实快递行业实名制，所以配合重罚倒卖、泄露用户信息。&lt;br /&gt;
 之二是重罚抛扔快递行为。&lt;/p&gt;
 
@@ -39,7 +39,7 @@
 而政府也乐得响应群众呼声。&lt;br /&gt;
 至于监管是不是高效、到位，监管的设备、人力成本谁来承担，以往早有先例，不难猜到，等到正式施行就知道了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yoono on 读写错误</title>
-    <link>https://ioerr.github.io/tags/yoono/index.xml</link>
+    <link>https://ioerr.github.io/tags/yoono/</link>
     <description>Recent content in Yoono on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/yoono/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Mar 2013 06:57:26 +0000</lastBuildDate>
     
-    <item>
-      <title>Yoono Desktop 代理设置</title>
-      <link>https://ioerr.github.io/yoono-desktop-daili-shezhi/</link>
-      <pubDate>Mon, 04 Mar 2013 06:57:26 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yoono-desktop-daili-shezhi/</guid>
-      <description>&lt;p&gt;社交应用和即时通信的整合登录工具 &lt;a href=&#34;http://www.yoono.com/&#34;&gt;Yoono&lt;/a&gt;
+      <atom:link href="https://ioerr.github.io/tags/yoono/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Yoono Desktop 代理设置</title>
+        <link>https://ioerr.github.io/posts/yoono-desktop-daili-shezhi/</link>
+        <pubDate>Mon, 04 Mar 2013 06:57:26 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yoono-desktop-daili-shezhi/</guid>
+        <description>&lt;p&gt;社交应用和即时通信的整合登录工具 &lt;a href=&#34;http://www.yoono.com/&#34;&gt;Yoono&lt;/a&gt;&lt;br /&gt;
 的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。&lt;br /&gt;
 好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。&lt;br /&gt;
 官方就早给出了&lt;a href=&#34;https://getsatisfaction.com/yoono/topics/add_proxy_setting_to_yoono_desktop&#34;&gt;自己解决问题的方法&lt;/a&gt;：&lt;/p&gt;
 
-&lt;p&gt;在 /Users/your_user_name/Library/Application
-Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
-文件，我这里是在
-\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+&lt;p&gt;在 /Users/your_user_name/Library/Application&lt;br /&gt;
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js&lt;br /&gt;
+文件，我这里是在&lt;br /&gt;
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个&lt;br /&gt;
 xxxx 分别是 Windows 登录用户名和随机字符串）。&lt;/p&gt;
 
 &lt;p&gt;编辑 prefs.js 文件，在后面加上以下内容：&lt;br /&gt;
@@ -34,12 +34,12 @@ user_pref(&amp;ldquo;network.proxy.share_proxy_settings&amp;rdquo;, true);&lt;br
 user_pref(&amp;ldquo;network.proxy.ssl&amp;rdquo;, &amp;ldquo;squid.home-server&amp;rdquo;);&lt;br /&gt;
 user_pref(&amp;ldquo;network.proxy.ssl_port&amp;rdquo;, 3128);&lt;br /&gt;
 user_pref(&amp;ldquo;network.proxy.type&amp;rdquo;, 1);&lt;br /&gt;
-user_pref(&amp;ldquo;network.proxy.no_proxies_on&amp;rdquo;, &amp;ldquo;localhost, 127.0.0.1,
+user_pref(&amp;ldquo;network.proxy.no_proxies_on&amp;rdquo;, &amp;ldquo;localhost, 127.0.0.1,&lt;br /&gt;
 your_proxy_ip&amp;rdquo;);&lt;/p&gt;
 
 &lt;p&gt;将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

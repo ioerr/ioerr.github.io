@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>亮点 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="亮点" />
+<meta property="og:description" content="我认为心灵开放是重要的，这一部分自由主义叫做反求诸己，都是你自个的事情，你自个没有一个改革开放的自己，永远困扰自己。
+人民要聪明，争取自由要靠智慧。
+这里是我的国家，我要使它自由。别以为都是假的，当我们努力就是真的；别以为他们在骗我们，当我们认真，他们就不是骗子。
+可是我们现在知道，当我们有一天觉得我们不往外面跑，自由不在外面，自由在我们眼前，经过我们的努力自由会实现的时候，为什么我们要跑？大家想一想。
+来源
+讽刺的内容就不列了，懂得幽默的人自然能够领会。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/liangdian/" />
+
+
+
+<meta property="article:published_time" content="2005-09-23T14:41:11&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-09-23T14:41:11&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="亮点">
+<meta itemprop="description" content="我认为心灵开放是重要的，这一部分自由主义叫做反求诸己，都是你自个的事情，你自个没有一个改革开放的自己，永远困扰自己。
+人民要聪明，争取自由要靠智慧。
+这里是我的国家，我要使它自由。别以为都是假的，当我们努力就是真的；别以为他们在骗我们，当我们认真，他们就不是骗子。
+可是我们现在知道，当我们有一天觉得我们不往外面跑，自由不在外面，自由在我们眼前，经过我们的努力自由会实现的时候，为什么我们要跑？大家想一想。
+来源
+讽刺的内容就不列了，懂得幽默的人自然能够领会。">
+
+
+<meta itemprop="datePublished" content="2005-09-23T14:41:11&#43;00:00" />
+<meta itemprop="dateModified" content="2005-09-23T14:41:11&#43;00:00" />
+<meta itemprop="wordCount" content="6">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="亮点"/>
+<meta name="twitter:description" content="我认为心灵开放是重要的，这一部分自由主义叫做反求诸己，都是你自个的事情，你自个没有一个改革开放的自己，永远困扰自己。
+人民要聪明，争取自由要靠智慧。
+这里是我的国家，我要使它自由。别以为都是假的，当我们努力就是真的；别以为他们在骗我们，当我们认真，他们就不是骗子。
+可是我们现在知道，当我们有一天觉得我们不往外面跑，自由不在外面，自由在我们眼前，经过我们的努力自由会实现的时候，为什么我们要跑？大家想一想。
+来源
+讽刺的内容就不列了，懂得幽默的人自然能够领会。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-09-23 02:41">2005-09-23</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>亮点</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>我认为心灵开放是重要的，这一部分自由主义叫做反求诸己，都是你自个的事情，你自个没有一个改革开放的自己，永远困扰自己。</p>
+
+<p>人民要聪明，争取自由要靠智慧。</p>
+
+<p>这里是我的国家，我要使它自由。别以为都是假的，当我们努力就是真的；别以为他们在骗我们，当我们认真，他们就不是骗子。</p>
+
+<p>可是我们现在知道，当我们有一天觉得我们不往外面跑，自由不在外面，自由在我们眼前，经过我们的努力自由会实现的时候，为什么我们要跑？大家想一想。</p>
+
+<p><a href="http://www.phoenixtv.com/phoenixtv/74596512415350784/index.shtml">来源</a></p>
+
+<p>讽刺的内容就不列了，懂得幽默的人自然能够领会。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ae%e7%82%b9》&body=https%3a%2f%2fioerr.github.io%2fposts%2fliangdian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fliangdian%2f&text= @calon %e4%ba%ae%e7%82%b9&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

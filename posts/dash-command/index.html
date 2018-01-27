@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dash Command - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Dash Command" />
+<meta property="og:description" content="Life Hacker
+终于想起来要介绍
+Executor
+这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor
+很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的
+Launchy 用户，而且，有的用户并没有深入研究就认为 Executor
+具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为
+Launchy 使用 runner 插件添加别名就能达到和它一样效果。
+额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：Dash
+Command（急急如勒令？命令大师？囧）
+Dash
+是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价\$50，与其他免费好用的同类软件相比这是个很大的劣势。
+但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。
+下面是试用版的使用体验：
+首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：
+
+控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy
+新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。
+Dash 和 Launchy
+接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引
+Firefox
+书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。
+一些特殊命令试用版中也无效：
+
+增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this
+下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像
+TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。
+试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords
+下面的文件突破限制。
+Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music
+命令，那么输入关键词之后再按 Tab
+或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：
+
+另一特色是输入
+/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。
+在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：
+
+控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break
+不能设置为热键…
+
+对中文的支持并非完美，据说今后的版本会支持 Unicode：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dash-command/" />
+
+
+
+<meta property="article:published_time" content="2008-08-21T14:58:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-08-21T14:58:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Dash Command">
+<meta itemprop="description" content="Life Hacker
+终于想起来要介绍
+Executor
+这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor
+很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的
+Launchy 用户，而且，有的用户并没有深入研究就认为 Executor
+具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为
+Launchy 使用 runner 插件添加别名就能达到和它一样效果。
+额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：Dash
+Command（急急如勒令？命令大师？囧）
+Dash
+是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价\$50，与其他免费好用的同类软件相比这是个很大的劣势。
+但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。
+下面是试用版的使用体验：
+首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：
+
+控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy
+新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。
+Dash 和 Launchy
+接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引
+Firefox
+书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。
+一些特殊命令试用版中也无效：
+
+增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this
+下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像
+TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。
+试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords
+下面的文件突破限制。
+Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music
+命令，那么输入关键词之后再按 Tab
+或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：
+
+另一特色是输入
+/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。
+在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：
+
+控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break
+不能设置为热键…
+
+对中文的支持并非完美，据说今后的版本会支持 Unicode：">
+
+
+<meta itemprop="datePublished" content="2008-08-21T14:58:00&#43;00:00" />
+<meta itemprop="dateModified" content="2008-08-21T14:58:00&#43;00:00" />
+<meta itemprop="wordCount" content="254">
+
+
+
+<meta itemprop="keywords" content="Dash Command,Executor,Launchy,快速启动," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Dash Command"/>
+<meta name="twitter:description" content="Life Hacker
+终于想起来要介绍
+Executor
+这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor
+很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的
+Launchy 用户，而且，有的用户并没有深入研究就认为 Executor
+具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为
+Launchy 使用 runner 插件添加别名就能达到和它一样效果。
+额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：Dash
+Command（急急如勒令？命令大师？囧）
+Dash
+是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价\$50，与其他免费好用的同类软件相比这是个很大的劣势。
+但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。
+下面是试用版的使用体验：
+首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：
+
+控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy
+新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。
+Dash 和 Launchy
+接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引
+Firefox
+书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。
+一些特殊命令试用版中也无效：
+
+增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this
+下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像
+TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。
+试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords
+下面的文件突破限制。
+Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music
+命令，那么输入关键词之后再按 Tab
+或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：
+
+另一特色是输入
+/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。
+在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：
+
+控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break
+不能设置为热键…
+
+对中文的支持并非完美，据说今后的版本会支持 Unicode："/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-08-21 02:58">2008-08-21</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Dash Command</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/dash-command">
+              <span class="hash">#</span>Dash Command</a>
+          
+            , 
+            <a href="/tags/executor">
+              <span class="hash">#</span>Executor</a>
+          
+            , 
+            <a href="/tags/launchy">
+              <span class="hash">#</span>Launchy</a>
+          
+            , 
+            <a href="/tags/%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8">
+              <span class="hash">#</span>快速启动</a>
+          
+        
+      </p>
+    </header>
+    <section><p>Life Hacker<br />
+终于想起来要<a href="http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher">介绍</a><br />
+<a href="http://calon.weblogs.us/executor/">Executor</a><br />
+这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor<br />
+很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的<br />
+Launchy 用户，而且，有的用户并没有深入研究就认为 Executor<br />
+具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为<br />
+Launchy 使用 runner 插件添加别名就能达到和它一样效果。</p>
+
+<p>额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：<a href="http://trydash.com/home/">Dash<br />
+Command</a>（急急如勒令？命令大师？囧）</p>
+
+<p><img src="http://www.trydash.com/home/wp-content/uploads/image/DashDemo1.gif" alt="" /></p>
+
+<p>Dash<br />
+是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价\$50，与其他免费好用的同类软件相比这是个很大的劣势。<br />
+但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。</p>
+
+<p>下面是试用版的使用体验：</p>
+
+<p>首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_203810.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203810.png" alt="Photobucket" /></a><br />
+控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy<br />
+新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。</p>
+
+<p>Dash 和 Launchy<br />
+接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引<br />
+Firefox<br />
+书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。<br />
+一些特殊命令试用版中也无效：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_203631.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203631.png" alt="Photobucket" /></a></p>
+
+<p>增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this<br />
+下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像<br />
+TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。<br />
+试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords<br />
+下面的文件突破限制。<br />
+<img src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI11.jpg" alt="" /></p>
+
+<p>Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music<br />
+命令，那么输入关键词之后再按 Tab<br />
+或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_205441.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_205441.png" alt="Photobucket" /></a></p>
+
+<p>另一特色是输入<br />
+/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。</p>
+
+<p>在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_220722.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_220722.png" alt="Photobucket" /></a></p>
+
+<p>控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break<br />
+不能设置为热键…<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_204126.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204126.png" alt="Photobucket" /></a></p>
+
+<p>对中文的支持并非完美，据说今后的版本会支持 Unicode：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_204507.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204507.png" alt="Photobucket" /></a></p>
+
+<p>正式版的界面可以看<a href="http://www.trydash.com/home/screenshots/">这里</a>，从它的<a href="http://www.trydash.com/home/information/features/">特性介绍</a>来看，试用版少了很多同类软件不具备的强大功能：</p>
+
+<p>预览图片：<br />
+<img src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI7.jpg" alt="" /></p>
+
+<p>直接操作文件和目录：<br />
+<img src="http://www.trydash.com/home/wp-content/uploads/image/Zip.gif" alt="" /></p>
+
+<p>可以针对指定网站建立定期刷新的索引，图中的 Websites 就是证据：<br />
+<img src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI12-small.jpg" alt="" /></p>
+
+<p>快速搜索或翻译选定的文本：<br />
+<img src="http://www.trydash.com/home/wp-content/uploads/image/TextSelection.gif" alt="" /></p>
+
+<p>实时计算结果的计算器，复制计算结果也很方便：<br />
+<img src="http://trydash.com/images/DashCalculator1.jpg" alt="" /></p>
+
+<p>兼容 <a href="http://www.fullphat.net/">Snarl</a> 协议，其他兼容 Snarl<br />
+的程序都可以通过 Dash 实现桌面提醒，而且不用安装 Snarl：<br />
+<img src="http://trydash.com/images/DashNotify-UI1.jpg" alt="" /></p>
+
+<p>还有超级模糊匹配和正则表达式，不过我觉得会大大增加候选项降低速度，或者一般人根本用不到：<br />
+Type** gmap** to find <strong>G</strong>oogle <strong>Map</strong>s</p>
+
+<p>Type** apc** to find <strong>A</strong>dobe <strong>P</strong>hotoshop <strong>C</strong>S3</p>
+
+<p>更多的特性请看安装程序自带的使用手册和<a href="http://www.trydash.com/home/wp-content/uploads/file/Dash%20Users%20Manual.pdf">官方帮助文档</a>、<a href="http://www.trydash.com/home/tutorials/">演示动画</a>、<a href="http://www.trydash.com/home/dash-video-tour/">视频</a>，都说得很清楚。</p>
+
+<p>最后，为何我要介绍一款收费软件？因为 <a href="http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher#c7315216">Dash<br />
+的开发者之一声称</a>要放出一个<br />
+new UNLIMITED TRIAL version：</p>
+
+<p><blockquote><br />
+I am one of the Dash Command developers. We are going to be releasing a<br />
+new UNLIMITED TRIAL version to replace our old demo (which lags behind<br />
+the current registered version by quite a lot).<br />
+</blockquote><br />
+这实在是让人期待。<br />
+但谁能告诉我 UNLIMITED TRIAL 是什么意思？不限时、不限次数还是不限功能？</p>
+
+<p>补充说明：试用版的说明文档中说：</p>
+
+<p><blockquote><br />
+This version of Dash must only be run for the duration of the trial<br />
+period.<br />
+</blockquote><br />
+FAQ 中说：</p>
+
+<p><blockquote><br />
+What are the restrictions in the trial version?</p>
+
+<p>The restrictions at this point are a smaller set of commands, the user<br />
+can only create 5 keywords, keywords and scanners cannot be edited. The<br />
+trial is also time limited.<br />
+</blockquote><br />
+但我不知到这个 time limit 到底是多少，难道要我自己试？</p>
+
+<p><a href="http://www.trydash.com/home/free-download/#comment-88">开发者去年曾经说</a>：</p>
+
+<p><blockquote><br />
+Unrestricted Trial: The next update we make to the trial version is<br />
+going to be non-restricted, so that everyone can test all the features<br />
+in Dash. We don’t have a set date yet, but I suspect it will be coming<br />
+out around the end of Sept. or beginning of Oct.<br />
+</blockquote><br />
+结果到今年还没有推出全功能试用版…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Dash%20Command》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdash-command%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdash-command%2f&text= @calon Dash%20Command&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on 读写错误</title>
-    <link>https://ioerr.github.io/tags/blog/index.xml</link>
+    <link>https://ioerr.github.io/tags/blog/</link>
     <description>Recent content in Blog on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jan 2008 16:40:35 +0000</lastBuildDate>
     
-    <item>
-      <title>有多忙？</title>
-      <link>https://ioerr.github.io/youduomang/</link>
-      <pubDate>Tue, 29 Jan 2008 16:40:35 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/youduomang/</guid>
-      <description>&lt;p&gt;有道提供的&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;2007 blog 测试&lt;/a&gt;。&lt;br /&gt;
-&lt;table cellpadding=&#34;3&#34; width=&#34;500&#34; style=&#34;background:#fff;&#34; cellspacing=&#34;0&#34; bordercolor=&#34;#A60707&#34;&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center; border-top:2px solid #ccc;&#34;&gt;
-&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;&lt;img src=&#34;http://www.yodao.com/07busy/images/logoIcon.gif&#34; alt=&#34;2007我很忙&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;“2007我很忙！”
-你呢？点这里测测看！**&lt;/a&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+      <atom:link href="https://ioerr.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>有多忙？</title>
+        <link>https://ioerr.github.io/posts/youduomang/</link>
+        <pubDate>Tue, 29 Jan 2008 16:40:35 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/youduomang/</guid>
+        <description>&lt;p&gt;有道提供的&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;2007 blog 测试&lt;/a&gt;。&lt;br /&gt;
+&lt;table cellpadding=&#34;3&#34; width=&#34;500&#34; style=&#34;background:#fff;&#34; cellspacing=&#34;0&#34; bordercolor=&#34;#A60707&#34;&gt;&lt;br /&gt;
+&lt;tr&gt;&lt;br /&gt;
+&lt;td&gt;&lt;br /&gt;
+&lt;/td&gt;&lt;br /&gt;
+&lt;/tr&gt;&lt;br /&gt;
+&lt;tr&gt;&lt;br /&gt;
+&lt;td style=&#34;text-align:center; border-top:2px solid #ccc;&#34;&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;&lt;img src=&#34;http://www.yodao.com/07busy/images/logoIcon.gif&#34; alt=&#34;2007我很忙&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;“2007我很忙！”&lt;br /&gt;
+你呢？点这里测测看！**&lt;/a&gt;&lt;br /&gt;
+&lt;/td&gt;&lt;br /&gt;
+&lt;/tr&gt;&lt;br /&gt;
+&lt;/table&gt;&lt;br /&gt;
 经鉴定，夏秋季节交配活动频繁，昼伏夜出，患有周一恐惧症，雄性特征明显，中产阶级。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

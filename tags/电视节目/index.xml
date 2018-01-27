@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电视节目 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/</link>
     <description>Recent content in 电视节目 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Feb 2009 03:06:02 +0000</lastBuildDate>
     
-    <item>
-      <title>《寻宝》节目</title>
-      <link>https://ioerr.github.io/xunbao-jiemu/</link>
-      <pubDate>Sun, 08 Feb 2009 03:06:02 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xunbao-jiemu/</guid>
-      <description>&lt;p&gt;昨天看了一下央视经济频道的《寻宝》特别节目的重播（好像这期是在咸宁，起床之后就忘了…），感觉还挺好玩的。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>《寻宝》节目</title>
+        <link>https://ioerr.github.io/posts/xunbao-jiemu/</link>
+        <pubDate>Sun, 08 Feb 2009 03:06:02 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xunbao-jiemu/</guid>
+        <description>&lt;p&gt;昨天看了一下央视经济频道的《寻宝》特别节目的重播（好像这期是在咸宁，起床之后就忘了…），感觉还挺好玩的。&lt;br /&gt;
 &lt;a href=&#34;http://www.cctv.com/program/ysptz/20080606/108462.shtml&#34;&gt;节目的形式是&lt;/a&gt;：当地的收藏爱好者们怀揣自己的收藏到节目现场的外面进行排队海选，被选中的收藏者进入现场向鉴定专家展示藏品，一般会被问到来源、收藏的时间、自己对藏品的年代和价值分析，然后四位专家现场鉴定评点，如果是真品且颇具价值，就入围下一轮，最终角逐出一个头名，授予“民间国宝”的称号。&lt;/p&gt;
 
 &lt;p&gt;节目最让人捧腹大笑的是，有的收藏者满以为自己好不容易花大价钱淘到了稀世珍宝，分析的时候也头头是道，还自称有数十年的收藏经验，与本地多位专家共同评估过，估价都是天文数字，结果鉴定专家一看，明显的错误比比皆是，只能拿回家玩一玩了；登时收藏者的脸就开始抽搐，面红耳赤，汗如雨下，与先前的自信乃至傲气十足的状态形成了巨大反差。&lt;br /&gt;
@@ -30,7 +30,7 @@
 
 &lt;p&gt;附加链接：&lt;a href=&#34;http://vsearch.cctv.com/plgs_play-CCTV2prog_20071210_2565292.html&#34;&gt;《艺术品投资》：民间寻宝记－－走进湖北&lt;/a&gt;，这个是专家主动出击去市场上找珍品的节目视频。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

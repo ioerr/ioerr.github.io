@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>围棋 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%9B%B4%E6%A3%8B/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%9B%B4%E6%A3%8B/</link>
     <description>Recent content in 围棋 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%9B%B4%E6%A3%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Mar 2016 15:50:19 +0000</lastBuildDate>
     
-    <item>
-      <title>乱谈人类与人工智能的未来竞争</title>
-      <link>https://ioerr.github.io/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</link>
-      <pubDate>Thu, 17 Mar 2016 15:50:19 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</guid>
-      <description>&lt;p&gt;DeepMind 的阿发狗（AlphaGo）已经总比分4:1战胜李世乭，加上之前 Boston
-Dynamics 的 Atlas
+      <atom:link href="https://ioerr.github.io/tags/%E5%9B%B4%E6%A3%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>乱谈人类与人工智能的未来竞争</title>
+        <link>https://ioerr.github.io/posts/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</link>
+        <pubDate>Thu, 17 Mar 2016 15:50:19 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</guid>
+        <description>&lt;p&gt;DeepMind 的阿发狗（AlphaGo）已经总比分4:1战胜李世乭，加上之前 Boston&lt;br /&gt;
+Dynamics 的 Atlas&lt;br /&gt;
 机器人逆天的表现，许多网友就已经惊呼，机器人、人工智能战胜、取代人类的日子不远了，也有专家学者认为强人工智能的出现会大大早于大多数人的预期。&lt;br /&gt;
 同时，各种限制技术进步、捣毁机器的卢德主义论调又重新抬头。&lt;br /&gt;
 其实现在还不必如此忧心忡忡，机器取代人类这一天不会这么快到来——虽然也许比想象的要快一点。&lt;/p&gt;
@@ -29,9 +29,9 @@ Dynamics 的 Atlas
 有大量已知的经验材料可供学习，不用自己完全从头摸索规则内的最优解（虽然理论上阿发狗可以通过互相博弈探索最优解，但在更加开放、复杂的问题上未必能做到）；&lt;br /&gt;
 ……&lt;/p&gt;
 
-&lt;p&gt;目前阿发狗为代表的人工智能背后有蒙特卡洛树搜索（Monte Carlo tree
-search）+强化学习（Reinforcement Learning）+深度神经网络（Deep Neural
-Networks）+快速走子（Fast
+&lt;p&gt;目前阿发狗为代表的人工智能背后有蒙特卡洛树搜索（Monte Carlo tree&lt;br /&gt;
+search）+强化学习（Reinforcement Learning）+深度神经网络（Deep Neural&lt;br /&gt;
+Networks）+快速走子（Fast&lt;br /&gt;
 Rollout）等技术，擅长在既定规则和完全信息下，通过大量学习，评估形势，在一定时间限制内高效率地找到满足给定目标的较优策略。&lt;br /&gt;
 其中几个关键点有：&lt;br /&gt;
 1、需要判别、筛选材料是否可用于学习&lt;br /&gt;
@@ -109,7 +109,7 @@ Rollout）等技术，擅长在既定规则和完全信息下，通过大量学�
 &lt;p&gt;是时候讨论阿发狗什么时候入党了，以及超过三个人工智能的局域网是否应该成立党支部（如果他们不合并）。&lt;br /&gt;
 还有，未来机器人军队是否应配政委和指导员？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

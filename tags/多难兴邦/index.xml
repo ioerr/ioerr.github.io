@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>多难兴邦 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%A4%9A%E9%9A%BE%E5%85%B4%E9%82%A6/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%A4%9A%E9%9A%BE%E5%85%B4%E9%82%A6/</link>
     <description>Recent content in 多难兴邦 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%A4%9A%E9%9A%BE%E5%85%B4%E9%82%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2013 06:02:43 +0000</lastBuildDate>
     
-    <item>
-      <title>多难兴邦与想象的共同体</title>
-      <link>https://ioerr.github.io/duonanxingbang-yu-xiangxiang-de-gongtongti/</link>
-      <pubDate>Tue, 23 Apr 2013 06:02:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/duonanxingbang-yu-xiangxiang-de-gongtongti/</guid>
-      <description>&lt;p&gt;汶川地震时，温家宝总理写在黑板上的一句“多难兴邦”惹出不少争议，曲解之下，似乎变成多点灾难更能兴邦，于是有人讽刺何时会再有兴邦级灾难？&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%A4%9A%E9%9A%BE%E5%85%B4%E9%82%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>多难兴邦与想象的共同体</title>
+        <link>https://ioerr.github.io/posts/duonanxingbang-yu-xiangxiang-de-gongtongti/</link>
+        <pubDate>Tue, 23 Apr 2013 06:02:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/duonanxingbang-yu-xiangxiang-de-gongtongti/</guid>
+        <description>&lt;p&gt;汶川地震时，温家宝总理写在黑板上的一句“多难兴邦”惹出不少争议，曲解之下，似乎变成多点灾难更能兴邦，于是有人讽刺何时会再有兴邦级灾难？&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://news.cctv.com/20080523/images/1211517835274_1211517835274_r.jpg&#34; alt=&#34;多难兴邦&#34; /&gt;&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;对此我不想作价值判断，也不以想象的共同体为金科玉律，但从另一个角度看“多难兴‘邦’”，或有所得。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

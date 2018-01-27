@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新华拼音输入法 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="新华拼音输入法" />
+<meta property="og:description" content="在和人讨论输入法的时候，有人提到了新华输入法功能很强大，于是抽点时间试用了一把：
+输入法属于属于词组输入法范畴，一次输入不超过20个汉字，优点和特色有：
+附加功能相当强大，可输入拼音、日文、偏旁部首、繁体，支持粤语语音辅助输入；
+支持全拼、双拼、简拼、笔画输入，支持自定义双拼编码；
+支持英汉输入，输入英文，可选择对应的中文翻译；
+支持根据声调、词性筛选，提高识别率；
+可以成组输入中、英、日文的同音词、同类词、同类符号；
+可以查找同义词、反义词、笔画、读音、正序词组、逆序词组（紫光干脆增加了通配符功能，够狠！）；
+繁體輸入的準確率比搜狗、穀歌、拼音加加要好（搜狗3.1版已經修正了一些繁體詞組錯誤了）；
+候选字词与联想的长词分开，既可以减少翻页，也可以快速输入长词。
+缺点和不足则是：
+按键自定义不够灵活，如翻页键还是老式的&#43;-,.[]，不能够选择
+Tab；中英文切换虽然可以选择
+Ctrl，却会占用热键，导致其他的功能失效；词性筛选的快捷键只能在已有方案中选择；还有如删除自造词、候选长词上屏、快捷搜索等快捷键根本无法自定义。这对于智能 或微软拼音的用户来说可能不是什么大问题，但是对习惯了各个新兴输入法丰富的自定义选项的我来说就比较麻烦了，好在适应的速度还算快。
+同样的，其他输入法好用的特色功能它也缺少，如回退清除错词（搜狗、加加、紫光都开始用了）、自动纠正；
+自定义短语的编辑和使用很不方便，必须手工导入，调用时还要使用专门的识别键；
+附加功能开得越多，响应速度就越慢，还需要优化才行；
+不支持以字为单位移动光标，只能一个字母一个字母的移动，输入长词时不方便修改；
+词库比较落后，又不能够直接导入其他输入法的词库。
+总体的感觉是：附加功能很多，但调用方法太复杂，反不如其他输入法利用自定义短语实现来得有技巧，核心的功能又不够方便和强大，自定义选项不足。
+本文用自然码输入法混合新华输入法输入。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/xinhua-pinyin-shurufa/" />
+
+
+
+<meta property="article:published_time" content="2008-01-02T06:45:32&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-01-02T06:45:32&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="新华拼音输入法">
+<meta itemprop="description" content="在和人讨论输入法的时候，有人提到了新华输入法功能很强大，于是抽点时间试用了一把：
+输入法属于属于词组输入法范畴，一次输入不超过20个汉字，优点和特色有：
+附加功能相当强大，可输入拼音、日文、偏旁部首、繁体，支持粤语语音辅助输入；
+支持全拼、双拼、简拼、笔画输入，支持自定义双拼编码；
+支持英汉输入，输入英文，可选择对应的中文翻译；
+支持根据声调、词性筛选，提高识别率；
+可以成组输入中、英、日文的同音词、同类词、同类符号；
+可以查找同义词、反义词、笔画、读音、正序词组、逆序词组（紫光干脆增加了通配符功能，够狠！）；
+繁體輸入的準確率比搜狗、穀歌、拼音加加要好（搜狗3.1版已經修正了一些繁體詞組錯誤了）；
+候选字词与联想的长词分开，既可以减少翻页，也可以快速输入长词。
+缺点和不足则是：
+按键自定义不够灵活，如翻页键还是老式的&#43;-,.[]，不能够选择
+Tab；中英文切换虽然可以选择
+Ctrl，却会占用热键，导致其他的功能失效；词性筛选的快捷键只能在已有方案中选择；还有如删除自造词、候选长词上屏、快捷搜索等快捷键根本无法自定义。这对于智能 或微软拼音的用户来说可能不是什么大问题，但是对习惯了各个新兴输入法丰富的自定义选项的我来说就比较麻烦了，好在适应的速度还算快。
+同样的，其他输入法好用的特色功能它也缺少，如回退清除错词（搜狗、加加、紫光都开始用了）、自动纠正；
+自定义短语的编辑和使用很不方便，必须手工导入，调用时还要使用专门的识别键；
+附加功能开得越多，响应速度就越慢，还需要优化才行；
+不支持以字为单位移动光标，只能一个字母一个字母的移动，输入长词时不方便修改；
+词库比较落后，又不能够直接导入其他输入法的词库。
+总体的感觉是：附加功能很多，但调用方法太复杂，反不如其他输入法利用自定义短语实现来得有技巧，核心的功能又不够方便和强大，自定义选项不足。
+本文用自然码输入法混合新华输入法输入。">
+
+
+<meta itemprop="datePublished" content="2008-01-02T06:45:32&#43;00:00" />
+<meta itemprop="dateModified" content="2008-01-02T06:45:32&#43;00:00" />
+<meta itemprop="wordCount" content="22">
+
+
+
+<meta itemprop="keywords" content="新华拼音,输入法," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="新华拼音输入法"/>
+<meta name="twitter:description" content="在和人讨论输入法的时候，有人提到了新华输入法功能很强大，于是抽点时间试用了一把：
+输入法属于属于词组输入法范畴，一次输入不超过20个汉字，优点和特色有：
+附加功能相当强大，可输入拼音、日文、偏旁部首、繁体，支持粤语语音辅助输入；
+支持全拼、双拼、简拼、笔画输入，支持自定义双拼编码；
+支持英汉输入，输入英文，可选择对应的中文翻译；
+支持根据声调、词性筛选，提高识别率；
+可以成组输入中、英、日文的同音词、同类词、同类符号；
+可以查找同义词、反义词、笔画、读音、正序词组、逆序词组（紫光干脆增加了通配符功能，够狠！）；
+繁體輸入的準確率比搜狗、穀歌、拼音加加要好（搜狗3.1版已經修正了一些繁體詞組錯誤了）；
+候选字词与联想的长词分开，既可以减少翻页，也可以快速输入长词。
+缺点和不足则是：
+按键自定义不够灵活，如翻页键还是老式的&#43;-,.[]，不能够选择
+Tab；中英文切换虽然可以选择
+Ctrl，却会占用热键，导致其他的功能失效；词性筛选的快捷键只能在已有方案中选择；还有如删除自造词、候选长词上屏、快捷搜索等快捷键根本无法自定义。这对于智能 或微软拼音的用户来说可能不是什么大问题，但是对习惯了各个新兴输入法丰富的自定义选项的我来说就比较麻烦了，好在适应的速度还算快。
+同样的，其他输入法好用的特色功能它也缺少，如回退清除错词（搜狗、加加、紫光都开始用了）、自动纠正；
+自定义短语的编辑和使用很不方便，必须手工导入，调用时还要使用专门的识别键；
+附加功能开得越多，响应速度就越慢，还需要优化才行；
+不支持以字为单位移动光标，只能一个字母一个字母的移动，输入长词时不方便修改；
+词库比较落后，又不能够直接导入其他输入法的词库。
+总体的感觉是：附加功能很多，但调用方法太复杂，反不如其他输入法利用自定义短语实现来得有技巧，核心的功能又不够方便和强大，自定义选项不足。
+本文用自然码输入法混合新华输入法输入。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-01-02 06:45">2008-01-02</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>新华拼音输入法</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%96%B0%E5%8D%8E%E6%8B%BC%E9%9F%B3">
+              <span class="hash">#</span>新华拼音</a>
+          
+            , 
+            <a href="/tags/%E8%BE%93%E5%85%A5%E6%B3%95">
+              <span class="hash">#</span>输入法</a>
+          
+        
+      </p>
+    </header>
+    <section>
+
+<p>在和人讨论输入法的时候，有人提到了<a href="http://www.fhpi.cn/">新华输入法</a>功能很强大，于是抽点时间试用了一把：</p>
+
+<p>输入法属于属于词组输入法范畴，一次输入不超过20个汉字，优点和特色有：<br />
+附加功能相当强大，可输入<a href="http://www.fhpi.cn/pinvinv.htm">拼音</a>、<a href="http://www.fhpi.cn/RiyUenw.htm">日文</a>、<a href="http://www.fhpi.cn/pianvpangw.htm">偏旁部首</a>、<a href="http://www.fhpi.cn/CeyShiy.htm">繁体</a>，支持粤语语音辅助输入；<br />
+支持全拼、双拼、简拼、<a href="http://www.fhpi.cn/BixHuayFuxZhuy.htm">笔画输入</a>，支持自定义双拼编码；<br />
+支持<a href="http://www.fhpi.cn/ingvhany.htm">英汉输入</a>，输入英文，可选择对应的中文翻译；<br />
+支持根据<a href="http://www.fhpi.cn/ueiyshenwme.htm">声调、词性</a>筛选，提高识别率；<br />
+可以成组输入中、英、日文的<a href="http://www.fhpi.cn/tongwinvziy.htm">同音词、同类词、同类符号</a>；<br />
+可以查找<a href="http://www.fhpi.cn/TongwIyCiw.htm">同义词、反义词</a>、<a href="http://www.fhpi.cn/bixhuay2.htm">笔画</a>、读音、正序词组、逆序词组（紫光干脆增加了通配符功能，够狠！）；<br />
+繁體輸入的準確率比搜狗、穀歌、拼音加加要好（搜狗3.1版已經修正了一些繁體詞組錯誤了）；<br />
+候选字词与联想的长词分开，既可以减少翻页，也可以快速输入长词。</p>
+
+<p>缺点和不足则是：<br />
+按键自定义不够灵活，如翻页键还是老式的+-,.[]，不能够选择<br />
+Tab；中英文切换虽然可以选择</p>
+
+<h2 id="ctrl-却会占用热键-导致其他的功能失效-词性筛选的快捷键只能在已有方案中选择-还有如删除自造词-候选长词上屏-快捷搜索等快捷键根本无法自定义-这对于智能">Ctrl，却会占用热键，导致其他的功能失效；词性筛选的快捷键只能在已有方案中选择；还有如删除自造词、候选长词上屏、快捷搜索等快捷键根本无法自定义。这对于智能</h2>
+
+<p>或微软拼音的用户来说可能不是什么大问题，但是对习惯了各个新兴输入法丰富的自定义选项的我来说就比较麻烦了，好在适应的速度还算快。<br />
+同样的，其他输入法好用的特色功能它也缺少，如回退清除错词（搜狗、加加、紫光都开始用了）、自动纠正；<br />
+自定义短语的编辑和使用很不方便，必须手工导入，调用时还要使用专门的识别键；<br />
+<a href="http://www.fhpi.cn/fiaoyliuy.htm">附加功能开得越多，响应速度就越慢</a>，还需要优化才行；<br />
+不支持以字为单位移动光标，只能一个字母一个字母的移动，输入长词时不方便修改；<br />
+词库比较落后，又不能够直接导入其他输入法的词库。</p>
+
+<p>总体的感觉是：附加功能很多，但调用方法太复杂，反不如其他输入法利用自定义短语实现来得有技巧，核心的功能又不够方便和强大，自定义选项不足。</p>
+
+<p>本文用自然码输入法混合新华输入法输入。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e5%8d%8e%e6%8b%bc%e9%9f%b3%e8%be%93%e5%85%a5%e6%b3%95》&body=https%3a%2f%2fioerr.github.io%2fposts%2fxinhua-pinyin-shurufa%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxinhua-pinyin-shurufa%2f&text= @calon %e6%96%b0%e5%8d%8e%e6%8b%bc%e9%9f%b3%e8%be%93%e5%85%a5%e6%b3%95&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

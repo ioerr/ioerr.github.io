@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>苹果 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%8B%B9%E6%9E%9C/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%8B%B9%E6%9E%9C/</link>
     <description>Recent content in 苹果 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%8B%B9%E6%9E%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2017 14:49:29 +0800</lastBuildDate>
     
-    <item>
-      <title>自由的代价</title>
-      <link>https://ioerr.github.io/ziyou-de-daijia/</link>
-      <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ziyou-de-daijia/</guid>
-      <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%8B%B9%E6%9E%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>自由的代价</title>
+        <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
+        <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
+        <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
 
 &lt;p&gt;所以我一直都没有买 iPhone。&lt;/p&gt;
 
@@ -36,15 +36,14 @@
 
 &lt;p&gt;当我们并不知道自由的代价有多大时，选择“自由”没有意义。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>苹果微信之争</title>
-      <link>https://ioerr.github.io/pingguo-weixin-zhizheng/</link>
-      <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/pingguo-weixin-zhizheng/</guid>
-      <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
+      <item>
+        <title>苹果微信之争</title>
+        <link>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</link>
+        <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</guid>
+        <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
 
 &lt;p&gt;有人则认为苹果这种做法是利用垄断优势店大欺客。我不是果粉都看不下去了。&lt;/p&gt;
 
@@ -76,15 +75,14 @@
 
 &lt;p&gt;一句“用户群体庞大”就可以堂而皇之的化私为公，进而打着法律的旗号干预市场，大多数人可能还觉得十分正常，甚至拍手叫好，这才是细思恐极之处啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>iWatch</title>
-      <link>https://ioerr.github.io/iwatch/</link>
-      <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/iwatch/</guid>
-      <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch
+      <item>
+        <title>iWatch</title>
+        <link>https://ioerr.github.io/posts/iwatch/</link>
+        <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/iwatch/</guid>
+        <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch&lt;br /&gt;
 会不会改变世界，会有什么酷炫功能。&lt;/p&gt;
 
 &lt;p&gt;要我说，如果真往功能强大的可穿戴智能设备上靠，iWatch 只会死得很惨。&lt;br /&gt;
@@ -107,7 +105,7 @@
 &lt;p&gt;其他的功能尽量砍掉吧，外形做的好看点培养出初级用户和使用习惯再说，人类毕竟不是铁血战士。&lt;br /&gt;
 &lt;img src=&#34;http://www.whatsyourobsession.com/review/hot-toys/guardian-predator-2-low.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

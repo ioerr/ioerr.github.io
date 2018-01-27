@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>丧事 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B/</link>
     <description>Recent content in 丧事 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2017 20:18:36 +0800</lastBuildDate>
     
-    <item>
-      <title>小区灵堂扰民与城乡差异</title>
-      <link>https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</link>
-      <pubDate>Mon, 27 Mar 2017 20:18:36 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</guid>
-      <description>&lt;p&gt;大城市中应该很少见到在公共场所摆设灵堂，放鞭炮、请乐队奏乐这种事情了吧，但在我所住的小区，因为安置的农村、郊县拆迁户较多，隔一段时间就有灵堂摆进来，锣鼓喧天，鞭炮齐鸣，还有不入流的弹四郎歌手放声高歌（但不是以前弹四郎一曲的风格了）。因为有不少业主接受这种风俗，小区的物业也不好管。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%A7%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>小区灵堂扰民与城乡差异</title>
+        <link>https://ioerr.github.io/posts/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</link>
+        <pubDate>Mon, 27 Mar 2017 20:18:36 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</guid>
+        <description>&lt;p&gt;大城市中应该很少见到在公共场所摆设灵堂，放鞭炮、请乐队奏乐这种事情了吧，但在我所住的小区，因为安置的农村、郊县拆迁户较多，隔一段时间就有灵堂摆进来，锣鼓喧天，鞭炮齐鸣，还有不入流的弹四郎歌手放声高歌（但不是以前弹四郎一曲的风格了）。因为有不少业主接受这种风俗，小区的物业也不好管。&lt;/p&gt;
 
 &lt;p&gt;为什么这种乡村几乎家家户户都遵循的习俗到了城市中就变成扰民了呢？是因为素质差异，是城市居民的生活更容易被打扰，还是因为其他原因？&lt;/p&gt;
 
@@ -26,7 +26,7 @@
 乡村中多是家族聚居，去世的往往是大家都认识的亲朋好友，摆灵堂这事更多的是一个公共事件，你我都有份参与，也就无所谓扰不扰民；&lt;br /&gt;
 而城市小区中大家相互陌生，摆灵堂是逝者一家自家的私事，公共事件时很正常的行为放在这里就变成了冒犯和打扰，只是他们自己还不习惯这种场景转换，没有意识到这种差异。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

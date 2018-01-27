@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中文输入法 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</link>
     <description>Recent content in 中文输入法 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Nov 2012 03:35:34 +0000</lastBuildDate>
     
-    <item>
-      <title>什么是整句输入法？</title>
-      <link>https://ioerr.github.io/shenme-shi-zhengju-shurufa/</link>
-      <pubDate>Mon, 26 Nov 2012 03:35:34 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shenme-shi-zhengju-shurufa/</guid>
-      <description>&lt;p&gt;长期围观本 blog
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>什么是整句输入法？</title>
+        <link>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</link>
+        <pubDate>Mon, 26 Nov 2012 03:35:34 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</guid>
+        <description>&lt;p&gt;长期围观本 blog&lt;br /&gt;
 的读者应该知道，我写过不少关于整句输入法的东西，是智能狂拼的拥趸，虽然因为兼容性（2代）和稳定性（3代）的原因，没有用它当主力输入法，而且现在智能狂拼的开发基本停滞，但我始终相信整句输入法是有市场的，随时准备转回使用满意的整句输入法。&lt;/p&gt;
 
 &lt;p&gt;看到知乎上有人问：中文输入法中的「整句输入」特性指的是什么，真的对中文输入有很大帮助吗？觉得有必要为不熟悉整句输入法的人宣传一下。&lt;/p&gt;
@@ -37,7 +37,7 @@
 排除智能自动功能的干扰：有的时候本来一句话中只有一个词是不对的，可是将其改正之后，因为上下文智能匹配功能发挥作用，其他更多的词反而又自动改错了，所以需要提供手段告知输入法哪些是不需要其插手的，这方面有分段确认、提供关闭智能匹配的选项等办法。&lt;br /&gt;
 语境参与智能判断：智能狂拼3在挣扎着求突破的时期曾经提出过语境切换的概念，但实现手段还非常原始，搜狗输入法最近的智慧版也提出了情景感知的概念，同样还有很大的局限。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

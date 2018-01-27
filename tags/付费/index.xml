@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>付费 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BB%98%E8%B4%B9/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BB%98%E8%B4%B9/</link>
     <description>Recent content in 付费 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BB%98%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2017 22:22:53 +0800</lastBuildDate>
     
-    <item>
-      <title>苹果微信之争</title>
-      <link>https://ioerr.github.io/pingguo-weixin-zhizheng/</link>
-      <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/pingguo-weixin-zhizheng/</guid>
-      <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%BB%98%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>苹果微信之争</title>
+        <link>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</link>
+        <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</guid>
+        <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
 
 &lt;p&gt;有人则认为苹果这种做法是利用垄断优势店大欺客。我不是果粉都看不下去了。&lt;/p&gt;
 
@@ -48,15 +48,14 @@
 
 &lt;p&gt;一句“用户群体庞大”就可以堂而皇之的化私为公，进而打着法律的旗号干预市场，大多数人可能还觉得十分正常，甚至拍手叫好，这才是细思恐极之处啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>实时付费观影模式</title>
-      <link>https://ioerr.github.io/shishi-fufei-guanying-moshi/</link>
-      <pubDate>Wed, 27 Feb 2013 09:39:26 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shishi-fufei-guanying-moshi/</guid>
-      <description>&lt;p&gt;在电影院看电影和在电视/电脑上看电影有什么重要区别？&lt;br /&gt;
+      <item>
+        <title>实时付费观影模式</title>
+        <link>https://ioerr.github.io/posts/shishi-fufei-guanying-moshi/</link>
+        <pubDate>Wed, 27 Feb 2013 09:39:26 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shishi-fufei-guanying-moshi/</guid>
+        <description>&lt;p&gt;在电影院看电影和在电视/电脑上看电影有什么重要区别？&lt;br /&gt;
 电影屏幕更宽，视野广（和更大的宽高比无关，和人眼视角有关）；&lt;br /&gt;
 电影院没有灯光，注意力更容易集中到银幕；&lt;br /&gt;
 电影放映不能按个人要求暂停、重新播放、反复回放，要求观众始终保持注意力；&lt;br /&gt;
@@ -88,15 +87,14 @@
 在标准资费之外是不是还可以打发一点小费啊？“小费和票价收入比之王”也可以成为名导的荣誉之一。&lt;br /&gt;
 电影结束之后全体起立含泪鼓掌十五分钟今后就不必了，影评人晒小费账单也比生花妙笔有说服力啊！&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>高端用户</title>
-      <link>https://ioerr.github.io/gaoduan-yonghu/</link>
-      <pubDate>Fri, 16 Nov 2012 09:03:48 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gaoduan-yonghu/</guid>
-      <description>
+      <item>
+        <title>高端用户</title>
+        <link>https://ioerr.github.io/posts/gaoduan-yonghu/</link>
+        <pubDate>Fri, 16 Nov 2012 09:03:48 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gaoduan-yonghu/</guid>
+        <description>
 
 &lt;p&gt;经常看到身边的人购买商品或者服务时，为了节省一点点的金钱，不惜花费大量的时间、精力，比如说，要购买品质相差无几的商品，为了几元、几十元钱的差价，连续数天时间来回奔波，不断地搜集信息、比价、挑剔。&lt;/p&gt;
 
@@ -121,7 +119,7 @@
 
 &lt;h2 id=&#34;但这还只区分了付费用户与免费用户-如果某个用户追着买你的新一代产品-花钱如流水-他就是高端用户吗&#34;&gt;但这还只区分了付费用户与免费用户。如果某个用户追着买你的新一代产品，花钱如流水，他就是高端用户吗？&lt;/h2&gt;
 
-&lt;p&gt;若是站在苹果的角度，我才不会把那些因为跟风、虚荣而高价买 iPhone
+&lt;p&gt;若是站在苹果的角度，我才不会把那些因为跟风、虚荣而高价买 iPhone&lt;br /&gt;
 的用户当作高端用户，哪怕他们有钱到愿意买 I AM RICH。&lt;br /&gt;
 他们可能能够贡献超出平均一大截的收入，但他们不是为了产品的价值理念而付费。&lt;/p&gt;
 
@@ -132,15 +130,14 @@
 
 &lt;p&gt;不过话说回来，在实践中能够量化的指标才有意义，如果无法按以上的标准判断什么是高端用户，那就先先充分理解自己的产品或服务吧，记住不要被错误的对象带到沟里就行了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>小额支付支持内容作者</title>
-      <link>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
-      <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense
+      <item>
+        <title>小额支付支持内容作者</title>
+        <link>https://ioerr.github.io/posts/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
+        <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense&lt;br /&gt;
 被关闭&lt;/a&gt;，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。&lt;/p&gt;
 
 &lt;p&gt;之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。&lt;/p&gt;
@@ -148,19 +145,19 @@
 &lt;p&gt;当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。&lt;br /&gt;
 至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。&lt;/p&gt;
 
-&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;
+&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;&lt;br /&gt;
 在阮一峰文章的回复中提醒，支付宝还有&lt;a href=&#34;https://shenghuo.alipay.com/escore.htm&#34;&gt;担保交易&lt;/a&gt;功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。&lt;/p&gt;
 
 &lt;p&gt;好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。&lt;br /&gt;
 单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。&lt;/p&gt;
 
 &lt;p&gt;另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。&lt;br /&gt;
-也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;
+也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;&lt;br /&gt;
 这样的项目，到目前为止的用户数大约10万。&lt;/p&gt;
 
 &lt;p&gt;又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了&lt;a href=&#34;https://gist.github.com/2246054&#34;&gt;这个收款主页&lt;/a&gt;，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

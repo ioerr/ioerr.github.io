@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>输入法功能乱想 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="输入法功能乱想" />
+<meta property="og:description" content="所有词库、自定义短语、个性设置全部支持同步；
+分析
+Blog、邮箱、即时通讯消息、论坛上同帐号发布的文字，作为该用户智能词组和句子的素材（当然如果以后无论到哪里都用该输入法就不必多此一举了）；
+获取
+Blog、邮箱、即时通讯消息、论坛、阅读器、在线书签、在线视频、搜索等服务上的文章标题、地址、个性签名、嵌入的图片、音乐和视频地址、收藏的文章和地址、搜索历史中记录的命中结果等等，可以在输入法中快速调用；
+支持网页上的输入法 gadget，调用在线同步的词库、自定义短语、个性设置；
+输入中文词组自动出现其他语言的备选翻译词条；
+搜索结果出现在另外的小窗口中，按下快捷键才根据当前词组搜索更新，可快速插入搜索结果中的
+URL、站点名字、HTML 代码等等；
+搜索结果的小窗口中可以显示汉字或词组的释义、典故、其他输入方法、各种读音等等；
+输入专有名词，搜索结果小窗口中可以显示相关的名人名言、百科词条、缩写和全称、诗词全文等等；
+英文单词与该帐号的个性单词本、各大词典网站（当然还要包括 Urban
+Dictionary 这样的异类）同步。
+总而言之，言而总之，这样的输入法（或者应该叫做输入平台）在基本的输入文字功能之外，还包括：搜索到和输入的文字相关的一切信息，以及快速便捷的把这些信息插入文档中。如果真的要实现的话，除了现有拼音输入法已有的“待上屏文字”、“编码输入条”、“候选字词”、“候选句子”、“英文提示”、“语言翻译”等诸多窗口之外，还要增加类似
+Google Deskbar 的搜索结果小窗口（可以自动搜索），类似 Total Commander
+的常用命令按钮工具栏（高级用户可以隐藏它）等等。终极目标是把整个桌面全都占领！以及差不多输入三五句话，再加几个快捷键，整篇文章就出来了。:023:
+不过对我来说，只要一个稳定、快速、准确、智能、易用，任何我想要说的一整句话在输入拼音、英文、数字、标点符号之后只要进行简单的修改，95％以上的句子一次成功的整句输入法就行了。其他的功能就以插件形式存在好了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shurufa-gongneng-luanxiang/" />
+
+
+
+<meta property="article:published_time" content="2007-04-07T04:59:52&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-04-07T04:59:52&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="输入法功能乱想">
+<meta itemprop="description" content="所有词库、自定义短语、个性设置全部支持同步；
+分析
+Blog、邮箱、即时通讯消息、论坛上同帐号发布的文字，作为该用户智能词组和句子的素材（当然如果以后无论到哪里都用该输入法就不必多此一举了）；
+获取
+Blog、邮箱、即时通讯消息、论坛、阅读器、在线书签、在线视频、搜索等服务上的文章标题、地址、个性签名、嵌入的图片、音乐和视频地址、收藏的文章和地址、搜索历史中记录的命中结果等等，可以在输入法中快速调用；
+支持网页上的输入法 gadget，调用在线同步的词库、自定义短语、个性设置；
+输入中文词组自动出现其他语言的备选翻译词条；
+搜索结果出现在另外的小窗口中，按下快捷键才根据当前词组搜索更新，可快速插入搜索结果中的
+URL、站点名字、HTML 代码等等；
+搜索结果的小窗口中可以显示汉字或词组的释义、典故、其他输入方法、各种读音等等；
+输入专有名词，搜索结果小窗口中可以显示相关的名人名言、百科词条、缩写和全称、诗词全文等等；
+英文单词与该帐号的个性单词本、各大词典网站（当然还要包括 Urban
+Dictionary 这样的异类）同步。
+总而言之，言而总之，这样的输入法（或者应该叫做输入平台）在基本的输入文字功能之外，还包括：搜索到和输入的文字相关的一切信息，以及快速便捷的把这些信息插入文档中。如果真的要实现的话，除了现有拼音输入法已有的“待上屏文字”、“编码输入条”、“候选字词”、“候选句子”、“英文提示”、“语言翻译”等诸多窗口之外，还要增加类似
+Google Deskbar 的搜索结果小窗口（可以自动搜索），类似 Total Commander
+的常用命令按钮工具栏（高级用户可以隐藏它）等等。终极目标是把整个桌面全都占领！以及差不多输入三五句话，再加几个快捷键，整篇文章就出来了。:023:
+不过对我来说，只要一个稳定、快速、准确、智能、易用，任何我想要说的一整句话在输入拼音、英文、数字、标点符号之后只要进行简单的修改，95％以上的句子一次成功的整句输入法就行了。其他的功能就以插件形式存在好了。">
+
+
+<meta itemprop="datePublished" content="2007-04-07T04:59:52&#43;00:00" />
+<meta itemprop="dateModified" content="2007-04-07T04:59:52&#43;00:00" />
+<meta itemprop="wordCount" content="25">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="输入法功能乱想"/>
+<meta name="twitter:description" content="所有词库、自定义短语、个性设置全部支持同步；
+分析
+Blog、邮箱、即时通讯消息、论坛上同帐号发布的文字，作为该用户智能词组和句子的素材（当然如果以后无论到哪里都用该输入法就不必多此一举了）；
+获取
+Blog、邮箱、即时通讯消息、论坛、阅读器、在线书签、在线视频、搜索等服务上的文章标题、地址、个性签名、嵌入的图片、音乐和视频地址、收藏的文章和地址、搜索历史中记录的命中结果等等，可以在输入法中快速调用；
+支持网页上的输入法 gadget，调用在线同步的词库、自定义短语、个性设置；
+输入中文词组自动出现其他语言的备选翻译词条；
+搜索结果出现在另外的小窗口中，按下快捷键才根据当前词组搜索更新，可快速插入搜索结果中的
+URL、站点名字、HTML 代码等等；
+搜索结果的小窗口中可以显示汉字或词组的释义、典故、其他输入方法、各种读音等等；
+输入专有名词，搜索结果小窗口中可以显示相关的名人名言、百科词条、缩写和全称、诗词全文等等；
+英文单词与该帐号的个性单词本、各大词典网站（当然还要包括 Urban
+Dictionary 这样的异类）同步。
+总而言之，言而总之，这样的输入法（或者应该叫做输入平台）在基本的输入文字功能之外，还包括：搜索到和输入的文字相关的一切信息，以及快速便捷的把这些信息插入文档中。如果真的要实现的话，除了现有拼音输入法已有的“待上屏文字”、“编码输入条”、“候选字词”、“候选句子”、“英文提示”、“语言翻译”等诸多窗口之外，还要增加类似
+Google Deskbar 的搜索结果小窗口（可以自动搜索），类似 Total Commander
+的常用命令按钮工具栏（高级用户可以隐藏它）等等。终极目标是把整个桌面全都占领！以及差不多输入三五句话，再加几个快捷键，整篇文章就出来了。:023:
+不过对我来说，只要一个稳定、快速、准确、智能、易用，任何我想要说的一整句话在输入拼音、英文、数字、标点符号之后只要进行简单的修改，95％以上的句子一次成功的整句输入法就行了。其他的功能就以插件形式存在好了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-04-07 04:59">2007-04-07</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+          
+            , 
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>输入法功能乱想</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>所有词库、自定义短语、个性设置全部支持同步；<br />
+分析<br />
+Blog、邮箱、即时通讯消息、论坛上同帐号发布的文字，作为该用户智能词组和句子的素材（当然如果以后无论到哪里都用该输入法就不必多此一举了）；<br />
+获取<br />
+Blog、邮箱、即时通讯消息、论坛、阅读器、在线书签、在线视频、搜索等服务上的文章标题、地址、个性签名、嵌入的图片、音乐和视频地址、收藏的文章和地址、搜索历史中记录的命中结果等等，可以在输入法中快速调用；<br />
+支持网页上的输入法 gadget，调用在线同步的词库、自定义短语、个性设置；<br />
+输入中文词组自动出现其他语言的备选翻译词条；<br />
+搜索结果出现在另外的小窗口中，按下快捷键才根据当前词组搜索更新，可快速插入搜索结果中的<br />
+URL、站点名字、HTML 代码等等；<br />
+搜索结果的小窗口中可以显示汉字或词组的释义、典故、其他输入方法、各种读音等等；<br />
+输入专有名词，搜索结果小窗口中可以显示相关的名人名言、百科词条、缩写和全称、诗词全文等等；<br />
+英文单词与该帐号的个性单词本、各大词典网站（当然还要包括 <a href="http://www.urbandictionary.com/">Urban<br />
+Dictionary</a> 这样的异类）同步。</p>
+
+<p>总而言之，言而总之，这样的输入法（或者应该叫做输入平台）在基本的输入文字功能之外，还包括：搜索到和输入的文字相关的一切信息，以及快速便捷的把这些信息插入文档中。如果真的要实现的话，除了现有拼音输入法已有的“待上屏文字”、“编码输入条”、“候选字词”、“候选句子”、“英文提示”、“语言翻译”等诸多窗口之外，还要增加类似<br />
+Google Deskbar 的搜索结果小窗口（可以自动搜索），类似 Total Commander<br />
+的常用命令按钮工具栏（高级用户可以隐藏它）等等。终极目标是把整个桌面全都占领！以及差不多输入三五句话，再加几个快捷键，整篇文章就出来了。:023:</p>
+
+<p>不过对我来说，只要一个稳定、快速、准确、智能、易用，任何我想要说的一整句话在输入拼音、英文、数字、标点符号之后只要进行简单的修改，95％以上的句子一次成功的整句输入法就行了。其他的功能就以插件形式存在好了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%be%93%e5%85%a5%e6%b3%95%e5%8a%9f%e8%83%bd%e4%b9%b1%e6%83%b3》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshurufa-gongneng-luanxiang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshurufa-gongneng-luanxiang%2f&text= @calon %e8%be%93%e5%85%a5%e6%b3%95%e5%8a%9f%e8%83%bd%e4%b9%b1%e6%83%b3&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

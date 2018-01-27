@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电子书的未来 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="电子书的未来" />
+<meta property="og:description" content="FriendFeed
+从阮一峰的《电子书的时代正在来临》一文出发讨论电子书的未来，我把自己的观点记录在这里：
+现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：
+优先屏幕面积然后才是便携性；
+价格比主流手机贵而功能相对单一；
+外形还是向传统书本看齐；
+大多仍然像书本一样独立于其他随身物品而不是融合在一起；
+…
+也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？
+在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。
+看看电子书产品追求的方向吧，Kindle
+式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和
+CP/SP
+推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。
+消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。
+所以，当分析师认为 Kindle
+在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。
+大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dianzishu-de-weilai/" />
+
+
+
+<meta property="article:published_time" content="2009-01-02T16:54:14&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-01-02T16:54:14&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="电子书的未来">
+<meta itemprop="description" content="FriendFeed
+从阮一峰的《电子书的时代正在来临》一文出发讨论电子书的未来，我把自己的观点记录在这里：
+现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：
+优先屏幕面积然后才是便携性；
+价格比主流手机贵而功能相对单一；
+外形还是向传统书本看齐；
+大多仍然像书本一样独立于其他随身物品而不是融合在一起；
+…
+也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？
+在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。
+看看电子书产品追求的方向吧，Kindle
+式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和
+CP/SP
+推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。
+消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。
+所以，当分析师认为 Kindle
+在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。
+大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。">
+
+
+<meta itemprop="datePublished" content="2009-01-02T16:54:14&#43;00:00" />
+<meta itemprop="dateModified" content="2009-01-02T16:54:14&#43;00:00" />
+<meta itemprop="wordCount" content="20">
+
+
+
+<meta itemprop="keywords" content="kindle,手机,电子书," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="电子书的未来"/>
+<meta name="twitter:description" content="FriendFeed
+从阮一峰的《电子书的时代正在来临》一文出发讨论电子书的未来，我把自己的观点记录在这里：
+现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：
+优先屏幕面积然后才是便携性；
+价格比主流手机贵而功能相对单一；
+外形还是向传统书本看齐；
+大多仍然像书本一样独立于其他随身物品而不是融合在一起；
+…
+也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？
+在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。
+看看电子书产品追求的方向吧，Kindle
+式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和
+CP/SP
+推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。
+消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。
+所以，当分析师认为 Kindle
+在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。
+大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-01-02 04:54">2009-01-02</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>电子书的未来</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/kindle">
+              <span class="hash">#</span>kindle</a>
+          
+            , 
+            <a href="/tags/%E6%89%8B%E6%9C%BA">
+              <span class="hash">#</span>手机</a>
+          
+            , 
+            <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6">
+              <span class="hash">#</span>电子书</a>
+          
+        
+      </p>
+    </header>
+    <section><hr />
+
+<p><a href="http://friendfeed.com/e/78c2e344-8d2d-c185-2657-9acb8b82e5cc">FriendFeed</a><br />
+从<a href="http://www.ruanyifeng.com/">阮一峰</a>的《<a href="http://www.ruanyifeng.com/blog/2009/01/e-books_start_to_take_hold.html">电子书的时代正在来临</a>》一文出发讨论电子书的未来，我把自己的观点记录在这里：</p>
+
+<p>现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：<br />
+优先屏幕面积然后才是便携性；<br />
+价格比主流手机贵而功能相对单一；<br />
+外形还是向传统书本看齐；<br />
+大多仍然像书本一样独立于其他随身物品而不是融合在一起；<br />
+…</p>
+
+<p>也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？<br />
+在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。</p>
+
+<p>看看电子书产品追求的方向吧，Kindle<br />
+式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。<br />
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和<br />
+CP/SP<br />
+推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。<br />
+消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。</p>
+
+<p>所以，当分析师认为 Kindle<br />
+在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。<br />
+大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e4%b9%a6%e7%9a%84%e6%9c%aa%e6%9d%a5》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdianzishu-de-weilai%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdianzishu-de-weilai%2f&text= @calon %e7%94%b5%e5%ad%90%e4%b9%a6%e7%9a%84%e6%9c%aa%e6%9d%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>双密码 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="双密码" />
+<meta property="og:description" content="Flickr、Tumblr、Evernote、Friendfeed
+等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。
+与此相反，Blogger 的 Mail2Blogger
+电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。
+其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。
+我觉得许多服务都应该有两个密码：
+一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；
+另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。
+看上去很像 QQ 等服务的密码保护？对，但 QQ
+的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。
+补充：
+Google
+帐号的二次验证功能中，可以设置应用专用密码，算是比较理想的实现了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shuang-mima/" />
+
+
+
+<meta property="article:published_time" content="2011-05-13T02:54:08&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-05-13T02:54:08&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="双密码">
+<meta itemprop="description" content="Flickr、Tumblr、Evernote、Friendfeed
+等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。
+与此相反，Blogger 的 Mail2Blogger
+电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。
+其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。
+我觉得许多服务都应该有两个密码：
+一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；
+另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。
+看上去很像 QQ 等服务的密码保护？对，但 QQ
+的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。
+补充：
+Google
+帐号的二次验证功能中，可以设置应用专用密码，算是比较理想的实现了。">
+
+
+<meta itemprop="datePublished" content="2011-05-13T02:54:08&#43;00:00" />
+<meta itemprop="dateModified" content="2011-05-13T02:54:08&#43;00:00" />
+<meta itemprop="wordCount" content="18">
+
+
+
+<meta itemprop="keywords" content="安全,密码,密码保护,密码管理," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="双密码"/>
+<meta name="twitter:description" content="Flickr、Tumblr、Evernote、Friendfeed
+等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。
+与此相反，Blogger 的 Mail2Blogger
+电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。
+其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。
+我觉得许多服务都应该有两个密码：
+一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；
+另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。
+看上去很像 QQ 等服务的密码保护？对，但 QQ
+的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。
+补充：
+Google
+帐号的二次验证功能中，可以设置应用专用密码，算是比较理想的实现了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2011-05-13 02:54">2011-05-13</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>双密码</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%AE%89%E5%85%A8">
+              <span class="hash">#</span>安全</a>
+          
+            , 
+            <a href="/tags/%E5%AF%86%E7%A0%81">
+              <span class="hash">#</span>密码</a>
+          
+            , 
+            <a href="/tags/%E5%AF%86%E7%A0%81%E4%BF%9D%E6%8A%A4">
+              <span class="hash">#</span>密码保护</a>
+          
+            , 
+            <a href="/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86">
+              <span class="hash">#</span>密码管理</a>
+          
+        
+      </p>
+    </header>
+    <section><p>Flickr、Tumblr、Evernote、Friendfeed<br />
+等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。</p>
+
+<p>与此相反，Blogger 的 Mail2Blogger<br />
+电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。<br />
+其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。</p>
+
+<p>我觉得许多服务都应该有两个密码：<br />
+一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；<br />
+另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。</p>
+
+<p>看上去很像 QQ 等服务的密码保护？对，但 QQ<br />
+的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。</p>
+
+<p>补充：<br />
+Google<br />
+帐号的二次验证功能中，可以设置<a href="https://support.google.com/accounts/answer/185833">应用专用密码</a>，算是比较理想的实现了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8f%8c%e5%af%86%e7%a0%81》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshuang-mima%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshuang-mima%2f&text= @calon %e5%8f%8c%e5%af%86%e7%a0%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>炮击 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%82%AE%E5%87%BB/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%82%AE%E5%87%BB/</link>
     <description>Recent content in 炮击 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%82%AE%E5%87%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2010 16:33:38 +0000</lastBuildDate>
     
-    <item>
-      <title>共同紧张区</title>
-      <link>https://ioerr.github.io/gongtong-jinzhang-qu/</link>
-      <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gongtong-jinzhang-qu/</guid>
-      <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%82%AE%E5%87%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>共同紧张区</title>
+        <link>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</link>
+        <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</guid>
+        <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
 
 &lt;p&gt;一、势如破竹&lt;br /&gt;
 1个小时后，金正恩宣布已经完全占领朝鲜半岛；&lt;br /&gt;
@@ -65,7 +65,7 @@
 
 &lt;p&gt;台湾：感谢金将军为杨淑君讨回公道所做的努力，但请不要采取非理性行为殃及无辜，要展现风范。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

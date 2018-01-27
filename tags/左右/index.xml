@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>左右 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%B7%A6%E5%8F%B3/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%B7%A6%E5%8F%B3/</link>
     <description>Recent content in 左右 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%B7%A6%E5%8F%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2014 16:52:39 +0000</lastBuildDate>
     
-    <item>
-      <title>区分左右的标准</title>
-      <link>https://ioerr.github.io/qufen-zuo-you-de-biaozhun/</link>
-      <pubDate>Tue, 29 Apr 2014 16:52:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/qufen-zuo-you-de-biaozhun/</guid>
-      <description>&lt;p&gt;区分左右的标准太多，有的甚至完全相反，我只能说我自己判断左右的标准。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%B7%A6%E5%8F%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>区分左右的标准</title>
+        <link>https://ioerr.github.io/posts/qufen-zuo-you-de-biaozhun/</link>
+        <pubDate>Tue, 29 Apr 2014 16:52:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/qufen-zuo-you-de-biaozhun/</guid>
+        <description>&lt;p&gt;区分左右的标准太多，有的甚至完全相反，我只能说我自己判断左右的标准。&lt;/p&gt;
 
 &lt;p&gt;我的标准是：&lt;br /&gt;
 坚持维护个人私有产权的，是右；&lt;br /&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;最后，其实纠结名义上的左和右意义不大，用左和右的标签，容易因为各人界定标准不同而理解不一致，并不方便沟通。&lt;br /&gt;
 所以看怎么看待个人私有产权并且言行逻辑是否一致就好，大部分情况下足够用了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

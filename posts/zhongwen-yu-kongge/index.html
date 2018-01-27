@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中文与空格 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="中文与空格" />
+<meta property="og:description" content="记得曾经有人说，使用 Microsoft Word
+等文字编辑工具书写中文文档，在不混杂外文文字的情况下，如果使用了空格就必然不规范，因为很多人总是用空格错误地代替缩进、对齐、间隔等功能。
+也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜
+欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，
+也 不 知 道 是 因 为 认 为 这 样 方 便 阅 读 还 是 其 他 原 因。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhongwen-yu-kongge/" />
+
+
+
+<meta property="article:published_time" content="2013-12-01T14:23:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-12-01T14:23:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="中文与空格">
+<meta itemprop="description" content="记得曾经有人说，使用 Microsoft Word
+等文字编辑工具书写中文文档，在不混杂外文文字的情况下，如果使用了空格就必然不规范，因为很多人总是用空格错误地代替缩进、对齐、间隔等功能。
+也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜
+欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，
+也 不 知 道 是 因 为 认 为 这 样 方 便 阅 读 还 是 其 他 原 因。">
+
+
+<meta itemprop="datePublished" content="2013-12-01T14:23:18&#43;00:00" />
+<meta itemprop="dateModified" content="2013-12-01T14:23:18&#43;00:00" />
+<meta itemprop="wordCount" content="108">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="中文与空格"/>
+<meta name="twitter:description" content="记得曾经有人说，使用 Microsoft Word
+等文字编辑工具书写中文文档，在不混杂外文文字的情况下，如果使用了空格就必然不规范，因为很多人总是用空格错误地代替缩进、对齐、间隔等功能。
+也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜
+欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，
+也 不 知 道 是 因 为 认 为 这 样 方 便 阅 读 还 是 其 他 原 因。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2013-12-01 02:23">2013-12-01</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>中文与空格</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>记得曾经有人说，使用 Microsoft Word<br />
+等文字编辑工具书写中文文档，在不混杂外文文字的情况下，如果使用了空格就必然不规范，因为很多人总是用空格错误地代替缩进、对齐、间隔等功能。</p>
+
+<p>也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜<br />
+欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，<br />
+也 不 知 道 是 因 为 认 为 这 样 方 便 阅 读 还 是 其 他 原 因。</p>
+
+<p>我 倒是 觉得，也 可以 像 拼音文字 一样，以 词 为 单位 加 空格 作为 间隔<br />
+啊，这样 句内 词组 的 间隔 就 定死了，可以 降低 引起 歧义 的 几率，而且<br />
+也 有利于 尚不成熟 的 中文 自动 换行、语义 分析 和 搜索。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e6%96%87%e4%b8%8e%e7%a9%ba%e6%a0%bc》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhongwen-yu-kongge%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhongwen-yu-kongge%2f&text= @calon %e4%b8%ad%e6%96%87%e4%b8%8e%e7%a9%ba%e6%a0%bc&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

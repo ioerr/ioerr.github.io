@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>八卦 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%85%AB%E5%8D%A6/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%85%AB%E5%8D%A6/</link>
     <description>Recent content in 八卦 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%85%AB%E5%8D%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jun 2010 14:41:10 +0000</lastBuildDate>
     
-    <item>
-      <title>熊猫阿姨</title>
-      <link>https://ioerr.github.io/xiongmao-ayi/</link>
-      <pubDate>Thu, 10 Jun 2010 14:41:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiongmao-ayi/</guid>
-      <description>&lt;p&gt;长沙清水塘附近有一家“&lt;a href=&#34;http://www.dianping.com/shop/2278819&#34;&gt;熊猫阿姨&lt;/a&gt;”鸡爪店，以泡得酥软而飘香的鸡爪闻名，还有包菜、土豆泥、粉丝等。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%85%AB%E5%8D%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>熊猫阿姨</title>
+        <link>https://ioerr.github.io/posts/xiongmao-ayi/</link>
+        <pubDate>Thu, 10 Jun 2010 14:41:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xiongmao-ayi/</guid>
+        <description>&lt;p&gt;长沙清水塘附近有一家“&lt;a href=&#34;http://www.dianping.com/shop/2278819&#34;&gt;熊猫阿姨&lt;/a&gt;”鸡爪店，以泡得酥软而飘香的鸡爪闻名，还有包菜、土豆泥、粉丝等。&lt;/p&gt;
 
 &lt;p&gt;卖的一种饮料借用奇志大兵小品中的名词命名为“灵泛得乐”，据说其实就是捣碎的冰可乐；&lt;br /&gt;
 而另一种饮料名曰“蠢得死”，据说就是冰块加水，真正是谁买谁蠢得死。&lt;/p&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;最后，熊猫阿姨长得一点也不像熊猫啊！&lt;br /&gt;
 &lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/panda.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

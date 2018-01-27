@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>友你友我 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="友你友我" />
+<meta property="og:description" content="看了 Zonble 在 Twitter
+上给出的这个 Wii Dance
+视频，我立刻被打败了…
+麦田连续写了《Myspace中国：动词“友”的网感》、《从myspace中国上线，谈谈IT博客写作》，2篇关于友你友我的文章。其中的网感、战略感云云，听上去颇为玄乎，像我这种容易被定位为测试员（还是瞎掺乎的非专业人士）水准的人在体验了一把令人抓狂的使用流程之后还是少开口为妙。
+只不过脑海里面怎么总是会想到 Paul Fussell 的那本《恶俗》呢？
+话说回来，不爽归不爽，友你友我刚起步至少比贝宝刚进来的时候给我的感觉还要稍微好一点，希望他们能够接下来做出令人满意的成绩出来吧，比如说改进分分钟就能够搞定的非常小非常小的细节。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/myspace-cn/" />
+
+
+
+<meta property="article:published_time" content="2007-04-28T15:41:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-04-28T15:41:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="友你友我">
+<meta itemprop="description" content="看了 Zonble 在 Twitter
+上给出的这个 Wii Dance
+视频，我立刻被打败了…
+麦田连续写了《Myspace中国：动词“友”的网感》、《从myspace中国上线，谈谈IT博客写作》，2篇关于友你友我的文章。其中的网感、战略感云云，听上去颇为玄乎，像我这种容易被定位为测试员（还是瞎掺乎的非专业人士）水准的人在体验了一把令人抓狂的使用流程之后还是少开口为妙。
+只不过脑海里面怎么总是会想到 Paul Fussell 的那本《恶俗》呢？
+话说回来，不爽归不爽，友你友我刚起步至少比贝宝刚进来的时候给我的感觉还要稍微好一点，希望他们能够接下来做出令人满意的成绩出来吧，比如说改进分分钟就能够搞定的非常小非常小的细节。">
+
+
+<meta itemprop="datePublished" content="2007-04-28T15:41:47&#43;00:00" />
+<meta itemprop="dateModified" content="2007-04-28T15:41:47&#43;00:00" />
+<meta itemprop="wordCount" content="14">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="友你友我"/>
+<meta name="twitter:description" content="看了 Zonble 在 Twitter
+上给出的这个 Wii Dance
+视频，我立刻被打败了…
+麦田连续写了《Myspace中国：动词“友”的网感》、《从myspace中国上线，谈谈IT博客写作》，2篇关于友你友我的文章。其中的网感、战略感云云，听上去颇为玄乎，像我这种容易被定位为测试员（还是瞎掺乎的非专业人士）水准的人在体验了一把令人抓狂的使用流程之后还是少开口为妙。
+只不过脑海里面怎么总是会想到 Paul Fussell 的那本《恶俗》呢？
+话说回来，不爽归不爽，友你友我刚起步至少比贝宝刚进来的时候给我的感觉还要稍微好一点，希望他们能够接下来做出令人满意的成绩出来吧，比如说改进分分钟就能够搞定的非常小非常小的细节。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-04-28 03:41">2007-04-28</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>友你友我</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>看了 <a href="http://zonble.twbbs.org/">Zonble</a> 在 <a href="http://twitter.com/zonble/statuses/43076842">Twitter<br />
+上给出的</a><a href="http://www.youtube.com/watch?v=8_drrgyeA5U">这个 Wii Dance<br />
+视频</a>，我立刻被打败了…</p>
+
+<p><a href="http://maitian.blog.techweb.com.cn/">麦田</a>连续写了《<a href="http://maitian.blog.techweb.com.cn/archives/2007/2007426235026.shtml">Myspace中国：动词“友”的网感</a>》、《<a href="http://maitian.blog.techweb.com.cn/archives/2007/2007428165554.shtml">从myspace中国上线，谈谈IT博客写作</a>》，2篇关于<a href="http://myspace.cn/">友你友我</a>的文章。其中的网感、战略感云云，听上去颇为玄乎，像我这种容易被定位为测试员（还是瞎掺乎的非专业人士）水准的人在体验了一把令人抓狂的使用流程之后还是少开口为妙。<br />
+只不过脑海里面怎么总是会想到 Paul Fussell 的那本《恶俗》呢？<br />
+话说回来，不爽归不爽，<a href="http://myspace.cn/">友你友我</a>刚起步至少比<a href="https://www.paypal.com/cn/">贝宝</a>刚进来的时候给我的感觉还要稍微好一点，希望他们能够接下来做出令人满意的成绩出来吧，比如说改进分分钟就能够搞定的非常小非常小的细节。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8f%8b%e4%bd%a0%e5%8f%8b%e6%88%91》&body=https%3a%2f%2fioerr.github.io%2fposts%2fmyspace-cn%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fmyspace-cn%2f&text= @calon %e5%8f%8b%e4%bd%a0%e5%8f%8b%e6%88%91&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

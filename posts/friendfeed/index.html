@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>友种 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="友种" />
+<meta property="og:description" content="很久没有写杂谈了，现在有了 Twitter，真是方便偷懒啊——其实主要是怕把已经
+Twitter 过的内容又拿到 blog 上说，会被大家打…
+
+1938年10月26日，陈嘉庚在新加坡发了一封电报给重庆，阐述自己的参政提案：一、日寇未退出我国土之前凡公务员对任何人谈和平条件概以汉奸国贼论；二、大中学校在抗战期间禁放暑假；三、长衣马褂限期废除以振我民族雄武精神。
+
+70年之后，在某些人口中，长衣马褂倒成为我民族精神的体现，不亦怪哉？
+
+汪精卫的曲线救国论并不是他首次发明的，陈独秀在1914年就主张中国像朝鲜那样自并于日本，说亡国瓜分，亦以为非可恐可悲之事，1918年还在鼓吹请外国干涉中国内政，说这种出于国民自动外国好意的干涉，虽然失点虚面子，却受了实在的利益。
+
+
+中国知识分子对于采用什么手段来救中国是不在乎的，只要能救中国，他们可以轮番使用西方启蒙思想、无政府主义、马克思主义、中国的儒家思想、法家和墨家的思想、阳明心学和气功内丹，也可以有意无意的造神、谀神、接受现代迷信，并能做到义无反顾、心悦诚服。
+
+入手邓晓芒的再版《新批判主义》不久，看起来很过瘾。
+
+问：有哪些游戏是融合科技和魔法的?
+答：《Super Mario Brothers》。
+有借助道具释放的魔法，比如巨人术，火球术，星光不死身，玄武变身，一叶飞天术。
+而敌方则拥有高度的机械文明，比如毒蘑菇生化人，生化炮弹，火焰防御阵。
+
+中国超级烂创意博，个性介绍为：“相信自己，你能发现最烂的，它就在你身边。”
+获得 FriendFeed
+邀请后才一天，它就开放注册了，真是不给我面子啊…
+人多了以后就在上面顺藤摸瓜加好友。虽然它有导入邮箱等联系人的功能，但导入联系人地址是一种多么没有情调的行为啊…
+FriendFeed 的中文译名可以叫什么呢？
+友种，朋档，纷飞，富人的肥…？
+“你友种吗？”
+“我…我没有种…”
+“那还不赶快去注册一个？”
+——获“中国超级烂创意广告”提名
+“格兰特不得人心 切迷官网留言近万条骂之”
+近万条留言算啥啊，要是中国队有官网评论，早就淹死了
+
+科幻、神话、童话题材的动画片要体现科学精神，注意防止渲染封建迷信和文化糟粕。
+
+虽然我一贯是挺科学派的，但不挺这种脑残派。这禁令不给科学抹黑么？
+那些经典作品怎么办？比如《哪咤闹海》，问题可大了，宣扬造反，儿童暴力，家庭失和，不孝，自杀，违反计划生育，虐待动物（还是民族文化图腾），怪力乱神，破坏环境，人体试验，医疗事故，怪胎…
+想想看，光是虐猫、丑化龙的广告就搞得沸沸扬扬，哪吒抽龙筋还不得翻天？
+我国民众对此竟然丝毫不以为然！还津津乐道，这说明什么问题？堕落啊，道德堕落啊！逼哀啊，太逼哀了！要深刻反省，要加强教育！
+《No Country for Old
+Men》怎么可以翻译为“老无所依”呢？（拍桌！）
+应该是“前浪死在沙滩上”嘛（逃…）。
+转载：
+我是霆锋，这是我的故事…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/friendfeed/" />
+
+
+
+<meta property="article:published_time" content="2008-02-27T14:21:36&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-02-27T14:21:36&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="友种">
+<meta itemprop="description" content="很久没有写杂谈了，现在有了 Twitter，真是方便偷懒啊——其实主要是怕把已经
+Twitter 过的内容又拿到 blog 上说，会被大家打…
+
+1938年10月26日，陈嘉庚在新加坡发了一封电报给重庆，阐述自己的参政提案：一、日寇未退出我国土之前凡公务员对任何人谈和平条件概以汉奸国贼论；二、大中学校在抗战期间禁放暑假；三、长衣马褂限期废除以振我民族雄武精神。
+
+70年之后，在某些人口中，长衣马褂倒成为我民族精神的体现，不亦怪哉？
+
+汪精卫的曲线救国论并不是他首次发明的，陈独秀在1914年就主张中国像朝鲜那样自并于日本，说亡国瓜分，亦以为非可恐可悲之事，1918年还在鼓吹请外国干涉中国内政，说这种出于国民自动外国好意的干涉，虽然失点虚面子，却受了实在的利益。
+
+
+中国知识分子对于采用什么手段来救中国是不在乎的，只要能救中国，他们可以轮番使用西方启蒙思想、无政府主义、马克思主义、中国的儒家思想、法家和墨家的思想、阳明心学和气功内丹，也可以有意无意的造神、谀神、接受现代迷信，并能做到义无反顾、心悦诚服。
+
+入手邓晓芒的再版《新批判主义》不久，看起来很过瘾。
+
+问：有哪些游戏是融合科技和魔法的?
+答：《Super Mario Brothers》。
+有借助道具释放的魔法，比如巨人术，火球术，星光不死身，玄武变身，一叶飞天术。
+而敌方则拥有高度的机械文明，比如毒蘑菇生化人，生化炮弹，火焰防御阵。
+
+中国超级烂创意博，个性介绍为：“相信自己，你能发现最烂的，它就在你身边。”
+获得 FriendFeed
+邀请后才一天，它就开放注册了，真是不给我面子啊…
+人多了以后就在上面顺藤摸瓜加好友。虽然它有导入邮箱等联系人的功能，但导入联系人地址是一种多么没有情调的行为啊…
+FriendFeed 的中文译名可以叫什么呢？
+友种，朋档，纷飞，富人的肥…？
+“你友种吗？”
+“我…我没有种…”
+“那还不赶快去注册一个？”
+——获“中国超级烂创意广告”提名
+“格兰特不得人心 切迷官网留言近万条骂之”
+近万条留言算啥啊，要是中国队有官网评论，早就淹死了
+
+科幻、神话、童话题材的动画片要体现科学精神，注意防止渲染封建迷信和文化糟粕。
+
+虽然我一贯是挺科学派的，但不挺这种脑残派。这禁令不给科学抹黑么？
+那些经典作品怎么办？比如《哪咤闹海》，问题可大了，宣扬造反，儿童暴力，家庭失和，不孝，自杀，违反计划生育，虐待动物（还是民族文化图腾），怪力乱神，破坏环境，人体试验，医疗事故，怪胎…
+想想看，光是虐猫、丑化龙的广告就搞得沸沸扬扬，哪吒抽龙筋还不得翻天？
+我国民众对此竟然丝毫不以为然！还津津乐道，这说明什么问题？堕落啊，道德堕落啊！逼哀啊，太逼哀了！要深刻反省，要加强教育！
+《No Country for Old
+Men》怎么可以翻译为“老无所依”呢？（拍桌！）
+应该是“前浪死在沙滩上”嘛（逃…）。
+转载：
+我是霆锋，这是我的故事…">
+
+
+<meta itemprop="datePublished" content="2008-02-27T14:21:36&#43;00:00" />
+<meta itemprop="dateModified" content="2008-02-27T14:21:36&#43;00:00" />
+<meta itemprop="wordCount" content="45">
+
+
+
+<meta itemprop="keywords" content="friendfeed,twitter,新批判主义,知识分子,禁令,邓晓芒," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="友种"/>
+<meta name="twitter:description" content="很久没有写杂谈了，现在有了 Twitter，真是方便偷懒啊——其实主要是怕把已经
+Twitter 过的内容又拿到 blog 上说，会被大家打…
+
+1938年10月26日，陈嘉庚在新加坡发了一封电报给重庆，阐述自己的参政提案：一、日寇未退出我国土之前凡公务员对任何人谈和平条件概以汉奸国贼论；二、大中学校在抗战期间禁放暑假；三、长衣马褂限期废除以振我民族雄武精神。
+
+70年之后，在某些人口中，长衣马褂倒成为我民族精神的体现，不亦怪哉？
+
+汪精卫的曲线救国论并不是他首次发明的，陈独秀在1914年就主张中国像朝鲜那样自并于日本，说亡国瓜分，亦以为非可恐可悲之事，1918年还在鼓吹请外国干涉中国内政，说这种出于国民自动外国好意的干涉，虽然失点虚面子，却受了实在的利益。
+
+
+中国知识分子对于采用什么手段来救中国是不在乎的，只要能救中国，他们可以轮番使用西方启蒙思想、无政府主义、马克思主义、中国的儒家思想、法家和墨家的思想、阳明心学和气功内丹，也可以有意无意的造神、谀神、接受现代迷信，并能做到义无反顾、心悦诚服。
+
+入手邓晓芒的再版《新批判主义》不久，看起来很过瘾。
+
+问：有哪些游戏是融合科技和魔法的?
+答：《Super Mario Brothers》。
+有借助道具释放的魔法，比如巨人术，火球术，星光不死身，玄武变身，一叶飞天术。
+而敌方则拥有高度的机械文明，比如毒蘑菇生化人，生化炮弹，火焰防御阵。
+
+中国超级烂创意博，个性介绍为：“相信自己，你能发现最烂的，它就在你身边。”
+获得 FriendFeed
+邀请后才一天，它就开放注册了，真是不给我面子啊…
+人多了以后就在上面顺藤摸瓜加好友。虽然它有导入邮箱等联系人的功能，但导入联系人地址是一种多么没有情调的行为啊…
+FriendFeed 的中文译名可以叫什么呢？
+友种，朋档，纷飞，富人的肥…？
+“你友种吗？”
+“我…我没有种…”
+“那还不赶快去注册一个？”
+——获“中国超级烂创意广告”提名
+“格兰特不得人心 切迷官网留言近万条骂之”
+近万条留言算啥啊，要是中国队有官网评论，早就淹死了
+
+科幻、神话、童话题材的动画片要体现科学精神，注意防止渲染封建迷信和文化糟粕。
+
+虽然我一贯是挺科学派的，但不挺这种脑残派。这禁令不给科学抹黑么？
+那些经典作品怎么办？比如《哪咤闹海》，问题可大了，宣扬造反，儿童暴力，家庭失和，不孝，自杀，违反计划生育，虐待动物（还是民族文化图腾），怪力乱神，破坏环境，人体试验，医疗事故，怪胎…
+想想看，光是虐猫、丑化龙的广告就搞得沸沸扬扬，哪吒抽龙筋还不得翻天？
+我国民众对此竟然丝毫不以为然！还津津乐道，这说明什么问题？堕落啊，道德堕落啊！逼哀啊，太逼哀了！要深刻反省，要加强教育！
+《No Country for Old
+Men》怎么可以翻译为“老无所依”呢？（拍桌！）
+应该是“前浪死在沙滩上”嘛（逃…）。
+转载：
+我是霆锋，这是我的故事…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-02-27 02:21">2008-02-27</time> &bull;
+          
+            
+            <a href="/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">书香剑气</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>友种</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/friendfeed">
+              <span class="hash">#</span>friendfeed</a>
+          
+            , 
+            <a href="/tags/twitter">
+              <span class="hash">#</span>twitter</a>
+          
+            , 
+            <a href="/tags/%E6%96%B0%E6%89%B9%E5%88%A4%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>新批判主义</a>
+          
+            , 
+            <a href="/tags/%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90">
+              <span class="hash">#</span>知识分子</a>
+          
+            , 
+            <a href="/tags/%E7%A6%81%E4%BB%A4">
+              <span class="hash">#</span>禁令</a>
+          
+            , 
+            <a href="/tags/%E9%82%93%E6%99%93%E8%8A%92">
+              <span class="hash">#</span>邓晓芒</a>
+          
+        
+      </p>
+    </header>
+    <section><p>很久没有写杂谈了，现在有了 Twitter，真是方便偷懒啊——其实主要是怕把已经<br />
+Twitter 过的内容又拿到 blog 上说，会被大家打…</p>
+
+<p><blockquote><br />
+1938年10月26日，陈嘉庚在新加坡发了一封电报给重庆，阐述自己的参政提案：一、日寇未退出我国土之前凡公务员对任何人谈和平条件概以汉奸国贼论；二、大中学校在抗战期间禁放暑假；三、长衣马褂限期废除以振我民族雄武精神。<br />
+</blockquote><br />
+70年之后，在某些人口中，长衣马褂倒成为我民族精神的体现，不亦怪哉？</p>
+
+<p><blockquote><br />
+汪精卫的曲线救国论并不是他首次发明的，陈独秀在1914年就主张中国像朝鲜那样自并于日本，说亡国瓜分，亦以为非可恐可悲之事，1918年还在鼓吹请外国干涉中国内政，说这种出于国民自动外国好意的干涉，虽然失点虚面子，却受了实在的利益。<br />
+</blockquote><br />
+<blockquote><br />
+中国知识分子对于采用什么手段来救中国是不在乎的，只要能救中国，他们可以轮番使用西方启蒙思想、无政府主义、马克思主义、中国的儒家思想、法家和墨家的思想、阳明心学和气功内丹，也可以有意无意的造神、谀神、接受现代迷信，并能做到义无反顾、心悦诚服。<br />
+</blockquote><br />
+入手邓晓芒的再版《<a href="http://www.douban.com/subject/2379619/">新批判主义</a>》不久，看起来很过瘾。</p>
+
+<p><blockquote><br />
+问：有哪些游戏是融合科技和魔法的?<br />
+答：《Super Mario Brothers》。<br />
+有借助道具释放的魔法，比如巨人术，火球术，星光不死身，玄武变身，一叶飞天术。<br />
+而敌方则拥有高度的机械文明，比如毒蘑菇生化人，生化炮弹，火焰防御阵。<br />
+</blockquote><br />
+<a href="http://cjlcyb.blog.sohu.com/">中国超级烂创意博</a>，个性介绍为：“相信自己，你能发现最烂的，它就在你身边。”</p>
+
+<p>获得 <a href="http://friendfeed.com/">FriendFeed</a><br />
+邀请后才一天，它就开放注册了，真是不给我面子啊…<br />
+人多了以后就在上面顺藤摸瓜加好友。虽然它有导入邮箱等联系人的功能，但导入联系人地址是一种多么没有情调的行为啊…</p>
+
+<p><a href="http://friendfeed.com/calon">FriendFeed</a> 的中文译名可以叫什么呢？<br />
+友种，朋档，纷飞，富人的肥…？</p>
+
+<p>“你友种吗？”<br />
+“我…我没有种…”<br />
+“那还不赶快去注册一个？”<br />
+——获“中国超级烂创意广告”提名</p>
+
+<p>“格兰特不得人心 切迷官网留言近万条骂之”<br />
+近万条留言算啥啊，要是中国队有官网评论，早就淹死了</p>
+
+<p><blockquote><br />
+<a href="http://lionqing.blog.163.com/blog/static/39082424200812545352187/">科幻、神话、童话题材的动画片要体现科学精神，注意防止渲染封建迷信和文化糟粕。</a><br />
+</blockquote><br />
+虽然我一贯是挺科学派的，但不挺这种脑残派。这禁令不给科学抹黑么？<br />
+那些经典作品怎么办？比如《哪咤闹海》，问题可大了，宣扬造反，儿童暴力，家庭失和，不孝，自杀，违反计划生育，虐待动物（还是民族文化图腾），怪力乱神，破坏环境，人体试验，医疗事故，怪胎…<br />
+想想看，光是虐猫、丑化龙的广告就搞得沸沸扬扬，哪吒抽龙筋还不得翻天？<br />
+我国民众对此竟然丝毫不以为然！还津津乐道，这说明什么问题？堕落啊，道德堕落啊！逼哀啊，太逼哀了！要深刻反省，要加强教育！</p>
+
+<p>《<a href="http://www.douban.com/subject/1857099/">No Country for Old<br />
+Men</a>》怎么可以翻译为“老无所依”呢？（拍桌！）<br />
+应该是“前浪死在沙滩上”嘛（逃…）。</p>
+
+<p>转载：<br />
+我是霆锋，这是我的故事…<br />
+<img src="http://www.geekervision.com/50226711/sad-orange-1.jpg" alt="" /></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8f%8b%e7%a7%8d》&body=https%3a%2f%2fioerr.github.io%2fposts%2ffriendfeed%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ffriendfeed%2f&text= @calon %e5%8f%8b%e7%a7%8d&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marvin on 读写错误</title>
-    <link>https://ioerr.github.io/tags/marvin/index.xml</link>
+    <link>https://ioerr.github.io/tags/marvin/</link>
     <description>Recent content in Marvin on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Aug 2007 02:56:40 +0000</lastBuildDate>
     
-    <item>
-      <title>囧的起源</title>
-      <link>https://ioerr.github.io/jiong-de-qiyuan/</link>
-      <pubDate>Tue, 14 Aug 2007 02:56:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jiong-de-qiyuan/</guid>
-      <description>&lt;p&gt;在
-Talk、&lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;、V2EX、里屋等地方，我的签名或头像都是《银河系漫游指南》系列中那个成天唉声叹气的机器人
-Marvin。虽然电影版不如小说精彩，但 Marvin
+      <atom:link href="https://ioerr.github.io/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>囧的起源</title>
+        <link>https://ioerr.github.io/posts/jiong-de-qiyuan/</link>
+        <pubDate>Tue, 14 Aug 2007 02:56:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jiong-de-qiyuan/</guid>
+        <description>&lt;p&gt;在&lt;br /&gt;
+Talk、&lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;、V2EX、里屋等地方，我的签名或头像都是《银河系漫游指南》系列中那个成天唉声叹气的机器人&lt;br /&gt;
+Marvin。虽然电影版不如小说精彩，但 Marvin&lt;br /&gt;
 的造型还是很传神的，特别是那个大圆球脑瓜和垂头丧气式的倒三角眼。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.gravatar.com/avatar.php?gravatar_id=094c35d824b12ca60bde702b6ec1a0d8&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -29,7 +29,7 @@ Marvin。虽然电影版不如小说精彩，但 Marvin
 
 &lt;p&gt;原来，囧这个表情，是来源于此呀 囧rz&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

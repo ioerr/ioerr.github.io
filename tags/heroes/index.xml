@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heroes on 读写错误</title>
-    <link>https://ioerr.github.io/tags/heroes/index.xml</link>
+    <link>https://ioerr.github.io/tags/heroes/</link>
     <description>Recent content in Heroes on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/heroes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2008 15:23:23 +0000</lastBuildDate>
     
-    <item>
-      <title>Battlefield: Heroes</title>
-      <link>https://ioerr.github.io/battlefield-heroes/</link>
-      <pubDate>Tue, 10 Jun 2008 15:23:23 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/battlefield-heroes/</guid>
-      <description>&lt;p&gt;看样子 EA 这个免费的网络对战游戏《&lt;a href=&#34;http://www.battlefield-heroes.com/&#34;&gt;Battlefield:
+      <atom:link href="https://ioerr.github.io/tags/heroes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Battlefield: Heroes</title>
+        <link>https://ioerr.github.io/posts/battlefield-heroes/</link>
+        <pubDate>Tue, 10 Jun 2008 15:23:23 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/battlefield-heroes/</guid>
+        <description>&lt;p&gt;看样子 EA 这个免费的网络对战游戏《&lt;a href=&#34;http://www.battlefield-heroes.com/&#34;&gt;Battlefield:&lt;br /&gt;
 Heroes&lt;/a&gt;》挺有意思的，目前很多人被它搞笑、卡通的风格吊住了胃口，热切的盼望开放测试和运营。&lt;/p&gt;
 
 &lt;p&gt;看到某些大兵奔跑起来的姿势我忍不住笑了…&lt;/p&gt;
@@ -27,7 +27,7 @@ Heroes&lt;/a&gt;》挺有意思的，目前很多人被它搞笑、卡通的风�
 
 &lt;p&gt;如果有卡通渲染效果就更完美了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

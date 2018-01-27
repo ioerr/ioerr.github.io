@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>足球之夜 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83%E4%B9%8B%E5%A4%9C/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83%E4%B9%8B%E5%A4%9C/</link>
     <description>Recent content in 足球之夜 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83%E4%B9%8B%E5%A4%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jan 2008 12:16:10 +0000</lastBuildDate>
     
-    <item>
-      <title>为足协支招</title>
-      <link>https://ioerr.github.io/wei-zuxie-zhizhao/</link>
-      <pubDate>Sun, 06 Jan 2008 12:16:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/wei-zuxie-zhizhao/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83%E4%B9%8B%E5%A4%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>为足协支招</title>
+        <link>https://ioerr.github.io/posts/wei-zuxie-zhizhao/</link>
+        <pubDate>Sun, 06 Jan 2008 12:16:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/wei-zuxie-zhizhao/</guid>
+        <description>
 
-&lt;p&gt;&lt;blockquote&gt;
-对于《足球之夜》这种做法，国家队方面表示，是不客观的、难以接受的，危害了国家队形象，影响到了国家队的备战。
-&lt;/blockquote&gt;
-很好很强大，因为嘻嘻
-TV《足球之夜》节目嘉宾给足球运动管理中心主任谢亚龙去年的工作打了不及格分数，足协恼羞成怒，打算&lt;a href=&#34;http://sports.sina.com.cn/n/2008-01-06/05353400283.shtml&#34;&gt;单方面封杀嘻嘻
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+对于《足球之夜》这种做法，国家队方面表示，是不客观的、难以接受的，危害了国家队形象，影响到了国家队的备战。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
+很好很强大，因为嘻嘻&lt;br /&gt;
+TV《足球之夜》节目嘉宾给足球运动管理中心主任谢亚龙去年的工作打了不及格分数，足协恼羞成怒，打算&lt;a href=&#34;http://sports.sina.com.cn/n/2008-01-06/05353400283.shtml&#34;&gt;单方面封杀嘻嘻&lt;br /&gt;
 TV&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;从足协这段表态的话来看：&lt;br /&gt;
@@ -41,7 +41,7 @@ TV&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;不要说这三招是封闭落后的招数，它们可是我国在互联网管理方面总结出的宝贵经验呀，屡试不爽，所向无敌，怎么可能不管用呢？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

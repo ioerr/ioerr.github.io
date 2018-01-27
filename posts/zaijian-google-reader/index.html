@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>再见 Google Reader - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="再见 Google Reader" />
+<meta property="og:description" content="Google 前一段时间宣布，将在7月1日关闭 Google Reader。
+作为低调的老用户，咱就不贴出趋势图凑热闹了。
+Google 这几年被 Facebook
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
+Google Plus 这种没琢磨透需求的半成品。
+作为用户，能够理解 Google
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
+不仅损失许多有能量的核心用户，更重要的是，Google
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；
+同样作为用户，也犯不着可怜兮兮地请愿，Google
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。
+目前号称可以替代 Reader
+的在线服务，Feedly、Bloglines、鲜果、抓虾、有道阅读、[The Reader](http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS
+能把 Delicious
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。
+于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
+等桌面客户端（Mac OS
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
+FeedDemon。
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。
+FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
+Dropbox 等同步服务也可以勉强搞定。
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。
+注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
+feed 看待，所以最好在导入之前自己先清理一下。
+另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zaijian-google-reader/" />
+
+
+
+<meta property="article:published_time" content="2013-04-08T09:39:14&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-04-08T09:39:14&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="再见 Google Reader">
+<meta itemprop="description" content="Google 前一段时间宣布，将在7月1日关闭 Google Reader。
+作为低调的老用户，咱就不贴出趋势图凑热闹了。
+Google 这几年被 Facebook
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
+Google Plus 这种没琢磨透需求的半成品。
+作为用户，能够理解 Google
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
+不仅损失许多有能量的核心用户，更重要的是，Google
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；
+同样作为用户，也犯不着可怜兮兮地请愿，Google
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。
+目前号称可以替代 Reader
+的在线服务，Feedly、Bloglines、鲜果、抓虾、有道阅读、[The Reader](http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS
+能把 Delicious
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。
+于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
+等桌面客户端（Mac OS
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
+FeedDemon。
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。
+FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
+Dropbox 等同步服务也可以勉强搞定。
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。
+注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
+feed 看待，所以最好在导入之前自己先清理一下。
+另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？">
+
+
+<meta itemprop="datePublished" content="2013-04-08T09:39:14&#43;00:00" />
+<meta itemprop="dateModified" content="2013-04-08T09:39:14&#43;00:00" />
+<meta itemprop="wordCount" content="80">
+
+
+
+<meta itemprop="keywords" content="feed,FeedDemon,Google,Reader,RSS," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="再见 Google Reader"/>
+<meta name="twitter:description" content="Google 前一段时间宣布，将在7月1日关闭 Google Reader。
+作为低调的老用户，咱就不贴出趋势图凑热闹了。
+Google 这几年被 Facebook
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
+Google Plus 这种没琢磨透需求的半成品。
+作为用户，能够理解 Google
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
+不仅损失许多有能量的核心用户，更重要的是，Google
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；
+同样作为用户，也犯不着可怜兮兮地请愿，Google
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。
+目前号称可以替代 Reader
+的在线服务，Feedly、Bloglines、鲜果、抓虾、有道阅读、[The Reader](http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS
+能把 Delicious
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。
+于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
+等桌面客户端（Mac OS
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
+FeedDemon。
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。
+FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
+Dropbox 等同步服务也可以勉强搞定。
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。
+注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
+feed 看待，所以最好在导入之前自己先清理一下。
+另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2013-04-08 09:39">2013-04-08</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>再见 Google Reader</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/feed">
+              <span class="hash">#</span>feed</a>
+          
+            , 
+            <a href="/tags/feeddemon">
+              <span class="hash">#</span>FeedDemon</a>
+          
+            , 
+            <a href="/tags/google">
+              <span class="hash">#</span>Google</a>
+          
+            , 
+            <a href="/tags/reader">
+              <span class="hash">#</span>Reader</a>
+          
+            , 
+            <a href="/tags/rss">
+              <span class="hash">#</span>RSS</a>
+          
+        
+      </p>
+    </header>
+    <section>
+
+<p>Google 前一段时间宣布，将在7月1日关闭 Google Reader。<br />
+作为低调的老用户，咱就不贴出趋势图凑热闹了。</p>
+
+<p>Google 这几年被 Facebook<br />
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推<br />
+Google Plus 这种没琢磨透需求的半成品。<br />
+作为用户，能够理解 Google<br />
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google<br />
+不仅损失许多有能量的核心用户，更重要的是，Google<br />
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；<br />
+同样作为用户，也犯不着可怜兮兮地请愿，Google<br />
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。</p>
+
+<p>目前号称可以替代 Reader</p>
+
+<h2 id="的在线服务-feedly-http-www-feedly-com-bloglines-鲜果-http-xianguo-com-抓虾-http-www-zhuaxia-com-有道阅读-http-reader-youdao-com-the">的在线服务，<a href="http://www.feedly.com/">Feedly</a>、Bloglines、<a href="http://xianguo.com/">鲜果</a>、<a href="http://www.zhuaxia.com">抓虾</a>、<a href="http://reader.youdao.com/">有道阅读</a>、[The</h2>
+
+<p>Reader](<a href="http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS">http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS</a><br />
+能把 Delicious<br />
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。</p>
+
+<p>于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的<br />
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader<br />
+等桌面客户端（Mac OS<br />
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用<br />
+FeedDemon。<br />
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。</p>
+
+<p>FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到<br />
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助<br />
+Dropbox 等同步服务也可以勉强搞定。<br />
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。</p>
+
+<p>注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像<br />
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的<br />
+feed 看待，所以最好在导入之前自己先清理一下。</p>
+
+<p>另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？</p>
+
+<p>为了保险起见，建议只订阅了 <a href="http://feeds.feedburner.com/calon">http://feeds.feedburner.com/calon</a><br />
+的读者多个心眼，另外订阅 <a href="http://calon.weblogs.us/feed/">http://calon.weblogs.us/feed/</a><br />
+作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过<br />
+<a href="http://www.feedblitz.com/">FeedBlitz</a> 也可以用邮箱收取 feed<br />
+更新，美中不足是，有的文章标题变乱码）。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%86%8d%e8%a7%81%20Google%20Reader》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzaijian-google-reader%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzaijian-google-reader%2f&text= @calon %e5%86%8d%e8%a7%81%20Google%20Reader&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

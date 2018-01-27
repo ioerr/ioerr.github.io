@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xmas on 读写错误</title>
-    <link>https://ioerr.github.io/tags/xmas/index.xml</link>
+    <link>https://ioerr.github.io/tags/xmas/</link>
     <description>Recent content in Xmas on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/xmas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Dec 2007 12:11:09 +0000</lastBuildDate>
     
-    <item>
-      <title>凑圣诞热闹</title>
-      <link>https://ioerr.github.io/cou-shengdan-renao/</link>
-      <pubDate>Mon, 24 Dec 2007 12:11:09 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cou-shengdan-renao/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=EJAJESVC_257905M0O.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/EJAJESVC_257905M0O.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/xmas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>凑圣诞热闹</title>
+        <link>https://ioerr.github.io/posts/cou-shengdan-renao/</link>
+        <pubDate>Mon, 24 Dec 2007 12:11:09 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/cou-shengdan-renao/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=EJAJESVC_257905M0O.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/EJAJESVC_257905M0O.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=xmas2007.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/xmas2007.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=200712_24_18_56_58_119849381823.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/200712_24_18_56_58_119849381823.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

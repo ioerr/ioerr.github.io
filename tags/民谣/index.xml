@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>民谣 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B0%91%E8%B0%A3/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B0%91%E8%B0%A3/</link>
     <description>Recent content in 民谣 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B0%91%E8%B0%A3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2010 09:53:54 +0000</lastBuildDate>
     
-    <item>
-      <title>第二届橘洲音乐节</title>
-      <link>https://ioerr.github.io/dierjie-juzhou-yinyuejie/</link>
-      <pubDate>Sun, 26 Sep 2010 09:53:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dierjie-juzhou-yinyuejie/</guid>
-      <description>&lt;p&gt;这是标题党，因为我只去了第二天的音乐节。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B0%91%E8%B0%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>第二届橘洲音乐节</title>
+        <link>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</link>
+        <pubDate>Sun, 26 Sep 2010 09:53:54 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</guid>
+        <description>&lt;p&gt;这是标题党，因为我只去了第二天的音乐节。&lt;/p&gt;
 
 &lt;p&gt;9月22-24日的3天，第二届长沙橘洲音乐节在橘子洲头举办。本来没有兴趣在冰冷雨天去听音乐会，而且感兴趣的乐队不多，但因为免费弄到了23日的票，所以决定去开开眼界，看看本地办的这类音乐节水准如何。&lt;/p&gt;
 
 &lt;p&gt;去之前查了一下官方网站和各个社区的活动页面，发现抱怨门票价格、场地、组织不周到和担忧天气的人不少，而且捆绑的沙雕展览完全没有吸引人的地方。&lt;/p&gt;
 
-&lt;p&gt;23日下午一直是下雨，从桥头走到橘子洲头一路上冷冷清清，略过比较惊悚的沙雕直接到了现场，发现也就一、两百人在寒风细雨中哆哆嗦嗦，附近的沙地上立着十数个帐篷，路边有卖
-CD
+&lt;p&gt;23日下午一直是下雨，从桥头走到橘子洲头一路上冷冷清清，略过比较惊悚的沙雕直接到了现场，发现也就一、两百人在寒风细雨中哆哆嗦嗦，附近的沙地上立着十数个帐篷，路边有卖&lt;br /&gt;
+CD&lt;br /&gt;
 、纪念品、小商品、餐饮的店面，比如乡村基…还有多背一公斤的公益活动摊位、涂鸦墙和某楼盘宣传位…&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/5020251637/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4128/5020251637_0692a9e4c8.jpg&#34; alt=&#34;帐篷&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -32,7 +32,7 @@ CD
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020895202/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4153/5020895202_5344fe2afb.jpg&#34; alt=&#34;同挥舞手臂&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;悲剧的是，乐队轮换、设备调音的间隙一直在放 Queen
+&lt;p&gt;悲剧的是，乐队轮换、设备调音的间隙一直在放 Queen&lt;br /&gt;
 的歌曲，我个人觉得还是这几段最给力啊，忍不住跟着一起唱…&lt;/p&gt;
 
 &lt;p&gt;快吃晚饭时，脑浊的出场又是一个高潮，身边的摇滚青年们都陷入无意识状态。&lt;br /&gt;
@@ -65,7 +65,7 @@ CD
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020843744/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4107/5020843744_61c2e9cc74.jpg&#34; alt=&#34;旗帜&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

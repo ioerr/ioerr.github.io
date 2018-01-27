@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技巧 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%8A%80%E5%B7%A7/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%8A%80%E5%B7%A7/</link>
     <description>Recent content in 技巧 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2017 21:47:56 +0800</lastBuildDate>
     
-    <item>
-      <title>板夹笔记</title>
-      <link>https://ioerr.github.io/banjia-biji/</link>
-      <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/banjia-biji/</guid>
-      <description>&lt;p&gt;工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>板夹笔记</title>
+        <link>https://ioerr.github.io/posts/banjia-biji/</link>
+        <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/banjia-biji/</guid>
+        <description>&lt;p&gt;工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。&lt;br /&gt;
 几个月下来觉得优点还真不少。&lt;/p&gt;
 
 &lt;p&gt;首先是再也不用担心笔记本写完了要换本子。&lt;br /&gt;
@@ -48,7 +48,7 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 
 &lt;p&gt;但相对其优点而言微不足道。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

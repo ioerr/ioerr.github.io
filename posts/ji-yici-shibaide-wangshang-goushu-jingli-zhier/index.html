@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>记一次失败的网上购书经历，之二 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="记一次失败的网上购书经历，之二" />
+<meta property="og:description" content="终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：
+
+您的个人网上银行防伪信息没有设置，为了保护您的资金安全，建议您登录个人网银，在安全中心设置防伪信息。
+
+于是转去“安全中心”，可是遇到如下提示：
+
+信息提示： 8007
+系统繁忙，请重新登录或与银行联系。
+
+而且等了十数分钟，反复尝试几次都是如此，现在可是晚上10点之后的非高峰时期啊！
+遂重新登录，进入安全中心，嗯，这是什么？
+
+这也可以整出乱码啊~凭什么其他服务的页面都没问题，就是我要用的服务会出现乱码啊？！这是存心要陷害我吗？我长得既不像人大代表也不像奥运猪啊！
+好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：
+
+错误代码： 210035 密码校验次数超限
+本次支付失败，请重新下单。
+
+啊，我已经快要怒发冲冠了~才第一次输入密码就次数超限？而且支付密码分明是对的啊~
+强忍怒火去“常见问题解答”页面用“校验次数”或“校验”搜索下一下，嗯，竟然没有返回任何结果…怎么？难道又是只有一个人会遇见这种根本就不常见的问题而且那个人就是我？
+心中的小宇宙产量顿时翻了一番！我不能够被这个银行击败！改输入“密码”作为关键字查询！
+于是第一条问答就出现如下内容：
+
+网银密码每日最多输错几次会被冻结？
+每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示密码校验次数超限，第二日会自动解锁。
+您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。
+
+黑线开始爬上我的额头，小宇宙开始出现裂缝 :023:
+这么上等的帮助页面查询只能够搜索问题的内容而不搜索回答的全文内容？如果我知道“网银密码输错”会导致“密码校验次数超限”，我还来问你作甚？
+好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…
+嗯 解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~
+决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…
+补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。
+再补充：改为使用储蓄卡转账方式，提示如下：
+
+信息提示： ASSS99
+ASSS99
+此时段不允许做此交易
+
+在帮助信息中查到：
+
+我办理银证转账有没有时间限制？
+您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。
+
+貌似比银行柜台营业时间还短啊，真是无语了…
+所以说我讨厌和银行打交道是有原因的…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli-zhier/" />
+
+
+
+<meta property="article:published_time" content="2007-11-11T16:40:41&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-11-11T16:40:41&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="记一次失败的网上购书经历，之二">
+<meta itemprop="description" content="终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：
+
+您的个人网上银行防伪信息没有设置，为了保护您的资金安全，建议您登录个人网银，在安全中心设置防伪信息。
+
+于是转去“安全中心”，可是遇到如下提示：
+
+信息提示： 8007
+系统繁忙，请重新登录或与银行联系。
+
+而且等了十数分钟，反复尝试几次都是如此，现在可是晚上10点之后的非高峰时期啊！
+遂重新登录，进入安全中心，嗯，这是什么？
+
+这也可以整出乱码啊~凭什么其他服务的页面都没问题，就是我要用的服务会出现乱码啊？！这是存心要陷害我吗？我长得既不像人大代表也不像奥运猪啊！
+好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：
+
+错误代码： 210035 密码校验次数超限
+本次支付失败，请重新下单。
+
+啊，我已经快要怒发冲冠了~才第一次输入密码就次数超限？而且支付密码分明是对的啊~
+强忍怒火去“常见问题解答”页面用“校验次数”或“校验”搜索下一下，嗯，竟然没有返回任何结果…怎么？难道又是只有一个人会遇见这种根本就不常见的问题而且那个人就是我？
+心中的小宇宙产量顿时翻了一番！我不能够被这个银行击败！改输入“密码”作为关键字查询！
+于是第一条问答就出现如下内容：
+
+网银密码每日最多输错几次会被冻结？
+每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示密码校验次数超限，第二日会自动解锁。
+您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。
+
+黑线开始爬上我的额头，小宇宙开始出现裂缝 :023:
+这么上等的帮助页面查询只能够搜索问题的内容而不搜索回答的全文内容？如果我知道“网银密码输错”会导致“密码校验次数超限”，我还来问你作甚？
+好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…
+嗯 解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~
+决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…
+补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。
+再补充：改为使用储蓄卡转账方式，提示如下：
+
+信息提示： ASSS99
+ASSS99
+此时段不允许做此交易
+
+在帮助信息中查到：
+
+我办理银证转账有没有时间限制？
+您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。
+
+貌似比银行柜台营业时间还短啊，真是无语了…
+所以说我讨厌和银行打交道是有原因的…">
+
+
+<meta itemprop="datePublished" content="2007-11-11T16:40:41&#43;00:00" />
+<meta itemprop="dateModified" content="2007-11-11T16:40:41&#43;00:00" />
+<meta itemprop="wordCount" content="39">
+
+
+
+<meta itemprop="keywords" content="在线支付,银行," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="记一次失败的网上购书经历，之二"/>
+<meta name="twitter:description" content="终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：
+
+您的个人网上银行防伪信息没有设置，为了保护您的资金安全，建议您登录个人网银，在安全中心设置防伪信息。
+
+于是转去“安全中心”，可是遇到如下提示：
+
+信息提示： 8007
+系统繁忙，请重新登录或与银行联系。
+
+而且等了十数分钟，反复尝试几次都是如此，现在可是晚上10点之后的非高峰时期啊！
+遂重新登录，进入安全中心，嗯，这是什么？
+
+这也可以整出乱码啊~凭什么其他服务的页面都没问题，就是我要用的服务会出现乱码啊？！这是存心要陷害我吗？我长得既不像人大代表也不像奥运猪啊！
+好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：
+
+错误代码： 210035 密码校验次数超限
+本次支付失败，请重新下单。
+
+啊，我已经快要怒发冲冠了~才第一次输入密码就次数超限？而且支付密码分明是对的啊~
+强忍怒火去“常见问题解答”页面用“校验次数”或“校验”搜索下一下，嗯，竟然没有返回任何结果…怎么？难道又是只有一个人会遇见这种根本就不常见的问题而且那个人就是我？
+心中的小宇宙产量顿时翻了一番！我不能够被这个银行击败！改输入“密码”作为关键字查询！
+于是第一条问答就出现如下内容：
+
+网银密码每日最多输错几次会被冻结？
+每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示密码校验次数超限，第二日会自动解锁。
+您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。
+
+黑线开始爬上我的额头，小宇宙开始出现裂缝 :023:
+这么上等的帮助页面查询只能够搜索问题的内容而不搜索回答的全文内容？如果我知道“网银密码输错”会导致“密码校验次数超限”，我还来问你作甚？
+好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…
+嗯 解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~
+决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…
+补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。
+再补充：改为使用储蓄卡转账方式，提示如下：
+
+信息提示： ASSS99
+ASSS99
+此时段不允许做此交易
+
+在帮助信息中查到：
+
+我办理银证转账有没有时间限制？
+您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。
+
+貌似比银行柜台营业时间还短啊，真是无语了…
+所以说我讨厌和银行打交道是有原因的…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-11-11 04:40">2007-11-11</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>记一次失败的网上购书经历，之二</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%9C%A8%E7%BA%BF%E6%94%AF%E4%BB%98">
+              <span class="hash">#</span>在线支付</a>
+          
+            , 
+            <a href="/tags/%E9%93%B6%E8%A1%8C">
+              <span class="hash">#</span>银行</a>
+          
+        
+      </p>
+    </header>
+    <section>
+
+<p>终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：</p>
+
+<p><blockquote><br />
+您的个人网上银行防伪信息没有设置，为了保护您的资金安全，建议您登录个人网银，在安全中心设置防伪信息。<br />
+</blockquote><br />
+于是转去“安全中心”，可是遇到如下提示：</p>
+
+<p><blockquote><br />
+信息提示： 8007<br />
+系统繁忙，请重新登录或与银行联系。<br />
+</blockquote><br />
+而且等了十数分钟，反复尝试几次都是如此，现在可是晚上10点之后的非高峰时期啊！<br />
+遂重新登录，进入安全中心，嗯，这是什么？<br />
+<a href="http://picasaweb.google.com/calon.xu/Snapshot/photo#5131592933457812738"><img src="http://lh5.google.com/calon.xu/RzcUlaqoXQI/AAAAAAAAAbg/GpxhzwHhy1c/s400/ScreenShot00071.jpg" alt="" /></a><br />
+这也可以整出乱码啊~凭什么其他服务的页面都没问题，就是我要用的服务会出现乱码啊？！这是存心要陷害我吗？我长得既不像人大代表也不像奥运猪啊！</p>
+
+<p>好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：</p>
+
+<p><blockquote><br />
+错误代码： 210035 密码校验次数超限<br />
+本次支付失败，请重新下单。<br />
+</blockquote><br />
+啊，我已经快要怒发冲冠了~才第一次输入密码就次数超限？而且支付密码分明是对的啊~<br />
+强忍怒火去“常见问题解答”页面用“校验次数”或“校验”搜索下一下，嗯，竟然没有返回任何结果…怎么？难道又是只有一个人会遇见这种根本就不常见的问题而且那个人就是我？<br />
+心中的小宇宙产量顿时翻了一番！我不能够被这个银行击败！改输入“密码”作为关键字查询！<br />
+于是第一条问答就出现如下内容：</p>
+
+<p><blockquote><br />
+网银密码每日最多输错几次会被冻结？</p>
+
+<p>每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示<strong>密码校验次数超限</strong>，第二日会自动解锁。</p>
+
+<p>您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。<br />
+</blockquote><br />
+黑线开始爬上我的额头，小宇宙开始出现裂缝 :023:<br />
+这么上等的帮助页面查询只能够搜索问题的内容而不搜索回答的全文内容？如果我知道“网银密码输错”会导致“密码校验次数超限”，我还来问你作甚？</p>
+
+<p>好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…</p>
+
+<h2 id="嗯">嗯</h2>
+
+<p>解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~</p>
+
+<p>决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…</p>
+
+<p>补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。</p>
+
+<p>再补充：改为使用储蓄卡转账方式，提示如下：</p>
+
+<p><blockquote><br />
+信息提示： ASSS99<br />
+ASSS99<br />
+此时段不允许做此交易<br />
+</blockquote><br />
+在帮助信息中查到：</p>
+
+<p><blockquote><br />
+我办理银证转账有没有时间限制？</p>
+
+<p>您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。<br />
+</blockquote><br />
+貌似比银行柜台营业时间还短啊，真是无语了…</p>
+
+<p>所以说我讨厌和银行打交道是有原因的…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%ae%b0%e4%b8%80%e6%ac%a1%e5%a4%b1%e8%b4%a5%e7%9a%84%e7%bd%91%e4%b8%8a%e8%b4%ad%e4%b9%a6%e7%bb%8f%e5%8e%86%ef%bc%8c%e4%b9%8b%e4%ba%8c》&body=https%3a%2f%2fioerr.github.io%2fposts%2fji-yici-shibaide-wangshang-goushu-jingli-zhier%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fji-yici-shibaide-wangshang-goushu-jingli-zhier%2f&text= @calon %e8%ae%b0%e4%b8%80%e6%ac%a1%e5%a4%b1%e8%b4%a5%e7%9a%84%e7%bd%91%e4%b8%8a%e8%b4%ad%e4%b9%a6%e7%bb%8f%e5%8e%86%ef%bc%8c%e4%b9%8b%e4%ba%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

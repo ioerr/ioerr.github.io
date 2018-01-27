@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>流动性 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/</link>
     <description>Recent content in 流动性 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2017 10:12:24 +0800</lastBuildDate>
     
-    <item>
-      <title>中产阶级的焦虑</title>
-      <link>https://ioerr.github.io/zhongchan_jieji_de_jiaolv/</link>
-      <pubDate>Sun, 28 May 2017 10:12:24 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongchan_jieji_de_jiaolv/</guid>
-      <description>&lt;p&gt;近几年引起中产阶级焦虑的事件和文章不少，如各种社会阶层固化、教育资源紧张、二胎养育成本、房价特别是学区房价格居高不下等等，甚至最近还有了《&lt;a href=&#34;http://news.ifeng.com/a/20170525/51162895_0.shtml&#34;&gt;中产阶级教育鄙视链&lt;/a&gt;》这样的文章。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>中产阶级的焦虑</title>
+        <link>https://ioerr.github.io/posts/zhongchan_jieji_de_jiaolv/</link>
+        <pubDate>Sun, 28 May 2017 10:12:24 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongchan_jieji_de_jiaolv/</guid>
+        <description>&lt;p&gt;近几年引起中产阶级焦虑的事件和文章不少，如各种社会阶层固化、教育资源紧张、二胎养育成本、房价特别是学区房价格居高不下等等，甚至最近还有了《&lt;a href=&#34;http://news.ifeng.com/a/20170525/51162895_0.shtml&#34;&gt;中产阶级教育鄙视链&lt;/a&gt;》这样的文章。&lt;/p&gt;
 
 &lt;p&gt;身边虽说没有走火入魔至此的家长，但压力也都不小，感觉人生的起跑线无处不在，一处落后就处处落后，差距越来越大，再也不能翻身。&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 &lt;p&gt;4、以为用阶层和教育资源等手段作为护城河保障子女幸福，就是对子女最大的帮助。&lt;br /&gt;
 这更像是某种无意识的卸责，逃避看得见的物质资源之外的、在情感和三观方面陪伴和引导子女的责任，朦朦胧胧之中觉得哪里不对，但又不知道从何下手，于是愈发焦虑。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

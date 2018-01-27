@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电视问政 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF/</link>
     <description>Recent content in 电视问政 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Dec 2012 09:26:24 +0000</lastBuildDate>
     
-    <item>
-      <title>电视问政</title>
-      <link>https://ioerr.github.io/dianshi-wenzheng/</link>
-      <pubDate>Fri, 28 Dec 2012 09:26:24 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianshi-wenzheng/</guid>
-      <description>&lt;p&gt;前几天看到电视新闻中称赞以武汉“电视问政”为代表的电视问政直播类节目。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>电视问政</title>
+        <link>https://ioerr.github.io/posts/dianshi-wenzheng/</link>
+        <pubDate>Fri, 28 Dec 2012 09:26:24 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dianshi-wenzheng/</guid>
+        <description>&lt;p&gt;前几天看到电视新闻中称赞以武汉“电视问政”为代表的电视问政直播类节目。&lt;br /&gt;
 这些问政节目向官员拍砖问责，在直播镜头前责问其为何作为不力或未履行承诺，不少官员当场神色尴尬、汗流浃背，许多拖了多年的老大难问题，也在“问政”之后迅速改善或解决。节目收视率高，说明市民确实很欢迎这类有看点也能带来实效的问政节目。&lt;/p&gt;
 
 &lt;p&gt;问政类节目的出现、火爆和长期存在，自然是一种可喜的进步。有人说这是官员作秀，但只要能够推动行政部门作为，就是实实在在的好事一桩。&lt;br /&gt;
@@ -42,7 +42,7 @@
 &lt;p&gt;最后，问政只能根据已有的目标问做得够不够好，无法问这些问题是否应该由政府来解决。&lt;br /&gt;
 不管是电视节目，人大，还是所谓人民群众，要是总觉得所有的问题都需要花钱找政府来解决，那不管怎么问，也是南辕北辙，缘木求鱼，笑到最后的只能是汉弗莱爵士们。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

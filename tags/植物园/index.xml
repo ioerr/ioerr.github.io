@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>植物园 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/</link>
     <description>Recent content in 植物园 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Mar 2009 10:20:29 +0000</lastBuildDate>
     
-    <item>
-      <title>樱花</title>
-      <link>https://ioerr.github.io/yinghua/</link>
-      <pubDate>Sun, 22 Mar 2009 10:20:29 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yinghua/</guid>
-      <description>&lt;p&gt;昨天趁着樱花盛开和阳光明媚去了一趟植物园，游人和想象中的一样多。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>樱花</title>
+        <link>https://ioerr.github.io/posts/yinghua/</link>
+        <pubDate>Sun, 22 Mar 2009 10:20:29 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yinghua/</guid>
+        <description>&lt;p&gt;昨天趁着樱花盛开和阳光明媚去了一趟植物园，游人和想象中的一样多。&lt;br /&gt;
 本来想和朋友一起去武汉看的，不过时间上没能安排过来。而且也不可能真的睡在树下等日出看落樱…&lt;/p&gt;
 
 &lt;p&gt;植物园只有白色的樱花，如果是粉红色的，效果就会好多了。&lt;br /&gt;
@@ -56,7 +56,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;另：据说后期制作日系风格的照片主要是要保证背景淡雅、简单，然后把曲线调得稍微过曝、偏黄，降低饱和度，适度增加噪点？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

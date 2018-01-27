@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>震惊 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/</link>
     <description>Recent content in 震惊 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2017 21:18:52 +0800</lastBuildDate>
     
-    <item>
-      <title>震惊</title>
-      <link>https://ioerr.github.io/zhenjing/</link>
-      <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhenjing/</guid>
-      <description>&lt;p&gt;前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>震惊</title>
+        <link>https://ioerr.github.io/posts/zhenjing/</link>
+        <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/zhenjing/</guid>
+        <description>&lt;p&gt;前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。&lt;/p&gt;
 
 &lt;p&gt;背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

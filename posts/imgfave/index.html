@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>imgfave - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="imgfave" />
+<meta property="og:description" content="FFFFOUND
+是一个收藏分享图片的优秀站点，经常可以在上面看到有意思的图片，但是它的注册机制是邀请制的，于是经常可以看到有人求
+FFFFOUND 的邀请。
+如果你求不到 FFFFOUND
+的邀请而又只是想要一个类似的服务，那么可以试试这个刚刚出来的
+imgfave，它的程序是在开源 micro-blogging 程序
+Laconica 基础上进行改动的版本。
+转载图片的方式目前只有书签：imgfave;e.setAttribute(&lsquo;type&rsquo;,&lsquo;text/javascript&rsquo;);e.setAttribute(&lsquo;src&rsquo;,&lsquo;http://imgfave.com/js/bookmarklet.js&#39;);document.body.appendChild(e)%7D)()))目前我访问 imgfave 的速度比较慢，社会化功能方面与 FFFFOUND 还有差距。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/imgfave/" />
+
+
+
+<meta property="article:published_time" content="2008-09-15T04:31:58&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-09-15T04:31:58&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="imgfave">
+<meta itemprop="description" content="FFFFOUND
+是一个收藏分享图片的优秀站点，经常可以在上面看到有意思的图片，但是它的注册机制是邀请制的，于是经常可以看到有人求
+FFFFOUND 的邀请。
+如果你求不到 FFFFOUND
+的邀请而又只是想要一个类似的服务，那么可以试试这个刚刚出来的
+imgfave，它的程序是在开源 micro-blogging 程序
+Laconica 基础上进行改动的版本。
+转载图片的方式目前只有书签：imgfave;e.setAttribute(&lsquo;type&rsquo;,&lsquo;text/javascript&rsquo;);e.setAttribute(&lsquo;src&rsquo;,&lsquo;http://imgfave.com/js/bookmarklet.js&#39;);document.body.appendChild(e)%7D)()))目前我访问 imgfave 的速度比较慢，社会化功能方面与 FFFFOUND 还有差距。">
+
+
+<meta itemprop="datePublished" content="2008-09-15T04:31:58&#43;00:00" />
+<meta itemprop="dateModified" content="2008-09-15T04:31:58&#43;00:00" />
+<meta itemprop="wordCount" content="17">
+
+
+
+<meta itemprop="keywords" content="FFFFOUND,imgfave," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="imgfave"/>
+<meta name="twitter:description" content="FFFFOUND
+是一个收藏分享图片的优秀站点，经常可以在上面看到有意思的图片，但是它的注册机制是邀请制的，于是经常可以看到有人求
+FFFFOUND 的邀请。
+如果你求不到 FFFFOUND
+的邀请而又只是想要一个类似的服务，那么可以试试这个刚刚出来的
+imgfave，它的程序是在开源 micro-blogging 程序
+Laconica 基础上进行改动的版本。
+转载图片的方式目前只有书签：imgfave;e.setAttribute(&lsquo;type&rsquo;,&lsquo;text/javascript&rsquo;);e.setAttribute(&lsquo;src&rsquo;,&lsquo;http://imgfave.com/js/bookmarklet.js&#39;);document.body.appendChild(e)%7D)()))目前我访问 imgfave 的速度比较慢，社会化功能方面与 FFFFOUND 还有差距。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-09-15 04:31">2008-09-15</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>imgfave</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/ffffound">
+              <span class="hash">#</span>FFFFOUND</a>
+          
+            , 
+            <a href="/tags/imgfave">
+              <span class="hash">#</span>imgfave</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="http://ffffound.com/">FFFFOUND</a><br />
+是一个收藏分享图片的优秀站点，经常可以在上面看到有意思的图片，但是它的注册机制是邀请制的，于是经常可以看到有人求<br />
+FFFFOUND 的邀请。</p>
+
+<p>如果你求不到 FFFFOUND<br />
+的邀请而又只是想要一个类似的服务，那么可以试试这个刚刚出来的<br />
+<a href="http://imgfave.com/">imgfave</a>，它的程序是在开源 micro-blogging 程序<br />
+<a href="http://laconi.ca/">Laconica</a> 基础上进行改动的版本。</p>
+
+<p><a href="http://imgfave.com/index.php?action=doc&amp;title=post">转载图片的方式目前只有书签</a>：<a href="javascript:void((function()%7Bvar%20e=document.createElement(" title="script">imgfave</a>;e.setAttribute(&lsquo;type&rsquo;,&lsquo;text/javascript&rsquo;);e.setAttribute(&lsquo;src&rsquo;,&lsquo;<a href="http://imgfave.com/js/bookmarklet.js');document.body.appendChild(e)%7D)()))">http://imgfave.com/js/bookmarklet.js');document.body.appendChild(e)%7D)()))</a<br />
+拖到收藏夹工具栏，看见心仪的图片就点击书签，然后点击该图片即可。</p>
+
+<p>目前我访问 imgfave 的速度比较慢，社会化功能方面与 FFFFOUND 还有差距。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《imgfave》&body=https%3a%2f%2fioerr.github.io%2fposts%2fimgfave%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fimgfave%2f&text= @calon imgfave&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

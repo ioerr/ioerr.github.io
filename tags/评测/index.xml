@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>评测 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%AF%84%E6%B5%8B/</link>
     <description>Recent content in 评测 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Feb 2008 13:45:53 +0000</lastBuildDate>
     
-    <item>
-      <title>手机中的打火机</title>
-      <link>https://ioerr.github.io/shouji-zhong-de-dahuoji/</link>
-      <pubDate>Thu, 28 Feb 2008 13:45:53 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-zhong-de-dahuoji/</guid>
-      <description>&lt;p&gt;本来很有冲动为手头的这个 PHS
+      <atom:link href="https://ioerr.github.io/tags/%E8%AF%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>手机中的打火机</title>
+        <link>https://ioerr.github.io/posts/shouji-zhong-de-dahuoji/</link>
+        <pubDate>Thu, 28 Feb 2008 13:45:53 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-zhong-de-dahuoji/</guid>
+        <description>&lt;p&gt;本来很有冲动为手头的这个 PHS&lt;br /&gt;
 山寨机专门写篇文章，让大家看看其惨绝人寰的功能和人机界面，但越是折腾就越是心寒，最终我对全面剖析它已经绝望了…&lt;/p&gt;
 
 &lt;p&gt;以下仅列举出几方面：&lt;/p&gt;
 
-&lt;p&gt;1、号称音乐手机，面板上书 Music
+&lt;p&gt;1、号称音乐手机，面板上书 Music&lt;br /&gt;
 Phone，包装盒号称“64和弦/真人真唱”，还有不规范的专用 USB 接口。&lt;br /&gt;
-结果呢？USB
+结果呢？USB&lt;br /&gt;
 口仅能用于充电，电脑无法识别，导出/导入数据/音乐就不用想了。&lt;br /&gt;
-这也罢了，称的上是音乐的铃声只有茉莉花、笔记、山路十八弯、好姑娘、你到底爱不爱我，其中前两首还是
+这也罢了，称的上是音乐的铃声只有茉莉花、笔记、山路十八弯、好姑娘、你到底爱不爱我，其中前两首还是&lt;br /&gt;
 MIDI…&lt;br /&gt;
 我是不是应该庆幸它根本就没有提供音乐播放器？&lt;/p&gt;
 
@@ -39,7 +39,7 @@ MIDI…&lt;br /&gt;
 
 &lt;p&gt;4、玩游戏的时候，按下右软键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。&lt;/p&gt;
 
-&lt;p&gt;5、增值服务中有腾讯 QQ
+&lt;p&gt;5、增值服务中有腾讯 QQ&lt;br /&gt;
 之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。&lt;br /&gt;
 尝试着点击，出来的信息只有“提交成功！”&lt;br /&gt;
 可但是，但可是，&lt;br /&gt;
@@ -55,8 +55,8 @@ MIDI…&lt;br /&gt;
 &lt;p&gt;6、电话簿群组管理…&lt;br /&gt;
 对不起，我到现在还没有完全参透电话簿群组管理的奥义，它让我明白了什么叫做“天外有天”。&lt;/p&gt;
 
-&lt;p&gt;7、很让人意外的，在 PHS
-终端最有竞争力的“电池续航能力”方面，它也是软蛋一个，2天时间就变成只有1格电…是我见过的电池最差的
+&lt;p&gt;7、很让人意外的，在 PHS&lt;br /&gt;
+终端最有竞争力的“电池续航能力”方面，它也是软蛋一个，2天时间就变成只有1格电…是我见过的电池最差的&lt;br /&gt;
 PHS 终端…&lt;/p&gt;
 
 &lt;p&gt;最后是外观，看上去还是不错的，轻便小巧：&lt;br /&gt;
@@ -64,12 +64,12 @@ PHS 终端…&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.footbig.com/photo/58134&#34;&gt;&lt;img src=&#34;http://fleet1.footbig.com/615/s/8a/45/8a450de0b58ef2c686018281f571725a-6017.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;生产商是&lt;a href=&#34;http://www.sztayo.com/&#34;&gt;深圳天耀科技有限公司&lt;/a&gt;，型号是
+&lt;p&gt;生产商是&lt;a href=&#34;http://www.sztayo.com/&#34;&gt;深圳天耀科技有限公司&lt;/a&gt;，型号是&lt;br /&gt;
 F35E，可能因为是限地区销售，这款型号的机器并没有出现在它的产品清单上。&lt;/p&gt;
 
 &lt;p&gt;不要问我为什么手上会有这一款机器，这当然不是我选的。你们可以不相信我的人品，但一定要相信我的品位！&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

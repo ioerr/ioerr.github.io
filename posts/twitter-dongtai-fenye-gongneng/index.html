@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter 动态分页功能 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Twitter 动态分页功能" />
+<meta property="og:description" content="今天 twitter
+增加了一个新功能：动态（Activity）分页，即，集中展示你关注的用户的收藏、关注、转推等活动。
+其他人的转推我很少跟踪，其他人新关注的用户我也不感兴趣：我要关注的人，通常是好友在对话中提及，然后我顺藤摸瓜找过去觉得此人发言靠谱且对味——道理很简单，我关注的用户关注的用户不一定就是我关注的用户，发出我关注的言论的用户才是我应该关注的用户。
+于我而言，动态分页功能最大的亮点乃是直接查看好友的收藏。
+很久之前曾在 twitter
+上说过，官方转推的定位不好。收藏应该取代官方转推，因为两者都没有改变原有的信息，定位有重叠。
+扩展收藏功能，可追溯源头和展示给跟随者，收藏就和官方转推同质了。而手工
+rt
+则提供修改原文和追加评论的自由空间，若官方支持，且实现现有官方转推的话题关联和追溯能力，与收藏功能互补起来，就没有官方转推什么事了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/twitter-dongtai-fenye-gongneng/" />
+
+
+
+<meta property="article:published_time" content="2011-11-15T15:32:43&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-11-15T15:32:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Twitter 动态分页功能">
+<meta itemprop="description" content="今天 twitter
+增加了一个新功能：动态（Activity）分页，即，集中展示你关注的用户的收藏、关注、转推等活动。
+其他人的转推我很少跟踪，其他人新关注的用户我也不感兴趣：我要关注的人，通常是好友在对话中提及，然后我顺藤摸瓜找过去觉得此人发言靠谱且对味——道理很简单，我关注的用户关注的用户不一定就是我关注的用户，发出我关注的言论的用户才是我应该关注的用户。
+于我而言，动态分页功能最大的亮点乃是直接查看好友的收藏。
+很久之前曾在 twitter
+上说过，官方转推的定位不好。收藏应该取代官方转推，因为两者都没有改变原有的信息，定位有重叠。
+扩展收藏功能，可追溯源头和展示给跟随者，收藏就和官方转推同质了。而手工
+rt
+则提供修改原文和追加评论的自由空间，若官方支持，且实现现有官方转推的话题关联和追溯能力，与收藏功能互补起来，就没有官方转推什么事了。">
+
+
+<meta itemprop="datePublished" content="2011-11-15T15:32:43&#43;00:00" />
+<meta itemprop="dateModified" content="2011-11-15T15:32:43&#43;00:00" />
+<meta itemprop="wordCount" content="11">
+
+
+
+<meta itemprop="keywords" content="twitter,收藏,转推," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Twitter 动态分页功能"/>
+<meta name="twitter:description" content="今天 twitter
+增加了一个新功能：动态（Activity）分页，即，集中展示你关注的用户的收藏、关注、转推等活动。
+其他人的转推我很少跟踪，其他人新关注的用户我也不感兴趣：我要关注的人，通常是好友在对话中提及，然后我顺藤摸瓜找过去觉得此人发言靠谱且对味——道理很简单，我关注的用户关注的用户不一定就是我关注的用户，发出我关注的言论的用户才是我应该关注的用户。
+于我而言，动态分页功能最大的亮点乃是直接查看好友的收藏。
+很久之前曾在 twitter
+上说过，官方转推的定位不好。收藏应该取代官方转推，因为两者都没有改变原有的信息，定位有重叠。
+扩展收藏功能，可追溯源头和展示给跟随者，收藏就和官方转推同质了。而手工
+rt
+则提供修改原文和追加评论的自由空间，若官方支持，且实现现有官方转推的话题关联和追溯能力，与收藏功能互补起来，就没有官方转推什么事了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2011-11-15 03:32">2011-11-15</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Twitter 动态分页功能</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/twitter">
+              <span class="hash">#</span>twitter</a>
+          
+            , 
+            <a href="/tags/%E6%94%B6%E8%97%8F">
+              <span class="hash">#</span>收藏</a>
+          
+            , 
+            <a href="/tags/%E8%BD%AC%E6%8E%A8">
+              <span class="hash">#</span>转推</a>
+          
+        
+      </p>
+    </header>
+    <section><p>今天 twitter<br />
+增加了一个新功能：动态（Activity）分页，即，集中展示你关注的用户的收藏、关注、转推等活动。</p>
+
+<p>其他人的转推我很少跟踪，其他人新关注的用户我也不感兴趣：我要关注的人，通常是好友在对话中提及，然后我顺藤摸瓜找过去觉得此人发言靠谱且对味——道理很简单，我关注的用户关注的用户不一定就是我关注的用户，发出我关注的言论的用户才是我应该关注的用户。</p>
+
+<p>于我而言，动态分页功能最大的亮点乃是直接查看好友的收藏。<br />
+很久之前曾在 twitter<br />
+上说过，官方转推的定位不好。收藏应该取代官方转推，因为两者都没有改变原有的信息，定位有重叠。<br />
+扩展收藏功能，可追溯源头和展示给跟随者，收藏就和官方转推同质了。而手工<br />
+rt<br />
+则提供修改原文和追加评论的自由空间，若官方支持，且实现现有官方转推的话题关联和追溯能力，与收藏功能互补起来，就没有官方转推什么事了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Twitter%20%e5%8a%a8%e6%80%81%e5%88%86%e9%a1%b5%e5%8a%9f%e8%83%bd》&body=https%3a%2f%2fioerr.github.io%2fposts%2ftwitter-dongtai-fenye-gongneng%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ftwitter-dongtai-fenye-gongneng%2f&text= @calon Twitter%20%e5%8a%a8%e6%80%81%e5%88%86%e9%a1%b5%e5%8a%9f%e8%83%bd&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

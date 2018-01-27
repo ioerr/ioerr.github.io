@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>滔滔 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="滔滔" />
+<meta property="og:description" content="腾讯的滔滔/叨客正式上线，功能上自然还是追随
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。
+1、只支持 QQ。
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。
+2、不开放 API。
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。
+3、没有 RSS。
+RSS 是什么？能赚钱吗？
+4、发言首先要经过语意分析技术分析筛选之后才能够上首页
+估计也就是“过滤”换了一种说法，从效果来看并不如意。
+5、无法输出到页面
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。
+其他方面：
+名字究竟是叨客还是滔滔？难道是滔滔上的叨客？
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；
+多次出现系统繁忙的提示，不像是腾讯的服务水准；
+据说不支持 Opera，摇头…
+总而言之，在我看来是既不开放也缺少诚意的产品。
+补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/taotao/" />
+
+
+
+<meta property="article:published_time" content="2007-08-13T13:33:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-08-13T13:33:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="滔滔">
+<meta itemprop="description" content="腾讯的滔滔/叨客正式上线，功能上自然还是追随
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。
+1、只支持 QQ。
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。
+2、不开放 API。
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。
+3、没有 RSS。
+RSS 是什么？能赚钱吗？
+4、发言首先要经过语意分析技术分析筛选之后才能够上首页
+估计也就是“过滤”换了一种说法，从效果来看并不如意。
+5、无法输出到页面
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。
+其他方面：
+名字究竟是叨客还是滔滔？难道是滔滔上的叨客？
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；
+多次出现系统繁忙的提示，不像是腾讯的服务水准；
+据说不支持 Opera，摇头…
+总而言之，在我看来是既不开放也缺少诚意的产品。
+补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。">
+
+
+<meta itemprop="datePublished" content="2007-08-13T13:33:39&#43;00:00" />
+<meta itemprop="dateModified" content="2007-08-13T13:33:39&#43;00:00" />
+<meta itemprop="wordCount" content="31">
+
+
+
+<meta itemprop="keywords" content="qq,twitter,叨客,滔滔," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="滔滔"/>
+<meta name="twitter:description" content="腾讯的滔滔/叨客正式上线，功能上自然还是追随
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。
+1、只支持 QQ。
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。
+2、不开放 API。
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。
+3、没有 RSS。
+RSS 是什么？能赚钱吗？
+4、发言首先要经过语意分析技术分析筛选之后才能够上首页
+估计也就是“过滤”换了一种说法，从效果来看并不如意。
+5、无法输出到页面
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。
+其他方面：
+名字究竟是叨客还是滔滔？难道是滔滔上的叨客？
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；
+多次出现系统繁忙的提示，不像是腾讯的服务水准；
+据说不支持 Opera，摇头…
+总而言之，在我看来是既不开放也缺少诚意的产品。
+补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-08-13 01:33">2007-08-13</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>滔滔</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/qq">
+              <span class="hash">#</span>qq</a>
+          
+            , 
+            <a href="/tags/twitter">
+              <span class="hash">#</span>twitter</a>
+          
+            , 
+            <a href="/tags/%E5%8F%A8%E5%AE%A2">
+              <span class="hash">#</span>叨客</a>
+          
+            , 
+            <a href="/tags/%E6%BB%94%E6%BB%94">
+              <span class="hash">#</span>滔滔</a>
+          
+        
+      </p>
+    </header>
+    <section><p>腾讯的<a href="http://www.taotao.com/">滔滔/叨客</a>正式上线，功能上自然还是追随<br />
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。</p>
+
+<p>1、只支持 QQ。<br />
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。</p>
+
+<p>2、不开放 API。<br />
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。</p>
+
+<p>3、没有 RSS。<br />
+RSS 是什么？能赚钱吗？</p>
+
+<p>4、发言首先要经过语意分析技术分析筛选之后才能够上首页<br />
+估计也就是“过滤”换了一种说法，从效果来看并不如意。</p>
+
+<p>5、无法输出到页面<br />
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。</p>
+
+<p>其他方面：</p>
+
+<p>名字究竟是叨客还是滔滔？难道是滔滔上的叨客？<br />
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；<br />
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；<br />
+多次出现系统繁忙的提示，不像是腾讯的服务水准；<br />
+据说不支持 Opera，摇头…</p>
+
+<p>总而言之，在我看来是既不开放也缺少诚意的产品。</p>
+
+<hr />
+
+<p>补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%bb%94%e6%bb%94》&body=https%3a%2f%2fioerr.github.io%2fposts%2ftaotao%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ftaotao%2f&text= @calon %e6%bb%94%e6%bb%94&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

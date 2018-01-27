@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>选择 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%80%89%E6%8B%A9/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%80%89%E6%8B%A9/</link>
     <description>Recent content in 选择 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%80%89%E6%8B%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jun 2012 10:00:21 +0000</lastBuildDate>
     
-    <item>
-      <title>《看不见的心》书摘</title>
-      <link>https://ioerr.github.io/kanbujian-de-xin-shuzhai/</link>
-      <pubDate>Mon, 04 Jun 2012 10:00:21 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kanbujian-de-xin-shuzhai/</guid>
-      <description>&lt;p&gt;你对人们的选择权限制越多，即使打着帮助他们的旗号，你也越是在从他们身上剥夺更多的责任。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%80%89%E6%8B%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>《看不见的心》书摘</title>
+        <link>https://ioerr.github.io/posts/kanbujian-de-xin-shuzhai/</link>
+        <pubDate>Mon, 04 Jun 2012 10:00:21 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kanbujian-de-xin-shuzhai/</guid>
+        <description>&lt;p&gt;你对人们的选择权限制越多，即使打着帮助他们的旗号，你也越是在从他们身上剥夺更多的责任。&lt;br /&gt;
 有了选择，要承担责任才叫生活，就是要吃一堑长一智，在挫折中成长。&lt;/p&gt;
 
 &lt;p&gt;做父母的目标不仅仅是使孩子免受身体上的伤害。他们的目标还应该是教孩子如何应付这个世界的危险和让人兴奋的东西。&lt;/p&gt;
@@ -175,7 +175,7 @@ Malcolm Muggeridge: only dead fish swim with the stream.&lt;/p&gt;
 
 &lt;p&gt;我不准备上法学院，而我也没有把你变成一个自由市场浪漫主义者，不过你并不反对别人的忠告，我也不是非得赢得一场辩论赛，我只是想让你理解改善这个世界不止有一条途径。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,348 +1,250 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <base href="https://ioerr.github.io/">
+<html lang="zh-CN">
+  <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>煮酒论史  &middot; 读写错误</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="bookmark" href="/favicon.ico">
-    <link rel="canonical" href="https://ioerr.github.io/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>煮酒论史 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="煮酒论史" />
+<meta property="og:description" content="Don&#39;t Panic" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ioerr.github.io/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/" />
+
+
+
+<meta property="og:updated_time" content="2012-06-11T05:37:14&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="煮酒论史">
+<meta itemprop="description" content="Don&#39;t Panic">
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="煮酒论史"/>
+<meta name="twitter:description" content="Don&#39;t Panic"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
     
-    <link href="https://ioerr.github.io/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/index.xml" rel="alternate" type="application/rss+xml" title="煮酒论史" />
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
     
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
     
-    <link rel="stylesheet" href="/css/default.min.css">
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
     
-    <script src="/js/highlight.min.js"></script>
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-</head>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
 
-<body>
-    <div class="navbar">
-        <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/categories">CATEGORIES</a></li>
-            <li><a href="/project">PROJECTS</a></li>
-        </ul>
-    </div>
-    <div class="container">
-      <div class="title">
-        <div>
-          <a href="/">
-            <img src="/images/logo.svg" />
-          </a>
-        </div>
-        <div><img src="/images/seperator.svg" /></div>
-        <div class="logo-title">Don't Panic</div>
-      </div>
-
-
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/huangdan/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>11 Jun 2012, 05:37</time>
-        <h1>荒诞</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/yuqiang-juzi/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>06 Jul 2009, 13:20</time>
-        <h1>踰墙居子</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lailai-wangwang/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>12 May 2009, 16:31</time>
-        <h1>来来，往往</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-3/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>20 Mar 2008, 14:46</time>
-        <h1>《基督教世界科学与神学论战史》摘抄 \#3</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-2/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>19 Mar 2008, 14:46</time>
-        <h1>《基督教世界科学与神学论战史》摘抄 \#2</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-1/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>18 Mar 2008, 16:17</time>
-        <h1>《基督教世界科学与神学论战史》摘抄 \#1</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>18 Mar 2008, 16:14</time>
-        <h1>《基督教世界科学与神学论战史》</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/chuxi-yanhuo/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>09 Feb 2008, 16:10</time>
-        <h1>除夕焰火</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/cong-54-kaishi-luantan/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>08 May 2007, 17:07</time>
-        <h1>从五四开始乱谈</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/guanyu-zhengbian/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>21 Sep 2006, 17:27</time>
-        <h1>关于政变</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/jiti-fanyi-wiki-yanshi/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>12 Apr 2006, 15:45</time>
-        <h1>集体翻译 Wiki 演示</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/gongtong-fanyi-jihua/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>11 Apr 2006, 14:07</time>
-        <h1>共同翻译计划</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-6/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>22 Jun 2005, 12:47</time>
-        <h1>《论历史》摘抄与评论 \#6</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-5/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>08 Jun 2005, 11:41</time>
-        <h1>《论历史》摘抄与评论 \#5</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-4/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>31 May 2005, 11:07</time>
-        <h1>《论历史》摘抄与评论 \#4</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-3/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>28 May 2005, 10:59</time>
-        <h1>《论历史》摘抄与评论 \#3</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-2/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>20 May 2005, 09:11</time>
-        <h1>《论历史》摘抄与评论 \#2</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/lunlishi-zhaichao-yu-pinglun-1/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>15 May 2005, 15:07</time>
-        <h1>《论历史》摘抄与评论 \#1</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/kebei/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>14 Jan 2005, 13:14</time>
-        <h1>可悲</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/meigeren-de-dangdai-lishi/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>11 Jan 2005, 12:30</time>
-        <h1>每个人的当代历史</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/zhongguo-lishi-dituji/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>28 Nov 2004, 13:44</time>
-        <h1>中国历史地图集</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/zhenshi-de-lishi/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>07 Sep 2003, 01:57</time>
-        <h1>真实的历史</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="post-list-item">
-  <a href="https://ioerr.github.io/zhongguo-lishi-tonglun-zhaichao/">
-    <div class="post-title">
-      <img src="/images/post-title-icon.svg" />
-      <div class="post-meta">
-        <time>28 Aug 2003, 01:47</time>
-        <h1>《中国历史通论》摘抄</h1>
-      </div>
-    </div>
-  </a>
-</div>
-
-
-<div class="paging">
+    <main>
+      
+  <div class="taxonomies-list">
+    <h2>
+      <span>Posts about:</span> 煮酒论史
+      <a href="/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/index.xml" title="RSS">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="rss"
+        >
+          <path d="M4 11a9 9 0 0 1 9 9" />
+          <path d="M4 4a16 16 0 0 1 16 16" />
+          <circle cx="5" cy="19" r="1" />
+        </svg>
+      </a>
+    </h2>
+    <ul class="post-list">
   
-
-  PAGE 1 / 5
-
   
-  <a href="/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/page/2/" rel="next">
-    Next <i class="fa fa-caret-right" aria-hidden="true"></i>
-  </a>
+    <a href="/posts/huangdan/" title="荒诞">
+      <li>
+        <span>荒诞</span>
+        <span class="date">2012-06-11</span>
+      </li>
+    </a>
   
-</div>
+    <a href="/posts/yuqiang-juzi/" title="踰墙居子">
+      <li>
+        <span>踰墙居子</span>
+        <span class="date">2009-07-06</span>
+      </li>
+    </a>
+  
+    <a href="/posts/lailai-wangwang/" title="来来，往往">
+      <li>
+        <span>来来，往往</span>
+        <span class="date">2009-05-12</span>
+      </li>
+    </a>
+  
+    <a href="/posts/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-3/" title="《基督教世界科学与神学论战史》摘抄 \#3">
+      <li>
+        <span>《基督教世界科学与神学论战史》摘抄 \#3</span>
+        <span class="date">2008-03-20</span>
+      </li>
+    </a>
+  
+    <a href="/posts/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-2/" title="《基督教世界科学与神学论战史》摘抄 \#2">
+      <li>
+        <span>《基督教世界科学与神学论战史》摘抄 \#2</span>
+        <span class="date">2008-03-19</span>
+      </li>
+    </a>
+  
+    <a href="/posts/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi-zhaichao-1/" title="《基督教世界科学与神学论战史》摘抄 \#1">
+      <li>
+        <span>《基督教世界科学与神学论战史》摘抄 \#1</span>
+        <span class="date">2008-03-18</span>
+      </li>
+    </a>
+  
+    <a href="/posts/jidujiao-shijie-kexue-yu-shenxue-lunzhanshi/" title="《基督教世界科学与神学论战史》">
+      <li>
+        <span>《基督教世界科学与神学论战史》</span>
+        <span class="date">2008-03-18</span>
+      </li>
+    </a>
+  
+    <a href="/posts/chuxi-yanhuo/" title="除夕焰火">
+      <li>
+        <span>除夕焰火</span>
+        <span class="date">2008-02-09</span>
+      </li>
+    </a>
+  
+    <a href="/posts/cong-54-kaishi-luantan/" title="从五四开始乱谈">
+      <li>
+        <span>从五四开始乱谈</span>
+        <span class="date">2007-05-08</span>
+      </li>
+    </a>
+  
+    <a href="/posts/guanyu-zhengbian/" title="关于政变">
+      <li>
+        <span>关于政变</span>
+        <span class="date">2006-09-21</span>
+      </li>
+    </a>
+  
+    <a href="/posts/jiti-fanyi-wiki-yanshi/" title="集体翻译 Wiki 演示">
+      <li>
+        <span>集体翻译 Wiki 演示</span>
+        <span class="date">2006-04-12</span>
+      </li>
+    </a>
+  
+    <a href="/posts/gongtong-fanyi-jihua/" title="共同翻译计划">
+      <li>
+        <span>共同翻译计划</span>
+        <span class="date">2006-04-11</span>
+      </li>
+    </a>
+  
+</ul>
+<ul class="pagination">
+  <li>
+    
+  </li>
+  <li>
+    
+      <a href="/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2/page/2/">
+        next
+      </a>
+    
+  </li>
+</ul>
 
 
-<div class="seperator">
-  <img src="/images/seperator.svg" />
-</div>
+  </div>
 
-<footer class="footer">
-    COPYRIGHT (C) <a href="http://blog.lulab.net">DONGGEUN,BANG</a>. ALL RIGHTS RESERVED.
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
 </footer>
 
-
-
-</body>
-
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
 </html>
-

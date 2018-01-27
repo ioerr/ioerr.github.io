@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>女儿 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%A5%B3%E5%84%BF/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%A5%B3%E5%84%BF/</link>
     <description>Recent content in 女儿 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%A5%B3%E5%84%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Sep 2007 16:20:58 +0000</lastBuildDate>
     
-    <item>
-      <title>梦中的女儿</title>
-      <link>https://ioerr.github.io/mengzhong-de-nver/</link>
-      <pubDate>Tue, 04 Sep 2007 16:20:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/mengzhong-de-nver/</guid>
-      <description>&lt;p&gt;昨天躺在床上睡着之前又有那种&lt;a href=&#34;http://calon.weblogs.us/siwang_he_shenghuo/&#34;&gt;一下子掉入虚无的感觉&lt;/a&gt;，猛地坐起来摆脱那种感觉，喘了几口气定定神之后，再倒下去睡着。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%A5%B3%E5%84%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>梦中的女儿</title>
+        <link>https://ioerr.github.io/posts/mengzhong-de-nver/</link>
+        <pubDate>Tue, 04 Sep 2007 16:20:58 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/mengzhong-de-nver/</guid>
+        <description>&lt;p&gt;昨天躺在床上睡着之前又有那种&lt;a href=&#34;http://calon.weblogs.us/siwang_he_shenghuo/&#34;&gt;一下子掉入虚无的感觉&lt;/a&gt;，猛地坐起来摆脱那种感觉，喘了几口气定定神之后，再倒下去睡着。&lt;/p&gt;
 
 &lt;p&gt;假如这种感觉持续不断的话，我想我会非常理解有的人不惜折磨自己的肉体，用痛苦换来实实在在的存在感的。&lt;/p&gt;
 
@@ -30,7 +30,7 @@
 
 &lt;p&gt;最后，在喊“女儿”的名字时，记得听上去好像是“湘翎”？很奇怪啊，如果是我自己想，很难会想出这样的名字的，就好像以前莫名其妙地在梦中会&lt;a href=&#34;http://calon.weblogs.us/hunluande_meng/&#34;&gt;想到“Shiina”这样的名字&lt;/a&gt;。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑社会康采恩 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="黑社会康采恩" />
+<meta property="og:description" content="写了几篇草稿，不想发文，国事如此，心中纷乱，拿 twitter
+上的文字来凑数好了（最后一句才是重点嘛）
+关于足球：
+半个小时之后再看土豪内战，FM真人版。虽然曼城的实力差了很多，但是心态上他们已经是大爷了！（最后果然很潇洒的输了一个1:3）
+
+2009年8月3日。马队：“现在球队历史上第一次真正的降级，全队都在最艰难的时刻，我准备再踢一年，把米兰重新带回巅峰
+
+
+“连败难掩内心喜色，老贝赌球钞票数到手发软”
+“虽遭两败无损贵族气质 慢走踢球尽显淡定本色”
+“马尔蒂尼年纪尚幼经验略显不足 AC米兰先抑后扬必将保级成功”
+
+关于奶粉三聚氰胺事件：
+现实就是这样，不出人命就不会有人重视，只会怪你唯恐天下不乱
+一个三鹿倒下去，千万个三鹿依然站着还活得很滋润
+身体是革命的本钱，请在先保证自己还能好好活着的基础上支持国货
+擅自报导，这个词很微妙
+中华民族到了最危险的时候，每个人被迫着发出最后的吼声
+我们还不如孟加拉、缅甸、也门（雅士利出口到这三个国家的奶粉倒是没有检查出问题）
+“有关部门采取了进一步加强监管的措施”，又是有关部门！
+婴幼儿奶粉有问题，那么其他奶粉有没有问题？奶粉有问题，其他奶制品有没有问题？有三聚氰胺的问题，那么有没有其他有毒有害成分的问题？
+全面加强产品质量安全监管
+坚决维护人民利益和国家形象——国家质检总局局长李长江在进一步加强产品质量安全监督工作会议上的讲话
+
+三鹿奶粉再次证明了在婴儿阶段 穷人富人的命运就开始改变
+
+——avaloon
+
+每天一斤奶，喝死中国人！
+
+
+三鹿它不是一个人在战斗。国家食品药品监督管理局、国家工商行政管理局、国家质量技术监督局、卫生部、文化部、广电总局、互联网监管中心、公安部、人民日报、新华日报、CCTV、百度&hellip;在这一刻灵魂附体。
+
+——QiFei
+@qifei 这简直就是黑社会康采恩
+
+说什么出口和特供奥运都是合格的，这个说法是事实，那么之前说的奶源有问题就是谎话，难道厂家有办法分离奶源做出口和特供的产品么，ok，如果有这个办法分离奶源，说明厂家早就知道有毒
+
+
+此次三鹿事件给了中国足协一次绝好的绝地反攻机会，谢亚龙完全可以将国足的糟糕成绩归罪于使用了国产奶粉。
+
+——liumiao
+@liumiao 代人转：“屁，人家喝山西假白酒眼睛喝瞎了的都能打进奥运会决赛”
+关于中国股市：
+随着大盘跌破2008并一路向下，中国股市正带领我们一步步回顾2000年的历史
+全中国股民集体穿越（穿越年表见后面的附表，穿越人士必备实用手册）
+
+以后股市就别说什么点位支撑之类的了。直接这样就行了。
+A： 今天股市怎么样？
+B：还行，在清朝呢（17xx点）
+C：我操哥们儿别乐了，正跳水呢，跌到永乐年间了！
+
+关于矿难：
+“晚上捡矿石的人都戴着矿灯。一位现场目击者被我询问到死亡人数时只说了一句话：满山的灯，一下子都灭了。”
+这一句看得好心酸
+我把Harry Potter看成了Happy Rotter！囧
+我觉得某些疯狂瘦身的女人应该多看看希腊雕塑
+在网上消失了半年以上，还有多少人会记得你怀念你呢？不知道友情链接中那些久久没有更新的朋友们如今过得怎样" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/heishehui-konzern/" />
+
+
+
+<meta property="article:published_time" content="2008-09-16T15:50:15&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-09-16T15:50:15&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="黑社会康采恩">
+<meta itemprop="description" content="写了几篇草稿，不想发文，国事如此，心中纷乱，拿 twitter
+上的文字来凑数好了（最后一句才是重点嘛）
+关于足球：
+半个小时之后再看土豪内战，FM真人版。虽然曼城的实力差了很多，但是心态上他们已经是大爷了！（最后果然很潇洒的输了一个1:3）
+
+2009年8月3日。马队：“现在球队历史上第一次真正的降级，全队都在最艰难的时刻，我准备再踢一年，把米兰重新带回巅峰
+
+
+“连败难掩内心喜色，老贝赌球钞票数到手发软”
+“虽遭两败无损贵族气质 慢走踢球尽显淡定本色”
+“马尔蒂尼年纪尚幼经验略显不足 AC米兰先抑后扬必将保级成功”
+
+关于奶粉三聚氰胺事件：
+现实就是这样，不出人命就不会有人重视，只会怪你唯恐天下不乱
+一个三鹿倒下去，千万个三鹿依然站着还活得很滋润
+身体是革命的本钱，请在先保证自己还能好好活着的基础上支持国货
+擅自报导，这个词很微妙
+中华民族到了最危险的时候，每个人被迫着发出最后的吼声
+我们还不如孟加拉、缅甸、也门（雅士利出口到这三个国家的奶粉倒是没有检查出问题）
+“有关部门采取了进一步加强监管的措施”，又是有关部门！
+婴幼儿奶粉有问题，那么其他奶粉有没有问题？奶粉有问题，其他奶制品有没有问题？有三聚氰胺的问题，那么有没有其他有毒有害成分的问题？
+全面加强产品质量安全监管
+坚决维护人民利益和国家形象——国家质检总局局长李长江在进一步加强产品质量安全监督工作会议上的讲话
+
+三鹿奶粉再次证明了在婴儿阶段 穷人富人的命运就开始改变
+
+——avaloon
+
+每天一斤奶，喝死中国人！
+
+
+三鹿它不是一个人在战斗。国家食品药品监督管理局、国家工商行政管理局、国家质量技术监督局、卫生部、文化部、广电总局、互联网监管中心、公安部、人民日报、新华日报、CCTV、百度&hellip;在这一刻灵魂附体。
+
+——QiFei
+@qifei 这简直就是黑社会康采恩
+
+说什么出口和特供奥运都是合格的，这个说法是事实，那么之前说的奶源有问题就是谎话，难道厂家有办法分离奶源做出口和特供的产品么，ok，如果有这个办法分离奶源，说明厂家早就知道有毒
+
+
+此次三鹿事件给了中国足协一次绝好的绝地反攻机会，谢亚龙完全可以将国足的糟糕成绩归罪于使用了国产奶粉。
+
+——liumiao
+@liumiao 代人转：“屁，人家喝山西假白酒眼睛喝瞎了的都能打进奥运会决赛”
+关于中国股市：
+随着大盘跌破2008并一路向下，中国股市正带领我们一步步回顾2000年的历史
+全中国股民集体穿越（穿越年表见后面的附表，穿越人士必备实用手册）
+
+以后股市就别说什么点位支撑之类的了。直接这样就行了。
+A： 今天股市怎么样？
+B：还行，在清朝呢（17xx点）
+C：我操哥们儿别乐了，正跳水呢，跌到永乐年间了！
+
+关于矿难：
+“晚上捡矿石的人都戴着矿灯。一位现场目击者被我询问到死亡人数时只说了一句话：满山的灯，一下子都灭了。”
+这一句看得好心酸
+我把Harry Potter看成了Happy Rotter！囧
+我觉得某些疯狂瘦身的女人应该多看看希腊雕塑
+在网上消失了半年以上，还有多少人会记得你怀念你呢？不知道友情链接中那些久久没有更新的朋友们如今过得怎样">
+
+
+<meta itemprop="datePublished" content="2008-09-16T15:50:15&#43;00:00" />
+<meta itemprop="dateModified" content="2008-09-16T15:50:15&#43;00:00" />
+<meta itemprop="wordCount" content="51">
+
+
+
+<meta itemprop="keywords" content="三聚氰胺,三鹿,历史,奶粉,曼城,矿难,米兰,股市,足球," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="黑社会康采恩"/>
+<meta name="twitter:description" content="写了几篇草稿，不想发文，国事如此，心中纷乱，拿 twitter
+上的文字来凑数好了（最后一句才是重点嘛）
+关于足球：
+半个小时之后再看土豪内战，FM真人版。虽然曼城的实力差了很多，但是心态上他们已经是大爷了！（最后果然很潇洒的输了一个1:3）
+
+2009年8月3日。马队：“现在球队历史上第一次真正的降级，全队都在最艰难的时刻，我准备再踢一年，把米兰重新带回巅峰
+
+
+“连败难掩内心喜色，老贝赌球钞票数到手发软”
+“虽遭两败无损贵族气质 慢走踢球尽显淡定本色”
+“马尔蒂尼年纪尚幼经验略显不足 AC米兰先抑后扬必将保级成功”
+
+关于奶粉三聚氰胺事件：
+现实就是这样，不出人命就不会有人重视，只会怪你唯恐天下不乱
+一个三鹿倒下去，千万个三鹿依然站着还活得很滋润
+身体是革命的本钱，请在先保证自己还能好好活着的基础上支持国货
+擅自报导，这个词很微妙
+中华民族到了最危险的时候，每个人被迫着发出最后的吼声
+我们还不如孟加拉、缅甸、也门（雅士利出口到这三个国家的奶粉倒是没有检查出问题）
+“有关部门采取了进一步加强监管的措施”，又是有关部门！
+婴幼儿奶粉有问题，那么其他奶粉有没有问题？奶粉有问题，其他奶制品有没有问题？有三聚氰胺的问题，那么有没有其他有毒有害成分的问题？
+全面加强产品质量安全监管
+坚决维护人民利益和国家形象——国家质检总局局长李长江在进一步加强产品质量安全监督工作会议上的讲话
+
+三鹿奶粉再次证明了在婴儿阶段 穷人富人的命运就开始改变
+
+——avaloon
+
+每天一斤奶，喝死中国人！
+
+
+三鹿它不是一个人在战斗。国家食品药品监督管理局、国家工商行政管理局、国家质量技术监督局、卫生部、文化部、广电总局、互联网监管中心、公安部、人民日报、新华日报、CCTV、百度&hellip;在这一刻灵魂附体。
+
+——QiFei
+@qifei 这简直就是黑社会康采恩
+
+说什么出口和特供奥运都是合格的，这个说法是事实，那么之前说的奶源有问题就是谎话，难道厂家有办法分离奶源做出口和特供的产品么，ok，如果有这个办法分离奶源，说明厂家早就知道有毒
+
+
+此次三鹿事件给了中国足协一次绝好的绝地反攻机会，谢亚龙完全可以将国足的糟糕成绩归罪于使用了国产奶粉。
+
+——liumiao
+@liumiao 代人转：“屁，人家喝山西假白酒眼睛喝瞎了的都能打进奥运会决赛”
+关于中国股市：
+随着大盘跌破2008并一路向下，中国股市正带领我们一步步回顾2000年的历史
+全中国股民集体穿越（穿越年表见后面的附表，穿越人士必备实用手册）
+
+以后股市就别说什么点位支撑之类的了。直接这样就行了。
+A： 今天股市怎么样？
+B：还行，在清朝呢（17xx点）
+C：我操哥们儿别乐了，正跳水呢，跌到永乐年间了！
+
+关于矿难：
+“晚上捡矿石的人都戴着矿灯。一位现场目击者被我询问到死亡人数时只说了一句话：满山的灯，一下子都灭了。”
+这一句看得好心酸
+我把Harry Potter看成了Happy Rotter！囧
+我觉得某些疯狂瘦身的女人应该多看看希腊雕塑
+在网上消失了半年以上，还有多少人会记得你怀念你呢？不知道友情链接中那些久久没有更新的朋友们如今过得怎样"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-09-16 03:50">2008-09-16</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>黑社会康采恩</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%B8%89%E8%81%9A%E6%B0%B0%E8%83%BA">
+              <span class="hash">#</span>三聚氰胺</a>
+          
+            , 
+            <a href="/tags/%E4%B8%89%E9%B9%BF">
+              <span class="hash">#</span>三鹿</a>
+          
+            , 
+            <a href="/tags/%E5%8E%86%E5%8F%B2">
+              <span class="hash">#</span>历史</a>
+          
+            , 
+            <a href="/tags/%E5%A5%B6%E7%B2%89">
+              <span class="hash">#</span>奶粉</a>
+          
+            , 
+            <a href="/tags/%E6%9B%BC%E5%9F%8E">
+              <span class="hash">#</span>曼城</a>
+          
+            , 
+            <a href="/tags/%E7%9F%BF%E9%9A%BE">
+              <span class="hash">#</span>矿难</a>
+          
+            , 
+            <a href="/tags/%E7%B1%B3%E5%85%B0">
+              <span class="hash">#</span>米兰</a>
+          
+            , 
+            <a href="/tags/%E8%82%A1%E5%B8%82">
+              <span class="hash">#</span>股市</a>
+          
+            , 
+            <a href="/tags/%E8%B6%B3%E7%90%83">
+              <span class="hash">#</span>足球</a>
+          
+        
+      </p>
+    </header>
+    <section><p>写了几篇草稿，不想发文，国事如此，心中纷乱，拿 twitter<br />
+上的文字来凑数好了（最后一句才是重点嘛）</p>
+
+<p><strong>关于足球</strong>：</p>
+
+<p>半个小时之后再看土豪内战，FM真人版。虽然曼城的实力差了很多，但是心态上他们已经是大爷了！（最后果然很潇洒的输了一个1:3）</p>
+
+<p><blockquote><br />
+2009年8月3日。马队：“现在球队历史上第一次真正的降级，全队都在最艰难的时刻，我准备再踢一年，把米兰重新带回巅峰<br />
+</blockquote><br />
+<blockquote><br />
+“连败难掩内心喜色，老贝赌球钞票数到手发软”<br />
+“虽遭两败无损贵族气质 慢走踢球尽显淡定本色”<br />
+“马尔蒂尼年纪尚幼经验略显不足 AC米兰先抑后扬必将保级成功”<br />
+</blockquote><br />
+<strong>关于奶粉三聚氰胺事件</strong>：</p>
+
+<p>现实就是这样，不出人命就不会有人重视，只会怪你唯恐天下不乱</p>
+
+<p>一个三鹿倒下去，千万个三鹿依然站着还活得很滋润</p>
+
+<p>身体是革命的本钱，请在先保证自己还能好好活着的基础上支持国货</p>
+
+<p>擅自报导，这个词很微妙</p>
+
+<p>中华民族到了最危险的时候，每个人被迫着发出最后的吼声</p>
+
+<p>我们还不如孟加拉、缅甸、也门（雅士利出口到这三个国家的奶粉倒是没有检查出问题）</p>
+
+<p>“有关部门采取了进一步加强监管的措施”，又是有关部门！</p>
+
+<p>婴幼儿奶粉有问题，那么其他奶粉有没有问题？奶粉有问题，其他奶制品有没有问题？有三聚氰胺的问题，那么有没有其他有毒有害成分的问题？</p>
+
+<p><a href="http://www.xjnewqi.gov.cn/ips/userfiles/200709/2007924154842166.doc">全面加强产品质量安全监管<br />
+坚决维护人民利益和国家形象——国家质检总局局长李长江在进一步加强产品质量安全监督工作会议上的讲话</a></p>
+
+<p><blockquote><br />
+三鹿奶粉再次证明了在婴儿阶段 穷人富人的命运就开始改变<br />
+</blockquote><br />
+——<a href="http://twitter.com/avaloon">avaloon</a></p>
+
+<p><blockquote><br />
+每天一斤奶，喝死中国人！<br />
+</blockquote><br />
+<blockquote><br />
+三鹿它不是一个人在战斗。国家食品药品监督管理局、国家工商行政管理局、国家质量技术监督局、卫生部、文化部、广电总局、互联网监管中心、公安部、人民日报、新华日报、CCTV、百度&hellip;在这一刻灵魂附体。<br />
+</blockquote><br />
+——<a href="http://twitter.com/qifei">QiFei</a><br />
+@qifei 这简直就是黑社会康采恩</p>
+
+<p><blockquote><br />
+说什么出口和特供奥运都是合格的，这个说法是事实，那么之前说的奶源有问题就是谎话，难道厂家有办法分离奶源做出口和特供的产品么，ok，如果有这个办法分离奶源，说明厂家早就知道有毒<br />
+</blockquote><br />
+<blockquote><br />
+此次三鹿事件给了中国足协一次绝好的绝地反攻机会，谢亚龙完全可以将国足的糟糕成绩归罪于使用了国产奶粉。<br />
+</blockquote><br />
+——<a href="http://twitter.com/liumiao">liumiao</a><br />
+@liumiao 代人转：“屁，人家喝山西假白酒眼睛喝瞎了的都能打进奥运会决赛”</p>
+
+<p><strong>关于中国股市</strong>：</p>
+
+<p>随着大盘跌破2008并一路向下，中国股市正带领我们一步步回顾2000年的历史</p>
+
+<p>全中国股民集体穿越（穿越年表见后面的附表，穿越人士必备实用手册）</p>
+
+<p><blockquote><br />
+以后股市就别说什么点位支撑之类的了。直接这样就行了。<br />
+A： 今天股市怎么样？<br />
+B：还行，在清朝呢（17xx点）<br />
+C：我操哥们儿别乐了，正跳水呢，跌到永乐年间了！<br />
+</blockquote><br />
+<strong>关于矿难</strong>：</p>
+
+<p>“晚上捡矿石的人都戴着矿灯。一位现场目击者被我询问到死亡人数时只说了一句话：满山的灯，一下子都灭了。”<br />
+这一句看得好心酸</p>
+
+<hr />
+
+<p>我把Harry Potter看成了Happy Rotter！囧</p>
+
+<p>我觉得某些疯狂瘦身的女人应该多看看希腊雕塑</p>
+
+<p>在网上消失了半年以上，还有多少人会记得你怀念你呢？不知道友情链接中那些久久没有更新的朋友们如今过得怎样</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%bb%91%e7%a4%be%e4%bc%9a%e5%ba%b7%e9%87%87%e6%81%a9》&body=https%3a%2f%2fioerr.github.io%2fposts%2fheishehui-konzern%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fheishehui-konzern%2f&text= @calon %e9%bb%91%e7%a4%be%e4%bc%9a%e5%ba%b7%e9%87%87%e6%81%a9&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>剥削 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%89%A5%E5%89%8A/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%89%A5%E5%89%8A/</link>
     <description>Recent content in 剥削 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%89%A5%E5%89%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2017 13:20:32 +0800</lastBuildDate>
     
-    <item>
-      <title>反私有制的奴隶制乌托邦</title>
-      <link>https://ioerr.github.io/fan-siyouzhi-de-nulizhi-wutuobang/</link>
-      <pubDate>Thu, 25 May 2017 13:20:32 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/fan-siyouzhi-de-nulizhi-wutuobang/</guid>
-      <description>&lt;p&gt;看到将私有制和剥削压迫绑定起来的说法，觉得有必要反驳一下。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%89%A5%E5%89%8A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>反私有制的奴隶制乌托邦</title>
+        <link>https://ioerr.github.io/posts/fan-siyouzhi-de-nulizhi-wutuobang/</link>
+        <pubDate>Thu, 25 May 2017 13:20:32 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/fan-siyouzhi-de-nulizhi-wutuobang/</guid>
+        <description>&lt;p&gt;看到将私有制和剥削压迫绑定起来的说法，觉得有必要反驳一下。&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;苏梦枕：去阶级化、快乐教育的目的，就在于不断地给青少年灌输不科学的私有制意识形态。一旦私有制意识形态形成了思维定势，几乎是终身难以改变。所以那些说什么不要给娃娃灌输仇恨啦， 不要让娃娃过早的看到暴力啊啥的，不过是借口而已。意识形态教育就是从娃娃抓起的。只有如此，教育出来的青少年才会放下武器停止抵抗，想怎么剥削压迫就怎么剥削压迫，甚至于认为剥削合理，乃至于女性认为要想出人头地，就要潜规则，青少年自发的把被剥削被压迫被欺侮合理化，甚至合法化。这是资产阶级以及精神资产阶级最想要的结果。&lt;/p&gt;
@@ -36,7 +36,7 @@
 
 &lt;p&gt;反对私有制度而建设的乌托邦，没有不走向反人性的悲剧，包括一些毛左口中的“一共”。可惜反私有制意识形态的惯性确实终身难以改变，所以因为顺应人性而解放的生产力也可以强行解释为反人性乌托邦的遗产，批判资本主义社会的现状也总要极端到取消私有制度的程度。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

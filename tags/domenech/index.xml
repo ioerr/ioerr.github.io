@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domenech on 读写错误</title>
-    <link>https://ioerr.github.io/tags/domenech/index.xml</link>
+    <link>https://ioerr.github.io/tags/domenech/</link>
     <description>Recent content in Domenech on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/domenech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jun 2010 03:30:47 +0000</lastBuildDate>
     
-    <item>
-      <title>欢送多梅内克</title>
-      <link>https://ioerr.github.io/huansong-domenech/</link>
-      <pubDate>Wed, 23 Jun 2010 03:30:47 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/huansong-domenech/</guid>
-      <description>&lt;p&gt;内裤回国后还能干什么？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/domenech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>欢送多梅内克</title>
+        <link>https://ioerr.github.io/posts/huansong-domenech/</link>
+        <pubDate>Wed, 23 Jun 2010 03:30:47 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/huansong-domenech/</guid>
+        <description>&lt;p&gt;内裤回国后还能干什么？&lt;br /&gt;
 当教练？哪个球队还能够经得起他折腾？&lt;br /&gt;
 当星相学家？法国队的失败说明星相学是靠不住的，法国星相学会承认压力很大，失业率猛增。&lt;br /&gt;
 当情感指导师？毕竟他找了个漂亮的女友……可是求婚很失败。&lt;br /&gt;
@@ -58,7 +58,7 @@ DTN：快，赶紧雇凶杀人灭口！&lt;/p&gt;
 &lt;p&gt;马拉多纳：亨利啊，你的手球功力不行啊，让自己身败名裂还要受辱。&lt;br /&gt;
 亨利：老马，你不懂啊，这叫做自杀式攻击，我是和多梅内克同归于尽啊，其他人不下手，只好牺牲我了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

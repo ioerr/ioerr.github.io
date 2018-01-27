@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ucloo 事件 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Ucloo 事件" />
+<meta property="og:description" content="Del.icio.us 一瘫痪，就让人非常不爽。你说
+Yahoo! 怎么刚一出手就出问题呢？
+汕尾的事件影响不小，但政府的手脚更快，结果 Aether 的 Drunk
+Dream
+也被连累。我有好几个同学在汕尾当差，这次也被调到附近维持秩序，通过
+QQ 向他们打听情况，没有问到多少有价值的信息。
+“组织纪律”这种东西的约束力我也是领教过的，问得太多，怕他们起疑心，也怕他们被连累，所以还是等这阵风过去了，看同学聚会的时候能不能挖掘出一点。
+Ucloo
+盗用5460用户信息的事情也是沸沸扬扬。从
+Ucloo
+的简介来看，“Ucloo完全独立拥有所有数据，不与任何第三方合作及购买。”至少可以确认5460没有公然卖用户信息给
+Ucloo。我后来问了一下湖南信息港虽然不是主管同学录但也应该联系较多的一位经理，对此事并不知情，于是顺便反映了一下投诉情况，明天再去打听打听。如果还没反应，就把诸位
+blogger 的文章链接一并发过去…
+话说回来，虽然5460很可能没有“卖”信息，而且这些资料只要访问5460就都能够查询到，但在他们的服务声明中可是承诺了“每当用户提供给中国同学录个人信息时，中国同学录会采取合理的步骤保护用户的个人信息，中国同学录也会采取合理的安全手段保护将存储的个人信息。”、“除非根据法律或政府的强制性规定，在未得到用户的许可之前，中国同学录不会把用户的任何个人信息提供给无关的任何第三方（包括公司或个人）。”因此，让无关的第三方如
+Ucloo
+取得了用户只愿意对同学公布的信息，5460方面至少也有没保管好用户信息的责任。
+最后说明两点，一个是目前5460站内开放查询的功能很不合理，与其承诺的保护措施不相符，只不过以前很少有人知道或在意；其次是
+Ucloo
+并没有拿取自5460的信息直接卖钱，目前只有国际搜索是要付费的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/uclooshijian/" />
+
+
+
+<meta property="article:published_time" content="2005-12-19T14:38:01&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-12-19T14:38:01&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Ucloo 事件">
+<meta itemprop="description" content="Del.icio.us 一瘫痪，就让人非常不爽。你说
+Yahoo! 怎么刚一出手就出问题呢？
+汕尾的事件影响不小，但政府的手脚更快，结果 Aether 的 Drunk
+Dream
+也被连累。我有好几个同学在汕尾当差，这次也被调到附近维持秩序，通过
+QQ 向他们打听情况，没有问到多少有价值的信息。
+“组织纪律”这种东西的约束力我也是领教过的，问得太多，怕他们起疑心，也怕他们被连累，所以还是等这阵风过去了，看同学聚会的时候能不能挖掘出一点。
+Ucloo
+盗用5460用户信息的事情也是沸沸扬扬。从
+Ucloo
+的简介来看，“Ucloo完全独立拥有所有数据，不与任何第三方合作及购买。”至少可以确认5460没有公然卖用户信息给
+Ucloo。我后来问了一下湖南信息港虽然不是主管同学录但也应该联系较多的一位经理，对此事并不知情，于是顺便反映了一下投诉情况，明天再去打听打听。如果还没反应，就把诸位
+blogger 的文章链接一并发过去…
+话说回来，虽然5460很可能没有“卖”信息，而且这些资料只要访问5460就都能够查询到，但在他们的服务声明中可是承诺了“每当用户提供给中国同学录个人信息时，中国同学录会采取合理的步骤保护用户的个人信息，中国同学录也会采取合理的安全手段保护将存储的个人信息。”、“除非根据法律或政府的强制性规定，在未得到用户的许可之前，中国同学录不会把用户的任何个人信息提供给无关的任何第三方（包括公司或个人）。”因此，让无关的第三方如
+Ucloo
+取得了用户只愿意对同学公布的信息，5460方面至少也有没保管好用户信息的责任。
+最后说明两点，一个是目前5460站内开放查询的功能很不合理，与其承诺的保护措施不相符，只不过以前很少有人知道或在意；其次是
+Ucloo
+并没有拿取自5460的信息直接卖钱，目前只有国际搜索是要付费的。">
+
+
+<meta itemprop="datePublished" content="2005-12-19T14:38:01&#43;00:00" />
+<meta itemprop="dateModified" content="2005-12-19T14:38:01&#43;00:00" />
+<meta itemprop="wordCount" content="26">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Ucloo 事件"/>
+<meta name="twitter:description" content="Del.icio.us 一瘫痪，就让人非常不爽。你说
+Yahoo! 怎么刚一出手就出问题呢？
+汕尾的事件影响不小，但政府的手脚更快，结果 Aether 的 Drunk
+Dream
+也被连累。我有好几个同学在汕尾当差，这次也被调到附近维持秩序，通过
+QQ 向他们打听情况，没有问到多少有价值的信息。
+“组织纪律”这种东西的约束力我也是领教过的，问得太多，怕他们起疑心，也怕他们被连累，所以还是等这阵风过去了，看同学聚会的时候能不能挖掘出一点。
+Ucloo
+盗用5460用户信息的事情也是沸沸扬扬。从
+Ucloo
+的简介来看，“Ucloo完全独立拥有所有数据，不与任何第三方合作及购买。”至少可以确认5460没有公然卖用户信息给
+Ucloo。我后来问了一下湖南信息港虽然不是主管同学录但也应该联系较多的一位经理，对此事并不知情，于是顺便反映了一下投诉情况，明天再去打听打听。如果还没反应，就把诸位
+blogger 的文章链接一并发过去…
+话说回来，虽然5460很可能没有“卖”信息，而且这些资料只要访问5460就都能够查询到，但在他们的服务声明中可是承诺了“每当用户提供给中国同学录个人信息时，中国同学录会采取合理的步骤保护用户的个人信息，中国同学录也会采取合理的安全手段保护将存储的个人信息。”、“除非根据法律或政府的强制性规定，在未得到用户的许可之前，中国同学录不会把用户的任何个人信息提供给无关的任何第三方（包括公司或个人）。”因此，让无关的第三方如
+Ucloo
+取得了用户只愿意对同学公布的信息，5460方面至少也有没保管好用户信息的责任。
+最后说明两点，一个是目前5460站内开放查询的功能很不合理，与其承诺的保护措施不相符，只不过以前很少有人知道或在意；其次是
+Ucloo
+并没有拿取自5460的信息直接卖钱，目前只有国际搜索是要付费的。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-12-19 02:38">2005-12-19</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>Ucloo 事件</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://del.icio.us/">Del.icio.us</a> 一瘫痪，就让人非常不爽。你说<br />
+<a href="http://www.yahoo.com/">Yahoo!</a> 怎么刚一出手就出问题呢？</p>
+
+<p>汕尾的事件影响不小，但政府的手脚更快，结果 Aether 的 <a href="http://woooh.com/">Drunk<br />
+Dream</a><br />
+也被<a href="http://isaacmao.blogbus.com/logs/2005/12/1712643.html">连累</a>。我有好几个同学在汕尾当差，这次也被调到附近维持秩序，通过<br />
+<a href="http://www.qq.com/">QQ</a> 向他们打听情况，没有问到多少有价值的信息。<br />
+“组织纪律”这种东西的约束力我也是领教过的，问得太多，怕他们起疑心，也怕他们被连累，所以还是等这阵风过去了，看同学聚会的时候能不能挖掘出一点。</p>
+
+<p><a href="http://www.ucloo.com/">Ucloo</a><br />
+<a href="http://edad.com.cn/datou/2005/12/blog-post_113453825593505646.htm">盗用</a><a href="http://www.5460.net/">5460</a>用户信息的事情也是沸沸扬扬。从<br />
+<a href="http://www.ucloo.com/">Ucloo</a><br />
+的<a href="http://www.ucloo.com/about_us.php">简介</a>来看，“Ucloo完全独立拥有所有数据，不与任何第三方合作及购买。”至少可以确认<a href="http://www.5460.net/">5460</a>没有公然卖用户信息给<br />
+<a href="http://www.ucloo.com/">Ucloo</a>。我后来问了一下<a href="http://www.2118.com.cn/">湖南信息港</a>虽然不是主管同学录但也应该联系较多的一位经理，对此事并不知情，于是顺便反映了一下投诉情况，明天再去打听打听。如果还没反应，就把诸位<br />
+blogger 的文章链接一并发过去…<br />
+话说回来，虽然<a href="http://www.5460.net/">5460</a>很可能没有“卖”信息，而且这些资料只要访问<a href="http://www.5460.net/">5460</a>就都能够查询到，但在他们的<a href="http://www.5460.net/service.htm">服务声明</a>中可是承诺了“每当用户提供给中国同学录个人信息时，中国同学录会采取合理的步骤保护用户的个人信息，中国同学录也会采取合理的安全手段保护将存储的个人信息。”、“除非根据法律或政府的强制性规定，在未得到用户的许可之前，中国同学录不会把用户的任何个人信息提供给无关的任何第三方（包括公司或个人）。”因此，让无关的第三方如<br />
+<a href="http://www.ucloo.com/">Ucloo</a><br />
+取得了用户只愿意对同学公布的信息，<a href="http://www.5460.net/">5460</a>方面至少也有没保管好用户信息的责任。<br />
+最后说明两点，一个是目前<a href="http://www.5460.net/">5460</a>站内开放查询的功能很不合理，与其承诺的保护措施不相符，只不过以前很少有人知道或在意；其次是<br />
+<a href="http://www.ucloo.com/">Ucloo</a><br />
+并没有拿取自<a href="http://www.5460.net/">5460</a>的信息直接卖钱，目前只有国际搜索是要付费的。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Ucloo%20%e4%ba%8b%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fuclooshijian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fuclooshijian%2f&text= @calon Ucloo%20%e4%ba%8b%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

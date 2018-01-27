@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自助声明 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%87%AA%E5%8A%A9%E5%A3%B0%E6%98%8E/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%87%AA%E5%8A%A9%E5%A3%B0%E6%98%8E/</link>
     <description>Recent content in 自助声明 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E5%8A%A9%E5%A3%B0%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 May 2012 09:40:22 +0000</lastBuildDate>
     
-    <item>
-      <title>购物自助声明卡片</title>
-      <link>https://ioerr.github.io/gouwu-zizhu-shengming-kapian/</link>
-      <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gouwu-zizhu-shengming-kapian/</guid>
-      <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E5%8A%A9%E5%A3%B0%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>购物自助声明卡片</title>
+        <link>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</link>
+        <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</guid>
+        <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
 其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和介绍——有时候客人不敢开口，不敢呆太久，又不知道自己想要的东西放在哪里，好不好用，本来想买的最后硬生生的忍住了只好默默走掉；有的时候客人更怕店员上来说话，店员一开口他/她就红着脸走掉了。&lt;/p&gt;
 
 &lt;p&gt;作为顾客，我也时常有这样的矛盾心理。&lt;br /&gt;
@@ -29,7 +29,7 @@
 
 &lt;p&gt;为了降低成本，卡片或贴纸的背面可以印广告。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

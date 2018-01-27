@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>叨客 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8F%A8%E5%AE%A2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8F%A8%E5%AE%A2/</link>
     <description>Recent content in 叨客 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8F%A8%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Aug 2007 13:33:39 +0000</lastBuildDate>
     
-    <item>
-      <title>滔滔</title>
-      <link>https://ioerr.github.io/taotao/</link>
-      <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/taotao/</guid>
-      <description>&lt;p&gt;腾讯的&lt;a href=&#34;http://www.taotao.com/&#34;&gt;滔滔/叨客&lt;/a&gt;正式上线，功能上自然还是追随
+      <atom:link href="https://ioerr.github.io/tags/%E5%8F%A8%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>滔滔</title>
+        <link>https://ioerr.github.io/posts/taotao/</link>
+        <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/taotao/</guid>
+        <description>&lt;p&gt;腾讯的&lt;a href=&#34;http://www.taotao.com/&#34;&gt;滔滔/叨客&lt;/a&gt;正式上线，功能上自然还是追随&lt;br /&gt;
 Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。&lt;/p&gt;
 
 &lt;p&gt;1、只支持 QQ。&lt;br /&gt;
@@ -48,7 +48,7 @@ RSS 是什么？能赚钱吗？&lt;/p&gt;
 
 &lt;p&gt;补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

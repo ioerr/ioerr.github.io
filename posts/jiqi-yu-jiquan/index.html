@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>机器与极权 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="机器与极权" />
+<meta property="og:description" content="过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：
+要防范奴隶结社造反
+要操心奴隶是否会消极工作
+要避免手下叛变夺权
+一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。
+而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：
+如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？
+或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？
+这个新的社会组织模型看上去很像中央计划经济模型：
+奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；
+机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；
+而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。
+如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。
+如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。
+这样可以引出不少有意思的问题和结论：
+ 只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。
+ 人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？
+ 人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？
+ 人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？
+ 各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？
+  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/jiqi-yu-jiquan/" />
+
+
+
+<meta property="article:published_time" content="2017-01-25T16:00:52&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-01-25T16:00:52&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="机器与极权">
+<meta itemprop="description" content="过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：
+要防范奴隶结社造反
+要操心奴隶是否会消极工作
+要避免手下叛变夺权
+一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。
+而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：
+如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？
+或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？
+这个新的社会组织模型看上去很像中央计划经济模型：
+奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；
+机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；
+而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。
+如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。
+如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。
+这样可以引出不少有意思的问题和结论：
+ 只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。
+ 人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？
+ 人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？
+ 人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？
+ 各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？
+  ">
+
+
+<meta itemprop="datePublished" content="2017-01-25T16:00:52&#43;08:00" />
+<meta itemprop="dateModified" content="2017-01-25T16:00:52&#43;08:00" />
+<meta itemprop="wordCount" content="20">
+
+
+
+<meta itemprop="keywords" content="机器人,人工智能,奴隶制,极权,计划经济," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="机器与极权"/>
+<meta name="twitter:description" content="过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：
+要防范奴隶结社造反
+要操心奴隶是否会消极工作
+要避免手下叛变夺权
+一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。
+而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：
+如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？
+或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？
+这个新的社会组织模型看上去很像中央计划经济模型：
+奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；
+机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；
+而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。
+如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。
+如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。
+这样可以引出不少有意思的问题和结论：
+ 只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。
+ 人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？
+ 人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？
+ 人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？
+ 各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？
+  "/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2017-01-25 04:00">2017-01-25</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          
+            , 
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">市场经济</a>
+          </p>
+      <h1>机器与极权</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA">
+              <span class="hash">#</span>机器人</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">
+              <span class="hash">#</span>人工智能</a>
+          
+            , 
+            <a href="/tags/%E5%A5%B4%E9%9A%B6%E5%88%B6">
+              <span class="hash">#</span>奴隶制</a>
+          
+            , 
+            <a href="/tags/%E6%9E%81%E6%9D%83">
+              <span class="hash">#</span>极权</a>
+          
+            , 
+            <a href="/tags/%E8%AE%A1%E5%88%92%E7%BB%8F%E6%B5%8E">
+              <span class="hash">#</span>计划经济</a>
+          
+        
+      </p>
+    </header>
+    <section><p>过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：<br />
+要防范奴隶结社造反<br />
+要操心奴隶是否会消极工作<br />
+要避免手下叛变夺权<br />
+一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。</p>
+
+<p>而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：<br />
+如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？<br />
+或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？</p>
+
+<p>这个新的社会组织模型看上去很像中央计划经济模型：<br />
+奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；<br />
+机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；<br />
+而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。</p>
+
+<p>如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。<br />
+如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。</p>
+
+<p>这样可以引出不少有意思的问题和结论：</p>
+
+<ol>
+<li>只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。<br /></li>
+<li>人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？<br /></li>
+<li>人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？<br /></li>
+<li>人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？<br /></li>
+<li>各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？<br /></li>
+</ol>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%9c%ba%e5%99%a8%e4%b8%8e%e6%9e%81%e6%9d%83》&body=https%3a%2f%2fioerr.github.io%2fposts%2fjiqi-yu-jiquan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fjiqi-yu-jiquan%2f&text= @calon %e6%9c%ba%e5%99%a8%e4%b8%8e%e6%9e%81%e6%9d%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

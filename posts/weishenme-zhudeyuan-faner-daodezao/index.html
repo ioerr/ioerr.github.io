@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>为什么住得远反而到得早？ - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="为什么住得远反而到得早？" />
+<meta property="og:description" content="身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？
+为此，我想用统计分析的方法找到其中的原因。
+首先第一步的工作，就是：
+伪！造！数！据！ 囧 :023:
+2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）
+以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。
+假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。
+
+然后是相对应的曲线图。
+
+现在假设迟到的时间点设置在&#43;3之前（如红线所示），则距离较近者会有14&#43;2=16次迟到（灰色部分），而不幸的距离较远者会有48&#43;35&#43;24&#43;15&#43;8&#43;4&#43;2&#43;1&#43;1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。
+距离较远者要达到16次以下的迟到次数，迟到时间点应定在&#43;7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到&#43;3时间点的要求。
+于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：
+
+相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：
+
+从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。
+综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/weishenme-zhudeyuan-faner-daodezao/" />
+
+
+
+<meta property="article:published_time" content="2008-03-24T09:23:16&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-03-24T09:23:16&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="为什么住得远反而到得早？">
+<meta itemprop="description" content="身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？
+为此，我想用统计分析的方法找到其中的原因。
+首先第一步的工作，就是：
+伪！造！数！据！ 囧 :023:
+2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）
+以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。
+假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。
+
+然后是相对应的曲线图。
+
+现在假设迟到的时间点设置在&#43;3之前（如红线所示），则距离较近者会有14&#43;2=16次迟到（灰色部分），而不幸的距离较远者会有48&#43;35&#43;24&#43;15&#43;8&#43;4&#43;2&#43;1&#43;1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。
+距离较远者要达到16次以下的迟到次数，迟到时间点应定在&#43;7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到&#43;3时间点的要求。
+于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：
+
+相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：
+
+从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。
+综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。">
+
+
+<meta itemprop="datePublished" content="2008-03-24T09:23:16&#43;00:00" />
+<meta itemprop="dateModified" content="2008-03-24T09:23:16&#43;00:00" />
+<meta itemprop="wordCount" content="16">
+
+
+
+<meta itemprop="keywords" content="统计,迟到," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="为什么住得远反而到得早？"/>
+<meta name="twitter:description" content="身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？
+为此，我想用统计分析的方法找到其中的原因。
+首先第一步的工作，就是：
+伪！造！数！据！ 囧 :023:
+2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）
+以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。
+假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。
+
+然后是相对应的曲线图。
+
+现在假设迟到的时间点设置在&#43;3之前（如红线所示），则距离较近者会有14&#43;2=16次迟到（灰色部分），而不幸的距离较远者会有48&#43;35&#43;24&#43;15&#43;8&#43;4&#43;2&#43;1&#43;1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。
+距离较远者要达到16次以下的迟到次数，迟到时间点应定在&#43;7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到&#43;3时间点的要求。
+于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：
+
+相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：
+
+从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。
+综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-03-24 09:23">2008-03-24</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>为什么住得远反而到得早？</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%BB%9F%E8%AE%A1">
+              <span class="hash">#</span>统计</a>
+          
+            , 
+            <a href="/tags/%E8%BF%9F%E5%88%B0">
+              <span class="hash">#</span>迟到</a>
+          
+        
+      </p>
+    </header>
+    <section><p>身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？</p>
+
+<p>为此，我想用统计分析的方法找到其中的原因。</p>
+
+<p>首先第一步的工作，就是：</p>
+
+<p>伪！造！数！据！ 囧 :023:</p>
+
+<p>2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）</p>
+
+<p>以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。<br />
+假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00048.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00048.png" alt="Photobucket" /></a></p>
+
+<p>然后是相对应的曲线图。</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00049.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00049.png" alt="Photobucket" /></a></p>
+
+<p>现在假设迟到的时间点设置在+3之前（如红线所示），则距离较近者会有14+2=16次迟到（灰色部分），而不幸的距离较远者会有48+35+24+15+8+4+2+1+1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。<br />
+距离较远者要达到16次以下的迟到次数，迟到时间点应定在+7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到+3时间点的要求。</p>
+
+<p>于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00050.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00050.png" alt="Photobucket" /></a></p>
+
+<p>相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00051.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00051.png" alt="Photobucket" /></a></p>
+
+<p>从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。</p>
+
+<p>综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，<strong>这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的</strong>，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%8f%e5%be%97%e8%bf%9c%e5%8f%8d%e8%80%8c%e5%88%b0%e5%be%97%e6%97%a9%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fweishenme-zhudeyuan-faner-daodezao%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fweishenme-zhudeyuan-faner-daodezao%2f&text= @calon %e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%8f%e5%be%97%e8%bf%9c%e5%8f%8d%e8%80%8c%e5%88%b0%e5%be%97%e6%97%a9%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

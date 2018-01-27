@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EmEditor Pro 5.00 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="EmEditor Pro 5.00" />
+<meta property="og:description" content="我是跳过了 V4 版本直接到 V5.00 的，所以相对于 V4
+有什么大变化我并不清楚，有兴趣可以看看自带的帮助文件。
+首先当然是测试和智能狂拼2的兼容性，从 V3
+开始这就是个痼疾。当然，主要原因还是在智能狂拼2，它和许多文字处理程序都不兼容，和
+Gecko 核心的浏览器也不兼容。
+遗憾的是，在这个版本中这个问题仍然存在，第一次输入了十多个字就程序出错退出，第二次输入了130多个字之后还是没有逃脱被关闭的命运。
+但，这一回 EmEditor
+学聪明了，文档意外崩溃之后它还会提示你要不要先保存一下，免得辛苦写出来的东西伴随着一个没有给你任何选择的“确定”按钮消失得无影无踪。
+不过，好像，有的时候你选择了保存出现错误的文档，它还是没有保存就直接退出了，看来，人品这个东西始终都是很重要的啊。
+程序的配置现在可以导入导出了，保存的格式是注册表文件。自定义高亮显示的设置也可以单独导入导出。这对那些喜欢个性化设置的用户来说实在是太棒了！
+自定义高亮显示现在支持正则表达式，这个
+EmEditor 的一大特色功能越来越强大了。
+单窗口多标签模式就不多说了，整个 V4
+版本主要就是为了完善这个的，现在终于达到了一个比较理想的状态。
+自定义的选项更加丰富，这个需要自己去摸索。我觉得默认设置不用变动太多。
+宏功能应该也增强了，支持
+JavaScript/VBScript，不过一般人都不会用这个功能，等到真的需要的时候就会觉得很爽了。
+特别推荐 Auto Complete
+插件，实现了我见过的最顺手的自动完成功能。对中文的支持非常好，快捷键设置合理，提示方式很舒服，完全超过
+Vim 的相应功能。所以这里多介绍几句：
+1、首先从 EmEditor
+的插件下载页面下载这个插件，并安装。
+2、安装完之后，在“工具”－“插件”－“自定义插件”中选择
+AutoComplete，然后点击“属性”。如果只需要对某一类文件生效，就勾选“Use at
+Specific
+Configuration”项目后在下面选择指定的文件类型，后面设置快捷键时也要相应地选择该类文件的配置。最后点击“Import&hellip;”导入
+.eac 文件，如自带的 html.eac。
+3、如果需要自定义自动完成的词语，可以仿照已有的 .eac 文件
+DIY，“#T=”表示你输入的文字，下一行是需要转换成的文字，最后用一个“#”符号结尾。结合宏功能，能够非常方便地将
+Vim 等工具的缩略语、自动完成配置文件转换为 .eac
+文件的格式。
+4、最后是设置快捷键。在“工具”－“当前配置属性/所有配置属性”－“键盘”中，“类别”选择“插件”，“命令”选择“Auto
+Complete”，然后在“新的快捷键”一栏中按键，最后点击“分配”。我用的是“F8”键。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/emeditor-pro-5/" />
+
+
+
+<meta property="article:published_time" content="2005-12-23T14:45:50&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-12-23T14:45:50&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="EmEditor Pro 5.00">
+<meta itemprop="description" content="我是跳过了 V4 版本直接到 V5.00 的，所以相对于 V4
+有什么大变化我并不清楚，有兴趣可以看看自带的帮助文件。
+首先当然是测试和智能狂拼2的兼容性，从 V3
+开始这就是个痼疾。当然，主要原因还是在智能狂拼2，它和许多文字处理程序都不兼容，和
+Gecko 核心的浏览器也不兼容。
+遗憾的是，在这个版本中这个问题仍然存在，第一次输入了十多个字就程序出错退出，第二次输入了130多个字之后还是没有逃脱被关闭的命运。
+但，这一回 EmEditor
+学聪明了，文档意外崩溃之后它还会提示你要不要先保存一下，免得辛苦写出来的东西伴随着一个没有给你任何选择的“确定”按钮消失得无影无踪。
+不过，好像，有的时候你选择了保存出现错误的文档，它还是没有保存就直接退出了，看来，人品这个东西始终都是很重要的啊。
+程序的配置现在可以导入导出了，保存的格式是注册表文件。自定义高亮显示的设置也可以单独导入导出。这对那些喜欢个性化设置的用户来说实在是太棒了！
+自定义高亮显示现在支持正则表达式，这个
+EmEditor 的一大特色功能越来越强大了。
+单窗口多标签模式就不多说了，整个 V4
+版本主要就是为了完善这个的，现在终于达到了一个比较理想的状态。
+自定义的选项更加丰富，这个需要自己去摸索。我觉得默认设置不用变动太多。
+宏功能应该也增强了，支持
+JavaScript/VBScript，不过一般人都不会用这个功能，等到真的需要的时候就会觉得很爽了。
+特别推荐 Auto Complete
+插件，实现了我见过的最顺手的自动完成功能。对中文的支持非常好，快捷键设置合理，提示方式很舒服，完全超过
+Vim 的相应功能。所以这里多介绍几句：
+1、首先从 EmEditor
+的插件下载页面下载这个插件，并安装。
+2、安装完之后，在“工具”－“插件”－“自定义插件”中选择
+AutoComplete，然后点击“属性”。如果只需要对某一类文件生效，就勾选“Use at
+Specific
+Configuration”项目后在下面选择指定的文件类型，后面设置快捷键时也要相应地选择该类文件的配置。最后点击“Import&hellip;”导入
+.eac 文件，如自带的 html.eac。
+3、如果需要自定义自动完成的词语，可以仿照已有的 .eac 文件
+DIY，“#T=”表示你输入的文字，下一行是需要转换成的文字，最后用一个“#”符号结尾。结合宏功能，能够非常方便地将
+Vim 等工具的缩略语、自动完成配置文件转换为 .eac
+文件的格式。
+4、最后是设置快捷键。在“工具”－“当前配置属性/所有配置属性”－“键盘”中，“类别”选择“插件”，“命令”选择“Auto
+Complete”，然后在“新的快捷键”一栏中按键，最后点击“分配”。我用的是“F8”键。">
+
+
+<meta itemprop="datePublished" content="2005-12-23T14:45:50&#43;00:00" />
+<meta itemprop="dateModified" content="2005-12-23T14:45:50&#43;00:00" />
+<meta itemprop="wordCount" content="54">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="EmEditor Pro 5.00"/>
+<meta name="twitter:description" content="我是跳过了 V4 版本直接到 V5.00 的，所以相对于 V4
+有什么大变化我并不清楚，有兴趣可以看看自带的帮助文件。
+首先当然是测试和智能狂拼2的兼容性，从 V3
+开始这就是个痼疾。当然，主要原因还是在智能狂拼2，它和许多文字处理程序都不兼容，和
+Gecko 核心的浏览器也不兼容。
+遗憾的是，在这个版本中这个问题仍然存在，第一次输入了十多个字就程序出错退出，第二次输入了130多个字之后还是没有逃脱被关闭的命运。
+但，这一回 EmEditor
+学聪明了，文档意外崩溃之后它还会提示你要不要先保存一下，免得辛苦写出来的东西伴随着一个没有给你任何选择的“确定”按钮消失得无影无踪。
+不过，好像，有的时候你选择了保存出现错误的文档，它还是没有保存就直接退出了，看来，人品这个东西始终都是很重要的啊。
+程序的配置现在可以导入导出了，保存的格式是注册表文件。自定义高亮显示的设置也可以单独导入导出。这对那些喜欢个性化设置的用户来说实在是太棒了！
+自定义高亮显示现在支持正则表达式，这个
+EmEditor 的一大特色功能越来越强大了。
+单窗口多标签模式就不多说了，整个 V4
+版本主要就是为了完善这个的，现在终于达到了一个比较理想的状态。
+自定义的选项更加丰富，这个需要自己去摸索。我觉得默认设置不用变动太多。
+宏功能应该也增强了，支持
+JavaScript/VBScript，不过一般人都不会用这个功能，等到真的需要的时候就会觉得很爽了。
+特别推荐 Auto Complete
+插件，实现了我见过的最顺手的自动完成功能。对中文的支持非常好，快捷键设置合理，提示方式很舒服，完全超过
+Vim 的相应功能。所以这里多介绍几句：
+1、首先从 EmEditor
+的插件下载页面下载这个插件，并安装。
+2、安装完之后，在“工具”－“插件”－“自定义插件”中选择
+AutoComplete，然后点击“属性”。如果只需要对某一类文件生效，就勾选“Use at
+Specific
+Configuration”项目后在下面选择指定的文件类型，后面设置快捷键时也要相应地选择该类文件的配置。最后点击“Import&hellip;”导入
+.eac 文件，如自带的 html.eac。
+3、如果需要自定义自动完成的词语，可以仿照已有的 .eac 文件
+DIY，“#T=”表示你输入的文字，下一行是需要转换成的文字，最后用一个“#”符号结尾。结合宏功能，能够非常方便地将
+Vim 等工具的缩略语、自动完成配置文件转换为 .eac
+文件的格式。
+4、最后是设置快捷键。在“工具”－“当前配置属性/所有配置属性”－“键盘”中，“类别”选择“插件”，“命令”选择“Auto
+Complete”，然后在“新的快捷键”一栏中按键，最后点击“分配”。我用的是“F8”键。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-12-23 02:45">2005-12-23</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>EmEditor Pro 5.00</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>我是跳过了 V4 版本直接到 V5.00 的，所以相对于 V4<br />
+有什么大变化我并不清楚，有兴趣可以看看自带的帮助文件。</p>
+
+<p>首先当然是测试和智能狂拼2的兼容性，从 V3<br />
+开始这就是个痼疾。当然，主要原因还是在智能狂拼2，它和许多文字处理程序都不兼容，和<br />
+Gecko 核心的浏览器也不兼容。<br />
+遗憾的是，在这个版本中这个问题仍然存在，第一次输入了十多个字就程序出错退出，第二次输入了130多个字之后还是没有逃脱被关闭的命运。<br />
+<img src="http://static.flickr.com/9/76468494_c3b1221d03_o.jpg" alt="" /></p>
+
+<p>但，这一回 <a href="http://www.emeditor.com/">EmEditor</a><br />
+学聪明了，文档意外崩溃之后它还会提示你要不要先保存一下，免得辛苦写出来的东西伴随着一个没有给你任何选择的“确定”按钮消失得无影无踪。<br />
+不过，好像，有的时候你选择了保存出现错误的文档，它还是没有保存就直接退出了，看来，人品这个东西始终都是很重要的啊。<br />
+<img src="http://static.flickr.com/38/76468495_7047c6444f_o.jpg" alt="" /></p>
+
+<p>程序的配置现在可以导入导出了，保存的格式是注册表文件。自定义高亮显示的设置也可以单独导入导出。这对那些喜欢个性化设置的用户来说实在是太棒了！<br />
+<img src="http://static.flickr.com/38/76566992_179d91758c_o.jpg" alt="" /></p>
+
+<p>自定义高亮显示现在支持正则表达式，这个<br />
+<a href="http://www.emeditor.com/">EmEditor</a> 的一大特色功能越来越强大了。<br />
+<img src="http://static.flickr.com/9/76566990_37e0e16e42_o.jpg" alt="" /></p>
+
+<p>单窗口多标签模式就不多说了，整个 V4<br />
+版本主要就是为了完善这个的，现在终于达到了一个比较理想的状态。</p>
+
+<p>自定义的选项更加丰富，这个需要自己去摸索。我觉得默认设置不用变动太多。<br />
+<img src="http://static.flickr.com/41/76566991_7532657a2c_o.jpg" alt="" /></p>
+
+<p>宏功能应该也增强了，支持<br />
+JavaScript/VBScript，不过一般人都不会用这个功能，等到真的需要的时候就会觉得很爽了。<br />
+<img src="http://static.flickr.com/36/76566989_e3c95053a0_o.jpg" alt="" /></p>
+
+<p>特别推荐 <a href="http://www.emeditor.com/plugins.php?category=2">Auto Complete</a><br />
+插件，实现了我见过的最顺手的自动完成功能。对中文的支持非常好，快捷键设置合理，提示方式很舒服，完全超过<br />
+<a href="http://www.vim.org/">Vim</a> 的相应功能。所以这里多介绍几句：<br />
+1、首先从 <a href="http://www.emeditor.com/">EmEditor</a><br />
+的<a href="http://www.emeditor.com/plugins.php?category=2">插件下载页面</a>下载这个插件，并安装。<br />
+2、安装完之后，在“工具”－“插件”－“自定义插件”中选择<br />
+AutoComplete，然后点击“属性”。如果只需要对某一类文件生效，就勾选“Use at<br />
+Specific<br />
+Configuration”项目后在下面选择指定的文件类型，后面设置快捷键时也要相应地选择该类文件的配置。最后点击“Import&hellip;”导入<br />
+.eac 文件，如自带的 html.eac。<br />
+3、如果需要自定义自动完成的词语，可以仿照已有的 .eac 文件<br />
+DIY，“#T=”表示你输入的文字，下一行是需要转换成的文字，最后用一个“#”符号结尾。结合宏功能，能够非常方便地将<br />
+<a href="http://www.vim.org/">Vim</a> 等工具的缩略语、自动完成配置文件转换为 .eac<br />
+文件的格式。<br />
+4、最后是设置快捷键。在“工具”－“当前配置属性/所有配置属性”－“键盘”中，“类别”选择“插件”，“命令”选择“Auto<br />
+Complete”，然后在“新的快捷键”一栏中按键，最后点击“分配”。我用的是“F8”键。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《EmEditor%20Pro%205.00》&body=https%3a%2f%2fioerr.github.io%2fposts%2femeditor-pro-5%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2femeditor-pro-5%2f&text= @calon EmEditor%20Pro%205.00&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

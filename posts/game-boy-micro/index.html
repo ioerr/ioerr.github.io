@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Boy Micro - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Game Boy Micro" />
+<meta property="og:description" content="新一代掌机大战正在进行，任天堂还不忘继续炒冷饭，Game Boy
+Micro
+将在今年秋天推出。
+功能上相当于 GBA 和 GBA SP
+的综合体，但是屏幕却缩水了。从放出的图片来看，屏幕尺寸估计是45mm×30mm，面积差不多是
+GBA/GBA SP 屏幕的9/16。
+Sidekick
+又可以访问了，看来之前只是“拘留”数日？
+beHidden，又一个代理用站点。
+找到了以前看过的一个电影的名字，《Gattaca》，可以说是我看过的最出色的科幻电影之一。配乐优美动听，画面很干净，叙事有力度，含蓄沉稳。
+暂时还找不到 DVD
+或下载，ED
+又太慢，不管怎么说，反正是一定要为它写点东西的。
+当时看的时候还不认识 Ethan
+Hawke、Uma
+Thurman 和 Jude
+Law 这些人呢。
+强大的制作 logo 和 button
+的站点，CoolText，有不少好看的字体可以选择，就是最后生成的时间太久了一点。
+它使用的是 Gimp。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/game-boy-micro/" />
+
+
+
+<meta property="article:published_time" content="2005-05-18T09:00:57&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-05-18T09:00:57&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Game Boy Micro">
+<meta itemprop="description" content="新一代掌机大战正在进行，任天堂还不忘继续炒冷饭，Game Boy
+Micro
+将在今年秋天推出。
+功能上相当于 GBA 和 GBA SP
+的综合体，但是屏幕却缩水了。从放出的图片来看，屏幕尺寸估计是45mm×30mm，面积差不多是
+GBA/GBA SP 屏幕的9/16。
+Sidekick
+又可以访问了，看来之前只是“拘留”数日？
+beHidden，又一个代理用站点。
+找到了以前看过的一个电影的名字，《Gattaca》，可以说是我看过的最出色的科幻电影之一。配乐优美动听，画面很干净，叙事有力度，含蓄沉稳。
+暂时还找不到 DVD
+或下载，ED
+又太慢，不管怎么说，反正是一定要为它写点东西的。
+当时看的时候还不认识 Ethan
+Hawke、Uma
+Thurman 和 Jude
+Law 这些人呢。
+强大的制作 logo 和 button
+的站点，CoolText，有不少好看的字体可以选择，就是最后生成的时间太久了一点。
+它使用的是 Gimp。">
+
+
+<meta itemprop="datePublished" content="2005-05-18T09:00:57&#43;00:00" />
+<meta itemprop="dateModified" content="2005-05-18T09:00:57&#43;00:00" />
+<meta itemprop="wordCount" content="36">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Game Boy Micro"/>
+<meta name="twitter:description" content="新一代掌机大战正在进行，任天堂还不忘继续炒冷饭，Game Boy
+Micro
+将在今年秋天推出。
+功能上相当于 GBA 和 GBA SP
+的综合体，但是屏幕却缩水了。从放出的图片来看，屏幕尺寸估计是45mm×30mm，面积差不多是
+GBA/GBA SP 屏幕的9/16。
+Sidekick
+又可以访问了，看来之前只是“拘留”数日？
+beHidden，又一个代理用站点。
+找到了以前看过的一个电影的名字，《Gattaca》，可以说是我看过的最出色的科幻电影之一。配乐优美动听，画面很干净，叙事有力度，含蓄沉稳。
+暂时还找不到 DVD
+或下载，ED
+又太慢，不管怎么说，反正是一定要为它写点东西的。
+当时看的时候还不认识 Ethan
+Hawke、Uma
+Thurman 和 Jude
+Law 这些人呢。
+强大的制作 logo 和 button
+的站点，CoolText，有不少好看的字体可以选择，就是最后生成的时间太久了一点。
+它使用的是 Gimp。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-05-18 09:00">2005-05-18</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>Game Boy Micro</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>新一代掌机大战正在进行，任天堂还不忘继续炒冷饭，<a href="http://www.nintendo.com/newsarticle?articleid=bd1fe151-e91e-4226-a7ec-d64c321d9479">Game Boy<br />
+Micro</a><br />
+将在今年秋天推出。<br />
+功能上相当于 GBA 和 GBA SP<br />
+的综合体，但是屏幕却缩水了。从放出的图片来看，屏幕尺寸估计是45mm×30mm，面积差不多是<br />
+GBA/GBA SP 屏幕的9/16。<br />
+<img src="http://media.nintendo.com/mediaFiles/651aac68-847e-4774-9ed4-c5c366e62045.jpg" alt="" /></p>
+
+<p><a href="http://sidekick.myblog.hk/">Sidekick</a><br />
+又可以访问了，看来之前只是“拘留”数日？</p>
+
+<p><a href="http://www.behidden.com/">beHidden</a>，又一个代理用站点。</p>
+
+<p>找到了以前看过的一个电影的名字，《<a href="http://www.imdb.com/title/tt0119177/">Gattaca</a>》，可以说是我看过的最出色的科幻电影之一。配乐优美动听，画面很干净，叙事有力度，含蓄沉稳。<br />
+暂时还找不到 DVD<br />
+或下载，<a href="ed2k://%7Cfile%7CGattaca-Rv9.rmvb%7C364454388%7C78E4A110E0C057778D3059E3BFA7BBCB%7C/">ED</a><br />
+又太慢，不管怎么说，反正是一定要为它写点东西的。<br />
+当时看的时候还不认识 <a href="http://www.imdb.com/name/nm0000160/">Ethan<br />
+Hawke</a>、<a href="http://www.imdb.com/name/nm0000235/">Uma<br />
+Thurman</a> 和 <a href="http://www.imdb.com/name/nm0000179/">Jude<br />
+Law</a> 这些人呢。</p>
+
+<p>强大的制作 logo 和 button<br />
+的站点，<a href="http://cooltext.com/">CoolText</a>，有不少好看的字体可以选择，就是最后生成的时间太久了一点。<br />
+它使用的是 <a href="http://www.gimp.org/">Gimp</a>。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Game%20Boy%20Micro》&body=https%3a%2f%2fioerr.github.io%2fposts%2fgame-boy-micro%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fgame-boy-micro%2f&text= @calon Game%20Boy%20Micro&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

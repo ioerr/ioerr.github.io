@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WikidPad - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="WikidPad" />
+<meta property="og:description" content="为了选择一款方便在本地使用的 Wiki 工具，重新尝试使用了
+WikidPad。目前稳定版本是1.7。
+我喜欢的特性如下：
+添加 Wiki 词汇很顺手，Ctrl-J 就行，不必手输中括号；
+采用压缩/原始的 Sqlite 数据库存储方式速度不错；
+可导出为 HTML 和 XML；
+有预览标签；
+可设置树形目录中结点的图标和颜色；
+目录组织和浏览符合习惯；
+可以显示引用页面列表；
+对中文的支持不错。
+不过自动补全功能的快捷键是 Ctrl-Space
+就实在太让人囧了，目前还没有找到更改的方法。
+另外 URL 只会原样显示也是个遗憾。
+有时间我会试试1.8rc6的版本。
+至于用这个工具来干什么嘛，目前是打算完成早就有计划的20多年来一些知名法国球员在欧洲其他联赛的资料汇总和个人回忆——不过本赛季天下大乱，新增好多外流法国球员，头大啊~
+如果在使用过程中觉得很好用，下一步该用来做什么呢？这个工具用来整理资料、写书和写帮助文档还是不错的，至于
+Todo-List，还是交给在线工具比较好。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/wikidpad/" />
+
+
+
+<meta property="article:published_time" content="2007-07-24T15:36:41&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-07-24T15:36:41&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="WikidPad">
+<meta itemprop="description" content="为了选择一款方便在本地使用的 Wiki 工具，重新尝试使用了
+WikidPad。目前稳定版本是1.7。
+我喜欢的特性如下：
+添加 Wiki 词汇很顺手，Ctrl-J 就行，不必手输中括号；
+采用压缩/原始的 Sqlite 数据库存储方式速度不错；
+可导出为 HTML 和 XML；
+有预览标签；
+可设置树形目录中结点的图标和颜色；
+目录组织和浏览符合习惯；
+可以显示引用页面列表；
+对中文的支持不错。
+不过自动补全功能的快捷键是 Ctrl-Space
+就实在太让人囧了，目前还没有找到更改的方法。
+另外 URL 只会原样显示也是个遗憾。
+有时间我会试试1.8rc6的版本。
+至于用这个工具来干什么嘛，目前是打算完成早就有计划的20多年来一些知名法国球员在欧洲其他联赛的资料汇总和个人回忆——不过本赛季天下大乱，新增好多外流法国球员，头大啊~
+如果在使用过程中觉得很好用，下一步该用来做什么呢？这个工具用来整理资料、写书和写帮助文档还是不错的，至于
+Todo-List，还是交给在线工具比较好。">
+
+
+<meta itemprop="datePublished" content="2007-07-24T15:36:41&#43;00:00" />
+<meta itemprop="dateModified" content="2007-07-24T15:36:41&#43;00:00" />
+<meta itemprop="wordCount" content="31">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="WikidPad"/>
+<meta name="twitter:description" content="为了选择一款方便在本地使用的 Wiki 工具，重新尝试使用了
+WikidPad。目前稳定版本是1.7。
+我喜欢的特性如下：
+添加 Wiki 词汇很顺手，Ctrl-J 就行，不必手输中括号；
+采用压缩/原始的 Sqlite 数据库存储方式速度不错；
+可导出为 HTML 和 XML；
+有预览标签；
+可设置树形目录中结点的图标和颜色；
+目录组织和浏览符合习惯；
+可以显示引用页面列表；
+对中文的支持不错。
+不过自动补全功能的快捷键是 Ctrl-Space
+就实在太让人囧了，目前还没有找到更改的方法。
+另外 URL 只会原样显示也是个遗憾。
+有时间我会试试1.8rc6的版本。
+至于用这个工具来干什么嘛，目前是打算完成早就有计划的20多年来一些知名法国球员在欧洲其他联赛的资料汇总和个人回忆——不过本赛季天下大乱，新增好多外流法国球员，头大啊~
+如果在使用过程中觉得很好用，下一步该用来做什么呢？这个工具用来整理资料、写书和写帮助文档还是不错的，至于
+Todo-List，还是交给在线工具比较好。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-07-24 03:36">2007-07-24</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>WikidPad</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>为了选择一款方便在本地使用的 Wiki 工具，重新尝试使用了<br />
+<a href="http://www.jhorman.org/wikidPad/">WikidPad</a>。目前稳定版本是1.7。<br />
+<img src="http://wikidpad.python-hosting.com/trac/logo.png" alt="" /></p>
+
+<p>我喜欢的特性如下：<br />
+添加 Wiki 词汇很顺手，Ctrl-J 就行，不必手输中括号；<br />
+采用压缩/原始的 Sqlite 数据库存储方式速度不错；<br />
+可导出为 HTML 和 XML；<br />
+有预览标签；<br />
+可设置树形目录中结点的图标和颜色；<br />
+目录组织和浏览符合习惯；<br />
+可以显示引用页面列表；<br />
+对中文的支持不错。</p>
+
+<p>不过自动补全功能的快捷键是 Ctrl-Space<br />
+就实在太让人囧了，目前还没有找到更改的方法。<br />
+另外 URL 只会原样显示也是个遗憾。<br />
+有时间我会试试1.8rc6的版本。</p>
+
+<p>至于用这个工具来干什么嘛，目前是打算完成早就有计划的20多年来一些知名法国球员在欧洲其他联赛的资料汇总和个人回忆——不过本赛季天下大乱，新增好多外流法国球员，头大啊~</p>
+
+<p>如果在使用过程中觉得很好用，下一步该用来做什么呢？这个工具用来整理资料、写书和写帮助文档还是不错的，至于<br />
+Todo-List，还是交给在线工具比较好。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《WikidPad》&body=https%3a%2f%2fioerr.github.io%2fposts%2fwikidpad%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fwikidpad%2f&text= @calon WikidPad&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

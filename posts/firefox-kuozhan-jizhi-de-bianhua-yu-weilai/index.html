@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firefox 扩展机制的变化与未来 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Firefox 扩展机制的变化与未来" />
+<meta property="og:description" content="我正在使用 Beyond Australis 和 Puzzle Bars 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。
+最近他在扩展的主页网站上发表了一篇文章，大意是：
+因为 Mozilla Firefox 的扩展机制会改为 WebExtensions，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 Beyond Australis、FindBar Tweak、OmniSidebar、Puzzle Bars，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。
+Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。
+然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。
+对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 Beyond Australis、Tab Tree 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？
+Beyond Australis 扩展页面下的一个评论说的好：
+ Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/" />
+
+
+
+<meta property="article:published_time" content="2017-02-01T12:52:44&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-02-01T12:52:44&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Firefox 扩展机制的变化与未来">
+<meta itemprop="description" content="我正在使用 Beyond Australis 和 Puzzle Bars 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。
+最近他在扩展的主页网站上发表了一篇文章，大意是：
+因为 Mozilla Firefox 的扩展机制会改为 WebExtensions，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 Beyond Australis、FindBar Tweak、OmniSidebar、Puzzle Bars，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。
+Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。
+然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。
+对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 Beyond Australis、Tab Tree 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？
+Beyond Australis 扩展页面下的一个评论说的好：
+ Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it!">
+
+
+<meta itemprop="datePublished" content="2017-02-01T12:52:44&#43;08:00" />
+<meta itemprop="dateModified" content="2017-02-01T12:52:44&#43;08:00" />
+<meta itemprop="wordCount" content="147">
+
+
+
+<meta itemprop="keywords" content="firefox,扩展,chrome,浏览器," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Firefox 扩展机制的变化与未来"/>
+<meta name="twitter:description" content="我正在使用 Beyond Australis 和 Puzzle Bars 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。
+最近他在扩展的主页网站上发表了一篇文章，大意是：
+因为 Mozilla Firefox 的扩展机制会改为 WebExtensions，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 Beyond Australis、FindBar Tweak、OmniSidebar、Puzzle Bars，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。
+Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。
+然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。
+对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 Beyond Australis、Tab Tree 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？
+Beyond Australis 扩展页面下的一个评论说的好：
+ Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it!"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2017-02-01 12:52">2017-02-01</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Firefox 扩展机制的变化与未来</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/firefox">
+              <span class="hash">#</span>firefox</a>
+          
+            , 
+            <a href="/tags/%E6%89%A9%E5%B1%95">
+              <span class="hash">#</span>扩展</a>
+          
+            , 
+            <a href="/tags/chrome">
+              <span class="hash">#</span>chrome</a>
+          
+            , 
+            <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8">
+              <span class="hash">#</span>浏览器</a>
+          
+        
+      </p>
+    </header>
+    <section><p>我正在使用 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 和 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a> 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。</p>
+
+<p>最近他<a href="http://fasezero.com/addons/">在扩展的主页网站上发表了一篇文章</a>，大意是：<br />
+因为 Mozilla Firefox 的扩展机制会<a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">改为 WebExtensions</a>，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、FindBar Tweak、OmniSidebar、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a>，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。</p>
+
+<p>Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。</p>
+
+<p>然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。</p>
+
+<p>对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/">Tab Tree</a> 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。<br />
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？</p>
+
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 扩展页面下的<a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/">一个评论</a>说的好：</p>
+
+<blockquote>
+<p>Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&rsquo;s the case, why would anyone choose Firefox instead of Chrome?</p>
+
+<p>Mozilla，你们他妈在想些什么？<br />
+   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！<br />
+   好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？</p>
+</blockquote>
+
+<p>好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。<br />
+只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）<br />
+这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？</p>
+
+<p>希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 <a href="https://www.palemoon.org/">Pale Moon</a> 这样的替代品会越来越成熟。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Firefox%20%e6%89%a9%e5%b1%95%e6%9c%ba%e5%88%b6%e7%9a%84%e5%8f%98%e5%8c%96%e4%b8%8e%e6%9c%aa%e6%9d%a5》&body=https%3a%2f%2fioerr.github.io%2fposts%2ffirefox-kuozhan-jizhi-de-bianhua-yu-weilai%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ffirefox-kuozhan-jizhi-de-bianhua-yu-weilai%2f&text= @calon Firefox%20%e6%89%a9%e5%b1%95%e6%9c%ba%e5%88%b6%e7%9a%84%e5%8f%98%e5%8c%96%e4%b8%8e%e6%9c%aa%e6%9d%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

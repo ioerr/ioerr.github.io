@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>旁观者的饶舌 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="旁观者的饶舌" />
+<meta property="og:description" content="之前 Zola 和 Hung
+两个人“PK”，两边的动作像是耍太极拳，舞了半天也没有在关键的地方见血，所以有不了了之的迹象。
+不料 Zola
+的这一篇文章再次谈到网谈这个话题，把米随随给惹毛了，后者的表现近似于骂街，且有歧视的嫌疑，实在是让人遗憾。
+我希望这场混战能够回到实际点的层次上面来，比如不妨深入讨论网谈究竟是不是“流氓”？
+网谈是不是曾经和正在抄袭文章？是不是以商业
+blog
+的身份违反过其他
+blog
+创作共用协议中“非商业用途使用”的条目？这应该是一个能够取证且有确定答案的问题。
+其他的争议问题，有的旁人无法取证，有的没有统一的评判标准，可以暂时搁置，免得分散精力还无法下结论。至于为人态度如何、80后独生子女普遍存在的问题等等，有的纯熟个人感情，不宜作为支持或反对的理由，有的属于视野狭窄又一厢情愿的老生常谈，得要从人的思维方式上下手，真要深入地说，上可至天文地理下可至鸡毛蒜皮，与主题无关了。
+然后对米随随说几句。Hung 之前给 Zola
+写过两篇文章，至少我觉得算是比较诚恳的。
+他谈到“改革开放之后的独生子女环境所造就的一代人”缺乏责任感，这个结论从其前提、推论、证据、应用到延伸，我都是不认可的，但强调责任感总是有积极意义的。
+责任感，不仅仅是你在现实中成就什么事业、影响多少人，在网上的言论同样体现一个人的责任感。你的那些发泄的文字写出来是很爽，还有不明事理的朋友起哄和叫好，但文章中折射出的粗鄙和歧视色彩，影响很坏。这样的言论，和
+Hung 所说的无聊、肤浅、不成熟有什么本质区别？甚至更加恶劣。
+从留言来看，你的这些文章也影响了
+BXNA 的 RSS Feed
+质量，让读者发出抱怨，这难道也是对群组负责任的表现吗？
+你又说 Zola
+总是在指责别人，他没有本事搞好自己的事情，没有权利指责别人。
+但我不认同这样的逻辑。一个人有没有权利批评，批评得对不对，不是完全由他自身的情况决定的。如果说的是事实，难道也可以否认吗？如果说的确实有道理，难道也始终比不上那些“有能力到不用为生存发愁”的人说的胡话？
+因人废言，可能让你只能够接受说好话的人，可能让你错过有价值的批评。
+有则改之，无则加勉，我之前希望 Zola 以这个态度面对 Hung
+的回应，现在也希望你能够以这样的态度面对 Zola
+的批评。或者觉得价值观不同，拿出来平心静气的讨论也可以，一上来就说对方没权利没资格，还外加污言秽语，一来别人果然觉得你的那套价值观不怎么样，二来未免显得太小器吧，其三，这算不算
+Hung 所批评的“缺乏与人交往中的正常心理”、“盲目偏激”呢？
+最后，有人在 Zola
+的文章中留言说，“其实有很多更有意义的事情等着我们去做呢”。这是一句完全正确的废话。除了救人性命和灵魂、探悉人生和宇宙的奥秘之外，恐怕也没有几件事情不符合这句话了。
+但是，当下有意义的事情，哪怕再卑微，我们如果有能力还是应该去做，不是吗？勿以善小而不为啊。
+如果这句话用来逃避批评，那么就和“其实还有很多罪行更为深重的人等着你们去抓，为啥只抓我”的辩白一样可笑了。人家作恶的时候可没有因为“还有更恶劣的事情等着我们去做，所以这件坏事就不做了”呢。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/pangguanzhe-de-raoshe/" />
+
+
+
+<meta property="article:published_time" content="2006-12-09T19:49:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-12-09T19:49:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="旁观者的饶舌">
+<meta itemprop="description" content="之前 Zola 和 Hung
+两个人“PK”，两边的动作像是耍太极拳，舞了半天也没有在关键的地方见血，所以有不了了之的迹象。
+不料 Zola
+的这一篇文章再次谈到网谈这个话题，把米随随给惹毛了，后者的表现近似于骂街，且有歧视的嫌疑，实在是让人遗憾。
+我希望这场混战能够回到实际点的层次上面来，比如不妨深入讨论网谈究竟是不是“流氓”？
+网谈是不是曾经和正在抄袭文章？是不是以商业
+blog
+的身份违反过其他
+blog
+创作共用协议中“非商业用途使用”的条目？这应该是一个能够取证且有确定答案的问题。
+其他的争议问题，有的旁人无法取证，有的没有统一的评判标准，可以暂时搁置，免得分散精力还无法下结论。至于为人态度如何、80后独生子女普遍存在的问题等等，有的纯熟个人感情，不宜作为支持或反对的理由，有的属于视野狭窄又一厢情愿的老生常谈，得要从人的思维方式上下手，真要深入地说，上可至天文地理下可至鸡毛蒜皮，与主题无关了。
+然后对米随随说几句。Hung 之前给 Zola
+写过两篇文章，至少我觉得算是比较诚恳的。
+他谈到“改革开放之后的独生子女环境所造就的一代人”缺乏责任感，这个结论从其前提、推论、证据、应用到延伸，我都是不认可的，但强调责任感总是有积极意义的。
+责任感，不仅仅是你在现实中成就什么事业、影响多少人，在网上的言论同样体现一个人的责任感。你的那些发泄的文字写出来是很爽，还有不明事理的朋友起哄和叫好，但文章中折射出的粗鄙和歧视色彩，影响很坏。这样的言论，和
+Hung 所说的无聊、肤浅、不成熟有什么本质区别？甚至更加恶劣。
+从留言来看，你的这些文章也影响了
+BXNA 的 RSS Feed
+质量，让读者发出抱怨，这难道也是对群组负责任的表现吗？
+你又说 Zola
+总是在指责别人，他没有本事搞好自己的事情，没有权利指责别人。
+但我不认同这样的逻辑。一个人有没有权利批评，批评得对不对，不是完全由他自身的情况决定的。如果说的是事实，难道也可以否认吗？如果说的确实有道理，难道也始终比不上那些“有能力到不用为生存发愁”的人说的胡话？
+因人废言，可能让你只能够接受说好话的人，可能让你错过有价值的批评。
+有则改之，无则加勉，我之前希望 Zola 以这个态度面对 Hung
+的回应，现在也希望你能够以这样的态度面对 Zola
+的批评。或者觉得价值观不同，拿出来平心静气的讨论也可以，一上来就说对方没权利没资格，还外加污言秽语，一来别人果然觉得你的那套价值观不怎么样，二来未免显得太小器吧，其三，这算不算
+Hung 所批评的“缺乏与人交往中的正常心理”、“盲目偏激”呢？
+最后，有人在 Zola
+的文章中留言说，“其实有很多更有意义的事情等着我们去做呢”。这是一句完全正确的废话。除了救人性命和灵魂、探悉人生和宇宙的奥秘之外，恐怕也没有几件事情不符合这句话了。
+但是，当下有意义的事情，哪怕再卑微，我们如果有能力还是应该去做，不是吗？勿以善小而不为啊。
+如果这句话用来逃避批评，那么就和“其实还有很多罪行更为深重的人等着你们去抓，为啥只抓我”的辩白一样可笑了。人家作恶的时候可没有因为“还有更恶劣的事情等着我们去做，所以这件坏事就不做了”呢。">
+
+
+<meta itemprop="datePublished" content="2006-12-09T19:49:39&#43;00:00" />
+<meta itemprop="dateModified" content="2006-12-09T19:49:39&#43;00:00" />
+<meta itemprop="wordCount" content="48">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="旁观者的饶舌"/>
+<meta name="twitter:description" content="之前 Zola 和 Hung
+两个人“PK”，两边的动作像是耍太极拳，舞了半天也没有在关键的地方见血，所以有不了了之的迹象。
+不料 Zola
+的这一篇文章再次谈到网谈这个话题，把米随随给惹毛了，后者的表现近似于骂街，且有歧视的嫌疑，实在是让人遗憾。
+我希望这场混战能够回到实际点的层次上面来，比如不妨深入讨论网谈究竟是不是“流氓”？
+网谈是不是曾经和正在抄袭文章？是不是以商业
+blog
+的身份违反过其他
+blog
+创作共用协议中“非商业用途使用”的条目？这应该是一个能够取证且有确定答案的问题。
+其他的争议问题，有的旁人无法取证，有的没有统一的评判标准，可以暂时搁置，免得分散精力还无法下结论。至于为人态度如何、80后独生子女普遍存在的问题等等，有的纯熟个人感情，不宜作为支持或反对的理由，有的属于视野狭窄又一厢情愿的老生常谈，得要从人的思维方式上下手，真要深入地说，上可至天文地理下可至鸡毛蒜皮，与主题无关了。
+然后对米随随说几句。Hung 之前给 Zola
+写过两篇文章，至少我觉得算是比较诚恳的。
+他谈到“改革开放之后的独生子女环境所造就的一代人”缺乏责任感，这个结论从其前提、推论、证据、应用到延伸，我都是不认可的，但强调责任感总是有积极意义的。
+责任感，不仅仅是你在现实中成就什么事业、影响多少人，在网上的言论同样体现一个人的责任感。你的那些发泄的文字写出来是很爽，还有不明事理的朋友起哄和叫好，但文章中折射出的粗鄙和歧视色彩，影响很坏。这样的言论，和
+Hung 所说的无聊、肤浅、不成熟有什么本质区别？甚至更加恶劣。
+从留言来看，你的这些文章也影响了
+BXNA 的 RSS Feed
+质量，让读者发出抱怨，这难道也是对群组负责任的表现吗？
+你又说 Zola
+总是在指责别人，他没有本事搞好自己的事情，没有权利指责别人。
+但我不认同这样的逻辑。一个人有没有权利批评，批评得对不对，不是完全由他自身的情况决定的。如果说的是事实，难道也可以否认吗？如果说的确实有道理，难道也始终比不上那些“有能力到不用为生存发愁”的人说的胡话？
+因人废言，可能让你只能够接受说好话的人，可能让你错过有价值的批评。
+有则改之，无则加勉，我之前希望 Zola 以这个态度面对 Hung
+的回应，现在也希望你能够以这样的态度面对 Zola
+的批评。或者觉得价值观不同，拿出来平心静气的讨论也可以，一上来就说对方没权利没资格，还外加污言秽语，一来别人果然觉得你的那套价值观不怎么样，二来未免显得太小器吧，其三，这算不算
+Hung 所批评的“缺乏与人交往中的正常心理”、“盲目偏激”呢？
+最后，有人在 Zola
+的文章中留言说，“其实有很多更有意义的事情等着我们去做呢”。这是一句完全正确的废话。除了救人性命和灵魂、探悉人生和宇宙的奥秘之外，恐怕也没有几件事情不符合这句话了。
+但是，当下有意义的事情，哪怕再卑微，我们如果有能力还是应该去做，不是吗？勿以善小而不为啊。
+如果这句话用来逃避批评，那么就和“其实还有很多罪行更为深重的人等着你们去抓，为啥只抓我”的辩白一样可笑了。人家作恶的时候可没有因为“还有更恶劣的事情等着我们去做，所以这件坏事就不做了”呢。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-12-09 07:49">2006-12-09</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>旁观者的饶舌</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>之前 <a href="http://www.zuola.com/">Zola</a> 和 <a href="http://www.wangtam.com/">Hung</a><br />
+两个人“<a href="http://www.zuola.com/weblog/?p=574">P</a><a href="http://www.wangtam.com/50226711/eaeeccecc_46985.php">K</a>”，两边的动作像是耍太极拳，舞了半天也没有在关键的地方见血，所以有不了了之的迹象。</p>
+
+<p>不料 Zola<br />
+的<a href="http://www.zuola.com/weblog/?p=648">这一篇文章</a>再次谈到网谈这个话题，把米随随给<a href="http://www.misuisui.com/weblog/article.asp?id=563">惹毛了</a>，后者的表现<a href="http://www.misuisui.com/weblog/article.asp?id=564">近似于骂街</a>，且<a href="http://www.misuisui.com/weblog/article.asp?id=563">有歧视的嫌疑</a>，实在是让人遗憾。</p>
+
+<p>我希望这场混战能够回到实际点的层次上面来，比如不妨深入讨论网谈究竟是不是“流氓”？<br />
+网谈是不是曾经和正在<a href="http://seo.g2soft.net/2006/11/06/hung-is-nobody.html">抄袭文章</a>？是不是以商业<br />
+blog<br />
+的身份<a href="http://seo.g2soft.net/2006/11/06/hung-is-nobody.html#comment-7095">违反</a>过其他<br />
+blog<br />
+创作共用协议中“非商业用途使用”的条目？这应该是一个能够取证且有确定答案的问题。</p>
+
+<p>其他的争议问题，有的旁人无法取证，有的没有统一的评判标准，可以暂时搁置，免得分散精力还无法下结论。至于为人态度如何、80后独生子女普遍存在的问题等等，有的纯熟个人感情，不宜作为支持或反对的理由，有的属于视野狭窄又一厢情愿的老生常谈，得要从人的思维方式上下手，真要深入地说，上可至天文地理下可至鸡毛蒜皮，与主题无关了。</p>
+
+<p>然后对米随随说几句。Hung 之前给 Zola<br />
+写过两篇文章，至少<a href="http://www.zuola.com/weblog/?p=572#comment-202343">我觉得算是比较诚恳</a>的。<br />
+他谈到“改革开放之后的独生子女环境所造就的一代人”缺乏责任感，这个结论从其前提、推论、证据、应用到延伸，我都是不认可的，但强调责任感总是有积极意义的。</p>
+
+<p>责任感，不仅仅是你在现实中成就什么事业、影响多少人，在网上的言论同样体现一个人的责任感。你的那些发泄的文字写出来是很爽，还有不明事理的朋友起哄和叫好，但文章中折射出的粗鄙和歧视色彩，影响很坏。这样的言论，和<br />
+Hung 所说的无聊、肤浅、不成熟有什么本质区别？甚至更加恶劣。</p>
+
+<p>从<a href="http://www.misuisui.com/weblog/user.asp?act=view&amp;id=552">留言</a>来看，你的这些文章也影响了<br />
+<a href="http://blog.blueidea.com/">BXNA 的 RSS Feed</a><br />
+质量，让读者发出抱怨，这难道也是对群组负责任的表现吗？</p>
+
+<p>你又说 Zola<br />
+总是在指责别人，他没有本事搞好自己的事情，没有权利指责别人。<br />
+但我不认同这样的逻辑。一个人有没有权利批评，批评得对不对，不是完全由他自身的情况决定的。如果说的是事实，难道也可以否认吗？如果说的确实有道理，难道也始终比不上那些“有能力到不用为生存发愁”的人说的胡话？<br />
+因人废言，可能让你只能够接受说好话的人，可能让你错过有价值的批评。</p>
+
+<p>有则改之，无则加勉，我之前希望 Zola 以这个态度面对 Hung<br />
+的回应，现在也希望你能够以这样的态度面对 Zola<br />
+的批评。或者觉得价值观不同，拿出来平心静气的讨论也可以，一上来就说对方没权利没资格，还外加污言秽语，一来别人果然觉得你的那套价值观不怎么样，二来未免显得太小器吧，其三，这算不算<br />
+Hung 所批评的“缺乏与人交往中的正常心理”、“盲目偏激”呢？</p>
+
+<p>最后，有人在 Zola<br />
+的文章中<a href="http://www.zuola.com/weblog/?p=648#comment-221386">留言</a>说，“其实有很多更有意义的事情等着我们去做呢”。这是一句完全正确的废话。除了救人性命和灵魂、探悉人生和宇宙的奥秘之外，恐怕也没有几件事情不符合这句话了。<br />
+但是，当下有意义的事情，哪怕再卑微，我们如果有能力还是应该去做，不是吗？勿以善小而不为啊。</p>
+
+<p>如果这句话用来逃避批评，那么就和“其实还有很多罪行更为深重的人等着你们去抓，为啥只抓我”的辩白一样可笑了。人家作恶的时候可没有因为“还有更恶劣的事情等着我们去做，所以这件坏事就不做了”呢。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%97%81%e8%a7%82%e8%80%85%e7%9a%84%e9%a5%b6%e8%88%8c》&body=https%3a%2f%2fioerr.github.io%2fposts%2fpangguanzhe-de-raoshe%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fpangguanzhe-de-raoshe%2f&text= @calon %e6%97%81%e8%a7%82%e8%80%85%e7%9a%84%e9%a5%b6%e8%88%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

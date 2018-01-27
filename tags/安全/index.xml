@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>安全 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%AE%89%E5%85%A8/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%AE%89%E5%85%A8/</link>
     <description>Recent content in 安全 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2011 02:54:08 +0000</lastBuildDate>
     
-    <item>
-      <title>双密码</title>
-      <link>https://ioerr.github.io/shuang-mima/</link>
-      <pubDate>Fri, 13 May 2011 02:54:08 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shuang-mima/</guid>
-      <description>&lt;p&gt;Flickr、Tumblr、Evernote、Friendfeed
+      <atom:link href="https://ioerr.github.io/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>双密码</title>
+        <link>https://ioerr.github.io/posts/shuang-mima/</link>
+        <pubDate>Fri, 13 May 2011 02:54:08 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shuang-mima/</guid>
+        <description>&lt;p&gt;Flickr、Tumblr、Evernote、Friendfeed&lt;br /&gt;
 等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。&lt;/p&gt;
 
-&lt;p&gt;与此相反，Blogger 的 Mail2Blogger
+&lt;p&gt;与此相反，Blogger 的 Mail2Blogger&lt;br /&gt;
 电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。&lt;br /&gt;
 其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。&lt;/p&gt;
 
@@ -27,14 +27,14 @@
 一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；&lt;br /&gt;
 另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。&lt;/p&gt;
 
-&lt;p&gt;看上去很像 QQ 等服务的密码保护？对，但 QQ
+&lt;p&gt;看上去很像 QQ 等服务的密码保护？对，但 QQ&lt;br /&gt;
 的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。&lt;/p&gt;
 
 &lt;p&gt;补充：&lt;br /&gt;
-Google
+Google&lt;br /&gt;
 帐号的二次验证功能中，可以设置&lt;a href=&#34;https://support.google.com/accounts/answer/185833&#34;&gt;应用专用密码&lt;/a&gt;，算是比较理想的实现了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

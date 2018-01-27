@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>改进 RSS 图标用户界面 \#2 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="改进 RSS 图标用户界面 \#2" />
+<meta property="og:description" content="上一篇说到
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的
+blog，终于找到上一篇提到的 blog 就是 Herock Post。
+接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 Herock
+的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
+CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 Cool DHTML
+Tooltip 和
+[Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
+tooltip，全部采用 Herock 的方法。
+最终实现的效果请看 sidebar。
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/gaijin-rss-tubiao-yonghujiemian-2/" />
+
+
+
+<meta property="article:published_time" content="2005-12-09T18:12:05&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-12-09T18:12:05&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="改进 RSS 图标用户界面 \#2">
+<meta itemprop="description" content="上一篇说到
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的
+blog，终于找到上一篇提到的 blog 就是 Herock Post。
+接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 Herock
+的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
+CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 Cool DHTML
+Tooltip 和
+[Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
+tooltip，全部采用 Herock 的方法。
+最终实现的效果请看 sidebar。
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。">
+
+
+<meta itemprop="datePublished" content="2005-12-09T18:12:05&#43;00:00" />
+<meta itemprop="dateModified" content="2005-12-09T18:12:05&#43;00:00" />
+<meta itemprop="wordCount" content="61">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="改进 RSS 图标用户界面 \#2"/>
+<meta name="twitter:description" content="上一篇说到
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的
+blog，终于找到上一篇提到的 blog 就是 Herock Post。
+接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 Herock
+的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
+CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 Cool DHTML
+Tooltip 和
+[Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
+tooltip，全部采用 Herock 的方法。
+最终实现的效果请看 sidebar。
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-12-09 06:12">2005-12-09</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>改进 RSS 图标用户界面 \#2</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://calon.weblogs.us/2005/12/07/gaijin_rss_tubiao_yonghujiemian/">上一篇</a>说到<br />
+RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。</p>
+
+<p>首先逐个翻阅 <a href="http://www.bloglines.com/">Bloglines</a> 上订阅的<br />
+blog，终于找到上一篇提到的 blog 就是 <a href="http://herock.net/">Herock Post</a>。</p>
+
+<p>接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。<br />
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head<br />
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在<br />
+CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。</p>
+
+<p>然后是在侧栏最下方增加 XML 图标，以及3个子栏目。<br />
+其中“RSS<br />
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白<br />
+RSS 是什么用户服务，我觉得 <a href="http://herock.net/">Herock</a><br />
+的说明很不错，所以稍加修改就拿过来用了。</p>
+
+<p>在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如<br />
+greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。</p>
+
+<p>如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改<br />
+CSS，使得边框配色、字体与你的侧栏风格一致。</p>
+
+<p>如果你要像 <a href="http://herock.net/">Herock</a><br />
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些<br />
+javascript 脚本实现 tooltip 效果，如 <a href="http://www.dynamicdrive.com/dynamicindex5/dhtmltooltip.htm">Cool DHTML<br />
+Tooltip</a> 和<br />
+[Tooltip.js]()。<br />
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用<br />
+tooltip，全部采用 <a href="http://herock.net/">Herock</a> 的方法。</p>
+
+<p>最终实现的效果请看 sidebar。<br />
+考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fposts%2fgaijin-rss-tubiao-yonghujiemian-2%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fgaijin-rss-tubiao-yonghujiemian-2%2f&text= @calon %e6%94%b9%e8%bf%9b%20RSS%20%e5%9b%be%e6%a0%87%e7%94%a8%e6%88%b7%e7%95%8c%e9%9d%a2%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>微信杀手和精简交互 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="微信杀手和精简交互" />
+<meta property="og:description" content="易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？
+微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。
+我对微信不满意的地方，随便就能想到以下这些：
+ 语音消息的标注和检索；
+ 离线缓存公众平台消息；
+ 更加开放的分享功能；
+ 更加易用的公众平台发布功能（对用惯了
+WordPress 的人来说简直就是残废）；
+ 更加强大的公众平台订阅用户管理和统计功能；
+ 公众平台的发布规则限制太死，不够灵活；
+ 更多社交互动元素的足够吸引人的异步模式的游戏；
+ 历史消息保存和导出；
+ 更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
+群转战过来的群聊）。
+  微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。
+Aaron Swartz 曾经提过 RSS 3.0
+的改进方向，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+OpenID 或
+Disqus 的角色）的订阅/交互客户端，都能够实现 RSS
+订阅和微信公众平台交互的综合效果。
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 WordPress
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。
+在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/weixin-shashou-he-jingjian-jiaohu/" />
+
+
+
+<meta property="article:published_time" content="2013-10-27T16:32:31&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-10-27T16:32:31&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="微信杀手和精简交互">
+<meta itemprop="description" content="易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？
+微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。
+我对微信不满意的地方，随便就能想到以下这些：
+ 语音消息的标注和检索；
+ 离线缓存公众平台消息；
+ 更加开放的分享功能；
+ 更加易用的公众平台发布功能（对用惯了
+WordPress 的人来说简直就是残废）；
+ 更加强大的公众平台订阅用户管理和统计功能；
+ 公众平台的发布规则限制太死，不够灵活；
+ 更多社交互动元素的足够吸引人的异步模式的游戏；
+ 历史消息保存和导出；
+ 更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
+群转战过来的群聊）。
+  微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。
+Aaron Swartz 曾经提过 RSS 3.0
+的改进方向，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+OpenID 或
+Disqus 的角色）的订阅/交互客户端，都能够实现 RSS
+订阅和微信公众平台交互的综合效果。
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 WordPress
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。
+在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。">
+
+
+<meta itemprop="datePublished" content="2013-10-27T16:32:31&#43;00:00" />
+<meta itemprop="dateModified" content="2013-10-27T16:32:31&#43;00:00" />
+<meta itemprop="wordCount" content="47">
+
+
+
+<meta itemprop="keywords" content="RSI,RSS,微信,易信,来往,电信,移动应用,网易,腾讯,阿里巴巴," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="微信杀手和精简交互"/>
+<meta name="twitter:description" content="易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？
+微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。
+我对微信不满意的地方，随便就能想到以下这些：
+ 语音消息的标注和检索；
+ 离线缓存公众平台消息；
+ 更加开放的分享功能；
+ 更加易用的公众平台发布功能（对用惯了
+WordPress 的人来说简直就是残废）；
+ 更加强大的公众平台订阅用户管理和统计功能；
+ 公众平台的发布规则限制太死，不够灵活；
+ 更多社交互动元素的足够吸引人的异步模式的游戏；
+ 历史消息保存和导出；
+ 更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
+群转战过来的群聊）。
+  微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。
+Aaron Swartz 曾经提过 RSS 3.0
+的改进方向，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+OpenID 或
+Disqus 的角色）的订阅/交互客户端，都能够实现 RSS
+订阅和微信公众平台交互的综合效果。
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 WordPress
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。
+在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2013-10-27 04:32">2013-10-27</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>微信杀手和精简交互</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/rsi">
+              <span class="hash">#</span>RSI</a>
+          
+            , 
+            <a href="/tags/rss">
+              <span class="hash">#</span>RSS</a>
+          
+            , 
+            <a href="/tags/%E5%BE%AE%E4%BF%A1">
+              <span class="hash">#</span>微信</a>
+          
+            , 
+            <a href="/tags/%E6%98%93%E4%BF%A1">
+              <span class="hash">#</span>易信</a>
+          
+            , 
+            <a href="/tags/%E6%9D%A5%E5%BE%80">
+              <span class="hash">#</span>来往</a>
+          
+            , 
+            <a href="/tags/%E7%94%B5%E4%BF%A1">
+              <span class="hash">#</span>电信</a>
+          
+            , 
+            <a href="/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8">
+              <span class="hash">#</span>移动应用</a>
+          
+            , 
+            <a href="/tags/%E7%BD%91%E6%98%93">
+              <span class="hash">#</span>网易</a>
+          
+            , 
+            <a href="/tags/%E8%85%BE%E8%AE%AF">
+              <span class="hash">#</span>腾讯</a>
+          
+            , 
+            <a href="/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4">
+              <span class="hash">#</span>阿里巴巴</a>
+          
+        
+      </p>
+    </header>
+    <section><p>易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？</p>
+
+<p>微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。<br />
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。<br />
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。<br />
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。</p>
+
+<p>我对微信不满意的地方，随便就能想到以下这些：</p>
+
+<ul>
+<li><p>语音消息的标注和检索；</p></li>
+
+<li><p>离线缓存公众平台消息；</p></li>
+
+<li><p>更加开放的分享功能；</p></li>
+
+<li><p>更加易用的公众平台发布功能（对用惯了<br />
+<a href="http://wordpress.org/">WordPress</a> 的人来说简直就是残废）；</p></li>
+
+<li><p>更加强大的公众平台订阅用户管理和统计功能；</p></li>
+
+<li><p>公众平台的发布规则限制太死，不够灵活；</p></li>
+
+<li><p>更多社交互动元素的足够吸引人的异步模式的游戏；</p></li>
+
+<li><p>历史消息保存和导出；</p></li>
+
+<li><p>更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ<br />
+群转战过来的群聊）。</p></li>
+</ul>
+
+<p>微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。<br />
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。</p>
+
+<p>Aaron Swartz 曾经提过 <a href="http://www.aaronsw.com/weblog/000574">RSS 3.0<br />
+的改进方向</a>，但如果真要用什么东西取代<br />
+RSS，我希望是“精简交互”（Really Simple Interaction）<br />
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。<br />
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。<br />
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看<br />
+<a href="http://zh.wikipedia.org/zh/OpenID">OpenID</a> 或<br />
+<a href="http://disqus.com/">Disqus</a> 的角色）的订阅/交互客户端，都能够实现 RSS<br />
+订阅和微信公众平台交互的综合效果。<br />
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像<br />
+blog 热潮时到处用 <a href="http://wordpress.org/">WordPress</a><br />
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。</p>
+
+<p>在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。<br />
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。<br />
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%be%ae%e4%bf%a1%e6%9d%80%e6%89%8b%e5%92%8c%e7%b2%be%e7%ae%80%e4%ba%a4%e4%ba%92》&body=https%3a%2f%2fioerr.github.io%2fposts%2fweixin-shashou-he-jingjian-jiaohu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fweixin-shashou-he-jingjian-jiaohu%2f&text= @calon %e5%be%ae%e4%bf%a1%e6%9d%80%e6%89%8b%e5%92%8c%e7%b2%be%e7%ae%80%e4%ba%a4%e4%ba%92&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

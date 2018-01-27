@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关于虚拟医疗试验的讨论 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="关于虚拟医疗试验的讨论" />
+<meta property="og:description" content="Calon:
+如果今后能够高拟真度地虚拟出小白鼠或者人，那么在虚拟世界里面给他们做临床试验的结果能否当作现实世界药品生产销售的指导？有过这样的题材的科幻小说吗？
+Datou: @calon 没有，但是有《老处男的春天》
+Calon: 换言之，拟真度会高到用于探索现实的未知吗？
+Datou: @calon 拟 真 怎么可以 高于 真
+Calon: @Datou
+如果拟真度足够接近（不是超过），基于成本考虑，是可以拿来当作试验的，如飞机、汽车制造会借助于虚拟的模型做空气动力方面的验证
+Calon: @Datou
+其次是伦理方面的考虑，现实中可能无法做某些临床试验，而虚拟世界中却可以
+Datou: @calon
+那是检验过虚拟测试结果可以用于实际测试之前的参考数值，最后还是要做真实实验的
+Calon: @Datou 目前当然是这样，但以后会不会有变化呢？
+Datou: @calon
+未来可能可以，基因组计划完成之后，脑研究搞定之后，现在不是可以虚拟原子弹了嘛
+Datou: @calon 参见《老处男的春天》
+Calon: @Datou
+虚拟游戏毕竟和临床试验是有差别的。《老处男的春天》中主人公会把虚拟世界中的经验用于现实吗？
+Datou: @calon 会呀，就是因为虚拟恋爱了，所以才敢跟真的女性交谈
+Calon: @Datou
+我觉得那只是对个人信心的影响吧。或许CS打多了，也有人敢去拿枪对付歹徒，但不能够说明CS拟真度高。
+Datou: @calon
+还是要拟真度过了某个阀值吧，如果游戏mm完全跟充气娃娃没区别……
+Calon: @Datou 如果用于医疗试验用途，标准会高很多。
+Datou: @canlon
+是，所以说要很久以后啊。现在人类对人体的了解比月球多不了多少
+Calon: @Datou 估计真到了那一天，又轮到伦理道德家们跳出来发言了
+hexybaby: @calon
+拟真，顾名思义模拟真实，如果真实的情况尚无法知晓如何去模拟？
+Calon: @hexybaby
+假设的是未来对人体的了解已经相当深入了，在这个基础上再进行拟真以测试未知情况，用来节约成本、规避伦理禁区和模拟长期、大范围、高难度临床试验。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/guanyu-xuni-yiliao-shiyan-de-taolun/" />
+
+
+
+<meta property="article:published_time" content="2007-10-12T17:09:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-10-12T17:09:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="关于虚拟医疗试验的讨论">
+<meta itemprop="description" content="Calon:
+如果今后能够高拟真度地虚拟出小白鼠或者人，那么在虚拟世界里面给他们做临床试验的结果能否当作现实世界药品生产销售的指导？有过这样的题材的科幻小说吗？
+Datou: @calon 没有，但是有《老处男的春天》
+Calon: 换言之，拟真度会高到用于探索现实的未知吗？
+Datou: @calon 拟 真 怎么可以 高于 真
+Calon: @Datou
+如果拟真度足够接近（不是超过），基于成本考虑，是可以拿来当作试验的，如飞机、汽车制造会借助于虚拟的模型做空气动力方面的验证
+Calon: @Datou
+其次是伦理方面的考虑，现实中可能无法做某些临床试验，而虚拟世界中却可以
+Datou: @calon
+那是检验过虚拟测试结果可以用于实际测试之前的参考数值，最后还是要做真实实验的
+Calon: @Datou 目前当然是这样，但以后会不会有变化呢？
+Datou: @calon
+未来可能可以，基因组计划完成之后，脑研究搞定之后，现在不是可以虚拟原子弹了嘛
+Datou: @calon 参见《老处男的春天》
+Calon: @Datou
+虚拟游戏毕竟和临床试验是有差别的。《老处男的春天》中主人公会把虚拟世界中的经验用于现实吗？
+Datou: @calon 会呀，就是因为虚拟恋爱了，所以才敢跟真的女性交谈
+Calon: @Datou
+我觉得那只是对个人信心的影响吧。或许CS打多了，也有人敢去拿枪对付歹徒，但不能够说明CS拟真度高。
+Datou: @calon
+还是要拟真度过了某个阀值吧，如果游戏mm完全跟充气娃娃没区别……
+Calon: @Datou 如果用于医疗试验用途，标准会高很多。
+Datou: @canlon
+是，所以说要很久以后啊。现在人类对人体的了解比月球多不了多少
+Calon: @Datou 估计真到了那一天，又轮到伦理道德家们跳出来发言了
+hexybaby: @calon
+拟真，顾名思义模拟真实，如果真实的情况尚无法知晓如何去模拟？
+Calon: @hexybaby
+假设的是未来对人体的了解已经相当深入了，在这个基础上再进行拟真以测试未知情况，用来节约成本、规避伦理禁区和模拟长期、大范围、高难度临床试验。">
+
+
+<meta itemprop="datePublished" content="2007-10-12T17:09:18&#43;00:00" />
+<meta itemprop="dateModified" content="2007-10-12T17:09:18&#43;00:00" />
+<meta itemprop="wordCount" content="59">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="关于虚拟医疗试验的讨论"/>
+<meta name="twitter:description" content="Calon:
+如果今后能够高拟真度地虚拟出小白鼠或者人，那么在虚拟世界里面给他们做临床试验的结果能否当作现实世界药品生产销售的指导？有过这样的题材的科幻小说吗？
+Datou: @calon 没有，但是有《老处男的春天》
+Calon: 换言之，拟真度会高到用于探索现实的未知吗？
+Datou: @calon 拟 真 怎么可以 高于 真
+Calon: @Datou
+如果拟真度足够接近（不是超过），基于成本考虑，是可以拿来当作试验的，如飞机、汽车制造会借助于虚拟的模型做空气动力方面的验证
+Calon: @Datou
+其次是伦理方面的考虑，现实中可能无法做某些临床试验，而虚拟世界中却可以
+Datou: @calon
+那是检验过虚拟测试结果可以用于实际测试之前的参考数值，最后还是要做真实实验的
+Calon: @Datou 目前当然是这样，但以后会不会有变化呢？
+Datou: @calon
+未来可能可以，基因组计划完成之后，脑研究搞定之后，现在不是可以虚拟原子弹了嘛
+Datou: @calon 参见《老处男的春天》
+Calon: @Datou
+虚拟游戏毕竟和临床试验是有差别的。《老处男的春天》中主人公会把虚拟世界中的经验用于现实吗？
+Datou: @calon 会呀，就是因为虚拟恋爱了，所以才敢跟真的女性交谈
+Calon: @Datou
+我觉得那只是对个人信心的影响吧。或许CS打多了，也有人敢去拿枪对付歹徒，但不能够说明CS拟真度高。
+Datou: @calon
+还是要拟真度过了某个阀值吧，如果游戏mm完全跟充气娃娃没区别……
+Calon: @Datou 如果用于医疗试验用途，标准会高很多。
+Datou: @canlon
+是，所以说要很久以后啊。现在人类对人体的了解比月球多不了多少
+Calon: @Datou 估计真到了那一天，又轮到伦理道德家们跳出来发言了
+hexybaby: @calon
+拟真，顾名思义模拟真实，如果真实的情况尚无法知晓如何去模拟？
+Calon: @hexybaby
+假设的是未来对人体的了解已经相当深入了，在这个基础上再进行拟真以测试未知情况，用来节约成本、规避伦理禁区和模拟长期、大范围、高难度临床试验。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-10-12 05:09">2007-10-12</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>关于虚拟医疗试验的讨论</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>Calon:<br />
+如果今后能够高拟真度地虚拟出小白鼠或者人，那么在虚拟世界里面给他们做临床试验的结果能否当作现实世界药品生产销售的指导？有过这样的题材的科幻小说吗？<br />
+Datou: @calon 没有，但是有《老处男的春天》<br />
+Calon: 换言之，拟真度会高到用于探索现实的未知吗？<br />
+Datou: @calon 拟 真 怎么可以 高于 真<br />
+Calon: @Datou<br />
+如果拟真度足够接近（不是超过），基于成本考虑，是可以拿来当作试验的，如飞机、汽车制造会借助于虚拟的模型做空气动力方面的验证<br />
+Calon: @Datou<br />
+其次是伦理方面的考虑，现实中可能无法做某些临床试验，而虚拟世界中却可以<br />
+Datou: @calon<br />
+那是检验过虚拟测试结果可以用于实际测试之前的参考数值，最后还是要做真实实验的<br />
+Calon: @Datou 目前当然是这样，但以后会不会有变化呢？<br />
+Datou: @calon<br />
+未来可能可以，基因组计划完成之后，脑研究搞定之后，现在不是可以虚拟原子弹了嘛<br />
+Datou: @calon 参见《老处男的春天》<br />
+Calon: @Datou<br />
+虚拟游戏毕竟和临床试验是有差别的。《老处男的春天》中主人公会把虚拟世界中的经验用于现实吗？<br />
+Datou: @calon 会呀，就是因为虚拟恋爱了，所以才敢跟真的女性交谈<br />
+Calon: @Datou<br />
+我觉得那只是对个人信心的影响吧。或许CS打多了，也有人敢去拿枪对付歹徒，但不能够说明CS拟真度高。<br />
+Datou: @calon<br />
+还是要拟真度过了某个阀值吧，如果游戏mm完全跟充气娃娃没区别……<br />
+Calon: @Datou 如果用于医疗试验用途，标准会高很多。<br />
+Datou: @canlon<br />
+是，所以说要很久以后啊。现在人类对人体的了解比月球多不了多少<br />
+Calon: @Datou 估计真到了那一天，又轮到伦理道德家们跳出来发言了<br />
+hexybaby: @calon<br />
+拟真，顾名思义模拟真实，如果真实的情况尚无法知晓如何去模拟？<br />
+Calon: @hexybaby<br />
+假设的是未来对人体的了解已经相当深入了，在这个基础上再进行拟真以测试未知情况，用来节约成本、规避伦理禁区和模拟长期、大范围、高难度临床试验。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e8%99%9a%e6%8b%9f%e5%8c%bb%e7%96%97%e8%af%95%e9%aa%8c%e7%9a%84%e8%ae%a8%e8%ae%ba》&body=https%3a%2f%2fioerr.github.io%2fposts%2fguanyu-xuni-yiliao-shiyan-de-taolun%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fguanyu-xuni-yiliao-shiyan-de-taolun%2f&text= @calon %e5%85%b3%e4%ba%8e%e8%99%9a%e6%8b%9f%e5%8c%bb%e7%96%97%e8%af%95%e9%aa%8c%e7%9a%84%e8%ae%a8%e8%ae%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

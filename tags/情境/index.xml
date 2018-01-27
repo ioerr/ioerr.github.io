@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>情境 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%83%85%E5%A2%83/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%83%85%E5%A2%83/</link>
     <description>Recent content in 情境 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Oct 2012 03:19:47 +0000</lastBuildDate>
     
-    <item>
-      <title>搜狗输入法智慧版</title>
-      <link>https://ioerr.github.io/sougou-shurufa-zhihuiban/</link>
-      <pubDate>Fri, 12 Oct 2012 03:19:47 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/sougou-shurufa-zhihuiban/</guid>
-      <description>&lt;p&gt;搜狗输入法最近推出了&lt;a href=&#34;http://pinyin.sogou.com/zhihui/&#34;&gt;智慧版&lt;/a&gt;，宣传的功能亮点如下：&lt;br /&gt;
-1、情景感知：配合 IE
+      <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>搜狗输入法智慧版</title>
+        <link>https://ioerr.github.io/posts/sougou-shurufa-zhihuiban/</link>
+        <pubDate>Fri, 12 Oct 2012 03:19:47 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/sougou-shurufa-zhihuiban/</guid>
+        <description>&lt;p&gt;搜狗输入法最近推出了&lt;a href=&#34;http://pinyin.sogou.com/zhihui/&#34;&gt;智慧版&lt;/a&gt;，宣传的功能亮点如下：&lt;br /&gt;
+1、情景感知：配合 IE&lt;br /&gt;
 内核的浏览器使用时，根据不同的输入框调整候选词排序；&lt;br /&gt;
 2、文思泉涌：诗词提示补全，并且展示诗词信息；&lt;br /&gt;
 3、妙笔生花：提示近义词用于丰富词汇（算是不错的功能，类似于英语输入助手类工具的近义词联想）；&lt;br /&gt;
@@ -31,10 +31,10 @@
 
 &lt;p&gt;搜狗等新一代输入法一直在词组和智能整句输入模式上精神分裂，有云端识别长句的优势，拿整句智能识别当卖点，但既做不到像智能狂拼那样以整句模式为中心和终极目标，又不像拼音加加专心做词组输入。&lt;/p&gt;
 
-&lt;p&gt;几年前在智能狂拼的 QQ
+&lt;p&gt;几年前在智能狂拼的 QQ&lt;br /&gt;
 群中扯谈的时候，我曾经说到，整句输入法（以前的黑马，后来的智能狂拼、微软拼音包括新版的英库）的识别率如果要继续提高，除了云计算等更大语料库的支撑外，自动情境识别也应该是重要手段（智能狂拼3是有语境切换功能的，但是手动变更语境后切换词库、键盘方案、设置和皮肤）。&lt;br /&gt;
 同一个人，写公文和聊天，和朋友扯谈和与家人沟通，发邮件和写报告，在不同的网站进行不同的发言，其语言习惯都是随情境变化的。&lt;br /&gt;
-另一方面，情境往往变化频繁，比如同时挂 IM
+另一方面，情境往往变化频繁，比如同时挂 IM&lt;br /&gt;
 多窗口聊天、刷论坛、赶文档，是非常常见的场景，而用户不会明显感知情境有变化，一切对他来说都是自然而然的。&lt;br /&gt;
 如果整句识别输入法不加区分的用同一套模型对付多种情境，那么识别率永远都被限制在较低的水平。而如果每次切换情境都要用户自己操作，那么不会有人使用这个功能。&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;p&gt;真正做到了这些，我才会认为输入法是有智慧的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

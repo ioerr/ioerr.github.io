@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在线收藏服务 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="在线收藏服务" />
+<meta property="og:description" content="用了一段时间的
+Furl、365Key 和
+Del.icio.us，不免要想，除了 URL
+和网上的文章内容，还有什么要收藏的？
+首先来看一下，要“收藏”的东西一般符合什么条件：
+1、通常需要在不同的机器上查看
+2、有唯一的确定的地址或内容
+目前还具有哪些特征：
+1、内容一般不大，以文本为主
+2、提供标签功能，允许用户自己分类
+3、允许和他人共享
+4、提供 RSS Feed
+延伸出去，还可以有什么服务呢？在线收藏 RSS
+Feed（并且可以阅读）、音乐播放列表、记事本都有人在做了呢，在线通讯录通过电子邮件服务就可以实现，也不必和陌生人交换（可以和同学、同事共享同一类标签？）。Flickr
+则正在图片方面绞尽脑汁。
+1、在线生词本？
+不必在家里或者公司都装上背单词软件了，结合在线电子词典收藏你最近正在啃的单词吧，可以和水平相近或者目标相同的人交换单词库，可以方便地导入导出，还可以链接到搜索引擎查看例句。
+2、软件配置信息？
+不必每到一个地方就下载自己称手的应用软件并花半天功夫调整到自己满意的状态，不必担心使用网吧的机器用不惯，也不必把一些小软件放在
+USB 存储器中带着到处跑了。
+导出为标准格式并提供上传空间是关键。
+3、IM 好友联系表
+QQ 有搭配的网络硬盘，理论上只要你的 IM
+可以导出好友列表就都可以用上。可是，如果你想和别人共享呢？得了吧，有谁会愿意每天有数百个人通过你朋友的
+QQ、MSN Messenger、Yahoo
+Messenger、ICQ、Popo、UC…在线好友列表来搔扰你？这又不是
+Orkut。但是，如果只对一定级别的好友开放呢？会有什么不同吗？
+4、群内通信在线记录
+这个其实和个人的“收藏”无关了，只是顺便提一下以前想过的东西。虽然目前有固定群功能的
+IM 不多，QQ 上活跃的群数量也较稀少，但我至今还没有完全放弃 QQ
+主要还是因为 MSN 没有固定的群功能。
+如果群内的通信记录可以在线记录，可以设定允许群外的用户查看，群外用户的评论可以在群内实时显示…啊，看来我的要求太高了一点－－如果
+MSN Messenger 增加固定群的功能，MSN Web
+Messenger 会不会实现这个目标呢？
+其他的东西等有需求的人来补充吧…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zaixian-shoucang-fuwu/" />
+
+
+
+<meta property="article:published_time" content="2004-11-21T13:30:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-11-21T13:30:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="在线收藏服务">
+<meta itemprop="description" content="用了一段时间的
+Furl、365Key 和
+Del.icio.us，不免要想，除了 URL
+和网上的文章内容，还有什么要收藏的？
+首先来看一下，要“收藏”的东西一般符合什么条件：
+1、通常需要在不同的机器上查看
+2、有唯一的确定的地址或内容
+目前还具有哪些特征：
+1、内容一般不大，以文本为主
+2、提供标签功能，允许用户自己分类
+3、允许和他人共享
+4、提供 RSS Feed
+延伸出去，还可以有什么服务呢？在线收藏 RSS
+Feed（并且可以阅读）、音乐播放列表、记事本都有人在做了呢，在线通讯录通过电子邮件服务就可以实现，也不必和陌生人交换（可以和同学、同事共享同一类标签？）。Flickr
+则正在图片方面绞尽脑汁。
+1、在线生词本？
+不必在家里或者公司都装上背单词软件了，结合在线电子词典收藏你最近正在啃的单词吧，可以和水平相近或者目标相同的人交换单词库，可以方便地导入导出，还可以链接到搜索引擎查看例句。
+2、软件配置信息？
+不必每到一个地方就下载自己称手的应用软件并花半天功夫调整到自己满意的状态，不必担心使用网吧的机器用不惯，也不必把一些小软件放在
+USB 存储器中带着到处跑了。
+导出为标准格式并提供上传空间是关键。
+3、IM 好友联系表
+QQ 有搭配的网络硬盘，理论上只要你的 IM
+可以导出好友列表就都可以用上。可是，如果你想和别人共享呢？得了吧，有谁会愿意每天有数百个人通过你朋友的
+QQ、MSN Messenger、Yahoo
+Messenger、ICQ、Popo、UC…在线好友列表来搔扰你？这又不是
+Orkut。但是，如果只对一定级别的好友开放呢？会有什么不同吗？
+4、群内通信在线记录
+这个其实和个人的“收藏”无关了，只是顺便提一下以前想过的东西。虽然目前有固定群功能的
+IM 不多，QQ 上活跃的群数量也较稀少，但我至今还没有完全放弃 QQ
+主要还是因为 MSN 没有固定的群功能。
+如果群内的通信记录可以在线记录，可以设定允许群外的用户查看，群外用户的评论可以在群内实时显示…啊，看来我的要求太高了一点－－如果
+MSN Messenger 增加固定群的功能，MSN Web
+Messenger 会不会实现这个目标呢？
+其他的东西等有需求的人来补充吧…">
+
+
+<meta itemprop="datePublished" content="2004-11-21T13:30:39&#43;00:00" />
+<meta itemprop="dateModified" content="2004-11-21T13:30:39&#43;00:00" />
+<meta itemprop="wordCount" content="54">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="在线收藏服务"/>
+<meta name="twitter:description" content="用了一段时间的
+Furl、365Key 和
+Del.icio.us，不免要想，除了 URL
+和网上的文章内容，还有什么要收藏的？
+首先来看一下，要“收藏”的东西一般符合什么条件：
+1、通常需要在不同的机器上查看
+2、有唯一的确定的地址或内容
+目前还具有哪些特征：
+1、内容一般不大，以文本为主
+2、提供标签功能，允许用户自己分类
+3、允许和他人共享
+4、提供 RSS Feed
+延伸出去，还可以有什么服务呢？在线收藏 RSS
+Feed（并且可以阅读）、音乐播放列表、记事本都有人在做了呢，在线通讯录通过电子邮件服务就可以实现，也不必和陌生人交换（可以和同学、同事共享同一类标签？）。Flickr
+则正在图片方面绞尽脑汁。
+1、在线生词本？
+不必在家里或者公司都装上背单词软件了，结合在线电子词典收藏你最近正在啃的单词吧，可以和水平相近或者目标相同的人交换单词库，可以方便地导入导出，还可以链接到搜索引擎查看例句。
+2、软件配置信息？
+不必每到一个地方就下载自己称手的应用软件并花半天功夫调整到自己满意的状态，不必担心使用网吧的机器用不惯，也不必把一些小软件放在
+USB 存储器中带着到处跑了。
+导出为标准格式并提供上传空间是关键。
+3、IM 好友联系表
+QQ 有搭配的网络硬盘，理论上只要你的 IM
+可以导出好友列表就都可以用上。可是，如果你想和别人共享呢？得了吧，有谁会愿意每天有数百个人通过你朋友的
+QQ、MSN Messenger、Yahoo
+Messenger、ICQ、Popo、UC…在线好友列表来搔扰你？这又不是
+Orkut。但是，如果只对一定级别的好友开放呢？会有什么不同吗？
+4、群内通信在线记录
+这个其实和个人的“收藏”无关了，只是顺便提一下以前想过的东西。虽然目前有固定群功能的
+IM 不多，QQ 上活跃的群数量也较稀少，但我至今还没有完全放弃 QQ
+主要还是因为 MSN 没有固定的群功能。
+如果群内的通信记录可以在线记录，可以设定允许群外的用户查看，群外用户的评论可以在群内实时显示…啊，看来我的要求太高了一点－－如果
+MSN Messenger 增加固定群的功能，MSN Web
+Messenger 会不会实现这个目标呢？
+其他的东西等有需求的人来补充吧…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-11-21 01:30">2004-11-21</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>在线收藏服务</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>用了一段时间的<br />
+<a href="http://www.furl.net/">Furl</a>、<a href="http://365key.com/">365Key</a> 和<br />
+<a href="http://del.icio.us/">Del.icio.us</a>，不免要想，除了 URL<br />
+和网上的文章内容，还有什么要收藏的？</p>
+
+<p>首先来看一下，要“收藏”的东西一般符合什么条件：<br />
+1、通常需要在不同的机器上查看<br />
+2、有唯一的确定的地址或内容</p>
+
+<p>目前还具有哪些特征：<br />
+1、内容一般不大，以文本为主<br />
+2、提供标签功能，允许用户自己分类<br />
+3、允许和他人共享<br />
+4、提供 RSS Feed</p>
+
+<p>延伸出去，还可以有什么服务呢？在线收藏 RSS<br />
+Feed（并且可以阅读）、音乐播放列表、<a href="http://www.aypwip.org/webnote/">记事本</a>都有人在做了呢，在线通讯录通过电子邮件服务就可以实现，也不必和陌生人交换（可以和同学、同事共享同一类标签？）。<a href="http://www.flickr.com/">Flickr</a><br />
+则正在图片方面绞尽脑汁。<br />
+1、在线生词本？<br />
+不必在家里或者公司都装上背单词软件了，结合在线电子词典收藏你最近正在啃的单词吧，可以和水平相近或者目标相同的人交换单词库，可以方便地导入导出，还可以链接到搜索引擎查看例句。</p>
+
+<p>2、软件配置信息？<br />
+不必每到一个地方就下载自己称手的应用软件并花半天功夫调整到自己满意的状态，不必担心使用网吧的机器用不惯，也不必把一些小软件放在<br />
+USB 存储器中带着到处跑了。<br />
+导出为标准格式并提供上传空间是关键。</p>
+
+<p>3、IM 好友联系表<br />
+QQ 有搭配的网络硬盘，理论上只要你的 IM<br />
+可以导出好友列表就都可以用上。可是，如果你想和别人共享呢？得了吧，有谁会愿意每天有数百个人通过你朋友的<br />
+QQ、MSN Messenger、Yahoo<br />
+Messenger、ICQ、Popo、UC…在线好友列表来搔扰你？这又不是<br />
+Orkut。但是，如果只对一定级别的好友开放呢？会有什么不同吗？</p>
+
+<p>4、群内通信在线记录<br />
+这个其实和个人的“收藏”无关了，只是顺便提一下以前想过的东西。虽然目前有固定群功能的<br />
+IM 不多，QQ 上活跃的群数量也较稀少，但我至今还没有完全放弃 QQ<br />
+主要还是因为 MSN 没有固定的群功能。<br />
+如果群内的通信记录可以在线记录，可以设定允许群外的用户查看，群外用户的评论可以在群内实时显示…啊，看来我的要求太高了一点－－如果<br />
+MSN Messenger 增加固定群的功能，<a href="http://webmessenger.msn.com/">MSN Web<br />
+Messenger</a> 会不会实现这个目标呢？</p>
+
+<p>其他的东西等有需求的人来补充吧…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9c%a8%e7%ba%bf%e6%94%b6%e8%97%8f%e6%9c%8d%e5%8a%a1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzaixian-shoucang-fuwu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzaixian-shoucang-fuwu%2f&text= @calon %e5%9c%a8%e7%ba%bf%e6%94%b6%e8%97%8f%e6%9c%8d%e5%8a%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

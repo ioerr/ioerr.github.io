@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑暗 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="黑暗" />
+<meta property="og:description" content="多年来，人们一直相信电灯是发射光线的。然而，最近有信息表明，实际上是另一回事。电灯并不射出光线，而是吞噬黑暗。因此我们将电灯泡称为噬暗体。噬暗体理论显示出黑暗的存在，黑暗具有比光更大的质量和更快的速度。
+噬暗体理论的基础是，电灯泡其实是在吞噬黑暗。你房间中的噬暗体就是个例子。黑暗在靠近它们的地方要少得多。噬暗体越大，则吞噬黑暗的能力越强。停车场中的大型噬暗体，能力就比在室内的强。和所有的事物一样，噬暗体不会永远工作。一旦它们被黑暗完全占据，便不再吞噬黑暗。完全黑暗的噬暗体上的黑斑就是明证。蜡烛是一种初级的噬暗体。未点燃的蜡烛有白色的灯芯。你会注意到，一旦使用灯芯就变黑了，这表示黑暗都被吞到了灯芯中。如果把一支铅笔靠近正在工作的灯芯，笔尖会变黑，因为它挡住了要流进蜡烛的黑暗。不幸的是，这类初级噬暗体的作用范围十分有限。另外还有可移植的噬暗体。灯泡有时必须依靠黑暗存储单元的协助才能对付黑暗。当黑暗存储单元充满黑暗后，必须清空或者替换掉才能使噬暗体继续起作用。
+黑暗具有质量。当黑暗进入噬暗体，会因为摩擦产生热。因此触摸正在工作的噬暗体是不明智的。蜡烛是个典型的例子，因为黑暗必须进入固体的灯芯而不是穿越透明的玻璃。这一过程会产生大量的热，因此触摸正在工作的蜡烛是很危险的。另外，黑暗比光明更重。如果你在湖泊的浅水层游泳，可以看到大量的光线。如果慢慢地潜深，周围也会越来越暗。当潜到大约50尺深的时候，就完全是漆黑一片了。这是因为密度更大的黑暗沉在湖底，而更轻的光明浮在上方。人类可以开发利用黑暗的巨大力量。我们可以收集湖底的黑暗，让它们通过涡轮进入海洋——在那里存储黑暗更为安全——从而产生电力。获得河流和湖泊中的黑暗比建造涡轮困难多了。印第安人就意识到了这个问题并尝试解决它。当独木舟与黑暗流动的方向相同时，印第安人会慢慢地划桨，避免阻碍黑暗的流动；而当他们与黑暗的流向相反时，便急速地划桨以帮助黑暗流动。
+最后，我们必须证明黑暗运动的速度比光明快。站在一个有照明的房间内，对着一个黑暗、封闭的壁橱，慢慢打开壁橱的门，你会看见光线缓缓进入壁橱；但因为黑暗是如此快速，你根本无法看清楚它是如何离开壁橱的。
+最后我想说，噬暗体让我们的生活更加和谐。因此下次看到电灯泡时，请记住它其实是噬暗体。
+翻译自《D A R K》。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/heian/" />
+
+
+
+<meta property="article:published_time" content="2007-08-15T16:44:09&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-08-15T16:44:09&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="黑暗">
+<meta itemprop="description" content="多年来，人们一直相信电灯是发射光线的。然而，最近有信息表明，实际上是另一回事。电灯并不射出光线，而是吞噬黑暗。因此我们将电灯泡称为噬暗体。噬暗体理论显示出黑暗的存在，黑暗具有比光更大的质量和更快的速度。
+噬暗体理论的基础是，电灯泡其实是在吞噬黑暗。你房间中的噬暗体就是个例子。黑暗在靠近它们的地方要少得多。噬暗体越大，则吞噬黑暗的能力越强。停车场中的大型噬暗体，能力就比在室内的强。和所有的事物一样，噬暗体不会永远工作。一旦它们被黑暗完全占据，便不再吞噬黑暗。完全黑暗的噬暗体上的黑斑就是明证。蜡烛是一种初级的噬暗体。未点燃的蜡烛有白色的灯芯。你会注意到，一旦使用灯芯就变黑了，这表示黑暗都被吞到了灯芯中。如果把一支铅笔靠近正在工作的灯芯，笔尖会变黑，因为它挡住了要流进蜡烛的黑暗。不幸的是，这类初级噬暗体的作用范围十分有限。另外还有可移植的噬暗体。灯泡有时必须依靠黑暗存储单元的协助才能对付黑暗。当黑暗存储单元充满黑暗后，必须清空或者替换掉才能使噬暗体继续起作用。
+黑暗具有质量。当黑暗进入噬暗体，会因为摩擦产生热。因此触摸正在工作的噬暗体是不明智的。蜡烛是个典型的例子，因为黑暗必须进入固体的灯芯而不是穿越透明的玻璃。这一过程会产生大量的热，因此触摸正在工作的蜡烛是很危险的。另外，黑暗比光明更重。如果你在湖泊的浅水层游泳，可以看到大量的光线。如果慢慢地潜深，周围也会越来越暗。当潜到大约50尺深的时候，就完全是漆黑一片了。这是因为密度更大的黑暗沉在湖底，而更轻的光明浮在上方。人类可以开发利用黑暗的巨大力量。我们可以收集湖底的黑暗，让它们通过涡轮进入海洋——在那里存储黑暗更为安全——从而产生电力。获得河流和湖泊中的黑暗比建造涡轮困难多了。印第安人就意识到了这个问题并尝试解决它。当独木舟与黑暗流动的方向相同时，印第安人会慢慢地划桨，避免阻碍黑暗的流动；而当他们与黑暗的流向相反时，便急速地划桨以帮助黑暗流动。
+最后，我们必须证明黑暗运动的速度比光明快。站在一个有照明的房间内，对着一个黑暗、封闭的壁橱，慢慢打开壁橱的门，你会看见光线缓缓进入壁橱；但因为黑暗是如此快速，你根本无法看清楚它是如何离开壁橱的。
+最后我想说，噬暗体让我们的生活更加和谐。因此下次看到电灯泡时，请记住它其实是噬暗体。
+翻译自《D A R K》。">
+
+
+<meta itemprop="datePublished" content="2007-08-15T16:44:09&#43;00:00" />
+<meta itemprop="dateModified" content="2007-08-15T16:44:09&#43;00:00" />
+<meta itemprop="wordCount" content="9">
+
+
+
+<meta itemprop="keywords" content="恶搞,翻译," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="黑暗"/>
+<meta name="twitter:description" content="多年来，人们一直相信电灯是发射光线的。然而，最近有信息表明，实际上是另一回事。电灯并不射出光线，而是吞噬黑暗。因此我们将电灯泡称为噬暗体。噬暗体理论显示出黑暗的存在，黑暗具有比光更大的质量和更快的速度。
+噬暗体理论的基础是，电灯泡其实是在吞噬黑暗。你房间中的噬暗体就是个例子。黑暗在靠近它们的地方要少得多。噬暗体越大，则吞噬黑暗的能力越强。停车场中的大型噬暗体，能力就比在室内的强。和所有的事物一样，噬暗体不会永远工作。一旦它们被黑暗完全占据，便不再吞噬黑暗。完全黑暗的噬暗体上的黑斑就是明证。蜡烛是一种初级的噬暗体。未点燃的蜡烛有白色的灯芯。你会注意到，一旦使用灯芯就变黑了，这表示黑暗都被吞到了灯芯中。如果把一支铅笔靠近正在工作的灯芯，笔尖会变黑，因为它挡住了要流进蜡烛的黑暗。不幸的是，这类初级噬暗体的作用范围十分有限。另外还有可移植的噬暗体。灯泡有时必须依靠黑暗存储单元的协助才能对付黑暗。当黑暗存储单元充满黑暗后，必须清空或者替换掉才能使噬暗体继续起作用。
+黑暗具有质量。当黑暗进入噬暗体，会因为摩擦产生热。因此触摸正在工作的噬暗体是不明智的。蜡烛是个典型的例子，因为黑暗必须进入固体的灯芯而不是穿越透明的玻璃。这一过程会产生大量的热，因此触摸正在工作的蜡烛是很危险的。另外，黑暗比光明更重。如果你在湖泊的浅水层游泳，可以看到大量的光线。如果慢慢地潜深，周围也会越来越暗。当潜到大约50尺深的时候，就完全是漆黑一片了。这是因为密度更大的黑暗沉在湖底，而更轻的光明浮在上方。人类可以开发利用黑暗的巨大力量。我们可以收集湖底的黑暗，让它们通过涡轮进入海洋——在那里存储黑暗更为安全——从而产生电力。获得河流和湖泊中的黑暗比建造涡轮困难多了。印第安人就意识到了这个问题并尝试解决它。当独木舟与黑暗流动的方向相同时，印第安人会慢慢地划桨，避免阻碍黑暗的流动；而当他们与黑暗的流向相反时，便急速地划桨以帮助黑暗流动。
+最后，我们必须证明黑暗运动的速度比光明快。站在一个有照明的房间内，对着一个黑暗、封闭的壁橱，慢慢打开壁橱的门，你会看见光线缓缓进入壁橱；但因为黑暗是如此快速，你根本无法看清楚它是如何离开壁橱的。
+最后我想说，噬暗体让我们的生活更加和谐。因此下次看到电灯泡时，请记住它其实是噬暗体。
+翻译自《D A R K》。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-08-15 04:44">2007-08-15</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>黑暗</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%81%B6%E6%90%9E">
+              <span class="hash">#</span>恶搞</a>
+          
+            , 
+            <a href="/tags/%E7%BF%BB%E8%AF%91">
+              <span class="hash">#</span>翻译</a>
+          
+        
+      </p>
+    </header>
+    <section><p>多年来，人们一直相信电灯是发射光线的。然而，最近有信息表明，实际上是另一回事。电灯并不射出光线，而是吞噬黑暗。因此我们将电灯泡称为噬暗体。噬暗体理论显示出黑暗的存在，黑暗具有比光更大的质量和更快的速度。</p>
+
+<p>噬暗体理论的基础是，电灯泡其实是在吞噬黑暗。你房间中的噬暗体就是个例子。黑暗在靠近它们的地方要少得多。噬暗体越大，则吞噬黑暗的能力越强。停车场中的大型噬暗体，能力就比在室内的强。和所有的事物一样，噬暗体不会永远工作。一旦它们被黑暗完全占据，便不再吞噬黑暗。完全黑暗的噬暗体上的黑斑就是明证。蜡烛是一种初级的噬暗体。未点燃的蜡烛有白色的灯芯。你会注意到，一旦使用灯芯就变黑了，这表示黑暗都被吞到了灯芯中。如果把一支铅笔靠近正在工作的灯芯，笔尖会变黑，因为它挡住了要流进蜡烛的黑暗。不幸的是，这类初级噬暗体的作用范围十分有限。另外还有可移植的噬暗体。灯泡有时必须依靠黑暗存储单元的协助才能对付黑暗。当黑暗存储单元充满黑暗后，必须清空或者替换掉才能使噬暗体继续起作用。</p>
+
+<p>黑暗具有质量。当黑暗进入噬暗体，会因为摩擦产生热。因此触摸正在工作的噬暗体是不明智的。蜡烛是个典型的例子，因为黑暗必须进入固体的灯芯而不是穿越透明的玻璃。这一过程会产生大量的热，因此触摸正在工作的蜡烛是很危险的。另外，黑暗比光明更重。如果你在湖泊的浅水层游泳，可以看到大量的光线。如果慢慢地潜深，周围也会越来越暗。当潜到大约50尺深的时候，就完全是漆黑一片了。这是因为密度更大的黑暗沉在湖底，而更轻的光明浮在上方。人类可以开发利用黑暗的巨大力量。我们可以收集湖底的黑暗，让它们通过涡轮进入海洋——在那里存储黑暗更为安全——从而产生电力。获得河流和湖泊中的黑暗比建造涡轮困难多了。印第安人就意识到了这个问题并尝试解决它。当独木舟与黑暗流动的方向相同时，印第安人会慢慢地划桨，避免阻碍黑暗的流动；而当他们与黑暗的流向相反时，便急速地划桨以帮助黑暗流动。</p>
+
+<p>最后，我们必须证明黑暗运动的速度比光明快。站在一个有照明的房间内，对着一个黑暗、封闭的壁橱，慢慢打开壁橱的门，你会看见光线缓缓进入壁橱；但因为黑暗是如此快速，你根本无法看清楚它是如何离开壁橱的。</p>
+
+<p>最后我想说，噬暗体让我们的生活更加和谐。因此下次看到电灯泡时，请记住它其实是噬暗体。</p>
+
+<p>翻译自《<a href="http://www.textfiles.com/science/dark.txt">D A R K</a>》。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%bb%91%e6%9a%97》&body=https%3a%2f%2fioerr.github.io%2fposts%2fheian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fheian%2f&text= @calon %e9%bb%91%e6%9a%97&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

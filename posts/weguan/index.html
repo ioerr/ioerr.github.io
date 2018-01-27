@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>微观 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="微观" />
+<meta property="og:description" content="当当当党，火星消息汇总
+爱尾巴 beta
+1新增了两个吸引眼球的功能：Activities
+和 WebSlices，Firefox
+很快就有了相应的扩展：
+Microsoft Activities for
+Firefox
+WebChunks
+向 Tumblr、Soup.io
+风格学习的棒哟经过震荡调整之后，以“微观”的名字重出江湖。如果有什么需求和
+bug 报告，可以直接找大头目 Chris
+Zhang，反馈很快。
+我的微观主页在这里：http://www.weguan.com/user/Calon
+主要内容是贴图，因为文字和链接交给 Twitter 更方便。
+不知何时，受到版权问题困扰的无限上传空间 MyBloop
+又结束闭关状态了，据说现在速度还不错。
+cnnbrk: Barack Obama wins the Mississippi Democratic primary, CNN
+projects.
+Calon: Barack Obama wins the Mississippi Democratic primary, CNN
+projects. (via @cnnbrk )
+cnnbrk: Correction: Exit polls show Obama leading Clinton in
+Mississippi. CNN has not projected this
+race.
+Calon: 我晕，10分钟之内被 CNN Twitter bot 硬生生的给涮了" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/weguan/" />
+
+
+
+<meta property="article:published_time" content="2008-03-12T02:52:42&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-03-12T02:52:42&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="微观">
+<meta itemprop="description" content="当当当党，火星消息汇总
+爱尾巴 beta
+1新增了两个吸引眼球的功能：Activities
+和 WebSlices，Firefox
+很快就有了相应的扩展：
+Microsoft Activities for
+Firefox
+WebChunks
+向 Tumblr、Soup.io
+风格学习的棒哟经过震荡调整之后，以“微观”的名字重出江湖。如果有什么需求和
+bug 报告，可以直接找大头目 Chris
+Zhang，反馈很快。
+我的微观主页在这里：http://www.weguan.com/user/Calon
+主要内容是贴图，因为文字和链接交给 Twitter 更方便。
+不知何时，受到版权问题困扰的无限上传空间 MyBloop
+又结束闭关状态了，据说现在速度还不错。
+cnnbrk: Barack Obama wins the Mississippi Democratic primary, CNN
+projects.
+Calon: Barack Obama wins the Mississippi Democratic primary, CNN
+projects. (via @cnnbrk )
+cnnbrk: Correction: Exit polls show Obama leading Clinton in
+Mississippi. CNN has not projected this
+race.
+Calon: 我晕，10分钟之内被 CNN Twitter bot 硬生生的给涮了">
+
+
+<meta itemprop="datePublished" content="2008-03-12T02:52:42&#43;00:00" />
+<meta itemprop="dateModified" content="2008-03-12T02:52:42&#43;00:00" />
+<meta itemprop="wordCount" content="87">
+
+
+
+<meta itemprop="keywords" content="Barack Obama,firefox,Hillary Clinton,MyBloop,微观,林明美," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="微观"/>
+<meta name="twitter:description" content="当当当党，火星消息汇总
+爱尾巴 beta
+1新增了两个吸引眼球的功能：Activities
+和 WebSlices，Firefox
+很快就有了相应的扩展：
+Microsoft Activities for
+Firefox
+WebChunks
+向 Tumblr、Soup.io
+风格学习的棒哟经过震荡调整之后，以“微观”的名字重出江湖。如果有什么需求和
+bug 报告，可以直接找大头目 Chris
+Zhang，反馈很快。
+我的微观主页在这里：http://www.weguan.com/user/Calon
+主要内容是贴图，因为文字和链接交给 Twitter 更方便。
+不知何时，受到版权问题困扰的无限上传空间 MyBloop
+又结束闭关状态了，据说现在速度还不错。
+cnnbrk: Barack Obama wins the Mississippi Democratic primary, CNN
+projects.
+Calon: Barack Obama wins the Mississippi Democratic primary, CNN
+projects. (via @cnnbrk )
+cnnbrk: Correction: Exit polls show Obama leading Clinton in
+Mississippi. CNN has not projected this
+race.
+Calon: 我晕，10分钟之内被 CNN Twitter bot 硬生生的给涮了"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-03-12 02:52">2008-03-12</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>微观</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/barack-obama">
+              <span class="hash">#</span>Barack Obama</a>
+          
+            , 
+            <a href="/tags/firefox">
+              <span class="hash">#</span>firefox</a>
+          
+            , 
+            <a href="/tags/hillary-clinton">
+              <span class="hash">#</span>Hillary Clinton</a>
+          
+            , 
+            <a href="/tags/mybloop">
+              <span class="hash">#</span>MyBloop</a>
+          
+            , 
+            <a href="/tags/%E5%BE%AE%E8%A7%82">
+              <span class="hash">#</span>微观</a>
+          
+            , 
+            <a href="/tags/%E6%9E%97%E6%98%8E%E7%BE%8E">
+              <span class="hash">#</span>林明美</a>
+          
+        
+      </p>
+    </header>
+    <section><p>当当当党，火星消息汇总</p>
+
+<p><a href="http://mozillalinks.org/wp/2008/03/internet-explorer-8-beta-1-first-impressions/">爱尾巴 beta<br />
+1</a>新增了两个吸引眼球的功能：Activities<br />
+和 WebSlices，<a href="http://mozillalinks.org/wp/2008/03/ie-8-activities-and-webslices-for-firefox/">Firefox<br />
+很快就有了相应的扩展</a>：<br />
+<a href="http://www.kaply.com/weblog/2008/03/07/microsoft-activities-for-firefox-new-version/">Microsoft Activities for<br />
+Firefox</a><br />
+<a href="http://www.glazman.org/weblog/dotclear/index.php?post/2008/03/10/WebSlices-in-Firefox-who-wants-to-try-">WebChunks</a></p>
+
+<p>向 Tumblr、Soup.io<br />
+风格学习的棒哟经过震荡调整之后，以“<a href="http://www.weguan.com/">微观</a>”的名字重出江湖。如果有什么需求和<br />
+bug 报告，可以直接找大头目 <a href="http://twitter.com/zkyo">Chris<br />
+Zhang</a>，反馈很快。</p>
+
+<p>我的微观主页在这里：<a href="http://www.weguan.com/user/Calon">http://www.weguan.com/user/Calon</a><br />
+主要内容是贴图，因为文字和链接交给 Twitter 更方便。</p>
+
+<p>不知何时，受到版权问题困扰的无限上传空间 <a href="http://mybloop.com/">MyBloop</a><br />
+又结束闭关状态了，据说现在速度还不错。</p>
+
+<p>cnnbrk: <a href="http://twitter.com/cnnbrk/statuses/770103024">Barack Obama wins the Mississippi Democratic primary, CNN<br />
+projects.</a><br />
+Calon: <a href="http://twitter.com/calon/statuses/770107245">Barack Obama wins the Mississippi Democratic primary, CNN<br />
+projects. (via @cnnbrk )</a><br />
+cnnbrk: <a href="http://twitter.com/cnnbrk/statuses/770107239">Correction: Exit polls show Obama leading Clinton in<br />
+Mississippi. CNN has not projected this<br />
+race.</a><br />
+Calon: 我晕，10分钟之内被 CNN Twitter bot 硬生生的给涮了<br />
+cnnbrk: <a href="http://twitter.com/cnnbrk/statuses/770116257">CNN projects that Sen. Barack Obama will win the Mississippi<br />
+Democratic primary.</a></p>
+
+<p>于是我怒了，<a href="http://v.youku.com/v_show/id_XMjA1NDM5NzI=.html">驴党狗男女接招</a>！</p>
+
+<p>我被雷到了：<a href="http://news.sohu.com/20060215/n241846661.shtml">全国人大代表北京代表团林明美</a><br />
+这一刻，无数天顶星宅男的心在滴血！<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00038.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00038.jpg" alt="Photobucket" /></a></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%be%ae%e8%a7%82》&body=https%3a%2f%2fioerr.github.io%2fposts%2fweguan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fweguan%2f&text= @calon %e5%be%ae%e8%a7%82&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

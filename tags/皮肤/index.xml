@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>皮肤 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%9A%AE%E8%82%A4/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%9A%AE%E8%82%A4/</link>
     <description>Recent content in 皮肤 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%9A%AE%E8%82%A4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2009 04:54:10 +0000</lastBuildDate>
     
-    <item>
-      <title>Personas</title>
-      <link>https://ioerr.github.io/personas/</link>
-      <pubDate>Tue, 01 Dec 2009 04:54:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/personas/</guid>
-      <description>&lt;p&gt;很久没有再拿起 &lt;a href=&#34;http://www.getpersonas.com/&#34;&gt;Personas&lt;/a&gt; 这个 Firefox
-的轻量级皮肤，因为当时看得顺眼的皮肤只有寥寥几款，比如
+      <atom:link href="https://ioerr.github.io/tags/%E7%9A%AE%E8%82%A4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Personas</title>
+        <link>https://ioerr.github.io/posts/personas/</link>
+        <pubDate>Tue, 01 Dec 2009 04:54:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/personas/</guid>
+        <description>&lt;p&gt;很久没有再拿起 &lt;a href=&#34;http://www.getpersonas.com/&#34;&gt;Personas&lt;/a&gt; 这个 Firefox&lt;br /&gt;
+的轻量级皮肤，因为当时看得顺眼的皮肤只有寥寥几款，比如&lt;br /&gt;
 &lt;a href=&#34;http://www.getpersonas.com/persona/51&#34;&gt;Viva&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;最近发现 Personas
+&lt;p&gt;最近发现 Personas&lt;br /&gt;
 的皮肤库存已经有了海量的增长，于是上去淘了一些中意的皮肤：&lt;br /&gt;
 &lt;img src=&#34;http://www.getpersonas.com/static/0/8/8/preview.jpg&#34; alt=&#34;Firefox Pipes&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.getpersonas.com/persona/08&#34;&gt;Firefox Pipes&lt;/a&gt;&lt;/p&gt;
@@ -127,11 +127,11 @@ Light&#34; /&gt;&lt;br /&gt;
 
 &lt;p&gt;不能够直接分享收藏页面真是痛苦啊~&lt;/p&gt;
 
-&lt;p&gt;因为我的 Firefox 主题采用浅色调，所以我选择的 Personas
+&lt;p&gt;因为我的 Firefox 主题采用浅色调，所以我选择的 Personas&lt;br /&gt;
 皮肤也大都以浅淡色调为主，并且多采用抽象图案。&lt;br /&gt;
 有的皮肤作为图片是很好看，但是用作背景就太杂乱、浓艳，影响阅读、使用的效果。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

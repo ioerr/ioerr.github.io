@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文明 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/</link>
     <description>Recent content in 文明 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2015 14:55:10 +0000</lastBuildDate>
     
-    <item>
-      <title>互联网才刚刚开始</title>
-      <link>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</link>
-      <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</guid>
-      <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>互联网才刚刚开始</title>
+        <link>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</link>
+        <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</guid>
+        <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
 
-&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P
+&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P&lt;br /&gt;
 资源、破坏内容分享体系导致有价值内容的消失，移动互联网瓦解有价值的信息生产能力，还是互联网加速遗忘的速度，我都不赞同。&lt;/p&gt;
 
 &lt;p&gt;资产阶级兴起冲击特权贵族社会地位，彻底改变社会关系和大众生活方式的时候，也被后者认为品位恶俗鄙陋，道德堕落不堪。&lt;br /&gt;
-单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。
+单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。&lt;br /&gt;
 哲学、科学、艺术都是有闲者的玩物，商人一开始只想拿来充数好混入上流社会，小资至今都还向往高大上的贵族式生活。&lt;br /&gt;
 但那是把集中优秀资源到金字塔顶的产物和全社会合作分工的产物作比较。在精英和特权阶级看不到的地方，价值和品位的提升其实远甚以往。&lt;/p&gt;
 
@@ -38,11 +38,11 @@
 &lt;p&gt;迅雷是在服务端集中了资源，但大部分的资源都是盗版，丢失云端海量文件的用户真的认为这些内容很重要吗？&lt;br /&gt;
 我不觉得，否则为什么用户只给迅雷付费，不为内容付费呢？&lt;br /&gt;
 而且已经在无数个本地保留的文件随时可以凭借传统的 P2P 网络复活。&lt;br /&gt;
-更不用说，没有作为流通渠道的 P2P
+更不用说，没有作为流通渠道的 P2P&lt;br /&gt;
 网络，与内容生产者何干？丝毫不影响重新创造更优质的内容。&lt;br /&gt;
 至于害怕政府审查的内容，有心防范的用户本就不会信任迅雷这种服务。&lt;/p&gt;
 
-&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook
+&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook&lt;br /&gt;
 和微信，正在全盛期的社交服务大有把整个互联网熟人关系纳入信息孤岛的趋势，有人甚至担心整个互联网被这些社交服务垄断。&lt;br /&gt;
 但我一点也不担心这会成真，因为互联网存在就说明信息的自由流动和开放的需求存在。&lt;/p&gt;
 
@@ -59,15 +59,14 @@
 庞贝被火山毁灭，亚历山大图书馆被人类毁灭，人类文明照样不断发展，到如今羊皮纸卷上的文字仅有考古的意义。&lt;br /&gt;
 互联网不过是信息交流和存储的工具之一，已经流到人类脑海中的信息和人类本身的行为才代表了文明。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>关于骂教育的讨论</title>
-      <link>https://ioerr.github.io/guanyu-ma-jiaoyu-de-taolun/</link>
-      <pubDate>Fri, 24 Oct 2008 10:26:07 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-ma-jiaoyu-de-taolun/</guid>
-      <description>&lt;p&gt;由 &lt;a href=&#34;http://yyq123.journalspace.com/&#34;&gt;yyq&lt;/a&gt;
+      <item>
+        <title>关于骂教育的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-ma-jiaoyu-de-taolun/</link>
+        <pubDate>Fri, 24 Oct 2008 10:26:07 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-ma-jiaoyu-de-taolun/</guid>
+        <description>&lt;p&gt;由 &lt;a href=&#34;http://yyq123.journalspace.com/&#34;&gt;yyq&lt;/a&gt;&lt;br /&gt;
 的《&lt;a href=&#34;http://feeds.feedburner.com/~r/yyq123-blog/~3/429710368/&#34;&gt;去他妈的教育&lt;/a&gt;》引出了&lt;a href=&#34;https://groups.google.com/group/mindex/browse_thread/thread/51d6fa8897657bd7?hl=zh-CN&#34;&gt;一次短暂的讨论&lt;/a&gt;：&lt;/p&gt;
 
 &lt;p&gt;Calon：&lt;br /&gt;
@@ -97,7 +96,7 @@ FLOYD，劳伦斯，老罗，陈丹青都在骂这个泯灭人性的东西。并
 
 &lt;p&gt;Calon：&lt;br /&gt;
 老罗现在好像还在干这一行？陈丹青当年如果处在不同的教学环境中，是否还会这么骂教育？他们骂的只是一部分，并不是教育的&amp;rdquo;全集&amp;rdquo;；&lt;br /&gt;
-Pink
+Pink&lt;br /&gt;
 Floyd反对的是灌输式的整齐划一的教育，但是否教育只能是这样子？你认为是，我认为不是，所以我说理解不同；&lt;br /&gt;
 劳伦斯要日的就是现代文明，那就是另一个大话题了。&lt;/p&gt;
 
@@ -108,10 +107,10 @@ Floyd反对的是灌输式的整齐划一的教育，但是否教育只能是这
 太有力了,,,,&lt;br /&gt;
 教育对人本身是无用的多,但是对于社会的确是有用的多,是个社会资源分配的比较合理的准绳之一,,,&lt;/p&gt;
 
-&lt;p&gt;教育本身是没有问题的,只是人类一思考上帝就发笑,,,
+&lt;p&gt;教育本身是没有问题的,只是人类一思考上帝就发笑,,,&lt;br /&gt;
 教育体制/课本/从业者/舆论等等掺合在一起出来的就是个死臭的老酱缸了,谁可以提前提醒过来,谁成功!&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

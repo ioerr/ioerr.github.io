@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>手机 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA/</link>
     <description>Recent content in 手机 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 May 2013 10:14:04 +0000</lastBuildDate>
     
-    <item>
-      <title>移动化</title>
-      <link>https://ioerr.github.io/yidonghua/</link>
-      <pubDate>Fri, 31 May 2013 10:14:04 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidonghua/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>移动化</title>
+        <link>https://ioerr.github.io/posts/yidonghua/</link>
+        <pubDate>Fri, 31 May 2013 10:14:04 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yidonghua/</guid>
+        <description>
 
 &lt;p&gt;在宿遗群聊内因为 Yule 谈到“移动化”的话题，引出以下想法：&lt;/p&gt;
 
@@ -32,22 +32,22 @@
 为什么要占用不止一只手来操作平板呢？&lt;br /&gt;
 为什么只能是利用碎片时间呢？&lt;/p&gt;
 
-&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见
+&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见&lt;br /&gt;
 Google Glass 的尝试？就通讯终端设备而言，这一天恐怕不会来得太晚。&lt;/p&gt;
 
 &lt;p&gt;那重点是什么？&lt;/p&gt;
 
-&lt;p&gt;一、Google Glass
+&lt;p&gt;一、Google Glass&lt;br /&gt;
 这类设备仍然没有逃出&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端基本矛盾&lt;/a&gt;中的高性能、多功能与随身电源的矛盾。&lt;/p&gt;
 
 &lt;p&gt;高性能电池技术和无线充电技术仍然是备受期待的技术难点（据说国内在电池技术上已经有重大突破，但不知何时可以推出成熟的工业方案和产品）。&lt;/p&gt;
 
 &lt;p&gt;二、人机界面和人工智能在期待革命。&lt;/p&gt;
 
-&lt;p&gt;前一阵子我还在 twitter
+&lt;p&gt;前一阵子我还在 twitter&lt;br /&gt;
 上提到，科幻作品中作为背景出现的计算机，通常设定为能够准确理解人类的意图，毫无障碍地与人类交流沟通，可是，这样高超的人机交互能力，以及可以准确分析、理解和预测人类意图的人工智能，其实现难度不下于时空穿越、永生不死、心灵感应。&lt;br /&gt;
 不过是在理论上确有可能，因此在虚构作品中也就轻而易举地做到了。但在现实世界中，何其难哉！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好
+&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好&lt;br /&gt;
 IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟需要我们去填平。&lt;/p&gt;
 
 &lt;p&gt;哪怕是在最基本的操作方面，比如，我在电脑上看到的一段视频，想要手一拨就送到屏幕旁的手机中带出去看，而不是两个设备通过有线或无线手工连接上，打开相应的程序同步，还要等很久才能传完完整的视频，搞不好还要担心没电或者没空间等等……&lt;/p&gt;
@@ -84,21 +84,20 @@ IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟�
 用户只要在成本可以接受的范围内顺利地达到了这些目的就行，而为了实现这个业务目的要具备或优化的种种软硬件和网络条件，特别是一系列配套服务，从受理、提醒、支付、关怀和投诉处理到导航、导购、社交，是运营商要一边做好一边不让用户操心甚至担心的事情。&lt;br /&gt;
 虽然现在我的想法还比较模糊，但只要意识到这方面的现状还有巨大的改进余地，就未来必然有可以作为的空间。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>通讯录服务应有的变革</title>
-      <link>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</link>
-      <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tongxunlu-fuwu-yingyou-de-biange/</guid>
-      <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
+      <item>
+        <title>通讯录服务应有的变革</title>
+        <link>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</link>
+        <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</guid>
+        <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
 
 &lt;p&gt;其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。&lt;/p&gt;
 
 &lt;p&gt;为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。&lt;br /&gt;
-在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如
-YouKnowWho at
+在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如&lt;br /&gt;
+YouKnowWho at&lt;br /&gt;
 Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。&lt;br /&gt;
 用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。&lt;/p&gt;
 
@@ -110,21 +109,20 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 
 &lt;p&gt;至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。&lt;/p&gt;
 
-&lt;p&gt;其实这就像即时通讯软件 ID
+&lt;p&gt;其实这就像即时通讯软件 ID&lt;br /&gt;
 从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。&lt;br /&gt;
 而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Draw Something</title>
-      <link>https://ioerr.github.io/draw-something/</link>
-      <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/draw-something/</guid>
-      <description>&lt;p&gt;最近 &lt;a href=&#34;http://itunes.apple.com/app/draw-something-by-omgpop/id488627858&#34;&gt;Draw
-Something&lt;/a&gt;
-这款 iOS
+      <item>
+        <title>Draw Something</title>
+        <link>https://ioerr.github.io/posts/draw-something/</link>
+        <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/draw-something/</guid>
+        <description>&lt;p&gt;最近 &lt;a href=&#34;http://itunes.apple.com/app/draw-something-by-omgpop/id488627858&#34;&gt;Draw&lt;br /&gt;
+Something&lt;/a&gt;&lt;br /&gt;
+这款 iOS&lt;br /&gt;
 上的游戏很火爆，最吸引人的特色大概可以归纳为：&lt;strong&gt;无压力的限题自由创作&lt;/strong&gt;和&lt;strong&gt;异步的交流&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;不需要你画得有多棒，只要好友能够认得出来或者猜得出来就行，在熟人眼里，画得很差劲有时候还是个不错的笑料；&lt;br /&gt;
@@ -140,30 +138,29 @@ Something&lt;/a&gt;
 异步，也是避免实时同步交互带来的沟通压力，变相鼓励用户用心创作，也降低了观察对方行为的时间成本；&lt;br /&gt;
 最重要的是，每个人从“创作”和“交流”中享受到的乐趣，多过破坏、消灭、杀戮的原始冲动满足。&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 分析如今家用主机多人在线游戏市场，无非是竞争、互相厮杀或者一起杀敌。游戏互动的核心都是从传统单机游戏演变而来。而这些以强大感为中心的游戏变成了在线多人游戏后。人们的互动几乎都是专注于力量的使用。当你看到另一个在线玩家，你的第一个念头一般都是，我要如何把我的力量用在他身上，如何连击他？如何爆头他？这个现象不只出现在游戏中，也发生在今天这个被科技和信息高度强化的社会中，走在商业区的市中心，大家心里想着的是如何完成下一个任务，如何赚取力量如何使用力量。很少有人会驻足和一个过路人交流。而当你放下城市中的力量和包袱去深山中远游，每一个路过的旅人都是异常的亲切。&lt;/p&gt;
 
-&lt;p&gt;所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。
-&lt;/blockquote&gt;
+&lt;p&gt;所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 ——&lt;a href=&#34;http://www.zhihu.com/question/20125406/answer/14067659&#34;&gt;陈星汉谈设计《旅程》（Journey）的想法&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;是不是有异曲同工之妙呢？&lt;/p&gt;
 
 &lt;p&gt;最后，可以通过我的邮箱在 Draw Something 中找到我一起玩。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Dungeon Raid</title>
-      <link>https://ioerr.github.io/dungeon-raid/</link>
-      <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dungeon-raid/</guid>
-      <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
+      <item>
+        <title>Dungeon Raid</title>
+        <link>https://ioerr.github.io/posts/dungeon-raid/</link>
+        <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dungeon-raid/</guid>
+        <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
 
-&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon
-Raid&lt;/a&gt;
-是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的
+&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon&lt;br /&gt;
+Raid&lt;/a&gt;&lt;br /&gt;
+是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的&lt;br /&gt;
 Dungeon Raid）。&lt;br /&gt;
 这个游戏上市的时间很久了，不过其设计值得学习。&lt;/p&gt;
 
@@ -195,15 +192,14 @@ Raid&#34; /&gt;&lt;/p&gt;
 有多种升级选择和发展路径；&lt;br /&gt;
 简而言之，容易沉迷。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>手机应用创意</title>
-      <link>https://ioerr.github.io/shouji-yingyong-chuangyi/</link>
-      <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-yingyong-chuangyi/</guid>
-      <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
+      <item>
+        <title>手机应用创意</title>
+        <link>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</link>
+        <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</guid>
+        <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
 最关心的是，定位功能和手机结合起来能够有什么好玩法。&lt;/p&gt;
 
 &lt;p&gt;现在的 LBS 服务普遍功能单调，实用性不够，签到的操作麻烦。&lt;br /&gt;
@@ -375,7 +371,7 @@ Google的搜索结果实时通知不靠谱，因为它不能准确了解你期�
 
 &lt;p&gt;** 正品商标识别**&lt;/p&gt;
 
-&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG
+&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG&lt;br /&gt;
 Amycall手机、康帅傅方便面。&lt;br /&gt;
 用这个应用拍下商标，就可以自动分析是否正品。&lt;br /&gt;
 如果所有产品使用统一的二维码或条码校验，也可以结合二维码和条码验证，准确率更高。这样山寨品牌要造假，标志必须做得完全一样，二维码或条码也必须与正牌完全一样，就很难打擦边球了。&lt;/p&gt;
@@ -441,15 +437,14 @@ Amycall手机、康帅傅方便面。&lt;br /&gt;
 在钥匙上贴标签吧，又怕旁人知道，不太安全。&lt;br /&gt;
 这个应用可以拍照、扫描钥匙的齿形，记录匹配的锁的信息，今后，当你偶然翻出一把很久都没用过的钥匙，又想不起来是用在哪里的时候，用摄像头照一下，答案就出现了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>手机电池炸弹</title>
-      <link>https://ioerr.github.io/shouji-dianchi-zhadan/</link>
-      <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-dianchi-zhadan/</guid>
-      <description>&lt;p&gt;以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…&lt;/p&gt;
+      <item>
+        <title>手机电池炸弹</title>
+        <link>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</link>
+        <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</guid>
+        <description>&lt;p&gt;以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…&lt;/p&gt;
 
 &lt;p&gt;在现代信息社会，恐怖袭击若只是刀枪剑戟（想必董卓对最后一项印象深刻）或一般的火枪炸弹，未免太落后于时代，基地组织前无古人的劫机撞大楼已经成为重点防范对象，液体炸弹也曾功亏一篑，新世纪的恐怖分子需要一种新的方法，反恐部门也需要尽早做好应对准备才是啊…&lt;/p&gt;
 
@@ -464,29 +459,28 @@ Amycall手机、康帅傅方便面。&lt;br /&gt;
 &lt;p&gt;所以，恐怖分子们可以赶紧收购并做大一家手机电池厂商，专门生产能够爆炸的手机电池，并推销给全世界&lt;br /&gt;
 而反恐部门不妨将劣质手机电池厂商列为重点监视目标，搞不好还能顺手逮到本拉登…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>CECT S610</title>
-      <link>https://ioerr.github.io/cect-s610/</link>
-      <pubDate>Sun, 22 Mar 2009 02:44:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cect-s610/</guid>
-      <description>&lt;p&gt;新手机到手，选择了性价比比较高，体积也没有一般的 PPC 那么吓人的 &lt;a href=&#34;http://mobile.younet.com/files/18/18538.html&#34;&gt;CECT
-S610&lt;/a&gt;（对应的 GSM 机型是
-i-Mate 的
+      <item>
+        <title>CECT S610</title>
+        <link>https://ioerr.github.io/posts/cect-s610/</link>
+        <pubDate>Sun, 22 Mar 2009 02:44:54 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/cect-s610/</guid>
+        <description>&lt;p&gt;新手机到手，选择了性价比比较高，体积也没有一般的 PPC 那么吓人的 &lt;a href=&#34;http://mobile.younet.com/files/18/18538.html&#34;&gt;CECT&lt;br /&gt;
+S610&lt;/a&gt;（对应的 GSM 机型是&lt;br /&gt;
+i-Mate 的&lt;br /&gt;
 PDAL）。基本不需要玩什么游戏，也不指望拿来看电影、听音乐、拍照片，所以对硬件的要求不高；折腾得不多，所以不刷机也能用。&lt;br /&gt;
 到手之后，除了传说中的电池续航能力是最大的问题之外，其他一切倒还好。&lt;/p&gt;
 
-&lt;p&gt;到手之后发现自己对 Windows Mobile
+&lt;p&gt;到手之后发现自己对 Windows Mobile&lt;br /&gt;
 很不习惯，而且常用的应用不可或缺，于是立刻安装趁手的工具：&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.ghisler.com/pocketpc.htm&#34;&gt;Total Commander for Pocket
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.ghisler.com/pocketpc.htm&#34;&gt;Total Commander for Pocket&lt;br /&gt;
 PC&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
 据说 Resco Explorer 很好，但是对 TC 有感情，又是免费的版本，当然用 TC。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.dayhand.com/input.htm&#34;&gt;点讯输入法&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-自带的输入法始终不够用，而同时支持26键布局和双拼输入的点讯就成了首选，如果
+自带的输入法始终不够用，而同时支持26键布局和双拼输入的点讯就成了首选，如果&lt;br /&gt;
 A4有双拼方案才会再考虑。&lt;br /&gt;
 点讯划词输入的创意不错，双拼方案也可以自己定义。&lt;/p&gt;
 
@@ -500,11 +494,11 @@ Opera Mini 用久了换换口味，首选速度快、支持多窗口、免费的
 自带的闹钟功能太弱，用功能强大、比较稳定的无限闹钟代替。好像作者已经停止了开发，但目前的版本已经足够用了，甚至多了许多不需要的功能。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;快速菜单&lt;/strong&gt;&lt;br /&gt;
-既然没有手机上的 Executor，那就好好整理一下 Windows Mobile
+既然没有手机上的 Executor，那就好好整理一下 Windows Mobile&lt;br /&gt;
 的开始菜单，不要迷失在 \$tart 的汪洋大海中。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.google.com/p/pocketwit/&#34;&gt;PockeTwit&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-Twitter 和 FriendFeed 上多位朋友推荐的 Twitter
+Twitter 和 FriendFeed 上多位朋友推荐的 Twitter&lt;br /&gt;
 手机客户端，感觉和网页版的要结合起来用才行。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.iliumsoft.com/site/lp/lp_trial.php&#34;&gt;ListPro&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
@@ -514,17 +508,16 @@ Twitter 和 FriendFeed 上多位朋友推荐的 Twitter
 &lt;p&gt;&lt;strong&gt;Jbed Java 模拟器&lt;/strong&gt;&lt;br /&gt;
 需要使用 Java 程序的时候才用得到，目前只装了个 Gmail for Mobile。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>电子书的未来</title>
-      <link>https://ioerr.github.io/dianzishu-de-weilai/</link>
-      <pubDate>Fri, 02 Jan 2009 16:54:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianzishu-de-weilai/</guid>
-      <description>&lt;hr /&gt;
+      <item>
+        <title>电子书的未来</title>
+        <link>https://ioerr.github.io/posts/dianzishu-de-weilai/</link>
+        <pubDate>Fri, 02 Jan 2009 16:54:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dianzishu-de-weilai/</guid>
+        <description>&lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/e/78c2e344-8d2d-c185-2657-9acb8b82e5cc&#34;&gt;FriendFeed&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/e/78c2e344-8d2d-c185-2657-9acb8b82e5cc&#34;&gt;FriendFeed&lt;/a&gt;&lt;br /&gt;
 从&lt;a href=&#34;http://www.ruanyifeng.com/&#34;&gt;阮一峰&lt;/a&gt;的《&lt;a href=&#34;http://www.ruanyifeng.com/blog/2009/01/e-books_start_to_take_hold.html&#34;&gt;电子书的时代正在来临&lt;/a&gt;》一文出发讨论电子书的未来，我把自己的观点记录在这里：&lt;/p&gt;
 
 &lt;p&gt;现在专门的电子书产品太多考虑传统的阅读习惯和传统书籍的身份定位了，比如：&lt;br /&gt;
@@ -537,26 +530,25 @@ Twitter 和 FriendFeed 上多位朋友推荐的 Twitter
 &lt;p&gt;也许今后普及开的电子书阅读习惯和需要的附加功能和现在有很大不同，电子书的定位会更加微妙呢？&lt;br /&gt;
 在手机、PDA、掌上游戏机的基础上慢慢演化出有代表性的电子书产品，或许比现在这种专门的电子书产品有生命力。&lt;/p&gt;
 
-&lt;p&gt;看看电子书产品追求的方向吧，Kindle
+&lt;p&gt;看看电子书产品追求的方向吧，Kindle&lt;br /&gt;
 式的内容服务，可弯曲的电子纸张，更加省电和有利阅读的显示技术，但这基本都是用目前技术上的短板去追赶传统书籍的长处（除了内容服务之外，电子书能够比纸质书籍更好弯曲，更省电，更适合阅读？内容服务还要受到盗版和传统出版业专业内容优势的排挤），换来的是较高的价格和不够完美的便携性。&lt;br /&gt;
-而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和
-CP/SP
+而手机呢？天然的无线接入通道，便携性不在话下，早已成为日常用品因此不会挤占更多的空间，订阅、搜索、批注等等基本可以满足需要，加上价格相对便宜，款式多种多样，融合的功能丰富多样（就算靠电子书的软硬件暂时赚不到钱也不影响销售和盈利），有运营商和&lt;br /&gt;
+CP/SP&lt;br /&gt;
 推动，即使阅读体验差一点，也能被更多的人很自然的接受——因为它的天然的优势正是传统书籍的劣势。&lt;br /&gt;
 消费者们需要的并不是各个方面都超越传统书籍的产品，而是在一个新的时代能够迎合新的使用习惯的产品。&lt;/p&gt;
 
-&lt;p&gt;所以，当分析师认为 Kindle
+&lt;p&gt;所以，当分析师认为 Kindle&lt;br /&gt;
 在55-64岁人群中最流行时，年轻人其实更愿意拥抱手机；号称成功的电子书产品的销售量以十万、百万计，但就算只是在中国，每天上下班路上握着小小手机看书的人的数量就能够达到这个数量级吧。&lt;br /&gt;
 大众是需要电子书这样的产品，不过当属于“电子书”的时代来临时，那些呼风唤雨的，倒未必是今天这些电子书的嫡生子吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>手机闹铃</title>
-      <link>https://ioerr.github.io/shouji-naoling/</link>
-      <pubDate>Tue, 04 Nov 2008 01:40:09 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-naoling/</guid>
-      <description>&lt;p&gt;作为一个死上班族和去死去死团团员，每天早上第一个要打交道的自然是手机的闹铃功能了，一款设计出色的闹铃能够让你保持至少5分钟的愉悦，而糟糕的设计，只能用来试探你的底线。&lt;/p&gt;
+      <item>
+        <title>手机闹铃</title>
+        <link>https://ioerr.github.io/posts/shouji-naoling/</link>
+        <pubDate>Tue, 04 Nov 2008 01:40:09 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-naoling/</guid>
+        <description>&lt;p&gt;作为一个死上班族和去死去死团团员，每天早上第一个要打交道的自然是手机的闹铃功能了，一款设计出色的闹铃能够让你保持至少5分钟的愉悦，而糟糕的设计，只能用来试探你的底线。&lt;/p&gt;
 
 &lt;p&gt;虽然到目前为止还没有一款手机闹钟完全让人满意，但我至少能够提炼出那些我喜欢的特性是不是？&lt;/p&gt;
 
@@ -582,15 +574,14 @@ CP/SP
 &lt;p&gt;7、不同时段可以设置不同铃音；&lt;br /&gt;
 其实也不要弄得太复杂，因为只对那些睁开眼睛还搞不清楚到底是上午还是下午的人有用。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>手机中的零号机</title>
-      <link>https://ioerr.github.io/shouji-zhong-de-linghaoji/</link>
-      <pubDate>Thu, 04 Sep 2008 17:04:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-zhong-de-linghaoji/</guid>
-      <description>&lt;p&gt;虽然我曾经专门写文表达了对&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;手机中的打火机&lt;/a&gt;的强烈不满，但最近的一件事情使我的想法完完全全彻彻底底的改变了！它使我意识到，我错了，我真的错了，幼稚的我是不能够马上看出这样一款划时代的手机产品的真正实力的。&lt;/p&gt;
+      <item>
+        <title>手机中的零号机</title>
+        <link>https://ioerr.github.io/posts/shouji-zhong-de-linghaoji/</link>
+        <pubDate>Thu, 04 Sep 2008 17:04:18 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-zhong-de-linghaoji/</guid>
+        <description>&lt;p&gt;虽然我曾经专门写文表达了对&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;手机中的打火机&lt;/a&gt;的强烈不满，但最近的一件事情使我的想法完完全全彻彻底底的改变了！它使我意识到，我错了，我真的错了，幼稚的我是不能够马上看出这样一款划时代的手机产品的真正实力的。&lt;/p&gt;
 
 &lt;p&gt;那是一个艳阳高照的日子，我把手机放在牛仔裤屁股后面的口袋中在公交车上痛苦的假寐，全然没有意识到人品界面学科上一个伟大的历史事件正在发生！当我到达目的地后掏出手机一看，是这样一个画面：&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/2828431094/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3090/2828431094_27b3735e71.jpg&#34; alt=&#34;神奇的电话簿 (by
@@ -610,29 +601,28 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 9、选择保存；&lt;br /&gt;
 10、确认保存号码；&lt;/p&gt;
 
-&lt;p&gt;&lt;strike&gt;哎哟我的娘啊，杰克，这真是太神奇了！&lt;/strike&gt;
+&lt;p&gt;&lt;strike&gt;哎哟我的娘啊，杰克，这真是太神奇了！&lt;/strike&gt;&lt;br /&gt;
 我操，小明同学，这真是忒牛逼了！&lt;br /&gt;
 虽然这没有猴子在打字机上敲出莎士比亚著作那么夸张，但是也足够震撼人心了，毕竟主角只是屁股而已（屁股：喂，“毕竟…只是…而已”是什么意思啊？！）。&lt;/p&gt;
 
-&lt;p&gt;人品界面史上所有伟大的发明在这一刻被轰杀至渣！Xerox
-PARC、Apple/M\$/Google/Nokia/Motorola/SE…
+&lt;p&gt;人品界面史上所有伟大的发明在这一刻被轰杀至渣！Xerox&lt;br /&gt;
+PARC、Apple/M\$/Google/Nokia/Motorola/SE…&lt;br /&gt;
 以及一干人品界面设计大师在这一刻泪流满面！&lt;/p&gt;
 
-&lt;p&gt;你们能够开发出界面的易用性达到让屁股（还是半边）都能够独自打开键盘锁并保存联系人信息到号码簿的手机系统么？
+&lt;p&gt;你们能够开发出界面的易用性达到让屁股（还是半边）都能够独自打开键盘锁并保存联系人信息到号码簿的手机系统么？&lt;br /&gt;
 ！！！！！ :worship:&lt;/p&gt;
 
-&lt;p&gt;Human-Computer Interface 中的 Human 一词将被 Hip
+&lt;p&gt;Human-Computer Interface 中的 Human 一词将被 Hip&lt;br /&gt;
 代替，一门新的学科就此诞生！&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>人品界面的糟糕典范</title>
-      <link>https://ioerr.github.io/renpin-jiemian-de-zaogao-dianfan/</link>
-      <pubDate>Tue, 01 Jul 2008 14:33:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/renpin-jiemian-de-zaogao-dianfan/</guid>
-      <description>
+      <item>
+        <title>人品界面的糟糕典范</title>
+        <link>https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/</link>
+        <pubDate>Tue, 01 Jul 2008 14:33:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/</guid>
+        <description>
 
 &lt;p&gt;在今天早上的一次乌龙事件之后，我终于对&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;手头的这个山寨机&lt;/a&gt;忍无可忍了！&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;之前说过&lt;/a&gt;要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：&lt;/p&gt;
 
@@ -653,43 +643,43 @@ PARC、Apple/M\$/Google/Nokia/Motorola/SE…
 &lt;p&gt;8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。&lt;br /&gt;
 这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；&lt;/p&gt;
 
-&lt;p&gt;9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和
+&lt;p&gt;9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和&lt;br /&gt;
 SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；&lt;/p&gt;
 
-&lt;p&gt;10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;amp;#(|\^`
+&lt;p&gt;10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;amp;#(|\^`&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：
+11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 1、输入法； &lt;/br&gt;&lt;br /&gt;
 2、确定（开始查找）。 &lt;/br&gt;&lt;br /&gt;
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？
+在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？
+又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？
+我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-12、如果将联系人信息复制到 SIM
-卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；
+12、如果将联系人信息复制到 SIM&lt;br /&gt;
+卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 13、“使用‘确定’键加亮空格，使用0键标记该空格。” &lt;/br&gt;&lt;br /&gt;
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？
+这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。
+14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。
+懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…
+于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。
+除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-15、增值服务中有腾讯 QQ
-之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。
+15、增值服务中有腾讯 QQ&lt;br /&gt;
+之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 尝试着点击，出来的信息只有“提交成功！” &lt;/br&gt;&lt;br /&gt;
 可但是，但可是， &lt;/br&gt;&lt;br /&gt;
@@ -706,103 +696,41 @@ SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间�
 
 &lt;h2 id=&#34;口-但不能被电脑识别-只能和专用插头连起来充电-可是这个唯一的功能是用来充电的&#34;&gt;口，但不能被电脑识别，只能和专用插头连起来充电，可是这个唯一的功能是用来充电的&lt;/h2&gt;
 
-&lt;p&gt;口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复
+&lt;p&gt;口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复&lt;br /&gt;
 USB 标准提出者的； &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-17、如果你的联系人是全部存放在 SIM
-卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！
+17、如果你的联系人是全部存放在 SIM&lt;br /&gt;
+卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；
+没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 也没有人告诉你为什么，毕竟宇宙的终极奥秘始终都需要你自己去探索。 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 18、在号码簿中新增号码之后会直接返回最上级主界面，要想录入之后马上打电话？听刘欢高唱一曲“从头再来”吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>从 iPhone 看三大矛盾</title>
-      <link>https://ioerr.github.io/cong-iphone-kan-sanda-maodun/</link>
-      <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cong-iphone-kan-sanda-maodun/</guid>
-      <description>&lt;p&gt;曾经在&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;中提到过三个基本矛盾：&lt;br /&gt;
+      <item>
+        <title>从 iPhone 看三大矛盾</title>
+        <link>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</link>
+        <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</guid>
+        <description>&lt;p&gt;曾经在&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;中提到过三个基本矛盾：&lt;br /&gt;
 一、显示面积和设备体积、重量的矛盾&lt;br /&gt;
 二、操作舒适性和设备体积的矛盾&lt;br /&gt;
 三、高性能、多功能与耗电量、电池贮存量的矛盾&lt;/p&gt;
 
 &lt;p&gt;现在以仍然在吸引眼球的 iPhone 为例，看看这三个矛盾是否还存在：&lt;/p&gt;
 
-&lt;p&gt;一、iPhone
+&lt;p&gt;一、iPhone&lt;br /&gt;
 的屏幕占据了几乎整个面板正面，应该说在保持体积/面积的前提下，不可能再有扩展空间了，除非采用折叠、投影或眼镜式显示屏等方式。从目前的反响来看，没有人还嫌屏幕太小？&lt;br /&gt;
-二、无数人大赞 iPhone
+二、无数人大赞 iPhone&lt;br /&gt;
 的多点触摸屏幕和软件带来的优良的操作体验，这个矛盾似乎也不成问题，但别忘了，触摸显示屏没有按键操作的反馈手感，这个问题确有不少人抱怨过。要不我们可以把塑胶泡泡粘在手指上，对着屏幕指指点点就把它挤得噼啪作响？&lt;br /&gt;
-三、最致命的问题还是在这里啊！从 iPod 到
-iPhone，电池都是遭到批评的部分，从 iPhone
+三、最致命的问题还是在这里啊！从 iPod 到&lt;br /&gt;
+iPhone，电池都是遭到批评的部分，从 iPhone&lt;br /&gt;
 的身上我们完全看不出这个矛盾有缓解的迹象啊！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>手机中的打火机</title>
-      <link>https://ioerr.github.io/shouji-zhong-de-dahuoji/</link>
-      <pubDate>Thu, 28 Feb 2008 13:45:53 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-zhong-de-dahuoji/</guid>
-      <description>&lt;p&gt;本来很有冲动为手头的这个 PHS
-山寨机专门写篇文章，让大家看看其惨绝人寰的功能和人机界面，但越是折腾就越是心寒，最终我对全面剖析它已经绝望了…&lt;/p&gt;
-
-&lt;p&gt;以下仅列举出几方面：&lt;/p&gt;
-
-&lt;p&gt;1、号称音乐手机，面板上书 Music
-Phone，包装盒号称“64和弦/真人真唱”，还有不规范的专用 USB 接口。&lt;br /&gt;
-结果呢？USB
-口仅能用于充电，电脑无法识别，导出/导入数据/音乐就不用想了。&lt;br /&gt;
-这也罢了，称的上是音乐的铃声只有茉莉花、笔记、山路十八弯、好姑娘、你到底爱不爱我，其中前两首还是
-MIDI…&lt;br /&gt;
-我是不是应该庆幸它根本就没有提供音乐播放器？&lt;/p&gt;
-
-&lt;p&gt;2、输入法虽然比较齐整，但是无法调整默认输入法，也就是说，即使在同一个窗口中填写不同条目的内容，只要是要求输入中文的，一切换过去永远都是拼音输入法出来…&lt;br /&gt;
-后来在输入联系人名单的时候，我终于意识到，这是在暗示我最好在现实中把联系人统统都干掉以便精简操作。&lt;/p&gt;
-
-&lt;p&gt;3、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。&lt;br /&gt;
-&lt;a href=&#34;http://www.footbig.com/photo/58132&#34;&gt;&lt;img src=&#34;http://fleet1.footbig.com/615/s/fe/ad/fead0bed298d5736662416bee0121aa3-9412.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。&lt;br /&gt;
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…&lt;/p&gt;
-
-&lt;p&gt;4、玩游戏的时候，按下右软键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。&lt;/p&gt;
-
-&lt;p&gt;5、增值服务中有腾讯 QQ
-之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。&lt;br /&gt;
-尝试着点击，出来的信息只有“提交成功！”&lt;br /&gt;
-可但是，但可是，&lt;br /&gt;
-提交了什么？&lt;br /&gt;
-提交给谁了？&lt;br /&gt;
-提交了又怎样？&lt;br /&gt;
-为什么要提交？&lt;br /&gt;
-这项服务究竟是什么东西？&lt;br /&gt;
-没有人回答你。&lt;br /&gt;
-除了几分钟后发过来的一条要你确认交钱的短信…在对你的理解能力进行嘲笑之后最终来一个附加伤害。&lt;br /&gt;
-如果是在移动公司没有整顿 SP 之前这样操作，我会不会亏死？&lt;/p&gt;
-
-&lt;p&gt;6、电话簿群组管理…&lt;br /&gt;
-对不起，我到现在还没有完全参透电话簿群组管理的奥义，它让我明白了什么叫做“天外有天”。&lt;/p&gt;
-
-&lt;p&gt;7、很让人意外的，在 PHS
-终端最有竞争力的“电池续航能力”方面，它也是软蛋一个，2天时间就变成只有1格电…是我见过的电池最差的
-PHS 终端…&lt;/p&gt;
-
-&lt;p&gt;最后是外观，看上去还是不错的，轻便小巧：&lt;br /&gt;
-&lt;a href=&#34;http://www.footbig.com/photo/58133&#34;&gt;&lt;img src=&#34;http://fleet1.footbig.com/615/s/1b/42/1b4218ea22065e963e1ab050fa9cc81a-4683.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.footbig.com/photo/58134&#34;&gt;&lt;img src=&#34;http://fleet1.footbig.com/615/s/8a/45/8a450de0b58ef2c686018281f571725a-6017.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;生产商是&lt;a href=&#34;http://www.sztayo.com/&#34;&gt;深圳天耀科技有限公司&lt;/a&gt;，型号是
-F35E，可能因为是限地区销售，这款型号的机器并没有出现在它的产品清单上。&lt;/p&gt;
-
-&lt;p&gt;不要问我为什么手上会有这一款机器，这当然不是我选的。你们可以不相信我的人品，但一定要相信我的品位！&lt;/p&gt;
-</description>
-    </item>
+      </item>
     
   </channel>
 </rss>

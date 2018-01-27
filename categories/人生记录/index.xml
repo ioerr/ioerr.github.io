@@ -2,21 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人生记录 on 读写错误</title>
-    <link>https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/index.xml</link>
+    <link>https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content in 人生记录 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2018 20:24:39 +0800</lastBuildDate>
     
-    <item>
-      <title>独一无二的普通人</title>
-      <link>https://ioerr.github.io/duyiwuer-de-putongren/</link>
-      <pubDate>Sun, 26 Nov 2017 16:09:14 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/duyiwuer-de-putongren/</guid>
-      <description>&lt;p&gt;看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>理光 GR2评价和使用经验</title>
+        <link>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</link>
+        <pubDate>Fri, 12 Jan 2018 20:24:39 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</guid>
+        <description>&lt;p&gt;入手理光 GR2不到一年，在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;什么值得买&lt;/a&gt;上投稿了一篇文章&lt;a href=&#34;https://post.smzdm.com/p/639625/&#34;&gt;GR 新一代上市之前，RICOH 理光 GR II 使用评价和经验分享&lt;/a&gt;。&lt;br /&gt;
+实在懒得再搬一次图片了，只在这里发链接吧。&lt;/p&gt;
+
+&lt;p&gt;简单的总结如下：&lt;/p&gt;
+
+&lt;p&gt;缺点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成像质量方面：色彩平淡不讨喜，高感成像素质一般，1600万像素不算高；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;装逼方面：外形不够骚（但我很喜欢它的低调外形），没有自带电子或光学取景器；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;功能方面：对焦慢，自动对焦容易识别错主体而跑焦，WiFi 传输实用性不高且耗电快，手机应用异常难用，没有防抖，没有触摸屏，微距最近10厘米；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;可靠性方面：电池续航时间不算长，需要至少备一块电池，有进灰的通病，偶尔会死机。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;优点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;体积小巧，APS-C 幅面相机中最便携的；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;单手操控能力强，机身软件响应迅速，手感和外形低调，便携小数码相机中最适合街拍的；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;镜头成像优异，不愧 GR 系列历来以成像素质闻名的镜头；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;针对的细分目标用户群非常明确，功能设计目的性强，充分扬长避短。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GR 系列相机就像一把暗藏于手中，随时可以出鞘的漆黑匕首，它不是长枪、弩箭或刀剑，如果它的设计理念符合你的需求，那么就没有什么好犹豫的。&lt;/p&gt;
+
+&lt;p&gt;反正对我来说，它是2017年最值的一件商品。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>独一无二的普通人</title>
+        <link>https://ioerr.github.io/posts/duyiwuer-de-putongren/</link>
+        <pubDate>Sun, 26 Nov 2017 16:09:14 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/duyiwuer-de-putongren/</guid>
+        <description>&lt;p&gt;看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。&lt;/p&gt;
 
 &lt;p&gt;少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。&lt;/p&gt;
 
@@ -30,15 +66,14 @@
 
 &lt;p&gt;当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>运气</title>
-      <link>https://ioerr.github.io/yunqi/</link>
-      <pubDate>Mon, 04 Jan 2016 15:13:41 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yunqi/</guid>
-      <description>&lt;p&gt;曾经觉得自己的运气特别不好，倒不是怨天尤人或者为失败找借口，而是总可以遇到许多匪夷所思、非常巧合的事情，使得本来一帆风顺的事情横生枝节。&lt;br /&gt;
+      <item>
+        <title>运气</title>
+        <link>https://ioerr.github.io/posts/yunqi/</link>
+        <pubDate>Mon, 04 Jan 2016 15:13:41 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yunqi/</guid>
+        <description>&lt;p&gt;曾经觉得自己的运气特别不好，倒不是怨天尤人或者为失败找借口，而是总可以遇到许多匪夷所思、非常巧合的事情，使得本来一帆风顺的事情横生枝节。&lt;br /&gt;
 不但如此，发生的必然性几乎都是可以预测的，只有形式无法预料，以至于有好几次我都可以预言将有意外发生，而果真马上应验，让朋友大吃一惊，以为我是半仙。&lt;/p&gt;
 
 &lt;p&gt;然而，后来我才明白，所谓的运气不好，只是因为我总是注意到运气不好的事情而已。&lt;br /&gt;
@@ -50,15 +85,14 @@
 套用一句特别鸡汤的话，内心强大的人，运气往往也不会差。&lt;br /&gt;
 即使个体的运气有差别，以一般人的经历和环境而言，也难以成为决定命运的最重要因素。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>黑暗山洞</title>
-      <link>https://ioerr.github.io/heian-shandong/</link>
-      <pubDate>Fri, 16 Oct 2015 09:49:06 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/heian-shandong/</guid>
-      <description>&lt;p&gt;最近又爆出了华东理工大学一名女研究生的私密照片和视频，尺度非常大，连带还有生活照甚至个人简历信息。&lt;br /&gt;
+      <item>
+        <title>黑暗山洞</title>
+        <link>https://ioerr.github.io/posts/heian-shandong/</link>
+        <pubDate>Fri, 16 Oct 2015 09:49:06 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/heian-shandong/</guid>
+        <description>&lt;p&gt;最近又爆出了华东理工大学一名女研究生的私密照片和视频，尺度非常大，连带还有生活照甚至个人简历信息。&lt;br /&gt;
 网民无非是好奇心驱使到处求下载，然后看过就删，就是不知道当事人会如何自处，她周围的熟人若是知道了会如何看待她。&lt;/p&gt;
 
 &lt;p&gt;若干年前，日本东海大学也有过一桩闹得沸沸扬扬的私密视频流出事件，如果没记错的话，当事人叫加藤大贵和佐久间美佳。&lt;br /&gt;
@@ -82,17 +116,16 @@
 
 &lt;p&gt;而当山洞崩塌，一切隐秘曝光，炽热的阳光杀死洞中最后一线生机，我们要做的也许不是自居圣人指责这基本无害的山洞本不该存在，而是为洞中生灵遭遇飞来横祸的不幸命运默哀。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>担心</title>
-      <link>https://ioerr.github.io/danxin/</link>
-      <pubDate>Wed, 24 Sep 2014 15:49:16 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/danxin/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
-她说：“你永远不会停止担心，永远不会。你记得他第一次从婴儿床爬出来，你来不及抓住他，他便摔倒在地上，你以为他死了。虽然仅仅是一秒钟，但你记得那种想法有多么恐怖。等他渐渐长大，开始骑脚踏车，爬树，自己走路去上学，不等绿灯就冲到车子前面，你都假装没事。你说：‘小孩都这样，我在他那个年纪也做同样的事。’只是在你嗓门底下总有这样一声惊呼是你一直勉强抑制住的。别这样！停止啊！拜托不要受伤！”她转过身来，目光在暗影中直视我们。“它永远不会消失，那种担心，那种恐惧，一秒钟也不会消失。那就是把生命带到这世上来的代价。”
-&lt;/blockquote&gt;
+      <item>
+        <title>担心</title>
+        <link>https://ioerr.github.io/posts/danxin/</link>
+        <pubDate>Wed, 24 Sep 2014 15:49:16 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/danxin/</guid>
+        <description>&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+她说：“你永远不会停止担心，永远不会。你记得他第一次从婴儿床爬出来，你来不及抓住他，他便摔倒在地上，你以为他死了。虽然仅仅是一秒钟，但你记得那种想法有多么恐怖。等他渐渐长大，开始骑脚踏车，爬树，自己走路去上学，不等绿灯就冲到车子前面，你都假装没事。你说：‘小孩都这样，我在他那个年纪也做同样的事。’只是在你嗓门底下总有这样一声惊呼是你一直勉强抑制住的。别这样！停止啊！拜托不要受伤！”她转过身来，目光在暗影中直视我们。“它永远不会消失，那种担心，那种恐惧，一秒钟也不会消失。那就是把生命带到这世上来的代价。”&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 ——丹尼斯·勒翰《&lt;a href=&#34;http://book.douban.com/subject/4199607/&#34;&gt;黑暗，带我走&lt;/a&gt;》&lt;/p&gt;
 
 &lt;p&gt;自从有了儿子，而且还特别好动，就特别理解这种恐惧的感觉。&lt;br /&gt;
@@ -109,15 +142,14 @@
 &lt;p&gt;上周末参加大学同学包子的婚礼，岳父大人将女儿交给新郎包子后，发表了一番深情的演说，和新人紧紧拥抱，然后转身离开。众人的目光都集中在聚光灯下的新人身上，大概只有我还在注视着他，弯着腰、低着头缓缓地走开，在黑暗中一步一回头地不停回望着，那么不舍，那么落寞，那么不放心，仿佛下一秒世界就要毁灭，担心要和女儿永远分离一样。&lt;br /&gt;
 那一刻，我都想一起流泪了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>重拾轮滑</title>
-      <link>https://ioerr.github.io/chongshi-lunhua/</link>
-      <pubDate>Mon, 14 Apr 2014 17:23:15 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/chongshi-lunhua/</guid>
-      <description>&lt;p&gt;至少有15年没有玩轮滑了吧，都不记得最后一次用的单排还是双排轮滑。&lt;br /&gt;
+      <item>
+        <title>重拾轮滑</title>
+        <link>https://ioerr.github.io/posts/chongshi-lunhua/</link>
+        <pubDate>Mon, 14 Apr 2014 17:23:15 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/chongshi-lunhua/</guid>
+        <description>&lt;p&gt;至少有15年没有玩轮滑了吧，都不记得最后一次用的单排还是双排轮滑。&lt;br /&gt;
 最近忽然心血来潮，又想玩了。&lt;br /&gt;
 一是因为出差窝在浦东城乡结合部，上下班要走一大截，路上也没什么行人，正好可以慢慢滑，顺便锻炼一下身体，速度也比走路快；&lt;br /&gt;
 一是因为轮滑和跑步比，对膝盖的损伤较小，也没那么枯燥。&lt;/p&gt;
@@ -125,44 +157,42 @@
 &lt;p&gt;反正我的技术也不咋地，不玩平花，一贯谨慎小心，安全第一，也不玩速滑，只慢慢刷街就好。&lt;/p&gt;
 
 &lt;p&gt;下定决心入手轮滑鞋加护具后，先在宾馆走廊适应了一个小时，然后就出门绕着街区转了一个半小时，基本找回了感觉。&lt;br /&gt;
-两天适应下来，很幸运的没有摔一次，但下楼梯和下坡还得多练练，尤其是路面较差的下坡，无论是
+两天适应下来，很幸运的没有摔一次，但下楼梯和下坡还得多练练，尤其是路面较差的下坡，无论是&lt;br /&gt;
 T 刹还是蛇形都挺难受的。&lt;/p&gt;
 
 &lt;p&gt;询问买哪一款轮滑鞋的时候，有人推荐玩滑板。&lt;br /&gt;
 虽然滑板外出不用换鞋，比轮滑方便，可遇到较差的地形，平衡能力强的可以踩轮滑通过，滑板就基本只能提在手里走过去了，而且轮滑鞋可以塞进较大的包里，滑板基本只能插在包里露出一截。&lt;br /&gt;
 最重要的是，重新找回轮滑的感觉比从头入门学会滑板花费的时间少多了，滑板还是留到以后陪儿子玩的时候再说吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>友情链接</title>
-      <link>https://ioerr.github.io/youqing-lianjie/</link>
-      <pubDate>Wed, 20 Mar 2013 09:59:37 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/youqing-lianjie/</guid>
-      <description>&lt;p&gt;前阵子，&lt;a href=&#34;http://linlis.me/&#34;&gt;linlis&lt;/a&gt;
+      <item>
+        <title>友情链接</title>
+        <link>https://ioerr.github.io/posts/youqing-lianjie/</link>
+        <pubDate>Wed, 20 Mar 2013 09:59:37 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/youqing-lianjie/</guid>
+        <description>&lt;p&gt;前阵子，&lt;a href=&#34;http://linlis.me/&#34;&gt;linlis&lt;/a&gt;&lt;br /&gt;
 友情链接页面下留言，问这里还加不加友情链接。&lt;br /&gt;
 我打开这个页面一看，才发现内容已经无法展示了，很久没有更新维护（上一次是05年8月），也不知道是哪一次升级之后就出了问题。&lt;/p&gt;
 
-&lt;p&gt;刚开始写 blog 时，blogsphere 还是个热闹的小圈子，虽然有 RSS
+&lt;p&gt;刚开始写 blog 时，blogsphere 还是个热闹的小圈子，虽然有 RSS&lt;br /&gt;
 这样的技术，也还是像1.0时代的网站和论坛站长一样，彼此都挂上友情链接。&lt;br /&gt;
-如今，大多数早期中文 blogger
-因为各种各样的原因，有的久不更新，有的转移阵地，有的干脆 404
-销声匿迹，翻看过去的友情链接（以及最近导出整理 Google Reader
+如今，大多数早期中文 blogger&lt;br /&gt;
+因为各种各样的原因，有的久不更新，有的转移阵地，有的干脆 404&lt;br /&gt;
+销声匿迹，翻看过去的友情链接（以及最近导出整理 Google Reader&lt;br /&gt;
 中的订阅），放眼望去尽是熟悉的名字和墓碑一样的标题，未免触景生情满心惆怅唏嘘不已，仿佛对着火腿感叹岁月的杀猪功力已堪比肉联厂。&lt;/p&gt;
 
-&lt;p&gt;所以，以前的友情链接就不恢复了，趁此机会整理一下近几年持续更新又值得订阅的
+&lt;p&gt;所以，以前的友情链接就不恢复了，趁此机会整理一下近几年持续更新又值得订阅的&lt;br /&gt;
 blog，重新开&lt;a href=&#34;http://calon.weblogs.us/links/&#34;&gt;链接页面&lt;/a&gt;——和以前一样，只是单向链接，不要求对方回链。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>写给儿子的一封信</title>
-      <link>https://ioerr.github.io/xiegei-erzi-de-yifeng-xin/</link>
-      <pubDate>Sat, 31 Dec 2011 10:39:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiegei-erzi-de-yifeng-xin/</guid>
-      <description>&lt;p&gt;明洲，你好：&lt;/p&gt;
+      <item>
+        <title>写给儿子的一封信</title>
+        <link>https://ioerr.github.io/posts/xiegei-erzi-de-yifeng-xin/</link>
+        <pubDate>Sat, 31 Dec 2011 10:39:54 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xiegei-erzi-de-yifeng-xin/</guid>
+        <description>&lt;p&gt;明洲，你好：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;我是你的爸爸，先代你说一句&amp;lt;strike&amp;gt;黑&amp;lt;/strike&amp;gt;行话：Hello, World!  
 
@@ -238,7 +268,7 @@ blog，重新开&lt;a href=&#34;http://calon.weblogs.us/links/&#34;&gt;链接页
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/6568716273/&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7155/6568716273_9a1bc112e3.jpg&#34; alt=&#34;初生&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 最后要感谢你，我亲眼看到了新生命的诞生，手上多了一个宝贝，肩头多了一份责任，心中多了一份希望&lt;strike&gt;，大约一半的基因有了备份&lt;/strike&gt;，这彻底改变了我的人生。&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 養幾個孩子是我人生的願望　我喜歡他們圍繞在我身旁&lt;br /&gt;
 如果這紛亂的世界讓我沮喪　我就去看看他們眼中的光芒&lt;/p&gt;
 
@@ -259,19 +289,18 @@ blog，重新开&lt;a href=&#34;http://calon.weblogs.us/links/&#34;&gt;链接页
 &lt;p&gt;雖然我難免還是會想　這樣的歌很少人會欣賞&lt;br /&gt;
 這一首歌無關兒女情長　只獻給我家那兩個可愛的姑娘&lt;br /&gt;
 他們在我心裡最柔軟的地方　雖然我總是身在遠方&lt;br /&gt;
-我生命裡美好的一切願與他們分享
-&lt;/blockquote&gt;
+我生命裡美好的一切願與他們分享&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 ——李宗盛《希望》&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>小额支付支持内容作者</title>
-      <link>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
-      <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense
+      <item>
+        <title>小额支付支持内容作者</title>
+        <link>https://ioerr.github.io/posts/xiaoe-zhifu-zhichi-neirong-zuozhe/</link>
+        <pubDate>Thu, 19 May 2011 14:31:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xiaoe-zhifu-zhichi-neirong-zuozhe/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html&#34;&gt;阮一峰最近发表文章说他的 Google Adsense&lt;br /&gt;
 被关闭&lt;/a&gt;，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。&lt;/p&gt;
 
 &lt;p&gt;之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。&lt;/p&gt;
@@ -279,31 +308,30 @@ blog，重新开&lt;a href=&#34;http://calon.weblogs.us/links/&#34;&gt;链接页
 &lt;p&gt;当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。&lt;br /&gt;
 至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。&lt;/p&gt;
 
-&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;
+&lt;p&gt;好在 &lt;a href=&#34;http://xhbang.com/&#34;&gt;Sonic&lt;/a&gt;&lt;br /&gt;
 在阮一峰文章的回复中提醒，支付宝还有&lt;a href=&#34;https://shenghuo.alipay.com/escore.htm&#34;&gt;担保交易&lt;/a&gt;功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。&lt;/p&gt;
 
 &lt;p&gt;好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。&lt;br /&gt;
 单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。&lt;/p&gt;
 
 &lt;p&gt;另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。&lt;br /&gt;
-也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;
+也有 &lt;a href=&#34;http://flattr.com/&#34;&gt;Flattr&lt;/a&gt;&lt;br /&gt;
 这样的项目，到目前为止的用户数大约10万。&lt;/p&gt;
 
 &lt;p&gt;又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了&lt;a href=&#34;https://gist.github.com/2246054&#34;&gt;这个收款主页&lt;/a&gt;，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>升级</title>
-      <link>https://ioerr.github.io/shengji/</link>
-      <pubDate>Thu, 21 Apr 2011 01:18:46 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shengji/</guid>
-      <description>
+      <item>
+        <title>升级</title>
+        <link>https://ioerr.github.io/posts/shengji/</link>
+        <pubDate>Thu, 21 Apr 2011 01:18:46 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shengji/</guid>
+        <description>
 
 &lt;p&gt;昨天上午陪妻子去医院抽血检查 HCG，确认她已经怀孕了。&lt;/p&gt;
 
-&lt;p&gt;一个0级的受精卵正在妻子腹中慢慢分裂，如果一切顺利，我这个1级的怪物过几个月就可以升到2级了（从
+&lt;p&gt;一个0级的受精卵正在妻子腹中慢慢分裂，如果一切顺利，我这个1级的怪物过几个月就可以升到2级了（从&lt;br /&gt;
 Orcish Grunt 到 Orcish Warrior？）。&lt;/p&gt;
 
 &lt;p&gt;最近妻子工作比较劳累，因为有了先兆流产症状，她意识到可能怀孕了才去医院做血检的，所以需要好好休养，希望能顺利挺过关键的怀孕初期吧，千万不要经验值归零啊！&lt;/p&gt;
@@ -314,22 +342,21 @@ Orcish Grunt 到 Orcish Warrior？）。&lt;/p&gt;
 
 &lt;p&gt;真是黑暗生物界啊……&lt;/p&gt;
 
-&lt;p&gt;另：因为某天 Gmail/Google Reader 完全无法访问，为长远计买了个 SSH
-帐号（请找@cosbeta），然后发现原来本 blog
-打开的速度直逼音速，之前不管是打开页面还是 FTP
+&lt;p&gt;另：因为某天 Gmail/Google Reader 完全无法访问，为长远计买了个 SSH&lt;br /&gt;
+帐号（请找@cosbeta），然后发现原来本 blog&lt;br /&gt;
+打开的速度直逼音速，之前不管是打开页面还是 FTP&lt;br /&gt;
 慢如蜗牛完全是因为国内访问速度太坑爹了……&lt;br /&gt;
-所以，尽早买个 SSH/VPN
+所以，尽早买个 SSH/VPN&lt;br /&gt;
 吧，提升生活质量，降低生命无谓消耗，繁荣翻墙市场和保障访问自由。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>开始参加驾考</title>
-      <link>https://ioerr.github.io/kaishi-canjia-jiakao/</link>
-      <pubDate>Fri, 25 Mar 2011 03:25:45 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kaishi-canjia-jiakao/</guid>
-      <description>&lt;p&gt;再不写 blog，3月份就要过去了……&lt;/p&gt;
+      <item>
+        <title>开始参加驾考</title>
+        <link>https://ioerr.github.io/posts/kaishi-canjia-jiakao/</link>
+        <pubDate>Fri, 25 Mar 2011 03:25:45 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kaishi-canjia-jiakao/</guid>
+        <description>&lt;p&gt;再不写 blog，3月份就要过去了……&lt;/p&gt;
 
 &lt;p&gt;这个月的大事还真不少，国内国外各种天灾和战争，比如云南地震、日本海啸和核辐射、利比亚内战和联合国军事干预、缅甸地震、两会等等，相比之下猪肉检出瘦肉精的新闻都无法掀起像三聚氰胺奶粉事件那样的波澜。&lt;/p&gt;
 
@@ -361,15 +388,14 @@ Orcish Grunt 到 Orcish Warrior？）。&lt;/p&gt;
 第五档，“大哥我错了，大哥我错了……”
 &lt;/blockquote&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Huntsman 大使在湖南大学的演讲</title>
-      <link>https://ioerr.github.io/huntsman-dashi-zai-hunan-daxue-de-yanjiang/</link>
-      <pubDate>Fri, 11 Feb 2011 08:58:08 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/huntsman-dashi-zai-hunan-daxue-de-yanjiang/</guid>
-      <description>&lt;p&gt;2月10日下午到湖南大学国际教育学院参加了美国驻华大使洪博培/小詹·亨茨曼（Jon
+      <item>
+        <title>Huntsman 大使在湖南大学的演讲</title>
+        <link>https://ioerr.github.io/posts/huntsman-dashi-zai-hunan-daxue-de-yanjiang/</link>
+        <pubDate>Fri, 11 Feb 2011 08:58:08 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/huntsman-dashi-zai-hunan-daxue-de-yanjiang/</guid>
+        <description>&lt;p&gt;2月10日下午到湖南大学国际教育学院参加了美国驻华大使洪博培/小詹·亨茨曼（Jon&lt;br /&gt;
 Huntsman, Jr.）的演讲和交流活动。&lt;br /&gt;
 首先要感谢&lt;a href=&#34;https://www.zuola.com/weblog/&#34;&gt;周曙光&lt;/a&gt;的推荐，美国驻华大使馆方面的熊昱彤女士和&lt;a href=&#34;http://doubleaf.com/&#34;&gt;双叶&lt;/a&gt;的邀请和联络，我才得知此次活动并有机会参加。&lt;/p&gt;
 
@@ -382,7 +408,7 @@ Huntsman在湖南大学演讲&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;以下内容是现场手写记录加事后整理的，没有使用录音设备，可能有记忆和理解错误，见谅。&lt;/p&gt;
 
-&lt;p&gt;首先从中美两国正式建交的经历开始回顾，两国的关系从没有任何贸易、投资、学生交流，更没有
+&lt;p&gt;首先从中美两国正式建交的经历开始回顾，两国的关系从没有任何贸易、投资、学生交流，更没有&lt;br /&gt;
 blog、twitter、iPhone、互联网用于沟通的时代，发展到信息技术发展的新世纪下，成为世界上最重要的关系。&lt;br /&gt;
 在这个关键的历史时期，大使提出这一代的年轻人影响中美关系的手段有四种：&lt;br /&gt;
 1、利用现代通信技术沟通&lt;br /&gt;
@@ -411,9 +437,9 @@ blog、twitter、iPhone、互联网用于沟通的时代，发展到信息技术
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5433256278/&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5258/5433256278_22f67d0ed8.jpg&#34; alt=&#34;合影&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;之后活动移到新闻发布间，大使在那里接受新华社、湖南电视台、红网等媒体记者的采访。我也跟了进去，但是还是没有得到提问的机会。&lt;br /&gt;
-有一家媒体的记者得知我是个人 blogger
-后多次想要请我出去，我觉得既然大使馆方面没有提出意见，现场又没有明确个人
-blogger
+有一家媒体的记者得知我是个人 blogger&lt;br /&gt;
+后多次想要请我出去，我觉得既然大使馆方面没有提出意见，现场又没有明确个人&lt;br /&gt;
+blogger&lt;br /&gt;
 不得进入，就坚持留在了里面。不过因此没有听到部分采访内容，比如关于虎妈蔡美ㄦ问题的回答。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5433251458/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4078/5433251458_67b9c8ed99.jpg&#34; alt=&#34;Jon
@@ -436,12 +462,12 @@ Huntsman在记者招待会&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 但是从许多人观察到的趋势是，国内的年轻人更愿意将信息技术用于个人的娱乐，而不是与外界沟通和培养独立的判断能力（也许给年轻人更多的时间，情况会变得不一样？）。&lt;br /&gt;
 另一方面，信息技术的进步事实上催化了互联网的内容审查（主观上由审查方的主观意愿决定，客观上则是提供了技术实现能力），而大多数年轻人也自愿配合进行自我审查。&lt;br /&gt;
 即使有交流沟通的机会，除非长期当面接触，否则仅仅依靠当前的信息技术，似乎达不到有效沟通的目的。&lt;br /&gt;
-再者，有这种机会和有沟通意愿的年轻人毕竟只是少数，大部分人仍可能只知道
-LBJ、Steve
+再者，有这种机会和有沟通意愿的年轻人毕竟只是少数，大部分人仍可能只知道&lt;br /&gt;
+LBJ、Steve&lt;br /&gt;
 Jobs，美国文化对他们来说仍只是娱乐的文化，因此和极少数眼界和思维更加开阔的年轻人的思想会分裂。&lt;/p&gt;
 
 &lt;p&gt;如果把这一代年轻人的思想独立比作分娩，是否有可能不需要任何辅助地顺产？&lt;br /&gt;
-那么站在大使的立场和中国独立 blogger
+那么站在大使的立场和中国独立 blogger&lt;br /&gt;
 的立场，是否需要充当助产士的角色，还能够做些什么实际而有效的事情？&lt;br /&gt;
 站在新一代年轻人的立场，还有什么需要聆听的建议？&lt;/p&gt;
 
@@ -464,255 +490,26 @@ Jobs，美国文化对他们来说仍只是娱乐的文化，因此和极少数�
 &lt;p&gt;2、因为大学寒假还没有结束，在座的有不少是中学生和研究生。&lt;br /&gt;
 希望今后大使馆、大学、外事办等安排演讲日程的时候能够考虑假期的因素。&lt;/p&gt;
 
-&lt;p&gt;3、不是专门干第一手采访新闻的
+&lt;p&gt;3、不是专门干第一手采访新闻的&lt;br /&gt;
 blog，没有录音笔和长焦相机还真是不方便，特别是录音笔！（我的手机也能录音，但是到底不如录音笔方便）&lt;/p&gt;
 
 &lt;p&gt;4、在报告厅时我是坐在记者席的，举手提问时前面提到的那位记者跟我说应该等到新闻发布会时再提问，不过我也没听他的，只是没被抽到比较遗憾。&lt;br /&gt;
-但由此我想到，如果独立个人 blogger
+但由此我想到，如果独立个人 blogger&lt;br /&gt;
 作为参加、采访更为正式、限制更加严格的活动，应该是怎样的身份？&lt;br /&gt;
 和普通观众一样，还是有类似记者证这样得到组织方承认的证件以便进入受限制的新闻媒体采访区？&lt;/p&gt;
 
 &lt;p&gt;5、既然现场有专业翻译，在公共报告厅提问的同学们大可不必说英文，更清晰地表达问题比练习和展示英语会话能力重要，何况现场还有其他可能不懂英文或者听力不佳的人（比如我啦，我现在连听汉语都开始吃力了……）。&lt;/p&gt;
 
 &lt;p&gt;6、受邀请到现场的长沙 blogger 好像就我一个人……&lt;br /&gt;
-之前看到周曙光一有机会就推荐人来参加，但我认识的长沙 blogger 要么转战
-microblog
-了，要么很久不更新，要么暂时不在长沙，要么对这种活动不感兴趣，和一线大城市的
+之前看到周曙光一有机会就推荐人来参加，但我认识的长沙 blogger 要么转战&lt;br /&gt;
+microblog&lt;br /&gt;
+了，要么很久不更新，要么暂时不在长沙，要么对这种活动不感兴趣，和一线大城市的&lt;br /&gt;
 blogger 有差距啊。&lt;/p&gt;
 
-&lt;p&gt;7、别人问我是什么身份，回答
+&lt;p&gt;7、别人问我是什么身份，回答&lt;br /&gt;
 blogger，有人听不懂；回答是博客，大部分的反应是：在新浪吧？&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>2010年照片</title>
-      <link>https://ioerr.github.io/2010-nian-zhaopian/</link>
-      <pubDate>Sun, 26 Dec 2010 14:40:33 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/2010-nian-zhaopian/</guid>
-      <description>&lt;p&gt;又到了用照片总结一年的时候。&lt;/p&gt;
-
-&lt;p&gt;今年上半年忙于结婚，活动时间不多，所以有的月份空缺。&lt;br /&gt;
-下半年入手了 Olympus E-PL1作为主力相机，替换了原来的 Canon
-G7，除了一开始操作不习惯和最高1/2000秒的快门之外，其他都还算满意——嗯，还有习惯了直出
-jpg 也让我错过了几次应该要用 RAW 格式记录的美景……&lt;/p&gt;
-
-&lt;p&gt;一月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5279752515/&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5050/5279752515_88d6ba364b.jpg&#34; alt=&#34;排排站&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-元旦那一天正好看到麻雀们在电线上开会。&lt;/p&gt;
-
-&lt;p&gt;二月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5285672914/&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5283/5285672914_c8a6d65e4a.jpg&#34; alt=&#34;IMG\_8293&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-在烈士公园划船时给一脸臭脾气不好好配合的老天来了一张。&lt;/p&gt;
-
-&lt;p&gt;三月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5285711574/&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5001/5285711574_db38994b18.jpg&#34; alt=&#34;小球门&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-雅礼中学的小球门还在使用。当年踢小场地的时候不知道往它身上踢了多少脚球。&lt;/p&gt;
-
-&lt;p&gt;六月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4738149487/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4139/4738149487_d54be426df.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-新相机入手之后，出门试机。江边一对沉浸在音乐中的小青年。&lt;/p&gt;
-
-&lt;p&gt;七月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4926287793/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4075/4926287793_ca849097eb.jpg&#34; alt=&#34;火烧云&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-在和顺塘边简陋的小饭店吃饭，和来自江苏、四川、北京、长沙的朋友（其中还有失散多年路上偶遇无意之间互报姓名才相认的幼儿园同学）大快朵颐。&lt;br /&gt;
-和顺的云很壮丽，又正值黄昏，看着天边的云朵由金黄变成鲜红，不留下照片就太遗憾了。&lt;/p&gt;
-
-&lt;p&gt;八月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4928914045/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4121/4928914045_167f597f9c.jpg&#34; alt=&#34;捞鱼的小孩&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-束河古镇桥下，当地的孩子很开心地捞鱼。&lt;br /&gt;
-为神猫我老是喜欢拍捞鱼的小孩呢？&lt;/p&gt;
-
-&lt;p&gt;九月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020571786/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4149/5020571786_240e435c5d.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-下班时遇到阵雨，躲在屋檐下避雨。&lt;br /&gt;
-阴雨绵绵的九月份，&lt;a href=&#34;http://www.flickr.com/photos/calon/5020843744/&#34;&gt;橘洲音乐节也是在凄风冷雨中度过的&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;十月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5131172209/&#34;&gt;&lt;img src=&#34;http://farm2.static.flickr.com/1203/5131172209_8f19bfb6ff.jpg&#34; alt=&#34;刚刚开始红的枫叶&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-岳麓山上的红叶刚刚开始疯了…&lt;/p&gt;
-
-&lt;p&gt;十一月：&lt;br /&gt;
-弹琴记&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5170860731/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4103/5170860731_df4a1fa284.jpg&#34; alt=&#34;可可弹琴记
-1&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-来，看我来露一手！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5170863871/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4083/5170863871_2d2d3df34d.jpg&#34; alt=&#34;可可弹琴记
-2&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-我晕，果然好难…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5170866827/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4147/5170866827_aee4f3f142.jpg&#34; alt=&#34;可可弹琴记
-3&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-老师你也来弹一首？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5170869983/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4125/5170869983_50aaa4c0e0.jpg&#34; alt=&#34;可可弹琴记
-4&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-好神奇！你怎么弹的？！&lt;/p&gt;
-
-&lt;p&gt;十二月：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5251114153/&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5047/5251114153_f4b545fe22.jpg&#34; alt=&#34;荷花园的夕阳&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-难得早一点下班，趁还能看到夕阳，赶紧照一张。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/archives/date-taken/2010/&#34;&gt;其他2010年的照片&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/09_nian_zhaopian/&#34;&gt;09年的照片总结&lt;/a&gt;。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>心理测试</title>
-      <link>https://ioerr.github.io/xinli-ceshi/</link>
-      <pubDate>Mon, 01 Nov 2010 11:06:17 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xinli-ceshi/</guid>
-      <description>&lt;p&gt;经常被人要求做所谓的心理测试题目，特别是女人，搞得好像从答案真的可以猜测出人的心理一样。&lt;br /&gt;
-这种心理测试的问题主要有两个：&lt;br /&gt;
-1、凭什么答案可以反映出人的心理？&lt;br /&gt;
-用来解释答案的潜意识之类的理论，据我所知还没有达到可以这样应用的程度吧？而且各种山寨题目都被搞得好像很有权威一样，让热衷于此道的人信服不已，还一再声称结论好准确，其实焉知不是&lt;a href=&#34;http://en.wikipedia.org/wiki/Forer_effect&#34;&gt;巴纳姆效应&lt;/a&gt;作祟？&lt;br /&gt;
-2、不同的人对题目的解读和回答凭什么要使用唯一的价值判断标准？&lt;br /&gt;
-你觉得红色代表热情，我也可以觉得红色代表危险；你觉得牺牲独立维持婚姻是美德，我也可以觉得为了婚姻牺牲独立是昏庸。如果完全相信心理测试的分类贴标签式的答案解读，还为此造成争执，只会展示出自己的狭隘。&lt;/p&gt;
-
-&lt;p&gt;所以如果闲得无聊非要找人做心理测试的话，不妨听对方详细说明答题的理由，这样至少给了对方自我辩护的机会，不至于轻易被莫名其妙的想当然给判了死刑。&lt;/p&gt;
-
-&lt;p&gt;前几天看到一个比较火星的测试，忘了以前是怎么选择的，试着再做一遍，并详细说明为什么这么选择：&lt;/p&gt;
-
-&lt;p&gt;题目是这样的：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-一男人M要与未婚妻F相会结婚，但两人一河相隔，M必须要借船过河才能见到F，于是他开始四处找船。&lt;/p&gt;
-
-&lt;p&gt;这时见一个女子L刚好有船，M跟L借，L遇到M后爱上了他，就问：我爱上你了，你爱我吗？M比较诚实，说：对不起，我有未婚妻，我不能爱你。这么一来，L死活是不把船借给M，她的理由是：我爱你，你不爱我，这不公平，我不会借你的！&lt;/p&gt;
-
-&lt;p&gt;M很沮丧，继续找船，刚好见一位叫S的女子，就向她借船，S说：我借给你没问题，但有个条件，我很喜欢你，你是不是喜欢我无所谓，但你必须留下陪我一晚，
-不然我不借你。M很为难，L不借他船，S如果再不借他的话就过不去河与F相见了，据说这个地方只有这两条船。为了彼岸的未婚妻，他不得不同意了S的要求，与S有了一夜情。次日，S遵守承诺把船借给了M。&lt;/p&gt;
-
-&lt;p&gt;见到未婚妻F后，M一直心里有事，考虑了很久，终于决定把向L和S借船的故事跟F说了。可惜，F听了非常伤心，一气之下与M分了手，她觉得M不忠，不能原谅。F失恋了，很受打击.&lt;/p&gt;
-
-&lt;p&gt;这时M的生活里出现了位女子E，两人也开始恋爱了，但之前的故事一直让他耿耿于坏，E问M是不是有什么话要跟她说，于是，M一五一十地把他和L、S、F之间的故事讲了一遍。E听了后，说，我不会介意的，这些跟我没关系。&lt;/p&gt;
-
-&lt;p&gt;请你把这几个人排列个次序，标准是你认为谁最好，谁第二，谁第三，第四，第五？
-&lt;/blockquote&gt;
-我的分析&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;她喜欢M，提出的条件却是一夜情，这就把感情降到了纯粹肉体的层次，但毕竟还是她自己的选择；&lt;br /&gt;
-然而喜欢一个人却要为了自己而为难他，让他陷入道德矛盾，这就不是正直之道了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;找到F和对F不肉体出轨哪个更加重要，这属于M自己的价值判断；&lt;br /&gt;
-但婚姻是两人共同的契约，既包括肉体也包括精神，在有可能违反契约的事情上，坚持原则是非常重要的，在这种情况下，个人的判断需要充分考虑之前同样出自个人的承诺，不能仅仅取决于当下的价值判断。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;要求公平的爱是合理的，但不需要把爱与助人绑定，帮助心中所爱的人而不求回报，这可以属于道德范畴而不是爱，不需要讲究平等；&lt;br /&gt;
-而讨论道德，作为旁人有不能够强求L道德高尚。&lt;br /&gt;
-只能说她不智。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;站在她自己的角度觉得M不忠是可以理解的，作为旁人无可指摘；&lt;br /&gt;
-只是她无法体谅M的苦衷，也无法认识到M的诚实其实是可贵的，所以最终分手，两个人都很伤心，实在是不智。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;很简单，宽容是维持感情的重要要素，爱一个人也要接纳他的过去，而且处理得不拖泥带水婆婆妈妈，很合我的胃口。&lt;/p&gt;
-
-&lt;p&gt;所以我的结论是：E-FL-M-S，其中F和L并列。&lt;/p&gt;
-
-&lt;p&gt;原题的解答是，几个人的字母分别代表如下的东西，哪个排在前面说明答题者看重什么：&lt;br /&gt;
-M——金钱（Money）&lt;br /&gt;
-L——爱情（Love）&lt;br /&gt;
-S——性（Sex）&lt;br /&gt;
-F——家庭（Family）&lt;br /&gt;
-E——事业（Enterprise）&lt;/p&gt;
-
-&lt;p&gt;我只能说出题者与我不是一类人。我最看重的东西是正直、诚实、智慧、自由和责任，无论哪种事物如何取舍都有一样的原则，和上面这五种东西根本就不是一个维度的，可是这种心理测试的题目却试图根据我的答案来分析我对这五种东西的排序，岂不是呈直角东辕北辙？&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>第二届橘洲音乐节</title>
-      <link>https://ioerr.github.io/dierjie-juzhou-yinyuejie/</link>
-      <pubDate>Sun, 26 Sep 2010 09:53:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dierjie-juzhou-yinyuejie/</guid>
-      <description>&lt;p&gt;这是标题党，因为我只去了第二天的音乐节。&lt;/p&gt;
-
-&lt;p&gt;9月22-24日的3天，第二届长沙橘洲音乐节在橘子洲头举办。本来没有兴趣在冰冷雨天去听音乐会，而且感兴趣的乐队不多，但因为免费弄到了23日的票，所以决定去开开眼界，看看本地办的这类音乐节水准如何。&lt;/p&gt;
-
-&lt;p&gt;去之前查了一下官方网站和各个社区的活动页面，发现抱怨门票价格、场地、组织不周到和担忧天气的人不少，而且捆绑的沙雕展览完全没有吸引人的地方。&lt;/p&gt;
-
-&lt;p&gt;23日下午一直是下雨，从桥头走到橘子洲头一路上冷冷清清，略过比较惊悚的沙雕直接到了现场，发现也就一、两百人在寒风细雨中哆哆嗦嗦，附近的沙地上立着十数个帐篷，路边有卖
-CD
-、纪念品、小商品、餐饮的店面，比如乡村基…还有多背一公斤的公益活动摊位、涂鸦墙和某楼盘宣传位…&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020251637/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4128/5020251637_0692a9e4c8.jpg&#34; alt=&#34;帐篷&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;表演的乐队比较卖力，没有因为观众太少而放不开。下午时的老赵、阿修罗还不错，后者的出场和鼓动还掀起了不小的高潮。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020271115/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4106/5020271115_f2080f99a8.jpg&#34; alt=&#34;阿修罗&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020895202/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4153/5020895202_5344fe2afb.jpg&#34; alt=&#34;同挥舞手臂&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;悲剧的是，乐队轮换、设备调音的间隙一直在放 Queen
-的歌曲，我个人觉得还是这几段最给力啊，忍不住跟着一起唱…&lt;/p&gt;
-
-&lt;p&gt;快吃晚饭时，脑浊的出场又是一个高潮，身边的摇滚青年们都陷入无意识状态。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020955596/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4150/5020955596_d8bd4cd67c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我还是没有兴奋起来，除了几段吉他独奏外，对歌词和旋律没有什么感觉，如果光跟着震耳欲聋的鼓声晃动身体又挺傻的。&lt;br /&gt;
-这个时候雨小了，人也多了，看上去总算有个小型音乐节的样子。&lt;/p&gt;
-
-&lt;p&gt;之后是与非门出场。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020911986/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4125/5020911986_02bd6b2bd3.jpg&#34; alt=&#34;与非门&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;摇滚青年们似乎很不习惯从已经热起来的摇滚氛围突然进入电子乐的世界，加上主唱蒋凡在寒风中一边发抖一边唱歌，和长沙老乡们拉家常话又有点多，场面一下子就冷了，甚至有人中途抱怨怎么这支乐队还没唱完。&lt;br /&gt;
-我倒挺喜欢与非门的表演，《乐园》、《1061》、《正午》都合我的胃口，也许是因为我更加熟悉他们一些？&lt;/p&gt;
-
-&lt;p&gt;经过半个小时以上的设备检修+广告时间，木玛乐队出场。我不清楚国内摇滚乐队的情况，看样子木玛很火？而且随便说一些牵强附会的言论也有一群人跟着叫好，诸如“现场音响设备老是出故障，就像中国摇滚的现状一样”——我还以为他们是在自省呢。&lt;br /&gt;
-好在气氛重新活跃，摇滚青年们在拥挤的人群中玩起了火车接龙。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020330785/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4092/5020330785_6e394d524b.jpg&#34; alt=&#34;开火车的小青年&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020315847/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4128/5020315847_800d101ba7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可能是音响设备问题影响效果，听了几首之后觉得兴味索然，于是走路回家。之后的痛仰和汪峰我也不想跟了，在风雨中站了几个小时腰都在痛，他们的魅力还没这么大。&lt;/p&gt;
-
-&lt;p&gt;最后说说对活动组织的看法：&lt;br /&gt;
-1、沙雕展览完全没有必要一起办，提高了门票价格导致以学生为主的观众数量大减，现场饮食很贵又不准观众带水入场（据说热水4元1杯），学生观众可以充分体会饥寒交迫或挨宰的感觉；&lt;br /&gt;
-2、下雨天应该发放一次性雨衣；&lt;br /&gt;
-3、音响设备问题影响很大，浪费所有人的时间，不能够一再出现；&lt;br /&gt;
-4、LCD 屏幕和旁边的小投影根本就没有发挥实质作用；&lt;br /&gt;
-5、要多想办法制造气氛，现在感觉就像放观众进来任其自生自灭；&lt;br /&gt;
-6、据说场地大小和音响比去年差，加上天气如此糟糕，搞不好下一届就没了…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020843744/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4107/5020843744_61c2e9cc74.jpg&#34; alt=&#34;旗帜&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>纸质笔记本的好处</title>
-      <link>https://ioerr.github.io/zhizhi-bijiben-de-haochu/</link>
-      <pubDate>Tue, 17 Aug 2010 15:04:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhizhi-bijiben-de-haochu/</guid>
-      <description>&lt;p&gt;纸质笔记本有几个好处是现在的电子笔记本无法赶上的：&lt;br /&gt;
-1、快速翻页浏览，电子设备虽然可以快速定位到任意一页，但是翻页时的显示还是慢了，查找直观的图形内容比不上纸质笔记本；&lt;br /&gt;
-2、立即分享，发邮件短信等等都不如直接撕一张纸给对方；&lt;br /&gt;
-3、不用担心没电，甚至水浸也还有救；&lt;br /&gt;
-4、如厕时可以救急。&lt;br /&gt;
-5、被小偷光顾，你的昂贵的电子笔记本可能就没了，但甚少有雅贼青睐一本不错的纸质笔记本。&lt;/p&gt;
-
-&lt;p&gt;之所以提到最后一点，是因为前几天我妈的房子被小偷光顾，损失了新彩电一台、上网本一台和首饰若干。&lt;br /&gt;
-现金、手机和相机虽然放在了桌上，还好用信封、纸盒和布袋装着，小偷匆忙之中没有全部翻到。如果呈裸体状态，只怕也要沦落天涯了。&lt;br /&gt;
-如果是重要笔记记在了纸质笔记本上，就不用担心梁上君子的问题了吧——除非他把整个房间都搬走。&lt;/p&gt;
-
-&lt;p&gt;对门和楼上也被光顾，我家还算是损失最小的，对门的现金、存折、证件等等都放在保险箱里面，结果整个保险箱都从墙壁上撬下来搬走了。所以，如果要在家中保存重要的东西，保险箱不是个好主意，如果非要用保险箱，就弄一个别人搬不动的吧。&lt;/p&gt;
-
-&lt;p&gt;小偷光顾的时候，房门是反锁的，但警察说这样的锁几秒钟就可以打开，于是我家换了据说是最新的防盗门锁，警察叔叔又说了，这样的锁不错，小偷要打开得花一分钟左右…&lt;/p&gt;
-</description>
-    </item>
+      </item>
     
   </channel>
 </rss>

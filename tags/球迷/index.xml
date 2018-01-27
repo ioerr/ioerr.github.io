@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>球迷 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%90%83%E8%BF%B7/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%90%83%E8%BF%B7/</link>
     <description>Recent content in 球迷 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%90%83%E8%BF%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jun 2008 14:57:22 +0000</lastBuildDate>
     
-    <item>
-      <title>没品球迷特征</title>
-      <link>https://ioerr.github.io/meipin-qiumi-tezheng/</link>
-      <pubDate>Sun, 22 Jun 2008 14:57:22 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/meipin-qiumi-tezheng/</guid>
-      <description>&lt;p&gt;和网络上的球迷朋友通常都相处融洽，即使支持的球队互为死敌也是“有话好好说”，但不可避免的会看到一些没品的球迷，影响谈球的心情。我最看不顺眼和看不起的球迷具有以下特征：&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%90%83%E8%BF%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>没品球迷特征</title>
+        <link>https://ioerr.github.io/posts/meipin-qiumi-tezheng/</link>
+        <pubDate>Sun, 22 Jun 2008 14:57:22 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/meipin-qiumi-tezheng/</guid>
+        <description>&lt;p&gt;和网络上的球迷朋友通常都相处融洽，即使支持的球队互为死敌也是“有话好好说”，但不可避免的会看到一些没品的球迷，影响谈球的心情。我最看不顺眼和看不起的球迷具有以下特征：&lt;/p&gt;
 
 &lt;p&gt;1、自己的球队赢了就是理所当然天下无敌千秋万载一统江湖，自己的球队输了就是对方走了狗屎运，要么就是赌球公司幕后操纵（竟然还不惜污蔑自己所支持的球队打假球），总而言之他们只能够接受自己支持的球队获胜这一种结果，其他都被认为是不正常的；&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;3、种族主义者（想不通的是，他们自己还是白人种族主义者歧视的对象之一）。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

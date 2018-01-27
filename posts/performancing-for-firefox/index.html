@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performancing for Firefox - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Performancing for Firefox" />
+<meta property="og:description" content="为了使用 Performancing for Firefox
+这个插件，我终于把 Firefox
+升级到了1.5的版本，顺便也装上了 IE
+Tab。
+作为一个插件，Performancing for
+Firefox 的功能自然和
+Zoundry Blog Writer
+的不是一个档次，它不支持快速添加 Technorati
+等的 tag、不支持 Trackback
+ping、不支持上传图片、不支持设置发布时间，但是它却具备
+Zoundry Blog Writer
+所没有的使用代理发布和代码编辑模式，而这正是我希望后者尽快增加的功能。毕竟我的主力
+blog 在 GFW
+之外，不支持代理等于就是被废，而所谓“所见即所得”模式下写出来的东西，往往都是“所得非所想”，不自己码一些
+HTML 代码始终不放心。
+两个工具共同的缺点是，不支持自定义 post slug，这是因为
+WordPress 的 API 暂时还不支持 post slug 功能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/performancing-for-firefox/" />
+
+
+
+<meta property="article:published_time" content="2005-12-21T13:53:28&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-12-21T13:53:28&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Performancing for Firefox">
+<meta itemprop="description" content="为了使用 Performancing for Firefox
+这个插件，我终于把 Firefox
+升级到了1.5的版本，顺便也装上了 IE
+Tab。
+作为一个插件，Performancing for
+Firefox 的功能自然和
+Zoundry Blog Writer
+的不是一个档次，它不支持快速添加 Technorati
+等的 tag、不支持 Trackback
+ping、不支持上传图片、不支持设置发布时间，但是它却具备
+Zoundry Blog Writer
+所没有的使用代理发布和代码编辑模式，而这正是我希望后者尽快增加的功能。毕竟我的主力
+blog 在 GFW
+之外，不支持代理等于就是被废，而所谓“所见即所得”模式下写出来的东西，往往都是“所得非所想”，不自己码一些
+HTML 代码始终不放心。
+两个工具共同的缺点是，不支持自定义 post slug，这是因为
+WordPress 的 API 暂时还不支持 post slug 功能。">
+
+
+<meta itemprop="datePublished" content="2005-12-21T13:53:28&#43;00:00" />
+<meta itemprop="dateModified" content="2005-12-21T13:53:28&#43;00:00" />
+<meta itemprop="wordCount" content="42">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Performancing for Firefox"/>
+<meta name="twitter:description" content="为了使用 Performancing for Firefox
+这个插件，我终于把 Firefox
+升级到了1.5的版本，顺便也装上了 IE
+Tab。
+作为一个插件，Performancing for
+Firefox 的功能自然和
+Zoundry Blog Writer
+的不是一个档次，它不支持快速添加 Technorati
+等的 tag、不支持 Trackback
+ping、不支持上传图片、不支持设置发布时间，但是它却具备
+Zoundry Blog Writer
+所没有的使用代理发布和代码编辑模式，而这正是我希望后者尽快增加的功能。毕竟我的主力
+blog 在 GFW
+之外，不支持代理等于就是被废，而所谓“所见即所得”模式下写出来的东西，往往都是“所得非所想”，不自己码一些
+HTML 代码始终不放心。
+两个工具共同的缺点是，不支持自定义 post slug，这是因为
+WordPress 的 API 暂时还不支持 post slug 功能。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-12-21 01:53">2005-12-21</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Performancing for Firefox</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>为了使用 <a href="http://performancing.com/firefox">Performancing for Firefox</a><br />
+这个插件，我终于把 <a href="http://www.mozilla.org/products/firefox/">Firefox</a><br />
+升级到了1.5的版本，顺便也装上了 <a href="https://addons.mozilla.org/extensions/moreinfo.php?id=1419&amp;application=firefox">IE<br />
+Tab</a>。</p>
+
+<p>作为一个插件，<a href="http://performancing.com/firefox">Performancing for<br />
+Firefox</a> 的功能自然和<br />
+<a href="http://zoundry.com/">Zoundry</a> Blog Writer<br />
+的不是一个档次，它不支持快速添加 <a href="http://technorati.com/">Technorati</a><br />
+等的 tag、不支持 Trackback<br />
+ping、不支持上传图片、不支持设置发布时间，但是它却具备<br />
+<a href="http://zoundry.com/">Zoundry</a> Blog Writer<br />
+所没有的使用代理发布和代码编辑模式，而这正是我希望后者尽快增加的功能。毕竟我的主力<br />
+blog 在 GFW<br />
+之外，不支持代理等于就是被废，而所谓“所见即所得”模式下写出来的东西，往往都是“所得非所想”，不自己码一些<br />
+HTML 代码始终不放心。</p>
+
+<p>两个工具共同的缺点是，不支持自定义 post slug，这是因为<br />
+<a href="http://wordpress.org/">WordPress</a> 的 API 暂时还不支持 post slug 功能。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Performancing%20for%20Firefox》&body=https%3a%2f%2fioerr.github.io%2fposts%2fperformancing-for-firefox%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fperformancing-for-firefox%2f&text= @calon Performancing%20for%20Firefox&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

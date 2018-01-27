@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>医疗服务 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/</link>
     <description>Recent content in 医疗服务 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Sep 2015 11:32:18 +0000</lastBuildDate>
     
-    <item>
-      <title>可穿戴医疗设备</title>
-      <link>https://ioerr.github.io/kechuandai-yiliao-shebei/</link>
-      <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kechuandai-yiliao-shebei/</guid>
-      <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
-大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有
+      <atom:link href="https://ioerr.github.io/tags/%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>可穿戴医疗设备</title>
+        <link>https://ioerr.github.io/posts/kechuandai-yiliao-shebei/</link>
+        <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kechuandai-yiliao-shebei/</guid>
+        <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
+大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有&lt;br /&gt;
 CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 还有人提到要能够录音、录像和喷防狼喷雾以便应对医闹，说起来还真是心酸啊。&lt;/p&gt;
 
@@ -70,7 +70,7 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 &lt;p&gt;11、吊针感应&lt;br /&gt;
 如果非要加新的感应器的话，感知吊瓶滴液的速度、压力来判断是否快滴完，或者没有插好，应该算是比较实用的附加功能吧？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一只老狗的死亡 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="一只老狗的死亡" />
+<meta property="og:description" content="如果非要用一个人的理念去衡量所有人不可，那么对此人来说其他人不是白痴就是奴隶。
+假如以后的电脑能够用触摸屏绘画，那么作画的人是否会回归孩提时代的沙滩涂鸦呢？只不过这回手指勾出的曲线可以是色彩缤纷的，也可以是具有各种不同的笔触的。
+这样子的绘画倒有些像是在雕塑呢，不知道米开朗基罗会不会也羡慕一把？：P
+“思想如便秘，说话如腹泻”
+来自弗里德曼的自传中某教授对某教授的评价。
+“The power of the Web is in its universality. Access by everyone
+regardless of disability is an essential aspect.”
+W3C 的主席，WWW 的发明者 Tim Berners-Lee 如是说。
+Jedi 的翻译如下：
+“網頁的威力在於其無遠弗屆；無論障礙與否皆能取用，乃是必要的觀點”
+来自 Jedi&rsquo;s Blog 的《真正的無遠弗屆 ──
+談網頁內容的親和力》。
+智识~Intellect 这个 blog
+好像登不上去，不知道是我这里的网络有问题，还是它本身出了问题。但愿不是因为登了贺卫方教授对“一塌糊涂”事件的声明的原因…
+以前看过一个故事，一条老狗习惯了每天服从命令威吓犯人的生活，退役之后很不习惯，最后在听不到主人的指挥和没有犯人可咬的“无意义”生活的痛苦中终于神志不清，因为乱咬人而被杀死。
+懒得去查名字，作者也应该是个很有名的人物，我的叙述大致是不错的。
+如果有这么一只狗，它以前的主人经常和邻居发生争执，它也很乐于这种每天和邻居家的恶犬相斗的生活，以至于一天不参与打架互掐就会觉得浑身不舒服。有一天原来的主人忽然走了，这只狗住在了新主人的家里－－然而是个性格温和的主人，生活很宁静。
+这只狗受不了这样“无趣”的生活，又不想离开主人过苦日子，于是凭着它的小聪明偷偷地制造主人和邻居的矛盾，让这个老好人也禁不住为了邻居“有敌意的破坏行为”和“不愿意承认和道歉的无礼态度”而发生争执。
+过去的日子回来了，狗也乐此不疲，主人和邻居之间的“战争”越是升级它越觉得高兴，最终主人和邻居两家都抄起器械大打出手，狗自然也美梦成真般无比激动地加入了战团。
+在混战中，狗受了重伤，然而这次大战带来的兴奋感已足以让它带着兴奋微笑着死去…至于主人和他的邻居在明白这种争执的可笑之后会不会后悔得要死，它可懒得去想。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yizhi-laogou-de-siwang/" />
+
+
+
+<meta property="article:published_time" content="2004-10-14T13:46:26&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-10-14T13:46:26&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="一只老狗的死亡">
+<meta itemprop="description" content="如果非要用一个人的理念去衡量所有人不可，那么对此人来说其他人不是白痴就是奴隶。
+假如以后的电脑能够用触摸屏绘画，那么作画的人是否会回归孩提时代的沙滩涂鸦呢？只不过这回手指勾出的曲线可以是色彩缤纷的，也可以是具有各种不同的笔触的。
+这样子的绘画倒有些像是在雕塑呢，不知道米开朗基罗会不会也羡慕一把？：P
+“思想如便秘，说话如腹泻”
+来自弗里德曼的自传中某教授对某教授的评价。
+“The power of the Web is in its universality. Access by everyone
+regardless of disability is an essential aspect.”
+W3C 的主席，WWW 的发明者 Tim Berners-Lee 如是说。
+Jedi 的翻译如下：
+“網頁的威力在於其無遠弗屆；無論障礙與否皆能取用，乃是必要的觀點”
+来自 Jedi&rsquo;s Blog 的《真正的無遠弗屆 ──
+談網頁內容的親和力》。
+智识~Intellect 这个 blog
+好像登不上去，不知道是我这里的网络有问题，还是它本身出了问题。但愿不是因为登了贺卫方教授对“一塌糊涂”事件的声明的原因…
+以前看过一个故事，一条老狗习惯了每天服从命令威吓犯人的生活，退役之后很不习惯，最后在听不到主人的指挥和没有犯人可咬的“无意义”生活的痛苦中终于神志不清，因为乱咬人而被杀死。
+懒得去查名字，作者也应该是个很有名的人物，我的叙述大致是不错的。
+如果有这么一只狗，它以前的主人经常和邻居发生争执，它也很乐于这种每天和邻居家的恶犬相斗的生活，以至于一天不参与打架互掐就会觉得浑身不舒服。有一天原来的主人忽然走了，这只狗住在了新主人的家里－－然而是个性格温和的主人，生活很宁静。
+这只狗受不了这样“无趣”的生活，又不想离开主人过苦日子，于是凭着它的小聪明偷偷地制造主人和邻居的矛盾，让这个老好人也禁不住为了邻居“有敌意的破坏行为”和“不愿意承认和道歉的无礼态度”而发生争执。
+过去的日子回来了，狗也乐此不疲，主人和邻居之间的“战争”越是升级它越觉得高兴，最终主人和邻居两家都抄起器械大打出手，狗自然也美梦成真般无比激动地加入了战团。
+在混战中，狗受了重伤，然而这次大战带来的兴奋感已足以让它带着兴奋微笑着死去…至于主人和他的邻居在明白这种争执的可笑之后会不会后悔得要死，它可懒得去想。">
+
+
+<meta itemprop="datePublished" content="2004-10-14T13:46:26&#43;00:00" />
+<meta itemprop="dateModified" content="2004-10-14T13:46:26&#43;00:00" />
+<meta itemprop="wordCount" content="49">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="一只老狗的死亡"/>
+<meta name="twitter:description" content="如果非要用一个人的理念去衡量所有人不可，那么对此人来说其他人不是白痴就是奴隶。
+假如以后的电脑能够用触摸屏绘画，那么作画的人是否会回归孩提时代的沙滩涂鸦呢？只不过这回手指勾出的曲线可以是色彩缤纷的，也可以是具有各种不同的笔触的。
+这样子的绘画倒有些像是在雕塑呢，不知道米开朗基罗会不会也羡慕一把？：P
+“思想如便秘，说话如腹泻”
+来自弗里德曼的自传中某教授对某教授的评价。
+“The power of the Web is in its universality. Access by everyone
+regardless of disability is an essential aspect.”
+W3C 的主席，WWW 的发明者 Tim Berners-Lee 如是说。
+Jedi 的翻译如下：
+“網頁的威力在於其無遠弗屆；無論障礙與否皆能取用，乃是必要的觀點”
+来自 Jedi&rsquo;s Blog 的《真正的無遠弗屆 ──
+談網頁內容的親和力》。
+智识~Intellect 这个 blog
+好像登不上去，不知道是我这里的网络有问题，还是它本身出了问题。但愿不是因为登了贺卫方教授对“一塌糊涂”事件的声明的原因…
+以前看过一个故事，一条老狗习惯了每天服从命令威吓犯人的生活，退役之后很不习惯，最后在听不到主人的指挥和没有犯人可咬的“无意义”生活的痛苦中终于神志不清，因为乱咬人而被杀死。
+懒得去查名字，作者也应该是个很有名的人物，我的叙述大致是不错的。
+如果有这么一只狗，它以前的主人经常和邻居发生争执，它也很乐于这种每天和邻居家的恶犬相斗的生活，以至于一天不参与打架互掐就会觉得浑身不舒服。有一天原来的主人忽然走了，这只狗住在了新主人的家里－－然而是个性格温和的主人，生活很宁静。
+这只狗受不了这样“无趣”的生活，又不想离开主人过苦日子，于是凭着它的小聪明偷偷地制造主人和邻居的矛盾，让这个老好人也禁不住为了邻居“有敌意的破坏行为”和“不愿意承认和道歉的无礼态度”而发生争执。
+过去的日子回来了，狗也乐此不疲，主人和邻居之间的“战争”越是升级它越觉得高兴，最终主人和邻居两家都抄起器械大打出手，狗自然也美梦成真般无比激动地加入了战团。
+在混战中，狗受了重伤，然而这次大战带来的兴奋感已足以让它带着兴奋微笑着死去…至于主人和他的邻居在明白这种争执的可笑之后会不会后悔得要死，它可懒得去想。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-10-14 01:46">2004-10-14</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>一只老狗的死亡</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>如果非要用一个人的理念去衡量所有人不可，那么对此人来说其他人不是白痴就是奴隶。</p>
+
+<p>假如以后的电脑能够用触摸屏绘画，那么作画的人是否会回归孩提时代的沙滩涂鸦呢？只不过这回手指勾出的曲线可以是色彩缤纷的，也可以是具有各种不同的笔触的。<br />
+这样子的绘画倒有些像是在雕塑呢，不知道米开朗基罗会不会也羡慕一把？：P</p>
+
+<p>“思想如便秘，说话如腹泻”<br />
+来自弗里德曼的自传中某教授对某教授的评价。</p>
+
+<p>“The power of the Web is in its universality. Access by everyone<br />
+regardless of disability is an essential aspect.”<br />
+W3C 的主席，WWW 的发明者 Tim Berners-Lee 如是说。<br />
+<a href="http://jedi.org/blog/">Jedi</a> 的翻译如下：<br />
+“網頁的威力在於其無遠弗屆；無論障礙與否皆能取用，乃是必要的觀點”<br />
+来自 <a href="http://jedi.org/blog/">Jedi&rsquo;s Blog</a> 的《<a href="http://jedi.org/blog/archives/004569.html">真正的無遠弗屆 ──<br />
+談網頁內容的親和力</a>》。</p>
+
+<p><a href="http://www.intellecta.org/">智识~Intellect</a> 这个 blog<br />
+好像登不上去，不知道是我这里的网络有问题，还是它本身出了问题。但愿不是因为登了贺卫方教授对“一塌糊涂”事件的声明的原因…</p>
+
+<p>以前看过一个故事，一条老狗习惯了每天服从命令威吓犯人的生活，退役之后很不习惯，最后在听不到主人的指挥和没有犯人可咬的“无意义”生活的痛苦中终于神志不清，因为乱咬人而被杀死。<br />
+懒得去查名字，作者也应该是个很有名的人物，我的叙述大致是不错的。</p>
+
+<p>如果有这么一只狗，它以前的主人经常和邻居发生争执，它也很乐于这种每天和邻居家的恶犬相斗的生活，以至于一天不参与打架互掐就会觉得浑身不舒服。有一天原来的主人忽然走了，这只狗住在了新主人的家里－－然而是个性格温和的主人，生活很宁静。<br />
+这只狗受不了这样“无趣”的生活，又不想离开主人过苦日子，于是凭着它的小聪明偷偷地制造主人和邻居的矛盾，让这个老好人也禁不住为了邻居“有敌意的破坏行为”和“不愿意承认和道歉的无礼态度”而发生争执。<br />
+过去的日子回来了，狗也乐此不疲，主人和邻居之间的“战争”越是升级它越觉得高兴，最终主人和邻居两家都抄起器械大打出手，狗自然也美梦成真般无比激动地加入了战团。<br />
+在混战中，狗受了重伤，然而这次大战带来的兴奋感已足以让它带着兴奋微笑着死去…至于主人和他的邻居在明白这种争执的可笑之后会不会后悔得要死，它可懒得去想。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%80%e5%8f%aa%e8%80%81%e7%8b%97%e7%9a%84%e6%ad%bb%e4%ba%a1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyizhi-laogou-de-siwang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyizhi-laogou-de-siwang%2f&text= @calon %e4%b8%80%e5%8f%aa%e8%80%81%e7%8b%97%e7%9a%84%e6%ad%bb%e4%ba%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

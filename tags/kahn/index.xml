@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kahn on 读写错误</title>
-    <link>https://ioerr.github.io/tags/kahn/index.xml</link>
+    <link>https://ioerr.github.io/tags/kahn/</link>
     <description>Recent content in Kahn on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/kahn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2008 16:02:59 +0000</lastBuildDate>
     
-    <item>
-      <title>Flickr Pro</title>
-      <link>https://ioerr.github.io/flickr-pro/</link>
-      <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/flickr-pro/</guid>
-      <description>&lt;p&gt;最近终于购买了 &lt;a href=&#34;http://www.flickr.com/upgrade/&#34;&gt;Flickr Pro&lt;/a&gt;
-的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr
+      <atom:link href="https://ioerr.github.io/tags/kahn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Flickr Pro</title>
+        <link>https://ioerr.github.io/posts/flickr-pro/</link>
+        <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/flickr-pro/</guid>
+        <description>&lt;p&gt;最近终于购买了 &lt;a href=&#34;http://www.flickr.com/upgrade/&#34;&gt;Flickr Pro&lt;/a&gt;&lt;br /&gt;
+的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr&lt;br /&gt;
 也是当仁不让的首选！&lt;/p&gt;
 
-&lt;p&gt;于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但
-Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在
-&lt;a href=&#34;http://www.flickr.com/photos/organize/&#34;&gt;Organize&lt;/a&gt;
+&lt;p&gt;于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但&lt;br /&gt;
+Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在&lt;br /&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/organize/&#34;&gt;Organize&lt;/a&gt;&lt;br /&gt;
 中活用照片集、筛选、搜索和“Jump to date”。&lt;/p&gt;
 
 &lt;p&gt;为了网上付款的事情，在多次被建设银行调戏之后，一怒之下把钱都取出来全部存到了招商银行，两边的服务一对比，才觉得自己像个真正的顾客了。&lt;/p&gt;
 
-&lt;p&gt;看到 Twitter 上有人提起
-&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对
-Unicode
-的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆
+&lt;p&gt;看到 Twitter 上有人提起&lt;br /&gt;
+&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对&lt;br /&gt;
+Unicode&lt;br /&gt;
+的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆&lt;br /&gt;
 Unicode 字符也不能用了，看来仅适合写代码人士使用了…&lt;/p&gt;
 
-&lt;p&gt;今天的&lt;a href=&#34;http://googlechinablog.com/2008/09/blog-post_02.html&#34;&gt;大消息&lt;/a&gt;是
-&lt;a href=&#34;http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html&#34;&gt;Google
+&lt;p&gt;今天的&lt;a href=&#34;http://googlechinablog.com/2008/09/blog-post_02.html&#34;&gt;大消息&lt;/a&gt;是&lt;br /&gt;
+&lt;a href=&#34;http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html&#34;&gt;Google&lt;br /&gt;
 Chrome&lt;/a&gt;（谷铬？）即将现身江湖，重复的话就不多说了，只说两点：&lt;br /&gt;
-1、从描述和截图来看，&lt;a href=&#34;http://www.google.com/chrome&#34;&gt;Chrome&lt;/a&gt; =
+1、从描述和截图来看，&lt;a href=&#34;http://www.google.com/chrome&#34;&gt;Chrome&lt;/a&gt; =&lt;br /&gt;
 Safari+Firefox+Opera+IE8+Prism？&lt;br /&gt;
-2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari
+2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari&lt;br /&gt;
 Windows 版。&lt;/p&gt;
 
 &lt;p&gt;第二代身份证还没有到手，打电话问了一下公安局，答复说新身份证要在办理后60天才能拿到。那开始白纸黑字写30天之内是什么意思？还有人说&lt;a href=&#34;http://twitter.com/gaolei80/statuses/905561071&#34;&gt;等了8个月才拿到&lt;/a&gt;，只怕到时候我的联系方式都变了…&lt;/p&gt;
 
-&lt;p&gt;凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在
+&lt;p&gt;凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在&lt;br /&gt;
 Karlsruhe 时被 Okocha 戏耍的视频…&lt;br /&gt;
-现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke
+现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke&lt;br /&gt;
 当正选门将了，可惜他的巅峰期只留给国内联赛和冠军杯。&lt;/p&gt;
 
-&lt;p&gt;OM 的正太 Samir Nasri 去了 Arsenal
-之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和
-Arsenal
-了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在
-Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires
-的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM
+&lt;p&gt;OM 的正太 Samir Nasri 去了 Arsenal&lt;br /&gt;
+之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和&lt;br /&gt;
+Arsenal&lt;br /&gt;
+了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在&lt;br /&gt;
+Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires&lt;br /&gt;
+的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM&lt;br /&gt;
 吧，免得暴殄天物啊～&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

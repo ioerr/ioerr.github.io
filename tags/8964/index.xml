@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8964 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/8964/index.xml</link>
+    <link>https://ioerr.github.io/tags/8964/</link>
     <description>Recent content in 8964 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/8964/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jun 2009 14:03:29 +0000</lastBuildDate>
     
-    <item>
-      <title>年轻的朋友二十年后再相会</title>
-      <link>https://ioerr.github.io/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
-      <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
-      <description>&lt;p&gt;1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/8964/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>年轻的朋友二十年后再相会</title>
+        <link>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
+        <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
+        <description>&lt;p&gt;1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；&lt;/p&gt;
 
 &lt;p&gt;1999年12月，甲丁邀请张枚同再写一首《二十年后再相会》，甲丁修改后仍由谷建芬老师谱曲。&lt;/p&gt;
 
@@ -97,7 +97,7 @@
 那时我们再相会。
 &lt;/blockquote&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

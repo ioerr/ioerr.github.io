@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kindle 正式发布 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Kindle 正式发布" />
+<meta property="og:description" content="Amazon 的电子书设备
+Kindle 正式发布。
+售价399美金；
+重量300克左右；
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；
+7.5&rdquo;×5.3&rdquo;×0.7&rdquo;的身材；
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB
+2.0接口；
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；
+88000本书可供选择，可免费试读第一章节；
+与多家报纸杂志合作提供内容；
+可订阅250多个知名
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；
+耐操能力不错；
+日光下可直接阅读屏幕；
+直接支持的格式包括独家的
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。
+看到以上的规格功能说明和产品外观你会有什么想法？
+说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM
+之类的功能，才符合我的期望；
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/kindle-zhengshi-fabu/" />
+
+
+
+<meta property="article:published_time" content="2007-11-19T17:50:10&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-11-19T17:50:10&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Kindle 正式发布">
+<meta itemprop="description" content="Amazon 的电子书设备
+Kindle 正式发布。
+售价399美金；
+重量300克左右；
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；
+7.5&rdquo;×5.3&rdquo;×0.7&rdquo;的身材；
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB
+2.0接口；
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；
+88000本书可供选择，可免费试读第一章节；
+与多家报纸杂志合作提供内容；
+可订阅250多个知名
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；
+耐操能力不错；
+日光下可直接阅读屏幕；
+直接支持的格式包括独家的
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。
+看到以上的规格功能说明和产品外观你会有什么想法？
+说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM
+之类的功能，才符合我的期望；
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。">
+
+
+<meta itemprop="datePublished" content="2007-11-19T17:50:10&#43;00:00" />
+<meta itemprop="dateModified" content="2007-11-19T17:50:10&#43;00:00" />
+<meta itemprop="wordCount" content="38">
+
+
+
+<meta itemprop="keywords" content="kindle,电子书,阅读," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Kindle 正式发布"/>
+<meta name="twitter:description" content="Amazon 的电子书设备
+Kindle 正式发布。
+售价399美金；
+重量300克左右；
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；
+7.5&rdquo;×5.3&rdquo;×0.7&rdquo;的身材；
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB
+2.0接口；
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；
+88000本书可供选择，可免费试读第一章节；
+与多家报纸杂志合作提供内容；
+可订阅250多个知名
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；
+耐操能力不错；
+日光下可直接阅读屏幕；
+直接支持的格式包括独家的
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。
+看到以上的规格功能说明和产品外观你会有什么想法？
+说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM
+之类的功能，才符合我的期望；
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-11-19 05:50">2007-11-19</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Kindle 正式发布</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/kindle">
+              <span class="hash">#</span>kindle</a>
+          
+            , 
+            <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6">
+              <span class="hash">#</span>电子书</a>
+          
+            , 
+            <a href="/tags/%E9%98%85%E8%AF%BB">
+              <span class="hash">#</span>阅读</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.amazon.com/">Amazon</a> 的电子书设备<br />
+<a href="http://www.amazon.com/kindle">Kindle</a> 正式发布。</p>
+
+<p><img src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-screen2._V4948245_.jpg" alt="" /></p>
+
+<p><img src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-whispernet._V4948240_.jpg" alt="" /></p>
+
+<p><img src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-ergo._V4948249_.jpg" alt="" /></p>
+
+<p><img src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-keyboard._V4948248_.jpg" alt="" /></p>
+
+<p>售价399美金；<br />
+重量300克左右；<br />
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；<br />
+7.5&rdquo;×5.3&rdquo;×0.7&rdquo;的身材；<br />
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB<br />
+2.0接口；<br />
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；<br />
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；<br />
+88000本书可供选择，可免费试读第一章节；<br />
+与多家报纸杂志合作提供内容；<br />
+可订阅250多个知名<br />
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；<br />
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；<br />
+耐操能力不错；<br />
+日光下可直接阅读屏幕；<br />
+直接支持的格式包括独家的<br />
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的<br />
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。</p>
+
+<p>看到以上的规格功能说明和产品外观你会有什么想法？</p>
+
+<p>说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；<br />
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；<br />
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM<br />
+之类的功能，才符合我的期望；<br />
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Kindle%20%e6%ad%a3%e5%bc%8f%e5%8f%91%e5%b8%83》&body=https%3a%2f%2fioerr.github.io%2fposts%2fkindle-zhengshi-fabu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkindle-zhengshi-fabu%2f&text= @calon Kindle%20%e6%ad%a3%e5%bc%8f%e5%8f%91%e5%b8%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>对话录 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%AF%B9%E8%AF%9D%E5%BD%95/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%AF%B9%E8%AF%9D%E5%BD%95/</link>
     <description>Recent content in 对话录 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%AF%B9%E8%AF%9D%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jun 2011 15:27:19 +0000</lastBuildDate>
     
-    <item>
-      <title>无聊对话录</title>
-      <link>https://ioerr.github.io/wuliao-duihualu/</link>
-      <pubDate>Thu, 30 Jun 2011 15:27:19 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/wuliao-duihualu/</guid>
-      <description>&lt;p&gt;A：“你们怎么能这样打人？！”&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%AF%B9%E8%AF%9D%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>无聊对话录</title>
+        <link>https://ioerr.github.io/posts/wuliao-duihualu/</link>
+        <pubDate>Thu, 30 Jun 2011 15:27:19 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/wuliao-duihualu/</guid>
+        <description>&lt;p&gt;A：“你们怎么能这样打人？！”&lt;br /&gt;
 B：“那换个方式这样打行不行？”&lt;/p&gt;
 
 &lt;p&gt;A：“这位选手，你其他方面的表现都还不错，就是唱歌有些走调。”&lt;br /&gt;
@@ -94,14 +94,14 @@ B：“先生，对不起，我们这里只有书记套房和主席套房。”&
 &lt;p&gt;A：“你看人家都在云端服务呢！”&lt;br /&gt;
 B：“淡定！我们在平流层。”&lt;/p&gt;
 
-&lt;p&gt;A：“XX
+&lt;p&gt;A：“XX&lt;br /&gt;
 系统好灵活啊，无论业务需求多么复杂，你想让它干什么就能够干什么。”&lt;br /&gt;
 B：“嗯，可惜就是你不想让它干什么的时候它没法不能干什么。”&lt;/p&gt;
 
 &lt;p&gt;A：“一些明显无法落实执行的条款是不是应该从法律法规中拿出去啊？”&lt;br /&gt;
 B：“是啊，一般我们都把它们挪到宪法里面。”&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

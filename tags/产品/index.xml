@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>产品 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BA%A7%E5%93%81/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BA%A7%E5%93%81/</link>
     <description>Recent content in 产品 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Nov 2012 09:03:48 +0000</lastBuildDate>
     
-    <item>
-      <title>高端用户</title>
-      <link>https://ioerr.github.io/gaoduan-yonghu/</link>
-      <pubDate>Fri, 16 Nov 2012 09:03:48 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gaoduan-yonghu/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>高端用户</title>
+        <link>https://ioerr.github.io/posts/gaoduan-yonghu/</link>
+        <pubDate>Fri, 16 Nov 2012 09:03:48 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gaoduan-yonghu/</guid>
+        <description>
 
 &lt;p&gt;经常看到身边的人购买商品或者服务时，为了节省一点点的金钱，不惜花费大量的时间、精力，比如说，要购买品质相差无几的商品，为了几元、几十元钱的差价，连续数天时间来回奔波，不断地搜集信息、比价、挑剔。&lt;/p&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;h2 id=&#34;但这还只区分了付费用户与免费用户-如果某个用户追着买你的新一代产品-花钱如流水-他就是高端用户吗&#34;&gt;但这还只区分了付费用户与免费用户。如果某个用户追着买你的新一代产品，花钱如流水，他就是高端用户吗？&lt;/h2&gt;
 
-&lt;p&gt;若是站在苹果的角度，我才不会把那些因为跟风、虚荣而高价买 iPhone
+&lt;p&gt;若是站在苹果的角度，我才不会把那些因为跟风、虚荣而高价买 iPhone&lt;br /&gt;
 的用户当作高端用户，哪怕他们有钱到愿意买 I AM RICH。&lt;br /&gt;
 他们可能能够贡献超出平均一大截的收入，但他们不是为了产品的价值理念而付费。&lt;/p&gt;
 
@@ -52,7 +52,7 @@
 
 &lt;p&gt;不过话说回来，在实践中能够量化的指标才有意义，如果无法按以上的标准判断什么是高端用户，那就先先充分理解自己的产品或服务吧，记住不要被错误的对象带到沟里就行了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>现场 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%8E%B0%E5%9C%BA/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%8E%B0%E5%9C%BA/</link>
     <description>Recent content in 现场 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%8E%B0%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2009 14:09:03 +0000</lastBuildDate>
     
-    <item>
-      <title>纵贯线</title>
-      <link>https://ioerr.github.io/zongguanxian/</link>
-      <pubDate>Mon, 21 Sep 2009 14:09:03 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zongguanxian/</guid>
-      <description>&lt;p&gt;盼星星盼月亮，终于盼来了纵贯线长沙站演唱会！如果你不是他们其中任何一人的忠实歌迷，请称呼他们为中国流行音乐史上最短暂骗钱组合
+      <atom:link href="https://ioerr.github.io/tags/%E7%8E%B0%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>纵贯线</title>
+        <link>https://ioerr.github.io/posts/zongguanxian/</link>
+        <pubDate>Mon, 21 Sep 2009 14:09:03 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zongguanxian/</guid>
+        <description>&lt;p&gt;盼星星盼月亮，终于盼来了纵贯线长沙站演唱会！如果你不是他们其中任何一人的忠实歌迷，请称呼他们为中国流行音乐史上最短暂骗钱组合&lt;br /&gt;
 XD，因为明年纵贯线就要解散了，今后恐怕再没有机会看到这四人组团巡演了。&lt;/p&gt;
 
-&lt;p&gt;很遗憾没有弄到正对舞台的内场 VIP
+&lt;p&gt;很遗憾没有弄到正对舞台的内场 VIP&lt;br /&gt;
 票，所以蹲到了离舞台最近的一层看台侧面，悲剧的是，等到四个人亮相，才发现看不到打鼓的张震岳…&lt;/p&gt;
 
 &lt;p&gt;事先在网上公布的歌曲清单并没有完全兑现，《爱情有什么道理》、《爱我别走》、《思念是一种病》、《路口》、《难念的经》都没有唱，倒是罗大佑虽然很多好歌没有入选，却意外的唱了《爱的箴言》。&lt;/p&gt;
 
 &lt;p&gt;周华健版的《穿过你的黑发的我的手》非常好听！遗憾的是没有来得及录下来，好在《有没有那么一首歌会让你想起我》没有跑掉；&lt;br /&gt;
-李宗盛的《凡人歌》加了 rap
+李宗盛的《凡人歌》加了 rap&lt;br /&gt;
 段别有风味，《我是一只小小鸟》的伴奏相当好听；&lt;br /&gt;
 因为几首喜欢的歌都没有唱，这次张震岳还是《自由》最好听，最好唱的《爱的初体验》全场最热闹；&lt;br /&gt;
 能听到罗大佑现场唱《光阴的故事》、《你的样子》、《爱的箴言》真是幸福啊！还有最初给刘文正唱的《风儿轻轻吹》，以及罗大佑正式发表的第一首歌曲《歌》。&lt;/p&gt;
 
-&lt;p&gt;长沙的歌迷还算热情，数次大合唱老歌，不过很多内场 VIP
+&lt;p&gt;长沙的歌迷还算热情，数次大合唱老歌，不过很多内场 VIP&lt;br /&gt;
 观众不知安可曲（encore）为何物，一看台上灯光熄灭瞬间就走了一半，结果错过了《明天会更好》、《真心英雄》、《朋友》联唱和《亡命之徒/出发啦》完整版。&lt;/p&gt;
 
 &lt;p&gt;因为相机不能胜任晚上长距离拍照，所以改成录像，然则又不是摄像专家，存储卡空间不多，长时间录像机身明显发热，所以录了个大概能够唤起回忆就好…&lt;/p&gt;
@@ -57,7 +57,7 @@ XD，因为明年纵贯线就要解散了，今后恐怕再没有机会看到这
 
 &lt;p&gt;我是一只小小鸟：&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

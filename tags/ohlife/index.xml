@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ohlife on 读写错误</title>
-    <link>https://ioerr.github.io/tags/ohlife/index.xml</link>
+    <link>https://ioerr.github.io/tags/ohlife/</link>
     <description>Recent content in Ohlife on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/ohlife/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Aug 2010 14:52:56 +0000</lastBuildDate>
     
-    <item>
-      <title>OhLife</title>
-      <link>https://ioerr.github.io/ohlife/</link>
-      <pubDate>Mon, 23 Aug 2010 14:52:56 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ohlife/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+      <atom:link href="https://ioerr.github.io/tags/ohlife/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>OhLife</title>
+        <link>https://ioerr.github.io/posts/ohlife/</link>
+        <pubDate>Mon, 23 Aug 2010 14:52:56 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ohlife/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
 是一个刚刚出现不久的日记服务，特色是简单、私密和精致。&lt;/p&gt;
 
 &lt;p&gt;1、简单&lt;br /&gt;
 从注册到使用非常快捷：&lt;br /&gt;
 * 注册&lt;br /&gt;
-*
+*&lt;br /&gt;
 接收提醒撰写日记的邮件（除注册当天外，每天会在晚上8点发邮件提醒你回顾一天的生活并写下日记）&lt;br /&gt;
 * 回复邮件，发布日记&lt;/p&gt;
 
@@ -31,17 +31,17 @@
 
 &lt;p&gt;2、私密&lt;br /&gt;
 不开放给任何人阅读，没有评论功能，没有 RSS 输出。&lt;br /&gt;
-虽说日记服务本来就应该是这样的，但在这样一个任何新生服务都想搭 Web 2.0
+虽说日记服务本来就应该是这样的，但在这样一个任何新生服务都想搭 Web 2.0&lt;br /&gt;
 社会化快车的时代，还是不多见，说明服务方能够节制欲望。&lt;/p&gt;
 
 &lt;p&gt;3、精致&lt;br /&gt;
-导航栏做成纸质笔记本皮革封面的风格，日记背景是细格纸，图标使用书签形象，一切都让人联想到真实世界中的笔记本，使用
-Palatino Linotype
+导航栏做成纸质笔记本皮革封面的风格，日记背景是细格纸，图标使用书签形象，一切都让人联想到真实世界中的笔记本，使用&lt;br /&gt;
+Palatino Linotype&lt;br /&gt;
 的默认字体，随机查看日记时有平滑切换效果，整体看来优雅而美观。&lt;/p&gt;
 
-&lt;p&gt;尽管定位不完全一样，但和
-&lt;a href=&#34;http://penzu.com/&#34;&gt;Penzu&lt;/a&gt;、&lt;a href=&#34;http://posterous.com/&#34;&gt;Posterous&lt;/a&gt;、&lt;a href=&#34;http://www.storyofmylife.com/&#34;&gt;Story
-of My Life&lt;/a&gt;
+&lt;p&gt;尽管定位不完全一样，但和&lt;br /&gt;
+&lt;a href=&#34;http://penzu.com/&#34;&gt;Penzu&lt;/a&gt;、&lt;a href=&#34;http://posterous.com/&#34;&gt;Posterous&lt;/a&gt;、&lt;a href=&#34;http://www.storyofmylife.com/&#34;&gt;Story&lt;br /&gt;
+of My Life&lt;/a&gt;&lt;br /&gt;
 放在一起的话，&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt; 更容易激起我写日记的欲望。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2010-08-23_161325.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2010-08-23_161325.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -49,12 +49,12 @@ of My Life&lt;/a&gt;
 &lt;p&gt;说完了好话，该看看不足之处：&lt;/p&gt;
 
 &lt;p&gt;最大的问题是选择该服务的必要性。&lt;br /&gt;
-如果 &lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+如果 &lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
 的功能如此简单，那么为什么我不干脆设置一个定时发送的邮件提醒给自己的邮箱呢？&lt;br /&gt;
-有了
-Gmail，我的一切回复作为日记都能够保留下来，并且总比托付给第三方服务安全、稳定，而且没有字数限制（目前我还不知道
-&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
-的字数限制，但单篇日志必然是有限制的）、没有贴图限制，要界面美观可以找
+有了&lt;br /&gt;
+Gmail，我的一切回复作为日记都能够保留下来，并且总比托付给第三方服务安全、稳定，而且没有字数限制（目前我还不知道&lt;br /&gt;
+&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
+的字数限制，但单篇日志必然是有限制的）、没有贴图限制，要界面美观可以找&lt;br /&gt;
 Stylish 嘛。&lt;br /&gt;
 先别说怎么赚钱吧，如何吸引新用户，留住老用户都是个问题。毕竟再优秀的界面也只能让用户一见钟情，没有界面之外的特色功能是无法长久维持的，特别是这种简单的服务太容易复制了，用户为什么一定要选择你的呢？&lt;/p&gt;
 
@@ -87,7 +87,7 @@ Stylish 嘛。&lt;br /&gt;
 在“past”界面，鼠标移动到日记上，才会浮现编辑和删除的按钮；&lt;br /&gt;
 如果找不到上/下一篇日记，当前的日记会颤抖…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

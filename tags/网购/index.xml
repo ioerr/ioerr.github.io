@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网购 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%BD%91%E8%B4%AD/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%BD%91%E8%B4%AD/</link>
     <description>Recent content in 网购 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%BD%91%E8%B4%AD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Nov 2007 16:14:55 +0000</lastBuildDate>
     
-    <item>
-      <title>记一次失败的网上购书经历</title>
-      <link>https://ioerr.github.io/ji-yici-shibaide-wangshang-goushu-jingli/</link>
-      <pubDate>Tue, 06 Nov 2007 16:14:55 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ji-yici-shibaide-wangshang-goushu-jingli/</guid>
-      <description>&lt;p&gt;我一直都没有网上购书的习惯，因为不把书捧在手中翻一翻是不会满意的。但是2条腿变4条之后，没办法跑书店，于是生平第一次尝试网上购书。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%BD%91%E8%B4%AD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>记一次失败的网上购书经历</title>
+        <link>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli/</link>
+        <pubDate>Tue, 06 Nov 2007 16:14:55 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli/</guid>
+        <description>&lt;p&gt;我一直都没有网上购书的习惯，因为不把书捧在手中翻一翻是不会满意的。但是2条腿变4条之后，没办法跑书店，于是生平第一次尝试网上购书。&lt;/p&gt;
 
-&lt;p&gt;因为&lt;a href=&#34;http://blog.sina.com.cn/maboyong&#34;&gt;马亲王&lt;/a&gt;的&lt;a href=&#34;http://blog.sina.com.cn/s/blog_561ee47501000bf2.html&#34;&gt;《殷商舰队玛雅征服史》目前在当当上有卖&lt;/a&gt;，所以第一选择就是当当了。在诅咒了一万遍那个占用了我专属的不常见的
-ID
+&lt;p&gt;因为&lt;a href=&#34;http://blog.sina.com.cn/maboyong&#34;&gt;马亲王&lt;/a&gt;的&lt;a href=&#34;http://blog.sina.com.cn/s/blog_561ee47501000bf2.html&#34;&gt;《殷商舰队玛雅征服史》目前在当当上有卖&lt;/a&gt;，所以第一选择就是当当了。在诅咒了一万遍那个占用了我专属的不常见的&lt;br /&gt;
+ID&lt;br /&gt;
 的用户——坚决不承认自己曾经注册过且忘记了注册邮箱——之后，合当当和豆瓣之力迅速选好了4本书。&lt;br /&gt;
 &lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5129756049794506514&#34;&gt;&lt;img src=&#34;http://lh4.google.com/calon.xu/RzCN8txpnxI/AAAAAAAAAY4/xHOrSpIEG14/s800/ScreenShot00070.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 但在选择送货方式时，却发现自己的住址不在普通快递送货上门范围之内，只能够选择普通邮递（担心拖的时间太长）或者性价比很低的邮政特快专递（费用为总计购物金额的100%），实在是让人很不爽。看来我还是得忍一忍，等到可以自由活动了再去打劫书市？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

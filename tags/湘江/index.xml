@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>湘江 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B9%98%E6%B1%9F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B9%98%E6%B1%9F/</link>
     <description>Recent content in 湘江 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B9%98%E6%B1%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2009 18:39:40 +0000</lastBuildDate>
     
-    <item>
-      <title>元宵赏烟花</title>
-      <link>https://ioerr.github.io/yuanxiao-shang-yanhua/</link>
-      <pubDate>Sat, 14 Feb 2009 18:39:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yuanxiao-shang-yanhua/</guid>
-      <description>&lt;p&gt;在元宵节央视大裤衩配楼着火的时候，我正在湘江边上欣赏另一出烟花表演。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B9%98%E6%B1%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>元宵赏烟花</title>
+        <link>https://ioerr.github.io/posts/yuanxiao-shang-yanhua/</link>
+        <pubDate>Sat, 14 Feb 2009 18:39:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yuanxiao-shang-yanhua/</guid>
+        <description>&lt;p&gt;在元宵节央视大裤衩配楼着火的时候，我正在湘江边上欣赏另一出烟花表演。&lt;br /&gt;
 州官放火，百姓点灯，真是其乐融融一派和谐啊。&lt;/p&gt;
 
 &lt;p&gt;江边的人群实在拥挤，沿江风光带的栏杆边上围了至少三层人，还不断有人下到江岸抢占有利位置。&lt;br /&gt;
@@ -51,7 +51,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/sets/72157613783847173&#34;&gt;更多照片&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

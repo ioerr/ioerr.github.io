@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>朝鲜 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%9C%9D%E9%B2%9C/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%9C%9D%E9%B2%9C/</link>
     <description>Recent content in 朝鲜 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%9C%9D%E9%B2%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2010 16:33:38 +0000</lastBuildDate>
     
-    <item>
-      <title>共同紧张区</title>
-      <link>https://ioerr.github.io/gongtong-jinzhang-qu/</link>
-      <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gongtong-jinzhang-qu/</guid>
-      <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%9C%9D%E9%B2%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>共同紧张区</title>
+        <link>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</link>
+        <pubDate>Tue, 23 Nov 2010 16:33:38 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gongtong-jinzhang-qu/</guid>
+        <description>&lt;p&gt;韩国西部延坪岛海域当天14时30分左右遭受来自朝鲜方面的炮击，韩国军队进行了回击。&lt;/p&gt;
 
 &lt;p&gt;一、势如破竹&lt;br /&gt;
 1个小时后，金正恩宣布已经完全占领朝鲜半岛；&lt;br /&gt;
@@ -65,15 +65,14 @@
 
 &lt;p&gt;台湾：感谢金将军为杨淑君讨回公道所做的努力，但请不要采取非理性行为殃及无辜，要展现风范。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>扑球狗杀人事件</title>
-      <link>https://ioerr.github.io/portugal-sharen-shijian/</link>
-      <pubDate>Mon, 21 Jun 2010 15:28:44 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/portugal-sharen-shijian/</guid>
-      <description>&lt;p&gt;扑球狗今晚7:0大胜朝鲜，好死不死因为朝鲜第一场表现不错，仅仅1:2小负巴西队，于是这场球赛在朝鲜国内直播——如果朝鲜人民能够看到的话。&lt;/p&gt;
+      <item>
+        <title>扑球狗杀人事件</title>
+        <link>https://ioerr.github.io/posts/portugal-sharen-shijian/</link>
+        <pubDate>Mon, 21 Jun 2010 15:28:44 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/portugal-sharen-shijian/</guid>
+        <description>&lt;p&gt;扑球狗今晚7:0大胜朝鲜，好死不死因为朝鲜第一场表现不错，仅仅1:2小负巴西队，于是这场球赛在朝鲜国内直播——如果朝鲜人民能够看到的话。&lt;/p&gt;
 
 &lt;p&gt;许多人估计金将军已经恼羞成怒，世界杯前有流言说若成绩不佳，朝鲜球员会去&lt;strike&gt;昌平筛沙&lt;/strike&gt;矿山挖煤，可是如此大的比分+出线已经彻底无望+国内直播时让金正日很没面子，搞不好回去还有机会挖矿、自己不变成煤渣就已经很幸运了。&lt;/p&gt;
 
@@ -84,7 +83,7 @@
 
 &lt;p&gt;下次再有什么受欢迎的国外服务被封杀的时候你就可以看到这种人出现了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

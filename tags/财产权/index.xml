@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>财产权 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%B4%A2%E4%BA%A7%E6%9D%83/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%B4%A2%E4%BA%A7%E6%9D%83/</link>
     <description>Recent content in 财产权 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%B4%A2%E4%BA%A7%E6%9D%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Oct 2013 09:54:47 +0000</lastBuildDate>
     
-    <item>
-      <title>如何正义地侵犯私人财产权？</title>
-      <link>https://ioerr.github.io/ruhe-zhengyide-qinfan-siren-caichanquan/</link>
-      <pubDate>Wed, 23 Oct 2013 09:54:47 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ruhe-zhengyide-qinfan-siren-caichanquan/</guid>
-      <description>&lt;p&gt;据说私人财产权是神圣不可侵犯的，起码在非社会主义、非公有制的国家中是这样。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%B4%A2%E4%BA%A7%E6%9D%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>如何正义地侵犯私人财产权？</title>
+        <link>https://ioerr.github.io/posts/ruhe-zhengyide-qinfan-siren-caichanquan/</link>
+        <pubDate>Wed, 23 Oct 2013 09:54:47 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ruhe-zhengyide-qinfan-siren-caichanquan/</guid>
+        <description>&lt;p&gt;据说私人财产权是神圣不可侵犯的，起码在非社会主义、非公有制的国家中是这样。&lt;br /&gt;
 但又据说社会公正比私人财产权更加神圣，前者侵犯后者是正义之举。&lt;/p&gt;
 
 &lt;p&gt;下面我来教大家几招如何正义地侵犯私人财产权：&lt;/p&gt;
@@ -31,7 +31,7 @@
 &lt;p&gt;正义逻辑之三：&lt;br /&gt;
 要是有人反对上述逻辑，就是不同情弱者、不讲公平、没有道德的资本主义代言人。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>圣诞 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%9C%A3%E8%AF%9E/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%9C%A3%E8%AF%9E/</link>
     <description>Recent content in 圣诞 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%9C%A3%E8%AF%9E/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2008 08:17:34 +0000</lastBuildDate>
     
-    <item>
-      <title>驯鹿</title>
-      <link>https://ioerr.github.io/xunlu/</link>
-      <pubDate>Thu, 25 Dec 2008 08:17:34 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xunlu/</guid>
-      <description>&lt;p&gt;受到 &lt;a href=&#34;http://www.cubeecraft.com/&#34;&gt;cubeecraft&lt;/a&gt; 的启发，用 SketchUp
+      <atom:link href="https://ioerr.github.io/tags/%E5%9C%A3%E8%AF%9E/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>驯鹿</title>
+        <link>https://ioerr.github.io/posts/xunlu/</link>
+        <pubDate>Thu, 25 Dec 2008 08:17:34 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xunlu/</guid>
+        <description>&lt;p&gt;受到 &lt;a href=&#34;http://www.cubeecraft.com/&#34;&gt;cubeecraft&lt;/a&gt; 的启发，用 SketchUp&lt;br /&gt;
 做了一个方盒子版本的驯鹿应景：&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/3133565448/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3287/3133565448_e70db8840a.jpg&#34; alt=&#34;Reindeer&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;不过我 SketchUp
+&lt;p&gt;不过我 SketchUp&lt;br /&gt;
 水平不够，短时间内弄不出圣诞老人飘逸的大白胡子，所以圣诞老人就乖乖的给我消失好了…&lt;/p&gt;
 
 &lt;p&gt;本来准备昨天晚上发布到 blog 上的，没想到来了个：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 数据库连接错误&lt;br /&gt;
-您在wp-config.php文件中提供的数据库用户名和密码可能不正确，或者无法连接到
-192.168.1.11 上数据库服务器，这意味着您的主机数据库服务器已停止工作。
-&lt;/blockquote&gt;
+您在wp-config.php文件中提供的数据库用户名和密码可能不正确，或者无法连接到&lt;br /&gt;
+192.168.1.11 上数据库服务器，这意味着您的主机数据库服务器已停止工作。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 :023:&lt;br /&gt;
 真是“圣诞前夜的噩梦”啊~&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

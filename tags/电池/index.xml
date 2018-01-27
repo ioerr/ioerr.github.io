@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电池 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%94%B5%E6%B1%A0/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E6%B1%A0/</link>
     <description>Recent content in 电池 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E6%B1%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2010 17:54:29 +0000</lastBuildDate>
     
-    <item>
-      <title>手机电池炸弹</title>
-      <link>https://ioerr.github.io/shouji-dianchi-zhadan/</link>
-      <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-dianchi-zhadan/</guid>
-      <description>&lt;p&gt;以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E6%B1%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>手机电池炸弹</title>
+        <link>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</link>
+        <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</guid>
+        <description>&lt;p&gt;以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…&lt;/p&gt;
 
 &lt;p&gt;在现代信息社会，恐怖袭击若只是刀枪剑戟（想必董卓对最后一项印象深刻）或一般的火枪炸弹，未免太落后于时代，基地组织前无古人的劫机撞大楼已经成为重点防范对象，液体炸弹也曾功亏一篑，新世纪的恐怖分子需要一种新的方法，反恐部门也需要尽早做好应对准备才是啊…&lt;/p&gt;
 
@@ -31,7 +31,7 @@
 &lt;p&gt;所以，恐怖分子们可以赶紧收购并做大一家手机电池厂商，专门生产能够爆炸的手机电池，并推销给全世界&lt;br /&gt;
 而反恐部门不妨将劣质手机电池厂商列为重点监视目标，搞不好还能顺手逮到本拉登…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

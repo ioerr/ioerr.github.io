@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>赫尔曼沃克 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%B5%AB%E5%B0%94%E6%9B%BC%E6%B2%83%E5%85%8B/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%B5%AB%E5%B0%94%E6%9B%BC%E6%B2%83%E5%85%8B/</link>
     <description>Recent content in 赫尔曼沃克 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%B5%AB%E5%B0%94%E6%9B%BC%E6%B2%83%E5%85%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jun 2012 05:37:14 +0000</lastBuildDate>
     
-    <item>
-      <title>荒诞</title>
-      <link>https://ioerr.github.io/huangdan/</link>
-      <pubDate>Mon, 11 Jun 2012 05:37:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/huangdan/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/20280353&#34;&gt;你听过看过经历过的最荒诞的故事情节是怎样的&lt;/a&gt;？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%B5%AB%E5%B0%94%E6%9B%BC%E6%B2%83%E5%85%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>荒诞</title>
+        <link>https://ioerr.github.io/posts/huangdan/</link>
+        <pubDate>Mon, 11 Jun 2012 05:37:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/huangdan/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.zhihu.com/question/20280353&#34;&gt;你听过看过经历过的最荒诞的故事情节是怎样的&lt;/a&gt;？&lt;br /&gt;
 特莱西恩施塔特集中营，“美化运动”和记录片《元首授予犹太人一座城市》&lt;/p&gt;
 
 &lt;p&gt;世界上最荒诞的事情是，你以为只会出现在虚构故事中的情节其实是真实发生的，而这些真实发生的事情却是为了制造虚假的谎言。&lt;/p&gt;
@@ -81,7 +81,7 @@ Eppstein（特莱西恩施塔特傀儡自治政府元老）等人后来都死于
 最最最荒诞的是什么？是明明我们都已知道了真相，他们也知道我们知道真相，他们也知道我们知道他们扯谎，他们还在那里扯谎。**
 &lt;/blockquote&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>功利主义 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89/</link>
     <description>Recent content in 功利主义 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Dec 2013 16:37:59 +0000</lastBuildDate>
     
-    <item>
-      <title>集体和历史决定论的幻觉</title>
-      <link>https://ioerr.github.io/jiti-he-lishi-juedinglun-de-huanjue/</link>
-      <pubDate>Fri, 27 Dec 2013 16:37:59 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jiti-he-lishi-juedinglun-de-huanjue/</guid>
-      <description>&lt;p&gt;品评历史人物是非功过时，常有这样一种观点：牺牲过去的个人，即使手段不堪，换来现在大多数人的幸福，那也值得称颂。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>集体和历史决定论的幻觉</title>
+        <link>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</link>
+        <pubDate>Fri, 27 Dec 2013 16:37:59 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</guid>
+        <description>&lt;p&gt;品评历史人物是非功过时，常有这样一种观点：牺牲过去的个人，即使手段不堪，换来现在大多数人的幸福，那也值得称颂。&lt;/p&gt;
 
 &lt;p&gt;以功利的观念来看，似乎挺有道理，持此观点的人也通常自认为理性客观，逻辑上无懈可击，比感情用事而脱离现实的道德家们更有道理。&lt;br /&gt;
 由此逻辑出发，许多人类历史上的悲剧，作为某些所谓伟大崇高目标的过程，反成了可以原谅、接受的必要的恶，甚至成了引以为傲的功劳。&lt;/p&gt;
@@ -31,7 +31,7 @@
 
 &lt;p&gt;另外，现代人回顾已成定局的历史，对照从有限的经验归纳出的历史理论，也容易产生一种历史决定论的幻觉，以为从过去到现在和未来的历史发展的真理已掌握在手，既如此，跪拜在这种历史神话的人们青睐能用于逃脱历史责任的犬儒主义：为所谓历史真理服务的一切罪行都可宽恕，牺牲因其神圣而化为正义。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

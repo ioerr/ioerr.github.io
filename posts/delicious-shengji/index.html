@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Del.icio.us 升级 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Del.icio.us 升级" />
+<meta property="og:description" content="昨天 Del.icio.us
+贴出了停机升级公告，今天恢复后，原来的一些可选的试验特性被加入默认功能中：
+Inbox
+Tag Bundles
+Daily blog posting
+Inbox 功能似乎是用来订阅其它用户的 Del.icio.us
+收藏的，还可以自定义分类。但是好像还存在不少问题，有的时候明明订阅了，在
+Inbox 中却不显示，明明取消订阅了，在 Inbox 中却一直存在。
+Tag Bundles 是用来集中几个 Tag 的，就好像在 Tag
+这一层之上又增加了一层分类。
+同样的，在编辑 Bundles 的时候，之前设置的都消失了，查看的时候又会出现。
+Daily blog posting 要编辑的东西太多，没有导入导出的功能，没有 RSS
+Feed，也没有和用户的 Del.icio.us
+相结合的迹象，还不明白提供这个功能的目的是什么。
+新建项目在有的页面会消失的问题照旧，但愿尽快脱离试验状态吧。
+另外还发现可以按照字母顺序、使用频率和自定义的 Tag Bundle 来对 Tag
+进行排序，以及查看 Tag
+Cloud。前一阵子没有仔细观察过，可能推出来有些时间了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/delicious-shengji/" />
+
+
+
+<meta property="article:published_time" content="2005-06-06T11:32:57&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-06-06T11:32:57&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Del.icio.us 升级">
+<meta itemprop="description" content="昨天 Del.icio.us
+贴出了停机升级公告，今天恢复后，原来的一些可选的试验特性被加入默认功能中：
+Inbox
+Tag Bundles
+Daily blog posting
+Inbox 功能似乎是用来订阅其它用户的 Del.icio.us
+收藏的，还可以自定义分类。但是好像还存在不少问题，有的时候明明订阅了，在
+Inbox 中却不显示，明明取消订阅了，在 Inbox 中却一直存在。
+Tag Bundles 是用来集中几个 Tag 的，就好像在 Tag
+这一层之上又增加了一层分类。
+同样的，在编辑 Bundles 的时候，之前设置的都消失了，查看的时候又会出现。
+Daily blog posting 要编辑的东西太多，没有导入导出的功能，没有 RSS
+Feed，也没有和用户的 Del.icio.us
+相结合的迹象，还不明白提供这个功能的目的是什么。
+新建项目在有的页面会消失的问题照旧，但愿尽快脱离试验状态吧。
+另外还发现可以按照字母顺序、使用频率和自定义的 Tag Bundle 来对 Tag
+进行排序，以及查看 Tag
+Cloud。前一阵子没有仔细观察过，可能推出来有些时间了。">
+
+
+<meta itemprop="datePublished" content="2005-06-06T11:32:57&#43;00:00" />
+<meta itemprop="dateModified" content="2005-06-06T11:32:57&#43;00:00" />
+<meta itemprop="wordCount" content="44">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Del.icio.us 升级"/>
+<meta name="twitter:description" content="昨天 Del.icio.us
+贴出了停机升级公告，今天恢复后，原来的一些可选的试验特性被加入默认功能中：
+Inbox
+Tag Bundles
+Daily blog posting
+Inbox 功能似乎是用来订阅其它用户的 Del.icio.us
+收藏的，还可以自定义分类。但是好像还存在不少问题，有的时候明明订阅了，在
+Inbox 中却不显示，明明取消订阅了，在 Inbox 中却一直存在。
+Tag Bundles 是用来集中几个 Tag 的，就好像在 Tag
+这一层之上又增加了一层分类。
+同样的，在编辑 Bundles 的时候，之前设置的都消失了，查看的时候又会出现。
+Daily blog posting 要编辑的东西太多，没有导入导出的功能，没有 RSS
+Feed，也没有和用户的 Del.icio.us
+相结合的迹象，还不明白提供这个功能的目的是什么。
+新建项目在有的页面会消失的问题照旧，但愿尽快脱离试验状态吧。
+另外还发现可以按照字母顺序、使用频率和自定义的 Tag Bundle 来对 Tag
+进行排序，以及查看 Tag
+Cloud。前一阵子没有仔细观察过，可能推出来有些时间了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-06-06 11:32">2005-06-06</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Del.icio.us 升级</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>昨天 <a href="http://del.icio.us/">Del.icio.us</a><br />
+贴出了停机升级公告，今天恢复后，原来的一些可选的试验特性被加入默认功能中：<br />
+Inbox<br />
+Tag Bundles<br />
+Daily blog posting</p>
+
+<p>Inbox 功能似乎是用来订阅其它用户的 Del.icio.us<br />
+收藏的，还可以自定义分类。但是好像还存在不少问题，有的时候明明订阅了，在<br />
+Inbox 中却不显示，明明取消订阅了，在 Inbox 中却一直存在。</p>
+
+<p>Tag Bundles 是用来集中几个 Tag 的，就好像在 Tag<br />
+这一层之上又增加了一层分类。<br />
+同样的，在编辑 Bundles 的时候，之前设置的都消失了，查看的时候又会出现。</p>
+
+<p>Daily blog posting 要编辑的东西太多，没有导入导出的功能，没有 RSS<br />
+Feed，也没有和用户的 Del.icio.us<br />
+相结合的迹象，还不明白提供这个功能的目的是什么。<br />
+新建项目在有的页面会消失的问题照旧，但愿尽快脱离试验状态吧。</p>
+
+<p>另外还发现可以按照字母顺序、使用频率和自定义的 Tag Bundle 来对 Tag<br />
+进行排序，以及查看 Tag<br />
+Cloud。前一阵子没有仔细观察过，可能推出来有些时间了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Del.icio.us%20%e5%8d%87%e7%ba%a7》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdelicious-shengji%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdelicious-shengji%2f&text= @calon Del.icio.us%20%e5%8d%87%e7%ba%a7&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

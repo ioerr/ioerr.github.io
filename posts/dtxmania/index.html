@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DTXMania - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="DTXMania" />
+<meta property="og:description" content="虽然 StepMania
+的一般模式难度稍微低一点，但是我实在不怎么喜欢舞曲的风格，所以其实应该还是
+DTXMania
+更好，因为喜欢打鼓和吉他的一般都更亲近摇滚一派。
+然而最大的问题是，我历来是动作游戏菜鸟，同理可得，7个手指控制打鼓必然十分狼狈，即使开了1、2个自动敲击也好不了多少…话说回来，即使有电子鼓给我用也是浪费…
+因为熟悉的歌曲 DTX/GDA 源比较少，想要自己做 DTX/GDA 文件，无奈无论是
+DTXCreator，还是
+GDA Creator
+Professional
+都是日文界面或乱码…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dtxmania/" />
+
+
+
+<meta property="article:published_time" content="2006-08-30T14:38:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-08-30T14:38:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="DTXMania">
+<meta itemprop="description" content="虽然 StepMania
+的一般模式难度稍微低一点，但是我实在不怎么喜欢舞曲的风格，所以其实应该还是
+DTXMania
+更好，因为喜欢打鼓和吉他的一般都更亲近摇滚一派。
+然而最大的问题是，我历来是动作游戏菜鸟，同理可得，7个手指控制打鼓必然十分狼狈，即使开了1、2个自动敲击也好不了多少…话说回来，即使有电子鼓给我用也是浪费…
+因为熟悉的歌曲 DTX/GDA 源比较少，想要自己做 DTX/GDA 文件，无奈无论是
+DTXCreator，还是
+GDA Creator
+Professional
+都是日文界面或乱码…">
+
+
+<meta itemprop="datePublished" content="2006-08-30T14:38:03&#43;00:00" />
+<meta itemprop="dateModified" content="2006-08-30T14:38:03&#43;00:00" />
+<meta itemprop="wordCount" content="16">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="DTXMania"/>
+<meta name="twitter:description" content="虽然 StepMania
+的一般模式难度稍微低一点，但是我实在不怎么喜欢舞曲的风格，所以其实应该还是
+DTXMania
+更好，因为喜欢打鼓和吉他的一般都更亲近摇滚一派。
+然而最大的问题是，我历来是动作游戏菜鸟，同理可得，7个手指控制打鼓必然十分狼狈，即使开了1、2个自动敲击也好不了多少…话说回来，即使有电子鼓给我用也是浪费…
+因为熟悉的歌曲 DTX/GDA 源比较少，想要自己做 DTX/GDA 文件，无奈无论是
+DTXCreator，还是
+GDA Creator
+Professional
+都是日文界面或乱码…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-08-30 02:38">2006-08-30</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
+          
+            , 
+            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+          </p>
+      <h1>DTXMania</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>虽然 <a href="http://www.stepmania.com/">StepMania</a><br />
+的一般模式难度稍微低一点，但是我实在不怎么喜欢舞曲的风格，所以其实应该还是<br />
+<a href="http://www.donburi.to/~from/dtxmania/">DTXMania</a><br />
+更好，因为喜欢打鼓和吉他的一般都更亲近摇滚一派。</p>
+
+<p>然而最大的问题是，我历来是动作游戏菜鸟，同理可得，7个手指控制打鼓必然十分狼狈，即使开了1、2个自动敲击也好不了多少…话说回来，即使有电子鼓给我用也是浪费…</p>
+
+<p>因为熟悉的歌曲 DTX/GDA 源比较少，想要自己做 DTX/GDA 文件，无奈无论是<br />
+<a href="http://www.donburi.to/~from/dtxmania/download.html">DTXCreator</a>，还是<br />
+<a href="http://www.gdamania.net/modules/wfdownloads/singlefile.php?cid=60&amp;lid=787">GDA Creator<br />
+Professional</a><br />
+都是日文界面或乱码…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《DTXMania》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdtxmania%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdtxmania%2f&text= @calon DTXMania&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>个人空间 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4/</link>
     <description>Recent content in 个人空间 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2018 20:24:39 +0800</lastBuildDate>
     
-    <item>
-      <title>婚前的约定</title>
-      <link>https://ioerr.github.io/hunqian-de-yueding/</link>
-      <pubDate>Sun, 21 Jan 2018 20:24:39 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hunqian-de-yueding/</guid>
-      <description>&lt;p&gt;在推上看到 &lt;a href=&#34;https://twitter.com/luanma_&#34;&gt;@luanma_&lt;/a&gt; 说，朋友为了不让老婆知道他的花销情况，取消信用卡账单邮件通知，支付宝设置小号。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>婚前的约定</title>
+        <link>https://ioerr.github.io/posts/hunqian-de-yueding/</link>
+        <pubDate>Sun, 21 Jan 2018 20:24:39 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/hunqian-de-yueding/</guid>
+        <description>&lt;p&gt;在推上看到 &lt;a href=&#34;https://twitter.com/luanma_&#34;&gt;@luanma_&lt;/a&gt; 说，朋友为了不让老婆知道他的花销情况，取消信用卡账单邮件通知，支付宝设置小号。&lt;/p&gt;
 
 &lt;p&gt;相信很多人也听说过其他种种老公藏私房钱，隐瞒收入和开支的事迹。听到这种事情，我的反应都是：防妻如防贼，这生活过得还有什么意思？&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;p&gt;如果从一开始认识到婚姻不仅仅是两情相悦，还包括财务上的合伙，事业上的互助，危机来临时的互相保护，更是两个自由、平等和相互理解包容的人共同生活，再去找合适的人，个人在婚姻关系中就不会有这么多纠结和笑话了吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

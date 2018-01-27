@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中学生运动会 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%BF%90%E5%8A%A8%E4%BC%9A/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%BF%90%E5%8A%A8%E4%BC%9A/</link>
     <description>Recent content in 中学生运动会 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%BF%90%E5%8A%A8%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Aug 2009 16:31:51 +0000</lastBuildDate>
     
-    <item>
-      <title>中学生运动会开幕式</title>
-      <link>https://ioerr.github.io/zhongxuesheng-yundonghui-kaimushi/</link>
-      <pubDate>Mon, 17 Aug 2009 16:31:51 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongxuesheng-yundonghui-kaimushi/</guid>
-      <description>&lt;p&gt;昨天晚上拿着赠票去看了第十届全国中学生运动会开幕式，据说有北京奥运会开幕式的人员参与，但效果只能说是差强人意，而且还虎头蛇尾。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E5%AD%A6%E7%94%9F%E8%BF%90%E5%8A%A8%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>中学生运动会开幕式</title>
+        <link>https://ioerr.github.io/posts/zhongxuesheng-yundonghui-kaimushi/</link>
+        <pubDate>Mon, 17 Aug 2009 16:31:51 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongxuesheng-yundonghui-kaimushi/</guid>
+        <description>&lt;p&gt;昨天晚上拿着赠票去看了第十届全国中学生运动会开幕式，据说有北京奥运会开幕式的人员参与，但效果只能说是差强人意，而且还虎头蛇尾。&lt;/p&gt;
 
 &lt;p&gt;入场的时候发现安检门安排不合理，带着包的只能在一个安检门前面排长龙，而其他安检门几乎没人；&lt;br /&gt;
 安检也是走走过场，只有不检查包的安检门会检查金属制品，检查包的那个安检门是不会检查随身携带的物品的，也就是说如果你带着包就可以把违禁物品戴在身上混进去了；&lt;br /&gt;
@@ -38,7 +38,7 @@
 
 &lt;p&gt;更多请看&lt;a href=&#34;http://www.flickr.com/photos/calon/sets/72157621940453851/&#34;&gt;照片集&lt;/a&gt;。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

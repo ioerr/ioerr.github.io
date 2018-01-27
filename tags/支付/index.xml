@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>支付 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%94%AF%E4%BB%98/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%94%AF%E4%BB%98/</link>
     <description>Recent content in 支付 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%94%AF%E4%BB%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2017 22:22:53 +0800</lastBuildDate>
     
-    <item>
-      <title>苹果微信之争</title>
-      <link>https://ioerr.github.io/pingguo-weixin-zhizheng/</link>
-      <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/pingguo-weixin-zhizheng/</guid>
-      <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%94%AF%E4%BB%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>苹果微信之争</title>
+        <link>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</link>
+        <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</guid>
+        <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
 
 &lt;p&gt;有人则认为苹果这种做法是利用垄断优势店大欺客。我不是果粉都看不下去了。&lt;/p&gt;
 
@@ -48,7 +48,7 @@
 
 &lt;p&gt;一句“用户群体庞大”就可以堂而皇之的化私为公，进而打着法律的旗号干预市场，大多数人可能还觉得十分正常，甚至拍手叫好，这才是细思恐极之处啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

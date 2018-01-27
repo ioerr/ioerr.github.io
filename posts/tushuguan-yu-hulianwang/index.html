@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>图书馆与互联网 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="图书馆与互联网" />
+<meta property="og:description" content="近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：
+1、互联网至今也只有短短十几年的历史，当然无法和图书馆的深厚积淀相提并论，但假以时日，以互联网爆炸式的信息增长速度，其在深度上超越图书馆也许在几代人之内就能看到。
+2、制约互联网内容深度的最大因素或许是高价值内容的出版发行。在图书馆借阅实体图书，借阅者只是得到了暂时的使用权，所有权仍然属于付费购书的图书馆；在当今的互联网上，大部分的信息是免费获得，而获得书本往往意味着书本的内容已经实际为阅读者所有，复制、传播、修改都是相当常见的，对于期望盈利的作者和出版者来说，盗版使用是个噩梦。如果内容的制造者无法获得相应的回报，那么自然会影响内容提供的质量和渠道。
+当然，有的作者看重传播自己的思想甚于从中获利，于是互联网成了比传统图书出版发行更好的渠道。然而，毕竟绝大多数作者更需要的是盈利，因此这决定了许多重要的知识短期内将仍然只能在图书馆和书店中找到。
+同时，图书版权制度、电子图书在线销售、配套服务这些又是在不断变更和发展的，当图书出版完全适应了互联网时代之后，也许图书馆最大的优势也就失去了。
+3、作为纸质书籍的老巢之一，图书馆本来有一个优点是和纸质书籍相关联的，即，阅读更方便、舒适、普及：翻阅电子书籍的体验还远远不如纸质书籍（检索、批注可能例外），上网、添置电子设备用于读书的投入也超过泡在图书馆的免费阅览室（但愿意去的人恐怕比买得起手机等电子设备的人要少，这又是另一个问题了）。可读者的体验迟早会有巨大进步，而上网和电子设备的降价是看得见的快速改变…
+4、本来还想说说图书馆被神化的形象和互联网祛魅的效应对人们获取知识态度的影响，不幸发现要么是个伪问题，要么超出我能力之外…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/tushuguan-yu-hulianwang/" />
+
+
+
+<meta property="article:published_time" content="2008-04-22T15:52:35&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-04-22T15:52:35&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="图书馆与互联网">
+<meta itemprop="description" content="近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：
+1、互联网至今也只有短短十几年的历史，当然无法和图书馆的深厚积淀相提并论，但假以时日，以互联网爆炸式的信息增长速度，其在深度上超越图书馆也许在几代人之内就能看到。
+2、制约互联网内容深度的最大因素或许是高价值内容的出版发行。在图书馆借阅实体图书，借阅者只是得到了暂时的使用权，所有权仍然属于付费购书的图书馆；在当今的互联网上，大部分的信息是免费获得，而获得书本往往意味着书本的内容已经实际为阅读者所有，复制、传播、修改都是相当常见的，对于期望盈利的作者和出版者来说，盗版使用是个噩梦。如果内容的制造者无法获得相应的回报，那么自然会影响内容提供的质量和渠道。
+当然，有的作者看重传播自己的思想甚于从中获利，于是互联网成了比传统图书出版发行更好的渠道。然而，毕竟绝大多数作者更需要的是盈利，因此这决定了许多重要的知识短期内将仍然只能在图书馆和书店中找到。
+同时，图书版权制度、电子图书在线销售、配套服务这些又是在不断变更和发展的，当图书出版完全适应了互联网时代之后，也许图书馆最大的优势也就失去了。
+3、作为纸质书籍的老巢之一，图书馆本来有一个优点是和纸质书籍相关联的，即，阅读更方便、舒适、普及：翻阅电子书籍的体验还远远不如纸质书籍（检索、批注可能例外），上网、添置电子设备用于读书的投入也超过泡在图书馆的免费阅览室（但愿意去的人恐怕比买得起手机等电子设备的人要少，这又是另一个问题了）。可读者的体验迟早会有巨大进步，而上网和电子设备的降价是看得见的快速改变…
+4、本来还想说说图书馆被神化的形象和互联网祛魅的效应对人们获取知识态度的影响，不幸发现要么是个伪问题，要么超出我能力之外…">
+
+
+<meta itemprop="datePublished" content="2008-04-22T15:52:35&#43;00:00" />
+<meta itemprop="dateModified" content="2008-04-22T15:52:35&#43;00:00" />
+<meta itemprop="wordCount" content="7">
+
+
+
+<meta itemprop="keywords" content="互联网,图书馆,知识," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="图书馆与互联网"/>
+<meta name="twitter:description" content="近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：
+1、互联网至今也只有短短十几年的历史，当然无法和图书馆的深厚积淀相提并论，但假以时日，以互联网爆炸式的信息增长速度，其在深度上超越图书馆也许在几代人之内就能看到。
+2、制约互联网内容深度的最大因素或许是高价值内容的出版发行。在图书馆借阅实体图书，借阅者只是得到了暂时的使用权，所有权仍然属于付费购书的图书馆；在当今的互联网上，大部分的信息是免费获得，而获得书本往往意味着书本的内容已经实际为阅读者所有，复制、传播、修改都是相当常见的，对于期望盈利的作者和出版者来说，盗版使用是个噩梦。如果内容的制造者无法获得相应的回报，那么自然会影响内容提供的质量和渠道。
+当然，有的作者看重传播自己的思想甚于从中获利，于是互联网成了比传统图书出版发行更好的渠道。然而，毕竟绝大多数作者更需要的是盈利，因此这决定了许多重要的知识短期内将仍然只能在图书馆和书店中找到。
+同时，图书版权制度、电子图书在线销售、配套服务这些又是在不断变更和发展的，当图书出版完全适应了互联网时代之后，也许图书馆最大的优势也就失去了。
+3、作为纸质书籍的老巢之一，图书馆本来有一个优点是和纸质书籍相关联的，即，阅读更方便、舒适、普及：翻阅电子书籍的体验还远远不如纸质书籍（检索、批注可能例外），上网、添置电子设备用于读书的投入也超过泡在图书馆的免费阅览室（但愿意去的人恐怕比买得起手机等电子设备的人要少，这又是另一个问题了）。可读者的体验迟早会有巨大进步，而上网和电子设备的降价是看得见的快速改变…
+4、本来还想说说图书馆被神化的形象和互联网祛魅的效应对人们获取知识态度的影响，不幸发现要么是个伪问题，要么超出我能力之外…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-04-22 03:52">2008-04-22</time> &bull;
+          
+            
+            <a href="/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">书香剑气</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>图书馆与互联网</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91">
+              <span class="hash">#</span>互联网</a>
+          
+            , 
+            <a href="/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86">
+              <span class="hash">#</span>图书馆</a>
+          
+            , 
+            <a href="/tags/%E7%9F%A5%E8%AF%86">
+              <span class="hash">#</span>知识</a>
+          
+        
+      </p>
+    </header>
+    <section><p>近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：</p>
+
+<p>1、互联网至今也只有短短十几年的历史，当然无法和图书馆的深厚积淀相提并论，但假以时日，以互联网爆炸式的信息增长速度，其在深度上超越图书馆也许在几代人之内就能看到。</p>
+
+<p>2、制约互联网内容深度的最大因素或许是高价值内容的出版发行。在图书馆借阅实体图书，借阅者只是得到了暂时的使用权，所有权仍然属于付费购书的图书馆；在当今的互联网上，大部分的信息是免费获得，而获得书本往往意味着书本的内容已经实际为阅读者所有，复制、传播、修改都是相当常见的，对于期望盈利的作者和出版者来说，盗版使用是个噩梦。如果内容的制造者无法获得相应的回报，那么自然会影响内容提供的质量和渠道。<br />
+当然，有的作者看重传播自己的思想甚于从中获利，于是互联网成了比传统图书出版发行更好的渠道。然而，毕竟绝大多数作者更需要的是盈利，因此这决定了许多重要的知识短期内将仍然只能在图书馆和书店中找到。<br />
+同时，图书版权制度、电子图书在线销售、配套服务这些又是在不断变更和发展的，当图书出版完全适应了互联网时代之后，也许图书馆最大的优势也就失去了。</p>
+
+<p>3、作为纸质书籍的老巢之一，图书馆本来有一个优点是和纸质书籍相关联的，即，阅读更方便、舒适、普及：翻阅电子书籍的体验还远远不如纸质书籍（检索、批注可能例外），上网、添置电子设备用于读书的投入也超过泡在图书馆的免费阅览室（但愿意去的人恐怕比买得起手机等电子设备的人要少，这又是另一个问题了）。可读者的体验迟早会有巨大进步，而上网和电子设备的降价是看得见的快速改变…</p>
+
+<p>4、本来还想说说图书馆被神化的形象和互联网祛魅的效应对人们获取知识态度的影响，不幸发现要么是个伪问题，要么超出我能力之外…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9b%be%e4%b9%a6%e9%a6%86%e4%b8%8e%e4%ba%92%e8%81%94%e7%bd%91》&body=https%3a%2f%2fioerr.github.io%2fposts%2ftushuguan-yu-hulianwang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ftushuguan-yu-hulianwang%2f&text= @calon %e5%9b%be%e4%b9%a6%e9%a6%86%e4%b8%8e%e4%ba%92%e8%81%94%e7%bd%91&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

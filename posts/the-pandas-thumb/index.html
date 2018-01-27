@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Panda&#39;s Thumb - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="The Panda&#39;s Thumb" />
+<meta property="og:description" content="Nabble 的口号是“Forum for
+Everyone”。给我的感觉是，注册验证的信件发送好慢啊，至今还未收到…
+Zim 则号称是“A
+Desktop Wiki”，不是为多人共用的，给个人当 TODO list
+或者草稿本还是挺好玩的。
+中国大百科的口号是“没有围墙的大学！”右上角可以看见的是新浪爱问的标志，合作者则包括商务印书馆和中国大百科全书出版社。看上去挺像维基百科的，但是实际有本质的区别。
+SQL
+Designer，看了之后，唯有253耳～
+架在 WordPress.com 上的 Spaces
+Photos 可不是为 MSN Spaces
+打广告，而是提供天文图片。
+Inquisitor Instant Search，利用 AJAX
+技术即时显示查询结果，最适合懒人了。最近又推出了照顾 Safari
+浏览器的工具条。
+Strange New
+Products，看名字就知道内容是什么了。
+Listening
+Test，测试你的听力水准，像我这样半聋的，只能够用
+Low-Fi 来做挡箭牌了…
+阿桂的 Flash
+动画展示地：胖狗狗的窝。我很喜欢这种速写画风，不过，得要
+Wacom 画板呀…
+BlinkList，界面做的不错的书签收藏和分享的网站。有小尺寸预览图，WatchList
+比 Del.icio.us 做得好，能够方便地从
+Del.icio.us 导入，也能够导出所有收藏为 RSS 2.0
+标准格式。
+异彩网摘号称“第一人文类网摘”服务，有人说其首页比365Key
+少了许多污染，但是我感觉今天看和前几天看，首页的内容变化不大啊…难道我的眼睛也不行了？
+ColoriBus
+收集了许多好玩的平面广告，还有列举创意雷同的广告、恶搞广告等专题。
+搜索大杂烩，看上去有浓重的猫扑风格，忘了是哪个人在里屋放出来的了…
+The Panda&rsquo;s Thumb，和
+Talk.Origins
+新闻组一样，是网上达尔文进化论与创世论、智慧设计论各自的支持者，科学家与基督徒争论得热火朝天的地方，几乎每一个话题都能够吸引数量多得让人恐怖的回应…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/the-pandas-thumb/" />
+
+
+
+<meta property="article:published_time" content="2005-10-19T15:32:43&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-10-19T15:32:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="The Panda&#39;s Thumb">
+<meta itemprop="description" content="Nabble 的口号是“Forum for
+Everyone”。给我的感觉是，注册验证的信件发送好慢啊，至今还未收到…
+Zim 则号称是“A
+Desktop Wiki”，不是为多人共用的，给个人当 TODO list
+或者草稿本还是挺好玩的。
+中国大百科的口号是“没有围墙的大学！”右上角可以看见的是新浪爱问的标志，合作者则包括商务印书馆和中国大百科全书出版社。看上去挺像维基百科的，但是实际有本质的区别。
+SQL
+Designer，看了之后，唯有253耳～
+架在 WordPress.com 上的 Spaces
+Photos 可不是为 MSN Spaces
+打广告，而是提供天文图片。
+Inquisitor Instant Search，利用 AJAX
+技术即时显示查询结果，最适合懒人了。最近又推出了照顾 Safari
+浏览器的工具条。
+Strange New
+Products，看名字就知道内容是什么了。
+Listening
+Test，测试你的听力水准，像我这样半聋的，只能够用
+Low-Fi 来做挡箭牌了…
+阿桂的 Flash
+动画展示地：胖狗狗的窝。我很喜欢这种速写画风，不过，得要
+Wacom 画板呀…
+BlinkList，界面做的不错的书签收藏和分享的网站。有小尺寸预览图，WatchList
+比 Del.icio.us 做得好，能够方便地从
+Del.icio.us 导入，也能够导出所有收藏为 RSS 2.0
+标准格式。
+异彩网摘号称“第一人文类网摘”服务，有人说其首页比365Key
+少了许多污染，但是我感觉今天看和前几天看，首页的内容变化不大啊…难道我的眼睛也不行了？
+ColoriBus
+收集了许多好玩的平面广告，还有列举创意雷同的广告、恶搞广告等专题。
+搜索大杂烩，看上去有浓重的猫扑风格，忘了是哪个人在里屋放出来的了…
+The Panda&rsquo;s Thumb，和
+Talk.Origins
+新闻组一样，是网上达尔文进化论与创世论、智慧设计论各自的支持者，科学家与基督徒争论得热火朝天的地方，几乎每一个话题都能够吸引数量多得让人恐怖的回应…">
+
+
+<meta itemprop="datePublished" content="2005-10-19T15:32:43&#43;00:00" />
+<meta itemprop="dateModified" content="2005-10-19T15:32:43&#43;00:00" />
+<meta itemprop="wordCount" content="61">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Panda&#39;s Thumb"/>
+<meta name="twitter:description" content="Nabble 的口号是“Forum for
+Everyone”。给我的感觉是，注册验证的信件发送好慢啊，至今还未收到…
+Zim 则号称是“A
+Desktop Wiki”，不是为多人共用的，给个人当 TODO list
+或者草稿本还是挺好玩的。
+中国大百科的口号是“没有围墙的大学！”右上角可以看见的是新浪爱问的标志，合作者则包括商务印书馆和中国大百科全书出版社。看上去挺像维基百科的，但是实际有本质的区别。
+SQL
+Designer，看了之后，唯有253耳～
+架在 WordPress.com 上的 Spaces
+Photos 可不是为 MSN Spaces
+打广告，而是提供天文图片。
+Inquisitor Instant Search，利用 AJAX
+技术即时显示查询结果，最适合懒人了。最近又推出了照顾 Safari
+浏览器的工具条。
+Strange New
+Products，看名字就知道内容是什么了。
+Listening
+Test，测试你的听力水准，像我这样半聋的，只能够用
+Low-Fi 来做挡箭牌了…
+阿桂的 Flash
+动画展示地：胖狗狗的窝。我很喜欢这种速写画风，不过，得要
+Wacom 画板呀…
+BlinkList，界面做的不错的书签收藏和分享的网站。有小尺寸预览图，WatchList
+比 Del.icio.us 做得好，能够方便地从
+Del.icio.us 导入，也能够导出所有收藏为 RSS 2.0
+标准格式。
+异彩网摘号称“第一人文类网摘”服务，有人说其首页比365Key
+少了许多污染，但是我感觉今天看和前几天看，首页的内容变化不大啊…难道我的眼睛也不行了？
+ColoriBus
+收集了许多好玩的平面广告，还有列举创意雷同的广告、恶搞广告等专题。
+搜索大杂烩，看上去有浓重的猫扑风格，忘了是哪个人在里屋放出来的了…
+The Panda&rsquo;s Thumb，和
+Talk.Origins
+新闻组一样，是网上达尔文进化论与创世论、智慧设计论各自的支持者，科学家与基督徒争论得热火朝天的地方，几乎每一个话题都能够吸引数量多得让人恐怖的回应…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-10-19 03:32">2005-10-19</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>The Panda&#39;s Thumb</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.nabble.com/">Nabble</a> 的口号是“Forum for<br />
+Everyone”。给我的感觉是，注册验证的信件发送好慢啊，至今还未收到…</p>
+
+<p><a href="http://zoidberg.student.utwente.nl/zim/index.shtml">Zim</a> 则号称是“A<br />
+Desktop Wiki”，不是为多人共用的，给个人当 TODO list<br />
+或者草稿本还是挺好玩的。</p>
+
+<p><a href="http://www.cndbk.com.cn/">中国大百科</a>的口号是“没有围墙的大学！”右上角可以看见的是<a href="http://www.sina.com.cn/">新浪</a><a href="http://www.iask.com/">爱问</a>的标志，合作者则包括<a href="http://www.cp.com.cn/">商务印书馆</a>和<a href="http://www.ecph.com.cn/">中国大百科全书出版社</a>。看上去挺像<a href="http://www.wikipedia.org/">维基百科</a>的，但是实际有本质的区别。</p>
+
+<p><a href="http://ondras.praha12.net/sql/demo/">SQL<br />
+Designer</a>，看了之后，唯有253耳～</p>
+
+<p>架在 <a href="http://wordpress.com/">WordPress.com</a> 上的 <a href="http://jtintle.wordpress.com/">Spaces<br />
+Photos</a> 可不是为 MSN Spaces<br />
+打广告，而是提供天文图片。</p>
+
+<p><a href="http://www.inquisitorx.com/beta/">Inquisitor Instant Search</a>，利用 AJAX<br />
+技术即时显示查询结果，最适合懒人了。最近又推出了照顾 Safari<br />
+浏览器的<a href="http://www.inquisitorx.com/safari/">工具条</a>。</p>
+
+<p><a href="http://www.strangenewproducts.com/">Strange New<br />
+Products</a>，看名字就知道内容是什么了。</p>
+
+<p><a href="http://www.klippel.de/aura/instructions.html">Listening<br />
+Test</a>，测试你的听力水准，像我这样半聋的，只能够用<br />
+Low-Fi 来做挡箭牌了…</p>
+
+<p>阿桂的 Flash<br />
+动画展示地：<a href="http://www.ghztop.com/page01.htm">胖狗狗的窝</a>。我很喜欢这种速写画风，不过，得要<br />
+Wacom 画板呀…</p>
+
+<p><a href="http://www.blinklist.com/">BlinkList</a>，界面做的不错的书签收藏和分享的网站。有小尺寸预览图，WatchList<br />
+比 <a href="http://del.icio.us/">Del.icio.us</a> 做得好，能够方便地从<br />
+<a href="http://del.icio.us/">Del.icio.us</a> 导入，也能够导出所有收藏为 RSS 2.0<br />
+标准格式。</p>
+
+<p><a href="http://www.yicai.com/">异彩网摘</a>号称“第一人文类网摘”服务，有人说其首页比<a href="http://365key.com/">365Key</a><br />
+少了许多污染，但是我感觉今天看和前几天看，首页的内容变化不大啊…难道我的眼睛也不行了？</p>
+
+<p><a href="http://www.coloribus.com/">ColoriBus</a><br />
+收集了许多好玩的平面广告，还有<a href="http://www.coloribus.com/admirror">列举创意雷同的广告</a>、<a href="http://www.coloribus.com/cpg/thumbnails.php?album=9">恶搞广告</a>等专题。</p>
+
+<p><a href="http://virtualhost.webplus.com.cn/yooma/showmnu.asp">搜索大杂烩</a>，看上去有浓重的猫扑风格，忘了是哪个人在里屋放出来的了…</p>
+
+<p><a href="http://www.talkorigins.org/">The Panda&rsquo;s Thumb</a>，和<br />
+<a href="http://www.talkorigins.org/">Talk.Origins</a><br />
+<a href="news:talk.origins">新闻组</a>一样，是网上达尔文进化论与创世论、智慧设计论各自的支持者，科学家与基督徒争论得热火朝天的地方，几乎每一个话题都能够吸引数量多得让人恐怖的回应…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《The%20Panda%27s%20Thumb》&body=https%3a%2f%2fioerr.github.io%2fposts%2fthe-pandas-thumb%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fthe-pandas-thumb%2f&text= @calon The%20Panda%27s%20Thumb&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

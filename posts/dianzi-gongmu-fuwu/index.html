@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电子公墓服务 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="电子公墓服务" />
+<meta property="og:description" content="点上虚拟的蜡烛，献上虚拟的花，虽然不算费力，却也不算讨好。假如能够永久保存死者在网上的所有公开活动的记录，或许倒会让死者在生前感到欣慰。
+当然，“永远”其实是不可能的，它是另一种被包装出来的“虚拟”的商品属性，因为刚刚步入电子和网络时代的人类对另一种形式的“永远”还有幻想，除非他们亲眼看到所有的此类服务半路倒闭。
+所以，只要你有条件维持人们的幻想，就能够贩卖希望。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dianzi-gongmu-fuwu/" />
+
+
+
+<meta property="article:published_time" content="2009-04-29T05:08:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-04-29T05:08:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="电子公墓服务">
+<meta itemprop="description" content="点上虚拟的蜡烛，献上虚拟的花，虽然不算费力，却也不算讨好。假如能够永久保存死者在网上的所有公开活动的记录，或许倒会让死者在生前感到欣慰。
+当然，“永远”其实是不可能的，它是另一种被包装出来的“虚拟”的商品属性，因为刚刚步入电子和网络时代的人类对另一种形式的“永远”还有幻想，除非他们亲眼看到所有的此类服务半路倒闭。
+所以，只要你有条件维持人们的幻想，就能够贩卖希望。">
+
+
+<meta itemprop="datePublished" content="2009-04-29T05:08:18&#43;00:00" />
+<meta itemprop="dateModified" content="2009-04-29T05:08:18&#43;00:00" />
+<meta itemprop="wordCount" content="3">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="电子公墓服务"/>
+<meta name="twitter:description" content="点上虚拟的蜡烛，献上虚拟的花，虽然不算费力，却也不算讨好。假如能够永久保存死者在网上的所有公开活动的记录，或许倒会让死者在生前感到欣慰。
+当然，“永远”其实是不可能的，它是另一种被包装出来的“虚拟”的商品属性，因为刚刚步入电子和网络时代的人类对另一种形式的“永远”还有幻想，除非他们亲眼看到所有的此类服务半路倒闭。
+所以，只要你有条件维持人们的幻想，就能够贩卖希望。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-04-29 05:08">2009-04-29</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>电子公墓服务</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>点上虚拟的蜡烛，献上虚拟的花，虽然不算费力，却也不算讨好。假如能够永久保存死者在网上的所有公开活动的记录，或许倒会让死者在生前感到欣慰。</p>
+
+<p>当然，“永远”其实是不可能的，它是另一种被包装出来的“虚拟”的商品属性，因为刚刚步入电子和网络时代的人类对另一种形式的“永远”还有幻想，除非他们亲眼看到所有的此类服务半路倒闭。<br />
+所以，只要你有条件维持人们的幻想，就能够贩卖希望。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%94%b5%e5%ad%90%e5%85%ac%e5%a2%93%e6%9c%8d%e5%8a%a1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdianzi-gongmu-fuwu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdianzi-gongmu-fuwu%2f&text= @calon %e7%94%b5%e5%ad%90%e5%85%ac%e5%a2%93%e6%9c%8d%e5%8a%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

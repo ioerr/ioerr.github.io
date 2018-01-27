@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quora 恼人的地方 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Quora 恼人的地方" />
+<meta property="og:description" content="Quora
+虽然好玩，但是也有一个恼人的地方，那就是主界面的各种提醒让人压力很大：
+
+数数看有多少个带数字的提醒吧：
+1、右上角 Home 处有2个提醒；
+2、提问框下面2个提醒；
+3、其中某个问题有3个新增项目；
+4、主面板有4个活动告警的提醒；
+5、右侧还有3个未归类问题的提醒。
+尤其令人抓狂的是，这5个提醒数字的形式还各不相同（字体和大小就不一一列举了）：
+1、白色文字，红色的圆形背景；
+2、带下划线的数字；
+3、在灰色按钮上的数字；
+4、带括号的数字；
+5、白色文字，蓝色的大圆角矩形背景。
+这还不算跟随你和推荐你跟随的用户和问题旁边那一个个绿色的 Follow 按钮。
+没有层次，没有重点，没有规律……
+通常我会第一个点击红色背景的数字，因为直觉告诉我那是最重要的，但接下来我就只好听天由命了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/quora-naoren-de-difang/" />
+
+
+
+<meta property="article:published_time" content="2011-01-06T14:39:34&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-01-06T14:39:34&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Quora 恼人的地方">
+<meta itemprop="description" content="Quora
+虽然好玩，但是也有一个恼人的地方，那就是主界面的各种提醒让人压力很大：
+
+数数看有多少个带数字的提醒吧：
+1、右上角 Home 处有2个提醒；
+2、提问框下面2个提醒；
+3、其中某个问题有3个新增项目；
+4、主面板有4个活动告警的提醒；
+5、右侧还有3个未归类问题的提醒。
+尤其令人抓狂的是，这5个提醒数字的形式还各不相同（字体和大小就不一一列举了）：
+1、白色文字，红色的圆形背景；
+2、带下划线的数字；
+3、在灰色按钮上的数字；
+4、带括号的数字；
+5、白色文字，蓝色的大圆角矩形背景。
+这还不算跟随你和推荐你跟随的用户和问题旁边那一个个绿色的 Follow 按钮。
+没有层次，没有重点，没有规律……
+通常我会第一个点击红色背景的数字，因为直觉告诉我那是最重要的，但接下来我就只好听天由命了。">
+
+
+<meta itemprop="datePublished" content="2011-01-06T14:39:34&#43;00:00" />
+<meta itemprop="dateModified" content="2011-01-06T14:39:34&#43;00:00" />
+<meta itemprop="wordCount" content="21">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Quora 恼人的地方"/>
+<meta name="twitter:description" content="Quora
+虽然好玩，但是也有一个恼人的地方，那就是主界面的各种提醒让人压力很大：
+
+数数看有多少个带数字的提醒吧：
+1、右上角 Home 处有2个提醒；
+2、提问框下面2个提醒；
+3、其中某个问题有3个新增项目；
+4、主面板有4个活动告警的提醒；
+5、右侧还有3个未归类问题的提醒。
+尤其令人抓狂的是，这5个提醒数字的形式还各不相同（字体和大小就不一一列举了）：
+1、白色文字，红色的圆形背景；
+2、带下划线的数字；
+3、在灰色按钮上的数字；
+4、带括号的数字；
+5、白色文字，蓝色的大圆角矩形背景。
+这还不算跟随你和推荐你跟随的用户和问题旁边那一个个绿色的 Follow 按钮。
+没有层次，没有重点，没有规律……
+通常我会第一个点击红色背景的数字，因为直觉告诉我那是最重要的，但接下来我就只好听天由命了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2011-01-06 02:39">2011-01-06</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Quora 恼人的地方</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.quora.com/">Quora</a><br />
+虽然好玩，但是也有一个恼人的地方，那就是主界面的各种提醒让人压力很大：</p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-01-06_214513.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-01-06_214513.png" alt="点击看大图" /></a></p>
+
+<p>数数看有多少个带数字的提醒吧：<br />
+1、右上角 Home 处有2个提醒；<br />
+2、提问框下面2个提醒；<br />
+3、其中某个问题有3个新增项目；<br />
+4、主面板有4个活动告警的提醒；<br />
+5、右侧还有3个未归类问题的提醒。</p>
+
+<p>尤其令人抓狂的是，这5个提醒数字的形式还各不相同（字体和大小就不一一列举了）：<br />
+1、白色文字，红色的圆形背景；<br />
+2、带下划线的数字；<br />
+3、在灰色按钮上的数字；<br />
+4、带括号的数字；<br />
+5、白色文字，蓝色的大圆角矩形背景。</p>
+
+<p>这还不算跟随你和推荐你跟随的用户和问题旁边那一个个绿色的 Follow 按钮。</p>
+
+<p>没有层次，没有重点，没有规律……</p>
+
+<p>通常我会第一个点击红色背景的数字，因为直觉告诉我那是最重要的，但接下来我就只好听天由命了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Quora%20%e6%81%bc%e4%ba%ba%e7%9a%84%e5%9c%b0%e6%96%b9》&body=https%3a%2f%2fioerr.github.io%2fposts%2fquora-naoren-de-difang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fquora-naoren-de-difang%2f&text= @calon Quora%20%e6%81%bc%e4%ba%ba%e7%9a%84%e5%9c%b0%e6%96%b9&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

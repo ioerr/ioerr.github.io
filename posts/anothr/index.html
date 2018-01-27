@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anothr - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Anothr" />
+<meta property="og:description" content="Anothr 的 Google
+Talk 机器人很好玩，只要把 anothr@gmail.com
+加为好友，并且向它发送要订阅的 feed
+地址就行了。虽然不太好看，但是满足了时效性的要求，用来收录新闻和评论
+feed 还是挺不错的。
+因为近来使用 Visio
+的机会较多，所以找了一下有没有免费的替代软件好在家里自己用，想画一个邮箱、邮件组、即时消息、即时消息群组、Feed、文章、回复、手机之间互通的图示和表格，填上对应的已有的和需要的服务。这种简单的图可以用
+Dia
+画出来，但在基本的功能之外，无论是
+Dia 这样的本地工具还是
+Gliffy 这样的在线服务都还差得远。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/anothr/" />
+
+
+
+<meta property="article:published_time" content="2007-03-27T15:07:34&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-03-27T15:07:34&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Anothr">
+<meta itemprop="description" content="Anothr 的 Google
+Talk 机器人很好玩，只要把 anothr@gmail.com
+加为好友，并且向它发送要订阅的 feed
+地址就行了。虽然不太好看，但是满足了时效性的要求，用来收录新闻和评论
+feed 还是挺不错的。
+因为近来使用 Visio
+的机会较多，所以找了一下有没有免费的替代软件好在家里自己用，想画一个邮箱、邮件组、即时消息、即时消息群组、Feed、文章、回复、手机之间互通的图示和表格，填上对应的已有的和需要的服务。这种简单的图可以用
+Dia
+画出来，但在基本的功能之外，无论是
+Dia 这样的本地工具还是
+Gliffy 这样的在线服务都还差得远。">
+
+
+<meta itemprop="datePublished" content="2007-03-27T15:07:34&#43;00:00" />
+<meta itemprop="dateModified" content="2007-03-27T15:07:34&#43;00:00" />
+<meta itemprop="wordCount" content="20">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Anothr"/>
+<meta name="twitter:description" content="Anothr 的 Google
+Talk 机器人很好玩，只要把 anothr@gmail.com
+加为好友，并且向它发送要订阅的 feed
+地址就行了。虽然不太好看，但是满足了时效性的要求，用来收录新闻和评论
+feed 还是挺不错的。
+因为近来使用 Visio
+的机会较多，所以找了一下有没有免费的替代软件好在家里自己用，想画一个邮箱、邮件组、即时消息、即时消息群组、Feed、文章、回复、手机之间互通的图示和表格，填上对应的已有的和需要的服务。这种简单的图可以用
+Dia
+画出来，但在基本的功能之外，无论是
+Dia 这样的本地工具还是
+Gliffy 这样的在线服务都还差得远。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-03-27 03:07">2007-03-27</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Anothr</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.anothr.com/">Anothr</a> 的 <a href="http://talk.google.com/">Google<br />
+Talk</a> 机器人很好玩，只要把 anothr@gmail.com<br />
+加为好友，并且向它发送要订阅的 feed<br />
+地址就行了。虽然不太好看，但是满足了时效性的要求，用来收录新闻和评论<br />
+feed 还是挺不错的。</p>
+
+<p>因为近来使用 Visio<br />
+的机会较多，所以找了一下有没有免费的替代软件好在家里自己用，想画一个邮箱、邮件组、即时消息、即时消息群组、Feed、文章、回复、手机之间互通的图示和表格，填上对应的已有的和需要的服务。这种简单的图可以用<br />
+<a href="http://dia-installer.sourceforge.net/">Dia</a><br />
+画出来，但在基本的功能之外，无论是<br />
+<a href="http://dia-installer.sourceforge.net/">Dia</a> 这样的本地工具还是<br />
+<a href="http://gliffy.com/">Gliffy</a> 这样的在线服务都还差得远。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Anothr》&body=https%3a%2f%2fioerr.github.io%2fposts%2fanothr%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fanothr%2f&text= @calon Anothr&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

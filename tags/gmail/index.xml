@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gmail on 读写错误</title>
-    <link>https://ioerr.github.io/tags/gmail/index.xml</link>
+    <link>https://ioerr.github.io/tags/gmail/</link>
     <description>Recent content in Gmail on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2010 07:59:04 +0000</lastBuildDate>
     
-    <item>
-      <title>Gmail 支持 OAuth 方式访问</title>
-      <link>https://ioerr.github.io/gmail-zhichi-oauth-fangshi-fangwen/</link>
-      <pubDate>Wed, 31 Mar 2010 07:59:04 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gmail-zhichi-oauth-fangshi-fangwen/</guid>
-      <description>&lt;p&gt;Google &lt;a href=&#34;http://googlecode.blogspot.com/2010/03/oauth-access-to-imapsmtp-in-gmail.html&#34;&gt;在官方 blog 中宣布 Gmail 可通过 OAuth
-方式访问&lt;/a&gt;，支持
+      <atom:link href="https://ioerr.github.io/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Gmail 支持 OAuth 方式访问</title>
+        <link>https://ioerr.github.io/posts/gmail-zhichi-oauth-fangshi-fangwen/</link>
+        <pubDate>Wed, 31 Mar 2010 07:59:04 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gmail-zhichi-oauth-fangshi-fangwen/</guid>
+        <description>&lt;p&gt;Google &lt;a href=&#34;http://googlecode.blogspot.com/2010/03/oauth-access-to-imapsmtp-in-gmail.html&#34;&gt;在官方 blog 中宣布 Gmail 可通过 OAuth&lt;br /&gt;
+方式访问&lt;/a&gt;，支持&lt;br /&gt;
 IMAP 和 SMTP 协议（POP3好像没戏）。&lt;/p&gt;
 
-&lt;p&gt;好消息是，今后将可以通过第三方服务访问 Gmail，即使 Gmail
+&lt;p&gt;好消息是，今后将可以通过第三方服务访问 Gmail，即使 Gmail&lt;br /&gt;
 被封也不会妨碍收发邮件；&lt;br /&gt;
-另一个好消息是，由于不需要提供登录密码，只需要到 Gmail
-的页面确认授权给第三方应用，所以 Gmail
+另一个好消息是，由于不需要提供登录密码，只需要到 Gmail&lt;br /&gt;
+的页面确认授权给第三方应用，所以 Gmail&lt;br /&gt;
 周边应用的开发限制和给用户带来的风险会少得多。&lt;/p&gt;
 
-&lt;p&gt;坏消息是，如果 Gmail
+&lt;p&gt;坏消息是，如果 Gmail&lt;br /&gt;
 真的被封杀，有可能会收不到国内的邮件，只能够通过其他邮箱迂回；&lt;br /&gt;
-另一个坏消息是，虽然 OAuth
+另一个坏消息是，虽然 OAuth&lt;br /&gt;
 的方式不会直接泄露邮箱密码，但很多人的邮箱会接收一些服务的注册信息，而有的服务的注册确认邮件中会带上注册密码，如果你的密码比较单一，还是存在泄露的危险；&lt;br /&gt;
-最后一个坏消息是，每次 OAuth 方式的授权验证应该还是要到 Gmail
+最后一个坏消息是，每次 OAuth 方式的授权验证应该还是要到 Gmail&lt;br /&gt;
 页面去，所以翻墙的基本功还是要继续修炼以备不时之需。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

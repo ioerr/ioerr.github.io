@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Px on 读写错误</title>
-    <link>https://ioerr.github.io/tags/px/index.xml</link>
+    <link>https://ioerr.github.io/tags/px/</link>
     <description>Recent content in Px on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/px/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2015 10:22:03 +0000</lastBuildDate>
     
-    <item>
-      <title>从漳州古雷事故再看 PX 项目争议</title>
-      <link>https://ioerr.github.io/cong-zhangzhou-gulei-shigu-zaikan-px-xiangmu-zhengyi/</link>
-      <pubDate>Wed, 15 Apr 2015 10:22:03 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cong-zhangzhou-gulei-shigu-zaikan-px-xiangmu-zhengyi/</guid>
-      <description>&lt;p&gt;从&lt;a href=&#34;http://calon.weblogs.us/px_yu_64/&#34;&gt;厦门民众散步反对 PX
-项目落地&lt;/a&gt;到现在也将近八年了，PX
+      <atom:link href="https://ioerr.github.io/tags/px/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>从漳州古雷事故再看 PX 项目争议</title>
+        <link>https://ioerr.github.io/posts/cong-zhangzhou-gulei-shigu-zaikan-px-xiangmu-zhengyi/</link>
+        <pubDate>Wed, 15 Apr 2015 10:22:03 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/cong-zhangzhou-gulei-shigu-zaikan-px-xiangmu-zhengyi/</guid>
+        <description>&lt;p&gt;从&lt;a href=&#34;http://calon.weblogs.us/px_yu_64/&#34;&gt;厦门民众散步反对 PX&lt;br /&gt;
+项目落地&lt;/a&gt;到现在也将近八年了，PX&lt;br /&gt;
 项目最终落户漳州古雷，当年的争论似乎早已过去。&lt;br /&gt;
-但是最近漳州古雷 PX 工厂的爆炸事故说明，无论再怎么科普 PX
+但是最近漳州古雷 PX 工厂的爆炸事故说明，无论再怎么科普 PX&lt;br /&gt;
 本身毒性低，也无法抵消项目建设和运行中出现安全事故的影响。&lt;br /&gt;
 因为 PX 项目远不只是科学问题。&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 &lt;p&gt;1、PX 是否低毒&lt;br /&gt;
 没有什么好争论的。&lt;/p&gt;
 
-&lt;p&gt;2、PX 生产过程的中间产物是否安全，PX
+&lt;p&gt;2、PX 生产过程的中间产物是否安全，PX&lt;br /&gt;
 工厂其他方面是否会有影响周边生活环境的问题？&lt;br /&gt;
 只要生产工艺和生产安全有保证，问题也不大。&lt;br /&gt;
 但生产安全是否有保证？这就不是书面理论能够回答的。&lt;br /&gt;
@@ -39,7 +39,7 @@
 在&lt;a href=&#34;http://weekly.caixin.com/2015-04-10/100799044_all.html&#34;&gt;财新的报道&lt;/a&gt;中，吴强说：&lt;br /&gt;
 中国这些项目建设和公众没有直接利益交换。公众承担了巨大风险，却没有从税收或福利中获得对应好处。“没有利益分享，民众为何要承担风险？”&lt;/p&gt;
 
-&lt;p&gt;民众没有为自己利益发声的机会，支持派觉得无关紧要，却正是 PX
+&lt;p&gt;民众没有为自己利益发声的机会，支持派觉得无关紧要，却正是 PX&lt;br /&gt;
 项目争议最根本的原因。&lt;/p&gt;
 
 &lt;p&gt;支持派认为可以拉动地区经济，增加就业，提高下游工业产品产能从而降低降低一些消费品价格，代价则是事故和污染带来的安全风险以及环境经济损失。&lt;br /&gt;
@@ -52,7 +52,7 @@
 
 &lt;p&gt;所以搞科普就专心做好科普，在科学理论之外的事情，充分尊重利益方的诉求，不要沾染上当代表的坏毛病，优越感爆棚，真当自己是在下一盘大棋了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

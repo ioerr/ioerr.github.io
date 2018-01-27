@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>家庭教育 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/</link>
     <description>Recent content in 家庭教育 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jan 2008 17:29:19 +0000</lastBuildDate>
     
-    <item>
-      <title>如此家庭教育</title>
-      <link>https://ioerr.github.io/ruci-jiating-jiaoyu/</link>
-      <pubDate>Tue, 22 Jan 2008 17:29:19 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ruci-jiating-jiaoyu/</guid>
-      <description>&lt;p&gt;最近的一则新闻：&lt;a href=&#34;http://edu.people.com.cn/GB/8216/79347/6804866.html&#34;&gt;父亲让女儿退学回家学礼仪&lt;/a&gt;。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>如此家庭教育</title>
+        <link>https://ioerr.github.io/posts/ruci-jiating-jiaoyu/</link>
+        <pubDate>Tue, 22 Jan 2008 17:29:19 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ruci-jiating-jiaoyu/</guid>
+        <description>&lt;p&gt;最近的一则新闻：&lt;a href=&#34;http://edu.people.com.cn/GB/8216/79347/6804866.html&#34;&gt;父亲让女儿退学回家学礼仪&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;父亲孙常恭的观点：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 想让她成为礼仪大师。&lt;/p&gt;
 
 &lt;p&gt;数理化等都是用处不大的课程，不让孩子学习数理化。&lt;/p&gt;
@@ -28,8 +28,8 @@
 &lt;p&gt;老师主动备课、主动讲课，学生被动听课。这不利于孩子成长，所以学生只有回家，在家庭中接受教育，才能变被动为主动。同时在家里还可以灵活安排课程，不浪费时间，使孩子早日学完需要的知识。&lt;/p&gt;
 
 &lt;p&gt;中国有上亿儿童，都在学校考功名，难度很高。礼仪是难度不大又易成才的路。&lt;br /&gt;
-随着社会发展，懂礼仪越来越重要，现在学礼仪的人不多，容易成才。
-&lt;/blockquote&gt;
+随着社会发展，懂礼仪越来越重要，现在学礼仪的人不多，容易成才。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 如果不扯上《义务教育法》，我觉得小孩子在家庭中接受教育也不是什么很严重的事情，反正现在从入学开始就被教残的学生也不是少数了，教育方式多样化一点，培养出的人也可以风格多样一点。&lt;/p&gt;
 
 &lt;p&gt;有的人也许会说，学习礼仪连养家糊口也未必能做到，更不用说成才成名了。我却觉得，只要礼仪在社会上还有作用还有需求，不至于变成彻底的屠龙之技，那么只要脑筋转得活，至少养活自己是可以的，不会比学校教育出身的一些废柴混得差，搞不好还真会实现这个父亲的梦想。&lt;/p&gt;
@@ -51,7 +51,7 @@
 
 &lt;p&gt;好吧，一不留神就说了太多废话了，但愿我后面这几段没有专业知识撑腰的担心不会成真吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

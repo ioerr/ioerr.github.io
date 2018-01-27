@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ifttt - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="ifttt" />
+<meta property="og:description" content="这是一个神奇的网站，嗯，不是 XX 同城，而是
+ifttt，if this then
+that，5月17日才对外开放 beta 测试的网站。
+它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果
+A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。
+这些贡献出接口的网站被称为通道（channel）。
+官方说明中举出了一个任务的例子：
+如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签
+那么就在 @ltibbets 的帐号上发 twitter 消息
+相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。
+而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。
+我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter
+上有@回复时通过 Google Talk 得到即时通知。
+感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发
+twitter 了）、雅虎财经股票信息、RSS
+feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google
+Reader、Google
+Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it
+Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。
+不过有的网站接口功能还不够实用，比如 Flickr
+接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。
+ifttt 建立任务非常简单，全程都有明确提示，演示如下：
+1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：
+
+2、点击那个 this，就会出现可以用来当做触发器的频道：
+
+3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：
+
+4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：
+
+5、接下来就到了 that 环节了：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/ifttt/" />
+
+
+
+<meta property="article:published_time" content="2011-06-08T07:09:20&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-06-08T07:09:20&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="ifttt">
+<meta itemprop="description" content="这是一个神奇的网站，嗯，不是 XX 同城，而是
+ifttt，if this then
+that，5月17日才对外开放 beta 测试的网站。
+它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果
+A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。
+这些贡献出接口的网站被称为通道（channel）。
+官方说明中举出了一个任务的例子：
+如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签
+那么就在 @ltibbets 的帐号上发 twitter 消息
+相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。
+而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。
+我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter
+上有@回复时通过 Google Talk 得到即时通知。
+感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发
+twitter 了）、雅虎财经股票信息、RSS
+feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google
+Reader、Google
+Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it
+Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。
+不过有的网站接口功能还不够实用，比如 Flickr
+接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。
+ifttt 建立任务非常简单，全程都有明确提示，演示如下：
+1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：
+
+2、点击那个 this，就会出现可以用来当做触发器的频道：
+
+3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：
+
+4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：
+
+5、接下来就到了 that 环节了：">
+
+
+<meta itemprop="datePublished" content="2011-06-08T07:09:20&#43;00:00" />
+<meta itemprop="dateModified" content="2011-06-08T07:09:20&#43;00:00" />
+<meta itemprop="wordCount" content="80">
+
+
+
+<meta itemprop="keywords" content="ifttt,混搭,融合," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ifttt"/>
+<meta name="twitter:description" content="这是一个神奇的网站，嗯，不是 XX 同城，而是
+ifttt，if this then
+that，5月17日才对外开放 beta 测试的网站。
+它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果
+A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。
+这些贡献出接口的网站被称为通道（channel）。
+官方说明中举出了一个任务的例子：
+如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签
+那么就在 @ltibbets 的帐号上发 twitter 消息
+相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。
+而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。
+我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter
+上有@回复时通过 Google Talk 得到即时通知。
+感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发
+twitter 了）、雅虎财经股票信息、RSS
+feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google
+Reader、Google
+Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it
+Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。
+不过有的网站接口功能还不够实用，比如 Flickr
+接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。
+ifttt 建立任务非常简单，全程都有明确提示，演示如下：
+1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：
+
+2、点击那个 this，就会出现可以用来当做触发器的频道：
+
+3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：
+
+4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：
+
+5、接下来就到了 that 环节了："/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2011-06-08 07:09">2011-06-08</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>ifttt</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/ifttt">
+              <span class="hash">#</span>ifttt</a>
+          
+            , 
+            <a href="/tags/%E6%B7%B7%E6%90%AD">
+              <span class="hash">#</span>混搭</a>
+          
+            , 
+            <a href="/tags/%E8%9E%8D%E5%90%88">
+              <span class="hash">#</span>融合</a>
+          
+        
+      </p>
+    </header>
+    <section><p>这是一个神奇的网站，嗯，不是 XX 同城，而是<br />
+<a href="http://ifttt.com/">ifttt</a>，<a href="http://ifttt.com/wtf">if this then<br />
+that</a>，5月17日才对外开放 beta 测试的网站。</p>
+
+<p>它的概念简单来说就是将其他提供接口的网站当作它的触发器（trigger）和动作（action），如果<br />
+A 网站上发生指定事件，就触发 B 网站上的指定动作，成为一个任务（task）。<br />
+这些贡献出接口的网站被称为通道（channel）。</p>
+
+<p>官方说明中举出了一个任务的例子：</p>
+
+<p>如果 ltibbets 保存书签到 Delicious，并且加上 tweet 标签<br />
+那么就在 @ltibbets 的帐号上发 twitter 消息</p>
+
+<p><img src="http://ifttt.com/images/statement_ex.png?1302323172" alt="通道示例" /></p>
+
+<p>相当于实现了跨站点的功能调用，只要通道和接口够丰富，可以组合出许多花样实现各种需求。<br />
+而且，即使 ifttt 本身被墙，也可以作为 Web 2.0网站间的串联继续发挥作用。</p>
+
+<p>我就利用 ifttt 实现了备份 twitter 消息到邮箱，并且 twitter<br />
+上有@回复时通过 Google Talk 得到即时通知。</p>
+
+<p>感觉目前的通道和接口还不够丰富，通道有日期时间、电话、短信（当然是国际短信，否则国内就可以通过短信直接发<br />
+twitter 了）、雅虎财经股票信息、RSS<br />
+feed、Delicious、Dropbox、Email/Gmail、Evernote、Facebook、ffffound!、Flickr、Foursquare、Google<br />
+Reader、Google<br />
+Talk、Instagram、Instapaper、LinkedIn、Pinboard、Posterous、Read it<br />
+Later、Tumblr、Twitter、Vimeo、WordPress、Youtube、Zootool。<br />
+不过有的网站接口功能还不够实用，比如 Flickr<br />
+接口中，只有用户自己的操作能够触发动作，联系人或群组的变动还不能当触发器用。</p>
+
+<p>ifttt 建立任务非常简单，全程都有明确提示，演示如下：</p>
+
+<p>1、进入创建任务页面后，ifthisthenthat 中的 this 会突出显示：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155437_1.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155437_1.png" alt="Photobucket" /></a></p>
+
+<p>2、点击那个 this，就会出现可以用来当做触发器的频道：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155646_2.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155646_2.png" alt="Photobucket" /></a></p>
+
+<p>3、选择其中一个频道，比如 twitter，列出各种触发条件供你选择：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155917_5.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155917_5.png" alt="Photobucket" /></a></p>
+
+<p>4、选定一个触发条件，比如“任何一个好友发推”，点击“创建触发器”：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_155955_6.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_155955_6.png" alt="Photobucket" /></a></p>
+
+<p>5、接下来就到了 that 环节了：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160033_7.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160033_7.png" alt="Photobucket" /></a></p>
+
+<p>6、还是频道列表，选择要执行动作的频道，比如 Email：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160116_8.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160116_8.png" alt="Photobucket" /></a></p>
+
+<p>7、动作就是给我发邮件（邮箱地址就是注册 ifttt 时填写的地址）：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160220_11.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160220_11.png" alt="Photobucket" /></a></p>
+
+<p>8、邮件内容和标题也是可以进一步自定义的：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160323_12.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160323_12.png" alt="Photobucket" /></a></p>
+
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160510_13.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160510_13.png" alt="Photobucket" /></a></p>
+
+<p>9、一切选定以后，创建并激活任务，至此大功告成：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-06-03_160619_14.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/2011-06-03_160619_14.png" alt="Photobucket" /></a></p>
+
+<p>任务管理和通道激活流程就不演示了。有的服务支持授权，还算安全，但像<br />
+Delicious、Instapaper<br />
+这样的要填写用户名、密码才能激活通道，安全问题就只能自己把握了。</p>
+
+<p>补充一个坏消息：ifttt 目前最多只能配置10个任务…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《ifttt》&body=https%3a%2f%2fioerr.github.io%2fposts%2fifttt%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fifttt%2f&text= @calon ifttt&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

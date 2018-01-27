@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>意外断网 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="意外断网" />
+<meta property="og:description" content="昨天晚上莫名其妙断线，还以为是我的猫又来 DYM 了，捣鼓了半天也没有修好。
+今天一打听，原来不是个别现象，全国各地的各个运营商的网络在那段时间都断了，甚至包括固定电话。
+于是就有人在 QQ 上说了：
+
+＜｜黑客城市｜＞为举行引起中央重视的抗日行动首次攻击电信成功！
+造成各大城市的电信主网络掉线５分钟！
+ 
+今日（4月11日）22点整小日本攻击我国电信部门
+使我国大部分地区断网约5分钟
+使QQ中断
+同胞们是我们反攻的时候了
+这周星期三（4月13号）反攻
+是中国人请发到各个BBS和群上
+日本刚才攻击中国电信服务器,特别是QQ的服务器,因为QQ在网上传播反日新闻,对他们不利,所以采取了这次报复行动
+
+然后是：
+
+小道消息：前10分钟美国黑客侵略中国电信，所以使中国大部分局部地区断线，现已解决，请各位可以上网
+
+还有太阳黑子反常的版本。
+好吧，我承认到现在我还不清楚这究竟是怎么一回事情，基本可以肯定的是，前三种说法都不对，因为出现忽然断网情况的不止我国。不过可以看出，谣言要出笼和迅速传播是多么容易的事情，尤其是和政治话题扯到一起的时候…
+相关讨论见：《诶~.那个.大家都掉了么?》
+打电话到10000后得知我的 ADSL
+被误认为没有及时续费而停掉了，现在才爬上来，我说怎么别人只断了5分钟，我的到今天还没醒过来呢，原来是连环出状况…这
+RP 果然是硬指标呀～" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yiwai-duanwang/" />
+
+
+
+<meta property="article:published_time" content="2005-04-12T07:46:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-04-12T07:46:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="意外断网">
+<meta itemprop="description" content="昨天晚上莫名其妙断线，还以为是我的猫又来 DYM 了，捣鼓了半天也没有修好。
+今天一打听，原来不是个别现象，全国各地的各个运营商的网络在那段时间都断了，甚至包括固定电话。
+于是就有人在 QQ 上说了：
+
+＜｜黑客城市｜＞为举行引起中央重视的抗日行动首次攻击电信成功！
+造成各大城市的电信主网络掉线５分钟！
+ 
+今日（4月11日）22点整小日本攻击我国电信部门
+使我国大部分地区断网约5分钟
+使QQ中断
+同胞们是我们反攻的时候了
+这周星期三（4月13号）反攻
+是中国人请发到各个BBS和群上
+日本刚才攻击中国电信服务器,特别是QQ的服务器,因为QQ在网上传播反日新闻,对他们不利,所以采取了这次报复行动
+
+然后是：
+
+小道消息：前10分钟美国黑客侵略中国电信，所以使中国大部分局部地区断线，现已解决，请各位可以上网
+
+还有太阳黑子反常的版本。
+好吧，我承认到现在我还不清楚这究竟是怎么一回事情，基本可以肯定的是，前三种说法都不对，因为出现忽然断网情况的不止我国。不过可以看出，谣言要出笼和迅速传播是多么容易的事情，尤其是和政治话题扯到一起的时候…
+相关讨论见：《诶~.那个.大家都掉了么?》
+打电话到10000后得知我的 ADSL
+被误认为没有及时续费而停掉了，现在才爬上来，我说怎么别人只断了5分钟，我的到今天还没醒过来呢，原来是连环出状况…这
+RP 果然是硬指标呀～">
+
+
+<meta itemprop="datePublished" content="2005-04-12T07:46:18&#43;00:00" />
+<meta itemprop="dateModified" content="2005-04-12T07:46:18&#43;00:00" />
+<meta itemprop="wordCount" content="26">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="意外断网"/>
+<meta name="twitter:description" content="昨天晚上莫名其妙断线，还以为是我的猫又来 DYM 了，捣鼓了半天也没有修好。
+今天一打听，原来不是个别现象，全国各地的各个运营商的网络在那段时间都断了，甚至包括固定电话。
+于是就有人在 QQ 上说了：
+
+＜｜黑客城市｜＞为举行引起中央重视的抗日行动首次攻击电信成功！
+造成各大城市的电信主网络掉线５分钟！
+ 
+今日（4月11日）22点整小日本攻击我国电信部门
+使我国大部分地区断网约5分钟
+使QQ中断
+同胞们是我们反攻的时候了
+这周星期三（4月13号）反攻
+是中国人请发到各个BBS和群上
+日本刚才攻击中国电信服务器,特别是QQ的服务器,因为QQ在网上传播反日新闻,对他们不利,所以采取了这次报复行动
+
+然后是：
+
+小道消息：前10分钟美国黑客侵略中国电信，所以使中国大部分局部地区断线，现已解决，请各位可以上网
+
+还有太阳黑子反常的版本。
+好吧，我承认到现在我还不清楚这究竟是怎么一回事情，基本可以肯定的是，前三种说法都不对，因为出现忽然断网情况的不止我国。不过可以看出，谣言要出笼和迅速传播是多么容易的事情，尤其是和政治话题扯到一起的时候…
+相关讨论见：《诶~.那个.大家都掉了么?》
+打电话到10000后得知我的 ADSL
+被误认为没有及时续费而停掉了，现在才爬上来，我说怎么别人只断了5分钟，我的到今天还没醒过来呢，原来是连环出状况…这
+RP 果然是硬指标呀～"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-04-12 07:46">2005-04-12</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>意外断网</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section>
+
+<p>昨天晚上莫名其妙断线，还以为是我的猫又来 DYM 了，捣鼓了半天也没有修好。</p>
+
+<p>今天一打听，原来不是个别现象，全国各地的各个运营商的网络在那段时间都断了，甚至包括固定电话。<br />
+于是就有人在 QQ 上说了：</p>
+
+<p><blockquote><br />
+＜｜黑客城市｜＞为举行引起中央重视的抗日行动首次攻击电信成功！<br />
+造成各大城市的电信主网络掉线５分钟！</p>
+
+<h2 id="blockquote"></blockquote></h2>
+
+<p><blockquote><br />
+今日（4月11日）22点整小日本攻击我国电信部门<br />
+使我国大部分地区断网约5分钟<br />
+使QQ中断<br />
+同胞们是我们反攻的时候了<br />
+这周星期三（4月13号）反攻<br />
+是中国人请发到各个BBS和群上<br />
+日本刚才攻击中国电信服务器,特别是QQ的服务器,因为QQ在网上传播反日新闻,对他们不利,所以采取了这次报复行动<br />
+</blockquote><br />
+然后是：</p>
+
+<p><blockquote><br />
+小道消息：前10分钟美国黑客侵略中国电信，所以使中国大部分局部地区断线，现已解决，请各位可以上网<br />
+</blockquote><br />
+还有太阳黑子反常的版本。</p>
+
+<p>好吧，我承认到现在我还不清楚这究竟是怎么一回事情，基本可以肯定的是，前三种说法都不对，因为出现忽然断网情况的不止我国。不过可以看出，谣言要出笼和迅速传播是多么容易的事情，尤其是和政治话题扯到一起的时候…</p>
+
+<p>相关讨论见：《<a href="http://www.253874.com/txt/592222506365250411.htm">诶~.那个.大家都掉了么?</a>》</p>
+
+<p>打电话到10000后得知我的 ADSL<br />
+被误认为没有及时续费而停掉了，现在才爬上来，我说怎么别人只断了5分钟，我的到今天还没醒过来呢，原来是连环出状况…这<br />
+RP 果然是硬指标呀～</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%84%8f%e5%a4%96%e6%96%ad%e7%bd%91》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyiwai-duanwang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyiwai-duanwang%2f&text= @calon %e6%84%8f%e5%a4%96%e6%96%ad%e7%bd%91&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

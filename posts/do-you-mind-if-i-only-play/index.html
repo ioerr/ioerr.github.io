@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do you mind if I only play...? - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Do you mind if I only play...?" />
+<meta property="og:description" content="嗯，今天在办公室午休的时候忽然神经错乱，想，如果这个时候一步跳到办公桌上又唱又跳还把东西踢得到处都是大闹天宫5分钟然后跳下来继续睡觉，不知道会有什么下场…会不会像《Intermission》中的那个帅哥一脚踩到一个易拉罐倒栽下来…
+回到 Blogcn
+去使用上传的图片，结果发现6月5日之后今天之前的留言全都消失了。嘿嘿，临走前还要背后挨一记青砖，Blogcn
+真会赶尽杀绝啊…
+8月份的《读书》倒是有篇不错的文章，张汝伦的《康德两百年祭》和陈光兴的《从派兵伊拉克到迈克尔·乔丹》（如果只看标题，我是不会对此文有兴趣的…）还可以看看，而关于高尔泰的文字又让我在网上找到了不少好东西。
+看到有人称百度比 Google 好用多了，觉得真幽默…
+某城市规定，凡在该城内出售的外产地汽车，不得有超过3档，不得超过4门，若使用外地生产的发动机则必须按照一定标准进行修改，否则禁止车厂车商在本城的一切商业活动。
+于是过了几年，该城的居民们就说啦，外地的狗狗车有什么好的？还不如我们本地产的白读车好用呢～
+嗯，就是这样…
+本来前天看了《经济观察报》上《华商名人堂》中张伟平的访谈后，从张自称“是一个不合格的商人”，写了一段评价《十面埋伏》的制作和营销的短文，可惜让
+ModBlog
+冲到抽水马桶里面去了…也罢也罢，懒得再写了，只想补充一句，现在拿电影单纯当商品卖的太多，还美其名曰“用票房保证电影的生命力”，真正爱电影的却太少；就好像拿足球当政治安慰剂的太多，真正爱足球的太少…
+说到中日亚洲杯决战，球迷们趁此机会表达自己的情绪我还可以理解，可什么时候认为体育与政治无关的人就成了准汉奸？什么时候日本球员连做人的资格都没有了？
+打今儿我才明白，原来中国队要在决赛中和一群牲口比赛呢，据说还是亚洲最高水平的，我说有的人都不把别人当人看了，莫非是去看角斗士斗兽的？
+我更关心的，倒是被亚洲杯拯救了一把的中国足球，在假球、黑哨、派系以及更深层的弊病中还能够在半职业状态撑多久…钱和吆喝赚足了，可我们心爱的东西，例如电影和足球，真的就因此有了生命力了么？
+咱们似乎特喜欢把一件娱乐的事情搞得特沉重，又把一件特沉重的事情搞得特虚无，实在是既没前者的趣味又没后者的意义…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/do-you-mind-if-i-only-play/" />
+
+
+
+<meta property="article:published_time" content="2004-08-05T08:31:31&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-08-05T08:31:31&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Do you mind if I only play...?">
+<meta itemprop="description" content="嗯，今天在办公室午休的时候忽然神经错乱，想，如果这个时候一步跳到办公桌上又唱又跳还把东西踢得到处都是大闹天宫5分钟然后跳下来继续睡觉，不知道会有什么下场…会不会像《Intermission》中的那个帅哥一脚踩到一个易拉罐倒栽下来…
+回到 Blogcn
+去使用上传的图片，结果发现6月5日之后今天之前的留言全都消失了。嘿嘿，临走前还要背后挨一记青砖，Blogcn
+真会赶尽杀绝啊…
+8月份的《读书》倒是有篇不错的文章，张汝伦的《康德两百年祭》和陈光兴的《从派兵伊拉克到迈克尔·乔丹》（如果只看标题，我是不会对此文有兴趣的…）还可以看看，而关于高尔泰的文字又让我在网上找到了不少好东西。
+看到有人称百度比 Google 好用多了，觉得真幽默…
+某城市规定，凡在该城内出售的外产地汽车，不得有超过3档，不得超过4门，若使用外地生产的发动机则必须按照一定标准进行修改，否则禁止车厂车商在本城的一切商业活动。
+于是过了几年，该城的居民们就说啦，外地的狗狗车有什么好的？还不如我们本地产的白读车好用呢～
+嗯，就是这样…
+本来前天看了《经济观察报》上《华商名人堂》中张伟平的访谈后，从张自称“是一个不合格的商人”，写了一段评价《十面埋伏》的制作和营销的短文，可惜让
+ModBlog
+冲到抽水马桶里面去了…也罢也罢，懒得再写了，只想补充一句，现在拿电影单纯当商品卖的太多，还美其名曰“用票房保证电影的生命力”，真正爱电影的却太少；就好像拿足球当政治安慰剂的太多，真正爱足球的太少…
+说到中日亚洲杯决战，球迷们趁此机会表达自己的情绪我还可以理解，可什么时候认为体育与政治无关的人就成了准汉奸？什么时候日本球员连做人的资格都没有了？
+打今儿我才明白，原来中国队要在决赛中和一群牲口比赛呢，据说还是亚洲最高水平的，我说有的人都不把别人当人看了，莫非是去看角斗士斗兽的？
+我更关心的，倒是被亚洲杯拯救了一把的中国足球，在假球、黑哨、派系以及更深层的弊病中还能够在半职业状态撑多久…钱和吆喝赚足了，可我们心爱的东西，例如电影和足球，真的就因此有了生命力了么？
+咱们似乎特喜欢把一件娱乐的事情搞得特沉重，又把一件特沉重的事情搞得特虚无，实在是既没前者的趣味又没后者的意义…">
+
+
+<meta itemprop="datePublished" content="2004-08-05T08:31:31&#43;00:00" />
+<meta itemprop="dateModified" content="2004-08-05T08:31:31&#43;00:00" />
+<meta itemprop="wordCount" content="19">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Do you mind if I only play...?"/>
+<meta name="twitter:description" content="嗯，今天在办公室午休的时候忽然神经错乱，想，如果这个时候一步跳到办公桌上又唱又跳还把东西踢得到处都是大闹天宫5分钟然后跳下来继续睡觉，不知道会有什么下场…会不会像《Intermission》中的那个帅哥一脚踩到一个易拉罐倒栽下来…
+回到 Blogcn
+去使用上传的图片，结果发现6月5日之后今天之前的留言全都消失了。嘿嘿，临走前还要背后挨一记青砖，Blogcn
+真会赶尽杀绝啊…
+8月份的《读书》倒是有篇不错的文章，张汝伦的《康德两百年祭》和陈光兴的《从派兵伊拉克到迈克尔·乔丹》（如果只看标题，我是不会对此文有兴趣的…）还可以看看，而关于高尔泰的文字又让我在网上找到了不少好东西。
+看到有人称百度比 Google 好用多了，觉得真幽默…
+某城市规定，凡在该城内出售的外产地汽车，不得有超过3档，不得超过4门，若使用外地生产的发动机则必须按照一定标准进行修改，否则禁止车厂车商在本城的一切商业活动。
+于是过了几年，该城的居民们就说啦，外地的狗狗车有什么好的？还不如我们本地产的白读车好用呢～
+嗯，就是这样…
+本来前天看了《经济观察报》上《华商名人堂》中张伟平的访谈后，从张自称“是一个不合格的商人”，写了一段评价《十面埋伏》的制作和营销的短文，可惜让
+ModBlog
+冲到抽水马桶里面去了…也罢也罢，懒得再写了，只想补充一句，现在拿电影单纯当商品卖的太多，还美其名曰“用票房保证电影的生命力”，真正爱电影的却太少；就好像拿足球当政治安慰剂的太多，真正爱足球的太少…
+说到中日亚洲杯决战，球迷们趁此机会表达自己的情绪我还可以理解，可什么时候认为体育与政治无关的人就成了准汉奸？什么时候日本球员连做人的资格都没有了？
+打今儿我才明白，原来中国队要在决赛中和一群牲口比赛呢，据说还是亚洲最高水平的，我说有的人都不把别人当人看了，莫非是去看角斗士斗兽的？
+我更关心的，倒是被亚洲杯拯救了一把的中国足球，在假球、黑哨、派系以及更深层的弊病中还能够在半职业状态撑多久…钱和吆喝赚足了，可我们心爱的东西，例如电影和足球，真的就因此有了生命力了么？
+咱们似乎特喜欢把一件娱乐的事情搞得特沉重，又把一件特沉重的事情搞得特虚无，实在是既没前者的趣味又没后者的意义…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-08-05 08:31">2004-08-05</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">纯粹体育</a>
+          </p>
+      <h1>Do you mind if I only play...?</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>嗯，今天在办公室午休的时候忽然神经错乱，想，如果这个时候一步跳到办公桌上又唱又跳还把东西踢得到处都是大闹天宫5分钟然后跳下来继续睡觉，不知道会有什么下场…会不会像《Intermission》中的那个帅哥一脚踩到一个易拉罐倒栽下来…</p>
+
+<p>回到 Blogcn<br />
+去使用上传的图片，结果发现6月5日之后今天之前的留言全都消失了。嘿嘿，临走前还要背后挨一记青砖，Blogcn<br />
+真会赶尽杀绝啊…</p>
+
+<p>8月份的《读书》倒是有篇不错的文章，张汝伦的《康德两百年祭》和陈光兴的《从派兵伊拉克到迈克尔·乔丹》（如果只看标题，我是不会对此文有兴趣的…）还可以看看，而关于高尔泰的文字又让我在网上找到了不少好东西。</p>
+
+<p>看到有人称百度比 Google 好用多了，觉得真幽默…<br />
+某城市规定，凡在该城内出售的外产地汽车，不得有超过3档，不得超过4门，若使用外地生产的发动机则必须按照一定标准进行修改，否则禁止车厂车商在本城的一切商业活动。<br />
+于是过了几年，该城的居民们就说啦，外地的狗狗车有什么好的？还不如我们本地产的白读车好用呢～<br />
+嗯，就是这样…</p>
+
+<p>本来前天看了《经济观察报》上《华商名人堂》中张伟平的访谈后，从张自称“是一个不合格的商人”，写了一段评价《十面埋伏》的制作和营销的短文，可惜让<br />
+ModBlog<br />
+冲到抽水马桶里面去了…也罢也罢，懒得再写了，只想补充一句，现在拿电影单纯当商品卖的太多，还美其名曰“用票房保证电影的生命力”，真正爱电影的却太少；就好像拿足球当政治安慰剂的太多，真正爱足球的太少…</p>
+
+<p>说到中日亚洲杯决战，球迷们趁此机会表达自己的情绪我还可以理解，可什么时候认为体育与政治无关的人就成了准汉奸？什么时候日本球员连做人的资格都没有了？<br />
+打今儿我才明白，原来中国队要在决赛中和一群牲口比赛呢，据说还是亚洲最高水平的，我说有的人都不把别人当人看了，莫非是去看角斗士斗兽的？</p>
+
+<p>我更关心的，倒是被亚洲杯拯救了一把的中国足球，在假球、黑哨、派系以及更深层的弊病中还能够在半职业状态撑多久…钱和吆喝赚足了，可我们心爱的东西，例如电影和足球，真的就因此有了生命力了么？</p>
+
+<p>咱们似乎特喜欢把一件娱乐的事情搞得特沉重，又把一件特沉重的事情搞得特虚无，实在是既没前者的趣味又没后者的意义…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Do%20you%20mind%20if%20I%20only%20play...%3f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdo-you-mind-if-i-only-play%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdo-you-mind-if-i-only-play%2f&text= @calon Do%20you%20mind%20if%20I%20only%20play...%3f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

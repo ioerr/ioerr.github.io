@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>消费 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9/</link>
     <description>Recent content in 消费 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Sep 2013 15:15:13 +0000</lastBuildDate>
     
-    <item>
-      <title>如何克制购物欲？</title>
-      <link>https://ioerr.github.io/ruhe-kezhi-gouwuyu/</link>
-      <pubDate>Thu, 19 Sep 2013 15:15:13 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ruhe-kezhi-gouwuyu/</guid>
-      <description>&lt;p&gt;不懂为什么很多人说忍不住要买东西，总想知道如何才能克制住购物欲。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>如何克制购物欲？</title>
+        <link>https://ioerr.github.io/posts/ruhe-kezhi-gouwuyu/</link>
+        <pubDate>Thu, 19 Sep 2013 15:15:13 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ruhe-kezhi-gouwuyu/</guid>
+        <description>&lt;p&gt;不懂为什么很多人说忍不住要买东西，总想知道如何才能克制住购物欲。&lt;br /&gt;
 如果你的经济条件很好，购物支出再多应该也不需要担忧，不会关心这个问题。&lt;br /&gt;
 如果经济条件还没有达到消费无忧的程度，就还有救。&lt;/p&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;至于如果认为在这上面浪费时间划不来，或者变成挑剔的完美主义者患上选择综合征也是一种困扰，那就是另一个问题了……&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

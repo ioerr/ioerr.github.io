@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自定义键盘鼠标 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="自定义键盘鼠标" />
+<meta property="og:description" content="11:07 AM mopoo253874: ssammerl 现在感觉用键盘的手时常僵硬
+11:08 AM calon: 难道因为天气冷了？
+mopoo253874: ssammerl 但愿只是因为天气冷
+ssammerl 有点想买个人体工程键盘的欲望了
+11:09 AM calon: 可以用发热量高的本本，可以顺便取暖
+11:12 AM mopoo253874: ssammerl www.kinesis-ergo.com
+不知道这种键盘有没有在中国卖
+11:14 AM calon: 这样的键盘太可怕了一点…
+11:15 AM mopoo253874: ssammerl ms布局还是蛮合理的，感觉比m\$的nk不差
+http://www.kinesis-ergo.com/images/layoutem.gif
+11:16 AM calon:
+要键盘的键位能够任意组合就好，然后官方提供设计方案，用户像玩乐高一样自己选择适合的
+11:17 AM 鼠标做成热塑型的，稍微加温（内置 USB
+接口加热器）之后用手一握，就变成最适合自己手型的了…
+11:18 AM mopoo253874: ssammerl
+enen，定制键盘好，然批量生产是个问题，其实人手明显的区别就那么几十种，我的建议是找几个砖家研究下退出美洲，欧洲，亚洲手形系列
+11:20 AM ssammerl 鼠标的建议很赞，
+也可以先弄个电子传感照着手做个3d虚拟模子，然加热塑形也可
+ssammerl 那么做罢
+11:21 AM calon: 用橡皮泥…
+mopoo253874: ssammerl enen 成本一下就下来了
+ssammerl 投资多少就能出样品了？
+calon: 话说现在感觉在玩具柜台看不到有橡皮泥卖了
+11:22 AM mopoo253874: ssammerl 真搞这个项目，你觉得这事有戏么？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zidingyi-jianpan-shubiao/" />
+
+
+
+<meta property="article:published_time" content="2006-10-26T13:17:36&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-10-26T13:17:36&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="自定义键盘鼠标">
+<meta itemprop="description" content="11:07 AM mopoo253874: ssammerl 现在感觉用键盘的手时常僵硬
+11:08 AM calon: 难道因为天气冷了？
+mopoo253874: ssammerl 但愿只是因为天气冷
+ssammerl 有点想买个人体工程键盘的欲望了
+11:09 AM calon: 可以用发热量高的本本，可以顺便取暖
+11:12 AM mopoo253874: ssammerl www.kinesis-ergo.com
+不知道这种键盘有没有在中国卖
+11:14 AM calon: 这样的键盘太可怕了一点…
+11:15 AM mopoo253874: ssammerl ms布局还是蛮合理的，感觉比m\$的nk不差
+http://www.kinesis-ergo.com/images/layoutem.gif
+11:16 AM calon:
+要键盘的键位能够任意组合就好，然后官方提供设计方案，用户像玩乐高一样自己选择适合的
+11:17 AM 鼠标做成热塑型的，稍微加温（内置 USB
+接口加热器）之后用手一握，就变成最适合自己手型的了…
+11:18 AM mopoo253874: ssammerl
+enen，定制键盘好，然批量生产是个问题，其实人手明显的区别就那么几十种，我的建议是找几个砖家研究下退出美洲，欧洲，亚洲手形系列
+11:20 AM ssammerl 鼠标的建议很赞，
+也可以先弄个电子传感照着手做个3d虚拟模子，然加热塑形也可
+ssammerl 那么做罢
+11:21 AM calon: 用橡皮泥…
+mopoo253874: ssammerl enen 成本一下就下来了
+ssammerl 投资多少就能出样品了？
+calon: 话说现在感觉在玩具柜台看不到有橡皮泥卖了
+11:22 AM mopoo253874: ssammerl 真搞这个项目，你觉得这事有戏么？">
+
+
+<meta itemprop="datePublished" content="2006-10-26T13:17:36&#43;00:00" />
+<meta itemprop="dateModified" content="2006-10-26T13:17:36&#43;00:00" />
+<meta itemprop="wordCount" content="96">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="自定义键盘鼠标"/>
+<meta name="twitter:description" content="11:07 AM mopoo253874: ssammerl 现在感觉用键盘的手时常僵硬
+11:08 AM calon: 难道因为天气冷了？
+mopoo253874: ssammerl 但愿只是因为天气冷
+ssammerl 有点想买个人体工程键盘的欲望了
+11:09 AM calon: 可以用发热量高的本本，可以顺便取暖
+11:12 AM mopoo253874: ssammerl www.kinesis-ergo.com
+不知道这种键盘有没有在中国卖
+11:14 AM calon: 这样的键盘太可怕了一点…
+11:15 AM mopoo253874: ssammerl ms布局还是蛮合理的，感觉比m\$的nk不差
+http://www.kinesis-ergo.com/images/layoutem.gif
+11:16 AM calon:
+要键盘的键位能够任意组合就好，然后官方提供设计方案，用户像玩乐高一样自己选择适合的
+11:17 AM 鼠标做成热塑型的，稍微加温（内置 USB
+接口加热器）之后用手一握，就变成最适合自己手型的了…
+11:18 AM mopoo253874: ssammerl
+enen，定制键盘好，然批量生产是个问题，其实人手明显的区别就那么几十种，我的建议是找几个砖家研究下退出美洲，欧洲，亚洲手形系列
+11:20 AM ssammerl 鼠标的建议很赞，
+也可以先弄个电子传感照着手做个3d虚拟模子，然加热塑形也可
+ssammerl 那么做罢
+11:21 AM calon: 用橡皮泥…
+mopoo253874: ssammerl enen 成本一下就下来了
+ssammerl 投资多少就能出样品了？
+calon: 话说现在感觉在玩具柜台看不到有橡皮泥卖了
+11:22 AM mopoo253874: ssammerl 真搞这个项目，你觉得这事有戏么？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-10-26 01:17">2006-10-26</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>自定义键盘鼠标</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><blockquote><br />
+11:07 AM mopoo253874: <em>ssammerl</em> 现在感觉用键盘的手时常僵硬</p>
+
+<p>11:08 AM <em>calon</em>: 难道因为天气冷了？</p>
+
+<p>mopoo253874: <em>ssammerl</em> 但愿只是因为天气冷<br />
+<em>ssammerl</em> 有点想买个人体工程键盘的欲望了</p>
+
+<p>11:09 AM <em>calon</em>: 可以用发热量高的本本，可以顺便取暖</p>
+
+<p>11:12 AM mopoo253874: <em>ssammerl</em> www.kinesis-ergo.com<br />
+不知道这种键盘有没有在中国卖</p>
+
+<p>11:14 AM <em>calon</em>: 这样的键盘太可怕了一点…</p>
+
+<p>11:15 AM mopoo253874: <em>ssammerl</em> ms布局还是蛮合理的，感觉比m\$的nk不差<br />
+<a href="http://www.kinesis-ergo.com/images/layoutem.gif">http://www.kinesis-ergo.com/images/layoutem.gif</a></p>
+
+<p>11:16 AM <em>calon</em>:<br />
+要键盘的键位能够任意组合就好，然后官方提供设计方案，用户像玩乐高一样自己选择适合的<br />
+11:17 AM 鼠标做成热塑型的，稍微加温（内置 USB<br />
+接口加热器）之后用手一握，就变成最适合自己手型的了…</p>
+
+<p>11:18 AM mopoo253874: <em>ssammerl</em><br />
+enen，定制键盘好，然批量生产是个问题，其实人手明显的区别就那么几十种，我的建议是找几个砖家研究下退出美洲，欧洲，亚洲手形系列<br />
+11:20 AM <em>ssammerl</em> 鼠标的建议很赞，<br />
+也可以先弄个电子传感照着手做个3d虚拟模子，然加热塑形也可<br />
+<em>ssammerl</em> 那么做罢</p>
+
+<p>11:21 AM <em>calon</em>: 用橡皮泥…</p>
+
+<p>mopoo253874: <em>ssammerl</em> enen 成本一下就下来了<br />
+<em>ssammerl</em> 投资多少就能出样品了？</p>
+
+<p><em>calon</em>: 话说现在感觉在玩具柜台看不到有橡皮泥卖了</p>
+
+<p>11:22 AM mopoo253874: <em>ssammerl</em> 真搞这个项目，你觉得这事有戏么？</p>
+
+<p><em>calon</em>: 关键是材料<br />
+11:23 AM 这是超出能力范围外的<br />
+要求助化学达人了</p>
+
+<p>mopoo253874: <em>ssammerl</em> pvc不行么？<br />
+<em>ssammerl</em> 一次成形</p>
+
+<p>11:24 AM <em>calon</em>: 啊，我说的是热塑型材料…<br />
+这样一家大小可以共用了…<br />
+</blockquote><br />
+另：Google Talk 的聊天记录真不适合直接贴出来。</p>
+
+<p>另2：这个想法离投入实用当然距离很远，对用户要求也很高，不过我是真的希望能够实现，并且扩展到手机（“把拔，你看，那个蜀黍在对着皮鞋说话呢”“喂，喂，我是86号…”“小明，咱们走远点，奇怪的蜀黍很可怕哦”）、家具（“哇，你们家的沙发造型真别致～嗯，怎么这里还插着一束黄毛？”“呃，我家的狗不小心陷进去了…”）等上面。</p>
+
+<p>是不是我小时候橡皮泥和乐高玩得不够，欠得慌啊…:023:</p>
+
+<p>另：明后两天第二届“<a href="http://www.cnbloggercon.org/">中文网志年会</a>”举行，每年我都脱不开身，恨呐～</p>
+
+<p>另2：现在正在<a href="irc://chat.freenode.net/#cnbloggercon">IRC<br />
+频道</a>上，不过人不多。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%87%aa%e5%ae%9a%e4%b9%89%e9%94%ae%e7%9b%98%e9%bc%a0%e6%a0%87》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzidingyi-jianpan-shubiao%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzidingyi-jianpan-shubiao%2f&text= @calon %e8%87%aa%e5%ae%9a%e4%b9%89%e9%94%ae%e7%9b%98%e9%bc%a0%e6%a0%87&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

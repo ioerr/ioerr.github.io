@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>闷棍 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="闷棍" />
+<meta property="og:description" content="Zizou 回归了，法国队3:0大胜象牙海岸，Domenech
+先生虽然面上高兴，心里还是对“青春泉作战”的半途而废颇为遗憾的；数天之后，另一位国家队教练席上的失意者
+Santini 先生的心情恐怕就不只是“遗憾”二字可以形容了。
+从功成名就的 Lyon，到败走麦城的法兰西，到两面不是人的 Tottenham
+Hotspur，Santini 走的是一条不断向 X 轴靠近且斜率小于0的曲线。好在
+Auxerre 的传奇主教练 Guy Roux
+这个赛季宣布退休，给了他第二次东山再起的机会。
+球队失去执教了44年的教练，受到的影响也许不亚于 Sir Alex 离开 Man
+Utd，Silvio Berlusconi 辞去Milan 的主席一职吧。不过 Santini
+的接手工作似乎还不太坏，虽然杯赛1:4惨败给
+Lyon，但联赛开始后2胜1平，包括连克 AS Monaco 与 Bourdeaux，紧随 PSG
+占据第2名，而且后防线不失一球，相信 Guy Roux
+看到也会放心吧：“这小子，在法甲还是混得开的”。
+然而人有脑后闷棍，哦不，旦夕祸福，天有不测风云，8月20日晚上 RC Lens
+Bollaert 球场的阴冷小雨让 Santini 深刻体味到了这句话的苦涩。Lens
+人几乎每一次射门都能够洞穿 Auxerre
+的大门，0:7的比分创下了俱乐部参加甲级联赛以来的历史，估计最后阶段
+Santini
+只能够像2002年夏天那样无助地坐在教练席上瞪着一双失神的眼睛发呆吧，丧失对球队的控制对于他来说已经不是一种陌生的经历了。而这再一次证明自己的机会忽然成了写下又一笔职业生涯耻辱的石碑，被命运狠狠戏弄过一次的他还有机会还有信心再待下去吗？
+Younes Kaboul、Bacary Sagna 受伤病困扰无法出场也许是 Santini
+唯一的借口，可0:7的闷棍实在对不住俱乐部的上上下下，尤其是他们才刚刚告别可敬的
+Guy Roux，两相对比之下，Santini
+的无能又被放大了数倍。更要命的是，下一场比赛正是老东家新霸主
+Lyon。是的，Lyon 似乎开始慢慢染上了 Gerard Houllier
+综合症，不过根据墨菲定理，如果事情有可能变糟，它就真的会变糟，所以 Lyon
+大开杀戒再来个4:1也不是没有可能。再往后，是数支中游球队，实力一般却最为难啃，挺不过去的话，Santini
+先生的 Auxerre 百日游也就到此为止了吧。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/mengun/" />
+
+
+
+<meta property="article:published_time" content="2005-08-23T15:27:01&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-08-23T15:27:01&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="闷棍">
+<meta itemprop="description" content="Zizou 回归了，法国队3:0大胜象牙海岸，Domenech
+先生虽然面上高兴，心里还是对“青春泉作战”的半途而废颇为遗憾的；数天之后，另一位国家队教练席上的失意者
+Santini 先生的心情恐怕就不只是“遗憾”二字可以形容了。
+从功成名就的 Lyon，到败走麦城的法兰西，到两面不是人的 Tottenham
+Hotspur，Santini 走的是一条不断向 X 轴靠近且斜率小于0的曲线。好在
+Auxerre 的传奇主教练 Guy Roux
+这个赛季宣布退休，给了他第二次东山再起的机会。
+球队失去执教了44年的教练，受到的影响也许不亚于 Sir Alex 离开 Man
+Utd，Silvio Berlusconi 辞去Milan 的主席一职吧。不过 Santini
+的接手工作似乎还不太坏，虽然杯赛1:4惨败给
+Lyon，但联赛开始后2胜1平，包括连克 AS Monaco 与 Bourdeaux，紧随 PSG
+占据第2名，而且后防线不失一球，相信 Guy Roux
+看到也会放心吧：“这小子，在法甲还是混得开的”。
+然而人有脑后闷棍，哦不，旦夕祸福，天有不测风云，8月20日晚上 RC Lens
+Bollaert 球场的阴冷小雨让 Santini 深刻体味到了这句话的苦涩。Lens
+人几乎每一次射门都能够洞穿 Auxerre
+的大门，0:7的比分创下了俱乐部参加甲级联赛以来的历史，估计最后阶段
+Santini
+只能够像2002年夏天那样无助地坐在教练席上瞪着一双失神的眼睛发呆吧，丧失对球队的控制对于他来说已经不是一种陌生的经历了。而这再一次证明自己的机会忽然成了写下又一笔职业生涯耻辱的石碑，被命运狠狠戏弄过一次的他还有机会还有信心再待下去吗？
+Younes Kaboul、Bacary Sagna 受伤病困扰无法出场也许是 Santini
+唯一的借口，可0:7的闷棍实在对不住俱乐部的上上下下，尤其是他们才刚刚告别可敬的
+Guy Roux，两相对比之下，Santini
+的无能又被放大了数倍。更要命的是，下一场比赛正是老东家新霸主
+Lyon。是的，Lyon 似乎开始慢慢染上了 Gerard Houllier
+综合症，不过根据墨菲定理，如果事情有可能变糟，它就真的会变糟，所以 Lyon
+大开杀戒再来个4:1也不是没有可能。再往后，是数支中游球队，实力一般却最为难啃，挺不过去的话，Santini
+先生的 Auxerre 百日游也就到此为止了吧。">
+
+
+<meta itemprop="datePublished" content="2005-08-23T15:27:01&#43;00:00" />
+<meta itemprop="dateModified" content="2005-08-23T15:27:01&#43;00:00" />
+<meta itemprop="wordCount" content="69">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="闷棍"/>
+<meta name="twitter:description" content="Zizou 回归了，法国队3:0大胜象牙海岸，Domenech
+先生虽然面上高兴，心里还是对“青春泉作战”的半途而废颇为遗憾的；数天之后，另一位国家队教练席上的失意者
+Santini 先生的心情恐怕就不只是“遗憾”二字可以形容了。
+从功成名就的 Lyon，到败走麦城的法兰西，到两面不是人的 Tottenham
+Hotspur，Santini 走的是一条不断向 X 轴靠近且斜率小于0的曲线。好在
+Auxerre 的传奇主教练 Guy Roux
+这个赛季宣布退休，给了他第二次东山再起的机会。
+球队失去执教了44年的教练，受到的影响也许不亚于 Sir Alex 离开 Man
+Utd，Silvio Berlusconi 辞去Milan 的主席一职吧。不过 Santini
+的接手工作似乎还不太坏，虽然杯赛1:4惨败给
+Lyon，但联赛开始后2胜1平，包括连克 AS Monaco 与 Bourdeaux，紧随 PSG
+占据第2名，而且后防线不失一球，相信 Guy Roux
+看到也会放心吧：“这小子，在法甲还是混得开的”。
+然而人有脑后闷棍，哦不，旦夕祸福，天有不测风云，8月20日晚上 RC Lens
+Bollaert 球场的阴冷小雨让 Santini 深刻体味到了这句话的苦涩。Lens
+人几乎每一次射门都能够洞穿 Auxerre
+的大门，0:7的比分创下了俱乐部参加甲级联赛以来的历史，估计最后阶段
+Santini
+只能够像2002年夏天那样无助地坐在教练席上瞪着一双失神的眼睛发呆吧，丧失对球队的控制对于他来说已经不是一种陌生的经历了。而这再一次证明自己的机会忽然成了写下又一笔职业生涯耻辱的石碑，被命运狠狠戏弄过一次的他还有机会还有信心再待下去吗？
+Younes Kaboul、Bacary Sagna 受伤病困扰无法出场也许是 Santini
+唯一的借口，可0:7的闷棍实在对不住俱乐部的上上下下，尤其是他们才刚刚告别可敬的
+Guy Roux，两相对比之下，Santini
+的无能又被放大了数倍。更要命的是，下一场比赛正是老东家新霸主
+Lyon。是的，Lyon 似乎开始慢慢染上了 Gerard Houllier
+综合症，不过根据墨菲定理，如果事情有可能变糟，它就真的会变糟，所以 Lyon
+大开杀戒再来个4:1也不是没有可能。再往后，是数支中游球队，实力一般却最为难啃，挺不过去的话，Santini
+先生的 Auxerre 百日游也就到此为止了吧。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-08-23 03:27">2005-08-23</time> &bull;
+          
+            
+            <a href="/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">纯粹体育</a>
+          </p>
+      <h1>闷棍</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>Zizou 回归了，法国队3:0大胜象牙海岸，Domenech<br />
+先生虽然面上高兴，心里还是对“青春泉作战”的半途而废颇为遗憾的；数天之后，另一位国家队教练席上的失意者<br />
+Santini 先生的心情恐怕就不只是“遗憾”二字可以形容了。</p>
+
+<p>从功成名就的 Lyon，到败走麦城的法兰西，到两面不是人的 Tottenham<br />
+Hotspur，Santini 走的是一条不断向 X 轴靠近且斜率小于0的曲线。好在<br />
+Auxerre 的传奇主教练 Guy Roux<br />
+这个赛季宣布退休，给了他第二次东山再起的机会。</p>
+
+<p>球队失去执教了44年的教练，受到的影响也许不亚于 Sir Alex 离开 Man<br />
+Utd，Silvio Berlusconi 辞去Milan 的主席一职吧。不过 Santini<br />
+的接手工作似乎还不太坏，虽然杯赛1:4惨败给<br />
+Lyon，但联赛开始后2胜1平，包括连克 AS Monaco 与 Bourdeaux，紧随 PSG<br />
+占据第2名，而且后防线不失一球，相信 Guy Roux<br />
+看到也会放心吧：“这小子，在法甲还是混得开的”。</p>
+
+<p>然而人有脑后闷棍，哦不，旦夕祸福，天有不测风云，8月20日晚上 RC Lens<br />
+Bollaert 球场的阴冷小雨让 Santini 深刻体味到了这句话的苦涩。Lens<br />
+人几乎每一次射门都能够洞穿 Auxerre<br />
+的大门，0:7的比分创下了俱乐部参加甲级联赛以来的历史，估计最后阶段<br />
+Santini<br />
+只能够像2002年夏天那样无助地坐在教练席上瞪着一双失神的眼睛发呆吧，丧失对球队的控制对于他来说已经不是一种陌生的经历了。而这再一次证明自己的机会忽然成了写下又一笔职业生涯耻辱的石碑，被命运狠狠戏弄过一次的他还有机会还有信心再待下去吗？</p>
+
+<p>Younes Kaboul、Bacary Sagna 受伤病困扰无法出场也许是 Santini<br />
+唯一的借口，可0:7的闷棍实在对不住俱乐部的上上下下，尤其是他们才刚刚告别可敬的<br />
+Guy Roux，两相对比之下，Santini<br />
+的无能又被放大了数倍。更要命的是，下一场比赛正是老东家新霸主<br />
+Lyon。是的，Lyon 似乎开始慢慢染上了 Gerard Houllier<br />
+综合症，不过根据墨菲定理，如果事情有可能变糟，它就真的会变糟，所以 Lyon<br />
+大开杀戒再来个4:1也不是没有可能。再往后，是数支中游球队，实力一般却最为难啃，挺不过去的话，Santini<br />
+先生的 Auxerre 百日游也就到此为止了吧。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%97%b7%e6%a3%8d》&body=https%3a%2f%2fioerr.github.io%2fposts%2fmengun%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fmengun%2f&text= @calon %e9%97%b7%e6%a3%8d&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

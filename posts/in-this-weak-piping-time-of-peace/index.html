@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In This Weak Piping Time Of Peace - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="In This Weak Piping Time Of Peace" />
+<meta property="og:description" content="在 Topku 和 Zheng
+那里看到关于“黄金高”事件的点滴，其中有这么一条新闻的链接：中新社:《福州处理黄金高事件
+指其严重违反纪律不讲政治》（百度快照）。
+嗯，“讲政治”，离开学校有一段时间了，这个词组听上去竟有些生疏了，原来杀伤威力还是这么大啊…当然了，这只是我的鸵鸟态度在作祟罢了。也罢，重读马伯庸坑王的《三国九之南蛮大王》吧：）
+游学纪上一篇转贴的《一个记者是如何让尿差点憋死的》真要把人笑死，果然是“防火防盗防记者”啊忍不住转贴这首“打油诗”：
+
+打油诗：回答
+高尚是卑鄙者的通行证，
+卑鄙是高尚者的墓志铭。
+看吧，在那所谓正义的天空，
+挤满了多少伪善者的魅影。
+大革命已经过去了，
+为什么到处还是人人相轻。
+民主挂在嘴边了，
+为什么宗教审判的炉火依旧通红。
+我活在这个世界上，
+时刻准备着谄笑、假面与屁股，
+为了在审判之前，
+宣读那些赐予我的骂名。
+告诉你吧，世界
+我——不——相——信，
+纵然你脚下有亿万党同伐异的人，
+我依旧会固执地发出我的声音。
+我不相信残忍的只是刽子手，
+我不相信黑的只是乌鸦的身形。
+我不相信遭报应的只是恶人，
+我不相信假的只是梦境。
+如果海洋可以冲毁堤岸，
+就让洪水滔天，涤荡人间。
+如果陆地注定要塌陷，
+那就埋葬了人类，重新选择真理生存的圣殿。
+附录：回答 卑鄙是卑鄙者的通行证，
+高尚是高尚者的墓志铭，
+看吧，在那镀金的天空中，
+飘满了死者弯曲的倒影。
+冰川纪过去了，
+为什么到处都是冰凌？
+好望角发现了，
+为什么死海里千帆相竞？
+我来到这个世界上，
+只带着纸、绳索和身影，
+为了在审判前，
+宣读那些被判决的声音。
+告诉你吧，世界
+我&ndash;不&ndash;相&ndash;信！
+纵使你脚下有一千名挑战者，
+那就把我算作第一千零一名。
+我不相信天是蓝的，
+我不相信雷的回声，
+我不相信梦是假的，
+我不相信死无报应。
+如果海洋注定要决堤，
+就让所有的苦水都注入我心中，
+如果陆地注定要上升，
+就让人类重新选择生存的峰顶。
+新的转机和闪闪星斗，
+正在缀满没有遮拦的天空。
+那是五千年的象形文字，
+那是未来人们凝视的眼睛。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/in-this-weak-piping-time-of-peace/" />
+
+
+
+<meta property="article:published_time" content="2004-08-17T09:22:13&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-08-17T09:22:13&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="In This Weak Piping Time Of Peace">
+<meta itemprop="description" content="在 Topku 和 Zheng
+那里看到关于“黄金高”事件的点滴，其中有这么一条新闻的链接：中新社:《福州处理黄金高事件
+指其严重违反纪律不讲政治》（百度快照）。
+嗯，“讲政治”，离开学校有一段时间了，这个词组听上去竟有些生疏了，原来杀伤威力还是这么大啊…当然了，这只是我的鸵鸟态度在作祟罢了。也罢，重读马伯庸坑王的《三国九之南蛮大王》吧：）
+游学纪上一篇转贴的《一个记者是如何让尿差点憋死的》真要把人笑死，果然是“防火防盗防记者”啊忍不住转贴这首“打油诗”：
+
+打油诗：回答
+高尚是卑鄙者的通行证，
+卑鄙是高尚者的墓志铭。
+看吧，在那所谓正义的天空，
+挤满了多少伪善者的魅影。
+大革命已经过去了，
+为什么到处还是人人相轻。
+民主挂在嘴边了，
+为什么宗教审判的炉火依旧通红。
+我活在这个世界上，
+时刻准备着谄笑、假面与屁股，
+为了在审判之前，
+宣读那些赐予我的骂名。
+告诉你吧，世界
+我——不——相——信，
+纵然你脚下有亿万党同伐异的人，
+我依旧会固执地发出我的声音。
+我不相信残忍的只是刽子手，
+我不相信黑的只是乌鸦的身形。
+我不相信遭报应的只是恶人，
+我不相信假的只是梦境。
+如果海洋可以冲毁堤岸，
+就让洪水滔天，涤荡人间。
+如果陆地注定要塌陷，
+那就埋葬了人类，重新选择真理生存的圣殿。
+附录：回答 卑鄙是卑鄙者的通行证，
+高尚是高尚者的墓志铭，
+看吧，在那镀金的天空中，
+飘满了死者弯曲的倒影。
+冰川纪过去了，
+为什么到处都是冰凌？
+好望角发现了，
+为什么死海里千帆相竞？
+我来到这个世界上，
+只带着纸、绳索和身影，
+为了在审判前，
+宣读那些被判决的声音。
+告诉你吧，世界
+我&ndash;不&ndash;相&ndash;信！
+纵使你脚下有一千名挑战者，
+那就把我算作第一千零一名。
+我不相信天是蓝的，
+我不相信雷的回声，
+我不相信梦是假的，
+我不相信死无报应。
+如果海洋注定要决堤，
+就让所有的苦水都注入我心中，
+如果陆地注定要上升，
+就让人类重新选择生存的峰顶。
+新的转机和闪闪星斗，
+正在缀满没有遮拦的天空。
+那是五千年的象形文字，
+那是未来人们凝视的眼睛。">
+
+
+<meta itemprop="datePublished" content="2004-08-17T09:22:13&#43;00:00" />
+<meta itemprop="dateModified" content="2004-08-17T09:22:13&#43;00:00" />
+<meta itemprop="wordCount" content="63">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="In This Weak Piping Time Of Peace"/>
+<meta name="twitter:description" content="在 Topku 和 Zheng
+那里看到关于“黄金高”事件的点滴，其中有这么一条新闻的链接：中新社:《福州处理黄金高事件
+指其严重违反纪律不讲政治》（百度快照）。
+嗯，“讲政治”，离开学校有一段时间了，这个词组听上去竟有些生疏了，原来杀伤威力还是这么大啊…当然了，这只是我的鸵鸟态度在作祟罢了。也罢，重读马伯庸坑王的《三国九之南蛮大王》吧：）
+游学纪上一篇转贴的《一个记者是如何让尿差点憋死的》真要把人笑死，果然是“防火防盗防记者”啊忍不住转贴这首“打油诗”：
+
+打油诗：回答
+高尚是卑鄙者的通行证，
+卑鄙是高尚者的墓志铭。
+看吧，在那所谓正义的天空，
+挤满了多少伪善者的魅影。
+大革命已经过去了，
+为什么到处还是人人相轻。
+民主挂在嘴边了，
+为什么宗教审判的炉火依旧通红。
+我活在这个世界上，
+时刻准备着谄笑、假面与屁股，
+为了在审判之前，
+宣读那些赐予我的骂名。
+告诉你吧，世界
+我——不——相——信，
+纵然你脚下有亿万党同伐异的人，
+我依旧会固执地发出我的声音。
+我不相信残忍的只是刽子手，
+我不相信黑的只是乌鸦的身形。
+我不相信遭报应的只是恶人，
+我不相信假的只是梦境。
+如果海洋可以冲毁堤岸，
+就让洪水滔天，涤荡人间。
+如果陆地注定要塌陷，
+那就埋葬了人类，重新选择真理生存的圣殿。
+附录：回答 卑鄙是卑鄙者的通行证，
+高尚是高尚者的墓志铭，
+看吧，在那镀金的天空中，
+飘满了死者弯曲的倒影。
+冰川纪过去了，
+为什么到处都是冰凌？
+好望角发现了，
+为什么死海里千帆相竞？
+我来到这个世界上，
+只带着纸、绳索和身影，
+为了在审判前，
+宣读那些被判决的声音。
+告诉你吧，世界
+我&ndash;不&ndash;相&ndash;信！
+纵使你脚下有一千名挑战者，
+那就把我算作第一千零一名。
+我不相信天是蓝的，
+我不相信雷的回声，
+我不相信梦是假的，
+我不相信死无报应。
+如果海洋注定要决堤，
+就让所有的苦水都注入我心中，
+如果陆地注定要上升，
+就让人类重新选择生存的峰顶。
+新的转机和闪闪星斗，
+正在缀满没有遮拦的天空。
+那是五千年的象形文字，
+那是未来人们凝视的眼睛。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-08-17 09:22">2004-08-17</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>In This Weak Piping Time Of Peace</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section>
+
+<p>在 <a href="http://topku.com/">Topku</a> 和 <a href="http://www.klogs.org/">Zheng</a><br />
+那里看到关于“<a href="http://www.klogs.org/archives/000066.html">黄金高</a>”事件的点滴，其中有这么一条新闻的链接：中新社:《<a href="http://www.chinanews.com.cn/news/2004year/2004-08-14/26/472005.shtml">福州处理黄金高事件<br />
+指其严重违反纪律不讲政治</a>》（<a href="http://cache.baidu.com/c?word=%BB%C6%BD%F0%3B%B8%DF&amp;url=http%3A//www%2Echinanews%2Ecom%2Ecn/news/2004year/2004%2D08%2D14/26/472005%2Eshtml&amp;b=3&amp;user=baidu">百度快照</a>）。<br />
+嗯，“讲政治”，离开学校有一段时间了，这个词组听上去竟有些生疏了，原来杀伤威力还是这么大啊…当然了，这只是我的鸵鸟态度在作祟罢了。也罢，重读马伯庸坑王的《<a href="http://bbs.jjwxc.net/showmsg.php?board=139&amp;id=206&amp;msg=异教徒告解室">三国九之南蛮大王</a>》吧：）</p>
+
+<p><a href="http://www.donews.net/jinhongwei/">游学纪</a>上一篇转贴的<a href="http://www.donews.net/jinhongwei/archive/2004/08/11/65179.aspx">《一个记者是如何让尿差点憋死的》</a>真要把人笑死，果然是“防火防盗防记者”啊<img src="http://www.253874.com/new/face/023.gif" alt="" /></p>
+
+<p>忍不住转贴这首“打油诗”：</p>
+
+<p><blockquote><br />
+<a href="http://www.donews.net/jinhongwei/archive/2004/08/04/59018.aspx">打油诗：回答</a></p>
+
+<p>高尚是卑鄙者的通行证，<br />
+卑鄙是高尚者的墓志铭。<br />
+看吧，在那所谓正义的天空，<br />
+挤满了多少伪善者的魅影。</p>
+
+<p>大革命已经过去了，<br />
+为什么到处还是人人相轻。<br />
+民主挂在嘴边了，<br />
+为什么宗教审判的炉火依旧通红。</p>
+
+<p>我活在这个世界上，<br />
+时刻准备着谄笑、假面与屁股，<br />
+为了在审判之前，<br />
+宣读那些赐予我的骂名。</p>
+
+<p>告诉你吧，世界<br />
+我——不——相——信，<br />
+纵然你脚下有亿万党同伐异的人，<br />
+我依旧会固执地发出我的声音。</p>
+
+<p>我不相信残忍的只是刽子手，<br />
+我不相信黑的只是乌鸦的身形。<br />
+我不相信遭报应的只是恶人，<br />
+我不相信假的只是梦境。</p>
+
+<p>如果海洋可以冲毁堤岸，<br />
+就让洪水滔天，涤荡人间。<br />
+如果陆地注定要塌陷，<br />
+那就埋葬了人类，重新选择真理生存的圣殿。</p>
+
+<h2 id="附录-回答">附录：回答</h2>
+
+<p>卑鄙是卑鄙者的通行证，<br />
+高尚是高尚者的墓志铭，<br />
+看吧，在那镀金的天空中，<br />
+飘满了死者弯曲的倒影。</p>
+
+<p>冰川纪过去了，<br />
+为什么到处都是冰凌？<br />
+好望角发现了，<br />
+为什么死海里千帆相竞？</p>
+
+<p>我来到这个世界上，<br />
+只带着纸、绳索和身影，<br />
+为了在审判前，<br />
+宣读那些被判决的声音。</p>
+
+<p>告诉你吧，世界<br />
+我&ndash;不&ndash;相&ndash;信！<br />
+纵使你脚下有一千名挑战者，<br />
+那就把我算作第一千零一名。</p>
+
+<p>我不相信天是蓝的，<br />
+我不相信雷的回声，<br />
+我不相信梦是假的，<br />
+我不相信死无报应。</p>
+
+<p>如果海洋注定要决堤，<br />
+就让所有的苦水都注入我心中，<br />
+如果陆地注定要上升，<br />
+就让人类重新选择生存的峰顶。</p>
+
+<p>新的转机和闪闪星斗，<br />
+正在缀满没有遮拦的天空。<br />
+那是五千年的象形文字，<br />
+那是未来人们凝视的眼睛。<br />
+</blockquote><br />
+附送笑话一则：《<a href="http://www.cchere.com/article/582059">皇上回宫</a>》<img src="http://www.253874.com/new/face/233.gif" alt="" /></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《In%20This%20Weak%20Piping%20Time%20Of%20Peace》&body=https%3a%2f%2fioerr.github.io%2fposts%2fin-this-weak-piping-time-of-peace%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fin-this-weak-piping-time-of-peace%2f&text= @calon In%20This%20Weak%20Piping%20Time%20Of%20Peace&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

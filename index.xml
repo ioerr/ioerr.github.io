@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读写错误</title>
-    <link>https://ioerr.github.io/index.xml</link>
+    <link>https://ioerr.github.io/</link>
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
     <lastBuildDate>Sun, 21 Jan 2018 20:24:39 +0800</lastBuildDate>
-    <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>婚前的约定</title>
-      <link>https://ioerr.github.io/hunqian-de-yueding/</link>
-      <pubDate>Sun, 21 Jan 2018 20:24:39 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hunqian-de-yueding/</guid>
-      <description>&lt;p&gt;在推上看到 &lt;a href=&#34;https://twitter.com/luanma_&#34;&gt;@luanma_&lt;/a&gt; 说，朋友为了不让老婆知道他的花销情况，取消信用卡账单邮件通知，支付宝设置小号。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>婚前的约定</title>
+        <link>https://ioerr.github.io/posts/hunqian-de-yueding/</link>
+        <pubDate>Sun, 21 Jan 2018 20:24:39 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/hunqian-de-yueding/</guid>
+        <description>&lt;p&gt;在推上看到 &lt;a href=&#34;https://twitter.com/luanma_&#34;&gt;@luanma_&lt;/a&gt; 说，朋友为了不让老婆知道他的花销情况，取消信用卡账单邮件通知，支付宝设置小号。&lt;/p&gt;
 
 &lt;p&gt;相信很多人也听说过其他种种老公藏私房钱，隐瞒收入和开支的事迹。听到这种事情，我的反应都是：防妻如防贼，这生活过得还有什么意思？&lt;/p&gt;
 
@@ -35,15 +34,50 @@
 
 &lt;p&gt;如果从一开始认识到婚姻不仅仅是两情相悦，还包括财务上的合伙，事业上的互助，危机来临时的互相保护，更是两个自由、平等和相互理解包容的人共同生活，再去找合适的人，个人在婚姻关系中就不会有这么多纠结和笑话了吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>独一无二的普通人</title>
-      <link>https://ioerr.github.io/duyiwuer-de-putongren/</link>
-      <pubDate>Sun, 26 Nov 2017 16:09:14 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/duyiwuer-de-putongren/</guid>
-      <description>&lt;p&gt;看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。&lt;/p&gt;
+      <item>
+        <title>理光 GR2评价和使用经验</title>
+        <link>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</link>
+        <pubDate>Fri, 12 Jan 2018 20:24:39 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</guid>
+        <description>&lt;p&gt;入手理光 GR2不到一年，在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;什么值得买&lt;/a&gt;上投稿了一篇文章&lt;a href=&#34;https://post.smzdm.com/p/639625/&#34;&gt;GR 新一代上市之前，RICOH 理光 GR II 使用评价和经验分享&lt;/a&gt;。&lt;br /&gt;
+实在懒得再搬一次图片了，只在这里发链接吧。&lt;/p&gt;
+
+&lt;p&gt;简单的总结如下：&lt;/p&gt;
+
+&lt;p&gt;缺点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成像质量方面：色彩平淡不讨喜，高感成像素质一般，1600万像素不算高；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;装逼方面：外形不够骚（但我很喜欢它的低调外形），没有自带电子或光学取景器；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;功能方面：对焦慢，自动对焦容易识别错主体而跑焦，WiFi 传输实用性不高且耗电快，手机应用异常难用，没有防抖，没有触摸屏，微距最近10厘米；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;可靠性方面：电池续航时间不算长，需要至少备一块电池，有进灰的通病，偶尔会死机。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;优点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;体积小巧，APS-C 幅面相机中最便携的；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;单手操控能力强，机身软件响应迅速，手感和外形低调，便携小数码相机中最适合街拍的；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;镜头成像优异，不愧 GR 系列历来以成像素质闻名的镜头；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;针对的细分目标用户群非常明确，功能设计目的性强，充分扬长避短。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GR 系列相机就像一把暗藏于手中，随时可以出鞘的漆黑匕首，它不是长枪、弩箭或刀剑，如果它的设计理念符合你的需求，那么就没有什么好犹豫的。&lt;/p&gt;
+
+&lt;p&gt;反正对我来说，它是2017年最值的一件商品。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>独一无二的普通人</title>
+        <link>https://ioerr.github.io/posts/duyiwuer-de-putongren/</link>
+        <pubDate>Sun, 26 Nov 2017 16:09:14 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/duyiwuer-de-putongren/</guid>
+        <description>&lt;p&gt;看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。&lt;/p&gt;
 
 &lt;p&gt;少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。&lt;/p&gt;
 
@@ -57,15 +91,14 @@
 
 &lt;p&gt;当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>自由的代价</title>
-      <link>https://ioerr.github.io/ziyou-de-daijia/</link>
-      <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ziyou-de-daijia/</guid>
-      <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
+      <item>
+        <title>自由的代价</title>
+        <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
+        <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
+        <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
 
 &lt;p&gt;所以我一直都没有买 iPhone。&lt;/p&gt;
 
@@ -85,15 +118,31 @@
 
 &lt;p&gt;当我们并不知道自由的代价有多大时，选择“自由”没有意义。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>关于绝症、死亡和信仰的讨论</title>
-      <link>https://ioerr.github.io/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
-      <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
-      <description>&lt;p&gt;—————  2017-09-04  —————&lt;/p&gt;
+      <item>
+        <title>比特币和技术人员的浪漫</title>
+        <link>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</link>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</guid>
+        <description>&lt;p&gt;看了霍炬的文章才知道，最近李笑来因为 ICO 的事情又处于舆论风口。不少人说他是骗子，我了解不多不会轻易下结论，但至少能够理解霍炬描述中李笑来的那份理想主义浪漫情怀。&lt;/p&gt;
+
+&lt;p&gt;虽说一直没有参与比特币错过了几个亿，但我最关心的不是通过比特币投资，而是比特币是否能够成为宣传者口中鼓吹的新型货币。&lt;/p&gt;
+
+&lt;p&gt;到目前为止，即使不算公权力干预的因素，我也仍然觉得这事没戏。我身边只有投资比特币赚钱后套现提前退休的例子，没有一个人把它当作普通意义的“货币”。&lt;/p&gt;
+
+&lt;p&gt;至于李笑来的 &lt;a href=&#34;https://press.one/&#34;&gt;PressOne&lt;/a&gt;，其颠覆发行模式的说法，让我想到了各种“让生产者直接对接消费者，绕过赚取暴利的中间商”的创新。刨除利用公权力垄断优势赚取暴利的出版方，市场中其他出版方自然有其价值所在，其利润正是其市场价值的体现，并非完全没有必要存在的环节。&lt;/p&gt;
+
+&lt;p&gt;技术人员的浪漫大概就是深信技术可以颠覆世界吧。确实，技术是人类社会天翻地覆的基础，但技术人员往往高估了技术的影响力和决定性（非技术人员则是低估）。以为技术发展后，人类社会经济运作和社会组织可以完全像工程项目一样计划和安排，从而发展出走向乌托邦悲剧的理论，也是这种浪漫的后果之一。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>关于绝症、死亡和信仰的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
+        <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
+        <description>&lt;p&gt;—————  2017-09-04  —————&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
 
@@ -195,7 +244,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;好死不如赖活着
+&lt;p&gt;好死不如赖活着&lt;br /&gt;
 关键我不认为放化疗比中医更能让人赖活&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
@@ -522,7 +571,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。
+&lt;p&gt;到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。&lt;br /&gt;
 至少这样多少能有点希望和念想。人就是活在希望中的&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
@@ -627,7 +676,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;这种恐惧从小学到现在一直都有，一直都有。
+&lt;p&gt;这种恐惧从小学到现在一直都有，一直都有。&lt;br /&gt;
 只不过现在没空去想这种感受了&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
@@ -826,7 +875,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;@司马 说得好。这是两种解释
+&lt;p&gt;@司马 说得好。这是两种解释&lt;br /&gt;
 [偷笑]只要那个珍惜时间看淡其他的态度，不能真的当最后一天&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
@@ -1207,15 +1256,14 @@
 
 &lt;p&gt;儒，对我来说不太具体，就是温文尔雅，爱好诗文，坚持道德正统的一群人而已。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>板夹笔记</title>
-      <link>https://ioerr.github.io/banjia-biji/</link>
-      <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/banjia-biji/</guid>
-      <description>&lt;p&gt;工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。&lt;br /&gt;
+      <item>
+        <title>板夹笔记</title>
+        <link>https://ioerr.github.io/posts/banjia-biji/</link>
+        <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/banjia-biji/</guid>
+        <description>&lt;p&gt;工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。&lt;br /&gt;
 几个月下来觉得优点还真不少。&lt;/p&gt;
 
 &lt;p&gt;首先是再也不用担心笔记本写完了要换本子。&lt;br /&gt;
@@ -1247,15 +1295,14 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 
 &lt;p&gt;但相对其优点而言微不足道。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>网络共产主义者</title>
-      <link>https://ioerr.github.io/wangluo-gongchanzhuyizhe/</link>
-      <pubDate>Thu, 01 Jun 2017 22:54:03 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/wangluo-gongchanzhuyizhe/</guid>
-      <description>&lt;p&gt;因为听一些网络共产主义者飘在天上的车轱辘话听得太多，实在受不了，所以写这些文字发发牢骚。&lt;/p&gt;
+      <item>
+        <title>网络共产主义者</title>
+        <link>https://ioerr.github.io/posts/wangluo-gongchanzhuyizhe/</link>
+        <pubDate>Thu, 01 Jun 2017 22:54:03 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/wangluo-gongchanzhuyizhe/</guid>
+        <description>&lt;p&gt;因为听一些网络共产主义者飘在天上的车轱辘话听得太多，实在受不了，所以写这些文字发发牢骚。&lt;/p&gt;
 
 &lt;p&gt;当年继承斯密、李嘉图等人经济理论而出现的马克思主义政治经济学，在20世纪的共产主义潮流高潮过去之后，已经无法支撑共产主义的实践。&lt;/p&gt;
 
@@ -1289,15 +1336,14 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 
 &lt;p&gt;他们最关心的，是要作为无产阶级代言人获得绝对的专制权力，或者找到值得追随的专制强人，来实行心目中真理一般的政治理念，但从没有想过这个世界的政治和经济规律恐怕不会按他们所理解的那样运转，就像革命后发现现实没那么简单的革命前辈一样，迟早自相残杀——反正我的信仰没错，错的是世界和背叛革命理想的内奸。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>中产阶级的焦虑</title>
-      <link>https://ioerr.github.io/zhongchan_jieji_de_jiaolv/</link>
-      <pubDate>Sun, 28 May 2017 10:12:24 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongchan_jieji_de_jiaolv/</guid>
-      <description>&lt;p&gt;近几年引起中产阶级焦虑的事件和文章不少，如各种社会阶层固化、教育资源紧张、二胎养育成本、房价特别是学区房价格居高不下等等，甚至最近还有了《&lt;a href=&#34;http://news.ifeng.com/a/20170525/51162895_0.shtml&#34;&gt;中产阶级教育鄙视链&lt;/a&gt;》这样的文章。&lt;/p&gt;
+      <item>
+        <title>中产阶级的焦虑</title>
+        <link>https://ioerr.github.io/posts/zhongchan_jieji_de_jiaolv/</link>
+        <pubDate>Sun, 28 May 2017 10:12:24 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongchan_jieji_de_jiaolv/</guid>
+        <description>&lt;p&gt;近几年引起中产阶级焦虑的事件和文章不少，如各种社会阶层固化、教育资源紧张、二胎养育成本、房价特别是学区房价格居高不下等等，甚至最近还有了《&lt;a href=&#34;http://news.ifeng.com/a/20170525/51162895_0.shtml&#34;&gt;中产阶级教育鄙视链&lt;/a&gt;》这样的文章。&lt;/p&gt;
 
 &lt;p&gt;身边虽说没有走火入魔至此的家长，但压力也都不小，感觉人生的起跑线无处不在，一处落后就处处落后，差距越来越大，再也不能翻身。&lt;/p&gt;
 
@@ -1327,15 +1373,14 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 &lt;p&gt;4、以为用阶层和教育资源等手段作为护城河保障子女幸福，就是对子女最大的帮助。&lt;br /&gt;
 这更像是某种无意识的卸责，逃避看得见的物质资源之外的、在情感和三观方面陪伴和引导子女的责任，朦朦胧胧之中觉得哪里不对，但又不知道从何下手，于是愈发焦虑。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>反私有制的奴隶制乌托邦</title>
-      <link>https://ioerr.github.io/fan-siyouzhi-de-nulizhi-wutuobang/</link>
-      <pubDate>Thu, 25 May 2017 13:20:32 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/fan-siyouzhi-de-nulizhi-wutuobang/</guid>
-      <description>&lt;p&gt;看到将私有制和剥削压迫绑定起来的说法，觉得有必要反驳一下。&lt;/p&gt;
+      <item>
+        <title>反私有制的奴隶制乌托邦</title>
+        <link>https://ioerr.github.io/posts/fan-siyouzhi-de-nulizhi-wutuobang/</link>
+        <pubDate>Thu, 25 May 2017 13:20:32 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/fan-siyouzhi-de-nulizhi-wutuobang/</guid>
+        <description>&lt;p&gt;看到将私有制和剥削压迫绑定起来的说法，觉得有必要反驳一下。&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;苏梦枕：去阶级化、快乐教育的目的，就在于不断地给青少年灌输不科学的私有制意识形态。一旦私有制意识形态形成了思维定势，几乎是终身难以改变。所以那些说什么不要给娃娃灌输仇恨啦， 不要让娃娃过早的看到暴力啊啥的，不过是借口而已。意识形态教育就是从娃娃抓起的。只有如此，教育出来的青少年才会放下武器停止抵抗，想怎么剥削压迫就怎么剥削压迫，甚至于认为剥削合理，乃至于女性认为要想出人头地，就要潜规则，青少年自发的把被剥削被压迫被欺侮合理化，甚至合法化。这是资产阶级以及精神资产阶级最想要的结果。&lt;/p&gt;
@@ -1355,15 +1400,14 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 
 &lt;p&gt;反对私有制度而建设的乌托邦，没有不走向反人性的悲剧，包括一些毛左口中的“一共”。可惜反私有制意识形态的惯性确实终身难以改变，所以因为顺应人性而解放的生产力也可以强行解释为反人性乌托邦的遗产，批判资本主义社会的现状也总要极端到取消私有制度的程度。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>苹果微信之争</title>
-      <link>https://ioerr.github.io/pingguo-weixin-zhizheng/</link>
-      <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/pingguo-weixin-zhizheng/</guid>
-      <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
+      <item>
+        <title>苹果微信之争</title>
+        <link>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</link>
+        <pubDate>Mon, 24 Apr 2017 22:22:53 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/pingguo-weixin-zhizheng/</guid>
+        <description>&lt;p&gt;最近&lt;a href=&#34;https://kenengba.com/post/3590.html&#34;&gt;苹果禁止微信在其 iOS 应用内提供通过微信支付打赏文章作者的功能&lt;/a&gt;，很多人马上想到了当年360和腾讯的大战，以及让用户二选一的“艰难的决定”，有的人也在自问和问人：苹果手机和微信如果只能选择一样，会选择哪个？&lt;/p&gt;
 
 &lt;p&gt;有人则认为苹果这种做法是利用垄断优势店大欺客。我不是果粉都看不下去了。&lt;/p&gt;
 
@@ -1395,15 +1439,14 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 
 &lt;p&gt;一句“用户群体庞大”就可以堂而皇之的化私为公，进而打着法律的旗号干预市场，大多数人可能还觉得十分正常，甚至拍手叫好，这才是细思恐极之处啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>现代杞人忧天</title>
-      <link>https://ioerr.github.io/xiandai-qirenyoutian/</link>
-      <pubDate>Wed, 29 Mar 2017 12:11:30 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiandai-qirenyoutian/</guid>
-      <description>&lt;p&gt;阮一峰最近在&lt;a href=&#34;www.ruanyifeng.com/blog/2017/03/boundary.html&#34;&gt;《技术的边界》&lt;/a&gt;中提到一个不算新鲜的观点：技术高速发展所蕴含的巨大能量，最终将把人类社会带到难以预测的脆弱状态。&lt;/p&gt;
+      <item>
+        <title>现代杞人忧天</title>
+        <link>https://ioerr.github.io/posts/xiandai-qirenyoutian/</link>
+        <pubDate>Wed, 29 Mar 2017 12:11:30 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/xiandai-qirenyoutian/</guid>
+        <description>&lt;p&gt;阮一峰最近在&lt;a href=&#34;www.ruanyifeng.com/blog/2017/03/boundary.html&#34;&gt;《技术的边界》&lt;/a&gt;中提到一个不算新鲜的观点：技术高速发展所蕴含的巨大能量，最终将把人类社会带到难以预测的脆弱状态。&lt;/p&gt;
 
 &lt;p&gt;其逻辑要点是：&lt;/p&gt;
 
@@ -1458,252 +1501,7 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 为了未来未知的技术风险，忽视当下无时无刻不在涌现的实际需求，不是因噎废食、杞人忧天是什么呢？&lt;br /&gt;
 就是不知道不知道这是身为技术人员的阮一峰的真实想法，还是为了推广书而故意为之的宣传策略了。&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>震惊</title>
-      <link>https://ioerr.github.io/zhenjing/</link>
-      <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhenjing/</guid>
-      <description>&lt;p&gt;前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。&lt;/p&gt;
-
-&lt;p&gt;背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;哈克：我太震惊了！&lt;br /&gt;
-汉弗莱：你还震惊，我才震惊呢！&lt;br /&gt;
-哈克：真不敢相信，我…太震惊了。你怎么想？&lt;br /&gt;
-伯纳德：我震惊了，大臣。&lt;br /&gt;
-哈克：我也是。震惊啊！&lt;br /&gt;
-汉弗莱：让人震惊！&lt;br /&gt;
-哈克：震惊…我简直没法形容！&lt;br /&gt;
-伯纳德：震惊？&lt;br /&gt;
-哈克：震惊！&lt;br /&gt;
-可这是真的吗？&lt;br /&gt;
-他不是吓唬你吧？&lt;br /&gt;
-一个部门怎能说废就废？&lt;br /&gt;
-汉弗莱：听起来很像真的，对吧？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>小区灵堂扰民与城乡差异</title>
-      <link>https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</link>
-      <pubDate>Mon, 27 Mar 2017 20:18:36 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoqu-lingdang-raomin-yu-chengxiang-chayi/</guid>
-      <description>&lt;p&gt;大城市中应该很少见到在公共场所摆设灵堂，放鞭炮、请乐队奏乐这种事情了吧，但在我所住的小区，因为安置的农村、郊县拆迁户较多，隔一段时间就有灵堂摆进来，锣鼓喧天，鞭炮齐鸣，还有不入流的弹四郎歌手放声高歌（但不是以前弹四郎一曲的风格了）。因为有不少业主接受这种风俗，小区的物业也不好管。&lt;/p&gt;
-
-&lt;p&gt;为什么这种乡村几乎家家户户都遵循的习俗到了城市中就变成扰民了呢？是因为素质差异，是城市居民的生活更容易被打扰，还是因为其他原因？&lt;/p&gt;
-
-&lt;p&gt;印象中小时候住在长沙城中心的宝南街时，附近有人去世，都会摆灵堂做白事，相互认识的街坊邻居全去凑热闹，顺便也搭把手帮个忙。而现在小区中相互认识的往往不超过同层、对门的邻居，大事小事都不好麻烦人家，更何况是不吉利的丧事。&lt;/p&gt;
-
-&lt;p&gt;也许这才是真正的原因：&lt;br /&gt;
-乡村中多是家族聚居，去世的往往是大家都认识的亲朋好友，摆灵堂这事更多的是一个公共事件，你我都有份参与，也就无所谓扰不扰民；&lt;br /&gt;
-而城市小区中大家相互陌生，摆灵堂是逝者一家自家的私事，公共事件时很正常的行为放在这里就变成了冒犯和打扰，只是他们自己还不习惯这种场景转换，没有意识到这种差异。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>无需争辩无法确证的东西</title>
-      <link>https://ioerr.github.io/wuxu-zhengbian-wufa-quezheng-de-dongxi/</link>
-      <pubDate>Thu, 16 Mar 2017 22:59:53 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/wuxu-zhengbian-wufa-quezheng-de-dongxi/</guid>
-      <description>&lt;p&gt;经常参与、围观网络争论的人估计都遇到过争论双方互相指责对方“没有独立思考能力”、“被洗脑了”、“屁股决定了脑袋”等等的情况，为此吵得不可开交的参与者还可能写出数千上万字的文章论证对方确实如自己所说。&lt;br /&gt;
-仿佛只要这个论证成立，对方也就自动丧失了争论的权利，自己也大获全胜。&lt;/p&gt;
-
-&lt;p&gt;但其实这种论证只是一种幻觉，对方是否真的没有经过独立思考，是否被洗脑，其立场竟然和自己完全不同是否是因为其屁股错位，根本不是客观论证能够证实的，除非你有深入人心、探知其大脑思维的超能力，否则这种指责和论证都只是自以为成立的臆测而已，用古人的话来说差不多就是诛心。&lt;/p&gt;
-
-&lt;p&gt;这样就无法确证的东西的争论对推进讨论毫无意义，倒不如讨论各种观点落实为实际行动后，对个人利益的影响可能有多大。&lt;br /&gt;
-每个人的切身利益才是各人基于个人立场最容易确证的东西。&lt;/p&gt;
-
-&lt;p&gt;当然也有可能对方是这种态度：你个人的利益无足轻重，毋需考虑，不要太自私，我们还是只关注战略层次的“整体”“公共”利益吧。&lt;br /&gt;
-又或者是：你并不了解自己最想要什么，也不知道如何选择最有利于自己的利益，我或者更高明的人对此反而知道得更清楚，所以你应该改变个人主义的出发点，听从更高智慧的人的指示。&lt;br /&gt;
-遇到这种以为自己有洞察人心的超能力，希望以此剥夺你的争论资格，希望你放弃思考并主动交出选择权利的人也没什么好讨论的，直接怼就好了。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>跨主机共享外设</title>
-      <link>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</link>
-      <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/kua-zhuji-gongxiang-waishe/</guid>
-      <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
-
-&lt;p&gt;最先了解到的是 &lt;a href=&#34;https://symless.com/synergy/&#34;&gt;Synergy&lt;/a&gt;，不但可以跨主机，而且支持跨 OSX、Linux（Ubuntu/Debian） 和 Windows 系统。&lt;/p&gt;
-
-&lt;p&gt;但代价就是要付费购买——然而我并没有跨系统共享的需求，所以找到了两款 Windows 下的软件代替。&lt;/p&gt;
-
-&lt;p&gt;第一款是微软车库项目出品的 &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=35460&#34;&gt;Mouse without Borders&lt;/a&gt;，这直白又冗长的名字真是忍不住要吐槽啊！&lt;/p&gt;
-
-&lt;p&gt;优势是体积小巧，上手配置方便，还支持跨主机拖拽文件，如果其他方面没有特别多的功能要求和个性化需求，已经足够用了。&lt;/p&gt;
-
-&lt;p&gt;第二款是 &lt;a href=&#34;http://www.inputdirector.com/&#34;&gt;Input Director&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_screenshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/frontpage_globalprefscfg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;优势在于选项丰富，自定义功能更强。&lt;br /&gt;
-例如有各种快捷键的自定义设置，可以配置触碰屏幕边缘两次鼠标才跨越屏幕，鼠标跨越屏幕后有波纹效果，支持主机数量多，等等。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.inputdirector.com/images/features_ripples.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;不过上手时要配置主/从系统和一大堆选项，可能会让很多人头晕。&lt;/p&gt;
-
-&lt;p&gt;两款软件共同的问题有：&lt;/p&gt;
-
-&lt;p&gt;如果网络状况不佳，鼠标会抖动或延迟，这应该是这类软件的通病了，Synergy 也不例外；&lt;br /&gt;
-自动寻找、发现局域网内系统并配对可能会失败，根据 IP 地址指定更加靠谱。&lt;/p&gt;
-
-&lt;p&gt;另外，如果有三台主机，两台在同一有线局域网，两台在同一无线局域网，同一时间也只能选择一个局域网内的主机共享鼠标、键盘和剪贴板。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>尝试共享单车</title>
-      <link>https://ioerr.github.io/changshi-gongxiang-danche/</link>
-      <pubDate>Mon, 13 Feb 2017 16:22:11 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/changshi-gongxiang-danche/</guid>
-      <description>
-
-&lt;p&gt;听说了很久的共享单车，比如摩拜和 ofo，去一线城市出差也能时常看到4、5种共享单车扎堆，可以感受到激烈的竞争。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://om4cm3rqt.bkt.clouddn.com/PUB-0000009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最近 ofo 开始在二线城市发力，长沙也能零星地看到小黄车的身影。&lt;br /&gt;
-据说 ofo 连山城重庆都进入了！真是不惜血本啊，之前宿遗群内大家还说没有哪家共享单车公司会脑子进水去重庆的……&lt;/p&gt;
-
-&lt;p&gt;不过目前在长沙覆盖率最高的反而是不那么知名的小绿车酷骑。&lt;br /&gt;
-所以为了试用共享单车的体验，只好投入298元押金先注册酷骑了。&lt;/p&gt;
-
-&lt;h3 id=&#34;之前的单车哪里体验不好&#34;&gt;之前的单车哪里体验不好？&lt;/h3&gt;
-
-&lt;h4 id=&#34;自购单车&#34;&gt;自购单车&lt;/h4&gt;
-
-&lt;p&gt;最大的问题自然是容易被盗，说出来都是触目惊心的血泪史。&lt;br /&gt;
-财产损失倒在其次，关键是心理打击巨大，有种被世界背叛抛弃的挫折感。&lt;/p&gt;
-
-&lt;p&gt;其次就是修车铺销声匿迹，随车随身带维修工具挺麻烦的，对懒人太不友好。&lt;/p&gt;
-
-&lt;p&gt;最后就是还是不方便携带。&lt;br /&gt;
-要上地铁必须考虑或影响骑乘体验或身价不菲的折叠单车（虽然有看到过扛28大杠进地铁的强者……）。&lt;/p&gt;
-
-&lt;p&gt;所以早几年我都把家里最后一辆自行车给卖了。&lt;/p&gt;
-
-&lt;h4 id=&#34;市政公共单车&#34;&gt;市政公共单车&lt;/h4&gt;
-
-&lt;p&gt;虽然市政公共单车出现较早，可经过利弊权衡，我还是没有注册使用。&lt;/p&gt;
-
-&lt;p&gt;首先是固定位置停放限制太大，停放桩实在太少。&lt;br /&gt;
-比如我所在的小区，距离最近的公共单车停放桩大概有1000米，等我走过去取车的时间，可能乘坐公交车都已经到站了。&lt;br /&gt;
-骑车出去也总要担心没有地方停该怎么办？&lt;br /&gt;
-车辆的投放也太少，覆盖范围有限。&lt;/p&gt;
-
-&lt;p&gt;然后是停放桩数量有限，租车者难免会有这样的焦虑：&lt;br /&gt;
-要是好不容易骑到了停放桩，却发现已经停满了，该如何还车？&lt;br /&gt;
-难道要一直蹲守在旁边，直到有人再骑走一辆，腾出还车车位吗？&lt;br /&gt;
-反正我是没有在注册服务说明中说清楚如何应对这种情况。&lt;/p&gt;
-
-&lt;p&gt;最后是注册、缴费、退费非常不方便。&lt;br /&gt;
-需要工作日、白天到指定地点注册、缴费，我就只能呵呵了。&lt;/p&gt;
-
-&lt;h3 id=&#34;共享单车哪里好&#34;&gt;共享单车哪里好？&lt;/h3&gt;
-
-&lt;p&gt;对消费者来说，好处确实很多。简单罗列几点就行，不需要说得太细：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;不用担心车辆被盗。&lt;/li&gt;
-&lt;li&gt;随走随停，骑累了、变天了都不用担心怎么回去。&lt;/li&gt;
-&lt;li&gt;押金和单次消费不算贵。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;所以注册之后，还挺有积极性的，一有机会就骑上出发。&lt;/p&gt;
-
-&lt;h3 id=&#34;共享单车哪里不好&#34;&gt;共享单车哪里不好？&lt;/h3&gt;
-
-&lt;p&gt;本地还没有摩拜（2月中旬还没有看到，到了3月底已经较多了），据说因为设计考量，导致骑行十分费力，后来又推出轻量版。&lt;/p&gt;
-
-&lt;p&gt;酷骑的车中规中矩，就是一般的女式公路车改装的，可以调节座椅，除了前后刹刹车距离差异太大、缺少反光装置、早晨室外容易凝结露水之外，本身没有什么特别明显的缺点。&lt;/p&gt;
-
-&lt;h4 id=&#34;自身服务方面&#34;&gt;自身服务方面&lt;/h4&gt;
-
-&lt;p&gt;酷骑的体验问题基本都出在移动应用方面，比如说：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;车身 GPS 定位不准确&lt;br /&gt;
-打开应用看地图上有许多辆，实际去找却可能扑个空，又或者带着人不停兜圈就是到不了单车所在的精确地点，对用户的信心打击相当大。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;骑行过程中要求蓝牙和移动网络都打开&lt;br /&gt;
-特别是后者，如果关闭，即使开了 GPS 应用也不会记录行程。&lt;br /&gt;
-于是我现在的统计数据显示，累计骑行4个半小时，总行程还只有0.48公里…&lt;br /&gt;
-补充：现在全部定位手段都打开也经常无法记录行程，感觉要废了。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;另外，虽然可以邀请新用户赚用车券，也可以做活动，但没有花心思做社交功能，比如添加好友、发现同好、和好友分享骑行路线和经历、邀约骑车等等，还挺不习惯的（这方面做得好并不会引起用户反感）。&lt;br /&gt;
-活动也没有可以吸引用户的地方。&lt;br /&gt;
-不明白为什么功能如此简单，应用体积却20+MB。&lt;/p&gt;
-
-&lt;p&gt;Ofo 我还没有试用，据说移动应用体验相当糟糕，比如因为没有 GPS 精确定位，你只能知道附近有多少辆 ofo，却不知道它们在哪里…&lt;/p&gt;
-
-&lt;p&gt;而且因为 ofo 简陋的安全配置，如固定密码的机械锁（现在偶尔可以看到第二代锁的车辆，但是不多）、没有定位功能等，导致盗用、滥用、公车私用现象最严重。&lt;br /&gt;
-反正到目前为止，我看到被人拿回家当私车用的、自己破坏车锁的、记录密码后免费重复使用的，全都是 ofo 的单车。&lt;br /&gt;
-据说 ofo 的损失率达到了5%以上，不知道是否是砸钱用成本换市场扩张的战术手段，初期一定的损失率也可以接受？&lt;/p&gt;
-
-&lt;p&gt;补充：&lt;br /&gt;
-目前酷骑单车的损坏情况也非常严重，车锁无法打开、座椅松动不能固定、车胎被人恶意破坏的情况最多，还有链条故障、踏板脱落等，找到可用单车的几率已经差不多低于50%了。&lt;br /&gt;
-因为没有完善定位功能，高峰时期找不到车的情况更加突出，好不容易找到又是坏的，严重影响体验！&lt;/p&gt;
-
-&lt;p&gt;3月1酷奇在下班高峰期出现长时间、大面积的服务故障，无法登录、开锁。&lt;/p&gt;
-
-&lt;p&gt;又注册了摩拜单车，见识到了传说中效率低的轴传动，骑车上坡那是真费力！下坡也要时不时蹬一下。&lt;br /&gt;
-第一代摩拜不能调节座椅高低，我这种身高处于中等水平的骑着都有点别扭，高个子基本就告别摩拜单车了…&lt;br /&gt;
-同时刹车柄与握把之间的距离偏长，个子矮的也不爽。&lt;/p&gt;
-
-&lt;h4 id=&#34;环境配套情况&#34;&gt;环境配套情况&lt;/h4&gt;
-
-&lt;p&gt;共享单车用户多了之后，以前熟悉的逆行、闯红灯、乱跨车道等现象也渐渐多了起来。&lt;br /&gt;
-不但危及自身安全，还有可能被人当作攻击共享单车服务的把柄，哪怕这根本不能算是共享单车服务商的责任。&lt;/p&gt;
-
-&lt;p&gt;除了用户素质之外，还有一个不可忽视而很少看到有人提起的问题：&lt;/p&gt;
-
-&lt;p&gt;我试用的这几天有个明显的感觉，现在骑车上街可比以前大部分人都骑车出行的年代危险多了！&lt;/p&gt;
-
-&lt;p&gt;首先是电单车横行，并且与单车共用车道，电单车从后方超车或斜刺里杀出来时悄无声息，非常危险，一不留神可能就会撞上。&lt;br /&gt;
-我宁愿回到允许摩托车上路的时候，起码还能听到声音。&lt;/p&gt;
-
-&lt;p&gt;其次是机动车靠边停车和右转弯似乎已经不习惯考虑单车的存在了。&lt;br /&gt;
-你永远拿不准和你并行行驶的机动车什么时候会忽然靠右停车，没有打转向灯习惯的司机太多了。&lt;br /&gt;
-停靠在非机动车道上的汽车也让人头痛，虽然我经过的时候都减速、按铃，仍要担心它突然启动或开门。&lt;br /&gt;
-经过十字路口时更是提心吊胆，因为路口处的单车直行道处在直行机动车道和右转机动车道之间，要直行就要冒着被右转车辆碾压的危险——这在以前不是问题，反正有很多人一起骑车过路口，盲人开车都不会忽视你，而现在转向不看有没有单车的司机太多了。&lt;/p&gt;
-
-&lt;p&gt;希望随着共享单车使用者越来越多，这一现象有所好转吧。&lt;/p&gt;
-
-&lt;h3 id=&#34;未来远景方面&#34;&gt;未来远景方面&lt;/h3&gt;
-
-&lt;p&gt;作为消费者，当然觉得共享单车非常方便，解决了大问题，但自然也会担忧，目前共享单车蜂拥而上，竞相融资和烧钱，能否长久持续。&lt;/p&gt;
-
-&lt;p&gt;据说融资融成独角兽的市场领头羊们计算的结果是，光靠单车本身的租金就已经能够盈利，商业模式没有问题。&lt;br /&gt;
-但愿这是综合考虑到各种因素得到的结果，而不是真空中的球形鸡模型算出来的。&lt;br /&gt;
-从背后投资者站队的情况来看，未来必然有惨烈的价格大战和兼并行为，希望硝烟散尽后，体验不会变差，起码价格再高点我也能接受。&lt;/p&gt;
-
-&lt;p&gt;除此之外，政府政策方面也不知道会有什么风险。&lt;br /&gt;
-就像网约车硬生生被各种限制政策玩成了少数人才能参与的服务，资源供给侧大大萎缩，等于导致服务价格上升。&lt;br /&gt;
-在市政公共单车不大受市民青睐的地方，是否会因为利益冲突原因出台限制措施呢？&lt;/p&gt;
-
-&lt;p&gt;最后，我觉得围绕共享单车的玩法还有很多没有开发出来。&lt;br /&gt;
-想想看，用户出行的行为轨迹数据有了，租金形成的沉淀资金有了，健身活动的需求和偏好信息有了…&lt;br /&gt;
-单车本身有一定的负载能力，一些扩展的硬件设备，如太阳能发电、充电、移动热点、数据采集器等等未必没有应用的可能。&lt;br /&gt;
-只要前期的市场行为习惯培养起来了，解决了政策风险、用户破坏和滥用的问题，这门生意还有许多潜力可挖。&lt;/p&gt;
-</description>
-    </item>
+      </item>
     
   </channel>
 </rss>

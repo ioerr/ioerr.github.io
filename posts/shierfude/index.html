@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>失而复得 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="失而复得" />
+<meta property="og:description" content="发现一些本来弃之不用或者长期忽视的软件，在升级或者再次尝试之后变得顺手了，可谓是失而复得，特此志之：
+jUploadr
+
+以前用过的版本基本不能让人忍受，于是我一直都在使用官方2.x
+的上传工具。但不记得因为什么原因又翻出最新的版本用了一下，既稳定又强大还考虑周到，遂弃用官方的客户端。
+TeamViewer
+因为感觉快递通没那么好用了才开始尝试这个一直有人推荐的远程控制工具，结果当然是感叹相见恨晚。
+WikidPad
+本来只是用它整理一下工作之余收集的资料，后来实在是受不了 Evernote
+某些恼人的问题，于是工作上的资料整理也换成了 WikidPad。
+Everything
+因为对中文的支持不佳所以一直没有跟踪，后来发现新的 beta
+版本对中文的支持很好了，又确实是需要一个非常快速的文件名搜索工具，于是正式纳入必备软件。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shierfude/" />
+
+
+
+<meta property="article:published_time" content="2009-01-14T15:40:53&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-01-14T15:40:53&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="失而复得">
+<meta itemprop="description" content="发现一些本来弃之不用或者长期忽视的软件，在升级或者再次尝试之后变得顺手了，可谓是失而复得，特此志之：
+jUploadr
+
+以前用过的版本基本不能让人忍受，于是我一直都在使用官方2.x
+的上传工具。但不记得因为什么原因又翻出最新的版本用了一下，既稳定又强大还考虑周到，遂弃用官方的客户端。
+TeamViewer
+因为感觉快递通没那么好用了才开始尝试这个一直有人推荐的远程控制工具，结果当然是感叹相见恨晚。
+WikidPad
+本来只是用它整理一下工作之余收集的资料，后来实在是受不了 Evernote
+某些恼人的问题，于是工作上的资料整理也换成了 WikidPad。
+Everything
+因为对中文的支持不佳所以一直没有跟踪，后来发现新的 beta
+版本对中文的支持很好了，又确实是需要一个非常快速的文件名搜索工具，于是正式纳入必备软件。">
+
+
+<meta itemprop="datePublished" content="2009-01-14T15:40:53&#43;00:00" />
+<meta itemprop="dateModified" content="2009-01-14T15:40:53&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="软件," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="失而复得"/>
+<meta name="twitter:description" content="发现一些本来弃之不用或者长期忽视的软件，在升级或者再次尝试之后变得顺手了，可谓是失而复得，特此志之：
+jUploadr
+
+以前用过的版本基本不能让人忍受，于是我一直都在使用官方2.x
+的上传工具。但不记得因为什么原因又翻出最新的版本用了一下，既稳定又强大还考虑周到，遂弃用官方的客户端。
+TeamViewer
+因为感觉快递通没那么好用了才开始尝试这个一直有人推荐的远程控制工具，结果当然是感叹相见恨晚。
+WikidPad
+本来只是用它整理一下工作之余收集的资料，后来实在是受不了 Evernote
+某些恼人的问题，于是工作上的资料整理也换成了 WikidPad。
+Everything
+因为对中文的支持不佳所以一直没有跟踪，后来发现新的 beta
+版本对中文的支持很好了，又确实是需要一个非常快速的文件名搜索工具，于是正式纳入必备软件。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-01-14 03:40">2009-01-14</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>失而复得</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E8%BD%AF%E4%BB%B6">
+              <span class="hash">#</span>软件</a>
+          
+        
+      </p>
+    </header>
+    <section><p>发现一些本来弃之不用或者长期忽视的软件，在升级或者再次尝试之后变得顺手了，可谓是失而复得，特此志之：</p>
+
+<p><a href="http://sourceforge.net/projects/juploadr/">jUploadr</a><br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=20090114232742.png"><img src="http://i111.photobucket.com/albums/n154/calon_plus/20090114232742.png" alt="Photobucket" /></a><br />
+以前用过的版本基本不能让人忍受，于是我一直都在使用官方2.x<br />
+的上传工具。但不记得因为什么原因又翻出最新的版本用了一下，既稳定又强大还考虑周到，遂弃用官方的客户端。</p>
+
+<p><a href="http://www.teamviewer.com/index.aspx">TeamViewer</a><br />
+<img src="http://www.teamviewer.com/images/screenshots/en/en_startscreen.gif" alt="" /><br />
+因为感觉<a href="http://calon.weblogs.us/kuaiditong/">快递通</a>没那么好用了才开始尝试这个一直有人推荐的远程控制工具，结果当然是感叹相见恨晚。</p>
+
+<p><a href="http://calon.weblogs.us/wikidpad/">WikidPad</a><br />
+<img src="http://wikidpad.sourceforge.net/screen1_small.gif" alt="" /><br />
+本来只是用它整理一下工作之余收集的资料，后来实在是受不了 Evernote<br />
+某些恼人的问题，于是工作上的资料整理也换成了 WikidPad。</p>
+
+<p><a href="http://www.voidtools.com/">Everything</a><br />
+<img src="http://www.voidtools.com/sssmall.jpg" alt="" /><br />
+因为对中文的支持不佳所以一直没有跟踪，后来发现新的 beta<br />
+版本对中文的支持很好了，又确实是需要一个非常快速的文件名搜索工具，于是正式纳入必备软件。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%a4%b1%e8%80%8c%e5%a4%8d%e5%be%97》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshierfude%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshierfude%2f&text= @calon %e5%a4%b1%e8%80%8c%e5%a4%8d%e5%be%97&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

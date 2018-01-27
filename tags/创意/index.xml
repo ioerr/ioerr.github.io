@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>创意 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%88%9B%E6%84%8F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%88%9B%E6%84%8F/</link>
     <description>Recent content in 创意 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%88%9B%E6%84%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jul 2011 10:17:52 +0000</lastBuildDate>
     
-    <item>
-      <title>手机应用创意</title>
-      <link>https://ioerr.github.io/shouji-yingyong-chuangyi/</link>
-      <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shouji-yingyong-chuangyi/</guid>
-      <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%88%9B%E6%84%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>手机应用创意</title>
+        <link>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</link>
+        <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</guid>
+        <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
 最关心的是，定位功能和手机结合起来能够有什么好玩法。&lt;/p&gt;
 
 &lt;p&gt;现在的 LBS 服务普遍功能单调，实用性不够，签到的操作麻烦。&lt;br /&gt;
@@ -188,7 +188,7 @@ Google的搜索结果实时通知不靠谱，因为它不能准确了解你期�
 
 &lt;p&gt;** 正品商标识别**&lt;/p&gt;
 
-&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG
+&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG&lt;br /&gt;
 Amycall手机、康帅傅方便面。&lt;br /&gt;
 用这个应用拍下商标，就可以自动分析是否正品。&lt;br /&gt;
 如果所有产品使用统一的二维码或条码校验，也可以结合二维码和条码验证，准确率更高。这样山寨品牌要造假，标志必须做得完全一样，二维码或条码也必须与正牌完全一样，就很难打擦边球了。&lt;/p&gt;
@@ -254,7 +254,7 @@ Amycall手机、康帅傅方便面。&lt;br /&gt;
 在钥匙上贴标签吧，又怕旁人知道，不太安全。&lt;br /&gt;
 这个应用可以拍照、扫描钥匙的齿形，记录匹配的锁的信息，今后，当你偶然翻出一把很久都没用过的钥匙，又想不起来是用在哪里的时候，用摄像头照一下，答案就出现了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

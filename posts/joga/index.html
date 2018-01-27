@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joga - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Joga" />
+<meta property="og:description" content="Google 和
+NikeFootball 一起弄出来一个名为
+Joga
+的足球站，从它的自我介绍来看，是一个分享图片、视频等内容的社区。上传视频需要等待管理员审核。
+可惜需要邀请才能够加入，而且需要有 Google
+Account。
+经常被 Nike 请来作广告的 Eric Cantona 也贡献了一个关于
+Joga
+的视频广告，口号是
+Skill、Heart、Honor、Joy &amp;
+Team（技术、全心投入、荣耀、快乐和团队精神）。不知道要不要再加上一条：少一点铜臭味？
+好吧，除了等 Google
+的派发之外，还有人有邀请吗？
+话说回来，找一个又有人气、又有水平还不用天天看口水飞溅的足球社区还真是难…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/joga/" />
+
+
+
+<meta property="article:published_time" content="2006-03-23T13:22:31&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-03-23T13:22:31&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Joga">
+<meta itemprop="description" content="Google 和
+NikeFootball 一起弄出来一个名为
+Joga
+的足球站，从它的自我介绍来看，是一个分享图片、视频等内容的社区。上传视频需要等待管理员审核。
+可惜需要邀请才能够加入，而且需要有 Google
+Account。
+经常被 Nike 请来作广告的 Eric Cantona 也贡献了一个关于
+Joga
+的视频广告，口号是
+Skill、Heart、Honor、Joy &amp;
+Team（技术、全心投入、荣耀、快乐和团队精神）。不知道要不要再加上一条：少一点铜臭味？
+好吧，除了等 Google
+的派发之外，还有人有邀请吗？
+话说回来，找一个又有人气、又有水平还不用天天看口水飞溅的足球社区还真是难…">
+
+
+<meta itemprop="datePublished" content="2006-03-23T13:22:31&#43;00:00" />
+<meta itemprop="dateModified" content="2006-03-23T13:22:31&#43;00:00" />
+<meta itemprop="wordCount" content="24">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Joga"/>
+<meta name="twitter:description" content="Google 和
+NikeFootball 一起弄出来一个名为
+Joga
+的足球站，从它的自我介绍来看，是一个分享图片、视频等内容的社区。上传视频需要等待管理员审核。
+可惜需要邀请才能够加入，而且需要有 Google
+Account。
+经常被 Nike 请来作广告的 Eric Cantona 也贡献了一个关于
+Joga
+的视频广告，口号是
+Skill、Heart、Honor、Joy &amp;
+Team（技术、全心投入、荣耀、快乐和团队精神）。不知道要不要再加上一条：少一点铜臭味？
+好吧，除了等 Google
+的派发之外，还有人有邀请吗？
+话说回来，找一个又有人气、又有水平还不用天天看口水飞溅的足球社区还真是难…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-03-23 01:22">2006-03-23</time> &bull;
+          
+            
+            <a href="/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2">纯粹体育</a>
+          </p>
+      <h1>Joga</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.google.com/">Google</a> 和<br />
+<a href="http://www.nikefootball.com/">NikeFootball</a> 一起弄出来一个名为<br />
+<a href="http://www.joga.com/">Joga</a><br />
+的足球站，从它的自我介绍来看，是一个分享图片、视频等内容的社区。上传视频需要等待管理员审核。<br />
+可惜需要邀请才能够加入，而且需要有 <a href="http://www.google.com/">Google</a><br />
+Account。</p>
+
+<p>经常被 Nike 请来作广告的 Eric Cantona 也贡献了一个关于<br />
+<a href="http://www.joga.com/">Joga</a><br />
+的<a href="http://www.nikefootball.com.cn/cantona/index.html">视频广告</a>，口号是<br />
+Skill、Heart、Honor、Joy &amp;<br />
+Team（技术、全心投入、荣耀、快乐和团队精神）。不知道要不要再加上一条：少一点铜臭味？</p>
+
+<p>好吧，除了等 <a href="http://www.google.com/">Google</a><br />
+的派发之外，还有人有邀请吗？</p>
+
+<p>话说回来，找一个又有人气、又有水平还不用天天看口水飞溅的足球社区还真是难…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Joga》&body=https%3a%2f%2fioerr.github.io%2fposts%2fjoga%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fjoga%2f&text= @calon Joga&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

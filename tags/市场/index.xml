@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>市场 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%B8%82%E5%9C%BA/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%B8%82%E5%9C%BA/</link>
     <description>Recent content in 市场 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%B8%82%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2015 14:55:10 +0000</lastBuildDate>
     
-    <item>
-      <title>互联网才刚刚开始</title>
-      <link>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</link>
-      <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/hulianwang-cai-ganggang-kaishi/</guid>
-      <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%B8%82%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>互联网才刚刚开始</title>
+        <link>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</link>
+        <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</guid>
+        <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
 
-&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P
+&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P&lt;br /&gt;
 资源、破坏内容分享体系导致有价值内容的消失，移动互联网瓦解有价值的信息生产能力，还是互联网加速遗忘的速度，我都不赞同。&lt;/p&gt;
 
 &lt;p&gt;资产阶级兴起冲击特权贵族社会地位，彻底改变社会关系和大众生活方式的时候，也被后者认为品位恶俗鄙陋，道德堕落不堪。&lt;br /&gt;
-单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。
+单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。&lt;br /&gt;
 哲学、科学、艺术都是有闲者的玩物，商人一开始只想拿来充数好混入上流社会，小资至今都还向往高大上的贵族式生活。&lt;br /&gt;
 但那是把集中优秀资源到金字塔顶的产物和全社会合作分工的产物作比较。在精英和特权阶级看不到的地方，价值和品位的提升其实远甚以往。&lt;/p&gt;
 
@@ -38,11 +38,11 @@
 &lt;p&gt;迅雷是在服务端集中了资源，但大部分的资源都是盗版，丢失云端海量文件的用户真的认为这些内容很重要吗？&lt;br /&gt;
 我不觉得，否则为什么用户只给迅雷付费，不为内容付费呢？&lt;br /&gt;
 而且已经在无数个本地保留的文件随时可以凭借传统的 P2P 网络复活。&lt;br /&gt;
-更不用说，没有作为流通渠道的 P2P
+更不用说，没有作为流通渠道的 P2P&lt;br /&gt;
 网络，与内容生产者何干？丝毫不影响重新创造更优质的内容。&lt;br /&gt;
 至于害怕政府审查的内容，有心防范的用户本就不会信任迅雷这种服务。&lt;/p&gt;
 
-&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook
+&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook&lt;br /&gt;
 和微信，正在全盛期的社交服务大有把整个互联网熟人关系纳入信息孤岛的趋势，有人甚至担心整个互联网被这些社交服务垄断。&lt;br /&gt;
 但我一点也不担心这会成真，因为互联网存在就说明信息的自由流动和开放的需求存在。&lt;/p&gt;
 
@@ -59,15 +59,14 @@
 庞贝被火山毁灭，亚历山大图书馆被人类毁灭，人类文明照样不断发展，到如今羊皮纸卷上的文字仅有考古的意义。&lt;br /&gt;
 互联网不过是信息交流和存储的工具之一，已经流到人类脑海中的信息和人类本身的行为才代表了文明。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>中医与现代医学之争</title>
-      <link>https://ioerr.github.io/zhongyi-yu-xiandai-yixue-zhi-zheng/</link>
-      <pubDate>Tue, 23 Dec 2014 10:29:23 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhongyi-yu-xiandai-yixue-zhi-zheng/</guid>
-      <description>&lt;p&gt;中医和西医不是中西方文化对立的关系，而是传统医学和现代医学在医学方法论（如循证医学）和科学世界观上不同的关系，其他国家都有和中医思路差不多的传统医学，不是中国文化独有。&lt;/p&gt;
+      <item>
+        <title>中医与现代医学之争</title>
+        <link>https://ioerr.github.io/posts/zhongyi-yu-xiandai-yixue-zhi-zheng/</link>
+        <pubDate>Tue, 23 Dec 2014 10:29:23 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhongyi-yu-xiandai-yixue-zhi-zheng/</guid>
+        <description>&lt;p&gt;中医和西医不是中西方文化对立的关系，而是传统医学和现代医学在医学方法论（如循证医学）和科学世界观上不同的关系，其他国家都有和中医思路差不多的传统医学，不是中国文化独有。&lt;/p&gt;
 
 &lt;p&gt;中医针对生病环境，西医直接进攻患处；&lt;br /&gt;
 中医治本，西医治标；&lt;br /&gt;
@@ -98,15 +97,14 @@
 &lt;p&gt;如果你支持现代医学而反对中医，又在中医与现代医学争论之外，还是计划经济指令、公有制经济、经济特权政策和高水平全面覆盖的医疗福利之类的支持者，是医疗服务市场化和个人自由选择权的反对者，那么，在这些方面，你永远也竞争不过无知的大多数。&lt;br /&gt;
 市场才是科学竞争机制最优的环境。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>精英主义的问题</title>
-      <link>https://ioerr.github.io/jingyingzhuyi-de-wenti/</link>
-      <pubDate>Mon, 17 Nov 2014 04:59:28 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jingyingzhuyi-de-wenti/</guid>
-      <description>&lt;p&gt;大家一讨论精英主义，就陷入是精英还是民粹来决策，谁是精英、什么是真正的精英主义、精英阶层固化或者是否不够民主的误区。&lt;/p&gt;
+      <item>
+        <title>精英主义的问题</title>
+        <link>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</link>
+        <pubDate>Mon, 17 Nov 2014 04:59:28 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</guid>
+        <description>&lt;p&gt;大家一讨论精英主义，就陷入是精英还是民粹来决策，谁是精英、什么是真正的精英主义、精英阶层固化或者是否不够民主的误区。&lt;/p&gt;
 
 &lt;p&gt;精英主义最大的问题不在于这些，而是很多默认应该交给精英来做的集体决策，其实根本就不应该在集体的层面统一决策。&lt;/p&gt;
 
@@ -117,15 +115,14 @@
 
 &lt;p&gt;但偏偏人们习惯将经验中次优的解决之道当作最优的方案，期望推而广之放诸四海，于是几乎总是超出其合理应用区间，很容易就忘了，无论是什么主义，一旦滥用都会有问题。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>转基因争议</title>
-      <link>https://ioerr.github.io/zhuanjiyin-zhengyi/</link>
-      <pubDate>Wed, 02 Apr 2014 16:48:59 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhuanjiyin-zhengyi/</guid>
-      <description>&lt;p&gt;关于转基因技术，我无意做科学普及，既没有足够的专业水平，也有更专业的人士做得比我好。&lt;br /&gt;
+      <item>
+        <title>转基因争议</title>
+        <link>https://ioerr.github.io/posts/zhuanjiyin-zhengyi/</link>
+        <pubDate>Wed, 02 Apr 2014 16:48:59 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuanjiyin-zhengyi/</guid>
+        <description>&lt;p&gt;关于转基因技术，我无意做科学普及，既没有足够的专业水平，也有更专业的人士做得比我好。&lt;br /&gt;
 更重要的是，科普不是关键所在。&lt;/p&gt;
 
 &lt;p&gt;转基因这个争议问题至少有四个维度，科学、市场、政治和公共关系。&lt;/p&gt;
@@ -144,15 +141,14 @@
 
 &lt;p&gt;这两的方唇枪舌剑看着热闹，除了激化矛盾和透支/丧失信用外毫无用处，最终谁都不会胜利，一方不能达到禁绝转基因的目的，另一方应用和推广转基因的努力也会因为越来越多的阻力而进展比预期迟缓。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>集体主义和反自由社会主义者</title>
-      <link>https://ioerr.github.io/jitizhuyi-he-fan-ziyou-shehuizhuyizhe/</link>
-      <pubDate>Fri, 21 Jun 2013 10:26:35 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jitizhuyi-he-fan-ziyou-shehuizhuyizhe/</guid>
-      <description>&lt;p&gt;越来越发现很多观念和行为的分歧和冲突来自于以下这些矛盾：&lt;br /&gt;
+      <item>
+        <title>集体主义和反自由社会主义者</title>
+        <link>https://ioerr.github.io/posts/jitizhuyi-he-fan-ziyou-shehuizhuyizhe/</link>
+        <pubDate>Fri, 21 Jun 2013 10:26:35 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jitizhuyi-he-fan-ziyou-shehuizhuyizhe/</guid>
+        <description>&lt;p&gt;越来越发现很多观念和行为的分歧和冲突来自于以下这些矛盾：&lt;br /&gt;
 1、个人主义-集体主义&lt;br /&gt;
 2、主观价值-客观价值&lt;br /&gt;
 3、积极有目的-消极无目的&lt;br /&gt;
@@ -209,15 +205,14 @@ Nutter）的演讲。在演讲中，我提到了40年代后期我和沃伦·纳�
 最后，我写这些文章的最终理由是：我希望理解那些与我们不同的人的思想，使之成为在政治哲学这个最基本层次上，展开对话和讨论的第一步。
 &lt;/blockquote&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>《自由主义》摘抄</title>
-      <link>https://ioerr.github.io/ziyouzhuyi-zhaichao/</link>
-      <pubDate>Thu, 24 Jan 2013 09:11:54 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ziyouzhuyi-zhaichao/</guid>
-      <description>&lt;p&gt;Kindle
+      <item>
+        <title>《自由主义》摘抄</title>
+        <link>https://ioerr.github.io/posts/ziyouzhuyi-zhaichao/</link>
+        <pubDate>Thu, 24 Jan 2013 09:11:54 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ziyouzhuyi-zhaichao/</guid>
+        <description>&lt;p&gt;Kindle&lt;br /&gt;
 还没碎屏时看完的，到现在屏幕已经原地满血复活之后才想起来要整理一下摘抄。&lt;br /&gt;
 国内版本的译名是《&lt;a href=&#34;http://book.douban.com/subject/1043419/&#34;&gt;自由与繁荣的国度&lt;/a&gt;》&lt;/p&gt;
 
@@ -235,20 +230,20 @@ Nutter）的演讲。在演讲中，我提到了40年代后期我和沃伦·纳�
 它是否只是另一个迷惑人心的意理和虚幻的乌托邦理想？&lt;br /&gt;
 这样的疑惑，就像休谟的怀疑主义拷问想要回答“知识是否可能，知识如何可能，人类认知的界限是什么”的哲学家一样，驱使我带着它们寻找、接触更多的经典书籍和思想。&lt;/p&gt;
 
-&lt;p&gt;接触 Mises
+&lt;p&gt;接触 Mises&lt;br /&gt;
 从这本《自由主义》开始。他提出“自由主义的纲领即是私有制”，一开始就冲击到我的观念，因为从未想到自由主义和私有制的关系还可以这样紧密。&lt;br /&gt;
-之前我的观念大概是偏向 liberal
+之前我的观念大概是偏向 liberal&lt;br /&gt;
 的，对经济问题可以说毫无兴趣，所以，“公平”、“平等”、“公正”作为不言而喻的天赋权利，或理应如此的社会理想，置于私有制（包括保护私有财产和产权）之前，看起来似乎天经地义，更从未想过其结果，也许既不见得公正、平等，也谈不上有益于所谓长远、整体的社会利益。&lt;/p&gt;
 
-&lt;p&gt;是 Mises
+&lt;p&gt;是 Mises&lt;br /&gt;
 用热情而不失理性、平易却又清晰、无情剖析却又饱含人文关怀的文字说服了我，让我在经济方面也开始正式转向这种维护私有制的自由主义。&lt;br /&gt;
 特别是之前对一些知其然而不知其所以然的自由主义原则有所疑惑，可以在这里找到部分的解答；之前想不通透的一些问题，经过他的分析和点拨，也豁然开朗；一些常见的误解，如一些极端者将自由主义等同于无政府主义，又或者鼓吹战争，或者夸大自由和民主的对立，也在此得到澄清。&lt;/p&gt;
 
-&lt;p&gt;当然，解惑越多，疑惑也越多，向自由主义更深层的根基追问的欲望更加强烈，所以之后阅读
-Mises 的《人的行为/Human
-Action》，看他如何从人类行为学（Praxeology）出发，解答更基础的疑问，从方法论出发来理解
-Mises（个人主义和先验主义方法论还有逻辑演绎让人联想到康德，尽管貌似
-Mises
+&lt;p&gt;当然，解惑越多，疑惑也越多，向自由主义更深层的根基追问的欲望更加强烈，所以之后阅读&lt;br /&gt;
+Mises 的《人的行为/Human&lt;br /&gt;
+Action》，看他如何从人类行为学（Praxeology）出发，解答更基础的疑问，从方法论出发来理解&lt;br /&gt;
+Mises（个人主义和先验主义方法论还有逻辑演绎让人联想到康德，尽管貌似&lt;br /&gt;
+Mises&lt;br /&gt;
 对康德的道德哲学不以为然），同时了解从门格尔到哈耶克的奥地利学派发展路径，以及以刚刚去世的布坎南为代表的公共选择理论，还有生物学、心理学和形而上学的一大票关于自由意志的书籍。&lt;/p&gt;
 
 &lt;p&gt;不管寻找答案的结果如何，反正我是肯定不可能成为一个马克思主义者、社会主义者、共产主义者，以及伪装成马克思主义者的有中国特色的社会主义者了。&lt;/p&gt;
@@ -603,15 +598,14 @@ Mises
 
 &lt;p&gt;我们听到一些关于人性、纯意识、真自由之类的东西，这当然是些非常美丽的字眼儿，每一个人都愿意认可它们。实际上他们对任何意识形态都是认可的。任何意识形态——除了一些玩世不恭的流派之外——都认为，自已是拥护人性、纯意识、真自由之类。把社会意识形态区分开来的，不是使人类和世界普遍幸福的这个终极目标，而是用什么途径来达到他们自己的目标。自由主义的特色正是在于，它所选择的途径就是生产资料私有制。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>市场泡沫破灭的过程</title>
-      <link>https://ioerr.github.io/shichang-paomo-pomie-de-guocheng/</link>
-      <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shichang-paomo-pomie-de-guocheng/</guid>
-      <description>&lt;p&gt;问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？&lt;br /&gt;
+      <item>
+        <title>市场泡沫破灭的过程</title>
+        <link>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</link>
+        <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</guid>
+        <description>&lt;p&gt;问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？&lt;br /&gt;
 答：有。&lt;br /&gt;
 只要市场活动是一个过程，而不是从产生泡沫到泡沫破裂的一瞬间，就一定会有“最后一根稻草”。但这根稻草事前很难看出来，就好像往沙堆上倒沙子，导致沙堆崩塌的最后那颗沙子是随机出现的。&lt;/p&gt;
 
@@ -634,20 +628,19 @@ Mises
 
 &lt;p&gt;问：如果“泡沫破灭”这条信息不能有效传播，泡沫还会破灭吗，或者破灭速度减慢？&lt;br /&gt;
 答：还会破灭。&lt;br /&gt;
-如果只有少部分人知道泡沫已经破灭，
+如果只有少部分人知道泡沫已经破灭，&lt;br /&gt;
 并且不传播这个消息，就像从正在崩溃的沙堆中取走开始滚动的沙粒。&lt;br /&gt;
 也许会减缓泡沫破灭的速度吧。&lt;br /&gt;
 可是泡沫如果不破灭，沙粒的增长不会停止，还留在沙堆上的沙粒将继续受力，错误的经济行为、不良的资产结构给投资者带来的损失不会消失，糟糕的结局总会到来，最后谁都会明白经济完蛋了，泡沫还是会破灭，只是这回泡沫更大、损失更惨。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>关于微软垄断的讨论</title>
-      <link>https://ioerr.github.io/guanyu-weiruan-longduan-de-taolun/</link>
-      <pubDate>Wed, 22 Oct 2008 04:19:26 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-weiruan-longduan-de-taolun/</guid>
-      <description>
+      <item>
+        <title>关于微软垄断的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-weiruan-longduan-de-taolun/</link>
+        <pubDate>Wed, 22 Oct 2008 04:19:26 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-weiruan-longduan-de-taolun/</guid>
+        <description>
 
 &lt;p&gt;8:50:57 中家&lt;br /&gt;
 我觉得微软的windows定价不合理，美国卖199美元，中国也是199美元，这是强盗逻辑，所以盗版有理&lt;/p&gt;
@@ -796,7 +789,7 @@ windows是每台电脑必备的操作系统&lt;/p&gt;
 是否安装WGA是会提醒消费者的，而且可以自己关掉WGA，MS已经算厚道了&lt;/p&gt;
 
 &lt;p&gt;9:33:17 中家&lt;br /&gt;
-我主要考虑，举办一些慈善活动，让微软向我们本地的学校、农民免费赠送windows
+我主要考虑，举办一些慈善活动，让微软向我们本地的学校、农民免费赠送windows&lt;br /&gt;
 xp和office，我政府买单了1000套，你微软给我送1000套，此举是否可行？&lt;/p&gt;
 
 &lt;p&gt;9:34:18 中家&lt;br /&gt;
@@ -981,7 +974,7 @@ linux的培训比windows技术含量高&lt;/p&gt;
 &lt;p&gt;10:32:44 中家&lt;br /&gt;
 怎么说害怕呢&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

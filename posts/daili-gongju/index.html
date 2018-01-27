@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>代理工具 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="代理工具" />
+<meta property="og:description" content="常用的代理工具：
+1、无界、花园、自由门这些就不多说了，除了默认使用 IE
+和有时候找不到代理服务器之外，还是挺方便的。
+设置 Firefox/Opera 等浏览器的代理地址为本机就可以关掉 IE 使用了。
+2、beHidden.com
+挺容易使用，填写网址回车即可，速度时快时慢。免费用户有时候要在提醒注册的页面上选择“Not
+Now”才能继续浏览页面。但无法正常登录 WordPress
+后台，所以通常只用来阅读页面。
+3、CyberSyndrome
+是一个代理服务器搜索网站，通常都找得到速度快的代理，就是操作起来麻烦一点，结合
+MyIE/Maxthon、Firefox&#43;SwitchProxy Tool 使用更好。
+4、Proxy Source
+提供了两个方案，左侧是最新的代理服务器地址，数量不多可以凑合着用，右侧是一些提供网页代理中转服务的网站，填写 后选择看得顺眼的服务器即可，最好是多测试测试，记住连通率一贯较高的几个，否则就要看人品了。
+缺点也是无法正常登录 WordPress 后台。
+5、QQ 代理公布器，Google
+一把就可以搜到，以前挺好用的，后来搜索功能失效，到现在很久没用了。
+关于代理的收藏请看这里，随时更新。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/daili-gongju/" />
+
+
+
+<meta property="article:published_time" content="2005-09-04T08:43:23&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-09-04T08:43:23&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="代理工具">
+<meta itemprop="description" content="常用的代理工具：
+1、无界、花园、自由门这些就不多说了，除了默认使用 IE
+和有时候找不到代理服务器之外，还是挺方便的。
+设置 Firefox/Opera 等浏览器的代理地址为本机就可以关掉 IE 使用了。
+2、beHidden.com
+挺容易使用，填写网址回车即可，速度时快时慢。免费用户有时候要在提醒注册的页面上选择“Not
+Now”才能继续浏览页面。但无法正常登录 WordPress
+后台，所以通常只用来阅读页面。
+3、CyberSyndrome
+是一个代理服务器搜索网站，通常都找得到速度快的代理，就是操作起来麻烦一点，结合
+MyIE/Maxthon、Firefox&#43;SwitchProxy Tool 使用更好。
+4、Proxy Source
+提供了两个方案，左侧是最新的代理服务器地址，数量不多可以凑合着用，右侧是一些提供网页代理中转服务的网站，填写 后选择看得顺眼的服务器即可，最好是多测试测试，记住连通率一贯较高的几个，否则就要看人品了。
+缺点也是无法正常登录 WordPress 后台。
+5、QQ 代理公布器，Google
+一把就可以搜到，以前挺好用的，后来搜索功能失效，到现在很久没用了。
+关于代理的收藏请看这里，随时更新。">
+
+
+<meta itemprop="datePublished" content="2005-09-04T08:43:23&#43;00:00" />
+<meta itemprop="dateModified" content="2005-09-04T08:43:23&#43;00:00" />
+<meta itemprop="wordCount" content="30">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="代理工具"/>
+<meta name="twitter:description" content="常用的代理工具：
+1、无界、花园、自由门这些就不多说了，除了默认使用 IE
+和有时候找不到代理服务器之外，还是挺方便的。
+设置 Firefox/Opera 等浏览器的代理地址为本机就可以关掉 IE 使用了。
+2、beHidden.com
+挺容易使用，填写网址回车即可，速度时快时慢。免费用户有时候要在提醒注册的页面上选择“Not
+Now”才能继续浏览页面。但无法正常登录 WordPress
+后台，所以通常只用来阅读页面。
+3、CyberSyndrome
+是一个代理服务器搜索网站，通常都找得到速度快的代理，就是操作起来麻烦一点，结合
+MyIE/Maxthon、Firefox&#43;SwitchProxy Tool 使用更好。
+4、Proxy Source
+提供了两个方案，左侧是最新的代理服务器地址，数量不多可以凑合着用，右侧是一些提供网页代理中转服务的网站，填写 后选择看得顺眼的服务器即可，最好是多测试测试，记住连通率一贯较高的几个，否则就要看人品了。
+缺点也是无法正常登录 WordPress 后台。
+5、QQ 代理公布器，Google
+一把就可以搜到，以前挺好用的，后来搜索功能失效，到现在很久没用了。
+关于代理的收藏请看这里，随时更新。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-09-04 08:43">2005-09-04</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>代理工具</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section>
+
+<p>常用的代理工具：<br />
+1、无界、花园、自由门这些就不多说了，除了默认使用 IE<br />
+和有时候找不到代理服务器之外，还是挺方便的。<br />
+设置 Firefox/Opera 等浏览器的代理地址为本机就可以关掉 IE 使用了。<br />
+2、<a href="http://www.behidden.com/">beHidden.com</a><br />
+挺容易使用，填写网址回车即可，速度时快时慢。免费用户有时候要在提醒注册的页面上选择“Not<br />
+Now”才能继续浏览页面。但无法正常登录 WordPress<br />
+后台，所以通常只用来阅读页面。<br />
+3、<a href="http://www.cybersyndrome.net/">CyberSyndrome</a><br />
+是一个代理服务器搜索网站，通常都找得到速度快的代理，就是操作起来麻烦一点，结合<br />
+MyIE/Maxthon、Firefox+SwitchProxy Tool 使用更好。<br />
+4、<a href="http://www.proxy.sc/">Proxy Source</a></p>
+
+<h2 id="提供了两个方案-左侧是最新的代理服务器地址-数量不多可以凑合着用-右侧是一些提供网页代理中转服务的网站-填写">提供了两个方案，左侧是最新的代理服务器地址，数量不多可以凑合着用，右侧是一些提供网页代理中转服务的网站，填写</h2>
+
+<p>后选择看得顺眼的服务器即可，最好是多测试测试，记住连通率一贯较高的几个，否则就要看人品了。<br />
+缺点也是无法正常登录 WordPress 后台。<br />
+5、QQ 代理公布器，Google<br />
+一把就可以搜到，以前挺好用的，后来搜索功能失效，到现在很久没用了。</p>
+
+<p>关于代理的收藏请看<a href="http://del.icio.us/calon/Proxy">这里</a>，随时更新。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%bb%a3%e7%90%86%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdaili-gongju%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdaili-gongju%2f&text= @calon %e4%bb%a3%e7%90%86%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

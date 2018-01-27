@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>设计 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/</link>
     <description>Recent content in 设计 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Mar 2012 04:20:56 +0000</lastBuildDate>
     
-    <item>
-      <title>Draw Something</title>
-      <link>https://ioerr.github.io/draw-something/</link>
-      <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/draw-something/</guid>
-      <description>&lt;p&gt;最近 &lt;a href=&#34;http://itunes.apple.com/app/draw-something-by-omgpop/id488627858&#34;&gt;Draw
-Something&lt;/a&gt;
-这款 iOS
+      <atom:link href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Draw Something</title>
+        <link>https://ioerr.github.io/posts/draw-something/</link>
+        <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/draw-something/</guid>
+        <description>&lt;p&gt;最近 &lt;a href=&#34;http://itunes.apple.com/app/draw-something-by-omgpop/id488627858&#34;&gt;Draw&lt;br /&gt;
+Something&lt;/a&gt;&lt;br /&gt;
+这款 iOS&lt;br /&gt;
 上的游戏很火爆，最吸引人的特色大概可以归纳为：&lt;strong&gt;无压力的限题自由创作&lt;/strong&gt;和&lt;strong&gt;异步的交流&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;不需要你画得有多棒，只要好友能够认得出来或者猜得出来就行，在熟人眼里，画得很差劲有时候还是个不错的笑料；&lt;br /&gt;
@@ -34,30 +34,29 @@ Something&lt;/a&gt;
 异步，也是避免实时同步交互带来的沟通压力，变相鼓励用户用心创作，也降低了观察对方行为的时间成本；&lt;br /&gt;
 最重要的是，每个人从“创作”和“交流”中享受到的乐趣，多过破坏、消灭、杀戮的原始冲动满足。&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 分析如今家用主机多人在线游戏市场，无非是竞争、互相厮杀或者一起杀敌。游戏互动的核心都是从传统单机游戏演变而来。而这些以强大感为中心的游戏变成了在线多人游戏后。人们的互动几乎都是专注于力量的使用。当你看到另一个在线玩家，你的第一个念头一般都是，我要如何把我的力量用在他身上，如何连击他？如何爆头他？这个现象不只出现在游戏中，也发生在今天这个被科技和信息高度强化的社会中，走在商业区的市中心，大家心里想着的是如何完成下一个任务，如何赚取力量如何使用力量。很少有人会驻足和一个过路人交流。而当你放下城市中的力量和包袱去深山中远游，每一个路过的旅人都是异常的亲切。&lt;/p&gt;
 
-&lt;p&gt;所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。
-&lt;/blockquote&gt;
+&lt;p&gt;所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 ——&lt;a href=&#34;http://www.zhihu.com/question/20125406/answer/14067659&#34;&gt;陈星汉谈设计《旅程》（Journey）的想法&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;是不是有异曲同工之妙呢？&lt;/p&gt;
 
 &lt;p&gt;最后，可以通过我的邮箱在 Draw Something 中找到我一起玩。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>Dungeon Raid</title>
-      <link>https://ioerr.github.io/dungeon-raid/</link>
-      <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dungeon-raid/</guid>
-      <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
+      <item>
+        <title>Dungeon Raid</title>
+        <link>https://ioerr.github.io/posts/dungeon-raid/</link>
+        <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dungeon-raid/</guid>
+        <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
 
-&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon
-Raid&lt;/a&gt;
-是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的
+&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon&lt;br /&gt;
+Raid&lt;/a&gt;&lt;br /&gt;
+是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的&lt;br /&gt;
 Dungeon Raid）。&lt;br /&gt;
 这个游戏上市的时间很久了，不过其设计值得学习。&lt;/p&gt;
 
@@ -89,15 +88,14 @@ Raid&#34; /&gt;&lt;/p&gt;
 有多种升级选择和发展路径；&lt;br /&gt;
 简而言之，容易沉迷。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>移动设备触屏游戏六戒</title>
-      <link>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</link>
-      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</guid>
-      <description>&lt;p&gt;时常觉得 iPod/iPhone
+      <item>
+        <title>移动设备触屏游戏六戒</title>
+        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+        <description>&lt;p&gt;时常觉得 iPod/iPhone&lt;br /&gt;
 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
 
 &lt;p&gt;1、图文难以识别。&lt;br /&gt;
@@ -107,12 +105,12 @@ Raid&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
 
 &lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld&lt;br /&gt;
 中变更球员名单，很容易点错球员；&lt;br /&gt;
 直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
 间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
 
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
+&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的&lt;br /&gt;
 swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
 如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
 
@@ -134,23 +132,22 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
 
 &lt;p&gt;6、没有足够的成就感&lt;br /&gt;
 规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
+比如 Minesweeper&lt;br /&gt;
 这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>电梯的可用性</title>
-      <link>https://ioerr.github.io/dianti-de-keyongxing/</link>
-      <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianti-de-keyongxing/</guid>
-      <description>&lt;p&gt;Datou
+      <item>
+        <title>电梯的可用性</title>
+        <link>https://ioerr.github.io/posts/dianti-de-keyongxing/</link>
+        <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dianti-de-keyongxing/</guid>
+        <description>&lt;p&gt;Datou&lt;br /&gt;
 在《&lt;a href=&#34;http://2simple.cn/2010/09/%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7%e9%97%ae%e9%a2%98.htm&#34;&gt;电梯的可用性问题&lt;/a&gt;》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，没去他想去的地方，他很茫然。”&lt;/p&gt;
 
 &lt;p&gt;类似这样的情形我也看到过多次，通常是使用者正在干其他事情（比如接电话）时发生的，他在那一刻想的不是要“去下面的楼层”，而是想“控制电梯下来”载人上去，如果不是正忙着其他事情，根本不会搞错。也许，这说明电梯的操作方法还是经过学习和适应养成的，到了非常时刻，便会败给最直接的下意识。&lt;/p&gt;
 
-&lt;p&gt;Datou
+&lt;p&gt;Datou&lt;br /&gt;
 提出了如何优化电梯可用性的问题，我的想法是，冗余的信息是扰乱用户的原因之一：&lt;br /&gt;
 用户关心的不是电梯在哪一层，也不必要计算出和他所在楼层的相对位置，他只需要关心电梯离自己有多远（其实关注的是电梯多久可以来到这一层，但是时间不好估计，除非电梯控制中心能够知道所有等待和使用电梯的人的目标楼层）。&lt;/p&gt;
 
@@ -177,21 +174,20 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
 要么外观统一，进度格数量一致，这样进度格与楼层数就不是一一对应了；&lt;br /&gt;
 要么外观不统一，顶楼、底楼的进度条最长，中间楼层的进度条最短，但建设成本会提高。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>OhLife</title>
-      <link>https://ioerr.github.io/ohlife/</link>
-      <pubDate>Mon, 23 Aug 2010 14:52:56 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ohlife/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+      <item>
+        <title>OhLife</title>
+        <link>https://ioerr.github.io/posts/ohlife/</link>
+        <pubDate>Mon, 23 Aug 2010 14:52:56 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ohlife/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
 是一个刚刚出现不久的日记服务，特色是简单、私密和精致。&lt;/p&gt;
 
 &lt;p&gt;1、简单&lt;br /&gt;
 从注册到使用非常快捷：&lt;br /&gt;
 * 注册&lt;br /&gt;
-*
+*&lt;br /&gt;
 接收提醒撰写日记的邮件（除注册当天外，每天会在晚上8点发邮件提醒你回顾一天的生活并写下日记）&lt;br /&gt;
 * 回复邮件，发布日记&lt;/p&gt;
 
@@ -200,17 +196,17 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
 
 &lt;p&gt;2、私密&lt;br /&gt;
 不开放给任何人阅读，没有评论功能，没有 RSS 输出。&lt;br /&gt;
-虽说日记服务本来就应该是这样的，但在这样一个任何新生服务都想搭 Web 2.0
+虽说日记服务本来就应该是这样的，但在这样一个任何新生服务都想搭 Web 2.0&lt;br /&gt;
 社会化快车的时代，还是不多见，说明服务方能够节制欲望。&lt;/p&gt;
 
 &lt;p&gt;3、精致&lt;br /&gt;
-导航栏做成纸质笔记本皮革封面的风格，日记背景是细格纸，图标使用书签形象，一切都让人联想到真实世界中的笔记本，使用
-Palatino Linotype
+导航栏做成纸质笔记本皮革封面的风格，日记背景是细格纸，图标使用书签形象，一切都让人联想到真实世界中的笔记本，使用&lt;br /&gt;
+Palatino Linotype&lt;br /&gt;
 的默认字体，随机查看日记时有平滑切换效果，整体看来优雅而美观。&lt;/p&gt;
 
-&lt;p&gt;尽管定位不完全一样，但和
-&lt;a href=&#34;http://penzu.com/&#34;&gt;Penzu&lt;/a&gt;、&lt;a href=&#34;http://posterous.com/&#34;&gt;Posterous&lt;/a&gt;、&lt;a href=&#34;http://www.storyofmylife.com/&#34;&gt;Story
-of My Life&lt;/a&gt;
+&lt;p&gt;尽管定位不完全一样，但和&lt;br /&gt;
+&lt;a href=&#34;http://penzu.com/&#34;&gt;Penzu&lt;/a&gt;、&lt;a href=&#34;http://posterous.com/&#34;&gt;Posterous&lt;/a&gt;、&lt;a href=&#34;http://www.storyofmylife.com/&#34;&gt;Story&lt;br /&gt;
+of My Life&lt;/a&gt;&lt;br /&gt;
 放在一起的话，&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt; 更容易激起我写日记的欲望。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2010-08-23_161325.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2010-08-23_161325.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -218,12 +214,12 @@ of My Life&lt;/a&gt;
 &lt;p&gt;说完了好话，该看看不足之处：&lt;/p&gt;
 
 &lt;p&gt;最大的问题是选择该服务的必要性。&lt;br /&gt;
-如果 &lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
+如果 &lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
 的功能如此简单，那么为什么我不干脆设置一个定时发送的邮件提醒给自己的邮箱呢？&lt;br /&gt;
-有了
-Gmail，我的一切回复作为日记都能够保留下来，并且总比托付给第三方服务安全、稳定，而且没有字数限制（目前我还不知道
-&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;
-的字数限制，但单篇日志必然是有限制的）、没有贴图限制，要界面美观可以找
+有了&lt;br /&gt;
+Gmail，我的一切回复作为日记都能够保留下来，并且总比托付给第三方服务安全、稳定，而且没有字数限制（目前我还不知道&lt;br /&gt;
+&lt;a href=&#34;https://ohlife.com/&#34;&gt;OhLife&lt;/a&gt;&lt;br /&gt;
+的字数限制，但单篇日志必然是有限制的）、没有贴图限制，要界面美观可以找&lt;br /&gt;
 Stylish 嘛。&lt;br /&gt;
 先别说怎么赚钱吧，如何吸引新用户，留住老用户都是个问题。毕竟再优秀的界面也只能让用户一见钟情，没有界面之外的特色功能是无法长久维持的，特别是这种简单的服务太容易复制了，用户为什么一定要选择你的呢？&lt;/p&gt;
 
@@ -256,15 +252,14 @@ Stylish 嘛。&lt;br /&gt;
 在“past”界面，鼠标移动到日记上，才会浮现编辑和删除的按钮；&lt;br /&gt;
 如果找不到上/下一篇日记，当前的日记会颤抖…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>单向拉门</title>
-      <link>https://ioerr.github.io/danxiang-lamen/</link>
-      <pubDate>Mon, 15 Mar 2010 09:47:47 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/danxiang-lamen/</guid>
-      <description>&lt;p&gt;这个世界上的悲剧有很多，其中有一种特别令人悲伤，那就是当你兴高采烈的推开一扇友善的大门后，发现你的老板/老婆/老爸/老情人捂着鼻子痛苦的蹲在地上哭泣。&lt;/p&gt;
+      <item>
+        <title>单向拉门</title>
+        <link>https://ioerr.github.io/posts/danxiang-lamen/</link>
+        <pubDate>Mon, 15 Mar 2010 09:47:47 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/danxiang-lamen/</guid>
+        <description>&lt;p&gt;这个世界上的悲剧有很多，其中有一种特别令人悲伤，那就是当你兴高采烈的推开一扇友善的大门后，发现你的老板/老婆/老爸/老情人捂着鼻子痛苦的蹲在地上哭泣。&lt;/p&gt;
 
 &lt;p&gt;这样的悲剧根源于两种深植于我们体内的黑暗人性：&lt;br /&gt;
 1、大门不会向我飞过来，所以用力推也无所谓；&lt;br /&gt;
@@ -282,25 +277,24 @@ Stylish 嘛。&lt;br /&gt;
 &lt;p&gt;要增加推门的难度相对简单，现在很多门上就已经有杠杆和滑轮装置用来降低转动速度了，改装一下应该就能实现；&lt;br /&gt;
 拉门就比较难办，既然是只能向拉的方向动，那么可以在门把手内安装传动装置，握紧把手向内拉动才能够快速开门，否则降速装置仍能生效。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>O my god, F my life</title>
-      <link>https://ioerr.github.io/o-my-god-f-my-life/</link>
-      <pubDate>Mon, 24 Aug 2009 15:06:21 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/o-my-god-f-my-life/</guid>
-      <description>&lt;p&gt;在 WordCamp China 2009 的照片中，看到 &lt;a href=&#34;http://www.flickr.com/photos/ichada/3845339895/&#34;&gt;thruth 所穿的
-T恤&lt;/a&gt;，不知是谁的设计，将
+      <item>
+        <title>O my god, F my life</title>
+        <link>https://ioerr.github.io/posts/o-my-god-f-my-life/</link>
+        <pubDate>Mon, 24 Aug 2009 15:06:21 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/o-my-god-f-my-life/</guid>
+        <description>&lt;p&gt;在 WordCamp China 2009 的照片中，看到 &lt;a href=&#34;http://www.flickr.com/photos/ichada/3845339895/&#34;&gt;thruth 所穿的&lt;br /&gt;
+T恤&lt;/a&gt;，不知是谁的设计，将&lt;br /&gt;
 Opera 标志的 O 字与“Oh my god”结合起来。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/ichada/3845339895/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2461/3845339895_5da533f0dc.jpg&#34; alt=&#34;WordCamp China 2009/thruth&#39;s Tee (by
 iChada)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;那么同样的创意可不可以也用在 Firefox
-上面呢？我想到了一个很红的网站：&lt;a href=&#34;http://www.fmylife.com/&#34;&gt;FMyLife&lt;/a&gt;（即
-Fuck My
-Life，收集和分享生活中的糟糕经历，说些不开心的事情让大家开心），于是试着设计了两件
+&lt;p&gt;那么同样的创意可不可以也用在 Firefox&lt;br /&gt;
+上面呢？我想到了一个很红的网站：&lt;a href=&#34;http://www.fmylife.com/&#34;&gt;FMyLife&lt;/a&gt;（即&lt;br /&gt;
+Fuck My&lt;br /&gt;
+Life，收集和分享生活中的糟糕经历，说些不开心的事情让大家开心），于是试着设计了两件&lt;br /&gt;
 Firefox T恤：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-08-24-22-12-31.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-08-24-22-12-31.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -314,19 +308,18 @@ Firefox T恤：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-08-24-21-57-28.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-08-24-21-57-28.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>糟糕的图标</title>
-      <link>https://ioerr.github.io/zaogaode-tubiao/</link>
-      <pubDate>Tue, 14 Oct 2008 10:00:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zaogaode-tubiao/</guid>
-      <description>&lt;p&gt;据说看一个人的领子和袖口是否整洁干净，就能看出他的素养，如果这两个地方拾掇不好，会影响他人的第一印象，这或许就是“领袖”一词的来历？&lt;/p&gt;
+      <item>
+        <title>糟糕的图标</title>
+        <link>https://ioerr.github.io/posts/zaogaode-tubiao/</link>
+        <pubDate>Tue, 14 Oct 2008 10:00:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zaogaode-tubiao/</guid>
+        <description>&lt;p&gt;据说看一个人的领子和袖口是否整洁干净，就能看出他的素养，如果这两个地方拾掇不好，会影响他人的第一印象，这或许就是“领袖”一词的来历？&lt;/p&gt;
 
-&lt;p&gt;对一个程序来说，对应于领子和袖口的应该算是图标了。一款简洁明晰、赏心悦目的图标，能够大大提升用户的好感度，比如不少
-WinRAR 用户就因为7-Zip
-的图标朴素过头而不想使用——虽然我觉得既然能够欣然接受界面那么土的
+&lt;p&gt;对一个程序来说，对应于领子和袖口的应该算是图标了。一款简洁明晰、赏心悦目的图标，能够大大提升用户的好感度，比如不少&lt;br /&gt;
+WinRAR 用户就因为7-Zip&lt;br /&gt;
+的图标朴素过头而不想使用——虽然我觉得既然能够欣然接受界面那么土的&lt;br /&gt;
 WinRAR，就没资格说这句话…&lt;/p&gt;
 
 &lt;p&gt;正所谓人生不如意者十之八九，总会有一些不那么简洁或明晰或美观的图标来告诉我们人生不是想象中的那么美好，下面试列举一二：&lt;/p&gt;
@@ -335,20 +328,20 @@ WinRAR，就没资格说这句话…&lt;/p&gt;
 
 &lt;p&gt;WinDVD&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_152557.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152557.png&#34; alt=&#34;WinDVD&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-作为一个 DVD
-播放软件，用光盘的形象就能够大致说明自己的身份了，顶多再增加几个字母以便和其他播放工具区别开来。但是
-WinDVD
+作为一个 DVD&lt;br /&gt;
+播放软件，用光盘的形象就能够大致说明自己的身份了，顶多再增加几个字母以便和其他播放工具区别开来。但是&lt;br /&gt;
+WinDVD&lt;br /&gt;
 偏不，它的光盘图案一定要45度仰望天空，背景还奢侈地空出四成，下面码着一排貌似是电影胶片的东西。如果缩小成16×16的图标，这和涂鸦有什么区别？&lt;/p&gt;
 
 &lt;p&gt;Foxit Reader Uninstaller&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_152946.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_152946.png&#34; alt=&#34;Foxit PDF
 Uninstall&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 一般的卸载程序，其图标一般都是有醒目的红叉、禁止符号或废纸篓形象，反正卸载程序通常就使用一次，不需要做得多么有个性（也可以顺便不给胆敢卸载的用户好脸色）。&lt;br /&gt;
-Foxit
+Foxit&lt;br /&gt;
 的这个卸载程序倒是使用了大红叉，但，后面那一片灰中带白的不规则物体是什么？&lt;/p&gt;
 
-&lt;p&gt;好吧，我终于悟到了！那个东西原来是 Foxit Reader
-图标去掉边框去色之后的形象，可为什么 Foxit 不像 Total Commander
+&lt;p&gt;好吧，我终于悟到了！那个东西原来是 Foxit Reader&lt;br /&gt;
+图标去掉边框去色之后的形象，可为什么 Foxit 不像 Total Commander&lt;br /&gt;
 一样，卸载程序的图标就是原图标直接加一把红叉呢？&lt;/p&gt;
 
 &lt;p&gt;自然码&lt;br /&gt;
@@ -359,12 +352,12 @@ Foxit
 
 &lt;p&gt;&lt;strong&gt;不够明晰的图标：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;有一个未解之谜始终萦绕在我的心头，折磨着我那颗好奇的心，那就是局域网通信工具
+&lt;p&gt;有一个未解之谜始终萦绕在我的心头，折磨着我那颗好奇的心，那就是局域网通信工具&lt;br /&gt;
 IPMSG 的图标：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00058.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00058.png&#34; alt=&#34;IPMSG&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 究竟是什么意思啊！&lt;/p&gt;
 
-&lt;p&gt;猜想之一：是一个扭曲的 X
+&lt;p&gt;猜想之一：是一个扭曲的 X&lt;br /&gt;
 在对着一个黄色的小球翩翩起舞吗？难道作者暗示局域网通信的用户都心态扭曲且热衷于黄色内容？&lt;br /&gt;
 猜想之二：这是在对我国上古时代著名非主流异议人士夸父的一次惊世骇俗的行为艺术的致敬？看啊，那悬在天空的炽热的太阳，那脚下干旱灰暗的大地，和因为没有脑袋所以不辨方向且无法停止身体不断奔跑的夸父…&lt;br /&gt;
 猜想之三：罗素在《西方哲学史》中提到，休谟曾经如此形容卢梭：“他好像这样一个人，这人不仅被剥掉了衣服，而且被剥掉了其肤，在这情况下被赶出去和猛烈的狂风暴雨进行搏斗。”哦，这是一枚多么血腥暴力的图标啊～&lt;br /&gt;
@@ -372,12 +365,12 @@ IPMSG 的图标：&lt;br /&gt;
 
 &lt;p&gt;补充：感谢&lt;a href=&#34;http://menghao.net/&#34;&gt;麦可&lt;/a&gt;的提醒：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-根据IP Messenger作者白水啓章的描述，IPMSG的这个图标是他根据电影「Star
-Trek:
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+根据IP Messenger作者白水啓章的描述，IPMSG的这个图标是他根据电影「Star&lt;br /&gt;
+Trek:&lt;br /&gt;
 Generations」中「Dr.Soran」等待「Nexus」的这个画面制作而成的。但是当图标设计出来之后，自己也弄不太明白它到底是什么了。&lt;br /&gt;
-&lt;a href=&#34;http://www.ipmsg.org/ipmsg-history.html&#34;&gt;参考链接&lt;/a&gt;
-&lt;/blockquote&gt;
+&lt;a href=&#34;http://www.ipmsg.org/ipmsg-history.html&#34;&gt;参考链接&lt;/a&gt;&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 看来原图就是这个了：&lt;br /&gt;
 &lt;img src=&#34;http://www.backyard-networks.de/the_enterprising_star_site/The%20Captains_files/image017.jpg&#34; alt=&#34;Nexus&#34; /&gt;&lt;/p&gt;
 
@@ -387,17 +380,17 @@ Reader&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 那4个方格子里面的绿色絮状物体究竟是什么啊？&lt;br /&gt;
 答案可能是（可能！我到现在还不能完全确定）在玻璃窗户中看到的绿色针叶林…&lt;/p&gt;
 
-&lt;p&gt;好吧，这和一款 PDF 阅读工具有什么关系呢？难道 PDF 的全称应该是 Pine in
+&lt;p&gt;好吧，这和一款 PDF 阅读工具有什么关系呢？难道 PDF 的全称应该是 Pine in&lt;br /&gt;
 Deep Forest？救命～&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;不够赏心悦目的图标：&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;简单的说，如果你想让大部分的用户觉得不舒服，最好的办法就是把图标和爬行/两栖动物的形象联系起来。&lt;br /&gt;
-比如由于大部分天生不害怕蛇的人类祖先在远古时代的树林里面都被咬死了咬死了咬死了，所以相当一部分的人对蛇有天生的恐惧感（但奇怪的是，蜘蛛和毛虫应该是祖先们的美餐才对，为何还有那么多人畏惧呢？难道饮食的品味也可以是自然选择的动力？）；比如说我们通常会形容长相丑陋的男女为青蛙和恐龙，童话里面设置了很高的门槛要美女们鼓起勇气去亲吻的也是一只青蛙，而不是整天卖萌的
+比如由于大部分天生不害怕蛇的人类祖先在远古时代的树林里面都被咬死了咬死了咬死了，所以相当一部分的人对蛇有天生的恐惧感（但奇怪的是，蜘蛛和毛虫应该是祖先们的美餐才对，为何还有那么多人畏惧呢？难道饮食的品味也可以是自然选择的动力？）；比如说我们通常会形容长相丑陋的男女为青蛙和恐龙，童话里面设置了很高的门槛要美女们鼓起勇气去亲吻的也是一只青蛙，而不是整天卖萌的&lt;br /&gt;
 Hello Kitty。&lt;br /&gt;
 对爬行动物的天然抵触也许来自于白垩纪大资产阶级大地主恐龙灭绝之前哺乳动物们普遍形成的心理阴影，而对两栖类动物的反感可能纯粹是因为它们有变态期…&lt;/p&gt;
 
-&lt;p&gt;让我们来看看在这方面勇敢而无畏的程序吧，例如 Notepad++
+&lt;p&gt;让我们来看看在这方面勇敢而无畏的程序吧，例如 Notepad++&lt;br /&gt;
 的老版本图标是一只彩色的避役：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=npplogo-1.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/npplogo-1.jpg&#34; alt=&#34;NPP&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 好在作者回头是岸，新版本中终于把长舌妇请走了。&lt;/p&gt;
@@ -408,27 +401,26 @@ Hello Kitty。&lt;br /&gt;
 &lt;p&gt;图标的设计者应该注意，远离低等脊椎动物不表示万事大吉，即使你选择人类的好朋友作为图标形象，也可能把事情搞砸。&lt;br /&gt;
 比如备受批评的 Irfanview，它的图标是一只四仰八叉装可怜的红色小狗：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_132213.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132213.jpg&#34; alt=&#34;Irfanview&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-图标放大了倒还可以让人接受，问题是如果把 Irfanview
+图标放大了倒还可以让人接受，问题是如果把 Irfanview&lt;br /&gt;
 当作默认看图软件而你又选择了小图标模式浏览时，占领你眼帘的将是整屏幕的红叉——在小图标那个级别的时候谁还能领略到天皇巨狗的风范？&lt;/p&gt;
 
 &lt;p&gt;还有一个需要提到的就是 Crimson Editor 的图标：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-10-07_132143.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-10-07_132143.jpg&#34; alt=&#34;Crimson&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-尽管狗也可以用来卖萌，但这粗糙的灰狗头像实在和软件的强大功能匹配不上，更重要的是，软件名称中的
+尽管狗也可以用来卖萌，但这粗糙的灰狗头像实在和软件的强大功能匹配不上，更重要的是，软件名称中的&lt;br /&gt;
 Crimson（深红）和灰狗到底有什么暧昧关系啊？！完全不能理解啊啊啊啊啊啊～&lt;/p&gt;
 
-&lt;p&gt;最后，《Don&amp;rsquo;t Make Me
+&lt;p&gt;最后，《Don&amp;rsquo;t Make Me&lt;br /&gt;
 Think》的作者说，他的书甚少直接批评那些明显糟糕的设计，因为要设计制造出优秀的产品并不容易。这样的境界多么让人汗颜啊，但是如果真是这样，人生会少了多少乐趣啊～&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>标签页的细节</title>
-      <link>https://ioerr.github.io/biaoqianye-de-xijie/</link>
-      <pubDate>Mon, 06 Oct 2008 09:26:37 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/biaoqianye-de-xijie/</guid>
-      <description>&lt;p&gt;发现一个奇怪的现象：使用 Foxit PDF Reader
-时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如
+      <item>
+        <title>标签页的细节</title>
+        <link>https://ioerr.github.io/posts/biaoqianye-de-xijie/</link>
+        <pubDate>Mon, 06 Oct 2008 09:26:37 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/biaoqianye-de-xijie/</guid>
+        <description>&lt;p&gt;发现一个奇怪的现象：使用 Foxit PDF Reader&lt;br /&gt;
+时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如&lt;br /&gt;
 Firefox、WPS，却很少出现这种乌龙，这是为什么呢？&lt;/p&gt;
 
 &lt;p&gt;于是我看了一下这几个软件的标签栏：&lt;/p&gt;
@@ -444,19 +436,18 @@ Firefox、WPS，却很少出现这种乌龙，这是为什么呢？&lt;/p&gt;
 当前标签的背景颜色是否与众不同，如加亮、变色；&lt;br /&gt;
 标签页是否有醒目的图标。&lt;/p&gt;
 
-&lt;p&gt;如果标签页缺少存在感，自然容易在执行关闭操作的时候被无视。记得在《Don&amp;rsquo;t
-Make Me Think》中有以 Amazon
+&lt;p&gt;如果标签页缺少存在感，自然容易在执行关闭操作的时候被无视。记得在《Don&amp;rsquo;t&lt;br /&gt;
+Make Me Think》中有以 Amazon&lt;br /&gt;
 为例专门阐述标签页设计的章节，如果你开发的软件或者网页有标签页/标签栏的设计，建议要读一读。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>人品界面的糟糕典范</title>
-      <link>https://ioerr.github.io/renpin-jiemian-de-zaogao-dianfan/</link>
-      <pubDate>Tue, 01 Jul 2008 14:33:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/renpin-jiemian-de-zaogao-dianfan/</guid>
-      <description>
+      <item>
+        <title>人品界面的糟糕典范</title>
+        <link>https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/</link>
+        <pubDate>Tue, 01 Jul 2008 14:33:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/</guid>
+        <description>
 
 &lt;p&gt;在今天早上的一次乌龙事件之后，我终于对&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;手头的这个山寨机&lt;/a&gt;忍无可忍了！&lt;a href=&#34;http://calon.weblogs.us/shouji_zhong_de_dahuoji/&#34;&gt;之前说过&lt;/a&gt;要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：&lt;/p&gt;
 
@@ -477,43 +468,43 @@ Make Me Think》中有以 Amazon
 &lt;p&gt;8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。&lt;br /&gt;
 这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；&lt;/p&gt;
 
-&lt;p&gt;9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和
+&lt;p&gt;9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和&lt;br /&gt;
 SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；&lt;/p&gt;
 
-&lt;p&gt;10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;amp;#(|\^`
+&lt;p&gt;10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;amp;#(|\^`&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：
+11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 1、输入法； &lt;/br&gt;&lt;br /&gt;
 2、确定（开始查找）。 &lt;/br&gt;&lt;br /&gt;
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？
+在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？
+又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？
+我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-12、如果将联系人信息复制到 SIM
-卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；
+12、如果将联系人信息复制到 SIM&lt;br /&gt;
+卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 13、“使用‘确定’键加亮空格，使用0键标记该空格。” &lt;/br&gt;&lt;br /&gt;
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？
+这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。
+14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。
+懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…
+于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。
+除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-15、增值服务中有腾讯 QQ
-之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。
+15、增值服务中有腾讯 QQ&lt;br /&gt;
+之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 尝试着点击，出来的信息只有“提交成功！” &lt;/br&gt;&lt;br /&gt;
 可但是，但可是， &lt;/br&gt;&lt;br /&gt;
@@ -530,29 +521,28 @@ SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间�
 
 &lt;h2 id=&#34;口-但不能被电脑识别-只能和专用插头连起来充电-可是这个唯一的功能是用来充电的&#34;&gt;口，但不能被电脑识别，只能和专用插头连起来充电，可是这个唯一的功能是用来充电的&lt;/h2&gt;
 
-&lt;p&gt;口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复
+&lt;p&gt;口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复&lt;br /&gt;
 USB 标准提出者的； &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-17、如果你的联系人是全部存放在 SIM
-卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！
+17、如果你的联系人是全部存放在 SIM&lt;br /&gt;
+卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
-没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；
+没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 也没有人告诉你为什么，毕竟宇宙的终极奥秘始终都需要你自己去探索。 &lt;/br&gt;&lt;br /&gt;
 &lt;/br&gt;&lt;br /&gt;
 18、在号码簿中新增号码之后会直接返回最上级主界面，要想录入之后马上打电话？听刘欢高唱一曲“从头再来”吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>注册登录界面的八大错误</title>
-      <link>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</link>
-      <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
-      <description>&lt;p&gt;Cisco
+      <item>
+        <title>注册登录界面的八大错误</title>
+        <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
+        <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
+        <description>&lt;p&gt;Cisco&lt;br /&gt;
 在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。&lt;br /&gt;
-Jared M. Spool
+Jared M. Spool&lt;br /&gt;
 以此为例提到&lt;a href=&#34;http://www.uie.com/articles/account_design_mistakes/&#34;&gt;了注册和登录界面中的一些糟糕设计，主要存在以下8个常见错误&lt;/a&gt;：&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;错误1：万事以登录为先&lt;/strong&gt;&lt;br /&gt;
@@ -579,38 +569,37 @@ Jared M. Spool
 &lt;p&gt;&lt;strong&gt;错误8：不告诉用户怎么使用他们的信息&lt;/strong&gt;&lt;br /&gt;
 如果非要询问用户名、密码之外的信息，特别是真实姓名、住址、电话号码等重要信息，要么把问题设计得风趣可爱一点（有时并不起作用），要么明确告诉用户这些信息的用处，而且要有说服力，最好马上给他们看到实实在在的好处。简言之即，欲先取之，必先语之。&lt;/p&gt;
 
-&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。
+&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。&lt;br /&gt;
 :023:&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>伦敦奥运恐怖页</title>
-      <link>https://ioerr.github.io/lundun-aoyun-kongbuye/</link>
-      <pubDate>Tue, 16 Oct 2007 09:47:46 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/lundun-aoyun-kongbuye/</guid>
-      <description>&lt;p&gt;今年6月份，2012年伦敦奥运会会徽的宣传短片就因为闪烁频率超标，&lt;a href=&#34;http://sports.sina.com.cn/o/2007-06-07/09242967702.shtml&#34;&gt;涉嫌刺激癫痫症发作&lt;/a&gt;，引来包括英国癫痫症协会在内的8宗投诉，最终不得不撤下来。&lt;br /&gt;
+      <item>
+        <title>伦敦奥运恐怖页</title>
+        <link>https://ioerr.github.io/posts/lundun-aoyun-kongbuye/</link>
+        <pubDate>Tue, 16 Oct 2007 09:47:46 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/lundun-aoyun-kongbuye/</guid>
+        <description>&lt;p&gt;今年6月份，2012年伦敦奥运会会徽的宣传短片就因为闪烁频率超标，&lt;a href=&#34;http://sports.sina.com.cn/o/2007-06-07/09242967702.shtml&#34;&gt;涉嫌刺激癫痫症发作&lt;/a&gt;，引来包括英国癫痫症协会在内的8宗投诉，最终不得不撤下来。&lt;br /&gt;
 凌乱的伦敦奥运会会徽更是从诞生起就批评不断。&lt;/p&gt;
 
 &lt;p&gt;而伦敦奥委会至今毫无悔改之意，在&lt;a href=&#34;http://www.london2012.com/&#34;&gt;2012年奥运会官方主页&lt;/a&gt;上继续残害世界人民：&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.flypig.org/&#34;&gt;飞猪&lt;/a&gt;在 Twitter
+&lt;p&gt;&lt;a href=&#34;http://www.flypig.org/&#34;&gt;飞猪&lt;/a&gt;在 Twitter&lt;br /&gt;
 上说：“&lt;a href=&#34;http://twitter.com/flypig/statuses/339166592&#34;&gt;为何我看这个网页有要呕吐的感觉&lt;/a&gt;？”&lt;br /&gt;
 我跑过去一看，映入眼帘的是那个凌乱的会徽，配合大块的、鲜艳的、与前景反差强烈的背景，过不多久竟也同样感觉很不舒服了…&lt;br /&gt;
 像这种不需要基本的人机界面、网页设计常识、审美水准和《&lt;a href=&#34;http://www.douban.com/subject/1280687/&#34;&gt;癫痫患者之友&lt;/a&gt;》就能够察觉的拙劣设计，伦敦奥委会及其使用的设计人员怎么能够不断推出来？如果真到了2012年还是这样的德行，恐怕全世界人民都要发起恐怖袭击反抗英式大规模杀伤性武器了…&lt;/p&gt;
 
-&lt;p&gt;嗯，想起了某个笑话，看来在地狱里，英国人不但要做厨师（虽然 George Orwell
+&lt;p&gt;嗯，想起了某个笑话，看来在地狱里，英国人不但要做厨师（虽然 George Orwell&lt;br /&gt;
 曾经因为英国的饮食普遍被鄙视而愤愤不平垂泪伤心，特地撰文为其辩解，但那实在是太苍·白·无·力了！你看，我早就不记得他举例说过英国有哪些美食了），还得兼职做画家啊…&lt;/p&gt;
 
 &lt;p&gt;另，看来&lt;a href=&#34;http://blog.sina.com.cn/s/blog_561ee47501000b6f.html&#34;&gt;狂尸科僵尸基本分布于英伦三岛&lt;/a&gt;不是没有原因的了…&lt;/p&gt;
 
-&lt;p&gt;补充：回家翻了一下书，Orwell
+&lt;p&gt;补充：回家翻了一下书，Orwell&lt;br /&gt;
 在《为英国式烹调辩》中列举了以下英国的美食：&lt;br /&gt;
 熏鱼、约克郡布丁、德文郡奶油、松饼、松脆煎饼、圣诞节布丁、糖浆馅饼、苹果布丁、黑梅蛋糕、酥饼、藏红花小圆面包、带骨腿肉下面烤的土豆、英格兰北部美味土豆饼、面包汁、辣根汁、薄荷汁、苹果汁、红加仑子酱、甜泡菜、羊肚杂碎布丁、都柏林大虾、牛津桔皮果酱、斯蒂尔顿乳酪、温斯莱台尔、考克斯橘苹果、英国乡村面包、羊油布丁。&lt;br /&gt;
 或许其中真有十分美味的，但我还是得说，看上去实在是太土太没追求了，满眼的布丁土豆面包馅饼汁…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

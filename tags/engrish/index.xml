@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engrish on 读写错误</title>
-    <link>https://ioerr.github.io/tags/engrish/index.xml</link>
+    <link>https://ioerr.github.io/tags/engrish/</link>
     <description>Recent content in Engrish on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/engrish/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Oct 2007 15:50:44 +0000</lastBuildDate>
     
-    <item>
-      <title>小心地滑</title>
-      <link>https://ioerr.github.io/xiaoxin-dihua/</link>
-      <pubDate>Sun, 28 Oct 2007 15:50:44 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xiaoxin-dihua/</guid>
-      <description>&lt;p&gt;继之前看到过“carefully
+      <atom:link href="https://ioerr.github.io/tags/engrish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>小心地滑</title>
+        <link>https://ioerr.github.io/posts/xiaoxin-dihua/</link>
+        <pubDate>Sun, 28 Oct 2007 15:50:44 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xiaoxin-dihua/</guid>
+        <description>&lt;p&gt;继之前看到过“carefully&lt;br /&gt;
 Slipery”的警告牌之后，这次在四川又发现了其他不同的版本：&lt;br /&gt;
 &lt;a href=&#34;http://picasaweb.google.com/calon.xu/Engrish/photo#5126386038065438114&#34;&gt;&lt;img src=&#34;http://lh6.google.com/calon.xu/RySU8NxpnaI/AAAAAAAAASE/cpamm9oqyGg/s400/DSC02072.JPG&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 不但有“Careful landslip”的英文，还有日文翻译，太有才了！&lt;/p&gt;
@@ -34,7 +34,7 @@ Slipery”的警告牌之后，这次在四川又发现了其他不同的版本�
 刘天王说：“我虔诚的告诉大家普洱茶崩盘了 1折售”…&lt;br /&gt;
 啥时候能够虔诚的告诉大家房价和猪肉价也崩盘了？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

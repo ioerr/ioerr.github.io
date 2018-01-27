@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>未来 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%9C%AA%E6%9D%A5/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%9C%AA%E6%9D%A5/</link>
     <description>Recent content in 未来 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%9C%AA%E6%9D%A5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2010 15:24:43 +0000</lastBuildDate>
     
-    <item>
-      <title>广告的未来</title>
-      <link>https://ioerr.github.io/guanggao-de-weilai/</link>
-      <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanggao-de-weilai/</guid>
-      <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%9C%AA%E6%9D%A5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>广告的未来</title>
+        <link>https://ioerr.github.io/posts/guanggao-de-weilai/</link>
+        <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanggao-de-weilai/</guid>
+        <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
 挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。&lt;/p&gt;
 
 &lt;p&gt;二、让信息自由、流畅而有序流动的 IT 才是好 IT&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-Peter Diamond、Dale Mortensen 和 Christopher Pissarides
-因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+Peter Diamond、Dale Mortensen 和 Christopher Pissarides&lt;br /&gt;
+因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 挨踢技术存在的目标之一，不正是应该在实施层面解决这种因为信息交流成本造成的经济学问题么？&lt;/p&gt;
 
 &lt;p&gt;三、为什么会变成这样？&lt;/p&gt;
@@ -38,7 +38,7 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 “我对这个充满着拙劣的植入广告的世界绝望了！”&lt;br /&gt;
 “我日，下载软件一不小心点了流氓软件下载链接。”&lt;br /&gt;
 “我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”&lt;br /&gt;
-“我的 blog 评论都加上了 nofollow
+“我的 blog 评论都加上了 nofollow&lt;br /&gt;
 属性，你们这些垃圾留言者为什么还要瞎忙？”&lt;br /&gt;
 ……&lt;/p&gt;
 
@@ -53,10 +53,10 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？&lt;br /&gt;
 这是正常的吗？难道不能改变吗？&lt;/p&gt;
 
-&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords
+&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords&lt;br /&gt;
 等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。&lt;/p&gt;
 
-&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords
+&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords&lt;br /&gt;
 宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。&lt;/p&gt;
 
 &lt;p&gt;有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。&lt;/p&gt;
@@ -116,24 +116,23 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 
 &lt;p&gt;如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？&lt;/p&gt;
 
-&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon
+&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon&lt;br /&gt;
 或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>来来，往往</title>
-      <link>https://ioerr.github.io/lailai-wangwang/</link>
-      <pubDate>Tue, 12 May 2009 16:31:12 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/lailai-wangwang/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;往者不可谏&lt;/strong&gt;&lt;/p&gt;
+      <item>
+        <title>来来，往往</title>
+        <link>https://ioerr.github.io/posts/lailai-wangwang/</link>
+        <pubDate>Tue, 12 May 2009 16:31:12 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/lailai-wangwang/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;往者不可谏&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://family.mblogger.cn/berlinf/&#34;&gt;南桥&lt;/a&gt;在《&lt;a href=&#34;http://family.mblogger.cn/berlinf/posts/148760.aspx&#34;&gt;那草·那人·那病&lt;/a&gt;》中批评美国的农业和种植模式，怀念传统的农业模式：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-其农业是高能耗的（一块钱食物起码含五毛钱的汽油钱），其养殖是不人道的（比如残酷的工业化农场），其研发是反自然的（比如转基因）
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+其农业是高能耗的（一块钱食物起码含五毛钱的汽油钱），其养殖是不人道的（比如残酷的工业化农场），其研发是反自然的（比如转基因）&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 高能耗的模式确实是有很大的问题，但把不人道和反自然作为美国模式的罪名就有些感情酝酿过头了。&lt;/p&gt;
 
 &lt;p&gt;把自己代入工业化农场中的动物当然是很不好受的，然则若幻想自己是普通一猪一牛一马一鸡，沐传统养殖业之恩，不也是囚于方寸之中，餐餐争夺槽食，密闭、耕作、乘骑乃至甫一降生即骨肉分离生死相隔，不也都是摧残肉体兼折磨精神么？顶多是五十步和一百步、不人道（兽道）和更不人道（兽道）的区别，有何资格拿“不人道”来指责呢？&lt;/p&gt;
@@ -152,7 +151,7 @@ Peter Diamond、Dale Mortensen 和 Christopher Pissarides
 生在这样一个时代，究竟是幸运还是不幸呢？&lt;br /&gt;
 未来的变数无限，我们又可以猜中多少，接受多少呢？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

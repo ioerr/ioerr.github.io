@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>商业模式 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/</link>
     <description>Recent content in 商业模式 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2017 16:22:11 +0800</lastBuildDate>
     
-    <item>
-      <title>尝试共享单车</title>
-      <link>https://ioerr.github.io/changshi-gongxiang-danche/</link>
-      <pubDate>Mon, 13 Feb 2017 16:22:11 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/changshi-gongxiang-danche/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>尝试共享单车</title>
+        <link>https://ioerr.github.io/posts/changshi-gongxiang-danche/</link>
+        <pubDate>Mon, 13 Feb 2017 16:22:11 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/changshi-gongxiang-danche/</guid>
+        <description>
 
 &lt;p&gt;听说了很久的共享单车，比如摩拜和 ofo，去一线城市出差也能时常看到4、5种共享单车扎堆，可以感受到激烈的竞争。&lt;/p&gt;
 
@@ -64,9 +64,10 @@
 &lt;p&gt;对消费者来说，好处确实很多。简单罗列几点就行，不需要说得太细：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;不用担心车辆被盗。&lt;/li&gt;
-&lt;li&gt;随走随停，骑累了、变天了都不用担心怎么回去。&lt;/li&gt;
-&lt;li&gt;押金和单次消费不算贵。&lt;/li&gt;
+&lt;li&gt;不用担心车辆被盗。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;随走随停，骑累了、变天了都不用担心怎么回去。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;押金和单次消费不算贵。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;所以注册之后，还挺有积极性的，一有机会就骑上出发。&lt;/p&gt;
@@ -88,7 +89,8 @@
 特别是后者，如果关闭，即使开了 GPS 应用也不会记录行程。&lt;br /&gt;
 于是我现在的统计数据显示，累计骑行4个半小时，总行程还只有0.48公里…&lt;br /&gt;
 补充：现在全部定位手段都打开也经常无法记录行程，感觉要废了。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;/li&gt;
+&lt;li&gt;有时候会出现地图上一片空白，显示周围没有单车的情况，而实际上你面前就停着好几辆。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;另外，虽然可以邀请新用户赚用车券，也可以做活动，但没有花心思做社交功能，比如添加好友、发现同好、和好友分享骑行路线和经历、邀约骑车等等，还挺不习惯的（这方面做得好并不会引起用户反感）。&lt;br /&gt;
@@ -147,7 +149,7 @@
 单车本身有一定的负载能力，一些扩展的硬件设备，如太阳能发电、充电、移动热点、数据采集器等等未必没有应用的可能。&lt;br /&gt;
 只要前期的市场行为习惯培养起来了，解决了政策风险、用户破坏和滥用的问题，这门生意还有许多潜力可挖。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

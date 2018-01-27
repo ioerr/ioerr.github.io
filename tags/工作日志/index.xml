@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>工作日志 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/</link>
     <description>Recent content in 工作日志 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2011 09:46:47 +0000</lastBuildDate>
     
-    <item>
-      <title>自制简单工作日志任务表</title>
-      <link>https://ioerr.github.io/zizhi-jiandan-gongzuo-rizhi-renwubiao/</link>
-      <pubDate>Mon, 31 Jan 2011 09:46:47 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zizhi-jiandan-gongzuo-rizhi-renwubiao/</guid>
-      <description>&lt;p&gt;因为感觉还是 Excel
+      <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>自制简单工作日志任务表</title>
+        <link>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</link>
+        <pubDate>Mon, 31 Jan 2011 09:46:47 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</guid>
+        <description>&lt;p&gt;因为感觉还是 Excel&lt;br /&gt;
 用的比较顺手，就做了一个简单的工作日志任务表，用来记录工作中的事项，便于跟踪和回顾工作情况。&lt;br /&gt;
 从08年11月份开始使用至今，感觉用于个人的工作记录还是够用的，不适合多人共同维护或者管理小组。&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 &lt;p&gt;第二列是工作内容，一句话概括工作的主要内容即可。&lt;/p&gt;
 
 &lt;p&gt;第三列是处理情况，更加细致的描述工作处理的过程和结果。&lt;br /&gt;
-如果工作任务有分支，建议在处理情况中分行说明，因为用 Excel
+如果工作任务有分支，建议在处理情况中分行说明，因为用 Excel&lt;br /&gt;
 实现分支任务管理并不经济。&lt;/p&gt;
 
 &lt;p&gt;第四列是联系对象，包括完成任务需要联络的各位人员。&lt;br /&gt;
@@ -54,7 +54,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.box.net/shared/dvf016eal4&#34;&gt;下载地址请猛击这里&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

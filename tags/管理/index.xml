@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>管理 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%AE%A1%E7%90%86/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%AE%A1%E7%90%86/</link>
     <description>Recent content in 管理 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 May 2009 16:17:08 +0000</lastBuildDate>
     
-    <item>
-      <title>未完结</title>
-      <link>https://ioerr.github.io/wei-wanjie/</link>
-      <pubDate>Thu, 21 May 2009 16:17:08 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/wei-wanjie/</guid>
-      <description>&lt;p&gt;杭州飙车案的&lt;a href=&#34;http://news.sohu.com/20090520/n264070800.shtml&#34;&gt;新情况出来了&lt;/a&gt;：&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>未完结</title>
+        <link>https://ioerr.github.io/posts/wei-wanjie/</link>
+        <pubDate>Thu, 21 May 2009 16:17:08 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/wei-wanjie/</guid>
+        <description>&lt;p&gt;杭州飙车案的&lt;a href=&#34;http://news.sohu.com/20090520/n264070800.shtml&#34;&gt;新情况出来了&lt;/a&gt;：&lt;br /&gt;
 1、双方家属签订113万赔偿协议&lt;br /&gt;
 2、杭州飙车案肇事者胡斌以涉嫌交通肇事罪被移送杭州市人民检察院审查起诉&lt;/p&gt;
 
@@ -50,7 +50,7 @@
 
 &lt;p&gt;总而言之，希望网络舆论监督能从来也匆匆去也匆匆式的民意爆发，变成持续保持影响力地追踪重点问题，间接促进法治环境的实质进步。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

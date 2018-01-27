@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>郁可唯 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%83%81%E5%8F%AF%E5%94%AF/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%83%81%E5%8F%AF%E5%94%AF/</link>
     <description>Recent content in 郁可唯 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%83%81%E5%8F%AF%E5%94%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2009 17:40:25 +0000</lastBuildDate>
     
-    <item>
-      <title>简评快女十强</title>
-      <link>https://ioerr.github.io/jianping-kuainv-shiqiang/</link>
-      <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/jianping-kuainv-shiqiang/</guid>
-      <description>&lt;p&gt;刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%83%81%E5%8F%AF%E5%94%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>简评快女十强</title>
+        <link>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</link>
+        <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</guid>
+        <description>&lt;p&gt;刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：&lt;/p&gt;
 
 &lt;p&gt;1、郁可唯&lt;br /&gt;
 今天选歌很成功，第一轮拿到最高分有些过分，但车轮战胜出没有争议。&lt;br /&gt;
 之前偶尔几次看快女节目都没有看到她的表现，以为水平中等，现在看来只要能够保持风格，进入三甲是很有可能的。&lt;/p&gt;
 
 &lt;p&gt;2、李霄云&lt;br /&gt;
-无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合
+无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合&lt;br /&gt;
 R&amp;B; 风格的问题。&lt;/p&gt;
 
 &lt;p&gt;3、刘惜君&lt;br /&gt;
@@ -55,7 +55,7 @@ R&amp;B; 风格的问题。&lt;/p&gt;
 &lt;p&gt;10、潘辰&lt;br /&gt;
 抓住像《爱如潮水》这样的歌曲可以让人眼前一亮，但劲歌热舞显然非其所长，舞蹈动作极其不自然，声音处理漫不经心没有任何修饰。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

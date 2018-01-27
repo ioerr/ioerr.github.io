@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>泡沫 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/</link>
     <description>Recent content in 泡沫 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2011 13:55:50 +0000</lastBuildDate>
     
-    <item>
-      <title>市场泡沫破灭的过程</title>
-      <link>https://ioerr.github.io/shichang-paomo-pomie-de-guocheng/</link>
-      <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shichang-paomo-pomie-de-guocheng/</guid>
-      <description>&lt;p&gt;问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>市场泡沫破灭的过程</title>
+        <link>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</link>
+        <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</guid>
+        <description>&lt;p&gt;问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？&lt;br /&gt;
 答：有。&lt;br /&gt;
 只要市场活动是一个过程，而不是从产生泡沫到泡沫破裂的一瞬间，就一定会有“最后一根稻草”。但这根稻草事前很难看出来，就好像往沙堆上倒沙子，导致沙堆崩塌的最后那颗沙子是随机出现的。&lt;/p&gt;
 
@@ -39,12 +39,12 @@
 
 &lt;p&gt;问：如果“泡沫破灭”这条信息不能有效传播，泡沫还会破灭吗，或者破灭速度减慢？&lt;br /&gt;
 答：还会破灭。&lt;br /&gt;
-如果只有少部分人知道泡沫已经破灭，
+如果只有少部分人知道泡沫已经破灭，&lt;br /&gt;
 并且不传播这个消息，就像从正在崩溃的沙堆中取走开始滚动的沙粒。&lt;br /&gt;
 也许会减缓泡沫破灭的速度吧。&lt;br /&gt;
 可是泡沫如果不破灭，沙粒的增长不会停止，还留在沙堆上的沙粒将继续受力，错误的经济行为、不良的资产结构给投资者带来的损失不会消失，糟糕的结局总会到来，最后谁都会明白经济完蛋了，泡沫还是会破灭，只是这回泡沫更大、损失更惨。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>错过大事件 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="错过大事件" />
+<meta property="og:description" content="这几天出门在外，错过了不少大事。
+伦敦击败巴黎，获得2012年奥运会举办权。当时身在山西，手机没电，挤时间看电视结果只看到了重播的纽约、马德里、莫斯科的宣传片…
+之前倒也不怎么关心此事，只知道伦敦市长利文斯通 Livingstone
+是个有个性的牛人。
+之后是伦敦连环爆炸的事件，可惜当时没办法
+blog，我想，伍岭老师的《比恐怖主义更恐怖的是态度》和
+JediChang 在
+2Simple 上发表的《London bridge is falling
+down》已经把我想说的话说了。
+还有8国峰会期间，Live 8 和 Make
+Poverty History
+的活动。真希望能够到现场参与一次啊～" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/cuoguo-dashijian/" />
+
+
+
+<meta property="article:published_time" content="2005-07-09T15:13:54&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-07-09T15:13:54&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="错过大事件">
+<meta itemprop="description" content="这几天出门在外，错过了不少大事。
+伦敦击败巴黎，获得2012年奥运会举办权。当时身在山西，手机没电，挤时间看电视结果只看到了重播的纽约、马德里、莫斯科的宣传片…
+之前倒也不怎么关心此事，只知道伦敦市长利文斯通 Livingstone
+是个有个性的牛人。
+之后是伦敦连环爆炸的事件，可惜当时没办法
+blog，我想，伍岭老师的《比恐怖主义更恐怖的是态度》和
+JediChang 在
+2Simple 上发表的《London bridge is falling
+down》已经把我想说的话说了。
+还有8国峰会期间，Live 8 和 Make
+Poverty History
+的活动。真希望能够到现场参与一次啊～">
+
+
+<meta itemprop="datePublished" content="2005-07-09T15:13:54&#43;00:00" />
+<meta itemprop="dateModified" content="2005-07-09T15:13:54&#43;00:00" />
+<meta itemprop="wordCount" content="22">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="错过大事件"/>
+<meta name="twitter:description" content="这几天出门在外，错过了不少大事。
+伦敦击败巴黎，获得2012年奥运会举办权。当时身在山西，手机没电，挤时间看电视结果只看到了重播的纽约、马德里、莫斯科的宣传片…
+之前倒也不怎么关心此事，只知道伦敦市长利文斯通 Livingstone
+是个有个性的牛人。
+之后是伦敦连环爆炸的事件，可惜当时没办法
+blog，我想，伍岭老师的《比恐怖主义更恐怖的是态度》和
+JediChang 在
+2Simple 上发表的《London bridge is falling
+down》已经把我想说的话说了。
+还有8国峰会期间，Live 8 和 Make
+Poverty History
+的活动。真希望能够到现场参与一次啊～"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-07-09 03:13">2005-07-09</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>错过大事件</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>这几天出门在外，错过了不少大事。</p>
+
+<p>伦敦击败巴黎，获得2012年奥运会举办权。当时身在山西，手机没电，挤时间看电视结果只看到了重播的纽约、马德里、莫斯科的宣传片…<br />
+之前倒也不怎么关心此事，只知道伦敦市长利文斯通 Livingstone<br />
+是个有个性的牛人。</p>
+
+<p>之后是伦敦连环爆炸的事件，可惜当时没办法<br />
+blog，我想，<a href="http://www.ipang.net/">伍岭老师</a>的《<a href="http://www.ipang.net/post/204.html">比恐怖主义更恐怖的是态度</a>》和<br />
+<a href="http://spaces.msn.com/members/jedichang/">JediChang</a> 在<br />
+<a href="http://edad.com.cn/datou/">2Simple</a> 上发表的《<a href="http://edad.com.cn/datou/2005/07/london-bridge-is-falling-down.htm">London bridge is falling<br />
+down</a>》已经把我想说的话说了。</p>
+
+<p>还有8国峰会期间，<a href="http://zh.wikipedia.org/wiki/Live_8">Live 8</a> 和 <a href="http://www.makepovertyhistory.org/">Make<br />
+Poverty History</a><br />
+的活动。真希望能够到现场参与一次啊～</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%94%99%e8%bf%87%e5%a4%a7%e4%ba%8b%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fcuoguo-dashijian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fcuoguo-dashijian%2f&text= @calon %e9%94%99%e8%bf%87%e5%a4%a7%e4%ba%8b%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

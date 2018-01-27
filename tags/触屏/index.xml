@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>触屏 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%A7%A6%E5%B1%8F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%A7%A6%E5%B1%8F/</link>
     <description>Recent content in 触屏 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%A7%A6%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Feb 2012 09:16:25 +0000</lastBuildDate>
     
-    <item>
-      <title>Dungeon Raid</title>
-      <link>https://ioerr.github.io/dungeon-raid/</link>
-      <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dungeon-raid/</guid>
-      <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%A7%A6%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Dungeon Raid</title>
+        <link>https://ioerr.github.io/posts/dungeon-raid/</link>
+        <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/dungeon-raid/</guid>
+        <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
 
-&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon
-Raid&lt;/a&gt;
-是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的
+&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon&lt;br /&gt;
+Raid&lt;/a&gt;&lt;br /&gt;
+是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的&lt;br /&gt;
 Dungeon Raid）。&lt;br /&gt;
 这个游戏上市的时间很久了，不过其设计值得学习。&lt;/p&gt;
 
@@ -52,15 +52,14 @@ Raid&#34; /&gt;&lt;/p&gt;
 有多种升级选择和发展路径；&lt;br /&gt;
 简而言之，容易沉迷。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>移动设备触屏游戏六戒</title>
-      <link>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</link>
-      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yidong-shebei-chuping-youxi-liujie/</guid>
-      <description>&lt;p&gt;时常觉得 iPod/iPhone
+      <item>
+        <title>移动设备触屏游戏六戒</title>
+        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+        <description>&lt;p&gt;时常觉得 iPod/iPhone&lt;br /&gt;
 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
 
 &lt;p&gt;1、图文难以识别。&lt;br /&gt;
@@ -70,12 +69,12 @@ Raid&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
 
 &lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld&lt;br /&gt;
 中变更球员名单，很容易点错球员；&lt;br /&gt;
 直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
 间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
 
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
+&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的&lt;br /&gt;
 swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
 如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
 
@@ -97,10 +96,10 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
 
 &lt;p&gt;6、没有足够的成就感&lt;br /&gt;
 规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
+比如 Minesweeper&lt;br /&gt;
 这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

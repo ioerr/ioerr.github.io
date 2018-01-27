@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>说不出名字的电影 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="说不出名字的电影" />
+<meta property="og:description" content="以前看过许多影片现在都记不起名字了…比如说这么两个：
+有个法国的影片讲的大概是一战开始之前一个士兵从童年开始的生活，主人公自始至终似乎陷入一种孤独又不被人理解的情绪，最后好像是在马奇诺防线附近巡逻时被地雷炸死了。
+另一部法国影片则是讲大革命时期的事情，配角是一群为路易十八的复辟偷偷活动的贵族和毫不留情的雅各宾党，主角则是一个对政治不关心的善良的年轻人，他的女友似乎和贵族有关系。最后的结局是主角和女友乘坐自制的（或者是他父亲的发明？）人力飞行器从海边的城堡飞越英吉利海峡逃亡，他的父亲－－好像是一个有资历的革命家－－为了掩护他们逃走被城堡的哨兵开枪打死，临死时倒在旗杆下双手拉起了蓝白红三色旗…
+先说这两部吧，应该还有很多的…
+休谟对于卢梭的评价大概是我看到过的最恰如其分的人物评价之一了：
+
+他在整個一生中只是有所感覺，在這方面他的敏感性達到我從未見過任何先例的高度；然而這種敏感性給予他的，還是一種痛苦甚於快樂的尖銳的感覺。他好像這樣一個人，這人不僅被剝掉了衣服，而且被剝掉了皮膚，在這情況下被趕出去和猛烈的狂風暴雨進行搏鬥。
+
+卢梭的过于敏感造成的神经质、浪漫主义对他的认识的局限和悲剧性的命运仅用一句话就表达出来了。
+刚刚在群里面谈到英语等级考试的英文怎么写，我想 CET
+可以这样翻译：Chinglish &amp; Engrish Test
+今天想写篇长文批驳一下《读经与中国文化的复兴》这篇文章，但是写得好累，速度很慢，因为我还没有批过破绽这么多的文章，简直是全文上下无一处不可批，而我一贯是不放过任何破绽的…
+打着保护中国传统文化的旗帜妄断学术正统、排除异己学说，坚持不宽容的儒家中心主义立场，而且对现代教育理念一知半解…中国文化不该靠这帮人来复兴…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/shuobuchu-minzi-de-dianying/" />
+
+
+
+<meta property="article:published_time" content="2004-09-05T14:00:26&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-09-05T14:00:26&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="说不出名字的电影">
+<meta itemprop="description" content="以前看过许多影片现在都记不起名字了…比如说这么两个：
+有个法国的影片讲的大概是一战开始之前一个士兵从童年开始的生活，主人公自始至终似乎陷入一种孤独又不被人理解的情绪，最后好像是在马奇诺防线附近巡逻时被地雷炸死了。
+另一部法国影片则是讲大革命时期的事情，配角是一群为路易十八的复辟偷偷活动的贵族和毫不留情的雅各宾党，主角则是一个对政治不关心的善良的年轻人，他的女友似乎和贵族有关系。最后的结局是主角和女友乘坐自制的（或者是他父亲的发明？）人力飞行器从海边的城堡飞越英吉利海峡逃亡，他的父亲－－好像是一个有资历的革命家－－为了掩护他们逃走被城堡的哨兵开枪打死，临死时倒在旗杆下双手拉起了蓝白红三色旗…
+先说这两部吧，应该还有很多的…
+休谟对于卢梭的评价大概是我看到过的最恰如其分的人物评价之一了：
+
+他在整個一生中只是有所感覺，在這方面他的敏感性達到我從未見過任何先例的高度；然而這種敏感性給予他的，還是一種痛苦甚於快樂的尖銳的感覺。他好像這樣一個人，這人不僅被剝掉了衣服，而且被剝掉了皮膚，在這情況下被趕出去和猛烈的狂風暴雨進行搏鬥。
+
+卢梭的过于敏感造成的神经质、浪漫主义对他的认识的局限和悲剧性的命运仅用一句话就表达出来了。
+刚刚在群里面谈到英语等级考试的英文怎么写，我想 CET
+可以这样翻译：Chinglish &amp; Engrish Test
+今天想写篇长文批驳一下《读经与中国文化的复兴》这篇文章，但是写得好累，速度很慢，因为我还没有批过破绽这么多的文章，简直是全文上下无一处不可批，而我一贯是不放过任何破绽的…
+打着保护中国传统文化的旗帜妄断学术正统、排除异己学说，坚持不宽容的儒家中心主义立场，而且对现代教育理念一知半解…中国文化不该靠这帮人来复兴…">
+
+
+<meta itemprop="datePublished" content="2004-09-05T14:00:26&#43;00:00" />
+<meta itemprop="dateModified" content="2004-09-05T14:00:26&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="说不出名字的电影"/>
+<meta name="twitter:description" content="以前看过许多影片现在都记不起名字了…比如说这么两个：
+有个法国的影片讲的大概是一战开始之前一个士兵从童年开始的生活，主人公自始至终似乎陷入一种孤独又不被人理解的情绪，最后好像是在马奇诺防线附近巡逻时被地雷炸死了。
+另一部法国影片则是讲大革命时期的事情，配角是一群为路易十八的复辟偷偷活动的贵族和毫不留情的雅各宾党，主角则是一个对政治不关心的善良的年轻人，他的女友似乎和贵族有关系。最后的结局是主角和女友乘坐自制的（或者是他父亲的发明？）人力飞行器从海边的城堡飞越英吉利海峡逃亡，他的父亲－－好像是一个有资历的革命家－－为了掩护他们逃走被城堡的哨兵开枪打死，临死时倒在旗杆下双手拉起了蓝白红三色旗…
+先说这两部吧，应该还有很多的…
+休谟对于卢梭的评价大概是我看到过的最恰如其分的人物评价之一了：
+
+他在整個一生中只是有所感覺，在這方面他的敏感性達到我從未見過任何先例的高度；然而這種敏感性給予他的，還是一種痛苦甚於快樂的尖銳的感覺。他好像這樣一個人，這人不僅被剝掉了衣服，而且被剝掉了皮膚，在這情況下被趕出去和猛烈的狂風暴雨進行搏鬥。
+
+卢梭的过于敏感造成的神经质、浪漫主义对他的认识的局限和悲剧性的命运仅用一句话就表达出来了。
+刚刚在群里面谈到英语等级考试的英文怎么写，我想 CET
+可以这样翻译：Chinglish &amp; Engrish Test
+今天想写篇长文批驳一下《读经与中国文化的复兴》这篇文章，但是写得好累，速度很慢，因为我还没有批过破绽这么多的文章，简直是全文上下无一处不可批，而我一贯是不放过任何破绽的…
+打着保护中国传统文化的旗帜妄断学术正统、排除异己学说，坚持不宽容的儒家中心主义立场，而且对现代教育理念一知半解…中国文化不该靠这帮人来复兴…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-09-05 02:00">2004-09-05</time> &bull;
+          
+            
+            <a href="/categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">流光飞影</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>说不出名字的电影</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>以前看过许多影片现在都记不起名字了…比如说这么两个：</p>
+
+<p>有个法国的影片讲的大概是一战开始之前一个士兵从童年开始的生活，主人公自始至终似乎陷入一种孤独又不被人理解的情绪，最后好像是在马奇诺防线附近巡逻时被地雷炸死了。</p>
+
+<p>另一部法国影片则是讲大革命时期的事情，配角是一群为路易十八的复辟偷偷活动的贵族和毫不留情的雅各宾党，主角则是一个对政治不关心的善良的年轻人，他的女友似乎和贵族有关系。最后的结局是主角和女友乘坐自制的（或者是他父亲的发明？）人力飞行器从海边的城堡飞越英吉利海峡逃亡，他的父亲－－好像是一个有资历的革命家－－为了掩护他们逃走被城堡的哨兵开枪打死，临死时倒在旗杆下双手拉起了蓝白红三色旗…</p>
+
+<p>先说这两部吧，应该还有很多的…</p>
+
+<p>休谟对于卢梭的评价大概是我看到过的最恰如其分的人物评价之一了：</p>
+
+<p><blockquote><br />
+他在整個一生中只是有所感覺，在這方面他的敏感性達到我從未見過任何先例的高度；然而這種敏感性給予他的，還是一種痛苦甚於快樂的尖銳的感覺。他好像這樣一個人，這人不僅被剝掉了衣服，而且被剝掉了皮膚，在這情況下被趕出去和猛烈的狂風暴雨進行搏鬥。<br />
+</blockquote><br />
+卢梭的过于敏感造成的神经质、浪漫主义对他的认识的局限和悲剧性的命运仅用一句话就表达出来了。</p>
+
+<p>刚刚在群里面谈到英语等级考试的英文怎么写，我想 CET<br />
+可以这样翻译：Chinglish &amp; Engrish Test<br />
+<img src="http://www.253874.com/new/face/023.gif" alt="" /></p>
+
+<p>今天想写篇长文批驳一下《<a href="http://www.cc.org.cn/newcc/browwenzhang.php?articleid=1730">读经与中国文化的复兴</a>》这篇文章，但是写得好累，速度很慢，因为我还没有批过破绽这么多的文章，简直是全文上下无一处不可批，而我一贯是不放过任何破绽的…</p>
+
+<p>打着保护中国传统文化的旗帜妄断学术正统、排除异己学说，坚持不宽容的儒家中心主义立场，而且对现代教育理念一知半解…中国文化不该靠这帮人来复兴…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%af%b4%e4%b8%8d%e5%87%ba%e5%90%8d%e5%ad%97%e7%9a%84%e7%94%b5%e5%bd%b1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fshuobuchu-minzi-de-dianying%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fshuobuchu-minzi-de-dianying%2f&text= @calon %e8%af%b4%e4%b8%8d%e5%87%ba%e5%90%8d%e5%ad%97%e7%9a%84%e7%94%b5%e5%bd%b1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>集体翻译 Wiki 演示 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="集体翻译 Wiki 演示" />
+<meta property="og:description" content="用 TiddlyWiki
+为《罗马帝国衰亡史》集体翻译项目弄了一个
+Wiki
+演示，如果有时间的话，会保持更新。如果下载下来，自己也可以修改的。
+没条件弄 MediaWiki、Moin Moin 之类的，只是试一试效果怎么样，TiddlyWiki
+毕竟功能太弱。
+至于翻译嘛，我的功力还不够，只能够做些力所能及的支援工作了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/jiti-fanyi-wiki-yanshi/" />
+
+
+
+<meta property="article:published_time" content="2006-04-12T15:45:57&#43;00:00"/>
+
+<meta property="article:modified_time" content="2006-04-12T15:45:57&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="集体翻译 Wiki 演示">
+<meta itemprop="description" content="用 TiddlyWiki
+为《罗马帝国衰亡史》集体翻译项目弄了一个
+Wiki
+演示，如果有时间的话，会保持更新。如果下载下来，自己也可以修改的。
+没条件弄 MediaWiki、Moin Moin 之类的，只是试一试效果怎么样，TiddlyWiki
+毕竟功能太弱。
+至于翻译嘛，我的功力还不够，只能够做些力所能及的支援工作了。">
+
+
+<meta itemprop="datePublished" content="2006-04-12T15:45:57&#43;00:00" />
+<meta itemprop="dateModified" content="2006-04-12T15:45:57&#43;00:00" />
+<meta itemprop="wordCount" content="11">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="集体翻译 Wiki 演示"/>
+<meta name="twitter:description" content="用 TiddlyWiki
+为《罗马帝国衰亡史》集体翻译项目弄了一个
+Wiki
+演示，如果有时间的话，会保持更新。如果下载下来，自己也可以修改的。
+没条件弄 MediaWiki、Moin Moin 之类的，只是试一试效果怎么样，TiddlyWiki
+毕竟功能太弱。
+至于翻译嘛，我的功力还不够，只能够做些力所能及的支援工作了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2006-04-12 03:45">2006-04-12</time> &bull;
+          
+            
+            <a href="/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2">煮酒论史</a>
+          </p>
+      <h1>集体翻译 Wiki 演示</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>用 TiddlyWiki<br />
+为<a href="http://groups.google.com/group/The-History-of-the-Decline-and-Fall-of-the-Roman-Empire">《罗马帝国衰亡史》集体翻译项目</a>弄了一个<br />
+<a href="http://calon.xu.googlepages.com/translate.html">Wiki<br />
+演示</a>，如果有时间的话，会保持更新。如果下载下来，自己也可以修改的。</p>
+
+<p>没条件弄 MediaWiki、Moin Moin 之类的，只是试一试效果怎么样，TiddlyWiki<br />
+毕竟功能太弱。</p>
+
+<p>至于翻译嘛，我的功力还不够，只能够做些力所能及的支援工作了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9b%86%e4%bd%93%e7%bf%bb%e8%af%91%20Wiki%20%e6%bc%94%e7%a4%ba》&body=https%3a%2f%2fioerr.github.io%2fposts%2fjiti-fanyi-wiki-yanshi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fjiti-fanyi-wiki-yanshi%2f&text= @calon %e9%9b%86%e4%bd%93%e7%bf%bb%e8%af%91%20Wiki%20%e6%bc%94%e7%a4%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

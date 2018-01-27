@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>双屏幕 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8F%8C%E5%B1%8F%E5%B9%95/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8F%8C%E5%B1%8F%E5%B9%95/</link>
     <description>Recent content in 双屏幕 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8F%8C%E5%B1%8F%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2011 08:19:38 +0000</lastBuildDate>
     
-    <item>
-      <title>双屏幕电子书？</title>
-      <link>https://ioerr.github.io/shuang-pingmu-dianzishu/</link>
-      <pubDate>Fri, 01 Apr 2011 08:19:38 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shuang-pingmu-dianzishu/</guid>
-      <description>&lt;p&gt;有多少人不肯接受电子书，是因为没有翻书的手感？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%8F%8C%E5%B1%8F%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>双屏幕电子书？</title>
+        <link>https://ioerr.github.io/posts/shuang-pingmu-dianzishu/</link>
+        <pubDate>Fri, 01 Apr 2011 08:19:38 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shuang-pingmu-dianzishu/</guid>
+        <description>&lt;p&gt;有多少人不肯接受电子书，是因为没有翻书的手感？&lt;br /&gt;
 &lt;a href=&#34;http://www.diginfo.tv/2011/03/23/11-0073-r-en.php&#34;&gt;单独作为一项偏门的发明&lt;/a&gt;来看很有趣，但是千万不要以为商业产品可以这么玩。&lt;/p&gt;
 
 &lt;p&gt;用户如果想拒绝一个事物，可以找到千百种理由。&lt;br /&gt;
 开发者若是一一迎合这些理由来折腾产品，最终只会让产品变得面目全非，而且谁都不讨好。&lt;/p&gt;
 
-&lt;p&gt;福特当年需要在 T
+&lt;p&gt;福特当年需要在 T&lt;br /&gt;
 型车上采用带马镫的跨坐式座椅，装个皮革包裹的加速板，让用户保持踢马刺的感觉吗？或者保留缰绳以维持方向控制和速度控制合一的习惯？&lt;br /&gt;
 除非他搞不清楚产品目标用户的业务核心需求吧。&lt;/p&gt;
 
-&lt;p&gt;话说回来，对未来电子书的需求，除了应用方面能促进有质量的交流之外，在硬件方面我最期待的是双屏幕（Barnes
-&amp;amp; Noble 的 NOOK
+&lt;p&gt;话说回来，对未来电子书的需求，除了应用方面能促进有质量的交流之外，在硬件方面我最期待的是双屏幕（Barnes&lt;br /&gt;
+&amp;amp; Noble 的 NOOK&lt;br /&gt;
 有双屏，但小屏幕用处有限）或至少同屏幕上分两个独立应用窗口，因为：&lt;br /&gt;
 1、前后快速翻页查阅容易打断当前的阅读思路，保留当前页面在一个屏幕上比允许跳回上次阅读的地方更无害；&lt;br /&gt;
 2、利于同文档内不同页面、不同文档的比对，阅读技术、学术文档时这是很重要的；&lt;br /&gt;
@@ -35,7 +35,7 @@
 
 &lt;p&gt;不过基于增加的成本和带来的收益很可能不成比例，一个负责任的电子书产品经理会说，“你还是去买两个电子书拼接在一起吧，我们可以提供帐号间的内容即时共享服务和透明胶带。”&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>救急假来电 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="救急假来电" />
+<meta property="og:description" content="有没有遇到过某人死缠着你说话，或者被无聊的会议绑架却苦于没有好借口脱身？这个时候你需要的是不是有位内裤外穿的人类救星给你一通救命电话，好让你在一阵“对…啊…行…噢…嗯…咳…听见了”之后可以昂起头来道貌岸然厚颜无耻地对周围的南瓜头们说，“嗯，某个大人物在召唤我，有点每秒钟几十万上下/关乎人类前途/我家的狗把钥匙吃了/火星人进攻地球/我不说但你们马上就会知道后果严重的要紧事，不得不先告辞了，你们先忙，先忙啊，古德白”？
+但很不幸的是，你的老婆、情人、朋友、亲戚、同事没有一个具有心灵感应能力（就算有，也未必会愿意付出电话费的代价拯救你于水火，不乐得袖手旁观已经不错了），而平时那些连上厕所时都要连续打两次以上的电话骚扰的家伙，这时候也消失得无影无踪了。
+所以，关键时刻还是自己才最靠得住啊~可是靠自己那还得精简流程迅速有效地解决问题才行啊~
+那么，你需要的也许是这样一个设计：
+设置一个快捷键，设置延迟时间，一旦遇到上述情况，按下该快捷键，在指定的延迟时间之后，手机就开始振铃，模拟来电情况…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/jiuji-jia-laidian/" />
+
+
+
+<meta property="article:published_time" content="2007-11-07T04:26:25&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-11-07T04:26:25&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="救急假来电">
+<meta itemprop="description" content="有没有遇到过某人死缠着你说话，或者被无聊的会议绑架却苦于没有好借口脱身？这个时候你需要的是不是有位内裤外穿的人类救星给你一通救命电话，好让你在一阵“对…啊…行…噢…嗯…咳…听见了”之后可以昂起头来道貌岸然厚颜无耻地对周围的南瓜头们说，“嗯，某个大人物在召唤我，有点每秒钟几十万上下/关乎人类前途/我家的狗把钥匙吃了/火星人进攻地球/我不说但你们马上就会知道后果严重的要紧事，不得不先告辞了，你们先忙，先忙啊，古德白”？
+但很不幸的是，你的老婆、情人、朋友、亲戚、同事没有一个具有心灵感应能力（就算有，也未必会愿意付出电话费的代价拯救你于水火，不乐得袖手旁观已经不错了），而平时那些连上厕所时都要连续打两次以上的电话骚扰的家伙，这时候也消失得无影无踪了。
+所以，关键时刻还是自己才最靠得住啊~可是靠自己那还得精简流程迅速有效地解决问题才行啊~
+那么，你需要的也许是这样一个设计：
+设置一个快捷键，设置延迟时间，一旦遇到上述情况，按下该快捷键，在指定的延迟时间之后，手机就开始振铃，模拟来电情况…">
+
+
+<meta itemprop="datePublished" content="2007-11-07T04:26:25&#43;00:00" />
+<meta itemprop="dateModified" content="2007-11-07T04:26:25&#43;00:00" />
+<meta itemprop="wordCount" content="5">
+
+
+
+<meta itemprop="keywords" content="电话," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="救急假来电"/>
+<meta name="twitter:description" content="有没有遇到过某人死缠着你说话，或者被无聊的会议绑架却苦于没有好借口脱身？这个时候你需要的是不是有位内裤外穿的人类救星给你一通救命电话，好让你在一阵“对…啊…行…噢…嗯…咳…听见了”之后可以昂起头来道貌岸然厚颜无耻地对周围的南瓜头们说，“嗯，某个大人物在召唤我，有点每秒钟几十万上下/关乎人类前途/我家的狗把钥匙吃了/火星人进攻地球/我不说但你们马上就会知道后果严重的要紧事，不得不先告辞了，你们先忙，先忙啊，古德白”？
+但很不幸的是，你的老婆、情人、朋友、亲戚、同事没有一个具有心灵感应能力（就算有，也未必会愿意付出电话费的代价拯救你于水火，不乐得袖手旁观已经不错了），而平时那些连上厕所时都要连续打两次以上的电话骚扰的家伙，这时候也消失得无影无踪了。
+所以，关键时刻还是自己才最靠得住啊~可是靠自己那还得精简流程迅速有效地解决问题才行啊~
+那么，你需要的也许是这样一个设计：
+设置一个快捷键，设置延迟时间，一旦遇到上述情况，按下该快捷键，在指定的延迟时间之后，手机就开始振铃，模拟来电情况…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-11-07 04:26">2007-11-07</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>救急假来电</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%94%B5%E8%AF%9D">
+              <span class="hash">#</span>电话</a>
+          
+        
+      </p>
+    </header>
+    <section><p>有没有遇到过某人死缠着你说话，或者被无聊的会议绑架却苦于没有好借口脱身？这个时候你需要的是不是有位内裤外穿的人类救星给你一通救命电话，好让你在一阵“对…啊…行…噢…嗯…咳…听见了”之后可以昂起头来道貌岸然厚颜无耻地对周围的南瓜头们说，“嗯，某个大人物在召唤我，有点每秒钟几十万上下/关乎人类前途/我家的狗把钥匙吃了/火星人进攻地球/我不说但你们马上就会知道后果严重的要紧事，不得不先告辞了，你们先忙，先忙啊，古德白”？</p>
+
+<p>但很不幸的是，你的老婆、情人、朋友、亲戚、同事没有一个具有心灵感应能力（就算有，也未必会愿意付出电话费的代价拯救你于水火，不乐得袖手旁观已经不错了），而平时那些连上厕所时都要连续打两次以上的电话骚扰的家伙，这时候也消失得无影无踪了。</p>
+
+<p>所以，关键时刻还是自己才最靠得住啊~可是靠自己那还得精简流程迅速有效地解决问题才行啊~</p>
+
+<p>那么，你需要的也许是这样一个设计：<br />
+设置一个快捷键，设置延迟时间，一旦遇到上述情况，按下该快捷键，在指定的延迟时间之后，手机就开始振铃，模拟来电情况…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%95%91%e6%80%a5%e5%81%87%e6%9d%a5%e7%94%b5》&body=https%3a%2f%2fioerr.github.io%2fposts%2fjiuji-jia-laidian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fjiuji-jia-laidian%2f&text= @calon %e6%95%91%e6%80%a5%e5%81%87%e6%9d%a5%e7%94%b5&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

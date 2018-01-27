@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>豆瓣改版 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="豆瓣改版" />
+<meta property="og:description" content="拼音加加推出了新的4.2.0.16版本，对我来说比较实用的新功能只有
+Backspace
+自动删除新词，这是向搜狗学习的实用功能，总算加入进来了。如此，在保留焦点方面更胜一筹的拼音加加又追上了搜狗一段距离。
+自定义辅助码比较上等，但估计只会有非常上等的用户才会用到。
+StarDict
+更新到了3.0.1版本。版本升3之后，与网络词典的结合更加紧密，直接调用各大翻译服务进行文章词句翻译的做法对用户来说非常方便，但本地程序在操作细节方面并不比上一个版本好用多少，比如取词的时候依旧上蹿下跳，翻译结果有延时的时候展现方式不佳…
+豆瓣则进行了改版，有人说界面变好看了，变得更加清爽了，有的说喜欢新的搜索框，有的说很丑，不喜欢绿色的导航条，有的说字体太小，有的说链接没有下划线不习惯，还有人不喜欢要多点几次的二级导航菜单。
+从豆瓣加入音乐、电影、blog
+要素之后，导航条的重整就是不可避免的事情，所以豆粉大可不必对新的二级导航条捶胸顿足，新改版中的这个变动虽然会让部分人不习惯，但绝对是有利于新用户的。
+至于字体、配色、下划线等等，如果实在无法适应，那么就祭出
+Firefox&#43;Greasemonkey/Stylish，请高手或自己整一个顺眼的界面吧。
+为了测试一下反 spam 的效果以及表达一下我对外国友人的正当歧视，特安装了
+Some Chinese
+Please
+插件。
+有朋友提醒这里的页面被挂了木马，我的
+Firefox&#43;Avira AntiVir 没有任何反应，后来再用 IE
+打开貌似也无反应，不知道现在是否还有？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/douban-gaiban/" />
+
+
+
+<meta property="article:published_time" content="2007-11-15T15:43:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-11-15T15:43:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="豆瓣改版">
+<meta itemprop="description" content="拼音加加推出了新的4.2.0.16版本，对我来说比较实用的新功能只有
+Backspace
+自动删除新词，这是向搜狗学习的实用功能，总算加入进来了。如此，在保留焦点方面更胜一筹的拼音加加又追上了搜狗一段距离。
+自定义辅助码比较上等，但估计只会有非常上等的用户才会用到。
+StarDict
+更新到了3.0.1版本。版本升3之后，与网络词典的结合更加紧密，直接调用各大翻译服务进行文章词句翻译的做法对用户来说非常方便，但本地程序在操作细节方面并不比上一个版本好用多少，比如取词的时候依旧上蹿下跳，翻译结果有延时的时候展现方式不佳…
+豆瓣则进行了改版，有人说界面变好看了，变得更加清爽了，有的说喜欢新的搜索框，有的说很丑，不喜欢绿色的导航条，有的说字体太小，有的说链接没有下划线不习惯，还有人不喜欢要多点几次的二级导航菜单。
+从豆瓣加入音乐、电影、blog
+要素之后，导航条的重整就是不可避免的事情，所以豆粉大可不必对新的二级导航条捶胸顿足，新改版中的这个变动虽然会让部分人不习惯，但绝对是有利于新用户的。
+至于字体、配色、下划线等等，如果实在无法适应，那么就祭出
+Firefox&#43;Greasemonkey/Stylish，请高手或自己整一个顺眼的界面吧。
+为了测试一下反 spam 的效果以及表达一下我对外国友人的正当歧视，特安装了
+Some Chinese
+Please
+插件。
+有朋友提醒这里的页面被挂了木马，我的
+Firefox&#43;Avira AntiVir 没有任何反应，后来再用 IE
+打开貌似也无反应，不知道现在是否还有？">
+
+
+<meta itemprop="datePublished" content="2007-11-15T15:43:03&#43;00:00" />
+<meta itemprop="dateModified" content="2007-11-15T15:43:03&#43;00:00" />
+<meta itemprop="wordCount" content="24">
+
+
+
+<meta itemprop="keywords" content="stardict,拼音加加,豆瓣," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="豆瓣改版"/>
+<meta name="twitter:description" content="拼音加加推出了新的4.2.0.16版本，对我来说比较实用的新功能只有
+Backspace
+自动删除新词，这是向搜狗学习的实用功能，总算加入进来了。如此，在保留焦点方面更胜一筹的拼音加加又追上了搜狗一段距离。
+自定义辅助码比较上等，但估计只会有非常上等的用户才会用到。
+StarDict
+更新到了3.0.1版本。版本升3之后，与网络词典的结合更加紧密，直接调用各大翻译服务进行文章词句翻译的做法对用户来说非常方便，但本地程序在操作细节方面并不比上一个版本好用多少，比如取词的时候依旧上蹿下跳，翻译结果有延时的时候展现方式不佳…
+豆瓣则进行了改版，有人说界面变好看了，变得更加清爽了，有的说喜欢新的搜索框，有的说很丑，不喜欢绿色的导航条，有的说字体太小，有的说链接没有下划线不习惯，还有人不喜欢要多点几次的二级导航菜单。
+从豆瓣加入音乐、电影、blog
+要素之后，导航条的重整就是不可避免的事情，所以豆粉大可不必对新的二级导航条捶胸顿足，新改版中的这个变动虽然会让部分人不习惯，但绝对是有利于新用户的。
+至于字体、配色、下划线等等，如果实在无法适应，那么就祭出
+Firefox&#43;Greasemonkey/Stylish，请高手或自己整一个顺眼的界面吧。
+为了测试一下反 spam 的效果以及表达一下我对外国友人的正当歧视，特安装了
+Some Chinese
+Please
+插件。
+有朋友提醒这里的页面被挂了木马，我的
+Firefox&#43;Avira AntiVir 没有任何反应，后来再用 IE
+打开貌似也无反应，不知道现在是否还有？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-11-15 03:43">2007-11-15</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>豆瓣改版</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/stardict">
+              <span class="hash">#</span>stardict</a>
+          
+            , 
+            <a href="/tags/%E6%8B%BC%E9%9F%B3%E5%8A%A0%E5%8A%A0">
+              <span class="hash">#</span>拼音加加</a>
+          
+            , 
+            <a href="/tags/%E8%B1%86%E7%93%A3">
+              <span class="hash">#</span>豆瓣</a>
+          
+        
+      </p>
+    </header>
+    <section><p>拼音加加推出了<a href="http://bbs.jjol.cn/showthread.php?t=2374">新的4.2.0.16版本</a>，对我来说比较实用的新功能只有<br />
+Backspace<br />
+自动删除新词，这是向搜狗学习的实用功能，总算加入进来了。如此，在保留焦点方面更胜一筹的拼音加加又追上了搜狗一段距离。<br />
+自定义辅助码比较上等，但估计只会有非常上等的用户才会用到。</p>
+
+<p><a href="http://stardict.sourceforge.net/">StarDict</a><br />
+更新到了3.0.1版本。版本升3之后，与网络词典的结合更加紧密，直接调用各大翻译服务进行文章词句翻译的做法对用户来说非常方便，但本地程序在操作细节方面并不比上一个版本好用多少，比如取词的时候依旧上蹿下跳，翻译结果有延时的时候展现方式不佳…</p>
+
+<p><a href="http://www.douban.com/">豆瓣</a>则进行了改版，有人说界面变好看了，变得更加清爽了，有的说喜欢新的搜索框，有的说很丑，不喜欢绿色的导航条，有的说字体太小，有的说链接没有下划线不习惯，还有人不喜欢要多点几次的二级导航菜单。<br />
+从豆瓣加入音乐、电影、blog<br />
+要素之后，导航条的重整就是不可避免的事情，所以豆粉大可不必对新的二级导航条捶胸顿足，新改版中的这个变动虽然会让部分人不习惯，但绝对是有利于新用户的。<br />
+至于字体、配色、下划线等等，如果实在无法适应，那么就祭出<br />
+Firefox+Greasemonkey/Stylish，请高手或自己整一个顺眼的界面吧。</p>
+
+<p>为了测试一下反 spam 的效果以及表达一下我对外国友人的正当歧视，特安装了<br />
+<a href="http://bingu.net/blog/447/wp-plugin-some-chinese-please/">Some Chinese<br />
+Please</a><br />
+插件。<br />
+有朋友<a href="http://calon.weblogs.us/qiangnei/#comment-35183">提醒</a>这里的页面被挂了木马，我的<br />
+Firefox+Avira AntiVir 没有任何反应，后来再用 IE<br />
+打开貌似也无反应，不知道现在是否还有？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%b1%86%e7%93%a3%e6%94%b9%e7%89%88》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdouban-gaiban%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdouban-gaiban%2f&text= @calon %e8%b1%86%e7%93%a3%e6%94%b9%e7%89%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

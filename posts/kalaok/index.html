@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>卡拉OK - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="卡拉OK" />
+<meta property="og:description" content="据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…
+在新语丝看到 Zheng 谈论
+blog
+和“博客”的转载文章，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。
+Del.icio.us 这些网站怎么不用多级 tag
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从
+tag 列表中找到匹配待查询信息的那一个吗？
+今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有
+U2 的 With Or Without
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。
+
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”
+
+－－埃德华·O·威尔逊 《融会贯通》
+
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。
+我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”
+
+－－Rudy Baum
+《科学以及敬畏的本质》
+
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。
+
+
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？
+
+－－石青
+《最可怕的东西》
+为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/kalaok/" />
+
+
+
+<meta property="article:published_time" content="2004-12-19T15:05:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-12-19T15:05:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="卡拉OK">
+<meta itemprop="description" content="据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…
+在新语丝看到 Zheng 谈论
+blog
+和“博客”的转载文章，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。
+Del.icio.us 这些网站怎么不用多级 tag
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从
+tag 列表中找到匹配待查询信息的那一个吗？
+今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有
+U2 的 With Or Without
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。
+
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”
+
+－－埃德华·O·威尔逊 《融会贯通》
+
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。
+我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”
+
+－－Rudy Baum
+《科学以及敬畏的本质》
+
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。
+
+
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？
+
+－－石青
+《最可怕的东西》
+为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…">
+
+
+<meta itemprop="datePublished" content="2004-12-19T15:05:39&#43;00:00" />
+<meta itemprop="dateModified" content="2004-12-19T15:05:39&#43;00:00" />
+<meta itemprop="wordCount" content="38">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="卡拉OK"/>
+<meta name="twitter:description" content="据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…
+在新语丝看到 Zheng 谈论
+blog
+和“博客”的转载文章，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。
+Del.icio.us 这些网站怎么不用多级 tag
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从
+tag 列表中找到匹配待查询信息的那一个吗？
+今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有
+U2 的 With Or Without
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。
+
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”
+
+－－埃德华·O·威尔逊 《融会贯通》
+
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。
+我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”
+
+－－Rudy Baum
+《科学以及敬畏的本质》
+
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。
+
+
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？
+
+－－石青
+《最可怕的东西》
+为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-12-19 03:05">2004-12-19</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          
+            , 
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          
+            , 
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>卡拉OK</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>据说最近几部获得金球奖提名的影片水准都不错，尤其是几部传记片…</p>
+
+<p>在<a href="http://xys.3322.org/">新语丝</a>看到 <a href="http://www.klogs.org/">Zheng</a> 谈论<br />
+blog<br />
+和“博客”的<a href="http://xys.3322.org/xys/netters/others/net/blog.txt">转载文章</a>，感觉好奇怪啊，就像在酸牛奶中发现熏肠一样，嗨，我还真是少见多怪。</p>
+
+<p><a href="http://del.icio.us/">Del.icio.us</a> 这些网站怎么不用多级 tag<br />
+呢？不知不觉我的 tag 数量已经突破100了，如果再多的话，我能够比较快捷地从<br />
+tag 列表中找到匹配待查询信息的那一个吗？</p>
+
+<p>今天开会之后，和同事一起去卡拉OK了一回。还是没有多少拿得出手的歌，因为通常都不是在流行的行列中。帮别人点歌时偶然发现还是有<br />
+U2 的 With Or Without<br />
+You，于是大着胆子给自己点了这一首。结果唱到青筋爆出才勉强跟得上 Bono<br />
+的调，周围的人都用一种深切哀悼的神情望着我……好在吼出来的感觉不错，也就不管技巧低劣了。</p>
+
+<p><blockquote><br />
+没有自然科学（物理、化学和生物学）作为手段和它们积累起来的知识，人类就会被囚禁在一个认知的牢笼之中，就像一群出生在一个深壑之底的一潭浅水内的有智慧的鱼，他们好奇，他们雀跃，渴望着接触外面的世界，思考着外面的世界。他们创造了许多聪敏的猜想和神话，去解释把他们限制住的那潭浅水的来源，还有壑外的太阳、天空和星星的起源，甚至包括他们自身存在的意义。但是，他们是错的，总是错的，因为，外面的世界对于他们平常的经验来说实在是太遥远以至于实在不能想象。”<br />
+</blockquote><br />
+－－埃德华·O·威尔逊 《融会贯通》</p>
+
+<p><blockquote><br />
+我在这个人类认识的壮举前肃然起敬。这就是生命如何把自己从无生命的分子中勾画出来，它不是一个魔术，不要求一个故事，也永不会使人感动得唱出一首歌来。它就是真实，同时又非常美丽。</p>
+
+<p>我的一个根本的问题便是：为什么核糖体的结构和功能之美就不比一朵兰花或一张小孩的脸或森林中的一个深壑之中的浅水的美更值得我们去敬畏？”<br />
+</blockquote><br />
+－－Rudy Baum<br />
+《<a href="http://www.oursci.com/magazine/200405/0522.htm">科学以及敬畏的本质</a>》</p>
+
+<p><blockquote><br />
+考虑一下下面这个标题：“科学家培育出与人类基因组90%相同的猪”。也许有些人立即会想到“猪人”（或者“人猪”，随你怎么说）混血。听上去有点可怕，但是事实在于，猪的基因组与人的基因组的相似程度大约就是90%。<br />
+</blockquote><br />
+<blockquote><br />
+有一种东西比它们都危险，它叫做无知。我当然尊重公众参与讨论科学问题——这本身是一种时代的进步。但是任何讨论都应该建立在清楚理解问题的事实和本质的基础上：如果你不理解一件事，你如何能够得出关于这件事的正确结论？<br />
+</blockquote><br />
+－－石青<br />
+《<a href="http://www.oursci.com/magazine/200405/0517.htm">最可怕的东西</a>》</p>
+
+<p>为什么非要把便携式机器的几个部分做在一起呢？现在或者不远的将来有没有办法把它们分开一段距离呢？<br />
+比如说，当我躺在床上想写点什么东西，手头只要一个小键盘或者手写板，以及一个发热量不高的显示屏。CPU？硬盘？内存？与外部网络连接的线路？可能都在另一间屋子里面，甚至在数公里之外的办公室－－只要连接的速率能够保证用户不会明显感觉到操作和阅读有迟滞。<br />
+分离式的个人电脑和手机好像都已经有了，如果以后普及开来的话，会不会咱们受不了因为过多的无线通讯带来的电磁波污染？还有，那分离的部件都得用电池啊，麻烦…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%8d%a1%e6%8b%89OK》&body=https%3a%2f%2fioerr.github.io%2fposts%2fkalaok%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkalaok%2f&text= @calon %e5%8d%a1%e6%8b%89OK&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

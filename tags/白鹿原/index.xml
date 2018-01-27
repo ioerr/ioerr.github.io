@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>白鹿原 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%99%BD%E9%B9%BF%E5%8E%9F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%99%BD%E9%B9%BF%E5%8E%9F/</link>
     <description>Recent content in 白鹿原 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%99%BD%E9%B9%BF%E5%8E%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2014 09:58:56 +0000</lastBuildDate>
     
-    <item>
-      <title>《白鹿原》中的包办婚姻</title>
-      <link>https://ioerr.github.io/bailuyuan-zhong-de-baoban-hunyin/</link>
-      <pubDate>Sun, 07 Sep 2014 09:58:56 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/bailuyuan-zhong-de-baoban-hunyin/</guid>
-      <description>&lt;p&gt;大概是高中的时候，断断续续翻过一下陈忠实的《白鹿原》，情节早就忘得差不多了。最近重新看了一遍，有的内容在当年如果看懂了，可能会挺震撼，现在也没有什么冲击力了——小说毕竟还是不能和更加深刻残酷的现实相提并论，更何况看《百年孤独》在前。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%99%BD%E9%B9%BF%E5%8E%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>《白鹿原》中的包办婚姻</title>
+        <link>https://ioerr.github.io/posts/bailuyuan-zhong-de-baoban-hunyin/</link>
+        <pubDate>Sun, 07 Sep 2014 09:58:56 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/bailuyuan-zhong-de-baoban-hunyin/</guid>
+        <description>&lt;p&gt;大概是高中的时候，断断续续翻过一下陈忠实的《白鹿原》，情节早就忘得差不多了。最近重新看了一遍，有的内容在当年如果看懂了，可能会挺震撼，现在也没有什么冲击力了——小说毕竟还是不能和更加深刻残酷的现实相提并论，更何况看《百年孤独》在前。&lt;/p&gt;
 
 &lt;p&gt;但还是有一点与现实和阅读《百年孤独》不同的体验：&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;p&gt;如果身处另一种时代背景，更多的人是否也会轻易认同一种更高形式的集体“和谐”呢？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

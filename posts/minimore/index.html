@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minimore - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Minimore" />
+<meta property="og:description" content="抽空改了个极简风格的主题 mnmlist。
+原主题：mnmlist v1
+原作者： Leo Babauta
+原作者地址： http://mnmlist.comhttp://mnmlist.com/theme
+修改主题：minimore
+修改者：Calon
+修改者blog地址：http://calon.weblogs.us/http://calon.weblogs.us/minimore
+原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
+小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。
+因为第三版太激进，所以我选择第一版为改造对象。
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
+more），而且没有采用固定宽度。
+如果不想要这些功能的话，直接上原主题或自己改造就好。
+Blockquote 的风格是借鉴 Medium 的。
+Font-family 采用优先雅黑和
+Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。
+因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
+插件是可以正常显示的。
+为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……
+不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。
+安装说明
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
+管理后台的主题板块中激活即可。
+版权声明
+原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。
+那我也指定使用 WTFPL（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
+twenty-thirteen 主题的 comments.php 除外。
+效果截图：
+
+下载地址：
+Box
+GitHub" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/minimore/" />
+
+
+
+<meta property="article:published_time" content="2013-08-02T17:10:16&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-08-02T17:10:16&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Minimore">
+<meta itemprop="description" content="抽空改了个极简风格的主题 mnmlist。
+原主题：mnmlist v1
+原作者： Leo Babauta
+原作者地址： http://mnmlist.comhttp://mnmlist.com/theme
+修改主题：minimore
+修改者：Calon
+修改者blog地址：http://calon.weblogs.us/http://calon.weblogs.us/minimore
+原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
+小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。
+因为第三版太激进，所以我选择第一版为改造对象。
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
+more），而且没有采用固定宽度。
+如果不想要这些功能的话，直接上原主题或自己改造就好。
+Blockquote 的风格是借鉴 Medium 的。
+Font-family 采用优先雅黑和
+Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。
+因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
+插件是可以正常显示的。
+为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……
+不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。
+安装说明
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
+管理后台的主题板块中激活即可。
+版权声明
+原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。
+那我也指定使用 WTFPL（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
+twenty-thirteen 主题的 comments.php 除外。
+效果截图：
+
+下载地址：
+Box
+GitHub">
+
+
+<meta itemprop="datePublished" content="2013-08-02T17:10:16&#43;00:00" />
+<meta itemprop="dateModified" content="2013-08-02T17:10:16&#43;00:00" />
+<meta itemprop="wordCount" content="64">
+
+
+
+<meta itemprop="keywords" content="WordPress,主题,极简," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Minimore"/>
+<meta name="twitter:description" content="抽空改了个极简风格的主题 mnmlist。
+原主题：mnmlist v1
+原作者： Leo Babauta
+原作者地址： http://mnmlist.comhttp://mnmlist.com/theme
+修改主题：minimore
+修改者：Calon
+修改者blog地址：http://calon.weblogs.us/http://calon.weblogs.us/minimore
+原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
+小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。
+因为第三版太激进，所以我选择第一版为改造对象。
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
+more），而且没有采用固定宽度。
+如果不想要这些功能的话，直接上原主题或自己改造就好。
+Blockquote 的风格是借鉴 Medium 的。
+Font-family 采用优先雅黑和
+Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。
+因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
+插件是可以正常显示的。
+为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……
+不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。
+安装说明
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
+管理后台的主题板块中激活即可。
+版权声明
+原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。
+那我也指定使用 WTFPL（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
+twenty-thirteen 主题的 comments.php 除外。
+效果截图：
+
+下载地址：
+Box
+GitHub"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2013-08-02 05:10">2013-08-02</time> &bull;
+          
+            
+            <a href="/categories/wordpress">WORDPRESS</a>
+          
+            , 
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Minimore</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/wordpress">
+              <span class="hash">#</span>WordPress</a>
+          
+            , 
+            <a href="/tags/%E4%B8%BB%E9%A2%98">
+              <span class="hash">#</span>主题</a>
+          
+            , 
+            <a href="/tags/%E6%9E%81%E7%AE%80">
+              <span class="hash">#</span>极简</a>
+          
+        
+      </p>
+    </header>
+    <section><p>抽空改了个极简风格的主题 <a href="http://mnmlist.com/theme">mnmlist</a>。</p>
+
+<p>原主题：mnmlist v1<br />
+原作者： Leo Babauta<br />
+原作者地址： <a href="http://mnmlist.com">http://mnmlist.com</a<br />
+原作主题地址： <a href="http://mnmlist.com/theme">http://mnmlist.com/theme</a></p>
+
+<p>修改主题：minimore<br />
+修改者：Calon<br />
+修改者blog地址：<a href="http://calon.weblogs.us/">http://calon.weblogs.us/</a<br />
+修改主题地址：<a href="http://calon.weblogs.us/minimore">http://calon.weblogs.us/minimore</a></p>
+
+<p>原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets<br />
+小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。</p>
+
+<p>因为第三版太激进，所以我选择第一版为改造对象。<br />
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个<br />
+more），而且没有采用固定宽度。<br />
+如果不想要这些功能的话，直接上原主题或自己改造就好。</p>
+
+<p>Blockquote 的风格是借鉴 Medium 的。<br />
+Font-family 采用优先雅黑和<br />
+Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。</p>
+
+<p>因为我自己是用 Disqus<br />
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus<br />
+插件是可以正常显示的。</p>
+
+<p>为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……</p>
+
+<p>不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。</p>
+
+<p>安装说明<br />
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress<br />
+管理后台的主题板块中激活即可。</p>
+
+<p>版权声明<br />
+原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。<br />
+那我也指定使用 <a href="http://www.wtfpl.net/">WTFPL</a>（Do What The Fuck You Want<br />
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用<br />
+twenty-thirteen 主题的 comments.php 除外。</p>
+
+<p>效果截图：<br />
+<a href="http://s111.photobucket.com/user/calon_plus/media/screenshot_small-1.png.html"><img src="http://i111.photobucket.com/albums/n154/calon_plus/screenshot_small-1.png" alt="photo
+screenshot\_small-1.png" /></a></p>
+
+<p>下载地址：<br />
+<a href="https://app.box.com/s/45domoq1nf2rrdf03wmx">Box</a><br />
+<a href="https://github.com/calon/minimore/archive/master.zip">GitHub</a></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Minimore》&body=https%3a%2f%2fioerr.github.io%2fposts%2fminimore%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fminimore%2f&text= @calon Minimore&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

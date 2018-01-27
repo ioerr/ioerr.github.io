@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>点阵图表示数字 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="点阵图表示数字" />
+<meta property="og:description" content="纯粹无聊的产物。
+要表示 0～9 的阿拉伯数字至少需要多大的点阵呢？
+如果要让人能够容易辨认，至少也需要 3×5 的点阵，图像如下：
+而 3×5
+的点阵最多可以表示32768个数字，除去非常混乱不具备可识别特征的图案，应该还有很大的空间，点阵应该还能够精简。
+10个数字，至少也是 10 bit
+的信息量，因此用来表示10进制数字的点阵不能够少于4个点。如果用4个点来表示10个数字，在尽量保证不会混淆的情况下，也只能够得到如下的方案：
+可以看出，这样的图案仍然容易让人糊涂。
+如果要让10个符号又容易识别又能够用 bit
+最少的点阵来表示，有什么好方案呢？无聊的时候，不妨想一想，自己创造一套10进制的符号出来吧。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dianzhentu-shuzi/" />
+
+
+
+<meta property="article:published_time" content="2004-12-11T14:25:43&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-12-11T14:25:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="点阵图表示数字">
+<meta itemprop="description" content="纯粹无聊的产物。
+要表示 0～9 的阿拉伯数字至少需要多大的点阵呢？
+如果要让人能够容易辨认，至少也需要 3×5 的点阵，图像如下：
+而 3×5
+的点阵最多可以表示32768个数字，除去非常混乱不具备可识别特征的图案，应该还有很大的空间，点阵应该还能够精简。
+10个数字，至少也是 10 bit
+的信息量，因此用来表示10进制数字的点阵不能够少于4个点。如果用4个点来表示10个数字，在尽量保证不会混淆的情况下，也只能够得到如下的方案：
+可以看出，这样的图案仍然容易让人糊涂。
+如果要让10个符号又容易识别又能够用 bit
+最少的点阵来表示，有什么好方案呢？无聊的时候，不妨想一想，自己创造一套10进制的符号出来吧。">
+
+
+<meta itemprop="datePublished" content="2004-12-11T14:25:43&#43;00:00" />
+<meta itemprop="dateModified" content="2004-12-11T14:25:43&#43;00:00" />
+<meta itemprop="wordCount" content="18">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="点阵图表示数字"/>
+<meta name="twitter:description" content="纯粹无聊的产物。
+要表示 0～9 的阿拉伯数字至少需要多大的点阵呢？
+如果要让人能够容易辨认，至少也需要 3×5 的点阵，图像如下：
+而 3×5
+的点阵最多可以表示32768个数字，除去非常混乱不具备可识别特征的图案，应该还有很大的空间，点阵应该还能够精简。
+10个数字，至少也是 10 bit
+的信息量，因此用来表示10进制数字的点阵不能够少于4个点。如果用4个点来表示10个数字，在尽量保证不会混淆的情况下，也只能够得到如下的方案：
+可以看出，这样的图案仍然容易让人糊涂。
+如果要让10个符号又容易识别又能够用 bit
+最少的点阵来表示，有什么好方案呢？无聊的时候，不妨想一想，自己创造一套10进制的符号出来吧。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-12-11 02:25">2004-12-11</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>点阵图表示数字</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>纯粹无聊的产物。</p>
+
+<p>要表示 0～9 的阿拉伯数字至少需要多大的点阵呢？<br />
+如果要让人能够容易辨认，至少也需要 3×5 的点阵，图像如下：<br />
+<img src="http://photos2.flickr.com/2081600_e4aabab3b8.jpg" alt="" /><br />
+而 3×5<br />
+的点阵最多可以表示32768个数字，除去非常混乱不具备可识别特征的图案，应该还有很大的空间，点阵应该还能够精简。</p>
+
+<p>10个数字，至少也是 10 bit<br />
+的信息量，因此用来表示10进制数字的点阵不能够少于4个点。如果用4个点来表示10个数字，在尽量保证不会混淆的情况下，也只能够得到如下的方案：<br />
+<img src="http://photos2.flickr.com/2081601_9ac6cfcaff_m.jpg" alt="" /><br />
+可以看出，这样的图案仍然容易让人糊涂。</p>
+
+<p>如果要让10个符号又容易识别又能够用 bit<br />
+最少的点阵来表示，有什么好方案呢？无聊的时候，不妨想一想，自己创造一套10进制的符号出来吧。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%82%b9%e9%98%b5%e5%9b%be%e8%a1%a8%e7%a4%ba%e6%95%b0%e5%ad%97》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdianzhentu-shuzi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdianzhentu-shuzi%2f&text= @calon %e7%82%b9%e9%98%b5%e5%9b%be%e8%a1%a8%e7%a4%ba%e6%95%b0%e5%ad%97&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

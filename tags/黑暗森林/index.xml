@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>黑暗森林 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97/</link>
     <description>Recent content in 黑暗森林 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Dec 2014 14:04:11 +0000</lastBuildDate>
     
-    <item>
-      <title>关于黑暗森林理论的讨论</title>
-      <link>https://ioerr.github.io/guanyu-heian-senlin-lilun-de-taolun/</link>
-      <pubDate>Wed, 03 Dec 2014 14:04:11 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-heian-senlin-lilun-de-taolun/</guid>
-      <description>&lt;p&gt;最近因为爆出《三体》系列要拍电影的新闻，似乎又重新燃起了讨论《三体》的热情。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>关于黑暗森林理论的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-heian-senlin-lilun-de-taolun/</link>
+        <pubDate>Wed, 03 Dec 2014 14:04:11 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-heian-senlin-lilun-de-taolun/</guid>
+        <description>&lt;p&gt;最近因为爆出《三体》系列要拍电影的新闻，似乎又重新燃起了讨论《三体》的热情。&lt;br /&gt;
 宿遗微信群里面也爆发了一次迟到的关于黑暗森林理论成立的可能性的讨论（还好微信群还支持聊天记录批量发邮件）：&lt;/p&gt;
 
 &lt;p&gt;有害书籍爱好者：&lt;br /&gt;
@@ -58,7 +58,7 @@
 黑暗森林理论成立的先决条件是所有文明相信这个理论，如果最先技术爆炸的最先进文明不相信，结果可能就完全不同&lt;/p&gt;
 
 &lt;p&gt;有害书籍爱好者：&lt;br /&gt;
-从文明与技术进步的关系来看，
+从文明与技术进步的关系来看，&lt;br /&gt;
 封闭和默认攻击型的文明类型未必有发展出宇宙级技术爆炸的能力，即使有这个能力，概率很可能低于开放探索和默认沟通型文明，因为技术发展需要高级社会沟通能力&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
@@ -188,7 +188,7 @@
 如果这样算，产生善意文明的可能性也无穷大，而善意文明的沟通互助结盟的技术水平比单兵作战的恶意文明高得多，最终恶意文明很可能都会无法维持原有策略。&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
-而且证伪
+而且证伪&lt;br /&gt;
 很难，比证明还难。你没法说这个理论结果错了，除非你穷举了所有宇宙间文明现象。&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
@@ -391,7 +391,7 @@
 &lt;p&gt;老人家：&lt;br /&gt;
 特别是香港片&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

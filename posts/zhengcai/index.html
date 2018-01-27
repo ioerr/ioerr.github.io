@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蒸菜 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="蒸菜" />
+<meta property="og:description" content="最近加班多，于是经常在公司附近的浏阳蒸菜馆吃饭，感觉性价比很高。
+最大的优点是上菜速度快。
+反正都是已经做好的菜，一直用蒸的方式保温，一点完菜就可以开始吃，很适合时间紧张的人士。
+然后是价格还算便宜。
+荤菜6元，素菜2元，最低消费每人6元。一个人吃也就是8元左右，几个人一起吃更加划得来。
+配套服务齐全。
+米饭无限量供应，附茶水、卷筒纸、牙签，有时候老板还附赠家乡带来的蒿子粑粑。
+食谱还算健康。
+至少每餐可以吃到素菜，不喜欢蒸的素菜还可以要店家临时炒菜，比如菠菜和小白菜。
+荤菜有红烧猪脚、红烧排骨、蒜苗鸡丁、鸡杂、梅菜扣肉、腊肠、玫瑰排骨、红烧肉等等，素菜有芹菜香干、白萝卜、茄子、豆角等等，蒸蛋算素菜。相比之下，经常吃面、粉、炒饭或者煲仔饭，食谱就比较单一了，可以选择的余地和组合也不多。
+总体来说，除了卫生状况和环境之外，蒸菜比洋快餐更适合我，吃肯德基的时候，光是汉堡×2&#43;美禄就差不多25元了，到头来还吃不饱，素食偏少。
+我觉得蒸菜这种形式其实应该很适合中式快餐，至少可以解决上菜慢的瓶颈，比如现在就有连锁的“华人蒸菜馆”在做中式蒸菜快餐的生意——然则我有过一次在华人蒸菜馆空闲时段等了40分钟才吃到饭菜的经历…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhengcai/" />
+
+
+
+<meta property="article:published_time" content="2009-03-12T16:09:20&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-03-12T16:09:20&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="蒸菜">
+<meta itemprop="description" content="最近加班多，于是经常在公司附近的浏阳蒸菜馆吃饭，感觉性价比很高。
+最大的优点是上菜速度快。
+反正都是已经做好的菜，一直用蒸的方式保温，一点完菜就可以开始吃，很适合时间紧张的人士。
+然后是价格还算便宜。
+荤菜6元，素菜2元，最低消费每人6元。一个人吃也就是8元左右，几个人一起吃更加划得来。
+配套服务齐全。
+米饭无限量供应，附茶水、卷筒纸、牙签，有时候老板还附赠家乡带来的蒿子粑粑。
+食谱还算健康。
+至少每餐可以吃到素菜，不喜欢蒸的素菜还可以要店家临时炒菜，比如菠菜和小白菜。
+荤菜有红烧猪脚、红烧排骨、蒜苗鸡丁、鸡杂、梅菜扣肉、腊肠、玫瑰排骨、红烧肉等等，素菜有芹菜香干、白萝卜、茄子、豆角等等，蒸蛋算素菜。相比之下，经常吃面、粉、炒饭或者煲仔饭，食谱就比较单一了，可以选择的余地和组合也不多。
+总体来说，除了卫生状况和环境之外，蒸菜比洋快餐更适合我，吃肯德基的时候，光是汉堡×2&#43;美禄就差不多25元了，到头来还吃不饱，素食偏少。
+我觉得蒸菜这种形式其实应该很适合中式快餐，至少可以解决上菜慢的瓶颈，比如现在就有连锁的“华人蒸菜馆”在做中式蒸菜快餐的生意——然则我有过一次在华人蒸菜馆空闲时段等了40分钟才吃到饭菜的经历…">
+
+
+<meta itemprop="datePublished" content="2009-03-12T16:09:20&#43;00:00" />
+<meta itemprop="dateModified" content="2009-03-12T16:09:20&#43;00:00" />
+<meta itemprop="wordCount" content="12">
+
+
+
+<meta itemprop="keywords" content="快餐,蒸菜," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="蒸菜"/>
+<meta name="twitter:description" content="最近加班多，于是经常在公司附近的浏阳蒸菜馆吃饭，感觉性价比很高。
+最大的优点是上菜速度快。
+反正都是已经做好的菜，一直用蒸的方式保温，一点完菜就可以开始吃，很适合时间紧张的人士。
+然后是价格还算便宜。
+荤菜6元，素菜2元，最低消费每人6元。一个人吃也就是8元左右，几个人一起吃更加划得来。
+配套服务齐全。
+米饭无限量供应，附茶水、卷筒纸、牙签，有时候老板还附赠家乡带来的蒿子粑粑。
+食谱还算健康。
+至少每餐可以吃到素菜，不喜欢蒸的素菜还可以要店家临时炒菜，比如菠菜和小白菜。
+荤菜有红烧猪脚、红烧排骨、蒜苗鸡丁、鸡杂、梅菜扣肉、腊肠、玫瑰排骨、红烧肉等等，素菜有芹菜香干、白萝卜、茄子、豆角等等，蒸蛋算素菜。相比之下，经常吃面、粉、炒饭或者煲仔饭，食谱就比较单一了，可以选择的余地和组合也不多。
+总体来说，除了卫生状况和环境之外，蒸菜比洋快餐更适合我，吃肯德基的时候，光是汉堡×2&#43;美禄就差不多25元了，到头来还吃不饱，素食偏少。
+我觉得蒸菜这种形式其实应该很适合中式快餐，至少可以解决上菜慢的瓶颈，比如现在就有连锁的“华人蒸菜馆”在做中式蒸菜快餐的生意——然则我有过一次在华人蒸菜馆空闲时段等了40分钟才吃到饭菜的经历…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-03-12 04:09">2009-03-12</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>蒸菜</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%BF%AB%E9%A4%90">
+              <span class="hash">#</span>快餐</a>
+          
+            , 
+            <a href="/tags/%E8%92%B8%E8%8F%9C">
+              <span class="hash">#</span>蒸菜</a>
+          
+        
+      </p>
+    </header>
+    <section><p>最近加班多，于是经常在公司附近的浏阳蒸菜馆吃饭，感觉性价比很高。</p>
+
+<p>最大的优点是上菜速度快。<br />
+反正都是已经做好的菜，一直用蒸的方式保温，一点完菜就可以开始吃，很适合时间紧张的人士。</p>
+
+<p>然后是价格还算便宜。<br />
+荤菜6元，素菜2元，最低消费每人6元。一个人吃也就是8元左右，几个人一起吃更加划得来。</p>
+
+<p>配套服务齐全。<br />
+米饭无限量供应，附茶水、卷筒纸、牙签，有时候老板还附赠家乡带来的蒿子粑粑。</p>
+
+<p>食谱还算健康。<br />
+至少每餐可以吃到素菜，不喜欢蒸的素菜还可以要店家临时炒菜，比如菠菜和小白菜。<br />
+荤菜有红烧猪脚、红烧排骨、蒜苗鸡丁、鸡杂、梅菜扣肉、腊肠、玫瑰排骨、红烧肉等等，素菜有芹菜香干、白萝卜、茄子、豆角等等，蒸蛋算素菜。相比之下，经常吃面、粉、炒饭或者煲仔饭，食谱就比较单一了，可以选择的余地和组合也不多。</p>
+
+<p>总体来说，除了卫生状况和环境之外，蒸菜比洋快餐更适合我，吃肯德基的时候，光是汉堡×2+美禄就差不多25元了，到头来还吃不饱，素食偏少。</p>
+
+<p>我觉得蒸菜这种形式其实应该很适合中式快餐，至少可以解决上菜慢的瓶颈，比如现在就有连锁的“华人蒸菜馆”在做中式蒸菜快餐的生意——然则我有过一次在华人蒸菜馆空闲时段等了40分钟才吃到饭菜的经历…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%92%b8%e8%8f%9c》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhengcai%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhengcai%2f&text= @calon %e8%92%b8%e8%8f%9c&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>搜索 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/</link>
     <description>Recent content in 搜索 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jan 2017 16:44:31 +0800</lastBuildDate>
     
-    <item>
-      <title>电商网站搜索体验的问题</title>
-      <link>https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/</link>
-      <pubDate>Thu, 19 Jan 2017 16:44:31 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/dianshang-wangzhan-sousuo-tiyan-de-wenti/</guid>
-      <description>&lt;p&gt;不得不说在淘宝、天猫这种有大量第三方商家入驻的平台搜索商品的体验非常差。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>电商网站搜索体验的问题</title>
+        <link>https://ioerr.github.io/posts/dianshang-wangzhan-sousuo-tiyan-de-wenti/</link>
+        <pubDate>Thu, 19 Jan 2017 16:44:31 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/dianshang-wangzhan-sousuo-tiyan-de-wenti/</guid>
+        <description>&lt;p&gt;不得不说在淘宝、天猫这种有大量第三方商家入驻的平台搜索商品的体验非常差。&lt;/p&gt;
 
 &lt;p&gt;一大问题就是商品图片相互抄袭多，一个关键词搜出来的结果，满屏幕都是雷同的图片。&lt;br /&gt;
 不但毫无区分商品的作用，还变相鼓励商家互相抄袭——反正用户也不在乎/没法在乎商品图片的差异，为何不偷别人的图片呢？&lt;/p&gt;
@@ -31,15 +31,17 @@
 店家甲的套餐如下：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;套餐一15000元：相机+三脚架+存储卡&lt;/li&gt;
-&lt;li&gt;套餐二17000元：相机+三脚架+存储卡+某镜头&lt;/li&gt;
+&lt;li&gt;套餐一15000元：相机+三脚架+存储卡&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;套餐二17000元：相机+三脚架+存储卡+某镜头&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;店家乙的套餐如下：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;套餐一15000元：相机+存储卡+读卡器+副厂电池+闪光灯&lt;/li&gt;
-&lt;li&gt;套餐二16000元：相机+存储卡+读卡器+原厂电池+原厂充电器+相机包+闪光灯+引闪线++UV镜&lt;/li&gt;
+&lt;li&gt;套餐一15000元：相机+存储卡+读卡器+副厂电池+闪光灯&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;套餐二16000元：相机+存储卡+读卡器+原厂电池+原厂充电器+相机包+闪光灯+引闪线++UV镜&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;这时一个已经有闪光灯，不需要多配电池、相机包，但是可能需要三脚架和替换镜头的消费者，无法直接在搜索结果中了解到店家甲的套餐可能更合适，而店家乙的套餐根本不用看。&lt;br /&gt;
@@ -61,17 +63,16 @@
 &lt;p&gt;而现在的搜索和筛选结果实在距离这个要求太远。&lt;br /&gt;
 结果就是，如果有得选择，我还是更加相信专业的评测（比如 &lt;a href=&#34;http://thewirecutter.com/&#34;&gt;Wirecutter&lt;/a&gt;）、身边熟人的推荐，并尽量在靠谱的 B2C 电商平台上购买。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>为什么标签系统和全文检索还不够好用？</title>
-      <link>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
-      <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
-      <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr
-等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了
-Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
+      <item>
+        <title>为什么标签系统和全文检索还不够好用？</title>
+        <link>https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</link>
+        <pubDate>Sat, 12 Oct 2013 10:07:33 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/</guid>
+        <description>&lt;p&gt;Web 2.0 概念红火的时候，Delicious、Flickr&lt;br /&gt;
+等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了&lt;br /&gt;
+Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote&lt;br /&gt;
 和为知这样需要保存内容的笔记工具。&lt;/p&gt;
 
 &lt;p&gt;一个原因是，不支持组合标签的标签系统就是残废。&lt;/p&gt;
@@ -89,7 +90,7 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote
 
 &lt;p&gt;所以，大概只有等到程序能够理解自然语言的含义，才能以符合预期的方式检索信息吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

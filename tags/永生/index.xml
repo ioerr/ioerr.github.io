@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>永生 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B0%B8%E7%94%9F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B0%B8%E7%94%9F/</link>
     <description>Recent content in 永生 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B0%B8%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2017 13:26:09 +0800</lastBuildDate>
     
-    <item>
-      <title>关于绝症、死亡和信仰的讨论</title>
-      <link>https://ioerr.github.io/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
-      <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
-      <description>&lt;p&gt;—————  2017-09-04  —————&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%B0%B8%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>关于绝症、死亡和信仰的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
+        <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
+        <description>&lt;p&gt;—————  2017-09-04  —————&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
 
@@ -118,7 +118,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;好死不如赖活着
+&lt;p&gt;好死不如赖活着&lt;br /&gt;
 关键我不认为放化疗比中医更能让人赖活&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
@@ -445,7 +445,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。
+&lt;p&gt;到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。&lt;br /&gt;
 至少这样多少能有点希望和念想。人就是活在希望中的&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
@@ -550,7 +550,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;这种恐惧从小学到现在一直都有，一直都有。
+&lt;p&gt;这种恐惧从小学到现在一直都有，一直都有。&lt;br /&gt;
 只不过现在没空去想这种感受了&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
@@ -749,7 +749,7 @@
 
 &lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;@司马 说得好。这是两种解释
+&lt;p&gt;@司马 说得好。这是两种解释&lt;br /&gt;
 [偷笑]只要那个珍惜时间看淡其他的态度，不能真的当最后一天&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
@@ -1130,7 +1130,7 @@
 
 &lt;p&gt;儒，对我来说不太具体，就是温文尔雅，爱好诗文，坚持道德正统的一群人而已。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>前奏 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="前奏" />
+<meta property="og:description" content="同一天之内，Twitter、Flickr、Live（包括
+Hotmail）、Bing 遭到 GFW
+毒手，是前奏耶？警告耶？斩首行动耶？“巧合”耶？
+Geek 扎堆的 Twitter 倒不怎么怕 GFW
+的关照，被封杀之后，各路人马毫不费力的“红杏出墙”，群情激愤，信息量倒比往常高出了许多，充分显示了
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale
+而不是坦克才能阻止它。
+
+
+为人进出的门紧锁着，
+一个声音高叫着：
+——你不是喜欢自由吗？
+乖乖的翻墙吧！
+我渴望自由，
+但我深深知道
+——我们怎能翻一辈子的墙！
+我希望有一天，
+互联网的大潮袭来，
+将我连这网络长城一齐冲走，
+我应该在浪花与热血中得到永生！
+
+曾经进过小黑屋的 Flickr 就麻烦多了，目前 Access
+Flickr!
+插件失效，只能用代理工具访问，也不方便分享照片。
+另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发
+GFW 动作的国内用户不知好歹，这次当然也不例外。 还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/qianzou/" />
+
+
+
+<meta property="article:published_time" content="2009-06-02T16:22:45&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-06-02T16:22:45&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="前奏">
+<meta itemprop="description" content="同一天之内，Twitter、Flickr、Live（包括
+Hotmail）、Bing 遭到 GFW
+毒手，是前奏耶？警告耶？斩首行动耶？“巧合”耶？
+Geek 扎堆的 Twitter 倒不怎么怕 GFW
+的关照，被封杀之后，各路人马毫不费力的“红杏出墙”，群情激愤，信息量倒比往常高出了许多，充分显示了
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale
+而不是坦克才能阻止它。
+
+
+为人进出的门紧锁着，
+一个声音高叫着：
+——你不是喜欢自由吗？
+乖乖的翻墙吧！
+我渴望自由，
+但我深深知道
+——我们怎能翻一辈子的墙！
+我希望有一天，
+互联网的大潮袭来，
+将我连这网络长城一齐冲走，
+我应该在浪花与热血中得到永生！
+
+曾经进过小黑屋的 Flickr 就麻烦多了，目前 Access
+Flickr!
+插件失效，只能用代理工具访问，也不方便分享照片。
+另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发
+GFW 动作的国内用户不知好歹，这次当然也不例外。 还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？">
+
+
+<meta itemprop="datePublished" content="2009-06-02T16:22:45&#43;00:00" />
+<meta itemprop="dateModified" content="2009-06-02T16:22:45&#43;00:00" />
+<meta itemprop="wordCount" content="37">
+
+
+
+<meta itemprop="keywords" content="flickr,GFW,twitter," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="前奏"/>
+<meta name="twitter:description" content="同一天之内，Twitter、Flickr、Live（包括
+Hotmail）、Bing 遭到 GFW
+毒手，是前奏耶？警告耶？斩首行动耶？“巧合”耶？
+Geek 扎堆的 Twitter 倒不怎么怕 GFW
+的关照，被封杀之后，各路人马毫不费力的“红杏出墙”，群情激愤，信息量倒比往常高出了许多，充分显示了
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale
+而不是坦克才能阻止它。
+
+
+为人进出的门紧锁着，
+一个声音高叫着：
+——你不是喜欢自由吗？
+乖乖的翻墙吧！
+我渴望自由，
+但我深深知道
+——我们怎能翻一辈子的墙！
+我希望有一天，
+互联网的大潮袭来，
+将我连这网络长城一齐冲走，
+我应该在浪花与热血中得到永生！
+
+曾经进过小黑屋的 Flickr 就麻烦多了，目前 Access
+Flickr!
+插件失效，只能用代理工具访问，也不方便分享照片。
+另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发
+GFW 动作的国内用户不知好歹，这次当然也不例外。 还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-06-02 04:22">2009-06-02</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>前奏</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/flickr">
+              <span class="hash">#</span>flickr</a>
+          
+            , 
+            <a href="/tags/gfw">
+              <span class="hash">#</span>GFW</a>
+          
+            , 
+            <a href="/tags/twitter">
+              <span class="hash">#</span>twitter</a>
+          
+        
+      </p>
+    </header>
+    <section>
+
+<p>同一天之内，<a href="http://twitter.com/">Twitter</a>、<a href="http://www.flickr.com/">Flickr</a>、<a href="http://www.live.com/">Live</a>（包括<br />
+Hotmail）、<a href="http://bing.com/">Bing</a> 遭到 GFW<br />
+毒手，是前奏耶？警告耶？斩首行动耶？“<a href="http://www.donews.com/Content/200906/fe171070af1e4d809779c73af5569a00.shtm">巧合</a>”耶？</p>
+
+<p>Geek 扎堆的 Twitter 倒不怎么怕 GFW<br />
+的关照，被封杀之后，各路人马<a href="http://www.williamlong.info/archives/1816.html">毫不费力</a>的“<a href="http://www.kenengba.com/post/1136.html">红杏出墙</a>”，<a href="http://search.twitter.com/search?q=%23FuckGFW">群情激愤</a>，信息量倒比往常高出了许多，充分显示了<br />
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale<br />
+而不是坦克才能阻止它。<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=4967.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/4967.jpg" alt="Photobucket" /></a></p>
+
+<p><blockquote><br />
+为人进出的门紧锁着，<br />
+一个声音高叫着：<br />
+——你不是喜欢自由吗？<br />
+乖乖的翻墙吧！</p>
+
+<p>我渴望自由，<br />
+但我深深知道<br />
+——我们怎能翻一辈子的墙！</p>
+
+<p>我希望有一天，<br />
+互联网的大潮袭来，<br />
+将我连这网络长城一齐冲走，<br />
+<a href="https://friendfeed.com/calon/9c8fb588">我应该在浪花与热血中得到永生</a>！<br />
+</blockquote><br />
+曾经进过小黑屋的 Flickr 就麻烦多了，目前 <a href="https://addons.mozilla.org/en-US/firefox/addon/4286">Access<br />
+Flickr!</a><br />
+插件失效，只能用代理工具访问，也不方便分享照片。</p>
+
+<p>另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发</p>
+
+<h2 id="gfw-动作的国内用户不知好歹-这次当然也不例外">GFW 动作的国内用户不知好歹，这次当然也不例外。</h2>
+
+<p>还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%89%8d%e5%a5%8f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fqianzou%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fqianzou%2f&text= @calon %e5%89%8d%e5%a5%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

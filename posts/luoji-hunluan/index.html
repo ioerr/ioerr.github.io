@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>逻辑混乱 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="逻辑混乱" />
+<meta property="og:description" content="今天看到一篇芦笛的《中国人致命的缺点是没有逻辑思维！》，文中提出以下几点毛病：
+概念不清晰
+只有论点没有论据没有论证，不证而论
+乱用类比推理
+以“经典”作论据（以及代替论证，实际也是一种不证而论）
+以偏概全，乱作归纳推理，把个别的、一时的现象当作普遍的和永恒的
+说“中国人”如何如何似乎也是一种“以偏概全”，但这举出的几个毛病还真是说到了点子上，虽不为中国人所特有，也未必是属于大多数中国人的毛病，可在拿周围发生的许许多多让人啼笑皆非的事情仔细一分析，还真的和这类思维不清逻辑混乱的毛病脱不了关系。
+FirefoxIE，如果你想让你的 Firefox 看上去像
+IE 的话… -_-!
+听罗大佑的新歌《阿辉饲了一只狗》时，差点笑到把口水喷到显示屏上…" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/luoji-hunluan/" />
+
+
+
+<meta property="article:published_time" content="2004-11-23T13:35:28&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-11-23T13:35:28&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="逻辑混乱">
+<meta itemprop="description" content="今天看到一篇芦笛的《中国人致命的缺点是没有逻辑思维！》，文中提出以下几点毛病：
+概念不清晰
+只有论点没有论据没有论证，不证而论
+乱用类比推理
+以“经典”作论据（以及代替论证，实际也是一种不证而论）
+以偏概全，乱作归纳推理，把个别的、一时的现象当作普遍的和永恒的
+说“中国人”如何如何似乎也是一种“以偏概全”，但这举出的几个毛病还真是说到了点子上，虽不为中国人所特有，也未必是属于大多数中国人的毛病，可在拿周围发生的许许多多让人啼笑皆非的事情仔细一分析，还真的和这类思维不清逻辑混乱的毛病脱不了关系。
+FirefoxIE，如果你想让你的 Firefox 看上去像
+IE 的话… -_-!
+听罗大佑的新歌《阿辉饲了一只狗》时，差点笑到把口水喷到显示屏上…">
+
+
+<meta itemprop="datePublished" content="2004-11-23T13:35:28&#43;00:00" />
+<meta itemprop="dateModified" content="2004-11-23T13:35:28&#43;00:00" />
+<meta itemprop="wordCount" content="14">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="逻辑混乱"/>
+<meta name="twitter:description" content="今天看到一篇芦笛的《中国人致命的缺点是没有逻辑思维！》，文中提出以下几点毛病：
+概念不清晰
+只有论点没有论据没有论证，不证而论
+乱用类比推理
+以“经典”作论据（以及代替论证，实际也是一种不证而论）
+以偏概全，乱作归纳推理，把个别的、一时的现象当作普遍的和永恒的
+说“中国人”如何如何似乎也是一种“以偏概全”，但这举出的几个毛病还真是说到了点子上，虽不为中国人所特有，也未必是属于大多数中国人的毛病，可在拿周围发生的许许多多让人啼笑皆非的事情仔细一分析，还真的和这类思维不清逻辑混乱的毛病脱不了关系。
+FirefoxIE，如果你想让你的 Firefox 看上去像
+IE 的话… -_-!
+听罗大佑的新歌《阿辉饲了一只狗》时，差点笑到把口水喷到显示屏上…"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-11-23 01:35">2004-11-23</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>逻辑混乱</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>今天看到一篇芦笛的《<a href="http://www3.tianyaclub.com/new/Publicforum/Content.asp?idWriter=532791&amp;Key=749881409&amp;strItem=no01&amp;idArticle=121651&amp;flag=1">中国人致命的缺点是没有逻辑思维！</a>》，文中提出以下几点毛病：</p>
+
+<p>概念不清晰</p>
+
+<p>只有论点没有论据没有论证，不证而论</p>
+
+<p>乱用类比推理</p>
+
+<p>以“经典”作论据（以及代替论证，实际也是一种不证而论）</p>
+
+<p>以偏概全，乱作归纳推理，把个别的、一时的现象当作普遍的和永恒的</p>
+
+<p>说“中国人”如何如何似乎也是一种“以偏概全”，但这举出的几个毛病还真是说到了点子上，虽不为中国人所特有，也未必是属于大多数中国人的毛病，可在拿周围发生的许许多多让人啼笑皆非的事情仔细一分析，还真的和这类思维不清逻辑混乱的毛病脱不了关系。</p>
+
+<p><a href="http://www.firefoxie.net/">FirefoxIE</a>，如果你想让你的 Firefox 看上去像<br />
+IE 的话… -_-!</p>
+
+<p>听罗大佑的新歌《阿辉饲了一只狗》时，差点笑到把口水喷到显示屏上…</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%80%bb%e8%be%91%e6%b7%b7%e4%b9%b1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fluoji-hunluan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fluoji-hunluan%2f&text= @calon %e9%80%bb%e8%be%91%e6%b7%b7%e4%b9%b1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

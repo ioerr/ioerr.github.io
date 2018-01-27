@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智能狂拼测试版 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="智能狂拼测试版" />
+<meta property="og:description" content="听说智能狂拼新版本已经进入半公开测试阶段，于是下载了080606的α版本。
+整体来说存在不少问题，不建议安装使用：
+1、界面方案不稳定，可能暂时出现缓冲行、状态栏、候选句子和字无法显示的问题；
+2、自定义编码方案生成之后只能够删除重新生成，不能修改；
+3、候选句子、模糊音功能暂时无效；
+4、引号等标点的自动配对问题很多；
+5、部分设置随机生效失效；
+6、有的无关偏僻字会进入首选句子，比如 fou 出现了“不”，ru 出现了“女”，yu
+出现了“吾”。
+相比3.3的版本，目前看得到的改进点有：
+1、Tab
+进如英文输入状态之后也可以直接输入数字了，中英文数字标点混合输入的能力有了加强，相应的，切换是否显示候选数字的快捷键没有了；
+2、支持通过邮箱同步配置，不过因为还是测试版，所以没有试用这个功能；
+3、新增了声母定位和字母候选方式；
+4、修正了3.3版本中普遍存在的“初始化错误”问题；
+5、识别成功率有了提高。
+其他新功能见这里（页面还没有做好）。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhinengkuangpin-ceshiban/" />
+
+
+
+<meta property="article:published_time" content="2008-06-09T16:15:49&#43;00:00"/>
+
+<meta property="article:modified_time" content="2008-06-09T16:15:49&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="智能狂拼测试版">
+<meta itemprop="description" content="听说智能狂拼新版本已经进入半公开测试阶段，于是下载了080606的α版本。
+整体来说存在不少问题，不建议安装使用：
+1、界面方案不稳定，可能暂时出现缓冲行、状态栏、候选句子和字无法显示的问题；
+2、自定义编码方案生成之后只能够删除重新生成，不能修改；
+3、候选句子、模糊音功能暂时无效；
+4、引号等标点的自动配对问题很多；
+5、部分设置随机生效失效；
+6、有的无关偏僻字会进入首选句子，比如 fou 出现了“不”，ru 出现了“女”，yu
+出现了“吾”。
+相比3.3的版本，目前看得到的改进点有：
+1、Tab
+进如英文输入状态之后也可以直接输入数字了，中英文数字标点混合输入的能力有了加强，相应的，切换是否显示候选数字的快捷键没有了；
+2、支持通过邮箱同步配置，不过因为还是测试版，所以没有试用这个功能；
+3、新增了声母定位和字母候选方式；
+4、修正了3.3版本中普遍存在的“初始化错误”问题；
+5、识别成功率有了提高。
+其他新功能见这里（页面还没有做好）。">
+
+
+<meta itemprop="datePublished" content="2008-06-09T16:15:49&#43;00:00" />
+<meta itemprop="dateModified" content="2008-06-09T16:15:49&#43;00:00" />
+<meta itemprop="wordCount" content="20">
+
+
+
+<meta itemprop="keywords" content="智能狂拼,输入法," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="智能狂拼测试版"/>
+<meta name="twitter:description" content="听说智能狂拼新版本已经进入半公开测试阶段，于是下载了080606的α版本。
+整体来说存在不少问题，不建议安装使用：
+1、界面方案不稳定，可能暂时出现缓冲行、状态栏、候选句子和字无法显示的问题；
+2、自定义编码方案生成之后只能够删除重新生成，不能修改；
+3、候选句子、模糊音功能暂时无效；
+4、引号等标点的自动配对问题很多；
+5、部分设置随机生效失效；
+6、有的无关偏僻字会进入首选句子，比如 fou 出现了“不”，ru 出现了“女”，yu
+出现了“吾”。
+相比3.3的版本，目前看得到的改进点有：
+1、Tab
+进如英文输入状态之后也可以直接输入数字了，中英文数字标点混合输入的能力有了加强，相应的，切换是否显示候选数字的快捷键没有了；
+2、支持通过邮箱同步配置，不过因为还是测试版，所以没有试用这个功能；
+3、新增了声母定位和字母候选方式；
+4、修正了3.3版本中普遍存在的“初始化错误”问题；
+5、识别成功率有了提高。
+其他新功能见这里（页面还没有做好）。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2008-06-09 04:15">2008-06-09</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>智能狂拼测试版</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%99%BA%E8%83%BD%E7%8B%82%E6%8B%BC">
+              <span class="hash">#</span>智能狂拼</a>
+          
+            , 
+            <a href="/tags/%E8%BE%93%E5%85%A5%E6%B3%95">
+              <span class="hash">#</span>输入法</a>
+          
+        
+      </p>
+    </header>
+    <section><p>听说智能狂拼新版本已经进入半公开测试阶段，于是下载了080606的α版本。<br />
+整体来说存在<a href="http://www.tiansuo.com/websay/ViewTopic.aspx?tid=3436">不少问题</a>，不建议安装使用：<br />
+1、界面方案不稳定，可能暂时出现缓冲行、状态栏、候选句子和字无法显示的问题；<br />
+2、自定义编码方案生成之后只能够删除重新生成，不能修改；<br />
+3、候选句子、模糊音功能暂时无效；<br />
+4、引号等标点的自动配对问题很多；<br />
+5、部分设置随机生效失效；<br />
+6、有的无关偏僻字会进入首选句子，比如 fou 出现了“不”，ru 出现了“女”，yu<br />
+出现了“吾”。</p>
+
+<p>相比<a href="http://calon.weblogs.us/zhinengkuangpin_33/">3.3的版本</a>，目前看得到的改进点有：<br />
+1、Tab<br />
+进如英文输入状态之后也可以直接输入数字了，中英文数字标点混合输入的能力有了加强，相应的，切换是否显示候选数字的快捷键没有了；<br />
+2、支持通过邮箱同步配置，不过因为还是测试版，所以没有试用这个功能；<br />
+3、新增了声母定位和字母候选方式；<br />
+4、修正了3.3版本中普遍存在的“初始化错误”问题；<br />
+5、识别成功率有了提高。<br />
+其他新功能见<a href="http://user.kuangpin.com/newfeatures.htm">这里</a>（页面还没有做好）。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%99%ba%e8%83%bd%e7%8b%82%e6%8b%bc%e6%b5%8b%e8%af%95%e7%89%88》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhinengkuangpin-ceshiban%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhinengkuangpin-ceshiban%2f&text= @calon %e6%99%ba%e8%83%bd%e7%8b%82%e6%8b%bc%e6%b5%8b%e8%af%95%e7%89%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

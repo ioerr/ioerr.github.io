@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>计算机技术 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 计算机技术 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Aug 2016 10:27:23 +0000</lastBuildDate>
     
-    <item>
-      <title>编程、魔法和智商</title>
-      <link>https://ioerr.github.io/biancheng-mofa-he-zhishang/</link>
-      <pubDate>Wed, 03 Aug 2016 10:27:23 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/biancheng-mofa-he-zhishang/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
-科幻作家阿瑟·克拉克的第三定律：任何非常先进的技术，初看都与魔法无异。
-&lt;/blockquote&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>编程、魔法和智商</title>
+        <link>https://ioerr.github.io/posts/biancheng-mofa-he-zhishang/</link>
+        <pubDate>Wed, 03 Aug 2016 10:27:23 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/biancheng-mofa-he-zhishang/</guid>
+        <description>&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+科幻作家阿瑟·克拉克的第三定律：任何非常先进的技术，初看都与魔法无异。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 和同学谈到编程的话题时，有人说跟着小孩一起学习几节课就跟不上了，觉得很神奇，需要高智商才玩得转，我马上就想到克拉克的这句名言。&lt;br /&gt;
 计算机语言联通现实世界和虚拟世界，能够驱动机器做出一般人类无法理解的事情，这和魔法确实也相去不远了。&lt;/p&gt;
 
 &lt;p&gt;这样看来：&lt;br /&gt;
 程序员就是魔法师（资深单身程序员就是大魔法师，嗯嗯嗯）；&lt;br /&gt;
-程序代码就是魔法咒语，需要符合规则才能正常运行，有 bug
+程序代码就是魔法咒语，需要符合规则才能正常运行，有 bug&lt;br /&gt;
 的话天知道会有什么糟糕的结果；&lt;br /&gt;
 编程学习就是魔法学习，有的人在魔法学院接受专业的训练，有的人则利用魔法书自学成才；&lt;br /&gt;
 有计算机系统加成的武器相当于附魔武器；&lt;br /&gt;
@@ -33,8 +33,8 @@
 
 &lt;p&gt;当然，这种观点早就存在，所以有《简单易懂的现代魔法》这样的动画，有&lt;a href=&#34;http://www.nowamagic.net/&#34;&gt;简明现代魔法&lt;/a&gt;这样的编程社区，有《屠龙之技》这样的科幻小说。&lt;/p&gt;
 
-&lt;p&gt;不过现代社会中，计算机技术的应用已经比奇幻世界中的魔法深入宽广得多了，许多行业都已经离不开计算机技术的助力，小说中的魔法师学徒也没有
-Github、Stack Overflow
+&lt;p&gt;不过现代社会中，计算机技术的应用已经比奇幻世界中的魔法深入宽广得多了，许多行业都已经离不开计算机技术的助力，小说中的魔法师学徒也没有&lt;br /&gt;
+Github、Stack Overflow&lt;br /&gt;
 以及各种开源社区、免费教学这样好的学习、交流条件。&lt;br /&gt;
 也许在未来，每个人都需要懂一点计算机技术特别是编程知识，才能胜任工作，这几乎不会在以中世纪欧洲为设定背景的等级森严的奇幻小说中发生。&lt;/p&gt;
 
@@ -56,7 +56,7 @@ Github、Stack Overflow
 &lt;p&gt;另一个原因，也许是一个行业历史越短，成熟的经验、规范和方法论越少，则天才型的人物越容易出头、越容易被神化。&lt;br /&gt;
 也许在不久的未来，编程这个行当会像现代工厂中的流水线作业一样，分工越来越明确，需要个人发挥创造力的地方越来越少，创造性的工作只交给少数专业人士负责，大部分人和制造业工人没有什么区别，甚至慢慢被人工智能取代。现在一些创业公司喜欢鼓吹的什么弹性工作制、带宠物上班、游戏和零食等福利，放在未来那个时候大概会是天方夜谭吧。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

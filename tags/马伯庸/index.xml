@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>马伯庸 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%A9%AC%E4%BC%AF%E5%BA%B8/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%A9%AC%E4%BC%AF%E5%BA%B8/</link>
     <description>Recent content in 马伯庸 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%A9%AC%E4%BC%AF%E5%BA%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Nov 2007 14:19:40 +0000</lastBuildDate>
     
-    <item>
-      <title>殷商舰队玛雅征服史</title>
-      <link>https://ioerr.github.io/yinshangjiandui-maya-zhengfushi/</link>
-      <pubDate>Thu, 29 Nov 2007 14:19:40 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/yinshangjiandui-maya-zhengfushi/</guid>
-      <description>&lt;p&gt;24日的上午，下单后过了12天，总算收到了邮局送来的包裹单，在当当订的4本书到了，但让人气短的是，邮局离家4站路，我没办法自己一个人去取，家人又没有空闲，于是拖到昨天才拿到手。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%A9%AC%E4%BC%AF%E5%BA%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>殷商舰队玛雅征服史</title>
+        <link>https://ioerr.github.io/posts/yinshangjiandui-maya-zhengfushi/</link>
+        <pubDate>Thu, 29 Nov 2007 14:19:40 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/yinshangjiandui-maya-zhengfushi/</guid>
+        <description>&lt;p&gt;24日的上午，下单后过了12天，总算收到了邮局送来的包裹单，在当当订的4本书到了，但让人气短的是，邮局离家4站路，我没办法自己一个人去取，家人又没有空闲，于是拖到昨天才拿到手。&lt;br /&gt;
 几本书没有错漏的情况，只有《&lt;a href=&#34;http://www.douban.com/subject/1232728/&#34;&gt;康德〈纯粹理性批判〉指要&lt;/a&gt;》一书的品相差了一点，一来不好意思叫家人再跑一趟，二来只是外观差一点，也就算了。&lt;/p&gt;
 
 &lt;p&gt;网上购书的折扣对我吸引力不大，送货上门的时间、服务质量才是我最关心的，否则怎能弥补买书之前无法亲手翻阅浏览一遍的遗憾？如果快递送货上门的范围迟迟不包括我家，今后还是自己去书市好。&lt;/p&gt;
@@ -35,7 +35,7 @@
 
 &lt;p&gt;补充：这次马亲王没有无良到像《我在江湖》中那样用天外陨石法填坑，但“没有留下丝毫史料记载”这种说法也实在太拙劣了，这年头连古代太监净身都有史料记载，两相比较之下，后清人民难道不应该感到羞愧吗？&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

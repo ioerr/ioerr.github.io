@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>情人节 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%83%85%E4%BA%BA%E8%8A%82/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%83%85%E4%BA%BA%E8%8A%82/</link>
     <description>Recent content in 情人节 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E4%BA%BA%E8%8A%82/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Feb 2008 15:19:36 +0000</lastBuildDate>
     
-    <item>
-      <title>爱与怨念的音乐清单</title>
-      <link>https://ioerr.github.io/ai-yu-yuannian-de-yinyue-qingdan/</link>
-      <pubDate>Thu, 14 Feb 2008 15:19:36 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/ai-yu-yuannian-de-yinyue-qingdan/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.tudou.com/playlist/0214list/&#34;&gt;充满爱与怨念的音乐清单&lt;/a&gt;…&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E4%BA%BA%E8%8A%82/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>爱与怨念的音乐清单</title>
+        <link>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</link>
+        <pubDate>Thu, 14 Feb 2008 15:19:36 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.tudou.com/playlist/0214list/&#34;&gt;充满爱与怨念的音乐清单&lt;/a&gt;…&lt;br /&gt;
 因为怨念比较重，所以只有后面几首算是祝福情人们的。而且没有时间写文字和贴歌词了，自己挖掘吧…&lt;/p&gt;
 
-&lt;p&gt;虽然连义理巧克力都没有收到，但至少能够在 Twitter
+&lt;p&gt;虽然连义理巧克力都没有收到，但至少能够在 Twitter&lt;br /&gt;
 上收到义理小于3，也不错了…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

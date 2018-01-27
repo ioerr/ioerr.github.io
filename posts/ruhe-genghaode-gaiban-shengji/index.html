@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>如何更好地改版升级 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="如何更好地改版升级" />
+<meta property="og:description" content="豆瓣改版的争吵仍在继续，主体已经变味成了“精英主义”和“垃圾用户”的争论，还有没营养的签名抗议。
+不管怎么说，这次升级都已经称不上完美，“往者不可谏，来者犹可追”，还是来说说其他网站吸取豆瓣的教训后，今后升级时能够在改版升级之前做什么准备。
+1、新版本试运行一段时间，进行公开测试
+虽然豆瓣召集了一批“核心用户”进行了内部测试，但现在看来，也许保密工作还是做得太好而抽样工作勉勉强强。虽然我赞同这次的改版，但猛地看到新版本的界面，还是花了一段时间才适应，换作那些在老界面中驾轻就熟的用户，可能转变的过程会更加痛苦。
+所以不妨先推出一个公开测试的版本，一来是明确地告诉用户，网站肯定会要升级，二来，重度用户自然会积极参与测试，这本身就是一个筛选不同层次用户的过程，三则给了用户适应和自身调整的时间。
+这方面可以学习的例子有一直酝酿升级的
+Del.icio.us，虽然预览版本不是完全开放的，但还是很容易申请到测试邀请。
+2、提供新老版本切换功能
+最好的例子自然是 Google 了，Gmail、Reader
+等在升级后都提供切换回老版本的链接，麻烦是麻烦，但升级过程中的用户抱怨却可以降到最低。
+3、偷偷下手，从量变到质变的微调
+据说 eBay
+当年改底色引起用户强烈不满，只好先改回来，然后每天改一点点颜色才慢慢过渡成功。如今的改版不至于这么如履薄冰，但若升级的内容允许分步进行，慢慢调整，当然也是个不错的选项。
+4、模块化的自主升级
+最后这一种比较上等，并非都有条件实现。那就是网站的界面和功能完全是模块化的、可方便地自定义的。所谓升级，不过相当于站点方提供给用户新的地基、砖头和涂料（接口、功能模块和外观选项），网站推荐宣传过后，用户若是爱用就可以自己搭建好，若是不爱用也没关系，不管它就好，说不定哪天看到好友用得爽快也就乐意用上了。
+5、心狠手辣型
+召集所有反对新版本的用户开会商量，然后统统拖出去毙了，从此万事大吉，末了还要学威震天来一句，“我得不到的用户，谁也别想得到！”" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/ruhe-genghaode-gaiban-shengji/" />
+
+
+
+<meta property="article:published_time" content="2007-11-17T16:39:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-11-17T16:39:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="如何更好地改版升级">
+<meta itemprop="description" content="豆瓣改版的争吵仍在继续，主体已经变味成了“精英主义”和“垃圾用户”的争论，还有没营养的签名抗议。
+不管怎么说，这次升级都已经称不上完美，“往者不可谏，来者犹可追”，还是来说说其他网站吸取豆瓣的教训后，今后升级时能够在改版升级之前做什么准备。
+1、新版本试运行一段时间，进行公开测试
+虽然豆瓣召集了一批“核心用户”进行了内部测试，但现在看来，也许保密工作还是做得太好而抽样工作勉勉强强。虽然我赞同这次的改版，但猛地看到新版本的界面，还是花了一段时间才适应，换作那些在老界面中驾轻就熟的用户，可能转变的过程会更加痛苦。
+所以不妨先推出一个公开测试的版本，一来是明确地告诉用户，网站肯定会要升级，二来，重度用户自然会积极参与测试，这本身就是一个筛选不同层次用户的过程，三则给了用户适应和自身调整的时间。
+这方面可以学习的例子有一直酝酿升级的
+Del.icio.us，虽然预览版本不是完全开放的，但还是很容易申请到测试邀请。
+2、提供新老版本切换功能
+最好的例子自然是 Google 了，Gmail、Reader
+等在升级后都提供切换回老版本的链接，麻烦是麻烦，但升级过程中的用户抱怨却可以降到最低。
+3、偷偷下手，从量变到质变的微调
+据说 eBay
+当年改底色引起用户强烈不满，只好先改回来，然后每天改一点点颜色才慢慢过渡成功。如今的改版不至于这么如履薄冰，但若升级的内容允许分步进行，慢慢调整，当然也是个不错的选项。
+4、模块化的自主升级
+最后这一种比较上等，并非都有条件实现。那就是网站的界面和功能完全是模块化的、可方便地自定义的。所谓升级，不过相当于站点方提供给用户新的地基、砖头和涂料（接口、功能模块和外观选项），网站推荐宣传过后，用户若是爱用就可以自己搭建好，若是不爱用也没关系，不管它就好，说不定哪天看到好友用得爽快也就乐意用上了。
+5、心狠手辣型
+召集所有反对新版本的用户开会商量，然后统统拖出去毙了，从此万事大吉，末了还要学威震天来一句，“我得不到的用户，谁也别想得到！”">
+
+
+<meta itemprop="datePublished" content="2007-11-17T16:39:47&#43;00:00" />
+<meta itemprop="dateModified" content="2007-11-17T16:39:47&#43;00:00" />
+<meta itemprop="wordCount" content="20">
+
+
+
+<meta itemprop="keywords" content="升级,改版,豆瓣," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="如何更好地改版升级"/>
+<meta name="twitter:description" content="豆瓣改版的争吵仍在继续，主体已经变味成了“精英主义”和“垃圾用户”的争论，还有没营养的签名抗议。
+不管怎么说，这次升级都已经称不上完美，“往者不可谏，来者犹可追”，还是来说说其他网站吸取豆瓣的教训后，今后升级时能够在改版升级之前做什么准备。
+1、新版本试运行一段时间，进行公开测试
+虽然豆瓣召集了一批“核心用户”进行了内部测试，但现在看来，也许保密工作还是做得太好而抽样工作勉勉强强。虽然我赞同这次的改版，但猛地看到新版本的界面，还是花了一段时间才适应，换作那些在老界面中驾轻就熟的用户，可能转变的过程会更加痛苦。
+所以不妨先推出一个公开测试的版本，一来是明确地告诉用户，网站肯定会要升级，二来，重度用户自然会积极参与测试，这本身就是一个筛选不同层次用户的过程，三则给了用户适应和自身调整的时间。
+这方面可以学习的例子有一直酝酿升级的
+Del.icio.us，虽然预览版本不是完全开放的，但还是很容易申请到测试邀请。
+2、提供新老版本切换功能
+最好的例子自然是 Google 了，Gmail、Reader
+等在升级后都提供切换回老版本的链接，麻烦是麻烦，但升级过程中的用户抱怨却可以降到最低。
+3、偷偷下手，从量变到质变的微调
+据说 eBay
+当年改底色引起用户强烈不满，只好先改回来，然后每天改一点点颜色才慢慢过渡成功。如今的改版不至于这么如履薄冰，但若升级的内容允许分步进行，慢慢调整，当然也是个不错的选项。
+4、模块化的自主升级
+最后这一种比较上等，并非都有条件实现。那就是网站的界面和功能完全是模块化的、可方便地自定义的。所谓升级，不过相当于站点方提供给用户新的地基、砖头和涂料（接口、功能模块和外观选项），网站推荐宣传过后，用户若是爱用就可以自己搭建好，若是不爱用也没关系，不管它就好，说不定哪天看到好友用得爽快也就乐意用上了。
+5、心狠手辣型
+召集所有反对新版本的用户开会商量，然后统统拖出去毙了，从此万事大吉，末了还要学威震天来一句，“我得不到的用户，谁也别想得到！”"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-11-17 04:39">2007-11-17</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>如何更好地改版升级</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%8D%87%E7%BA%A7">
+              <span class="hash">#</span>升级</a>
+          
+            , 
+            <a href="/tags/%E6%94%B9%E7%89%88">
+              <span class="hash">#</span>改版</a>
+          
+            , 
+            <a href="/tags/%E8%B1%86%E7%93%A3">
+              <span class="hash">#</span>豆瓣</a>
+          
+        
+      </p>
+    </header>
+    <section><p>豆瓣改版的争吵仍在继续，主体已经变味成了“精英主义”和“垃圾用户”的争论，还有没营养的签名抗议。<br />
+不管怎么说，这次升级都已经称不上完美，“往者不可谏，来者犹可追”，还是来说说其他网站吸取豆瓣的教训后，今后升级时能够在改版升级之前做什么准备。</p>
+
+<p>1、新版本试运行一段时间，进行公开测试<br />
+虽然豆瓣召集了一批“核心用户”进行了内部测试，但现在看来，也许保密工作还是做得太好而抽样工作勉勉强强。虽然我赞同这次的改版，但猛地看到新版本的界面，还是花了一段时间才适应，换作那些在老界面中驾轻就熟的用户，可能转变的过程会更加痛苦。<br />
+所以不妨先推出一个公开测试的版本，一来是明确地告诉用户，网站肯定会要升级，二来，重度用户自然会积极参与测试，这本身就是一个筛选不同层次用户的过程，三则给了用户适应和自身调整的时间。<br />
+这方面可以学习的例子有一直酝酿升级的<br />
+<a href="http://del.icio.us/">Del.icio.us</a>，虽然<a href="http://preview.delicious.com/">预览版本</a>不是完全开放的，但还是很容易申请到测试邀请。</p>
+
+<p>2、提供新老版本切换功能<br />
+最好的例子自然是 Google 了，<a href="http://mail.google.com/mail">Gmail</a>、Reader<br />
+等在升级后都提供切换回老版本的链接，麻烦是麻烦，但升级过程中的用户抱怨却可以降到最低。</p>
+
+<p>3、偷偷下手，从量变到质变的微调<br />
+据说 eBay<br />
+当年改底色引起用户强烈不满，只好先改回来，然后每天改一点点颜色才慢慢过渡成功。如今的改版不至于这么如履薄冰，但若升级的内容允许分步进行，慢慢调整，当然也是个不错的选项。</p>
+
+<p>4、模块化的自主升级<br />
+最后这一种比较上等，并非都有条件实现。那就是网站的界面和功能完全是模块化的、可方便地自定义的。所谓升级，不过相当于站点方提供给用户新的地基、砖头和涂料（接口、功能模块和外观选项），网站推荐宣传过后，用户若是爱用就可以自己搭建好，若是不爱用也没关系，不管它就好，说不定哪天看到好友用得爽快也就乐意用上了。</p>
+
+<p>5、心狠手辣型<br />
+召集所有反对新版本的用户开会商量，然后统统拖出去毙了，从此万事大吉，末了还要学威震天来一句，“我得不到的用户，谁也别想得到！”</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%a6%82%e4%bd%95%e6%9b%b4%e5%a5%bd%e5%9c%b0%e6%94%b9%e7%89%88%e5%8d%87%e7%ba%a7》&body=https%3a%2f%2fioerr.github.io%2fposts%2fruhe-genghaode-gaiban-shengji%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fruhe-genghaode-gaiban-shengji%2f&text= @calon %e5%a6%82%e4%bd%95%e6%9b%b4%e5%a5%bd%e5%9c%b0%e6%94%b9%e7%89%88%e5%8d%87%e7%ba%a7&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

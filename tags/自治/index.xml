@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>自治 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%87%AA%E6%B2%BB/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%87%AA%E6%B2%BB/</link>
     <description>Recent content in 自治 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E6%B2%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Apr 2014 16:42:18 +0000</lastBuildDate>
     
-    <item>
-      <title>政治是什么</title>
-      <link>https://ioerr.github.io/zhengzhi-shi-shenme/</link>
-      <pubDate>Thu, 24 Apr 2014 16:42:18 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhengzhi-shi-shenme/</guid>
-      <description>&lt;p&gt;布坎南在《自由、市场与国家》中，将政治定义为解决个人评价冲突和个人利益冲突的制度手段，是解决或调停个人利益冲突的过程。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E6%B2%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>政治是什么</title>
+        <link>https://ioerr.github.io/posts/zhengzhi-shi-shenme/</link>
+        <pubDate>Thu, 24 Apr 2014 16:42:18 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhengzhi-shi-shenme/</guid>
+        <description>&lt;p&gt;布坎南在《自由、市场与国家》中，将政治定义为解决个人评价冲突和个人利益冲突的制度手段，是解决或调停个人利益冲突的过程。&lt;br /&gt;
 这也是我认同的定义。&lt;/p&gt;
 
 &lt;p&gt;有人说，素质低下、没有专业政治水平或者专科知识的民众不应该参与政治活动，跟随高瞻远瞩的政治家、拥有专业知识的精英人士做出的政治决断就可以了。&lt;br /&gt;
@@ -38,7 +38,7 @@
 和平、合法地通过政治手段争取自己应得的利益，没有什么道德上的不妥，要避免的是用政治特权暴力侵犯他人自治权利的活动。&lt;br /&gt;
 当我们明确了权利边界，并尊重此边界内个人或群体的自治权利时，政治就不是只有一种不堪的面貌。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

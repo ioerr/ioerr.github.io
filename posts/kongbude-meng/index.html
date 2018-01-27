@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恐怖的梦 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="恐怖的梦" />
+<meta property="og:description" content="这几天都睡得不好，所以虽然事情繁杂，今天中午还是一吃完饭就抓紧时间睡觉了，没想到做了个又讨厌又恐怖的梦。
+梦见和一位美女在风景宜人的山坡上散步，芳草萋萋，落英缤纷，春风拂面，好不快活。于是我习惯性的（真的是习惯性的，一个人外出游玩或散步的时候看见翠绿的野草地，如果天气很好，我会静静的躺在草地上放松的）在草地躺下，可是当我起身拍去沾在身上的草叶时，却发现手臂上都是一些恶心的毛虫，吓得我赶紧全身上下都拍打一遍。当我摸到头顶的时候，发现有什么又硬又尖的东西，还以为是小树枝，可手指掠过又感觉头皮中有什么在动，于是捏住那东西的尾端往外拔…
+我想，大概大脑内部是没有痛感的吧，如果有什么东西在里面穿行动，人会感觉到什么呢？只有与组织摩擦产生的振动会被感觉到吗？我不知道，没有试过，恐怕也没有机会试。可是在梦里，我却感受到了从自己的脑袋里拔出一支十几厘米长的钢针的感觉，当我把它捧在手里的时候，只感到一阵眩晕…
+我想，倘若在现实中真发生这样的事情，我宁愿有痛感，不用再去体会哪种感觉。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/kongbude-meng/" />
+
+
+
+<meta property="article:published_time" content="2004-08-02T08:16:21&#43;00:00"/>
+
+<meta property="article:modified_time" content="2004-08-02T08:16:21&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="恐怖的梦">
+<meta itemprop="description" content="这几天都睡得不好，所以虽然事情繁杂，今天中午还是一吃完饭就抓紧时间睡觉了，没想到做了个又讨厌又恐怖的梦。
+梦见和一位美女在风景宜人的山坡上散步，芳草萋萋，落英缤纷，春风拂面，好不快活。于是我习惯性的（真的是习惯性的，一个人外出游玩或散步的时候看见翠绿的野草地，如果天气很好，我会静静的躺在草地上放松的）在草地躺下，可是当我起身拍去沾在身上的草叶时，却发现手臂上都是一些恶心的毛虫，吓得我赶紧全身上下都拍打一遍。当我摸到头顶的时候，发现有什么又硬又尖的东西，还以为是小树枝，可手指掠过又感觉头皮中有什么在动，于是捏住那东西的尾端往外拔…
+我想，大概大脑内部是没有痛感的吧，如果有什么东西在里面穿行动，人会感觉到什么呢？只有与组织摩擦产生的振动会被感觉到吗？我不知道，没有试过，恐怕也没有机会试。可是在梦里，我却感受到了从自己的脑袋里拔出一支十几厘米长的钢针的感觉，当我把它捧在手里的时候，只感到一阵眩晕…
+我想，倘若在现实中真发生这样的事情，我宁愿有痛感，不用再去体会哪种感觉。">
+
+
+<meta itemprop="datePublished" content="2004-08-02T08:16:21&#43;00:00" />
+<meta itemprop="dateModified" content="2004-08-02T08:16:21&#43;00:00" />
+<meta itemprop="wordCount" content="4">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="恐怖的梦"/>
+<meta name="twitter:description" content="这几天都睡得不好，所以虽然事情繁杂，今天中午还是一吃完饭就抓紧时间睡觉了，没想到做了个又讨厌又恐怖的梦。
+梦见和一位美女在风景宜人的山坡上散步，芳草萋萋，落英缤纷，春风拂面，好不快活。于是我习惯性的（真的是习惯性的，一个人外出游玩或散步的时候看见翠绿的野草地，如果天气很好，我会静静的躺在草地上放松的）在草地躺下，可是当我起身拍去沾在身上的草叶时，却发现手臂上都是一些恶心的毛虫，吓得我赶紧全身上下都拍打一遍。当我摸到头顶的时候，发现有什么又硬又尖的东西，还以为是小树枝，可手指掠过又感觉头皮中有什么在动，于是捏住那东西的尾端往外拔…
+我想，大概大脑内部是没有痛感的吧，如果有什么东西在里面穿行动，人会感觉到什么呢？只有与组织摩擦产生的振动会被感觉到吗？我不知道，没有试过，恐怕也没有机会试。可是在梦里，我却感受到了从自己的脑袋里拔出一支十几厘米长的钢针的感觉，当我把它捧在手里的时候，只感到一阵眩晕…
+我想，倘若在现实中真发生这样的事情，我宁愿有痛感，不用再去体会哪种感觉。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2004-08-02 08:16">2004-08-02</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          </p>
+      <h1>恐怖的梦</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>这几天都睡得不好，所以虽然事情繁杂，今天中午还是一吃完饭就抓紧时间睡觉了，没想到做了个又讨厌又恐怖的梦。<br />
+梦见和一位美女在风景宜人的山坡上散步，芳草萋萋，落英缤纷，春风拂面，好不快活。于是我习惯性的（真的是习惯性的，一个人外出游玩或散步的时候看见翠绿的野草地，如果天气很好，我会静静的躺在草地上放松的）在草地躺下，可是当我起身拍去沾在身上的草叶时，却发现手臂上都是一些恶心的毛虫，吓得我赶紧全身上下都拍打一遍。当我摸到头顶的时候，发现有什么又硬又尖的东西，还以为是小树枝，可手指掠过又感觉头皮中有什么在动，于是捏住那东西的尾端往外拔…<br />
+我想，大概大脑内部是没有痛感的吧，如果有什么东西在里面穿行动，人会感觉到什么呢？只有与组织摩擦产生的振动会被感觉到吗？我不知道，没有试过，恐怕也没有机会试。可是在梦里，我却感受到了从自己的脑袋里拔出一支十几厘米长的钢针的感觉，当我把它捧在手里的时候，只感到一阵眩晕…<br />
+我想，倘若在现实中真发生这样的事情，我宁愿有痛感，不用再去体会哪种感觉。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%81%90%e6%80%96%e7%9a%84%e6%a2%a6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fkongbude-meng%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkongbude-meng%2f&text= @calon %e6%81%90%e6%80%96%e7%9a%84%e6%a2%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

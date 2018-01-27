@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>乱翻书 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="乱翻书" />
+<meta property="og:description" content="上午下午连续开会，中午趁着大家去聚餐，找了个借口跑到书店翻翻书。可惜既没有充足时间深入阅读，也不能买下好几本带到下午的会场上，所以只能够匆匆浏览。
+《“好消息”里的“更新”－－现代基督教福音派思想研究》，董江阳著，维真基督教文化丛书中的一本，定价24元。因为只专注于在北美和我国最泛滥的福音派，所以比较值得一看。
+《批判哲学的批判－－康德评述》，李泽厚著，28元。瞟了几眼感觉还不错，虽说是名家写的评论名家写的名著的名著，入手之前还是得多留个心眼的好。
+《理智设计论－－科学与神学之桥》，威廉·邓勃斯基，25元。书名与作者名字翻译上的不妥当就让人很不爽。看了其中一段介绍如何判断是否具备智慧的文字，给我的感觉是很不严谨，其标准甚至还不如用来判别人工智能的图灵测试，当然，也可能是我还没有看到图灵测试相关的章节，但我估计作者还不会笨到引入图灵测试，因为当下既没有交互的条件，也看不出有通过测试的希望。
+与它同属清华哲学翻译系列－－北美宗教文化专集的还有《福音派与基督教的未来》、《认识美国基要派与福音派》两本能够激起我的兴趣，但当时懒得多看看了。
+《控制论与科学方法论》，金观涛、华国凡著，16元。遗憾的是没有找到有出同系列的信息论方面的书。
+《科学、迷信与社会》，迈克尔·波兰尼，17元。最好和他更为成熟的《个人知识》一同阅读，不过还是多看看科学书籍之后再来思考他所提出的问题吧，因为从“科学的绝对客观性标准”、“绝对本质和实在”等词句来看，我认为他对还原主义甚至科学本身的理解有不当之处，用并不适用于科学的标准来要求它批判它，而且在当下打着中国传统文化和后现代主义大旗的“文化圈”，波兰尼的理论属于最容易被利用和误读的那一类，吸收和批判的时候一定要慎之又慎。
+《科学的规范》，卡尔·皮尔逊，19元。要注意作者对斯宾塞/社会达尔文主义的错误态度，另外这类年代比较久远的科学书籍的一大缺憾是没有赶上物理学大发展的时期，不过大部分内容直到今天都是很有价值的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/luan-fanshu/" />
+
+
+
+<meta property="article:published_time" content="2005-09-09T17:08:26&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-09-09T17:08:26&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="乱翻书">
+<meta itemprop="description" content="上午下午连续开会，中午趁着大家去聚餐，找了个借口跑到书店翻翻书。可惜既没有充足时间深入阅读，也不能买下好几本带到下午的会场上，所以只能够匆匆浏览。
+《“好消息”里的“更新”－－现代基督教福音派思想研究》，董江阳著，维真基督教文化丛书中的一本，定价24元。因为只专注于在北美和我国最泛滥的福音派，所以比较值得一看。
+《批判哲学的批判－－康德评述》，李泽厚著，28元。瞟了几眼感觉还不错，虽说是名家写的评论名家写的名著的名著，入手之前还是得多留个心眼的好。
+《理智设计论－－科学与神学之桥》，威廉·邓勃斯基，25元。书名与作者名字翻译上的不妥当就让人很不爽。看了其中一段介绍如何判断是否具备智慧的文字，给我的感觉是很不严谨，其标准甚至还不如用来判别人工智能的图灵测试，当然，也可能是我还没有看到图灵测试相关的章节，但我估计作者还不会笨到引入图灵测试，因为当下既没有交互的条件，也看不出有通过测试的希望。
+与它同属清华哲学翻译系列－－北美宗教文化专集的还有《福音派与基督教的未来》、《认识美国基要派与福音派》两本能够激起我的兴趣，但当时懒得多看看了。
+《控制论与科学方法论》，金观涛、华国凡著，16元。遗憾的是没有找到有出同系列的信息论方面的书。
+《科学、迷信与社会》，迈克尔·波兰尼，17元。最好和他更为成熟的《个人知识》一同阅读，不过还是多看看科学书籍之后再来思考他所提出的问题吧，因为从“科学的绝对客观性标准”、“绝对本质和实在”等词句来看，我认为他对还原主义甚至科学本身的理解有不当之处，用并不适用于科学的标准来要求它批判它，而且在当下打着中国传统文化和后现代主义大旗的“文化圈”，波兰尼的理论属于最容易被利用和误读的那一类，吸收和批判的时候一定要慎之又慎。
+《科学的规范》，卡尔·皮尔逊，19元。要注意作者对斯宾塞/社会达尔文主义的错误态度，另外这类年代比较久远的科学书籍的一大缺憾是没有赶上物理学大发展的时期，不过大部分内容直到今天都是很有价值的。">
+
+
+<meta itemprop="datePublished" content="2005-09-09T17:08:26&#43;00:00" />
+<meta itemprop="dateModified" content="2005-09-09T17:08:26&#43;00:00" />
+<meta itemprop="wordCount" content="8">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="乱翻书"/>
+<meta name="twitter:description" content="上午下午连续开会，中午趁着大家去聚餐，找了个借口跑到书店翻翻书。可惜既没有充足时间深入阅读，也不能买下好几本带到下午的会场上，所以只能够匆匆浏览。
+《“好消息”里的“更新”－－现代基督教福音派思想研究》，董江阳著，维真基督教文化丛书中的一本，定价24元。因为只专注于在北美和我国最泛滥的福音派，所以比较值得一看。
+《批判哲学的批判－－康德评述》，李泽厚著，28元。瞟了几眼感觉还不错，虽说是名家写的评论名家写的名著的名著，入手之前还是得多留个心眼的好。
+《理智设计论－－科学与神学之桥》，威廉·邓勃斯基，25元。书名与作者名字翻译上的不妥当就让人很不爽。看了其中一段介绍如何判断是否具备智慧的文字，给我的感觉是很不严谨，其标准甚至还不如用来判别人工智能的图灵测试，当然，也可能是我还没有看到图灵测试相关的章节，但我估计作者还不会笨到引入图灵测试，因为当下既没有交互的条件，也看不出有通过测试的希望。
+与它同属清华哲学翻译系列－－北美宗教文化专集的还有《福音派与基督教的未来》、《认识美国基要派与福音派》两本能够激起我的兴趣，但当时懒得多看看了。
+《控制论与科学方法论》，金观涛、华国凡著，16元。遗憾的是没有找到有出同系列的信息论方面的书。
+《科学、迷信与社会》，迈克尔·波兰尼，17元。最好和他更为成熟的《个人知识》一同阅读，不过还是多看看科学书籍之后再来思考他所提出的问题吧，因为从“科学的绝对客观性标准”、“绝对本质和实在”等词句来看，我认为他对还原主义甚至科学本身的理解有不当之处，用并不适用于科学的标准来要求它批判它，而且在当下打着中国传统文化和后现代主义大旗的“文化圈”，波兰尼的理论属于最容易被利用和误读的那一类，吸收和批判的时候一定要慎之又慎。
+《科学的规范》，卡尔·皮尔逊，19元。要注意作者对斯宾塞/社会达尔文主义的错误态度，另外这类年代比较久远的科学书籍的一大缺憾是没有赶上物理学大发展的时期，不过大部分内容直到今天都是很有价值的。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-09-09 05:08">2005-09-09</time> &bull;
+          
+            
+            <a href="/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">书香剑气</a>
+          </p>
+      <h1>乱翻书</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>上午下午连续开会，中午趁着大家去聚餐，找了个借口跑到书店翻翻书。可惜既没有充足时间深入阅读，也不能买下好几本带到下午的会场上，所以只能够匆匆浏览。</p>
+
+<p>《“好消息”里的“更新”－－现代基督教福音派思想研究》，董江阳著，维真基督教文化丛书中的一本，定价24元。因为只专注于在北美和我国最泛滥的福音派，所以比较值得一看。</p>
+
+<p>《批判哲学的批判－－康德评述》，李泽厚著，28元。瞟了几眼感觉还不错，虽说是名家写的评论名家写的名著的名著，入手之前还是得多留个心眼的好。</p>
+
+<p>《理智设计论－－科学与神学之桥》，威廉·邓勃斯基，25元。书名与作者名字翻译上的不妥当就让人很不爽。看了其中一段介绍如何判断是否具备智慧的文字，给我的感觉是很不严谨，其标准甚至还不如用来判别人工智能的图灵测试，当然，也可能是我还没有看到图灵测试相关的章节，但我估计作者还不会笨到引入图灵测试，因为当下既没有交互的条件，也看不出有通过测试的希望。<br />
+与它同属清华哲学翻译系列－－北美宗教文化专集的还有《福音派与基督教的未来》、《认识美国基要派与福音派》两本能够激起我的兴趣，但当时懒得多看看了。</p>
+
+<p>《控制论与科学方法论》，金观涛、华国凡著，16元。遗憾的是没有找到有出同系列的信息论方面的书。</p>
+
+<p>《科学、迷信与社会》，迈克尔·波兰尼，17元。最好和他更为成熟的《个人知识》一同阅读，不过还是多看看科学书籍之后再来思考他所提出的问题吧，因为从“科学的绝对客观性标准”、“绝对本质和实在”等词句来看，我认为他对还原主义甚至科学本身的理解有不当之处，用并不适用于科学的标准来要求它批判它，而且在当下打着中国传统文化和后现代主义大旗的“文化圈”，波兰尼的理论属于最容易被利用和误读的那一类，吸收和批判的时候一定要慎之又慎。</p>
+
+<p>《科学的规范》，卡尔·皮尔逊，19元。要注意作者对斯宾塞/社会达尔文主义的错误态度，另外这类年代比较久远的科学书籍的一大缺憾是没有赶上物理学大发展的时期，不过大部分内容直到今天都是很有价值的。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b9%b1%e7%bf%bb%e4%b9%a6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fluan-fanshu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fluan-fanshu%2f&text= @calon %e4%b9%b1%e7%bf%bb%e4%b9%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

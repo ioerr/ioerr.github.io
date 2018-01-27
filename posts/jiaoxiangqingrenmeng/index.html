@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>交响情人梦 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="交响情人梦" />
+<meta property="og:description" content="花了一个晚上下载，在2天内的空闲时间看完了《交响情人梦》。虽然之前也有听说，但是真正想看是因为看到了屁屁体操的片段再找了剧情介绍的原因。
+本来很少看电视剧，无论美剧、日剧还是韩剧，最近几年也就看了《人人都爱雷蒙德》，然后是零星的
+Monty Python 短剧、老友记、24之类的，除了 Monty Python
+的电视剧集是弄不到片源
+，其他的都没有一口气看完或追下去的动力。这次一鼓作气看完《交响情人梦》还真是叫人意外。
+首先要感谢只有11集的容量，不必像别人追美剧那样痛而不通或绵绵无绝期，短时间内也可以消化完毕。
+然后是长相有点像胡歌但似乎更帅的男主角扮演者玉木宏，瞪眼、白眼、僵直和嘴角抽动效果不错，把主角的无奈演活了，比某些偶像剧的脂粉美型男也阳刚一些。
+饰演女主角野田惠的上野树里是最大的亮点，虽然不属于第一眼美女的类型，但是就连被殴打的表情都很可爱啊（可惜后面几集随着这类击飞的镜头减少娱乐度也有所下降…呃，我有虐待狂潜质么？:023:），第5集出现的獴造型更是有杀伤力。至于肮脏、凌乱和好吃的毛病对电视剧角色来说都不算什么吧——现实中能够让我实在看不下去而主动想要帮忙动手打扫卫生的人至今还没有达到过2个呢。
+从网上找到的图片来看，上野树里的长发造型体现不出她的灵气，还是刚刚睡醒时的上翘短发最适合她啊。
+说起来最近几个月来有关注过的高雅星（《怪物》）、坂野真弥（《无厘头森林之第一次接触》）和上野树里都是短发类型的呢…嗯，关于前面两个，我真的不是萝莉控 最后一个理由是很久没有认认真真听古典音乐了，虽然电脑上可以播放，但是听的时候如果还在做其他事情，这种三心二意的态度听古典音乐是听不进去的，乐趣还不如口水歌。而看这部电视剧也算是稍稍重温一下莫扎特、贝多芬、勃拉姆斯、肖邦、舒伯特、门德尔松等人的音乐呢——况且演员们还算有底子，不至于像某些粗制滥造的电视剧中演员们不知所谓地锯木头和弹棉花。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/jiaoxiangqingrenmeng/" />
+
+
+
+<meta property="article:published_time" content="2007-02-20T13:28:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-02-20T13:28:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="交响情人梦">
+<meta itemprop="description" content="花了一个晚上下载，在2天内的空闲时间看完了《交响情人梦》。虽然之前也有听说，但是真正想看是因为看到了屁屁体操的片段再找了剧情介绍的原因。
+本来很少看电视剧，无论美剧、日剧还是韩剧，最近几年也就看了《人人都爱雷蒙德》，然后是零星的
+Monty Python 短剧、老友记、24之类的，除了 Monty Python
+的电视剧集是弄不到片源
+，其他的都没有一口气看完或追下去的动力。这次一鼓作气看完《交响情人梦》还真是叫人意外。
+首先要感谢只有11集的容量，不必像别人追美剧那样痛而不通或绵绵无绝期，短时间内也可以消化完毕。
+然后是长相有点像胡歌但似乎更帅的男主角扮演者玉木宏，瞪眼、白眼、僵直和嘴角抽动效果不错，把主角的无奈演活了，比某些偶像剧的脂粉美型男也阳刚一些。
+饰演女主角野田惠的上野树里是最大的亮点，虽然不属于第一眼美女的类型，但是就连被殴打的表情都很可爱啊（可惜后面几集随着这类击飞的镜头减少娱乐度也有所下降…呃，我有虐待狂潜质么？:023:），第5集出现的獴造型更是有杀伤力。至于肮脏、凌乱和好吃的毛病对电视剧角色来说都不算什么吧——现实中能够让我实在看不下去而主动想要帮忙动手打扫卫生的人至今还没有达到过2个呢。
+从网上找到的图片来看，上野树里的长发造型体现不出她的灵气，还是刚刚睡醒时的上翘短发最适合她啊。
+说起来最近几个月来有关注过的高雅星（《怪物》）、坂野真弥（《无厘头森林之第一次接触》）和上野树里都是短发类型的呢…嗯，关于前面两个，我真的不是萝莉控 最后一个理由是很久没有认认真真听古典音乐了，虽然电脑上可以播放，但是听的时候如果还在做其他事情，这种三心二意的态度听古典音乐是听不进去的，乐趣还不如口水歌。而看这部电视剧也算是稍稍重温一下莫扎特、贝多芬、勃拉姆斯、肖邦、舒伯特、门德尔松等人的音乐呢——况且演员们还算有底子，不至于像某些粗制滥造的电视剧中演员们不知所谓地锯木头和弹棉花。">
+
+
+<meta itemprop="datePublished" content="2007-02-20T13:28:03&#43;00:00" />
+<meta itemprop="dateModified" content="2007-02-20T13:28:03&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="交响情人梦"/>
+<meta name="twitter:description" content="花了一个晚上下载，在2天内的空闲时间看完了《交响情人梦》。虽然之前也有听说，但是真正想看是因为看到了屁屁体操的片段再找了剧情介绍的原因。
+本来很少看电视剧，无论美剧、日剧还是韩剧，最近几年也就看了《人人都爱雷蒙德》，然后是零星的
+Monty Python 短剧、老友记、24之类的，除了 Monty Python
+的电视剧集是弄不到片源
+，其他的都没有一口气看完或追下去的动力。这次一鼓作气看完《交响情人梦》还真是叫人意外。
+首先要感谢只有11集的容量，不必像别人追美剧那样痛而不通或绵绵无绝期，短时间内也可以消化完毕。
+然后是长相有点像胡歌但似乎更帅的男主角扮演者玉木宏，瞪眼、白眼、僵直和嘴角抽动效果不错，把主角的无奈演活了，比某些偶像剧的脂粉美型男也阳刚一些。
+饰演女主角野田惠的上野树里是最大的亮点，虽然不属于第一眼美女的类型，但是就连被殴打的表情都很可爱啊（可惜后面几集随着这类击飞的镜头减少娱乐度也有所下降…呃，我有虐待狂潜质么？:023:），第5集出现的獴造型更是有杀伤力。至于肮脏、凌乱和好吃的毛病对电视剧角色来说都不算什么吧——现实中能够让我实在看不下去而主动想要帮忙动手打扫卫生的人至今还没有达到过2个呢。
+从网上找到的图片来看，上野树里的长发造型体现不出她的灵气，还是刚刚睡醒时的上翘短发最适合她啊。
+说起来最近几个月来有关注过的高雅星（《怪物》）、坂野真弥（《无厘头森林之第一次接触》）和上野树里都是短发类型的呢…嗯，关于前面两个，我真的不是萝莉控 最后一个理由是很久没有认认真真听古典音乐了，虽然电脑上可以播放，但是听的时候如果还在做其他事情，这种三心二意的态度听古典音乐是听不进去的，乐趣还不如口水歌。而看这部电视剧也算是稍稍重温一下莫扎特、贝多芬、勃拉姆斯、肖邦、舒伯特、门德尔松等人的音乐呢——况且演员们还算有底子，不至于像某些粗制滥造的电视剧中演员们不知所谓地锯木头和弹棉花。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-02-20 01:28">2007-02-20</time> &bull;
+          
+            
+            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+          
+            , 
+            <a href="/categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1">流光飞影</a>
+          </p>
+      <h1>交响情人梦</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section>
+
+<p>花了一个晚上下载，在2天内的空闲时间看完了《<a href="http://find.verycd.com/folders/%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6">交响情人梦</a>》。虽然之前也有听说，但是真正想看是因为看到了<a href="http://www.youtube.com/watch?v=XKuzReSibME">屁屁</a><a href="http://www.youtube.com/watch?v=GF-XSZ-2f1s%20%3C/br%3E">体操</a>的片段再找了剧情介绍的原因。</p>
+
+<p>本来很少看电视剧，无论美剧、日剧还是韩剧，最近几年也就看了《<a href="http://find.verycd.com/folders/%E4%BA%BA%E4%BA%BA%E9%83%BD%E7%88%B1%E9%9B%B7%E8%92%99%E5%BE%B7">人人都爱雷蒙德</a>》，然后是零星的<br />
+Monty Python 短剧、老友记、24之类的，除了 Monty Python<br />
+的电视剧集是弄不到片源<br />
+，其他的都没有一口气看完或追下去的动力。这次一鼓作气看完《交响情人梦》还真是叫人意外。</p>
+
+<p>首先要感谢只有11集的容量，不必像别人追美剧那样痛而不通或绵绵无绝期，短时间内也可以消化完毕。</p>
+
+<p>然后是长相有点像胡歌但似乎更帅的男主角扮演者玉木宏，瞪眼、白眼、僵直和嘴角抽动效果不错，把主角的无奈演活了，比某些偶像剧的脂粉美型男也阳刚一些。</p>
+
+<p>饰演女主角野田惠的上野树里是最大的亮点，虽然不属于第一眼美女的类型，但是就连被殴打的表情都很可爱啊（可惜后面几集随着这类击飞的镜头减少娱乐度也有所下降…呃，我有虐待狂潜质么？:023:），第5集出现的獴造型更是有杀伤力。至于肮脏、凌乱和好吃的毛病对电视剧角色来说都不算什么吧——现实中能够让我实在看不下去而主动想要帮忙动手打扫卫生的人至今还没有达到过2个呢。<br />
+从网上找到的图片来看，上野树里的长发造型体现不出她的灵气，还是刚刚睡醒时的上翘短发最适合她啊。</p>
+
+<h2 id="说起来最近几个月来有关注过的高雅星-怪物-坂野真弥-无厘头森林之第一次接触-和上野树里都是短发类型的呢-嗯-关于前面两个-我真的不是萝莉控">说起来最近几个月来有关注过的高雅星（《怪物》）、坂野真弥（《无厘头森林之第一次接触》）和上野树里都是短发类型的呢…嗯，关于前面两个，我真的不是萝莉控</h2>
+
+<p>最后一个理由是很久没有认认真真听古典音乐了，虽然电脑上可以播放，但是听的时候如果还在做其他事情，这种三心二意的态度听古典音乐是听不进去的，乐趣还不如口水歌。而看这部电视剧也算是稍稍重温一下莫扎特、贝多芬、勃拉姆斯、肖邦、舒伯特、门德尔松等人的音乐呢——况且演员们还算有底子，不至于像某些粗制滥造的电视剧中演员们不知所谓地锯木头和弹棉花。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%a4%e5%93%8d%e6%83%85%e4%ba%ba%e6%a2%a6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fjiaoxiangqingrenmeng%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fjiaoxiangqingrenmeng%2f&text= @calon %e4%ba%a4%e5%93%8d%e6%83%85%e4%ba%ba%e6%a2%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

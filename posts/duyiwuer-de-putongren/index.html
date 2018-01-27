@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>独一无二的普通人 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="独一无二的普通人" />
+<meta property="og:description" content="看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。
+少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。
+一转眼忽然就成为碌碌无为的秃顶、肥胖、油腻、保守、固执中年，未来就像坍缩的量子态一样，失去了太多可能，面对现实，不得不恐惧是否一辈子就这么普通。
+然而，比接受自己可能是个普通人更难的，也许是成为独一无二的普通人。
+有的人过早向现实投降，同时也就失去了对抗社会压力的勇气，太早接受自己是一个没有个性和特色的普通人。
+过了一定的年纪，就只想着如何与社会保持整齐划一，消解个性而融入社会，从穿着打扮，兴趣爱好，到三观和人生追求，都迅速趋同——这个时候，焦虑的不再是普通，而是不够“普通”。
+当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/duyiwuer-de-putongren/" />
+
+
+
+<meta property="article:published_time" content="2017-11-26T16:09:14&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-11-26T16:09:14&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="独一无二的普通人">
+<meta itemprop="description" content="看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。
+少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。
+一转眼忽然就成为碌碌无为的秃顶、肥胖、油腻、保守、固执中年，未来就像坍缩的量子态一样，失去了太多可能，面对现实，不得不恐惧是否一辈子就这么普通。
+然而，比接受自己可能是个普通人更难的，也许是成为独一无二的普通人。
+有的人过早向现实投降，同时也就失去了对抗社会压力的勇气，太早接受自己是一个没有个性和特色的普通人。
+过了一定的年纪，就只想着如何与社会保持整齐划一，消解个性而融入社会，从穿着打扮，兴趣爱好，到三观和人生追求，都迅速趋同——这个时候，焦虑的不再是普通，而是不够“普通”。
+当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？">
+
+
+<meta itemprop="datePublished" content="2017-11-26T16:09:14&#43;08:00" />
+<meta itemprop="dateModified" content="2017-11-26T16:09:14&#43;08:00" />
+<meta itemprop="wordCount" content="7">
+
+
+
+<meta itemprop="keywords" content="普通人,独一无二," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="独一无二的普通人"/>
+<meta name="twitter:description" content="看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。
+少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。
+一转眼忽然就成为碌碌无为的秃顶、肥胖、油腻、保守、固执中年，未来就像坍缩的量子态一样，失去了太多可能，面对现实，不得不恐惧是否一辈子就这么普通。
+然而，比接受自己可能是个普通人更难的，也许是成为独一无二的普通人。
+有的人过早向现实投降，同时也就失去了对抗社会压力的勇气，太早接受自己是一个没有个性和特色的普通人。
+过了一定的年纪，就只想着如何与社会保持整齐划一，消解个性而融入社会，从穿着打扮，兴趣爱好，到三观和人生追求，都迅速趋同——这个时候，焦虑的不再是普通，而是不够“普通”。
+当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2017-11-26 04:09">2017-11-26</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>独一无二的普通人</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%99%AE%E9%80%9A%E4%BA%BA">
+              <span class="hash">#</span>普通人</a>
+          
+            , 
+            <a href="/tags/%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C">
+              <span class="hash">#</span>独一无二</a>
+          
+        
+      </p>
+    </header>
+    <section><p>看到不少人说，中年人焦虑的根源在于，到底能不能平静地接受自己是个普通人。</p>
+
+<p>少年时鹤立鸡群，青年时意气风发，未来无限可能，仿佛可以创造任何奇迹，改变世界，比肩伟人。</p>
+
+<p>一转眼忽然就成为碌碌无为的秃顶、肥胖、油腻、保守、固执中年，未来就像坍缩的量子态一样，失去了太多可能，面对现实，不得不恐惧是否一辈子就这么普通。</p>
+
+<p>然而，比接受自己可能是个普通人更难的，也许是成为独一无二的普通人。</p>
+
+<p>有的人过早向现实投降，同时也就失去了对抗社会压力的勇气，太早接受自己是一个没有个性和特色的普通人。</p>
+
+<p>过了一定的年纪，就只想着如何与社会保持整齐划一，消解个性而融入社会，从穿着打扮，兴趣爱好，到三观和人生追求，都迅速趋同——这个时候，焦虑的不再是普通，而是不够“普通”。</p>
+
+<p>当我们发现未来终究不可能随心所欲、如愿以偿时，是否还能坚守自我？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%8b%ac%e4%b8%80%e6%97%a0%e4%ba%8c%e7%9a%84%e6%99%ae%e9%80%9a%e4%ba%ba》&body=https%3a%2f%2fioerr.github.io%2fposts%2fduyiwuer-de-putongren%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fduyiwuer-de-putongren%2f&text= @calon %e7%8b%ac%e4%b8%80%e6%97%a0%e4%ba%8c%e7%9a%84%e6%99%ae%e9%80%9a%e4%ba%ba&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

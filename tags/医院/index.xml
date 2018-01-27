@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>医院 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%8C%BB%E9%99%A2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%8C%BB%E9%99%A2/</link>
     <description>Recent content in 医院 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%8C%BB%E9%99%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Mar 2009 15:59:43 +0000</lastBuildDate>
     
-    <item>
-      <title>另一种看病难</title>
-      <link>https://ioerr.github.io/lingyizhong-kanbing-nan/</link>
-      <pubDate>Tue, 10 Mar 2009 15:59:43 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/lingyizhong-kanbing-nan/</guid>
-      <description>&lt;p&gt;外婆生病住院动手术，身在国外的表妹听说是在旺旺医院动手术和住院后，觉得医院和主治医生的声望值不如附二医院靠谱（可当时附二医院病房全满，要进去就只能睡走廊），发邮件过来表示深切关注。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%8C%BB%E9%99%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>另一种看病难</title>
+        <link>https://ioerr.github.io/posts/lingyizhong-kanbing-nan/</link>
+        <pubDate>Tue, 10 Mar 2009 15:59:43 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/lingyizhong-kanbing-nan/</guid>
+        <description>&lt;p&gt;外婆生病住院动手术，身在国外的表妹听说是在旺旺医院动手术和住院后，觉得医院和主治医生的声望值不如附二医院靠谱（可当时附二医院病房全满，要进去就只能睡走廊），发邮件过来表示深切关注。&lt;/p&gt;
 
 &lt;p&gt;今天有朋友提到，她朋友的小孩子因为斜视要动手术，很担心主刀医生的水平会不够，正四处找熟人想办法。&lt;/p&gt;
 
@@ -27,7 +27,7 @@
 
 &lt;p&gt;看来除了看病贵之外，不信任医院的专业水平也是一个普遍的问题啊。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>质量 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%B4%A8%E9%87%8F/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%B4%A8%E9%87%8F/</link>
     <description>Recent content in 质量 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%B4%A8%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2011 15:34:14 +0000</lastBuildDate>
     
-    <item>
-      <title>知乎开放后如何平衡质量和数量？</title>
-      <link>https://ioerr.github.io/zhihu-kaifang-hou-ruhe-pingheng-zhiliang-he-shuliang/</link>
-      <pubDate>Wed, 04 May 2011 15:34:14 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhihu-kaifang-hou-ruhe-pingheng-zhiliang-he-shuliang/</guid>
-      <description>&lt;p&gt;看到知乎上有人提问：&lt;a href=&#34;http://www.zhihu.com/question/19555411&#34;&gt;知乎后期开放以后，将如何平衡「质量」和「数量」的问题？&lt;/a&gt;&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E8%B4%A8%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>知乎开放后如何平衡质量和数量？</title>
+        <link>https://ioerr.github.io/posts/zhihu-kaifang-hou-ruhe-pingheng-zhiliang-he-shuliang/</link>
+        <pubDate>Wed, 04 May 2011 15:34:14 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhihu-kaifang-hou-ruhe-pingheng-zhiliang-he-shuliang/</guid>
+        <description>&lt;p&gt;看到知乎上有人提问：&lt;a href=&#34;http://www.zhihu.com/question/19555411&#34;&gt;知乎后期开放以后，将如何平衡「质量」和「数量」的问题？&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;知乎在后期开放给用户后必然面临着壮大的问题，而如果无节制的“开放”则会引入大量小白用户导致社区整体水平降低，甚至会出现劣币驱逐良币效应。&lt;br /&gt;
 知乎现在的问答质量较高，特别在互联网相关领域，有很多专业、有深度的内容。随着知乎的发展，用户会越来越广，回答的水平很可能下降。知乎如何能确保用户增长不会对整体的内容质量产生负面影响。&lt;/p&gt;
 
-&lt;p&gt;正好前一段时间在 Quora
+&lt;p&gt;正好前一段时间在 Quora&lt;br /&gt;
 体验和&lt;a href=&#34;http://dacunzi.com/&#34;&gt;大村子&lt;/a&gt;测试期间想过这种问答类服务网站避免质量下降的问题。&lt;/p&gt;
 
-&lt;p&gt;其实社区中总人数并不是问题，决定单个用户看到的问答质量的应该是他信任和欣赏的其他用户，就好像
-twitter 的用户上亿，但你在 twitter
+&lt;p&gt;其实社区中总人数并不是问题，决定单个用户看到的问答质量的应该是他信任和欣赏的其他用户，就好像&lt;br /&gt;
+twitter 的用户上亿，但你在 twitter&lt;br /&gt;
 的视野是由你自己建立的关系网决定的，只要你不盲目扩充跟随的人数，内容质量一般是不会飞速下降的。&lt;/p&gt;
 
 &lt;p&gt;关键之处在于：&lt;/p&gt;
@@ -39,7 +39,7 @@ twitter 的用户上亿，但你在 twitter
 
 &lt;p&gt;2、加强激励，鼓励用户多用投票等形式评价问答质量，同时降低各种投票的成本，简化操作。&lt;br /&gt;
 判断问题或答案有没有价值，也是要耗费心力的，应该有补偿和奖励；&lt;br /&gt;
-目前的赞同、反对、感谢、没有帮助应该都是照搬
+目前的赞同、反对、感谢、没有帮助应该都是照搬&lt;br /&gt;
 Quora，虽然含义各有不同，但不是所有用户能分辨，用户的选择太多也不是好事&lt;br /&gt;
 赞同和反对的箭头改成向上向下的拇指手势更加明晰。&lt;/p&gt;
 
@@ -51,7 +51,7 @@ Quora，虽然含义各有不同，但不是所有用户能分辨，用户的选
 &lt;p&gt;不过引入虚拟货币也是有代价的，《&lt;a href=&#34;http://book.douban.com/subject/3223711/&#34;&gt;怪诞行为学&lt;/a&gt;》第四章“社会规范的成本——为什么我们不拿钱白干活高兴，干活挣钱反而不高兴”中有提到，引入市场规范会导致社会契约退出，并且很难重建，也就是说，社区交往的形式变成虚拟货币交易后，之前的熟人关系、贡献内容的动力、参与感等等可能都会变异和失效。&lt;br /&gt;
 不过换一个角度想，如果在大量用户涌入后，依靠社会规范无法维持社区运营机制和内容质量，那么趁早在核心用户还活跃的时候完成向市场规范的转变，用完善的市场规范对抗大量用户，也许才是唯一的出路。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

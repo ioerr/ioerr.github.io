@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yoono Desktop 代理设置 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Yoono Desktop 代理设置" />
+<meta property="og:description" content="社交应用和即时通信的整合登录工具 Yoono
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
+官方就早给出了自己解决问题的方法：
+在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+xxxx 分别是 Windows 登录用户名和随机字符串）。
+编辑 prefs.js 文件，在后面加上以下内容：
+user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
+user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.type&rdquo;, 1);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
+your_proxy_ip&rdquo;);
+将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yoono-desktop-daili-shezhi/" />
+
+
+
+<meta property="article:published_time" content="2013-03-04T06:57:26&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-03-04T06:57:26&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Yoono Desktop 代理设置">
+<meta itemprop="description" content="社交应用和即时通信的整合登录工具 Yoono
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
+官方就早给出了自己解决问题的方法：
+在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+xxxx 分别是 Windows 登录用户名和随机字符串）。
+编辑 prefs.js 文件，在后面加上以下内容：
+user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
+user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.type&rdquo;, 1);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
+your_proxy_ip&rdquo;);
+将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。">
+
+
+<meta itemprop="datePublished" content="2013-03-04T06:57:26&#43;00:00" />
+<meta itemprop="dateModified" content="2013-03-04T06:57:26&#43;00:00" />
+<meta itemprop="wordCount" content="43">
+
+
+
+<meta itemprop="keywords" content="twitter,Yoono,代理," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Yoono Desktop 代理设置"/>
+<meta name="twitter:description" content="社交应用和即时通信的整合登录工具 Yoono
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
+官方就早给出了自己解决问题的方法：
+在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
+xxxx 分别是 Windows 登录用户名和随机字符串）。
+编辑 prefs.js 文件，在后面加上以下内容：
+user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
+user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
+user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
+user_pref(&ldquo;network.proxy.type&rdquo;, 1);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
+your_proxy_ip&rdquo;);
+将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2013-03-04 06:57">2013-03-04</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Yoono Desktop 代理设置</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/twitter">
+              <span class="hash">#</span>twitter</a>
+          
+            , 
+            <a href="/tags/yoono">
+              <span class="hash">#</span>Yoono</a>
+          
+            , 
+            <a href="/tags/%E4%BB%A3%E7%90%86">
+              <span class="hash">#</span>代理</a>
+          
+        
+      </p>
+    </header>
+    <section><p>社交应用和即时通信的整合登录工具 <a href="http://www.yoono.com/">Yoono</a><br />
+的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。<br />
+好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。<br />
+官方就早给出了<a href="https://getsatisfaction.com/yoono/topics/add_proxy_setting_to_yoono_desktop">自己解决问题的方法</a>：</p>
+
+<p>在 /Users/your_user_name/Library/Application<br />
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js<br />
+文件，我这里是在<br />
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个<br />
+xxxx 分别是 Windows 登录用户名和随机字符串）。</p>
+
+<p>编辑 prefs.js 文件，在后面加上以下内容：<br />
+user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);<br />
+user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);<br />
+user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);<br />
+user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);<br />
+user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);<br />
+user_pref(&ldquo;network.proxy.type&rdquo;, 1);<br />
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,<br />
+your_proxy_ip&rdquo;);</p>
+
+<p>将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Yoono%20Desktop%20%e4%bb%a3%e7%90%86%e8%ae%be%e7%bd%ae》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyoono-desktop-daili-shezhi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyoono-desktop-daili-shezhi%2f&text= @calon Yoono%20Desktop%20%e4%bb%a3%e7%90%86%e8%ae%be%e7%bd%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>妈妈 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%A6%88%E5%A6%88/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%A6%88%E5%A6%88/</link>
     <description>Recent content in 妈妈 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%A6%88%E5%A6%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Aug 2007 14:42:52 +0000</lastBuildDate>
     
-    <item>
-      <title>藏语学习手册</title>
-      <link>https://ioerr.github.io/zangyu-xuexi-shouce/</link>
-      <pubDate>Wed, 15 Aug 2007 14:42:52 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zangyu-xuexi-shouce/</guid>
-      <description>&lt;p&gt;传说中的藏语学习小册子，有20多年的历史了。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%A6%88%E5%A6%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>藏语学习手册</title>
+        <link>https://ioerr.github.io/posts/zangyu-xuexi-shouce/</link>
+        <pubDate>Wed, 15 Aug 2007 14:42:52 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zangyu-xuexi-shouce/</guid>
+        <description>&lt;p&gt;传说中的藏语学习小册子，有20多年的历史了。&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photo.gne?id=1125817031&#34;&gt;&lt;img src=&#34;http://static.flickr.com/1119/1125817031_1f6192d2e4_m.jpg&#34; alt=&#34;藏语学习手册&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 点击看大图，如果你访问不了 Flickr，请自寻出路或无视本文。&lt;/p&gt;
 
@@ -39,7 +39,7 @@
 
 &lt;p&gt;内容完全健康向上，积极和谐，绝对不会出现什么“你很丑”或者“奥你(bleep)运”之类字眼。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

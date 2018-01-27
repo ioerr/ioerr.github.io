@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FeedBurner 被 GFW？ - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="FeedBurner 被 GFW？" />
+<meta property="og:description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问
+feeds.feedburner.com
+二级域名。是不是 GFW
+所为，其他电信运营商网络会不会跟进，还需要进一步观察。
+最直接的影响就是，许多 blog 通过 FeedBurner
+跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅
+FeedBurner 托管的 feed。
+解决办法如下：
+1、停止 FeedBurner 的 FeedBurner Stats
+功能，去掉页面跳转。反正这个统计也是鸡肋；
+2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed
+地址，虽然现在已经晚了；
+3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如
+Reader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；
+4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。
+如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。
+下一个会是谁呢，Google
+Reader、Bloglines、Gmail、Twitter
+还是 Del.icio.us？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/feedburner-bei-gfw/" />
+
+
+
+<meta property="article:published_time" content="2007-08-30T09:40:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-08-30T09:40:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="FeedBurner 被 GFW？">
+<meta itemprop="description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问
+feeds.feedburner.com
+二级域名。是不是 GFW
+所为，其他电信运营商网络会不会跟进，还需要进一步观察。
+最直接的影响就是，许多 blog 通过 FeedBurner
+跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅
+FeedBurner 托管的 feed。
+解决办法如下：
+1、停止 FeedBurner 的 FeedBurner Stats
+功能，去掉页面跳转。反正这个统计也是鸡肋；
+2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed
+地址，虽然现在已经晚了；
+3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如
+Reader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；
+4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。
+如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。
+下一个会是谁呢，Google
+Reader、Bloglines、Gmail、Twitter
+还是 Del.icio.us？">
+
+
+<meta itemprop="datePublished" content="2007-08-30T09:40:18&#43;00:00" />
+<meta itemprop="dateModified" content="2007-08-30T09:40:18&#43;00:00" />
+<meta itemprop="wordCount" content="46">
+
+
+
+<meta itemprop="keywords" content="FeedBurner,GFW," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="FeedBurner 被 GFW？"/>
+<meta name="twitter:description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问
+feeds.feedburner.com
+二级域名。是不是 GFW
+所为，其他电信运营商网络会不会跟进，还需要进一步观察。
+最直接的影响就是，许多 blog 通过 FeedBurner
+跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅
+FeedBurner 托管的 feed。
+解决办法如下：
+1、停止 FeedBurner 的 FeedBurner Stats
+功能，去掉页面跳转。反正这个统计也是鸡肋；
+2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed
+地址，虽然现在已经晚了；
+3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如
+Reader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；
+4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。
+如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。
+下一个会是谁呢，Google
+Reader、Bloglines、Gmail、Twitter
+还是 Del.icio.us？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-08-30 09:40">2007-08-30</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>FeedBurner 被 GFW？</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/feedburner">
+              <span class="hash">#</span>FeedBurner</a>
+          
+            , 
+            <a href="/tags/gfw">
+              <span class="hash">#</span>GFW</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="http://picasaweb.google.com/calon.xu/Snapshot/photo#5104419267717223682"><img src="http://lh3.google.com/calon.xu/RtaKR5Tx1QI/AAAAAAAAAO0/3QZOvI3saJ4/s800/ScreenShot00008.jpg" alt="" /></a></p>
+
+<p>消息本身没什么好说的：至少在电信网络内，目前已经<a href="http://twitter.com/calon/statuses/234682382">无法正常访问<br />
+feeds.feedburner.com<br />
+二级域名</a>。是不是 GFW<br />
+所为，其他电信运营商网络会不会跟进，还需要进一步观察。<br />
+最直接的影响就是，许多 blog 通过 <a href="http://feedburner.com/">FeedBurner</a><br />
+跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅<br />
+FeedBurner 托管的 feed。</p>
+
+<p>解决办法如下：<br />
+1、停止 FeedBurner 的 FeedBurner Stats<br />
+功能，去掉页面跳转。反正这个统计也是鸡肋；<br />
+2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed<br />
+地址，虽然现在已经晚了；<br />
+3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如<br />
+Reader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；<br />
+4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。</p>
+
+<p>如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。<br />
+下一个会是谁呢，<a href="http://twitter.com/calon/statuses/235932662">Google<br />
+Reader</a>、Bloglines、Gmail、<a href="http://twitter.com/calon/statuses/236059612">Twitter</a><br />
+还是 Del.icio.us？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《FeedBurner%20%e8%a2%ab%20GFW%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2ffeedburner-bei-gfw%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ffeedburner-bei-gfw%2f&text= @calon FeedBurner%20%e8%a2%ab%20GFW%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

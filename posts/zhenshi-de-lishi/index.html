@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>真实的历史 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="真实的历史" />
+<meta property="og:description" content="究竟什么是真正的历史，是否过去的历史的真实性仅依赖于现代人的意识？（过去历史的影响不可更改）
+是否现代人对历史的眼光仅仅受书本教育的影响？
+日本人在为过去的战争辩护的时候，曾经说过这样的理由：我们现在对战争的理解每个人都不同，那么，一个国家的人民可以因为他们认为自己对战争的理解是正确的，就可以强迫另外一个国家的人民接受这种理解并且不断道歉么？
+当我们说过去的历史事实不容辩驳，残酷的罪行无论在什么时候都应该受到谴责，行凶者理应道歉悔改的时候，他们又会说：过去的历史事实实际上已经消失，剩下的只是我们对过去的事实的残缺的也许还是扭曲了的记忆，这样的记忆碎片可能和历史事实本身相去甚远，而且成王败寇，战争失利的一方被描述成恶行累累并没有什么稀奇，那么，我们以之为确凿证据的历史，不再是不容辩驳的，那么还有什么效力来约束所谓的“行凶者”呢？
+确实，绝对真实的历史是永远也无法获得的，但是这不能够成为我们完全抛弃历史、走向虚无的理由。历史研究是向过去的真实不断接近的过程，即使我们无法完全复原，也能够知道通过有限的资料得到还有些用处的历史规律，不至于一而再再而三地干下蠢事。对那些投向虚无的人我会这么回答，我无权强迫他们接受我的观点，只能够等更可怕的事实来发话了，那已经不是历史，而是未来了。
+我想，即使我们对历史的记载残缺不全，但这只是我们认识的不足，历史本身仍然完好无损的保留了，它的规律和事实不会随着我们的理解不同而凭空出现或者凭空消失，它就像隐藏在棉花团中的钢针，随时准备给那些蔑视历史的人们又一个血的教训。
+如果要我们的后代少一些这样的疑惑，那么就从现在以一种负责任的心态忠实地记录周围的事实，不要屈服于政治或者其他什么的压力。至于自己对事物的看法，大可以畅所欲言，不必担心自己的倾向影响后人的判断，因为当后人面对一大堆当时时代的人对同一事物不同看法的时候，反而更容易把握真实的历史作出恰当的评价。当拥有多个面孔的真实声音被压制得只剩下一种形象的时候，鲜活的历史就只剩下一个干瘪的尸体。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhenshi-de-lishi/" />
+
+
+
+<meta property="article:published_time" content="2003-09-07T01:57:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2003-09-07T01:57:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="真实的历史">
+<meta itemprop="description" content="究竟什么是真正的历史，是否过去的历史的真实性仅依赖于现代人的意识？（过去历史的影响不可更改）
+是否现代人对历史的眼光仅仅受书本教育的影响？
+日本人在为过去的战争辩护的时候，曾经说过这样的理由：我们现在对战争的理解每个人都不同，那么，一个国家的人民可以因为他们认为自己对战争的理解是正确的，就可以强迫另外一个国家的人民接受这种理解并且不断道歉么？
+当我们说过去的历史事实不容辩驳，残酷的罪行无论在什么时候都应该受到谴责，行凶者理应道歉悔改的时候，他们又会说：过去的历史事实实际上已经消失，剩下的只是我们对过去的事实的残缺的也许还是扭曲了的记忆，这样的记忆碎片可能和历史事实本身相去甚远，而且成王败寇，战争失利的一方被描述成恶行累累并没有什么稀奇，那么，我们以之为确凿证据的历史，不再是不容辩驳的，那么还有什么效力来约束所谓的“行凶者”呢？
+确实，绝对真实的历史是永远也无法获得的，但是这不能够成为我们完全抛弃历史、走向虚无的理由。历史研究是向过去的真实不断接近的过程，即使我们无法完全复原，也能够知道通过有限的资料得到还有些用处的历史规律，不至于一而再再而三地干下蠢事。对那些投向虚无的人我会这么回答，我无权强迫他们接受我的观点，只能够等更可怕的事实来发话了，那已经不是历史，而是未来了。
+我想，即使我们对历史的记载残缺不全，但这只是我们认识的不足，历史本身仍然完好无损的保留了，它的规律和事实不会随着我们的理解不同而凭空出现或者凭空消失，它就像隐藏在棉花团中的钢针，随时准备给那些蔑视历史的人们又一个血的教训。
+如果要我们的后代少一些这样的疑惑，那么就从现在以一种负责任的心态忠实地记录周围的事实，不要屈服于政治或者其他什么的压力。至于自己对事物的看法，大可以畅所欲言，不必担心自己的倾向影响后人的判断，因为当后人面对一大堆当时时代的人对同一事物不同看法的时候，反而更容易把握真实的历史作出恰当的评价。当拥有多个面孔的真实声音被压制得只剩下一种形象的时候，鲜活的历史就只剩下一个干瘪的尸体。">
+
+
+<meta itemprop="datePublished" content="2003-09-07T01:57:03&#43;00:00" />
+<meta itemprop="dateModified" content="2003-09-07T01:57:03&#43;00:00" />
+<meta itemprop="wordCount" content="7">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="真实的历史"/>
+<meta name="twitter:description" content="究竟什么是真正的历史，是否过去的历史的真实性仅依赖于现代人的意识？（过去历史的影响不可更改）
+是否现代人对历史的眼光仅仅受书本教育的影响？
+日本人在为过去的战争辩护的时候，曾经说过这样的理由：我们现在对战争的理解每个人都不同，那么，一个国家的人民可以因为他们认为自己对战争的理解是正确的，就可以强迫另外一个国家的人民接受这种理解并且不断道歉么？
+当我们说过去的历史事实不容辩驳，残酷的罪行无论在什么时候都应该受到谴责，行凶者理应道歉悔改的时候，他们又会说：过去的历史事实实际上已经消失，剩下的只是我们对过去的事实的残缺的也许还是扭曲了的记忆，这样的记忆碎片可能和历史事实本身相去甚远，而且成王败寇，战争失利的一方被描述成恶行累累并没有什么稀奇，那么，我们以之为确凿证据的历史，不再是不容辩驳的，那么还有什么效力来约束所谓的“行凶者”呢？
+确实，绝对真实的历史是永远也无法获得的，但是这不能够成为我们完全抛弃历史、走向虚无的理由。历史研究是向过去的真实不断接近的过程，即使我们无法完全复原，也能够知道通过有限的资料得到还有些用处的历史规律，不至于一而再再而三地干下蠢事。对那些投向虚无的人我会这么回答，我无权强迫他们接受我的观点，只能够等更可怕的事实来发话了，那已经不是历史，而是未来了。
+我想，即使我们对历史的记载残缺不全，但这只是我们认识的不足，历史本身仍然完好无损的保留了，它的规律和事实不会随着我们的理解不同而凭空出现或者凭空消失，它就像隐藏在棉花团中的钢针，随时准备给那些蔑视历史的人们又一个血的教训。
+如果要我们的后代少一些这样的疑惑，那么就从现在以一种负责任的心态忠实地记录周围的事实，不要屈服于政治或者其他什么的压力。至于自己对事物的看法，大可以畅所欲言，不必担心自己的倾向影响后人的判断，因为当后人面对一大堆当时时代的人对同一事物不同看法的时候，反而更容易把握真实的历史作出恰当的评价。当拥有多个面孔的真实声音被压制得只剩下一种形象的时候，鲜活的历史就只剩下一个干瘪的尸体。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2003-09-07 01:57">2003-09-07</time> &bull;
+          
+            
+            <a href="/categories/%E7%85%AE%E9%85%92%E8%AE%BA%E5%8F%B2">煮酒论史</a>
+          </p>
+      <h1>真实的历史</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>究竟什么是真正的历史，是否过去的历史的真实性仅依赖于现代人的意识？（过去历史的影响不可更改）<br />
+是否现代人对历史的眼光仅仅受书本教育的影响？</p>
+
+<p>日本人在为过去的战争辩护的时候，曾经说过这样的理由：我们现在对战争的理解每个人都不同，那么，一个国家的人民可以因为他们认为自己对战争的理解是正确的，就可以强迫另外一个国家的人民接受这种理解并且不断道歉么？<br />
+当我们说过去的历史事实不容辩驳，残酷的罪行无论在什么时候都应该受到谴责，行凶者理应道歉悔改的时候，他们又会说：过去的历史事实实际上已经消失，剩下的只是我们对过去的事实的残缺的也许还是扭曲了的记忆，这样的记忆碎片可能和历史事实本身相去甚远，而且成王败寇，战争失利的一方被描述成恶行累累并没有什么稀奇，那么，我们以之为确凿证据的历史，不再是不容辩驳的，那么还有什么效力来约束所谓的“行凶者”呢？</p>
+
+<p>确实，绝对真实的历史是永远也无法获得的，但是这不能够成为我们完全抛弃历史、走向虚无的理由。历史研究是向过去的真实不断接近的过程，即使我们无法完全复原，也能够知道通过有限的资料得到还有些用处的历史规律，不至于一而再再而三地干下蠢事。对那些投向虚无的人我会这么回答，我无权强迫他们接受我的观点，只能够等更可怕的事实来发话了，那已经不是历史，而是未来了。</p>
+
+<p>我想，即使我们对历史的记载残缺不全，但这只是我们认识的不足，历史本身仍然完好无损的保留了，它的规律和事实不会随着我们的理解不同而凭空出现或者凭空消失，它就像隐藏在棉花团中的钢针，随时准备给那些蔑视历史的人们又一个血的教训。</p>
+
+<p>如果要我们的后代少一些这样的疑惑，那么就从现在以一种负责任的心态忠实地记录周围的事实，不要屈服于政治或者其他什么的压力。至于自己对事物的看法，大可以畅所欲言，不必担心自己的倾向影响后人的判断，因为当后人面对一大堆当时时代的人对同一事物不同看法的时候，反而更容易把握真实的历史作出恰当的评价。当拥有多个面孔的真实声音被压制得只剩下一种形象的时候，鲜活的历史就只剩下一个干瘪的尸体。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%9c%9f%e5%ae%9e%e7%9a%84%e5%8e%86%e5%8f%b2》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhenshi-de-lishi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhenshi-de-lishi%2f&text= @calon %e7%9c%9f%e5%ae%9e%e7%9a%84%e5%8e%86%e5%8f%b2&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

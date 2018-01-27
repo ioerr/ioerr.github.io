@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>雪灾 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/</link>
     <description>Recent content in 雪灾 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jan 2008 08:59:59 +0000</lastBuildDate>
     
-    <item>
-      <title>雪灾</title>
-      <link>https://ioerr.github.io/xuezai/</link>
-      <pubDate>Tue, 29 Jan 2008 08:59:59 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/xuezai/</guid>
-      <description>&lt;p&gt;近段时间中国中南部从贵州到安徽遭遇严重雪灾，我所在的湖南是受灾最严重的省份之一，不写一点东西不行。&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>雪灾</title>
+        <link>https://ioerr.github.io/posts/xuezai/</link>
+        <pubDate>Tue, 29 Jan 2008 08:59:59 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/xuezai/</guid>
+        <description>&lt;p&gt;近段时间中国中南部从贵州到安徽遭遇严重雪灾，我所在的湖南是受灾最严重的省份之一，不写一点东西不行。&lt;/p&gt;
 
 &lt;p&gt;1、这里的气温和北方比不算低，大概-4℃左右。但一来南方很少有暖气供应，二来下的不是大雪而是雪籽、小雪、夹杂冻雨，落地成冰，三是湿气极重，湿冷渗入骨髓，非常难受。我的房间开着空调，玻璃窗内侧都可以结冰…&lt;/p&gt;
 
@@ -39,8 +39,8 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3、大面积停电。&lt;br /&gt;
 上周开始电塔电线因为冰冻而损坏，三峡的电无法输送到湖南，湖南益阳的电力也无法正常输出，煤矿也因为大雪封山运输困难，于是开始分批分区停电。&lt;br /&gt;
 火车停运主要就是因为断电，郴州电台和电视台前几天也被迫停止播出了。&lt;br /&gt;
-昨天家里第一次遇到停电，一停就是将近24个小时，只好站在窗户边看外面的路灯，一边用
-MP3外放听歌（收音机都坏掉了）一边
+昨天家里第一次遇到停电，一停就是将近24个小时，只好站在窗户边看外面的路灯，一边用&lt;br /&gt;
+MP3外放听歌（收音机都坏掉了）一边&lt;br /&gt;
 Twitter，要么就是读书、念书，总算离原始社会还有那么一点距离。&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/calon/2228303014/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2137/2228303014_e5768cc938.jpg&#34; alt=&#34;第一个冻死之前用 Twitter 的人 (by
 calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -62,7 +62,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 通讯设施必然优先遭到打击——比目前电信、广播、电视遭受的天气影响要严重得多；&lt;br /&gt;
 堤坝遭受攻击引起的水灾、轰炸和导弹袭击引起的火灾随时可能发生——抢险的压力会比现在大百倍；&lt;br /&gt;
 大量的死亡引起疫病流行——目前的雪灾中我们还没有经受这方面的考验；&lt;br /&gt;
-近期的股价震荡、近年来的 CPI
+近期的股价震荡、近年来的 CPI&lt;br /&gt;
 飞升、房价居高不下等等问题，和战时的经济动不动就面临崩溃边缘相比，更是小巫见大巫；&lt;br /&gt;
 …&lt;br /&gt;
 我们在这次天灾时的紧急应变能力表现得如何？我们到时候又是否有应付的能力？&lt;br /&gt;
@@ -88,7 +88,7 @@ calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在&lt;a href=&#34;http://www.hecaitou.net/?p=2493&#34;&gt;和菜头那里&lt;/a&gt;看到，&lt;a href=&#34;http://news.xinhuanet.com/photo/2008-01/28/content_7508503.htm&#34;&gt;新华网采用的这张照片&lt;/a&gt;照得真好！&lt;br /&gt;
 &lt;img src=&#34;http://news.xinhuanet.com/photo/2008-01/28/xin_27201052807300312145212.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

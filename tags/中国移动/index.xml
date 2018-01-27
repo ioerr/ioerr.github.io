@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中国移动 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</link>
     <description>Recent content in 中国移动 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Dec 2007 17:41:03 +0000</lastBuildDate>
     
-    <item>
-      <title>为什么中国移动很可怕？</title>
-      <link>https://ioerr.github.io/weishenme-cmcc-henkepa/</link>
-      <pubDate>Fri, 28 Dec 2007 17:41:03 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/weishenme-cmcc-henkepa/</guid>
-      <description>&lt;p&gt;“&lt;a href=&#34;http://calon.weblogs.us/bukekao/&#34;&gt;年底三部大片的启示&lt;/a&gt;”，网友很快就创作出来了《苹果》和《长江7号》的版本。但之后新出来的一个版本却混进了奇怪的东西：“《命运呼叫转移》：还是中国移动最可靠。”&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>为什么中国移动很可怕？</title>
+        <link>https://ioerr.github.io/posts/weishenme-cmcc-henkepa/</link>
+        <pubDate>Fri, 28 Dec 2007 17:41:03 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/weishenme-cmcc-henkepa/</guid>
+        <description>&lt;p&gt;“&lt;a href=&#34;http://calon.weblogs.us/bukekao/&#34;&gt;年底三部大片的启示&lt;/a&gt;”，网友很快就创作出来了《苹果》和《长江7号》的版本。但之后新出来的一个版本却混进了奇怪的东西：“《命运呼叫转移》：还是中国移动最可靠。”&lt;br /&gt;
 你看，中国移动不但是手握巨额现金的国内移动通讯垄断企业，而且远比其他国有垄断企业嗅觉发达反应迅速头脑机灵，连广大群众用来调侃的段子也可以马上改造一番变成广告宣传，而且还被欣然接受且广泛传播。&lt;br /&gt;
 另一方面，敢赞助拍出《命运呼叫转移》这样比广告还不如的大烂片，还能够放在几部反响还算不错的大片之列，在一串“不可靠”之后强插一句肉麻的“最可靠”，脸皮之厚也可以赶上地幔了。&lt;br /&gt;
 这就是为什么说中国移动很可怕了。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

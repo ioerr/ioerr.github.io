@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>这回真的死了 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="这回真的死了" />
+<meta property="og:description" content="大前天晚上上床比较早，结果反而还做了个噩梦。
+梦的前半段就不多说了，大致是一个场面火爆的警匪卧底片，有在炸坏堤防后在洪水中的城市驾驶快艇进行巷战追逐的场景。等到大局一定进入尾声，就慢慢平淡下来了。
+当时的情景是，我倚在某间公寓的门口（似乎是自己的家，门口在我右手边）和女友还有好友三个人轻松地聊天，大概是黄昏时分。远处传来警笛，还有警察追捕剩余的罪犯和盘查路人的喧哗声。
+说着说着，他们两个一同朝门外看去，我也转过头看个究竟，只见一个穿着黑色运动服，用运动帽遮住面孔的人正慢慢走过来，然后他的手一抬，我就觉得好像被什么东西摇了一下，四周立刻安静了下来，脑袋下意识地往左看去。只见我的女朋友的眉心上有个弹孔，正向后倒去，我的朋友似乎一边大喊（我听不见他说什么）一边冲出去想要抓住那人。
+我想靠过去扶起女友，却发现身体不大听使唤，每一步都走得非常吃力，走了两步的动作仿佛过了好几分钟一样，慢慢也倒了下去。斜躺在地上，我用左手捂住感到有些不适的左额角，发现头骨上凹下去一块，并没有什么痛感，只有鲜血喷涌而出，根本无法按住。随着大量失血，眼前的场景很快地黯淡下去。等到朋友回身想救我的时候，我已经失去知觉。
+然后，就醒来了。
+当梦中发现头上致命的伤口时，我心里很清楚一定没救了，可是心里竟然一点都不感到绝望或者恐惧，倒有些坦然接受的心情。或许是因为如果真是这样的死法，要比备受折磨的惨死幸福多了吧。
+至于为什么会梦见头上有伤口，也许是当时脑袋中有小血管爆裂吧 XD
+那个女朋友嘛，我还没有看清楚什么样子就挂掉了！太可惜了！" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhehui-zhende-sile/" />
+
+
+
+<meta property="article:published_time" content="2007-05-24T15:04:57&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-05-24T15:04:57&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="这回真的死了">
+<meta itemprop="description" content="大前天晚上上床比较早，结果反而还做了个噩梦。
+梦的前半段就不多说了，大致是一个场面火爆的警匪卧底片，有在炸坏堤防后在洪水中的城市驾驶快艇进行巷战追逐的场景。等到大局一定进入尾声，就慢慢平淡下来了。
+当时的情景是，我倚在某间公寓的门口（似乎是自己的家，门口在我右手边）和女友还有好友三个人轻松地聊天，大概是黄昏时分。远处传来警笛，还有警察追捕剩余的罪犯和盘查路人的喧哗声。
+说着说着，他们两个一同朝门外看去，我也转过头看个究竟，只见一个穿着黑色运动服，用运动帽遮住面孔的人正慢慢走过来，然后他的手一抬，我就觉得好像被什么东西摇了一下，四周立刻安静了下来，脑袋下意识地往左看去。只见我的女朋友的眉心上有个弹孔，正向后倒去，我的朋友似乎一边大喊（我听不见他说什么）一边冲出去想要抓住那人。
+我想靠过去扶起女友，却发现身体不大听使唤，每一步都走得非常吃力，走了两步的动作仿佛过了好几分钟一样，慢慢也倒了下去。斜躺在地上，我用左手捂住感到有些不适的左额角，发现头骨上凹下去一块，并没有什么痛感，只有鲜血喷涌而出，根本无法按住。随着大量失血，眼前的场景很快地黯淡下去。等到朋友回身想救我的时候，我已经失去知觉。
+然后，就醒来了。
+当梦中发现头上致命的伤口时，我心里很清楚一定没救了，可是心里竟然一点都不感到绝望或者恐惧，倒有些坦然接受的心情。或许是因为如果真是这样的死法，要比备受折磨的惨死幸福多了吧。
+至于为什么会梦见头上有伤口，也许是当时脑袋中有小血管爆裂吧 XD
+那个女朋友嘛，我还没有看清楚什么样子就挂掉了！太可惜了！">
+
+
+<meta itemprop="datePublished" content="2007-05-24T15:04:57&#43;00:00" />
+<meta itemprop="dateModified" content="2007-05-24T15:04:57&#43;00:00" />
+<meta itemprop="wordCount" content="10">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="这回真的死了"/>
+<meta name="twitter:description" content="大前天晚上上床比较早，结果反而还做了个噩梦。
+梦的前半段就不多说了，大致是一个场面火爆的警匪卧底片，有在炸坏堤防后在洪水中的城市驾驶快艇进行巷战追逐的场景。等到大局一定进入尾声，就慢慢平淡下来了。
+当时的情景是，我倚在某间公寓的门口（似乎是自己的家，门口在我右手边）和女友还有好友三个人轻松地聊天，大概是黄昏时分。远处传来警笛，还有警察追捕剩余的罪犯和盘查路人的喧哗声。
+说着说着，他们两个一同朝门外看去，我也转过头看个究竟，只见一个穿着黑色运动服，用运动帽遮住面孔的人正慢慢走过来，然后他的手一抬，我就觉得好像被什么东西摇了一下，四周立刻安静了下来，脑袋下意识地往左看去。只见我的女朋友的眉心上有个弹孔，正向后倒去，我的朋友似乎一边大喊（我听不见他说什么）一边冲出去想要抓住那人。
+我想靠过去扶起女友，却发现身体不大听使唤，每一步都走得非常吃力，走了两步的动作仿佛过了好几分钟一样，慢慢也倒了下去。斜躺在地上，我用左手捂住感到有些不适的左额角，发现头骨上凹下去一块，并没有什么痛感，只有鲜血喷涌而出，根本无法按住。随着大量失血，眼前的场景很快地黯淡下去。等到朋友回身想救我的时候，我已经失去知觉。
+然后，就醒来了。
+当梦中发现头上致命的伤口时，我心里很清楚一定没救了，可是心里竟然一点都不感到绝望或者恐惧，倒有些坦然接受的心情。或许是因为如果真是这样的死法，要比备受折磨的惨死幸福多了吧。
+至于为什么会梦见头上有伤口，也许是当时脑袋中有小血管爆裂吧 XD
+那个女朋友嘛，我还没有看清楚什么样子就挂掉了！太可惜了！"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-05-24 03:04">2007-05-24</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          </p>
+      <h1>这回真的死了</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>大前天晚上上床比较早，结果反而还做了个噩梦。</p>
+
+<p>梦的前半段就不多说了，大致是一个场面火爆的警匪卧底片，有在炸坏堤防后在洪水中的城市驾驶快艇进行巷战追逐的场景。等到大局一定进入尾声，就慢慢平淡下来了。</p>
+
+<p>当时的情景是，我倚在某间公寓的门口（似乎是自己的家，门口在我右手边）和女友还有好友三个人轻松地聊天，大概是黄昏时分。远处传来警笛，还有警察追捕剩余的罪犯和盘查路人的喧哗声。</p>
+
+<p>说着说着，他们两个一同朝门外看去，我也转过头看个究竟，只见一个穿着黑色运动服，用运动帽遮住面孔的人正慢慢走过来，然后他的手一抬，我就觉得好像被什么东西摇了一下，四周立刻安静了下来，脑袋下意识地往左看去。只见我的女朋友的眉心上有个弹孔，正向后倒去，我的朋友似乎一边大喊（我听不见他说什么）一边冲出去想要抓住那人。</p>
+
+<p>我想靠过去扶起女友，却发现身体不大听使唤，每一步都走得非常吃力，走了两步的动作仿佛过了好几分钟一样，慢慢也倒了下去。斜躺在地上，我用左手捂住感到有些不适的左额角，发现头骨上凹下去一块，并没有什么痛感，只有鲜血喷涌而出，根本无法按住。随着大量失血，眼前的场景很快地黯淡下去。等到朋友回身想救我的时候，我已经失去知觉。</p>
+
+<p>然后，就醒来了。</p>
+
+<p>当梦中发现头上致命的伤口时，我心里很清楚一定没救了，可是心里竟然一点都不感到绝望或者恐惧，倒有些坦然接受的心情。或许是因为如果真是这样的死法，要比备受折磨的惨死幸福多了吧。</p>
+
+<p>至于为什么会梦见头上有伤口，也许是当时脑袋中有小血管爆裂吧 XD<br />
+那个女朋友嘛，我还没有看清楚什么样子就挂掉了！太可惜了！</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%bf%99%e5%9b%9e%e7%9c%9f%e7%9a%84%e6%ad%bb%e4%ba%86》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhehui-zhende-sile%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhehui-zhende-sile%2f&text= @calon %e8%bf%99%e5%9b%9e%e7%9c%9f%e7%9a%84%e6%ad%bb%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

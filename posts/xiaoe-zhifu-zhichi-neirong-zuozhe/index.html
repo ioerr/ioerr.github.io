@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小额支付支持内容作者 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="小额支付支持内容作者" />
+<meta property="og:description" content="阮一峰最近发表文章说他的 Google Adsense
+被关闭，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。
+之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。
+当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。
+至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。
+好在 Sonic
+在阮一峰文章的回复中提醒，支付宝还有担保交易功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。
+好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。
+单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。
+另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。
+也有 Flattr
+这样的项目，到目前为止的用户数大约10万。
+又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了这个收款主页，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/xiaoe-zhifu-zhichi-neirong-zuozhe/" />
+
+
+
+<meta property="article:published_time" content="2011-05-19T14:31:43&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-05-19T14:31:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="小额支付支持内容作者">
+<meta itemprop="description" content="阮一峰最近发表文章说他的 Google Adsense
+被关闭，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。
+之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。
+当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。
+至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。
+好在 Sonic
+在阮一峰文章的回复中提醒，支付宝还有担保交易功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。
+好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。
+单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。
+另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。
+也有 Flattr
+这样的项目，到目前为止的用户数大约10万。
+又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了这个收款主页，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。">
+
+
+<meta itemprop="datePublished" content="2011-05-19T14:31:43&#43;00:00" />
+<meta itemprop="dateModified" content="2011-05-19T14:31:43&#43;00:00" />
+<meta itemprop="wordCount" content="22">
+
+
+
+<meta itemprop="keywords" content="Flattr,Paypal,付费,小额支付,支付宝," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="小额支付支持内容作者"/>
+<meta name="twitter:description" content="阮一峰最近发表文章说他的 Google Adsense
+被关闭，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。
+之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。
+当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。
+至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。
+好在 Sonic
+在阮一峰文章的回复中提醒，支付宝还有担保交易功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。
+好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。
+单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。
+另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。
+也有 Flattr
+这样的项目，到目前为止的用户数大约10万。
+又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了这个收款主页，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2011-05-19 02:31">2011-05-19</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+          
+            , 
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>小额支付支持内容作者</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/flattr">
+              <span class="hash">#</span>Flattr</a>
+          
+            , 
+            <a href="/tags/paypal">
+              <span class="hash">#</span>Paypal</a>
+          
+            , 
+            <a href="/tags/%E4%BB%98%E8%B4%B9">
+              <span class="hash">#</span>付费</a>
+          
+            , 
+            <a href="/tags/%E5%B0%8F%E9%A2%9D%E6%94%AF%E4%BB%98">
+              <span class="hash">#</span>小额支付</a>
+          
+            , 
+            <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D">
+              <span class="hash">#</span>支付宝</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.ruanyifeng.com/blog/2011/05/my_google_adsense_is_disabled.html">阮一峰最近发表文章说他的 Google Adsense<br />
+被关闭</a>，于是尝试接受读者直接捐赠小额金钱，取代点击广告来获取收入。</p>
+
+<p>之前多次想过读者是否有可能长期直接为互联网的高质量内容付费，除了观念的转变之外，最大的障碍恐怕是支付手段是否便捷，支付的安全性能否保证，否则即使捐助的数额再小，一般人也会望而却步的。</p>
+
+<p>当时我也和阮一峰一样，发现支付宝不再向一般人提供捐赠功能（需要出示国家提供的慈善资质证明），还动过申请成为商家的心思，但是被无情地拒绝了。<br />
+至于 Paypal，注册后几乎不怎么用过，手续费也是个问题。</p>
+
+<p>好在 <a href="http://xhbang.com/">Sonic</a><br />
+在阮一峰文章的回复中提醒，支付宝还有<a href="https://shenghuo.alipay.com/escore.htm">担保交易</a>功能，于是尝试了一下通过担保交易功能为内容付费的流程，虽然没有理想中的那么精简，但对常用支付宝的人来说，帮助他人已经不是一件特麻烦的事情了。</p>
+
+<p>好吧，我也打算让读者根据内容质量付费了，尽管号称滞销书，能多赚几分奶粉钱也是好的嘛。<br />
+单位价格定为双份五毛怎么样？虽然一般的0.99元有心理学依据。</p>
+
+<p>另：国外 Blog 上看到的以 Paypal 的捐赠功能为主。<br />
+也有 <a href="http://flattr.com/">Flattr</a><br />
+这样的项目，到目前为止的用户数大约10万。</p>
+
+<p>又另：支付宝已经有了收款主页功能，比担保交易好用，所以小额支付页面改到了<a href="https://gist.github.com/2246054">这个收款主页</a>，你也可以在侧栏上看到链接。至于金额，当然随意，由读者说了算。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%b0%8f%e9%a2%9d%e6%94%af%e4%bb%98%e6%94%af%e6%8c%81%e5%86%85%e5%ae%b9%e4%bd%9c%e8%80%85》&body=https%3a%2f%2fioerr.github.io%2fposts%2fxiaoe-zhifu-zhichi-neirong-zuozhe%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxiaoe-zhifu-zhichi-neirong-zuozhe%2f&text= @calon %e5%b0%8f%e9%a2%9d%e6%94%af%e4%bb%98%e6%94%af%e6%8c%81%e5%86%85%e5%ae%b9%e4%bd%9c%e8%80%85&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

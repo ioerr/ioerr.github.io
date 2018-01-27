@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Link 插件 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Auto Link 插件" />
+<meta property="og:description" content="DoNews、mBlogger 的
+.Text
+系统中有一个很实用的功能，就是“关键字”，即，你在后台定义关键字及其对应的链接地址，则在
+blog
+内容中出现该关键字，就能够自动添加其对应的链接，这样处理常用的链接，可以省下很多添加链接的“体力活”，而且能够保证没有遗漏。
+找到几个 WordPress 插件站点之后，很快就看到实现这种功能的插件，例如在
+planet of the penguins 上可以看到
+Chris Lynch 基于 Joel Bennett 的
+Acronym
+Plugin
+写的 Auto-Link
+Plugin，以及
+Greg Hurrell 对 Chris
+的作品进行了完善和增强的版本。
+可惜现在登录不了 Weblogs.us 的 FTP，不然可以先试试这个插件的效果如何。
+另外，看到 Greg Hurrell 的 Jeremiah
+Blues 使用的主题挺漂亮的，顺藤摸瓜找到作者
+Mike Purdy 的
+Quentin 主题。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/auto-link-chajian/" />
+
+
+
+<meta property="article:published_time" content="2005-07-20T16:11:43&#43;00:00"/>
+
+<meta property="article:modified_time" content="2005-07-20T16:11:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Auto Link 插件">
+<meta itemprop="description" content="DoNews、mBlogger 的
+.Text
+系统中有一个很实用的功能，就是“关键字”，即，你在后台定义关键字及其对应的链接地址，则在
+blog
+内容中出现该关键字，就能够自动添加其对应的链接，这样处理常用的链接，可以省下很多添加链接的“体力活”，而且能够保证没有遗漏。
+找到几个 WordPress 插件站点之后，很快就看到实现这种功能的插件，例如在
+planet of the penguins 上可以看到
+Chris Lynch 基于 Joel Bennett 的
+Acronym
+Plugin
+写的 Auto-Link
+Plugin，以及
+Greg Hurrell 对 Chris
+的作品进行了完善和增强的版本。
+可惜现在登录不了 Weblogs.us 的 FTP，不然可以先试试这个插件的效果如何。
+另外，看到 Greg Hurrell 的 Jeremiah
+Blues 使用的主题挺漂亮的，顺藤摸瓜找到作者
+Mike Purdy 的
+Quentin 主题。">
+
+
+<meta itemprop="datePublished" content="2005-07-20T16:11:43&#43;00:00" />
+<meta itemprop="dateModified" content="2005-07-20T16:11:43&#43;00:00" />
+<meta itemprop="wordCount" content="46">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Auto Link 插件"/>
+<meta name="twitter:description" content="DoNews、mBlogger 的
+.Text
+系统中有一个很实用的功能，就是“关键字”，即，你在后台定义关键字及其对应的链接地址，则在
+blog
+内容中出现该关键字，就能够自动添加其对应的链接，这样处理常用的链接，可以省下很多添加链接的“体力活”，而且能够保证没有遗漏。
+找到几个 WordPress 插件站点之后，很快就看到实现这种功能的插件，例如在
+planet of the penguins 上可以看到
+Chris Lynch 基于 Joel Bennett 的
+Acronym
+Plugin
+写的 Auto-Link
+Plugin，以及
+Greg Hurrell 对 Chris
+的作品进行了完善和增强的版本。
+可惜现在登录不了 Weblogs.us 的 FTP，不然可以先试试这个插件的效果如何。
+另外，看到 Greg Hurrell 的 Jeremiah
+Blues 使用的主题挺漂亮的，顺藤摸瓜找到作者
+Mike Purdy 的
+Quentin 主题。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2005-07-20 04:11">2005-07-20</time> &bull;
+          
+            
+            <a href="/categories/wordpress">WORDPRESS</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Auto Link 插件</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p><a href="http://www.donews.net/">DoNews</a>、<a href="http://www.mblogger.cn/">mBlogger</a> 的<br />
+.Text<br />
+系统中有一个很实用的功能，就是“关键字”，即，你在后台定义关键字及其对应的链接地址，则在<br />
+blog<br />
+内容中出现该关键字，就能够自动添加其对应的链接，这样处理常用的链接，可以省下很多添加链接的“体力活”，而且能够保证没有遗漏。</p>
+
+<p>找到几个 WordPress 插件站点之后，很快就看到实现这种功能的插件，例如在<br />
+<a href="http://www.planetofthepenguins.com/">planet of the penguins</a> 上可以看到<br />
+Chris Lynch 基于 <a href="http://www.HuddledMasses.org/">Joel Bennett</a> 的<br />
+<a href="http://www.huddledmasses.org/2004/04/19/wordpress-plugin-acronym-replacer/">Acronym<br />
+Plugin</a><br />
+写的 <a href="http://www.planetofthepenguins.com/2005/01/13/introducing-autolink/">Auto-Link<br />
+Plugin</a>，以及<br />
+<a href="http://greghurrell.net/wp">Greg Hurrell</a> 对 <a href="http://www.planetofthepenguins.com/wp-content/plugins/source.php?file=autolink.php">Chris<br />
+的作品</a>进行了<a href="http://greghurrell.net/wp/2005/06/27/autolink-plug-in/">完善和增强</a>的<a href="http://greghurrell.net/wp/wp-content/plugins/autolink.phps">版本</a>。</p>
+
+<p>可惜现在登录不了 Weblogs.us 的 FTP，不然可以先试试这个插件的效果如何。</p>
+
+<p>另外，看到 <a href="http://greghurrell.net/wp">Greg Hurrell</a> 的 <a href="http://greghurrell.net/wp/">Jeremiah<br />
+Blues</a> 使用的主题挺漂亮的，顺藤摸瓜找到作者<br />
+<a href="http://www.pikemurdy.com/">Mike Purdy</a> 的<br />
+<a href="http://www.pikemurdy.com/archives/2005/03/quentin10/">Quentin</a> 主题。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Auto%20Link%20%e6%8f%92%e4%bb%b6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fauto-link-chajian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fauto-link-chajian%2f&text= @calon Auto%20Link%20%e6%8f%92%e4%bb%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中文入门手册 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="中文入门手册" />
+<meta property="og:description" content="以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。
+在 TextFiles
+翻到一篇古老的中文简易教学的奇文，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
+l、r 至今都分不清楚…
+以下标记有[?]的为存疑，[&amp;]的为不靠谱，[!]的为神来之笔。
+干＝Ga=Fuck
+你的＝Lin=Your
+伢[?]＝Yah=Mother
+这显然是将一个活生生的句子腰斩之后的结果，而且“Yah”听上去倒像是湖南话中的“伢”，问候对方的母亲大人就变味了。
+我＝Wuh=I, me
+爱＝I=Love
+你＝Nee=You
+为什么这个充满爱的组合出现在这里让我觉得动机不纯？
+爸爸＝Papa =Father
+他/她＝Ta=He, She
+[?]＝More =More
+还要多＝Hie a dore=More than anything
+好多＝Hando=Very much
+大＝Da=Big
+没＝Me=Doesn&rsquo;t have
+老二＝La er=A dick
+鸡巴[&amp;]＝Jeba =Pussy
+不要告诉我你想说的其实是“结巴”
+美丽＝Malee=Beautiful
+想＝Shaw =Think
+一个 x 的发音，害死多少外国友人…
+你有没有[!]＝Nio meo=Do you have
+[?]＝gice =Them
+同性恋[&amp;]＝Tonesinglien =Gay
+是＝Su=Are
+女孩＝Nuhie=Girl
+看＝Cawn =See
+想＝Shaw =Want
+你能不能？[?]＝Nee numoo num?=Will you?
+啦[?]＝La=Oh!
+二＝Er=2
+独独学习这个“二”的发音，可见这个教学者还是有些水准的啊～
+跟（某人）出去＝Gun (Name) choo chee =Go out with" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zhongwen-rumen-shouce/" />
+
+
+
+<meta property="article:published_time" content="2007-08-15T09:44:38&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-08-15T09:44:38&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="中文入门手册">
+<meta itemprop="description" content="以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。
+在 TextFiles
+翻到一篇古老的中文简易教学的奇文，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
+l、r 至今都分不清楚…
+以下标记有[?]的为存疑，[&amp;]的为不靠谱，[!]的为神来之笔。
+干＝Ga=Fuck
+你的＝Lin=Your
+伢[?]＝Yah=Mother
+这显然是将一个活生生的句子腰斩之后的结果，而且“Yah”听上去倒像是湖南话中的“伢”，问候对方的母亲大人就变味了。
+我＝Wuh=I, me
+爱＝I=Love
+你＝Nee=You
+为什么这个充满爱的组合出现在这里让我觉得动机不纯？
+爸爸＝Papa =Father
+他/她＝Ta=He, She
+[?]＝More =More
+还要多＝Hie a dore=More than anything
+好多＝Hando=Very much
+大＝Da=Big
+没＝Me=Doesn&rsquo;t have
+老二＝La er=A dick
+鸡巴[&amp;]＝Jeba =Pussy
+不要告诉我你想说的其实是“结巴”
+美丽＝Malee=Beautiful
+想＝Shaw =Think
+一个 x 的发音，害死多少外国友人…
+你有没有[!]＝Nio meo=Do you have
+[?]＝gice =Them
+同性恋[&amp;]＝Tonesinglien =Gay
+是＝Su=Are
+女孩＝Nuhie=Girl
+看＝Cawn =See
+想＝Shaw =Want
+你能不能？[?]＝Nee numoo num?=Will you?
+啦[?]＝La=Oh!
+二＝Er=2
+独独学习这个“二”的发音，可见这个教学者还是有些水准的啊～
+跟（某人）出去＝Gun (Name) choo chee =Go out with">
+
+
+<meta itemprop="datePublished" content="2007-08-15T09:44:38&#43;00:00" />
+<meta itemprop="dateModified" content="2007-08-15T09:44:38&#43;00:00" />
+<meta itemprop="wordCount" content="237">
+
+
+
+<meta itemprop="keywords" content="中文,恶搞,翻译," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="中文入门手册"/>
+<meta name="twitter:description" content="以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。
+在 TextFiles
+翻到一篇古老的中文简易教学的奇文，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
+l、r 至今都分不清楚…
+以下标记有[?]的为存疑，[&amp;]的为不靠谱，[!]的为神来之笔。
+干＝Ga=Fuck
+你的＝Lin=Your
+伢[?]＝Yah=Mother
+这显然是将一个活生生的句子腰斩之后的结果，而且“Yah”听上去倒像是湖南话中的“伢”，问候对方的母亲大人就变味了。
+我＝Wuh=I, me
+爱＝I=Love
+你＝Nee=You
+为什么这个充满爱的组合出现在这里让我觉得动机不纯？
+爸爸＝Papa =Father
+他/她＝Ta=He, She
+[?]＝More =More
+还要多＝Hie a dore=More than anything
+好多＝Hando=Very much
+大＝Da=Big
+没＝Me=Doesn&rsquo;t have
+老二＝La er=A dick
+鸡巴[&amp;]＝Jeba =Pussy
+不要告诉我你想说的其实是“结巴”
+美丽＝Malee=Beautiful
+想＝Shaw =Think
+一个 x 的发音，害死多少外国友人…
+你有没有[!]＝Nio meo=Do you have
+[?]＝gice =Them
+同性恋[&amp;]＝Tonesinglien =Gay
+是＝Su=Are
+女孩＝Nuhie=Girl
+看＝Cawn =See
+想＝Shaw =Want
+你能不能？[?]＝Nee numoo num?=Will you?
+啦[?]＝La=Oh!
+二＝Er=2
+独独学习这个“二”的发音，可见这个教学者还是有些水准的啊～
+跟（某人）出去＝Gun (Name) choo chee =Go out with"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-08-15 09:44">2007-08-15</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>中文入门手册</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%B8%AD%E6%96%87">
+              <span class="hash">#</span>中文</a>
+          
+            , 
+            <a href="/tags/%E6%81%B6%E6%90%9E">
+              <span class="hash">#</span>恶搞</a>
+          
+            , 
+            <a href="/tags/%E7%BF%BB%E8%AF%91">
+              <span class="hash">#</span>翻译</a>
+          
+        
+      </p>
+    </header>
+    <section><p>以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。</p>
+
+<p>在 <a href="http://www.textfiles.com/">TextFiles</a><br />
+翻到一篇古老的<a href="http://www.textfiles.com/fun/chinesec.hum">中文简易教学的奇文</a>，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果<br />
+l、r 至今都分不清楚…</p>
+
+<p>以下标记有[?]的为存疑，[&amp;]的为不靠谱，[!]的为神来之笔。</p>
+
+<p>干＝Ga=Fuck<br />
+你的＝Lin=Your<br />
+伢[?]＝Yah=Mother<br />
+这显然是将一个活生生的句子腰斩之后的结果，而且“Yah”听上去倒像是湖南话中的“伢”，问候对方的母亲大人就变味了。</p>
+
+<p>我＝Wuh=I, me<br />
+爱＝I=Love<br />
+你＝Nee=You<br />
+为什么这个充满爱的组合出现在这里让我觉得动机不纯？</p>
+
+<p>爸爸＝Papa =Father<br />
+他/她＝Ta=He, She<br />
+[?]＝More =More<br />
+还要多＝Hie a dore=More than anything<br />
+好多＝Hando=Very much<br />
+大＝Da=Big<br />
+没＝Me=Doesn&rsquo;t have<br />
+老二＝La er=A dick<br />
+鸡巴[&amp;]＝Jeba =Pussy<br />
+不要告诉我你想说的其实是“结巴”</p>
+
+<p>美丽＝Malee=Beautiful<br />
+想＝Shaw =Think<br />
+一个 x 的发音，害死多少外国友人…</p>
+
+<p>你有没有[!]＝Nio meo=Do you have<br />
+[?]＝gice =Them<br />
+同性恋[&amp;]＝Tonesinglien =Gay<br />
+是＝Su=Are<br />
+女孩＝Nuhie=Girl<br />
+看＝Cawn =See<br />
+想＝Shaw =Want<br />
+你能不能？[?]＝Nee numoo num?=Will you?<br />
+啦[?]＝La=Oh!<br />
+二＝Er=2<br />
+独独学习这个“二”的发音，可见这个教学者还是有些水准的啊～</p>
+
+<p>跟（某人）出去＝Gun (Name) choo chee =Go out with<br />
+你可不可以？[!]＝Nee cub cuy? =Can you?<br />
+喂＝Way=Hello<br />
+你好吗？＝Nee how ma?=How are you?<br />
+星期一＝Sheen chee ee=Monday<br />
+星期五（晚上）＝Sing she ooh(Wansa)=Friday (Night)<br />
+今晚＝Jeenwhy=Tonite<br />
+是＝See=Yes<br />
+不＝Boo=No<br />
+你喜欢谁？＝Nee she wah say?=Who do you like?<br />
+谁？＝Say? =Who?<br />
+今天＝Chingtien=Today<br />
+今天你好吗？＝Chingtien nee how ma?=How are you today?<br />
+[?]＝Jeenee=Spurm<br />
+因为＝Eenway=Because<br />
+丑＝Tso=Ugly<br />
+你很丑＝Nee hun tso=You are very ugly.<br />
+下一句是不是“老板，退货”？</p>
+
+<p>你喜欢我吗？＝Nee she whine wu ma? =Do you like me?<br />
+为什么？＝Wa sa ma?=Why?<br />
+男孩＝Nahnhie=Boy<br />
+你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful<br />
+girl<br />
+我希望你在这＝Wa she wa ni tsie tsa=I wish you were here<br />
+闭嘴＝Bejuay=Shut up<br />
+脸＝Lien =Face<br />
+我想起你[?]＝Wa shu chee nee=I miss you<br />
+这是什么？＝Tsa tsi su bu?=What is this?<br />
+嗯，这是纱布</p>
+
+<p>我将会＝Wa jawngway=I will<br />
+你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a<br />
+very, dirty, big, dick.<br />
+你是一大鸡巴[&amp;][!]＝Ni she needa jeba.=You are a big pussy.<br />
+真声东击西之典范也！</p>
+
+<p>干你妈鸡巴[&amp;][!]＝Ga ne ma jeba.=Fuch your mothers pussy.<br />
+中国人不是雌雄同体生物！</p>
+
+<p>去干老师＝Chu ga lousi =Go fuck the teacher.<br />
+Hey! Kids! Leave them teachers alone!</p>
+
+<p>你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the<br />
+ugliest dick in the world.<br />
+其实我觉得翻译作“最矬”效果更神奇。</p>
+
+<p>感想：<br />
+1、学习外语果然还是要靠性趣和脏话；<br />
+2、米帝国主义果然玩我之心不死；<br />
+3、中文果然不是这么好学的；<br />
+4、还是我国以前的藏语学习小册子境界高啊，有时间再介绍。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%ad%e6%96%87%e5%85%a5%e9%97%a8%e6%89%8b%e5%86%8c》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzhongwen-rumen-shouce%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzhongwen-rumen-shouce%2f&text= @calon %e4%b8%ad%e6%96%87%e5%85%a5%e9%97%a8%e6%89%8b%e5%86%8c&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

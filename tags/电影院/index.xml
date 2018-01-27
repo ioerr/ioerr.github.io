@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电影院 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E7%94%B5%E5%BD%B1%E9%99%A2/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E7%94%B5%E5%BD%B1%E9%99%A2/</link>
     <description>Recent content in 电影院 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E5%BD%B1%E9%99%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Feb 2013 09:39:26 +0000</lastBuildDate>
     
-    <item>
-      <title>实时付费观影模式</title>
-      <link>https://ioerr.github.io/shishi-fufei-guanying-moshi/</link>
-      <pubDate>Wed, 27 Feb 2013 09:39:26 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/shishi-fufei-guanying-moshi/</guid>
-      <description>&lt;p&gt;在电影院看电影和在电视/电脑上看电影有什么重要区别？&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E5%BD%B1%E9%99%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>实时付费观影模式</title>
+        <link>https://ioerr.github.io/posts/shishi-fufei-guanying-moshi/</link>
+        <pubDate>Wed, 27 Feb 2013 09:39:26 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shishi-fufei-guanying-moshi/</guid>
+        <description>&lt;p&gt;在电影院看电影和在电视/电脑上看电影有什么重要区别？&lt;br /&gt;
 电影屏幕更宽，视野广（和更大的宽高比无关，和人眼视角有关）；&lt;br /&gt;
 电影院没有灯光，注意力更容易集中到银幕；&lt;br /&gt;
 电影放映不能按个人要求暂停、重新播放、反复回放，要求观众始终保持注意力；&lt;br /&gt;
@@ -48,7 +48,7 @@
 在标准资费之外是不是还可以打发一点小费啊？“小费和票价收入比之王”也可以成为名导的荣誉之一。&lt;br /&gt;
 电影结束之后全体起立含泪鼓掌十五分钟今后就不必了，影评人晒小费账单也比生花妙笔有说服力啊！&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

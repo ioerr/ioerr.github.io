@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人民币 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E4%BA%BA%E6%B0%91%E5%B8%81/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E4%BA%BA%E6%B0%91%E5%B8%81/</link>
     <description>Recent content in 人民币 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E4%BA%BA%E6%B0%91%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2008 06:12:42 +0000</lastBuildDate>
     
-    <item>
-      <title>买卖纪念钞违法？</title>
-      <link>https://ioerr.github.io/maimai-jinianchao-weifa/</link>
-      <pubDate>Fri, 11 Jul 2008 06:12:42 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/maimai-jinianchao-weifa/</guid>
-      <description>&lt;p&gt;这几天奥运纪念币很火热，而今天看到这样一则新闻：《&lt;a href=&#34;http://2008.people.com.cn/GB/7496852.html&#34;&gt;北京奥运纪念钞爆炒到千元
+      <atom:link href="https://ioerr.github.io/tags/%E4%BA%BA%E6%B0%91%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>买卖纪念钞违法？</title>
+        <link>https://ioerr.github.io/posts/maimai-jinianchao-weifa/</link>
+        <pubDate>Fri, 11 Jul 2008 06:12:42 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/maimai-jinianchao-weifa/</guid>
+        <description>&lt;p&gt;这几天奥运纪念币很火热，而今天看到这样一则新闻：《&lt;a href=&#34;http://2008.people.com.cn/GB/7496852.html&#34;&gt;北京奥运纪念钞爆炒到千元&lt;br /&gt;
 专家：买卖纪念钞违法&lt;/a&gt;》：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
-《钱币》报总编、中国集币在线首席执行官殷敏认为，此次发行的纪念钞具有流通功能，而买卖未退出流通的纪念币就是在倒卖人民币，属违法行为。《中华人民共和国人民币管理条例》规定：“纪念币是具有特定主题的限量发行的人民币”，“禁止非法买卖流通人民币”。
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+《钱币》报总编、中国集币在线首席执行官殷敏认为，此次发行的纪念钞具有流通功能，而买卖未退出流通的纪念币就是在倒卖人民币，属违法行为。《中华人民共和国人民币管理条例》规定：“纪念币是具有特定主题的限量发行的人民币”，“禁止非法买卖流通人民币”。&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 于是顺藤摸瓜找了一些相关的法律法规看了一下：&lt;br /&gt;
 &lt;a href=&#34;http://www.jincao.com/fa/04/law04.38.htm&#34;&gt;中华人民共和国人民币管理条例&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.chnlaw.net/chinalaw/HTML/chinalaw_7379.htm&#34;&gt;国办发出关于禁止非法买卖人民币的通知&lt;/a&gt;&lt;br /&gt;
@@ -33,7 +33,7 @@
 
 &lt;p&gt;唉，所以说在现代社会，穿越是一种非常实用的技能。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

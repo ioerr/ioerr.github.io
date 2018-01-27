@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>把玩 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="把玩" />
+<meta property="og:description" content="有时候明明没什么要命的事情，还是会打开自己喜欢的软件调整调整设置，看看效果，输入些内容，拖来拖去，猪如此累，且乐此不疲，仿佛使用这些软件本身就是一种莫大的乐趣。比如以前使用智能狂拼的时候，一个本来可以很简洁的句子，为了要多打几个字而扩充成了冗长的句子，无非是因为用它输入长句子是一种享受。又比如
+Firefox、Google
+Talk、TypeAndRun、Vim
+等等，还有最近正在把玩的 Total
+Commander，即使没有用到也时常调出来“上下其手”。
+如此也不难理解为什么古人喜欢把玩金银玉石珠宝，乃至鼻烟壶，今人为什么喜欢把玩鸡婆打火机、iPod、乐高积木，再进一步的，有人喜欢把玩宠妾、面首、小脚、大烟枪，亦在情理之中，如果还深入一点，那么有人喜欢把玩他人的生命或者国家的命运也就不稀奇了，这种情况一般就到了草菅人命或玩弄权力的境界了，只不过和我们没什么本质区别。
+******************* 胡扯的分隔线
+*******************
+不喜欢这样一种思维和做事的方式：
+如果某个项目中没有某个人或者某个部门什么事，那么怎么体现出体现出他／他们的工作成果和作用呢？所以怎么说也要插一腿。
+这就不是为了更好的完成任务在做事了。站在个人或者部门的角度来说当然也不能够简单的说算错，但问题是有时候某些人不必插手无为而治确实是最好的方案，收起自己的利益考量或者野心，为整个项目的建设创造一个好的环境，这本身就是一种贡献了。
+如果非要横插一腿以显示自己的工作成果不可，结果弄到政出多门，或者资源分散，又或者四处掣肘的状况，难道不是得不偿失吗？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/bawan/" />
+
+
+
+<meta property="article:published_time" content="2007-02-27T17:30:27&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-02-27T17:30:27&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="把玩">
+<meta itemprop="description" content="有时候明明没什么要命的事情，还是会打开自己喜欢的软件调整调整设置，看看效果，输入些内容，拖来拖去，猪如此累，且乐此不疲，仿佛使用这些软件本身就是一种莫大的乐趣。比如以前使用智能狂拼的时候，一个本来可以很简洁的句子，为了要多打几个字而扩充成了冗长的句子，无非是因为用它输入长句子是一种享受。又比如
+Firefox、Google
+Talk、TypeAndRun、Vim
+等等，还有最近正在把玩的 Total
+Commander，即使没有用到也时常调出来“上下其手”。
+如此也不难理解为什么古人喜欢把玩金银玉石珠宝，乃至鼻烟壶，今人为什么喜欢把玩鸡婆打火机、iPod、乐高积木，再进一步的，有人喜欢把玩宠妾、面首、小脚、大烟枪，亦在情理之中，如果还深入一点，那么有人喜欢把玩他人的生命或者国家的命运也就不稀奇了，这种情况一般就到了草菅人命或玩弄权力的境界了，只不过和我们没什么本质区别。
+******************* 胡扯的分隔线
+*******************
+不喜欢这样一种思维和做事的方式：
+如果某个项目中没有某个人或者某个部门什么事，那么怎么体现出体现出他／他们的工作成果和作用呢？所以怎么说也要插一腿。
+这就不是为了更好的完成任务在做事了。站在个人或者部门的角度来说当然也不能够简单的说算错，但问题是有时候某些人不必插手无为而治确实是最好的方案，收起自己的利益考量或者野心，为整个项目的建设创造一个好的环境，这本身就是一种贡献了。
+如果非要横插一腿以显示自己的工作成果不可，结果弄到政出多门，或者资源分散，又或者四处掣肘的状况，难道不是得不偿失吗？">
+
+
+<meta itemprop="datePublished" content="2007-02-27T17:30:27&#43;00:00" />
+<meta itemprop="dateModified" content="2007-02-27T17:30:27&#43;00:00" />
+<meta itemprop="wordCount" content="14">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="把玩"/>
+<meta name="twitter:description" content="有时候明明没什么要命的事情，还是会打开自己喜欢的软件调整调整设置，看看效果，输入些内容，拖来拖去，猪如此累，且乐此不疲，仿佛使用这些软件本身就是一种莫大的乐趣。比如以前使用智能狂拼的时候，一个本来可以很简洁的句子，为了要多打几个字而扩充成了冗长的句子，无非是因为用它输入长句子是一种享受。又比如
+Firefox、Google
+Talk、TypeAndRun、Vim
+等等，还有最近正在把玩的 Total
+Commander，即使没有用到也时常调出来“上下其手”。
+如此也不难理解为什么古人喜欢把玩金银玉石珠宝，乃至鼻烟壶，今人为什么喜欢把玩鸡婆打火机、iPod、乐高积木，再进一步的，有人喜欢把玩宠妾、面首、小脚、大烟枪，亦在情理之中，如果还深入一点，那么有人喜欢把玩他人的生命或者国家的命运也就不稀奇了，这种情况一般就到了草菅人命或玩弄权力的境界了，只不过和我们没什么本质区别。
+******************* 胡扯的分隔线
+*******************
+不喜欢这样一种思维和做事的方式：
+如果某个项目中没有某个人或者某个部门什么事，那么怎么体现出体现出他／他们的工作成果和作用呢？所以怎么说也要插一腿。
+这就不是为了更好的完成任务在做事了。站在个人或者部门的角度来说当然也不能够简单的说算错，但问题是有时候某些人不必插手无为而治确实是最好的方案，收起自己的利益考量或者野心，为整个项目的建设创造一个好的环境，这本身就是一种贡献了。
+如果非要横插一腿以显示自己的工作成果不可，结果弄到政出多门，或者资源分散，又或者四处掣肘的状况，难道不是得不偿失吗？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2007-02-27 05:30">2007-02-27</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>把玩</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>有时候明明没什么要命的事情，还是会打开自己喜欢的软件调整调整设置，看看效果，输入些内容，拖来拖去，猪如此累，且乐此不疲，仿佛使用这些软件本身就是一种莫大的乐趣。比如以前使用智能狂拼的时候，一个本来可以很简洁的句子，为了要多打几个字而扩充成了冗长的句子，无非是因为用它输入长句子是一种享受。又比如<br />
+<a href="http://www.mozilla.org/products/firefox/">Firefox</a>、<a href="http://talk.google.com/">Google<br />
+Talk</a>、TypeAndRun、<a href="http://www.vim.org/">Vim</a><br />
+等等，还有最近正在把玩的 Total<br />
+Commander，即使没有用到也时常调出来“上下其手”。</p>
+
+<p>如此也不难理解为什么古人喜欢把玩金银玉石珠宝，乃至鼻烟壶，今人为什么喜欢把玩鸡婆打火机、iPod、乐高积木，再进一步的，有人喜欢把玩宠妾、面首、小脚、大烟枪，亦在情理之中，如果还深入一点，那么有人喜欢把玩他人的生命或者国家的命运也就不稀奇了，这种情况一般就到了草菅人命或玩弄权力的境界了，只不过和我们没什么本质区别。</p>
+
+<p>******************* 胡扯的分隔线<br />
+*******************</p>
+
+<p>不喜欢这样一种思维和做事的方式：<br />
+如果某个项目中没有某个人或者某个部门什么事，那么怎么体现出体现出他／他们的工作成果和作用呢？所以怎么说也要插一腿。</p>
+
+<p>这就不是为了更好的完成任务在做事了。站在个人或者部门的角度来说当然也不能够简单的说算错，但问题是有时候某些人不必插手无为而治确实是最好的方案，收起自己的利益考量或者野心，为整个项目的建设创造一个好的环境，这本身就是一种贡献了。<br />
+如果非要横插一腿以显示自己的工作成果不可，结果弄到政出多门，或者资源分散，又或者四处掣肘的状况，难道不是得不偿失吗？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%8a%8a%e7%8e%a9》&body=https%3a%2f%2fioerr.github.io%2fposts%2fbawan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fbawan%2f&text= @calon %e6%8a%8a%e7%8e%a9&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

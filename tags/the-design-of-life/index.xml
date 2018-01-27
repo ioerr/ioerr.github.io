@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Design Of Life on 读写错误</title>
-    <link>https://ioerr.github.io/tags/the-design-of-life/index.xml</link>
-    <description>Recent content in The Design Of Life on 读写错误</description>
+    <title>The Design of Life on 读写错误</title>
+    <link>https://ioerr.github.io/tags/the-design-of-life/</link>
+    <description>Recent content in The Design of Life on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/the-design-of-life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Dec 2007 15:43:39 +0000</lastBuildDate>
     
-    <item>
-      <title>贝·布托遇害</title>
-      <link>https://ioerr.github.io/benazir-bhutto-yuhai/</link>
-      <pubDate>Thu, 27 Dec 2007 15:43:39 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/benazir-bhutto-yuhai/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.xinhuanet.com/world/zt071019/&#34;&gt;贝·布托在拉瓦尔品第市的竞选集会上遭炸弹袭击身亡&lt;/a&gt;，谢里夫的几个支持者也遭枪击身亡。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/the-design-of-life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>贝·布托遇害</title>
+        <link>https://ioerr.github.io/posts/benazir-bhutto-yuhai/</link>
+        <pubDate>Thu, 27 Dec 2007 15:43:39 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/benazir-bhutto-yuhai/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.xinhuanet.com/world/zt071019/&#34;&gt;贝·布托在拉瓦尔品第市的竞选集会上遭炸弹袭击身亡&lt;/a&gt;，谢里夫的几个支持者也遭枪击身亡。&lt;br /&gt;
 &lt;img src=&#34;http://news.xinhuanet.com/newscenter/2007-12/27/xin_19212042722523902165523.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;野比首相访问中国。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://labs.mozilla.com/2007/12/personas-for-firefox/&#34;&gt;Personas&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://labs.mozilla.com/2007/12/personas-for-firefox/&#34;&gt;Personas&lt;/a&gt;&lt;br /&gt;
 还是鸡肋，目前也就 Viva Firefox 的皮肤还能够入眼。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://blog.ma-yue.net/2007/12/blog-post_27.html&#34;&gt;剪刀石头布&lt;/a&gt;其实不能够保证公平竞争，因为即使是如此简单的规则，也总会有人耍诈出千，从小到大一直只依靠的人品的我深知这一点。&lt;br /&gt;
@@ -31,7 +31,7 @@
 只见一个烟灰缸大小的小飞行器飞到了两人面前，它的正面只有一个矩形的屏幕，“嘟”的一声，上面出现了一串飞速跳动的数字，5秒钟之后然后又是一声，数字停在了0.30964上。&lt;br /&gt;
 路人乙心服口服：“好吧，你说了算。”&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://pandasthumb.org/archives/2007/12/dembskis-and-we.html&#34;&gt;William Dembski 和 Jonathan Wells 的新书《The Design of
+&lt;p&gt;&lt;a href=&#34;http://pandasthumb.org/archives/2007/12/dembskis-and-we.html&#34;&gt;William Dembski 和 Jonathan Wells 的新书《The Design of&lt;br /&gt;
 Life》上个月出版&lt;/a&gt;，估计很快就会被当作“最新生物学科普著作”引入中国，然后又是一帮人跟着喊，达尔文进化论要倒台了！&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -43,7 +43,7 @@ become a shining achievement in science, philosophy, sock mending, and
 culinary art.
 &lt;/blockquote&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

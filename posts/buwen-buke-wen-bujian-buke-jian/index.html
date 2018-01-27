@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>不闻不可闻，不见不可见 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="不闻不可闻，不见不可见" />
+<meta property="og:description" content="从前有个人，他在愚人节那天成功欺骗了全世界所有的人。
+结果当他承认说的是假话后，被所有人当成了愚人。
+从前有个人，他每天都能成功欺骗全世界所有的人。
+结果只有在愚人节那天，人们才不相信他说的话。
+从前有个人，他每天都被全世界所有的人欺骗。
+结果在愚人节那天，大家都不相信他还是被骗了。
+为什么你背着我爱别人？（啊，我很重啦）
+为什么我背着你爱别人？（因为你行动不能吗？）
+为什么别人背着我爱你？（真的不关我的事啊！）
+为什么别人背着你爱我？（这是添头吗？）
+为什么你背着别人爱我？（你有压力…）
+为什么我背着别人爱你？（我也有压力…）
+传说中的一枪托砸翻：
+我不知道“嗷嗷叫”是什么意思，如果说是表示战斗力很强的话，那么学校食堂中应该有战斗力超越超级赛亚人的高手了。
+论学习繁体字的好处：
+
+有台湾游客指控，在岛内北海岸知名的野柳地质公园的岩壁上，被大陆观光团成员刻上歪歪扭扭的简体字留念。对此，管理人员呼吁要有公德心。
+据台湾TVBS报道，27日当天有人在野柳地质公园看到大批陆客，随后就在陆桥旁的岩壁发现被刻上简体字样“中国常州赵根大”，还有一个常州同乡“卢建中”也来插花，又听到园区广播“来自常州的旅客，请尽速集合”，直觉“赵根大”真有其人。地质公园经营业者汤锦惠无奈地说，要麻烦导游倡导不要破坏景观。
+
+《世说新语·简傲第二十四·不闻不可闻
+不见不可见》
+钟士季精有才理，先不识嵇康，钟要于时贤隽之士，俱往寻康。
+康方大树下锻，向子期为佐鼓排。康扬槌不辍，旁若无人，移时不交一言。
+钟起去，康曰：“何所闻而来？何所见而去？”
+钟曰：“闻所闻而来，见所见而去。”
+子期曰：“君虽名士，亦有所不可闻，有所不可见。”
+钟曰：“何可闻？何可见？何不可闻？何不可见？”
+康曰：“闻可闻，见可见，不闻不可闻，不见不可见。”
+电脑中保存的照片没找到，只好从网上翻了出来：
+
+FriendFeed 的愚人节
+logo 是 Matrix
+风格的：
+
+鼠标悬停时的提示文字是：Take the red pill
+但是选择红色的小药丸也是有风险的哟。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/buwen-buke-wen-bujian-buke-jian/" />
+
+
+
+<meta property="article:published_time" content="2009-04-01T15:39:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2009-04-01T15:39:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="不闻不可闻，不见不可见">
+<meta itemprop="description" content="从前有个人，他在愚人节那天成功欺骗了全世界所有的人。
+结果当他承认说的是假话后，被所有人当成了愚人。
+从前有个人，他每天都能成功欺骗全世界所有的人。
+结果只有在愚人节那天，人们才不相信他说的话。
+从前有个人，他每天都被全世界所有的人欺骗。
+结果在愚人节那天，大家都不相信他还是被骗了。
+为什么你背着我爱别人？（啊，我很重啦）
+为什么我背着你爱别人？（因为你行动不能吗？）
+为什么别人背着我爱你？（真的不关我的事啊！）
+为什么别人背着你爱我？（这是添头吗？）
+为什么你背着别人爱我？（你有压力…）
+为什么我背着别人爱你？（我也有压力…）
+传说中的一枪托砸翻：
+我不知道“嗷嗷叫”是什么意思，如果说是表示战斗力很强的话，那么学校食堂中应该有战斗力超越超级赛亚人的高手了。
+论学习繁体字的好处：
+
+有台湾游客指控，在岛内北海岸知名的野柳地质公园的岩壁上，被大陆观光团成员刻上歪歪扭扭的简体字留念。对此，管理人员呼吁要有公德心。
+据台湾TVBS报道，27日当天有人在野柳地质公园看到大批陆客，随后就在陆桥旁的岩壁发现被刻上简体字样“中国常州赵根大”，还有一个常州同乡“卢建中”也来插花，又听到园区广播“来自常州的旅客，请尽速集合”，直觉“赵根大”真有其人。地质公园经营业者汤锦惠无奈地说，要麻烦导游倡导不要破坏景观。
+
+《世说新语·简傲第二十四·不闻不可闻
+不见不可见》
+钟士季精有才理，先不识嵇康，钟要于时贤隽之士，俱往寻康。
+康方大树下锻，向子期为佐鼓排。康扬槌不辍，旁若无人，移时不交一言。
+钟起去，康曰：“何所闻而来？何所见而去？”
+钟曰：“闻所闻而来，见所见而去。”
+子期曰：“君虽名士，亦有所不可闻，有所不可见。”
+钟曰：“何可闻？何可见？何不可闻？何不可见？”
+康曰：“闻可闻，见可见，不闻不可闻，不见不可见。”
+电脑中保存的照片没找到，只好从网上翻了出来：
+
+FriendFeed 的愚人节
+logo 是 Matrix
+风格的：
+
+鼠标悬停时的提示文字是：Take the red pill
+但是选择红色的小药丸也是有风险的哟。">
+
+
+<meta itemprop="datePublished" content="2009-04-01T15:39:39&#43;00:00" />
+<meta itemprop="dateModified" content="2009-04-01T15:39:39&#43;00:00" />
+<meta itemprop="wordCount" content="38">
+
+
+
+<meta itemprop="keywords" content="friendfeed,GFW,张国荣,愚人节," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="不闻不可闻，不见不可见"/>
+<meta name="twitter:description" content="从前有个人，他在愚人节那天成功欺骗了全世界所有的人。
+结果当他承认说的是假话后，被所有人当成了愚人。
+从前有个人，他每天都能成功欺骗全世界所有的人。
+结果只有在愚人节那天，人们才不相信他说的话。
+从前有个人，他每天都被全世界所有的人欺骗。
+结果在愚人节那天，大家都不相信他还是被骗了。
+为什么你背着我爱别人？（啊，我很重啦）
+为什么我背着你爱别人？（因为你行动不能吗？）
+为什么别人背着我爱你？（真的不关我的事啊！）
+为什么别人背着你爱我？（这是添头吗？）
+为什么你背着别人爱我？（你有压力…）
+为什么我背着别人爱你？（我也有压力…）
+传说中的一枪托砸翻：
+我不知道“嗷嗷叫”是什么意思，如果说是表示战斗力很强的话，那么学校食堂中应该有战斗力超越超级赛亚人的高手了。
+论学习繁体字的好处：
+
+有台湾游客指控，在岛内北海岸知名的野柳地质公园的岩壁上，被大陆观光团成员刻上歪歪扭扭的简体字留念。对此，管理人员呼吁要有公德心。
+据台湾TVBS报道，27日当天有人在野柳地质公园看到大批陆客，随后就在陆桥旁的岩壁发现被刻上简体字样“中国常州赵根大”，还有一个常州同乡“卢建中”也来插花，又听到园区广播“来自常州的旅客，请尽速集合”，直觉“赵根大”真有其人。地质公园经营业者汤锦惠无奈地说，要麻烦导游倡导不要破坏景观。
+
+《世说新语·简傲第二十四·不闻不可闻
+不见不可见》
+钟士季精有才理，先不识嵇康，钟要于时贤隽之士，俱往寻康。
+康方大树下锻，向子期为佐鼓排。康扬槌不辍，旁若无人，移时不交一言。
+钟起去，康曰：“何所闻而来？何所见而去？”
+钟曰：“闻所闻而来，见所见而去。”
+子期曰：“君虽名士，亦有所不可闻，有所不可见。”
+钟曰：“何可闻？何可见？何不可闻？何不可见？”
+康曰：“闻可闻，见可见，不闻不可闻，不见不可见。”
+电脑中保存的照片没找到，只好从网上翻了出来：
+
+FriendFeed 的愚人节
+logo 是 Matrix
+风格的：
+
+鼠标悬停时的提示文字是：Take the red pill
+但是选择红色的小药丸也是有风险的哟。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2009-04-01 03:39">2009-04-01</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>不闻不可闻，不见不可见</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/friendfeed">
+              <span class="hash">#</span>friendfeed</a>
+          
+            , 
+            <a href="/tags/gfw">
+              <span class="hash">#</span>GFW</a>
+          
+            , 
+            <a href="/tags/%E5%BC%A0%E5%9B%BD%E8%8D%A3">
+              <span class="hash">#</span>张国荣</a>
+          
+            , 
+            <a href="/tags/%E6%84%9A%E4%BA%BA%E8%8A%82">
+              <span class="hash">#</span>愚人节</a>
+          
+        
+      </p>
+    </header>
+    <section><p>从前有个人，他在愚人节那天成功欺骗了全世界所有的人。<br />
+结果当他承认说的是假话后，被所有人当成了愚人。</p>
+
+<p>从前有个人，他每天都能成功欺骗全世界所有的人。<br />
+结果只有在愚人节那天，人们才不相信他说的话。</p>
+
+<p>从前有个人，他每天都被全世界所有的人欺骗。<br />
+结果在愚人节那天，大家都不相信他还是被骗了。</p>
+
+<p>为什么你背着我爱别人？（啊，我很重啦）<br />
+为什么我背着你爱别人？（因为你行动不能吗？）<br />
+为什么别人背着我爱你？（真的不关我的事啊！）<br />
+为什么别人背着你爱我？（这是添头吗？）<br />
+为什么你背着别人爱我？（你有压力…）<br />
+为什么我背着别人爱你？（我也有压力…）</p>
+
+<p>传说中的<a href="http://news.qq.com/a/20090401/000811.htm">一枪托砸翻</a>：<br />
+<img src="http://img1.qq.com/news/pics/16692/16692238.jpg" alt="" /><br />
+<img src="http://img1.qq.com/news/pics/16692/16692240.jpg" alt="" /></p>
+
+<p>我不知道“<a href="http://news.qq.com/a/20090320/000622.htm">嗷嗷叫</a>”是什么意思，如果说是表示战斗力很强的话，那么学校食堂中应该有战斗力超越超级赛亚人的高手了。</p>
+
+<p><a href="http://news.jxnews.com.cn/system/2009/03/31/011060509.shtml">论学习繁体字的好处</a>：</p>
+
+<p><blockquote><br />
+有台湾游客指控，在岛内北海岸知名的野柳地质公园的岩壁上，被大陆观光团成员刻上歪歪扭扭的<strong>简体字</strong>留念。对此，管理人员呼吁要有公德心。</p>
+
+<p>据台湾TVBS报道，27日当天有人在野柳地质公园看到大批陆客，随后就在陆桥旁的岩壁发现被刻上<strong>简体字</strong>样“中国常州赵根大”，还有一个常州同乡“卢建中”也来插花，又听到园区广播“来自常州的旅客，请尽速集合”，直觉“赵根大”真有其人。地质公园经营业者汤锦惠无奈地说，要麻烦导游倡导不要破坏景观。<br />
+</blockquote><br />
+《世说新语·简傲第二十四·<a href="http://world.people.com.cn/GB/8212/9491/142315/9059329.html">不闻不可闻<br />
+不见不可见</a>》<br />
+钟士季精有才理，先不识嵇康，钟要于时贤隽之士，俱往寻康。<br />
+康方大树下锻，向子期为佐鼓排。康扬槌不辍，旁若无人，移时不交一言。<br />
+钟起去，康曰：“何所闻而来？何所见而去？”<br />
+钟曰：“闻所闻而来，见所见而去。”<br />
+子期曰：“君虽名士，亦有所不可闻，有所不可见。”<br />
+钟曰：“何可闻？何可见？何不可闻？何不可见？”<br />
+康曰：“闻可闻，见可见，不闻不可闻，不见不可见。”</p>
+
+<p>电脑中保存的照片没找到，只好从网上翻了出来：<br />
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=bfb30f24dd9f7a20c8955928.jpg"><img src="http://i111.photobucket.com/albums/n154/calon_plus/bfb30f24dd9f7a20c8955928.jpg" alt="纵横四海" /></a></p>
+
+<p><a href="http://blog.friendfeed.com/2009/03/choose-red-pill.html">FriendFeed 的愚人节<br />
+logo</a> 是 Matrix<br />
+风格的：<br />
+<a href="http://friendfeed.com/static/images/logo-matrix.gif"><img src="http://friendfeed.com/static/images/logo-matrix-small.gif" alt="" /></a><br />
+鼠标悬停时的提示文字是：Take the red pill<br />
+但是选择红色的小药丸也<a href="http://news.sina.com.cn/s/2009-04-01/051117523353.shtml">是有风险的</a>哟。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%b8%8d%e9%97%bb%e4%b8%8d%e5%8f%af%e9%97%bb%ef%bc%8c%e4%b8%8d%e8%a7%81%e4%b8%8d%e5%8f%af%e8%a7%81》&body=https%3a%2f%2fioerr.github.io%2fposts%2fbuwen-buke-wen-bujian-buke-jian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fbuwen-buke-wen-bujian-buke-jian%2f&text= @calon %e4%b8%8d%e9%97%bb%e4%b8%8d%e5%8f%af%e9%97%bb%ef%bc%8c%e4%b8%8d%e8%a7%81%e4%b8%8d%e5%8f%af%e8%a7%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+  </body>
+</html>

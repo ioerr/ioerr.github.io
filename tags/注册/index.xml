@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>注册 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E6%B3%A8%E5%86%8C/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E6%B3%A8%E5%86%8C/</link>
     <description>Recent content in 注册 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E6%B3%A8%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jan 2008 04:00:36 +0000</lastBuildDate>
     
-    <item>
-      <title>注册登录界面的八大错误</title>
-      <link>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</link>
-      <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
-      <description>&lt;p&gt;Cisco
+      <atom:link href="https://ioerr.github.io/tags/%E6%B3%A8%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>注册登录界面的八大错误</title>
+        <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
+        <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
+        <description>&lt;p&gt;Cisco&lt;br /&gt;
 在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。&lt;br /&gt;
-Jared M. Spool
+Jared M. Spool&lt;br /&gt;
 以此为例提到&lt;a href=&#34;http://www.uie.com/articles/account_design_mistakes/&#34;&gt;了注册和登录界面中的一些糟糕设计，主要存在以下8个常见错误&lt;/a&gt;：&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;错误1：万事以登录为先&lt;/strong&gt;&lt;br /&gt;
@@ -45,10 +45,10 @@ Jared M. Spool
 &lt;p&gt;&lt;strong&gt;错误8：不告诉用户怎么使用他们的信息&lt;/strong&gt;&lt;br /&gt;
 如果非要询问用户名、密码之外的信息，特别是真实姓名、住址、电话号码等重要信息，要么把问题设计得风趣可爱一点（有时并不起作用），要么明确告诉用户这些信息的用处，而且要有说服力，最好马上给他们看到实实在在的好处。简言之即，欲先取之，必先语之。&lt;/p&gt;
 
-&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。
+&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。&lt;br /&gt;
 :023:&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图书馆 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</link>
     <description>Recent content in 图书馆 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2008 15:52:35 +0000</lastBuildDate>
     
-    <item>
-      <title>图书馆与互联网</title>
-      <link>https://ioerr.github.io/tushuguan-yu-hulianwang/</link>
-      <pubDate>Tue, 22 Apr 2008 15:52:35 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/tushuguan-yu-hulianwang/</guid>
-      <description>&lt;p&gt;近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：&lt;/p&gt;
+      <atom:link href="https://ioerr.github.io/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>图书馆与互联网</title>
+        <link>https://ioerr.github.io/posts/tushuguan-yu-hulianwang/</link>
+        <pubDate>Tue, 22 Apr 2008 15:52:35 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/tushuguan-yu-hulianwang/</guid>
+        <description>&lt;p&gt;近日看到有人说，“图书馆是人类最大的宝库。相比之下，互联网上的知识广度无穷，深度却只有一点点”，想谈谈自己的看法：&lt;/p&gt;
 
 &lt;p&gt;1、互联网至今也只有短短十几年的历史，当然无法和图书馆的深厚积淀相提并论，但假以时日，以互联网爆炸式的信息增长速度，其在深度上超越图书馆也许在几代人之内就能看到。&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;4、本来还想说说图书馆被神化的形象和互联网祛魅的效应对人们获取知识态度的影响，不幸发现要么是个伪问题，要么超出我能力之外…&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

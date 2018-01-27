@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>评论 on 读写错误</title>
-    <link>https://ioerr.github.io/tags/%E8%AF%84%E8%AE%BA/index.xml</link>
+    <link>https://ioerr.github.io/tags/%E8%AF%84%E8%AE%BA/</link>
     <description>Recent content in 评论 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/%E8%AF%84%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2008 17:54:25 +0000</lastBuildDate>
     
-    <item>
-      <title>还能更扭曲一点吗？</title>
-      <link>https://ioerr.github.io/haineng-geng-niuqu-yidian-ma/</link>
-      <pubDate>Sat, 09 Aug 2008 17:54:25 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/haineng-geng-niuqu-yidian-ma/</guid>
-      <description>
+      <atom:link href="https://ioerr.github.io/tags/%E8%AF%84%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>还能更扭曲一点吗？</title>
+        <link>https://ioerr.github.io/posts/haineng-geng-niuqu-yidian-ma/</link>
+        <pubDate>Sat, 09 Aug 2008 17:54:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/haineng-geng-niuqu-yidian-ma/</guid>
+        <description>
 
 &lt;p&gt;一、扭曲&lt;br /&gt;
 “我觉得很好看，如果你觉得不好，你一定是自卑到心理扭曲眼里只有缺点唯恐天下不乱抱外国爸爸大腿的汉奸小丑网特装逼犯”&lt;br /&gt;
@@ -35,12 +35,12 @@
 
 &lt;p&gt;二、风凉&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
 无论何时都只会靠那些怪腔怪调的风凉话、妙语连珠的挑剔讽刺、以及那些永远抖不完的廉价的小机灵儿来表现自己高超才华和独到见解&lt;br /&gt;
 对一切事物都冷眼旁观挑三拣四，做一个专业说风凉话的，永远翻着白眼儿打量世界上的每一件事物，觉得任何东西都入不了法眼&lt;br /&gt;
 一辈子都不曾有那么一两次被什么东西打动，一辈子都只会挑剔而不会欣赏&lt;br /&gt;
-不能老打算就靠这玩意儿扬名立万儿。别老拿别人当傻逼，别老觉得什么都瞧不上就高明了，更别生怕自己不来骂两句就显得自己没观点了
-&lt;/blockquote&gt;
+不能老打算就靠这玩意儿扬名立万儿。别老拿别人当傻逼，别老觉得什么都瞧不上就高明了，更别生怕自己不来骂两句就显得自己没观点了&lt;br /&gt;
+&lt;/blockquote&gt;&lt;br /&gt;
 ——&lt;a href=&#34;http://thisisdongdongqiang.cn/&#34;&gt;东东枪&lt;/a&gt;《&lt;a href=&#34;http://thisisdongdongqiang.cn/archives/1443&#34;&gt;我由衷地觉得北京奥运开幕式很牛逼&lt;/a&gt;》&lt;/p&gt;
 
 &lt;p&gt;这样的文字很眼熟，连常去的几个宅男论坛互相喷起来，也会来上这么一手。&lt;br /&gt;
@@ -61,7 +61,7 @@
 
 &lt;p&gt;3、平淡无奇的主题歌——我还以为至少可以超过《北京欢迎你》呢，结果在解说的夹击下草草收场，一点都兴奋不起来。&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>

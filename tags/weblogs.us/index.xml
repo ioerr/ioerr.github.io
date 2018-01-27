@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Weblogs.Us on 读写错误</title>
-    <link>https://ioerr.github.io/tags/weblogs.us/index.xml</link>
-    <description>Recent content in Weblogs.Us on 读写错误</description>
+    <title>Weblogs.us on 读写错误</title>
+    <link>https://ioerr.github.io/tags/weblogs.us/</link>
+    <description>Recent content in Weblogs.us on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>calon.xu@gmail.com (Calon)</managingEditor>
-    <webMaster>calon.xu@gmail.com (Calon)</webMaster>
-    <atom:link href="https://ioerr.github.io/tags/weblogs.us/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jan 2017 17:32:36 +0800</lastBuildDate>
     
-    <item>
-      <title>从 WordPress 迁移到 Hugo</title>
-      <link>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</link>
-      <pubDate>Tue, 17 Jan 2017 17:32:36 +0800</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/cong-wordpress-qianyi-dao-hugo/</guid>
-      <description>&lt;p&gt;虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。&lt;br /&gt;
+      <atom:link href="https://ioerr.github.io/tags/weblogs.us/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>从 WordPress 迁移到 Hugo</title>
+        <link>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</link>
+        <pubDate>Tue, 17 Jan 2017 17:32:36 +0800</pubDate>
+        <guid>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</guid>
+        <description>&lt;p&gt;虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。&lt;br /&gt;
 而且最近几年用静态网站写 blog 的风潮越来越流行，总想着可以尝试一把。&lt;/p&gt;
 
 &lt;p&gt;最开始是考察了最流行基于 Ruby 的 Jekyll 和 Octopress，然后是基于 Python 的 Pelican 和基于 node.js 的 Hexo。&lt;br /&gt;
@@ -28,13 +28,15 @@
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;安装 Hugo&lt;/li&gt;
+&lt;li&gt;安装 Hugo&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;在 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo 的 Github 发布页面&lt;/a&gt;直接下载安装包或自己编译就行。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;导出和转换 WordPress 的内容&lt;/li&gt;
+&lt;li&gt;导出和转换 WordPress 的内容&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;如果你运气够好，可以安装直接导入的插件：&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;wordpress-to-hugo-exporter &lt;/a&gt;。&lt;br /&gt;
@@ -53,7 +55,8 @@
 直接删除再试就可以了。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;折腾 Markdown 内容&lt;/li&gt;
+&lt;li&gt;折腾 Markdown 内容&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过&lt;a href=&#34;../pandoc-markdown&#34;&gt;吐槽&lt;/a&gt;）&lt;/p&gt;
@@ -84,7 +87,8 @@ done
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;选择 Hugo 模板&lt;/li&gt;
+&lt;li&gt;选择 Hugo 模板&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Hugo 官方站点有少量&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;模板演示&lt;/a&gt;，不少是从 Jekyll 的模板改的。&lt;br /&gt;
@@ -93,13 +97,14 @@ done
 &lt;p&gt;比如我的要求是：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;简洁风格；&lt;/li&gt;
-&lt;li&gt;支持翻页；&lt;/li&gt;
-&lt;li&gt;支持类别（category）展示；&lt;/li&gt;
-&lt;li&gt;支持响应式布局优先；&lt;/li&gt;
-&lt;li&gt;支持标签（tag）优先；&lt;/li&gt;
-&lt;li&gt;单栏布局优先；&lt;/li&gt;
-&lt;li&gt;方便自定义修改。&lt;/li&gt;
+&lt;li&gt;简洁风格；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持翻页；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持类别（category）展示；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持响应式布局优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;支持标签（tag）优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;单栏布局优先；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;方便自定义修改。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;尝试了多个主题之后，最终决定使用这款&lt;a href=&#34;http://themes.gohugo.io/hugo-hello-programmer-theme/&#34;&gt;Hello Programmer&lt;/a&gt;。&lt;br /&gt;
@@ -107,7 +112,8 @@ done
 使用的主页图片和 favicon 则需要自己绘制。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;发布到 Github Pages&lt;/li&gt;
+&lt;li&gt;发布到 Github Pages&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。&lt;br /&gt;
@@ -125,21 +131,20 @@ done
 
 &lt;p&gt;最后，使用 Github Pages 的话，RSS 订阅地址也变成了 &lt;a href=&#34;https://ioerr.github.io/index.xml&#34;&gt;https://ioerr.github.io/index.xml&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
-    <item>
-      <title>故事结尾新编</title>
-      <link>https://ioerr.github.io/gushi-jiewei-xinbian/</link>
-      <pubDate>Sat, 30 Aug 2008 08:04:17 +0000</pubDate>
-      <author>calon.xu@gmail.com (Calon)</author>
-      <guid>https://ioerr.github.io/gushi-jiewei-xinbian/</guid>
-      <description>&lt;p&gt;这几天 weblogs.us 上不去，tracert 的结果好像和 GFW
+      <item>
+        <title>故事结尾新编</title>
+        <link>https://ioerr.github.io/posts/gushi-jiewei-xinbian/</link>
+        <pubDate>Sat, 30 Aug 2008 08:04:17 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/gushi-jiewei-xinbian/</guid>
+        <description>&lt;p&gt;这几天 weblogs.us 上不去，tracert 的结果好像和 GFW&lt;br /&gt;
 无关，但用代理又可以上，更加神奇的是，一台机器可以上，同一个运营商的网络下另一台就打不开…&lt;/p&gt;
 
-&lt;p&gt;FriendFeed 的 &lt;a href=&#34;http://beta.friendfeed.com/&#34;&gt;Beta
+&lt;p&gt;FriendFeed 的 &lt;a href=&#34;http://beta.friendfeed.com/&#34;&gt;Beta&lt;br /&gt;
 版&lt;/a&gt;感觉怪怪的，界面还需要多调整才行。虽然功能增强了，但我愣是没找到怎么添加&lt;a href=&#34;http://friendfeed.com/share/bookmarklet&#34;&gt;发布用的书签&lt;/a&gt;，只能够切换到&lt;a href=&#34;http://friendfeed.com/&#34;&gt;老版本&lt;/a&gt;。&lt;br /&gt;
-另外一个好处是，终于放出了
-&lt;a href=&#34;http://friendfeed.com/embed/badge&#34;&gt;Badge&lt;/a&gt;、&lt;a href=&#34;http://friendfeed.com/embed/widget&#34;&gt;Widget&lt;/a&gt;
+另外一个好处是，终于放出了&lt;br /&gt;
+&lt;a href=&#34;http://friendfeed.com/embed/badge&#34;&gt;Badge&lt;/a&gt;、&lt;a href=&#34;http://friendfeed.com/embed/widget&#34;&gt;Widget&lt;/a&gt;&lt;br /&gt;
 这样的小玩意，这样就可以把 Twitter Badge 给替换掉了。&lt;/p&gt;
 
 &lt;p&gt;FriendFeed Chiclet：&lt;a href=&#34;http://friendfeed.com/calon&#34;&gt;&lt;img src=&#34;http://friendfeed.com/static/images/chiclet.png&#34; alt=&#34;Subscribe to me on
@@ -154,7 +159,7 @@ FriendFeed&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 骗子一脸无辜：关我们屁事，我们是奉旨行事的，要是没有那个多事的小子，不就是和谐的大团圆结局了么？&lt;br /&gt;
 （死）小孩：这是体制问题，体制问题呀…啊~我不要领便当~&lt;/p&gt;
 </description>
-    </item>
+      </item>
     
   </channel>
 </rss>
