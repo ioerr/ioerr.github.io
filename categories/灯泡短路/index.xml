@@ -38,10 +38,10 @@
 
 &lt;ol&gt;
 &lt;li&gt;只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;/li&gt;
+&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;/li&gt;
+&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;/li&gt;
+&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       </item>
@@ -52,7 +52,7 @@
         <pubDate>Wed, 23 Sep 2015 11:32:18 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/kechuandai-yiliao-shebei/</guid>
         <description>&lt;p&gt;丁香园向一线医生调查有哪些可穿戴医疗设备的想法和需求：&lt;a href=&#34;http://i.dxy.cn/special/topic/WearableDevice&#34;&gt;如果你来设计可穿戴医疗设备&lt;/a&gt;&lt;br /&gt;
-大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有&lt;br /&gt;
+大部分都是希望有更多、更强的传感功能用于监测患者状态，如心率、血压、血糖、血氧、呼吸、体温、生命体征等等，更高要求的还有
 CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 还有人提到要能够录音、录像和喷防狼喷雾以便应对医闹，说起来还真是心酸啊。&lt;/p&gt;
 
@@ -154,7 +154,7 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 黑暗森林理论成立的先决条件是所有文明相信这个理论，如果最先技术爆炸的最先进文明不相信，结果可能就完全不同&lt;/p&gt;
 
 &lt;p&gt;有害书籍爱好者：&lt;br /&gt;
-从文明与技术进步的关系来看，&lt;br /&gt;
+从文明与技术进步的关系来看，
 封闭和默认攻击型的文明类型未必有发展出宇宙级技术爆炸的能力，即使有这个能力，概率很可能低于开放探索和默认沟通型文明，因为技术发展需要高级社会沟通能力&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
@@ -284,7 +284,7 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 如果这样算，产生善意文明的可能性也无穷大，而善意文明的沟通互助结盟的技术水平比单兵作战的恶意文明高得多，最终恶意文明很可能都会无法维持原有策略。&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
-而且证伪&lt;br /&gt;
+而且证伪
 很难，比证明还难。你没法说这个理论结果错了，除非你穷举了所有宇宙间文明现象。&lt;/p&gt;
 
 &lt;p&gt;司马：&lt;br /&gt;
@@ -530,13 +530,13 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
         <link>https://ioerr.github.io/posts/suishen-wuxian-wangka-wangpan/</link>
         <pubDate>Thu, 27 Mar 2014 16:04:31 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/suishen-wuxian-wangka-wangpan/</guid>
-        <description>&lt;p&gt;虽然 &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;虽然 &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;
 的增量同步、版本回溯、文件夹管理、移动端同步、网页管理、分享等功能确实很优秀，但用得越久，不完美的地方也发现得越多。&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;每个设备中都要保存一份本地文件，浪费空间；&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;没有本地加密功能，不敢放私密的文件（&lt;a href=&#34;http://www.wuala.com/&#34;&gt;Wuala&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;没有本地加密功能，不敢放私密的文件（&lt;a href=&#34;http://www.wuala.com/&#34;&gt;Wuala&lt;/a&gt;
 倒是可以加密，就是其他方面弱了点）；&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;总容量有限，要是扩很大，和第一点又有矛盾；&lt;/p&gt;&lt;/li&gt;
@@ -547,30 +547,30 @@ CT、透视乃至像大白一样全面检查。&lt;br /&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;优盘的问题也不少，主要有：&lt;br /&gt;
-1.&lt;br /&gt;
+1.
 虽然存储的价格不断下降，也没有便宜到和云端空间同等级的程度，长远来看，总是跟不上空间需求；&lt;br /&gt;
 2. 重要数据存放在优盘，总有丢失的风险；&lt;br /&gt;
 3. 和网盘相比，不能跨设备同步自然是一大不足。&lt;/p&gt;
 
-&lt;p&gt;360倒是有将网盘、优盘和 WiFi&lt;br /&gt;
+&lt;p&gt;360倒是有将网盘、优盘和 WiFi
 热点结合的&lt;a href=&#34;http://wifi.360.cn/upan.html&#34;&gt;想法&lt;/a&gt;，但是在本身就没有联网的环境下照样歇菜。&lt;/p&gt;
 
-&lt;p&gt;倒是电信运营商可以考虑利用资费优势，趁着4G 的推广，弄一个4G&lt;br /&gt;
+&lt;p&gt;倒是电信运营商可以考虑利用资费优势，趁着4G 的推广，弄一个4G
 无线网卡+网盘+优盘+定向流量计费的组合出来：&lt;br /&gt;
 1. 4G 无线网卡起码保证随时随地有网络可用，信号好的地方速度不在话下；&lt;br /&gt;
-2.&lt;br /&gt;
+2.
 提供容量足够大的网盘，比如电信就弄了个乏善可陈的&lt;a href=&#34;http://cloud.189.cn&#34;&gt;天翼云&lt;/a&gt;，但运营商的网盘光靠容量显然拼不过互联网公司；&lt;br /&gt;
-3.&lt;br /&gt;
+3.
 优盘当缓存使用，最近更新的文件和用户标记的重要文件，优先存储在优盘中，这样就不必总是要联网；&lt;br /&gt;
-4.&lt;br /&gt;
+4.
 定向流量免费或优惠，比如网盘同步用的流量全部免费或很低廉，只要能吸引到用户使用服务就行。这大概是电信运营商唯一的也是无法复制的优势了；&lt;br /&gt;
-5.&lt;br /&gt;
-如果加密优盘内容，再用比较时髦的方式才能登录网盘就更好了，千万不要学360的随身&lt;br /&gt;
+5.
+如果加密优盘内容，再用比较时髦的方式才能登录网盘就更好了，千万不要学360的随身
 WiFi，插上就能登录网盘帐号，毫无安全可言。&lt;/p&gt;
 
 &lt;p&gt;当然，以运营商的风格，像360一样内置绑定软件简直是一定的。&lt;br /&gt;
-如果真要这么玩，也不是不可以，只要真对用户有价值就行，比如集成应该深耕细作、好好利用的联系人资源应用（不借助&lt;br /&gt;
-Google、Apple、Microsoft&lt;br /&gt;
+如果真要这么玩，也不是不可以，只要真对用户有价值就行，比如集成应该深耕细作、好好利用的联系人资源应用（不借助
+Google、Apple、Microsoft
 等的同步服务也能和手机、邮箱同步），比如网上营业厅的查询、提醒等服务。&lt;/p&gt;
 </description>
       </item>
@@ -582,10 +582,10 @@ Google、Apple、Microsoft&lt;br /&gt;
         <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
         <description>
 
-&lt;p&gt;宣传、推广 Markdown&lt;br /&gt;
+&lt;p&gt;宣传、推广 Markdown
 标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。&lt;/p&gt;
 
-&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
 发布文章，至少要有这么几步：&lt;/p&gt;
 
 &lt;ol&gt;
@@ -602,11 +602,11 @@ Google、Apple、Microsoft&lt;br /&gt;
 
 &lt;h3 id=&#34;邮件发布&#34;&gt;邮件发布&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
-插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;&lt;br /&gt;
-功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
+插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;
+功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;
 等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。&lt;br /&gt;
-如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
+如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
 是不错的选择，因为能支持大多数参数设置。&lt;br /&gt;
 不过使用邮件发布的用户始终是少数。&lt;/p&gt;
 
@@ -629,11 +629,11 @@ Google、Apple、Microsoft&lt;br /&gt;
 &lt;p&gt;如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。&lt;/p&gt;
 
 &lt;p&gt;如果网站的编辑功能还不够完善呢？&lt;br /&gt;
-比如说不支持更好用的 [Markdown]&lt;br /&gt;
+比如说不支持更好用的 [Markdown]
 扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……&lt;br /&gt;
-在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的&lt;br /&gt;
-&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live&lt;br /&gt;
-Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry&lt;br /&gt;
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
+&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live
+Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry
 Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;内容迁移&#34;&gt;内容迁移&lt;/h3&gt;
@@ -643,21 +643,21 @@ Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;理想方案&#34;&gt;理想方案&lt;/h3&gt;
 
-&lt;p&gt;有没有一个服务能结合&lt;br /&gt;
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +&lt;br /&gt;
-&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;有没有一个服务能结合
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +
+&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;
 并继续扩展呢？&lt;/p&gt;
 
 &lt;p&gt;写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；&lt;br /&gt;
-格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word&lt;br /&gt;
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
 Docs 都适用；&lt;br /&gt;
-写完了复制到某个指定文件夹就是发布，这个文件夹类似于&lt;br /&gt;
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;
 的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；&lt;br /&gt;
-标题就是文件名，post slug 在文件名中的括号中指定，或者参考&lt;br /&gt;
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考
 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Jetpack&lt;/a&gt; 的标签参数；&lt;br /&gt;
 修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；&lt;br /&gt;
-要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment&lt;br /&gt;
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
 的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
 
 &lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
@@ -681,7 +681,7 @@ Docs 都适用；&lt;br /&gt;
 拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。&lt;br /&gt;
 不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。&lt;/p&gt;
 
-&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;
 这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。&lt;br /&gt;
 虽然&lt;a href=&#34;http://weixin.qq.com/&#34;&gt;微信&lt;/a&gt;等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。&lt;/p&gt;
 
@@ -694,15 +694,15 @@ Docs 都适用；&lt;br /&gt;
         <link>https://ioerr.github.io/posts/zhongwen-yu-kongge/</link>
         <pubDate>Sun, 01 Dec 2013 14:23:18 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/zhongwen-yu-kongge/</guid>
-        <description>&lt;p&gt;记得曾经有人说，使用 Microsoft Word&lt;br /&gt;
+        <description>&lt;p&gt;记得曾经有人说，使用 Microsoft Word
 等文字编辑工具书写中文文档，在不混杂外文文字的情况下，如果使用了空格就必然不规范，因为很多人总是用空格错误地代替缩进、对齐、间隔等功能。&lt;/p&gt;
 
-&lt;p&gt;也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜&lt;br /&gt;
-欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，&lt;br /&gt;
+&lt;p&gt;也 记 得 早 期 的 互 联 网 中 文 文 档 除 了 喜 欢 整 硬 回 车 ， 还 喜
+欢 每 个 汉 字 之 间 都 加 空 格（ 貌 似 标 点 还 都 是 全 角 的 ） ，
 也 不 知 道 是 因 为 认 为 这 样 方 便 阅 读 还 是 其 他 原 因。&lt;/p&gt;
 
-&lt;p&gt;我 倒是 觉得，也 可以 像 拼音文字 一样，以 词 为 单位 加 空格 作为 间隔&lt;br /&gt;
-啊，这样 句内 词组 的 间隔 就 定死了，可以 降低 引起 歧义 的 几率，而且&lt;br /&gt;
+&lt;p&gt;我 倒是 觉得，也 可以 像 拼音文字 一样，以 词 为 单位 加 空格 作为 间隔
+啊，这样 句内 词组 的 间隔 就 定死了，可以 降低 引起 歧义 的 几率，而且
 也 有利于 尚不成熟 的 中文 自动 换行、语义 分析 和 搜索。&lt;/p&gt;
 </description>
       </item>
@@ -728,7 +728,7 @@ Docs 都适用；&lt;br /&gt;
 
 &lt;li&gt;&lt;p&gt;更加开放的分享功能；&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了
 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的人来说简直就是残废）；&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;更加强大的公众平台订阅用户管理和统计功能；&lt;/p&gt;&lt;/li&gt;
@@ -739,27 +739,27 @@ Docs 都适用；&lt;br /&gt;
 
 &lt;li&gt;&lt;p&gt;历史消息保存和导出；&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
 群转战过来的群聊）。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。&lt;br /&gt;
 而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。&lt;/p&gt;
 
-&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0&lt;br /&gt;
-的改进方向&lt;/a&gt;，但如果真要用什么东西取代&lt;br /&gt;
-RSS，我希望是“精简交互”（Really Simple Interaction）&lt;br /&gt;
+&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0
+的改进方向&lt;/a&gt;，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
 这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。&lt;br /&gt;
 在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。&lt;br /&gt;
-不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看&lt;br /&gt;
-&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或&lt;br /&gt;
-&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS&lt;br /&gt;
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或
+&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS
 订阅和微信公众平台交互的综合效果。&lt;br /&gt;
-你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像&lt;br /&gt;
-blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
 建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。&lt;/p&gt;
 
-&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。&lt;br /&gt;
+&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
 比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
 但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
 </description>
@@ -782,20 +782,20 @@ blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&
 修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
 修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets&lt;br /&gt;
+&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
 小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
 
 &lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
-我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个&lt;br /&gt;
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
 more），而且没有采用固定宽度。&lt;br /&gt;
 如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
 
 &lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
-Font-family 采用优先雅黑和&lt;br /&gt;
+Font-family 采用优先雅黑和
 Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
 
-&lt;p&gt;因为我自己是用 Disqus&lt;br /&gt;
-评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus&lt;br /&gt;
+&lt;p&gt;因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
 插件是可以正常显示的。&lt;/p&gt;
 
 &lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
@@ -803,13 +803,13 @@ Arial，最终回落到非衬线字体的方案，在保证基本可读性的基
 &lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
 
 &lt;p&gt;安装说明&lt;br /&gt;
-将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress&lt;br /&gt;
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
 管理后台的主题板块中激活即可。&lt;/p&gt;
 
 &lt;p&gt;版权声明&lt;br /&gt;
 原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
-那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want&lt;br /&gt;
-To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用&lt;br /&gt;
+那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
 twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
 
 &lt;p&gt;效果截图：&lt;br /&gt;
@@ -827,7 +827,7 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <link>https://ioerr.github.io/posts/iwatch/</link>
         <pubDate>Tue, 09 Jul 2013 03:58:06 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/iwatch/</guid>
-        <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch&lt;br /&gt;
+        <description>&lt;p&gt;苹果的 iWatch 智能手表最近成为流行话题，一票人在猜测 iWatch
 会不会改变世界，会有什么酷炫功能。&lt;/p&gt;
 
 &lt;p&gt;要我说，如果真往功能强大的可穿戴智能设备上靠，iWatch 只会死得很惨。&lt;br /&gt;
@@ -873,22 +873,22 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 为什么要占用不止一只手来操作平板呢？&lt;br /&gt;
 为什么只能是利用碎片时间呢？&lt;/p&gt;
 
-&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见&lt;br /&gt;
+&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见
 Google Glass 的尝试？就通讯终端设备而言，这一天恐怕不会来得太晚。&lt;/p&gt;
 
 &lt;p&gt;那重点是什么？&lt;/p&gt;
 
-&lt;p&gt;一、Google Glass&lt;br /&gt;
+&lt;p&gt;一、Google Glass
 这类设备仍然没有逃出&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端基本矛盾&lt;/a&gt;中的高性能、多功能与随身电源的矛盾。&lt;/p&gt;
 
 &lt;p&gt;高性能电池技术和无线充电技术仍然是备受期待的技术难点（据说国内在电池技术上已经有重大突破，但不知何时可以推出成熟的工业方案和产品）。&lt;/p&gt;
 
 &lt;p&gt;二、人机界面和人工智能在期待革命。&lt;/p&gt;
 
-&lt;p&gt;前一阵子我还在 twitter&lt;br /&gt;
+&lt;p&gt;前一阵子我还在 twitter
 上提到，科幻作品中作为背景出现的计算机，通常设定为能够准确理解人类的意图，毫无障碍地与人类交流沟通，可是，这样高超的人机交互能力，以及可以准确分析、理解和预测人类意图的人工智能，其实现难度不下于时空穿越、永生不死、心灵感应。&lt;br /&gt;
 不过是在理论上确有可能，因此在虚构作品中也就轻而易举地做到了。但在现实世界中，何其难哉！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好&lt;br /&gt;
+&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好
 IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟需要我们去填平。&lt;/p&gt;
 
 &lt;p&gt;哪怕是在最基本的操作方面，比如，我在电脑上看到的一段视频，想要手一拨就送到屏幕旁的手机中带出去看，而不是两个设备通过有线或无线手工连接上，打开相应的程序同步，还要等很久才能传完完整的视频，搞不好还要担心没电或者没空间等等……&lt;/p&gt;

@@ -16,16 +16,16 @@
         <link>https://ioerr.github.io/posts/zizhi-twhirl-peise-fangan/</link>
         <pubDate>Thu, 03 Apr 2008 17:41:33 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/zizhi-twhirl-peise-fangan/</guid>
-        <description>&lt;p&gt;厌倦了 &lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt; 上用了很久的 On the beach&lt;br /&gt;
+        <description>&lt;p&gt;厌倦了 &lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt; 上用了很久的 On the beach
 配色方案，想要除了文字之外颜色越浅越淡越好，于是自己改了一个配色方案：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-04-04_013423.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-04-04_013423.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下载地址是：&lt;a href=&#34;http://whirlte.googlecode.com/files/whirlte.xml&#34;&gt;Whirlte&lt;/a&gt;&lt;br /&gt;
-下载到 Twhirl 安装目录下的 colorschemes 目录中，然后在 Accounts&lt;br /&gt;
+下载到 Twhirl 安装目录下的 colorschemes 目录中，然后在 Accounts
 Manager/Colors 中选择 Whirlte，点击 Chang color scheme。&lt;/p&gt;
 
-&lt;p&gt;修改的方法很简单，直接编辑 colorschemes 中的 xml&lt;br /&gt;
-文件即可。如果你对我的这个配色方案不满意，比如按钮的背景颜色太淡了，可以将&lt;br /&gt;
+&lt;p&gt;修改的方法很简单，直接编辑 colorschemes 中的 xml
+文件即可。如果你对我的这个配色方案不满意，比如按钮的背景颜色太淡了，可以将
 buttonColor 中的 e1e1e1改为其他颜色代码。&lt;/p&gt;
 </description>
       </item>
@@ -35,23 +35,23 @@ buttonColor 中的 e1e1e1改为其他颜色代码。&lt;/p&gt;
         <link>https://ioerr.github.io/posts/twhirl/</link>
         <pubDate>Sat, 19 Jan 2008 09:46:48 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/twhirl/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt;，最好的 Twitter 客户端，前缀是“ Windows&lt;br /&gt;
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt;，最好的 Twitter 客户端，前缀是“ Windows
 下”，后缀是“没有之一”。&lt;/p&gt;
 
-&lt;p&gt;Twhirl 自07年11月诞生以来，几乎每周都有升级，迅速超过了&lt;br /&gt;
+&lt;p&gt;Twhirl 自07年11月诞生以来，几乎每周都有升级，迅速超过了
 &lt;a href=&#34;http://www.tweet-r.com/&#34;&gt;Tweetr&lt;/a&gt; 等同类软件，成为最好用的客户端。&lt;/p&gt;
 
-&lt;p&gt;如果要使用 Twhirl，首先需要下载10 M 左右的 &lt;a href=&#34;http://labs.adobe.com/technologies/air&#34;&gt;Adobe AIR&lt;br /&gt;
+&lt;p&gt;如果要使用 Twhirl，首先需要下载10 M 左右的 &lt;a href=&#34;http://labs.adobe.com/technologies/air&#34;&gt;Adobe AIR
 环境&lt;/a&gt;，然后在&lt;a href=&#34;http://www.twhirl.org/project/twhirl&#34;&gt;这个页面&lt;/a&gt;下载并安装。&lt;/p&gt;
 
-&lt;p&gt;第一次运行&lt;br /&gt;
+&lt;p&gt;第一次运行
 Twhirl，显示的会是账号管理面板，要你输入用户名，支持多账号管理。输入用户名之后点击“connect”登录。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00031.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00031.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;管理面板中还有色彩方案和升级的标签页，提供预览和切换色彩方案，以及手动检查更新的功能。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00032.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00032.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;下图就是 Twhirl 的主界面了，默认显示 Twitter 的&lt;br /&gt;
+&lt;p&gt;下图就是 Twhirl 的主界面了，默认显示 Twitter 的
 Timeline——其实是你和好友的所有消息。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00001.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00001.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -64,14 +64,14 @@ Timeline——其实是你和好友的所有消息。&lt;br /&gt;
 &lt;p&gt;点击输入区右上的那个漏斗形图标可以使用筛选过滤功能，对用户名和消息内容都有效。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00029.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00029.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;点击输入区右侧的链接图标，可以使用 URL&lt;br /&gt;
+&lt;p&gt;点击输入区右侧的链接图标，可以使用 URL
 缩短服务，可惜需要手工粘贴，，这一点不如 Tweetr。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00030.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00030.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;点开输入区下方的菜单，可以切换浏览其他信息，除了与 Twitter&lt;br /&gt;
-对应的几个之外，Lookup&lt;br /&gt;
-表示查找并查看某个用户的资料，还可以进行各种关系操作，在其他界面中点击用户名链接也会进入&lt;br /&gt;
-Lookup 面板；Search 则是利用 &lt;a href=&#34;http://www.terraminds.com/&#34;&gt;Terraminds&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;点开输入区下方的菜单，可以切换浏览其他信息，除了与 Twitter
+对应的几个之外，Lookup
+表示查找并查看某个用户的资料，还可以进行各种关系操作，在其他界面中点击用户名链接也会进入
+Lookup 面板；Search 则是利用 &lt;a href=&#34;http://www.terraminds.com/&#34;&gt;Terraminds&lt;/a&gt;
 提供全文搜索，经常没响应…&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00028.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00028.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -107,8 +107,8 @@ Twhirl 面板的透明度，始终有半透明效果还是仅在未激活时有�
 
 &lt;p&gt;Connection 标签页中用于设置各类消息的更新频率：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00037.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00037.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-因为 Twitter 最近因为性能问题限制了第三方通过 API 发送请求的频率，因此&lt;br /&gt;
-Twhirl&lt;br /&gt;
+因为 Twitter 最近因为性能问题限制了第三方通过 API 发送请求的频率，因此
+Twhirl
 最快也就是每分钟刷新一次。虽然可以手工刷新，但是太频繁了就会强制暂停更新5分钟。&lt;/p&gt;
 
 &lt;p&gt;如果你想在进入账号管理面板切换账号，在主界面面板好像是没有出路的…反正我是找了半天才发现右键点击托盘图标方是正道…&lt;br /&gt;

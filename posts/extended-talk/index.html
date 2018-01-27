@@ -20,28 +20,14 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="Extended Talk" />
-<meta property="og:description" content="7月2日新版本的 Extended
-Talk
-放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个
-Active Status 有点研究的价值。
-Active Status 就是通过脚本自动更改 Talk
-的状态。既可以读取 RSS
-的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -
-3:15回来，现在是 1:49”这样的效果。
+<meta property="og:description" content="7月2日新版本的 Extended Talk 放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个 Active Status 有点研究的价值。
+Active Status 就是通过脚本自动更改 Talk 的状态。既可以读取 RSS 的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 - 3:15回来，现在是 1:49”这样的效果。
 一般的操作就不介绍了，帮助文档写得很清楚。
-我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger
-那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取
-Last.Fm 上面 Recent Tracks 的 RSS
-Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS
-以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的
-RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
-一栏中的函数名，Turn On 即可。
-但是一来 RSS Feed
-更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
+我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger 那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取 Last.Fm 上面 Recent Tracks 的 RSS Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS 以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的 RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions 一栏中的函数名，Turn On 即可。
+但是一来 RSS Feed 更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
 1、下载 Winspector Spy；
 2、打开 Foobar2000，播放歌曲。
-3、通过 Winspector Spy 找到 Foobar2000
-窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为" />
+3、通过 Winspector Spy 找到 Foobar2000 窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为 {DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/extended-talk/" />
 
@@ -64,28 +50,14 @@ RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
 
 
 <meta itemprop="name" content="Extended Talk">
-<meta itemprop="description" content="7月2日新版本的 Extended
-Talk
-放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个
-Active Status 有点研究的价值。
-Active Status 就是通过脚本自动更改 Talk
-的状态。既可以读取 RSS
-的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -
-3:15回来，现在是 1:49”这样的效果。
+<meta itemprop="description" content="7月2日新版本的 Extended Talk 放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个 Active Status 有点研究的价值。
+Active Status 就是通过脚本自动更改 Talk 的状态。既可以读取 RSS 的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 - 3:15回来，现在是 1:49”这样的效果。
 一般的操作就不介绍了，帮助文档写得很清楚。
-我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger
-那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取
-Last.Fm 上面 Recent Tracks 的 RSS
-Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS
-以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的
-RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
-一栏中的函数名，Turn On 即可。
-但是一来 RSS Feed
-更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
+我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger 那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取 Last.Fm 上面 Recent Tracks 的 RSS Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS 以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的 RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions 一栏中的函数名，Turn On 即可。
+但是一来 RSS Feed 更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
 1、下载 Winspector Spy；
 2、打开 Foobar2000，播放歌曲。
-3、通过 Winspector Spy 找到 Foobar2000
-窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为">
+3、通过 Winspector Spy 找到 Foobar2000 窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为 {DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1">
 
 
 <meta itemprop="datePublished" content="2006-07-05T05:36:00&#43;00:00" />
@@ -97,28 +69,14 @@ RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Extended Talk"/>
-<meta name="twitter:description" content="7月2日新版本的 Extended
-Talk
-放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个
-Active Status 有点研究的价值。
-Active Status 就是通过脚本自动更改 Talk
-的状态。既可以读取 RSS
-的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -
-3:15回来，现在是 1:49”这样的效果。
+<meta name="twitter:description" content="7月2日新版本的 Extended Talk 放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个 Active Status 有点研究的价值。
+Active Status 就是通过脚本自动更改 Talk 的状态。既可以读取 RSS 的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 - 3:15回来，现在是 1:49”这样的效果。
 一般的操作就不介绍了，帮助文档写得很清楚。
-我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger
-那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取
-Last.Fm 上面 Recent Tracks 的 RSS
-Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS
-以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的
-RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
-一栏中的函数名，Turn On 即可。
-但是一来 RSS Feed
-更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
+我想要实现的效果是类似于 Windows Media Player &#43; MSN Messenger 那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取 Last.Fm 上面 Recent Tracks 的 RSS Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS 以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的 RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions 一栏中的函数名，Turn On 即可。
+但是一来 RSS Feed 更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。
 1、下载 Winspector Spy；
 2、打开 Foobar2000，播放歌曲。
-3、通过 Winspector Spy 找到 Foobar2000
-窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为"/>
+3、通过 Winspector Spy 找到 Foobar2000 窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为 {DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1"/>
 
 
   </head>
@@ -195,48 +153,48 @@ RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
         
       </p>
     </header>
-    <section><p>7月2日新版本的 <a href="http://www.meosoft.net/extendedtalk/index.html">Extended<br />
-Talk</a><br />
-放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个<br />
+    <section><p>7月2日新版本的 <a href="http://www.meosoft.net/extendedtalk/index.html">Extended
+Talk</a>
+放出了新版本。但是新增的功能并没有多少实用的，文件传输还不稳定，只有一个
 Active Status 有点研究的价值。</p>
 
-<p>Active Status 就是通过脚本自动更改 <a href="http://talk.google.com/">Talk</a><br />
-的状态。既可以读取 RSS<br />
-的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -<br />
+<p>Active Status 就是通过脚本自动更改 <a href="http://talk.google.com/">Talk</a>
+的状态。既可以读取 RSS
+的内容，也可以获取应用程序窗口中的文本信息，可以实现“离开 -
 3:15回来，现在是 1:49”这样的效果。<br />
 一般的操作就不介绍了，帮助文档写得很清楚。</p>
 
-<p>我想要实现的效果是类似于 Windows Media Player + MSN Messenger<br />
-那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取<br />
-<a href="http://www.last.fm/">Last.Fm</a> 上面 Recent Tracks 的 RSS<br />
-Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS<br />
-以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的<br />
-RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions<br />
+<p>我想要实现的效果是类似于 Windows Media Player + MSN Messenger
+那样自动显示当前播放的音乐曲目。一开始想偷懒，打算直接读取
+<a href="http://www.last.fm/">Last.Fm</a> 上面 Recent Tracks 的 RSS
+Feed，操作方法是把 Plugins 目录下 CustomizeTalk.et 文件中花括号内 RSS
+以下的内容（虽然说得这么复杂，其实打开文件一看就能知道是怎么回事了）替换为你选定的
+RSS Feed，然后在 Active Status 中读取这个 et 文件，双击 Functions
 一栏中的函数名，Turn On 即可。</p>
 
-<p>但是一来 RSS Feed<br />
+<p>但是一来 RSS Feed
 更新速度太慢，二来中文信息在状态栏中显示为乱码，所以这个方法并不好，于是只好选择麻烦一点的。</p>
 
 <p>1、下载 <a href="http://www.windows-spy.com/">Winspector Spy</a>；<br />
 2、打开 Foobar2000，播放歌曲。<br />
-3、通过 <a href="http://www.windows-spy.com/">Winspector Spy</a> 找到 Foobar2000<br />
-窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为<br />
+3、通过 <a href="http://www.windows-spy.com/">Winspector Spy</a> 找到 Foobar2000
+窗口的 Class Name，比如我的 Foobar2000 v0.9.1 的 Class Name 为
 {DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1<br />
 4、新建一个 Foobar2000.et 文件，内容如下：</p>
 
-<p><blockquote><br />
+<p><blockquote>
 <em>foobar</em><br />
 {<br />
 ETP<br />
 {DA7CD0DE-1602-45e6-89A1-C2CA151E008E}/1<br />
-}<br />
-</blockquote><br />
+}
+</blockquote>
 其中 ETP 表示这是 Windows Script 类型的插件脚本，foobar 是函数名；<br />
 5、如前所述，载入脚本，设置好状态栏的函数，激活插件。</p>
 
-<p>这样，Talk 的状态栏就和 Foobar2000<br />
-窗口的标题一致，可以显示当前播放的歌曲了。这样的方案虽然比 Windows Media<br />
-Player + MSN Messenger 要麻烦，但是灵活得多，通过 Windows Script、RSS<br />
+<p>这样，Talk 的状态栏就和 Foobar2000
+窗口的标题一致，可以显示当前播放的歌曲了。这样的方案虽然比 Windows Media
+Player + MSN Messenger 要麻烦，但是灵活得多，通过 Windows Script、RSS
 Feed 和 VBScript，你也可以创造出更有趣更实用的功能了。</p>
 </section>
     <footer>

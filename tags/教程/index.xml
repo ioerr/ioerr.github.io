@@ -19,7 +19,7 @@
         <description>
 
 &lt;p&gt;最近又重新开始捣鼓 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;。&lt;br /&gt;
-虽说基本不用写程序或者脚本，只是码码字，对 Vim&lt;br /&gt;
+虽说基本不用写程序或者脚本，只是码码字，对 Vim
 的需求没这么高，但作为纯文本党人既然喜欢收集纯文本编辑器玩，没道理不把这个工具用好。&lt;/p&gt;
 
 &lt;p&gt;为了方便自己查阅 Vim&lt;/p&gt;
@@ -28,18 +28,18 @@
 
 &lt;p&gt;博大精深，所以还有很多内容待补充，不过最后我会制作一个重新整理的电子表格文档出来，把最常用最适合新手入门的内容和高级内容分开的。&lt;/p&gt;
 
-&lt;p&gt;装了&lt;br /&gt;
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=453&#34;&gt;HTML&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;FencView&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=42&#34;&gt;Buffer&lt;br /&gt;
-Explorer&lt;/a&gt;&lt;br /&gt;
-等几个插件，小小的修改了&lt;br /&gt;
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1492&#34;&gt;Pyte&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;装了
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=453&#34;&gt;HTML&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1708&#34;&gt;FencView&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=42&#34;&gt;Buffer
+Explorer&lt;/a&gt;
+等几个插件，小小的修改了
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1492&#34;&gt;Pyte&lt;/a&gt;
 配色方案，调教了一下配置文件，基本解决显示中文的问题后，就可以慢慢玩了。&lt;/p&gt;
 
-&lt;p&gt;除了 Vim&lt;br /&gt;
+&lt;p&gt;除了 Vim
 官方相关的文档、插件、配色方案、技巧外，顺藤摸瓜找到的资源还有：&lt;br /&gt;
 基础教程：&lt;a href=&#34;http://www.study-area.org/tips/vim/&#34;&gt;大家來學VIM（一個歷久彌新的編輯器）&lt;/a&gt;&lt;br /&gt;
 输入法：&lt;a href=&#34;http://maxiangjiang.googlepages.com/vimim.html&#34;&gt;VimIM&lt;/a&gt;&lt;br /&gt;
-配色方案预览工具：&lt;a href=&#34;http://vimcolorschemetest.googlecode.com/svn/html/index-html.html&#34;&gt;VIM Color Scheme&lt;br /&gt;
+配色方案预览工具：&lt;a href=&#34;http://vimcolorschemetest.googlecode.com/svn/html/index-html.html&#34;&gt;VIM Color Scheme
 Test&lt;/a&gt;&lt;br /&gt;
 Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;&gt;Vimperator&lt;/a&gt;&lt;/p&gt;
 

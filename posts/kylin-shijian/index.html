@@ -20,58 +20,24 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="麒麟事件" />
-<meta property="og:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在
-DanceFire
-整理的基础上再集中一下，希望有用。
-
-Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。
-
-DanceFire
-的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
-
-麒麟操作系统中至少有60%的代码是来自于FreeBSD
-5.3的源代码。……实际的麒麟操作系统与FreeBSD
-5.3在源代码上的相似度很有可能会达到甚至超过90%。
+<meta property="og:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。
+ Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。  DanceFire 的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
+ 麒麟操作系统中至少有60%的代码是来自于FreeBSD 5.3的源代码。……实际的麒麟操作系统与FreeBSD 5.3在源代码上的相似度很有可能会达到甚至超过90%。
 我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。
-首先是在FreeBSD
-5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
+首先是在FreeBSD 5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
 然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。
 最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。
-如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD
-5.3更为恰当。
-
-
-麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。
-
-《银河麒麟操作系统官方公告》：
-
-银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire
-到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。
-
-《关于银河麒麟操作系统的说明》
+如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD 5.3更为恰当。   麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。  《银河麒麟操作系统官方公告》：
+ 银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire 到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。  《关于银河麒麟操作系统的说明》
 DanceFire 的一系列文章：
 《今日看到IEEE上麒麟操作系统多线程的论文，发现和FreeBSD的KSE机制很像。》
 《Kylin的Kyth和FreeBSD的libpthread多线程库所用的源文件列表对比》
 《用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功》
 《用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功》
 《关于麒麟操作系统相似性分析的网友回复的整理》
-#1
-#2
-#3
-#4
-
-FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD
-5.0起步，三年之后，和FreeBSD
-5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD
-5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。
-
-
-在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。
-
-
-I am a BSD engineer from P.R.China. Now we have just finished a BSD
-version. It has some features:
-1)It uses BSD kernel and Linux runtime environment, that means the" />
+#1 #2 #3 #4
+ FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD 5.0起步，三年之后，和FreeBSD 5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD 5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。   在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。   I am a BSD engineer from P.R.China. Now we have just finished a BSD version. It has some features:
+1)It uses BSD kernel and Linux runtime environment, that means the userland is linux applications, and it" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/kylin-shijian/" />
 
@@ -94,58 +60,24 @@ version. It has some features:
 
 
 <meta itemprop="name" content="麒麟事件">
-<meta itemprop="description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在
-DanceFire
-整理的基础上再集中一下，希望有用。
-
-Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。
-
-DanceFire
-的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
-
-麒麟操作系统中至少有60%的代码是来自于FreeBSD
-5.3的源代码。……实际的麒麟操作系统与FreeBSD
-5.3在源代码上的相似度很有可能会达到甚至超过90%。
+<meta itemprop="description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。
+ Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。  DanceFire 的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
+ 麒麟操作系统中至少有60%的代码是来自于FreeBSD 5.3的源代码。……实际的麒麟操作系统与FreeBSD 5.3在源代码上的相似度很有可能会达到甚至超过90%。
 我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。
-首先是在FreeBSD
-5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
+首先是在FreeBSD 5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
 然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。
 最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。
-如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD
-5.3更为恰当。
-
-
-麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。
-
-《银河麒麟操作系统官方公告》：
-
-银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire
-到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。
-
-《关于银河麒麟操作系统的说明》
+如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD 5.3更为恰当。   麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。  《银河麒麟操作系统官方公告》：
+ 银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire 到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。  《关于银河麒麟操作系统的说明》
 DanceFire 的一系列文章：
 《今日看到IEEE上麒麟操作系统多线程的论文，发现和FreeBSD的KSE机制很像。》
 《Kylin的Kyth和FreeBSD的libpthread多线程库所用的源文件列表对比》
 《用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功》
 《用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功》
 《关于麒麟操作系统相似性分析的网友回复的整理》
-#1
-#2
-#3
-#4
-
-FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD
-5.0起步，三年之后，和FreeBSD
-5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD
-5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。
-
-
-在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。
-
-
-I am a BSD engineer from P.R.China. Now we have just finished a BSD
-version. It has some features:
-1)It uses BSD kernel and Linux runtime environment, that means the">
+#1 #2 #3 #4
+ FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD 5.0起步，三年之后，和FreeBSD 5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD 5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。   在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。   I am a BSD engineer from P.R.China. Now we have just finished a BSD version. It has some features:
+1)It uses BSD kernel and Linux runtime environment, that means the userland is linux applications, and it">
 
 
 <meta itemprop="datePublished" content="2006-05-17T14:11:49&#43;00:00" />
@@ -157,58 +89,24 @@ version. It has some features:
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="麒麟事件"/>
-<meta name="twitter:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在
-DanceFire
-整理的基础上再集中一下，希望有用。
-
-Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。
-
-DanceFire
-的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
-
-麒麟操作系统中至少有60%的代码是来自于FreeBSD
-5.3的源代码。……实际的麒麟操作系统与FreeBSD
-5.3在源代码上的相似度很有可能会达到甚至超过90%。
+<meta name="twitter:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。
+ Kylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。  DanceFire 的《麒麟操作系统内核同其他操作系统内核的相似性分析》：
+ 麒麟操作系统中至少有60%的代码是来自于FreeBSD 5.3的源代码。……实际的麒麟操作系统与FreeBSD 5.3在源代码上的相似度很有可能会达到甚至超过90%。
 我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。
-首先是在FreeBSD
-5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
+首先是在FreeBSD 5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。
 然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。
 最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。
-如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD
-5.3更为恰当。
-
-
-麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。
-
-《银河麒麟操作系统官方公告》：
-
-银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire
-到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。
-
-《关于银河麒麟操作系统的说明》
+如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD 5.3更为恰当。   麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。  《银河麒麟操作系统官方公告》：
+ 银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire 到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。  《关于银河麒麟操作系统的说明》
 DanceFire 的一系列文章：
 《今日看到IEEE上麒麟操作系统多线程的论文，发现和FreeBSD的KSE机制很像。》
 《Kylin的Kyth和FreeBSD的libpthread多线程库所用的源文件列表对比》
 《用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功》
 《用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功》
 《关于麒麟操作系统相似性分析的网友回复的整理》
-#1
-#2
-#3
-#4
-
-FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD
-5.0起步，三年之后，和FreeBSD
-5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD
-5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。
-
-
-在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。
-
-
-I am a BSD engineer from P.R.China. Now we have just finished a BSD
-version. It has some features:
-1)It uses BSD kernel and Linux runtime environment, that means the"/>
+#1 #2 #3 #4
+ FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD 5.0起步，三年之后，和FreeBSD 5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD 5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。   在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。   I am a BSD engineer from P.R.China. Now we have just finished a BSD version. It has some features:
+1)It uses BSD kernel and Linux runtime environment, that means the userland is linux applications, and it"/>
 
 
   </head>
@@ -288,38 +186,38 @@ version. It has some features:
         
       </p>
     </header>
-    <section><p>在<a href="http://blog.donews.com/biantaishabi">变态家族</a>看到《<a href="http://blog.donews.com/biantaishabi/archive/2006/05/17/872448.aspx">软件界的中国芯？</a>》一文，才知道<a href="http://www.kylin.org.cn/">麒麟操作系统</a>事件这回事，于是在<br />
-<a href="http://blog.csdn.net/DanceFire/">DanceFire</a><br />
+    <section><p>在<a href="http://blog.donews.com/biantaishabi">变态家族</a>看到《<a href="http://blog.donews.com/biantaishabi/archive/2006/05/17/872448.aspx">软件界的中国芯？</a>》一文，才知道<a href="http://www.kylin.org.cn/">麒麟操作系统</a>事件这回事，于是在
+<a href="http://blog.csdn.net/DanceFire/">DanceFire</a>
 整理的基础上再集中一下，希望有用。</p>
 
-<p><blockquote><br />
-<a href="http://www.863.org.cn/863_105/indust/indust_news/200409160008.html">Kylin服务器操作系统是国家863计划的重大研究成果，拥有<strong>完全自主版权的内核</strong>，与Linux在应用上二进制兼容，并支持64位，是中国<strong>独立研发</strong>成功的、<strong>具有完全自主知识产权</strong>的服务器操作系统。</a><br />
-</blockquote><br />
-DanceFire<br />
+<p><blockquote>
+<a href="http://www.863.org.cn/863_105/indust/indust_news/200409160008.html">Kylin服务器操作系统是国家863计划的重大研究成果，拥有<strong>完全自主版权的内核</strong>，与Linux在应用上二进制兼容，并支持64位，是中国<strong>独立研发</strong>成功的、<strong>具有完全自主知识产权</strong>的服务器操作系统。</a>
+</blockquote>
+DanceFire
 的《<a href="http://blog.csdn.net/DanceFire/archive/2006/04/27/679782.aspx">麒麟操作系统内核同其他操作系统内核的相似性分析</a>》：</p>
 
-<p><blockquote><br />
-麒麟操作系统中至少有60%的代码是来自于FreeBSD<br />
-5.3的源代码。……实际的麒麟操作系统与FreeBSD<br />
+<p><blockquote>
+麒麟操作系统中至少有60%的代码是来自于FreeBSD
+5.3的源代码。……实际的麒麟操作系统与FreeBSD
 5.3在源代码上的相似度很有可能会达到甚至超过90%。</p>
 
 <p>我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。<br />
-首先是在FreeBSD<br />
+首先是在FreeBSD
 5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。<br />
 然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。<br />
 最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。<br />
-如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD<br />
-5.3更为恰当。<br />
-</blockquote><br />
-<blockquote><br />
-麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。<br />
-</blockquote><br />
+如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD
+5.3更为恰当。
+</blockquote>
+<blockquote>
+麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。
+</blockquote>
 《<a href="http://www.kylin.org.cn/KylinForum/read.php?tid=1350&amp;fpage=1">银河麒麟操作系统官方公告</a>》：</p>
 
-<p><blockquote><br />
-银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire<br />
-到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。<br />
-</blockquote><br />
+<p><blockquote>
+银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire
+到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。
+</blockquote>
 《<a href="http://www.freebsdchina.org/forum/viewtopic.php?t=29841&amp;sid=d53bd90548f50f1d0e2871930f9a4d82">关于银河麒麟操作系统的说明</a>》</p>
 
 <p>DanceFire 的一系列文章：<br />
@@ -328,34 +226,34 @@ DanceFire<br />
 《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/15/728840.aspx">用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功</a>》<br />
 《<a href="http://blog.csdn.net/DanceFire/archive/2006/05/15/729046.aspx">用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功</a>》<br />
 《关于麒麟操作系统相似性分析的网友回复的整理》<br />
-<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725436.aspx">#1</a><br />
-<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725443.aspx">#2</a><br />
-<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725446.aspx">#3</a><br />
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725436.aspx">#1</a>
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725443.aspx">#2</a>
+<a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725446.aspx">#3</a>
 <a href="http://blog.csdn.net/DanceFire/archive/2006/05/12/725518.aspx">#4</a></p>
 
-<p><blockquote><br />
-FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD<br />
-5.0起步，三年之后，和FreeBSD<br />
-5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD<br />
-5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。<br />
-</blockquote><br />
-<blockquote><br />
-在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。<br />
-</blockquote><br />
-<blockquote><br />
-I am a BSD engineer from P.R.China. Now we have just finished a BSD<br />
+<p><blockquote>
+FreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD
+5.0起步，三年之后，和FreeBSD
+5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD
+5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。
+</blockquote>
+<blockquote>
+在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。
+</blockquote>
+<blockquote>
+I am a BSD engineer from P.R.China. Now we have just finished a BSD
 version. It has some features:<br />
-1)<strong>It uses BSD kernel and Linux runtime environment</strong>, that means the<br />
+1)<strong>It uses BSD kernel and Linux runtime environment</strong>, that means the
 userland is linux applications, and it<br />
-can run directly on our system without modifcation such as Oracle<br />
+can run directly on our system without modifcation such as Oracle
 Database.<br />
-2)We can support desktop environment well. The can support office suite<br />
+2)We can support desktop environment well. The can support office suite
 and resource manager on our<br />
 system. It is much like windows 95 interface.<br />
-3)We have passed Linux Standard Base (LSB 1.3) for our system. <strong><a href="http://blog.gmane.org/gmane.os.bsd.certification/day=20050418">Its<br />
-chinese name is<br />
-kylin</a></strong>.<br />
-</blockquote><br />
+3)We have passed Linux Standard Base (LSB 1.3) for our system. <strong><a href="http://blog.gmane.org/gmane.os.bsd.certification/day=20050418">Its
+chinese name is
+kylin</a></strong>.
+</blockquote>
 虽然我的心情很不好，但还是忍不住要来这么一段：</p>
 
 <p>正气凛然型：<br />

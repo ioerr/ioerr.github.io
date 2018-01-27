@@ -21,46 +21,46 @@
 &lt;p&gt;Google 前一段时间宣布，将在7月1日关闭 Google Reader。&lt;br /&gt;
 作为低调的老用户，咱就不贴出趋势图凑热闹了。&lt;/p&gt;
 
-&lt;p&gt;Google 这几年被 Facebook&lt;br /&gt;
-刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推&lt;br /&gt;
+&lt;p&gt;Google 这几年被 Facebook
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
 Google Plus 这种没琢磨透需求的半成品。&lt;br /&gt;
-作为用户，能够理解 Google&lt;br /&gt;
-关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google&lt;br /&gt;
-不仅损失许多有能量的核心用户，更重要的是，Google&lt;br /&gt;
+作为用户，能够理解 Google
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
+不仅损失许多有能量的核心用户，更重要的是，Google
 服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；&lt;br /&gt;
-同样作为用户，也犯不着可怜兮兮地请愿，Google&lt;br /&gt;
+同样作为用户，也犯不着可怜兮兮地请愿，Google
 从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。&lt;/p&gt;
 
 &lt;p&gt;目前号称可以替代 Reader&lt;/p&gt;
 
 &lt;h2 id=&#34;的在线服务-feedly-http-www-feedly-com-bloglines-鲜果-http-xianguo-com-抓虾-http-www-zhuaxia-com-有道阅读-http-reader-youdao-com-the&#34;&gt;的在线服务，&lt;a href=&#34;http://www.feedly.com/&#34;&gt;Feedly&lt;/a&gt;、Bloglines、&lt;a href=&#34;http://xianguo.com/&#34;&gt;鲜果&lt;/a&gt;、&lt;a href=&#34;http://www.zhuaxia.com&#34;&gt;抓虾&lt;/a&gt;、&lt;a href=&#34;http://reader.youdao.com/&#34;&gt;有道阅读&lt;/a&gt;、[The&lt;/h2&gt;
 
-&lt;p&gt;Reader](&lt;a href=&#34;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&#34;&gt;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&lt;/a&gt;&lt;br /&gt;
-能把 Delicious&lt;br /&gt;
+&lt;p&gt;Reader](&lt;a href=&#34;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&#34;&gt;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&lt;/a&gt;
+能把 Delicious
 整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。&lt;/p&gt;
 
-&lt;p&gt;于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的&lt;br /&gt;
-GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader&lt;br /&gt;
-等桌面客户端（Mac OS&lt;br /&gt;
-下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用&lt;br /&gt;
+&lt;p&gt;于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
+等桌面客户端（Mac OS
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
 FeedDemon。&lt;br /&gt;
 尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。&lt;/p&gt;
 
-&lt;p&gt;FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到&lt;br /&gt;
-AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助&lt;br /&gt;
+&lt;p&gt;FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
 Dropbox 等同步服务也可以勉强搞定。&lt;br /&gt;
 代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。&lt;/p&gt;
 
-&lt;p&gt;注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像&lt;br /&gt;
-RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的&lt;br /&gt;
+&lt;p&gt;注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
 feed 看待，所以最好在导入之前自己先清理一下。&lt;/p&gt;
 
 &lt;p&gt;另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？&lt;/p&gt;
 
-&lt;p&gt;为了保险起见，建议只订阅了 &lt;a href=&#34;http://feeds.feedburner.com/calon&#34;&gt;http://feeds.feedburner.com/calon&lt;/a&gt;&lt;br /&gt;
-的读者多个心眼，另外订阅 &lt;a href=&#34;http://calon.weblogs.us/feed/&#34;&gt;http://calon.weblogs.us/feed/&lt;/a&gt;&lt;br /&gt;
-作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过&lt;br /&gt;
-&lt;a href=&#34;http://www.feedblitz.com/&#34;&gt;FeedBlitz&lt;/a&gt; 也可以用邮箱收取 feed&lt;br /&gt;
+&lt;p&gt;为了保险起见，建议只订阅了 &lt;a href=&#34;http://feeds.feedburner.com/calon&#34;&gt;http://feeds.feedburner.com/calon&lt;/a&gt;
+的读者多个心眼，另外订阅 &lt;a href=&#34;http://calon.weblogs.us/feed/&#34;&gt;http://calon.weblogs.us/feed/&lt;/a&gt;
+作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过
+&lt;a href=&#34;http://www.feedblitz.com/&#34;&gt;FeedBlitz&lt;/a&gt; 也可以用邮箱收取 feed
 更新，美中不足是，有的文章标题变乱码）。&lt;/p&gt;
 </description>
       </item>
@@ -72,17 +72,17 @@ feed 看待，所以最好在导入之前自己先清理一下。&lt;/p&gt;
         <guid>https://ioerr.github.io/posts/google-talk-chatback-badge/</guid>
         <description>&lt;p&gt;Google Talk 最近又有新的调整。&lt;/p&gt;
 
-&lt;p&gt;一是在网页版的 Talk 中增加了“隐身”的状态。这样会不会一些人本来就不多的&lt;br /&gt;
+&lt;p&gt;一是在网页版的 Talk 中增加了“隐身”的状态。这样会不会一些人本来就不多的
 Talk 在线好友变得更加稀少了？&lt;br /&gt;
 而且这次又是只有网页版才能使用的功能，Google 不能一直这么厚此薄彼！&lt;br /&gt;
-二是&lt;a href=&#34;http://www.google.com/talk/service/badge/New&#34;&gt;更新了 Google Talk chatback&lt;br /&gt;
+二是&lt;a href=&#34;http://www.google.com/talk/service/badge/New&#34;&gt;更新了 Google Talk chatback
 badge&lt;/a&gt;，新版的外观还不错，可定制的选项也多了那么一点点。&lt;/p&gt;
 
 &lt;p&gt;但还是面向网页版的…&lt;/p&gt;
 
 &lt;p&gt;补充：有同学点了 chatback badge，我收到的信息如下所示：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00037-1.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00037-1.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-即使我开着 Talk&lt;br /&gt;
+即使我开着 Talk
 客户端，它也要我打开网页版的才能答复，实在是太没有人性了！ :010:&lt;/p&gt;
 </description>
       </item>

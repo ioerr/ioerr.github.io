@@ -16,7 +16,7 @@
         <link>https://ioerr.github.io/posts/editgrid-de-zhuce-jiemian/</link>
         <pubDate>Sat, 12 Jan 2008 18:24:28 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/editgrid-de-zhuce-jiemian/</guid>
-        <description>&lt;p&gt;为了试验部分权限受限的表格分享，在 &lt;a href=&#34;http://www.editgrid.com/&#34;&gt;EditGrid&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;为了试验部分权限受限的表格分享，在 &lt;a href=&#34;http://www.editgrid.com/&#34;&gt;EditGrid&lt;/a&gt;
 又注册了一个账号，整个过程既快又舒服，堪称注册界面之典范。&lt;/p&gt;
 
 &lt;p&gt;下面就是它的注册表单，除了中文翻译不到位之外，其他基本都值得称赞（如果可以自动验证有效性就好了）：&lt;br /&gt;
@@ -25,24 +25,24 @@
 &lt;p&gt;1、没有要求填写多余的信息。用户名＋密码×2几乎就是全部，连电子邮箱也是可选项目，已经非常精简了；&lt;br /&gt;
 2、通知选项默认不选。充分尊重用户，节省大部分用户的时间；&lt;br /&gt;
 3、需要用户认可的协议交给用户来确认。私以为默认用户认可服务协议和隐私政策是不合适的，等于鼓励用户忽视协议。&lt;br /&gt;
-4、步骤够简短。实际上，以上就是注册的全过程，确实符合 EditGrid&lt;br /&gt;
+4、步骤够简短。实际上，以上就是注册的全过程，确实符合 EditGrid
 说的“2分钟搞定”的说法。&lt;/p&gt;
 
 &lt;p&gt;当然，注册表单只是一方面：&lt;br /&gt;
 5、必要时才让用户注册、登录：未登录的用户同样可以查看开放阅读权限的表格，只有要进行修改等与账号权限相关的操作时才转到登录界面；&lt;br /&gt;
 6、告诉你注册的好处：在注册表单的上方，还有这么一段话：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
-Looking for professional and secure subscription service that suits your&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
+Looking for professional and secure subscription service that suits your
 organisation needs?&lt;br /&gt;
-Exclusive features for organisation accounts include shared workspaces,&lt;br /&gt;
-accounts/spreadsheets management, unique namespace, SSL connections,&lt;br /&gt;
-email support, and more!&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+Exclusive features for organisation accounts include shared workspaces,
+accounts/spreadsheets management, unique namespace, SSL connections,
+email support, and more!
+&lt;/blockquote&gt;
 简单明白地告诉你注册专业账号的好处；&lt;br /&gt;
 7、与简洁的注册界面相对的，是比较丰富的个人喜好设置。&lt;/p&gt;
 
-&lt;p&gt;我的问题是，不要求提供邮箱，不要求激活验证，也不要求输入验证码，那么&lt;br /&gt;
+&lt;p&gt;我的问题是，不要求提供邮箱，不要求激活验证，也不要求输入验证码，那么
 EditGrid 是怎么对付恶意注册的呢？还是不需要考虑这个问题？&lt;/p&gt;
 </description>
       </item>

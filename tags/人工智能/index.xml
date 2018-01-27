@@ -38,10 +38,10 @@
 
 &lt;ol&gt;
 &lt;li&gt;只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;/li&gt;
+&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;/li&gt;
+&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;/li&gt;
+&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       </item>
@@ -51,8 +51,8 @@
         <link>https://ioerr.github.io/posts/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</link>
         <pubDate>Thu, 17 Mar 2016 15:50:19 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/luantan-renlei-yu-rengongzhineng-de-weilai-jingzheng/</guid>
-        <description>&lt;p&gt;DeepMind 的阿发狗（AlphaGo）已经总比分4:1战胜李世乭，加上之前 Boston&lt;br /&gt;
-Dynamics 的 Atlas&lt;br /&gt;
+        <description>&lt;p&gt;DeepMind 的阿发狗（AlphaGo）已经总比分4:1战胜李世乭，加上之前 Boston
+Dynamics 的 Atlas
 机器人逆天的表现，许多网友就已经惊呼，机器人、人工智能战胜、取代人类的日子不远了，也有专家学者认为强人工智能的出现会大大早于大多数人的预期。&lt;br /&gt;
 同时，各种限制技术进步、捣毁机器的卢德主义论调又重新抬头。&lt;br /&gt;
 其实现在还不必如此忧心忡忡，机器取代人类这一天不会这么快到来——虽然也许比想象的要快一点。&lt;/p&gt;
@@ -64,9 +64,9 @@ Dynamics 的 Atlas&lt;br /&gt;
 有大量已知的经验材料可供学习，不用自己完全从头摸索规则内的最优解（虽然理论上阿发狗可以通过互相博弈探索最优解，但在更加开放、复杂的问题上未必能做到）；&lt;br /&gt;
 ……&lt;/p&gt;
 
-&lt;p&gt;目前阿发狗为代表的人工智能背后有蒙特卡洛树搜索（Monte Carlo tree&lt;br /&gt;
-search）+强化学习（Reinforcement Learning）+深度神经网络（Deep Neural&lt;br /&gt;
-Networks）+快速走子（Fast&lt;br /&gt;
+&lt;p&gt;目前阿发狗为代表的人工智能背后有蒙特卡洛树搜索（Monte Carlo tree
+search）+强化学习（Reinforcement Learning）+深度神经网络（Deep Neural
+Networks）+快速走子（Fast
 Rollout）等技术，擅长在既定规则和完全信息下，通过大量学习，评估形势，在一定时间限制内高效率地找到满足给定目标的较优策略。&lt;br /&gt;
 其中几个关键点有：&lt;br /&gt;
 1、需要判别、筛选材料是否可用于学习&lt;br /&gt;
@@ -182,22 +182,22 @@ Rollout）等技术，擅长在既定规则和完全信息下，通过大量学�
 为什么要占用不止一只手来操作平板呢？&lt;br /&gt;
 为什么只能是利用碎片时间呢？&lt;/p&gt;
 
-&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见&lt;br /&gt;
+&lt;p&gt;未来的“手机”就是网络中的一个通讯节点，对全时在线的人类来说，像线粒体一样不可或缺，像眼球一样不易觉察其存在，像大脑中的意识一样不需要有形体，以上都不是重点——君不见
 Google Glass 的尝试？就通讯终端设备而言，这一天恐怕不会来得太晚。&lt;/p&gt;
 
 &lt;p&gt;那重点是什么？&lt;/p&gt;
 
-&lt;p&gt;一、Google Glass&lt;br /&gt;
+&lt;p&gt;一、Google Glass
 这类设备仍然没有逃出&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端基本矛盾&lt;/a&gt;中的高性能、多功能与随身电源的矛盾。&lt;/p&gt;
 
 &lt;p&gt;高性能电池技术和无线充电技术仍然是备受期待的技术难点（据说国内在电池技术上已经有重大突破，但不知何时可以推出成熟的工业方案和产品）。&lt;/p&gt;
 
 &lt;p&gt;二、人机界面和人工智能在期待革命。&lt;/p&gt;
 
-&lt;p&gt;前一阵子我还在 twitter&lt;br /&gt;
+&lt;p&gt;前一阵子我还在 twitter
 上提到，科幻作品中作为背景出现的计算机，通常设定为能够准确理解人类的意图，毫无障碍地与人类交流沟通，可是，这样高超的人机交互能力，以及可以准确分析、理解和预测人类意图的人工智能，其实现难度不下于时空穿越、永生不死、心灵感应。&lt;br /&gt;
 不过是在理论上确有可能，因此在虚构作品中也就轻而易举地做到了。但在现实世界中，何其难哉！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好&lt;br /&gt;
+&lt;a href=&#34;http://calon.weblogs.us/guanggao_de_weilai/&#34;&gt;让信息自由、流畅而有序流动的 IT 才是好
 IT&lt;/a&gt;，可是现在在人与机器之间，仍然还有巨大的鸿沟需要我们去填平。&lt;/p&gt;
 
 &lt;p&gt;哪怕是在最基本的操作方面，比如，我在电脑上看到的一段视频，想要手一拨就送到屏幕旁的手机中带出去看，而不是两个设备通过有线或无线手工连接上，打开相应的程序同步，还要等很久才能传完完整的视频，搞不好还要担心没电或者没空间等等……&lt;/p&gt;

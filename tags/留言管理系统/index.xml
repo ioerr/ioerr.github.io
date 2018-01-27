@@ -16,20 +16,20 @@
         <link>https://ioerr.github.io/posts/liuyan-guanli-xitong/</link>
         <pubDate>Sun, 08 Mar 2009 15:54:46 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/liuyan-guanli-xitong/</guid>
-        <description>&lt;p&gt;虽然 &lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt;&lt;br /&gt;
-近期&lt;a href=&#34;http://www.intensedebate.com/plugins/&#34;&gt;新增了插件功能&lt;/a&gt;，已经可以通过插件支持简单的表情，但是自定义表情的路子暂时还是不通，除非自己改一下脚本实现点击表情图片就往&lt;br /&gt;
-IntenseDebate 留言区插入 img&lt;br /&gt;
-标签和表情图片地址的功能，但这是一种多么扭曲的方法啊，又或者参考官方表情插件作者&lt;br /&gt;
-Austin&lt;br /&gt;
+        <description>&lt;p&gt;虽然 &lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt;
+近期&lt;a href=&#34;http://www.intensedebate.com/plugins/&#34;&gt;新增了插件功能&lt;/a&gt;，已经可以通过插件支持简单的表情，但是自定义表情的路子暂时还是不通，除非自己改一下脚本实现点击表情图片就往
+IntenseDebate 留言区插入 img
+标签和表情图片地址的功能，但这是一种多么扭曲的方法啊，又或者参考官方表情插件作者
+Austin
 的方法在&lt;a href=&#34;http://www.intensedebate.com/pluginEditor&#34;&gt;插件编辑器&lt;/a&gt;中自己改脚本，而且导入历史留言后其中的表情还不一定支持…&lt;/p&gt;
 
-&lt;p&gt;这次想征求一下读者的意见，blog 的评论系统要不要更换成&lt;br /&gt;
-&lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者&lt;br /&gt;
+&lt;p&gt;这次想征求一下读者的意见，blog 的评论系统要不要更换成
+&lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者
 &lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的留言管理系统？&lt;/p&gt;
 
 &lt;p&gt;好处是：&lt;br /&gt;
-1、留言者可以统一管理自己的留言，如果在其他 blog 的留言也是通过&lt;br /&gt;
-&lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者&lt;br /&gt;
+1、留言者可以统一管理自己的留言，如果在其他 blog 的留言也是通过
+&lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者
 &lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 发布的；&lt;br /&gt;
 2、支持同步 &lt;a href=&#34;https://friendfeed.com/&#34;&gt;FriendFeed&lt;/a&gt; 等上面的评论；&lt;br /&gt;
 3、发布留言失败的几率大大减小；&lt;br /&gt;
@@ -39,31 +39,31 @@ Austin&lt;br /&gt;
 &lt;p&gt;缺点是：&lt;br /&gt;
 1、没有了特色表情， :010: 、 :023: 、 :233: 等只能脑内补完了；&lt;br /&gt;
 2、影响页面载入的速度；&lt;br /&gt;
-3、如果 &lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者&lt;br /&gt;
+3、如果 &lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt; 或者
 &lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 挂掉了，留言系统就会跟着完蛋；&lt;br /&gt;
 4、可能无法全部导入历史留言，导入后也可能会有些问题；&lt;br /&gt;
 5、版面设计不够精简。&lt;/p&gt;
 
 &lt;p&gt;还有一个让人纠结的问题：&lt;br /&gt;
-Disqus&lt;br /&gt;
-界面更加清爽、有条理，中文用户貌似更多，可以设置的选项更加丰富，但是不支持直接贴图，与&lt;br /&gt;
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的关系不如被&lt;br /&gt;
-&lt;a href=&#34;http://automattic.com/&#34;&gt;Automattic&lt;/a&gt; 收购的&lt;br /&gt;
+Disqus
+界面更加清爽、有条理，中文用户貌似更多，可以设置的选项更加丰富，但是不支持直接贴图，与
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的关系不如被
+&lt;a href=&#34;http://automattic.com/&#34;&gt;Automattic&lt;/a&gt; 收购的
 IntenseDebate，还不支持插件；&lt;br /&gt;
-IntenseDebate&lt;br /&gt;
-则是界面差强人意，选项太少，据说邮件通知不及时，网站速度相对慢，但开放了&lt;br /&gt;
+IntenseDebate
+则是界面差强人意，选项太少，据说邮件通知不及时，网站速度相对慢，但开放了
 API，建立了插件机制。&lt;/p&gt;
 
 &lt;p&gt;更新：&lt;br /&gt;
-轮番启用了两个插件测试效果，感觉暂时还是 Disqus&lt;br /&gt;
+轮番启用了两个插件测试效果，感觉暂时还是 Disqus
 更好用一点，如果确定要统一管理留言就优先选择它，对比如下：&lt;br /&gt;
 1、IntenseDebate 导入评论似乎不完整；&lt;br /&gt;
-2、IntenseDebate 启用之后发表评论，然后再禁用，评论没有同步给&lt;br /&gt;
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的留言表，Disqus&lt;br /&gt;
+2、IntenseDebate 启用之后发表评论，然后再禁用，评论没有同步给
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的留言表，Disqus
 就没有这个问题－－但据说 Disqus 的定时同步比较耗 CPU 资源，未证实；&lt;br /&gt;
-3、IntenseDebate 发表评论是 AJAX 效果，而 Disqus&lt;br /&gt;
+3、IntenseDebate 发表评论是 AJAX 效果，而 Disqus
 会重新刷新整个页面；也因此在这个 blog 上，前者留言的成功率高一些；&lt;br /&gt;
-4、Disqus 貌似不支持直接删除已有留言，只能编辑，要删除得进 Disqus&lt;br /&gt;
+4、Disqus 貌似不支持直接删除已有留言，只能编辑，要删除得进 Disqus
 管理界面；&lt;br /&gt;
 5、IntenseDebate 针对垃圾留言的选项更多；&lt;br /&gt;
 6、IntenseDebate 的界面实在是太乱了…&lt;br /&gt;

@@ -20,19 +20,13 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="升级到 WordPress 2.0.3" />
-<meta property="og:description" content="从 WordPress 2.0
-升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
-
-WordPress database error: [You have an error in your SQL syntax; check
+<meta property="og:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
+ WordPress database error: [You have an error in your SQL syntax; check
 the manual that corresponds to your MySQL server version for the right
 syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY
 comment_date&rsquo; at line 1]
-SELECT * FROM wp_comments WHERE comment_post_ID = AND
-comment_approved
-!= &lsquo;spam&rsquo; ORDER BY comment_date
-
-想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到
-Adhesive 上面。
+SELECT * FROM wp_comments WHERE comment_post_ID = AND comment_approved
+!= &lsquo;spam&rsquo; ORDER BY comment_date  想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到 Adhesive 上面。
 所以以后升级还是不要偷懒的好，先停插件不是坏事。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/shengji-dao-wp-203/" />
@@ -56,19 +50,13 @@ Adhesive 上面。
 
 
 <meta itemprop="name" content="升级到 WordPress 2.0.3">
-<meta itemprop="description" content="从 WordPress 2.0
-升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
-
-WordPress database error: [You have an error in your SQL syntax; check
+<meta itemprop="description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
+ WordPress database error: [You have an error in your SQL syntax; check
 the manual that corresponds to your MySQL server version for the right
 syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY
 comment_date&rsquo; at line 1]
-SELECT * FROM wp_comments WHERE comment_post_ID = AND
-comment_approved
-!= &lsquo;spam&rsquo; ORDER BY comment_date
-
-想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到
-Adhesive 上面。
+SELECT * FROM wp_comments WHERE comment_post_ID = AND comment_approved
+!= &lsquo;spam&rsquo; ORDER BY comment_date  想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到 Adhesive 上面。
 所以以后升级还是不要偷懒的好，先停插件不是坏事。">
 
 
@@ -81,19 +69,13 @@ Adhesive 上面。
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="升级到 WordPress 2.0.3"/>
-<meta name="twitter:description" content="从 WordPress 2.0
-升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
-
-WordPress database error: [You have an error in your SQL syntax; check
+<meta name="twitter:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：
+ WordPress database error: [You have an error in your SQL syntax; check
 the manual that corresponds to your MySQL server version for the right
 syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY
 comment_date&rsquo; at line 1]
-SELECT * FROM wp_comments WHERE comment_post_ID = AND
-comment_approved
-!= &lsquo;spam&rsquo; ORDER BY comment_date
-
-想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到
-Adhesive 上面。
+SELECT * FROM wp_comments WHERE comment_post_ID = AND comment_approved
+!= &lsquo;spam&rsquo; ORDER BY comment_date  想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到 Adhesive 上面。
 所以以后升级还是不要偷懒的好，先停插件不是坏事。"/>
 
 
@@ -171,19 +153,19 @@ Adhesive 上面。
         
       </p>
     </header>
-    <section><p>从 <a href="http://wordpress.org/">WordPress</a> 2.0<br />
+    <section><p>从 <a href="http://wordpress.org/">WordPress</a> 2.0
 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：</p>
 
-<p><blockquote><br />
+<p><blockquote>
 WordPress database error: [You have an error in your SQL syntax; check<br />
 the manual that corresponds to your MySQL server version for the right<br />
 syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY<br />
 comment_date&rsquo; at line 1]<br />
-SELECT * FROM wp_comments WHERE comment_post_ID = AND<br />
+SELECT * FROM wp_comments WHERE comment_post_ID = AND
 comment_approved<br />
-!= &lsquo;spam&rsquo; ORDER BY comment_date<br />
-</blockquote><br />
-想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到<br />
+!= &lsquo;spam&rsquo; ORDER BY comment_date
+</blockquote>
+想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到
 <a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a> 上面。<br />
 所以以后升级还是不要偷懒的好，先停插件不是坏事。</p>
 </section>

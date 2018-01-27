@@ -113,15 +113,13 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;安装 Hugo&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;安装 Hugo&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;在 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo 的 Github 发布页面&lt;/a&gt;直接下载安装包或自己编译就行。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;导出和转换 WordPress 的内容&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;导出和转换 WordPress 的内容&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;如果你运气够好，可以安装直接导入的插件：&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;wordpress-to-hugo-exporter &lt;/a&gt;。&lt;br /&gt;
@@ -140,8 +138,7 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 直接删除再试就可以了。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;折腾 Markdown 内容&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;折腾 Markdown 内容&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过&lt;a href=&#34;../pandoc-markdown&#34;&gt;吐槽&lt;/a&gt;）&lt;/p&gt;
@@ -172,8 +169,7 @@ done
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;选择 Hugo 模板&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;选择 Hugo 模板&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Hugo 官方站点有少量&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;模板演示&lt;/a&gt;，不少是从 Jekyll 的模板改的。&lt;br /&gt;
@@ -182,14 +178,13 @@ done
 &lt;p&gt;比如我的要求是：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;简洁风格；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持翻页；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持类别（category）展示；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持响应式布局优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持标签（tag）优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;单栏布局优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;方便自定义修改。&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;简洁风格；&lt;/li&gt;
+&lt;li&gt;支持翻页；&lt;/li&gt;
+&lt;li&gt;支持类别（category）展示；&lt;/li&gt;
+&lt;li&gt;支持响应式布局优先；&lt;/li&gt;
+&lt;li&gt;支持标签（tag）优先；&lt;/li&gt;
+&lt;li&gt;单栏布局优先；&lt;/li&gt;
+&lt;li&gt;方便自定义修改。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;尝试了多个主题之后，最终决定使用这款&lt;a href=&#34;http://themes.gohugo.io/hugo-hello-programmer-theme/&#34;&gt;Hello Programmer&lt;/a&gt;。&lt;br /&gt;
@@ -197,8 +192,7 @@ done
 使用的主页图片和 favicon 则需要自己绘制。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;发布到 Github Pages&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;发布到 Github Pages&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。&lt;br /&gt;
@@ -314,11 +308,11 @@ done
         <guid>https://ioerr.github.io/posts/huangrong-nianling-zhi-mi/</guid>
         <description>&lt;p&gt;金庸的名著《射雕英雄传》中，黄蓉的年龄似乎是一个自相矛盾的漏洞（第三版已经修正），且看&lt;a href=&#34;http://www.zhihu.com/people/pirlo21&#34;&gt;彭磊君&lt;/a&gt;的&lt;a href=&#34;http://www.zhihu.com/question/19990011/answer/13602078&#34;&gt;考证&lt;/a&gt;：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
 一、在我们憨厚淳朴的男主人公郭巨侠从蒙古来到天朝，年方不满18，应付江南七怪和丘处机的18年比武之约，这个是木有争议的。其后，书中各个地方交代，包括黄蓉口中，都说了我们可爱伶俐的女主人公黄女侠15岁——小萝莉。&lt;/p&gt;
 
 &lt;p&gt;二、一切都怪该死的黑风双煞。&lt;br /&gt;
-黑风双煞偷得九阴真经后，黄药师旗下几大风字系弟子被打折双腿赶出桃花岛，其时，黄蓉她娘因为重新默写九阴真经而导致难产身亡，也就是我们的小黄蓉也出生了。于是，曲灵风来到了牛家村，至于什么时候来到的牛家村我们无处考证，但是身残志坚的曲灵风童鞋杀官兵被郭啸天二人撞见了：“我们在牛家村住了三年，全&lt;br /&gt;
+黑风双煞偷得九阴真经后，黄药师旗下几大风字系弟子被打折双腿赶出桃花岛，其时，黄蓉她娘因为重新默写九阴真经而导致难产身亡，也就是我们的小黄蓉也出生了。于是，曲灵风来到了牛家村，至于什么时候来到的牛家村我们无处考证，但是身残志坚的曲灵风童鞋杀官兵被郭啸天二人撞见了：“我们在牛家村住了三年，全
 不知这跛子曲三武功竟然如此了得！”（详见第一回）由此可知，此时的小黄蓉至少三岁了。秋尽冬来，接着著名的牛家村惨案发生了，等郭靖出生的时候黄蓉至少四岁了。&lt;br /&gt;
 于是，18岁的郭靖碰上了至少22岁的黄蓉——御姐。&lt;/p&gt;
 
@@ -327,12 +321,12 @@ done
 黑风双煞碰到柯镇恶，打瞎柯镇恶——保守估计黄蓉2岁。（第四回）&lt;br /&gt;
 江南七怪结拜的时候柯镇恶的眼睛就瞎了，这个第四回中有交代：“他们六人与柯镇恶虽然义结金兰，情同手足，但他极恨别人提及他的残疾，是以六兄妹只道他是幼时不幸受伤，从来不敢问起，直至此时始知是仇敌所害。”&lt;br /&gt;
 那么七怪结拜了多久才在醉仙楼和丘处机结下梁子呢？&lt;br /&gt;
-书中有两点可以推断这个事情。1、第二回中醉仙楼中和丘处机比武，金金发呼叫方位指点柯镇恶打暗器。“他这般呼叫方位，和柯镇恶是十余年来练熟了的，便&lt;br /&gt;
-是以自己一对眼睛代作义兄的眼睛，六兄妹中也只他一人有此能耐。”2、第三十五回中柯镇恶回想儿时的场景，“三四岁的韩小莹”，“还拖着两条小辫子”；等&lt;br /&gt;
+书中有两点可以推断这个事情。1、第二回中醉仙楼中和丘处机比武，金金发呼叫方位指点柯镇恶打暗器。“他这般呼叫方位，和柯镇恶是十余年来练熟了的，便
+是以自己一对眼睛代作义兄的眼睛，六兄妹中也只他一人有此能耐。”2、第三十五回中柯镇恶回想儿时的场景，“三四岁的韩小莹”，“还拖着两条小辫子”；等
 他们认识了，投机了，结拜了，韩小莹也差不多10岁了；随后在醉仙楼碰到丘处机的时候，韩小莹17、8岁。&lt;br /&gt;
 于是，从七怪结拜到醉仙楼和丘处机结下梁子，差不多过了8年。此时我们的黄蓉至少10岁了，而这时候我们的郭靖还没出生。&lt;br /&gt;
-于是，18岁的郭靖碰到了28岁的黄蓉——熟女。&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+于是，18岁的郭靖碰到了28岁的黄蓉——熟女。
+&lt;/blockquote&gt;
 但其实事实真相很可能有另外一种可能：&lt;/p&gt;
 
 &lt;p&gt;黄药师深爱一个叫做冯蘅的女人，但是她在生黄蓉时难产死去了。&lt;/p&gt;
@@ -370,7 +364,7 @@ done
         <link>https://ioerr.github.io/posts/wei-buke-wei/</link>
         <pubDate>Tue, 13 Sep 2011 14:25:04 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/wei-buke-wei/</guid>
-        <description>&lt;p&gt;看到有人问，公司宣传标语“In order to achieve the possible we need to&lt;br /&gt;
+        <description>&lt;p&gt;看到有人问，公司宣传标语“In order to achieve the possible we need to
 keep trying the impossbile.”怎么翻译好。&lt;/p&gt;
 
 &lt;p&gt;直译过来就是，要实现可能的事情，我们得先不断尝试那些不可能的事，其精神大概就是要勇于挑战吧。&lt;/p&gt;
@@ -462,7 +456,7 @@ B：“先生，对不起，我们这里只有书记套房和主席套房。”&
 &lt;p&gt;A：“你看人家都在云端服务呢！”&lt;br /&gt;
 B：“淡定！我们在平流层。”&lt;/p&gt;
 
-&lt;p&gt;A：“XX&lt;br /&gt;
+&lt;p&gt;A：“XX
 系统好灵活啊，无论业务需求多么复杂，你想让它干什么就能够干什么。”&lt;br /&gt;
 B：“嗯，可惜就是你不想让它干什么的时候它没法不能干什么。”&lt;/p&gt;
 
@@ -476,9 +470,9 @@ B：“是啊，一般我们都把它们挪到宪法里面。”&lt;/p&gt;
         <link>https://ioerr.github.io/posts/simple-desktops/</link>
         <pubDate>Fri, 25 Feb 2011 03:31:44 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/simple-desktops/</guid>
-        <description>&lt;p&gt;之前介绍过提供简洁桌面背景图的&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/minimalwall/&#34;&gt;MinimalWall&lt;/a&gt;，不过图片内容基本都是文字，而&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/&#34;&gt;Simple Desktops&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;之前介绍过提供简洁桌面背景图的
+&lt;a href=&#34;http://calon.weblogs.us/minimalwall/&#34;&gt;MinimalWall&lt;/a&gt;，不过图片内容基本都是文字，而
+&lt;a href=&#34;http://simpledesktops.com/&#34;&gt;Simple Desktops&lt;/a&gt;
 的技术含量高一点，背景图片的内容都是图案了。&lt;/p&gt;
 
 &lt;p&gt;比如说《&lt;strike&gt;情人节&lt;/strike&gt;圣诞节前的噩梦》中的 Jack：&lt;br /&gt;

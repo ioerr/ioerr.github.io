@@ -20,24 +20,17 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="Vim 中文语法文件" />
-<meta property="og:description" content="时常用 Vim
-写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
-去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
-txt.vim
-比较接近要求，最大的不足是不支持中文标点符号。
-于是一边看语法文件帮助文档，一边在 Tomasz
-的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
+<meta property="og:description" content="时常用 Vim 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
+去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的 txt.vim 比较接近要求，最大的不足是不支持中文标点符号。
+于是一边看语法文件帮助文档，一边在 Tomasz 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
 预览效果如下：
 除了高亮标点符号、数字之外，还可以用来检验单引号、双引号、书名号等需要配对的标点符号有没有正确地关闭，特别是方向相同的引号或者中英文混杂的括号分辨不清楚的时候，靠语法标记出的颜色可以很快定位哪个标点写错了。
 语法文件在官方脚本页面下载：
 http://www.vim.org/scripts/script.php?script_id=3365
-下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
-打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
+下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
 如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
-\$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
-我的主题配色是按自己需要修改后的 ir_black，原版请自行
-google，我的修改版本可以到这里下载。" />
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
+我的主题配色是按自己需要修改后的 ir_black，原版请自行 google，我的修改版本可以到这里下载。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/" />
 
@@ -60,24 +53,17 @@ google，我的修改版本可以到这里下载。" />
 
 
 <meta itemprop="name" content="Vim 中文语法文件">
-<meta itemprop="description" content="时常用 Vim
-写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
-去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
-txt.vim
-比较接近要求，最大的不足是不支持中文标点符号。
-于是一边看语法文件帮助文档，一边在 Tomasz
-的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
+<meta itemprop="description" content="时常用 Vim 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
+去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的 txt.vim 比较接近要求，最大的不足是不支持中文标点符号。
+于是一边看语法文件帮助文档，一边在 Tomasz 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
 预览效果如下：
 除了高亮标点符号、数字之外，还可以用来检验单引号、双引号、书名号等需要配对的标点符号有没有正确地关闭，特别是方向相同的引号或者中英文混杂的括号分辨不清楚的时候，靠语法标记出的颜色可以很快定位哪个标点写错了。
 语法文件在官方脚本页面下载：
 http://www.vim.org/scripts/script.php?script_id=3365
-下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
-打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
+下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
 如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
-\$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
-我的主题配色是按自己需要修改后的 ir_black，原版请自行
-google，我的修改版本可以到这里下载。">
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
+我的主题配色是按自己需要修改后的 ir_black，原版请自行 google，我的修改版本可以到这里下载。">
 
 
 <meta itemprop="datePublished" content="2010-12-12T15:54:54&#43;00:00" />
@@ -89,24 +75,17 @@ google，我的修改版本可以到这里下载。">
 <meta itemprop="keywords" content="Vim,纯文本,语法,配色,高亮," />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Vim 中文语法文件"/>
-<meta name="twitter:description" content="时常用 Vim
-写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
-去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
-txt.vim
-比较接近要求，最大的不足是不支持中文标点符号。
-于是一边看语法文件帮助文档，一边在 Tomasz
-的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
+<meta name="twitter:description" content="时常用 Vim 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。
+去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的 txt.vim 比较接近要求，最大的不足是不支持中文标点符号。
+于是一边看语法文件帮助文档，一边在 Tomasz 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。
 预览效果如下：
 除了高亮标点符号、数字之外，还可以用来检验单引号、双引号、书名号等需要配对的标点符号有没有正确地关闭，特别是方向相同的引号或者中英文混杂的括号分辨不清楚的时候，靠语法标记出的颜色可以很快定位哪个标点写错了。
 语法文件在官方脚本页面下载：
 http://www.vim.org/scripts/script.php?script_id=3365
-下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
-打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
+下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。
 如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
-\$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
-我的主题配色是按自己需要修改后的 ir_black，原版请自行
-google，我的修改版本可以到这里下载。"/>
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。
+我的主题配色是按自己需要修改后的 ir_black，原版请自行 google，我的修改版本可以到这里下载。"/>
 
 
   </head>
@@ -205,14 +184,14 @@ google，我的修改版本可以到这里下载。"/>
         
       </p>
     </header>
-    <section><p>时常用 <a href="http://www.vim.org/">Vim</a><br />
+    <section><p>时常用 <a href="http://www.vim.org/">Vim</a>
 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。</p>
 
-<p>去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的<br />
-<a href="http://www.vim.org/scripts/script.php?script_id=1532">txt.vim</a><br />
+<p>去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
+<a href="http://www.vim.org/scripts/script.php?script_id=1532">txt.vim</a>
 比较接近要求，最大的不足是不支持中文标点符号。</p>
 
-<p>于是一边看语法文件帮助文档，一边在 Tomasz<br />
+<p>于是一边看语法文件帮助文档，一边在 Tomasz
 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。</p>
 
 <p>预览效果如下：<br />
@@ -224,14 +203,14 @@ preview" /></p>
 <p>语法文件在<a href="http://www.vim.org/scripts/script.php?script_id=3365">官方脚本页面</a>下载：<br />
 <a href="http://www.vim.org/scripts/script.php?script_id=3365">http://www.vim.org/scripts/script.php?script_id=3365</a></p>
 
-<p>下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt<br />
+<p>下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。</p>
 
 <p>如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。<br />
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so<br />
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
 \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。</p>
 
-<p>我的主题配色是按自己需要修改后的 ir_black，原版请自行<br />
+<p>我的主题配色是按自己需要修改后的 ir_black，原版请自行
 google，我的修改版本可以<a href="http://www.box.net/shared/g6h9lsv0dz">到这里下载</a>。</p>
 </section>
     <footer>

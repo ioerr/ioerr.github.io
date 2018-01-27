@@ -28,15 +28,13 @@
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;安装 Hugo&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;安装 Hugo&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;在 &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo 的 Github 发布页面&lt;/a&gt;直接下载安装包或自己编译就行。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;导出和转换 WordPress 的内容&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;导出和转换 WordPress 的内容&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;如果你运气够好，可以安装直接导入的插件：&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;wordpress-to-hugo-exporter &lt;/a&gt;。&lt;br /&gt;
@@ -55,8 +53,7 @@
 直接删除再试就可以了。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;折腾 Markdown 内容&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;折腾 Markdown 内容&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过&lt;a href=&#34;../pandoc-markdown&#34;&gt;吐槽&lt;/a&gt;）&lt;/p&gt;
@@ -87,8 +84,7 @@ done
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;选择 Hugo 模板&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;选择 Hugo 模板&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Hugo 官方站点有少量&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;模板演示&lt;/a&gt;，不少是从 Jekyll 的模板改的。&lt;br /&gt;
@@ -97,14 +93,13 @@ done
 &lt;p&gt;比如我的要求是：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;简洁风格；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持翻页；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持类别（category）展示；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持响应式布局优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;支持标签（tag）优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;单栏布局优先；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;方便自定义修改。&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;简洁风格；&lt;/li&gt;
+&lt;li&gt;支持翻页；&lt;/li&gt;
+&lt;li&gt;支持类别（category）展示；&lt;/li&gt;
+&lt;li&gt;支持响应式布局优先；&lt;/li&gt;
+&lt;li&gt;支持标签（tag）优先；&lt;/li&gt;
+&lt;li&gt;单栏布局优先；&lt;/li&gt;
+&lt;li&gt;方便自定义修改。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;尝试了多个主题之后，最终决定使用这款&lt;a href=&#34;http://themes.gohugo.io/hugo-hello-programmer-theme/&#34;&gt;Hello Programmer&lt;/a&gt;。&lt;br /&gt;
@@ -112,8 +107,7 @@ done
 使用的主页图片和 favicon 则需要自己绘制。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;发布到 Github Pages&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;发布到 Github Pages&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。&lt;br /&gt;
@@ -140,10 +134,10 @@ done
         <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
         <description>
 
-&lt;p&gt;宣传、推广 Markdown&lt;br /&gt;
+&lt;p&gt;宣传、推广 Markdown
 标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。&lt;/p&gt;
 
-&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
 发布文章，至少要有这么几步：&lt;/p&gt;
 
 &lt;ol&gt;
@@ -160,11 +154,11 @@ done
 
 &lt;h3 id=&#34;邮件发布&#34;&gt;邮件发布&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
-插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;&lt;br /&gt;
-功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
+插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;
+功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;
 等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。&lt;br /&gt;
-如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;&lt;br /&gt;
+如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
 是不错的选择，因为能支持大多数参数设置。&lt;br /&gt;
 不过使用邮件发布的用户始终是少数。&lt;/p&gt;
 
@@ -187,11 +181,11 @@ done
 &lt;p&gt;如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。&lt;/p&gt;
 
 &lt;p&gt;如果网站的编辑功能还不够完善呢？&lt;br /&gt;
-比如说不支持更好用的 [Markdown]&lt;br /&gt;
+比如说不支持更好用的 [Markdown]
 扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……&lt;br /&gt;
-在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的&lt;br /&gt;
-&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live&lt;br /&gt;
-Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry&lt;br /&gt;
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
+&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live
+Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry
 Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;内容迁移&#34;&gt;内容迁移&lt;/h3&gt;
@@ -201,21 +195,21 @@ Raven&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&#34;理想方案&#34;&gt;理想方案&lt;/h3&gt;
 
-&lt;p&gt;有没有一个服务能结合&lt;br /&gt;
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +&lt;br /&gt;
-&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;有没有一个服务能结合
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +
+&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;
 并继续扩展呢？&lt;/p&gt;
 
 &lt;p&gt;写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；&lt;br /&gt;
-格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word&lt;br /&gt;
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
 Docs 都适用；&lt;br /&gt;
-写完了复制到某个指定文件夹就是发布，这个文件夹类似于&lt;br /&gt;
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于
+&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;
 的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；&lt;br /&gt;
-标题就是文件名，post slug 在文件名中的括号中指定，或者参考&lt;br /&gt;
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考
 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Jetpack&lt;/a&gt; 的标签参数；&lt;br /&gt;
 修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；&lt;br /&gt;
-要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment&lt;br /&gt;
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
 的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
 
 &lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
@@ -239,20 +233,20 @@ Docs 都适用；&lt;br /&gt;
 修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
 修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets&lt;br /&gt;
+&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
 小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
 
 &lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
-我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个&lt;br /&gt;
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
 more），而且没有采用固定宽度。&lt;br /&gt;
 如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
 
 &lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
-Font-family 采用优先雅黑和&lt;br /&gt;
+Font-family 采用优先雅黑和
 Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
 
-&lt;p&gt;因为我自己是用 Disqus&lt;br /&gt;
-评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus&lt;br /&gt;
+&lt;p&gt;因为我自己是用 Disqus
+评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
 插件是可以正常显示的。&lt;/p&gt;
 
 &lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
@@ -260,13 +254,13 @@ Arial，最终回落到非衬线字体的方案，在保证基本可读性的基
 &lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
 
 &lt;p&gt;安装说明&lt;br /&gt;
-将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress&lt;br /&gt;
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
 管理后台的主题板块中激活即可。&lt;/p&gt;
 
 &lt;p&gt;版权声明&lt;br /&gt;
 原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
-那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want&lt;br /&gt;
-To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用&lt;br /&gt;
+那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want
+To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
 twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
 
 &lt;p&gt;效果截图：&lt;br /&gt;
@@ -289,7 +283,7 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;目前提交的标签要经过手工审核才会显示。&lt;br /&gt;
 估计添加标签的人不会很多，所以同样的标签只要用户提交一次就会出现在页面中（推荐设置是2－5次）。&lt;/p&gt;
 
-&lt;p&gt;原插件的脚本和 Style 感觉比较马虎，在 IE&lt;br /&gt;
+&lt;p&gt;原插件的脚本和 Style 感觉比较马虎，在 IE
 中可能十分难看，作者自己的页面上都有难看的大片空白…所以自己稍微改了一下，反正懒得调整控制显隐的脚本，干脆就删掉了一部分…&lt;/p&gt;
 </description>
       </item>
@@ -329,13 +323,13 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <link>https://ioerr.github.io/posts/hexie-hao-shizong-le/</link>
         <pubDate>Mon, 24 Dec 2007 05:39:28 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/hexie-hao-shizong-le/</guid>
-        <description>&lt;p&gt;昨天晚上应该是连续写了两篇文章，其中有一篇是《和谐号》，这在 RSS&lt;br /&gt;
+        <description>&lt;p&gt;昨天晚上应该是连续写了两篇文章，其中有一篇是《和谐号》，这在 RSS
 中也有记录：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00102.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00102.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;但是页面上却没有看到这一篇。&lt;br /&gt;
-而且前后两篇的 ID&lt;br /&gt;
-号是连续的，就算是我梦游爬起来删文也应该是跳号才对，莫非这是&lt;br /&gt;
+而且前后两篇的 ID
+号是连续的，就算是我梦游爬起来删文也应该是跳号才对，莫非这是
 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 bug？&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00101.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00101.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -346,28 +340,28 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <link>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</link>
         <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</guid>
-        <description>&lt;p&gt;打算把“滞销书”&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;升级&lt;/a&gt;到&lt;br /&gt;
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 版本，如果这几天 blog&lt;br /&gt;
+        <description>&lt;p&gt;打算把“滞销书”&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;升级&lt;/a&gt;到
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 版本，如果这几天 blog
 无法访问，说明正在升级，或者升级失败，或者恢复失败…&lt;br /&gt;
 主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。&lt;/p&gt;
 
 &lt;p&gt;升级步骤参考&lt;a href=&#34;http://calon.weblogs.us/zhunbei_shengji_wordpress_2/&#34;&gt;以前的文章&lt;/a&gt;修改而成：&lt;/p&gt;
 
 &lt;p&gt;1、备份数据库。&lt;br /&gt;
-使用 &lt;a href=&#34;http://www.skippy.net/blog/plugins/&#34;&gt;Database Backup&lt;/a&gt;&lt;br /&gt;
+使用 &lt;a href=&#34;http://www.skippy.net/blog/plugins/&#34;&gt;Database Backup&lt;/a&gt;
 插件导出数据库表。&lt;/p&gt;
 
 &lt;p&gt;2、备份文件。&lt;br /&gt;
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP&lt;br /&gt;
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP
 备份目录的方式，但愿不要出问题…&lt;br /&gt;
 之前也有做本地备份，应该不至于太危险。&lt;/p&gt;
 
 &lt;p&gt;3、停用所有的插件。&lt;br /&gt;
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
 2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。&lt;/p&gt;
 
 &lt;p&gt;4、下载并上传 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 文件。&lt;br /&gt;
-这里是&lt;a href=&#34;http://wordpress.org/download/&#34;&gt;下载地址&lt;/a&gt;，已经上传到了指定目录，目前是&lt;br /&gt;
+这里是&lt;a href=&#34;http://wordpress.org/download/&#34;&gt;下载地址&lt;/a&gt;，已经上传到了指定目录，目前是
 /WP/wordpress-2.3。&lt;/p&gt;
 
 &lt;p&gt;5、移走旧文件。&lt;br /&gt;
@@ -386,9 +380,9 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 所有的表情文件；&lt;br /&gt;
 所有的插件；&lt;br /&gt;
 /wp-includes/vars.php&lt;br /&gt;
-default 主题的&lt;br /&gt;
+default 主题的
 comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；&lt;br /&gt;
-default&lt;br /&gt;
+default
 主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；&lt;br /&gt;
 更新 veryplaintxt 主题；&lt;br /&gt;
 根据原来的文件修改 comments.php、header.php、style.css；&lt;br /&gt;
@@ -401,19 +395,19 @@ default&lt;br /&gt;
         <link>https://ioerr.github.io/posts/feed-luanma/</link>
         <pubDate>Wed, 23 May 2007 05:12:09 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/feed-luanma/</guid>
-        <description>&lt;p&gt;因为近期出现 feed 在 Google Reader 变成问号的问题（我用 Reader&lt;br /&gt;
-却一直没发现…所以说人品很重要的），所以怀疑是不是新增加的插件带来的问题。目前禁用了&lt;br /&gt;
-&lt;a href=&#34;http://www.terenzani.it/29/editing-manager-plugin-wordpress&#34;&gt;Editing&lt;br /&gt;
-Manager&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;因为近期出现 feed 在 Google Reader 变成问号的问题（我用 Reader
+却一直没发现…所以说人品很重要的），所以怀疑是不是新增加的插件带来的问题。目前禁用了
+&lt;a href=&#34;http://www.terenzani.it/29/editing-manager-plugin-wordpress&#34;&gt;Editing
+Manager&lt;/a&gt;
 看看效果，无论有没有修正错误，希望能够得到你们的反馈，谢谢。&lt;/p&gt;
 
-&lt;p&gt;禁用插件时手一抖，误点中禁用 &lt;a href=&#34;http://www.deanlee.cn/wordpress/permalinks-migration-plugin/&#34;&gt;Permalinks&lt;br /&gt;
-Migration&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;禁用插件时手一抖，误点中禁用 &lt;a href=&#34;http://www.deanlee.cn/wordpress/permalinks-migration-plugin/&#34;&gt;Permalinks
+Migration&lt;/a&gt;
 的链接，赶紧重新激活。不知道会不会造成又一波的 trackback 更新狂潮。&lt;/p&gt;
 
-&lt;p&gt;最后，把 &lt;a href=&#34;http://txfx.net/code/wordpress/subscribe-to-comments/&#34;&gt;Subscribe To&lt;br /&gt;
-Comments&lt;/a&gt;&lt;br /&gt;
-的默认选项改为不订阅，因为我不知道 trackback&lt;br /&gt;
+&lt;p&gt;最后，把 &lt;a href=&#34;http://txfx.net/code/wordpress/subscribe-to-comments/&#34;&gt;Subscribe To
+Comments&lt;/a&gt;
+的默认选项改为不订阅，因为我不知道 trackback
 大量更新会不会骚扰到订阅回复通知的读者，安全起见，今后还是默认关掉的好。&lt;/p&gt;
 
 &lt;p&gt;补充：表情功能好像失效了，正在查找原因、寻找替代的插件和调整页面，如果有可怕的事情发生，请勿惊恐。&lt;br /&gt;
@@ -426,10 +420,10 @@ Comments&lt;/a&gt;&lt;br /&gt;
         <link>https://ioerr.github.io/posts/tb-baozou/</link>
         <pubDate>Wed, 16 May 2007 16:07:19 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/tb-baozou/</guid>
-        <description>&lt;p&gt;自从上次给 WordPress 升级之后，沉寂很久的 trackback&lt;br /&gt;
+        <description>&lt;p&gt;自从上次给 WordPress 升级之后，沉寂很久的 trackback
 功能忽然复苏，而且时不时的暴走。&lt;br /&gt;
-这几天我的评论区都被自己发出去的陈年 trackback&lt;br /&gt;
-填满，从访问记录来看，其他 blog&lt;br /&gt;
+这几天我的评论区都被自己发出去的陈年 trackback
+填满，从访问记录来看，其他 blog
 也纷纷收到这来自火星的问候，希望这个非常时期能够赶快过去。&lt;/p&gt;
 
 &lt;p&gt;另外最近发布文章，会转到个页面问我，要不要继续编辑文章，选择否的话文章就便成了草稿，可是我明明选择的“发布”，干嘛要多此一举问我这个问题啊？&lt;/p&gt;
@@ -443,20 +437,20 @@ Comments&lt;/a&gt;&lt;br /&gt;
         <guid>https://ioerr.github.io/posts/zhuanhuan-permalink/</guid>
         <description>
 
-&lt;p&gt;等不及新版的 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
-加入地址跳转的功能了，先用上了 &lt;a href=&#34;http://www.deanlee.cn/?p=111&#34;&gt;Permalinks&lt;br /&gt;
-Migration&lt;/a&gt; 插件。从此一级目录之下就只有&lt;br /&gt;
+&lt;p&gt;等不及新版的 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
+加入地址跳转的功能了，先用上了 &lt;a href=&#34;http://www.deanlee.cn/?p=111&#34;&gt;Permalinks
+Migration&lt;/a&gt; 插件。从此一级目录之下就只有
 post name，URL 简洁多了。&lt;/p&gt;
 
 &lt;h2 id=&#34;更重要的原因还是有的老文章需要进行修改-如果更改了发布日期-包含了年月日的&#34;&gt;更重要的原因还是有的老文章需要进行修改，如果更改了发布日期，包含了年月日的&lt;/h2&gt;
 
 &lt;p&gt;也会跟着改变，这样从老链接摸瓜过来就会找不到新文章，不如干脆把年月日的那一段全部省去。&lt;/p&gt;
 
-&lt;p&gt;********************* 一点都不挨踢的分隔线&lt;br /&gt;
+&lt;p&gt;********************* 一点都不挨踢的分隔线
 *********************&lt;/p&gt;
 
-&lt;p&gt;话说在豆瓣九点和牛博，我的 blog 都归类为&lt;br /&gt;
-IT，可是挨踢只是我的14个类别之一，从现在的首页来看，话题基本和 IT&lt;br /&gt;
+&lt;p&gt;话说在豆瓣九点和牛博，我的 blog 都归类为
+IT，可是挨踢只是我的14个类别之一，从现在的首页来看，话题基本和 IT
 不沾边嘛。从牛博和四套看到我的 blog 的读者会不会觉得很奇怪呢？&lt;/p&gt;
 
 &lt;p&gt;就像在车展的看台上发现一只发呆的熊猫吧。&lt;/p&gt;
@@ -468,27 +462,27 @@ IT，可是挨踢只是我的14个类别之一，从现在的首页来看，话�
         <link>https://ioerr.github.io/posts/yaobuyao-zijia-blog/</link>
         <pubDate>Fri, 20 Apr 2007 16:05:59 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/yaobuyao-zijia-blog/</guid>
-        <description>&lt;p&gt;看到 &lt;a href=&#34;http://blog.cathayan.org/&#34;&gt;Cathayan&lt;/a&gt; &lt;a href=&#34;http://blog.cathayan.org/item/1575&#34;&gt;抱怨 Kazix.com&lt;br /&gt;
-的空间性价比不高&lt;/a&gt;，又看到&lt;br /&gt;
-&lt;a href=&#34;http://blog.sina.com.cn/xbeta&#34;&gt;xbeta&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://blog.sina.com.cn/u/46dac66f010008za&#34;&gt;有意自己架空间&lt;/a&gt;，而&lt;a href=&#34;http://www.ipang.net/&#34;&gt;伍岭&lt;/a&gt;也邀我一起使用&lt;br /&gt;
+        <description>&lt;p&gt;看到 &lt;a href=&#34;http://blog.cathayan.org/&#34;&gt;Cathayan&lt;/a&gt; &lt;a href=&#34;http://blog.cathayan.org/item/1575&#34;&gt;抱怨 Kazix.com
+的空间性价比不高&lt;/a&gt;，又看到
+&lt;a href=&#34;http://blog.sina.com.cn/xbeta&#34;&gt;xbeta&lt;/a&gt;
+&lt;a href=&#34;http://blog.sina.com.cn/u/46dac66f010008za&#34;&gt;有意自己架空间&lt;/a&gt;，而&lt;a href=&#34;http://www.ipang.net/&#34;&gt;伍岭&lt;/a&gt;也邀我一起使用
 &lt;a href=&#34;http://www.ixwebhosting.com/&#34;&gt;ixwebhosting&lt;/a&gt; 的空间。&lt;/p&gt;
 
-&lt;p&gt;虽然 Weblogs.us 时不时的瘫痪一下，但一般只有 BSP&lt;br /&gt;
-做出很对不起用户的事情时，我才有搬家的想法，而在免费 BSP 中最厚道的&lt;br /&gt;
+&lt;p&gt;虽然 Weblogs.us 时不时的瘫痪一下，但一般只有 BSP
+做出很对不起用户的事情时，我才有搬家的想法，而在免费 BSP 中最厚道的
 Weblogs.us 很对得起我。&lt;br /&gt;
-其次自己架站比使用 BSP 还是麻烦一些，虽然以我的 blog&lt;br /&gt;
+其次自己架站比使用 BSP 还是麻烦一些，虽然以我的 blog
 流量来说应该不用担心流量超标。&lt;br /&gt;
 然后是我&lt;a href=&#34;http://calon.weblogs.us/2005/07/02/tantan_wo_dui_blog_de_lijie/&#34;&gt;以前的一个说法&lt;/a&gt;：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
-即使是金钱和技术力量都接近网民平均水准的任何一个个人，都能够在数分钟内发布以往个人站点站长花不少时间才能够发布的信息，找到免费的&lt;br /&gt;
-BSP，注册，编辑，发布，如此而已。&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-如果我可以不花分文享受到不错的 blog&lt;br /&gt;
-服务，能够享受到信息发布的自由，能够让我的观点在互联网上传播，那么一个粗通英文的普通人便都可以到处找到畅所欲言的场所。&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
+即使是金钱和技术力量都接近网民平均水准的任何一个个人，都能够在数分钟内发布以往个人站点站长花不少时间才能够发布的信息，找到免费的
+BSP，注册，编辑，发布，如此而已。
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+如果我可以不花分文享受到不错的 blog
+服务，能够享受到信息发布的自由，能够让我的观点在互联网上传播，那么一个粗通英文的普通人便都可以到处找到畅所欲言的场所。
+&lt;/blockquote&gt;
 而掏钱买域名买空间架站，感觉就和“低端用户”有了距离。当然，这种症状和太把自己当回事有关系…&lt;/p&gt;
 
 &lt;p&gt;其实如果真的买了空间，也可以两边同步更新的嘛。我自己倒是没什么强大的动力非要搬家不可，不过对读者来说体验会好很多吧。&lt;/p&gt;
@@ -500,7 +494,7 @@ BSP，注册，编辑，发布，如此而已。&lt;br /&gt;
         <link>https://ioerr.github.io/posts/zhunbei-shengji-wp/</link>
         <pubDate>Mon, 16 Apr 2007 10:21:24 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/zhunbei-shengji-wp/</guid>
-        <description>&lt;p&gt;出差回来就打算把 WordPress 升级到&lt;br /&gt;
+        <description>&lt;p&gt;出差回来就打算把 WordPress 升级到
 &lt;a href=&#34;http://wordpress.org/development/2007/04/wordpress-213-and-2010/&#34;&gt;2.1.3&lt;/a&gt;，可能还要调整模板和插件。&lt;/p&gt;
 
 &lt;p&gt;由于是比较大的升级，打算把大部分文件重新上传，因此可能有一长段时间内无法访问。如果持续的时间长得不正常，那么就可能是人品不佳的原因了。&lt;/p&gt;

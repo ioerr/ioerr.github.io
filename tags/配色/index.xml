@@ -16,14 +16,14 @@
         <link>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</link>
         <pubDate>Sun, 12 Dec 2010 15:54:54 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</guid>
-        <description>&lt;p&gt;时常用 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;时常用 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。&lt;/p&gt;
 
-&lt;p&gt;去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的&lt;br /&gt;
-&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1532&#34;&gt;txt.vim&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;去官方网站找了一下相关的脚本，只有 Tomasz Kalkosinski 的
+&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=1532&#34;&gt;txt.vim&lt;/a&gt;
 比较接近要求，最大的不足是不支持中文标点符号。&lt;/p&gt;
 
-&lt;p&gt;于是一边看语法文件帮助文档，一边在 Tomasz&lt;br /&gt;
+&lt;p&gt;于是一边看语法文件帮助文档，一边在 Tomasz
 的脚本的基础上修改，最终弄了一个用于中文纯文本文档的语法文件。&lt;/p&gt;
 
 &lt;p&gt;预览效果如下：&lt;br /&gt;
@@ -35,14 +35,14 @@ preview&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;语法文件在&lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=3365&#34;&gt;官方脚本页面&lt;/a&gt;下载：&lt;br /&gt;
 &lt;a href=&#34;http://www.vim.org/scripts/script.php?script_id=3365&#34;&gt;http://www.vim.org/scripts/script.php?script_id=3365&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt&lt;br /&gt;
+&lt;p&gt;下载后放进 Vim 的 syntax 目录，编辑文件的时候使用 :set syntax=txt
 打开语法高亮，也可以默认打开 .txt 文件时自动高亮。&lt;/p&gt;
 
 &lt;p&gt;如果对配色不满意，或者觉得和自己的主题配色不搭，可以参考文件尾部的颜色定义自己修改。&lt;br /&gt;
-如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so&lt;br /&gt;
+如果同时还想要 HTML 的语法高亮，将 txt.vim 中 :so
 \$VIMRUNTIME/syntax/html.vim 的注释标记去掉即可。&lt;/p&gt;
 
-&lt;p&gt;我的主题配色是按自己需要修改后的 ir_black，原版请自行&lt;br /&gt;
+&lt;p&gt;我的主题配色是按自己需要修改后的 ir_black，原版请自行
 google，我的修改版本可以&lt;a href=&#34;http://www.box.net/shared/g6h9lsv0dz&#34;&gt;到这里下载&lt;/a&gt;。&lt;/p&gt;
 </description>
       </item>
@@ -52,16 +52,16 @@ google，我的修改版本可以&lt;a href=&#34;http://www.box.net/shared/g6h9l
         <link>https://ioerr.github.io/posts/zizhi-twhirl-peise-fangan/</link>
         <pubDate>Thu, 03 Apr 2008 17:41:33 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/zizhi-twhirl-peise-fangan/</guid>
-        <description>&lt;p&gt;厌倦了 &lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt; 上用了很久的 On the beach&lt;br /&gt;
+        <description>&lt;p&gt;厌倦了 &lt;a href=&#34;http://www.twhirl.org/&#34;&gt;Twhirl&lt;/a&gt; 上用了很久的 On the beach
 配色方案，想要除了文字之外颜色越浅越淡越好，于是自己改了一个配色方案：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-04-04_013423.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-04-04_013423.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下载地址是：&lt;a href=&#34;http://whirlte.googlecode.com/files/whirlte.xml&#34;&gt;Whirlte&lt;/a&gt;&lt;br /&gt;
-下载到 Twhirl 安装目录下的 colorschemes 目录中，然后在 Accounts&lt;br /&gt;
+下载到 Twhirl 安装目录下的 colorschemes 目录中，然后在 Accounts
 Manager/Colors 中选择 Whirlte，点击 Chang color scheme。&lt;/p&gt;
 
-&lt;p&gt;修改的方法很简单，直接编辑 colorschemes 中的 xml&lt;br /&gt;
-文件即可。如果你对我的这个配色方案不满意，比如按钮的背景颜色太淡了，可以将&lt;br /&gt;
+&lt;p&gt;修改的方法很简单，直接编辑 colorschemes 中的 xml
+文件即可。如果你对我的这个配色方案不满意，比如按钮的背景颜色太淡了，可以将
 buttonColor 中的 e1e1e1改为其他颜色代码。&lt;/p&gt;
 </description>
       </item>

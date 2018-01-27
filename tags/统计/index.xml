@@ -16,7 +16,7 @@
         <link>https://ioerr.github.io/posts/elo-paiming-xitong/</link>
         <pubDate>Sat, 14 Nov 2009 17:41:16 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/elo-paiming-xitong/</guid>
-        <description>&lt;p&gt;看到&lt;a href=&#34;http://bbs.goalhi.com/464426.html&#34;&gt;这篇文章&lt;/a&gt;中提到的世界足坛埃罗排名系统（The&lt;br /&gt;
+        <description>&lt;p&gt;看到&lt;a href=&#34;http://bbs.goalhi.com/464426.html&#34;&gt;这篇文章&lt;/a&gt;中提到的世界足坛埃罗排名系统（The
 World Football Elo Rating System），尝试研究了一下这个足球排名系统：&lt;/p&gt;
 
 &lt;p&gt;Elo Rating System 根据评价值进行排名，评价值的计算方式如下：&lt;/p&gt;
@@ -33,7 +33,7 @@ World Football Elo Rating System），尝试研究了一下这个足球排名系
 世界杯和洲级杯赛外围赛取40；&lt;br /&gt;
 其他锦标赛取30；&lt;br /&gt;
 友谊赛取20。&lt;br /&gt;
-根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N&lt;br /&gt;
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N
 为净胜球数。&lt;br /&gt;
 如世界杯决赛圈比赛净胜3球，K=60 × (1 + &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; + (3-3)/8) = 105&lt;/p&gt;
 
@@ -61,7 +61,7 @@ Rn = 1742 + 65 × (1 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt
 
 &lt;p&gt;假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。&lt;/p&gt;
 
-&lt;p&gt;Elo 排名系统的排名看上去未必就比 &lt;a href=&#34;http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html&#34;&gt;FIFA&lt;br /&gt;
+&lt;p&gt;Elo 排名系统的排名看上去未必就比 &lt;a href=&#34;http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html&#34;&gt;FIFA
 世界排名&lt;/a&gt;靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。&lt;/p&gt;
 </description>
       </item>
@@ -112,8 +112,8 @@ Rn = 1742 + 65 × (1 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt
         <link>https://ioerr.github.io/posts/omi/</link>
         <pubDate>Thu, 08 Nov 2007 13:26:09 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/omi/</guid>
-        <description>&lt;p&gt;OMI=Open Mind Index，由 &lt;a href=&#34;http://www.musickum.com/&#34;&gt;Musickum&lt;/a&gt; 根据&lt;br /&gt;
-&lt;a href=&#34;http://www.last.fm/&#34;&gt;Last.Fm&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;OMI=Open Mind Index，由 &lt;a href=&#34;http://www.musickum.com/&#34;&gt;Musickum&lt;/a&gt; 根据
+&lt;a href=&#34;http://www.last.fm/&#34;&gt;Last.Fm&lt;/a&gt;
 提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。&lt;/p&gt;
 
 &lt;p&gt;我的指数只有126…&lt;br /&gt;

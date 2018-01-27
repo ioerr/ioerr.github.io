@@ -16,14 +16,14 @@
         <link>https://ioerr.github.io/posts/eulalyzer/</link>
         <pubDate>Tue, 04 Mar 2008 15:13:03 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/eulalyzer/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.javacoolsoftware.com/eulalyzer.html&#34;&gt;EULAlyzer&lt;/a&gt;&lt;br /&gt;
-的想法是不错。最终用户许可协议（End User License&lt;br /&gt;
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.javacoolsoftware.com/eulalyzer.html&#34;&gt;EULAlyzer&lt;/a&gt;
+的想法是不错。最终用户许可协议（End User License
 Agreements，EULA）普遍太长太繁琐，导致无论用户有没有兴趣都读不完，于是它就&lt;a href=&#34;http://tech.azuremedia.net/2007/12/26/1232/&#34;&gt;帮用户自动分析一下协议文本，精炼出最重要的信息&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;但我总觉得这种问题要靠第三方软件解决，实在是开发者之耻，何况 EULAlyzer&lt;br /&gt;
+&lt;p&gt;但我总觉得这种问题要靠第三方软件解决，实在是开发者之耻，何况 EULAlyzer
 也不是万能的分析器，不能对付所有的语言和千奇百怪、要点各不相同的协议，不同的用户阅读同一个协议的时候，关注点也不尽相同。&lt;/p&gt;
 
-&lt;p&gt;那么为什么不可以有一个最终用户许可协议的文本规范呢？而且像提供软件安装工具一样提供最终用户许可协议打包和展示工具，或者干脆集成也好，最起码都写在规范统一的&lt;br /&gt;
+&lt;p&gt;那么为什么不可以有一个最终用户许可协议的文本规范呢？而且像提供软件安装工具一样提供最终用户许可协议打包和展示工具，或者干脆集成也好，最起码都写在规范统一的
 XML 文件中，告诉像 EULAlyzer 这样的工具如何自动分析。&lt;br /&gt;
 个人发布软件的时候，在别人的最终用户许可协议基础上修改也会省事吧…&lt;/p&gt;
 </description>

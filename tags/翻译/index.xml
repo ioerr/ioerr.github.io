@@ -16,7 +16,7 @@
         <link>https://ioerr.github.io/posts/wei-buke-wei/</link>
         <pubDate>Tue, 13 Sep 2011 14:25:04 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/wei-buke-wei/</guid>
-        <description>&lt;p&gt;看到有人问，公司宣传标语“In order to achieve the possible we need to&lt;br /&gt;
+        <description>&lt;p&gt;看到有人问，公司宣传标语“In order to achieve the possible we need to
 keep trying the impossbile.”怎么翻译好。&lt;/p&gt;
 
 &lt;p&gt;直译过来就是，要实现可能的事情，我们得先不断尝试那些不可能的事，其精神大概就是要勇于挑战吧。&lt;/p&gt;
@@ -30,11 +30,11 @@ keep trying the impossbile.”怎么翻译好。&lt;/p&gt;
         <link>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</link>
         <pubDate>Sun, 17 Apr 2011 12:26:43 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</guid>
-        <description>&lt;p&gt;因为&lt;a href=&#34;http://www.wesnoth.cn/&#34;&gt;韦诺之战中文论坛&lt;/a&gt;中有人提出来，所以抽时间翻译了下&lt;br /&gt;
-the Battle for Wesnoth&lt;br /&gt;
+        <description>&lt;p&gt;因为&lt;a href=&#34;http://www.wesnoth.cn/&#34;&gt;韦诺之战中文论坛&lt;/a&gt;中有人提出来，所以抽时间翻译了下
+the Battle for Wesnoth
 的《高级战术手册》，只润色了一遍，而且因为游戏水平有限，一些存疑的地方给出了原文。&lt;/p&gt;
 
-&lt;p&gt;译自 Wesnoth Wiki 的&lt;br /&gt;
+&lt;p&gt;译自 Wesnoth Wiki 的
 &lt;a href=&#34;http://wiki.wesnoth.org/AdvancedTactics&#34;&gt;AdvancedTactics&lt;/a&gt;，&lt;a href=&#34;http://wiki.wesnoth.org/Advanced_Tactics_%28Simplified_Chinese%29&#34;&gt;这里是简体中文的页面&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;翻译过程中学到了一些之前没有发现的战术，比如用夜行单位堵路、背刺单位成对狩猎落单的单位、在不利时段开始前下毒、即将过关时不要升级。&lt;/p&gt;
@@ -75,7 +75,7 @@ the Battle for Wesnoth&lt;br /&gt;
 
 &lt;p&gt;第一段实在是太容易引起共鸣了！&lt;/p&gt;
 
-&lt;p&gt;最后，本 blog&lt;br /&gt;
+&lt;p&gt;最后，本 blog
 经过几天的放风之后，貌似又被踢出了墙外，还好已经顺利的把回复区的表情恢复了。&lt;/p&gt;
 </description>
       </item>
@@ -89,17 +89,17 @@ the Battle for Wesnoth&lt;br /&gt;
 
 &lt;p&gt;名词定义：&lt;br /&gt;
 命令：原文 command，最终被执行的实际指令；&lt;br /&gt;
-关键词：原文&lt;br /&gt;
+关键词：原文
 keyword，一般指由用户自定义的与一个或一组命令对应的字符串，有时也会包括“开始菜单程序”和“文件系统命令”；&lt;br /&gt;
-程序：原文&lt;br /&gt;
+程序：原文
 programs，“开始菜单”的“所有程序”中被索引的条目，可能还包括控制面板等的项目；&lt;br /&gt;
-文件系统命令：原文 file system，Windows&lt;br /&gt;
+文件系统命令：原文 file system，Windows
 文件系统目录下可以直接执行的命令；&lt;br /&gt;
 历史记录：原文 history，曾经使用过的别名；&lt;/p&gt;
 
 &lt;p&gt;默认按键：&lt;br /&gt;
 默认呼叫热键：Win+Z（我改为了 Pause/Break）；&lt;br /&gt;
-在控制台输入命令时上下浏览其他自动补全的别名：↑/↓或 Tab/Shift+Tab&lt;br /&gt;
+在控制台输入命令时上下浏览其他自动补全的别名：↑/↓或 Tab/Shift+Tab
 或向前向后滚动；&lt;br /&gt;
 打开下拉菜单浏览自动补全的别名：Alt+↓或 F4；&lt;br /&gt;
 打开下拉菜单浏览历史记录和关键词：Shift+↓或 F5；&lt;br /&gt;
@@ -115,8 +115,8 @@ programs，“开始菜单”的“所有程序”中被索引的条目，可能
 简单地说就是使用模糊匹配模式：Ctrl+R；&lt;br /&gt;
 在关键词编辑器中打开当前输入的关键词：Ctrl+O；&lt;br /&gt;
 在 Vista 下提高权限执行命令：Shift+Enter；&lt;br /&gt;
-如果用列表取代下拉菜单，同时关闭快速启动选项，那么按住 ALT 或 Ctrl&lt;br /&gt;
-选择列表中的别名可以直接执行对应的命令，如果快速启动选项是打开的，则正好相反，按住&lt;br /&gt;
+如果用列表取代下拉菜单，同时关闭快速启动选项，那么按住 ALT 或 Ctrl
+选择列表中的别名可以直接执行对应的命令，如果快速启动选项是打开的，则正好相反，按住
 ALT 或 Ctrl 表示选择别名。&lt;/p&gt;
 
 &lt;p&gt;增加关键词到 Executor 的方法：&lt;br /&gt;
@@ -126,39 +126,39 @@ ALT 或 Ctrl 表示选择别名。&lt;/p&gt;
 4、拖拽快捷方式、文件、文件夹、收藏到关键词基本信息编辑界面（就在关键词列表下方）；[!]注意，慎用该方法，如果覆盖了已有的关键词项目讲无法撤销，只能够手工改回，即使关闭了“自动应用”选项也是如此；&lt;br /&gt;
 5、在关键词编辑器中右键点击关键词列表，选择“导入关键词”，可以导入开始菜单中的快捷方式和备份文件；&lt;br /&gt;
 6、关键词基本信息编辑界面有“查找”按钮，可用于定位目标文件；&lt;br /&gt;
-7、可以在设置界面打开“增加至‘发送到’菜单”选项，然后在资源浏览器的右键菜单中就可以直接发送到&lt;br /&gt;
+7、可以在设置界面打开“增加至‘发送到’菜单”选项，然后在资源浏览器的右键菜单中就可以直接发送到
 Executor 了。&lt;/p&gt;
 
 &lt;p&gt;使用一个关键词启动多个关键词、网址、文件系统命令、程序等等：&lt;br /&gt;
-1、可以在控制台输入多个关键词，在多个命令间增加双竖线分隔符“||”，如“www.deviantart.com||gimp||google&lt;br /&gt;
+1、可以在控制台输入多个关键词，在多个命令间增加双竖线分隔符“||”，如“www.deviantart.com||gimp||google
 gimp tutorial”；&lt;br /&gt;
 2、可以使用一个关键词，如“example”启动上述命令或关键词，就是把它们作为关键词“example”对应的命令；&lt;br /&gt;
 3、关键词之间的对应关系只有第一层生效，不会出现循环调用的问题；&lt;br /&gt;
-4、呼叫其他关键词会传递参数，例如，建立一个名为“supersearch”的关键词，对应的命令为“google&lt;br /&gt;
-$U$||wiki $U$||groups&lt;br /&gt;
-$U$”，“google”、“wiki”、“groups”又是分别启动三类搜索的关键词，那么在控制台输入“supersearch&lt;br /&gt;
+4、呼叫其他关键词会传递参数，例如，建立一个名为“supersearch”的关键词，对应的命令为“google
+$U$||wiki $U$||groups
+$U$”，“google”、“wiki”、“groups”又是分别启动三类搜索的关键词，那么在控制台输入“supersearch
 calon”，那么参数“calon”会传递给那三个关键词并分别启动三类搜索的动作；[!]注意，在有的电脑上可能需要在每个命令后面增加“$W$”参数，用于等待一段时间才启动下一个命令，否则有的浏览器可能不会分别开始搜索；&lt;br /&gt;
 5、自动补全和下拉菜单对控制台上输入的多重命令仍然有效，其效果相当于被“||”分割为多个关键词；&lt;br /&gt;
 6、在隐藏设置中，可以修改默认分隔符“||”为你自己喜欢的其他符号。&lt;/p&gt;
 
 &lt;p&gt;关于下拉菜单和列表中的程序：&lt;br /&gt;
 1、打开选项之后可以自动将开始菜单、控制面板、我的文档等中的项目加入进来；&lt;br /&gt;
-2、匹配方式是模糊匹配，可以从每个单词的开头开始匹配，如在控制台输入“fire”会匹配“windows&lt;br /&gt;
+2、匹配方式是模糊匹配，可以从每个单词的开头开始匹配，如在控制台输入“fire”会匹配“windows
 firewall”，但不会匹配“wildfire”；&lt;br /&gt;
-3、Executor&lt;br /&gt;
+3、Executor
 启动时会自动检测刷新，运行过程中也会在后台定时刷新，禁用程序的关键词则不会占用系统资源；&lt;br /&gt;
 4、智能排序；&lt;br /&gt;
 5、不依赖任何 Windows 索引服务；&lt;br /&gt;
 6、在隐藏设置中可以选择仅在第一次启动时刷新。&lt;/p&gt;
 
 &lt;p&gt;特殊命令和参数：&lt;br /&gt;
-$P$：表示参数部分输入的文本，如“photoshop”是关键词，则输入“photoshop&lt;br /&gt;
+$P$：表示参数部分输入的文本，如“photoshop”是关键词，则输入“photoshop
 -nosplash”时$P$会替换为“-nosplash”；&lt;br /&gt;
 $U$：类同$P$，用于 URL 格式的参数；&lt;br /&gt;
 $W$：表示执行命令后会等待1秒钟，直接跟在关键词后，如“photoshop$W$”；&lt;br /&gt;
 $M$：最小化所有窗口，等同于显示桌面，写在命令之前或之后皆可，如“$M$c:\program files\adobe\photoshop.exe”；&lt;br /&gt;
 $R$：撤销最小化所有窗口；&lt;br /&gt;
-$D$：插入 Executor 所在的驱动器盘符，把 Executor 和其他程序都放在 U&lt;br /&gt;
+$D$：插入 Executor 所在的驱动器盘符，把 Executor 和其他程序都放在 U
 盘上使用的时候很有用，如“$D$\tools\winhex\winhex.exe”；&lt;br /&gt;
 上述所有命令可以一同使用，互不冲突；&lt;br /&gt;
 支持下列环境变量：%systemroot%、%programfiles%、%temp%、%tmp%、%windir%、%homedrive%、%homedrive%；&lt;/p&gt;
@@ -175,15 +175,15 @@ $MONITOR$：关闭显示器，“?monitor”；&lt;br /&gt;
 $SHOWIP$：列出本机所有的 IP 地址，“ip”；&lt;br /&gt;
 $SEARCH$：打开系统自带的搜索，“search”；&lt;br /&gt;
 $EMPTYRECYCLEBIN$：清空回收站，“?emptyrecyclebin”；&lt;br /&gt;
-$NEXT$、$PREV$、$PLAY$、$STOP$、$MEDIA$：控制默认的媒体播放器，跳到下/上一首、播放、停止、打开播放器，“next”、“previous”、“play”、“stop”、“media”。如果是&lt;br /&gt;
+$NEXT$、$PREV$、$PLAY$、$STOP$、$MEDIA$：控制默认的媒体播放器，跳到下/上一首、播放、停止、打开播放器，“next”、“previous”、“play”、“stop”、“media”。如果是
 Winamp，需要打开 Winamp 的全局热键选项；&lt;br /&gt;
-$WOPEN$、$WCLOSE$、$WMAXIMIZE$、$WMINIMIZE$、$WRESTORE$：显示、关闭、最大化、最小化、恢复当前窗口，“open”、“close”、“maximize”、“minimize”、“restore”。导入&lt;br /&gt;
+$WOPEN$、$WCLOSE$、$WMAXIMIZE$、$WMINIMIZE$、$WRESTORE$：显示、关闭、最大化、最小化、恢复当前窗口，“open”、“close”、“maximize”、“minimize”、“restore”。导入
 windowkeywords.exc 这个文件之后才会生效。&lt;/p&gt;
 
 &lt;p&gt;可以在控制台输入以下命令：&lt;br /&gt;
 -s 或 -settings：打开设置界面；&lt;br /&gt;
 -k 或 -keywords：打开关键词配置界面；&lt;br /&gt;
--a 或&lt;br /&gt;
+-a 或
 -add：打开添加关键词的对话框，如果后面加上字符串，则表示将其作为新的关键词并开始编辑；&lt;br /&gt;
 -i 或 -import：打开开始菜单导入界面；&lt;br /&gt;
 -ad 或 -about：显示“关于”页面；&lt;br /&gt;
@@ -207,7 +207,7 @@ windowkeywords.exc 这个文件之后才会生效。&lt;/p&gt;
 常用命令可以改为更短小的关键词，如“google”改为“.”；&lt;br /&gt;
 在历史记录中查找所有的 doc 格式文档，可以输入“.doc”，再按下 Ctrl+R；&lt;/p&gt;
 
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help.html&#34;&gt;Executor&lt;br /&gt;
+&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help.html&#34;&gt;Executor
 Documentation/help/hints&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;设置界面中的重要选项：&lt;br /&gt;
@@ -221,23 +221,23 @@ Enabled types and order：选择在控制台下拉菜单中出现的关键词类
 Auto open when items：自动打开下拉菜单；&lt;br /&gt;
 Quick launch items：一旦选择某个项目则立即执行；&lt;br /&gt;
 Show type headers in drop down：在下拉菜单中显示关键词的类别；&lt;br /&gt;
-Button will show&lt;br /&gt;
+Button will show
 auto-completed：点击下拉菜单按钮时，仅显示匹配当前输入文本的项目，否则显示全部的关键词。&lt;/p&gt;
 
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help-settings.html&#34;&gt;Executor Settings&lt;br /&gt;
+&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help-settings.html&#34;&gt;Executor Settings
 help&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;隐藏设置选项：&lt;br /&gt;
-可在 executor.ini 文件中编辑以下选项，如Executor&lt;br /&gt;
-目录中没有该文件，可以自己新建一个。[!]注意，首先请关闭&lt;br /&gt;
-Executor。如果使用了 Executor 一段时间之后才打算使用&lt;br /&gt;
+可在 executor.ini 文件中编辑以下选项，如Executor
+目录中没有该文件，可以自己新建一个。[!]注意，首先请关闭
+Executor。如果使用了 Executor 一段时间之后才打算使用
 executor.ini，最好先导出已经配置好的关键词和皮肤再新建该文件。&lt;br /&gt;
 failcolor：命令执行失败时控制台字体的颜色，默认为红色；&lt;br /&gt;
 separator：关键词分隔符，默认为“||”；&lt;br /&gt;
-browser：指定浏览器，如&lt;br /&gt;
+browser：指定浏览器，如
 browser=d:\program files\mozilla firefox\firefox.exe；&lt;br /&gt;
 noindexrefresh：不自动刷新开始菜单程序等的索引，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
-explore：指定资源浏览器，如&lt;br /&gt;
+explore：指定资源浏览器，如
 explore=&amp;ldquo;c:\program files\totalcmd\totalcmd.exe&amp;rdquo;；&lt;br /&gt;
 listinherittransparency：列表是否继承控制台的透明效果，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
 infoenabled：未激活时控制台可以显示指定的信息，需要关闭自动隐藏和打开总在最上方的选项，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
@@ -252,7 +252,7 @@ $mtotal$=总内存数，单位 MB；&lt;br /&gt;
 $wnum$=今年的第几个星期；&lt;br /&gt;
 $ip$：本机 IP 列表，如果是\$ip1则仅显示一个 IP 地址。&lt;/p&gt;
 
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/hidden.html&#34;&gt;executor.ini file hidden&lt;br /&gt;
+&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/hidden.html&#34;&gt;executor.ini file hidden
 settings&lt;/a&gt;&lt;/p&gt;
 </description>
       </item>
@@ -262,22 +262,22 @@ settings&lt;/a&gt;&lt;/p&gt;
         <link>https://ioerr.github.io/posts/transformer-yulu-zhaiyi/</link>
         <pubDate>Mon, 10 Sep 2007 09:34:08 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/transformer-yulu-zhaiyi/</guid>
-        <description>&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+        <description>&lt;p&gt;&lt;blockquote&gt;
 &amp;ldquo;There&amp;rsquo;s a thin line between being a hero, and being a memory&amp;rdquo;&lt;br /&gt;
-&amp;ndash;Optimus Prime&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+&amp;ndash;Optimus Prime
+&lt;/blockquote&gt;
 在一部叫做《变压器》的电视剧中，某个人气主角名叫“最好的·最好的（好人）”，他曾经说过：“做个好人还是内存，其间只有细线一根。”&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
 &amp;ldquo;Such heroic nonsense.&amp;rdquo;&lt;br /&gt;
-&amp;ndash;Megatron&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+&amp;ndash;Megatron
+&lt;/blockquote&gt;
 而他在这部电视剧中的死对头“没搞头”则说：“做好人真是没搞头。”&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
 &amp;ldquo;I don&amp;rsquo;t want to be a hero.&amp;rdquo;&lt;br /&gt;
-StarsCream&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
+StarsCream
+&lt;/blockquote&gt;
 “没搞头”先生有个助理名曰“星淇淋”，在“没搞头”先生的影响下，他才有了如下的觉悟：“我才不想当好人呐。”&lt;/p&gt;
 </description>
       </item>
@@ -308,8 +308,8 @@ StarsCream&lt;br /&gt;
         <guid>https://ioerr.github.io/posts/zhongwen-rumen-shouce/</guid>
         <description>&lt;p&gt;以下内容可能含有少儿不宜词语，请未成年人在家长陪同下观看。&lt;/p&gt;
 
-&lt;p&gt;在 &lt;a href=&#34;http://www.textfiles.com/&#34;&gt;TextFiles&lt;/a&gt;&lt;br /&gt;
-翻到一篇古老的&lt;a href=&#34;http://www.textfiles.com/fun/chinesec.hum&#34;&gt;中文简易教学的奇文&lt;/a&gt;，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果&lt;br /&gt;
+&lt;p&gt;在 &lt;a href=&#34;http://www.textfiles.com/&#34;&gt;TextFiles&lt;/a&gt;
+翻到一篇古老的&lt;a href=&#34;http://www.textfiles.com/fun/chinesec.hum&#34;&gt;中文简易教学的奇文&lt;/a&gt;，让我想起了80年代外语热的时候满街的“古德毛尼”、“三克油”。据说最初日本人也是这么学习英语的，结果
 l、r 至今都分不清楚…&lt;/p&gt;
 
 &lt;p&gt;以下标记有[?]的为存疑，[&amp;amp;]的为不靠谱，[!]的为神来之笔。&lt;/p&gt;
@@ -373,7 +373,7 @@ l、r 至今都分不清楚…&lt;/p&gt;
 &lt;p&gt;你喜欢我吗？＝Nee she whine wu ma? =Do you like me?&lt;br /&gt;
 为什么？＝Wa sa ma?=Why?&lt;br /&gt;
 男孩＝Nahnhie=Boy&lt;br /&gt;
-你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful&lt;br /&gt;
+你是很美丽（的）女孩＝Nee su hun malee Nuhie=You are very beautiful
 girl&lt;br /&gt;
 我希望你在这＝Wa she wa ni tsie tsa=I wish you were here&lt;br /&gt;
 闭嘴＝Bejuay=Shut up&lt;br /&gt;
@@ -383,7 +383,7 @@ girl&lt;br /&gt;
 嗯，这是纱布&lt;/p&gt;
 
 &lt;p&gt;我将会＝Wa jawngway=I will&lt;br /&gt;
-你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a&lt;br /&gt;
+你有一个很脏大老二[?][!]＝Nee yo eegu hun tsa da lawer=You got a
 very, dirty, big, dick.&lt;br /&gt;
 你是一大鸡巴[&amp;amp;][!]＝Ni she needa jeba.=You are a big pussy.&lt;br /&gt;
 真声东击西之典范也！&lt;/p&gt;
@@ -394,7 +394,7 @@ very, dirty, big, dick.&lt;br /&gt;
 &lt;p&gt;去干老师＝Chu ga lousi =Go fuck the teacher.&lt;br /&gt;
 Hey! Kids! Leave them teachers alone!&lt;/p&gt;
 
-&lt;p&gt;你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the&lt;br /&gt;
+&lt;p&gt;你是世界上最丑的老二[!]＝Ni si si jay san juay zo der lern=You are the
 ugliest dick in the world.&lt;br /&gt;
 其实我觉得翻译作“最矬”效果更神奇。&lt;/p&gt;
 

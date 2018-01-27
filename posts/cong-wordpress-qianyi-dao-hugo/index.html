@@ -28,10 +28,8 @@
 而且站点生成效率也是重要的考量因素。
 因此最后决定尝试基于 Golang 的 Hugo。
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。
- 安装 Hugo
-  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
- 导出和转换 WordPress 的内容
-  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
+ 安装 Hugo  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
+ 导出和转换 WordPress 的内容  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
 然后从 WordPress 的管理面板 Tool 菜单中直接导出可以用于 Hugo 的内容。
 或者也可以用 JekyllToHugo 加 ConvertToHugo 的组合搞定。
 然而悲剧的是，Weblogs.us 可以安装以上插件，却在导出时报权限不足：failed to open dir: Permission denied 推测与 Weblogs.us 的服务器设置有关，不想麻烦服务方帮忙，于是只能另想办法。
@@ -66,10 +64,8 @@
 而且站点生成效率也是重要的考量因素。
 因此最后决定尝试基于 Golang 的 Hugo。
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。
- 安装 Hugo
-  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
- 导出和转换 WordPress 的内容
-  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
+ 安装 Hugo  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
+ 导出和转换 WordPress 的内容  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
 然后从 WordPress 的管理面板 Tool 菜单中直接导出可以用于 Hugo 的内容。
 或者也可以用 JekyllToHugo 加 ConvertToHugo 的组合搞定。
 然而悲剧的是，Weblogs.us 可以安装以上插件，却在导出时报权限不足：failed to open dir: Permission denied 推测与 Weblogs.us 的服务器设置有关，不想麻烦服务方帮忙，于是只能另想办法。
@@ -93,10 +89,8 @@
 而且站点生成效率也是重要的考量因素。
 因此最后决定尝试基于 Golang 的 Hugo。
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。
- 安装 Hugo
-  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
- 导出和转换 WordPress 的内容
-  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
+ 安装 Hugo  在 Hugo 的 Github 发布页面直接下载安装包或自己编译就行。
+ 导出和转换 WordPress 的内容  如果你运气够好，可以安装直接导入的插件：wordpress-to-hugo-exporter 。
 然后从 WordPress 的管理面板 Tool 菜单中直接导出可以用于 Hugo 的内容。
 或者也可以用 JekyllToHugo 加 ConvertToHugo 的组合搞定。
 然而悲剧的是，Weblogs.us 可以安装以上插件，却在导出时报权限不足：failed to open dir: Permission denied 推测与 Weblogs.us 的服务器设置有关，不想麻烦服务方帮忙，于是只能另想办法。
@@ -217,15 +211,13 @@
 只是没想到一趟折腾下来的坑也不少，这里做个记录，方便有需求者少走弯路。</p>
 
 <ul>
-<li>安装 Hugo<br />
-<br /></li>
+<li>安装 Hugo</li>
 </ul>
 
 <p>在 <a href="https://github.com/spf13/hugo/releases">Hugo 的 Github 发布页面</a>直接下载安装包或自己编译就行。</p>
 
 <ul>
-<li>导出和转换 WordPress 的内容<br />
-<br /></li>
+<li>导出和转换 WordPress 的内容</li>
 </ul>
 
 <p>如果你运气够好，可以安装直接导入的插件：<a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">wordpress-to-hugo-exporter </a>。<br />
@@ -244,8 +236,7 @@
 直接删除再试就可以了。</p>
 
 <ul>
-<li>折腾 Markdown 内容<br />
-<br /></li>
+<li>折腾 Markdown 内容</li>
 </ul>
 
 <p>Markdown 格式默认不支持硬换行特性，也就是说，如果你在 WordPress 写文章时喜欢用换行而不是段落，那么转换为 Markdown 格式后虽然保留了换行，但转换为 HTML 展现出来的是不换行的结果，原来的换行之间替换为了空格，原来的多行内容挤在了一行。（之前有过<a href="../pandoc-markdown">吐槽</a>）</p>
@@ -276,8 +267,7 @@ done
 </code></pre>
 
 <ul>
-<li>选择 Hugo 模板<br />
-<br /></li>
+<li>选择 Hugo 模板</li>
 </ul>
 
 <p>Hugo 官方站点有少量<a href="http://themes.gohugo.io/">模板演示</a>，不少是从 Jekyll 的模板改的。<br />
@@ -286,14 +276,13 @@ done
 <p>比如我的要求是：</p>
 
 <ol>
-<li>简洁风格；<br /></li>
-<li>支持翻页；<br /></li>
-<li>支持类别（category）展示；<br /></li>
-<li>支持响应式布局优先；<br /></li>
-<li>支持标签（tag）优先；<br /></li>
-<li>单栏布局优先；<br /></li>
-<li>方便自定义修改。<br />
-<br /></li>
+<li>简洁风格；</li>
+<li>支持翻页；</li>
+<li>支持类别（category）展示；</li>
+<li>支持响应式布局优先；</li>
+<li>支持标签（tag）优先；</li>
+<li>单栏布局优先；</li>
+<li>方便自定义修改。</li>
 </ol>
 
 <p>尝试了多个主题之后，最终决定使用这款<a href="http://themes.gohugo.io/hugo-hello-programmer-theme/">Hello Programmer</a>。<br />
@@ -301,8 +290,7 @@ done
 使用的主页图片和 favicon 则需要自己绘制。</p>
 
 <ul>
-<li>发布到 Github Pages<br />
-<br /></li>
+<li>发布到 Github Pages</li>
 </ul>
 
 <p>因为一切以偷懒为目标，所以为了减少麻烦，申请的是用户或组织模式的 Github Pages。<br />

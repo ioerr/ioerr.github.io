@@ -16,48 +16,48 @@
         <link>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</link>
         <pubDate>Mon, 26 May 2008 16:05:49 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</guid>
-        <description>&lt;p&gt;最近&lt;br /&gt;
+        <description>&lt;p&gt;最近
 &lt;a href=&#34;http://lifehacker.com/392136/best-application-launchers&#34;&gt;LifeHacker&lt;/a&gt;、&lt;a href=&#34;http://xbeta.info/ask-quick-launch.htm&#34;&gt;善用佳软&lt;/a&gt;和&lt;a href=&#34;http://www.appinn.com/ask-quick-launch/&#34;&gt;小众软件&lt;/a&gt;都在讨论快速启动程序工具软件的话题，我也正好凑个热闹。&lt;/p&gt;
 
-&lt;p&gt;最初开始使用这一类软件时，我的选择是&lt;br /&gt;
-&lt;a href=&#34;http://www.galanc.com/&#34;&gt;TypeAndRun&lt;/a&gt;，为此还专门写了&lt;a href=&#34;http://calon.weblogs.us/duibi_launchy_he_tar/&#34;&gt;对比 Launchy 和&lt;br /&gt;
+&lt;p&gt;最初开始使用这一类软件时，我的选择是
+&lt;a href=&#34;http://www.galanc.com/&#34;&gt;TypeAndRun&lt;/a&gt;，为此还专门写了&lt;a href=&#34;http://calon.weblogs.us/duibi_launchy_he_tar/&#34;&gt;对比 Launchy 和
 TAR&lt;/a&gt; 的文章。&lt;/p&gt;
 
-&lt;p&gt;后来偶然发现了 &lt;a href=&#34;http://www.executor.dk/&#34;&gt;Executor&lt;/a&gt;，加上 TAR&lt;br /&gt;
+&lt;p&gt;后来偶然发现了 &lt;a href=&#34;http://www.executor.dk/&#34;&gt;Executor&lt;/a&gt;，加上 TAR
 一直停止更新，于是换用了更新勤快功能也很强大的前者。&lt;br /&gt;
-Executor&lt;br /&gt;
+Executor
 既能够快速上手（如导入开始菜单项目），也适合蛋疼人士深入钻研各种参数、选项、变量、快捷键和功能，同时其身材和资源占用也保持的不错，所以一直使用到现在。&lt;br /&gt;
 期间有写过一篇&lt;a href=&#34;http://calon.weblogs.us/executor/&#34;&gt;专门介绍它的文章&lt;/a&gt;，以及&lt;a href=&#34;http://calon.weblogs.us/executor_bangzhuwendang/&#34;&gt;帮助文档的翻译&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;除了上面提到的几款软件，还有&lt;br /&gt;
-&lt;a href=&#34;http://www.donationcoder.com/Software/Mouser/findrun/index.html&#34;&gt;FindAndRunRobot!&lt;/a&gt;、&lt;a href=&#34;http://www.3lsoft.com/&#34;&gt;音速启动/VStart&lt;/a&gt;、&lt;a href=&#34;http://www.truelaunchbar.com/&#34;&gt;Ture&lt;br /&gt;
-Launchy&lt;br /&gt;
+&lt;p&gt;除了上面提到的几款软件，还有
+&lt;a href=&#34;http://www.donationcoder.com/Software/Mouser/findrun/index.html&#34;&gt;FindAndRunRobot!&lt;/a&gt;、&lt;a href=&#34;http://www.3lsoft.com/&#34;&gt;音速启动/VStart&lt;/a&gt;、&lt;a href=&#34;http://www.truelaunchbar.com/&#34;&gt;Ture
+Launchy
 Bar&lt;/a&gt;（我觉得这不能算啊，纯命令行的才是王道！），因为操作不习惯、资源占用和对华丽界面无兴趣的原因，就不一一介绍和比较了。&lt;br /&gt;
-特别要介绍的是 JourneyBoy 写出来自用的&lt;br /&gt;
+特别要介绍的是 JourneyBoy 写出来自用的
 &lt;a href=&#34;http://journeyboy.blog.sohu.com/79386735.html&#34;&gt;HotRun&lt;/a&gt;，身材小巧，作者更新频繁，也有如支持通配符这样的特色功能。&lt;/p&gt;
 
-&lt;p&gt;当然，谁是最佳的快速启动程序工具软件，就像谁是最佳浏览器、输入法、邮件客户端等等一样，只有适合自己才是最好的。对我来说，Executor&lt;br /&gt;
+&lt;p&gt;当然，谁是最佳的快速启动程序工具软件，就像谁是最佳浏览器、输入法、邮件客户端等等一样，只有适合自己才是最好的。对我来说，Executor
 就是我目前的最佳选择。&lt;/p&gt;
 
-&lt;p&gt;接下来选择性的翻译一些 Executor&lt;br /&gt;
+&lt;p&gt;接下来选择性的翻译一些 Executor
 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/didyouknow.html&#34;&gt;小技巧&lt;/a&gt;，有的在帮助文档和选项设置中是看不到的。&lt;/p&gt;
 
-&lt;p&gt;输入文本后如果没找到目标，可以用 Ctrl+R&lt;br /&gt;
+&lt;p&gt;输入文本后如果没找到目标，可以用 Ctrl+R
 切换成模糊匹配模式，相当于在文字前后加上通配符“*”；&lt;br /&gt;
 每个关键词都可以指定相应的热键和群组；&lt;br /&gt;
 导入 standard.exc 可以获得一些系统命令关键词，比如：&lt;br /&gt;
 输入 apps 可以列出并管理进程；&lt;br /&gt;
 recent 列出开始菜单中的最近打开的文件等；&lt;br /&gt;
-clipboard&lt;br /&gt;
+clipboard
 不回车，列出复制过的文本，选择其中一条就相当于重新复制，可以替代部分剪贴板助手程序的功能；&lt;br /&gt;
-$CE$ 表示当前选中的文本，通过设置 executor.ini 中 fastsearch&lt;br /&gt;
-对应的关键词（默认启动 Google&lt;br /&gt;
-搜索），配合快捷键，可以实现快速搜索、直接打开选中的&lt;br /&gt;
+$CE$ 表示当前选中的文本，通过设置 executor.ini 中 fastsearch
+对应的关键词（默认启动 Google
+搜索），配合快捷键，可以实现快速搜索、直接打开选中的
 URL、本地目录等功能；$C$ 则表示剪贴板内容。&lt;/p&gt;
 
 &lt;p&gt;最后再说说到目前的新版本0.98b 为止增加的实用功能：&lt;br /&gt;
 能够自己添加进行扫描和建立索引的目录；&lt;br /&gt;
-增加关键字群组概念，输入群组名 browser 作为关键字，之前归类为 browser 的&lt;br /&gt;
+增加关键字群组概念，输入群组名 browser 作为关键字，之前归类为 browser 的
 Firefox、Opera 等等就会出现在待选列表中；&lt;br /&gt;
 新的设置界面；&lt;br /&gt;
 可以选择为图标、关键词、历史记录建立缓存，牺牲一点内存换取速度。&lt;/p&gt;

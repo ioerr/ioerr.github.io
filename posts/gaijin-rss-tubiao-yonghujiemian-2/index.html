@@ -20,30 +20,16 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="改进 RSS 图标用户界面 \#2" />
-<meta property="og:description" content="上一篇说到
-RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
-首先逐个翻阅 Bloglines 上订阅的
-blog，终于找到上一篇提到的 blog 就是 Herock Post。
+<meta property="og:description" content="上一篇说到 RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的 blog，终于找到上一篇提到的 blog 就是 Herock Post。
 接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
-可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
-处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
-CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head 处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在 CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
 然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
-其中“RSS
-地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
-RSS 是什么用户服务，我觉得 Herock
-的说明很不错，所以稍加修改就拿过来用了。
-在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
-greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
-如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
-CSS，使得边框配色、字体与你的侧栏风格一致。
-如果你要像 Herock
-那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
-javascript 脚本实现 tooltip 效果，如 Cool DHTML
-Tooltip 和
-[Tooltip.js]()。
-本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
-tooltip，全部采用 Herock 的方法。
+其中“RSS 地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白 RSS 是什么用户服务，我觉得 Herock 的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如 greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改 CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock 那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些 javascript 脚本实现 tooltip 效果，如 Cool DHTML Tooltip 和 [Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用 tooltip，全部采用 Herock 的方法。
 最终实现的效果请看 sidebar。
 考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。" />
 <meta property="og:type" content="article" />
@@ -68,30 +54,16 @@ tooltip，全部采用 Herock 的方法。
 
 
 <meta itemprop="name" content="改进 RSS 图标用户界面 \#2">
-<meta itemprop="description" content="上一篇说到
-RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
-首先逐个翻阅 Bloglines 上订阅的
-blog，终于找到上一篇提到的 blog 就是 Herock Post。
+<meta itemprop="description" content="上一篇说到 RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的 blog，终于找到上一篇提到的 blog 就是 Herock Post。
 接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
-可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
-处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
-CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head 处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在 CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
 然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
-其中“RSS
-地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
-RSS 是什么用户服务，我觉得 Herock
-的说明很不错，所以稍加修改就拿过来用了。
-在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
-greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
-如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
-CSS，使得边框配色、字体与你的侧栏风格一致。
-如果你要像 Herock
-那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
-javascript 脚本实现 tooltip 效果，如 Cool DHTML
-Tooltip 和
-[Tooltip.js]()。
-本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
-tooltip，全部采用 Herock 的方法。
+其中“RSS 地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白 RSS 是什么用户服务，我觉得 Herock 的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如 greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改 CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock 那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些 javascript 脚本实现 tooltip 效果，如 Cool DHTML Tooltip 和 [Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用 tooltip，全部采用 Herock 的方法。
 最终实现的效果请看 sidebar。
 考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。">
 
@@ -105,30 +77,16 @@ tooltip，全部采用 Herock 的方法。
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="改进 RSS 图标用户界面 \#2"/>
-<meta name="twitter:description" content="上一篇说到
-RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
-首先逐个翻阅 Bloglines 上订阅的
-blog，终于找到上一篇提到的 blog 就是 Herock Post。
+<meta name="twitter:description" content="上一篇说到 RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。
+首先逐个翻阅 Bloglines 上订阅的 blog，终于找到上一篇提到的 blog 就是 Herock Post。
 接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。
-可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
-处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
-CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head 处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在 CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。
 然后是在侧栏最下方增加 XML 图标，以及3个子栏目。
-其中“RSS
-地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
-RSS 是什么用户服务，我觉得 Herock
-的说明很不错，所以稍加修改就拿过来用了。
-在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
-greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
-如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
-CSS，使得边框配色、字体与你的侧栏风格一致。
-如果你要像 Herock
-那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
-javascript 脚本实现 tooltip 效果，如 Cool DHTML
-Tooltip 和
-[Tooltip.js]()。
-本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
-tooltip，全部采用 Herock 的方法。
+其中“RSS 地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白 RSS 是什么用户服务，我觉得 Herock 的说明很不错，所以稍加修改就拿过来用了。
+在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如 greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。
+如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改 CSS，使得边框配色、字体与你的侧栏风格一致。
+如果你要像 Herock 那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些 javascript 脚本实现 tooltip 效果，如 Cool DHTML Tooltip 和 [Tooltip.js]()。
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用 tooltip，全部采用 Herock 的方法。
 最终实现的效果请看 sidebar。
 考虑到没有人会反复地看帮助说明，所以“帮助”放在了最下方；一般也不会有人想要折叠，我又想偷懒，所以就没给出“隐藏/折叠”按钮，如果需要，可以自己加上链接；帮助说明还是有些长，好在后面的话不是很重要。"/>
 
@@ -210,35 +168,35 @@ tooltip，全部采用 Herock 的方法。
         
       </p>
     </header>
-    <section><p><a href="http://calon.weblogs.us/2005/12/07/gaijin_rss_tubiao_yonghujiemian/">上一篇</a>说到<br />
+    <section><p><a href="http://calon.weblogs.us/2005/12/07/gaijin_rss_tubiao_yonghujiemian/">上一篇</a>说到
 RSS 图标用户界面不够友好，所以我打算自己动手做一点改进工作。</p>
 
-<p>首先逐个翻阅 <a href="http://www.bloglines.com/">Bloglines</a> 上订阅的<br />
+<p>首先逐个翻阅 <a href="http://www.bloglines.com/">Bloglines</a> 上订阅的
 blog，终于找到上一篇提到的 blog 就是 <a href="http://herock.net/">Herock Post</a>。</p>
 
 <p>接下来，保存单篇文章的页面，在页面源代码和 CSS 文件中找到有用的信息。<br />
-可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head<br />
-处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在<br />
+可以看到“RSS订阅简要介绍”处使用了 switchStatus 函数，在 head
+处可以找到对应的定义，复制到你的页面的 head 处。绿色的边框和背景则要在
 CSS 文件中找到 .greenblock 的一段，同样也置入对应的 CSS 文件中。</p>
 
 <p>然后是在侧栏最下方增加 XML 图标，以及3个子栏目。<br />
-其中“RSS<br />
-地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白<br />
-RSS 是什么用户服务，我觉得 <a href="http://herock.net/">Herock</a><br />
+其中“RSS
+地址”用于直接复制地址；“直接订阅”方便注册了在线订阅服务的用户；“点击帮助”则为不太明白
+RSS 是什么用户服务，我觉得 <a href="http://herock.net/">Herock</a>
 的说明很不错，所以稍加修改就拿过来用了。</p>
 
-<p>在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如<br />
+<p>在需要实现“扩展/折叠”效果的地方，分别加入脚本链接和对应的 id、style，如
 greenDiv、display: none，如果不明白，查看页面源代码照着做就是了。</p>
 
-<p>如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改<br />
+<p>如果一切正常，“扩展/折叠”的效果已经可以看到了。最后是完善它的外观，如修改
 CSS，使得边框配色、字体与你的侧栏风格一致。</p>
 
-<p>如果你要像 <a href="http://herock.net/">Herock</a><br />
-那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些<br />
-javascript 脚本实现 tooltip 效果，如 <a href="http://www.dynamicdrive.com/dynamicindex5/dhtmltooltip.htm">Cool DHTML<br />
-Tooltip</a> 和<br />
+<p>如果你要像 <a href="http://herock.net/">Herock</a>
+那样写上一大段详尽的说明，那么一般侧栏的位置是容纳不下的，强行塞入只会让用户阅读困难。除了放置在文章下方充分利用页面宽度之外，还可以使用一些
+javascript 脚本实现 tooltip 效果，如 <a href="http://www.dynamicdrive.com/dynamicindex5/dhtmltooltip.htm">Cool DHTML
+Tooltip</a> 和
 [Tooltip.js]()。<br />
-本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用<br />
+本来我打算使用后者，结果在本地测试没有问题，正式修改以后通过代理访问大多数时候都失效，而且几个脚本文件体积不小，所以还是不用
 tooltip，全部采用 <a href="http://herock.net/">Herock</a> 的方法。</p>
 
 <p>最终实现的效果请看 sidebar。<br />

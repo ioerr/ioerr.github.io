@@ -32,7 +32,7 @@
 
 &lt;li&gt;&lt;p&gt;更加开放的分享功能；&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了
 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的人来说简直就是残废）；&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;更加强大的公众平台订阅用户管理和统计功能；&lt;/p&gt;&lt;/li&gt;
@@ -43,27 +43,27 @@
 
 &lt;li&gt;&lt;p&gt;历史消息保存和导出；&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
 群转战过来的群聊）。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。&lt;br /&gt;
 而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。&lt;/p&gt;
 
-&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0&lt;br /&gt;
-的改进方向&lt;/a&gt;，但如果真要用什么东西取代&lt;br /&gt;
-RSS，我希望是“精简交互”（Really Simple Interaction）&lt;br /&gt;
+&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0
+的改进方向&lt;/a&gt;，但如果真要用什么东西取代
+RSS，我希望是“精简交互”（Really Simple Interaction）
 这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。&lt;br /&gt;
 在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。&lt;br /&gt;
-不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看&lt;br /&gt;
-&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或&lt;br /&gt;
-&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS&lt;br /&gt;
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
+&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或
+&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS
 订阅和微信公众平台交互的综合效果。&lt;br /&gt;
-你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像&lt;br /&gt;
-blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;&lt;br /&gt;
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
+blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
 建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。&lt;/p&gt;
 
-&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。&lt;br /&gt;
+&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
 比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
 但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
 </description>
@@ -75,11 +75,11 @@ blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&
         <pubDate>Sun, 29 Nov 2009 02:27:48 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/qq-show-shibushi-zai-pianqian/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;http://2simple.cn/2009/11/qqshow.htm&#34;&gt;QQ 秀是不是在骗钱？&lt;/a&gt;&lt;br /&gt;
-按照 Datou 的&lt;a href=&#34;http://2simple.cn/2009/11/qqshow.htm&#34;&gt;说法&lt;/a&gt;，QQ&lt;br /&gt;
+按照 Datou 的&lt;a href=&#34;http://2simple.cn/2009/11/qqshow.htm&#34;&gt;说法&lt;/a&gt;，QQ
 秀是明码标价，不存在欺骗行为。&lt;/p&gt;
 
 &lt;p&gt;但是，为什么我一打开 QQ 聊天窗口，我自己的布衣 QQ 秀就一定要出现？&lt;br /&gt;
-并且只能暂时收起侧栏，找不到今后不再显示侧栏的设置。下次打开聊天窗口 QQ&lt;br /&gt;
+并且只能暂时收起侧栏，找不到今后不再显示侧栏的设置。下次打开聊天窗口 QQ
 秀仍然会出现。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-28-13-27-39.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-28-13-27-39.png&#34; alt=&#34;QQ
 Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -87,7 +87,7 @@ Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;即使彻底注销掉 QQ 秀，也会有空白的鬼影形象占用侧栏空间。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-28-14-01-43.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-28-14-01-43.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;而且还是不能永久取消，至少在我的 QQ 2009 Beta (375)&lt;br /&gt;
+&lt;p&gt;而且还是不能永久取消，至少在我的 QQ 2009 Beta (375)
 版本上和官方页面找不到设置的地方。腾讯官方的答复也是无法永久取消。&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-11-29-09-52-16.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-11-29-09-52-16.png&#34; alt=&#34;QQ秀答复&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -101,10 +101,10 @@ Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <link>https://ioerr.github.io/posts/taotao-tubiao-ximie/</link>
         <pubDate>Tue, 18 Dec 2007 13:51:15 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/taotao-tubiao-ximie/</guid>
-        <description>&lt;p&gt;给 QQ 好友传送文件，登入 &lt;a href=&#34;http://mail.qq.com/&#34;&gt;QQ&lt;br /&gt;
+        <description>&lt;p&gt;给 QQ 好友传送文件，登入 &lt;a href=&#34;http://mail.qq.com/&#34;&gt;QQ
 邮箱&lt;/a&gt;，赫然发现腾讯滔滔发来提醒邮件：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
 你是不是一个星期以来都没有去滔滔唠叨几句了？我们很遗憾的告诉你，你的滔滔图标已经熄灭。&lt;br /&gt;
 不过，不用伤心哦，你可以按照下面的步骤重新开通：&lt;/p&gt;
 
@@ -113,10 +113,10 @@ Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 取消关联后，重新填入手机号码，然后保存&lt;br /&gt;
 将网页提示给你的验证码，通过手机短信发送到对应运营商端口号即可&lt;/p&gt;
 
-&lt;p&gt;注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
-可是，谁来告诉我“滔滔图标熄灭”是什么意思？是指 QQ&lt;br /&gt;
-面板上的某图标变成彩色（但我在 TM&lt;br /&gt;
+&lt;p&gt;注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次
+&lt;/blockquote&gt;
+可是，谁来告诉我“滔滔图标熄灭”是什么意思？是指 QQ
+面板上的某图标变成彩色（但我在 TM
 2008上看不到）？还是滔滔主页上的什么图标变成彩色？还是其他什么高级功能？为什么不在提醒邮件中一句话说清楚？&lt;/p&gt;
 
 &lt;p&gt;本来懒得搞清楚这个疑问，更懒得重新关联手机，但我怕别人说我太没有探索精神，于是顺着邮件给出的链接去&lt;a href=&#34;http://www.taotao.com/help.shtml&#34;&gt;滔滔的帮助页面&lt;/a&gt;看个究竟。&lt;br /&gt;
@@ -124,16 +124,16 @@ Show&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;在“常见问题”下倒是找到了和点亮图标相关的条目：&lt;/p&gt;
 
-&lt;p&gt;&lt;blockquote&gt;&lt;br /&gt;
-登录滔滔，在设置里成功关联手机后，即可立刻点亮图标，如果关联不成功，或取消关联，即可熄灭图标。点此查看具体点亮方法&lt;br /&gt;
-注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
-但是这不是等于没有告诉我任何新内容吗？我还是不知道图表熄灭和点亮是什么意思啊…难道是我太长时间不使用&lt;br /&gt;
+&lt;p&gt;&lt;blockquote&gt;
+登录滔滔，在设置里成功关联手机后，即可立刻点亮图标，如果关联不成功，或取消关联，即可熄灭图标。点此查看具体点亮方法
+注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次
+&lt;/blockquote&gt;
+但是这不是等于没有告诉我任何新内容吗？我还是不知道图表熄灭和点亮是什么意思啊…难道是我太长时间不使用
 QQ，所以和不需要任何说明就能看懂的主流用户产生代沟了？&lt;/p&gt;
 
 &lt;p&gt;嗯，既然不知道会有什么损失，就当没有损失好了。&lt;/p&gt;
 
-&lt;p&gt;今天还发现 TM&lt;br /&gt;
+&lt;p&gt;今天还发现 TM
 2008不爽的地方，除了没有群共享功能之外，搜索联系人时，从之前的在好友清单中直接过滤，变成了在下拉菜单中显示筛选结果：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00092.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00092.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -146,7 +146,7 @@ QQ，所以和不需要任何说明就能看懂的主流用户产生代沟了？
 &lt;p&gt;虽然这种下拉菜单的方式可以实现快速发起多人会话，但在“邀请好友进行多人会话”的界面中已经可以很好地实现此功能，又何必牺牲原本不错的联系人筛选方式？&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00096.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00096.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;最后补充一句，QQ&lt;br /&gt;
+&lt;p&gt;最后补充一句，QQ
 邮箱的水平还是很高的，目前作为国内的主力邮箱用用挺好的。&lt;/p&gt;
 </description>
       </item>

@@ -33,8 +33,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&amp;rsquo;s the case, why would anyone choose Firefox instead of Chrome?&lt;/p&gt;
 
-&lt;p&gt;Mozilla，你们他妈在想些什么？&lt;br /&gt;
-   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！&lt;br /&gt;
+&lt;p&gt;Mozilla，你们他妈在想些什么？
+   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！
    好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -51,7 +51,7 @@
         <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
         <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
-        <description>&lt;p&gt;首先&lt;a href=&#34;http://www.google.com/landing/chrome/beta/&#34;&gt;到这个页面下载 Chrome 4.0&lt;br /&gt;
+        <description>&lt;p&gt;首先&lt;a href=&#34;http://www.google.com/landing/chrome/beta/&#34;&gt;到这个页面下载 Chrome 4.0
 Beta&lt;/a&gt;，然后&lt;a href=&#34;https://chrome.google.com/extensions/&#34;&gt;去扩展页面&lt;/a&gt;淘吧。&lt;/p&gt;
 
 &lt;p&gt;Chrome 扩展的好处：&lt;br /&gt;
@@ -63,12 +63,12 @@ Beta&lt;/a&gt;，然后&lt;a href=&#34;https://chrome.google.com/extensions/&#34
 浏览器内的扩展管理页面找不到扩展的主页；&lt;br /&gt;
 使用其他浏览器时不能先下载再安装。&lt;/p&gt;
 
-&lt;p&gt;等到 Chrome 扩展的丰富程度超过&lt;br /&gt;
+&lt;p&gt;等到 Chrome 扩展的丰富程度超过
 Firefox，而性能仍然能够保持最快的水准，我就会更换默认浏览器了。&lt;/p&gt;
 
 &lt;p&gt;目前我已经安装的扩展有：&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole&#34;&gt;Diigo&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole&#34;&gt;Diigo
 bookmarks&lt;/a&gt;&lt;br /&gt;
 书签收藏类，可惜 Diigo 至今仍然处于被封杀状态。&lt;/p&gt;
 
@@ -81,7 +81,7 @@ bookmarks&lt;/a&gt;&lt;br /&gt;
 &lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/loljledaigphbcpfhfmgopdkppkifgno#&#34;&gt;Lazarus&lt;/a&gt;&lt;br /&gt;
 自动保存输入框内容，防止丢失未提交的文本。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi&#34;&gt;Session&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi&#34;&gt;Session
 Manager&lt;/a&gt;&lt;br /&gt;
 存储、还原会话。&lt;/p&gt;
 
@@ -91,7 +91,7 @@ Manager&lt;/a&gt;&lt;br /&gt;
 &lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/imimolldggofidcmfdkcffpjcgaggoaf&#34;&gt;VerticalTabs&lt;/a&gt;&lt;br /&gt;
 标签太多的时候可以以纵列形式查看标签标题文字。&lt;/p&gt;
 
-&lt;p&gt;不少 Firefox 的扩展要继续耐心等待才能在 Chrome&lt;br /&gt;
+&lt;p&gt;不少 Firefox 的扩展要继续耐心等待才能在 Chrome
 上看到，有的也许永远也看不到…&lt;/p&gt;
 </description>
       </item>
@@ -101,14 +101,14 @@ Manager&lt;/a&gt;&lt;br /&gt;
         <link>https://ioerr.github.io/posts/pk/</link>
         <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
         <guid>https://ioerr.github.io/posts/pk/</guid>
-        <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;
 试试不干正事的浏览体验，结果…&lt;/p&gt;
 
 &lt;p&gt;遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；&lt;br /&gt;
 没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；&lt;br /&gt;
 快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；&lt;br /&gt;
 拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；&lt;br /&gt;
-便捷直观不如 Download Statusbar，内功修为不及&lt;br /&gt;
+便捷直观不如 Download Statusbar，内功修为不及
 DownThemAll!，下载我还用不惯；&lt;br /&gt;
 虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？&lt;br /&gt;
 不支持 Greasemonkey 这样的脚本平台就少了很多精彩…&lt;br /&gt;

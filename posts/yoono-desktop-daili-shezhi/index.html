@@ -20,15 +20,10 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="Yoono Desktop 代理设置" />
-<meta property="og:description" content="社交应用和即时通信的整合登录工具 Yoono
-的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+<meta property="og:description" content="社交应用和即时通信的整合登录工具 Yoono 的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
 好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
 官方就早给出了自己解决问题的方法：
-在 /Users/your_user_name/Library/Application
-Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
-文件，我这里是在
-\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
-xxxx 分别是 Windows 登录用户名和随机字符串）。
+在 /Users/your_user_name/Library/Application Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js 文件，我这里是在 \Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个 xxxx 分别是 Windows 登录用户名和随机字符串）。
 编辑 prefs.js 文件，在后面加上以下内容：
 user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
@@ -36,8 +31,7 @@ user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
 user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
 user_pref(&ldquo;network.proxy.type&rdquo;, 1);
-user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
-your_proxy_ip&rdquo;);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1, your_proxy_ip&rdquo;);
 将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/yoono-desktop-daili-shezhi/" />
@@ -61,15 +55,10 @@ your_proxy_ip&rdquo;);
 
 
 <meta itemprop="name" content="Yoono Desktop 代理设置">
-<meta itemprop="description" content="社交应用和即时通信的整合登录工具 Yoono
-的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+<meta itemprop="description" content="社交应用和即时通信的整合登录工具 Yoono 的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
 好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
 官方就早给出了自己解决问题的方法：
-在 /Users/your_user_name/Library/Application
-Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
-文件，我这里是在
-\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
-xxxx 分别是 Windows 登录用户名和随机字符串）。
+在 /Users/your_user_name/Library/Application Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js 文件，我这里是在 \Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个 xxxx 分别是 Windows 登录用户名和随机字符串）。
 编辑 prefs.js 文件，在后面加上以下内容：
 user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
@@ -77,8 +66,7 @@ user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
 user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
 user_pref(&ldquo;network.proxy.type&rdquo;, 1);
-user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
-your_proxy_ip&rdquo;);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1, your_proxy_ip&rdquo;);
 将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。">
 
 
@@ -91,15 +79,10 @@ your_proxy_ip&rdquo;);
 <meta itemprop="keywords" content="twitter,Yoono,代理," />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Yoono Desktop 代理设置"/>
-<meta name="twitter:description" content="社交应用和即时通信的整合登录工具 Yoono
-的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
+<meta name="twitter:description" content="社交应用和即时通信的整合登录工具 Yoono 的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。
 好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。
 官方就早给出了自己解决问题的方法：
-在 /Users/your_user_name/Library/Application
-Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
-文件，我这里是在
-\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
-xxxx 分别是 Windows 登录用户名和随机字符串）。
+在 /Users/your_user_name/Library/Application Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js 文件，我这里是在 \Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个 xxxx 分别是 Windows 登录用户名和随机字符串）。
 编辑 prefs.js 文件，在后面加上以下内容：
 user_pref(&ldquo;network.proxy.http&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.http_port&rdquo;, 3128);
@@ -107,8 +90,7 @@ user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);
 user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);
 user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);
 user_pref(&ldquo;network.proxy.type&rdquo;, 1);
-user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
-your_proxy_ip&rdquo;);
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1, your_proxy_ip&rdquo;);
 将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。"/>
 
 
@@ -200,15 +182,15 @@ your_proxy_ip&rdquo;);
         
       </p>
     </header>
-    <section><p>社交应用和即时通信的整合登录工具 <a href="http://www.yoono.com/">Yoono</a><br />
+    <section><p>社交应用和即时通信的整合登录工具 <a href="http://www.yoono.com/">Yoono</a>
 的桌面客户端拿来当 Twitter 客户端还挺好用，美中不足的是没有代理设置。<br />
 好在作为 XULRunner 应用，自己改配置文件也是一种解决方案。<br />
 官方就早给出了<a href="https://getsatisfaction.com/yoono/topics/add_proxy_setting_to_yoono_desktop">自己解决问题的方法</a>：</p>
 
-<p>在 /Users/your_user_name/Library/Application<br />
-Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js<br />
-文件，我这里是在<br />
-\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个<br />
+<p>在 /Users/your_user_name/Library/Application
+Support/Yoono/Profile/XXXXXXX.default 目录中找到 prefs.js
+文件，我这里是在
+\Users\xxxx\AppData\Roaming\Yoono\Yoono\Profiles\xxxxxxx.default 目录下（两个
 xxxx 分别是 Windows 登录用户名和随机字符串）。</p>
 
 <p>编辑 prefs.js 文件，在后面加上以下内容：<br />
@@ -218,7 +200,7 @@ user_pref(&ldquo;network.proxy.share_proxy_settings&rdquo;, true);<br />
 user_pref(&ldquo;network.proxy.ssl&rdquo;, &ldquo;squid.home-server&rdquo;);<br />
 user_pref(&ldquo;network.proxy.ssl_port&rdquo;, 3128);<br />
 user_pref(&ldquo;network.proxy.type&rdquo;, 1);<br />
-user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,<br />
+user_pref(&ldquo;network.proxy.no_proxies_on&rdquo;, &ldquo;localhost, 127.0.0.1,
 your_proxy_ip&rdquo;);</p>
 
 <p>将 squid.home-server 替换为代理的地址或名称，3128替换为代理的端口号。</p>
