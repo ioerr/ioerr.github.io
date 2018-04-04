@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私的未来 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="隐私的未来" />
+<meta property="og:description" content="最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。
+感觉大家普遍的看法是：
+随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。
+还有更加激进的看法：
+最终也许个人将毫无任何隐私可言。
+我的感觉倒没有这么悲观。
+现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。
+也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。
+那么，不重视保护隐私自然顺理成章。
+但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。
+因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。
+而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。
+现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。
+等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。
+有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yinsi-de-weilai/" />
+
+
+
+<meta property="article:published_time" content="2018-04-04T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-04-04T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="隐私的未来">
+<meta itemprop="description" content="最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。
+感觉大家普遍的看法是：
+随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。
+还有更加激进的看法：
+最终也许个人将毫无任何隐私可言。
+我的感觉倒没有这么悲观。
+现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。
+也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。
+那么，不重视保护隐私自然顺理成章。
+但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。
+因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。
+而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。
+现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。
+等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。
+有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。">
+
+
+<meta itemprop="datePublished" content="2018-04-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-04-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="17">
+
+
+
+<meta itemprop="keywords" content="隐私,互联网,人类,媒介,智能,未来趋势," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="隐私的未来"/>
+<meta name="twitter:description" content="最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。
+感觉大家普遍的看法是：
+随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。
+还有更加激进的看法：
+最终也许个人将毫无任何隐私可言。
+我的感觉倒没有这么悲观。
+现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。
+也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。
+那么，不重视保护隐私自然顺理成章。
+但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。
+因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。
+而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。
+现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。
+等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。
+有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&cx=013545684430412542782:jly1vjjeizg" title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="http://twitter.com/intent/tweet?text= @calon &tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2018-04-04 12:00">2018-04-04</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>隐私的未来</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E9%9A%90%E7%A7%81">
+              <span class="hash">#</span>隐私</a>
+          
+            , 
+            <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91">
+              <span class="hash">#</span>互联网</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E7%B1%BB">
+              <span class="hash">#</span>人类</a>
+          
+            , 
+            <a href="/tags/%E5%AA%92%E4%BB%8B">
+              <span class="hash">#</span>媒介</a>
+          
+            , 
+            <a href="/tags/%E6%99%BA%E8%83%BD">
+              <span class="hash">#</span>智能</a>
+          
+            , 
+            <a href="/tags/%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF">
+              <span class="hash">#</span>未来趋势</a>
+          
+        
+      </p>
+    </header>
+    <section><p>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。</p>
+
+<p>感觉大家普遍的看法是：<br />
+随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。</p>
+
+<p>还有更加激进的看法：<br />
+最终也许个人将毫无任何隐私可言。</p>
+
+<p>我的感觉倒没有这么悲观。</p>
+
+<p>现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。<br />
+也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。<br />
+那么，不重视保护隐私自然顺理成章。</p>
+
+<p>但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。<br />
+因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。</p>
+
+<p>而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。</p>
+
+<p>现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。</p>
+
+<p>等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。<br />
+有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9a%90%e7%a7%81%e7%9a%84%e6%9c%aa%e6%9d%a5》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyinsi-de-weilai%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyinsi-de-weilai%2f&text= @calon %e9%9a%90%e7%a7%81%e7%9a%84%e6%9c%aa%e6%9d%a5&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2018 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
