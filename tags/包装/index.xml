@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>包装 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%8C%85%E8%A3%85/</link>
+    <description>Recent content in 包装 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E5%8C%85%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>商品溢价</title>
+        <link>https://ioerr.github.io/posts/shangpin-yijia/</link>
+        <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shangpin-yijia/</guid>
+        <description>&lt;p&gt;一件商品加上“时尚”二字可以溢价10%，比如“手提包”和“时尚手提包”。&lt;/p&gt;
+
+&lt;p&gt;加上“简约”二字可以溢价30%，比如“T恤”和“简约 T恤”。&lt;/p&gt;
+
+&lt;p&gt;加上“战术”则是至少50%，比如“腰带”和“战术腰带”。&lt;/p&gt;
+
+&lt;p&gt;估计要是加上“战略”二字应该可以溢价达到100%以上。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

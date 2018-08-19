@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>转世 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%BD%AC%E4%B8%96/</link>
+    <description>Recent content in 转世 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 24 May 2018 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E8%BD%AC%E4%B8%96/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>转世或复活的初步技术问题</title>
+        <link>https://ioerr.github.io/posts/zhuanshi-fuhuo-de-chubu-jishu-wenti/</link>
+        <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuanshi-fuhuo-de-chubu-jishu-wenti/</guid>
+        <description>&lt;p&gt;如果按照常见的宗教或小说设定，世界上所有死去的生命都可以轮回转世或复活，那么他们的灵魂在哪里存储呢？&lt;br /&gt;
+灵魂要如何数字化？&lt;br /&gt;
+采用什么介质存储？&lt;br /&gt;
+如何校验以保证存储和传输的数据不会变动？&lt;br /&gt;
+有没有异地容灾的冗余备份机制？&lt;br /&gt;
+冗余备份是否会导致灵魂重复和冲突？&lt;br /&gt;
+灵魂恢复的手段是什么？&lt;br /&gt;
+备份与恢复时，读写、传输和转换效率有多高？&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

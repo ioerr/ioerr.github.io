@@ -6,10 +6,79 @@
     <description>Recent content in 软硬挨踢 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 24 Apr 2017 22:22:53 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>我为什么反对卢德主义</title>
+        <link>https://ioerr.github.io/posts/wo-weishenme-fandui-luddism/</link>
+        <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/wo-weishenme-fandui-luddism/</guid>
+        <description>&lt;p&gt;工业革命初期，失业的工人认为他们被机器抢走了工作机会，于是捣毁机器，他们被称为卢德主义者。&lt;/p&gt;
+
+&lt;p&gt;随着工业革命继续进行，人们认识到机器取代低效的人力不可避免，卢德主义慢慢不再有号召力。&lt;/p&gt;
+
+&lt;p&gt;到了计算机时代，新的卢德主义者们担忧计算机和人工智能会胜过和取代人类，许多科学家和计算机业界的知名人士也呼吁停止人工智能发展。&lt;/p&gt;
+
+&lt;p&gt;我可以理解卢德主义者担忧技术快速发展带来的结构性失业问题，但不认为停止技术发展是解决该问题的好办法——无论从历史经验还是经济学理论来看，卢德主义都找错了问题的原因，表面看是技术带来的问题，归根结底还是经济和政治问题，其解决方案因此也站不住脚。&lt;/p&gt;
+
+&lt;p&gt;我也认同未来的强人工智能的确有胜过、取代、奴役和消灭人类的危险，但从价值观出发，我强烈反感卢德主义——因为卢德主义代表最反对人类价值的观点。&lt;/p&gt;
+
+&lt;p&gt;生命的价值和尊严在于生存本身，还是其创造的价值？&lt;br /&gt;
+你是根据一个人生存状况还是他创造的东西来评价他？&lt;br /&gt;
+这就是技术发展问题背后的价值观差异。&lt;/p&gt;
+
+&lt;p&gt;在我看来，人类之所以为人类，区别于其他已知的生物，是因为人类会为了生存繁衍之上的理想和目标运用理性思考和技术工具，不断有目的、有意识地发明创造和改变世界，而不只是为了在残酷的环境中苟且偷生。&lt;/p&gt;
+
+&lt;p&gt;如果人类没有超越世界给定的追求目标，那么无论生活如何富足舒适，和无智慧的生物又有什么本质区别？&lt;/p&gt;
+
+&lt;p&gt;人工智能等计算机技术的发展，既是大幅度提升技术工具的生产力，也是对人类自身智慧机理的深入探索方式之一，更是突破自然界演化结果的尝试和挑战：突破碳基生命智慧上限，甚至与人工智慧并存形成新形态的生命形式。&lt;/p&gt;
+
+&lt;p&gt;计算机时代的新卢德主义，则是在“人类的安全”和“人类成为更高维度智慧生命”之间，坚定认为为了前者的缘故，必须牺牲后者的机会——即使技术的发展未必就会毁灭人类，人类社会的问题也未必来自于技术发展，更不用说未来也许只有依靠新技术才能应对星球级别的天灾。&lt;/p&gt;
+
+&lt;p&gt;曾经的地壳霸主恐龙统治地球表面超过1亿6千万年，人类站到食物链顶端的时间还差得远，但如果坚持卢德主义，失去技术发展带来的无限可能，那么人类的未来与恐龙将没有区别。&lt;/p&gt;
+
+&lt;p&gt;另：最近看到冯象的《我是阿尔法》和阮一峰的《未来世界的幸存者》都表达了对机器取代人类的担忧，以及为了避免这种结局而停止技术发展的倾向。&lt;br /&gt;
+这方面最值得说道的应该是 Kaczynski 的《工业社会及其未来》，事迹影响大，中文读者相对比较熟悉，一些对未来技术发展的思考可以引出不少有意思的话题，后续可以写个系列出来。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>如何确定一个人的身份？</title>
+        <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
+        <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
+        <description>&lt;p&gt;目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。&lt;/p&gt;
+
+&lt;p&gt;线下的服务，则通常使用身份证，结合照片、指纹等验明正身，更先进的还有外貌、声音、虹膜、身材、行为举止等，但还无法独立、精确地验证。&lt;/p&gt;
+
+&lt;p&gt;如果以后人可以克隆，外貌、身材、指纹、虹膜、声纹这些身体特征可能完全一致。&lt;/p&gt;
+
+&lt;p&gt;如果记忆可以移植，甚至脑内事先设定的密码可以读取出来，还有什么可以用来确定一个人的身份呢？&lt;/p&gt;
+
+&lt;p&gt;或者可以这样问，如果从这一时刻出现完全一模一样的两个人，决定他们身份差异的最关键因素是什么呢？&lt;/p&gt;
+
+&lt;p&gt;也许只有他们面对同一事务作出的不同选择才是终极差异？&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>转世或复活的初步技术问题</title>
+        <link>https://ioerr.github.io/posts/zhuanshi-fuhuo-de-chubu-jishu-wenti/</link>
+        <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhuanshi-fuhuo-de-chubu-jishu-wenti/</guid>
+        <description>&lt;p&gt;如果按照常见的宗教或小说设定，世界上所有死去的生命都可以轮回转世或复活，那么他们的灵魂在哪里存储呢？&lt;br /&gt;
+灵魂要如何数字化？&lt;br /&gt;
+采用什么介质存储？&lt;br /&gt;
+如何校验以保证存储和传输的数据不会变动？&lt;br /&gt;
+有没有异地容灾的冗余备份机制？&lt;br /&gt;
+冗余备份是否会导致灵魂重复和冲突？&lt;br /&gt;
+灵魂恢复的手段是什么？&lt;br /&gt;
+备份与恢复时，读写、传输和转换效率有多高？&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>苹果微信之争</title>
@@ -464,90 +533,6 @@ Rollout）等技术，擅长在既定规则和完全信息下，通过大量学�
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;然后保存，去必应输入法双拼方案设置界面选择“小鹤双拼”即可。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Flickr 照片剔重工具</title>
-        <link>https://ioerr.github.io/posts/flickrdupfinder/</link>
-        <pubDate>Sat, 28 Feb 2015 12:38:00 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/flickrdupfinder/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-虽然没有自带照片剔重功能，但开放了接口，就自然有爱好者帮忙提供工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ng-flickrdupfinder.lefant.net&#34;&gt;ng-flickrdupfinder&lt;/a&gt; 能够列出你的
-&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt; 账号中重复的照片，经过审核后打上
-flickrdupfinder 的标签，然后在 &lt;a href=&#34;https://www.flickr.com/photos/organize&#34;&gt;Flickr
-的管理界面&lt;/a&gt;就能够&lt;a href=&#34;https://www.flickr.com/photos/me/tags/flickrdupfinder&#34;&gt;根据标签&lt;/a&gt;批量删除了。&lt;/p&gt;
-
-&lt;p&gt;作者&lt;a href=&#34;https://github.com/lefant/ng-flickrdupfinder&#34;&gt;在 Github
-共享了源代码&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;缺点有两个，一是如果重复的照片很多，需要多几次翻页，二是修改后的照片也会识别为与原片重复，所以要自己小心了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Pandoc &amp; Markdown</title>
-        <link>https://ioerr.github.io/posts/pandoc-markdown/</link>
-        <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
-        <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。&lt;br /&gt;
-&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。&lt;/p&gt;
-
-&lt;p&gt;如果需要预览才能用好，那是否说明 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 还不够简单、直观？&lt;/p&gt;
-
-&lt;p&gt;我使用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 的次数不多，因为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt; + HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;如果要用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;，我一般会通过 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 转换输出为 HTML 再发布，这样不管是不支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 语法的，还是支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 &lt;a href=&#34;https://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 等平台上，当然还是用 HTML 比较通用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的一大好处是支持的输入输出格式极为丰富，简单的东西用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。&lt;br /&gt;
-其次是可以自定义的参数一大堆，比如 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 中要求行末加双空格才转为换行，&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 用 markdown+hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。&lt;/p&gt;
-
-&lt;p&gt;如果配合 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 使用，安装 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 后可以在工具栏中增加 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的快捷图标，参数栏中写上：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;code&amp;gt;-f markdown+hard_line_breaks %N -o %O.html&amp;lt;/code&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。&lt;/p&gt;
-
-&lt;p&gt;不使用 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 也可以自己写个脚本或批处理干这事。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>移动应用痛点</title>
-        <link>https://ioerr.github.io/posts/yidong-yingyong-tongdian/</link>
-        <pubDate>Sat, 11 Oct 2014 10:11:17 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/yidong-yingyong-tongdian/</guid>
-        <description>&lt;p&gt;虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。&lt;/p&gt;
-
-&lt;p&gt;一个原因是应用之间的数据分享通道局限太多，对内容的操控抓得太紧。&lt;/p&gt;
-
-&lt;p&gt;典型的例子就是要分享一些阅读应用中的内容，地址、标题、正文、图片等等无法像电脑浏览网页一样，给用户完全的控制权，有时甚至禁止选择文字。&lt;/p&gt;
-
-&lt;p&gt;也许这样限制的初衷是防止方便盗用内容，但一来移动应用上的内容盗用并不因此就少了，有利益驱动谁也挡不住，二来用户有心整理内容，精炼消化后准备二次分享，这是有益于提升交流和内容质量的事情，现在却只能换到电脑上整理。&lt;/p&gt;
-
-&lt;p&gt;既然各个应用之间是分工合作的关系，谁也不能包打天下，那么这种无形中限制数据流动的做法等于提升了用户操作成本。&lt;br /&gt;
-如果是不过脑子的娱乐内容也无所谓，真要干什么正经事情，还是觉得麻烦。&lt;/p&gt;
-
-&lt;p&gt;第二个原因，则是移动应用并没有提供一条龙的流畅业务体验。&lt;/p&gt;
-
-&lt;p&gt;作为用户，我最终想要的就是提出自己的目的，然后其他一切由应用代我搞定，最终由我在几个选项中选择最中意的那个就行。&lt;br /&gt;
-限于目前的软件能力，哪怕将关键数据收集、整理好，给我参考决策，也算是可以接受了。&lt;br /&gt;
-但现状是离这个状态还差得远。&lt;/p&gt;
-
-&lt;p&gt;比如说外出游玩，有地图查询、餐饮查询、酒店预订、车船机票预定、景点旅游攻略、同城活动查询……各种应用，可是用户得一个个切换过去，查询、筛选、比对、求证、记录、下单，遇到有的条件不合适，整个流程还得重新来过。&lt;/p&gt;
-
-&lt;p&gt;比如说购买自己不大熟悉的商品，在电子商务网站搜索出来的结果是很多，也有不少比价工具，但除了价格、信用之外，一眼看去也很难有可参考的信息了，有时候你要去官网找哪些是官方授权网店，有时候要比对各大电商网站翻评论，或者去专门的论坛找评测，等到终于下决心要下单了，发现还要考虑送达本地的时间等等，又得重新过滤一遍。&lt;/p&gt;
-
-&lt;p&gt;又比如时下越来越流行的健康监测应用，实时、准确采集数据的功能是越来越强，但采集到的数据从整合到分析，到一票社交渠道互动，到协助改善生活习惯、健身计划，到和各种周边应用如健身器材购买升级、同城健身活动组织，乃至衣食行消费导购和理财等等等等，都还只整合了部分。&lt;/p&gt;
-
-&lt;p&gt;加上第一个原因的限制，很多并无多大意义的中间信息都要亲自处理，用户就像在山谷中前进，终点仿佛就在眼前，走过去却还要上山下地。&lt;br /&gt;
-信息技术应该帮助信息如流水一般，朝正确的方向流动起来，现在的移动应用却像是要用户自己一桶桶地提水，装满了水再开动机器。&lt;/p&gt;
-
-&lt;p&gt;当然，把移动应用做得大而全到臃肿的地步也不可取，那样比现在更加糟糕，但针对不同目的的应用之间相互串联贯通并不只有大而全一条路可以走，内部相互之间的接口通讯不给用户看到就行。&lt;br /&gt;
-只是这样的改变需要整个生态环境的进化才能实现了。&lt;/p&gt;
 </description>
       </item>
     

@@ -6,10 +6,25 @@
     <description>Recent content in 统计 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2009 17:41:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>足球比赛的规律</title>
+        <link>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</link>
+        <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</guid>
+        <description>&lt;p&gt;以前每逢足球大赛，球迷们都说意大利克德国，德国克法国、阿根廷，法国克巴西，还有意大利荷兰点球不行，西班牙预选赛之王，等等。&lt;/p&gt;
+
+&lt;p&gt;其实可能只是因为样本太少所以以为是规律。&lt;/p&gt;
+
+&lt;p&gt;近年来06年世界杯意大利点球胜法国，16年欧洲杯上德国赢意大利，16年欧洲杯法国胜德国，输葡萄牙，荷兰点球也翻过身，西班牙大赛三连冠，所以又有谁翻身复仇了不要觉得奇怪。&lt;/p&gt;
+
+&lt;p&gt;最终比赛还是要靠实力说话，当场次较少的时候，各种几率有可能存在，但只要时间足够长，比赛足够多，统计概率还是会慢慢靠向实力分布的情况的。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Elo 排名系统</title>

@@ -6,10 +6,74 @@
     <description>Recent content in 大杂烩 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Jul 2017 21:47:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>如何确定一个人的身份？</title>
+        <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
+        <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
+        <description>&lt;p&gt;目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。&lt;/p&gt;
+
+&lt;p&gt;线下的服务，则通常使用身份证，结合照片、指纹等验明正身，更先进的还有外貌、声音、虹膜、身材、行为举止等，但还无法独立、精确地验证。&lt;/p&gt;
+
+&lt;p&gt;如果以后人可以克隆，外貌、身材、指纹、虹膜、声纹这些身体特征可能完全一致。&lt;/p&gt;
+
+&lt;p&gt;如果记忆可以移植，甚至脑内事先设定的密码可以读取出来，还有什么可以用来确定一个人的身份呢？&lt;/p&gt;
+
+&lt;p&gt;或者可以这样问，如果从这一时刻出现完全一模一样的两个人，决定他们身份差异的最关键因素是什么呢？&lt;/p&gt;
+
+&lt;p&gt;也许只有他们面对同一事务作出的不同选择才是终极差异？&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>超穷</title>
+        <link>https://ioerr.github.io/posts/chaoqiong/</link>
+        <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/chaoqiong/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;康托尔意识到了集合的重要性，并以此为基础发展出了朴素集合论，也意识到“无穷”也有无穷个不同的级别，并称之为“超穷”，意即超验（超越日常经验）的无穷。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;——是谁先翻译成“超穷”的？这绝对没有超越日常经验啊！&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>商品溢价</title>
+        <link>https://ioerr.github.io/posts/shangpin-yijia/</link>
+        <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/shangpin-yijia/</guid>
+        <description>&lt;p&gt;一件商品加上“时尚”二字可以溢价10%，比如“手提包”和“时尚手提包”。&lt;/p&gt;
+
+&lt;p&gt;加上“简约”二字可以溢价30%，比如“T恤”和“简约 T恤”。&lt;/p&gt;
+
+&lt;p&gt;加上“战术”则是至少50%，比如“腰带”和“战术腰带”。&lt;/p&gt;
+
+&lt;p&gt;估计要是加上“战略”二字应该可以溢价达到100%以上。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>美国国会质询 Facebook 的真正目的</title>
+        <link>https://ioerr.github.io/posts/meiguo-guohui-zhixun-facebook-de-zhenzheng-mudi/</link>
+        <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/meiguo-guohui-zhixun-facebook-de-zhenzheng-mudi/</guid>
+        <description>&lt;p&gt;近日，Facebook CEO 扎克伯格出席美国国会司法和商务委员会的联合听证会，就 Facebook 用户隐私泄露事件接受参议员质询。&lt;/p&gt;
+
+&lt;p&gt;很多人觉得这是国会站在用户隐私的角度向 Facebook 质询。但联想到棱镜门事件，我觉得国会质询扎克伯格最关心的两点其实是：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;你怎么可以在侵犯公民隐私方面抢美国政府的生意？一定要让你认识到谁才是大佬。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;你是怎么让用户甘愿交出隐私还能赚到大钱的？一定要传授给我们。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      </item>
     
       <item>
         <title>板夹笔记</title>
@@ -356,145 +420,6 @@ done
 
 &lt;p&gt;一般中国司机眼中的人行横道预告标示：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=images.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/images.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>为不可为</title>
-        <link>https://ioerr.github.io/posts/wei-buke-wei/</link>
-        <pubDate>Tue, 13 Sep 2011 14:25:04 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/wei-buke-wei/</guid>
-        <description>&lt;p&gt;看到有人问，公司宣传标语“In order to achieve the possible we need to
-keep trying the impossbile.”怎么翻译好。&lt;/p&gt;
-
-&lt;p&gt;直译过来就是，要实现可能的事情，我们得先不断尝试那些不可能的事，其精神大概就是要勇于挑战吧。&lt;/p&gt;
-
-&lt;p&gt;想到《易经》中的“取法乎上，仅得其中；取法乎中，仅得其下”，和《论语》中形容孔子的“知其不可而为之”，翻译为“为不可为，方得其上”。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>无聊对话录</title>
-        <link>https://ioerr.github.io/posts/wuliao-duihualu/</link>
-        <pubDate>Thu, 30 Jun 2011 15:27:19 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/wuliao-duihualu/</guid>
-        <description>&lt;p&gt;A：“你们怎么能这样打人？！”&lt;br /&gt;
-B：“那换个方式这样打行不行？”&lt;/p&gt;
-
-&lt;p&gt;A：“这位选手，你其他方面的表现都还不错，就是唱歌有些走调。”&lt;br /&gt;
-B：“是这样的，评委老师，这首歌原唱就是这样，我练了很久才练出这种貌似走调的效果。”&lt;/p&gt;
-
-&lt;p&gt;A：“我觉得自从和你谈恋爱以后就越来越蠢了。”&lt;br /&gt;
-B：“不，是你越来越聪明了。只有你变聪明了才会意识到自己蠢。”&lt;/p&gt;
-
-&lt;p&gt;A：“你好，我叫田中华。”&lt;br /&gt;
-B：“哦，你好，请问你是姓田中吗？”&lt;/p&gt;
-
-&lt;p&gt;A：“做人要低调。”&lt;br /&gt;
-B：“D 大调还是 D 小调？”&lt;/p&gt;
-
-&lt;p&gt;A：“你最喜欢参加什么运动？”&lt;br /&gt;
-B：“布朗运动。”&lt;/p&gt;
-
-&lt;p&gt;A：“据说中国最有名的瓷盘生产厂家在景德镇？”&lt;br /&gt;
-B：“对，以前比希捷什么的牛多了。”&lt;/p&gt;
-
-&lt;p&gt;A：“女人的钱好骗。”&lt;br /&gt;
-B：“小孩的钱好骗。”&lt;br /&gt;
-C：“怀小孩的女人的钱最好骗啊。”&lt;/p&gt;
-
-&lt;p&gt;A：“弘扬社会主义道德相当于黑社会拜关公。”&lt;br /&gt;
-B：“不相互干涉内政相当于不插手对方帮派事务。”&lt;br /&gt;
-C：“所以一听到说帝国主义亡我之心不死你就知道要收保护费了。”&lt;/p&gt;
-
-&lt;p&gt;A：“当别人打你的右脸时该怎么办？”&lt;br /&gt;
-B：“你当用左脸还击！”&lt;/p&gt;
-
-&lt;p&gt;A：“虽然结婚已经有一段时间了，但我偶尔还是会觉得仍在未婚状态。”&lt;br /&gt;
-B：“这很正常，人总要花很长时间来适应变化，比如有的女明星至今还宣称自己是处女。”&lt;/p&gt;
-
-&lt;p&gt;A：“以前巴西有个球员很厉害的，就是被伤病毁了，可能是名字不太好吧。”&lt;br /&gt;
-B：“他叫什么名字。”&lt;br /&gt;
-A：“好像是叫犬儒尼尼奥吧。”&lt;/p&gt;
-
-&lt;p&gt;A：“你…你为什么……？”&lt;br /&gt;
-B：“我喂猪……”&lt;/p&gt;
-
-&lt;p&gt;A：“我想存钱，附近哪儿有银行？”&lt;br /&gt;
-B：“正好，我也想存钱，附近哪儿有钱？”&lt;br /&gt;
-C：（指→A）&lt;/p&gt;
-
-&lt;p&gt;A：“捷克布拉格怎么写？”&lt;br /&gt;
-B：“Jack Black。”&lt;/p&gt;
-
-&lt;p&gt;A：“岁寒三友是什么你知道吗？”&lt;br /&gt;
-B：“这是常识嘛，太简单了。&lt;br /&gt;
-…………………………&lt;br /&gt;
-怎么，不是空调、暖气、热水袋吗？”&lt;/p&gt;
-
-&lt;p&gt;A：“你看，日本人在灾难中也有素质低下的行为，比如员工偷拿公司厕纸。”&lt;br /&gt;
-B：“这也是在灾难情况下吧，民族和素质高下没有必然联系。”&lt;br /&gt;
-A：“那这说明我国时刻都处在灾难当中？”&lt;/p&gt;
-
-&lt;p&gt;A：“如果案子办错了怎么办？”&lt;br /&gt;
-B：“可以申请国家赔偿。”&lt;br /&gt;
-A：“如果杀错了怎么办，可以要求国家陪命吗？”&lt;br /&gt;
-B：“那就坐实了颠覆国家政权罪。”&lt;/p&gt;
-
-&lt;p&gt;A：“班门弄斧就是说在木匠祖师爷鲁班的门前卖弄使用斧子的技术。”&lt;br /&gt;
-B：“那关门放狗呢？”&lt;/p&gt;
-
-&lt;p&gt;A：“你有什么超能力？”&lt;br /&gt;
-B：“走进任何一部电梯都会报超载告警。”&lt;/p&gt;
-
-&lt;p&gt;A：“XX 真是 YY 界的良心啊！”&lt;br /&gt;
-B：“所以被狗吃了……”&lt;/p&gt;
-
-&lt;p&gt;A：“你们这里总统套房多少钱一晚？”&lt;br /&gt;
-B：“先生，对不起，我们这里只有书记套房和主席套房。”&lt;/p&gt;
-
-&lt;p&gt;A：“你看人家都在云端服务呢！”&lt;br /&gt;
-B：“淡定！我们在平流层。”&lt;/p&gt;
-
-&lt;p&gt;A：“XX
-系统好灵活啊，无论业务需求多么复杂，你想让它干什么就能够干什么。”&lt;br /&gt;
-B：“嗯，可惜就是你不想让它干什么的时候它没法不能干什么。”&lt;/p&gt;
-
-&lt;p&gt;A：“一些明显无法落实执行的条款是不是应该从法律法规中拿出去啊？”&lt;br /&gt;
-B：“是啊，一般我们都把它们挪到宪法里面。”&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Simple Desktops</title>
-        <link>https://ioerr.github.io/posts/simple-desktops/</link>
-        <pubDate>Fri, 25 Feb 2011 03:31:44 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/simple-desktops/</guid>
-        <description>&lt;p&gt;之前介绍过提供简洁桌面背景图的
-&lt;a href=&#34;http://calon.weblogs.us/minimalwall/&#34;&gt;MinimalWall&lt;/a&gt;，不过图片内容基本都是文字，而
-&lt;a href=&#34;http://simpledesktops.com/&#34;&gt;Simple Desktops&lt;/a&gt;
-的技术含量高一点，背景图片的内容都是图案了。&lt;/p&gt;
-
-&lt;p&gt;比如说《&lt;strike&gt;情人节&lt;/strike&gt;圣诞节前的噩梦》中的 Jack：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/feb/10/jack/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/02/10/Jack4.png.610x382_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;或者 Konami 游戏中的秘籍：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/jan/10/konami-code/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/01/10/konami-code.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;还有《2001太空奥德赛》中的机器人 HAL 9000：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/apr/01/hal-9000/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/04/01/hal-9000.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可是，像这种宝丽莱相机的图案一点都不简洁好吗？&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/jun/09/fly-polaroid/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/06/07/pomo.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>两种自负</title>
-        <link>https://ioerr.github.io/posts/liangzhong-zifu/</link>
-        <pubDate>Wed, 27 Oct 2010 15:14:06 +0000</pubDate>
-        <guid>https://ioerr.github.io/posts/liangzhong-zifu/</guid>
-        <description>&lt;p&gt;理性的自负和反理性的自负是一体两面，前者以为凭借人类的理性可以完全确定社会的演进发展路径，后者则以为通过放弃理性、逃避演进就可以避免这种演进带来的牺牲和损失——就像炒股者相信掷骰子可以避免亏钱，螳螂相信放下臂膀就不会被车轮碾过一样。&lt;/p&gt;
 </description>
       </item>
     
