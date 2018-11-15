@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ioerr.github.io/posts/ziyou-de-xinhao-zuoyong/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/wo-weishenme-fandui-luddism/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
   </url>
@@ -6580,7 +6585,7 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7323,6 +7328,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E4%BB%B7%E6%A0%BC/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E4%BB%BB%E5%8A%A1%E8%B7%9F%E8%B8%AA/</loc>
     <lastmod>2011-01-31T09:46:47+00:00</lastmod>
     <priority>0</priority>
@@ -7421,6 +7432,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E4%BF%A1%E4%BB%B0/</loc>
     <lastmod>2018-04-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E4%BF%A1%E5%8F%B7/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8957,6 +8974,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%83%B3%E8%B1%A1%E7%9A%84%E5%85%B1%E5%90%8C%E4%BD%93/</loc>
     <lastmod>2013-04-23T06:02:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%84%8F%E4%B9%89/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10540,7 +10563,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11206,7 +11229,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%87%AA%E7%94%B1/</loc>
-    <lastmod>2017-10-05T14:49:29+08:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11518,7 +11541,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
