@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ioerr.github.io/posts/gattaca/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/guanyu-zhishi-chanquan-longduan-de-taolun/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -6585,7 +6590,7 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8222,6 +8227,24 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E5%9F%BA%E5%9B%A0/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%94%B9%E9%80%A0/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E5%9F%BA%E7%9D%A3%E6%95%99/</loc>
     <lastmod>2009-10-12T16:10:30+00:00</lastmod>
     <priority>0</priority>
@@ -9135,7 +9158,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9400,6 +9423,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%96%87%E8%83%B8/</loc>
     <lastmod>2008-06-26T15:51:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%96%B0%E4%BA%BA%E7%B1%BB/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10011,7 +10040,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1/</loc>
-    <lastmod>2018-01-12T20:24:39+08:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10132,6 +10161,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%BB%94%E6%BB%94/</loc>
     <lastmod>2007-12-18T13:51:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%BC%94%E5%8C%96%E8%AE%BA/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10479,7 +10514,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%94%B5%E5%BD%B1/</loc>
-    <lastmod>2013-02-27T09:39:26+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10575,7 +10610,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10773,13 +10808,19 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2014-07-16T14:33:59+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E7%A7%91%E5%AD%A6%E4%BC%A6%E7%90%86/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%A7%91%E5%B9%BB/</loc>
-    <lastmod>2014-12-03T14:04:11+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11559,7 +11600,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11817,7 +11858,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%BF%9B%E5%8C%96%E8%AE%BA/</loc>
-    <lastmod>2009-10-08T16:41:21+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
