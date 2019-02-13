@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>设计论 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1%E8%AE%BA/</link>
+    <description>Recent content in 设计论 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 14 Mar 2006 16:53:23 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>进化论、设计论之争与奥卡姆剃刀</title>
+        <link>https://ioerr.github.io/posts/jinhualun-shejilun-zhizheng-yu-aokamutidao/</link>
+        <pubDate>Tue, 14 Mar 2006 16:53:23 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/jinhualun-shejilun-zhizheng-yu-aokamutidao/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://godoor.net/jidianlinks&#34;&gt;基甸&lt;/a&gt;在
+&lt;a href=&#34;http://jidian.blogbus.com/&#34;&gt;blog&lt;/a&gt;
+上转载了羽毛乱飞的《&lt;a href=&#34;http://forum.ccim.org/viewthread.php?tid=440&amp;amp;extra=&amp;amp;page=1&#34;&gt;关于进化论和设计论之争的一些想法&lt;/a&gt;》。因为我的几句匆匆回复，羽毛乱飞在论坛中就奥卡姆剃刀原则等的问题&lt;a href=&#34;http://forum.ccim.org/viewthread.php?tid=440&amp;amp;extra=&amp;amp;page=2&#34;&gt;又谈了不少&lt;/a&gt;，看来我和他对这一原则的理解确实存在很大差异，因此在这里较为深入地讨论一下。&lt;/p&gt;
+
+&lt;p&gt;首先把羽毛乱飞的回复全部贴出来，免得读者先看到我的文字而先入为主。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+QUOTE:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;
+身为一个怀疑论者，很遗憾羽毛乱飞兄对奥卡姆剃刀的理解不正确。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当然可以说我的理解也未必对，但只要试着把自己的理解应用到科学研究中就知道结果了。&lt;/p&gt;
+
+&lt;p&gt;有和无，与状态为0和1，不能够随便混淆、作类比。&lt;/p&gt;
+
+&lt;p&gt;状态是0还是1，没有哪个更富余，哪个更精简的说法；但是那些能够应用剃刀的情况，确实是有繁简之分。
+&lt;/blockquote&gt;
+&amp;gt; 我认为我对奥卡姆剃刀原则的基本理解应该是对的。&lt;/p&gt;
+
+&lt;p&gt;我说过这只是一个类比，是一种形象化的理解而已，如果说举例不当，也许有可能，毕竟本文只是一个急就章而已。问题是，我并非从0和1的关系中“推导出”我的那个有关进化论问题的观点。这位朋友不论是批评我的类比不当还是批评两者有本质不同，他批评的只是论证过程中的一个语文修辞问题，一个形象化表达的不成功而已，而这还没有影响到我对进化论问题的论点本身。这位朋友也没有说明我和他对于奥卡姆剃刀问题的不同看法不同何在。&lt;/p&gt;
+
+&lt;p&gt;在这个问题上，我的阐述基本上是以方舟子过去的经典的言论为默认对象的，对于进化论和设计论的不同，方舟子在
+《“神秘现象”并不神秘》一文中有过一个很简明的表达：&lt;/p&gt;
+
+&lt;p&gt;QUOTE:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;blockquote&gt;
+“例如有以下两种结论：一、生物经过进化而来。二、上帝创造了进化的准则，生物经过进化而来。这两种结论说明的是同一个事实，即“生物经过进化而来”，但是后者的假设“上帝创造了进化的准则”对说明这一事实没有任何必要，因此是个多余的假设，在科学上应用奥卡姆剃刀将它剔除。”
+&lt;/blockquote&gt;
+我要指出正是这样一个看上去很“科学”的观点中所隐含的“意识形态”因素。在方舟子看来，存在两种需要被检验的理论：&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;（1）生物经过进化而来&lt;br /&gt;
+（2）生物经过进化而来，上帝创造了进化的准则&lt;/p&gt;
+
+&lt;p&gt;于是，方舟子用奥卡姆剃刀原则，指出理论（2）存在“多余假设”，所以理应抛弃。我指出，当我们这样看待这个问题的时候，我们已经假设了“无神论是真理”，或者谨慎一点地说，我们已经假设了，所谓”第一推动“并不存在（还没有证明，结论已经出来啦？）。我认为，如果我们在阐述的时候能够意识这种隐含的”无神论意识形态“因素，那么，这两个理论其实是这样表达：&lt;/p&gt;
+
+&lt;p&gt;（1）生物经过进化而来，进化的准则不是被创造的&lt;br /&gt;
+（2）生物经过进化而来，进化的准则是被创造的&lt;/p&gt;
+
+&lt;p&gt;或者换作更准确的表达方式：&lt;/p&gt;
+
+&lt;p&gt;（1）生物经过进化而来，进化的准则是内在的&lt;br /&gt;
+（2）生物经过进化而来，进化的准则是外在的&lt;/p&gt;
+
+&lt;p&gt;如此我们就可以看出，理论（2）和理论（1）相比，根本不存在什么”多余的东西“。之所以我们之前会觉得有”多余“，因为无神论者把”不存在设计“当作了一个”不言而喻的真理前提“而给省略掉了。&lt;/p&gt;
+
+&lt;p&gt;我把理论（1）称为：”自然进化论“（我在”自然“这个词的本义上使用它），而把理论（2）称为”设计进化论“。他们之间的区别不是方舟所说的，一个是另外一个的啰嗦版的关系，因为两者所描述的是完全不同的两种机制。&lt;/p&gt;
+
+&lt;p&gt;我再次强调，我承认任何一个科学家和有理性的人都有权利选择”无神论“作为他思维的起点，我并不强求所有人都从基督徒的信仰出发去思考和观察世界，这不是我的目的，基督徒不会也不能这样”霸道“。我只是要指出，如果一个论证——比如上面提到的理论（1）——是以无神论或者说”不存在设计“为其立论前提的话，那么它就不能成为证明无神论或者”不存在设计“观念的证据。&lt;/p&gt;
+
+&lt;p&gt;还是打个比方。方舟子的意思是说，如果我们考察地上一堆碎玻璃，发现它原来是一个玻璃杯，那么对于这样一个从”玻璃杯“到”碎玻璃“的事物演化过程，我们可以有如下假设：&lt;/p&gt;
+
+&lt;p&gt;（1）杯子从高处掉下来摔碎了&lt;br /&gt;
+（2）杯子从高处掉下来摔碎了，某人把玻璃杯举起从高处掉下来。&lt;/p&gt;
+
+&lt;p&gt;方舟子式的观点认为，假设（2）含有多余的因素，我们应该抛弃（2）而选择”更简洁“的假设（1）。&lt;/p&gt;
+
+&lt;p&gt;这样的观点，首先就存在一个严重问题，那就是如此使用奥卡姆剃刀使科学忽视了对于人的生存而言同样重要和有意义的事情（一个经常闯祸的小孩的父亲真正关心的不可能仅仅是假设（1）而已），虽然科学可能确实只能也只应该去面对和探讨假设（1）所涉及的事情，但是一个科学家（作为一个活人而不是一门学科）却不可以因此否定假设（2）的意义实在性，更不能指责那些对假设（2）感兴趣的人们。可叹！孟子今若在世，必曰：“人之所以异于科学者几希！&lt;/p&gt;
+
+&lt;p&gt;其次，这样的观点存在一个严重的”意识形态偏颇“，那就是认定这样一个从”玻璃杯“到”碎玻璃“的事物演化过程只可能有一种机制，那就是”引力作用“，它假定这个玻璃杯之所以会演化成一堆碎玻璃，只可能是因为从高空掉下。事实上，我们还可以这样假设：&lt;/p&gt;
+
+&lt;p&gt;（1）杯子从高处掉下来摔碎了&lt;br /&gt;
+（2）杯子被人（比如武松同志）捏碎了&lt;/p&gt;
+
+&lt;p&gt;这两种显然是完全不同的机制。他们中间最重要的一个不同，那就是前者只涉及纯粹的物理规律，而后者却还涉及人类的”智慧“或者”情感“。虽然单纯从数量上看，假设（1）只涉及物理规律一个因素，而假设（2）却涉及了物理规律和智慧两个因素，所以假设（2）比起假设（1）确实”多出来一点东西“，但是这里我们却不可能使用奥卡姆剃刀原则把假设（2）简化为假设（1），因为他们是不同的东西，都是不能在被简化的”基本假设“。&lt;/p&gt;
+
+&lt;p&gt;这就是我要说的事情，比起”自然进化论“而言，”设计进化论“特别是更为基督教化的”神创论“虽然在理论中引进了”设计“乃至”上帝“观念，但是这并不违反”勿增实体“的奥卡姆剃刀原则，因为“设计进化论”特别是“神创论“并不是”自然进化论“机械复杂化，不是在一个理论上多加一个概念这么简单，它是根本不同的另外一种理论，所描述的也是完全不同的系统运动机制。&lt;/p&gt;
+
+&lt;p&gt;特别地，设计论者现在也已经提出了可以对此进行科学检验的方式，使人们可以鉴别，一个演化过程中有没有”智慧“的参与，或者仅仅是一个顺从某种自然机制的随机演化的结果（这正如我们有可能通过摔碎的杯子和捏碎的杯子的碎玻璃的性质状态的不同来推论武松同志到底有没有来过）。所以设计论是符合科学假设的条件的，它应该被学界意识到。&lt;/p&gt;
+
+&lt;p&gt;问题的全部都只在于我们选择什么作为我们的”思维前提“——有神论，或者无神论。而我们选择什么样的思维前提，也必然会影响到我们看到的世界是什么样子。”原教旨主义无神论者“最根本的一个错误在于，他们坚持认为他们所看到的世界就是这个世界本来的样子。事实上，当我们看到这个世界的时候，当我们看到了这个世界中我们曾经没有看到的部分的时候，这个世界就已经不再是它本来的样子了。&lt;/p&gt;
+
+&lt;p&gt;因为我们就属于这个世界，我们是用属于这个世界的东西去观察这个世界。观察和被观察，看到与被看到，影响与被影响，本来就是同一件事的两面。&lt;/p&gt;
+
+&lt;p&gt;最后，我需要说，任何类比都只是部分的类比，都只是类比可以类比的部分，因为这个世界没完全一样的事物，以至于可以全面类比。所以，类比就是类比可类比的那一部分和那一个角度。如果有人要在我的类比中挑刺，说什么方舟子说的进化论问题是一个熵减问题，我的玻璃杯类比却是一个熵增问题，或者抨击武松长得和上帝不象，所以这样的类比完全不说明问题，我不才理他呢。&lt;br /&gt;
+&lt;/blockquote&gt;
+先列一下羽毛乱飞的观点，但愿没有理解错：&lt;br /&gt;
+1、两个机制不同的理论无所谓精简和冗余的差别，不适用于剃刀原则。&lt;br /&gt;
+2、在应用剃刀原则的时候剔除了神的存在，本身就是一种无神论的思想，属于先入为主。&lt;br /&gt;
+3、智慧设计论者已经可以提出科学地检验智慧是否进行了参与的方法。&lt;br /&gt;
+4、问题的全部都在于我们选择什么作为我们的思维前提，因为当我们看到了这个世界中我们曾经没有看到的部分的时候，这个世界就已经不再是它本来的样子了。&lt;/p&gt;
+
+&lt;p&gt;1、奥卡姆剃刀原则，简而言之，就是不要增加不必要的实体。&lt;/p&gt;
+
+&lt;p&gt;从羽毛乱飞的文字来看，他的理解是：&lt;br /&gt;
+如果一个理论在另一个理论的&lt;strong&gt;基础&lt;/strong&gt;上增加了一些内容，而效果是等价的，那么后一个理论就要用奥卡姆剃刀给剃掉。&lt;br /&gt;
+如果两个理论是采用完全不同的系统运动机制，那么就无法比较哪个的是更冗余的，也就不能够应用奥卡姆剃刀原则。&lt;/p&gt;
+
+&lt;p&gt;看上去好像挺对的，是吧？&lt;/p&gt;
+
+&lt;p&gt;我们不妨用物理学史上经典的麦克尔逊-莫雷试验（The Michelson-Morley
+Experiment）来说明这个问题。&lt;/p&gt;
+
+&lt;p&gt;在电磁波进入物理学舞台的时代，物理学家们坚定地认为，如果要将电磁波纳入经典力学模型，则必须假定电磁波通过一种叫做“以太”（Ether/Aether，笛卡尔借用希腊词
+αηθηρ
+命名的一种假想物质）的介质传播。电磁波到达的地方很多，所以以太必须也到处充斥；电磁波能够高速传播，因此以太必须非常坚硬或者说紧密，如此一来，以太的质量问题、阻力问题、漂移问题很让科学家头大，但在牛顿物理体系内，就只能够这么着了。&lt;/p&gt;
+
+&lt;p&gt;1881年麦克尔逊基于麦克斯韦提出的试验方法进行了第一次试验，这次试验的数据被指出有小错误，1887年，他和莫雷两人共同完成了这次著名的试验，具体情况我就不废话了，可以
+&lt;a href=&#34;http://www.google.com/&#34;&gt;Google&lt;/a&gt; 到或翻书，我只好奇他们有没有水银中毒…&lt;br /&gt;
+结果是这次“失败”的试验宣告即使以太相对于地球有相对运动其速度也很小，至少
+Fresnvel
+对光行差现象的解释就不能够成立。之后，Descoudres、Lodge、Zehnder
+等人的试验也得出了近似的结论，然后是一不小心引出一个伟大时代的洛伦兹提出了更加著名的洛伦兹变换，直到1905年小爱出来横插一手，抛出大获全胜的相对论，宣告牛顿时代的结束…&lt;/p&gt;
+
+&lt;p&gt;在这个例子中，经典牛顿力学体系加洛伦兹等人的补丁相当于中世纪的上帝创世说或它的现代版本智慧设计论，那个无处不在、有巨大质量、透明的、坚硬的、没有惯性的、作为绝对参照系还能够在其中应用洛伦兹变换的以太就像是上帝或智慧设计者这个概念，而剔除了上帝存在的进化论相当于爱因斯坦的“新世界”。&lt;br /&gt;
+进化论的产生同样经过了从一个看上去完美的理论，到越来越多的问题，到越补越大的补丁越来越没有必要的假设，到一个新理论的过程。相对论并&lt;strong&gt;没有证明以太必定不存在&lt;/strong&gt;，它只是用另一套体系完美地说明，包含以太假说的理论是臃肿不堪的，物理学家们是要选择以太，选择一个除了用来应付各种问题就没有其他物理学意义的复杂假设，还是选择拿起剃刀，由他们自己决定。&lt;/p&gt;
+
+&lt;p&gt;哦也，我举这个例子不是为了要借着爱因斯坦相对论的“正确性”给进化论拉虎皮，这样的类比不能够说明后者的正确。我真正要说的是，牛顿和爱因斯坦的体系也不是谁多一块谁少一块的关系，不是把以太这个蹭饭吃的幽灵剃掉就完事了，它们恰恰是如羽毛乱飞兄所说，“采用了不同的机制”，爱因斯坦的世界不是在牛顿世界上的增删补改，而是一次物理学观念的重大改变。但这并不妨碍奥卡姆剃刀大开杀戒。换言之，羽毛乱飞兄为智慧设计论逃避奥卡姆剃刀的辩解是站不住脚的。&lt;/p&gt;
+
+&lt;p&gt;所以我觉得0和1的类比正反映了羽毛乱飞兄这种错误的观念，而不是因为通过这种类比推导而产生问题。&lt;/p&gt;
+
+&lt;p&gt;2、应用剃刀原则时剃掉了上帝，就必定是先入为主的无神论思想吗？&lt;/p&gt;
+
+&lt;p&gt;回头再来看看奥卡姆剃刀原则，“如无必要，勿增实体”中的“实体”是指的什么？&lt;br /&gt;
+在&lt;a href=&#34;http://calon.weblogs.us/2005/10/19/zhihuishejilun_de_zhenglun/&#34;&gt;以前的文章&lt;/a&gt;中，我曾经说过，有的人以为这是指冗余的形式，即一个理论应做到形式上的精练、优美。诚然这也是科学家们的目标之一，而且我们提炼出的理论往往是趋向于此的。但是，剃刀应该更多地针对另外一类事物。&lt;/p&gt;
+
+&lt;p&gt;比如说以太，当它仅仅是作为概念存在时，不必被当作是实体而享受剃刀的照顾，就好像上帝仅仅作为信仰而存在于宗教信徒的观念中一样，然而当它牵涉到科学实践中的问题时，如解释和预测现象，那么就作为实体而存在－－如果它不存在，电磁波怎么能够在真空中以光速运动呢？&lt;br /&gt;
+同样的道理，如果上帝、神或者某种智慧设计者出现在科学理论中，那么就是一种必须面对剃刀的实体。&lt;/p&gt;
+
+&lt;p&gt;基础打好了再进入正题：&lt;br /&gt;
+&lt;a href=&#34;http://xys.3322.org/&#34;&gt;方舟子&lt;/a&gt;所说的两种需要被检验的理论：&lt;br /&gt;
+(1)生物经过进化而来&lt;br /&gt;
+(2)生物经过进化而来，上帝创造了进化的准则&lt;br /&gt;
+并不是字面上这样简单地多一句。“上帝创造了进化的准则”短短10个字，份量却不轻。它的份量不在于“&lt;strong&gt;是否创造了进化的准则&lt;/strong&gt;”，而在于“&lt;strong&gt;上帝这个实体意味着什么&lt;/strong&gt;”。&lt;/p&gt;
+
+&lt;p&gt;我们可以把第一句改为“生物经过进化而来，没有谁创造了进化的准则”以看得更明白，如果非得玩这种文字游戏的话…&lt;/p&gt;
+
+&lt;p&gt;对怀疑论者和奥卡姆剃刀教徒来说，上帝这个实体如果被引入，意味着与进化论、生物学相关的整个自然科学知识体系都需要做好接纳这个“外在”的它的准备，就好像通过电磁波证明以太的存在将迫使研究光学和力学的科学家挠破头一样，当然最终化学家、天文学家们也是要为此吵翻天的。如果羽毛乱飞兄是做和自然科学有关的基础研究，不妨在设计试验的时候考虑考虑，看看增加一个神通广大的实体有多好玩。&lt;br /&gt;
+而既然两种生物学理论的“说明的是同一个事实”，为什么不能够使用奥卡姆剃刀？难道还要我再谈谈上帝的不可证伪会给自然科学带来多少致命的麻烦？&lt;/p&gt;
+
+&lt;p&gt;即使是羽毛乱飞兄用更准确的表达方式所说：&lt;br /&gt;
+(1)生物经过进化而来，进化的准则是内在的&lt;br /&gt;
+(2)生物经过进化而来，进化的准则是外在的&lt;br /&gt;
+也没有摆脱这个问题，从句子的形式上看好像并不多余，所谓“外在的”，其实仍然是暗含了&lt;strong&gt;一个外在的实体&lt;/strong&gt;，一个拖着的尾巴比脑袋大得多的实体。认识这一点不一定需要用无神论原则作指导，懂得奥卡姆剃刀的用法就行了。&lt;/p&gt;
+
+&lt;p&gt;3、关于检验智慧是否进行了参与的方法，我仍然是抱有极大的疑问的。&lt;/p&gt;
+
+&lt;p&gt;据我了解，这种思路大致是这样的：如果信息复杂到了一定的程度，或具备某种特征，就可以认为是智慧生命发出的信息，因此通过数学工具分析信息隐藏的复杂规律，就能够进行判断。&lt;/p&gt;
+
+&lt;p&gt;我认为这种思路有如下几个问题：&lt;/p&gt;
+
+&lt;p&gt;(1)如何知道这种方法是有效的？&lt;br /&gt;
+连需要信息交互的图灵测试都还只停留在理论阶段；目前也没有因为发现外星生命而证明这种不需要交互的方法可行；大概只有靠宗教信徒的宗教体验来说事，其有效性值得怀疑。&lt;br /&gt;
+(2)存在过判断错误的例子，靠进一步的实践才作出了正确的判断。&lt;br /&gt;
+例如天文学家曾经以为脉冲星是外星生命的通信源。&lt;br /&gt;
+这两点决定了纯粹的数学方法不像看上去说的那么完备和美妙。&lt;/p&gt;
+
+&lt;p&gt;(3)我们凭什么认为以我们的智慧能够&lt;strong&gt;纯粹用数学方法&lt;/strong&gt;来判断可能是更高级的智慧生命？&lt;br /&gt;
+那些说科学让人自负，让人以为科学万能的人，为什么要把希望寄托在纯粹的数学方法上呢？要知道数学虽然美妙，但并不那么可靠。&lt;/p&gt;
+
+&lt;p&gt;(4)我们凭什么认为通过数学方法能够检验上帝的存在？基督徒被赋予了这种资格吗？&lt;br /&gt;
+这究竟是属于“不可试探你的上帝”，还是基督徒自认为被上帝赋予了用数学证明它存在、使它荣耀的恩典得着称赞的资格？－－即使数学证明可能不是由基督徒来作出。作为一个怀疑论者，对此存有疑问。&lt;/p&gt;
+
+&lt;p&gt;4、世界因观察者的不同而不同。&lt;/p&gt;
+
+&lt;p&gt;这既出自于量子力学，也出自于后现代主义。一般认为后者喜欢错误地引用前者的理论
+XD&lt;/p&gt;
+
+&lt;p&gt;首先澄清一点，所谓“原教旨主义无神论者”并不一定“坚持认为他们所看到的世界就是这个世界本来的样子”。无神论不否认人们观察到的世界与世界本原可能存在差异，因为他们会承认观察的结果可能暂时是错的，而且可能永远暂时是错的，即使加个“原教旨主义”的前缀也一样。我们还是不要学方舟子那样随便用“原教旨主义”这个词的好。&lt;/p&gt;
+
+&lt;p&gt;科学的任务之一是建立一个关于世界本原的理论模型，俗称为“认识世界和解释世界”。建立这个模型的材料基础来自于人的经验和理性，而人的经验来自于并不完美的感知能力，人的理性来自于并不完美的人的智慧。这就决定了这个世界模型不可能完全与世界本原一致。&lt;/p&gt;
+
+&lt;p&gt;科学的任务之二是通过科学实践，通过真实世界的反馈信息，不断修正这个理论模型，并利用模型预测、评估下一步实践的结果。&lt;/p&gt;
+
+&lt;p&gt;也许这个模型永远不会完美，也永远不会与世界本原完全一致，就算一致了，凭借人类的认知能力也未必能够确定。建立和使用这个模型不必要求“看到的世界就是这个世界本来的样子”，和是不是“原教旨主义无神论者”也没有必然联系。&lt;/p&gt;
+
+&lt;p&gt;其次，我在&lt;a href=&#34;http://calon.weblogs.us/2005/10/19/zhihuishejilun_de_zhenglun/&#34;&gt;以前的文章&lt;/a&gt;中也提到过，“解释并不是科学理论唯一的任务，它还得提供一个稳固的、可理解、可通约的&lt;strong&gt;平台&lt;/strong&gt;供人们相互沟通交流以便共同预测和探索未知，进行实践活动”。&lt;/p&gt;
+
+&lt;p&gt;对于个人来说，观察的过程确实也是改变世界和被观察的过程，因此不同的“思维前提”会影响各人对世界产生不同的观察和理解。&lt;/p&gt;
+
+&lt;p&gt;而科学的第三个任务是建立交流的平台，使科学的研究能够互通有无，科学的语言能够互相理解，科学的成果能够互相取用。&lt;/p&gt;
+
+&lt;p&gt;人们信仰什么宗教，喜欢吃什么食物，听什么音乐，性向如何，肤色如何，存在何种差异，都没有关系，这属于个人的事务。科学关心的是公共的属性，公共的信息。&lt;br /&gt;
+如果一个人的观察、结论、理论体系仅仅存在于他自己的头脑中，只有他自己能够理解，那么即使再正确、再接近真理，对科学来说也没有意义。当科学收缩到一个人的身上时，它与主观唯心主义构建的世界没有太多不同。当它扩展到多人范围的时候，平台的属性就显示出来了。&lt;/p&gt;
+
+&lt;p&gt;有的人有宗教体验的经验，他会认为这完全是上帝的显现，如果他不告诉别人，那么这属于个人的经验，不属于科学，即使那真的是上帝；&lt;br /&gt;
+如果他告诉身边的人并使他们也相信，这属于说服，或者其他什么我还没想到的确切的词；&lt;br /&gt;
+如果他不幸要说服我这样一位怀疑论者，或者方舟子这样一位无神论者，这是上帝的显现，那么他应该用至少是怀疑论者能够理解和相信的证据用合理的方法来证明给我或方舟子看，因为我怎么能够代替他感知他所感知的经验呢？我凭什么相信他的感知不是幻觉或者其他并非上帝的作用呢？就算同为基督徒，你能够肯定两人的心理宗教体验有你们想像那么多的交集吗？－－你知道，怀疑论者就是这么个臭脾气，除非过度的怀疑让科学平台完全无法立足。&lt;br /&gt;
+在这个例子中，双方都认同的、可以观察、可以理解的证据，就是所谓“科学的平台”。当然，如果双方不认同，可能是连他自己都视被怀疑论者认可的证据为虚妄，那大概就只好扭送我和他其中一人去检查精神状况了…&lt;/p&gt;
+
+&lt;p&gt;回到我们讨论的问题上来。&lt;br /&gt;
+各人不同的身份与观察角度导致观察的世界不相同，因为科学平台的存在，而不成为“两个描述世界的理论根本不同”这种过分的相对主义的理由，不成为引入上帝这个实体就变成机制不同的理论使得奥卡姆剃刀没有冗余可剃的理由。&lt;/p&gt;
+
+&lt;p&gt;本来还想深入说说“有”与“无”，“证明存在”、“证明不存在”、“不能证明存在”、“不能证明不存在”和科学研究的关系，时间太晚，罢了罢了。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>智慧设计论的争论</title>
+        <link>https://ioerr.github.io/posts/zhihuishejilun-de-zhenglun/</link>
+        <pubDate>Tue, 18 Oct 2005 16:26:25 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/zhihuishejilun-de-zhenglun/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;[背景]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;8月23日，&lt;a href=&#34;http://blog.donews.com/biantaishabi/&#34;&gt;变态家族&lt;/a&gt;的
+&lt;a href=&#34;http://www.donews.net/biantaishabi&#34;&gt;Biantaishabi&lt;/a&gt;
+发表了一篇《&lt;a href=&#34;http://blog.donews.com/biantaishabi/archive/2005/08/23/522665.aspx?%20Pending=true&#34;&gt;美国人的争论：智慧设计还是达尔文&lt;/a&gt;》，当时我和
+&lt;a href=&#34;http://blog.hexun.com/aroma&#34;&gt;Biantailong&lt;/a&gt;
+你来我往聊了几大段，但说得并不深入，所以今天旧事重提。&lt;br /&gt;
+另一个原因则是近来美国教育界、科学界发生的一系列和智慧设计论有关的事件，如
+&lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;Kansas State Board of
+Education&lt;/a&gt;
+的教科书事件、Kitzmiller 诉 Dover Area School District
+的案件以及小布什发言支持智慧设计论者引起的轩然大波。&lt;/p&gt;
+
+&lt;p&gt;Kitzmiller 诉 Dover Area School District 的案件我在前面的一篇
+&lt;a href=&#34;http://calon.weblogs.us/2005/09/27/kitzmiller_case/&#34;&gt;Kitzmiller
+Case&lt;/a&gt;（或称为 Dover
+Case）有过介绍，而美国堪萨斯州教育委员会（&lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;Kansas State Board of
+Education&lt;/a&gt;
+）弄出来的争论则要追溯到1999年同性质的事件上。&lt;br /&gt;
+当年&lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;堪萨斯州教育委员会&lt;/a&gt;以6：4的投票结果否决了教学大纲中“中小学生必须了解达尔文进化论”的项目，经过激烈的争论，按照现在该教育委员会成员之一的
+Sue Gamble
+女士所描述的，最终“在教育大纲中保留有进化论的字眼，但未保留其核心观念”，实际上是为引入智慧设计论作准备，结果到了2001年因为各方面施加的巨大压力而撤销这一决议。这次事件是
+1981年路易斯安那州创造论科学（Creation
+Science）事件的翻版，只不过为了免受美国宪法第一修正案的限制，为了掩饰与基督教的关系，来了一次改头换面，修改创造论科学中与《圣经》有关的内容。&lt;br /&gt;
+尽管和其他州的几次努力最终失败，堪萨斯州教育委员会在去年又一次试图偷偷地引入智慧设计论到课堂中，Gamble 女士评价为“虽然没有明确引入智慧设计论，但实际上按照它的观念修改了教育大纲，暗示科学解释可以超越自然的范畴”。采用这样的手法，反对者是无法拿出确凿的证据证明科学教育大纲引入了“宗教、智慧设计论和创世论”的，因为他们实际上是做的另一件事，使科学教育课程向“宗教、智慧设计论和创世论”之外更多的多的东西敞开。&lt;br /&gt;
+堪萨斯州保守的基督教福音教派多年来反对达尔文进化论的努力早已是路人皆知，在教育大纲问题上他们的态度一般是－－为了不和科学家们起正面冲突而采用较为委婉的说话－－达尔文进化论只是一种理论，并不是事实，它还有待于更多的证据来证实；我们应当对任何理论一视同仁，以培养学生开放的思想，应该允许学生在课堂上接受各种各样不同的理论，由他们自己自由选择应该接受哪一个理论。
+这个貌似充分尊重学生思想自由的观点是智慧设计论者的最爱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[什么是智慧设计论]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;为了深入讨论智慧设计论的问题，我们首先得明白什么是智慧设计论，&lt;a href=&#34;http://en.wikipedia.org/wiki/Intelligent_Design&#34;&gt;Intelligent
+Design&lt;/a&gt;，缩写为 ID。&lt;br /&gt;
+智慧设计论的观念最初来自于“手表类比”：荒野中的手表不可能是自然而然地出现在那里的，一定是由某个手表匠制造出来的，用自然界做类比，则是更加复杂的自然界产物必然有一个有智慧的设计者。&lt;/p&gt;
+
+&lt;p&gt;智慧设计论认为，自然界特别是生物界中存在一些现象无法在自然的范畴内予以&lt;strong&gt;解释&lt;/strong&gt;，&lt;strong&gt;必须&lt;/strong&gt;求助于&lt;strong&gt;超自然&lt;/strong&gt;的因素，即&lt;strong&gt;必然&lt;/strong&gt;是具有智慧的创造者（创造并）设计了（这些实体和）某些规则，造成了这些现象。这些现象的特征主要可归纳为：&lt;/p&gt;
+
+&lt;p&gt;◆Michael Behe 提出的&lt;a href=&#34;http://en.wikipedia.org/wiki/Irreducible_complexity&#34;&gt;不可化约的复杂性&lt;/a&gt;：&lt;br /&gt;
+Michael Behe 认为有些生物结构的各个组成部分缺一不可，不可能从更简单的状态演化而来。&lt;/p&gt;
+
+&lt;p&gt;◆William Dembski 提出的&lt;a href=&#34;http://en.wikipedia.org/wiki/Specified_complexity&#34;&gt;特定复杂性&lt;/a&gt;：&lt;br /&gt;
+William Dembski 认为有的现象的复杂程度说明它不可能是偶然出现的或者是自然法则生成的。&lt;/p&gt;
+
+&lt;p&gt;如果你想了解更多信息，可以求助 &lt;a href=&#34;http://www.google.com/&#34;&gt;Google&lt;/a&gt;、&lt;a href=&#34;http://wikipedia.org/&#34;&gt;Wikipedia&lt;/a&gt;、&lt;a href=&#34;http://www.answers.com/&#34;&gt;Answers&lt;/a&gt; 等网站。去&lt;a href=&#34;http://xys.3322.org/&#34;&gt;新语丝&lt;/a&gt;、&lt;a href=&#34;http://godoor.net/jidianlinks/&#34;&gt;基甸连线&lt;/a&gt;或它们提供的链接地址也能够获得相关的中文信息，但那里的信息容易被认为具有强烈的偏向性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[问题的关键]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kitzmiller Case 争论的焦点是，教育委员会引入智慧设计论是否违反了&lt;a href=&#34;http://en.wikipedia.org/wiki/Establishment_Clause&#34;&gt;美国宪法第一修正案&lt;/a&gt;的政教分离原则，而堪萨斯事件中，智慧设计论者与科学家的冲突反映在“是否在中小学生物科学课堂上将智慧设计论当作一种科学理论来教授”的争论上。因此我们要讨论的整个问题的关键就在于，“智慧设计论究竟是否是一种科学理论？”因为如果智慧设计论不符合科学理论的标准，而是超越其上具有宗教信仰的属性，那么就回到了 Kitzmiller Case 的争论上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[什么是科学的理论]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;前面已经介绍了智慧设计论的简单情况，那么什么又是科学理论呢？&lt;br /&gt;
+&lt;a href=&#34;http://www.psl.msu.edu/faculty/rootbern.htm&#34;&gt;Robert Root-Bernstein&lt;/a&gt; 在《On Defining a Scientific Theory: Creationism Considered》一文中提到的判断标准是我认为最合适的归纳了，方舟子也有过&lt;a href=&#34;http://www.oursci.org/ency/phil/011.htm&#34;&gt;介绍&lt;/a&gt;。为了方便读者准确地理解和有人能给出更好的翻译，我同时给出原文和译文：&lt;/p&gt;
+
+&lt;p&gt;要判断一个理论是否科学，要看它是否符合逻辑的、经验的、社会学的和历史的四套标准：&lt;/p&gt;
+
+&lt;p&gt;◆逻辑标准：&lt;br /&gt;
+1. a simple unifying idea that postulates nothing unnecessary (&amp;ldquo;Occam&amp;rsquo;s Razor&amp;rdquo;)&lt;br /&gt;
+符合“&lt;a href=&#34;http://www.answers.com/topic/occam-s-razor&#34;&gt;奥卡姆剃刀&lt;/a&gt;”原则，没有不必要的假设&lt;br /&gt;
+2. logically consistent&lt;br /&gt;
+逻辑上自洽&lt;br /&gt;
+3. logically falsifiable (i.e., cases must exist in which the theory can be imagined to be invalid)&lt;br /&gt;
+逻辑上可证伪（例如，可以设想到理论失效的情况）&lt;br /&gt;
+4. clearly limited by explicit boundary conditions so that it is clear whether or not particular data are or are not relevant to verification or falsification&lt;br /&gt;
+有清楚的边界条件界定其应用范围&lt;/p&gt;
+
+&lt;p&gt;◆经验主义标准：&lt;br /&gt;
+1. be empirically testable or lead to predictions or retrodictions that are testable&lt;br /&gt;
+可检验，或有可被检验的预测或回溯（回溯在这里指解释已经经验过的现象，也可以译为前推），亦即能被过去或未来的事实检验&lt;br /&gt;
+2. actually make verified predictions and/or retrodictions&lt;br /&gt;
+实际已有被验证的预测和/或回溯&lt;br /&gt;
+3. involve reproducible results&lt;br /&gt;
+能进行重复试验&lt;br /&gt;
+4. provide criteria for the interpretation of data as factual, artifactual, anomalous or irrelevant&lt;br /&gt;
+能够提供界定、解释正常数据与异常数据的标准&lt;/p&gt;
+
+&lt;p&gt;◆社会学标准：&lt;br /&gt;
+1. resolve recognized problems, paradoxes, and/or anomalies irresolvable on the basis of preexisting theories&lt;br /&gt;
+能够对付旧有理论中已知的问题、悖论和/或未能解决的异常问题&lt;br /&gt;
+2. pose a new set of scientific problems upon which scientists may work&lt;br /&gt;
+提出一系列能供科学家研究的新问题&lt;br /&gt;
+3. suggest a &amp;ldquo;paradigm&amp;rdquo; or problem solving model to help resolve these new problems&lt;br /&gt;
+为解决新的问题，需要给出一个范式或解决问题的模型&lt;br /&gt;
+4. provide definitions of concepts or operations which will help other scientists solve problems&lt;br /&gt;
+提供该理论中概念、操作的定义，以便其他科学家理解该理论并解决问题&lt;/p&gt;
+
+&lt;p&gt;◆历史的标准：&lt;br /&gt;
+1. meet or surpass all of the criteria set by its predecessors or demonstrate that any abandoned criteria are artifactual&lt;br /&gt;
+符合或超越原先理论的所有标准&lt;br /&gt;
+2. be able to explain all of the data gathered under previous relevant theories in terms either of fact or artifact (no anomalies allowed)&lt;br /&gt;
+能够解释与所有已知有效的理论相关的数据&lt;br /&gt;
+3. be consistent with all preexisting ancillary theories that already have established scientific validity&lt;br /&gt;
+与所有有效的相关理论要相符&lt;/p&gt;
+
+&lt;p&gt;除此之外，因为1981年 &lt;a href=&#34;http://www.talkorigins.org/faqs/mclean-v-arkansas.html&#34;&gt;McLean v. Arkansas Board of Education&lt;/a&gt; 案件，所以在 Root-Bernstein 的归纳之外还多出了下面几点：&lt;/p&gt;
+
+&lt;p&gt;◆法律的标准：&lt;br /&gt;
+1. It is guided by natural laws, and is explanatory by references to natural laws&lt;br /&gt;
+由自然定律指导，引用自然定律进行解释&lt;br /&gt;
+2. Science is testable against the empirical world&lt;br /&gt;
+对于经验世界是可检验的&lt;br /&gt;
+3. Its conclusions are tentative, not the final word&lt;br /&gt;
+它的结论只是暂时的，并不是终极结论&lt;br /&gt;
+4. It is falsifiable&lt;/p&gt;
+
+&lt;p&gt;◆总而言之，科学的理论应具有以下特征：&lt;br /&gt;
+Consistent (internally and externally)&lt;br /&gt;
+一致性，内部和外部的一致性缺一不可&lt;br /&gt;
+Parsimonious (sparing in proposed entities or explanations)&lt;br /&gt;
+简约，吝于引入新的实体或扩充解释说明&lt;br /&gt;
+Useful (describes and explains observed phenomena)&lt;br /&gt;
+有效用，能够描述和解释观察到的现象&lt;br /&gt;
+Empirically Testable &amp;amp; Falsifiable&lt;br /&gt;
+从经验上可检验与可证伪&lt;br /&gt;
+Based upon Controlled, Repeated Experiments&lt;br /&gt;
+基于受控制的可重复实验&lt;br /&gt;
+Correctable &amp;amp; Dynamic (changes are made as new data is discovered)&lt;br /&gt;
+动态，可修正，接受新发现的数据并对理论做出相应的修改&lt;br /&gt;
+Progressive (achieves all that previous theories have and more)&lt;br /&gt;
+累进的，涵盖所有旧有理论，并在此基础上有所进步&lt;br /&gt;
+Tentative (admits that it might not be correct rather than asserting certainty)&lt;br /&gt;
+试验性的，承认理论可能不正确，而非声称自身必然正确&lt;/p&gt;
+
+&lt;p&gt;在判断理论是否科学时，不一定严格地遵照以上全体标准，例如当没有找到完美解释所有现象的理论时，科学家出于实际应用的考虑，会暂时接纳无法解释少数现象的理论、相互之间有冲突的理论，前提则是承认它们还有需要完善的地方，以及找不到符合最基本的科学标准的更好的理论。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[为什么 ID 不是科学理论]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;回到我们要讨论的问题，上述的标准中，智慧设计论暂时不符合有：&lt;br /&gt;
+◇累进的&lt;br /&gt;
+◇提出新问题&lt;br /&gt;
+◇提出解决问题的模型&lt;br /&gt;
+◇边界条件&lt;br /&gt;
+◇界定正常、异常数据的标准&lt;br /&gt;
+◇实际已有被验证的预测等等&lt;/p&gt;
+
+&lt;p&gt;这倒不是什么要命的问题，智慧设计论者还可以事后慢慢补课，但有的标准是怎么弥补也无法符合的，它们是：&lt;br /&gt;
+◇奥卡姆剃刀原则&lt;br /&gt;
+◇可证伪&lt;br /&gt;
+◇外部一致性&lt;br /&gt;
+◇试验性的&lt;br /&gt;
+其中有的更是绝对不能够放松的标准。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[无法证伪]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;最典型的是智慧设计论的核心和可证伪性没有任何关系。&lt;/p&gt;
+
+&lt;p&gt;如果每次我们发现一个新的现象无法用当代的知识解释，都认为其是更高级的智慧生命所设计和创造，于是一切未解之谜都有了一个答案，这个答案的正确性在我们真的找到了高级智慧的时候才能够证实。假如因为人类先验知识的限制，错误的否定了自然法则可能的解释，错误的认为有高级智慧存在，则意味着人类永远也无法找到这个不存在的高级智慧。&lt;/p&gt;
+
+&lt;p&gt;智慧设计论便是如此提供一个超自然的概念作为唾手可得的终极答案，那既是解释的起点，又是解释的终点，除此之外没有办法提出任何其他观察者在一定的范围内应用一定的标准进行检验的预测，它超出了科学限定的“自然”范围，用自然的手段检验超自然的理论，当然是无法证伪的。&lt;br /&gt;
+那些不同意智慧设计论的核心无法证伪的人，请再仔细研究该理论以及“可证伪”的含义，或者提出一个能够在自然范畴内证伪该理论的检验方法。&lt;br /&gt;
+Michael Behe，Lehigh 大学生物化学家，天主教徒－－他所著的宣传智慧设计论的《达尔文的黑匣子》误导了许多对达尔文进化论和科学一知半解的读者－－&lt;a href=&#34;http://slate.msn.com/id/2128238/entry/0/fr/rss/&#34;&gt;宣称智慧设计论是能够证伪的&lt;/a&gt;，证伪方法如下：在有选择压力的环境中培养一种没有鞭毛的细菌，经过大概2年，繁殖了10,000代之后，看看有没有像鞭毛那样复杂的器官进化出来。暂不论自然选择的方向是否会像试验设计的那样向人们预期的方向进化，就算试验成功了，我用脚趾头也猜得出来 Behe 等人会怎么应付：虽然像鞭毛这样复杂程度的器官能够通过自然的过程进化出来，但生物界还有更复杂的现象用达尔文进化论和自然主义的科学无法圆满解释，所以在我们修正对智慧设计者存在的判断标准之后，我们仍然认为存在一个具有智慧的超自然设计者。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[锋利的剃刀]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;另一方面，智慧设计论毫无必要地引入具有目的性的可以包打天下的超自然设计者，这固然把生物起源的问题一劳永逸地“解决”了，同时也回答了所有的问题和所有不成为问题的问题。&lt;br /&gt;
+有的人说，在形式上更为简单的神创论应当是更为成功的“科学”理论，为什么会违反剃刀原则呢？这是因为他们对这条原则存在错误理解，以为只要理论本身形式足够精简，就是符合奥卡姆剃刀原则的。&lt;br /&gt;
+其实不然，如果科学理论纯粹是用来解释世界上存在的现象，那么当然越简单越好，但“解释”并不是科学理论唯一的任务，它还得提供一个稳固的、可理解、可通约的平台供人们相互沟通交流以便共同预测和探索未知，进行实践活动。也就是说，如果你用来“解释”现象的理论体系在认识与实践方面没有意义，甚至会带来数不胜数毫无必要的无法证实与证伪的推断结果，那么不管它本身在形式上多么简约，也是要被剃刀剃掉的。&lt;/p&gt;
+
+&lt;p&gt;拿智慧设计论来说，断言存在一个超自然的智慧设计者，确实可以解释一切现象，“因为它想这样设计”，“它如此做必有其含义”，“以我们的智慧无法完全理解它的思想”，足可以打发掉其他人的疑问。然而，它据此可以推论出的东西又是五花八门、难以证实和无法证伪的，你一定听过“虽然没有直接证据证明其存在，但你无法否认它必定不存在”这种流行于对科学一知半解的人口头的似是而非的逻辑吧－－很不幸，智慧设计论的超自然属性决定了在谈到设计者时必须应用这样的逻辑。这种逻辑与五花八门的推论结合在一起，所有的神话故事、一切奇思异想的产物都可以是“真实存在”了。当包括一切未知在内的所有事物都能够被该理论解释以至于都可以被认为是可以存在的实体，当所有对象模型的复杂性、正确性因为解释的无所不能而没有差别时，这样的解释又有什么意义呢？&lt;br /&gt;
+所以说，智慧设计论的缺点不在于理论本身的形式是否足够精简，而在于以之为基础建立起来的世界模型的冗余度是无限的，属于被奥卡姆剃刀重点照顾的对象。&lt;/p&gt;
+
+&lt;p&gt;也有人辩解说，智慧设计论中的超自然设计者不是一开始就提出的概念，而是通过观察自然现象而得出的必然结论，就像看到了荒野中的钟表无法不得出存在设计者的结论一样。&lt;br /&gt;
+但荒野钟表的例子，是看见在经验中对其产生机理有所认识的物体（钟表），而推断、联想到在经验中对其角色已经有所认识的人物（钟表匠），这和我们面对对其机理认识不足的现象（生命的起源与发展），猜测存在一个完全没有了解的创造者（更高等智慧的设计者），显然是有巨大差别、不能简单类比的。&lt;br /&gt;
+后者的这种思路如果要行之有效，人类必须对全部自然法则有彻底的了解，即，只有我们了解全部自然法则才能够知道哪些现象是通过自然法则无法生成的。无法用自然法则解释现象才需要引入高级智慧，如果有的现象可能通过自然法则生成，我们却因为没有彻底了解自然法则而否认它的可能，那么必须引入高级智慧的前提就是不正确的了，而在非必要的情况下引入高级智慧的假设便违反了剃刀原则。&lt;/p&gt;
+
+&lt;p&gt;至于不符合试验性与外部一致性，主要也是由以上两方面造成的。&lt;br /&gt;
+不可证伪，则无论智慧设计论者如何谦虚，他们的理论也会成为“必然正确”的理论，根本没有试验的余地和必要；不符合奥卡姆剃刀原则，则以智慧设计论的核心为基础从生物起源、进化领域向外延伸时，必然与其他领域无视超自然因素的科学发生冲突。&lt;/p&gt;
+
+&lt;p&gt;除此之外，智慧设计论拒绝接受简单法则创造复杂生命的可能性，还带来一个悖论：&lt;br /&gt;
+如果说复杂的生命必然是更复杂的高级智慧所创造，那么更复杂的高级智慧又是什么所创造的呢？如果更复杂的高级智慧也是可以由相对简单的物质或生命发展、创造出来，那么推论的基础也就不复存在了。&lt;/p&gt;
+
+&lt;p&gt;综上所述，智慧设计论不符合多项最基本的科学理论的标准，因而智慧设计论者将它作为一种生物科学的理论引入课堂，并非一句给学生介绍更多的理论，让他们自由地判断这么简单，而是在介绍给学生之前就玩了一个小花招，将它伪装成科学理论。&lt;br /&gt;
+即便不管这个理论是否属于宗教信仰的范畴，最起码把不属于科学理论的智慧设计论当作科学理论就犯了一个缺乏常识的错误，如此不负责任的态度怎能让人满意？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[FSM 来了]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;智慧设计论者可能会问，凭什么非要用 Root-Bernstein
+的或类似的标准来判断科学理论？难道这些标准不能够与时俱进么？&lt;br /&gt;
+通常我会认为这样发问的人对科学和科学史并不了解，不过这次没办法扯太多的无关内容，不妨看看放宽某些标准会有什么后果。&lt;/p&gt;
+
+&lt;p&gt;堪萨斯州保守的基督教福音教派对与基督教信仰无关的同样不符合科学标准的“其它内容”并不感兴趣，假如他们表态支持的决议获得通过，在他们看来，堪萨斯州中学生物课堂上应该是－－也许最多－－有2种理论，第3者插足的情况他们是从来没有考虑过的。&lt;/p&gt;
+
+&lt;p&gt;然而不识趣的程咬金还是从半路杀了出来：2005年1月，&lt;a href=&#34;http://www.venganza.org/faq.htm#f1&#34;&gt;Bobby Henderson&lt;/a&gt; 写了一封&lt;a href=&#34;http://www.venganza.org/&#34;&gt;公开信&lt;/a&gt;给&lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;堪萨斯州教育委员会&lt;/a&gt;，声称既然按照他们提出的理由，应该允许学生在课堂上接受各种各样不同的理论，那么包括他在内的1000多万人所相信的世界是由 &lt;a href=&#34;http://en.wikipedia.org/wiki/Flying_Spaghetti_Monster&#34;&gt;Flying Spaghetti Monster&lt;/a&gt; 创造的理论便不能够被忽视，同样应该作为“另一种理论”让学生了解。这个 FSM 理论主要声称世界其实是由一个一般人看不见又探测不到的长着意大利面条般触手的怪物创造的。&lt;br /&gt;
+该理论既有不输给智慧设计论的证据，又有大批支持者，还声称如果不允许该理论取得与智慧设计论相当的地位而进入课堂，他们将不得不采取法律行动－－而最让人头疼的是，这理论实际上无法证伪，因为每当科学家们开始测量，Flying Spaghetti Monster 就用它面条般的触手改变世界，如此一来，关于它的任何前后一贯的稳定的测量数据都是不可靠的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.venganza.org/images/wallpapers/noodledoodle1600_1200.jpg&#34;&gt;&lt;img src=&#34;http://www.venganza.org/images/noodledoodlewall.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;尽管这个理论听上去荒诞无稽，可到目前为止，堪萨斯教育委员会4位投反对票的成员中已经有3位表示对 Bobby Henderson 支持和赞赏。其他成员则还没有表态－－如果他们明确反对 FSM 理论进入课堂，那等于是给智慧设计论一个响亮的耳光，因为 FSM 理论根本就是智慧设计论的另一个版本，只不过把保守的基督徒想说又不敢说的基督教中的上帝换成了触手系的怪物；反过来，如果这种搞笑的理论能够进入科学教育课堂，那么其它能够与智慧设计论平起平坐的理论自然没道理被拒之门外，可以期待的是诸如 Flying Firefox、创造奇迹的勇敢少年、大中华先行者、隔壁蜀黍的同事的小侄子的同学家养的狗的姘头的主人的大姨妈都将成为各个理论中的创世者，堪萨斯州的学生们可就不止是要腾出三分之一的时间来学习 FSM 理论啦 (-_-#)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[IF 也来了]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;除了 FSM，IF 理论也出来搅 ID 的好事。&lt;br /&gt;
+2005年5月16日，&lt;a href=&#34;http://www.idrewthis.org/index.html&#34;&gt;David Craig Simpson&lt;/a&gt; 发表了一篇名为 &lt;a href=&#34;http://www.idrewthis.org/2005/gravity.html&#34;&gt;Teaching gravity&lt;/a&gt; 的漫画，用重力替换进化，用 Intelligent Falling 来讽刺 Intelligent Design。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.idrewthis.org/2005/gravity.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后 &lt;a href=&#34;http://jgrr.blogspot.com/2005/05/inspiration.html&#34;&gt;Joshua Rosenau&lt;/a&gt; 和 &lt;a href=&#34;http://www.theonion.com/news/index.php?issue=4133&amp;amp;n=2&#34;&gt;The Onion&lt;/a&gt; 继续就这个话题加以发挥。科学家们不禁要疑惑地问，如果哪天 ID 摆平了达尔文进化论，我们是否还要从重力入手，把整个物理体系也弄个底朝天呢？最后是不是干脆用《圣经》代替物理课本？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[真正的考验]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;好了，回到 FSM 上面来说正经的。谁都看得出来 FSM 理论是用来嘲讽智慧设计论的，可为什么它能够达到目的呢？原因就在于它抓住了智慧设计论的痛脚：不符合奥卡姆剃刀原则和不可证伪。&lt;br /&gt;
+当 FSM 或其他理论也具备这两个特点而立于不败之地时，否认 FSM 的合理性也就是否认智慧设计论的合理性，在为自己的理论摇旗呐喊时无视这两条主要限制的智慧设计论者又有什么办法阻止它也用同样的理由挤进课堂呢？&lt;br /&gt;
+那些长篇累牍地论证 Methodological Naturalism（自然主义方法论？）是科学中的教条、可证伪性是毫无必要的约束、只要有证据支持“它”存在即可、鼓吹无条件的信仰在谨慎的怀疑之上的智慧设计论者，打算用什么样的态度来对待理论呢？是像堪萨斯教育委员会的大多数成员一样假装看不见？是要用《圣经》的悠久历史、基督教的信徒人数、几个世纪以来的辉煌成就作理由阻止 FSM 横插一腿？是认为某些信仰比其它信仰更平等，FSM 之流不过是不值得认真对待的异端？还是在教堂上高喊着“&lt;a href=&#34;http://www.dzjzb.com/&#34;&gt;觉醒吧！道德！&lt;/a&gt;”横扫一切敢于和他们的道德观与信仰有不合迹象的宗教信仰（或科学理论）？&lt;br /&gt;
+别忘了，基督徒们谈到智慧设计论与达尔文进化论的争论时，几乎都会强调基督教代表的家庭观念、社会价值、信仰体系、道德准则等等，然后用它们来“论证”智慧设计论的“必要”和达尔文进化论的“亵渎”。&lt;br /&gt;
+所以我好奇的是，如果有人很认真地将 FSM 作为宗教信仰，基督徒们会像对待同性恋一样，从《圣经》传授的道德上否认 FSM 理论的合理性，进而－－按照他们自己的说法－－在生物学课堂上损害 FSM 信徒的宗教信仰自由吗？还是回到科学界的立场，让上帝的归上帝，自然科学的归自然科学，基督教的归基督教，奥卡姆剃刀教的归奥卡姆剃刀教，让 ID 和 FSM 等并非科学的理论一样在科学教育的课堂之外存在？&lt;/p&gt;
+
+&lt;p&gt;我很认同 &lt;a href=&#34;http://www.aclu.org/evolution/&#34;&gt;ACLU&lt;/a&gt; 的这一句声明：“反对那些试图将自己个人的宗教信仰伪装成科学并引入科学教育的人，这些人利用政府给他们的信仰贴上‘科学’这个能带来崇高声望的标签，不但误导了学生与家长，更危及所有美国人的宗教信仰自由。”&lt;br /&gt;
+但愿基督徒、智慧设计论者能够站在其他宗教信徒的位置，真正明白自己所说的宗教信仰自由是代表什么含义。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+I contend that we are both atheists. I just believe in one fewer god than you do. When you understand why you dismiss all the other possible gods, you will understand why I dismiss yours.
+&lt;/blockquote&gt;
+－－Stephen F. Roberts&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;之前贴了一篇 blog 提醒自己要赶快完成这篇文章，所以这一阵子既没有写其他的 blog 也没有回复留言。&lt;br /&gt;
+这篇文章想要讨论的东西远没有完结，智慧设计论者还有许多辩解之辞，如“达尔文进化论难以解释某些现象，所以应该选择智慧设计论”、“FSM 和严肃的宗教有本质的区别，那些人心里都明白 FSM 是假的”、“自然主义的科学受限于僵化、顽固的范式而不知变通、进步，智慧设计论的出现是建立新的一整套科学范式的希望，那将是科学与神学、理性与信仰、自然与超自然的和谐统一”、“宇宙需要一个起因，而上帝是没有起因的万物创造者，上帝是必然存在的”、“科学相信自然界有秩序，相信万物都属于自然范畴，相信自然定律是恒定的，相信种种预设的条件，因此科学也是一种宗教信仰”…&lt;br /&gt;
+还有许许多多要详细讨论辨析的，虽然我有把握指出智慧设计论者和基督徒的不当之处，但为了不让文章冗长拖沓又支离破碎到无法阅读，为了我憋了这么多天要发表 blog 的欲望，所以暂时只写到这里为止。&lt;/p&gt;
+
+&lt;p&gt;我想，在毫无意义的辩论胜负之外，更重要的是我们从这一系列智慧设计论的事件中能够学到什么东西，我们应该以什么样的态度来对待宗教与科学的冲突，科学家、宗教徒和民众有着怎样的社会责任等等，如果今后还有下文，除了上面的道理要辨明之外，重点还是会放在这几个话题之上。&lt;br /&gt;
+除此之外还会提供一些内容丰富的讨论达尔文进化论与智慧设计论的站点，或者可以到我的 &lt;a href=&#34;http://del.icio.us/calon/Science+Religion&#34;&gt;Del.icio.us&lt;/a&gt;、&lt;a href=&#34;http://365key.com/search.aspx?orderby=2&amp;amp;user=calon&amp;amp;tagID=317&amp;amp;tagID=443&#34;&gt;365Key&lt;/a&gt; 收藏中获得二手信息。&lt;/p&gt;
+
+&lt;p&gt;如果一切顺利，最后还要完成我最初计划的目标：以自己的语言解释清楚科学究竟是什么。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Kitzmiller Case</title>
+        <link>https://ioerr.github.io/posts/kitzmiller-case/</link>
+        <pubDate>Tue, 27 Sep 2005 06:08:37 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/kitzmiller-case/</guid>
+        <description>&lt;p&gt;在 &lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;Kansas State Board of
+Education&lt;/a&gt;
+10月份的最终投票表决之前，另一场智慧设计论（Intelligent
+Design）与达尔文进化论的冲突已经提前上演。&lt;/p&gt;
+
+&lt;p&gt;9月26日，以 Tammy J. Kitzmiller 为首的11名家长和 &lt;a href=&#34;http://www.dover.k12.pa.us/doversd/site/default.asp&#34;&gt;Dover Area School District（DASD）&lt;/a&gt;、Dover School Board 之间的诉讼进入&lt;a href=&#34;http://www.pamd.uscourts.gov/kitzmiller/kitzmiller.htm&#34;&gt;宾夕法尼亚州中区地方法庭（U.S. District Court for the Middle District of Pennsylvania）&lt;/a&gt;的法官审（Bench Trial）阶段。这场诉讼的焦点是，Dover 地区的学校是否应将智慧设计论引入科学教育课堂、使用持有智慧设计论观点的《Of Pandas and People: The Central Question of Biological Origins》作为学习生物起源理论的教材之一。&lt;/p&gt;
+
+&lt;p&gt;原告在8月8日提交了一份 &lt;a href=&#34;http://www2.ncseweb.org/kvd/complaint/2005_0808_brief_opposing_SumJudge.pdf&#34;&gt;Opposition to Defendants’ Motion for Summary Judgment&lt;/a&gt;，其中认为 &lt;a href=&#34;http://www.dover.k12.pa.us/doversd/site/default.asp&#34;&gt;DASD&lt;/a&gt; 的做法与 &lt;a href=&#34;http://en.wikipedia.org/wiki/Lemon_test&#34;&gt;Lemon Test&lt;/a&gt; 第1、2点相违背的观点成为法庭在9月13日&lt;a href=&#34;http://www2.ncseweb.org/kvd/complaint/2005_0913_judge_deny_motion_sum_judge.pdf&#34;&gt;驳回被告的提前判决动议（motion for summary judgement）&lt;/a&gt;的主要依据：&lt;/p&gt;
+
+&lt;p&gt;“the Policy is violative of the first two prongs of the Lemon test, the purpose and effects prongs.”&lt;/p&gt;
+
+&lt;p&gt;“Either an improper purpose or an improper effect renders the Policy invalid under the Establishment Clause.”&lt;/p&gt;
+
+&lt;p&gt;“we hold that genuine issues of material fact exist regarding whether the challenged Policy has a secular purpose and whether the Policy’s principal or primary effect advances or inhibits religion, despite Defendants’ arguments to the contrary. Accordingly, summary judgment is not warranted and Defendants’ Motion shall be denied. ”&lt;/p&gt;
+
+&lt;p&gt;于是双方的诉讼大战从26日正式打响。&lt;/p&gt;
+
+&lt;p&gt;如果此事闹得足够大，应该是比 &lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;Kansas State Board of Education&lt;/a&gt; 的投票影响更为深远的事件，所以关心达尔文进化论、智慧设计论、基督教等等的人不妨继续密切关注此事的进一步发展。&lt;/p&gt;
+
+&lt;p&gt;相关信息：&lt;/p&gt;
+
+&lt;p&gt;The three prongs of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Lemon_test&#34;&gt;Lemon Test&lt;/a&gt;：&lt;br /&gt;
+1、The government&amp;rsquo;s action must have a legitimate secular purpose;&lt;br /&gt;
+2、The government&amp;rsquo;s action must not have the primary effect of either advancing or inhibiting religion;&lt;br /&gt;
+3、The government&amp;rsquo;s action must not result in an &amp;ldquo;excessive entanglement&amp;rdquo; of the government and religion.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Establishment_Clause&#34;&gt;Establishment Clause of the First Amendment&lt;/a&gt;&lt;br /&gt;
+&amp;ldquo;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof&amp;rdquo;&lt;br /&gt;
+在法律上解决科学、宗教、政府等相互冲突的关键之所在，当然，仅仅是对美国如此…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www2.ncseweb.org/wp/&#34;&gt;Dover Trial page: Kitzmiller et al. v. Dover Area School District&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.ncseweb.org/&#34;&gt;National Center for Science Education&lt;/a&gt; 提供的新闻专题 blog，大部分法律文档、判决材料、相关背景信息等资料和链接都可以从这里找到。&lt;br /&gt;
+这里是新闻的 &lt;a href=&#34;http://www2.ncseweb.org/wp/?feed=rss2&#34;&gt;RSS Feed&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.aclu.org/evolution/&#34;&gt;American Civil Liberties Union&lt;/a&gt;&lt;br /&gt;
+美国公民自由协会的相关页面。其中的一段声明大意是：ACLU 素来反对那些试图将自己个人的宗教信仰伪装成科学并引入科学教育的人，这些人利用政府给他们的信仰贴上“科学”这个能带来崇高声望的标签，不但误导了学生与家长，更危及所有美国人的宗教信仰自由。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dover.k12.pa.us/doversd/site/default.asp&#34;&gt;Dover Area School District&lt;/a&gt;&lt;br /&gt;
+DASD。Dover School Board 大概应该翻译为 Dover 教育委员会吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thomasmore.org/index.html&#34;&gt;Thomas More Law Center&lt;/a&gt;&lt;br /&gt;
+辩方的律师团体。&lt;/p&gt;
+
+&lt;p&gt;最后声明两点：&lt;br /&gt;
+1、因为时间和水平有限，一些文本没有来得及仔细阅读，欢迎补充、指正&lt;br /&gt;
+2、翻译水平也有限，特别是和法律相关的词语不知道是否准确，希望有熟知法律的人指出错误并介绍相关知识
+:)&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>挖坑专帖</title>
+        <link>https://ioerr.github.io/posts/wakeng-zhuantie/</link>
+        <pubDate>Fri, 23 Sep 2005 15:16:49 +0000</pubDate>
+        <guid>https://ioerr.github.io/posts/wakeng-zhuantie/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://www.ksde.org/commiss/board.html&#34;&gt;Kansas State Board of Education&lt;/a&gt; 在10月份就会进行关于学校科学教育中科学标准和定义问题的投票－－说得明白一点就是投票表决结果将影响到是否将许多基督徒宣传的智慧设计论引入生物科学教育课堂。可是手头的《智慧设计与达尔文进化论》一文才写了三分之一都不到…总觉得要说的东西太多，要组织的材料和观点太杂乱，写得太多或者太少都怕读者不好理解…所以先占个地方提醒自己尽快写完，多做修改，免得等到投票之后还拿不出一篇像样的文章－－虽然投票的结果已经没有多少悬念了。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
