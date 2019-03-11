@@ -15,6 +15,11 @@
         <title>Firefox 扩展机制的变化与未来</title>
         <link>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
         <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
         <description>&lt;p&gt;我正在使用 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt; 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。&lt;/p&gt;
 
@@ -50,6 +55,11 @@
         <title>Chrome 扩展</title>
         <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
         <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
         <description>&lt;p&gt;首先&lt;a href=&#34;http://www.google.com/landing/chrome/beta/&#34;&gt;到这个页面下载 Chrome 4.0
 Beta&lt;/a&gt;，然后&lt;a href=&#34;https://chrome.google.com/extensions/&#34;&gt;去扩展页面&lt;/a&gt;淘吧。&lt;/p&gt;
@@ -100,6 +110,11 @@ Manager&lt;/a&gt;&lt;br /&gt;
         <title>Personas</title>
         <link>https://ioerr.github.io/posts/personas/</link>
         <pubDate>Tue, 01 Dec 2009 04:54:10 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/personas/</guid>
         <description>&lt;p&gt;很久没有再拿起 &lt;a href=&#34;http://www.getpersonas.com/&#34;&gt;Personas&lt;/a&gt; 这个 Firefox
 的轻量级皮肤，因为当时看得顺眼的皮肤只有寥寥几款，比如
@@ -222,6 +237,11 @@ Light&#34; /&gt;&lt;br /&gt;
         <title>O my god, F my life</title>
         <link>https://ioerr.github.io/posts/o-my-god-f-my-life/</link>
         <pubDate>Mon, 24 Aug 2009 15:06:21 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/o-my-god-f-my-life/</guid>
         <description>&lt;p&gt;在 WordCamp China 2009 的照片中，看到 &lt;a href=&#34;http://www.flickr.com/photos/ichada/3845339895/&#34;&gt;thruth 所穿的
 T恤&lt;/a&gt;，不知是谁的设计，将
@@ -253,6 +273,11 @@ Firefox T恤：&lt;/p&gt;
         <title>PK</title>
         <link>https://ioerr.github.io/posts/pk/</link>
         <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/pk/</guid>
         <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;
 试试不干正事的浏览体验，结果…&lt;/p&gt;
@@ -280,6 +305,11 @@ Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；&lt;
         <title>微观</title>
         <link>https://ioerr.github.io/posts/weguan/</link>
         <pubDate>Wed, 12 Mar 2008 02:52:42 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/weguan/</guid>
         <description>&lt;p&gt;当当当党，火星消息汇总&lt;/p&gt;
 
@@ -325,6 +355,11 @@ Democratic primary.&lt;/a&gt;&lt;/p&gt;
         <title>不可靠</title>
         <link>https://ioerr.github.io/posts/bukekao/</link>
         <pubDate>Tue, 25 Dec 2007 15:57:50 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/bukekao/</guid>
         <description>&lt;p&gt;这几天很流行的一段话：&lt;br /&gt;
 年底三部大片的启示：&lt;br /&gt;
@@ -359,6 +394,11 @@ Democratic primary.&lt;/a&gt;&lt;/p&gt;
         <title>不在服务区</title>
         <link>https://ioerr.github.io/posts/buzai-fuwuqu/</link>
         <pubDate>Wed, 19 Dec 2007 18:01:05 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/buzai-fuwuqu/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;http://www.douban.com/&#34;&gt;豆瓣&lt;/a&gt;目前只收录已经以实体形式出版发行的书籍、音乐、电影，可是如果某部小说只在网上发表，某些音乐和电影只在网上传播，我该去哪里寻找相关信息和同好呢？&lt;br /&gt;
 我正在看约瑟夫·维萨里奥诺维奇·朱加施维里同志写的《建设有格鲁吉亚特色的社会主义和谐社会》，打算写一本《足球游戏中射门框指南》，喜欢哼《伦敦大桥又倒了》，刚看完《&lt;a href=&#34;http://i14.tinypic.com/6nrmsmc.jpg&#34;&gt;立院大逃杀&lt;/a&gt;》。&lt;br /&gt;
@@ -384,6 +424,11 @@ Nightly Tester Tools 不是万能的…&lt;/p&gt;
         <title>Firefox 3 Beta 1</title>
         <link>https://ioerr.github.io/posts/firefox-3-beta-1/</link>
         <pubDate>Fri, 23 Nov 2007 13:50:46 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/firefox-3-beta-1/</guid>
         <description>&lt;p&gt;本来打算等到 &lt;a href=&#34;http://www.mozilla.org/products/firefox/&#34;&gt;Firefox&lt;/a&gt;
 3正式版本发布之后再用的，但实在经不起诱惑，还是下载了 &lt;a href=&#34;http://www.mozilla.com/en-US/firefox/3.0b1/releasenotes/&#34;&gt;Beta
@@ -452,6 +497,11 @@ Firefox 3的新名词，Places 管理器：&lt;br /&gt;
         <title>推荐 Firefox 扩展与主题</title>
         <link>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</link>
         <pubDate>Mon, 06 Mar 2006 15:17:06 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</guid>
         <description>
 

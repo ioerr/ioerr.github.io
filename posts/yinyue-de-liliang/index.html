@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>音乐的力量 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="音乐的力量" />
+<meta property="og:description" content="不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”
+不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。
+但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。
+在音乐本身的审美价值之外，还有一点值得一提。
+想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。
+一支音乐不过几分钟时间，却有这样触动人心的力量。
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。
+这是诉诸理性的文本无法达到的效果。
+诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？
+生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。
+这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yinyue-de-liliang/" />
+
+
+
+<meta property="article:published_time" content="2019-03-11T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2019-03-11T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="音乐的力量">
+<meta itemprop="description" content="不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”
+不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。
+但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。
+在音乐本身的审美价值之外，还有一点值得一提。
+想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。
+一支音乐不过几分钟时间，却有这样触动人心的力量。
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。
+这是诉诸理性的文本无法达到的效果。
+诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？
+生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。
+这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？">
+
+
+<meta itemprop="datePublished" content="2019-03-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-03-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="17">
+
+
+
+<meta itemprop="keywords" content="音乐,意识,无意识,自我,魔法,理性,消费,生产,价值,意义,审美," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="音乐的力量"/>
+<meta name="twitter:description" content="不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”
+不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。
+但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。
+在音乐本身的审美价值之外，还有一点值得一提。
+想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。
+一支音乐不过几分钟时间，却有这样触动人心的力量。
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。
+这是诉诸理性的文本无法达到的效果。
+诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？
+生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。
+这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyinyue-de-liliang%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2019-03-11 12:00">2019-03-11</time> &bull;
+          
+            
+            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+          </p>
+      <h1>音乐的力量</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E9%9F%B3%E4%B9%90">
+              <span class="hash">#</span>音乐</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E8%AF%86">
+              <span class="hash">#</span>意识</a>
+          
+            , 
+            <a href="/tags/%E6%97%A0%E6%84%8F%E8%AF%86">
+              <span class="hash">#</span>无意识</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E6%88%91">
+              <span class="hash">#</span>自我</a>
+          
+            , 
+            <a href="/tags/%E9%AD%94%E6%B3%95">
+              <span class="hash">#</span>魔法</a>
+          
+            , 
+            <a href="/tags/%E7%90%86%E6%80%A7">
+              <span class="hash">#</span>理性</a>
+          
+            , 
+            <a href="/tags/%E6%B6%88%E8%B4%B9">
+              <span class="hash">#</span>消费</a>
+          
+            , 
+            <a href="/tags/%E7%94%9F%E4%BA%A7">
+              <span class="hash">#</span>生产</a>
+          
+            , 
+            <a href="/tags/%E4%BB%B7%E5%80%BC">
+              <span class="hash">#</span>价值</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E4%B9%89">
+              <span class="hash">#</span>意义</a>
+          
+            , 
+            <a href="/tags/%E5%AE%A1%E7%BE%8E">
+              <span class="hash">#</span>审美</a>
+          
+        
+      </p>
+    </header>
+    <section><p>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”<br />
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”</p>
+
+<p>不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。</p>
+
+<p>但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。<br />
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。<br />
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。</p>
+
+<p>在音乐本身的审美价值之外，还有一点值得一提。</p>
+
+<p>想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。</p>
+
+<p>一支音乐不过几分钟时间，却有这样触动人心的力量。<br />
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。<br />
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。<br />
+这是诉诸理性的文本无法达到的效果。</p>
+
+<p>诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。<br />
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。<br />
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？</p>
+
+<p>生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。</p>
+
+<p>这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9f%b3%e4%b9%90%e7%9a%84%e5%8a%9b%e9%87%8f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyinyue-de-liliang%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyinyue-de-liliang%2f&text= @calon %e9%9f%b3%e4%b9%90%e7%9a%84%e5%8a%9b%e9%87%8f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2019 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

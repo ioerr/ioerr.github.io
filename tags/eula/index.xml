@@ -15,6 +15,11 @@
         <title>EULAlyzer</title>
         <link>https://ioerr.github.io/posts/eulalyzer/</link>
         <pubDate>Tue, 04 Mar 2008 15:13:03 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/eulalyzer/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;http://www.javacoolsoftware.com/eulalyzer.html&#34;&gt;EULAlyzer&lt;/a&gt;
 的想法是不错。最终用户许可协议（End User License

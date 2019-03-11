@@ -15,6 +15,11 @@
         <title>跨主机共享外设</title>
         <link>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</link>
         <pubDate>Thu, 02 Mar 2017 13:00:13 +0800</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/kua-zhuji-gongxiang-waishe/</guid>
         <description>&lt;p&gt;因为同时在使用两台电脑，为了来回切换方便和共享剪贴板，需要寻找一套可以跨主机共享鼠标、键盘、剪贴板的方案。&lt;/p&gt;
 
@@ -52,6 +57,11 @@
         <title>双鼠标</title>
         <link>https://ioerr.github.io/posts/shuang-shubiao/</link>
         <pubDate>Wed, 31 Oct 2007 03:17:35 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/shuang-shubiao/</guid>
         <description>&lt;p&gt;想必曾经无聊到用非惯用手操作鼠标的用户不在少数，其实习惯了也还过得去是吧。那么在换只手使用鼠标之后，有没有想过同时使用2只鼠标呢？&lt;br /&gt;
 嗯，我不是指2个鼠标同时控制1个指针，当然也不是这种&lt;a href=&#34;http://ni9e.com/2xmouse.php&#34;&gt;脚踏两只船的劈腿鼠标&lt;/a&gt;，更不是这种&lt;a href=&#34;http://forevergeek.com/gadgets/first_dual_cursor_mouse.php&#34;&gt;患有鼠格分裂症的鼠标&lt;/a&gt;，而是同时存在2个指针，2个鼠标分别控制。&lt;br /&gt;

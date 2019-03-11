@@ -15,6 +15,11 @@
         <title>Pandoc &amp; Markdown</title>
         <link>https://ioerr.github.io/posts/pandoc-markdown/</link>
         <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
         <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。&lt;br /&gt;
 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。&lt;/p&gt;

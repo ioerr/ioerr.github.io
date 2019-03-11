@@ -15,6 +15,11 @@
         <title>如何确定一个人的身份？</title>
         <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
         <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
         <description>&lt;p&gt;目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。&lt;/p&gt;
 
@@ -34,6 +39,11 @@
         <title>双密码</title>
         <link>https://ioerr.github.io/posts/shuang-mima/</link>
         <pubDate>Fri, 13 May 2011 02:54:08 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/shuang-mima/</guid>
         <description>&lt;p&gt;Flickr、Tumblr、Evernote、Friendfeed
 等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。&lt;/p&gt;

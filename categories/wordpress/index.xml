@@ -15,6 +15,11 @@
         <title>从 WordPress 迁移到 Hugo</title>
         <link>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</link>
         <pubDate>Tue, 17 Jan 2017 17:32:36 +0800</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/cong-wordpress-qianyi-dao-hugo/</guid>
         <description>&lt;p&gt;虽然在 Weblogs.us 驻留了很久，但不免还是担心万一有一天停止提供这么好的服务了，要如何快速迁移网站。&lt;br /&gt;
 而且最近几年用静态网站写 blog 的风潮越来越流行，总想着可以尝试一把。&lt;/p&gt;
@@ -131,6 +136,11 @@ done
         <title>最简便的内容发布方案</title>
         <link>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</link>
         <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
         <description>
 
@@ -220,12 +230,17 @@ Docs 都适用；&lt;br /&gt;
         <title>Minimore</title>
         <link>https://ioerr.github.io/posts/minimore/</link>
         <pubDate>Fri, 02 Aug 2013 17:10:16 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/minimore/</guid>
         <description>&lt;p&gt;抽空改了个极简风格的主题 &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;mnmlist&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;原主题：mnmlist v1&lt;br /&gt;
 原作者： Leo Babauta&lt;br /&gt;
-原作者地址： &lt;a href=&#34;http://mnmlist.com&#34;&gt;http://mnmlist.com&lt;/a&lt;br /&gt;
+原作者地址： &lt;a href=&#34;http://mnmlist.com&#34;&gt;http://mnmlist.com&lt;/a&gt; &lt;br /&gt;
 原作主题地址： &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;http://mnmlist.com/theme&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;修改主题：minimore&lt;br /&gt;
@@ -233,39 +248,30 @@ Docs 都适用；&lt;br /&gt;
 修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
 修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets
-小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
+&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets 小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
 
 &lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
-我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个
-more），而且没有采用固定宽度。&lt;br /&gt;
+我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个 more），而且没有采用固定宽度。&lt;br /&gt;
 如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
 
 &lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
-Font-family 采用优先雅黑和
-Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
+Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
 
-&lt;p&gt;因为我自己是用 Disqus
-评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus
-插件是可以正常显示的。&lt;/p&gt;
+&lt;p&gt;因为我自己是用 Disqus 评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus 插件是可以正常显示的。&lt;/p&gt;
 
 &lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
 
 &lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
 
 &lt;p&gt;安装说明&lt;br /&gt;
-将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress
-管理后台的主题板块中激活即可。&lt;/p&gt;
+将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress 管理后台的主题板块中激活即可。&lt;/p&gt;
 
 &lt;p&gt;版权声明&lt;br /&gt;
 原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
-那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want
-To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用
-twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
+那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用 twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
 
 &lt;p&gt;效果截图：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/screenshot_small-1.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/screenshot_small-1.png&#34; alt=&#34;photo
-screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/screenshot_small-1.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/screenshot_small-1.png&#34; alt=&#34;photo screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;下载地址：&lt;br /&gt;
 &lt;a href=&#34;https://app.box.com/s/45domoq1nf2rrdf03wmx&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
@@ -277,6 +283,11 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <title>TagThis</title>
         <link>https://ioerr.github.io/posts/tagthis/</link>
         <pubDate>Sat, 23 Feb 2008 17:03:58 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/tagthis/</guid>
         <description>&lt;p&gt;因为是半路启用标签功能，所以以前的许多文章都没有打上标签，懒得自己一个个加标签，所以装上了这个“&lt;a href=&#34;http://www.brajeshwar.com/2008/tagthis-wordpress-plugin/&#34;&gt;TagThis&lt;/a&gt;”插件。&lt;/p&gt;
 
@@ -292,6 +303,11 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <title>除夕焰火</title>
         <link>https://ioerr.github.io/posts/chuxi-yanhuo/</link>
         <pubDate>Sat, 09 Feb 2008 16:10:36 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/chuxi-yanhuo/</guid>
         <description>&lt;p&gt;除夕晚上跑出去练习拍摄焰火。周围的大型焰火不多，我又没有三角架，所以像打游击一般在小区走来走去，用2秒的曝光手持拍摄…&lt;/p&gt;
 
@@ -322,6 +338,11 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <title>和谐号失踪了</title>
         <link>https://ioerr.github.io/posts/hexie-hao-shizong-le/</link>
         <pubDate>Mon, 24 Dec 2007 05:39:28 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/hexie-hao-shizong-le/</guid>
         <description>&lt;p&gt;昨天晚上应该是连续写了两篇文章，其中有一篇是《和谐号》，这在 RSS
 中也有记录：&lt;br /&gt;
@@ -339,6 +360,11 @@ screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
         <title>准备升级到 WP 2.3</title>
         <link>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</link>
         <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</guid>
         <description>&lt;p&gt;打算把“滞销书”&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;升级&lt;/a&gt;到
 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 2.3 版本，如果这几天 blog
@@ -394,6 +420,11 @@ default
         <title>Feed 乱码</title>
         <link>https://ioerr.github.io/posts/feed-luanma/</link>
         <pubDate>Wed, 23 May 2007 05:12:09 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/feed-luanma/</guid>
         <description>&lt;p&gt;因为近期出现 feed 在 Google Reader 变成问号的问题（我用 Reader
 却一直没发现…所以说人品很重要的），所以怀疑是不是新增加的插件带来的问题。目前禁用了
@@ -419,6 +450,11 @@ Comments&lt;/a&gt;
         <title>Trackback 暴走</title>
         <link>https://ioerr.github.io/posts/tb-baozou/</link>
         <pubDate>Wed, 16 May 2007 16:07:19 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/tb-baozou/</guid>
         <description>&lt;p&gt;自从上次给 WordPress 升级之后，沉寂很久的 trackback
 功能忽然复苏，而且时不时的暴走。&lt;br /&gt;
@@ -434,6 +470,11 @@ Comments&lt;/a&gt;
         <title>转换 Permalink</title>
         <link>https://ioerr.github.io/posts/zhuanhuan-permalink/</link>
         <pubDate>Sat, 12 May 2007 18:07:54 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhuanhuan-permalink/</guid>
         <description>
 
@@ -461,6 +502,11 @@ IT，可是挨踢只是我的14个类别之一，从现在的首页来看，话�
         <title>要不要自架 blog？</title>
         <link>https://ioerr.github.io/posts/yaobuyao-zijia-blog/</link>
         <pubDate>Fri, 20 Apr 2007 16:05:59 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/yaobuyao-zijia-blog/</guid>
         <description>&lt;p&gt;看到 &lt;a href=&#34;http://blog.cathayan.org/&#34;&gt;Cathayan&lt;/a&gt; &lt;a href=&#34;http://blog.cathayan.org/item/1575&#34;&gt;抱怨 Kazix.com
 的空间性价比不高&lt;/a&gt;，又看到
@@ -493,6 +539,11 @@ BSP，注册，编辑，发布，如此而已。
         <title>准备升级 WP</title>
         <link>https://ioerr.github.io/posts/zhunbei-shengji-wp/</link>
         <pubDate>Mon, 16 Apr 2007 10:21:24 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhunbei-shengji-wp/</guid>
         <description>&lt;p&gt;出差回来就打算把 WordPress 升级到
 &lt;a href=&#34;http://wordpress.org/development/2007/04/wordpress-213-and-2010/&#34;&gt;2.1.3&lt;/a&gt;，可能还要调整模板和插件。&lt;/p&gt;

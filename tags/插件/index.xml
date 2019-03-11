@@ -15,6 +15,11 @@
         <title>Vim</title>
         <link>https://ioerr.github.io/posts/vim/</link>
         <pubDate>Tue, 08 Sep 2009 16:12:19 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/vim/</guid>
         <description>
 
@@ -59,6 +64,11 @@ Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;
         <title>TagThis</title>
         <link>https://ioerr.github.io/posts/tagthis/</link>
         <pubDate>Sat, 23 Feb 2008 17:03:58 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/tagthis/</guid>
         <description>&lt;p&gt;因为是半路启用标签功能，所以以前的许多文章都没有打上标签，懒得自己一个个加标签，所以装上了这个“&lt;a href=&#34;http://www.brajeshwar.com/2008/tagthis-wordpress-plugin/&#34;&gt;TagThis&lt;/a&gt;”插件。&lt;/p&gt;
 

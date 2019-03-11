@@ -15,6 +15,11 @@
         <title>什么是整句输入法？</title>
         <link>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</link>
         <pubDate>Mon, 26 Nov 2012 03:35:34 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/shenme-shi-zhengju-shurufa/</guid>
         <description>&lt;p&gt;长期围观本 blog
 的读者应该知道，我写过不少关于整句输入法的东西，是智能狂拼的拥趸，虽然因为兼容性（2代）和稳定性（3代）的原因，没有用它当主力输入法，而且现在智能狂拼的开发基本停滞，但我始终相信整句输入法是有市场的，随时准备转回使用满意的整句输入法。&lt;/p&gt;
@@ -43,6 +48,11 @@
         <title>搜狗输入法智慧版</title>
         <link>https://ioerr.github.io/posts/sougou-shurufa-zhihuiban/</link>
         <pubDate>Fri, 12 Oct 2012 03:19:47 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/sougou-shurufa-zhihuiban/</guid>
         <description>&lt;p&gt;搜狗输入法最近推出了&lt;a href=&#34;http://pinyin.sogou.com/zhihui/&#34;&gt;智慧版&lt;/a&gt;，宣传的功能亮点如下：&lt;br /&gt;
 1、情景感知：配合 IE
@@ -79,6 +89,11 @@
         <title>云输入法启示</title>
         <link>https://ioerr.github.io/posts/yun-shurufa-qishi/</link>
         <pubDate>Fri, 06 Nov 2009 05:13:33 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/yun-shurufa-qishi/</guid>
         <description>&lt;p&gt;搜狗发布云输入法后，正面的赞扬主要有：&lt;br /&gt;
 1、跨平台；&lt;br /&gt;
@@ -111,6 +126,11 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
         <title>小鹤双拼</title>
         <link>https://ioerr.github.io/posts/xiaohe-shuangpin/</link>
         <pubDate>Sun, 06 Jul 2008 14:11:58 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/xiaohe-shuangpin/</guid>
         <description>&lt;p&gt;练熟了自然码双拼方案，又发现不少人说&lt;a href=&#34;http://www.flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;的声韵搭配、键盘布局更合理，本来心想自然码双拼方案已经为各大主流输入法支持，如果更换成其他方案，适应性是个问题，比如自然码、谷歌拼音的界面就不支持自定义双拼方案，其他的输入法都需要新增编码方案。&lt;/p&gt;
 
@@ -128,6 +148,11 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
         <title>智能狂拼测试版</title>
         <link>https://ioerr.github.io/posts/zhinengkuangpin-ceshiban/</link>
         <pubDate>Mon, 09 Jun 2008 16:15:49 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhinengkuangpin-ceshiban/</guid>
         <description>&lt;p&gt;听说智能狂拼新版本已经进入半公开测试阶段，于是下载了080606的α版本。&lt;br /&gt;
 整体来说存在&lt;a href=&#34;http://www.tiansuo.com/websay/ViewTopic.aspx?tid=3436&#34;&gt;不少问题&lt;/a&gt;，不建议安装使用：&lt;br /&gt;
@@ -154,6 +179,11 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
         <title>主流拼音输入法功能比较</title>
         <link>https://ioerr.github.io/posts/zhuliu-pinyin-shurufa-gongneng-bijiao/</link>
         <pubDate>Sat, 12 Jan 2008 19:19:06 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhuliu-pinyin-shurufa-gongneng-bijiao/</guid>
         <description>
 
@@ -179,6 +209,11 @@ ABC 虽然功能简陋，但仍然用户众多；QQ
         <title>新华拼音输入法</title>
         <link>https://ioerr.github.io/posts/xinhua-pinyin-shurufa/</link>
         <pubDate>Wed, 02 Jan 2008 06:45:32 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/xinhua-pinyin-shurufa/</guid>
         <description>
 
@@ -217,6 +252,11 @@ Tab；中英文切换虽然可以选择&lt;/p&gt;
         <title>拼音加加4.2.0.10公测版</title>
         <link>https://ioerr.github.io/posts/pinyinjiajia-42010-gongceban/</link>
         <pubDate>Mon, 10 Sep 2007 05:33:29 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/pinyinjiajia-42010-gongceban/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;http://dir.jjol.cn/Pyjj/&#34;&gt;拼音加加&lt;/a&gt;&lt;a href=&#34;http://bbs.jjol.cn/showthread.php?t=856&#34;&gt;发布了4.2.0.10公测版&lt;/a&gt;，我一直还有在用2.204版，趁着最近各大输入法升级较少的时段测试了一下这个公测版。&lt;/p&gt;
 

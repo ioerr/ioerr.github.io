@@ -15,6 +15,11 @@
         <title>自制简单工作日志任务表</title>
         <link>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</link>
         <pubDate>Mon, 31 Jan 2011 09:46:47 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</guid>
         <description>&lt;p&gt;因为感觉还是 Excel
 用的比较顺手，就做了一个简单的工作日志任务表，用来记录工作中的事项，便于跟踪和回顾工作情况。&lt;br /&gt;

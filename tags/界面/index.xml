@@ -15,6 +15,11 @@
         <title>移动设备触屏游戏六戒</title>
         <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
         <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
         <description>&lt;p&gt;时常觉得 iPod/iPhone
 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
@@ -62,6 +67,11 @@ swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注�
         <title>注册登录界面的八大错误</title>
         <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
         <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
         <description>&lt;p&gt;Cisco
 在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。&lt;br /&gt;
@@ -101,6 +111,11 @@ Jared M. Spool
         <title>豆瓣快速注册界面</title>
         <link>https://ioerr.github.io/posts/douban-kuaisu-zhuce-jiemian/</link>
         <pubDate>Fri, 21 Dec 2007 17:58:09 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/douban-kuaisu-zhuce-jiemian/</guid>
         <description>&lt;p&gt;很久以来一直存在的问题不吐不快。每次在豆瓣要以未登录状态进行什么操作，就会出现类似这样的快速注册界面（有时候记住登录状态会失效）：&lt;br /&gt;
 &lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00097.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00097.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;

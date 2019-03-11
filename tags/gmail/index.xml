@@ -15,6 +15,11 @@
         <title>Gmail 支持 OAuth 方式访问</title>
         <link>https://ioerr.github.io/posts/gmail-zhichi-oauth-fangshi-fangwen/</link>
         <pubDate>Wed, 31 Mar 2010 07:59:04 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/gmail-zhichi-oauth-fangshi-fangwen/</guid>
         <description>&lt;p&gt;Google &lt;a href=&#34;http://googlecode.blogspot.com/2010/03/oauth-access-to-imapsmtp-in-gmail.html&#34;&gt;在官方 blog 中宣布 Gmail 可通过 OAuth
 方式访问&lt;/a&gt;，支持

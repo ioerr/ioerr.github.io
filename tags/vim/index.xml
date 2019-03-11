@@ -15,6 +15,11 @@
         <title>Vim 中文语法文件</title>
         <link>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</link>
         <pubDate>Sun, 12 Dec 2010 15:54:54 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/vim-zhongwen-yufa-wenjian/</guid>
         <description>&lt;p&gt;时常用 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
 写中文文档，希望能够像写代码一样有彩色高亮语法，突出显示中英文标点符号、数字等等，免得白花花的一片（我习惯用暗背景的主题配色，文字默认是白色的）看着晃眼。&lt;/p&gt;
@@ -51,6 +56,11 @@ google，我的修改版本可以&lt;a href=&#34;http://www.box.net/shared/g6h9l
         <title>Vim 速查手册</title>
         <link>https://ioerr.github.io/posts/vim-sucha-shouce/</link>
         <pubDate>Sat, 23 Oct 2010 17:49:43 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/vim-sucha-shouce/</guid>
         <description>&lt;p&gt;之前用 Excel 写了个 &lt;a href=&#34;http://calon.weblogs.us/vim/&#34;&gt;Vim
 在线速查手册&lt;/a&gt;并上传到 Google Docs
@@ -96,6 +106,11 @@ Vim 无缘了；&lt;br /&gt;
         <title>Vim</title>
         <link>https://ioerr.github.io/posts/vim/</link>
         <pubDate>Tue, 08 Sep 2009 16:12:19 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/vim/</guid>
         <description>
 
@@ -140,6 +155,11 @@ Firefox 扩展：&lt;a href=&#34;http://vimperator.org/trac/wiki/Vimperator&#34;
         <title>推荐免费的文本编辑工具</title>
         <link>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</link>
         <pubDate>Tue, 29 Nov 2005 16:25:50 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
         <guid>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;http://www.devzoo.com/&#34;&gt;DevZoo&lt;/a&gt; 列出了一个 Windows
 下免费文本编辑软件的&lt;a href=&#34;http://www.devzoo.com/index.php?tooltype=WindowsEditor&#34;&gt;清单&lt;/a&gt;，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。&lt;/p&gt;
