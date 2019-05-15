@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ioerr.github.io/posts/baituo-xiaofeizhuyi-de-jiandan-fangfa/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/guanyu-suoyouzhi-he-fubai-de-taolun/</loc>
     <lastmod>2019-04-11T00:00:00+00:00</lastmod>
   </url>
@@ -1104,6 +1109,11 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/chongxin-daogu-vim/</loc>
+    <lastmod>2009-09-08T16:12:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/posts/vim/</loc>
     <lastmod>2009-09-08T16:12:19+00:00</lastmod>
   </url>
   
@@ -5348,6 +5358,11 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/posts/yishu-zhexue-zhaochao-5/</loc>
+    <lastmod>2005-01-13T13:02:53+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/xiantan-yanjiu/</loc>
     <lastmod>2005-01-13T12:41:27+00:00</lastmod>
   </url>
@@ -5459,6 +5474,11 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/zenyang-dang-yimin-kexuejia-zhaichao/</loc>
+    <lastmod>2004-12-16T14:49:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/posts/zenyang-dangyimin-kexuejia-zhaichao/</loc>
     <lastmod>2004-12-16T14:49:22+00:00</lastmod>
   </url>
   
@@ -6665,7 +6685,7 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/</loc>
-    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8477,7 +8497,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8700,6 +8720,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%AE%9E%E6%97%B6%E6%B5%8F%E8%A7%88/</loc>
     <lastmod>2008-10-16T04:24:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%AE%9E%E8%AF%81/</loc>
+    <lastmod>2010-11-13T14:20:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9006,6 +9032,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%BB%B6%E5%9D%AA%E5%B2%9B/</loc>
     <lastmod>2010-11-23T16:33:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%BB%B6%E8%BF%9F%E6%BB%A1%E8%B6%B3/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10451,13 +10483,13 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2018-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12059,7 +12091,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12137,7 +12169,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%B4%AD%E7%89%A9/</loc>
-    <lastmod>2013-09-19T15:15:13+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12611,7 +12643,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E9%9C%80%E6%B1%82/</loc>
-    <lastmod>2015-04-21T14:55:10+00:00</lastmod>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
