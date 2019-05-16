@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>唯一真理的幻觉 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="唯一真理的幻觉" />
+<meta property="og:description" content="我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。
+这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。
+相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。
+虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。
+譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。
+认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。
+人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/weiyi-zhenli-de-huanjue/" />
+
+
+
+<meta property="article:published_time" content="2019-05-15T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2019-05-15T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="唯一真理的幻觉">
+<meta itemprop="description" content="我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。
+这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。
+相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。
+虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。
+譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。
+认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。
+人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。">
+
+
+<meta itemprop="datePublished" content="2019-05-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="7">
+
+
+
+<meta itemprop="keywords" content="幻觉,真理,答案,知识," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="唯一真理的幻觉"/>
+<meta name="twitter:description" content="我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。
+这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。
+相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。
+虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。
+譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。
+认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。
+人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fweiyi-zhenli-de-huanjue%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2019-05-15 12:00">2019-05-15</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>唯一真理的幻觉</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%B9%BB%E8%A7%89">
+              <span class="hash">#</span>幻觉</a>
+          
+            , 
+            <a href="/tags/%E7%9C%9F%E7%90%86">
+              <span class="hash">#</span>真理</a>
+          
+            , 
+            <a href="/tags/%E7%AD%94%E6%A1%88">
+              <span class="hash">#</span>答案</a>
+          
+            , 
+            <a href="/tags/%E7%9F%A5%E8%AF%86">
+              <span class="hash">#</span>知识</a>
+          
+        
+      </p>
+    </header>
+    <section><p>我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。</p>
+
+<p>这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。</p>
+
+<p>相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。</p>
+
+<p>虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。<br />
+譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。</p>
+
+<p>认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。<br />
+人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%94%af%e4%b8%80%e7%9c%9f%e7%90%86%e7%9a%84%e5%b9%bb%e8%a7%89》&body=https%3a%2f%2fioerr.github.io%2fposts%2fweiyi-zhenli-de-huanjue%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fweiyi-zhenli-de-huanjue%2f&text= @calon %e5%94%af%e4%b8%80%e7%9c%9f%e7%90%86%e7%9a%84%e5%b9%bb%e8%a7%89&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2019 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

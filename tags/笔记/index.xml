@@ -6,10 +6,35 @@
     <description>Recent content in 笔记 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Jul 2017 21:47:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>SingleFile</title>
+        <link>https://ioerr.github.io/posts/singlefile/</link>
+        <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/singlefile/</guid>
+        <description>&lt;p&gt;曾经想过，如果存储空间足够，有没有办法将每天浏览的所有内容都离线保存备查呢？&lt;/p&gt;
+
+&lt;p&gt;毕竟很多网上的信息说不定什么时候就彻底消失了。&lt;br /&gt;
+而且有的时候觉得应该不会再用到的网页信息，偏偏过一段时间就是需要回头检索，已经没法根据地址和页面标题从浏览记录中查到。&lt;/p&gt;
+
+&lt;p&gt;一直没有找到合适的工具，直到今天偶然看到这个 Firefox 扩展：&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/single-file/&#34;&gt;SingleFile&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;它的主要功能平平无奇，就是将完整的页面保存到一个 HTML 文件中，同类功能的扩展有好几个。&lt;/p&gt;
+
+&lt;p&gt;但附加功能就有讲究了，支持自动保存网页，支持定时自动保存，支持压缩页面内容，支持保存有延迟加载的图像，支持自定义保存的文件名，支持配置同名文件覆盖策略，支持配置自动保存的地址，还支持通配符，而且保存文件后还附带保存了原始网址信息。&lt;/p&gt;
+
+&lt;p&gt;因此，你完全可以用它来保存所有浏览记录，也可以当作网页摘录工具——配合 Total Commander 等文件管理工具，不比常见的笔记工具效率低，而且备份还方便、安全多了。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>板夹笔记</title>
