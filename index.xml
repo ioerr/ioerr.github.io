@@ -6,10 +6,39 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>鉴省</title>
+        <link>https://ioerr.github.io/posts/jian-xing/</link>
+        <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/jian-xing/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;呜呼！&lt;br /&gt;
+灭六国者，六国也，非秦也。&lt;br /&gt;
+族秦者，秦也，非天下也。&lt;/p&gt;
+
+&lt;p&gt;嗟夫！&lt;br /&gt;
+使六国各爱其人，则足以拒秦。&lt;br /&gt;
+秦复爱六国之人，则递三世可至万世而为君，谁得而族灭也。&lt;br /&gt;
+秦人不暇自哀，而后人哀之。&lt;br /&gt;
+后人哀之，而不鉴之，亦使后人而复哀后人也。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当今之世，&lt;br /&gt;
+讳而不哀；&lt;br /&gt;
+哀而不鉴；&lt;br /&gt;
+鉴而不省。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>信息与观点</title>
@@ -112,6 +141,8 @@
 只要有过几次这样的经历，后续就更有动力坚持采用这个方法了。&lt;/p&gt;
 
 &lt;p&gt;当然你也可以说，我被宣传洗脑意识不到所购商品不好的地方，或者能延迟满足只是因为“穷”。&lt;/p&gt;
+
+&lt;p&gt;更新：还有一个原因可能是拖延症？那当代社会最严重的两个问题：拖延症和消费主义竟然形成了这样奇妙的关系？&lt;/p&gt;
 </description>
       </item>
     
@@ -681,7 +712,7 @@ calon【生活即是创造自己，只有死鱼随波逐流。】:我靠，楼�
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/projects/awesome-science-fiction-ideas/</guid>
-        <description>&lt;p&gt;推荐科幻作品的清单有不少，但我想要维护一个按科幻构想分类的清单，收集一些在科幻创意设定方面有开创性或影响力的作品，以便科幻作品创作者少走弯路或从中吸取灵感：&lt;/p&gt;
+        <description>&lt;p&gt;推荐科幻作品的清单有不少，但我想要维护一个按科幻构想分类的清单，收集一些在科幻创意设定方面有开创性或影响力的作品，以便科幻作品创作者少走弯路或从中汲取灵感：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/calon/awesome-science-fiction-ideas&#34;&gt;科幻构想绝赞清单&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -948,74 +979,6 @@ calon【生活即是创造自己，只有死鱼随波逐流。】:我靠，楼�
 &lt;p&gt;最后，有感于因为《流浪地球》导致的网上一片鸡飞狗跳、炮火连天，再编个段子：&lt;/p&gt;
 
 &lt;p&gt;如果以后全宇宙可以实现中微子/量子/…超距实时通信但又不能实现超光速飞行，整个宇宙可能会变成…嗯，一个无人管理的论坛，所有文明在宇宙空间互相谩骂、羞辱、嘲讽、诅咒，反倒是亚光速可达的文明之间——如 StarKnight 所言，处于“可削距”内，即，“再哔哔我可削你啊”这句话具有现实威慑力的距离——彬彬有礼，其他宇宙称该宇宙为黑暗网络宇宙。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>什么是科幻？</title>
-        <link>https://ioerr.github.io/posts/shenme-shi-kehuan/</link>
-        <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/shenme-shi-kehuan/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/312062153/&#34;&gt;科幻作品是否需要遵循已知的科学原理？到底什么是科幻？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《流浪地球》《三体》等作品有一些不符合现有科学认知的脑洞，这些作品属于科幻吗？&lt;/p&gt;
-
-&lt;p&gt;科幻作品是否需要严格遵循现有的科学原理？&lt;/p&gt;
-
-&lt;p&gt;科幻和科学之间的交集与边界在哪里？&lt;/p&gt;
-
-&lt;p&gt;到底什么才是科幻？&lt;/p&gt;
-
-&lt;p&gt;涉及到定义，我习惯先查韦氏词典，这是 science fiction 的定义：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;fiction dealing principally with the impact of actual or imagined science on society or individuals or having a scientific factor as an essential orienting component.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;actual science 自不必说，关键是“想象的科学”和作为“必要成分”的“科学因素”是否需要遵循已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;阿西莫夫的定义是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;branch of literature which deals with the reaction of human beings to changes in science and technology.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关键是这个科学和技术的“变化”变到什么程度，是否允许变得偏离已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;我的观点是：&lt;/p&gt;
-
-&lt;p&gt;这些都不需要完全遵循已知的科学原理（有的科幻小说卖点就是变更已知的科学定律）。&lt;/p&gt;
-
-&lt;p&gt;但其中的“科学因素”必须是在遵循科学方法论的世界中可能存在的，这个“世界”不一定是我们所处的现实世界。&lt;/p&gt;
-
-&lt;p&gt;也就是说，小说的世界观并未脱离科学方法论——即使在此世界观下得出的结论颠覆现实世界中的认知。相反，这种颠覆正因为符合科学方法世界观才更加具有震撼人心的力度。&lt;/p&gt;
-
-&lt;p&gt;因此，即使是“神”、“上帝”，在阿西莫夫等作者的笔下，一样可以出现在科幻小说中，因为他们通过幻想实实在在地影响到了小说中的世界，不再是不可证伪的，他们影响世界的方式也不是超自然的。&lt;/p&gt;
-
-&lt;p&gt;克拉克的第三定律说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;any sufficiently advanced technology is indistinguishable from magic.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但科技和魔法毕竟不同。&lt;/p&gt;
-
-&lt;p&gt;当我们谈论科技时，仍会默认它们的原理在科学的世界观中最终是逻辑自洽、可理解、可还原的。哪怕幻想的具体设定有错误，也是保留方法论和世界观，读者来吐槽，作者来堵漏。&lt;/p&gt;
-
-&lt;p&gt;而魔法存在超自然、神秘的不可知因素，与现实世界自然规律格格不入，当两者发生矛盾时，会默认存在与现实世界自然规律并行的另一套体系。&lt;/p&gt;
-
-&lt;p&gt;这大概就像主动带上镣铐在法庭上自我辩护的囚徒，和自创一套社会体系的法外狂徒的区别，镣铐就是科幻小说的自限，所认同的法律体系，就是科学方法论的世界观。&lt;/p&gt;
-
-&lt;p&gt;所以结论是：&lt;/p&gt;
-
-&lt;p&gt;有一个遵循统一、逻辑自洽的科学方法论的世界观，就够了。&lt;/p&gt;
-
-&lt;p&gt;而在这一世界观下，超出已知科技的部分，如果是故事必不可少的因素，那么就可以视为科幻小说。&lt;/p&gt;
 </description>
       </item>
     

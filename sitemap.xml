@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ioerr.github.io/posts/jian-xing/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/xinxi-yu-guandian/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url>
@@ -6700,7 +6705,7 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8020,7 +8025,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8512,7 +8517,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9485,6 +9490,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%8B%89%E9%97%A8/</loc>
     <lastmod>2010-03-15T09:47:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%8B%96%E5%BB%B6%E7%97%87/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12124,7 +12135,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
