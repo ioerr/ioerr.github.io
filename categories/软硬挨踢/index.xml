@@ -6,10 +6,66 @@
     <description>Recent content in 软硬挨踢 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>网络基本真理</title>
+        <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
+        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
+        <description>
+
+&lt;p&gt;在 &lt;a href=&#34;https://twitter.com/mengite&#34;&gt;@mengite&lt;/a&gt; 的 &lt;a href=&#34;https://t.me/suez42&#34;&gt;Telegram 频道&lt;/a&gt;中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 &lt;a href=&#34;https://tools.ietf.org/html/rfc1925&#34;&gt;RFC 1925&lt;/a&gt;中就已经提到，作者是 &lt;a href=&#34;mailto:rcallon@baynetworks.com&#34;&gt;Ross Callon&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我试着将主要内容翻译如下，如有错误，欢迎指出：&lt;/p&gt;
+
+&lt;h2 id=&#34;网络十二真理&#34;&gt;网络十二真理&lt;/h2&gt;
+
+&lt;p&gt;本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。&lt;br /&gt;
+本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。&lt;br /&gt;
+本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。&lt;/p&gt;
+
+&lt;p&gt;此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;它必须能有实际作用。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;无论如何努力，无论优先级如何，你都无法提高光速。&lt;br /&gt;
+2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。&lt;br /&gt;
+6a. 总是可以通过新增间接的层次来转移问题。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;它总是遵循：&lt;br /&gt;
+7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;它比你想象的要复杂得多。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;所有资源都永远不够用。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没有万能的解决方案。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。&lt;br /&gt;
+11a. 参见 6a。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;设计协议时，无一分可减才是完美，而非无一分可增。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      </item>
     
       <item>
         <title>SingleFile</title>
@@ -391,57 +447,6 @@ Github、Stack Overflow
 
 &lt;p&gt;另一个原因，也许是一个行业历史越短，成熟的经验、规范和方法论越少，则天才型的人物越容易出头、越容易被神化。&lt;br /&gt;
 也许在不久的未来，编程这个行当会像现代工厂中的流水线作业一样，分工越来越明确，需要个人发挥创造力的地方越来越少，创造性的工作只交给少数专业人士负责，大部分人和制造业工人没有什么区别，甚至慢慢被人工智能取代。现在一些创业公司喜欢鼓吹的什么弹性工作制、带宠物上班、游戏和零食等福利，放在未来那个时候大概会是天方夜谭吧。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>再见，Delicious。你好，TagPacker！</title>
-        <link>https://ioerr.github.io/posts/zaijian-delicious-nihao-tagpacker/</link>
-        <pubDate>Thu, 28 Apr 2016 10:24:20 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/zaijian-delicious-nihao-tagpacker/</guid>
-        <description>&lt;p&gt;自从前天用 Delicious
-收藏网页总是不成功，发现它正在维护开始，一直到现在它的首页都是这样：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/20160428_170855.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/20160428_170855.png&#34; alt=&#34;photo
-20160428\_170855.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我可以接受它越改版越丑，也还可以容忍越来越慢的访问速度，但曾经是互联网界 Web 2.0的标杆网站，维护时间超过48小时导致基本功能都无法使用，实在无法一起坐船了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pinboard.in/&#34;&gt;Pinboard&lt;/a&gt; 太丑；&lt;br /&gt;
-&lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; 和 &lt;a href=&#34;www.instapaper.com&#34;&gt;Instapaper&lt;/a&gt;
-主要用于文章收藏，书签管理方面太弱；&lt;br /&gt;
-&lt;a href=&#34;https://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt; 依然被墙；&lt;br /&gt;
-浏览器自带的书签没有社交功能，不利于展示（功能上 Firefox
-的书签管理倒是勉强够用了）；&lt;/p&gt;
-
-&lt;p&gt;最终找到的是 &lt;a href=&#34;https://tagpacker.com/&#34;&gt;TagPacker&lt;/a&gt;
-这个新服务，大多数方面都符合我的要求：&lt;br /&gt;
-访问速度相对挺快；&lt;br /&gt;
-界面美观，堪称令人心旷神怡；&lt;br /&gt;
-标签提示、注释、私密书签、个人页面、摘录网页图片、批量修改、订阅等基础功能都具备；&lt;br /&gt;
-多标签管理可媲美 Delicious，无论收藏、搜索、URL
-都支持多标签组合，并且有类似于 Delicious 的 tag bundle
-的标签组（也就是它们的产品名 tagpack）；&lt;br /&gt;
-可以导入 Delicious、Diigo 和浏览器书签，也可以导出 HTML
-文件，至少不用担心数据完全消失，不过因为 Delicious 维护，还没测试导入；&lt;br /&gt;
-有 Firefox 浏览器扩展，而且比 Delicious 的残废扩展好用一万倍！&lt;/p&gt;
-
-&lt;p&gt;遗憾的是没有标签智能推荐功能，也没有被 &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;
-收录，而且因为是全免费服务，不知道未来是否也像 Delicious
-一样只能维持数年的优质服务。&lt;br /&gt;
-注册用户默认会推荐关注官方账号，所以目前来看至少有2584个用户，对已经上线运营超过一年的服务来说，还是有点少。&lt;/p&gt;
-
-&lt;p&gt;如果你仍需要类似 Delicious
-的服务，可以看看&lt;a href=&#34;https://tagpacker.com/user/social.bookmarking.tools&#34;&gt;这个列表&lt;/a&gt;，有人整理了百多个能沾上边的网站，可供参考。&lt;/p&gt;
-
-&lt;p&gt;更新：&lt;a href=&#34;http://blog.delicious.com/2016/04/transition-to-del-icio-us/&#34;&gt;官方 blog
-有说明原因&lt;/a&gt;，这次是迁移回
-del.icio.us，估计是把域名给卖了吧。&lt;/p&gt;
 </description>
       </item>
     

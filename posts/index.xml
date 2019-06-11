@@ -68,6 +68,62 @@
       </item>
     
       <item>
+        <title>网络基本真理</title>
+        <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
+        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
+        <description>
+
+&lt;p&gt;在 &lt;a href=&#34;https://twitter.com/mengite&#34;&gt;@mengite&lt;/a&gt; 的 &lt;a href=&#34;https://t.me/suez42&#34;&gt;Telegram 频道&lt;/a&gt;中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 &lt;a href=&#34;https://tools.ietf.org/html/rfc1925&#34;&gt;RFC 1925&lt;/a&gt;中就已经提到，作者是 &lt;a href=&#34;mailto:rcallon@baynetworks.com&#34;&gt;Ross Callon&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我试着将主要内容翻译如下，如有错误，欢迎指出：&lt;/p&gt;
+
+&lt;h2 id=&#34;网络十二真理&#34;&gt;网络十二真理&lt;/h2&gt;
+
+&lt;p&gt;本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。&lt;br /&gt;
+本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。&lt;br /&gt;
+本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。&lt;/p&gt;
+
+&lt;p&gt;此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;它必须能有实际作用。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;无论如何努力，无论优先级如何，你都无法提高光速。&lt;br /&gt;
+2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。&lt;br /&gt;
+6a. 总是可以通过新增间接的层次来转移问题。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;它总是遵循：&lt;br /&gt;
+7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;它比你想象的要复杂得多。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;所有资源都永远不够用。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没有万能的解决方案。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。&lt;br /&gt;
+11a. 参见 6a。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;设计协议时，无一分可减才是完美，而非无一分可增。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      </item>
+    
+      <item>
         <title>鉴省</title>
         <link>https://ioerr.github.io/posts/jian-xing/</link>
         <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
@@ -1003,74 +1059,6 @@ calon【生活即是创造自己，只有死鱼随波逐流。】:我靠，楼�
 &lt;p&gt;最后，有感于因为《流浪地球》导致的网上一片鸡飞狗跳、炮火连天，再编个段子：&lt;/p&gt;
 
 &lt;p&gt;如果以后全宇宙可以实现中微子/量子/…超距实时通信但又不能实现超光速飞行，整个宇宙可能会变成…嗯，一个无人管理的论坛，所有文明在宇宙空间互相谩骂、羞辱、嘲讽、诅咒，反倒是亚光速可达的文明之间——如 StarKnight 所言，处于“可削距”内，即，“再哔哔我可削你啊”这句话具有现实威慑力的距离——彬彬有礼，其他宇宙称该宇宙为黑暗网络宇宙。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>什么是科幻？</title>
-        <link>https://ioerr.github.io/posts/shenme-shi-kehuan/</link>
-        <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/shenme-shi-kehuan/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/312062153/&#34;&gt;科幻作品是否需要遵循已知的科学原理？到底什么是科幻？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《流浪地球》《三体》等作品有一些不符合现有科学认知的脑洞，这些作品属于科幻吗？&lt;/p&gt;
-
-&lt;p&gt;科幻作品是否需要严格遵循现有的科学原理？&lt;/p&gt;
-
-&lt;p&gt;科幻和科学之间的交集与边界在哪里？&lt;/p&gt;
-
-&lt;p&gt;到底什么才是科幻？&lt;/p&gt;
-
-&lt;p&gt;涉及到定义，我习惯先查韦氏词典，这是 science fiction 的定义：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;fiction dealing principally with the impact of actual or imagined science on society or individuals or having a scientific factor as an essential orienting component.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;actual science 自不必说，关键是“想象的科学”和作为“必要成分”的“科学因素”是否需要遵循已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;阿西莫夫的定义是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;branch of literature which deals with the reaction of human beings to changes in science and technology.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关键是这个科学和技术的“变化”变到什么程度，是否允许变得偏离已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;我的观点是：&lt;/p&gt;
-
-&lt;p&gt;这些都不需要完全遵循已知的科学原理（有的科幻小说卖点就是变更已知的科学定律）。&lt;/p&gt;
-
-&lt;p&gt;但其中的“科学因素”必须是在遵循科学方法论的世界中可能存在的，这个“世界”不一定是我们所处的现实世界。&lt;/p&gt;
-
-&lt;p&gt;也就是说，小说的世界观并未脱离科学方法论——即使在此世界观下得出的结论颠覆现实世界中的认知。相反，这种颠覆正因为符合科学方法世界观才更加具有震撼人心的力度。&lt;/p&gt;
-
-&lt;p&gt;因此，即使是“神”、“上帝”，在阿西莫夫等作者的笔下，一样可以出现在科幻小说中，因为他们通过幻想实实在在地影响到了小说中的世界，不再是不可证伪的，他们影响世界的方式也不是超自然的。&lt;/p&gt;
-
-&lt;p&gt;克拉克的第三定律说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;any sufficiently advanced technology is indistinguishable from magic.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但科技和魔法毕竟不同。&lt;/p&gt;
-
-&lt;p&gt;当我们谈论科技时，仍会默认它们的原理在科学的世界观中最终是逻辑自洽、可理解、可还原的。哪怕幻想的具体设定有错误，也是保留方法论和世界观，读者来吐槽，作者来堵漏。&lt;/p&gt;
-
-&lt;p&gt;而魔法存在超自然、神秘的不可知因素，与现实世界自然规律格格不入，当两者发生矛盾时，会默认存在与现实世界自然规律并行的另一套体系。&lt;/p&gt;
-
-&lt;p&gt;这大概就像主动带上镣铐在法庭上自我辩护的囚徒，和自创一套社会体系的法外狂徒的区别，镣铐就是科幻小说的自限，所认同的法律体系，就是科学方法论的世界观。&lt;/p&gt;
-
-&lt;p&gt;所以结论是：&lt;/p&gt;
-
-&lt;p&gt;有一个遵循统一、逻辑自洽的科学方法论的世界观，就够了。&lt;/p&gt;
-
-&lt;p&gt;而在这一世界观下，超出已知科技的部分，如果是故事必不可少的因素，那么就可以视为科幻小说。&lt;/p&gt;
 </description>
       </item>
     
