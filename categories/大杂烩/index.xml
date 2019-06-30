@@ -6,10 +6,118 @@
     <description>Recent content in 大杂烩 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Twitter 使用技巧介绍</title>
+        <link>https://ioerr.github.io/posts/twitter-shiyong-jiqiao-jieshao/</link>
+        <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/twitter-shiyong-jiqiao-jieshao/</guid>
+        <description>&lt;p&gt;Twitter 有一些隐藏比较深，或者大多数用户没有兴趣尝试的功能，其实好用又方便。&lt;/p&gt;
+
+&lt;p&gt;我介绍几个不错的技巧，也许能让你使用 Twitter 的体验更好一些。&lt;/p&gt;
+
+&lt;p&gt;以下推友资料均为未锁推状态，仅用于演示功能。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;列表&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-list.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;类似于分组的功能，将一类用户归集到一个列表中，集中阅读他们的推文。&lt;br /&gt;
+最方便的是，即使你没有关注对方，也可以加入列表中。&lt;br /&gt;
+合理管理列表，可以精简主页内容。&lt;/p&gt;
+
+&lt;p&gt;进入列表功能页，可以建立和维护多个列表。&lt;br /&gt;
+如果你不希望其他人看到自己的列表，可以设置为私密列表。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-list-info.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;列表维护界面上可以直接添加用户，也可以在用户的资料页中，进行添加或移除列表的操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-list-add.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;关闭转推&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有的用户如果转推太多，会导致主页上多出很多重复或你不感兴趣的内容，取消关注吧，又想看到他自己发的推。&lt;/p&gt;
+
+&lt;p&gt;这个时候可以在其资料页上，进行关闭转推操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-turn-off-rt.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;书签&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Twitter 以前转推才会给大家看到，收藏则是默默操作，其他用户只能在你的资料页中，看到历史的收藏内容。&lt;br /&gt;
+而现在的转推、收藏功能比较模糊，收藏的内容也会进入关注者的主页时间线。&lt;/p&gt;
+
+&lt;p&gt;有的用户以为自己只是默默收藏，实际上可能大家都看到了，这就非常尴尬，有时甚至是公开处刑。&lt;br /&gt;
+有的时候，收藏操作时的红心标记可能会表达出支持、赞同的态度，你可能不太愿意造成他人误解，仅仅只是想收藏而已。&lt;/p&gt;
+
+&lt;p&gt;于是 Twitter 又增加了书签功能，用于他人不可见的收藏。&lt;/p&gt;
+
+&lt;p&gt;在推文的分享按钮中有书签按钮。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-bookmark-button.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-add-bookmark.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在侧栏有所有书签内容的入口。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-bookmark.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;瞬间&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;瞬间是 Twitter 曾经想推但实际乏人问津的功能。&lt;br /&gt;
+它的作用类似于相册，将分散的指定推文组织联系起来，形成一个小专题。&lt;/p&gt;
+
+&lt;p&gt;比如说，旅游过程中发布的一系列推文，介绍某个产品的几句话，与其他用户共同讨论的话题串，关于某个事件的新闻推，等等，都可以汇聚起来，形成一个瞬间。&lt;/p&gt;
+
+&lt;p&gt;也许大多数人用不到，但对有需求根据主题组织推文的人来说，这个还是挺不错的。&lt;/p&gt;
+
+&lt;p&gt;依然是在侧栏进入瞬间的页面。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-moments.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后点击右上角的小图标，添加瞬间。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-add-moments.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以从多个渠道添加推文，自己的和别人的都行。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-moments-add-tweet.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;搜索 GIF&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这应该是挺多人知道的功能了，但最近发现还是有不少人不了解。&lt;/p&gt;
+
+&lt;p&gt;就是在发推时，可以快速搜索和插入 GIF 动图到回复中。&lt;br /&gt;
+相当于在线版的即搜即用表情包。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/twitter-search-gif.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>网络基本真理</title>
@@ -316,40 +424,6 @@ A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须
 没有横线或格子。&lt;/p&gt;
 
 &lt;p&gt;但相对其优点而言微不足道。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>震惊</title>
-        <link>https://ioerr.github.io/posts/zhenjing/</link>
-        <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/zhenjing/</guid>
-        <description>&lt;p&gt;前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。&lt;/p&gt;
-
-&lt;p&gt;背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;哈克：我太震惊了！&lt;br /&gt;
-汉弗莱：你还震惊，我才震惊呢！&lt;br /&gt;
-哈克：真不敢相信，我…太震惊了。你怎么想？&lt;br /&gt;
-伯纳德：我震惊了，大臣。&lt;br /&gt;
-哈克：我也是。震惊啊！&lt;br /&gt;
-汉弗莱：让人震惊！&lt;br /&gt;
-哈克：震惊…我简直没法形容！&lt;br /&gt;
-伯纳德：震惊？&lt;br /&gt;
-哈克：震惊！&lt;br /&gt;
-可这是真的吗？&lt;br /&gt;
-他不是吓唬你吧？&lt;br /&gt;
-一个部门怎能说废就废？&lt;br /&gt;
-汉弗莱：听起来很像真的，对吧？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
       </item>
     
