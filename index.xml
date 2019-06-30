@@ -176,62 +176,6 @@
       </item>
     
       <item>
-        <title>网络基本真理</title>
-        <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
-        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
-        <description>
-
-&lt;p&gt;在 &lt;a href=&#34;https://twitter.com/mengite&#34;&gt;@mengite&lt;/a&gt; 的 &lt;a href=&#34;https://t.me/suez42&#34;&gt;Telegram 频道&lt;/a&gt;中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 &lt;a href=&#34;https://tools.ietf.org/html/rfc1925&#34;&gt;RFC 1925&lt;/a&gt;中就已经提到，作者是 &lt;a href=&#34;mailto:rcallon@baynetworks.com&#34;&gt;Ross Callon&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我试着将主要内容翻译如下，如有错误，欢迎指出：&lt;/p&gt;
-
-&lt;h2 id=&#34;网络十二真理&#34;&gt;网络十二真理&lt;/h2&gt;
-
-&lt;p&gt;本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。&lt;br /&gt;
-本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。&lt;br /&gt;
-本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。&lt;/p&gt;
-
-&lt;p&gt;此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;它必须能有实际作用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;无论如何努力，无论优先级如何，你都无法提高光速。&lt;br /&gt;
-2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。&lt;br /&gt;
-6a. 总是可以通过新增间接的层次来转移问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它总是遵循：&lt;br /&gt;
-7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它比你想象的要复杂得多。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;所有资源都永远不够用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;没有万能的解决方案。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。&lt;br /&gt;
-11a. 参见 6a。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;设计协议时，无一分可减才是完美，而非无一分可增。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      </item>
-    
-      <item>
         <title>鉴省</title>
         <link>https://ioerr.github.io/posts/jian-xing/</link>
         <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
@@ -987,6 +931,32 @@ calon【生活即是创造自己，只有死鱼随波逐流。】:我靠，楼�
 
 &lt;p&gt;从小到大听闻目睹世界上多次狂热的战争、屠杀和恐怖袭击，也亲身体验过身边的狂热运动，我很庆幸也很自豪，没有参与到加害者的队伍，没有参与到看客丧失 empathy 的狂欢中，始终站在文明与理性的一边。&lt;br /&gt;
 希望偶然看到这篇文章的你，不被僭妄自负、狂热疯癫、反智虚无的人们吓倒或蛊惑，始终相信人类社会的美好希望，并为之坚守文明的人性与理性。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>World Wide Web 30周年</title>
+        <link>https://ioerr.github.io/posts/www-30-zhounian/</link>
+        <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/www-30-zhounian/</guid>
+        <description>&lt;p&gt;今天值得一提的事情，是 &lt;a href=&#34;https://artsandculture.google.com/theme/eAJS4WcKh7UBIQ&#34;&gt;World Wide Web&lt;/a&gt; &lt;a href=&#34;https://artsandculture.google.com/exhibit/rwJimV4JkYtgJw&#34;&gt;30周年&lt;/a&gt;，但大多数用户一点也不在乎 WWW 是什么，以及会变成什么样，特别是身在中国的用户：&lt;/p&gt;
+
+&lt;p&gt;根本看不到 World？&lt;br /&gt;
+“无所谓，我只需要看国内二手过滤的中文信息也挺好的。”&lt;/p&gt;
+
+&lt;p&gt;一点也不 Wide？&lt;br /&gt;
+“无所谓，对我来说，网络就是娱乐的工具。”&lt;/p&gt;
+
+&lt;p&gt;越来越不像是 Web？&lt;br /&gt;
+“无所谓，URL、超文本/超链接是什么，可以吃吗？我有封闭的应用就足够了啊。”&lt;/p&gt;
+
+&lt;p&gt;自由、通用、用于知识共享的“信息空间”？&lt;br /&gt;
+当用户都不以为然的时候，还有多少人坚持这样的理念与理想呢？&lt;/p&gt;
 </description>
       </item>
     
