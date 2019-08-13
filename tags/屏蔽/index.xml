@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>屏蔽 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%B1%8F%E8%94%BD/</link>
+    <description>Recent content in 屏蔽 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E5%B1%8F%E8%94%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>屏蔽</title>
+        <link>https://ioerr.github.io/posts/pingbi/</link>
+        <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/pingbi/</guid>
+        <description>&lt;p&gt;A：这个有人知道吗？&lt;/p&gt;
+
+&lt;p&gt;B：这个不太了解，但那个可能知道一点。&lt;/p&gt;
+
+&lt;p&gt;A：哪个？&lt;/p&gt;
+
+&lt;p&gt;C：应该就是你说的那个。&lt;/p&gt;
+
+&lt;p&gt;D：那个应该不行吧。&lt;/p&gt;
+
+&lt;p&gt;A：我朋友说那个确有其事。&lt;/p&gt;
+
+&lt;p&gt;D：那个是哪个？&lt;/p&gt;
+
+&lt;p&gt;A：就是我说的那个吧。&lt;/p&gt;
+
+&lt;p&gt;E：对，的确是那个。但也有点太那个了。&lt;/p&gt;
+
+&lt;p&gt;F：A 是不是有消息被屏蔽了？&lt;/p&gt;
+
+&lt;p&gt;C：有可能。那个被屏蔽了。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

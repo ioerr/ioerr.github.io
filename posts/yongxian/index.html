@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>涌现 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="涌现" />
+<meta property="og:description" content="所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。
+换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。
+就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、往复运动的小球形成滚动的圆…
+我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/yongxian/" />
+
+
+
+<meta property="article:published_time" content="2019-08-09T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2019-08-09T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="涌现">
+<meta itemprop="description" content="所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。
+换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。
+就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、往复运动的小球形成滚动的圆…
+我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。">
+
+
+<meta itemprop="datePublished" content="2019-08-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-08-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4">
+
+
+
+<meta itemprop="keywords" content="涌现,意识,识别,模式,认知,规律,规则," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="涌现"/>
+<meta name="twitter:description" content="所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。
+换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。
+就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、往复运动的小球形成滚动的圆…
+我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyongxian%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2019-08-09 12:00">2019-08-09</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>涌现</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%B6%8C%E7%8E%B0">
+              <span class="hash">#</span>涌现</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E8%AF%86">
+              <span class="hash">#</span>意识</a>
+          
+            , 
+            <a href="/tags/%E8%AF%86%E5%88%AB">
+              <span class="hash">#</span>识别</a>
+          
+            , 
+            <a href="/tags/%E6%A8%A1%E5%BC%8F">
+              <span class="hash">#</span>模式</a>
+          
+            , 
+            <a href="/tags/%E8%AE%A4%E7%9F%A5">
+              <span class="hash">#</span>认知</a>
+          
+            , 
+            <a href="/tags/%E8%A7%84%E5%BE%8B">
+              <span class="hash">#</span>规律</a>
+          
+            , 
+            <a href="/tags/%E8%A7%84%E5%88%99">
+              <span class="hash">#</span>规则</a>
+          
+        
+      </p>
+    </header>
+    <section><p>所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。</p>
+
+<p>换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。<br />
+就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、<a href="https://www.facebook.com/watch/?v=2296999357052625">往复运动的小球形成滚动的圆</a>…<br />
+我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b6%8c%e7%8e%b0》&body=https%3a%2f%2fioerr.github.io%2fposts%2fyongxian%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fyongxian%2f&text= @calon %e6%b6%8c%e7%8e%b0&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a> (<a href="https://github.com/calon/simplicity" title="Calon's mod">Mod</a>).
+  </div>
+  <div class="copyright">
+    &copy; 2019 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
