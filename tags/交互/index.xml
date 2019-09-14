@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>交互 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E4%BA%A4%E4%BA%92/</link>
+    <description>Recent content in 交互 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E4%BA%A4%E4%BA%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>网络与人类社会</title>
+        <link>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</link>
+        <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</guid>
+        <description>&lt;p&gt;人与人之间的交流就像网络交互和控制：&lt;br /&gt;
+有的时候握手失败，有的时候会丢包，有的时候会伪造篡改数据，有的时候不做任何校验。&lt;br /&gt;
+有的网络节点只想控制对方而忽略部分不想看到的数据反馈，有的不愿意自己计算只想接收和执行控制指令，有的时刻准备取代中心节点发布控制指令，有的则和其他节点保持平等的关系。&lt;/p&gt;
+
+&lt;p&gt;不同层级的各种网络协议就像人与人之间的交互方式。&lt;/p&gt;
+
+&lt;p&gt;再延伸一下，可以将各种人类社会的政治制度和计算机网络架构建立映射关系：&lt;br /&gt;
+有的是中心节点控制的架构，有的是分布式的自组织松散网络，有的是介于两者之间的混合形式。&lt;br /&gt;
+前者走到极端是只有巨大而唯一的中心计算节点，外围节点都只负责输入输出，相当于人类只有一个智慧体，组成它的是失去自主意识和行为能力的个人。&lt;/p&gt;
+
+&lt;p&gt;就像计算机交互模式和网络架构没有绝对的优劣之分，人类相互之间的沟通方式和人类社会的政治制度也不必有绝对的善恶标准。&lt;br /&gt;
+不同的模式和制度在不同环境和阶段的适应性各不相同。&lt;/p&gt;
+
+&lt;p&gt;但如果你从根本上是个人主义者，持个人主义的价值观和方法论，那么恐怕不希望自己活得像某些类型的网络节点一样。&lt;/p&gt;
+
+&lt;p&gt;也有人设想未来的人类社会整体看来就是一个生物（人类巨灵），个人相当于这个巨大生物身上的细胞。&lt;/p&gt;
+
+&lt;p&gt;如果这样看的话，共情能力就相当于神经系统，感受其他细胞的痛苦；&lt;br /&gt;
+营养输送和免疫系统相当于援助保障能力；&lt;br /&gt;
+战争动员能力相当于瞬间的无氧运动能力。&lt;/p&gt;
+
+&lt;p&gt;而现实是集体主义者看重动员远胜共情，没有边际成本的控制机制，狂热地燃烧和消耗组织细胞，不惜今天割肉挖疮，明天壮士断腕。&lt;/p&gt;
+
+&lt;p&gt;所以以生物类比的话，个人主义者恐怕也不会被人类巨灵这样的概念随便忽悠——个人主义者不拒斥庞大的社会组织，相反，认为形成超大型社会组织的基础是个人主义。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

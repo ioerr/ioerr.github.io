@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ioerr.github.io/posts/rats/</loc>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</loc>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/posts/ai-de-liliang/</loc>
     <lastmod>2019-08-12T00:00:00+00:00</lastmod>
   </url>
@@ -6756,7 +6771,7 @@
   
   <url>
     <loc>https://ioerr.github.io/posts/</loc>
-    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7146,7 +7161,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7326,13 +7341,19 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90/</loc>
-    <lastmod>2015-08-18T13:26:03+00:00</lastmod>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ioerr.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E4%BA%A4%E4%BA%92/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7464,7 +7485,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E4%BA%BA%E7%B1%BB/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7800,7 +7821,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E5%85%B1%E6%83%85/</loc>
-    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7919,6 +7940,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E5%88%A9%E7%89%A9%E6%B5%A6/</loc>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E5%88%B7%E8%A1%97/</loc>
     <lastmod>2014-05-19T09:58:18+00:00</lastmod>
     <priority>0</priority>
@@ -7963,6 +7990,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/</loc>
     <lastmod>2008-05-24T17:02:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%8A%A8%E5%91%98%E8%83%BD%E5%8A%9B/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8033,6 +8066,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E5%8D%8F%E8%AE%AE%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -8089,6 +8128,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%8E%86%E5%8F%B2%E5%86%B3%E5%AE%9A%E8%AE%BA/</loc>
     <lastmod>2013-12-27T16:37:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%8E%86%E5%8F%B2%E8%BD%B6%E4%BA%8B/</loc>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8645,6 +8690,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E5%A5%B4%E5%BD%B9/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E5%A5%B4%E9%9A%B6/</loc>
     <lastmod>2018-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -8755,6 +8806,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%AE%89%E5%85%B0%E5%BE%B7/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%AE%89%E8%8F%B2%E5%B0%94%E5%BE%B7/</loc>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8939,6 +8996,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E5%B0%8F%E7%BB%84/</loc>
     <lastmod>2009-04-16T16:02:16+00:00</lastmod>
     <priority>0</priority>
@@ -9025,6 +9088,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E5%B7%A7%E5%85%8B%E5%8A%9B/</loc>
     <lastmod>2008-06-01T15:58:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E5%B7%A8%E7%81%B5/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9630,7 +9699,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%8E%A7%E5%88%B6/</loc>
-    <lastmod>2017-03-29T12:11:30+08:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9739,6 +9808,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%94%BF%E6%B2%BB/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%94%BF%E6%B2%BB%E5%88%B6%E5%BA%A6/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10001,6 +10076,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E6%99%BA%E6%85%A7/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E6%99%BA%E6%85%A7%E8%AE%BE%E8%AE%A1%E8%AE%BA/</loc>
     <lastmod>2005-10-18T16:26:25+00:00</lastmod>
     <priority>0</priority>
@@ -10050,7 +10131,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%9B%BC%E8%81%94/</loc>
-    <lastmod>2009-04-08T05:24:25+00:00</lastmod>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10219,6 +10300,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E6%9E%AA%E5%87%BB%E4%BA%8B%E4%BB%B6/</loc>
     <lastmod>2017-10-05T14:49:29+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10656,7 +10743,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2015-08-18T13:26:03+00:00</lastmod>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10734,7 +10821,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11196,7 +11283,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11352,7 +11439,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A/</loc>
-    <lastmod>2017-03-29T12:11:30+08:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11365,6 +11452,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A%E5%8C%96/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A%E7%BB%84%E7%BB%87/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11383,6 +11476,12 @@
   <url>
     <loc>https://ioerr.github.io/tags/%E7%A5%9E%E5%AD%A6/</loc>
     <lastmod>2008-03-20T14:46:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioerr.github.io/tags/%E7%A5%9E%E7%BB%8F/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11652,7 +11751,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E7%BA%AF%E7%B2%B9%E4%BD%93%E8%82%B2/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11681,6 +11780,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E7%BB%86%E8%83%9E/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E7%BB%88%E7%AB%AF/</loc>
     <lastmod>2010-10-15T14:56:32+00:00</lastmod>
     <priority>0</priority>
@@ -11688,7 +11793,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%BB%8F%E5%85%B8/</loc>
-    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11766,7 +11871,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11843,6 +11948,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E8%80%81%E9%BC%A0/</loc>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E8%80%B3%E6%9C%BA/</loc>
     <lastmod>2008-08-26T15:18:45+00:00</lastmod>
     <priority>0</priority>
@@ -11909,6 +12020,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E8%87%AA%E4%B8%BB%E6%84%8F%E8%AF%86/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E8%87%AA%E5%8A%A9%E5%A3%B0%E6%98%8E/</loc>
     <lastmod>2012-05-23T09:40:22+00:00</lastmod>
     <priority>0</priority>
@@ -11946,7 +12063,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%87%AA%E7%94%B1/</loc>
-    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11999,6 +12116,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E8%8A%82%E7%82%B9/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E8%8A%AD%E6%AF%94%E5%A8%83%E5%A8%83/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -12012,7 +12135,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%8B%B1%E6%A0%BC%E5%85%B0/</loc>
-    <lastmod>2007-11-22T04:09:48+00:00</lastmod>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12191,6 +12314,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -12300,7 +12429,7 @@
   
   <url>
     <loc>https://ioerr.github.io/</loc>
-    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12450,7 +12579,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12534,7 +12663,7 @@
   
   <url>
     <loc>https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/</loc>
-    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12797,6 +12926,12 @@
   </url>
   
   <url>
+    <loc>https://ioerr.github.io/tags/%E9%98%BF%E6%A3%AE%E7%BA%B3/</loc>
+    <lastmod>2019-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ioerr.github.io/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/</loc>
     <lastmod>2013-10-27T16:32:31+00:00</lastmod>
     <priority>0</priority>
@@ -12846,7 +12981,7 @@
   
   <url>
     <loc>https://ioerr.github.io/tags/%E9%9B%86%E4%BD%93%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

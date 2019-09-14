@@ -6,10 +6,47 @@
     <description>Recent content in 灯泡短路 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>网络与人类社会</title>
+        <link>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</link>
+        <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</guid>
+        <description>&lt;p&gt;人与人之间的交流就像网络交互和控制：&lt;br /&gt;
+有的时候握手失败，有的时候会丢包，有的时候会伪造篡改数据，有的时候不做任何校验。&lt;br /&gt;
+有的网络节点只想控制对方而忽略部分不想看到的数据反馈，有的不愿意自己计算只想接收和执行控制指令，有的时刻准备取代中心节点发布控制指令，有的则和其他节点保持平等的关系。&lt;/p&gt;
+
+&lt;p&gt;不同层级的各种网络协议就像人与人之间的交互方式。&lt;/p&gt;
+
+&lt;p&gt;再延伸一下，可以将各种人类社会的政治制度和计算机网络架构建立映射关系：&lt;br /&gt;
+有的是中心节点控制的架构，有的是分布式的自组织松散网络，有的是介于两者之间的混合形式。&lt;br /&gt;
+前者走到极端是只有巨大而唯一的中心计算节点，外围节点都只负责输入输出，相当于人类只有一个智慧体，组成它的是失去自主意识和行为能力的个人。&lt;/p&gt;
+
+&lt;p&gt;就像计算机交互模式和网络架构没有绝对的优劣之分，人类相互之间的沟通方式和人类社会的政治制度也不必有绝对的善恶标准。&lt;br /&gt;
+不同的模式和制度在不同环境和阶段的适应性各不相同。&lt;/p&gt;
+
+&lt;p&gt;但如果你从根本上是个人主义者，持个人主义的价值观和方法论，那么恐怕不希望自己活得像某些类型的网络节点一样。&lt;/p&gt;
+
+&lt;p&gt;也有人设想未来的人类社会整体看来就是一个生物（人类巨灵），个人相当于这个巨大生物身上的细胞。&lt;/p&gt;
+
+&lt;p&gt;如果这样看的话，共情能力就相当于神经系统，感受其他细胞的痛苦；&lt;br /&gt;
+营养输送和免疫系统相当于援助保障能力；&lt;br /&gt;
+战争动员能力相当于瞬间的无氧运动能力。&lt;/p&gt;
+
+&lt;p&gt;而现实是集体主义者看重动员远胜共情，没有边际成本的控制机制，狂热地燃烧和消耗组织细胞，不惜今天割肉挖疮，明天壮士断腕。&lt;/p&gt;
+
+&lt;p&gt;所以以生物类比的话，个人主义者恐怕也不会被人类巨灵这样的概念随便忽悠——个人主义者不拒斥庞大的社会组织，相反，认为形成超大型社会组织的基础是个人主义。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>科幻构想绝赞清单</title>
@@ -971,59 +1008,6 @@ blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&
 &lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
 比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
 但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Minimore</title>
-        <link>https://ioerr.github.io/posts/minimore/</link>
-        <pubDate>Fri, 02 Aug 2013 17:10:16 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/minimore/</guid>
-        <description>&lt;p&gt;抽空改了个极简风格的主题 &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;mnmlist&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;原主题：mnmlist v1&lt;br /&gt;
-原作者： Leo Babauta&lt;br /&gt;
-原作者地址： &lt;a href=&#34;http://mnmlist.com&#34;&gt;http://mnmlist.com&lt;/a&gt; &lt;br /&gt;
-原作主题地址： &lt;a href=&#34;http://mnmlist.com/theme&#34;&gt;http://mnmlist.com/theme&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;修改主题：minimore&lt;br /&gt;
-修改者：Calon&lt;br /&gt;
-修改者blog地址：&lt;a href=&#34;http://calon.weblogs.us/&#34;&gt;http://calon.weblogs.us/&lt;/a&lt;br /&gt;
-修改主题地址：&lt;a href=&#34;http://calon.weblogs.us/minimore&#34;&gt;http://calon.weblogs.us/minimore&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;原作主题 mnmlist 以突出内容的最精简主题为目标，没有 widgets 小工具，没有评论，没有搜索功能，没有可以动态调整的侧栏，等等。&lt;/p&gt;
-
-&lt;p&gt;因为第三版太激进，所以我选择第一版为改造对象。&lt;br /&gt;
-我的目标是最大程度去除各种装饰，突出内容，改造成适合自己的风格，但不必精简到影响作者和读者的使用，于是我还是将原作去除的各类功能加回来了（所以名字带个 more），而且没有采用固定宽度。&lt;br /&gt;
-如果不想要这些功能的话，直接上原主题或自己改造就好。&lt;/p&gt;
-
-&lt;p&gt;Blockquote 的风格是借鉴 Medium 的。&lt;br /&gt;
-Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方案，在保证基本可读性的基础上，最大程度尊重各操作系统用户指定字体的自由。如果对雅黑不满意，就在浏览器中指定最合适自己的非衬线字体吧。&lt;/p&gt;
-
-&lt;p&gt;因为我自己是用 Disqus 评论系统，所以没充分测试评论功能，有问题请留言反馈。我暂时禁用 Disqus 插件是可以正常显示的。&lt;/p&gt;
-
-&lt;p&gt;为了能够通过验证上传到 WordPress 主题站，不得不忍痛增加了一些内容……&lt;/p&gt;
-
-&lt;p&gt;不算说明文档和截图的话，整个主题共10个文件，11.3KB大小。&lt;/p&gt;
-
-&lt;p&gt;安装说明&lt;br /&gt;
-将文件夹上传到 wp-content/themes/ 文件夹下，在 WordPress 管理后台的主题板块中激活即可。&lt;/p&gt;
-
-&lt;p&gt;版权声明&lt;br /&gt;
-原主题声明无版权（uncopyrighted），复制、分发、修改都无需先获得原作者认可，修改者可以自己指定新的版权协议（这也是我选择修改和使用这款主题的原因）。&lt;br /&gt;
-那我也指定使用 &lt;a href=&#34;http://www.wtfpl.net/&#34;&gt;WTFPL&lt;/a&gt;（Do What The Fuck You Want To Public License，你他妈的想干嘛就干嘛公共许可证 ）好了，借用 twenty-thirteen 主题的 comments.php 除外。&lt;/p&gt;
-
-&lt;p&gt;效果截图：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/user/calon_plus/media/screenshot_small-1.png.html&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/screenshot_small-1.png&#34; alt=&#34;photo screenshot\_small-1.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;下载地址：&lt;br /&gt;
-&lt;a href=&#34;https://app.box.com/s/45domoq1nf2rrdf03wmx&#34;&gt;Box&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/calon/minimore/archive/master.zip&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
       </item>
     

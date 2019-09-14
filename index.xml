@@ -6,10 +6,109 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Rats!</title>
+        <link>https://ioerr.github.io/posts/rats/</link>
+        <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/rats/</guid>
+        <description>&lt;p&gt;忽然想到以前玩过一个 Windows 下的小游戏，在 &lt;a href=&#34;https://twitter.com/FlyingJuicer&#34;&gt;Flying Juicer&lt;/a&gt; 的&lt;a href=&#34;https://twitter.com/FlyingJuicer/status/1172145280738717696&#34;&gt;提醒&lt;/a&gt;下，通过名字找到了&lt;a href=&#34;http://www.windowsgames.co.uk/rats.html&#34;&gt;作品和作者 Sean O&amp;rsquo;Connor 的网站&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/rats.png&#34; alt=&#34;Rats!&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;游戏的名字叫 Rats!，玩法很简单：&lt;br /&gt;
+地图上有到处乱窜的老鼠，公老鼠和母老鼠相遇后会交配生下更多老鼠。&lt;br /&gt;
+玩家可以在地图上放置多种工具，如定时炸弹炸弹、毒药、毒烟、路障和剥夺生殖能力的放射源，用于控制老鼠的数量。&lt;br /&gt;
+觉得老鼠太少，也可以多放几只进去。&lt;br /&gt;
+需要在保证老鼠的总数不超过上限的前提下，尽量多得分。&lt;br /&gt;
+第一个地图免费，后面的需要付费解锁。&lt;/p&gt;
+
+&lt;p&gt;这个游戏如果一上来杀死所有老鼠，很容易但很无趣。&lt;br /&gt;
+最有意思的地方在于老鼠呈几何级数繁殖时，能够及时控制住鼠口上限。&lt;br /&gt;
+满屏幕都是交配和下崽儿的老鼠，配合销魂的呻吟和啵啵啵的下崽儿声音，堪称作死边缘的乐趣。&lt;/p&gt;
+
+&lt;p&gt;Rat! 最早在94年就发布了，现在还能够找到和玩到原版，有种考古发现宝藏的惊喜。&lt;/p&gt;
+
+&lt;p&gt;从 &lt;a href=&#34;mailto:sean@windowsgames.co.uk&#34;&gt;Sean O&amp;rsquo;Connor&lt;/a&gt; 的&lt;a href=&#34;http://www.windowsgames.co.uk/index.html&#34;&gt;作品集&lt;/a&gt;发现，以前在手机上玩过的 &lt;a href=&#34;http://www.windowsgames.co.uk/slay.html&#34;&gt;Slay&lt;/a&gt; 也是他的作品。&lt;/p&gt;
+
+&lt;p&gt;另外，他还写了 &lt;a href=&#34;http://www.windowsgames.co.uk/ff.html&#34;&gt;Firefight&lt;/a&gt;，看上去有点像 Close Combat 的风格，带有地图编辑器。&lt;/p&gt;
+
+&lt;p&gt;有推友搭车求问其他的游戏，于是找到了曾经风靡一时的《&lt;a href=&#34;https://crimsonland.com/&#34;&gt;血腥大地/Crimsonland&lt;/a&gt;》——一款顶视图风格的射击游戏，在汹涌如潮的丧尸和怪物包围下不断开火和升级。&lt;/p&gt;
+
+&lt;p&gt;才知道它已经出了重制版，在多个游戏平台发布。只是看游戏评论，不少老玩家觉得重制版不如原版好玩。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>网络与人类社会</title>
+        <link>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</link>
+        <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</guid>
+        <description>&lt;p&gt;人与人之间的交流就像网络交互和控制：&lt;br /&gt;
+有的时候握手失败，有的时候会丢包，有的时候会伪造篡改数据，有的时候不做任何校验。&lt;br /&gt;
+有的网络节点只想控制对方而忽略部分不想看到的数据反馈，有的不愿意自己计算只想接收和执行控制指令，有的时刻准备取代中心节点发布控制指令，有的则和其他节点保持平等的关系。&lt;/p&gt;
+
+&lt;p&gt;不同层级的各种网络协议就像人与人之间的交互方式。&lt;/p&gt;
+
+&lt;p&gt;再延伸一下，可以将各种人类社会的政治制度和计算机网络架构建立映射关系：&lt;br /&gt;
+有的是中心节点控制的架构，有的是分布式的自组织松散网络，有的是介于两者之间的混合形式。&lt;br /&gt;
+前者走到极端是只有巨大而唯一的中心计算节点，外围节点都只负责输入输出，相当于人类只有一个智慧体，组成它的是失去自主意识和行为能力的个人。&lt;/p&gt;
+
+&lt;p&gt;就像计算机交互模式和网络架构没有绝对的优劣之分，人类相互之间的沟通方式和人类社会的政治制度也不必有绝对的善恶标准。&lt;br /&gt;
+不同的模式和制度在不同环境和阶段的适应性各不相同。&lt;/p&gt;
+
+&lt;p&gt;但如果你从根本上是个人主义者，持个人主义的价值观和方法论，那么恐怕不希望自己活得像某些类型的网络节点一样。&lt;/p&gt;
+
+&lt;p&gt;也有人设想未来的人类社会整体看来就是一个生物（人类巨灵），个人相当于这个巨大生物身上的细胞。&lt;/p&gt;
+
+&lt;p&gt;如果这样看的话，共情能力就相当于神经系统，感受其他细胞的痛苦；&lt;br /&gt;
+营养输送和免疫系统相当于援助保障能力；&lt;br /&gt;
+战争动员能力相当于瞬间的无氧运动能力。&lt;/p&gt;
+
+&lt;p&gt;而现实是集体主义者看重动员远胜共情，没有边际成本的控制机制，狂热地燃烧和消耗组织细胞，不惜今天割肉挖疮，明天壮士断腕。&lt;/p&gt;
+
+&lt;p&gt;所以以生物类比的话，个人主义者恐怕也不会被人类巨灵这样的概念随便忽悠——个人主义者不拒斥庞大的社会组织，相反，认为形成超大型社会组织的基础是个人主义。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>曼联租借安菲尔德的历史往事</title>
+        <link>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</link>
+        <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</guid>
+        <description>&lt;p&gt;众所周知，曼联和利物浦是英格兰足坛最著名的一对死敌，然而历史上，曼联曾经租借过利物浦的主场安菲尔德球场打过比赛。&lt;/p&gt;
+
+&lt;p&gt;在每日邮报的这则回顾曼联和利物浦如何成为死敌的报道中提到：&lt;br /&gt;
+因为足球流氓朝场内掷飞刀，曼联被足总处罚两场联赛不能使用自己的主场比赛，不得已向其他球队求助，利物浦和斯托克城伸出了援手。&lt;/p&gt;
+
+&lt;p&gt;于是，1971年8月20日，曼联在安菲尔德迎战联赛对手阿森纳，这是当时的比赛概况：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.dailymail.co.uk/i/pix/2012/01/26/article-2092364-1179D950000005DC-997_306x415.jpg&#34; alt=&#34;双方都有不少球迷耳熟能详的名字&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最终曼联3:1获胜，保持联赛第一。&lt;/p&gt;
+
+&lt;p&gt;后来曼联与利物浦成为死敌，阿森纳和曼联在英超时代一度交相辉映、势同水火，阿森纳和利物浦在英甲上演过最后时刻夺冠的经典，当年以这种形式联系起来，真是奇妙啊。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>爱的力量</title>
@@ -300,119 +399,6 @@
 相当于在线版的即搜即用表情包。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../images/twitter-search-gif.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>网络基本真理</title>
-        <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
-        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
-        <description>
-
-&lt;p&gt;在 &lt;a href=&#34;https://twitter.com/mengite&#34;&gt;@mengite&lt;/a&gt; 的 &lt;a href=&#34;https://t.me/suez42&#34;&gt;Telegram 频道&lt;/a&gt;中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 &lt;a href=&#34;https://tools.ietf.org/html/rfc1925&#34;&gt;RFC 1925&lt;/a&gt;中就已经提到，作者是 &lt;a href=&#34;mailto:rcallon@baynetworks.com&#34;&gt;Ross Callon&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我试着将主要内容翻译如下，如有错误，欢迎指出：&lt;/p&gt;
-
-&lt;h2 id=&#34;网络十二真理&#34;&gt;网络十二真理&lt;/h2&gt;
-
-&lt;p&gt;本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。&lt;br /&gt;
-本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。&lt;br /&gt;
-本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。&lt;/p&gt;
-
-&lt;p&gt;此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;它必须得管用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;无论如何努力，无论优先级如何，你都无法提高光速。&lt;br /&gt;
-2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。&lt;br /&gt;
-6a. 总是可以通过新增间接的层次来转移问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它总是遵循：&lt;br /&gt;
-7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它比你想象的要复杂得多。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;所有资源都永远不够用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;没有万能的解决方案。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。&lt;br /&gt;
-11a. 参见 6a。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;设计协议时，无一分可减才是完美，而非无一分可增。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>鉴省</title>
-        <link>https://ioerr.github.io/posts/jian-xing/</link>
-        <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/jian-xing/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;呜呼！&lt;br /&gt;
-灭六国者，六国也，非秦也。&lt;br /&gt;
-族秦者，秦也，非天下也。&lt;/p&gt;
-
-&lt;p&gt;嗟夫！&lt;br /&gt;
-使六国各爱其人，则足以拒秦。&lt;br /&gt;
-秦复爱六国之人，则递三世可至万世而为君，谁得而族灭也。&lt;br /&gt;
-秦人不暇自哀，而后人哀之。&lt;br /&gt;
-后人哀之，而不鉴之，亦使后人而复哀后人也。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当今之世，&lt;br /&gt;
-讳而不哀；&lt;br /&gt;
-哀而不鉴；&lt;br /&gt;
-鉴而不省。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>信息与观点</title>
-        <link>https://ioerr.github.io/posts/xinxi-yu-guandian/</link>
-        <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/xinxi-yu-guandian/</guid>
-        <description>&lt;p&gt;网络上大部分争吵的根源在于，大部分人更想输出自己的观点，而不是信息，同时又更加容易平和地接受别人提供的信息，而不是观点。&lt;br /&gt;
-为什么开车网站都是好人一生平安？因为楼主提供的是信息，而完全无意输出观点。&lt;br /&gt;
-至于那些连信息都不愿意接收的人，根本就不会争吵。&lt;/p&gt;
-
-&lt;p&gt;不过信息和观点不是非黑即白的两个极端，而是连续分布的，有时没有明显的分野。诛心者、阴谋论者、会被信息刺痛的人看什么都是观点，你无法确定你所认为的信息，在对方看来是不是观点。&lt;/p&gt;
-
-&lt;p&gt;“夹带私货”就是很常见的指责，哪怕作者自己也不知道究竟夹带了什么隐秘的私货。当然作者也不知道昨天的晚饭现在走到肠道哪一截了，到底是读者的透视眼厉害。还有“我不谈政治”，留下对方一脸懵逼愣在原地——你是不是还想说“我退出江湖”？&lt;/p&gt;
-
-&lt;p&gt;六扇门和巨鲸帮在悦来客栈混战，门口路过的阿强被失手杀掉了啦！&lt;br /&gt;
-唉呀，阿强不是早就金盆洗手了吗？&lt;br /&gt;
-是呀，他刚出娘胎就宣布退出江湖了，真是不幸啊。&lt;br /&gt;
-所以下次不要上街逛咯，江湖嘛就是这么危险，没有长着主角的脸分分钟被当作杂鱼干掉啦。&lt;/p&gt;
-
-&lt;p&gt;“不输出观点只输出信息”或者“不谈政治”、“退出江湖”并不能解决问题，因为你永远不会知道对方能发射多强的伦琴射线。&lt;br /&gt;
-你能掌握的，是不要随便发射伦琴射线。&lt;/p&gt;
 </description>
       </item>
     
