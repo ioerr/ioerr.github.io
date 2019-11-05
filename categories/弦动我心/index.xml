@@ -6,10 +6,31 @@
     <description>Recent content in 弦动我心 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>最佳演奏者</title>
+        <link>https://ioerr.github.io/posts/zuijia-yanzouzhe/</link>
+        <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/zuijia-yanzouzhe/</guid>
+        <description>&lt;p&gt;如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。&lt;br /&gt;
+毕竟最厉害的人类也无法做到像电脑一样精确控制，分毫不差。&lt;/p&gt;
+
+&lt;p&gt;但我们仍会欣赏人类不完美的演奏，和即兴的不稳定发挥。&lt;br /&gt;
+而且，一支音乐作品的最佳版本往往不是严丝合缝、丝毫不差的那个，而是精确性让位于情感感染力的版本。&lt;/p&gt;
+
+&lt;p&gt;如果将乐谱看作显性知识，无法用符号表达创作者的完整意图，那么演奏时各种微妙的变化就是演奏者尝试领悟和演绎的隐性知识。&lt;br /&gt;
+最佳演奏者不是对照显性知识照本宣科，而是能在熟悉乐谱之后又超越它，直达创作者的意图。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>音乐的力量</title>
@@ -788,33 +809,6 @@ other than fear - to believe in any version of an afterlife&lt;/p&gt;
 以及我老婆&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.timminchin.com/media/&#34;&gt;在官方站点可以下载这首歌&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>OMI</title>
-        <link>https://ioerr.github.io/posts/omi/</link>
-        <pubDate>Thu, 08 Nov 2007 13:26:09 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/omi/</guid>
-        <description>&lt;p&gt;OMI=Open Mind Index，由 &lt;a href=&#34;http://www.musickum.com/&#34;&gt;Musickum&lt;/a&gt; 根据
-&lt;a href=&#34;http://www.last.fm/&#34;&gt;Last.Fm&lt;/a&gt;
-提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。&lt;/p&gt;
-
-&lt;p&gt;我的指数只有126…&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/omi/c/ocalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/taste/c/tcalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;而目前的平均指数是94.48：&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/images/tags_gauss.php5?allomis=94.48&amp;amp;usersumme=99019&amp;amp;user_omi=126&amp;amp;tagdata=0,0.2,0.3,0.8,1.8,4.1,8,12.5,15.7,16.7,14.8,11.3,7.3,3.9,1.7,0.6,0.2,0,0,0&amp;amp;tagname=5,15,25,35,45,55,65,75,85,95,105,115,125,135,145,155,165,175,185,195&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;中国大陆的用户 OMI 平均指数是103.32，台湾是91.96，香港则是87.39。&lt;/p&gt;
-
-&lt;p&gt;更多统计结果见&lt;a href=&#34;http://www.musickum.com/omi/index.php5?username=calonxu&#34;&gt;我的统计页面&lt;/a&gt;。&lt;/p&gt;
 </description>
       </item>
     

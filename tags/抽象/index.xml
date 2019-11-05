@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>抽象 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%8A%BD%E8%B1%A1/</link>
+    <description>Recent content in 抽象 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E6%8A%BD%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>仇恨的对象</title>
+        <link>https://ioerr.github.io/posts/chouhen-de-duixiang/</link>
+        <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/chouhen-de-duixiang/</guid>
+        <description>&lt;p&gt;人总是容易被鼓动和说服去仇恨遥远、抽象、简单、像符号一样典型的对象，而且往往是作为集体概念存在的对象，如一群人、一个民族或国家。&lt;/p&gt;
+
+&lt;p&gt;个人当然也会因为生活中的遭遇而怨恨，但这种来源于具体事务的不满，理应指向具体的人。&lt;/p&gt;
+
+&lt;p&gt;只有当他面对的是一个多人都参与但又无人应最终负责的系统，仇恨抽象的集体概念才可理解。&lt;/p&gt;
+
+&lt;p&gt;作为个人，你很可能仇恨某个沃贡拆迁队的工人或某个强迫你品诗的沃贡诗人，但有什么理由要仇恨所有的沃贡人呢？&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
