@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>对谁负责 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="对谁负责" />
+<meta property="og:description" content="前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。
+虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。
+在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。
+这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。
+如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。
+如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。
+所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。
+联想到最近武汉的疫情处理情况，其实也是一样的道理。
+一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。
+就是因为他们号称要服务的对象，并不是他们要负责的人。
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/dui-shui-fuze/" />
+
+
+
+<meta property="article:published_time" content="2020-01-23T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-01-23T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="对谁负责">
+<meta itemprop="description" content="前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。
+虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。
+在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。
+这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。
+如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。
+如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。
+所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。
+联想到最近武汉的疫情处理情况，其实也是一样的道理。
+一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。
+就是因为他们号称要服务的对象，并不是他们要负责的人。
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。">
+
+
+<meta itemprop="datePublished" content="2020-01-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-01-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="19">
+
+
+
+<meta itemprop="keywords" content="官僚主义,服务,武汉肺炎,疫病,," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="对谁负责"/>
+<meta name="twitter:description" content="前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。
+虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。
+在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。
+这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。
+如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。
+如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。
+所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。
+联想到最近武汉的疫情处理情况，其实也是一样的道理。
+一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。
+就是因为他们号称要服务的对象，并不是他们要负责的人。
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdui-shui-fuze%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-01-23 12:00">2020-01-23</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>对谁负责</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%AE%98%E5%83%9A%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>官僚主义</a>
+          
+            , 
+            <a href="/tags/%E6%9C%8D%E5%8A%A1">
+              <span class="hash">#</span>服务</a>
+          
+            , 
+            <a href="/tags/%E6%AD%A6%E6%B1%89%E8%82%BA%E7%82%8E">
+              <span class="hash">#</span>武汉肺炎</a>
+          
+            , 
+            <a href="/tags/%E7%96%AB%E7%97%85">
+              <span class="hash">#</span>疫病</a>
+          
+            , 
+            <a href="/tags/">
+              <span class="hash">#</span></a>
+          
+        
+      </p>
+    </header>
+    <section><p>前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。<br />
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。<br />
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。</p>
+
+<p>虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。<br />
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。</p>
+
+<p>在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。</p>
+
+<p>这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。</p>
+
+<p>如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？<br />
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。</p>
+
+<p>如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？<br />
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。</p>
+
+<p>所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。<br />
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。</p>
+
+<p>联想到最近武汉的疫情处理情况，其实也是一样的道理。</p>
+
+<p>一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？<br />
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。<br />
+就是因为他们号称要服务的对象，并不是他们要负责的人。<br />
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。<br />
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%af%b9%e8%b0%81%e8%b4%9f%e8%b4%a3》&body=https%3a%2f%2fioerr.github.io%2fposts%2fdui-shui-fuze%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fdui-shui-fuze%2f&text= @calon %e5%af%b9%e8%b0%81%e8%b4%9f%e8%b4%a3&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2020 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

@@ -6,10 +6,50 @@
     <description>Recent content in 求知求是 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>对谁负责</title>
+        <link>https://ioerr.github.io/posts/dui-shui-fuze/</link>
+        <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/dui-shui-fuze/</guid>
+        <description>&lt;p&gt;前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。&lt;br /&gt;
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。&lt;br /&gt;
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。&lt;/p&gt;
+
+&lt;p&gt;虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。&lt;br /&gt;
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。&lt;/p&gt;
+
+&lt;p&gt;在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。&lt;/p&gt;
+
+&lt;p&gt;这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。&lt;/p&gt;
+
+&lt;p&gt;如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？&lt;br /&gt;
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。&lt;/p&gt;
+
+&lt;p&gt;如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？&lt;br /&gt;
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。&lt;/p&gt;
+
+&lt;p&gt;所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。&lt;br /&gt;
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。&lt;/p&gt;
+
+&lt;p&gt;联想到最近武汉的疫情处理情况，其实也是一样的道理。&lt;/p&gt;
+
+&lt;p&gt;一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？&lt;br /&gt;
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。&lt;br /&gt;
+就是因为他们号称要服务的对象，并不是他们要负责的人。&lt;br /&gt;
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。&lt;br /&gt;
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>正直的品质</title>
@@ -1054,37 +1094,6 @@ calon【生活即是创造自己，只有死鱼随波逐流。】:我靠，楼�
 &lt;p&gt;我并不认为“宗教”毫无意义，各种形式的宗教在不同的历史时期自然有它的各种功能，才会被人类社会发明出来并广泛存在。&lt;/p&gt;
 
 &lt;p&gt;只是当个人的生活被新宗教扭曲异化到泯灭人性、扼杀个人的地步时，应该想到还有科学理性、人文主义和个人主义这样既不集体也不抽象的反抗武器。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>转基因食品无害报告作用不大</title>
-        <link>https://ioerr.github.io/posts/zhuanjiyin-shipin-wuhai-baogao-zuoyong-buda/</link>
-        <pubDate>Fri, 27 May 2016 03:26:53 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/zhuanjiyin-shipin-wuhai-baogao-zuoyong-buda/</guid>
-        <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;a href=&#34;http://www.nap.edu/catalog/23395/genetically-engineered-crops-experiences-and-prospects&#34;&gt;美国国家科学院发布报告&lt;/a&gt;宣布转基因食品对人体无害。转基因食品不会增加癌症、糖尿病、肥胖症、肾病、消化道疾病、过敏症以及自闭症等疾病的风险。&lt;/p&gt;
-
-&lt;p&gt;这篇报告 388 页，由 50
-位来自美国国家科学院、工程院、医学院以及其他领域的学者专家分析 900
-多份、时间跨度长达 20 年的研究与数据得出的结论。
-&lt;/blockquote&gt;
-看不惯反转基因的人可能会觉得扬眉吐气，其实对说服反转基因一派没有什么作用。&lt;br /&gt;
-因为反转基因的理由有：&lt;br /&gt;
-1、现在无害不代表没有潜在危害，而报告只能说明20年的有限方面的观察研究结果；&lt;br /&gt;
-2、转基因这事有阴谋论，政府、公司或者科学机构都不可靠；&lt;br /&gt;
-3、中国的食品安全不可靠，在国外没事不代表在国内也没事；&lt;br /&gt;
-4、对人体没有危害不代表对环境没有危害；&lt;br /&gt;
-5、现代科学改良过的食品就是没有“自然”的食品好。&lt;br /&gt;
-现在还可以加一句，把这事简化为“转基因无害”并大肆宣传，既是迷信权威，又是以偏概全，在逻辑上就站不住脚。&lt;br /&gt;
-报告完全针对不上这些理由，甚至还会进一步强化部分反转基因人士的信念。&lt;br /&gt;
-实际看到各个论坛和社交网站上的争论大都如此，与报告发布之前没什么不同。&lt;br /&gt;
-所以还是重复之前在《&lt;a href=&#34;http://calon.weblogs.us/zhuanjiyin_zhengyi/&#34;&gt;转基因争议&lt;/a&gt;》中的看法，最终还得让市场来发挥作用，让各方各自用钱来投票选择吧。&lt;/p&gt;
 </description>
       </item>
     

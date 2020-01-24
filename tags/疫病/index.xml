@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>疫病 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%96%AB%E7%97%85/</link>
+    <description>Recent content in 疫病 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E7%96%AB%E7%97%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>对谁负责</title>
+        <link>https://ioerr.github.io/posts/dui-shui-fuze/</link>
+        <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/dui-shui-fuze/</guid>
+        <description>&lt;p&gt;前几天连续两天半参加了一个故障的处理和分析，为避免透露涉密信息，细节我就不说了。&lt;br /&gt;
+这个故障涉及从用户移动终端上的应用到应用服务之间整个通道上的所有网络通信环节的系统，而且不是每次都会复现的问题，终端重启或切飞行模式就恢复正常。&lt;br /&gt;
+问题存在了有一个月左右，但因为不是全部阻断，所以直到公司领导指示一定要彻底查清和解决，才由某个强力部门牵头，组织所有相关系统的责任部门领导和技术人员集中分析排查。&lt;/p&gt;
+
+&lt;p&gt;虽然每一个环节都怀疑存在问题，但每个环节的责任人也都能够提出“证据”和疑点，声称自己的系统不应该是故障点，所以花了不少时间争论、定位。&lt;br /&gt;
+当然，最终还是找到了故障点，只是，虽然一开始不少人怀疑故障点就在此处，但不了解其技术细节，当时也解释不了其他疑点，所以大家核查的方向走了弯路。&lt;/p&gt;
+
+&lt;p&gt;在故障总结会上复盘时，牵头核查故障原因的强力部门责任人说，他不懂这一串系统的所有技术，但为什么能够组织一帮技术专家查到大家一个月都没有定位到的故障原因，靠的是刨根问底的韧性和绝不放过的责任心。&lt;/p&gt;
+
+&lt;p&gt;这当然是很重要的原因，但我觉得还有其他重要的因素不可忽视——谁掌握着分配资源和考核的权力，处理故障的人就对谁负责。&lt;/p&gt;
+
+&lt;p&gt;如果不是公司最高层领导重视这个问题，核查故障的积极性和配合程度会有这么高吗？&lt;br /&gt;
+不少部门可能会想，用户重启或切飞行模式就能够搞定的事情，为什么要把所有部门都召集在一起分析呢？手头还有许多更重要的事情呢。&lt;/p&gt;
+
+&lt;p&gt;如果不是强力管理部门的领导牵头组织，各个生产部门的领导会愿意花几天时间坐在一起陪着核查吗？&lt;br /&gt;
+恐怕连技术人员都有各种开会、走流程、处理其他事务等等的理由要分身他顾。&lt;/p&gt;
+
+&lt;p&gt;所以说到底，还是因为上头重视，下面才投入配合，上头的组织者跟踪到底，下面的执行者才尽心尽力。&lt;br /&gt;
+不管如何强调主动服务意识和责任意识，下面的人都不可避免地要从实际利益出发，谁对其影响最大，才对谁更加负责。&lt;/p&gt;
+
+&lt;p&gt;联想到最近武汉的疫情处理情况，其实也是一样的道理。&lt;/p&gt;
+
+&lt;p&gt;一些明显处置不当的措施，有的堪称是“神操作”，原因真的是当地的官员愚蠢吗？&lt;br /&gt;
+我相信他们比大部分人都精明得多，而且其他人站在他们的位置，大概率也是一样的表现和选择。&lt;br /&gt;
+就是因为他们号称要服务的对象，并不是他们要负责的人。&lt;br /&gt;
+这种服务和负责对象的错位，也正是官僚主义根除不绝的原因。口头上喊“为人民服务”、“顾客是上帝”，在现实利益面前于事无补。&lt;br /&gt;
+只有极少数有勇气、智慧和道德自律的人，才能打破这种魔咒的束缚，但也不能从机制上解决根本问题。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
