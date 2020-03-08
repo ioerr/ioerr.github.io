@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恶的科学 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="恶的科学" />
+<meta property="og:description" content="读《贪婪的大脑》时，同步也在读《恶的科学：论同情与残忍的起源》，一本探讨共情（empathy）和邪恶（evil）之间关系的神经科学和心理学科普书。
+作者 Simon Baron-Cohen 的论证和观点在我看来有漏洞，无法完全自圆其说，但很有启发意义。
+一开篇作者就提出核心观点之一：将“恶”替换为“共情腐蚀（empathy erosion）”，即，共情能力的暂时或永久性缺失是残忍、邪恶的根源。
+一些典型案例中的恶人，明显将人当作物品，而不是当作人来对待。
+之后，他提出了共情的定义：共情是一种能力，它使我们理解别人的想法或感受，并用恰当的情绪来回应这些想法和感受。
+共情至少包含两个阶段：识别和反应，不仅要求你能识别另一个人的感受和想法，还要求你用恰当的情绪回应。
+所有人都位于一条符合正态分布钟形曲线的共情光谱的某一点上，位于共情最少的光谱一端称为“零度共情”（zero degree of empathy）。
+接下来，他介绍了共情水平的测量表——我觉得仅供参考，不能准确反映真实情况。
+以及与共情能力相关的神经学知识，目前已经发现了大脑的哪些区域是共情回路的一部分：
+ 内侧前额叶皮层（medial prefrontal cortex，MPFC），社会信息处理的枢纽；
+ 分为背内侧前额叶皮层（dMPFC），推测别人的想法和感受，也参与对自身想法和感受的思考；
+ 腹内侧前额叶皮层（vMPFC），反省自己的内心时发挥作用，并储存关于各种行为的情绪效价：带来回报的行为，在情绪上标记为正面的；
+  眶额皮层（orbital frontal cortex, OFC），与社会判断能力有关，也参与判断对某件事是否会引起痛苦；
+ 岛盖部（frontal operculum, FO），参与了语言的表达；
+ 尾侧前扣带皮层（caudal anterior cingulate cortex, cACC），又称为中扣带皮层（middle cingulate cortex, MCC），在自己感受疼痛时激活，也会在观看别人感受疼痛时激活；
+ 前脑岛（anterior insula, AI），处理厌恶情绪，并参与了自我觉知的身体方面；
+ 颞顶联合区（temporoparietal junction, TPJ）的右半边（RTPJ），用于判断他人意图和信念，推测别人的想法，参与了对自我和对他人的审视；
+ 后颞上沟（posterior superior temporal sulcus, pSTS），判断别人观看的方向，揣摩他们对于观看对象的感受；
+ 躯体感觉皮层（somatosensory cortex，SMC），参与触觉体验的编码，也参与感知别人被触摸；
+ 镜像神经元系统，在做出某个动作或是观看别人做出同样的动作时都会激活，包括：
+ 额下回（inferior frontal gyrus，IFG），用于识别情绪；
+其他不同脑区和基本情绪的对应关系：
+ 前脑岛（AI），处理厌恶情绪；
+ 腹侧纹状体（ventral striatum），处理快乐情绪；" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/e-de-kexue/" />
+
+
+
+<meta property="article:published_time" content="2020-02-24T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-02-24T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="恶的科学">
+<meta itemprop="description" content="读《贪婪的大脑》时，同步也在读《恶的科学：论同情与残忍的起源》，一本探讨共情（empathy）和邪恶（evil）之间关系的神经科学和心理学科普书。
+作者 Simon Baron-Cohen 的论证和观点在我看来有漏洞，无法完全自圆其说，但很有启发意义。
+一开篇作者就提出核心观点之一：将“恶”替换为“共情腐蚀（empathy erosion）”，即，共情能力的暂时或永久性缺失是残忍、邪恶的根源。
+一些典型案例中的恶人，明显将人当作物品，而不是当作人来对待。
+之后，他提出了共情的定义：共情是一种能力，它使我们理解别人的想法或感受，并用恰当的情绪来回应这些想法和感受。
+共情至少包含两个阶段：识别和反应，不仅要求你能识别另一个人的感受和想法，还要求你用恰当的情绪回应。
+所有人都位于一条符合正态分布钟形曲线的共情光谱的某一点上，位于共情最少的光谱一端称为“零度共情”（zero degree of empathy）。
+接下来，他介绍了共情水平的测量表——我觉得仅供参考，不能准确反映真实情况。
+以及与共情能力相关的神经学知识，目前已经发现了大脑的哪些区域是共情回路的一部分：
+ 内侧前额叶皮层（medial prefrontal cortex，MPFC），社会信息处理的枢纽；
+ 分为背内侧前额叶皮层（dMPFC），推测别人的想法和感受，也参与对自身想法和感受的思考；
+ 腹内侧前额叶皮层（vMPFC），反省自己的内心时发挥作用，并储存关于各种行为的情绪效价：带来回报的行为，在情绪上标记为正面的；
+  眶额皮层（orbital frontal cortex, OFC），与社会判断能力有关，也参与判断对某件事是否会引起痛苦；
+ 岛盖部（frontal operculum, FO），参与了语言的表达；
+ 尾侧前扣带皮层（caudal anterior cingulate cortex, cACC），又称为中扣带皮层（middle cingulate cortex, MCC），在自己感受疼痛时激活，也会在观看别人感受疼痛时激活；
+ 前脑岛（anterior insula, AI），处理厌恶情绪，并参与了自我觉知的身体方面；
+ 颞顶联合区（temporoparietal junction, TPJ）的右半边（RTPJ），用于判断他人意图和信念，推测别人的想法，参与了对自我和对他人的审视；
+ 后颞上沟（posterior superior temporal sulcus, pSTS），判断别人观看的方向，揣摩他们对于观看对象的感受；
+ 躯体感觉皮层（somatosensory cortex，SMC），参与触觉体验的编码，也参与感知别人被触摸；
+ 镜像神经元系统，在做出某个动作或是观看别人做出同样的动作时都会激活，包括：
+ 额下回（inferior frontal gyrus，IFG），用于识别情绪；
+其他不同脑区和基本情绪的对应关系：
+ 前脑岛（AI），处理厌恶情绪；
+ 腹侧纹状体（ventral striatum），处理快乐情绪；">
+
+
+<meta itemprop="datePublished" content="2020-02-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="124">
+
+
+
+<meta itemprop="keywords" content="共情,道德,恶,邪恶,神经科学,心理学,大脑,神经,自闭症,遗传学,基因,人格障碍,信任,物化,文明," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="恶的科学"/>
+<meta name="twitter:description" content="读《贪婪的大脑》时，同步也在读《恶的科学：论同情与残忍的起源》，一本探讨共情（empathy）和邪恶（evil）之间关系的神经科学和心理学科普书。
+作者 Simon Baron-Cohen 的论证和观点在我看来有漏洞，无法完全自圆其说，但很有启发意义。
+一开篇作者就提出核心观点之一：将“恶”替换为“共情腐蚀（empathy erosion）”，即，共情能力的暂时或永久性缺失是残忍、邪恶的根源。
+一些典型案例中的恶人，明显将人当作物品，而不是当作人来对待。
+之后，他提出了共情的定义：共情是一种能力，它使我们理解别人的想法或感受，并用恰当的情绪来回应这些想法和感受。
+共情至少包含两个阶段：识别和反应，不仅要求你能识别另一个人的感受和想法，还要求你用恰当的情绪回应。
+所有人都位于一条符合正态分布钟形曲线的共情光谱的某一点上，位于共情最少的光谱一端称为“零度共情”（zero degree of empathy）。
+接下来，他介绍了共情水平的测量表——我觉得仅供参考，不能准确反映真实情况。
+以及与共情能力相关的神经学知识，目前已经发现了大脑的哪些区域是共情回路的一部分：
+ 内侧前额叶皮层（medial prefrontal cortex，MPFC），社会信息处理的枢纽；
+ 分为背内侧前额叶皮层（dMPFC），推测别人的想法和感受，也参与对自身想法和感受的思考；
+ 腹内侧前额叶皮层（vMPFC），反省自己的内心时发挥作用，并储存关于各种行为的情绪效价：带来回报的行为，在情绪上标记为正面的；
+  眶额皮层（orbital frontal cortex, OFC），与社会判断能力有关，也参与判断对某件事是否会引起痛苦；
+ 岛盖部（frontal operculum, FO），参与了语言的表达；
+ 尾侧前扣带皮层（caudal anterior cingulate cortex, cACC），又称为中扣带皮层（middle cingulate cortex, MCC），在自己感受疼痛时激活，也会在观看别人感受疼痛时激活；
+ 前脑岛（anterior insula, AI），处理厌恶情绪，并参与了自我觉知的身体方面；
+ 颞顶联合区（temporoparietal junction, TPJ）的右半边（RTPJ），用于判断他人意图和信念，推测别人的想法，参与了对自我和对他人的审视；
+ 后颞上沟（posterior superior temporal sulcus, pSTS），判断别人观看的方向，揣摩他们对于观看对象的感受；
+ 躯体感觉皮层（somatosensory cortex，SMC），参与触觉体验的编码，也参与感知别人被触摸；
+ 镜像神经元系统，在做出某个动作或是观看别人做出同样的动作时都会激活，包括：
+ 额下回（inferior frontal gyrus，IFG），用于识别情绪；
+其他不同脑区和基本情绪的对应关系：
+ 前脑岛（AI），处理厌恶情绪；
+ 腹侧纹状体（ventral striatum），处理快乐情绪；"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fe-de-kexue%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-02-24 12:00">2020-02-24</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">书香剑气</a>
+          </p>
+      <h1>恶的科学</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%85%B1%E6%83%85">
+              <span class="hash">#</span>共情</a>
+          
+            , 
+            <a href="/tags/%E9%81%93%E5%BE%B7">
+              <span class="hash">#</span>道德</a>
+          
+            , 
+            <a href="/tags/%E6%81%B6">
+              <span class="hash">#</span>恶</a>
+          
+            , 
+            <a href="/tags/%E9%82%AA%E6%81%B6">
+              <span class="hash">#</span>邪恶</a>
+          
+            , 
+            <a href="/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6">
+              <span class="hash">#</span>神经科学</a>
+          
+            , 
+            <a href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6">
+              <span class="hash">#</span>心理学</a>
+          
+            , 
+            <a href="/tags/%E5%A4%A7%E8%84%91">
+              <span class="hash">#</span>大脑</a>
+          
+            , 
+            <a href="/tags/%E7%A5%9E%E7%BB%8F">
+              <span class="hash">#</span>神经</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E9%97%AD%E7%97%87">
+              <span class="hash">#</span>自闭症</a>
+          
+            , 
+            <a href="/tags/%E9%81%97%E4%BC%A0%E5%AD%A6">
+              <span class="hash">#</span>遗传学</a>
+          
+            , 
+            <a href="/tags/%E5%9F%BA%E5%9B%A0">
+              <span class="hash">#</span>基因</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E6%A0%BC%E9%9A%9C%E7%A2%8D">
+              <span class="hash">#</span>人格障碍</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E4%BB%BB">
+              <span class="hash">#</span>信任</a>
+          
+            , 
+            <a href="/tags/%E7%89%A9%E5%8C%96">
+              <span class="hash">#</span>物化</a>
+          
+            , 
+            <a href="/tags/%E6%96%87%E6%98%8E">
+              <span class="hash">#</span>文明</a>
+          
+        
+      </p>
+    </header>
+    <section><p>读《<a href="./tanlan-de-danao/">贪婪的大脑</a>》时，同步也在读《恶的科学：论同情与残忍的起源》，一本探讨共情（empathy）和邪恶（evil）之间关系的神经科学和心理学科普书。</p>
+
+<p>作者 Simon Baron-Cohen 的论证和观点在我看来有漏洞，无法完全自圆其说，但很有启发意义。</p>
+
+<p>一开篇作者就提出核心观点之一：将“恶”替换为“共情腐蚀（empathy erosion）”，即，共情能力的暂时或永久性缺失是残忍、邪恶的根源。<br />
+一些典型案例中的恶人，明显将人当作物品，而不是当作人来对待。</p>
+
+<p>之后，他提出了共情的定义：共情是一种能力，它使我们理解别人的想法或感受，并用恰当的情绪来回应这些想法和感受。<br />
+共情至少包含两个阶段：识别和反应，不仅要求你能识别另一个人的感受和想法，还要求你用恰当的情绪回应。</p>
+
+<p>所有人都位于一条符合正态分布钟形曲线的共情光谱的某一点上，位于共情最少的光谱一端称为“零度共情”（zero degree of empathy）。</p>
+
+<p>接下来，他介绍了共情水平的测量表——我觉得仅供参考，不能准确反映真实情况。</p>
+
+<p>以及与共情能力相关的神经学知识，目前已经发现了大脑的哪些区域是共情回路的一部分：</p>
+
+<ul>
+<li>内侧前额叶皮层（medial prefrontal cortex，MPFC），社会信息处理的枢纽；<br />
+
+<ul>
+<li>分为背内侧前额叶皮层（dMPFC），推测别人的想法和感受，也参与对自身想法和感受的思考；<br /></li>
+<li>腹内侧前额叶皮层（vMPFC），反省自己的内心时发挥作用，并储存关于各种行为的情绪效价：带来回报的行为，在情绪上标记为正面的；<br /></li>
+</ul></li>
+<li>眶额皮层（orbital frontal cortex, OFC），与社会判断能力有关，也参与判断对某件事是否会引起痛苦；<br /></li>
+<li>岛盖部（frontal operculum, FO），参与了语言的表达；<br /></li>
+<li>尾侧前扣带皮层（caudal anterior cingulate cortex, cACC），又称为中扣带皮层（middle cingulate cortex, MCC），在自己感受疼痛时激活，也会在观看别人感受疼痛时激活；<br /></li>
+<li>前脑岛（anterior insula, AI），处理厌恶情绪，并参与了自我觉知的身体方面；<br /></li>
+<li>颞顶联合区（temporoparietal junction, TPJ）的右半边（RTPJ），用于判断他人意图和信念，推测别人的想法，参与了对自我和对他人的审视；<br /></li>
+<li>后颞上沟（posterior superior temporal sulcus, pSTS），判断别人观看的方向，揣摩他们对于观看对象的感受；<br /></li>
+<li>躯体感觉皮层（somatosensory cortex，SMC），参与触觉体验的编码，也参与感知别人被触摸；<br /></li>
+<li>镜像神经元系统，在做出某个动作或是观看别人做出同样的动作时都会激活，包括：<br />
+
+<ul>
+<li>额下回（inferior frontal gyrus，IFG），用于识别情绪；<br />
+其他不同脑区和基本情绪的对应关系：<br /></li>
+<li>前脑岛（AI），处理厌恶情绪；<br /></li>
+<li>腹侧纹状体（ventral striatum），处理快乐情绪；<br /></li>
+<li>辅助运动区（supplementary motor cortex），处理愤怒情绪；<br /></li>
+<li>包括下丘脑（hypothalamus）在内的多个区域处理悲伤情绪；<br /></li>
+<li>顶下小叶（inferior parietal lobule, IPL）；<br /></li>
+<li>顶下沟（inferior parietal sulcus, IPS）；<br /></li>
+</ul></li>
+<li>杏仁核（amygdala），参与情绪的学习和调控，特别是恐惧情绪；<br />
+<br /></li>
+</ul>
+
+<p>接下来，缺乏共情会有什么后果呢？作者列举分析了零度共情中的三种负面类型，及其脑中异常的共情回路：</p>
+
+<ul>
+<li><p>边缘型人格障碍（borderline personality disorder），B 型<br />
+此类患者无法忍受孤独，主动结交别人，然而又无法维持和享受亲密关系，既有强烈的依附需求，又有强烈的害怕被抛弃的恐惧，思维方式非黑即白，不是极端的爱就是极端的恨。</p></li>
+
+<li><p>病态人格障碍（psychopathic personality disorder），P 型<br />
+不择手段地满足自己的欲望，遇到小小的阻碍就会暴力相向，有时为了支配他人或满足欲望有经过计算的残酷行为，或幸灾乐祸，没有是非观念，无法学会畏惧惩罚。<br />
+其中有的人也属于反社会型人格障碍（antisocial personality disorder），即普遍地漠视和侵犯他人权利。</p></li>
+
+<li><p>自恋型人格障碍（narcissistic personality disorder），N 型<br />
+深陷于自我中心中，完全不懂谦虚，自认为优越，只关心自己，即使关心别人也是因为对方有利用价值。</p></li>
+</ul>
+
+<p>相对的，零度共情也有正面的类型，如阿斯伯格综合征（Asperger Syndrome），自闭症的一种。<br />
+他们的脑以一些特殊的方式处理信息：不断寻找模式，系统化处理，不计代价追求真理，不能容忍模糊、混乱、不确定、无目的的现象，不会关注不同的观点和波动的情绪，这种方式给了他们各种天赋，也让他们有共情障碍。同时，他们处理信息的方式非但没有使他们丧失道德，反而让他们拥有了超越常人的道德。而且，虽然其认知共情可能低于一般人，但他们的情感共情可以完好无损，同样会关心他人。</p>
+
+<p>分析了不同类型的零度共情后，作者介绍了他参与的遗传学实验，这些实验发现了4个对共情有长远影响的基因。<br />
+这些基因并不会直接决定共情，只能决定在脑中特定蛋白质的表达，但可以通过许多细小的步骤（如影响性类固醇激素、催产素的分泌和神经的生长）连接到共情。</p>
+
+<p>接下来，作者回过头来探讨人类残酷行为的本质，提出主要观点：人类做出残酷行为是因为共情回路故障。<br />
+有可能影响共情的因素：</p>
+
+<ul>
+<li>意图：主要是伤害别人的意图<br /></li>
+<li>威胁：威胁会提高应激水平，从而阻断共情<br /></li>
+<li>文化约束：文化可能腐蚀共情，也能发挥关键作用、提高一个社会的整体共情水平<br /></li>
+<li>意识形态：如信仰和政治目标<br /></li>
+<li>早期经验：如儿时的不安全型依恋可能腐蚀共情，使人难以信赖他人、或常常感到威胁<br /></li>
+<li>从众和服从：共情可能因为我们置身其中的组织文化，或者因为别人施加的压力而减少<br /></li>
+<li>群体认同：对本群体的成员展示更多同情，对其他群体的成员则较为冷漠<br /></li>
+<li>生物学因素：基因、激素水平、神经系统状态、身体状态（疲劳、饥饿或是醉酒）<br />
+<br /></li>
+</ul>
+
+<p>许多人即使不是零度共情，也会因为这些因素的影响，一时关闭共情回路而实施残忍的行为。</p>
+
+<p>那么问题来了，既然有这么多种因素会影响共情，进而导致对同类实施残忍的邪恶行为，“恶=共情腐蚀”的理论是不是解释力太强？<br />
+也许在这么多种因素的影响下，有的人没有发生共情腐蚀也做出了一般意义上的邪恶行为，或者关闭共情回路之后仍然克制了作恶？<br />
+我觉得，不妨部分地接受作者的理论假设，承认共情与社会道德之间存在一定程度的关联关系——毕竟已经有既符合人类直觉又经过实验验证的证据，然后继续关注神经科学在这方面会有什么新发现新进展。</p>
+
+<p>共情是人类得以相互信任和协作的基础之一，是文明的基石，这毫无疑义，在后续的 blog 中，我会多次提及这一观点。<br />
+只是，我们需要更多的科学证据证明它的缺失与邪恶之间的必然联系。</p>
+
+<p>当然，作者不会这样写，不然这本书就没法出版了，于是他顺着这个观点，谈到了如何看待和惩罚恶人恶行。<br />
+他认为，既然恶是共情腐蚀，那么如果认为恶人不能用人道感化，那就是没有把对方当作人类看待，而是看作一件物品，这就和恶人本质上没有区别了。<br />
+因此，他提出，需要向作恶者表达共情，而不是重复没有共情的罪恶。</p>
+
+<p>作者也认为，并不是人人都共情水平拉满就好，适中的共情水平最能适应环境，因此共情的分布才呈钟形正态分布。<br />
+太关注他人，就时时会害怕自己会打搅或者排挤他人，永远无法施展抱负、参与社会竞争。<br />
+而太关注自己，好处是能够旁若无人地施展自己的抱负，并得到巨大回报（尤其是在商业世界、在积累资源的活动中）。<br />
+但这也有代价，相对较低共情的“冷血混蛋”固然能掌握更多财富和权力，却也在这个过程中树起了更多敌人。<br />
+在大多数人的共情水平上找到平衡点，这或许是在演化中获得的适应手段，它能使个人获得共情的好处，同时又舍弃它的坏处。<br />
+在零度共情正面中展现出来的系统化逻辑能力很强大，但对处于共情光谱中段的人而言，逻辑与共情不互相排斥，都很重要。<br />
+只要我们开启了共情，那么即使在与亲朋好友相处时不可避免地存在关注自身的功利之心，一定程度地把别人当作物品和工具，我们也会在同时对他们的感受有所觉察或者保持敏感。<br />
+我们虽然会物化他人、同时不再体会他的情绪，但那只是通向零度共情的起点，而非终点。这样的精神状态只是为各种越来越残暴的行径创造了条件，而并非暴行本身。<br />
+相反，共情是预测和解决人际纠纷的有效手段，它的本质决定了它不会像宗教一样压迫任何人，是我们这个世界最珍贵的资源之一。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%81%b6%e7%9a%84%e7%a7%91%e5%ad%a6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fe-de-kexue%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fe-de-kexue%2f&text= @calon %e6%81%b6%e7%9a%84%e7%a7%91%e5%ad%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2020 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

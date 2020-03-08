@@ -6,10 +6,126 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>恶的科学</title>
+        <link>https://ioerr.github.io/posts/e-de-kexue/</link>
+        <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/e-de-kexue/</guid>
+        <description>&lt;p&gt;读《&lt;a href=&#34;./tanlan-de-danao/&#34;&gt;贪婪的大脑&lt;/a&gt;》时，同步也在读《恶的科学：论同情与残忍的起源》，一本探讨共情（empathy）和邪恶（evil）之间关系的神经科学和心理学科普书。&lt;/p&gt;
+
+&lt;p&gt;作者 Simon Baron-Cohen 的论证和观点在我看来有漏洞，无法完全自圆其说，但很有启发意义。&lt;/p&gt;
+
+&lt;p&gt;一开篇作者就提出核心观点之一：将“恶”替换为“共情腐蚀（empathy erosion）”，即，共情能力的暂时或永久性缺失是残忍、邪恶的根源。&lt;br /&gt;
+一些典型案例中的恶人，明显将人当作物品，而不是当作人来对待。&lt;/p&gt;
+
+&lt;p&gt;之后，他提出了共情的定义：共情是一种能力，它使我们理解别人的想法或感受，并用恰当的情绪来回应这些想法和感受。&lt;br /&gt;
+共情至少包含两个阶段：识别和反应，不仅要求你能识别另一个人的感受和想法，还要求你用恰当的情绪回应。&lt;/p&gt;
+
+&lt;p&gt;所有人都位于一条符合正态分布钟形曲线的共情光谱的某一点上，位于共情最少的光谱一端称为“零度共情”（zero degree of empathy）。&lt;/p&gt;
+
+&lt;p&gt;接下来，他介绍了共情水平的测量表——我觉得仅供参考，不能准确反映真实情况。&lt;/p&gt;
+
+&lt;p&gt;以及与共情能力相关的神经学知识，目前已经发现了大脑的哪些区域是共情回路的一部分：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;内侧前额叶皮层（medial prefrontal cortex，MPFC），社会信息处理的枢纽；&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分为背内侧前额叶皮层（dMPFC），推测别人的想法和感受，也参与对自身想法和感受的思考；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;腹内侧前额叶皮层（vMPFC），反省自己的内心时发挥作用，并储存关于各种行为的情绪效价：带来回报的行为，在情绪上标记为正面的；&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;眶额皮层（orbital frontal cortex, OFC），与社会判断能力有关，也参与判断对某件事是否会引起痛苦；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;岛盖部（frontal operculum, FO），参与了语言的表达；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;尾侧前扣带皮层（caudal anterior cingulate cortex, cACC），又称为中扣带皮层（middle cingulate cortex, MCC），在自己感受疼痛时激活，也会在观看别人感受疼痛时激活；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;前脑岛（anterior insula, AI），处理厌恶情绪，并参与了自我觉知的身体方面；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;颞顶联合区（temporoparietal junction, TPJ）的右半边（RTPJ），用于判断他人意图和信念，推测别人的想法，参与了对自我和对他人的审视；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;后颞上沟（posterior superior temporal sulcus, pSTS），判断别人观看的方向，揣摩他们对于观看对象的感受；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;躯体感觉皮层（somatosensory cortex，SMC），参与触觉体验的编码，也参与感知别人被触摸；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;镜像神经元系统，在做出某个动作或是观看别人做出同样的动作时都会激活，包括：&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;额下回（inferior frontal gyrus，IFG），用于识别情绪；&lt;br /&gt;
+其他不同脑区和基本情绪的对应关系：&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;前脑岛（AI），处理厌恶情绪；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;腹侧纹状体（ventral striatum），处理快乐情绪；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;辅助运动区（supplementary motor cortex），处理愤怒情绪；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;包括下丘脑（hypothalamus）在内的多个区域处理悲伤情绪；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;顶下小叶（inferior parietal lobule, IPL）；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;顶下沟（inferior parietal sulcus, IPS）；&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;杏仁核（amygdala），参与情绪的学习和调控，特别是恐惧情绪；&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;接下来，缺乏共情会有什么后果呢？作者列举分析了零度共情中的三种负面类型，及其脑中异常的共情回路：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;边缘型人格障碍（borderline personality disorder），B 型&lt;br /&gt;
+此类患者无法忍受孤独，主动结交别人，然而又无法维持和享受亲密关系，既有强烈的依附需求，又有强烈的害怕被抛弃的恐惧，思维方式非黑即白，不是极端的爱就是极端的恨。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;病态人格障碍（psychopathic personality disorder），P 型&lt;br /&gt;
+不择手段地满足自己的欲望，遇到小小的阻碍就会暴力相向，有时为了支配他人或满足欲望有经过计算的残酷行为，或幸灾乐祸，没有是非观念，无法学会畏惧惩罚。&lt;br /&gt;
+其中有的人也属于反社会型人格障碍（antisocial personality disorder），即普遍地漠视和侵犯他人权利。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;自恋型人格障碍（narcissistic personality disorder），N 型&lt;br /&gt;
+深陷于自我中心中，完全不懂谦虚，自认为优越，只关心自己，即使关心别人也是因为对方有利用价值。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;相对的，零度共情也有正面的类型，如阿斯伯格综合征（Asperger Syndrome），自闭症的一种。&lt;br /&gt;
+他们的脑以一些特殊的方式处理信息：不断寻找模式，系统化处理，不计代价追求真理，不能容忍模糊、混乱、不确定、无目的的现象，不会关注不同的观点和波动的情绪，这种方式给了他们各种天赋，也让他们有共情障碍。同时，他们处理信息的方式非但没有使他们丧失道德，反而让他们拥有了超越常人的道德。而且，虽然其认知共情可能低于一般人，但他们的情感共情可以完好无损，同样会关心他人。&lt;/p&gt;
+
+&lt;p&gt;分析了不同类型的零度共情后，作者介绍了他参与的遗传学实验，这些实验发现了4个对共情有长远影响的基因。&lt;br /&gt;
+这些基因并不会直接决定共情，只能决定在脑中特定蛋白质的表达，但可以通过许多细小的步骤（如影响性类固醇激素、催产素的分泌和神经的生长）连接到共情。&lt;/p&gt;
+
+&lt;p&gt;接下来，作者回过头来探讨人类残酷行为的本质，提出主要观点：人类做出残酷行为是因为共情回路故障。&lt;br /&gt;
+有可能影响共情的因素：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;意图：主要是伤害别人的意图&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;威胁：威胁会提高应激水平，从而阻断共情&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;文化约束：文化可能腐蚀共情，也能发挥关键作用、提高一个社会的整体共情水平&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;意识形态：如信仰和政治目标&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;早期经验：如儿时的不安全型依恋可能腐蚀共情，使人难以信赖他人、或常常感到威胁&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;从众和服从：共情可能因为我们置身其中的组织文化，或者因为别人施加的压力而减少&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;群体认同：对本群体的成员展示更多同情，对其他群体的成员则较为冷漠&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;生物学因素：基因、激素水平、神经系统状态、身体状态（疲劳、饥饿或是醉酒）&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;许多人即使不是零度共情，也会因为这些因素的影响，一时关闭共情回路而实施残忍的行为。&lt;/p&gt;
+
+&lt;p&gt;那么问题来了，既然有这么多种因素会影响共情，进而导致对同类实施残忍的邪恶行为，“恶=共情腐蚀”的理论是不是解释力太强？&lt;br /&gt;
+也许在这么多种因素的影响下，有的人没有发生共情腐蚀也做出了一般意义上的邪恶行为，或者关闭共情回路之后仍然克制了作恶？&lt;br /&gt;
+我觉得，不妨部分地接受作者的理论假设，承认共情与社会道德之间存在一定程度的关联关系——毕竟已经有既符合人类直觉又经过实验验证的证据，然后继续关注神经科学在这方面会有什么新发现新进展。&lt;/p&gt;
+
+&lt;p&gt;共情是人类得以相互信任和协作的基础之一，是文明的基石，这毫无疑义，在后续的 blog 中，我会多次提及这一观点。&lt;br /&gt;
+只是，我们需要更多的科学证据证明它的缺失与邪恶之间的必然联系。&lt;/p&gt;
+
+&lt;p&gt;当然，作者不会这样写，不然这本书就没法出版了，于是他顺着这个观点，谈到了如何看待和惩罚恶人恶行。&lt;br /&gt;
+他认为，既然恶是共情腐蚀，那么如果认为恶人不能用人道感化，那就是没有把对方当作人类看待，而是看作一件物品，这就和恶人本质上没有区别了。&lt;br /&gt;
+因此，他提出，需要向作恶者表达共情，而不是重复没有共情的罪恶。&lt;/p&gt;
+
+&lt;p&gt;作者也认为，并不是人人都共情水平拉满就好，适中的共情水平最能适应环境，因此共情的分布才呈钟形正态分布。&lt;br /&gt;
+太关注他人，就时时会害怕自己会打搅或者排挤他人，永远无法施展抱负、参与社会竞争。&lt;br /&gt;
+而太关注自己，好处是能够旁若无人地施展自己的抱负，并得到巨大回报（尤其是在商业世界、在积累资源的活动中）。&lt;br /&gt;
+但这也有代价，相对较低共情的“冷血混蛋”固然能掌握更多财富和权力，却也在这个过程中树起了更多敌人。&lt;br /&gt;
+在大多数人的共情水平上找到平衡点，这或许是在演化中获得的适应手段，它能使个人获得共情的好处，同时又舍弃它的坏处。&lt;br /&gt;
+在零度共情正面中展现出来的系统化逻辑能力很强大，但对处于共情光谱中段的人而言，逻辑与共情不互相排斥，都很重要。&lt;br /&gt;
+只要我们开启了共情，那么即使在与亲朋好友相处时不可避免地存在关注自身的功利之心，一定程度地把别人当作物品和工具，我们也会在同时对他们的感受有所觉察或者保持敏感。&lt;br /&gt;
+我们虽然会物化他人、同时不再体会他的情绪，但那只是通向零度共情的起点，而非终点。这样的精神状态只是为各种越来越残暴的行径创造了条件，而并非暴行本身。&lt;br /&gt;
+相反，共情是预测和解决人际纠纷的有效手段，它的本质决定了它不会像宗教一样压迫任何人，是我们这个世界最珍贵的资源之一。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>治理与信息公开</title>
@@ -524,31 +640,6 @@
 &lt;p&gt;而现实是集体主义者看重动员远胜共情，没有边际成本的控制机制，狂热地燃烧和消耗组织细胞，不惜今天割肉挖疮，明天壮士断腕。&lt;/p&gt;
 
 &lt;p&gt;所以以生物类比的话，个人主义者恐怕也不会被人类巨灵这样的概念随便忽悠——个人主义者不拒斥庞大的社会组织，相反，认为形成超大型社会组织的基础是个人主义。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>曼联租借安菲尔德的历史往事</title>
-        <link>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</link>
-        <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</guid>
-        <description>&lt;p&gt;众所周知，曼联和利物浦是英格兰足坛最著名的一对死敌，然而历史上，曼联曾经租借过利物浦的主场安菲尔德球场打过比赛。&lt;/p&gt;
-
-&lt;p&gt;在每日邮报的这则回顾曼联和利物浦如何成为死敌的报道中提到：&lt;br /&gt;
-因为足球流氓朝场内掷飞刀，曼联被足总处罚两场联赛不能使用自己的主场比赛，不得已向其他球队求助，利物浦和斯托克城伸出了援手。&lt;/p&gt;
-
-&lt;p&gt;于是，1971年8月20日，曼联在安菲尔德迎战联赛对手阿森纳，这是当时的比赛概况：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.dailymail.co.uk/i/pix/2012/01/26/article-2092364-1179D950000005DC-997_306x415.jpg&#34; alt=&#34;双方都有不少球迷耳熟能详的名字&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最终曼联3:1获胜，保持联赛第一。&lt;/p&gt;
-
-&lt;p&gt;后来曼联与利物浦成为死敌，阿森纳和曼联在英超时代一度交相辉映、势同水火，阿森纳和利物浦在英甲上演过最后时刻夺冠的经典，当年以这种形式联系起来，真是奇妙啊。&lt;/p&gt;
 </description>
       </item>
     
