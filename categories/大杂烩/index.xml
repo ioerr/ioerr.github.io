@@ -6,10 +6,59 @@
     <description>Recent content in 大杂烩 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>回不来的信任</title>
+        <link>https://ioerr.github.io/posts/huibulai-de-xinren/</link>
+        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/huibulai-de-xinren/</guid>
+        <description>&lt;p&gt;以前是无图无真相，或者有电话录音就能坐实。&lt;br /&gt;
+后来伪造图片和音频太多太厉害，变成有视频才有真相。&lt;br /&gt;
+再后来视频也能修，变成有直播才有真相。&lt;br /&gt;
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。&lt;/p&gt;
+
+&lt;p&gt;最终，还是靠信息发布人的信用。&lt;br /&gt;
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。&lt;/p&gt;
+
+&lt;p&gt;同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。&lt;br /&gt;
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。&lt;br /&gt;
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。&lt;br /&gt;
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>恐慌与安宁</title>
+        <link>https://ioerr.github.io/posts/konghuang-yu-anning/</link>
+        <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/konghuang-yu-anning/</guid>
+        <description>&lt;p&gt;一般的灾难片和恐怖片针对的是人类求生怕死的本能。&lt;br /&gt;
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。&lt;br /&gt;
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。&lt;br /&gt;
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。&lt;/p&gt;
+
+&lt;p&gt;就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。&lt;/p&gt;
+
+&lt;p&gt;像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。&lt;br /&gt;
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。&lt;/p&gt;
+
+&lt;p&gt;然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>爱的力量</title>
@@ -333,48 +382,6 @@
 &lt;p&gt;在太多的事情上面，太多人过早和过高的估计了难度，轻易选择了接受。&lt;/p&gt;
 
 &lt;p&gt;只有少数人尽全力尝试过了，才知道自己的极限在哪里。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>如何确定一个人的身份？</title>
-        <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
-        <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
-        <description>&lt;p&gt;目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。&lt;/p&gt;
-
-&lt;p&gt;线下的服务，则通常使用身份证，结合照片、指纹等验明正身，更先进的还有外貌、声音、虹膜、身材、行为举止等，但还无法独立、精确地验证。&lt;/p&gt;
-
-&lt;p&gt;如果以后人可以克隆，外貌、身材、指纹、虹膜、声纹这些身体特征可能完全一致。&lt;/p&gt;
-
-&lt;p&gt;如果记忆可以移植，甚至脑内事先设定的密码可以读取出来，还有什么可以用来确定一个人的身份呢？&lt;/p&gt;
-
-&lt;p&gt;或者可以这样问，如果从这一时刻出现完全一模一样的两个人，决定他们身份差异的最关键因素是什么呢？&lt;/p&gt;
-
-&lt;p&gt;也许只有他们面对同一事务作出的不同选择才是终极差异？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>超穷</title>
-        <link>https://ioerr.github.io/posts/chaoqiong/</link>
-        <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/chaoqiong/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;康托尔意识到了集合的重要性，并以此为基础发展出了朴素集合论，也意识到“无穷”也有无穷个不同的级别，并称之为“超穷”，意即超验（超越日常经验）的无穷。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;——是谁先翻译成“超穷”的？这绝对没有超越日常经验啊！&lt;/p&gt;
 </description>
       </item>
     

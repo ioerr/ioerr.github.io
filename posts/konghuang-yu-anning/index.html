@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恐慌与安宁 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="恐慌与安宁" />
+<meta property="og:description" content="一般的灾难片和恐怖片针对的是人类求生怕死的本能。
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。
+就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。
+像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。
+然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/konghuang-yu-anning/" />
+
+
+
+<meta property="article:published_time" content="2020-03-17T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-03-17T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="恐慌与安宁">
+<meta itemprop="description" content="一般的灾难片和恐怖片针对的是人类求生怕死的本能。
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。
+就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。
+像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。
+然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。">
+
+
+<meta itemprop="datePublished" content="2020-03-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="10">
+
+
+
+<meta itemprop="keywords" content="哲学,安宁,恐慌,怀疑论,皮浪,现实," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="恐慌与安宁"/>
+<meta name="twitter:description" content="一般的灾难片和恐怖片针对的是人类求生怕死的本能。
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。
+就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。
+像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。
+然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkonghuang-yu-anning%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-03-17 12:00">2020-03-17</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>恐慌与安宁</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%93%B2%E5%AD%A6">
+              <span class="hash">#</span>哲学</a>
+          
+            , 
+            <a href="/tags/%E5%AE%89%E5%AE%81">
+              <span class="hash">#</span>安宁</a>
+          
+            , 
+            <a href="/tags/%E6%81%90%E6%85%8C">
+              <span class="hash">#</span>恐慌</a>
+          
+            , 
+            <a href="/tags/%E6%80%80%E7%96%91%E8%AE%BA">
+              <span class="hash">#</span>怀疑论</a>
+          
+            , 
+            <a href="/tags/%E7%9A%AE%E6%B5%AA">
+              <span class="hash">#</span>皮浪</a>
+          
+            , 
+            <a href="/tags/%E7%8E%B0%E5%AE%9E">
+              <span class="hash">#</span>现实</a>
+          
+        
+      </p>
+    </header>
+    <section><p>一般的灾难片和恐怖片针对的是人类求生怕死的本能。<br />
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。<br />
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。<br />
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。</p>
+
+<p>就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。</p>
+
+<p>像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。<br />
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。</p>
+
+<p>然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%81%90%e6%85%8c%e4%b8%8e%e5%ae%89%e5%ae%81》&body=https%3a%2f%2fioerr.github.io%2fposts%2fkonghuang-yu-anning%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkonghuang-yu-anning%2f&text= @calon %e6%81%90%e6%85%8c%e4%b8%8e%e5%ae%89%e5%ae%81&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2020 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

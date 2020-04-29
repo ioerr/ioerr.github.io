@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>回不来的信任 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="回不来的信任" />
+<meta property="og:description" content="以前是无图无真相，或者有电话录音就能坐实。
+后来伪造图片和音频太多太厉害，变成有视频才有真相。
+再后来视频也能修，变成有直播才有真相。
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。
+最终，还是靠信息发布人的信用。
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。
+同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/huibulai-de-xinren/" />
+
+
+
+<meta property="article:published_time" content="2020-03-20T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-03-20T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="回不来的信任">
+<meta itemprop="description" content="以前是无图无真相，或者有电话录音就能坐实。
+后来伪造图片和音频太多太厉害，变成有视频才有真相。
+再后来视频也能修，变成有直播才有真相。
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。
+最终，还是靠信息发布人的信用。
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。
+同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。">
+
+
+<meta itemprop="datePublished" content="2020-03-20T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-20T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="10">
+
+
+
+<meta itemprop="keywords" content="信任,互联网,信用,恶意," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="回不来的信任"/>
+<meta name="twitter:description" content="以前是无图无真相，或者有电话录音就能坐实。
+后来伪造图片和音频太多太厉害，变成有视频才有真相。
+再后来视频也能修，变成有直播才有真相。
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。
+最终，还是靠信息发布人的信用。
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。
+同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhuibulai-de-xinren%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-03-20 12:00">2020-03-20</time> &bull;
+          
+            
+            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+          </p>
+      <h1>回不来的信任</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BF%A1%E4%BB%BB">
+              <span class="hash">#</span>信任</a>
+          
+            , 
+            <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91">
+              <span class="hash">#</span>互联网</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E7%94%A8">
+              <span class="hash">#</span>信用</a>
+          
+            , 
+            <a href="/tags/%E6%81%B6%E6%84%8F">
+              <span class="hash">#</span>恶意</a>
+          
+        
+      </p>
+    </header>
+    <section><p>以前是无图无真相，或者有电话录音就能坐实。<br />
+后来伪造图片和音频太多太厉害，变成有视频才有真相。<br />
+再后来视频也能修，变成有直播才有真相。<br />
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。</p>
+
+<p>最终，还是靠信息发布人的信用。<br />
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。</p>
+
+<p>同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。<br />
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。<br />
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。<br />
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%9b%9e%e4%b8%8d%e6%9d%a5%e7%9a%84%e4%bf%a1%e4%bb%bb》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhuibulai-de-xinren%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhuibulai-de-xinren%2f&text= @calon %e5%9b%9e%e4%b8%8d%e6%9d%a5%e7%9a%84%e4%bf%a1%e4%bb%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2020 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

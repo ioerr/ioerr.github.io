@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>权力与责任 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="权力与责任" />
+<meta property="og:description" content="新冠肺炎全球爆发之时，一些人认为中国政府的作为远远超出国外，而且即使如此也不可能应对所有的风险，所以不应该批评；另一些人则认为欧美政府的一些不作为是因为公权力有限，要充分尊重个人自由，所以不应该批评。
+在我看来，两种观点都有值得商榷辨析之处。
+首先，不管多么完美的事前方案，都不可能应对所有未知风险。
+批评政府的点不在于其失败，而在于其没有履行与其权力相匹配的责任。
+一方面，政府行事应有明确公开的标准和权限范围，即出现什么状况时在多大范围内授予其什么权力。
+没有滥权的政府承担有限责任，超出范围的危机只能事后补救和修正方案。
+而滥用公权的极权政府则需要承担无限责任，相应地，自然更容易招来批评。
+既然追求和歌颂无限权力，就应该有承受超乎寻常的批评的觉悟。
+另一方面，如果人民授权在紧急状态下组织对抗自然灾害的合法公权力，就该有点担当，承担起应有的责任。
+将自由理解为放任不管，然后无所作为，是被意识形态概念带坑里去了。
+自由是人民事后重新评估、撤销授权、阻止利用灾难无限扩张公权力的自由，而不是祸害他人或渎职的自由。
+各个国家应对新冠肺炎的情况，成为了不同意识形态的信徒攻击对方意识形态的武器弹药。
+仿佛回到了冷战年代的太空竞赛，谁先实现载人航天飞行，谁先完成人类登月，谁的意识形态就天下第一。
+一些自由民主制度的信奉者，也深信这个逻辑，为无能、愚蠢、自大、官僚的政客找种种理由辩护，甚至不惜造谣编故事贴金捧臭脚。
+疫情防控手段是否正确，只要数据没作假隐瞒，数周时间便可以看到效果，倘若大规模传染，想作假也纸包不住火。
+做得对就是对，不妨实事求是地虚心学习，相互借鉴帮助；错就是错，理应吸取教训并及时改正，这才是正确的态度。
+将对错与意识形态绑定，自己信仰的意识形态不能错半分，和“宁要社会主义的草，不要资本主义的苗”有什么区别呢？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/quanli-yu-zeren/" />
+
+
+
+<meta property="article:published_time" content="2020-04-02T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-04-02T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="权力与责任">
+<meta itemprop="description" content="新冠肺炎全球爆发之时，一些人认为中国政府的作为远远超出国外，而且即使如此也不可能应对所有的风险，所以不应该批评；另一些人则认为欧美政府的一些不作为是因为公权力有限，要充分尊重个人自由，所以不应该批评。
+在我看来，两种观点都有值得商榷辨析之处。
+首先，不管多么完美的事前方案，都不可能应对所有未知风险。
+批评政府的点不在于其失败，而在于其没有履行与其权力相匹配的责任。
+一方面，政府行事应有明确公开的标准和权限范围，即出现什么状况时在多大范围内授予其什么权力。
+没有滥权的政府承担有限责任，超出范围的危机只能事后补救和修正方案。
+而滥用公权的极权政府则需要承担无限责任，相应地，自然更容易招来批评。
+既然追求和歌颂无限权力，就应该有承受超乎寻常的批评的觉悟。
+另一方面，如果人民授权在紧急状态下组织对抗自然灾害的合法公权力，就该有点担当，承担起应有的责任。
+将自由理解为放任不管，然后无所作为，是被意识形态概念带坑里去了。
+自由是人民事后重新评估、撤销授权、阻止利用灾难无限扩张公权力的自由，而不是祸害他人或渎职的自由。
+各个国家应对新冠肺炎的情况，成为了不同意识形态的信徒攻击对方意识形态的武器弹药。
+仿佛回到了冷战年代的太空竞赛，谁先实现载人航天飞行，谁先完成人类登月，谁的意识形态就天下第一。
+一些自由民主制度的信奉者，也深信这个逻辑，为无能、愚蠢、自大、官僚的政客找种种理由辩护，甚至不惜造谣编故事贴金捧臭脚。
+疫情防控手段是否正确，只要数据没作假隐瞒，数周时间便可以看到效果，倘若大规模传染，想作假也纸包不住火。
+做得对就是对，不妨实事求是地虚心学习，相互借鉴帮助；错就是错，理应吸取教训并及时改正，这才是正确的态度。
+将对错与意识形态绑定，自己信仰的意识形态不能错半分，和“宁要社会主义的草，不要资本主义的苗”有什么区别呢？">
+
+
+<meta itemprop="datePublished" content="2020-04-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="17">
+
+
+
+<meta itemprop="keywords" content="权力,责任,自由,授权,极权,政府,新冠肺炎,意识形态,批评," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="权力与责任"/>
+<meta name="twitter:description" content="新冠肺炎全球爆发之时，一些人认为中国政府的作为远远超出国外，而且即使如此也不可能应对所有的风险，所以不应该批评；另一些人则认为欧美政府的一些不作为是因为公权力有限，要充分尊重个人自由，所以不应该批评。
+在我看来，两种观点都有值得商榷辨析之处。
+首先，不管多么完美的事前方案，都不可能应对所有未知风险。
+批评政府的点不在于其失败，而在于其没有履行与其权力相匹配的责任。
+一方面，政府行事应有明确公开的标准和权限范围，即出现什么状况时在多大范围内授予其什么权力。
+没有滥权的政府承担有限责任，超出范围的危机只能事后补救和修正方案。
+而滥用公权的极权政府则需要承担无限责任，相应地，自然更容易招来批评。
+既然追求和歌颂无限权力，就应该有承受超乎寻常的批评的觉悟。
+另一方面，如果人民授权在紧急状态下组织对抗自然灾害的合法公权力，就该有点担当，承担起应有的责任。
+将自由理解为放任不管，然后无所作为，是被意识形态概念带坑里去了。
+自由是人民事后重新评估、撤销授权、阻止利用灾难无限扩张公权力的自由，而不是祸害他人或渎职的自由。
+各个国家应对新冠肺炎的情况，成为了不同意识形态的信徒攻击对方意识形态的武器弹药。
+仿佛回到了冷战年代的太空竞赛，谁先实现载人航天飞行，谁先完成人类登月，谁的意识形态就天下第一。
+一些自由民主制度的信奉者，也深信这个逻辑，为无能、愚蠢、自大、官僚的政客找种种理由辩护，甚至不惜造谣编故事贴金捧臭脚。
+疫情防控手段是否正确，只要数据没作假隐瞒，数周时间便可以看到效果，倘若大规模传染，想作假也纸包不住火。
+做得对就是对，不妨实事求是地虚心学习，相互借鉴帮助；错就是错，理应吸取教训并及时改正，这才是正确的态度。
+将对错与意识形态绑定，自己信仰的意识形态不能错半分，和“宁要社会主义的草，不要资本主义的苗”有什么区别呢？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        读写错误
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fquanli-yu-zeren%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-04-02 12:00">2020-04-02</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>权力与责任</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%9D%83%E5%8A%9B">
+              <span class="hash">#</span>权力</a>
+          
+            , 
+            <a href="/tags/%E8%B4%A3%E4%BB%BB">
+              <span class="hash">#</span>责任</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E7%94%B1">
+              <span class="hash">#</span>自由</a>
+          
+            , 
+            <a href="/tags/%E6%8E%88%E6%9D%83">
+              <span class="hash">#</span>授权</a>
+          
+            , 
+            <a href="/tags/%E6%9E%81%E6%9D%83">
+              <span class="hash">#</span>极权</a>
+          
+            , 
+            <a href="/tags/%E6%94%BF%E5%BA%9C">
+              <span class="hash">#</span>政府</a>
+          
+            , 
+            <a href="/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E">
+              <span class="hash">#</span>新冠肺炎</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E8%AF%86%E5%BD%A2%E6%80%81">
+              <span class="hash">#</span>意识形态</a>
+          
+            , 
+            <a href="/tags/%E6%89%B9%E8%AF%84">
+              <span class="hash">#</span>批评</a>
+          
+        
+      </p>
+    </header>
+    <section><p>新冠肺炎全球爆发之时，一些人认为中国政府的作为远远超出国外，而且即使如此也不可能应对所有的风险，所以不应该批评；另一些人则认为欧美政府的一些不作为是因为公权力有限，要充分尊重个人自由，所以不应该批评。</p>
+
+<p>在我看来，两种观点都有值得商榷辨析之处。</p>
+
+<p>首先，不管多么完美的事前方案，都不可能应对所有未知风险。<br />
+批评政府的点不在于其失败，而在于其没有履行与其权力相匹配的责任。</p>
+
+<p>一方面，政府行事应有明确公开的标准和权限范围，即出现什么状况时在多大范围内授予其什么权力。<br />
+没有滥权的政府承担有限责任，超出范围的危机只能事后补救和修正方案。<br />
+而滥用公权的极权政府则需要承担无限责任，相应地，自然更容易招来批评。<br />
+既然追求和歌颂无限权力，就应该有承受超乎寻常的批评的觉悟。</p>
+
+<p>另一方面，如果人民授权在紧急状态下组织对抗自然灾害的合法公权力，就该有点担当，承担起应有的责任。<br />
+将自由理解为放任不管，然后无所作为，是被意识形态概念带坑里去了。<br />
+自由是人民事后重新评估、撤销授权、阻止利用灾难无限扩张公权力的自由，而不是祸害他人或渎职的自由。</p>
+
+<p>各个国家应对新冠肺炎的情况，成为了不同意识形态的信徒攻击对方意识形态的武器弹药。<br />
+仿佛回到了冷战年代的太空竞赛，谁先实现载人航天飞行，谁先完成人类登月，谁的意识形态就天下第一。<br />
+一些自由民主制度的信奉者，也深信这个逻辑，为无能、愚蠢、自大、官僚的政客找种种理由辩护，甚至不惜造谣编故事贴金捧臭脚。</p>
+
+<p>疫情防控手段是否正确，只要数据没作假隐瞒，数周时间便可以看到效果，倘若大规模传染，想作假也纸包不住火。<br />
+做得对就是对，不妨实事求是地虚心学习，相互借鉴帮助；错就是错，理应吸取教训并及时改正，这才是正确的态度。<br />
+将对错与意识形态绑定，自己信仰的意识形态不能错半分，和“宁要社会主义的草，不要资本主义的苗”有什么区别呢？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%9d%83%e5%8a%9b%e4%b8%8e%e8%b4%a3%e4%bb%bb》&body=https%3a%2f%2fioerr.github.io%2fposts%2fquanli-yu-zeren%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fquanli-yu-zeren%2f&text= @calon %e6%9d%83%e5%8a%9b%e4%b8%8e%e8%b4%a3%e4%bb%bb&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2020 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
