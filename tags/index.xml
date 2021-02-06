@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
       <item>
         <title></title>
         <link>https://ioerr.github.io/tags/</link>
-        <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
             <uri>https://twitter.com/calon</uri>
@@ -34,6 +34,19 @@
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/tags/19/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>19世纪</title>
+        <link>https://ioerr.github.io/tags/19%E4%B8%96%E7%BA%AA/</link>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/tags/19%E4%B8%96%E7%BA%AA/</guid>
         <description></description>
       </item>
     
@@ -60,6 +73,19 @@
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/tags/20%E5%B9%B4/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>21世纪</title>
+        <link>https://ioerr.github.io/tags/21%E4%B8%96%E7%BA%AA/</link>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/tags/21%E4%B8%96%E7%BA%AA/</guid>
         <description></description>
       </item>
     
@@ -138,32 +164,6 @@
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/tags/appstore/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>Arsenal</title>
-        <link>https://ioerr.github.io/tags/arsenal/</link>
-        <pubDate>Mon, 17 Dec 2007 04:11:24 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/tags/arsenal/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>Barack Obama</title>
-        <link>https://ioerr.github.io/tags/barack-obama/</link>
-        <pubDate>Wed, 12 Mar 2008 02:52:42 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/tags/barack-obama/</guid>
         <description></description>
       </item>
     

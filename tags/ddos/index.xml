@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ddos on 读写错误</title>
+    <link>https://ioerr.github.io/tags/ddos/</link>
+    <description>Recent content in Ddos on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>现实世界的 DDoS</title>
+        <link>https://ioerr.github.io/posts/xianshi-shijie-de-ddos/</link>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/xianshi-shijie-de-ddos/</guid>
+        <description>&lt;p&gt;如果短时间内有许多人想要和你握手，等到你伸出手时他们又都缩回去，那么你就遭遇了现实世界中的分布式拒绝服务攻击（DDoS，Distributed Denial of Service）。&lt;/p&gt;
+
+&lt;p&gt;而且伤害性虽然不大，侮辱性极强。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

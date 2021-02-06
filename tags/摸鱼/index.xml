@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>摸鱼 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%91%B8%E9%B1%BC/</link>
+    <description>Recent content in 摸鱼 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E6%91%B8%E9%B1%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>拖延症</title>
+        <link>https://ioerr.github.io/posts/tuoyanzheng/</link>
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/tuoyanzheng/</guid>
+        <description>&lt;p&gt;为什么现代人的拖延症越来越厉害？&lt;br /&gt;
+以前是人推车走，现在是车拖着人走，车速还越来越快，可不就成了拖延症了吗？&lt;/p&gt;
+
+&lt;p&gt;为什么说行百里者半九十？&lt;br /&gt;
+因为越是要收尾的时候越想摸鱼。&lt;br /&gt;
+等进度条走到了90%，人类摸鱼的动力会急速上升。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

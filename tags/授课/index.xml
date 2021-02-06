@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>授课 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%8E%88%E8%AF%BE/</link>
+    <description>Recent content in 授课 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E6%8E%88%E8%AF%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>授课大忌</title>
+        <link>https://ioerr.github.io/posts/shouke-daji/</link>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/shouke-daji/</guid>
+        <description>&lt;p&gt;为什么有的课程让人昏昏欲睡或望而生畏？我觉得主要有以下原因：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;没说清楚要传授的知识是为了解决什么现实问题&lt;br /&gt;
+人脑毕竟更容易接受现实中就可以理解的知识和概念，如果远离现实太远，要消耗的认知能量就多得多，认知路径也更加曲折，影响知识吸收的效率也就顺理成章。&lt;br /&gt;
+同样的道理，科幻小说的写作也受这个规律限制。写作者大可以天马行空，想象常人前所未见的世界，但如果脱离现实中的事物太遥远，甚至完全不在人类的先天认知范围之内，想象得再精彩也只有极少数人才能理解。&lt;br /&gt;
+另一方面，如果没有危机强迫必须直面问题，大多数人遇到认知困难自然就想绕道而行。&lt;br /&gt;
+所以，问题导向才能驱动人关注课程的内容，哪怕更难、更复杂。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没说清楚理论中的概念名词代表着什么实际意义&lt;br /&gt;
+从概念到实际，大脑需要做一次关系映射，这也是要消耗认知能量的。&lt;br /&gt;
+经过长期训练适应后，大脑已经能够下意识地完成这种映射转换，认知的负担才会解放。&lt;br /&gt;
+同样是一段充斥着大量专业术语、缩写的信息，在专业人士看来可能很平常，而不熟悉这些概念的门外汉看来就如同写满密码的天书，即使提前知道它们各自的具体含义，连起来也晦涩难懂。&lt;br /&gt;
+除非他们同样经过专业训练，或者转换为他们可以迅速理解意义的形式。如果没有通过这些手段事先消除认知障碍，课程学习者自然也就容易望而却步了。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
