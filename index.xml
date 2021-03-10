@@ -6,10 +6,108 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>只争朝夕</title>
+        <link>https://ioerr.github.io/posts/zhizhengzhaoxi/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/zhizhengzhaoxi/</guid>
+        <description>&lt;p&gt;人了解的历史时间跨度越来越长，但并不能感知时间流逝的真实时长。&lt;br /&gt;
+会不会因此产生一种错觉？&lt;br /&gt;
+就是弹指一挥间发生了这么多的事件，仿佛个个都是立竿见影。&lt;br /&gt;
+于是不由自主就对未来产生了不切实际的期望，事事只争朝夕，一切剧烈的变革恨不得一代之内全部完成。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>解数学题的问题</title>
+        <link>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</link>
+        <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</guid>
+        <description>&lt;p&gt;抽空总结了一下，近期辅导明洲做数学题时，最常指出的习惯问题，包括：&lt;br /&gt;
+1、读题不仔细，没搞清楚条件的含义和要问的问题；&lt;br /&gt;
+2、概念不清楚，或者只知道定义不知道如何结合题目中的条件灵活运用；&lt;br /&gt;
+3、不理解数学概念对应在生活中的实际意义，只是套公式；&lt;br /&gt;
+4、跳过论证步骤直接得出结论；&lt;br /&gt;
+5、不在草稿纸上动笔验算。&lt;/p&gt;
+
+&lt;p&gt;于是，遇到稍微困难一点的题目，要么直接放弃，上来就说不会做，要么拿题目中的数字瞎凑个算式随便给个结果。&lt;/p&gt;
+
+&lt;p&gt;排除小学阶段小朋友的认知能力发展有限的因素外，感觉都是现实生活中很典型的问题，特别是把人类社会当工程学搞理论实践的人，犯的错基本都在这几类当中。&lt;/p&gt;
+
+&lt;p&gt;比如本末倒置，忘却初心，为了人类的福祉做出了灭绝人性的事情；&lt;br /&gt;
+比如把概念当信仰，成为原教旨主义者；或把理论当教条，只知道死板地执行；&lt;br /&gt;
+比如把通向未来理想蓝图的路径规划当不容置疑的历史真理，或者用目的高尚论证手段的正确；&lt;br /&gt;
+比如拒不评估和反思实施的结果是否正确，或者是干脆就不具备可验证的可能，等等。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>语言是为了交流</title>
+        <link>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</link>
+        <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/haoel&#34;&gt;Hao Chen&lt;/a&gt;：&lt;br /&gt;
+中文夹带英文单词有问题吗？我们程序员天天不都这样说话吗？——“那个Java的bug你看了吗？什么时候可以fix啊？commit前记得先开个issue，这样也好track，然后提个PR做个Code Review，对了，merge前加个对应的test case，然后跑个regression，以免break其它的feature……”，这样的表达方式不是很顺畅吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/FreiheitYu&#34;&gt;YU&lt;/a&gt;：&lt;br /&gt;
+这个问题是没有意义的，所以不会有答案&lt;br /&gt;
+有意义的问题是：什么场景下中英混杂是可以接受的，什么场景下是不可以接受的&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/&#34;&gt;calon&lt;/a&gt;：&lt;br /&gt;
+语言是为了交流，双方都可以接受、不必翻译过来就能迅速理解的混杂表达没问题，不顾及对方的转换成本导致影响沟通效率的就有问题。&lt;/p&gt;
+
+&lt;p&gt;这让我想起了一场 Marianna Pascal 的 TEDxPenangRoad 演讲：&lt;br /&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/mwpdffpixBY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;语言只是用来得到沟通交流结果的工具，只要能够完成这个任务就好，不必当作一件艺术品来追求纯洁和完美。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>批评的目的</title>
+        <link>https://ioerr.github.io/posts/piping-de-mudi/</link>
+        <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/piping-de-mudi/</guid>
+        <description>&lt;p&gt;有的人批评别人喂屎，是因为不希望人人都被喂屎；&lt;br /&gt;
+有的人批评别人喂屎，是要证明人人被喂屎很正当。&lt;/p&gt;
+
+&lt;p&gt;为什么这么说呢？&lt;br /&gt;
+举个例子，近年来网上为 GFW、打压劳工权利或者出版和言论审查辩护的声音越来越多，并且一改过去直接辩护的形式，改为收集和转载其他国家看上去类似事迹的新闻，再补上一句，你看，那些标榜言论自由和人权的国家自己也不干净呢。&lt;br /&gt;
+他们是真的觉得这样的行为在侵犯个人自由，违背道德、法律以及正义平等的原则，所以要批评和反对吗？当然不是。因为在这种批评之中，你看不到丝毫的反思之意。&lt;/p&gt;
+
+&lt;p&gt;如果一般人有是非对错的价值标准，那么会批评所有违背这一价值标准的行为，既批评他人，也不会回避深刻反思自身。但这些“批评者”完全无意躬身自省、自我批评，甚至还会因领先一步、经验丰富而洋洋自得。&lt;/p&gt;
+
+&lt;p&gt;说到底，其真正的目的，是要通过展示原来“天下乌鸦一般黑”，来证明那些所谓的普世价值全都是虚伪的双重标准，是强者压制弱者的道德大棒，是弱者自我束缚的道德牢笼，最终通过批评来消解批评本身所依据的价值标准，证明其所赞同的行为完全正当合理。&lt;/p&gt;
+
+&lt;p&gt;我知道有的人总可以辩解说，这些看上去是作恶的行为，出发点是好的，或者结果对国家民族有利，即使有人受到了伤害或影响，觉得像吃屎或被强制喂屎，那也应该理解一下，忍一忍，做出必要的牺牲，或者干脆主动吃屎。&lt;br /&gt;
+但是，历史上已经出现过太多次将最荒谬的事情解释为合理的情况了，只要你愿意就总能找到各种理由给人喂屎，只要个人失去了从自身感受的角度出发说不的权利，吃屎就总能堂而皇之的出现在别人强加的选项之中。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>互联网的尽头</title>
@@ -780,188 +878,6 @@ This is the very last page on the very last server at the very far end of the in
 我们如果依赖人工替代品来维持自身和生物圈的活力，所有的事物终将变得脆弱；&lt;br /&gt;
 我们如果抛弃其他生命，必定使我们人类变得永远贫乏；&lt;br /&gt;
 我们如果放弃遗传天性，接受机器辅助下的理性，并且以进步为名，让伦理、艺术和生命意义屈服于散漫不经的习惯之下，幻想自己如神一般尊贵，而不受古老传承的束缚，那么我们将变得什么也不是。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>创意速写</title>
-        <link>https://ioerr.github.io/posts/dare-to-sketch/</link>
-        <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/dare-to-sketch/</guid>
-        <description>&lt;p&gt;在书店偶然翻到一本迈克·大工原的《&lt;a href=&#34;https://book.douban.com/subject/34824058/&#34;&gt;速写随手画&lt;/a&gt;》，原书的名字叫《&lt;a href=&#34;https://www.goodreads.com/book/show/34523846-sketch-now-think-later&#34;&gt;Sketch Now, Think Later&lt;/a&gt;》。&lt;br /&gt;
-作者介绍了一些很实用的速写经验，比如装备的挑选，基本的技法，要躲开的坑和应该养成的习惯。&lt;br /&gt;
-书中所说的随手画，精髓在于：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;记录有趣的事物&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;随身携带速写本，每天花5分钟速写胜过一周画一小时&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;不要犹豫太久，动手画就是了&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;不用担心出错，尽管画，可以使用修复线条来不断调整轮廓&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这本书成功地唤起了我重拾画画的热情，顺藤摸瓜之下，又找到了 Felix Scheinberger 的“跟菲利大叔学手绘”系列：&lt;br /&gt;
-《&lt;a href=&#34;https://book.douban.com/subject/26917427/&#34;&gt;漫步水彩&lt;/a&gt;》、《&lt;a href=&#34;https://book.douban.com/subject/34778076/&#34;&gt;绘画第一课&lt;/a&gt;》和《&lt;a href=&#34;https://book.douban.com/subject/26917428/&#34;&gt;创意速写&lt;/a&gt;》。&lt;/p&gt;
-
-&lt;p&gt;其中《漫步水彩》和《绘画第一课》更多偏向于传授技术方法，比如水彩特性、色彩和透视原理、缩略草图、用色块表现外形而不是用线条描绘轮廓、鼹鼠视角（类似于近视眼的模糊视图）等等。&lt;/p&gt;
-
-&lt;p&gt;《创意速写》的内容最浅，其原书名字叫《&lt;a href=&#34;https://www.goodreads.com/book/show/33673329-dare-to-sketch&#34;&gt;Dare to Sketch&lt;/a&gt;》，意思是要读者大胆下笔，无所顾虑。&lt;br /&gt;
-作者 Scheinberger 想要告诉普罗大众，速写这种艺术创作形式有趣又有力，它强调私人体验和视角，应该取悦自己，更加包容“错误”，鼓励个人独特的风格。&lt;br /&gt;
-虽然专业技巧方面可能不入专业人士法眼，但能鼓舞业余爱好者和初学者充满激情地投入其中并享受速写的乐趣。&lt;br /&gt;
-其核心立意与《速写随手画》相近，人文内涵又更上一层。&lt;/p&gt;
-
-&lt;p&gt;一些值得铭记的佳句：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;绘画作为一个艺术创作过程，不仅能够综合人们的知识和想象力，也是少数几个可以让作者亲历创作对象的艺术领域之一。通过对外界事物的观察描绘，你会对现实世界有一个全新的体会。你不再只是单纯欣赏他人眼中的画面，而是用自己的双眼去观察真实的世界。速写本带来的这些观察和体会，也能帮助你获得更深刻的认知和视角，丰富你的生活。&lt;/p&gt;
-
-&lt;p&gt;速写本是一个非常私人的东西。就我个人而言，其中的绘画作品都是为我自己创作的，而不是为了其他任何人。在速写本里，我记录描绘我生活的世界。我用绘画表达对周围世界的好奇和兴趣，清醒地认识和体会生活周遭，尽管这个过程相对漫长，其中的意义却超过一张简简单单的照片。&lt;/p&gt;
-
-&lt;p&gt;我的祖母在评论我早期的绘画作品时很爱这样说：“只有先学会准确地临摹所有物体，才可以去画自己想画的东西。毕加索也是在学会正确的绘画方式之后，才开始画抽象画的。”&lt;br /&gt;
-在她看来，单纯因为创作的乐趣而存在的艺术是不被接受的。传统思维模式下，人只有经历了辛苦的付出，才有资格享受乐趣。&lt;br /&gt;
-遗憾的是，绘画和速写这两种艺术创作形式原本就不适合用来取悦大众。如果你想要“原封不动”地重现事物，那么摄影技术应该更能满足你的要求。&lt;/p&gt;
-
-&lt;p&gt;速写艺术的表现力在于作者独特的视角。那些单纯想要模仿照片捕捉瞬间的作品都无一例外的做作而无趣。只有在创作中有意地增减细节，覆盖或者夸张地表现特征，画面才会有艺术表现力；即使是在绘画时犯错，都能让绘画作品更有生命力。&lt;/p&gt;
-
-&lt;p&gt;速写的即时表现力以及它包含的情绪和创造力恰恰是绘画的乐趣所在，也会成为你不断尝试的动力。&lt;br /&gt;
-这样一来，你在享受乐趣的同时，画得也会越来越“好”。&lt;br /&gt;
-当你觉得一件事情很有趣的时候，你就会经常去做；当经验慢慢积累，你自然就知道如何做得更好。&lt;/p&gt;
-
-&lt;p&gt;绘画不是只能描绘现实而已，也可以重现只存在你脑中的画面。&lt;br /&gt;
-想用照片留住一个想法很难，但把它画出来却很容易。&lt;/p&gt;
-
-&lt;p&gt;绘画的时候不要想太多，顺着自己的线条去画。不同画家的作品都有代表各自风格的“天然线条”，这是他们天生的笔法特征。所以接受自己的绘画线条和风格对你来说也是非常重要的。不要去纠结别人的线条和笔法，也不要试图模仿“更好”或“更现代”的绘画风格。绘画的技巧和窍门任何人都可以学会；而自己的线条和画风，才是你独一无二的标签。&lt;br /&gt;
-绘画最独特的一点就在于它真实而私密，纯粹又无关他人。&lt;/p&gt;
-
-&lt;p&gt;撤销的问题在于它太容易了。&lt;br /&gt;
-如果你一直在做“对的”事情，这说明你的绘画创作始终被限制在你所见过的艺术画面里；而这些所谓“正确的”画面通常都来自于别人的绘画作品。&lt;br /&gt;
-绘画艺术家不能执着于模仿别人的作品，而应该创造属于自己风格的画作。&lt;/p&gt;
-
-&lt;p&gt;和照片不同，你在绘画的时候并不需要重现看到的所有细节。&lt;br /&gt;
-相对来说，画一幅画简单多了。你可以决定画面的重点，省略对你来说不那么重要的细节。&lt;/p&gt;
-
-&lt;p&gt;画人物速写并不只是一个单纯描绘长相的过程。一旦提起笔，我们就不可避免地和画里的这个人有了联系。&lt;/p&gt;
-
-&lt;p&gt;用开放的心态去看一个地方，认真地体会和感受，你的情感就会通过你的画得到表达。也许这样画出来的作品跟实际情况并不一样，但这至少是你眼中的画面。完整地复制重现某个时刻应该是摄影师的工作。&lt;/p&gt;
-
-&lt;p&gt;物体只有在和人联系在一起的时候，才会变得生动特别。&lt;br /&gt;
-没有任何一个物体能够独立与人而存在，就像书一样，每个物体都必然会有一个创作者，也会有一个使用者。&lt;br /&gt;
-作为绘画艺术家，这就意味着我们要做的不单单是描绘物体的外在特征，还要能讲述它和人之间的故事。也正是从这一刻开始，它们不再只是一个“孤独”的物体。&lt;/p&gt;
-
-&lt;p&gt;几个世纪前，旅行家们周游各国，为的是抢占各地的宝藏和战利品，但这并没有让世界变得更美好。千万别像这样浪费你的速写本。&lt;br /&gt;
-艺术家当然还是要四处游历的，只有这样才能感受不同地域的风土人情；但在这个过程中，他们要做的是为自己记录下沿途的体会和经历，不为宝藏，也不为别人。&lt;br /&gt;
-即使什么都没有拿走，你也用速写本带回了对那个陌生国度最独一无二的纪念。不仅如此，那些记录下来的冒险和际遇，也成为你给自己和这个世界留下的最珍贵的宝藏。&lt;/p&gt;
-
-&lt;p&gt;绘画是跨越国界的语言。图像是所有语言的起源，人们不需要知道任何单词或语法就可以看懂它。&lt;/p&gt;
-
-&lt;p&gt;如果你还在纠结画到底要多逼真才能符合现实，那么很遗憾，恐怕你找不到这个问题的答案。&lt;br /&gt;
-因为事实上，并不是只有一种现实。通常意义上的现实，其实是人们从自身视角观察得到的画面和感受，而这个现实又取决于你是一个怎样的人。&lt;br /&gt;
-公认的“现实”，只是不同视角下的现实折中后得到的产物。所以你所追求的符合现实的绘画，其实是在寻找众多视角中最小的共同点，而这未必就是真实的。&lt;br /&gt;
-你想通过你的画表达什么样的信息反而更重要。&lt;/p&gt;
-
-&lt;p&gt;一幅速写并不只是对现实的描绘，更是对过去的一个时间片段的截取。&lt;br /&gt;
-每个瞬间都非常短暂，稍纵即逝，属于你的那一秒经历却是独一无二的。世间的一切都只能不断前行，无法回头。&lt;br /&gt;
-面对这个可怕又无奈的现实，人们于是不停地在寻找可以对抗它的办法。&lt;br /&gt;
-把这些时刻传达给其他人就是留住过去的一种方式，有的人用故事，而我们则选择用绘画。&lt;br /&gt;
-速写的特别之处就在于，它能很快地记录下某一个时刻。&lt;br /&gt;
-而且，速写绘画作品不仅能重现这个时刻，同时也能反映它的出处。&lt;br /&gt;
-你在经历某个瞬间的当下把它画下来，从你的视角记录了那个时刻，这幅画也就因此变得独特而珍贵。&lt;br /&gt;
-人们日后在这幅画中看到的，就是被你即刻保存下来的、已经成为过去的瞬间。即使你的画并不完美，它仍然承载着一个不能被复制的真实时刻。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>什么是艺术？</title>
-        <link>https://ioerr.github.io/posts/shenme-shi-yishu/</link>
-        <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/shenme-shi-yishu/</guid>
-        <description>&lt;p&gt;听&lt;a href=&#34;https://dao.fm/&#34;&gt;津津乐道播客&lt;/a&gt;的第220期《&lt;a href=&#34;https://dao.fm/2020/05/31/vol-220-%e4%b9%b1%e7%82%96%ef%bc%9a%e4%bd%a0%e5%ba%94%e8%af%a5%e5%ad%a6%e4%b9%a0%e4%b8%80%e9%97%a8%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%e4%b9%88%ef%bc%9f/&#34;&gt;乱炖：你应该学习一门编程语言么？&lt;/a&gt;》中，某高老师说他怎么向孩子解释什么是艺术，大意如此：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;做一个东西，做出的是一个名词，不管有多像，就是木匠；&lt;br /&gt;
-做出一个形容词，别人能够感受到，就是艺术家。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这让我想到了爱德华·威尔逊的《知识大融通》中的第十章，阐述科学和艺术的关系时，如此写道：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;艺术以情绪和感觉来表达人类处境，召唤出所有的感官知觉，并激发出秩序和混乱&lt;br /&gt;
-艺术创作的目标是直接诉诸接受者的感觉，而不须经过分析和解释&lt;br /&gt;
-艺术创作通过心灵直接沟通感情&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在《&lt;a href=&#34;../yinyue-de-liliang/&#34;&gt;音乐的力量&lt;/a&gt;》中，我好奇为什么音乐有如同魔法的效果，其实就是在问，艺术为什么可以如此感染人心？&lt;/p&gt;
-
-&lt;p&gt;在威尔逊看来，这是因为人类这种生物在长期的进化过程中，形成一套表观遗传算法，一套根植于头脑中的程序，我们称之为“人性”，从而带来智力、语言、文化、社会契约等方面的优势，但光靠遗传基因无法传承应对快速变化的复杂外部世界而不断更新的策略，于是早期人类发明艺术，从看似混乱的日常生活中创造出秩序和意义，通过巫术等形式表达情绪，影响心灵，发展为仪式，人类才能持续地保留住进化形成的优势。&lt;br /&gt;
-因此，越是优秀的艺术作品，越能忠实地表达出符合表观遗传法则的情绪反应——也就是越能准确地反映人性，从而引起具有一致程序的同类的强烈共鸣。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>历史规律与大革命</title>
-        <link>https://ioerr.github.io/posts/lishi-guilv-yu-dageming/</link>
-        <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/lishi-guilv-yu-dageming/</guid>
-        <description>&lt;p&gt;1794年，孔多塞在逃亡中仍在撰写《人类精神进步史表纲要》。&lt;br /&gt;
-他乐观地认为研究历史可以发现人类社会的规律，建立完美秩序的乌托邦，社会进步不可避免，战争与革命是以暂时的灾祸为代价而取得自由与幸福的手段。&lt;br /&gt;
-为了不连累庇护人，他离开住所，后被村民抓住，严刑拷打后痛苦地死在皇后镇监狱的地板上。&lt;/p&gt;
-
-&lt;p&gt;孔多塞是唯一一个参与了法国大革命的百科全书派人物。他起草了吉伦特宪法，在大革命开始后不过数年即死于大革命的滔天巨浪，罪名是“反对统一和不可分割的共和国的密谋者”。&lt;/p&gt;
-
-&lt;p&gt;卢梭在社会契约论中说，为了使社会公约不致于成为一纸空文，任何人拒不服从公意的，全体就要迫使他服从公意。&lt;br /&gt;
-人们要迫使他自由，因为这就是使每一个公民都有祖国从而保证他免于一切人身依附的条件，这就是造成政治机器灵活运转的条件，并且也唯有它才是使社会规约成其为合法的条件。&lt;/p&gt;
-
-&lt;p&gt;当法国大革命特别是雅各宾专政的血雨腥风扑面而来时，风暴的掀动者之一罗伯斯庇尔说：&lt;br /&gt;
-我们的目标是要和平地享受自由与平等的喜悦，这个在永恒正义统治下所产生的法规，已经深深烙印在人们的心中。&lt;br /&gt;
-而他推行的嫌疑犯法令，要逮捕一切明显的或被认为反对革命的分子，先后共计约30万人。&lt;/p&gt;
-
-&lt;p&gt;坚定站在罗伯斯庇尔身边的圣茹斯特，认为政府是还原人类美好本质的必要手段，它的最终目标在于“促进社会向着遥远而又理想的远方行进”。&lt;br /&gt;
-然后在他提案通过的风月法令中规定，“为共和国利益计，应没收被认定为革命敌人者的财产。”&lt;br /&gt;
-他也是雅各宾派的恐怖统治失败后被逮捕和处决的人中，最冷静和骄傲的。&lt;/p&gt;
-
-&lt;p&gt;牧月22日法令，扩大人民之敌的范围，取消豁免权，废除公开审讯，取消证人和辩护律师，简化审判程序，有罪便是死刑，每个公民都有权逮捕阴谋家和反革命分子，并将他们绳之以法。&lt;br /&gt;
-至此，罗伯斯庇尔和公共安全委员会的恐怖达到了顶峰，也迅速走向了陨落。即使没有人怀疑这些乐观者的真诚、勇气、自信和热情。&lt;/p&gt;
-
-&lt;p&gt;或许世界上确有也只有一种完美的社会秩序，但最糟糕的是，人们错误地宣称已经找到它了，并以公共意志的名义迫使每个人服从。&lt;br /&gt;
-当个人无权对社会的契约说“不”时，意图打碎枷锁的契约就成了新的枷锁。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>加速主义</title>
-        <link>https://ioerr.github.io/posts/jiasu-zhuyi/</link>
-        <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/jiasu-zhuyi/</guid>
-        <description>&lt;p&gt;近几年流行一个词叫“加速”，没有看到统一的解释定义，不知道是不是与加速主义（Accelerationism）有关，即相信某种政治制度和社会组织形式（原版是指资本主义）具有自我毁灭的必然倾向，支持其快速发展就是加速其毁灭。&lt;/p&gt;
-
-&lt;p&gt;从现象上来看，最常见的就是，每当有不公义的事件发生，有的人就喜欢出来说，“加速！加速！”，十分欣喜，仿佛历史的进程又向其预料的结局迈了一大步。&lt;/p&gt;
-
-&lt;p&gt;在我看来，这些人是相信历史决定论的犬儒主义者。&lt;br /&gt;
-相信历史决定论，因此相信在历史规律下加速之后必然会是自己乐见的结果，不考虑即使存在历史规律，也不是从天而降自动发生，而是需要人的意识和行为的主动性作为基础；更何况历史很容易走入鬼打墙一般的恶性循环怪圈，除非人的智识首先能超越其上，跳出其外；&lt;br /&gt;
-是犬儒主义者，所以要为苟安于不满意的现实中无所作为，只能够口中念念有词，找个睿智又正当的理由；当暴政恶行的后果落到自己头上时，也只能用这是加速来安慰自己。。&lt;/p&gt;
-
-&lt;p&gt;不知道当年奥斯维辛集中营毒气室门口的队伍中，有没有犹太人兴奋地说，“加速！加速！”&lt;/p&gt;
 </description>
       </item>
     
