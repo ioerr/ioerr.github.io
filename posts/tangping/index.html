@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>躺平 - 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="躺平" />
+<meta property="og:description" content="网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。
+但我觉得躺平也要分情况。
+劳动是否幸福，取决于目的是否合意。
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。
+人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。
+浑浑噩噩、毫无目的活着的人，是行尸走肉。
+被强制无法为自己而活的人是奴隶。
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。
+奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。
+因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/tangping/" />
+
+
+
+<meta property="article:published_time" content="2021-05-31T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2021-05-31T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="躺平">
+<meta itemprop="description" content="网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。
+但我觉得躺平也要分情况。
+劳动是否幸福，取决于目的是否合意。
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。
+人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。
+浑浑噩噩、毫无目的活着的人，是行尸走肉。
+被强制无法为自己而活的人是奴隶。
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。
+奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。
+因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。">
+
+
+<meta itemprop="datePublished" content="2021-05-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-05-31T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="10">
+
+
+
+<meta itemprop="keywords" content="躺平,摸鱼,劳动,奴隶,机器,懒惰,拉法格,自由,个人," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="躺平"/>
+<meta name="twitter:description" content="网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。
+但我觉得躺平也要分情况。
+劳动是否幸福，取决于目的是否合意。
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。
+人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。
+浑浑噩噩、毫无目的活着的人，是行尸走肉。
+被强制无法为自己而活的人是奴隶。
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。
+奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。
+因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ftangping%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2021-05-31 12:00">2021-05-31</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>躺平</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E8%BA%BA%E5%B9%B3">
+              <span class="hash">#</span>躺平</a>
+          
+            , 
+            <a href="/tags/%E6%91%B8%E9%B1%BC">
+              <span class="hash">#</span>摸鱼</a>
+          
+            , 
+            <a href="/tags/%E5%8A%B3%E5%8A%A8">
+              <span class="hash">#</span>劳动</a>
+          
+            , 
+            <a href="/tags/%E5%A5%B4%E9%9A%B6">
+              <span class="hash">#</span>奴隶</a>
+          
+            , 
+            <a href="/tags/%E6%9C%BA%E5%99%A8">
+              <span class="hash">#</span>机器</a>
+          
+            , 
+            <a href="/tags/%E6%87%92%E6%83%B0">
+              <span class="hash">#</span>懒惰</a>
+          
+            , 
+            <a href="/tags/%E6%8B%89%E6%B3%95%E6%A0%BC">
+              <span class="hash">#</span>拉法格</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E7%94%B1">
+              <span class="hash">#</span>自由</a>
+          
+            , 
+            <a href="/tags/%E4%B8%AA%E4%BA%BA">
+              <span class="hash">#</span>个人</a>
+          
+        
+      </p>
+    </header>
+    <section><p>网上热议躺平，于是有人有推荐看拉法格的《<a href="https://book.douban.com/subject/26873263/">懒惰的权利及其他</a>》以及《<a href="https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm">懒惰权（驳斥1848年“劳动权”）</a>》，堪称“摸鱼学/躺平学宣言”。</p>
+
+<p>但我觉得躺平也要分情况。</p>
+
+<p>劳动是否幸福，取决于目的是否合意。<br />
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。</p>
+
+<p>人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。<br />
+浑浑噩噩、毫无目的活着的人，是行尸走肉。<br />
+被强制无法为自己而活的人是奴隶。<br />
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。</p>
+
+<p>奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。</p>
+
+<p>因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%ba%ba%e5%b9%b3》&body=https%3a%2f%2fioerr.github.io%2fposts%2ftangping%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2ftangping%2f&text= @calon %e8%ba%ba%e5%b9%b3&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2021 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
