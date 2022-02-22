@@ -6,10 +6,26 @@
     <description>Recent content in 音乐 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>音乐分享</title>
+        <link>https://ioerr.github.io/projects/music-share/</link>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/projects/music-share/</guid>
+        <description>&lt;p&gt;在 Twitter 上开了一个&lt;a href=&#34;https://twitter.com/calon/status/1468218162915119109&#34;&gt;分享音乐的会话&lt;/a&gt;，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。&lt;/p&gt;
+
+&lt;p&gt;本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>最佳演奏者</title>

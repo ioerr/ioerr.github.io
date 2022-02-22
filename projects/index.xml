@@ -6,10 +6,26 @@
     <description>Recent content in Projects on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>音乐分享</title>
+        <link>https://ioerr.github.io/projects/music-share/</link>
+        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/projects/music-share/</guid>
+        <description>&lt;p&gt;在 Twitter 上开了一个&lt;a href=&#34;https://twitter.com/calon/status/1468218162915119109&#34;&gt;分享音乐的会话&lt;/a&gt;，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。&lt;/p&gt;
+
+&lt;p&gt;本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Vim</title>
@@ -22,6 +38,10 @@
         </author>
         <guid>https://ioerr.github.io/projects/vim/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://github.com/calon/vim&#34;&gt;我的 Vim 配置&lt;/a&gt;，包括 Vim 程序、配置文件、插件、主题、字体和其他配套工具。&lt;/p&gt;
+
+&lt;p&gt;为了自己方便写的一些 Vim 小工具插件：&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/Quicksave&#34;&gt;Quicksave&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/SimSoftWrap&#34;&gt;SimSoftWrap&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://calon.github.io/Vim-Tutorial-for-Non-Programmers/index.html&#34;&gt;写给非程序员的 Vim 新手教程&lt;/a&gt;，很早就开始写的系列，目前仍然没有填完坑，不定时更新。&lt;/p&gt;
 </description>

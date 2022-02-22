@@ -141,6 +141,10 @@
         <guid>https://ioerr.github.io/projects/vim/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://github.com/calon/vim&#34;&gt;我的 Vim 配置&lt;/a&gt;，包括 Vim 程序、配置文件、插件、主题、字体和其他配套工具。&lt;/p&gt;
 
+&lt;p&gt;为了自己方便写的一些 Vim 小工具插件：&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/Quicksave&#34;&gt;Quicksave&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/SimSoftWrap&#34;&gt;SimSoftWrap&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://calon.github.io/Vim-Tutorial-for-Non-Programmers/index.html&#34;&gt;写给非程序员的 Vim 新手教程&lt;/a&gt;，很早就开始写的系列，目前仍然没有填完坑，不定时更新。&lt;/p&gt;
 </description>
       </item>

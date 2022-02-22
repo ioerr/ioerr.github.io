@@ -6,10 +6,35 @@
     <description>Recent content in 灯泡短路 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Dec 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>关于数字生命的思考</title>
+        <link>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</link>
+        <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</guid>
+        <description>&lt;p&gt;计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。&lt;br /&gt;
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？&lt;br /&gt;
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？&lt;/p&gt;
+
+&lt;p&gt;今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。&lt;/p&gt;
+
+&lt;p&gt;这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。&lt;br /&gt;
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。&lt;/p&gt;
+
+&lt;p&gt;人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。&lt;/p&gt;
+
+&lt;p&gt;当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>屎特币</title>
@@ -954,36 +979,6 @@ Docs 都适用；&lt;br /&gt;
 的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
 
 &lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>支持照片语音备注的移动社交应用</title>
-        <link>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
-        <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
-        <description>&lt;p&gt;近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。&lt;/p&gt;
-
-&lt;p&gt;查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。&lt;/p&gt;
-
-&lt;p&gt;数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。&lt;br /&gt;
-另外，抱着相机录音感觉挺傻。&lt;br /&gt;
-反正至今为止，周围没有人使用过数码相机的这一功能。&lt;/p&gt;
-
-&lt;p&gt;不过，这对手机社交应用都不是问题。&lt;br /&gt;
-拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。&lt;br /&gt;
-不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。&lt;/p&gt;
-
-&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;
-这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。&lt;br /&gt;
-虽然&lt;a href=&#34;http://weixin.qq.com/&#34;&gt;微信&lt;/a&gt;等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。&lt;/p&gt;
-
-&lt;p&gt;嗯，是我土鳖了，因为没有用过“啪啪”。&lt;/p&gt;
 </description>
       </item>
     

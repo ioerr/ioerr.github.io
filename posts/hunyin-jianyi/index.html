@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="婚姻建议" />
+<meta property="og:description" content="尔今夏：
+想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊
+Calon：
+自由，平等，独立，真诚，宽容，责任。
+出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。
+前提是你和对方都认同且践行。
+自由的反面是控制和束缚；
+平等的反面是贬低人格；
+独立的反面是依附和依赖；
+真诚的反面是自欺欺人，辜负信任；
+宽容的反面是缺少理解和信任，锱铢必较；
+责任的反面是只知索取不知付出。
+这只是保证婚姻幸福的下限。
+有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…
+这就是不同的人各有各的幸福追求了，没法有个一致的标准。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/hunyin-jianyi/" />
+
+
+
+<meta property="article:published_time" content="2020-10-10T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2020-10-10T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="婚姻建议">
+<meta itemprop="description" content="尔今夏：
+想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊
+Calon：
+自由，平等，独立，真诚，宽容，责任。
+出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。
+前提是你和对方都认同且践行。
+自由的反面是控制和束缚；
+平等的反面是贬低人格；
+独立的反面是依附和依赖；
+真诚的反面是自欺欺人，辜负信任；
+宽容的反面是缺少理解和信任，锱铢必较；
+责任的反面是只知索取不知付出。
+这只是保证婚姻幸福的下限。
+有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…
+这就是不同的人各有各的幸福追求了，没法有个一致的标准。">
+
+
+<meta itemprop="datePublished" content="2020-10-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="爱情,婚姻,人格独立,自由,平等,真诚,宽容,责任,信任,幸福," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="婚姻建议"/>
+<meta name="twitter:description" content="尔今夏：
+想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊
+Calon：
+自由，平等，独立，真诚，宽容，责任。
+出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。
+前提是你和对方都认同且践行。
+自由的反面是控制和束缚；
+平等的反面是贬低人格；
+独立的反面是依附和依赖；
+真诚的反面是自欺欺人，辜负信任；
+宽容的反面是缺少理解和信任，锱铢必较；
+责任的反面是只知索取不知付出。
+这只是保证婚姻幸福的下限。
+有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…
+这就是不同的人各有各的幸福追求了，没法有个一致的标准。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhunyin-jianyi%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2020-10-10 12:00">2020-10-10</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+          </p>
+      <h1>婚姻建议</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%88%B1%E6%83%85">
+              <span class="hash">#</span>爱情</a>
+          
+            , 
+            <a href="/tags/%E5%A9%9A%E5%A7%BB">
+              <span class="hash">#</span>婚姻</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E6%A0%BC%E7%8B%AC%E7%AB%8B">
+              <span class="hash">#</span>人格独立</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E7%94%B1">
+              <span class="hash">#</span>自由</a>
+          
+            , 
+            <a href="/tags/%E5%B9%B3%E7%AD%89">
+              <span class="hash">#</span>平等</a>
+          
+            , 
+            <a href="/tags/%E7%9C%9F%E8%AF%9A">
+              <span class="hash">#</span>真诚</a>
+          
+            , 
+            <a href="/tags/%E5%AE%BD%E5%AE%B9">
+              <span class="hash">#</span>宽容</a>
+          
+            , 
+            <a href="/tags/%E8%B4%A3%E4%BB%BB">
+              <span class="hash">#</span>责任</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E4%BB%BB">
+              <span class="hash">#</span>信任</a>
+          
+            , 
+            <a href="/tags/%E5%B9%B8%E7%A6%8F">
+              <span class="hash">#</span>幸福</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="https://twitter.com/erjinxia/status/1314435675970707456">尔今夏</a>：<br />
+想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊</p>
+
+<p><a href="https://twitter.com/calon/status/1314607786895069184">Calon</a>：<br />
+自由，平等，独立，真诚，宽容，责任。</p>
+
+<p>出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。</p>
+
+<p>前提是你和对方都认同且践行。</p>
+
+<p>自由的反面是控制和束缚；<br />
+平等的反面是贬低人格；<br />
+独立的反面是依附和依赖；<br />
+真诚的反面是自欺欺人，辜负信任；<br />
+宽容的反面是缺少理解和信任，锱铢必较；<br />
+责任的反面是只知索取不知付出。</p>
+
+<p>这只是保证婚姻幸福的下限。<br />
+有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…<br />
+这就是不同的人各有各的幸福追求了，没法有个一致的标准。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%a9%9a%e5%a7%bb%e5%bb%ba%e8%ae%ae》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhunyin-jianyi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhunyin-jianyi%2f&text= @calon %e5%a9%9a%e5%a7%bb%e5%bb%ba%e8%ae%ae&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

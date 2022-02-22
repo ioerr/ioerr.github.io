@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>理解 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%90%86%E8%A7%A3/</link>
+    <description>Recent content in 理解 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E7%90%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>滥用类比</title>
+        <link>https://ioerr.github.io/posts/lanyong-leibi/</link>
+        <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/lanyong-leibi/</guid>
+        <description>&lt;p&gt;类比容易被滥用，是因为本来就只是为了让人容易理解复杂状况才做类比。&lt;br /&gt;
+一旦要做出推论，和类比对象所处的环境条件截然不同，相当于拿掉了边界约束，当然就会推论出千里之外的谬误。&lt;/p&gt;
+
+&lt;p&gt;但用类比辅助理解实在太好用，不能因噎废食，完全禁止使用。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

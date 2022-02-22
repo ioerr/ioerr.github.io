@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="关于数字生命的思考" />
+<meta property="og:description" content="计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？
+今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。
+这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。
+人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。
+当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/" />
+
+
+
+<meta property="article:published_time" content="2021-12-02T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2021-12-02T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="关于数字生命的思考">
+<meta itemprop="description" content="计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？
+今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。
+这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。
+人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。
+当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。">
+
+
+<meta itemprop="datePublished" content="2021-12-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-12-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="生命,数字世界,虚拟世界,meme,计算机,意识,演化,竞争,进化论," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="关于数字生命的思考"/>
+<meta name="twitter:description" content="计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？
+今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。
+这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。
+人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。
+当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fguanyu-shuzi-shengming-de-sikao%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2021-12-02 12:00">2021-12-02</time> &bull;
+          
+            
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          </p>
+      <h1>关于数字生命的思考</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%94%9F%E5%91%BD">
+              <span class="hash">#</span>生命</a>
+          
+            , 
+            <a href="/tags/%E6%95%B0%E5%AD%97%E4%B8%96%E7%95%8C">
+              <span class="hash">#</span>数字世界</a>
+          
+            , 
+            <a href="/tags/%E8%99%9A%E6%8B%9F%E4%B8%96%E7%95%8C">
+              <span class="hash">#</span>虚拟世界</a>
+          
+            , 
+            <a href="/tags/meme">
+              <span class="hash">#</span>meme</a>
+          
+            , 
+            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA">
+              <span class="hash">#</span>计算机</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E8%AF%86">
+              <span class="hash">#</span>意识</a>
+          
+            , 
+            <a href="/tags/%E6%BC%94%E5%8C%96">
+              <span class="hash">#</span>演化</a>
+          
+            , 
+            <a href="/tags/%E7%AB%9E%E4%BA%89">
+              <span class="hash">#</span>竞争</a>
+          
+            , 
+            <a href="/tags/%E8%BF%9B%E5%8C%96%E8%AE%BA">
+              <span class="hash">#</span>进化论</a>
+          
+        
+      </p>
+    </header>
+    <section><p>计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。<br />
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？<br />
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？</p>
+
+<p>今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。</p>
+
+<p>这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。<br />
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。</p>
+
+<p>人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。</p>
+
+<p>当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%85%b3%e4%ba%8e%e6%95%b0%e5%ad%97%e7%94%9f%e5%91%bd%e7%9a%84%e6%80%9d%e8%80%83》&body=https%3a%2f%2fioerr.github.io%2fposts%2fguanyu-shuzi-shengming-de-sikao%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fguanyu-shuzi-shengming-de-sikao%2f&text= @calon %e5%85%b3%e4%ba%8e%e6%95%b0%e5%ad%97%e7%94%9f%e5%91%bd%e7%9a%84%e6%80%9d%e8%80%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

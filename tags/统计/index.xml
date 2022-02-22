@@ -6,10 +6,28 @@
     <description>Recent content in 统计 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>FAQ</title>
+        <link>https://ioerr.github.io/posts/faq/</link>
+        <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/faq/</guid>
+        <description>&lt;p&gt;一般我们认为 FAQ = Frequently Asked Questions，但实际上大多数情况是 Frequently Answered Questions。&lt;/p&gt;
+
+&lt;p&gt;那些还无法回答的问题，哪怕被问到的次数再多，作者也可能压根就不会写进 FAQ 中，通常是只有他能够回答得了才会写进去，回答不了的可能就默默地略过去了。&lt;/p&gt;
+
+&lt;p&gt;这就像统计学的一个经典例子，幸存下来的轰炸机机身上的弹孔分布数据，不能反映真实的命中情况，也不能据此确定要加强防护的部位。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>足球比赛的规律</title>

@@ -6,10 +6,29 @@
     <description>Recent content in 隐私 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E9%9A%90%E7%A7%81/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>互联网信息保存墨菲定律</title>
+        <link>https://ioerr.github.io/posts/hulianwang-xinxi-baocun-mofei-dinglv/</link>
+        <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/hulianwang-xinxi-baocun-mofei-dinglv/</guid>
+        <description>&lt;p&gt;Myrt：&lt;br /&gt;
+&lt;a href=&#34;https://twitter.com/C6NMyrt/status/1418073039195959296&#34;&gt;通用用户信息处理共识：&lt;/a&gt;&lt;br /&gt;
+上传到互联网上平台的信息都默认有被公开的可能，不管是平台倒卖还是cracker脱裤。&lt;br /&gt;
+类比热力学第二定律，上传到互联网上的信息倾向于从源传播到其他位置，比如搜索引擎收录和 &lt;a href=&#34;http://archive.org&#34;&gt;archive.org&lt;/a&gt;，传播发生后想做个全互联网信息删除不容易，还不知道有多少离线保存呢。&lt;/p&gt;
+
+&lt;p&gt;我：你想在互联网上永久保存的信息最终总会逸失，而你想要销毁的信息却会永远保存和流传。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>隐私的未来</title>

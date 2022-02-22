@@ -6,10 +6,39 @@
     <description>Recent content in Vim on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>插件行为艺术</title>
+        <link>https://ioerr.github.io/posts/chajian-xingwei-yishu/</link>
+        <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/chajian-xingwei-yishu/</guid>
+        <description>&lt;p&gt;有人发布了一个&lt;a href=&#34;https://github.com/michaelb/do-nothing.vim&#34;&gt;什么功能也没有的 Vim 插件&lt;/a&gt;，号称具有如下特性：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;超越所有插件的加载速度&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;100%代码覆盖率&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;在任何平台、操作系统、架构以及 Vim/Neovim 上都能没有差异的正常运行&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;极低的资源占用&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;没有丑陋的 VimL 脚本，没有写得糟糕的 Python 代码…完全没有任何 bug！&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;初版就极为稳定，功能完备&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;开箱即用，无需任何配置&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;作者承认这毫无价值，是某种艺术和玩笑。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/vimplugins/comments/oeyv7i/comment/h4b1msj/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&#34;&gt;有人评论说&lt;/a&gt;，一开始我还是怀疑的，但你说它是艺术，我就被说服了。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Vim</title>
@@ -22,6 +51,10 @@
         </author>
         <guid>https://ioerr.github.io/projects/vim/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://github.com/calon/vim&#34;&gt;我的 Vim 配置&lt;/a&gt;，包括 Vim 程序、配置文件、插件、主题、字体和其他配套工具。&lt;/p&gt;
+
+&lt;p&gt;为了自己方便写的一些 Vim 小工具插件：&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/Quicksave&#34;&gt;Quicksave&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/calon/SimSoftWrap&#34;&gt;SimSoftWrap&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://calon.github.io/Vim-Tutorial-for-Non-Programmers/index.html&#34;&gt;写给非程序员的 Vim 新手教程&lt;/a&gt;，很早就开始写的系列，目前仍然没有填完坑，不定时更新。&lt;/p&gt;
 </description>
