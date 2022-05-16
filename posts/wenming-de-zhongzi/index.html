@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="文明的种子" />
+<meta property="og:description" content="有的人讨论政治问题，基于的是现实规则（实然），有的则是理想状态（应然）。
+前者认为后者天真幼稚，后者认为前者野蛮残酷，然后鸡同鸭讲。
+讨论现实利益，自然要基于现实利益，但现有规则并不是一成不变的，利益博弈既取决于现实，也与人的理念和改变未来的愿景有关。
+以前人们普遍认为女性没有资格参政，不同种族、阶层、职业的人地位就该不平等，血统出身意义重大，杀俘乃至吃人都很正常。
+这些观念得以改变，有人认为纯粹是因为物质生产水平发展了——所谓仓禀实而知礼节。
+但无法解释为什么在发达富裕的地区，可以普遍残留着思想的糟粕。
+有人认为道德是经过社会竞争筛选而留下来的规范，不切实际的道德会被淘汰——但首先要有新的观念产生，就像只有选择而没有变异产生不了进化。
+观念改变会导致重新评估事物和行为价值，进而影响了利益的考量，原有的博弈平衡也会因此打破。
+从野蛮到文明，首先要有观念的种子，倘若一开始就认为种子不值得浇灌，文明也许永远也不会发展壮大。
+没有文明概念的原始人类在随机的尝试后，会无意中开启文明的大门，也会无意中毁掉它。
+而那些知道什么是文明却毫不在意的人，则会有意识的扼杀文明的种子。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/wenming-de-zhongzi/" />
+
+
+
+<meta property="article:published_time" content="2022-03-28T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-03-28T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="文明的种子">
+<meta itemprop="description" content="有的人讨论政治问题，基于的是现实规则（实然），有的则是理想状态（应然）。
+前者认为后者天真幼稚，后者认为前者野蛮残酷，然后鸡同鸭讲。
+讨论现实利益，自然要基于现实利益，但现有规则并不是一成不变的，利益博弈既取决于现实，也与人的理念和改变未来的愿景有关。
+以前人们普遍认为女性没有资格参政，不同种族、阶层、职业的人地位就该不平等，血统出身意义重大，杀俘乃至吃人都很正常。
+这些观念得以改变，有人认为纯粹是因为物质生产水平发展了——所谓仓禀实而知礼节。
+但无法解释为什么在发达富裕的地区，可以普遍残留着思想的糟粕。
+有人认为道德是经过社会竞争筛选而留下来的规范，不切实际的道德会被淘汰——但首先要有新的观念产生，就像只有选择而没有变异产生不了进化。
+观念改变会导致重新评估事物和行为价值，进而影响了利益的考量，原有的博弈平衡也会因此打破。
+从野蛮到文明，首先要有观念的种子，倘若一开始就认为种子不值得浇灌，文明也许永远也不会发展壮大。
+没有文明概念的原始人类在随机的尝试后，会无意中开启文明的大门，也会无意中毁掉它。
+而那些知道什么是文明却毫不在意的人，则会有意识的扼杀文明的种子。">
+
+
+<meta itemprop="datePublished" content="2022-03-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-03-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="11">
+
+
+
+<meta itemprop="keywords" content="政治,道德,文明,观念,利益博弈,愿景," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="文明的种子"/>
+<meta name="twitter:description" content="有的人讨论政治问题，基于的是现实规则（实然），有的则是理想状态（应然）。
+前者认为后者天真幼稚，后者认为前者野蛮残酷，然后鸡同鸭讲。
+讨论现实利益，自然要基于现实利益，但现有规则并不是一成不变的，利益博弈既取决于现实，也与人的理念和改变未来的愿景有关。
+以前人们普遍认为女性没有资格参政，不同种族、阶层、职业的人地位就该不平等，血统出身意义重大，杀俘乃至吃人都很正常。
+这些观念得以改变，有人认为纯粹是因为物质生产水平发展了——所谓仓禀实而知礼节。
+但无法解释为什么在发达富裕的地区，可以普遍残留着思想的糟粕。
+有人认为道德是经过社会竞争筛选而留下来的规范，不切实际的道德会被淘汰——但首先要有新的观念产生，就像只有选择而没有变异产生不了进化。
+观念改变会导致重新评估事物和行为价值，进而影响了利益的考量，原有的博弈平衡也会因此打破。
+从野蛮到文明，首先要有观念的种子，倘若一开始就认为种子不值得浇灌，文明也许永远也不会发展壮大。
+没有文明概念的原始人类在随机的尝试后，会无意中开启文明的大门，也会无意中毁掉它。
+而那些知道什么是文明却毫不在意的人，则会有意识的扼杀文明的种子。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fwenming-de-zhongzi%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-03-28 12:00">2022-03-28</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>文明的种子</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%94%BF%E6%B2%BB">
+              <span class="hash">#</span>政治</a>
+          
+            , 
+            <a href="/tags/%E9%81%93%E5%BE%B7">
+              <span class="hash">#</span>道德</a>
+          
+            , 
+            <a href="/tags/%E6%96%87%E6%98%8E">
+              <span class="hash">#</span>文明</a>
+          
+            , 
+            <a href="/tags/%E8%A7%82%E5%BF%B5">
+              <span class="hash">#</span>观念</a>
+          
+            , 
+            <a href="/tags/%E5%88%A9%E7%9B%8A%E5%8D%9A%E5%BC%88">
+              <span class="hash">#</span>利益博弈</a>
+          
+            , 
+            <a href="/tags/%E6%84%BF%E6%99%AF">
+              <span class="hash">#</span>愿景</a>
+          
+        
+      </p>
+    </header>
+    <section><p>有的人讨论政治问题，基于的是现实规则（实然），有的则是理想状态（应然）。<br />
+前者认为后者天真幼稚，后者认为前者野蛮残酷，然后鸡同鸭讲。<br />
+讨论现实利益，自然要基于现实利益，但现有规则并不是一成不变的，利益博弈既取决于现实，也与人的理念和改变未来的愿景有关。</p>
+
+<p>以前人们普遍认为女性没有资格参政，不同种族、阶层、职业的人地位就该不平等，血统出身意义重大，杀俘乃至吃人都很正常。<br />
+这些观念得以改变，有人认为纯粹是因为物质生产水平发展了——所谓仓禀实而知礼节。<br />
+但无法解释为什么在发达富裕的地区，可以普遍残留着思想的糟粕。</p>
+
+<p>有人认为道德是经过社会竞争筛选而留下来的规范，不切实际的道德会被淘汰——但首先要有新的观念产生，就像只有选择而没有变异产生不了进化。<br />
+观念改变会导致重新评估事物和行为价值，进而影响了利益的考量，原有的博弈平衡也会因此打破。</p>
+
+<p>从野蛮到文明，首先要有观念的种子，倘若一开始就认为种子不值得浇灌，文明也许永远也不会发展壮大。<br />
+没有文明概念的原始人类在随机的尝试后，会无意中开启文明的大门，也会无意中毁掉它。<br />
+而那些知道什么是文明却毫不在意的人，则会有意识的扼杀文明的种子。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%87%e6%98%8e%e7%9a%84%e7%a7%8d%e5%ad%90》&body=https%3a%2f%2fioerr.github.io%2fposts%2fwenming-de-zhongzi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fwenming-de-zhongzi%2f&text= @calon %e6%96%87%e6%98%8e%e7%9a%84%e7%a7%8d%e5%ad%90&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

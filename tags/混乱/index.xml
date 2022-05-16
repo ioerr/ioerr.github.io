@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>混乱 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%B7%B7%E4%B9%B1/</link>
+    <description>Recent content in 混乱 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 26 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E6%B7%B7%E4%B9%B1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>游戏中的道德</title>
+        <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
+        <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1497272702259847171&#34;&gt;夹喵又：&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。&lt;br /&gt;
+你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1497416426617212928&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了&lt;br /&gt;
+可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1497469705371598849&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;所以游戏并没有设置越界就失败。&lt;br /&gt;
+人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。&lt;br /&gt;
+所以法律要基于经验形成的常识常理对抗这种极端混乱。&lt;br /&gt;
+常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。&lt;br /&gt;
+哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

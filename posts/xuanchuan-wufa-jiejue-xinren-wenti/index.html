@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="宣传无法解决信任问题" />
+<meta property="og:description" content="相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。
+只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。
+宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。
+确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。
+即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。
+迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。
+将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。
+Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。
+名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。
+另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。
+若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。
+是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？
+如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？
+3月18日更新：
+说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？
+须知要挽回对信用的破坏，不是一朝一夕的事情。
+改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。
+将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/xuanchuan-wufa-jiejue-xinren-wenti/" />
+
+
+
+<meta property="article:published_time" content="2022-03-12T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-03-12T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="宣传无法解决信任问题">
+<meta itemprop="description" content="相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。
+只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。
+宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。
+确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。
+即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。
+迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。
+将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。
+Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。
+名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。
+另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。
+若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。
+是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？
+如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？
+3月18日更新：
+说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？
+须知要挽回对信用的破坏，不是一朝一夕的事情。
+改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。
+将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。">
+
+
+<meta itemprop="datePublished" content="2022-03-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-03-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="19">
+
+
+
+<meta itemprop="keywords" content="宣传,信任,道德,欺骗,集体,合作,信用,贝叶斯定理," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="宣传无法解决信任问题"/>
+<meta name="twitter:description" content="相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。
+只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。
+宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。
+确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。
+即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。
+迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。
+将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。
+Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。
+名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。
+另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。
+若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。
+是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？
+如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？
+3月18日更新：
+说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？
+须知要挽回对信用的破坏，不是一朝一夕的事情。
+改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。
+将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxuanchuan-wufa-jiejue-xinren-wenti%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-03-12 12:00">2022-03-12</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>宣传无法解决信任问题</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%AE%A3%E4%BC%A0">
+              <span class="hash">#</span>宣传</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E4%BB%BB">
+              <span class="hash">#</span>信任</a>
+          
+            , 
+            <a href="/tags/%E9%81%93%E5%BE%B7">
+              <span class="hash">#</span>道德</a>
+          
+            , 
+            <a href="/tags/%E6%AC%BA%E9%AA%97">
+              <span class="hash">#</span>欺骗</a>
+          
+            , 
+            <a href="/tags/%E9%9B%86%E4%BD%93">
+              <span class="hash">#</span>集体</a>
+          
+            , 
+            <a href="/tags/%E5%90%88%E4%BD%9C">
+              <span class="hash">#</span>合作</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E7%94%A8">
+              <span class="hash">#</span>信用</a>
+          
+            , 
+            <a href="/tags/%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86">
+              <span class="hash">#</span>贝叶斯定理</a>
+          
+        
+      </p>
+    </header>
+    <section><p>相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。<br />
+只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。</p>
+
+<p>宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。</p>
+
+<p>确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。<br />
+即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。<br />
+迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。</p>
+
+<p>将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。<br />
+Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。</p>
+
+<p>名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。</p>
+
+<p>另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。<br />
+若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。<br />
+是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？<br />
+如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？</p>
+
+<p>3月18日更新：</p>
+
+<p>说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？<br />
+须知要挽回对信用的破坏，不是一朝一夕的事情。<br />
+改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。</p>
+
+<p>将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%ae%a3%e4%bc%a0%e6%97%a0%e6%b3%95%e8%a7%a3%e5%86%b3%e4%bf%a1%e4%bb%bb%e9%97%ae%e9%a2%98》&body=https%3a%2f%2fioerr.github.io%2fposts%2fxuanchuan-wufa-jiejue-xinren-wenti%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxuanchuan-wufa-jiejue-xinren-wenti%2f&text= @calon %e5%ae%a3%e4%bc%a0%e6%97%a0%e6%b3%95%e8%a7%a3%e5%86%b3%e4%bf%a1%e4%bb%bb%e9%97%ae%e9%a2%98&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
