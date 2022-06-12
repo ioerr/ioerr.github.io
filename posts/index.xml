@@ -6,10 +6,94 @@
     <description>Recent content in Posts on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>房间里的大象</title>
+        <link>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</link>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</guid>
+        <description>&lt;p&gt;历史可以粉饰、美化，可以遗忘、删除，可以颠倒黑白，也可以正视、反思。&lt;br /&gt;
+只要有意愿又有能力，所有人都可以只接受一种历史。&lt;br /&gt;
+这样的历史观已经深入人心，“反思”一词在今天的网络上已经普遍等同于“自卑”。&lt;/p&gt;
+
+&lt;p&gt;不过历史不是只存在于头脑或文本中的记录，对历史的态度本身也是历史的一部分。&lt;/p&gt;
+
+&lt;p&gt;保持一种历史观带来的结果在现在越是“成功”，在未来就越容易复制、重现。&lt;br /&gt;
+现在鼓吹这种“成功”的既得利益者——比如不允许说房间里有头大象，即使不断有人被大象踩死，他们也会强调假装不存在大象很重要——因为将历史的成功归功于隐瞒大象的存在。&lt;/p&gt;
+
+&lt;p&gt;房间里一头看不见但会踩死人的大象也可以看作一种权力规训的手段。&lt;br /&gt;
+那些了解了情况、侥幸没有被踩中的人，大部分在经过一段时间的认知失调后会主动调整，完成自我规训，有的炫耀自己目光如炬、轻功了得，幸灾乐祸地看下一个被大象踩死的倒霉蛋，有的则化身为&lt;a href=&#34;../wangjing-jianyu/&#34;&gt;网景监狱&lt;/a&gt;的一员。&lt;/p&gt;
+
+&lt;p&gt;赞美崇拜二向箔威力的人，不妨将大象看作现实版的二向箔。&lt;br /&gt;
+都是将人变成二维平面的，应该没有什么不同。&lt;br /&gt;
+变成平面的是别人而不是自己，那就更棒啦！&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>老人用电脑的痛苦</title>
+        <link>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</link>
+        <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</guid>
+        <description>&lt;p&gt;远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。&lt;/p&gt;
+
+&lt;p&gt;问：笔记本电脑的开关是哪个键？&lt;br /&gt;
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？&lt;br /&gt;
+即使有0/1组合符号的标识提示，老人能够理解吗？&lt;br /&gt;
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。&lt;br /&gt;
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。&lt;/p&gt;
+
+&lt;p&gt;问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？&lt;br /&gt;
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。&lt;br /&gt;
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。&lt;br /&gt;
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。&lt;/p&gt;
+
+&lt;p&gt;各种账号让老人晕头转向。&lt;br /&gt;
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。&lt;br /&gt;
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？&lt;br /&gt;
+密码和密钥是什么区别？&lt;br /&gt;
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？&lt;/p&gt;
+
+&lt;p&gt;而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。&lt;br /&gt;
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。&lt;/p&gt;
+
+&lt;p&gt;问：密码可以输入中文吗，要不要切换输入法？&lt;br /&gt;
+输入法现在是中文还是英文？&lt;br /&gt;
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。&lt;/p&gt;
+
+&lt;p&gt;问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？&lt;br /&gt;
+这些设置应该以最醒目、层级最少的方式优先显示。&lt;/p&gt;
+
+&lt;p&gt;问：微信不是系统自带的吗？要怎么安装？上网用哪个？&lt;br /&gt;
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。&lt;br /&gt;
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。&lt;br /&gt;
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。&lt;br /&gt;
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。&lt;/p&gt;
+
+&lt;p&gt;问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？&lt;/p&gt;
+
+&lt;p&gt;问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？&lt;/p&gt;
+
+&lt;p&gt;还有最经典也最常见的质问：&lt;br /&gt;
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？&lt;br /&gt;
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！&lt;br /&gt;
+为什么你在的时候就没问题，你一不在就各种问题都来了？&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>长沙自建房倒塌事故</title>
@@ -535,72 +619,6 @@ Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中
 &lt;p&gt;节目中还提到，新闻媒体的操守不可信，平台技术人员也可能无法理解和完全掌握算法，需要政府监管来控制算法。&lt;br /&gt;
 那政府监管者凭什么操守可信和有能力指导算法优化呢？未免过于乐观了。&lt;br /&gt;
 当用算法隔绝个人联系形成组织，隐匿、消除舆情的成本比解决问题成本更低时，会发生什么，现实中已经发生过很多，教会了我们很多。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>墙的思想根基</title>
-        <link>https://ioerr.github.io/posts/qiang-de-sixiang-genji/</link>
-        <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/qiang-de-sixiang-genji/</guid>
-        <description>&lt;p&gt;在里屋论坛谈到“墙”的话题，见到有人又拿出这种常见的论调：&lt;br /&gt;
-“人民是愚蠢的，他们大多不能明辨是非。所以要封锁所有——除了部分获得许可之外——的人获取外部信息的渠道；并且用墙净化所有可能致使他们从恶的文字。”&lt;/p&gt;
-
-&lt;p&gt;我怎么觉得，喜欢说这种话的人，正符合愚蠢和不能明辨是非的标准呢？&lt;br /&gt;
-还是回到那个问题，谁有权来判断谁是不能明辨是非的那个人？&lt;br /&gt;
-凭什么认为自己理智英明，永远有权为他人筑墙呢？&lt;/p&gt;
-
-&lt;p&gt;这种自负的症状，米塞斯在《Human Action》中有精彩的分析：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;向来有许多乌托邦的著作家，他们为人间世设计一个天国，在这个天国里面只有纯理智在做主宰。他们不了解，他们所谓的绝对理智和明显的真理只是他们自己内心的幻想。他们轻率地自以为是无错的，提倡排除异己而不宽容。他们志在独裁，或者自己独裁，或者拥护那将实行他们计划的人独裁。&lt;/p&gt;
-
-&lt;p&gt;他把他个人的价值判断抬举成普遍有效的、绝对的、永恒的价值标准尊严。如果他具有国王的权力，他会把他自己所要选择的那些目的叫做“福利”、“公益”和“国民经济的生产力”以示别于自私的个人所追求的那些目的。&lt;/p&gt;
-
-&lt;p&gt;他竟天真到看不出这个假想的国家元首只是他自由任意的价值判断的化身，而沾沾自喜地以为他自己发现了一个不容争辩的善恶标准。在这个仁慈的父权的独裁者假面具之下，他本人的那个“自我”被奉为绝对道德律的纶音。&lt;br /&gt;
-这个假想的国王的理想政权，其特征是所有的国民都无条件地服从极权统治。国王发号施令，大家服从。&lt;/p&gt;
-
-&lt;p&gt;天真的人所说的“理智”，不过是他自己的价值判断之绝对化。这个人，天真地把他自己理智的产物和绝对理智视同一体，不曾想一想：他所想赋予无限权力的那个抽象东西——不管是叫做“人类”、“社会”、“民族”、“国家”、或“政府”——可能做出他所不赞成的事情。&lt;/p&gt;
-
-&lt;p&gt;他充分相信，最高统治者从他的观点来看，一定是明白道理的，他会努力达成他所完全赞成的那些目的，会选择他也会选择的那些手段。每一个这样的人都是一个伪装的独裁者。所有反对的人要遭殃了，他们丧失了生存权而一定会受到清算。&lt;/p&gt;
-
-&lt;p&gt;国家、政府、民族、社会、人类…所有这些偶像，仅是那个改革者自己的意志的别名。把神学家们归之于上帝的那些属性，全部归之于他的偶像。它是至善、全能、全知、无所不在、无时不在的。它是这个不完全的世界里面唯一完全的东西。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>游戏中的道德</title>
-        <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
-        <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1497272702259847171&#34;&gt;夹喵又：&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。&lt;br /&gt;
-你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1497416426617212928&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了&lt;br /&gt;
-可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1497469705371598849&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;所以游戏并没有设置越界就失败。&lt;br /&gt;
-人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。&lt;br /&gt;
-所以法律要基于经验形成的常识常理对抗这种极端混乱。&lt;br /&gt;
-常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。&lt;br /&gt;
-哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。&lt;/p&gt;
 </description>
       </item>
     

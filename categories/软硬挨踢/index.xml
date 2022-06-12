@@ -6,10 +6,66 @@
     <description>Recent content in 软硬挨踢 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>老人用电脑的痛苦</title>
+        <link>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</link>
+        <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</guid>
+        <description>&lt;p&gt;远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。&lt;/p&gt;
+
+&lt;p&gt;问：笔记本电脑的开关是哪个键？&lt;br /&gt;
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？&lt;br /&gt;
+即使有0/1组合符号的标识提示，老人能够理解吗？&lt;br /&gt;
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。&lt;br /&gt;
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。&lt;/p&gt;
+
+&lt;p&gt;问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？&lt;br /&gt;
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。&lt;br /&gt;
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。&lt;br /&gt;
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。&lt;/p&gt;
+
+&lt;p&gt;各种账号让老人晕头转向。&lt;br /&gt;
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。&lt;br /&gt;
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？&lt;br /&gt;
+密码和密钥是什么区别？&lt;br /&gt;
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？&lt;/p&gt;
+
+&lt;p&gt;而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。&lt;br /&gt;
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。&lt;/p&gt;
+
+&lt;p&gt;问：密码可以输入中文吗，要不要切换输入法？&lt;br /&gt;
+输入法现在是中文还是英文？&lt;br /&gt;
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。&lt;/p&gt;
+
+&lt;p&gt;问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？&lt;br /&gt;
+这些设置应该以最醒目、层级最少的方式优先显示。&lt;/p&gt;
+
+&lt;p&gt;问：微信不是系统自带的吗？要怎么安装？上网用哪个？&lt;br /&gt;
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。&lt;br /&gt;
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。&lt;br /&gt;
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。&lt;br /&gt;
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。&lt;/p&gt;
+
+&lt;p&gt;问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？&lt;/p&gt;
+
+&lt;p&gt;问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？&lt;/p&gt;
+
+&lt;p&gt;还有最经典也最常见的质问：&lt;br /&gt;
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？&lt;br /&gt;
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！&lt;br /&gt;
+为什么你在的时候就没问题，你一不在就各种问题都来了？&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>网络与人类社会</title>
@@ -396,46 +452,6 @@
 &lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;/li&gt;
 &lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>信息发布和读者反馈的历史进程</title>
-        <link>https://ioerr.github.io/posts/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/</link>
-        <pubDate>Tue, 20 Sep 2016 15:53:48 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/xinxi-fabu-he-duzhe-fankui-de-lishi-jincheng/</guid>
-        <description>&lt;p&gt;最开始在出版物上发表文章和新闻，作者和出版方都是靠读者来信与读者交流。&lt;br /&gt;
-有什么值得拿出来说道说道的内容，都得在收到信件、写好回复后再下一期出版时刊出来。&lt;br /&gt;
-想要了解读者到底是怎么想的，可能得等上数十天。&lt;/p&gt;
-
-&lt;p&gt;后来有了电话，读者来信的效率稍微提高了一些。&lt;/p&gt;
-
-&lt;p&gt;再后来互联网出现了，新闻和文章可以在网上发布，但读者只能发电子邮件来沟通。&lt;/p&gt;
-
-&lt;p&gt;然后出现了留言板、评论区，读者的回复可以立即出现在网站上。&lt;/p&gt;
-
-&lt;p&gt;但评论的操作成本相对较高，于是 like、赞之类的一键反馈出现了。&lt;br /&gt;
-从统计反馈信息的角度来看，程序无法准确理解语义，更加擅长处理含义简单的后者。&lt;br /&gt;
-在双方共同的选择下，一键反馈大为流行。&lt;/p&gt;
-
-&lt;p&gt;接着，光是点赞一种反馈满足不了服务方的分析要求，读者也期望更多样而不增加过多成本的操作，于是
-Facebook 又引领了丰富表情图标类型的潮流。&lt;/p&gt;
-
-&lt;p&gt;另外，有的网站和移动应用也通过监控、统计用户阅读的时间等信息来尝试猜测读者的偏好。&lt;/p&gt;
-
-&lt;p&gt;从这种信息发布和阅读者交互手段的发展过程来看，提升读者反馈的及时性、沟通结果的准确性并在两者间取得平衡是大趋势——最终目的都是更有效地了解用户需求，然后引导、转化为更精准的后续内容、广告或其他盈利方式。&lt;/p&gt;
-
-&lt;p&gt;而如今虚拟现实（VR）、增强现实（AR）和带有身体监测功能的便携智能设备是行业热点，搞不好哪天也被用在这个方面。&lt;br /&gt;
-比如不妨设想一下，心率、呼吸、肌肉活动和其他身体指标，加上带眼动追踪功能的
-VR
-设备等手段，就差翻开读者大脑看到底在想些什么了，读者甚至都不需要主动发起什么反馈，网络的另一头就能够掌握详尽数据并分析出读者的情绪如何了。&lt;/p&gt;
-
-&lt;p&gt;不过话说回来，我还是更喜欢电子邮件（点对点或者讨论组）这样的非即时反馈交流，毕竟咱的理解沟通能力还是秒杀人工智能啊。&lt;/p&gt;
 </description>
       </item>
     

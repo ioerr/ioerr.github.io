@@ -6,10 +6,66 @@
     <description>Recent content in 人品界面 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Feb 2017 16:22:11 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>老人用电脑的痛苦</title>
+        <link>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</link>
+        <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</guid>
+        <description>&lt;p&gt;远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。&lt;/p&gt;
+
+&lt;p&gt;问：笔记本电脑的开关是哪个键？&lt;br /&gt;
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？&lt;br /&gt;
+即使有0/1组合符号的标识提示，老人能够理解吗？&lt;br /&gt;
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。&lt;br /&gt;
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。&lt;/p&gt;
+
+&lt;p&gt;问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？&lt;br /&gt;
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。&lt;br /&gt;
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。&lt;br /&gt;
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。&lt;/p&gt;
+
+&lt;p&gt;各种账号让老人晕头转向。&lt;br /&gt;
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。&lt;br /&gt;
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？&lt;br /&gt;
+密码和密钥是什么区别？&lt;br /&gt;
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？&lt;/p&gt;
+
+&lt;p&gt;而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。&lt;br /&gt;
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。&lt;/p&gt;
+
+&lt;p&gt;问：密码可以输入中文吗，要不要切换输入法？&lt;br /&gt;
+输入法现在是中文还是英文？&lt;br /&gt;
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。&lt;/p&gt;
+
+&lt;p&gt;问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？&lt;br /&gt;
+这些设置应该以最醒目、层级最少的方式优先显示。&lt;/p&gt;
+
+&lt;p&gt;问：微信不是系统自带的吗？要怎么安装？上网用哪个？&lt;br /&gt;
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。&lt;br /&gt;
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。&lt;br /&gt;
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。&lt;br /&gt;
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。&lt;/p&gt;
+
+&lt;p&gt;问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？&lt;/p&gt;
+
+&lt;p&gt;问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？&lt;/p&gt;
+
+&lt;p&gt;还有最经典也最常见的质问：&lt;br /&gt;
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？&lt;br /&gt;
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！&lt;br /&gt;
+为什么你在的时候就没问题，你一不在就各种问题都来了？&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>尝试共享单车</title>
@@ -621,31 +677,6 @@ Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累
 如果这种因素真的存在，估计电子书设备就很难仿效和超越了。&lt;/p&gt;
 
 &lt;p&gt;回头一想，搜索、摘录、笔记功能，电子书又比实体书强多了，为了跳转的体验偏好实体书到底不划算啊。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>购物自助声明卡片</title>
-        <link>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</link>
-        <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</guid>
-        <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
-其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和介绍——有时候客人不敢开口，不敢呆太久，又不知道自己想要的东西放在哪里，好不好用，本来想买的最后硬生生的忍住了只好默默走掉；有的时候客人更怕店员上来说话，店员一开口他/她就红着脸走掉了。&lt;/p&gt;
-
-&lt;p&gt;作为顾客，我也时常有这样的矛盾心理。&lt;br /&gt;
-买自己熟悉的或者愿意自己一个人慢慢挑选的商品，比如书籍、服装，我就不喜欢店员上来啰嗦；&lt;br /&gt;
-要是找自己不熟悉的商品，又希望店员能够陪伴左右，给出专业的介绍和建议。&lt;/p&gt;
-
-&lt;p&gt;有什么好的解决办法呢？&lt;br /&gt;
-商家可以在门口放一堆带别针的卡片或者贴纸，上面写“别理我，我自己看”、“免打扰”、“自助购物”之类的文字，顾客可以别在衣服、随身包上面，店员看到这样的顾客，就不需要上前打扰人家了。&lt;br /&gt;
-当然也可以反过来，写上“需要咨询帮助”、“帮我拿主意”、“欢迎提建议”的文字，说不定还可以促进顾客互相交流和搭讪呢。&lt;/p&gt;
-
-&lt;p&gt;为了降低成本，卡片或贴纸的背面可以印广告。&lt;/p&gt;
 </description>
       </item>
     

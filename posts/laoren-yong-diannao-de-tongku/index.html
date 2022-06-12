@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="老人用电脑的痛苦" />
+<meta property="og:description" content="远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。
+问：笔记本电脑的开关是哪个键？
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？
+即使有0/1组合符号的标识提示，老人能够理解吗？
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。
+问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。
+各种账号让老人晕头转向。
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？
+密码和密钥是什么区别？
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？
+而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。
+问：密码可以输入中文吗，要不要切换输入法？
+输入法现在是中文还是英文？
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。
+问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？
+这些设置应该以最醒目、层级最少的方式优先显示。
+问：微信不是系统自带的吗？要怎么安装？上网用哪个？
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。
+问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？
+问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？
+还有最经典也最常见的质问：
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！
+为什么你在的时候就没问题，你一不在就各种问题都来了？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/" />
+
+
+
+<meta property="article:published_time" content="2022-05-15T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-05-15T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="老人用电脑的痛苦">
+<meta itemprop="description" content="远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。
+问：笔记本电脑的开关是哪个键？
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？
+即使有0/1组合符号的标识提示，老人能够理解吗？
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。
+问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。
+各种账号让老人晕头转向。
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？
+密码和密钥是什么区别？
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？
+而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。
+问：密码可以输入中文吗，要不要切换输入法？
+输入法现在是中文还是英文？
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。
+问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？
+这些设置应该以最醒目、层级最少的方式优先显示。
+问：微信不是系统自带的吗？要怎么安装？上网用哪个？
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。
+问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？
+问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？
+还有最经典也最常见的质问：
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！
+为什么你在的时候就没问题，你一不在就各种问题都来了？">
+
+
+<meta itemprop="datePublished" content="2022-05-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-05-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="56">
+
+
+
+<meta itemprop="keywords" content="老人,用户体验,体验设计,界面友好," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="老人用电脑的痛苦"/>
+<meta name="twitter:description" content="远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。
+问：笔记本电脑的开关是哪个键？
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？
+即使有0/1组合符号的标识提示，老人能够理解吗？
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。
+问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。
+各种账号让老人晕头转向。
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？
+密码和密钥是什么区别？
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？
+而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。
+问：密码可以输入中文吗，要不要切换输入法？
+输入法现在是中文还是英文？
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。
+问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？
+这些设置应该以最醒目、层级最少的方式优先显示。
+问：微信不是系统自带的吗？要怎么安装？上网用哪个？
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。
+问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？
+问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？
+还有最经典也最常见的质问：
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！
+为什么你在的时候就没问题，你一不在就各种问题都来了？"/>
+
+
+  </head>
+  <body>
+    <nav>
+  <div class="title">
+    
+      <a href="/" title="Homepage">
+        首页
+      </a>
+    
+  </div>
+  <div class="nav">
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flaoren-yong-diannao-de-tongku%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-05-15 12:00">2022-05-15</time> &bull;
+          
+            
+            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>老人用电脑的痛苦</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E8%80%81%E4%BA%BA">
+              <span class="hash">#</span>老人</a>
+          
+            , 
+            <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C">
+              <span class="hash">#</span>用户体验</a>
+          
+            , 
+            <a href="/tags/%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1">
+              <span class="hash">#</span>体验设计</a>
+          
+            , 
+            <a href="/tags/%E7%95%8C%E9%9D%A2%E5%8F%8B%E5%A5%BD">
+              <span class="hash">#</span>界面友好</a>
+          
+        
+      </p>
+    </header>
+    <section><p>远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。</p>
+
+<p>问：笔记本电脑的开关是哪个键？<br />
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？<br />
+即使有0/1组合符号的标识提示，老人能够理解吗？<br />
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。<br />
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。</p>
+
+<p>问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？<br />
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。<br />
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。<br />
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。</p>
+
+<p>各种账号让老人晕头转向。<br />
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。<br />
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？<br />
+密码和密钥是什么区别？<br />
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？</p>
+
+<p>而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。<br />
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。</p>
+
+<p>问：密码可以输入中文吗，要不要切换输入法？<br />
+输入法现在是中文还是英文？<br />
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。</p>
+
+<p>问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？<br />
+这些设置应该以最醒目、层级最少的方式优先显示。</p>
+
+<p>问：微信不是系统自带的吗？要怎么安装？上网用哪个？<br />
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。<br />
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。<br />
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。<br />
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。</p>
+
+<p>问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？</p>
+
+<p>问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？</p>
+
+<p>还有最经典也最常见的质问：<br />
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？<br />
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！<br />
+为什么你在的时候就没问题，你一不在就各种问题都来了？</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%80%81%e4%ba%ba%e7%94%a8%e7%94%b5%e8%84%91%e7%9a%84%e7%97%9b%e8%8b%a6》&body=https%3a%2f%2fioerr.github.io%2fposts%2flaoren-yong-diannao-de-tongku%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flaoren-yong-diannao-de-tongku%2f&text= @calon %e8%80%81%e4%ba%ba%e7%94%a8%e7%94%b5%e8%84%91%e7%9a%84%e7%97%9b%e8%8b%a6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
