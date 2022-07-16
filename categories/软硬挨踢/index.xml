@@ -6,10 +6,49 @@
     <description>Recent content in 软硬挨踢 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Netflix 模式失败了吗？</title>
+        <link>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</link>
+        <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/wastemobile/status/1538324144986550272&#34;&gt;wastemobile&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。&lt;/p&gt;
+
+&lt;p&gt;我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。&lt;/p&gt;
+
+&lt;p&gt;《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。&lt;/p&gt;
+
+&lt;p&gt;男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。&lt;/p&gt;
+
+&lt;p&gt;小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。&lt;/p&gt;
+
+&lt;p&gt;10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。&lt;/p&gt;
+
+&lt;p&gt;Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1538331408841601025&#34;&gt;Calon：&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：&lt;br /&gt;
+大脑：我会了！&lt;br /&gt;
+手：不，你不会。&lt;/p&gt;
+
+&lt;p&gt;但这已经是后面了，前面这一步要做到也不容易。&lt;br /&gt;
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。&lt;br /&gt;
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。&lt;br /&gt;
+堪比先了解大脑如何思维，再造人工智能。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>老人用电脑的痛苦</title>
@@ -412,46 +451,6 @@ Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“
 这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？&lt;/p&gt;
 
 &lt;p&gt;希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 &lt;a href=&#34;https://www.palemoon.org/&#34;&gt;Pale Moon&lt;/a&gt; 这样的替代品会越来越成熟。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>机器与极权</title>
-        <link>https://ioerr.github.io/posts/jiqi-yu-jiquan/</link>
-        <pubDate>Wed, 25 Jan 2017 16:00:52 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/jiqi-yu-jiquan/</guid>
-        <description>&lt;p&gt;过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：&lt;br /&gt;
-要防范奴隶结社造反&lt;br /&gt;
-要操心奴隶是否会消极工作&lt;br /&gt;
-要避免手下叛变夺权&lt;br /&gt;
-一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。&lt;/p&gt;
-
-&lt;p&gt;而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：&lt;br /&gt;
-如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？&lt;br /&gt;
-或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？&lt;/p&gt;
-
-&lt;p&gt;这个新的社会组织模型看上去很像中央计划经济模型：&lt;br /&gt;
-奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；&lt;br /&gt;
-机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；&lt;br /&gt;
-而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。&lt;/p&gt;
-
-&lt;p&gt;如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。&lt;br /&gt;
-如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。&lt;/p&gt;
-
-&lt;p&gt;这样可以引出不少有意思的问题和结论：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？&lt;/li&gt;
-&lt;li&gt;人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？&lt;/li&gt;
-&lt;li&gt;人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？&lt;/li&gt;
-&lt;li&gt;各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？&lt;/li&gt;
-&lt;/ol&gt;
 </description>
       </item>
     

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>便携 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E4%BE%BF%E6%90%BA/</link>
+    <description>Recent content in 便携 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E4%BE%BF%E6%90%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>喜欢的工具特性</title>
+        <link>https://ioerr.github.io/posts/xihuan-de-gongju-texing/</link>
+        <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/xihuan-de-gongju-texing/</guid>
+        <description>&lt;p&gt;我喜欢的实体或者数字工具，除了满足功能需求之外，至少要在以下四个方面有过人之处，符合的比例越高越喜欢：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;随身、便携、顺手&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;快捷、迅速、灵敏&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;直观、简约、一目了然&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;通用、开放、可扩展&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;比如理光 GR 相机符合1、2，Vim 和战术背包符合1、2、4，Freeplane 符合2、3、4，Total Commander 符合2、4。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

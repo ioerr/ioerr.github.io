@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="Netflix 模式失败了吗？" />
+<meta property="og:description" content="wastemobile：
+《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。
+我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。
+《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。
+男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。
+小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。
+10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。
+Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。
+Calon：
+就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：
+大脑：我会了！
+手：不，你不会。
+但这已经是后面了，前面这一步要做到也不容易。
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。
+堪比先了解大脑如何思维，再造人工智能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/" />
+
+
+
+<meta property="article:published_time" content="2022-06-19T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-06-19T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Netflix 模式失败了吗？">
+<meta itemprop="description" content="wastemobile：
+《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。
+我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。
+《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。
+男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。
+小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。
+10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。
+Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。
+Calon：
+就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：
+大脑：我会了！
+手：不，你不会。
+但这已经是后面了，前面这一步要做到也不容易。
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。
+堪比先了解大脑如何思维，再造人工智能。">
+
+
+<meta itemprop="datePublished" content="2022-06-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-06-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="36">
+
+
+
+<meta itemprop="keywords" content="Netflix,大数据,人工智能,艺术创作,故事," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Netflix 模式失败了吗？"/>
+<meta name="twitter:description" content="wastemobile：
+《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。
+我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。
+《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。
+男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。
+小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。
+10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。
+Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。
+Calon：
+就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：
+大脑：我会了！
+手：不，你不会。
+但这已经是后面了，前面这一步要做到也不容易。
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。
+堪比先了解大脑如何思维，再造人工智能。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fnetflix-moshi-shibaile-ma%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-06-19 12:00">2022-06-19</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>Netflix 模式失败了吗？</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/netflix">
+              <span class="hash">#</span>Netflix</a>
+          
+            , 
+            <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE">
+              <span class="hash">#</span>大数据</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">
+              <span class="hash">#</span>人工智能</a>
+          
+            , 
+            <a href="/tags/%E8%89%BA%E6%9C%AF%E5%88%9B%E4%BD%9C">
+              <span class="hash">#</span>艺术创作</a>
+          
+            , 
+            <a href="/tags/%E6%95%85%E4%BA%8B">
+              <span class="hash">#</span>故事</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="https://twitter.com/wastemobile/status/1538324144986550272">wastemobile</a>：</p>
+
+<p>《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。</p>
+
+<p>我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。</p>
+
+<p>《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。</p>
+
+<p>男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。</p>
+
+<p>小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。</p>
+
+<p>10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。</p>
+
+<p>Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。</p>
+
+<p><a href="https://twitter.com/calon/status/1538331408841601025">Calon：</a></p>
+
+<p>就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：<br />
+大脑：我会了！<br />
+手：不，你不会。</p>
+
+<p>但这已经是后面了，前面这一步要做到也不容易。<br />
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。<br />
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。<br />
+堪比先了解大脑如何思维，再造人工智能。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《Netflix%20%e6%a8%a1%e5%bc%8f%e5%a4%b1%e8%b4%a5%e4%ba%86%e5%90%97%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fnetflix-moshi-shibaile-ma%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fnetflix-moshi-shibaile-ma%2f&text= @calon Netflix%20%e6%a8%a1%e5%bc%8f%e5%a4%b1%e8%b4%a5%e4%ba%86%e5%90%97%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
