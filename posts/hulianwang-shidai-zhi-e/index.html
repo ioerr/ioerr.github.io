@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="互联网时代之恶" />
+<meta property="og:description" content="色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。
+愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。
+贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。
+懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。
+嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。
+傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。
+势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。
+虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。
+权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。
+虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。
+互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/hulianwang-shidai-zhi-e/" />
+
+
+
+<meta property="article:published_time" content="2022-11-16T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-11-16T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="互联网时代之恶">
+<meta itemprop="description" content="色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。
+愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。
+贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。
+懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。
+嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。
+傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。
+势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。
+虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。
+权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。
+虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。
+互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。">
+
+
+<meta itemprop="datePublished" content="2022-11-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-11-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="11">
+
+
+
+<meta itemprop="keywords" content="互联网,恶,虚无主义," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="互联网时代之恶"/>
+<meta name="twitter:description" content="色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。
+愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。
+贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。
+懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。
+嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。
+傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。
+势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。
+虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。
+权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。
+虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。
+互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhulianwang-shidai-zhi-e%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-11-16 12:00">2022-11-16</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>互联网时代之恶</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91">
+              <span class="hash">#</span>互联网</a>
+          
+            , 
+            <a href="/tags/%E6%81%B6">
+              <span class="hash">#</span>恶</a>
+          
+            , 
+            <a href="/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>虚无主义</a>
+          
+        
+      </p>
+    </header>
+    <section><p>色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。</p>
+
+<p>愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。</p>
+
+<p>贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。</p>
+
+<p>懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。</p>
+
+<p>嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。</p>
+
+<p>傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。</p>
+
+<p>势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。</p>
+
+<p>虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。</p>
+
+<p>权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。</p>
+
+<p>虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。</p>
+
+<p>互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%92%e8%81%94%e7%bd%91%e6%97%b6%e4%bb%a3%e4%b9%8b%e6%81%b6》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhulianwang-shidai-zhi-e%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhulianwang-shidai-zhi-e%2f&text= @calon %e4%ba%92%e8%81%94%e7%bd%91%e6%97%b6%e4%bb%a3%e4%b9%8b%e6%81%b6&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

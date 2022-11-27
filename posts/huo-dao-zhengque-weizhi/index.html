@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="活到正确为止" />
+<meta property="og:description" content="哈尼叔@谢特厚砍树：
+一点人生经验：
+不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。
+但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。
+有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。
+这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。
+只有狗逼才敢说这对创作没有很大影响。
+Calon：
+“只要死的不是我，这个世界就很棒。”
+战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。
+统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。
+如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？
+我接触不到的，或者已经死去的人，又会是什么态度呢？
+而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。
+由此忽然想到一个看上去没什么关联的赌场概率统计问题：
+一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。
+还有醉汉回家的例子：
+醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。
+类似的，给定无限时间和无限子弹，总会等到上靶的那一天。
+如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。
+换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。
+威权主义政治精英自然就可以永远立于不败之地。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/huo-dao-zhengque-weizhi/" />
+
+
+
+<meta property="article:published_time" content="2022-09-30T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-09-30T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="活到正确为止">
+<meta itemprop="description" content="哈尼叔@谢特厚砍树：
+一点人生经验：
+不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。
+但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。
+有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。
+这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。
+只有狗逼才敢说这对创作没有很大影响。
+Calon：
+“只要死的不是我，这个世界就很棒。”
+战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。
+统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。
+如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？
+我接触不到的，或者已经死去的人，又会是什么态度呢？
+而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。
+由此忽然想到一个看上去没什么关联的赌场概率统计问题：
+一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。
+还有醉汉回家的例子：
+醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。
+类似的，给定无限时间和无限子弹，总会等到上靶的那一天。
+如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。
+换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。
+威权主义政治精英自然就可以永远立于不败之地。">
+
+
+<meta itemprop="datePublished" content="2022-09-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-09-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="22">
+
+
+
+<meta itemprop="keywords" content="威权主义,精英主义,概率,统计,权力," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="活到正确为止"/>
+<meta name="twitter:description" content="哈尼叔@谢特厚砍树：
+一点人生经验：
+不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。
+但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。
+有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。
+这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。
+只有狗逼才敢说这对创作没有很大影响。
+Calon：
+“只要死的不是我，这个世界就很棒。”
+战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。
+统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。
+如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？
+我接触不到的，或者已经死去的人，又会是什么态度呢？
+而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。
+由此忽然想到一个看上去没什么关联的赌场概率统计问题：
+一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。
+还有醉汉回家的例子：
+醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。
+类似的，给定无限时间和无限子弹，总会等到上靶的那一天。
+如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。
+换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。
+威权主义政治精英自然就可以永远立于不败之地。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhuo-dao-zhengque-weizhi%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-09-30 12:00">2022-09-30</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>活到正确为止</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%A8%81%E6%9D%83%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>威权主义</a>
+          
+            , 
+            <a href="/tags/%E7%B2%BE%E8%8B%B1%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>精英主义</a>
+          
+            , 
+            <a href="/tags/%E6%A6%82%E7%8E%87">
+              <span class="hash">#</span>概率</a>
+          
+            , 
+            <a href="/tags/%E7%BB%9F%E8%AE%A1">
+              <span class="hash">#</span>统计</a>
+          
+            , 
+            <a href="/tags/%E6%9D%83%E5%8A%9B">
+              <span class="hash">#</span>权力</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="https://twitter.com/angryunclebrid/status/1575485291434909703">哈尼叔@谢特厚砍树</a>：</p>
+
+<p>一点人生经验：</p>
+
+<p>不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。</p>
+
+<p>但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。</p>
+
+<p>有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。</p>
+
+<p>这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。</p>
+
+<p>只有狗逼才敢说这对创作没有很大影响。</p>
+
+<p><a href="https://twitter.com/calon/status/1575629391039643648">Calon</a>：</p>
+
+<p>“只要死的不是我，这个世界就很棒。”</p>
+
+<p>战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。</p>
+
+<p>统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。</p>
+
+<p>如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？<br />
+我接触不到的，或者已经死去的人，又会是什么态度呢？</p>
+
+<p>而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。</p>
+
+<p>由此忽然想到一个看上去没什么关联的赌场概率统计问题：<br />
+一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。</p>
+
+<p>还有醉汉回家的例子：<br />
+醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。</p>
+
+<p>类似的，给定无限时间和无限子弹，总会等到上靶的那一天。<br />
+如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。</p>
+
+<p>换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。<br />
+威权主义政治精英自然就可以永远立于不败之地。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%b4%bb%e5%88%b0%e6%ad%a3%e7%a1%ae%e4%b8%ba%e6%ad%a2》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhuo-dao-zhengque-weizhi%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhuo-dao-zhengque-weizhi%2f&text= @calon %e6%b4%bb%e5%88%b0%e6%ad%a3%e7%a1%ae%e4%b8%ba%e6%ad%a2&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2022 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
