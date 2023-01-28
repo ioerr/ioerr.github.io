@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="人类最强大的工具" />
+<meta property="og:description" content="Song Ma：
+开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。
+Calon：
+我认为是广义的“语言”。
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。
+从这个角度看，电脑的信息沟通效率比人类高得多。
+不过电脑需要至少具备两个能力完全胜过人类：
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/" />
+
+
+
+<meta property="article:published_time" content="2022-12-09T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2022-12-09T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="人类最强大的工具">
+<meta itemprop="description" content="Song Ma：
+开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。
+Calon：
+我认为是广义的“语言”。
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。
+从这个角度看，电脑的信息沟通效率比人类高得多。
+不过电脑需要至少具备两个能力完全胜过人类：
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。">
+
+
+<meta itemprop="datePublished" content="2022-12-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2022-12-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="11">
+
+
+
+<meta itemprop="keywords" content="人类,语言,工具,电脑,信息,沟通,编码,知识,意识," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="人类最强大的工具"/>
+<meta name="twitter:description" content="Song Ma：
+开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。
+Calon：
+我认为是广义的“语言”。
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。
+从这个角度看，电脑的信息沟通效率比人类高得多。
+不过电脑需要至少具备两个能力完全胜过人类：
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2frenlei-zui-qiangda-de-gongju%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2022-12-09 12:00">2022-12-09</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>人类最强大的工具</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E4%BA%BA%E7%B1%BB">
+              <span class="hash">#</span>人类</a>
+          
+            , 
+            <a href="/tags/%E8%AF%AD%E8%A8%80">
+              <span class="hash">#</span>语言</a>
+          
+            , 
+            <a href="/tags/%E5%B7%A5%E5%85%B7">
+              <span class="hash">#</span>工具</a>
+          
+            , 
+            <a href="/tags/%E7%94%B5%E8%84%91">
+              <span class="hash">#</span>电脑</a>
+          
+            , 
+            <a href="/tags/%E4%BF%A1%E6%81%AF">
+              <span class="hash">#</span>信息</a>
+          
+            , 
+            <a href="/tags/%E6%B2%9F%E9%80%9A">
+              <span class="hash">#</span>沟通</a>
+          
+            , 
+            <a href="/tags/%E7%BC%96%E7%A0%81">
+              <span class="hash">#</span>编码</a>
+          
+            , 
+            <a href="/tags/%E7%9F%A5%E8%AF%86">
+              <span class="hash">#</span>知识</a>
+          
+            , 
+            <a href="/tags/%E6%84%8F%E8%AF%86">
+              <span class="hash">#</span>意识</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="https://twitter.com/songma/status/1600831363388944384">Song Ma</a>：</p>
+
+<p>开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。</p>
+
+<p><a href="https://twitter.com/calon/status/1600872615064653824">Calon</a>：</p>
+
+<p>我认为是广义的“语言”。<br />
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。<br />
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。</p>
+
+<p>从这个角度看，电脑的信息沟通效率比人类高得多。<br />
+不过电脑需要至少具备两个能力完全胜过人类：<br />
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；<br />
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e7%b1%bb%e6%9c%80%e5%bc%ba%e5%a4%a7%e7%9a%84%e5%b7%a5%e5%85%b7》&body=https%3a%2f%2fioerr.github.io%2fposts%2frenlei-zui-qiangda-de-gongju%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2frenlei-zui-qiangda-de-gongju%2f&text= @calon %e4%ba%ba%e7%b1%bb%e6%9c%80%e5%bc%ba%e5%a4%a7%e7%9a%84%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
