@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="灵活的巨兽" />
+<meta property="og:description" content="中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。
+ 有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：
+神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。
+即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。
+有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：
+信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。
+不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/linghuo-de-jushou/" />
+
+
+
+<meta property="article:published_time" content="2023-01-29T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-01-29T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="灵活的巨兽">
+<meta itemprop="description" content="中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。
+ 有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：
+神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。
+即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。
+有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：
+信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。
+不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。">
+
+
+<meta itemprop="datePublished" content="2023-01-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-01-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="7">
+
+
+
+<meta itemprop="keywords" content="利维坦,巨兽,权力,现代化,自由,法治,民主,反馈,组织,管理," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="灵活的巨兽"/>
+<meta name="twitter:description" content="中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。
+ 有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：
+神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。
+即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。
+有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：
+信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。
+不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flinghuo-de-jushou%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-01-29 12:00">2023-01-29</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>灵活的巨兽</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%88%A9%E7%BB%B4%E5%9D%A6">
+              <span class="hash">#</span>利维坦</a>
+          
+            , 
+            <a href="/tags/%E5%B7%A8%E5%85%BD">
+              <span class="hash">#</span>巨兽</a>
+          
+            , 
+            <a href="/tags/%E6%9D%83%E5%8A%9B">
+              <span class="hash">#</span>权力</a>
+          
+            , 
+            <a href="/tags/%E7%8E%B0%E4%BB%A3%E5%8C%96">
+              <span class="hash">#</span>现代化</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E7%94%B1">
+              <span class="hash">#</span>自由</a>
+          
+            , 
+            <a href="/tags/%E6%B3%95%E6%B2%BB">
+              <span class="hash">#</span>法治</a>
+          
+            , 
+            <a href="/tags/%E6%B0%91%E4%B8%BB">
+              <span class="hash">#</span>民主</a>
+          
+            , 
+            <a href="/tags/%E5%8F%8D%E9%A6%88">
+              <span class="hash">#</span>反馈</a>
+          
+            , 
+            <a href="/tags/%E7%BB%84%E7%BB%87">
+              <span class="hash">#</span>组织</a>
+          
+            , 
+            <a href="/tags/%E7%AE%A1%E7%90%86">
+              <span class="hash">#</span>管理</a>
+          
+        
+      </p>
+    </header>
+    <section><blockquote>
+<p>中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。</p>
+</blockquote>
+
+<p>有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：<br />
+神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。<br />
+即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。</p>
+
+<p>有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：<br />
+信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。<br />
+不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e7%81%b5%e6%b4%bb%e7%9a%84%e5%b7%a8%e5%85%bd》&body=https%3a%2f%2fioerr.github.io%2fposts%2flinghuo-de-jushou%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flinghuo-de-jushou%2f&text= @calon %e7%81%b5%e6%b4%bb%e7%9a%84%e5%b7%a8%e5%85%bd&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

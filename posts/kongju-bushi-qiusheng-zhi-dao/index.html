@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="恐惧不是生存之道" />
+<meta property="og:description" content="Tinyfool 和不明白播客录制了一期《ChatGPT 会如何改变我们的生活？》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。
+我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。
+所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 有人问，对修改基因技术和克隆技术怎么看？
+我的观点是：
+这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。
+学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。
+这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。
+奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。
+有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？
+如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？
+如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？
+如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？
+竞争这东西不是你想摆脱就摆脱的。
+Soulogic：
+杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了
+可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：
+不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。
+作为角斗士我支持奴隶制，因为我能打赢
+全世界无产者，联合起来！
+在我看来，这还是一种现代卢德主义。
+竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。
+就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。
+进步棘轮和红皇后效应避无可避。
+能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。
+人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/kongju-bushi-qiusheng-zhi-dao/" />
+
+
+
+<meta property="article:published_time" content="2023-03-08T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-03-08T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="恐惧不是生存之道">
+<meta itemprop="description" content="Tinyfool 和不明白播客录制了一期《ChatGPT 会如何改变我们的生活？》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。
+我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。
+所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 有人问，对修改基因技术和克隆技术怎么看？
+我的观点是：
+这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。
+学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。
+这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。
+奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。
+有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？
+如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？
+如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？
+如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？
+竞争这东西不是你想摆脱就摆脱的。
+Soulogic：
+杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了
+可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：
+不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。
+作为角斗士我支持奴隶制，因为我能打赢
+全世界无产者，联合起来！
+在我看来，这还是一种现代卢德主义。
+竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。
+就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。
+进步棘轮和红皇后效应避无可避。
+能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。
+人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。">
+
+
+<meta itemprop="datePublished" content="2023-03-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-03-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="33">
+
+
+
+<meta itemprop="keywords" content="技术,科技,ChatGPT,人工智能,基因,克隆,战争,AI,伦理,道德,文明,进化论,竞争,卢德主义," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="恐惧不是生存之道"/>
+<meta name="twitter:description" content="Tinyfool 和不明白播客录制了一期《ChatGPT 会如何改变我们的生活？》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。
+我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。
+所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。
+ 有人问，对修改基因技术和克隆技术怎么看？
+我的观点是：
+这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。
+学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。
+这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。
+奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。
+有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？
+如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？
+如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？
+如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？
+竞争这东西不是你想摆脱就摆脱的。
+Soulogic：
+杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了
+可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：
+不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。
+作为角斗士我支持奴隶制，因为我能打赢
+全世界无产者，联合起来！
+在我看来，这还是一种现代卢德主义。
+竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。
+就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。
+进步棘轮和红皇后效应避无可避。
+能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。
+人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkongju-bushi-qiusheng-zhi-dao%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-03-08 12:00">2023-03-08</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          
+            , 
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          </p>
+      <h1>恐惧不是生存之道</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%8A%80%E6%9C%AF">
+              <span class="hash">#</span>技术</a>
+          
+            , 
+            <a href="/tags/%E7%A7%91%E6%8A%80">
+              <span class="hash">#</span>科技</a>
+          
+            , 
+            <a href="/tags/chatgpt">
+              <span class="hash">#</span>ChatGPT</a>
+          
+            , 
+            <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">
+              <span class="hash">#</span>人工智能</a>
+          
+            , 
+            <a href="/tags/%E5%9F%BA%E5%9B%A0">
+              <span class="hash">#</span>基因</a>
+          
+            , 
+            <a href="/tags/%E5%85%8B%E9%9A%86">
+              <span class="hash">#</span>克隆</a>
+          
+            , 
+            <a href="/tags/%E6%88%98%E4%BA%89">
+              <span class="hash">#</span>战争</a>
+          
+            , 
+            <a href="/tags/ai">
+              <span class="hash">#</span>AI</a>
+          
+            , 
+            <a href="/tags/%E4%BC%A6%E7%90%86">
+              <span class="hash">#</span>伦理</a>
+          
+            , 
+            <a href="/tags/%E9%81%93%E5%BE%B7">
+              <span class="hash">#</span>道德</a>
+          
+            , 
+            <a href="/tags/%E6%96%87%E6%98%8E">
+              <span class="hash">#</span>文明</a>
+          
+            , 
+            <a href="/tags/%E8%BF%9B%E5%8C%96%E8%AE%BA">
+              <span class="hash">#</span>进化论</a>
+          
+            , 
+            <a href="/tags/%E7%AB%9E%E4%BA%89">
+              <span class="hash">#</span>竞争</a>
+          
+            , 
+            <a href="/tags/%E5%8D%A2%E5%BE%B7%E4%B8%BB%E4%B9%89">
+              <span class="hash">#</span>卢德主义</a>
+          
+        
+      </p>
+    </header>
+    <section><p><a href="https://twitter.com/tinyfool">Tinyfool</a> 和<a href="https://www.bumingbai.net/">不明白播客</a>录制了一期《<a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a>》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。</p>
+
+<blockquote>
+<p>我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。<br />
+我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。<br />
+所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。</p>
+</blockquote>
+
+<p>有人问，对修改基因技术和克隆技术怎么看？</p>
+
+<p>我的观点是：<br />
+这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。<br />
+学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。<br />
+这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。<br />
+奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。</p>
+
+<p>有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？<br />
+如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？</p>
+
+<p>如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？<br />
+如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？<br />
+竞争这东西不是你想摆脱就摆脱的。</p>
+
+<hr />
+
+<p><a href="https://twitter.com/Soulogic/status/1608499943408533504">Soulogic</a>：<br />
+杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了<br />
+可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：<br />
+不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。<br />
+作为角斗士我支持奴隶制，因为我能打赢</p>
+
+<p>全世界无产者，联合起来！</p>
+
+<hr />
+
+<p>在我看来，这还是一种现代卢德主义。<br />
+竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。<br />
+就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。<br />
+<a href="../zhishi-da-rongtong">进步棘轮</a>和红皇后效应避无可避。<br />
+能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。<br />
+人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%81%90%e6%83%a7%e4%b8%8d%e6%98%af%e7%94%9f%e5%ad%98%e4%b9%8b%e9%81%93》&body=https%3a%2f%2fioerr.github.io%2fposts%2fkongju-bushi-qiusheng-zhi-dao%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fkongju-bushi-qiusheng-zhi-dao%2f&text= @calon %e6%81%90%e6%83%a7%e4%b8%8d%e6%98%af%e7%94%9f%e5%ad%98%e4%b9%8b%e9%81%93&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
