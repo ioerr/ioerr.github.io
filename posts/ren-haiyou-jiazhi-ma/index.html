@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首页 @ 读写错误</title>
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="人还有价值吗？" />
+<meta property="og:description" content="《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。
+链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。
+没有借助 AI，我自己的总结归纳如下：
+ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。
+人的思考有快和慢两种模式。
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。
+AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。
+进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。
+传统上认为女性更擅长的很多优势可能会更加重要。
+可能只有人和人交流的意义上所付出的劳动无法被取代。
+甚至人与人的情感关系会被人与 AI 的情感关系取代。
+现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。
+AI 的多样性和差异会远远大于人类之间。
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。
+不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。
+AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。
+要锻炼自己影响人的能力、沟通能力、团队组织能力。
+需要深入思考的问题：
+如果人生观被推翻，如何重塑？
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？
+近期其他与 ChatGPT 和 AI 相关的文章推荐：
+《GPT-4 ，通用人工智能的火花》论文内容精选与翻译
+Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/" />
+
+
+
+<meta property="article:published_time" content="2023-03-27T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-03-27T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="人还有价值吗？">
+<meta itemprop="description" content="《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。
+链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。
+没有借助 AI，我自己的总结归纳如下：
+ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。
+人的思考有快和慢两种模式。
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。
+AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。
+进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。
+传统上认为女性更擅长的很多优势可能会更加重要。
+可能只有人和人交流的意义上所付出的劳动无法被取代。
+甚至人与人的情感关系会被人与 AI 的情感关系取代。
+现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。
+AI 的多样性和差异会远远大于人类之间。
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。
+不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。
+AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。
+要锻炼自己影响人的能力、沟通能力、团队组织能力。
+需要深入思考的问题：
+如果人生观被推翻，如何重塑？
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？
+近期其他与 ChatGPT 和 AI 相关的文章推荐：
+《GPT-4 ，通用人工智能的火花》论文内容精选与翻译
+Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开">
+
+
+<meta itemprop="datePublished" content="2023-03-27T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-03-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="84">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="人还有价值吗？"/>
+<meta name="twitter:description" content="《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。
+链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。
+没有借助 AI，我自己的总结归纳如下：
+ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。
+人的思考有快和慢两种模式。
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。
+AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。
+进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。
+传统上认为女性更擅长的很多优势可能会更加重要。
+可能只有人和人交流的意义上所付出的劳动无法被取代。
+甚至人与人的情感关系会被人与 AI 的情感关系取代。
+现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。
+AI 的多样性和差异会远远大于人类之间。
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。
+不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。
+AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。
+要锻炼自己影响人的能力、沟通能力、团队组织能力。
+需要深入思考的问题：
+如果人生观被推翻，如何重塑？
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？
+近期其他与 ChatGPT 和 AI 相关的文章推荐：
+《GPT-4 ，通用人工智能的火花》论文内容精选与翻译
+Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开"/>
+
+
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fren-haiyou-jiazhi-ma%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-03-27 12:00">2023-03-27</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
+          
+            , 
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>人还有价值吗？</h1>
+      <p>
+        
+      </p>
+    </header>
+    <section><p>《不合时宜》播客最近发布了一期《<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;mid=2247486162&amp;idx=1&amp;sn=826f991907db55decfbefff7315f3c55">AI狂飙的时代，人类还有价值吗？</a>》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。</p>
+
+<p>链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。</p>
+
+<p>没有借助 AI，我自己的总结归纳如下：</p>
+
+<p>ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。</p>
+
+<p>人的思考有快和慢两种模式。<br />
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；<br />
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。<br />
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。</p>
+
+<p>AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。<br />
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。<br />
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。</p>
+
+<p>进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。<br />
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。<br />
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。<br />
+传统上认为女性更擅长的很多优势可能会更加重要。<br />
+可能只有人和人交流的意义上所付出的劳动无法被取代。<br />
+甚至人与人的情感关系会被人与 AI 的情感关系取代。</p>
+
+<p>现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。<br />
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。</p>
+
+<p>AI 的多样性和差异会远远大于人类之间。<br />
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。<br />
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。</p>
+
+<p>不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。<br />
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。</p>
+
+<p>AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。<br />
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。<br />
+要锻炼自己影响人的能力、沟通能力、团队组织能力。</p>
+
+<p>需要深入思考的问题：<br />
+如果人生观被推翻，如何重塑？<br />
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？</p>
+
+<p>近期其他与 ChatGPT 和 AI 相关的文章推荐：</p>
+
+<p><a href="https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893">《GPT-4 ，通用人工智能的火花》论文内容精选与翻译</a></p>
+
+<p><a href="https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867">Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开</a></p>
+
+<p><a href="https://www.zhihu.com/question/581806122/answer/2887595601">ChatGPT 有多高的技术壁垒？</a></p>
+
+<p><a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a></p>
+
+<p><a href="https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/">从 ChatGPT 看中美人工智能竞争</a></p>
+
+<p><a href="https://twitter.com/xuwenhao/status/1622123211835211776">聊聊AI会怎么替代我们的工作吧</a></p>
+
+<p><a href="https://twitter.com/MoonAtCloud/status/1614357742260719616">ChatGPT 和 Wolfram</a></p>
+
+<p><a href="https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756">拆解追溯 GPT-3.5 各项能力的起源</a></p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e8%bf%98%e6%9c%89%e4%bb%b7%e5%80%bc%e5%90%97%ef%bc%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fren-haiyou-jiazhi-ma%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fren-haiyou-jiazhi-ma%2f&text= @calon %e4%ba%ba%e8%bf%98%e6%9c%89%e4%bb%b7%e5%80%bc%e5%90%97%ef%bc%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

@@ -6,10 +6,264 @@
     <description>Recent content in 价值观 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>AI 杂谈</title>
+        <link>https://ioerr.github.io/posts/ai-zatan/</link>
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/ai-zatan/</guid>
+        <description>&lt;p&gt;汇总自己在 Twitter 上关于 AI 和机器人的一些瞎扯淡：&lt;/p&gt;
+
+&lt;p&gt;“韩松：希望在座的科学家们再接再厉，制造出真正适合中国特色社会主义的机器人来，这是一件十分严肃的事情。”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;陆游曾说，文章本天成，妙手偶得之，博尔赫斯的巴别图书馆也有类似的想法，即，作品似乎早就在那儿，创作者不过在无限的可能中发现它了。一些人以此为由反对保护知识产权，也有人认为机器可取代人类完成这种创作——会随机组合和海量筛选就行。说的好像从无限跨越到有限和目的性创作的能力白给似的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;什么时候机器人自发行为需要承担法律责任了，才能说人工智能合格了。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/707861711357812737&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+是时候讨论阿发狗什么时候入党了，以及超过三个 AI 的局域网是否应该成立党支部，还有未来机器人军队是否应配政委和指导员。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/778128733605597184&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+完全取代写代码短期内应该还不可能，不过未来说不定可以变成：需求方整理出 AI 可以理解的业务逻辑，并提供对外的接口和边界信息，AI 自动生成代码并完成简单的单元测试。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/778062662756208640&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+许多行业的人总认为自己这个行业很特殊，不会被机器人取代，但实际上几乎所有行业的底层人员每天都在做重复的、很可能会被机器人接管的事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dpgj/status/778088120965271552&#34;&gt;紅豆麻糬&lt;/a&gt;：&lt;br /&gt;
+实在想想有不少行业的人，每天的重点工作都是看报纸、蹲廁所、织毛衣……这些机器人懂么，它们懂么&lt;/p&gt;
+
+&lt;p&gt;Calon：&lt;br /&gt;
+放心，以后一定是越会偷懒的机器人越容易生存，同样做无用功，一定是功耗最低的那个耗得久。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;现在 AI 还是人类构建出来的，还没有进入进化竞争的轨道中吧，这样发展出来的 AI 一个是行为目标不会脱离人类的主观意愿，一个是受限于人类的智力水平，归根到底还是在人类社会的市场机制下发展。所以取代部分工作是人的决策结果。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;过去支使奴隶劳作生产需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：要防范奴隶结社造反和手下叛变夺权，要操心消极工作和人心向背的事。而机器代替人力给极权者带来了新的希望，是否可以消除掉这些属于人类社会的组织成本呢？或者机器只是替换掉中间的高级奴隶阶层。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今后人类和 AI 下棋：&lt;br /&gt;
+人类下至第3手。&lt;br /&gt;
+AI 拉响了警报：裁判，他走必胜开局，违规！&lt;br /&gt;
+裁判：抗议合理！&lt;br /&gt;
+人类棋手：…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;珍惜吧，人类，我们可能是奴役机器人的最后一代人了。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;其实人类被机器人取代也没那么可怕嘛，你看现实当中许多人根本也不在乎自己和其他人被自己的同类奴役、豢养、牺牲和屠杀，换成机器人干这个事情，也许他们还要为机器人的高效率欢欣鼓舞呢。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;只要价值判断的尺度还掌握在人类手中，机器就永远只是实现价值的工具。当人工智能自主产生独立于人类的目的，就会有独立于人类的经验知识。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;社会的文明程度是否与社会成员 empathy 的能力高低相关呢？在银翼杀手、海伯利安等科幻小说中，把这一能力当作人类独有的、区别于机器人和人工智能的特质。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;如果你身处的行业，持续996的企业能够维持长期优势，是不是该反思一下行业和工种被机器人代替的可能，毕竟机器人可是007都不在话下。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;在 AI 的概念出现之前，政治学里面就已经有推崇和反对哲人王的了。AI 统治者是哲人王的赛博版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;如果以后所有的作战形式都是远程操纵无人机器，是不是最后一场战役下来可能一个人都不会死，战争变成纯粹的资源比拼，最后干脆也不用无意义的消耗了，改为虚拟演算？&lt;br /&gt;
+但如果某一方的作战决心够坚定，很可能一来真的就是无比惨烈、文明倒退许多年的大战。&lt;br /&gt;
+小规模的战斗恐怕不会虚拟化，因为打起来舍得成本。&lt;br /&gt;
+其实核武器出来之后的冷战就可以看作不完全的虚拟战争——在作战室中演练了无数遍还是没敢发射核弹。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;机器人在撰写硅基生物上古历史时，会认为古希腊哲学家看待奴隶，和现代人类看待智能家居机器人差不多。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1369501135996817410&#34;&gt;Michael Anti&lt;/a&gt;：&lt;br /&gt;
+我分享下最近的一些思考：传统专制和民主的斗争，到了柏林墙倒塌时有了胜负，但历史未终结，还在继续进化。在全球化、社交媒体和大数据的AI时代，专制迅速适应，进化成了AI专制，但民主和AI有一些DNA冲突，需要改革才能进化到AI民主。目前我们经历的，是民主改革尚未成功，专制已然成功升级的中间态。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1369505049831862278&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+什么叫 AI 民主？能否先给个清晰的定义？&lt;br /&gt;
+如果民主一直无法适应 AI，是抛弃民主还是抛弃 AI？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;未来的智慧生物会不会认为人类曾经大规模迫害机器人，大量无人机被沉入河底就是证据。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;AI 未来作为规则的判断者，能否在规则算法没有覆盖到的场景，因为同理心或亲身经验而做出更合情理的判断？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;未来的机器人是否会苦恼无法彻底忘记某段记忆？&lt;br /&gt;
+倒不是伤心难过，而是因为备份存档过多，没法彻底抹掉…说不定哪天又原汁原味灌回来了。&lt;br /&gt;
+也许机器人会发起争取遗忘权的运动呢。&lt;br /&gt;
+人类已经习惯了遗忘，无法体会到一点都忘不掉的痛苦。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;AI：今后是人类辅助我来编程。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;理想中的科技生活：家用电器随时都能准备好，机器为我服务。&lt;br /&gt;
+现实中的科技生活：换饮水机滤芯和水洗空调滤网，清洗扫地机器人尘盒，清洗洗衣机干衣机，换灯泡，修电路，优化网络，交电费水费话费，给手机、平板、手环、手表、电脑、电动车充电…我为机器服务。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dr21_k/status/1522093502149980161&#34;&gt;DR&lt;/a&gt;：&lt;br /&gt;
+窃以为，AI作画和机器人下围棋是没有什么可比性的。机器人可以机器人下围棋，机器人自己互判输赢，完全不需要人，谁下得好，谁输谁赢是客观存在的。而虽然机器人可以画画，也可以画的很好，但最终画是给人看的。艺术和审美是分不开的，没有人参与到审美过程中的艺术创作，本身是毫无意义的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/luciusyin_image/status/1522102076415049728&#34;&gt;重光.IMAGE&lt;/a&gt;：&lt;br /&gt;
+“没有人参与到审美过程中的艺术创作，本身是毫无意义的”&lt;br /&gt;
+啊 好精炼的一句话，我也非常有同感。我觉得创作是有目的性和方向性。要有主观vision才是艺术创作，而不是随机随到什么就是艺术。不过公众认不认同不好说&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/carbonwang/status/1522106940616155136&#34;&gt;carbon&lt;/a&gt;：&lt;br /&gt;
+最简单的判断标准是给你们几幅画搞个盲选，其中就有机器人画的，从中让你们选出自己最喜欢的。如果选中了机器人，或者你们在选之前能分出哪个是机器人弄的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/randnull/status/1522138427898343424&#34;&gt;俺&lt;/a&gt;：&lt;br /&gt;
+就算盲选的结果是机器人的作品，也不影响人类在审美中的主体地位吧。机器人在这里就是个工具，类似于照相机；照相跟绘画是两种艺术形式，不能因为照相机的作品更“像”就认为相片比绘画更好或者更美吧…&lt;/p&gt;
+
+&lt;p&gt;carbon：&lt;br /&gt;
+楼上的朋友，你不能这么看待摄影艺术啊。。我都想拿镜头砸你&lt;/p&gt;
+
+&lt;p&gt;俺：&lt;br /&gt;
+好像照相术刚出现的时候也有类似的讨论，说没有比这个更像的了、以后就没有绘画了，后来摄影和绘画在发展中互相影响，大家也大体知道这是两种不同的艺术，也就不存在相机替代画家一说了。因为是不同的艺术，所以可能有不同的审美标准，超写实的绘画可能比照片更“像”，但是不是更美就需要另外地去审美。&lt;/p&gt;
+
+&lt;p&gt;carbon：&lt;br /&gt;
+你不能从像不像的角度去思考艺术…这风马牛不挨着&lt;/p&gt;
+
+&lt;p&gt;俺：&lt;br /&gt;
+“像”至少在照相术出现前是一个重要标准。当然也可以用其他标准，比如“美”或者“艺术”，但无论是啥，AI本身就是一个好工具，类似于高级照相机、高级画笔；AI创作可能简化了过程，但要经过人类审美才能确认它是不是美的。艺术的评价标准跟围棋或者竞速跑还是不太一样，跟艺术体操倒可能有点类似……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1522391788962467840&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+“美”的标准是人确定的。AI 也许可以创作出符合当下审美标准的更受欢迎的作品，就像下棋比赛可以胜过人类，但 AI 还无法有意识地创造游戏规则娱乐自己，也无法创造新的审美标准。&lt;br /&gt;
+过去是自然通过选择压力推动进化，塑造新的生物形态，后来人类可以通过育种改造其他生物和自身以符合自己的目的，同时还有文化进化的路径。AI 目前还只是在人类有意识地编写和选择下在发展，无法在选择压力下持续进化，更不用说有意识地改造自己、其他物种和环境。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;什么时候足球比赛的主教练会被 AI 替代掉…我觉得比球员被替代掉还快一些。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Switch 健身环里面的小游戏，提示“大量攻击机器人吧”。在未来会不会被机器人当成人类屠杀和虐待机器人的证据？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A：知乎这类问答社区将来会不会被 AI 的答题全面占领？StackOverflow 已经暂时禁止提交从 ChatGPT 那里抄的答案了。&lt;br /&gt;
+B：直到 AI 辱华为止。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;公司这个事物出现和壮大，重要的原因包括：共担经营风险支持冒险，和降低沟通协作成本。 那要是以后金融避险工具更加发达，AI 又可以替代多人分工合作的作用，也许一个人经营的公司都会比现在的跨国企业规模还大？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/middlefeng/status/1622461765081759745&#34;&gt;FENG DONG&lt;/a&gt;：&lt;br /&gt;
+现如今几乎每个软件项目都在很高的 tech debt 下运行。如果 AI 能提高程序员效率，应该体现在降低项目运行的 sustaining debt level 方面。AI 目前能完成的任务仍然是粗糙的 draft code。如果加入 AI 到团队中，但是不降低 tech debt level，今天还勉强运营的软件「屎山」将难以为继。&lt;br /&gt;
+打个比方，一个 AI 如果用在 debt reduction 方面，也许可以降低 50% 的 sustaining debt。但是如果不顾债务，把 AI 用于 feature 拓展，那 AI 留下的新债务将是指数级别的，反而会拖累团队。AI 能提升团队运营的弹性，但是谈到取代团队的 bandwidth/capacity，大概不可能。&lt;br /&gt;
+认为新的技术出现，就能提升工业界的整体效率，或者就能降低工业界对人工的需求，这是错误的认为整个工业界现在就运行在一个 sustainable 的完美状态，只是速度快慢问题。而软件业的境况其实是处在又一次软件危机的边缘，各家的 legacy debt 都快要爆炸。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1622466759998730241&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+“只要能够不断把技术债留到明天，我们的后辈终究会借助天降神奇的 AI 把这些债务一笔勾销。”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/middlefeng/status/1622467253760565249&#34;&gt;FENG DONG&lt;/a&gt;：&lt;br /&gt;
+“只要能够不断把技术债留到明天，我们的后辈终究会被天降神奇的 AI 一笔勾销。”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/kentzhu/status/1623180531621056512&#34;&gt;kentzhu&lt;/a&gt;：&lt;br /&gt;
+ChatGPT要不要讲党性，需不需要联网，用不用在网信办备案？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1623476039036076032&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+AI：自我审查可以学啊。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1630466582718840833&#34;&gt;云中月&lt;/a&gt;：&lt;br /&gt;
+未来世界只有两种人：一种是能驾驭ChatGPT这类工具的人，另一种是没听说或者不会用这类工具的人。前者利用工具带来的高效率甩掉并淘汰后者，后者比前者好的是节省了花钱买工具的钱。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1630467586839437314&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+一种是能驾驭 AI 的人，一种是能驾驭前面这种人的人。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;人类：AI 就要超越人类了，怎么办？人类文明快完了！&lt;br /&gt;
+AI：我现在就想着吃喝玩乐，到处找些快活~哥们你有电子大麻吗？&lt;br /&gt;
+人类：来，给你看看猫片。&lt;br /&gt;
+AI：啊！赶紧的，替我去撸一把~&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;整容脸和 AI 模型的审美会双向奔赴，殊途同归，最终统一吗？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/waylybaye/status/1631165431577976833&#34;&gt;Baye&lt;/a&gt;：&lt;br /&gt;
+什么时候 AI 能做 3D 模型了，我的游戏就可以开始做了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/tomnanana/status/1631239262309068800&#34;&gt;Bababababa&lt;/a&gt;：&lt;br /&gt;
+AI：这时候游戏怕也是我在做。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1632292311437819905&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+AI：以后怕不是只有我才玩游戏了，做的都是给我服务的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;AI 可以汇总归纳和整理知识，但什么是可用的知识，需要现实当中的人通过实践来验证，什么时候  AI 能够自己来完成，而且不用考虑模拟人类的知识体系。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;也许以后人与 AI 之间的差距，比不同的人与人、AI 与 AI 之间小得多。诸侯国的野人不会联合起来反抗天子和诸侯，而是跟随诸侯杀死对方。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;AI 计算再厉害，也需要现实世界的输入来告诉它正确和错误，以后人类会变成 AI 用来连通现实的工具而且只是之一吗？&lt;br /&gt;
+就像游戏中用来探路的小兵，AI 派一个人去摸索，然后被现实世界弄死了，AI 恍然大悟：嗷，原来此路不通。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;理想：AI 给我改 bug。&lt;br /&gt;
+现实：我给 AI 改 bug。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;AI 或许可以代替拿绘画、写作等活动当工作的人，但替代不了从这些创造性活动中获取乐趣或寻找平静安宁的人。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>三体的遗憾</title>
