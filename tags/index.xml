@@ -142,6 +142,19 @@
       </item>
     
       <item>
+        <title>Aigc</title>
+        <link>https://ioerr.github.io/tags/aigc/</link>
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/tags/aigc/</guid>
+        <description></description>
+      </item>
+    
+      <item>
         <title>Android</title>
         <link>https://ioerr.github.io/tags/android/</link>
         <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
@@ -151,19 +164,6 @@
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/tags/android/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>Appstore</title>
-        <link>https://ioerr.github.io/tags/appstore/</link>
-        <pubDate>Thu, 20 May 2010 02:28:41 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/tags/appstore/</guid>
         <description></description>
       </item>
     

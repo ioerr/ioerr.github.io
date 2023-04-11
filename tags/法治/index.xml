@@ -6,10 +6,55 @@
     <description>Recent content in 法治 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E6%B3%95%E6%B2%BB/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>对《生成式人工智能服务管理办法》的意见和建议</title>
+        <link>https://ioerr.github.io/posts/dui-shengchengshi-rengong-zhineng-fuwu-guanli-banfa-de-yijian-he-jianyi/</link>
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/dui-shengchengshi-rengong-zhineng-fuwu-guanli-banfa-de-yijian-he-jianyi/</guid>
+        <description>&lt;p&gt;国家互联网信息办公室发布了《&lt;a href=&#34;http://www.cac.gov.cn/2023-04/11/c_1682854275475410.htm&#34;&gt;生成式人工智能服务管理办法（征求意见稿）&lt;/a&gt;》，向社会公开征求意见。&lt;br /&gt;
+花了点时间匆匆提交了一些不成体系的意见和建议，其实也知道不会起什么作用，而且问题的症结也不在某个行政部门，只是想表达观点，顺便吐槽。&lt;/p&gt;
+
+&lt;p&gt;不合理的条款会严重打击和影响我国人工智能领域创新的积极性，对中小企业的影响尤为严重，管理办法征求意见稿刚一发出，网络上就已经一片批评意见，在此AI技术发展和应用的关键节点，希望管理部门能够以更加包容、开放、服务、法治的管理意识为我国的人工智能领域发展保驾护航。&lt;/p&gt;
+
+&lt;p&gt;针对管理办法的意见和建议主要有以下几个方面：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;取消没有实际意义和多此一举的条款&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;取消实际会影响技术发展和推广应用的条款&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;取消增加服务者不合理责任的条款&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;取消或修改违背法治精神的条款&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;明确或取消执行标准模糊的条款&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;具体如下：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;第三条“国家支持人工智能算法、框架等基础技术的自主创新、推广应用、国际合作，鼓励优先采用安全可信的软件、工具、计算和数据资源”是没有实际意义的表态，且与后续条款实际效果不一致，建议取消；（我当然知道这种空话套话随处可见，什么时候可以彻底消灭掉呢？）&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;多个条款中“不得含有”、“采取措施防止出现”和“生成”、“保证数据的真实性、准确性、客观性、多样性”、“内容过滤”、“防止再次生成”、“对生成的内容进行标识”等的要求，不符合生成式人工智能的技术原理，实际执行只会导致打击而非鼓励自主创新、推广应用、国际合作的积极性，与第三条的精神冲突；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十条“采取适当措施防范用户过分依赖或沉迷生成内容”，此处过分依赖和沉迷的标准不明确，建议明确或取消；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十一条“不得根据用户输入信息和使用情况进行画像”，不应禁止互联网服务的用户画像行为，这是提升用户感知和服务质量的必要手段，应与不能推断个人身份相结合来确保用户隐私，无需对画像专门禁止；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十三条“提供者应当建立用户投诉接收处理机制”，投诉处理机制应由服务提供者自由决定是否提供，同时，涉及滥用、侵权行为的，不应由投诉处理机制承接，而应完善相应法律法规，通过法律途径解决；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十四条“提供者应当在生命周期内，提供安全、稳健、持续的服务，保障用户正常使用”属于企业自负其责的生产经营策略，不需要管理办法规定，建议取消；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十七条“提供者应当根据国家网信部门和有关主管部门的要求，提供可以影响用户信任、选择的必要信息”，建议进一步明确要求的主体部门和信息的范围、标准，方便执行；进一步地，建议经过认证后统一披露，向消费者推荐，而非强制要求提供；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第十八、十九条应由用户承担相应法律责任，而不应由服务方承担责任，且应避免鼓励向网信部门或者有关主管部门举报的条款，如果服务方和利用服务的用户的违法行为损害他人正当权益，应由被害人针对责任人提起法律诉讼，而不应鼓励第三方举报；管理部门应降低通过法律诉讼维护正当权益的成本；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;第二十条“法律、行政法规没有规定的，…”，属于通过行政管理部门行政管理办法扩大法外处罚范围，无论是终止服务还是罚款，都可能因为滥用而影响企业正常生产经营，也违背法治精神，建议取消，或改为通过人大审议后立法。（我当然也知道人大立法不过是走个过场，但总还是比依赖行政处罚的手段强）&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;其实还想提意见说施加在企业身上的不合理责任越多，越不利于中小企业的创新，是增加大企业不正当竞争和固化市场垄断的因素之一，但估计管理部门既不关心也不理解。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>审查的问题</title>
