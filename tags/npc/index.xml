@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npc on 读写错误</title>
+    <link>https://ioerr.github.io/tags/npc/</link>
+    <description>Recent content in Npc on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 13 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/npc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>NPC 的未来</title>
+        <link>https://ioerr.github.io/posts/npc-de-weilai/</link>
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/npc-de-weilai/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1646302873767264256&#34;&gt;云中月&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采集、战斗、开拓、结盟、欺骗、交易、经营，直到完成自己在游戏中的目标。游戏里的NPC（机器管理的配角）是无足轻重的，最多完成指路，提示，交谈这类边缘任务。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2304.03442.pdf&#34;&gt;这篇论文&lt;/a&gt;开拓了模拟类游戏的一个观念。游戏里的NPC（非人类角色）在ChatGPT的武装之下，不再依赖于外部人类角色而独自生存，他们互相对话，互相沟通。人类仅是一个看客，最多作为一个吟游诗人进入他们的生活，想办法用自然语言、通过对话籁影响和干预它们的游戏宇宙的进化。&lt;/p&gt;
+
+&lt;p&gt;原来的模拟游戏、策略游戏、角色扮演游戏都会在新的模式下有新的变种。不再是人类玩家作为角色进入游戏完成自己的目标，而是作为高维角色通过语言干预社会的发展，文明的进步。游戏内部在发展文明，我们作为《苏秦张仪》，《马可波罗》，《老子》，《智子》或者《歌者》去干预或加速游戏中文明的发展。&lt;/p&gt;
+
+&lt;p&gt;总之，这种生成式游戏代理的概念，让游戏里面的NPC以一种我们人类可以理解的方式独立存活，互相交往，协同发展。他们的文明进步不依赖于玩家，玩家升级成为一个干预文明的角色。最后游戏玩家比的不是自己的角色成就，而是自己的宇宙总体文明成就。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646308872049795073&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;观察和轻度干预式的游戏机制更适合模拟经营类游戏的玩家，角色扮演类的玩家需要更像真人的 NPC，更需要精心设计的关卡和剧情，自然演化出来的互动关系也许和现实一样平淡乏味，新鲜劲过去了就会追求更加激烈的形式。&lt;/p&gt;
+
+&lt;p&gt;曾经想象未来的游戏可以是玩家参与设计地图、关卡、人物和剧情，可以在线扩充，形成一个无限的世界。&lt;br /&gt;
+地图已经有很多游戏 MOD 实现了，关卡在马里奥制造这类游戏中也实现了，人物和剧情对玩家的要求有点高，更多停留在换皮上，看来 AI 有望都做到。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
