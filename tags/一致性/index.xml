@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>一致性 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E4%B8%80%E8%87%B4%E6%80%A7/</link>
+    <description>Recent content in 一致性 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E4%B8%80%E8%87%B4%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>无知的人最自信</title>
+        <link>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</link>
+        <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</guid>
+        <description>&lt;p&gt;判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。&lt;br /&gt;
+但怎么算是逻辑矛盾，不是那么容易看出来的。&lt;/p&gt;
+
+&lt;p&gt;光的波粒二象性曾经让物理学家抓狂。&lt;br /&gt;
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。&lt;/p&gt;
+
+&lt;p&gt;最终只有认知突破之后，才认识到不是那么简单。&lt;br /&gt;
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。&lt;/p&gt;
+
+&lt;p&gt;在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。&lt;br /&gt;
+但回头给认知范围还没有拓展的人听，他仍然不会理解。&lt;/p&gt;
+
+&lt;p&gt;越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

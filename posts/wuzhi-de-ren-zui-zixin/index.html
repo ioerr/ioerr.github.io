@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>无知的人最自信 @ 读写错误</title>
+
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="无知的人最自信" />
+<meta property="og:description" content="判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。
+但怎么算是逻辑矛盾，不是那么容易看出来的。
+光的波粒二象性曾经让物理学家抓狂。
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。
+最终只有认知突破之后，才认识到不是那么简单。
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。
+在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。
+但回头给认知范围还没有拓展的人听，他仍然不会理解。
+越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/" />
+
+
+
+<meta property="article:published_time" content="2023-04-23T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-04-23T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="无知的人最自信">
+<meta itemprop="description" content="判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。
+但怎么算是逻辑矛盾，不是那么容易看出来的。
+光的波粒二象性曾经让物理学家抓狂。
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。
+最终只有认知突破之后，才认识到不是那么简单。
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。
+在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。
+但回头给认知范围还没有拓展的人听，他仍然不会理解。
+越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。">
+
+
+<meta itemprop="datePublished" content="2023-04-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-04-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="9">
+
+
+
+<meta itemprop="keywords" content="科学,逻辑,一致性,阴谋论,无知,自信," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="无知的人最自信"/>
+<meta name="twitter:description" content="判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。
+但怎么算是逻辑矛盾，不是那么容易看出来的。
+光的波粒二象性曾经让物理学家抓狂。
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。
+最终只有认知突破之后，才认识到不是那么简单。
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。
+在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。
+但回头给认知范围还没有拓展的人听，他仍然不会理解。
+越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。"/>
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fwuzhi-de-ren-zui-zixin%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-04-23 12:00">2023-04-23</time> &bull;
+          
+            
+            <a href="/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF">求知求是</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>无知的人最自信</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E7%A7%91%E5%AD%A6">
+              <span class="hash">#</span>科学</a>
+          
+            , 
+            <a href="/tags/%E9%80%BB%E8%BE%91">
+              <span class="hash">#</span>逻辑</a>
+          
+            , 
+            <a href="/tags/%E4%B8%80%E8%87%B4%E6%80%A7">
+              <span class="hash">#</span>一致性</a>
+          
+            , 
+            <a href="/tags/%E9%98%B4%E8%B0%8B%E8%AE%BA">
+              <span class="hash">#</span>阴谋论</a>
+          
+            , 
+            <a href="/tags/%E6%97%A0%E7%9F%A5">
+              <span class="hash">#</span>无知</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E4%BF%A1">
+              <span class="hash">#</span>自信</a>
+          
+        
+      </p>
+    </header>
+    <section><p>判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。<br />
+但怎么算是逻辑矛盾，不是那么容易看出来的。</p>
+
+<p>光的波粒二象性曾经让物理学家抓狂。<br />
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。</p>
+
+<p>最终只有认知突破之后，才认识到不是那么简单。<br />
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。</p>
+
+<p>在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。<br />
+但回头给认知范围还没有拓展的人听，他仍然不会理解。</p>
+
+<p>越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%97%a0%e7%9f%a5%e7%9a%84%e4%ba%ba%e6%9c%80%e8%87%aa%e4%bf%a1》&body=https%3a%2f%2fioerr.github.io%2fposts%2fwuzhi-de-ren-zui-zixin%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fwuzhi-de-ren-zui-zixin%2f&text= @calon %e6%97%a0%e7%9f%a5%e7%9a%84%e4%ba%ba%e6%9c%80%e8%87%aa%e4%bf%a1&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          &#47;
+          <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">Github 评论</a>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        quicklink.listen();
+      });
+    </script>
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+    
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+  </body>
+</html>
