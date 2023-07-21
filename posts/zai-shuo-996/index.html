@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>再说996 @ 读写错误</title>
+
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="再说996" />
+<meta property="og:description" content="据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，判处有期徒刑五年，剥夺政治权利五年。
+“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。
+Datou：
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。
+Calon：
+在我看来，这类项目是个混合体。
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。
+Datou：
+“心甘情愿”和“是否值得”矛盾了。
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。
+Calon：
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。
+资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zai-shuo-996/" />
+
+
+
+<meta property="article:published_time" content="2023-06-16T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-06-16T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="再说996">
+<meta itemprop="description" content="据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，判处有期徒刑五年，剥夺政治权利五年。
+“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。
+Datou：
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。
+Calon：
+在我看来，这类项目是个混合体。
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。
+Datou：
+“心甘情愿”和“是否值得”矛盾了。
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。
+Calon：
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。
+资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。">
+
+
+<meta itemprop="datePublished" content="2023-06-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-06-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="25">
+
+
+
+<meta itemprop="keywords" content="996,劳动力市场,劳资博弈,奴隶,工会,垄断,自由," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="再说996"/>
+<meta name="twitter:description" content="据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，判处有期徒刑五年，剥夺政治权利五年。
+“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。
+Datou：
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。
+Calon：
+在我看来，这类项目是个混合体。
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。
+Datou：
+“心甘情愿”和“是否值得”矛盾了。
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。
+Calon：
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。
+资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。"/>
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzai-shuo-996%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-06-16 12:00">2023-06-16</time> &bull;
+          
+            
+            <a href="/categories/%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E">市场经济</a>
+          
+            , 
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          </p>
+      <h1>再说996</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/996">
+              <span class="hash">#</span>996</a>
+          
+            , 
+            <a href="/tags/%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%B8%82%E5%9C%BA">
+              <span class="hash">#</span>劳动力市场</a>
+          
+            , 
+            <a href="/tags/%E5%8A%B3%E8%B5%84%E5%8D%9A%E5%BC%88">
+              <span class="hash">#</span>劳资博弈</a>
+          
+            , 
+            <a href="/tags/%E5%A5%B4%E9%9A%B6">
+              <span class="hash">#</span>奴隶</a>
+          
+            , 
+            <a href="/tags/%E5%B7%A5%E4%BC%9A">
+              <span class="hash">#</span>工会</a>
+          
+            , 
+            <a href="/tags/%E5%9E%84%E6%96%AD">
+              <span class="hash">#</span>垄断</a>
+          
+            , 
+            <a href="/tags/%E8%87%AA%E7%94%B1">
+              <span class="hash">#</span>自由</a>
+          
+        
+      </p>
+    </header>
+    <section><p>据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，<a href="https://github.com/996icu/996.ICU/pull/26101">判处有期徒刑五年，剥夺政治权利五年</a>。</p>
+
+<p>“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。<br />
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。</p>
+
+<p><a href="https://twitter.com/Datou/status/1669493899818336256">Datou</a>：<br />
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。</p>
+
+<p><a href="https://twitter.com/calon/status/1669511344469712896">Calon</a>：<br />
+在我看来，这类项目是个混合体。<br />
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。<br />
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。<br />
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。<br />
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。</p>
+
+<p><a href="https://twitter.com/Datou/status/1669521344730644480">Datou</a>：<br />
+“心甘情愿”和“是否值得”矛盾了。<br />
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。</p>
+
+<p><a href="https://twitter.com/calon/status/1669525928953933824">Calon</a>：<br />
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。<br />
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。</p>
+
+<p>资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？<br />
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。<br />
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e5%86%8d%e8%af%b4996》&body=https%3a%2f%2fioerr.github.io%2fposts%2fzai-shuo-996%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fzai-shuo-996%2f&text= @calon %e5%86%8d%e8%af%b4996&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          
+          
+          <script src="https://giscus.app/client.js"
+              data-repo="ioerr/ioerr.github.io"
+              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+              data-category="General"
+              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+              data-mapping="pathname"
+              data-strict="1"
+              data-reactions-enabled="0"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="light_protanopia"
+              data-lang="zh-CN"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+          </script>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        quicklink.listen();
+      });
+    </script>
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+    
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+  </body>
+</html>

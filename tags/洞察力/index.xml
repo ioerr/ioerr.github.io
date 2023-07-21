@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>洞察力 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%B4%9E%E5%AF%9F%E5%8A%9B/</link>
+    <description>Recent content in 洞察力 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E6%B4%9E%E5%AF%9F%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>理解的鸿沟</title>
+        <link>https://ioerr.github.io/posts/lijie-de-honggou/</link>
+        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/lijie-de-honggou/</guid>
+        <description>&lt;p&gt;数学家拉马努金以其非凡的洞察力直觉天赋著称，喜欢凭感觉而不是写证明。许多他发现的公式，以及各种猜想，当时没有给出证明，后来往往被论证是对的。然而绝大部分数学家没有这种天赋。&lt;/p&gt;
+
+&lt;p&gt;自闭症中的一种，阿斯伯格综合征，患者在日常生活中总是会不由自主地要从接受的信息中分析模式，有的能够在海量信息中迅速找到其中的模式，发现信息之中的规律。拉马努金可能是拥有这种能力的佼佼者。&lt;/p&gt;
+
+&lt;p&gt;学生做数学题时也要借助这种寻找模式的能力。推导证明虽然需要严密论证，但缺少洞察能力，连迈出推导的方向都可能做不到，只能用海量的习题灌输已知经验。&lt;br /&gt;
+有的题目这个人可以一眼看出答案，另一个人却抓耳挠腮，茫然无助，原因可能是前者一眼就看出了信息中隐含的模式，而对后者来说仅仅是一堆数字。&lt;/p&gt;
+
+&lt;p&gt;扩展到其他方面，有的人有从纷繁复杂的信息中洞察模式的能力，但没有证明的意愿和能力，你要他说出个所以然来他也说不出来，但就是有这个直觉。&lt;br /&gt;
+这样就造成了彼此之间无法理解的鸿沟，就像那两个做数学题目的学生，“我怎么都推导不出来，你怎么可能一眼就看出答案？”&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Insta360 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/insta360/</link>
+    <description>Recent content in Insta360 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/insta360/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Insta360 Go2和 X3使用感知</title>
+        <link>https://ioerr.github.io/posts/insta-360-go2-he-x3-shiyong-ganzhi/</link>
+        <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/insta-360-go2-he-x3-shiyong-ganzhi/</guid>
+        <description>&lt;p&gt;看到 Insta360新推出了 Go3，从一些评测中我感觉 Go3相比上代进步不大，但评测视频大都只说优点不提槽点。正好最近跟网友提过 Go2 和 X3的优缺点，可以作为参考。&lt;/p&gt;
+
+&lt;p&gt;Go2的优势只有一个，就是小巧轻便，随身携带极其方便，完全体揣口袋里也就和蓝牙耳机盒差不多大。哪里都可以放，比如放水杯中、别在帽子上、挂在胸口，隐蔽、攻击性不强，拍摄对象压力小，可以解放双手。一些特殊场景就只有它能够拍到，特别是放入狭小空间，绑在小动物身上，或者小体积飞行器材，其他相机体积太大或太重了。&lt;/p&gt;
+
+&lt;p&gt;其他全是缺点，比如发热、耗电、不稳定、没有屏幕实时预览很麻烦、视角不够广、画质差等等。&lt;br /&gt;
+发热、耗电、没有屏幕、画质差这些问题，我在买前就了解过，所以能接受。本来不是持续记录，拍拍小品，没有必要长时间录制。视角不够广有点难受，因为没有屏幕预览（连手机发热耗电更严重），有时候对歪了调不回来，这也是后来买全景相机的原因。&lt;br /&gt;
+最差的是系统不稳定，比如可能是误触导致自动开机（放在充电盒内也能触发），无法关机导致发热到烫手，只能长按强制关机，或者按拍摄没有记录到，因为回放麻烦，当时没有发现，错过了就很让人头痛。&lt;br /&gt;
+还有无线连接不稳定，传输容易中断，因为不支持存储卡，所以要连线导出。&lt;/p&gt;
+
+&lt;p&gt;X3优势是屏幕大，全景拼接比较成熟（距离太近还是不行），自带的编辑工具处理360度场景谈不上非常好用但也还行，防水，性价比高。&lt;br /&gt;
+劣势是不是运动相机，镜头保护差（要加塑料保护壳），导出处理麻烦，画质一般。&lt;br /&gt;
+X3有两大类拍摄模式，全景拼接和单镜头。单镜头直接输出 MP4格式，分辨率较高，全景拼接整个场景分辨率高，但裁切成为正常视角导出，分辨率就有点不够用。追求画质的人会比较膈应。对我来说全景相机的作用和核心竞争力是拍得到，画质不是重点，所以还能接受。&lt;br /&gt;
+另外用于 Vlog 要额外考虑收音配件。&lt;br /&gt;
+X3的续航不错，我只买了一块电池都没有电量焦虑，但发热还是严重，支个伸缩自拍杆更好拿。&lt;/p&gt;
+
+&lt;p&gt;Go2和 X3都有陀螺仪不稳定的问题，有时候静止拍摄，导出的视频却会自动旋转视角，后期时要多打关键帧。&lt;br /&gt;
+两个机器都做不到开机迅速、即点即拍，即使一直开机，从按下拍摄按钮到开始记录也要好几秒时间，X3解决了空间上看到就拍到的痛点，但时间上的还是只能靠理光 GR 这样反应迅速的相机。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
