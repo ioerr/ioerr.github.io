@@ -160,7 +160,7 @@ canvas {
 }
 
 body,html {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: #303642;
 	height: 100%;
 	height: 100vh;
@@ -206,7 +206,7 @@ main {
 
 footer {
 	display: grid;
-	font-size: 21px;
+	font-size: 18px;
 	height: 100%;
 	line-height: 1;
 	padding: 0 1rem;
@@ -275,7 +275,8 @@ a {
 }
 
 a:active,a:hover,a:visited {
-	text-decoration: underline;
+	text-decoration-line: underline;
+  text-decoration-style: dashed;
 }
 
 nav {
