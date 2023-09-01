@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>新石头记 @ 读写错误</title>
+
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="新石头记" />
+<meta property="og:description" content="《二十年目睹之怪现状》的作者吴趼人写过一本科幻小说《新石头记》，书中有一理想国叫“文明境界”，行皇权专制制度，以孔儒道德教化民众，科技发达，文化繁荣，创建者名为东方强，字文明，三个儿子叫东方英、德、法，女儿叫东方美，女婿叫华自立，是化学博士华兴（字必振）的后裔。
+书中第二十六回借人物之口论政体优劣：
+ 共和制党派互相冲突，政策多变；立宪制是富家政体，贫富差异悬殊，社会主义均贫富非长久之计；有道德先生说，德育普及，宪政可废，做百姓时饱受德育，做官时就能做到“民之所好，好之，民之所恶，恶之。”，于是政权还给皇帝，回归专制政体，号称文明专制。
+ 第十四回，流氓泼皮王威儿道：
+ “福寿膏就同鸦片烟一般，不过鸦片烟是毛子带来的，吃不得。‘福寿膏’是咱们自己做的，吃了可以添福添寿，所以得了这个名儿。”
+ 第十五回，张老头和宝玉谈洋人：
+ 张老头：“洋人他打进京，原为的是和皇帝誁什么约章，谁知打了一个空。你说奇怪不奇怪？要叫咱们中国人，打破了人家的京城，皇帝都跑了，现成的金銮殿，还不往上头一坐么？谁知他们外国人，并不想做皇帝，只把圆明园放了一把火，烧个干净，就那么走了。”
+宝玉：“这个消息被义和团听见了，又说咱们是二毛子，造他的谣言呢。”
+张老头儿笑道：“他们老说不怕枪炮，那政打使馆，被洋枪打死的，也不知多少。好笑他们自己骗自己，拿着一杆来福枪，对着同伙的打去，果然打不倒，人家就信以为真了。谁知他那枪弹子，是倒放进去的，弹子打不出来，放的就同空枪一般。旁人被他骗了，倒也罢了，久而久之，他们自己也以果然不怕枪炮了。最可笑的，使馆里被他们攻打，自然也回敬。无奈使馆里面，没有许多枪弹子，便设法到外头来买。他们却拿了毛瑟枪子去卖给洋人，只说他拿了去，也打不死我们的，乐得赚他的钱。你说笨的可怜不可怜！”
+宝玉道：“既然要同他作对，还要和他交易，也不是个道理。”
+张老头儿道：“屺但这个，天天往使馆里供应伙食、煤、水的，不都是这班人么！”
+ 有人看到上面对政体的评论，说：
+科技发达，文化繁荣，生活安逸的话又何必在意皇权呢？
+要回答这个问题，分几种情况。
+第一种是大部分人只要衣食无忧、生活安逸，不在乎谁来统治，但有一小部分人自主意愿强于一般人，不甘居于人下。
+第二种是受皇权恩泽的那一部分人是不在意，但无缘君恩雨露的那一部分人就没法不在意。这既有空间分布上的差异，也可能是时间分布上的差异，比如寅吃卯粮、庞氏骗局。
+倘若皇权专制能够幸福万民、长治久安，我想辛亥革命的时候也不会非要推翻皇帝了。
+时至今日，绝大多数国家都认为皇权专制做不到这一点，不必为百年前急于复兴国族而将未来幻想架构于皇权专制之上的思想招魂。如果真要证明它做得到，也需要超越常规的证据才能说服大家。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/xin-shitouji/" />
+
+
+
+<meta property="article:published_time" content="2023-08-13T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-08-13T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="新石头记">
+<meta itemprop="description" content="《二十年目睹之怪现状》的作者吴趼人写过一本科幻小说《新石头记》，书中有一理想国叫“文明境界”，行皇权专制制度，以孔儒道德教化民众，科技发达，文化繁荣，创建者名为东方强，字文明，三个儿子叫东方英、德、法，女儿叫东方美，女婿叫华自立，是化学博士华兴（字必振）的后裔。
+书中第二十六回借人物之口论政体优劣：
+ 共和制党派互相冲突，政策多变；立宪制是富家政体，贫富差异悬殊，社会主义均贫富非长久之计；有道德先生说，德育普及，宪政可废，做百姓时饱受德育，做官时就能做到“民之所好，好之，民之所恶，恶之。”，于是政权还给皇帝，回归专制政体，号称文明专制。
+ 第十四回，流氓泼皮王威儿道：
+ “福寿膏就同鸦片烟一般，不过鸦片烟是毛子带来的，吃不得。‘福寿膏’是咱们自己做的，吃了可以添福添寿，所以得了这个名儿。”
+ 第十五回，张老头和宝玉谈洋人：
+ 张老头：“洋人他打进京，原为的是和皇帝誁什么约章，谁知打了一个空。你说奇怪不奇怪？要叫咱们中国人，打破了人家的京城，皇帝都跑了，现成的金銮殿，还不往上头一坐么？谁知他们外国人，并不想做皇帝，只把圆明园放了一把火，烧个干净，就那么走了。”
+宝玉：“这个消息被义和团听见了，又说咱们是二毛子，造他的谣言呢。”
+张老头儿笑道：“他们老说不怕枪炮，那政打使馆，被洋枪打死的，也不知多少。好笑他们自己骗自己，拿着一杆来福枪，对着同伙的打去，果然打不倒，人家就信以为真了。谁知他那枪弹子，是倒放进去的，弹子打不出来，放的就同空枪一般。旁人被他骗了，倒也罢了，久而久之，他们自己也以果然不怕枪炮了。最可笑的，使馆里被他们攻打，自然也回敬。无奈使馆里面，没有许多枪弹子，便设法到外头来买。他们却拿了毛瑟枪子去卖给洋人，只说他拿了去，也打不死我们的，乐得赚他的钱。你说笨的可怜不可怜！”
+宝玉道：“既然要同他作对，还要和他交易，也不是个道理。”
+张老头儿道：“屺但这个，天天往使馆里供应伙食、煤、水的，不都是这班人么！”
+ 有人看到上面对政体的评论，说：
+科技发达，文化繁荣，生活安逸的话又何必在意皇权呢？
+要回答这个问题，分几种情况。
+第一种是大部分人只要衣食无忧、生活安逸，不在乎谁来统治，但有一小部分人自主意愿强于一般人，不甘居于人下。
+第二种是受皇权恩泽的那一部分人是不在意，但无缘君恩雨露的那一部分人就没法不在意。这既有空间分布上的差异，也可能是时间分布上的差异，比如寅吃卯粮、庞氏骗局。
+倘若皇权专制能够幸福万民、长治久安，我想辛亥革命的时候也不会非要推翻皇帝了。
+时至今日，绝大多数国家都认为皇权专制做不到这一点，不必为百年前急于复兴国族而将未来幻想架构于皇权专制之上的思想招魂。如果真要证明它做得到，也需要超越常规的证据才能说服大家。">
+
+
+<meta itemprop="datePublished" content="2023-08-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-08-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="18">
+
+
+
+<meta itemprop="keywords" content="新石头记,皇权,专制,政体,共和,立宪,政治," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="新石头记"/>
+<meta name="twitter:description" content="《二十年目睹之怪现状》的作者吴趼人写过一本科幻小说《新石头记》，书中有一理想国叫“文明境界”，行皇权专制制度，以孔儒道德教化民众，科技发达，文化繁荣，创建者名为东方强，字文明，三个儿子叫东方英、德、法，女儿叫东方美，女婿叫华自立，是化学博士华兴（字必振）的后裔。
+书中第二十六回借人物之口论政体优劣：
+ 共和制党派互相冲突，政策多变；立宪制是富家政体，贫富差异悬殊，社会主义均贫富非长久之计；有道德先生说，德育普及，宪政可废，做百姓时饱受德育，做官时就能做到“民之所好，好之，民之所恶，恶之。”，于是政权还给皇帝，回归专制政体，号称文明专制。
+ 第十四回，流氓泼皮王威儿道：
+ “福寿膏就同鸦片烟一般，不过鸦片烟是毛子带来的，吃不得。‘福寿膏’是咱们自己做的，吃了可以添福添寿，所以得了这个名儿。”
+ 第十五回，张老头和宝玉谈洋人：
+ 张老头：“洋人他打进京，原为的是和皇帝誁什么约章，谁知打了一个空。你说奇怪不奇怪？要叫咱们中国人，打破了人家的京城，皇帝都跑了，现成的金銮殿，还不往上头一坐么？谁知他们外国人，并不想做皇帝，只把圆明园放了一把火，烧个干净，就那么走了。”
+宝玉：“这个消息被义和团听见了，又说咱们是二毛子，造他的谣言呢。”
+张老头儿笑道：“他们老说不怕枪炮，那政打使馆，被洋枪打死的，也不知多少。好笑他们自己骗自己，拿着一杆来福枪，对着同伙的打去，果然打不倒，人家就信以为真了。谁知他那枪弹子，是倒放进去的，弹子打不出来，放的就同空枪一般。旁人被他骗了，倒也罢了，久而久之，他们自己也以果然不怕枪炮了。最可笑的，使馆里被他们攻打，自然也回敬。无奈使馆里面，没有许多枪弹子，便设法到外头来买。他们却拿了毛瑟枪子去卖给洋人，只说他拿了去，也打不死我们的，乐得赚他的钱。你说笨的可怜不可怜！”
+宝玉道：“既然要同他作对，还要和他交易，也不是个道理。”
+张老头儿道：“屺但这个，天天往使馆里供应伙食、煤、水的，不都是这班人么！”
+ 有人看到上面对政体的评论，说：
+科技发达，文化繁荣，生活安逸的话又何必在意皇权呢？
+要回答这个问题，分几种情况。
+第一种是大部分人只要衣食无忧、生活安逸，不在乎谁来统治，但有一小部分人自主意愿强于一般人，不甘居于人下。
+第二种是受皇权恩泽的那一部分人是不在意，但无缘君恩雨露的那一部分人就没法不在意。这既有空间分布上的差异，也可能是时间分布上的差异，比如寅吃卯粮、庞氏骗局。
+倘若皇权专制能够幸福万民、长治久安，我想辛亥革命的时候也不会非要推翻皇帝了。
+时至今日，绝大多数国家都认为皇权专制做不到这一点，不必为百年前急于复兴国族而将未来幻想架构于皇权专制之上的思想招魂。如果真要证明它做得到，也需要超越常规的证据才能说服大家。"/>
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxin-shitouji%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-08-13 12:00">2023-08-13</time> &bull;
+          
+            
+            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+          
+            , 
+            <a href="/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94">书香剑气</a>
+          </p>
+      <h1>新石头记</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E6%96%B0%E7%9F%B3%E5%A4%B4%E8%AE%B0">
+              <span class="hash">#</span>新石头记</a>
+          
+            , 
+            <a href="/tags/%E7%9A%87%E6%9D%83">
+              <span class="hash">#</span>皇权</a>
+          
+            , 
+            <a href="/tags/%E4%B8%93%E5%88%B6">
+              <span class="hash">#</span>专制</a>
+          
+            , 
+            <a href="/tags/%E6%94%BF%E4%BD%93">
+              <span class="hash">#</span>政体</a>
+          
+            , 
+            <a href="/tags/%E5%85%B1%E5%92%8C">
+              <span class="hash">#</span>共和</a>
+          
+            , 
+            <a href="/tags/%E7%AB%8B%E5%AE%AA">
+              <span class="hash">#</span>立宪</a>
+          
+            , 
+            <a href="/tags/%E6%94%BF%E6%B2%BB">
+              <span class="hash">#</span>政治</a>
+          
+        
+      </p>
+    </header>
+    <section><p>《二十年目睹之怪现状》的作者吴趼人写过一本科幻小说《<a href="https://zh.wikisource.org/wiki/%E6%96%B0%E7%9F%B3%E9%A0%AD%E8%A8%98">新石头记</a>》，书中有一理想国叫“文明境界”，行皇权专制制度，以孔儒道德教化民众，科技发达，文化繁荣，创建者名为东方强，字文明，三个儿子叫东方英、德、法，女儿叫东方美，女婿叫华自立，是化学博士华兴（字必振）的后裔。</p>
+
+<p>书中第二十六回借人物之口论政体优劣：</p>
+
+<blockquote>
+<p>共和制党派互相冲突，政策多变；立宪制是富家政体，贫富差异悬殊，社会主义均贫富非长久之计；有道德先生说，德育普及，宪政可废，做百姓时饱受德育，做官时就能做到“民之所好，好之，民之所恶，恶之。”，于是政权还给皇帝，回归专制政体，号称文明专制。</p>
+</blockquote>
+
+<p>第十四回，流氓泼皮王威儿道：</p>
+
+<blockquote>
+<p>“福寿膏就同鸦片烟一般，不过鸦片烟是毛子带来的，吃不得。‘福寿膏’是咱们自己做的，吃了可以添福添寿，所以得了这个名儿。”</p>
+</blockquote>
+
+<p>第十五回，张老头和宝玉谈洋人：</p>
+
+<blockquote>
+<p>张老头：“洋人他打进京，原为的是和皇帝誁什么约章，谁知打了一个空。你说奇怪不奇怪？要叫咱们中国人，打破了人家的京城，皇帝都跑了，现成的金銮殿，还不往上头一坐么？谁知他们外国人，并不想做皇帝，只把圆明园放了一把火，烧个干净，就那么走了。”<br />
+宝玉：“这个消息被义和团听见了，又说咱们是二毛子，造他的谣言呢。”</p>
+
+<p>张老头儿笑道：“他们老说不怕枪炮，那政打使馆，被洋枪打死的，也不知多少。好笑他们自己骗自己，拿着一杆来福枪，对着同伙的打去，果然打不倒，人家就信以为真了。谁知他那枪弹子，是倒放进去的，弹子打不出来，放的就同空枪一般。旁人被他骗了，倒也罢了，久而久之，他们自己也以果然不怕枪炮了。最可笑的，使馆里被他们攻打，自然也回敬。无奈使馆里面，没有许多枪弹子，便设法到外头来买。他们却拿了毛瑟枪子去卖给洋人，只说他拿了去，也打不死我们的，乐得赚他的钱。你说笨的可怜不可怜！”<br />
+宝玉道：“既然要同他作对，还要和他交易，也不是个道理。”<br />
+张老头儿道：“屺但这个，天天往使馆里供应伙食、煤、水的，不都是这班人么！”</p>
+</blockquote>
+
+<p>有人看到上面对政体的评论，说：<br />
+科技发达，文化繁荣，生活安逸的话又何必在意皇权呢？</p>
+
+<p>要回答这个问题，分几种情况。<br />
+第一种是大部分人只要衣食无忧、生活安逸，不在乎谁来统治，但有一小部分人自主意愿强于一般人，不甘居于人下。<br />
+第二种是受皇权恩泽的那一部分人是不在意，但无缘君恩雨露的那一部分人就没法不在意。这既有空间分布上的差异，也可能是时间分布上的差异，比如寅吃卯粮、庞氏骗局。<br />
+倘若皇权专制能够幸福万民、长治久安，我想辛亥革命的时候也不会非要推翻皇帝了。<br />
+时至今日，绝大多数国家都认为皇权专制做不到这一点，不必为百年前急于复兴国族而将未来幻想架构于皇权专制之上的思想招魂。如果真要证明它做得到，也需要超越常规的证据才能说服大家。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%96%b0%e7%9f%b3%e5%a4%b4%e8%ae%b0》&body=https%3a%2f%2fioerr.github.io%2fposts%2fxin-shitouji%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxin-shitouji%2f&text= @calon %e6%96%b0%e7%9f%b3%e5%a4%b4%e8%ae%b0&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          
+          
+      </div>
+      <hr/>
+      <div>
+          <script src="https://giscus.app/client.js"
+              data-repo="ioerr/ioerr.github.io"
+              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+              data-category="General"
+              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+              data-mapping="pathname"
+              data-strict="1"
+              data-reactions-enabled="0"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="light_protanopia"
+              data-lang="zh-CN"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+          </script>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        quicklink.listen();
+      });
+    </script>
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+    
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+  </body>
+</html>

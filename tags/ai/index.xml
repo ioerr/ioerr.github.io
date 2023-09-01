@@ -6,10 +6,41 @@
     <description>Recent content in Ai on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>NPC 的生活</title>
+        <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
+        <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
+        <description>&lt;p&gt;推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：&lt;br /&gt;
+晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的&lt;br /&gt;
+突然就看哭了&lt;br /&gt;
+我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋&lt;br /&gt;
+有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应&lt;/p&gt;
+
+&lt;p&gt;我想到了2017年曾经提过一嘴：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;看到这个新闻，感觉设想终于有人实现了。&lt;br /&gt;
+但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。&lt;br /&gt;
+以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。&lt;/p&gt;
+
+&lt;p&gt;也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。&lt;br /&gt;
+这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>数字异化</title>
