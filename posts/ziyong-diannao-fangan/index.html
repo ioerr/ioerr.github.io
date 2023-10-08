@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>自用电脑方案 @ 读写错误</title>
+
+<meta name="author" content="Calon">
+<meta name="description" content="Don&#39;t Panic">
+
+<meta name="generator" content="Hugo 0.34" />
+
+
+<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+
+
+
+<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
+
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
+<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
+
+<meta property="og:title" content="自用电脑方案" />
+<meta property="og:description" content="近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。
+之前的机器条件和使用环境是这样的：
+ 一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张
+ 一台威联通 NAS 用于数据存储和备份
+ 一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用
+ 一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件
+ 一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便
+ 笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事
+ 每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛
+ 通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除
+  工作和自用需求有：
+ 需要处理、存储、管理大量照片
+ 需要归档存储文档、书籍资料
+ 偶尔要玩 PC 游戏，但对硬件配置要求不高
+ 日常出行要能够随时处理公务
+ 同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记
+ 要方便工作时会议投影
+ 电池续航时间长，在外充电方便
+ 偶尔要处理视频
+ 偶尔需要手绘
+  最开始是考虑 iPad Pro、Surface 这类二合一平板设备。
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/ziyong-diannao-fangan/" />
+
+
+
+<meta property="article:published_time" content="2023-09-28T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2023-09-28T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="自用电脑方案">
+<meta itemprop="description" content="近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。
+之前的机器条件和使用环境是这样的：
+ 一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张
+ 一台威联通 NAS 用于数据存储和备份
+ 一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用
+ 一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件
+ 一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便
+ 笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事
+ 每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛
+ 通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除
+  工作和自用需求有：
+ 需要处理、存储、管理大量照片
+ 需要归档存储文档、书籍资料
+ 偶尔要玩 PC 游戏，但对硬件配置要求不高
+ 日常出行要能够随时处理公务
+ 同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记
+ 要方便工作时会议投影
+ 电池续航时间长，在外充电方便
+ 偶尔要处理视频
+ 偶尔需要手绘
+  最开始是考虑 iPad Pro、Surface 这类二合一平板设备。
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。">
+
+
+<meta itemprop="datePublished" content="2023-09-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2023-09-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="144">
+
+
+
+<meta itemprop="keywords" content="小主机,NAS,电脑,远程桌面,笔记本电脑,平板电脑,推荐,便携," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="自用电脑方案"/>
+<meta name="twitter:description" content="近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。
+之前的机器条件和使用环境是这样的：
+ 一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张
+ 一台威联通 NAS 用于数据存储和备份
+ 一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用
+ 一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件
+ 一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便
+ 笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事
+ 每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛
+ 通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除
+  工作和自用需求有：
+ 需要处理、存储、管理大量照片
+ 需要归档存储文档、书籍资料
+ 偶尔要玩 PC 游戏，但对硬件配置要求不高
+ 日常出行要能够随时处理公务
+ 同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记
+ 要方便工作时会议投影
+ 电池续航时间长，在外充电方便
+ 偶尔要处理视频
+ 偶尔需要手绘
+  最开始是考虑 iPad Pro、Surface 这类二合一平板设备。
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。"/>
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  </head>
+  <body>
+    <nav>
+  
+  
+  
+  
+  
+  
+  
+  <div class="nav">
+    
+      <a href="/" title="Homepage">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+      </a>
+    
+    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
+      搜
+    </a>
+    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
+      邮
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fziyong-diannao-fangan%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
+      推
+    </a>
+    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
+      照
+    </a>
+    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
+      评
+    </a>
+    <a href="/index.xml" title="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="rss"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+    <main>
+      
+  <article>
+    <header>
+      <p>
+        <time datetime="2023-09-28 12:00">2023-09-28</time> &bull;
+          
+            
+            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+          </p>
+      <h1>自用电脑方案</h1>
+      <p>
+        
+          
+            
+            <a href="/tags/%E5%B0%8F%E4%B8%BB%E6%9C%BA">
+              <span class="hash">#</span>小主机</a>
+          
+            , 
+            <a href="/tags/nas">
+              <span class="hash">#</span>NAS</a>
+          
+            , 
+            <a href="/tags/%E7%94%B5%E8%84%91">
+              <span class="hash">#</span>电脑</a>
+          
+            , 
+            <a href="/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2">
+              <span class="hash">#</span>远程桌面</a>
+          
+            , 
+            <a href="/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91">
+              <span class="hash">#</span>笔记本电脑</a>
+          
+            , 
+            <a href="/tags/%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91">
+              <span class="hash">#</span>平板电脑</a>
+          
+            , 
+            <a href="/tags/%E6%8E%A8%E8%8D%90">
+              <span class="hash">#</span>推荐</a>
+          
+            , 
+            <a href="/tags/%E4%BE%BF%E6%90%BA">
+              <span class="hash">#</span>便携</a>
+          
+        
+      </p>
+    </header>
+    <section><p>近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。</p>
+
+<p>之前的机器条件和使用环境是这样的：</p>
+
+<ul>
+<li>一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张<br /></li>
+<li>一台威联通 NAS 用于数据存储和备份<br /></li>
+<li>一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用<br /></li>
+<li>一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件<br /></li>
+<li>一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便<br /></li>
+<li>笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事<br /></li>
+<li>每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛<br /></li>
+<li>通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除<br />
+<br /></li>
+</ul>
+
+<p>工作和自用需求有：</p>
+
+<ul>
+<li>需要处理、存储、管理大量照片<br /></li>
+<li>需要归档存储文档、书籍资料<br /></li>
+<li>偶尔要玩 PC 游戏，但对硬件配置要求不高<br /></li>
+<li>日常出行要能够随时处理公务<br /></li>
+<li>同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记<br /></li>
+<li>要方便工作时会议投影<br /></li>
+<li>电池续航时间长，在外充电方便<br /></li>
+<li>偶尔要处理视频<br /></li>
+<li>偶尔需要手绘<br />
+<br /></li>
+</ul>
+
+<p>最开始是考虑 iPad Pro、Surface 这类二合一平板设备。<br />
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。<br />
+Surface 性价比低，同样的价钱换来的性能太差，Pro 系列尺寸不算便携，Go 系列性能实在是不行。</p>
+
+<p>然后是各种办公笔记本，MacBook、ThinkPad、联想小新等等，普遍的问题是屏幕尺寸太大不便携、配置稍微好一点就很贵。<br />
+还考虑了 GPD 、壹号本等号称给网络工程师设计的口袋本，但一来价格也不低，二来对质量和售后不放心，三来有各种设计上的槽点无法接受。</p>
+
+<p>接着又考虑 iPad mini 和三星 Galaxy Tab S 系列平板，综合考虑下来淘汰了三星平板，入手 iPad mini 6 64GB 版本，价格3400元左右。<br />
+如此用远程桌面方式控制办公笔记本，或者连接云电脑，可以应急处理公务，同时满足读书、笔记、手绘功能。<br />
+但性能方面仍然没有满足，由于网络时延影响，性能体验反而更差。<br />
+在本地管理大量文件也不方便。</p>
+
+<p>最终想到了一个可以兼顾各种需求，短板又不算很痛苦的方案：</p>
+
+<p><strong>小平板+小主机+原有笔记本+NAS</strong></p>
+
+<ul>
+<li><p>小平板：iPad mini 6<br />
+上面已经说了，随身携带很轻巧，虽然不如 Kindle 小巧，胜在阅读 PDF、epub 等通用格式，笔记记录、同步、导出更方便。<br />
+作为随身的远程控制台，各方面都可以临时胜任，腾出 Kindle 给孩子看书用。</p></li>
+
+<li><p>小主机：零刻 SER6 Pro<br />
+买的时候7还没有上市，因此买的6 Pro 32GB 版本。<br />
+CPU 性能、内存大小，办公绰绰有余，图片处理和中型游戏不在话下，视频处理能够胜任，能耗不算高，较大的缺点就是发热和风扇噪音无法兼顾。<br />
+其实具体的配置不重要，根据需求选一个你觉得日常够用的随便什么机器就行。<br />
+不用的时候进入低功耗状态，如果不幸死机无法唤醒，用米家应用控制小米智能插线板关电再强制重开机。<br />
+另外购买一个 Ehomewei 的外接显示器，总投资在4000元左右。</p></li>
+
+<li><p>原有笔记本<br />
+公司的笔记本继续发挥余热，一直丢在办公桌上就好，也不必24小时开机了。<br />
+比 iPad mini 接口多，适合投影、外接设备，带着开会也不显眼。<br />
+作为工作岗位上的远程控制台，原本捉襟见肘的性能就富余了。</p></li>
+
+<li><p>NAS<br />
+没有开公网访问，与小主机在同一个网段网络，通过小主机传输文件。<br />
+配置作为小主机的网络驱动器使用，指定盘符直接访问。<br />
+Total Commander 管理文件；<br />
+Everything 和 FileLocator Pro 用于快速搜索——威联通的搜索工具用不惯；<br />
+Picasa 通过指定盘符索引、管理照片。</p></li>
+
+<li><p>其他投入<br />
+加购一个罗技 M575 轨迹球，不到200元。<br />
+办公室和家里各放一个，不用每天背着跑，进一步减轻负担。<br />
+可移动可折叠升降电脑桌，不到600元，放外接显示器、键盘、轨迹球<br />
+试验了各种远程桌面工具，最终用 ZeroTier 搭建虚拟网络，用微软 Windows 自带的远程桌面作为主力。<br />
+Raylink 和 ToDesk 作为备用。</p></li>
+</ul>
+
+<p>除了已有的设备外，以上总投入8300元以下。<br />
+相比购买一个同等价位的高性能笔记本随身携带，背负压力少了很多；<br />
+小主机接口更加丰富，同时续航时间长；<br />
+大部分处理集中在一台电脑上，减少了许多数据同步和切换场景，回家开屏幕就用；<br />
+顺便满足了笔记、绘画的需求。</p>
+
+<p>缺点主要是：<br />
+小主机比笔记本电脑多出来的电费；<br />
+网络质量差会影响体验，但因为不会远程玩时延要求高的大型游戏，影响不大；<br />
+远程桌面连接不上的风险——大半年下来遇到过几次，所以准备了多个备用方案和应急处理方案，目前还没有被坑死过。</p>
+</section>
+    <footer>
+      <div>
+          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%87%aa%e7%94%a8%e7%94%b5%e8%84%91%e6%96%b9%e6%a1%88》&body=https%3a%2f%2fioerr.github.io%2fposts%2fziyong-diannao-fangan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
+          &#47;
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fziyong-diannao-fangan%2f&text= @calon %e8%87%aa%e7%94%a8%e7%94%b5%e8%84%91%e6%96%b9%e6%a1%88&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          
+          
+      </div>
+      <hr/>
+      <div>
+          <script src="https://giscus.app/client.js"
+              data-repo="ioerr/ioerr.github.io"
+              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+              data-category="General"
+              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+              data-mapping="pathname"
+              data-strict="1"
+              data-reactions-enabled="0"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="light_protanopia"
+              data-lang="zh-CN"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+          </script>
+      </div>
+      
+    </footer>
+  </article>
+
+    </main>
+    <footer>
+  <div class="powered-by">
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </div>
+  <div class="copyright">
+    &copy; 2023 Calon.
+  </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        quicklink.listen();
+      });
+    </script>
+    <script src="/assets/js/main.28b0c18ba028.js"></script>
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-113168340-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+    
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+  </body>
+</html>
