@@ -142,7 +142,7 @@ done
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
-        <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。&lt;br /&gt;
+        <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。
 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。&lt;/p&gt;
 
 &lt;p&gt;如果需要预览才能用好，那是否说明 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 还不够简单、直观？&lt;/p&gt;
@@ -151,12 +151,12 @@ done
 
 &lt;p&gt;如果要用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;，我一般会通过 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 转换输出为 HTML 再发布，这样不管是不支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 语法的，还是支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 &lt;a href=&#34;https://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 等平台上，当然还是用 HTML 比较通用。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的一大好处是支持的输入输出格式极为丰富，简单的东西用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的一大好处是支持的输入输出格式极为丰富，简单的东西用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
 其次是可以自定义的参数一大堆，比如 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 中要求行末加双空格才转为换行，&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 用 markdown+hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。&lt;/p&gt;
 
 &lt;p&gt;如果配合 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 使用，安装 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 后可以在工具栏中增加 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的快捷图标，参数栏中写上：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;code&amp;gt;-f markdown+hard_line_breaks %N -o %O.html&amp;lt;/code&amp;gt;
+&lt;pre&gt;&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。&lt;/p&gt;

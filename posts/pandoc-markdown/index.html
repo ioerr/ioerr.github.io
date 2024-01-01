@@ -33,15 +33,13 @@
 <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
 
 <meta property="og:title" content="Pandoc &amp; Markdown" />
-<meta property="og:description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。
-Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
+<meta property="og:description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。 Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
 如果需要预览才能用好，那是否说明 Markdown 还不够简单、直观？
 我使用 Markdown 的次数不多，因为 Vim &#43; HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 Markdown。
 如果要用 Markdown，我一般会通过 Pandoc 转换输出为 HTML 再发布，这样不管是不支持 Markdown 语法的，还是支持 Markdown 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 WordPress 等平台上，当然还是用 HTML 比较通用。
-Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
-其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
+Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。 其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
 如果配合 Total Commander 使用，安装 Pandoc 后可以在工具栏中增加 Pandoc 的快捷图标，参数栏中写上：
-&lt;code&gt;-f markdown&#43;hard_line_breaks %N -o %O.html&lt;/code&gt;  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
+-f markdown&#43;hard_line_breaks %N -o %O.html  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
 不使用 Total Commander 也可以自己写个脚本或批处理干这事。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/pandoc-markdown/" />
@@ -65,15 +63,13 @@ Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东�
 
 
 <meta itemprop="name" content="Pandoc &amp; Markdown">
-<meta itemprop="description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。
-Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
+<meta itemprop="description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。 Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
 如果需要预览才能用好，那是否说明 Markdown 还不够简单、直观？
 我使用 Markdown 的次数不多，因为 Vim &#43; HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 Markdown。
 如果要用 Markdown，我一般会通过 Pandoc 转换输出为 HTML 再发布，这样不管是不支持 Markdown 语法的，还是支持 Markdown 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 WordPress 等平台上，当然还是用 HTML 比较通用。
-Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
-其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
+Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。 其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
 如果配合 Total Commander 使用，安装 Pandoc 后可以在工具栏中增加 Pandoc 的快捷图标，参数栏中写上：
-&lt;code&gt;-f markdown&#43;hard_line_breaks %N -o %O.html&lt;/code&gt;  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
+-f markdown&#43;hard_line_breaks %N -o %O.html  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
 不使用 Total Commander 也可以自己写个脚本或批处理干这事。">
 
 
@@ -86,15 +82,13 @@ Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东�
 <meta itemprop="keywords" content="Markdown,Pandoc,写作,文本编辑,标记语言,格式转换," />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Pandoc &amp; Markdown"/>
-<meta name="twitter:description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。
-Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
+<meta name="twitter:description" content="实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。 Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。
 如果需要预览才能用好，那是否说明 Markdown 还不够简单、直观？
 我使用 Markdown 的次数不多，因为 Vim &#43; HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 Markdown。
 如果要用 Markdown，我一般会通过 Pandoc 转换输出为 HTML 再发布，这样不管是不支持 Markdown 语法的，还是支持 Markdown 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 WordPress 等平台上，当然还是用 HTML 比较通用。
-Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
-其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
+Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东西用 Markdown 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。 其次是可以自定义的参数一大堆，比如 Markdown 中要求行末加双空格才转为换行，Pandoc 用 markdown&#43;hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。
 如果配合 Total Commander 使用，安装 Pandoc 后可以在工具栏中增加 Pandoc 的快捷图标，参数栏中写上：
-&lt;code&gt;-f markdown&#43;hard_line_breaks %N -o %O.html&lt;/code&gt;  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
+-f markdown&#43;hard_line_breaks %N -o %O.html  其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。
 不使用 Total Commander 也可以自己写个脚本或批处理干这事。"/>
 
 
@@ -213,7 +207,7 @@ Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东�
         
       </p>
     </header>
-    <section><p>实在不明白为什么很多人需要编辑器有 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。<br />
+    <section><p>实在不明白为什么很多人需要编辑器有 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。
 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。</p>
 
 <p>如果需要预览才能用好，那是否说明 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 还不够简单、直观？</p>
@@ -222,12 +216,12 @@ Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东�
 
 <p>如果要用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>，我一般会通过 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 转换输出为 HTML 再发布，这样不管是不支持 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 语法的，还是支持 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 <a href="https://wordpress.org/">WordPress</a> 等平台上，当然还是用 HTML 比较通用。</p>
 
-<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的一大好处是支持的输入输出格式极为丰富，简单的东西用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。<br />
+<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的一大好处是支持的输入输出格式极为丰富，简单的东西用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
 其次是可以自定义的参数一大堆，比如 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 中要求行末加双空格才转为换行，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 用 markdown+hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。</p>
 
 <p>如果配合 <a href="http://www.ghisler.com/">Total Commander</a> 使用，安装 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 后可以在工具栏中增加 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的快捷图标，参数栏中写上：</p>
 
-<pre><code>&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html&lt;/code&gt;
+<pre><code>-f markdown+hard_line_breaks %N -o %O.html
 </code></pre>
 
 <p>其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。</p>
@@ -271,7 +265,7 @@ Pandoc 的一大好处是支持的输入输出格式极为丰富，简单的东�
     Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
   </div>
   <div class="copyright">
-    &copy; 2023 Calon.
+    &copy; 2024 Calon.
   </div>
 </footer>
 
