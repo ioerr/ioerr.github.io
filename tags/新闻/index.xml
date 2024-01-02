@@ -6,10 +6,55 @@
     <description>Recent content in 新闻 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2009 15:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E6%96%B0%E9%97%BB/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>民主的新闻媒体神话</title>
+        <link>https://ioerr.github.io/posts/minzhu-de-xinwen-meiti-shenhua/</link>
+        <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/minzhu-de-xinwen-meiti-shenhua/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/horsezhanbin/status/1719859494656819544&#34;&gt;horse&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;新闻业一直认为自己是在 “捍卫民主”，在新闻理论和实践里，很多讨论都是如何报道、如何提供信息等，认为真实、讨论这些东西是民主的基石，不同阶层、社群都应该发声。可惜的是，同样的讨论和研究、探索和实践，现在应该在 “算法业” 进行。其实，民主的捍卫已经要交给 “算法” 了，从目前来看，这个领域还没开始，即便已经备受批评。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1719868693767913975&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;我认为这是民主制度本身的问题而不是算法问题，算法大行其道是全国和全球性媒体强势和泛滥，以及民众市场选择的结果，它是应这种制度而生的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/horsezhanbin/status/1719872057834615228&#34;&gt;horse&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;新闻开始是自由报道，十分泛滥，黄色小报大行其道，在广泛批评之下，也算是新闻业自己的人提出了“责任”概念，新闻走向专业性 blabla…&lt;br /&gt;
+我大概能看到一个比较清晰的新闻业探索的道路，但是没太能看到“算法”开始响应问题…&lt;br /&gt;
+这个不是民主问题更是“资本主义”的问题吧？民众运动也一直在对大资本提出限制要求。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/CatChen/status/1719957122207862908&#34;&gt;Cat Chen&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;这是一个商业模式的问题。新闻业通过流量盈利，老的商业模式是读者选择读什么，所以媒体可以通过内容质量差异化进行竞争。最重要的一步，是读者竟然接受了这种差异化，然来用脚投票给高质量媒体流量。新的商业模式是读者选择一个平台，平台决定喂什么给读者，平台发现质量和流量并非绑定。&lt;/p&gt;
+
+&lt;p&gt;现在也有平台探索质量差异化模式，问题是我们还不知道读者是否买单。读者买单，是读者要付费的，而很多平台现在根本不需要也不想要读者付费，流量已经带来了充足的盈利。现在少数收费且号称高质量的平台，最终成不成还很难说。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1719968767365755218&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;我的观点是，太多消费者关注千里之外既没有能力核实判断，也没有正常合理的干预手段，更对自己影响甚微的争议事件，新闻媒体给了消费者参与运用第四权力的幻觉，并借此扩展权力、盈利和回避监督，消费者以为自己经过严肃的政治思考和讨论，而实际在选择、塑造迎合自己政治倾向和娱乐消费的环境。&lt;/p&gt;
+
+&lt;p&gt;新闻媒体理想主义者以为的消费者，是有社会责任感和道德原则，注重理性批判反思，愿意为真实、深度的新闻买单。&lt;br /&gt;
+而实际上的绝大多数消费者，是喜新厌旧、窥淫猎奇、用臆想代替同情，自认为是社会主流道德的代表，反射性地迅速做出简单判断，并想要马上看到作用，来加强这种幻想。&lt;/p&gt;
+
+&lt;p&gt;新闻媒体以为自己是第四权力、无冕之王、社会良心、言论自由捍卫者，但光是强调新闻专业责任的自我约束还不足以营造良性环境——谁能让消费者快速获取片段信息，享受信息茧房的温暖和一句话千里之外致人于死地的权力快感，同时又不用付出代价，谁才能活得最滋润，于是算法加持的社交媒体能翻天覆地。&lt;/p&gt;
+
+&lt;p&gt;新闻媒体和消费者共同塑造了民主制度下的神话：&lt;br /&gt;
+自由而负责任的新闻媒体提供覆盖全世界的真实深度报道，理性的消费者通过这些报道了解世界每一个角落发生的事情并做出更优越的民主决策，再将这种模式扩展到更大范围更多领域。&lt;br /&gt;
+数以万计的伪中产阶级就这样假装自己在以民主的方式管理帝国。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>面目全非赛先生</title>

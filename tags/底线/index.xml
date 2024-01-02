@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>底线 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%BA%95%E7%BA%BF/</link>
+    <description>Recent content in 底线 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E5%BA%95%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>道德高地</title>
+        <link>https://ioerr.github.io/posts/daode-gaodi/</link>
+        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/daode-gaodi/</guid>
+        <description>&lt;p&gt;在讨论道德议题的时候，经常遇到有的人喜欢把一切道德追求——哪怕只是现代文明社会做人的底线——都称为“道德高地”，一切对道德有基本要求——包括自我约束——的人都是不敢诚实追求利益的伪君子。&lt;br /&gt;
+有感而发，遂作此画。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/moral-high-ground.png&#34; alt=&#34;道德高地&#34; /&gt;&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

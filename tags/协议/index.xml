@@ -6,10 +6,36 @@
     <description>Recent content in 协议 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Nov 2023 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>一种用于结束会话的握手协议</title>
+        <link>https://ioerr.github.io/posts/yizhong-yongyu-jieshu-huihua-de-woshou-xieyi/</link>
+        <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/yizhong-yongyu-jieshu-huihua-de-woshou-xieyi/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/zanmato1984/status/1722099259116245060&#34;&gt;弗格孙&lt;/a&gt;：&lt;/p&gt;
+
+&lt;p&gt;两个“最后一句”强迫症患者的聊天记录be like：&lt;br /&gt;
+A：感谢xx老师的回复，谢谢！🙏🙏🙏&lt;br /&gt;
+B：不客气，有什么问题再叫我哈！&lt;br /&gt;
+A：有问题再请教，谢谢！&lt;br /&gt;
+B：🙏🙏🙏&lt;br /&gt;
+A：🤝🤝🤝&lt;br /&gt;
+B：🤝🤝🤝&lt;/p&gt;
+
+&lt;p&gt;Calon：&lt;/p&gt;
+
+&lt;p&gt;发明了一种用于结束会话的握手协议。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>网络与人类社会</title>
