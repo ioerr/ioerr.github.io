@@ -129,9 +129,22 @@
       </item>
     
       <item>
+        <title>有声有色</title>
+        <link>https://ioerr.github.io/categories/%E6%9C%89%E5%A3%B0%E6%9C%89%E8%89%B2/</link>
+        <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/categories/%E6%9C%89%E5%A3%B0%E6%9C%89%E8%89%B2/</guid>
+        <description></description>
+      </item>
+    
+      <item>
         <title>求知求是</title>
         <link>https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/</link>
-        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
             <uri>https://twitter.com/calon</uri>
@@ -151,19 +164,6 @@
             <email>calon.xu@gmail.com</email>
         </author>
         <guid>https://ioerr.github.io/categories/%E6%B5%81%E5%85%89%E9%A3%9E%E5%BD%B1/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>灯泡短路</title>
-        <link>https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/</link>
-        <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/</guid>
         <description></description>
       </item>
     

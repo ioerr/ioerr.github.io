@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>简洁 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%AE%80%E6%B4%81/</link>
+    <description>Recent content in 简洁 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E7%AE%80%E6%B4%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>写作风格应该追求简洁还是复杂？</title>
+        <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/baibanbaonet/status/1751815054960234541&#34;&gt;白板报&lt;/a&gt;：&lt;br /&gt;
+自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1751816921945960449&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。&lt;br /&gt;
+其实风格还在其次，最重要的是真诚。&lt;br /&gt;
+追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。&lt;/p&gt;
+
+&lt;p&gt;白板报：&lt;br /&gt;
+这点恕不能完全同意。文字的作用之一是掩饰。&lt;/p&gt;
+
+&lt;p&gt;Calon：&lt;br /&gt;
+有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

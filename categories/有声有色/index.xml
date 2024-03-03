@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>有声有色 on 读写错误</title>
+    <link>https://ioerr.github.io/categories/%E6%9C%89%E5%A3%B0%E6%9C%89%E8%89%B2/</link>
+    <description>Recent content in 有声有色 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/categories/%E6%9C%89%E5%A3%B0%E6%9C%89%E8%89%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>No Vision Pro</title>
+        <link>https://ioerr.github.io/posts/no-vision-pro/</link>
+        <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            <uri>https://twitter.com/calon</uri>
+            <email>calon.xu@gmail.com</email>
+        </author>
+        <guid>https://ioerr.github.io/posts/no-vision-pro/</guid>
+        <description>&lt;p&gt;比 Vision Pro 更加舒适、便携、实用和廉价的革命性产品——No Vision Pro！&lt;br /&gt;
+好到让我在除夕夜里的烟花爆竹声中，坐在床上专门录一期节目来推荐它！&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/PfTlEhN0nfA?si=65_7K583KWn2nMfL&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
