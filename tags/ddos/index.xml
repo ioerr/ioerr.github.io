@@ -17,8 +17,8 @@
         <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/xianshi-shijie-de-ddos/</guid>
         <description>&lt;p&gt;如果短时间内有许多人想要和你握手，等到你伸出手时他们又都缩回去，那么你就遭遇了现实世界中的分布式拒绝服务攻击（DDoS，Distributed Denial of Service）。&lt;/p&gt;

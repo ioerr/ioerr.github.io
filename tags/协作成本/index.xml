@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>协作成本 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%8D%8F%E4%BD%9C%E6%88%90%E6%9C%AC/</link>
+    <description>Recent content in 协作成本 on 读写错误</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="https://ioerr.github.io/tags/%E5%8D%8F%E4%BD%9C%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>降低家庭关系的复杂性</title>
+        <link>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</link>
+        <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</guid>
+        <description>&lt;p&gt;周志明老师在《&lt;a href=&#34;https://icyfenix.cn/&#34;&gt;凤凰架构&lt;/a&gt;》一书中的“&lt;a href=&#34;https://icyfenix.cn/methodology/forward-msa/governance.html&#34;&gt;治理：理解系统复杂性&lt;/a&gt;”章节提到系统复杂性的来源：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;复杂性来自认知负荷&lt;br /&gt;
+（Cognitive Load） ：在软件研发中表现为人接受业务、概念、模型、设计、接口、代码等信息所带来的负担大小。系统中个体的认知负担越大，系统就越复杂，这点解释了为什么蚂蚁族群和国家的人口可能一样多，但治理国家比治理一群蚂蚁要更复杂。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;复杂性来自协作成本&lt;br /&gt;
+（Collaboration Cost）：在软件研发中表现为团队共同研发时付出的沟通、管理成本高低。系统个体间协作的成本越高，系统就越复杂，这点解释了为什么小饭馆和国家的构成个体都同样是人类，但治理国家比治理一家饭馆要更复杂。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;看到这里，不免要延伸开来想：&lt;br /&gt;
+系统复杂性的来源之一是认知负荷。当复杂度超出治理能力时，主动降低个体的认知负担也是一种治理方式——比如愚民、娱乐至死。&lt;/p&gt;
+
+&lt;p&gt;复杂性的另一来源是协作成本。法治缺失、道德倒退、规范失衡会导致个体信任消退、互相防备、以邻为壑，最终沟通和协作的成本成倍上升。&lt;/p&gt;
+
+&lt;p&gt;放在家庭关系中看，有的家庭选择“男人说了算”、“一切都听老婆的”，算是第一种策略——降低认知成本直到完全服从，由分布式系统转化为单体系统，自然也就没有多少协作成本了；&lt;br /&gt;
+有的家庭建立在平等尊重、包容互信的基础上，协作成本低，因而不需要牺牲个体的认知能力来换取系统治理的质量。&lt;/p&gt;
+
+&lt;p&gt;更多的感想放在后面再谈，本书回顾了 IT 系统架构的历史演进过程和逻辑，介绍了大量实践经验，不仅对 IT 系统架构师大有裨益，如果你了解进化论，对生物个体、社会组织的演进有兴趣、有知识基础，看下来还会有更多好玩的启发。&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

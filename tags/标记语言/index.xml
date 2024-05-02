@@ -17,8 +17,8 @@
         <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
         <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。

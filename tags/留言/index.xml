@@ -17,8 +17,8 @@
         <pubDate>Sun, 08 Mar 2009 15:54:46 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/liuyan-guanli-xitong/</guid>
         <description>&lt;p&gt;虽然 &lt;a href=&#34;http://www.intensedebate.com/&#34;&gt;IntenseDebate&lt;/a&gt;
@@ -82,8 +82,8 @@ API，建立了插件机制。&lt;/p&gt;
         <pubDate>Fri, 25 Jul 2008 19:01:38 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/disqus/</guid>
         <description>&lt;p&gt;本来对 coComment 这类集中管理留言的服务没什么兴趣，不过在

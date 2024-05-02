@@ -17,8 +17,8 @@
         <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/youxian-renzhi-de-xinyang-jichu/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/kodifikation/status/1628691985929486336&#34;&gt;文不在兹&lt;/a&gt;：&lt;br /&gt;
@@ -98,13 +98,47 @@
       </item>
     
       <item>
+        <title>降低家庭关系的复杂性</title>
+        <link>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</link>
+        <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</guid>
+        <description>&lt;p&gt;周志明老师在《&lt;a href=&#34;https://icyfenix.cn/&#34;&gt;凤凰架构&lt;/a&gt;》一书中的“&lt;a href=&#34;https://icyfenix.cn/methodology/forward-msa/governance.html&#34;&gt;治理：理解系统复杂性&lt;/a&gt;”章节提到系统复杂性的来源：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;复杂性来自认知负荷&lt;br /&gt;
+（Cognitive Load） ：在软件研发中表现为人接受业务、概念、模型、设计、接口、代码等信息所带来的负担大小。系统中个体的认知负担越大，系统就越复杂，这点解释了为什么蚂蚁族群和国家的人口可能一样多，但治理国家比治理一群蚂蚁要更复杂。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;复杂性来自协作成本&lt;br /&gt;
+（Collaboration Cost）：在软件研发中表现为团队共同研发时付出的沟通、管理成本高低。系统个体间协作的成本越高，系统就越复杂，这点解释了为什么小饭馆和国家的构成个体都同样是人类，但治理国家比治理一家饭馆要更复杂。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;看到这里，不免要延伸开来想：&lt;br /&gt;
+系统复杂性的来源之一是认知负荷。当复杂度超出治理能力时，主动降低个体的认知负担也是一种治理方式——比如愚民、娱乐至死。&lt;/p&gt;
+
+&lt;p&gt;复杂性的另一来源是协作成本。法治缺失、道德倒退、规范失衡会导致个体信任消退、互相防备、以邻为壑，最终沟通和协作的成本成倍上升。&lt;/p&gt;
+
+&lt;p&gt;放在家庭关系中看，有的家庭选择“男人说了算”、“一切都听老婆的”，算是第一种策略——降低认知成本直到完全服从，由分布式系统转化为单体系统，自然也就没有多少协作成本了；&lt;br /&gt;
+有的家庭建立在平等尊重、包容互信的基础上，协作成本低，因而不需要牺牲个体的认知能力来换取系统治理的质量。&lt;/p&gt;
+
+&lt;p&gt;更多的感想放在后面再谈，本书回顾了 IT 系统架构的历史演进过程和逻辑，介绍了大量实践经验，不仅对 IT 系统架构师大有裨益，如果你了解进化论，对生物个体、社会组织的演进有兴趣、有知识基础，看下来还会有更多好玩的启发。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>创造真诚的环境</title>
         <link>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</link>
         <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</guid>
         <description>&lt;p&gt;《凤凰项目》的作者说：&lt;/p&gt;
@@ -128,8 +162,8 @@
         <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/shengming-de-yiyi/</guid>
         <description>&lt;p&gt;2022年年底到2023年年初，一口气读了奥地利精神病学家维克多·弗兰克尔（Viktor Frankl）的几本书，包括《追寻生命的意义》、《活出生命的意义》、《生命的探问》等，部分是他的自传，特别是从纳粹集中营中幸存下来的经过，部分是对他的意义治疗与存在主义分析（Existential Psychoanalysis）方法的介绍，以及对人生意义的思考。内容各有侧重但核心都差不多。&lt;/p&gt;
@@ -272,8 +306,8 @@
         <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/zhen-shehui-de-ziwo-zhimin/</guid>
         <description>
@@ -358,8 +392,8 @@ The average person has one boob and one testicle.&lt;br /&gt;
         <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/xin-shitouji/</guid>
         <description>&lt;p&gt;《二十年目睹之怪现状》的作者吴趼人写过一本科幻小说《&lt;a href=&#34;https://zh.wikisource.org/wiki/%E6%96%B0%E7%9F%B3%E9%A0%AD%E8%A8%98&#34;&gt;新石头记&lt;/a&gt;》，书中有一理想国叫“文明境界”，行皇权专制制度，以孔儒道德教化民众，科技发达，文化繁荣，创建者名为东方强，字文明，三个儿子叫东方英、德、法，女儿叫东方美，女婿叫华自立，是化学博士华兴（字必振）的后裔。&lt;/p&gt;
@@ -404,8 +438,8 @@ The average person has one boob and one testicle.&lt;br /&gt;
         <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/xingsaorao-zhi-bian/</guid>
         <description>&lt;p&gt;近期“史航性骚扰事件”沸沸扬扬，不断有受害者发出声明，称曾经被史航骚扰过。&lt;br /&gt;
@@ -532,8 +566,8 @@ Me Too 运动有诬陷和误伤的吗？肯定有。&lt;br /&gt;
         <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/santi-de-yihan/</guid>
         <description>&lt;p&gt;最近《流浪地球2》上映，《三体》电视剧有己方在制作或已经上映，于是不可避免地又聊起了刘慈欣和《三体》。&lt;/p&gt;
@@ -611,8 +645,8 @@ Me Too 运动有诬陷和误伤的吗？肯定有。&lt;br /&gt;
         <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/xuwu-zhuyi/</guid>
         <description>&lt;p&gt;唐纳德·A.克罗斯比（Donald A.Crosby）的《荒诞的幽灵——现代虚无主义的根源与批判》，对虚无主义的分类、含义和根源有详细的梳理探讨。&lt;/p&gt;
@@ -724,8 +758,8 @@ Me Too 运动有诬陷和误伤的吗？肯定有。&lt;br /&gt;
         <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/gongchengshi-siwei/</guid>
         <description>&lt;p&gt;什么是工程师思维？&lt;br /&gt;
@@ -800,8 +834,8 @@ Talk is cheap, show me the xxx.&lt;br /&gt;
         <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/erjiu-yu-huozhe/</guid>
         <description>&lt;p&gt;最近一支视频《&lt;a href=&#34;https://www.bilibili.com/video/BV1MN4y177PB/&#34;&gt;回村三天，二舅治好了我的精神内耗&lt;/a&gt;》在网络上大火，最开始收获一片称赞，官方媒体也出来捧场。&lt;/p&gt;
@@ -837,8 +871,8 @@ Talk is cheap, show me the xxx.&lt;br /&gt;
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/wukelan-de-guojia-weiji/</guid>
         <description>
@@ -947,113 +981,6 @@ Talk is cheap, show me the xxx.&lt;br /&gt;
 &lt;li&gt;曾经产生冲突的各方——国内各群体之间或一国与他国之间达成和解的问题（特别是在牵涉到战争或大规模屠杀的危机之后）。&lt;br /&gt;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>统一大市场与大国大城</title>
-        <link>https://ioerr.github.io/posts/tongyi-dashichang-yu-daguo-dacheng/</link>
-        <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/tongyi-dashichang-yu-daguo-dacheng/</guid>
-        <description>&lt;p&gt;4月10日《&lt;a href=&#34;http://www.gov.cn/zhengce/2022-04/10/content_5684385.htm&#34;&gt;中共中央国务院关于加快建设全国统一大市场的意见&lt;/a&gt;》发布。&lt;/p&gt;
-
-&lt;p&gt;没有深入了解，仅仅从《意见》的文本上找一些关键字：&lt;/p&gt;
-
-&lt;p&gt;有的有较为具体的想法和要求，比如城乡用地、人力和财政方面：&lt;br /&gt;
-城乡建设用地增减挂钩节余指标、补充耕地指标跨区域交易机制&lt;br /&gt;
-全国统一的建设用地使用权转让、出租、抵押二级市场&lt;br /&gt;
-统一规范的人力资源市场体系&lt;br /&gt;
-财政转移支付和城镇新增建设用地规模与农业转移人口市民化挂钩政策&lt;/p&gt;
-
-&lt;p&gt;还有平等准入和退出方面：&lt;br /&gt;
-登记注册，跨区域经营或迁移，准入、退出条件，政务服务事项的前置条件和审批标准，特许经营权等等，相对没那么虚。&lt;/p&gt;
-
-&lt;p&gt;几个全国统一体系机制：&lt;br /&gt;
-登记注册数据标准&lt;br /&gt;
-企业名称自主申报行业字词库&lt;br /&gt;
-公共信用信息&lt;br /&gt;
-产权交易信息发布&lt;br /&gt;
-信息认证平台接口&lt;br /&gt;
-动产和权利担保登记&lt;br /&gt;
-技术交易市场&lt;br /&gt;
-科技资源共享服务&lt;br /&gt;
-天然气能量计量计价体系&lt;br /&gt;
-电力交易中心&lt;br /&gt;
-煤炭、碳排放权、用水权交易市场&lt;br /&gt;
-跨国跨地区经营的售后服务&lt;br /&gt;
-异地、异店退换货通道&lt;/p&gt;
-
-&lt;p&gt;几个互联互通和标准认证：&lt;br /&gt;
-债券市场基础设施互联互通&lt;br /&gt;
-油气管网设施互联互通&lt;br /&gt;
-认证结果跨行业跨区域互通互认&lt;br /&gt;
-国家标准和行业标准整合精简&lt;/p&gt;
-
-&lt;p&gt;监管和指导：&lt;br /&gt;
-探索授权委托监管执法方式&lt;br /&gt;
-跨行政区域网络监管协作机制&lt;br /&gt;
-破除平台企业数据垄断，关键行业和领域经营者集中审查&lt;br /&gt;
-指导各地区综合比较优势等，避免重复建设、过度同质竞争、搞地区封锁&lt;br /&gt;
-地区间产业转移项目协调合作&lt;/p&gt;
-
-&lt;p&gt;出发点看上去很美好，但事与愿违的事情太多了，不到具体实施的时候，谁也不知道会搞成什么样。&lt;/p&gt;
-
-&lt;p&gt;统一大市场感觉像是陆铭的想法，翻了一下《大国大城》，他认为劳动力、土地、资本是最重要的三大生产要素，和意见中较具体的那三项正好对上。&lt;br /&gt;
-但这些在中国目前都是割裂的，需要减少与户籍制度相关的社会保障体系分割和公共服务不均等，促进劳动力流动，提高欠发达地区人口的受教育水平，以及利率改革。&lt;/p&gt;
-
-&lt;p&gt;他也提出，面对改革的深层次矛盾，很难靠单个部门或者局部地方推动，中央政府“顶层设计”有效性的前提是：&lt;br /&gt;
-知识分子和精英阶层首先立足于公共利益，发出正确的声音，推动科学的决策；&lt;br /&gt;
-针对政府官员建立有效的激励、监督和制衡机制。&lt;br /&gt;
-但书中没有深入提及如何做到，这次的《意见》中也看到有什么突破的地方。&lt;/p&gt;
-
-&lt;p&gt;不知道意见和他的思路是否有相当大程度的重合，起码陆铭的思想逻辑很清楚，意见对照着他的思路来看也更容易理解。&lt;br /&gt;
-为什么要统一市场和为什么要继续推进城市化，区域发展不平衡的危机和出路，在书中都说得很明白。&lt;br /&gt;
-但怎样在意识上转变过来减少阻力，和行动上跳出地方短期利益的囚徒困境，在我看来没有给出很好的方案。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1514475010991173633&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-从历史来看，在规模优势和治理成本的共同作用下，集权有越来越加强的趋势。&lt;br /&gt;
-治理成本取决于多种条件，比如市场和法治、通信、交通物流、财政、税收、粮食生产、教育、失业救济、疾病防控、军事力量的组织投送和成本控制能力，还有共同体文化塑造和宣传、权力交接机制等等，都可能让大一统帝国因为成本失控而崩塌。&lt;br /&gt;
-当技术发展和组织能力保证木桶的短板下限，同时拉长各项条件的木板长度降低综合成本后，社会组织的集权程度就会上升。&lt;/p&gt;
-
-&lt;p&gt;大一统的迷梦很容易让人忘记治理成本的短板，盲目追求统一，用低效的代偿方式或者牺牲边缘底层作为代价，最后成为一个巨大而畸形的怪胎。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Z_Rex2017/status/1514499198187896837&#34;&gt;Zhou Yi&lt;/a&gt;：&lt;br /&gt;
-多年的和平时期也让很多人忘记了，危机之下的利益集团互相攻伐的历史在历史上屡见不鲜。&lt;br /&gt;
-只有一个不存在天灾打破和平的世界，各自为政才具备可行性。&lt;br /&gt;
-轻微的扰动就能让三体失去平衡，何况四五六七八个实体了&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-应对灭顶危机确实是权力集中以及形成大型组织的最好理由，比如古埃及尼罗河、中国中原的洪水。&lt;br /&gt;
-但危机管理有成本和效率问题，假如和平持续较长时间而仍然维持全面动员状态，竞争力会受损。&lt;br /&gt;
-最好的组织形态是危机来临则万众一心众志成城，危机退去则百花齐放各显神通，然而大一统帝国没法这样灵活切换。&lt;/p&gt;
-
-&lt;p&gt;Zhou Yi：&lt;br /&gt;
-无法做到。&lt;br /&gt;
-高于150人（邓巴数）的人类群体就是靠人类发明的意识形态捏在一起的。&lt;br /&gt;
-“危机来临”的一下子就要人们切换意识，这是不可能做到的。&lt;br /&gt;
-百花齐放也就意味着百家乱战。百家乱战不可能万众一心。&lt;br /&gt;
-天灾之下，我邦也受灾了，余粮也所剩无几。邻邦受灾比我邦更惨，你救不救？&lt;br /&gt;
-如果平时和邻邦“百花齐放”还结过梁子，救不救？&lt;br /&gt;
-救了我邦就只能勉强度日，能说服人民以德报怨？&lt;br /&gt;
-更何况还有人提议趁乱打劫吞并邻邦？&lt;br /&gt;
-做点思想实验就知道不大可能。&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-邓巴在《大局观从何而来/Thinking Big》里面说，现代人类虽然仍是远古时代的社会技能和思维框架，但一万多年来在学习建立、运转、适应更大规模的社会组织。&lt;br /&gt;
-倘若不是这样，现代国家应该不超过一个村子的规模。&lt;br /&gt;
-小团体相互竞争不愿意救助是常事，为了更大规模的竞争而结盟互助也是不鲜见的合理做法。&lt;/p&gt;
-
-&lt;p&gt;Zhou Yi：&lt;br /&gt;
-人类迈向更大规模社会组织是因为人类发明了很多后天的社会工具，而不是大幅改善了先天的能力。而这个工具不就是大一统思维么？&lt;br /&gt;
-首先几个村庄的联合就叫大一统了，然后更大的联合才叫大一统&amp;hellip;&lt;br /&gt;
-现在没人觉得几百万人口的城市是个奇怪的东西，但是在古代这是不可想象的。&lt;/p&gt;
 </description>
       </item>
     

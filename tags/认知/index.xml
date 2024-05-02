@@ -17,8 +17,8 @@
         <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/youxian-renzhi-de-xinyang-jichu/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/kodifikation/status/1628691985929486336&#34;&gt;文不在兹&lt;/a&gt;：&lt;br /&gt;
@@ -98,13 +98,47 @@
       </item>
     
       <item>
+        <title>降低家庭关系的复杂性</title>
+        <link>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</link>
+        <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/jiangdi-jiating-guanxi-de-fuzaxing/</guid>
+        <description>&lt;p&gt;周志明老师在《&lt;a href=&#34;https://icyfenix.cn/&#34;&gt;凤凰架构&lt;/a&gt;》一书中的“&lt;a href=&#34;https://icyfenix.cn/methodology/forward-msa/governance.html&#34;&gt;治理：理解系统复杂性&lt;/a&gt;”章节提到系统复杂性的来源：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;复杂性来自认知负荷&lt;br /&gt;
+（Cognitive Load） ：在软件研发中表现为人接受业务、概念、模型、设计、接口、代码等信息所带来的负担大小。系统中个体的认知负担越大，系统就越复杂，这点解释了为什么蚂蚁族群和国家的人口可能一样多，但治理国家比治理一群蚂蚁要更复杂。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;复杂性来自协作成本&lt;br /&gt;
+（Collaboration Cost）：在软件研发中表现为团队共同研发时付出的沟通、管理成本高低。系统个体间协作的成本越高，系统就越复杂，这点解释了为什么小饭馆和国家的构成个体都同样是人类，但治理国家比治理一家饭馆要更复杂。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;看到这里，不免要延伸开来想：&lt;br /&gt;
+系统复杂性的来源之一是认知负荷。当复杂度超出治理能力时，主动降低个体的认知负担也是一种治理方式——比如愚民、娱乐至死。&lt;/p&gt;
+
+&lt;p&gt;复杂性的另一来源是协作成本。法治缺失、道德倒退、规范失衡会导致个体信任消退、互相防备、以邻为壑，最终沟通和协作的成本成倍上升。&lt;/p&gt;
+
+&lt;p&gt;放在家庭关系中看，有的家庭选择“男人说了算”、“一切都听老婆的”，算是第一种策略——降低认知成本直到完全服从，由分布式系统转化为单体系统，自然也就没有多少协作成本了；&lt;br /&gt;
+有的家庭建立在平等尊重、包容互信的基础上，协作成本低，因而不需要牺牲个体的认知能力来换取系统治理的质量。&lt;/p&gt;
+
+&lt;p&gt;更多的感想放在后面再谈，本书回顾了 IT 系统架构的历史演进过程和逻辑，介绍了大量实践经验，不仅对 IT 系统架构师大有裨益，如果你了解进化论，对生物个体、社会组织的演进有兴趣、有知识基础，看下来还会有更多好玩的启发。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>机器人三定律</title>
         <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
         <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1646432557913849856&#34;&gt;Michael Anti&lt;/a&gt;：&lt;/p&gt;
@@ -154,8 +188,8 @@
         <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</guid>
         <description>&lt;p&gt;在知乎上 &lt;a href=&#34;https://www.zhihu.com/question/581806122/&#34;&gt;ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？&lt;/a&gt;的&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;回答&lt;/a&gt;中，回答者&lt;a href=&#34;https://www.zhihu.com/people/hua-yan&#34;&gt;华严&lt;/a&gt;的核心观点是：&lt;/p&gt;
@@ -194,8 +228,8 @@
         <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/fudao-xuexi/</guid>
         <description>&lt;p&gt;昨天晚上因为明洲老是不验算检查，狠狠地批评了一顿。&lt;br /&gt;
@@ -264,8 +298,8 @@
         <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/jiazhiguan-lishiguan-yu-renzhi-chayi/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/ben_niu/status/1555696007505379329&#34;&gt;Batemon&lt;/a&gt;：&lt;/p&gt;
@@ -346,8 +380,8 @@
         <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/weishenme-du-lishi/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1505574195274600448&#34;&gt;Catmus 夹喵又&lt;/a&gt;：&lt;/p&gt;
@@ -374,8 +408,8 @@
         <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</guid>
         <description>&lt;p&gt;在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。&lt;br /&gt;
@@ -394,8 +428,8 @@
         <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/shouke-daji/</guid>
         <description>&lt;p&gt;为什么有的课程让人昏昏欲睡或望而生畏？我觉得主要有以下原因：&lt;/p&gt;
@@ -422,8 +456,8 @@
         <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/zhishi-da-rongtong/</guid>
         <description>
@@ -963,8 +997,8 @@
         <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/fazhi-yu-ziyou/</guid>
         <description>&lt;p&gt;有种观点认为，专业能力不足和信息获取不全的人愚昧无知，没有说话的权利。&lt;br /&gt;
@@ -1004,8 +1038,8 @@
         <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
         <author>
             <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
+            
+            
         </author>
         <guid>https://ioerr.github.io/posts/tanlan-de-danao/</guid>
         <description>&lt;p&gt;最近在图书馆翻书的时候，偶然发现一本名叫《贪婪的大脑》的科普书，副标题是“为何人类会无止境地寻求意义”，正好是比较关心的问题。&lt;/p&gt;
@@ -1127,24 +1161,6 @@
 为了压缩过剩的意识以减轻压力，很多自闭症患者会建构各种结构，不管是在他们的头脑中还是在现实生活中。他们会小心翼翼地搭积木，并制订很多规则，有很多习惯性动作。这些做法的目的是减少生活中的新奇和混乱，代之以有规律的、压缩的模式。这也是他们寻求具有很强规律性的爱好（如数学运算，成为“活日历”等）的原因。事实上，自闭症患者拥有的特殊才能只限定在一个小范围内，但是这些才能大多与具有逻辑性和等级结构的意义模式有关。&lt;br /&gt;
 我们很多人都渴望模式和结构。但是自闭症患者的渴望更迫切，更持久。关注结构以及习惯性地运用组块，成了自闭症患者的救生艇，为了不被意识信息的海洋淹没，他们拼命地抓住这艘救生艇。同时，寻找模式也成了他们的生活乐趣，给他们带来安全感。&lt;br /&gt;
 由于社会生活太混乱、无序、不可预知、无法掌控，自闭症患者很容易感到沮丧。相对而言，他们的精神生活更具逻辑性。换句话说，自闭症患者最初避开社会生活，是因为他们感受到的信息量过多，无法有效压缩，让他们感到压力过大。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>涌现</title>
-        <link>https://ioerr.github.io/posts/yongxian/</link>
-        <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            <uri>https://twitter.com/calon</uri>
-            <email>calon.xu@gmail.com</email>
-        </author>
-        <guid>https://ioerr.github.io/posts/yongxian/</guid>
-        <description>&lt;p&gt;所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。&lt;/p&gt;
-
-&lt;p&gt;换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。&lt;br /&gt;
-就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、&lt;a href=&#34;https://www.facebook.com/watch/?v=2296999357052625&#34;&gt;往复运动的小球形成滚动的圆&lt;/a&gt;…&lt;br /&gt;
-我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。&lt;/p&gt;
 </description>
       </item>
     
