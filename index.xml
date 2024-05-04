@@ -6,10 +6,97 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>关于公开笔记的讨论</title>
+        <link>https://ioerr.github.io/posts/guanyu-gongkai-biji-de-taolun/</link>
+        <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/guanyu-gongkai-biji-de-taolun/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/OwenYoungZh/status/1775977873301713157&#34;&gt;Owen&lt;/a&gt;：&lt;br /&gt;
+看到一个说法：笔记是一种无限游戏，没有结果，只有过程；而博客是一种有限游戏，因为它产出了完成的作品：博文。这说明我们不能当一个完美主义者，只在脑海或草稿箱中保留想法，我们应该尽可能完成作品，公开它，然后不断的练习这个过程。&lt;/p&gt;
+
+&lt;p&gt;我更坚定那个想法了：做一个默认设计为公开的笔记软件。&lt;/p&gt;
+
+&lt;p&gt;我设想的是一个 Tumblr，但是拥有笔记软件的各种优点：一流的编辑体验，一个结构清晰，易于检索的个人知识库，一个设计良好的人生CMS，可以很容易的分发多个主题的博客。&lt;/p&gt;
+
+&lt;p&gt;总之就是它是面向长期主义的，精心设计的，能鼓励人们持续公开的分享（不要营销）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/wilbeibi/status/1775999962230522049&#34;&gt;Wilbeibi&lt;/a&gt;：&lt;br /&gt;
+我觉得这两者是矛盾的，博客的受众是他人，强调传播，零散笔记的受众是自己（和小部分感兴趣的 follower）。&lt;br /&gt;
+如果要做笔记博客分享，应该搭建一个只有自己内容的网站，类似 &lt;a href=&#34;http://simonwillison.net&#34;&gt;http://simonwillison.net&lt;/a&gt; 那样。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1776030136040857906&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+我也认为这是矛盾的。&lt;/p&gt;
+
+&lt;p&gt;读者想看到的内容和形式，和作者自己整理的东西，往往是两回事。&lt;br /&gt;
+不成体系的分享对读者来说价值不大。&lt;br /&gt;
+与其持续公开分享，不如让 AI 来协助回顾和关联笔记，让它充当一个不厌其烦阅读笔记碎片并不断提问的助手。对大多数人来说也许更加实用。&lt;br /&gt;
+公开分享的内容，最好至少是经过整理和思考的半成品，可以以链接的形式发布在社交平台上，然后根据反馈持续更新。&lt;/p&gt;
+
+&lt;p&gt;回顾 blog 的起源和变化，一开始大家是当作以个人为中心的记录和分享手段，然后出现以内容为中心的运营思路，以个人为中心则走向个人品牌运营。&lt;/p&gt;
+
+&lt;p&gt;公开共享笔记更接近以内容为中心的运营思路，读者期待的不是有个人魅力加成的日常碎碎念，所以公开的笔记至少得是经过加工的半成品。&lt;br /&gt;
+以卡片笔记这种形式为例，从原始素材到闪念笔记、永久笔记和项目笔记的过程。&lt;br /&gt;
+关注个人的读者也许会喜欢形成闪念笔记的过程和结果，但关注内容的读者兴趣不大。&lt;br /&gt;
+作者为什么关注什么问题，从相关的卡片中提炼洞察出什么结果，这个思考过程和产物，才是最有价值的，这个环节读者的反馈也是最有价值的。&lt;br /&gt;
+项目笔记读者最感兴趣，但完善和输出太慢，永久笔记输出频率快，读者也有兴趣，在这个阶段得到大量反馈能够在早期就避免走弯路。我觉得会是一个很好的平衡点。&lt;/p&gt;
+
+&lt;p&gt;从我个人的经验来看，虽然我的笔记系统中有类似于永久笔记定位的中间环节，但实际上我的 blog 文章也充当了类似的角色。&lt;br /&gt;
+但前者是指向内部链接，后者指向公开链接，互不通用，分类组织也不同用。&lt;br /&gt;
+如果有笔记工具可以让两者无缝切换/转换，只需一次编辑，就已经很好了。&lt;br /&gt;
+但 blog 仍然有以个人为中心的内容，比如生活记录，所以还不能完全与笔记系统等同，或者，需要能够同时对接两套以上的笔记仓库，并行不悖。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>最廉价的自我感动</title>
+        <link>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</link>
+        <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</guid>
+        <description>&lt;p&gt;网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。&lt;br /&gt;
+所求不过一个确定的回答，只是满足了自己虚假的求知欲。&lt;br /&gt;
+“我知道了！”是这个时代最廉价的自我感动。&lt;br /&gt;
+阿基米德在浴缸中思考，而网民只需要等待别人喂的速食答案，然后喊出 Eureka！&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>差异与歧视</title>
+        <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
+        <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1774108640364081295&#34;&gt;吴非盯着看～ ❁҉҉҉҉҉҉҉҉&lt;/a&gt;：&lt;br /&gt;
+各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。&lt;br /&gt;
+这事儿套到人类身上，除了政治不正确，别的没啥问题吧？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1774361388351471729&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
+人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。&lt;br /&gt;
+人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。&lt;br /&gt;
+越是强调自由、多元、平等的地区，以人种为单位的差异越小。&lt;/p&gt;
+
+&lt;p&gt;反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。&lt;br /&gt;
+对差异的态度取决于我们的&lt;a href=&#34;../yuanjing-zhong-de-shijie&#34;&gt;愿景&lt;/a&gt;，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>有限认知的信仰基础</title>
@@ -307,93 +394,6 @@
 好到让我在除夕夜里的烟花爆竹声中，坐在床上专门录一期节目来推荐它！&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/PfTlEhN0nfA?si=65_7K583KWn2nMfL&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>大国尊严与小民幸福</title>
-        <link>https://ioerr.github.io/posts/daguo-zunyan-yu-xiaomin-xingfu/</link>
-        <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/daguo-zunyan-yu-xiaomin-xingfu/</guid>
-        <description>&lt;p&gt;常看到有人争论国与家，主权与人权，谁优先。&lt;br /&gt;
-有的人说：我不想大国尊严，只想要小民幸福。&lt;/p&gt;
-
-&lt;p&gt;大国尊严的感受主体是谁？&lt;br /&gt;
-其实还是每个国民。&lt;br /&gt;
-所以大国尊严算是国民幸福的一部分，区别在于占比多重，而不是对立冲突的关系，不应该逼得人只能二选一。&lt;br /&gt;
-制造两者对立的人，可能其他方面的幸福有保障，他要鼓动的是其他人牺牲本没有保障的幸福，来成全他的幸福中大国尊严的那一部分。&lt;/p&gt;
-
-&lt;p&gt;过去那些慷慨牺牲的仁人志士，所谋求的也是国民的幸福生活，而不是将大国尊严与幸福生活对立起来，说服他人放弃追求幸福生活的权利。&lt;/p&gt;
-
-&lt;p&gt;还有观点是将大国尊严当作国民幸福的必要条件。&lt;br /&gt;
-且不说小国国民也有幸福的例子，就算是必要条件，也要看这个目的结果有没有达到，只实现条件不追求结果没有意义。&lt;/p&gt;
-
-&lt;p&gt;另一方面，大国尊严没实现，国民幸福会不会受影响？那确实有可能。&lt;br /&gt;
-历史上被侵略、殖民、屠杀和欺压的事迹很多，受害的都是一个个具体的人。&lt;br /&gt;
-但大国尊严实现了，国民幸福就上去了？不成立的例子也比比皆是。&lt;br /&gt;
-国家崛起的好处未必就能惠及所有人，兴，百姓亦苦也。&lt;/p&gt;
-
-&lt;p&gt;如果大国一有尊严小民就必然幸福，全球人类立即合并成一个大国，岂不是幸福爆棚？&lt;br /&gt;
-实际情况则是，组织增长带来的收益并非无上限，它总会触及边界。&lt;br /&gt;
-超过这个边界，收益-成本就变成负数，阻止组织进一步扩张。&lt;br /&gt;
-而且组织中个体之间还有差异，位高权重的个体比人微言轻的个体更晚触及这个边界。&lt;br /&gt;
-组织超过边界进一步扩张，能继续受益的是前者，而受损的是后者。&lt;br /&gt;
-这时，只有继续相信大国尊严永远优先，才会继续坚定跟随扩张的脚步。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>写作风格应该追求简洁还是复杂？</title>
-        <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
-        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/baibanbaonet/status/1751815054960234541&#34;&gt;白板报&lt;/a&gt;：&lt;br /&gt;
-自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1751816921945960449&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。&lt;br /&gt;
-其实风格还在其次，最重要的是真诚。&lt;br /&gt;
-追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。&lt;/p&gt;
-
-&lt;p&gt;白板报：&lt;br /&gt;
-这点恕不能完全同意。文字的作用之一是掩饰。&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>两种足球运动</title>
-        <link>https://ioerr.github.io/posts/liangzhong-zuqiu-yundong/</link>
-        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/liangzhong-zuqiu-yundong/</guid>
-        <description>&lt;p&gt;看到有人认为中国足球身体对抗能力差，节奏慢，是个人运动非团队运动，与现代足球运动的差异大到足以成为两种不同的运动。&lt;/p&gt;
-
-&lt;p&gt;这还是太夸张了，中国足球再差也还在三流，下面水平更差的多了去了。&lt;/p&gt;
-
-&lt;p&gt;我倒是觉得，两种运动的差异点最大的在于：&lt;br /&gt;
-足球是先运动再谋利，中国足球是为了谋利而运动。&lt;/p&gt;
-
-&lt;p&gt;《足球经济学》分析，足球俱乐部与其他行业的企业对比，从长远来看不怎么赚钱，也不容易破产，只有 FIFA、UEFA 和少数大俱乐部赚大钱。球迷对这项运动的热爱、投入和参与支撑起了社区和俱乐部以及各种商业赛事。只要球迷的热情还在，这项运动就不会死。世界杯、欧冠、联赛、杯赛或者欧超，总会有各种形式的商业赛事从这个丰厚的土壤中产生。唯一的威胁在于电子游戏、短视频等其他爱好在吸引年轻人疏远足球。&lt;/p&gt;
-
-&lt;p&gt;而中国足球的目标不在于从运动中获得乐趣，在于利用运动去赚取名利。&lt;br /&gt;
-如果足球承载不了民族国家的荣誉，不能让管理者名利双收，就不配得到全民热爱和广泛持续的投入，在这样贫瘠的土壤中长不出健康可持续的市场，只能收获畸形的看上去像足球运动的怪胎。&lt;/p&gt;
 </description>
       </item>
     
