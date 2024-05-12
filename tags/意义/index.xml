@@ -6,10 +6,43 @@
     <description>Recent content in 意义 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E6%84%8F%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>人类社会的“架构师”</title>
+        <link>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</guid>
+        <description>&lt;p&gt;IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“&lt;a href=&#34;https://icyfenix.cn/introduction/about-the-fenix-project.html#%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E8%BF%9B&#34;&gt;凤凰系统&lt;/a&gt;”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的整体稳定，因此要设计出方便某个服务顺利地“死去”与“重生”的架构，比如：&lt;br /&gt;
+要拆分服务到一定的粒度，生死更迭时对整体的影响较小，甚至无感知。&lt;br /&gt;
+服务之间互相解耦、隔离，不要因为某个实例异常，影响一大片。&lt;br /&gt;
+要能够及时监控发现服务的状态。&lt;br /&gt;
+要建立标准服务，方便扩展伸缩和管理。&lt;br /&gt;
+等等。&lt;/p&gt;
+
+&lt;p&gt;类似地，人类社会架构师思考如何将寿命短暂、智商低下、目光短浅、自私自利、本能驱动、意志软弱…有各种弱点的个体，组合成繁荣、和谐、活跃、常青的组织。&lt;/p&gt;
+
+&lt;p&gt;不过，IT 系统架构师要销毁重建的不可靠部件可不会包括自己和同类个体，因此在谈到销毁重建时毫无压力——那毕竟都是非生命的存在，没有感知，没有感情，也不会反抗，为了完成工作任务而创建，也为了保证工作任务顺利完成而被“处理”。&lt;/p&gt;
+
+&lt;p&gt;将这种思路运用到人类社会中可就难说了。&lt;/p&gt;
+
+&lt;p&gt;如果完全照搬 IT 架构设计的思路，将具体的人看作抹除个体差异、完全为整体而存在的零部件——那么他完全有可能心安理得地按下批量销毁人类的按钮，只要他相信能够找到同质的替代零部件，相信这一切有利于某个集体的存续。&lt;/p&gt;
+
+&lt;p&gt;问题的关键主要不在于笃信这个目标于是不择手段，而在衡量目标的过程。&lt;br /&gt;
+如果他认为个人本身毫无存在价值，除了为集体存续而存在，那么在衡量目标时，根本就不会将每个个人的意见纳入考虑，不需要顾虑他的求生欲望和反抗能力，“人”也就和容器差不多，成为只需要服从控制的“对象”，随时可以接受命令销毁重建。&lt;br /&gt;
+最极端的时候，“我”可以由架构师降格为代理，连自己都愿意为了实现唯一有意义的目标，主动成为被销毁的“对象”，以及将这种行为美化为宗教圣徒般的献身——至高的“神”就是世界、集体背后的那个终极架构师。&lt;/p&gt;
+
+&lt;p&gt;最荒谬的是，以个体牺牲为至高美德的“圣徒”，会指责那些保卫个人价值、以个人主义为基础构建组织并反感牺牲的人，是有道德洁癖、不敢承担“处理”责任的伪君子。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>生命的意义</title>
@@ -579,38 +612,6 @@ AI 也会极大地放大人和人之间技能差异所带来的资源差异，�
 &lt;p&gt;就这个意义而言，我们可以说，货币的信号作用在经济活动中有多么重要，自由在社会生活中的信号作用也就有多么重要。&lt;/p&gt;
 
 &lt;p&gt;压制这些自由，将个人利益和个人自由对立或分离，无视这种信号的反馈机制，代之以统计数据和强制安排，表面上看是抛弃无用的奢侈品，实则像某些计划经济理论大师认为运作良好的计划经济既不需要市场也不需要货币一样，是自认为有权力统治社会的精英，因为不了解人类社会的运作有多么复杂，而产生的权力和智力的自负。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>当代犬儒特征</title>
-        <link>https://ioerr.github.io/posts/dangdai-quanru-tezheng/</link>
-        <pubDate>Thu, 13 Nov 2008 16:34:20 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dangdai-quanru-tezheng/</guid>
-        <description>&lt;p&gt;之前转载过一篇《&lt;a href=&#34;http://calon.blogspot.com/2008/04/blog-post.html&#34;&gt;犬儒病——当代中国的精神危机&lt;/a&gt;》，原文比较长，于是整理了几个特征如下，请勿对号入座：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;不相信自己口头宣讲的理论和原则；不相信存在真理、良心、真诚；&lt;/li&gt;
-&lt;li&gt;总能为自己因为恐惧而屈从权势的势利行为找到其他合理的理由；&lt;/li&gt;
-&lt;li&gt;放弃改变现实的努力；还没有行动就认为一定会失败，或者没有意义；&lt;/li&gt;
-&lt;li&gt;贬弃理智，逃避思考，忽视不愿意看到的事实；&lt;/li&gt;
-&lt;li&gt;知道什么是善恶，但不分善恶；&lt;/li&gt;
-&lt;li&gt;如果有人正在做自己不敢做的事情，就嘲笑、打击他。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;又，经常听人说：你把在位者赶下去了，能够比他做得更好么？言下之意就是维持现状最好了，反正都是 CDTH，还不如原来那个。
-能够有这样衷心的拥护者在下面配合，谁在上位都恨不得 CDTH 啊～就像平头百姓抱着黑社会大哥大腿求他不要洗手一样，黑社会简直爱死了！&lt;/p&gt;
-
-&lt;p&gt;又 &lt;img src=&#34;http://60.199.248.143/1-www/060328/twapple/640pix/20081112/LN01/LN01_001.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;http://blogs.myoops.org/lucifer.php/2008/11/13/idol&#34;&gt;想要我的财宝吗？想要的话就自己去找吧！我把它们都放在那里了！&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;虽然是很帅啦，但是和对岸的&lt;a href=&#34;http://www.bullog.cn/blogs/qianliexian/archives/213063.aspx&#34;&gt;150B
-大盗集团&lt;/a&gt;相比就是小巫见大巫了！&lt;/p&gt;
 </description>
       </item>
     

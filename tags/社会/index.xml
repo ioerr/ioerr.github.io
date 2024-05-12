@@ -6,10 +6,43 @@
     <description>Recent content in 社会 on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/tags/%E7%A4%BE%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>人类社会的“架构师”</title>
+        <link>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</guid>
+        <description>&lt;p&gt;IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“&lt;a href=&#34;https://icyfenix.cn/introduction/about-the-fenix-project.html#%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E8%BF%9B&#34;&gt;凤凰系统&lt;/a&gt;”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的整体稳定，因此要设计出方便某个服务顺利地“死去”与“重生”的架构，比如：&lt;br /&gt;
+要拆分服务到一定的粒度，生死更迭时对整体的影响较小，甚至无感知。&lt;br /&gt;
+服务之间互相解耦、隔离，不要因为某个实例异常，影响一大片。&lt;br /&gt;
+要能够及时监控发现服务的状态。&lt;br /&gt;
+要建立标准服务，方便扩展伸缩和管理。&lt;br /&gt;
+等等。&lt;/p&gt;
+
+&lt;p&gt;类似地，人类社会架构师思考如何将寿命短暂、智商低下、目光短浅、自私自利、本能驱动、意志软弱…有各种弱点的个体，组合成繁荣、和谐、活跃、常青的组织。&lt;/p&gt;
+
+&lt;p&gt;不过，IT 系统架构师要销毁重建的不可靠部件可不会包括自己和同类个体，因此在谈到销毁重建时毫无压力——那毕竟都是非生命的存在，没有感知，没有感情，也不会反抗，为了完成工作任务而创建，也为了保证工作任务顺利完成而被“处理”。&lt;/p&gt;
+
+&lt;p&gt;将这种思路运用到人类社会中可就难说了。&lt;/p&gt;
+
+&lt;p&gt;如果完全照搬 IT 架构设计的思路，将具体的人看作抹除个体差异、完全为整体而存在的零部件——那么他完全有可能心安理得地按下批量销毁人类的按钮，只要他相信能够找到同质的替代零部件，相信这一切有利于某个集体的存续。&lt;/p&gt;
+
+&lt;p&gt;问题的关键主要不在于笃信这个目标于是不择手段，而在衡量目标的过程。&lt;br /&gt;
+如果他认为个人本身毫无存在价值，除了为集体存续而存在，那么在衡量目标时，根本就不会将每个个人的意见纳入考虑，不需要顾虑他的求生欲望和反抗能力，“人”也就和容器差不多，成为只需要服从控制的“对象”，随时可以接受命令销毁重建。&lt;br /&gt;
+最极端的时候，“我”可以由架构师降格为代理，连自己都愿意为了实现唯一有意义的目标，主动成为被销毁的“对象”，以及将这种行为美化为宗教圣徒般的献身——至高的“神”就是世界、集体背后的那个终极架构师。&lt;/p&gt;
+
+&lt;p&gt;最荒谬的是，以个体牺牲为至高美德的“圣徒”，会指责那些保卫个人价值、以个人主义为基础构建组织并反感牺牲的人，是有道德洁癖、不敢承担“处理”责任的伪君子。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>制度演化的体系</title>

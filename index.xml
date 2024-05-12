@@ -6,10 +6,74 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     
       <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>人类社会的“架构师”</title>
+        <link>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</guid>
+        <description>&lt;p&gt;IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“&lt;a href=&#34;https://icyfenix.cn/introduction/about-the-fenix-project.html#%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E8%BF%9B&#34;&gt;凤凰系统&lt;/a&gt;”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的整体稳定，因此要设计出方便某个服务顺利地“死去”与“重生”的架构，比如：&lt;br /&gt;
+要拆分服务到一定的粒度，生死更迭时对整体的影响较小，甚至无感知。&lt;br /&gt;
+服务之间互相解耦、隔离，不要因为某个实例异常，影响一大片。&lt;br /&gt;
+要能够及时监控发现服务的状态。&lt;br /&gt;
+要建立标准服务，方便扩展伸缩和管理。&lt;br /&gt;
+等等。&lt;/p&gt;
+
+&lt;p&gt;类似地，人类社会架构师思考如何将寿命短暂、智商低下、目光短浅、自私自利、本能驱动、意志软弱…有各种弱点的个体，组合成繁荣、和谐、活跃、常青的组织。&lt;/p&gt;
+
+&lt;p&gt;不过，IT 系统架构师要销毁重建的不可靠部件可不会包括自己和同类个体，因此在谈到销毁重建时毫无压力——那毕竟都是非生命的存在，没有感知，没有感情，也不会反抗，为了完成工作任务而创建，也为了保证工作任务顺利完成而被“处理”。&lt;/p&gt;
+
+&lt;p&gt;将这种思路运用到人类社会中可就难说了。&lt;/p&gt;
+
+&lt;p&gt;如果完全照搬 IT 架构设计的思路，将具体的人看作抹除个体差异、完全为整体而存在的零部件——那么他完全有可能心安理得地按下批量销毁人类的按钮，只要他相信能够找到同质的替代零部件，相信这一切有利于某个集体的存续。&lt;/p&gt;
+
+&lt;p&gt;问题的关键主要不在于笃信这个目标于是不择手段，而在衡量目标的过程。&lt;br /&gt;
+如果他认为个人本身毫无存在价值，除了为集体存续而存在，那么在衡量目标时，根本就不会将每个个人的意见纳入考虑，不需要顾虑他的求生欲望和反抗能力，“人”也就和容器差不多，成为只需要服从控制的“对象”，随时可以接受命令销毁重建。&lt;br /&gt;
+最极端的时候，“我”可以由架构师降格为代理，连自己都愿意为了实现唯一有意义的目标，主动成为被销毁的“对象”，以及将这种行为美化为宗教圣徒般的献身——至高的“神”就是世界、集体背后的那个终极架构师。&lt;/p&gt;
+
+&lt;p&gt;最荒谬的是，以个体牺牲为至高美德的“圣徒”，会指责那些保卫个人价值、以个人主义为基础构建组织并反感牺牲的人，是有道德洁癖、不敢承担“处理”责任的伪君子。&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>夫妻吵架不是末日</title>
+        <link>https://ioerr.github.io/posts/fuqi-chaojia-bushi-mori/</link>
+        <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+        <author>
+            <name>Calon</name>
+            
+            
+        </author>
+        <guid>https://ioerr.github.io/posts/fuqi-chaojia-bushi-mori/</guid>
+        <description>&lt;p&gt;看到&lt;a href=&#34;https://twitter.com/cloudwu/status/1778933202012508430&#34;&gt;有推友说&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;昨天去开家长会，听校长讲话。&lt;br /&gt;
+校长说，在家夫妻间一定不要吵架，吵架会伤着孩子。&lt;br /&gt;
+如果非要吵，我教你们一个方法，那就是赶紧离。&lt;br /&gt;
+离了比吵架对孩子更好。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在我看来，两个人一起长期生活不吵架不现实，一吵就离极端了点。&lt;br /&gt;
+我们家两个人之间吵完了，还会和孩子沟通，告诉他人有情绪、有矛盾很正常，吵架也是沟通的一种方式，不代表我们互相敌视，把话说开了、情绪下去了、有了解决方案了，这个事就过去了。&lt;br /&gt;
+不要因为害怕吵架而回避表达诉求和问题，既不畏之如虎，也不要随意上升激化。&lt;/p&gt;
+
+&lt;p&gt;维系家庭稳定的首要因素是爱与信任，而不是吵不吵架这样的表象。&lt;br /&gt;
+表面一团和气的和谐家庭私底下可能是同床异梦，各自出轨。&lt;/p&gt;
+
+&lt;p&gt;如果相信对方是为了家庭而据理力争，凡事往好的方面想，那么吵架后一起解决了影响相处的问题，可以修复关系，甚至可能更进一步。&lt;br /&gt;
+如果失去了信任的基础，每一次吵架会导致裂痕扩大，那样才导向离婚。&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>关于公开笔记的讨论</title>
@@ -354,46 +418,6 @@
 
 &lt;p&gt;技术进步确实可以让生产力突飞猛进，解决政治制度解决不了的问题。&lt;br /&gt;
 但是，政治制度也可以让技术进步的成果向权力分配者无限倾斜，让被消耗者心甘情愿当耗材，让技术进步意图解决的问题无限延续和扩大，直到在沙漠里连沙子都会短缺。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>邪教的光谱</title>
-        <link>https://ioerr.github.io/posts/xiejiao-de-guangpu/</link>
-        <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiejiao-de-guangpu/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/linyujing/status/1757162387030036832&#34;&gt;林愈静&lt;/a&gt;：&lt;br /&gt;
-不管什么人，开口跟你说不信 XX 就会下地狱，那这人信的就是邪教。&lt;br /&gt;
-他以为他信的是某种很大众的教，但他的理解力，他的作为就是邪教作为。&lt;br /&gt;
-有人向你传教，是一番好意，你就问他一个问题：如果我不入教是不是就会下地狱？&lt;br /&gt;
-他如果说是的就离他远点儿。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1757276859052736890&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-在正常人和邪教传人之间，不是一个分明的分界线，而是一道连续的光谱。&lt;br /&gt;
-一个看上去挺正常的人，可能因为一件事情，像被按到了开关，摇身一变变成邪教传人，心安理得地干下最邪恶最反人类的事情。&lt;br /&gt;
-触发的条件越普通平常，这个人在光谱上越接近邪教的那一端。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>No Vision Pro</title>
-        <link>https://ioerr.github.io/posts/no-vision-pro/</link>
-        <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/no-vision-pro/</guid>
-        <description>&lt;p&gt;比 Vision Pro 更加舒适、便携、实用和廉价的革命性产品——No Vision Pro！&lt;br /&gt;
-好到让我在除夕夜里的烟花爆竹声中，坐在床上专门录一期节目来推荐它！&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/PfTlEhN0nfA?si=65_7K583KWn2nMfL&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
       </item>
     
