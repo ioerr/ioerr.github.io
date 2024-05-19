@@ -1,81 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>阴谋论 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%98%B4%E8%B0%8B%E8%AE%BA/</link>
     <description>Recent content in 阴谋论 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%98%B4%E8%B0%8B%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>无知的人最自信</title>
-        <link>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</link>
-        <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</guid>
-        <description>&lt;p&gt;判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。&lt;br /&gt;
-但怎么算是逻辑矛盾，不是那么容易看出来的。&lt;/p&gt;
-
-&lt;p&gt;光的波粒二象性曾经让物理学家抓狂。&lt;br /&gt;
-光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。&lt;/p&gt;
-
-&lt;p&gt;最终只有认知突破之后，才认识到不是那么简单。&lt;br /&gt;
-拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。&lt;/p&gt;
-
-&lt;p&gt;在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。&lt;br /&gt;
-但回头给认知范围还没有拓展的人听，他仍然不会理解。&lt;/p&gt;
-
-&lt;p&gt;越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>阴谋论与道德虚无</title>
-        <link>https://ioerr.github.io/posts/yinmoulun-yu-daode-xuwu/</link>
-        <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinmoulun-yu-daode-xuwu/</guid>
-        <description>&lt;p&gt;价值观不同，说白了就是我认为这个比那个重要，而你觉得相反。&lt;/p&gt;
-
-&lt;p&gt;阴谋论的问题在于只有一种理解世界的方式，阴谋论者无法理解他人有不同的价值观和选择，倘若有人为了道德放弃利益，则阴谋论者都会认为其中必有蹊跷。&lt;/p&gt;
-
-&lt;p&gt;这种单一价值观的后果是道德虚无，是追求善的人要么自污——不是为了私利有所企图谁会做傻事，要么割肉饲鹰式的牺牲——死人才能证明自己没有利益动机。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>不仅是反犹主义</title>
-        <link>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</link>
-        <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</guid>
-        <description>&lt;p&gt;不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。&lt;/p&gt;
-
-&lt;p&gt;一个典型的例子，就是同样一批人，可以以反对资本主义为名，将所有资本家和企业家视为一个有原罪的整体，声称其个个为了追逐利润无所不为、丧失人性，代表“资本”在常人所不知的隐秘之处，操纵一切，腐化一切，是各种社会、政治、经济问题的罪魁祸首。&lt;/p&gt;
-
-&lt;p&gt;其他的例子还有中世纪的猎巫运动和上个世纪中的多次暴民运动。&lt;/p&gt;
-
-&lt;p&gt;在阴谋论带来的仇恨和恐慌情绪的驱使下，这个被控有罪的群体是否真有勾结共谋，是不是这个群体中所有人都罪无可恕，都已经不重要了，乌合之众们要的只有除之而后快，是充满正义和道德感的“净化”行为。&lt;/p&gt;
-
-&lt;p&gt;反犹主义背后的这种心理基础和行事逻辑，只要有条件，它可以将歧视和迫害的对象扩大许多倍，也可能针对任何人和任何群体。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%98%B4%E8%B0%8B%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无知的人最自信</title>
+      <link>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</guid>
+      <description>判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。 但怎么算是逻辑矛盾，不是那么容易看出来的。 光的波粒二象性</description>
+      <content:encoded><![CDATA[<p>判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。<br>
+但怎么算是逻辑矛盾，不是那么容易看出来的。</p>
+<p>光的波粒二象性曾经让物理学家抓狂。<br>
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。</p>
+<p>最终只有认知突破之后，才认识到不是那么简单。<br>
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。</p>
+<p>在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。<br>
+但回头给认知范围还没有拓展的人听，他仍然不会理解。</p>
+<p>越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>阴谋论与道德虚无</title>
+      <link>https://ioerr.github.io/posts/yinmoulun-yu-daode-xuwu/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinmoulun-yu-daode-xuwu/</guid>
+      <description>价值观不同，说白了就是我认为这个比那个重要，而你觉得相反。 阴谋论的问题在于只有一种理解世界的方式，阴谋论者无法理解他人有不同的价值观和选择，</description>
+      <content:encoded><![CDATA[<p>价值观不同，说白了就是我认为这个比那个重要，而你觉得相反。</p>
+<p>阴谋论的问题在于只有一种理解世界的方式，阴谋论者无法理解他人有不同的价值观和选择，倘若有人为了道德放弃利益，则阴谋论者都会认为其中必有蹊跷。</p>
+<p>这种单一价值观的后果是道德虚无，是追求善的人要么自污——不是为了私利有所企图谁会做傻事，要么割肉饲鹰式的牺牲——死人才能证明自己没有利益动机。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>不仅是反犹主义</title>
+      <link>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</guid>
+      <description>不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。 一个典型的例子，</description>
+      <content:encoded><![CDATA[<p>不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。</p>
+<p>一个典型的例子，就是同样一批人，可以以反对资本主义为名，将所有资本家和企业家视为一个有原罪的整体，声称其个个为了追逐利润无所不为、丧失人性，代表“资本”在常人所不知的隐秘之处，操纵一切，腐化一切，是各种社会、政治、经济问题的罪魁祸首。</p>
+<p>其他的例子还有中世纪的猎巫运动和上个世纪中的多次暴民运动。</p>
+<p>在阴谋论带来的仇恨和恐慌情绪的驱使下，这个被控有罪的群体是否真有勾结共谋，是不是这个群体中所有人都罪无可恕，都已经不重要了，乌合之众们要的只有除之而后快，是充满正义和道德感的“净化”行为。</p>
+<p>反犹主义背后的这种心理基础和行事逻辑，只要有条件，它可以将歧视和迫害的对象扩大许多倍，也可能针对任何人和任何群体。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

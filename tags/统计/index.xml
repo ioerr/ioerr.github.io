@@ -1,237 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>统计 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%BB%9F%E8%AE%A1/</link>
     <description>Recent content in 统计 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>活到正确为止</title>
-        <link>https://ioerr.github.io/posts/huo-dao-zhengque-weizhi/</link>
-        <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/huo-dao-zhengque-weizhi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/angryunclebrid/status/1575485291434909703&#34;&gt;哈尼叔@谢特厚砍树&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;一点人生经验：&lt;/p&gt;
-
-&lt;p&gt;不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。&lt;/p&gt;
-
-&lt;p&gt;但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。&lt;/p&gt;
-
-&lt;p&gt;有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。&lt;/p&gt;
-
-&lt;p&gt;这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。&lt;/p&gt;
-
-&lt;p&gt;只有狗逼才敢说这对创作没有很大影响。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1575629391039643648&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;“只要死的不是我，这个世界就很棒。”&lt;/p&gt;
-
-&lt;p&gt;战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。&lt;/p&gt;
-
-&lt;p&gt;统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。&lt;/p&gt;
-
-&lt;p&gt;如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？&lt;br /&gt;
-我接触不到的，或者已经死去的人，又会是什么态度呢？&lt;/p&gt;
-
-&lt;p&gt;而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。&lt;/p&gt;
-
-&lt;p&gt;由此忽然想到一个看上去没什么关联的赌场概率统计问题：&lt;br /&gt;
-一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。&lt;/p&gt;
-
-&lt;p&gt;还有醉汉回家的例子：&lt;br /&gt;
-醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。&lt;/p&gt;
-
-&lt;p&gt;类似的，给定无限时间和无限子弹，总会等到上靶的那一天。&lt;br /&gt;
-如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。&lt;/p&gt;
-
-&lt;p&gt;换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。&lt;br /&gt;
-威权主义政治精英自然就可以永远立于不败之地。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>FAQ</title>
-        <link>https://ioerr.github.io/posts/faq/</link>
-        <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/faq/</guid>
-        <description>&lt;p&gt;一般我们认为 FAQ = Frequently Asked Questions，但实际上大多数情况是 Frequently Answered Questions。&lt;/p&gt;
-
-&lt;p&gt;那些还无法回答的问题，哪怕被问到的次数再多，作者也可能压根就不会写进 FAQ 中，通常是只有他能够回答得了才会写进去，回答不了的可能就默默地略过去了。&lt;/p&gt;
-
-&lt;p&gt;这就像统计学的一个经典例子，幸存下来的轰炸机机身上的弹孔分布数据，不能反映真实的命中情况，也不能据此确定要加强防护的部位。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>足球比赛的规律</title>
-        <link>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</link>
-        <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</guid>
-        <description>&lt;p&gt;以前每逢足球大赛，球迷们都说意大利克德国，德国克法国、阿根廷，法国克巴西，还有意大利荷兰点球不行，西班牙预选赛之王，等等。&lt;/p&gt;
-
-&lt;p&gt;其实可能只是因为样本太少所以以为是规律。&lt;/p&gt;
-
-&lt;p&gt;近年来06年世界杯意大利点球胜法国，16年欧洲杯上德国赢意大利，16年欧洲杯法国胜德国，输葡萄牙，荷兰点球也翻过身，西班牙大赛三连冠，所以又有谁翻身复仇了不要觉得奇怪。&lt;/p&gt;
-
-&lt;p&gt;最终比赛还是要靠实力说话，当场次较少的时候，各种几率有可能存在，但只要时间足够长，比赛足够多，统计概率还是会慢慢靠向实力分布的情况的。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Elo 排名系统</title>
-        <link>https://ioerr.github.io/posts/elo-paiming-xitong/</link>
-        <pubDate>Sat, 14 Nov 2009 17:41:16 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/elo-paiming-xitong/</guid>
-        <description>&lt;p&gt;看到&lt;a href=&#34;http://bbs.goalhi.com/464426.html&#34;&gt;这篇文章&lt;/a&gt;中提到的世界足坛埃罗排名系统（The
-World Football Elo Rating System），尝试研究了一下这个足球排名系统：&lt;/p&gt;
-
-&lt;p&gt;Elo Rating System 根据评价值进行排名，评价值的计算方式如下：&lt;/p&gt;
-
-&lt;p&gt;Rn = Ro + K × (W - We)&lt;/p&gt;
-
-&lt;p&gt;Rn 表示新的评价值&lt;/p&gt;
-
-&lt;p&gt;Ro 表示原来的评价值&lt;/p&gt;
-
-&lt;p&gt;K 表示比赛的权重，如：&lt;br /&gt;
-世界杯决赛圈比赛，K取60；&lt;br /&gt;
-洲级杯赛决赛圈比赛取50；&lt;br /&gt;
-世界杯和洲级杯赛外围赛取40；&lt;br /&gt;
-其他锦标赛取30；&lt;br /&gt;
-友谊赛取20。&lt;br /&gt;
-根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N
-为净胜球数。&lt;br /&gt;
-如世界杯决赛圈比赛净胜3球，K=60 × (1 + &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; + (3-3)/8) = 105&lt;/p&gt;
-
-&lt;p&gt;W 表示比赛的结果，胜取1，平取0.5，负取0&lt;/p&gt;
-
-&lt;p&gt;We 表示预期结果，计算公式为：&lt;br /&gt;
-We = 1 / (10\^(-dr/400) + 1)&lt;/p&gt;
-
-&lt;p&gt;dr 表示双方排位的差距&lt;/p&gt;
-
-&lt;p&gt;如果不嫌复杂的话，完整的公式可以写作：&lt;br /&gt;
-Rn = Ro + K × (W - 1 / (10\^(-dr/400) + 1))&lt;/p&gt;
-
-&lt;p&gt;以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：&lt;br /&gt;
-法国队目前的评价值是1856，排名第10；&lt;br /&gt;
-爱尔兰队目前的评价值是1742，排名第27；&lt;/p&gt;
-
-&lt;p&gt;世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; + (2-3)/8) = 65&lt;/p&gt;
-
-&lt;p&gt;法国队的新评价值计算如下：&lt;br /&gt;
-Rn = 1856 + 65 × (0 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;400&lt;/sub&gt;) +1)) = 1822&lt;/p&gt;
-
-&lt;p&gt;爱尔兰队的新评价值计算如下：&lt;br /&gt;
-Rn = 1742 + 65 × (1 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;400&lt;/sub&gt;) +1)) = 1773&lt;/p&gt;
-
-&lt;p&gt;假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。&lt;/p&gt;
-
-&lt;p&gt;Elo 排名系统的排名看上去未必就比 &lt;a href=&#34;http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html&#34;&gt;FIFA
-世界排名&lt;/a&gt;靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>为什么住得远反而到得早？</title>
-        <link>https://ioerr.github.io/posts/weishenme-zhudeyuan-faner-daodezao/</link>
-        <pubDate>Mon, 24 Mar 2008 09:23:16 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/weishenme-zhudeyuan-faner-daodezao/</guid>
-        <description>&lt;p&gt;身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？&lt;/p&gt;
-
-&lt;p&gt;为此，我想用统计分析的方法找到其中的原因。&lt;/p&gt;
-
-&lt;p&gt;首先第一步的工作，就是：&lt;/p&gt;
-
-&lt;p&gt;伪！造！数！据！ 囧 :023:&lt;/p&gt;
-
-&lt;p&gt;2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）&lt;/p&gt;
-
-&lt;p&gt;以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。&lt;br /&gt;
-假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00048.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00048.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;然后是相对应的曲线图。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00049.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00049.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;现在假设迟到的时间点设置在+3之前（如红线所示），则距离较近者会有14+2=16次迟到（灰色部分），而不幸的距离较远者会有48+35+24+15+8+4+2+1+1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。&lt;br /&gt;
-距离较远者要达到16次以下的迟到次数，迟到时间点应定在+7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到+3时间点的要求。&lt;/p&gt;
-
-&lt;p&gt;于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00050.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00050.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00051.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00051.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。&lt;/p&gt;
-
-&lt;p&gt;综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，&lt;strong&gt;这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的&lt;/strong&gt;，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>OMI</title>
-        <link>https://ioerr.github.io/posts/omi/</link>
-        <pubDate>Thu, 08 Nov 2007 13:26:09 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/omi/</guid>
-        <description>&lt;p&gt;OMI=Open Mind Index，由 &lt;a href=&#34;http://www.musickum.com/&#34;&gt;Musickum&lt;/a&gt; 根据
-&lt;a href=&#34;http://www.last.fm/&#34;&gt;Last.Fm&lt;/a&gt;
-提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。&lt;/p&gt;
-
-&lt;p&gt;我的指数只有126…&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/omi/c/ocalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/graphics/taste/c/tcalonxu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;而目前的平均指数是94.48：&lt;br /&gt;
-&lt;img src=&#34;http://s217122409.online.de/musickum/omi/images/tags_gauss.php5?allomis=94.48&amp;amp;usersumme=99019&amp;amp;user_omi=126&amp;amp;tagdata=0,0.2,0.3,0.8,1.8,4.1,8,12.5,15.7,16.7,14.8,11.3,7.3,3.9,1.7,0.6,0.2,0,0,0&amp;amp;tagname=5,15,25,35,45,55,65,75,85,95,105,115,125,135,145,155,165,175,185,195&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;中国大陆的用户 OMI 平均指数是103.32，台湾是91.96，香港则是87.39。&lt;/p&gt;
-
-&lt;p&gt;更多统计结果见&lt;a href=&#34;http://www.musickum.com/omi/index.php5?username=calonxu&#34;&gt;我的统计页面&lt;/a&gt;。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>活到正确为止</title>
+      <link>https://ioerr.github.io/posts/huo-dao-zhengque-weizhi/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huo-dao-zhengque-weizhi/</guid>
+      <description>哈尼叔@谢特厚砍树： 一点人生经验： 不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/angryunclebrid/status/1575485291434909703">哈尼叔@谢特厚砍树</a>：</p>
+<p>一点人生经验：</p>
+<p>不管是写书的、拍电影的，还是做游戏的，一旦开始说什么“不要把什么都归咎于审查”，那十有八九就是他找到了门路去舔管事的人，或者干脆已经给人舔爽了、已经基本睁只眼闭只眼给开绿灯。</p>
+<p>但过不了三五年，换个管事的人，或者干脆换个大领导，他就立马傻逼了。譬如管虎就是如此。</p>
+<p>有人纳闷为什么国产剧如此脱离现实，剧中人还过着不戴口罩、随便出国的生活。这很有可能是因为你看的是一部曾被审查雪藏的剧。</p>
+<p>这些积压剧，纯粹因商业运作失败产生是比较少的，更多是因为审查。拍完才来拉个红线、弄些指导意见，补拍都通不过，就只好积压了。</p>
+<p>只有狗逼才敢说这对创作没有很大影响。</p>
+<p><a href="https://twitter.com/calon/status/1575629391039643648">Calon</a>：</p>
+<p>“只要死的不是我，这个世界就很棒。”</p>
+<p>战争、疫情、自然灾害或者其他民生问题上都一样，严格来说你只能表达自己的评价，至于对别人来说是好是坏，无授权，不代表。</p>
+<p>统计数据是可以参考，但很多时候统计数据被有目的的利用，换个口径、方法和解读方式，也可以“统计出完全不同的结论。</p>
+<p>如果问我认识的知青，说想回到毛时代的可能会是大多数，但如果真有机会，做的会有口头说的那么多吗？<br>
+我接触不到的，或者已经死去的人，又会是什么态度呢？</p>
+<p>而支持家长式威权主义的人，认为民众都愚昧而不知好歹，个人一时的感受和意见不足为据，最终他们都会跪谢始终掌握知识、数据和具备长远眼光的政治精英。</p>
+<p>由此忽然想到一个看上去没什么关联的赌场概率统计问题：<br>
+一个胜负概率处于平均水平的赌徒，如果他的策略是赌钱赢了就继续下注，直到输光退场，那么只要时间足够长，那么最终一定会输光。</p>
+<p>还有醉汉回家的例子：<br>
+醉汉回家走的方向随机，随时变化，回家路上一边是墙一边是河，最终他肯定会掉河里。</p>
+<p>类似的，给定无限时间和无限子弹，总会等到上靶的那一天。<br>
+如果子弹还可以扫射观众席，看到你脱靶的人都不在世或者都缄口不言了，就可以当神枪手了。</p>
+<p>换言之，只要“活”得足够久，不是什么事都弄错，总会有正确的时候。<br>
+威权主义政治精英自然就可以永远立于不败之地。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://ioerr.github.io/posts/faq/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/faq/</guid>
+      <description>一般我们认为 FAQ = Frequently Asked Questions，但实际上大多数情况是 Frequently Answered Questions。 那些还无法回答的问题，哪怕被问到的次数再多，作者也可能压</description>
+      <content:encoded><![CDATA[<p>一般我们认为 FAQ = Frequently Asked Questions，但实际上大多数情况是 Frequently Answered Questions。</p>
+<p>那些还无法回答的问题，哪怕被问到的次数再多，作者也可能压根就不会写进 FAQ 中，通常是只有他能够回答得了才会写进去，回答不了的可能就默默地略过去了。</p>
+<p>这就像统计学的一个经典例子，幸存下来的轰炸机机身上的弹孔分布数据，不能反映真实的命中情况，也不能据此确定要加强防护的部位。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>足球比赛的规律</title>
+      <link>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zuqiu-bisai-de-guilv/</guid>
+      <description>以前每逢足球大赛，球迷们都说意大利克德国，德国克法国、阿根廷，法国克巴西，还有意大利荷兰点球不行，西班牙预选赛之王，等等。 其实可能只是因为样</description>
+      <content:encoded><![CDATA[<p>以前每逢足球大赛，球迷们都说意大利克德国，德国克法国、阿根廷，法国克巴西，还有意大利荷兰点球不行，西班牙预选赛之王，等等。</p>
+<p>其实可能只是因为样本太少所以以为是规律。</p>
+<p>近年来06年世界杯意大利点球胜法国，16年欧洲杯上德国赢意大利，16年欧洲杯法国胜德国，输葡萄牙，荷兰点球也翻过身，西班牙大赛三连冠，所以又有谁翻身复仇了不要觉得奇怪。</p>
+<p>最终比赛还是要靠实力说话，当场次较少的时候，各种几率有可能存在，但只要时间足够长，比赛足够多，统计概率还是会慢慢靠向实力分布的情况的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Elo 排名系统</title>
+      <link>https://ioerr.github.io/posts/elo-paiming-xitong/</link>
+      <pubDate>Sat, 14 Nov 2009 17:41:16 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/elo-paiming-xitong/</guid>
+      <description>看到这篇文章中提到的世界足坛埃罗排名系统（The World Football Elo Rating System），尝试研究了一下这个足球排名系统： Elo Rating System 根据评价值进行排名，评价值的计</description>
+      <content:encoded><![CDATA[<p>看到<a href="http://bbs.goalhi.com/464426.html">这篇文章</a>中提到的世界足坛埃罗排名系统（The<br>
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：</p>
+<p>Elo Rating System 根据评价值进行排名，评价值的计算方式如下：</p>
+<p>Rn = Ro + K × (W - We)</p>
+<p>Rn 表示新的评价值</p>
+<p>Ro 表示原来的评价值</p>
+<p>K 表示比赛的权重，如：<br>
+世界杯决赛圈比赛，K取60；<br>
+洲级杯赛决赛圈比赛取50；<br>
+世界杯和洲级杯赛外围赛取40；<br>
+其他锦标赛取30；<br>
+友谊赛取20。<br>
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N<br>
+为净胜球数。<br>
+如世界杯决赛圈比赛净胜3球，K=60 × (1 + 3/4 + (3-3)/8) = 105</p>
+<p>W 表示比赛的结果，胜取1，平取0.5，负取0</p>
+<p>We 表示预期结果，计算公式为：<br>
+We = 1 / (10^(-dr/400) + 1)</p>
+<p>dr 表示双方排位的差距</p>
+<p>如果不嫌复杂的话，完整的公式可以写作：<br>
+Rn = Ro + K × (W - 1 / (10^(-dr/400) + 1))</p>
+<p>以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：<br>
+法国队目前的评价值是1856，排名第10；<br>
+爱尔兰队目前的评价值是1742，排名第27；</p>
+<p>世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + 3/4 + (2-3)/8) = 65</p>
+<p>法国队的新评价值计算如下：<br>
+Rn = 1856 + 65 × (0 - 1 / (10^(-17/400) +1)) = 1822</p>
+<p>爱尔兰队的新评价值计算如下：<br>
+Rn = 1742 + 65 × (1 - 1 / (10^(-17/400) +1)) = 1773</p>
+<p>假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。</p>
+<p>Elo 排名系统的排名看上去未必就比 <a href="http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html">FIFA<br>
+世界排名</a>靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>为什么住得远反而到得早？</title>
+      <link>https://ioerr.github.io/posts/weishenme-zhudeyuan-faner-daodezao/</link>
+      <pubDate>Mon, 24 Mar 2008 09:23:16 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weishenme-zhudeyuan-faner-daodezao/</guid>
+      <description>身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的</description>
+      <content:encoded><![CDATA[<p>身为一个通常都不会迟到的好人，常常会奇怪，为什么无论是上学还是上班的时候，总是住家比较远（比如在下）的人反而到的很早，步行几分钟就可以赶到的人却往往是刚好踩点呢？</p>
+<p>为此，我想用统计分析的方法找到其中的原因。</p>
+<p>首先第一步的工作，就是：</p>
+<p>伪！造！数！据！ 囧 :023:</p>
+<p>2个对象合计1200次的实地统计要1年多才可以完成啊，为了证明我一点也不宅，所以可耻地用伪造的正态分布曲线代替了。这样读者也可以看得轻松一点不是吗？（读者：喂！我们是要看没有操守的你被教授持刀追杀啦！）</p>
+<p>以下就是伪造的到达时间统计表，其中时间差表示到达时间和准点时间的差值，右侧两列则分别是住处离目的地距离较远和距离较近的到达次数统计值。<br>
+假设条件是，路上的耽搁使得到达时间分布扩散，但仍基本符合正态分布规律。距离越远的，分布扩散越明显。</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00048.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00048.png" alt="Photobucket"  />
+</a></p>
+<p>然后是相对应的曲线图。</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00049.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00049.png" alt="Photobucket"  />
+</a></p>
+<p>现在假设迟到的时间点设置在+3之前（如红线所示），则距离较近者会有14+2=16次迟到（灰色部分），而不幸的距离较远者会有48+35+24+15+8+4+2+1+1=138次迟到。23%的迟到率，这显然也会被教授或老板拿着刀追砍。<br>
+距离较远者要达到16次以下的迟到次数，迟到时间点应定在+7之前才较为合适，即推迟4分钟。而现在，他必须为这缩减的4分钟付出代价，也就是比先前整体早到4分钟，才能达到+3时间点的要求。</p>
+<p>于是经过调整之后的到达时间统计表就成了如下所示，两个人的迟到次数终于扯平了：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00050.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00050.png" alt="Photobucket"  />
+</a></p>
+<p>相应的曲线图变成了这样，距离较远者的统计曲线左移了4个横轴单位：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00051.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00051.png" alt="Photobucket"  />
+</a></p>
+<p>从第2个曲线图中可以明显的看到，距离较远者不但早到的次数远远超出，而且提早时间的最大值也从之前的7分钟变为了11分钟——即平移的时间，如果你有兴趣，还可以算一算距离较近者发现对方比自己到得早的概率有何变化。</p>
+<p>综上所述，假如距离越远，在路上耽搁时间的事件发生几率越高，则距离较远者必须比原始的方案越提早到达，才能保证迟到的可能性与距离较近者差不多。当然，<strong>这一结论完全是建立在一厢情愿的假设和无耻的伪造数据上的</strong>，是不是符合事实，就要等人实际验证了。何况有的人对迟到和被追杀完全不在意，又或者在遭遇麻烦时有超强的时间掌控能力。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>OMI</title>
+      <link>https://ioerr.github.io/posts/omi/</link>
+      <pubDate>Thu, 08 Nov 2007 13:26:09 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/omi/</guid>
+      <description>OMI=Open Mind Index，由 Musickum 根据 Last.Fm 提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。 我的指数只有126… 而目前的平</description>
+      <content:encoded><![CDATA[<p>OMI=Open Mind Index，由 <a href="http://www.musickum.com/">Musickum</a> 根据<br>
+<a href="http://www.last.fm/">Last.Fm</a><br>
+提供的数据进行统计分析得出的“音乐开放指数”，基本上听歌的风格越杂，该指数就会越高。</p>
+<p>我的指数只有126…<br>
+<img loading="lazy" src="http://s217122409.online.de/musickum/omi/graphics/omi/c/ocalonxu.png" alt=""  />
+<br>
+<img loading="lazy" src="http://s217122409.online.de/musickum/omi/graphics/taste/c/tcalonxu.png" alt=""  />
+</p>
+<p>而目前的平均指数是94.48：<br>
+<img loading="lazy" src="http://s217122409.online.de/musickum/omi/images/tags_gauss.php5?allomis=94.48&amp;usersumme=99019&amp;user_omi=126&amp;tagdata=0,0.2,0.3,0.8,1.8,4.1,8,12.5,15.7,16.7,14.8,11.3,7.3,3.9,1.7,0.6,0.2,0,0,0&amp;tagname=5,15,25,35,45,55,65,75,85,95,105,115,125,135,145,155,165,175,185,195" alt=""  />
+</p>
+<p>中国大陆的用户 OMI 平均指数是103.32，台湾是91.96，香港则是87.39。</p>
+<p>更多统计结果见<a href="http://www.musickum.com/omi/index.php5?username=calonxu">我的统计页面</a>。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

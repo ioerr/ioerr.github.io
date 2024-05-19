@@ -1,34 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>绝望 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%BB%9D%E6%9C%9B/</link>
     <description>Recent content in 绝望 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 23 Dec 2007 16:04:53 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%BB%9D%E6%9C%9B/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>绝望了！</title>
-        <link>https://ioerr.github.io/posts/juewang-le/</link>
-        <pubDate>Sun, 23 Dec 2007 16:04:53 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/juewang-le/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://d.veryxd.net/&#34;&gt;絕望網&lt;/a&gt;（狠差地？），&lt;a href=&#34;http://blog.woixv.com/&#34;&gt;紅色長角三倍速&lt;/a&gt;和
-&lt;a href=&#34;http://blog.xdite.net/&#34;&gt;XDite&lt;/a&gt;
-的2008消極絕望推廣小組带来的供您绝望哀号的站点。&lt;br /&gt;
-所谓不在沉默中放荡，就在沉默中绝望，人生没有希望，左转就是绝望，来，和我一起喊：&lt;br /&gt;
-“&lt;a href=&#34;http://d.veryxd.net/deptexts/show/11&#34;&gt;絕望啦！我對『 这个连老虎都要萌2D的社会
-』絕望啦！&lt;/a&gt;”&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%BB%9D%E6%9C%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>绝望了！</title>
+      <link>https://ioerr.github.io/posts/juewang-le/</link>
+      <pubDate>Sun, 23 Dec 2007 16:04:53 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/juewang-le/</guid>
+      <description>絕望網（狠差地？），紅色長角三倍速和 XDite 的2008消極絕望推廣小組带来的供您绝望哀号的站点。 所谓不在沉默中放荡，就在沉默中绝望，人生没有希望，</description>
+      <content:encoded><![CDATA[<p><a href="http://d.veryxd.net/">絕望網</a>（狠差地？），<a href="http://blog.woixv.com/">紅色長角三倍速</a>和<br>
+<a href="http://blog.xdite.net/">XDite</a><br>
+的2008消極絕望推廣小組带来的供您绝望哀号的站点。<br>
+所谓不在沉默中放荡，就在沉默中绝望，人生没有希望，左转就是绝望，来，和我一起喊：<br>
+“<a href="http://d.veryxd.net/deptexts/show/11">絕望啦！我對『 这个连老虎都要萌2D的社会<br>
+』絕望啦！</a>”</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

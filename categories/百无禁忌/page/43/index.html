@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>百无禁忌 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/index.xml">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  
+
+<meta property="og:title" content="百无禁忌" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="百无禁忌"/>
+<meta name="twitter:description" content=""/>
+
+</head>
+
+<body class="list" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    百无禁忌
+    <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">另一种看病难
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>外婆生病住院动手术，身在国外的表妹听说是在旺旺医院动手术和住院后，觉得医院和主治医生的声望值不如附二医院靠谱（可当时附二医院病房全满，要进去...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-03-10 15:59:43 +0000 +0000'>2009-3-10</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 另一种看病难" href="https://ioerr.github.io/posts/lingyizhong-kanbing-nan/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">简繁之争
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>因为两会提案恢复繁体字的关系，汉字的简繁之争又开始活跃了起来，但我觉得一些争论已经误入歧途了。 比如我不喜欢“正体字”的说法，因为任何争论一旦...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-03-09 19:34:15 +0000 +0000'>2009-3-9</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 简繁之争" href="https://ioerr.github.io/posts/jianfan-zhi-zheng/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">既得利益者
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>公交车已经进入沙丁鱼罐头模式，每一站都仿佛有无穷的乘客等着挤上车来，攀附在车门“生死”边缘的乘客们说什么也不肯放手，因为一旦放弃，意味着又要...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-02-25 15:54:30 +0000 +0000'>2009-2-25</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 既得利益者" href="https://ioerr.github.io/posts/jideliyizhe/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">垃圾分类
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？ 答...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-02-21 14:44:27 +0000 +0000'>2009-2-21</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 垃圾分类" href="https://ioerr.github.io/posts/laji-fenlei/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">《寻宝》节目
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>昨天看了一下央视经济频道的《寻宝》特别节目的重播（好像这期是在咸宁，起床之后就忘了…），感觉还挺好玩的。 节目的形式是：当地的收藏爱好者们怀揣...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-02-08 03:06:02 +0000 +0000'>2009-2-8</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 《寻宝》节目" href="https://ioerr.github.io/posts/xunbao-jiemu/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/page/42/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/page/44/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

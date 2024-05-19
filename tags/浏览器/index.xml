@@ -1,142 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>浏览器 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
     <description>Recent content in 浏览器 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 01 Feb 2017 12:52:44 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Firefox 扩展机制的变化与未来</title>
-        <link>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
-        <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
-        <description>&lt;p&gt;我正在使用 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt; 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。&lt;/p&gt;
-
-&lt;p&gt;最近他&lt;a href=&#34;http://fasezero.com/addons/&#34;&gt;在扩展的主页网站上发表了一篇文章&lt;/a&gt;，大意是：&lt;br /&gt;
-因为 Mozilla Firefox 的扩展机制会&lt;a href=&#34;https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/&#34;&gt;改为 WebExtensions&lt;/a&gt;，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、FindBar Tweak、OmniSidebar、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt;，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。&lt;/p&gt;
-
-&lt;p&gt;Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。&lt;/p&gt;
-
-&lt;p&gt;然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。&lt;/p&gt;
-
-&lt;p&gt;对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/&#34;&gt;Tab Tree&lt;/a&gt; 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。&lt;br /&gt;
-放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 扩展页面下的&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/&#34;&gt;一个评论&lt;/a&gt;说的好：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&amp;rsquo;s the case, why would anyone choose Firefox instead of Chrome?&lt;/p&gt;
-
-&lt;p&gt;Mozilla，你们他妈在想些什么？
-   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！
-   好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。&lt;br /&gt;
-只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）&lt;br /&gt;
-这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？&lt;/p&gt;
-
-&lt;p&gt;希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 &lt;a href=&#34;https://www.palemoon.org/&#34;&gt;Pale Moon&lt;/a&gt; 这样的替代品会越来越成熟。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Chrome 扩展</title>
-        <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
-        <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
-        <description>&lt;p&gt;首先&lt;a href=&#34;http://www.google.com/landing/chrome/beta/&#34;&gt;到这个页面下载 Chrome 4.0
-Beta&lt;/a&gt;，然后&lt;a href=&#34;https://chrome.google.com/extensions/&#34;&gt;去扩展页面&lt;/a&gt;淘吧。&lt;/p&gt;
-
-&lt;p&gt;Chrome 扩展的好处：&lt;br /&gt;
-不需要重启就可以生效和卸载；&lt;br /&gt;
-扩展有独立进程。&lt;/p&gt;
-
-&lt;p&gt;不佳之处则有：&lt;br /&gt;
-官方扩展页面无分类；&lt;br /&gt;
-浏览器内的扩展管理页面找不到扩展的主页；&lt;br /&gt;
-使用其他浏览器时不能先下载再安装。&lt;/p&gt;
-
-&lt;p&gt;等到 Chrome 扩展的丰富程度超过
-Firefox，而性能仍然能够保持最快的水准，我就会更换默认浏览器了。&lt;/p&gt;
-
-&lt;p&gt;目前我已经安装的扩展有：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole&#34;&gt;Diigo
-bookmarks&lt;/a&gt;&lt;br /&gt;
-书签收藏类，可惜 Diigo 至今仍然处于被封杀状态。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/cdngiadmnkhgemkimkhiilgffbjijcie&#34;&gt;FlashBlock&lt;/a&gt;&lt;br /&gt;
-阻挡 Flash 就可以节省很多资源了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/hdokiejnpimakedhajhdlcegeplioahd&#34;&gt;LastPass&lt;/a&gt;&lt;br /&gt;
-密码管理。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/loljledaigphbcpfhfmgopdkppkifgno#&#34;&gt;Lazarus&lt;/a&gt;&lt;br /&gt;
-自动保存输入框内容，防止丢失未提交的文本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi&#34;&gt;Session
-Manager&lt;/a&gt;&lt;br /&gt;
-存储、还原会话。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&#34;&gt;Switchy!&lt;/a&gt;&lt;br /&gt;
-多代理切换。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/imimolldggofidcmfdkcffpjcgaggoaf&#34;&gt;VerticalTabs&lt;/a&gt;&lt;br /&gt;
-标签太多的时候可以以纵列形式查看标签标题文字。&lt;/p&gt;
-
-&lt;p&gt;不少 Firefox 的扩展要继续耐心等待才能在 Chrome
-上看到，有的也许永远也看不到…&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>PK</title>
-        <link>https://ioerr.github.io/posts/pk/</link>
-        <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/pk/</guid>
-        <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;
-试试不干正事的浏览体验，结果…&lt;/p&gt;
-
-&lt;p&gt;遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；&lt;br /&gt;
-没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；&lt;br /&gt;
-快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；&lt;br /&gt;
-拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；&lt;br /&gt;
-便捷直观不如 Download Statusbar，内功修为不及
-DownThemAll!，下载我还用不惯；&lt;br /&gt;
-虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？&lt;br /&gt;
-不支持 Greasemonkey 这样的脚本平台就少了很多精彩…&lt;br /&gt;
-看到超大图片总是会提醒我该使用 Image Zoom 了；&lt;br /&gt;
-Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；&lt;br /&gt;
-如果 Flickr 再被墙奸，就能体会到 Access Flickr! 是多么的有爱了！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/tuijian_firefox_kuozhan_yu_zhuti/&#34;&gt;…&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;所以最终的结论是…&lt;/p&gt;
-
-&lt;p&gt;把 &lt;a href=&#34;http://kmeleon.sourceforge.net/&#34;&gt;K-Meleon&lt;/a&gt; 给替换掉 :023:&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firefox 扩展机制的变化与未来</title>
+      <link>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
+      <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
+      <description>我正在使用 Beyond Australis 和 Puzzle Bars 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。 最近他在扩展的主页网站上发表了一篇文章，大意</description>
+      <content:encoded><![CDATA[<p>我正在使用 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 和 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a> 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。</p>
+<p>最近他<a href="http://fasezero.com/addons/">在扩展的主页网站上发表了一篇文章</a>，大意是：<br>
+因为 Mozilla Firefox 的扩展机制会<a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">改为 WebExtensions</a>，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、FindBar Tweak、OmniSidebar、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a>，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。</p>
+<p>Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。</p>
+<p>然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。</p>
+<p>对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/">Tab Tree</a> 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。<br>
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？</p>
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 扩展页面下的<a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/">一个评论</a>说的好：</p>
+<blockquote>
+<p>Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&rsquo;s the case, why would anyone choose Firefox instead of Chrome?</p>
+<p>Mozilla，你们他妈在想些什么？<br>
+许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！<br>
+好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？</p>
+</blockquote>
+<p>好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。<br>
+只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）<br>
+这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？</p>
+<p>希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 <a href="https://www.palemoon.org/">Pale Moon</a> 这样的替代品会越来越成熟。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Chrome 扩展</title>
+      <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
+      <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
+      <description>首先到这个页面下载 Chrome 4.0 Beta，然后去扩展页面淘吧。 Chrome 扩展的好处： 不需要重启就可以生效和卸载； 扩展有独立进程。 不佳之处则有： 官方扩展页面无分</description>
+      <content:encoded><![CDATA[<p>首先<a href="http://www.google.com/landing/chrome/beta/">到这个页面下载 Chrome 4.0<br>
+Beta</a>，然后<a href="https://chrome.google.com/extensions/">去扩展页面</a>淘吧。</p>
+<p>Chrome 扩展的好处：<br>
+不需要重启就可以生效和卸载；<br>
+扩展有独立进程。</p>
+<p>不佳之处则有：<br>
+官方扩展页面无分类；<br>
+浏览器内的扩展管理页面找不到扩展的主页；<br>
+使用其他浏览器时不能先下载再安装。</p>
+<p>等到 Chrome 扩展的丰富程度超过<br>
+Firefox，而性能仍然能够保持最快的水准，我就会更换默认浏览器了。</p>
+<p>目前我已经安装的扩展有：</p>
+<p><a href="https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole">Diigo<br>
+bookmarks</a><br>
+书签收藏类，可惜 Diigo 至今仍然处于被封杀状态。</p>
+<p><a href="https://chrome.google.com/extensions/detail/cdngiadmnkhgemkimkhiilgffbjijcie">FlashBlock</a><br>
+阻挡 Flash 就可以节省很多资源了。</p>
+<p><a href="https://chrome.google.com/extensions/detail/hdokiejnpimakedhajhdlcegeplioahd">LastPass</a><br>
+密码管理。</p>
+<p><a href="https://chrome.google.com/extensions/detail/loljledaigphbcpfhfmgopdkppkifgno#">Lazarus</a><br>
+自动保存输入框内容，防止丢失未提交的文本。</p>
+<p><a href="https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi">Session<br>
+Manager</a><br>
+存储、还原会话。</p>
+<p><a href="https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj">Switchy!</a><br>
+多代理切换。</p>
+<p><a href="https://chrome.google.com/extensions/detail/imimolldggofidcmfdkcffpjcgaggoaf">VerticalTabs</a><br>
+标签太多的时候可以以纵列形式查看标签标题文字。</p>
+<p>不少 Firefox 的扩展要继续耐心等待才能在 Chrome<br>
+上看到，有的也许永远也看不到…</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>PK</title>
+      <link>https://ioerr.github.io/posts/pk/</link>
+      <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/pk/</guid>
+      <description>给家里的电脑也装上 Chrome 试试不干正事的浏览体验，结果… 遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy； 没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折</description>
+      <content:encoded><![CDATA[<p>给家里的电脑也装上 <a href="http://calon.weblogs.us/flickr-pro/">Chrome</a><br>
+试试不干正事的浏览体验，结果…</p>
+<p>遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；<br>
+没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；<br>
+快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；<br>
+拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；<br>
+便捷直观不如 Download Statusbar，内功修为不及<br>
+DownThemAll!，下载我还用不惯；<br>
+虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？<br>
+不支持 Greasemonkey 这样的脚本平台就少了很多精彩…<br>
+看到超大图片总是会提醒我该使用 Image Zoom 了；<br>
+Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；<br>
+如果 Flickr 再被墙奸，就能体会到 Access Flickr! 是多么的有爱了！<br>
+<a href="http://calon.weblogs.us/tuijian_firefox_kuozhan_yu_zhuti/">…</a></p>
+<p>所以最终的结论是…</p>
+<p>把 <a href="http://kmeleon.sourceforge.net/">K-Meleon</a> 给替换掉 :023:</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

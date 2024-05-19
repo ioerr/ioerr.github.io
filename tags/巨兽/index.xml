@@ -1,39 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>巨兽 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B7%A8%E5%85%BD/</link>
     <description>Recent content in 巨兽 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 29 Jan 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B7%A8%E5%85%BD/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>灵活的巨兽</title>
-        <link>https://ioerr.github.io/posts/linghuo-de-jushou/</link>
-        <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/linghuo-de-jushou/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：&lt;br /&gt;
-神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。&lt;br /&gt;
-即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。&lt;/p&gt;
-
-&lt;p&gt;有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：&lt;br /&gt;
-信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。&lt;br /&gt;
-不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B7%A8%E5%85%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>灵活的巨兽</title>
+      <link>https://ioerr.github.io/posts/linghuo-de-jushou/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/linghuo-de-jushou/</guid>
+      <description>中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>中国历史长期有一个中央权力，方向盘捏在自己手里，想什么时候左打满就左打满，反正出了问题还可以瞬间右打满。遗憾是治国不同于开车，政策试错的反馈可比手眼协调慢多了。老百姓社会无法提供阻力，于是就成了无阻尼震荡。所谓现代化，就是要加入言论自由文化法制民主商业，作为阻力对权力的负反馈。</p>
+</blockquote>
+<p>有的人是自顶向下的思路，认为整个社会可以进化成一个巨兽：<br>
+神经系统和运动系统像人一样灵敏，尽收眼底，如臂使指，随心所欲。<br>
+即使是一个智力和道德平常的人成为管理者，也可以一眼看出不对劲，并且及时作出反应。</p>
+<p>有的人则是自底向上的思路，认为这样状态理想的巨兽根本就不可能出现：<br>
+信息的汇聚和信号的传递免不了失真和自相矛盾，管理能力迟早会遇到组织能力的边界。<br>
+不如从个人出发合作共存，逐层形成灵活、松散的更复杂组织，不那么稳定和整齐，也不强求将一切都纳入组织的范围。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

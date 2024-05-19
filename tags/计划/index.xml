@@ -1,38 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>计划 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%AE%A1%E5%88%92/</link>
     <description>Recent content in 计划 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 17 Nov 2014 04:59:28 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>精英主义的问题</title>
-        <link>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</link>
-        <pubDate>Mon, 17 Nov 2014 04:59:28 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</guid>
-        <description>&lt;p&gt;大家一讨论精英主义，就陷入是精英还是民粹来决策，谁是精英、什么是真正的精英主义、精英阶层固化或者是否不够民主的误区。&lt;/p&gt;
-
-&lt;p&gt;精英主义最大的问题不在于这些，而是很多默认应该交给精英来做的集体决策，其实根本就不应该在集体的层面统一决策。&lt;/p&gt;
-
-&lt;p&gt;不管是精英还是民粹主义，都无法站在客观、整体的角度准确衡量博弈各方的利益和交易成本，由这两种主义作为指导原则来决策涉及各种主观价值和个人利益的冲突，总不会是最优的方案。&lt;/p&gt;
-
-&lt;p&gt;就好像一国之中的事务，大部分是在个人之间、地方层面的沟通中解决，而不需要也不可能事事由一个高高在上的国王来决断。&lt;br /&gt;
-不管这个国王是精英中的精英，最聪明睿智的人，还是通过各种投票方案选出来的代理人——这本身就是一种中央计划管理所有事务的观念。&lt;/p&gt;
-
-&lt;p&gt;但偏偏人们习惯将经验中次优的解决之道当作最优的方案，期望推而广之放诸四海，于是几乎总是超出其合理应用区间，很容易就忘了，无论是什么主义，一旦滥用都会有问题。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>精英主义的问题</title>
+      <link>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</link>
+      <pubDate>Mon, 17 Nov 2014 04:59:28 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jingyingzhuyi-de-wenti/</guid>
+      <description>大家一讨论精英主义，就陷入是精英还是民粹来决策，谁是精英、什么是真正的精英主义、精英阶层固化或者是否不够民主的误区。 精英主义最大的问题不在于</description>
+      <content:encoded><![CDATA[<p>大家一讨论精英主义，就陷入是精英还是民粹来决策，谁是精英、什么是真正的精英主义、精英阶层固化或者是否不够民主的误区。</p>
+<p>精英主义最大的问题不在于这些，而是很多默认应该交给精英来做的集体决策，其实根本就不应该在集体的层面统一决策。</p>
+<p>不管是精英还是民粹主义，都无法站在客观、整体的角度准确衡量博弈各方的利益和交易成本，由这两种主义作为指导原则来决策涉及各种主观价值和个人利益的冲突，总不会是最优的方案。</p>
+<p>就好像一国之中的事务，大部分是在个人之间、地方层面的沟通中解决，而不需要也不可能事事由一个高高在上的国王来决断。<br>
+不管这个国王是精英中的精英，最聪明睿智的人，还是通过各种投票方案选出来的代理人——这本身就是一种中央计划管理所有事务的观念。</p>
+<p>但偏偏人们习惯将经验中次优的解决之道当作最优的方案，期望推而广之放诸四海，于是几乎总是超出其合理应用区间，很容易就忘了，无论是什么主义，一旦滥用都会有问题。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

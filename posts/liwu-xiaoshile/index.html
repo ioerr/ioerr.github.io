@@ -1,207 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>里屋，消失了 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>里屋，消失了 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。 终于在一出不断升级的闹剧中结束了… 从维基百科上记录的情况来">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/liwu-xiaoshile/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/liwu-xiaoshile/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="里屋，消失了" />
-<meta property="og:description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。
-终于在一出不断升级的闹剧中结束了…
-从维基百科上记录的情况来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。
- 7月24日，管理员waterwave发现在一个同人女论坛上，有里屋用户对里屋出言不逊的情况，以整顿里屋风气的名义，处罚了gry0404和garfieldpan，garfieldpan认为处罚不公正，将自己所发帖子名全部改成同样的标题，类似“某某人去死，快放我出来”的话语，waterwave和bond为首的管理员随即对帖子进行了鉴定，同时，rpg姉貴‎等用户对管理员的行为提出异议，认为管理不善，随即效仿garfieldpan的行为。管理员bond对这样的跟风帖子进行了软删除，十年对帖子进行了物理删除。当日晚，waterwave对garfieldpan做出处罚，扣除MP。而同时，有部分用户开始了对龙骑兵持有“粗口证”的异议。龙骑兵舌战群儒，好不热闹。
-7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。
-7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。
-7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.
-当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。
-7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。
-与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。
-7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。
-8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。
-8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。
-8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。
-8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。
-8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。  处罚的范围和标准是什么？为什么有人可以有特权？管理层为什么会因为意见矛盾造成管理的反复、朝令夕改？为什么拥有管理权限者会相互攻击？为什么管理员可以轻易地全部撤销？
-当然，有人会老调重弹地说，在里屋只可能有人治，不要妄想有民主和法治，可是就算是人治也要有点基本的水准吧？人治不是管理混乱的借口。
-其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…
-是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。猪笼城寨若是发展壮大，也不会有质的不同。
-下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：
- 上线时间是晚上，基本可以保证每天在线，但有时候工作繁忙…
-管理原则：
-尽量不干涉里屋用户发帖。
-公开执法，尽量保证客观公正，对事不对人。
-只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。
-具体方针：
-1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）
-2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）
-3、其他帖子不作干预
-4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）
-其他优点：
-1、长期潜水，没有私人恩怨，无党派；
-2、曾经脱团的黄金团员，实践证明不会发闷骚贴
-3、不会暴走
-另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）
-老人看不惯小白贴？出手把它压下去吧
-新人也看不惯小白贴？刷mp吧
-和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。
-我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。
-被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。
-推荐贴代表新动向，精华贴代表传统，互不冲突。  结果倒是十年给了我初级管理员的权限，过不多久里屋就变成了“No web site is configured at this address.”，然后是指向猫扑。直到最后一刻，里屋的管理层还是一片混乱…
-好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/liwu-xiaoshile/" />
-
-
-
-<meta property="article:published_time" content="2006-08-06T12:09:29&#43;00:00"/>
-
-<meta property="article:modified_time" content="2006-08-06T12:09:29&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="里屋，消失了">
-<meta itemprop="description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。
-终于在一出不断升级的闹剧中结束了…
-从维基百科上记录的情况来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。
- 7月24日，管理员waterwave发现在一个同人女论坛上，有里屋用户对里屋出言不逊的情况，以整顿里屋风气的名义，处罚了gry0404和garfieldpan，garfieldpan认为处罚不公正，将自己所发帖子名全部改成同样的标题，类似“某某人去死，快放我出来”的话语，waterwave和bond为首的管理员随即对帖子进行了鉴定，同时，rpg姉貴‎等用户对管理员的行为提出异议，认为管理不善，随即效仿garfieldpan的行为。管理员bond对这样的跟风帖子进行了软删除，十年对帖子进行了物理删除。当日晚，waterwave对garfieldpan做出处罚，扣除MP。而同时，有部分用户开始了对龙骑兵持有“粗口证”的异议。龙骑兵舌战群儒，好不热闹。
-7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。
-7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。
-7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.
-当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。
-7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。
-与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。
-7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。
-8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。
-8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。
-8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。
-8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。
-8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。  处罚的范围和标准是什么？为什么有人可以有特权？管理层为什么会因为意见矛盾造成管理的反复、朝令夕改？为什么拥有管理权限者会相互攻击？为什么管理员可以轻易地全部撤销？
-当然，有人会老调重弹地说，在里屋只可能有人治，不要妄想有民主和法治，可是就算是人治也要有点基本的水准吧？人治不是管理混乱的借口。
-其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…
-是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。猪笼城寨若是发展壮大，也不会有质的不同。
-下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：
- 上线时间是晚上，基本可以保证每天在线，但有时候工作繁忙…
-管理原则：
-尽量不干涉里屋用户发帖。
-公开执法，尽量保证客观公正，对事不对人。
-只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。
-具体方针：
-1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）
-2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）
-3、其他帖子不作干预
-4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）
-其他优点：
-1、长期潜水，没有私人恩怨，无党派；
-2、曾经脱团的黄金团员，实践证明不会发闷骚贴
-3、不会暴走
-另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）
-老人看不惯小白贴？出手把它压下去吧
-新人也看不惯小白贴？刷mp吧
-和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。
-我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。
-被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。
-推荐贴代表新动向，精华贴代表传统，互不冲突。  结果倒是十年给了我初级管理员的权限，过不多久里屋就变成了“No web site is configured at this address.”，然后是指向猫扑。直到最后一刻，里屋的管理层还是一片混乱…
-好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。">
-
-
-<meta itemprop="datePublished" content="2006-08-06T12:09:29&#43;00:00" />
-<meta itemprop="dateModified" content="2006-08-06T12:09:29&#43;00:00" />
-<meta itemprop="wordCount" content="53">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="里屋，消失了"/>
-<meta name="twitter:description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。
-终于在一出不断升级的闹剧中结束了…
-从维基百科上记录的情况来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。
- 7月24日，管理员waterwave发现在一个同人女论坛上，有里屋用户对里屋出言不逊的情况，以整顿里屋风气的名义，处罚了gry0404和garfieldpan，garfieldpan认为处罚不公正，将自己所发帖子名全部改成同样的标题，类似“某某人去死，快放我出来”的话语，waterwave和bond为首的管理员随即对帖子进行了鉴定，同时，rpg姉貴‎等用户对管理员的行为提出异议，认为管理不善，随即效仿garfieldpan的行为。管理员bond对这样的跟风帖子进行了软删除，十年对帖子进行了物理删除。当日晚，waterwave对garfieldpan做出处罚，扣除MP。而同时，有部分用户开始了对龙骑兵持有“粗口证”的异议。龙骑兵舌战群儒，好不热闹。
-7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。
-7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。
-7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.
-当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。
-7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。
-与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。
-7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。
-8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。
-8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。
-8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。
-8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。
-8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。  处罚的范围和标准是什么？为什么有人可以有特权？管理层为什么会因为意见矛盾造成管理的反复、朝令夕改？为什么拥有管理权限者会相互攻击？为什么管理员可以轻易地全部撤销？
-当然，有人会老调重弹地说，在里屋只可能有人治，不要妄想有民主和法治，可是就算是人治也要有点基本的水准吧？人治不是管理混乱的借口。
-其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…
-是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。猪笼城寨若是发展壮大，也不会有质的不同。
-下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：
- 上线时间是晚上，基本可以保证每天在线，但有时候工作繁忙…
-管理原则：
-尽量不干涉里屋用户发帖。
-公开执法，尽量保证客观公正，对事不对人。
-只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。
-具体方针：
-1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）
-2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）
-3、其他帖子不作干预
-4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）
-其他优点：
-1、长期潜水，没有私人恩怨，无党派；
-2、曾经脱团的黄金团员，实践证明不会发闷骚贴
-3、不会暴走
-另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）
-老人看不惯小白贴？出手把它压下去吧
-新人也看不惯小白贴？刷mp吧
-和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。
-我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。
-被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。
-推荐贴代表新动向，精华贴代表传统，互不冲突。  结果倒是十年给了我初级管理员的权限，过不多久里屋就变成了“No web site is configured at this address.”，然后是指向猫扑。直到最后一刻，里屋的管理层还是一片混乱…
-好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -212,197 +49,229 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="里屋，消失了" />
+<meta property="og:description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。 终于在一出不断升级的闹剧中结束了… 从维基百科上记录的情况来" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/liwu-xiaoshile/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2006-08-06T12:09:29+00:00" />
+<meta property="article:modified_time" content="2006-08-06T12:09:29+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="里屋，消失了"/>
+<meta name="twitter:description" content="里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。 终于在一出不断升级的闹剧中结束了… 从维基百科上记录的情况来"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "里屋，消失了",
+      "item": "https://ioerr.github.io/posts/liwu-xiaoshile/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "里屋，消失了",
+  "name": "里屋，消失了",
+  "description": "里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。 终于在一出不断升级的闹剧中结束了… 从维基百科上记录的情况来",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。\n终于在一出不断升级的闹剧中结束了…\n从维基百科上记录的情况来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。\n7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。\n7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。\n7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.\n当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。\n7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。\n与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。\n7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。\n8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。\n8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。\n8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。\n8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。\n8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。\n其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…\n是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。猪笼城寨若是发展壮大，也不会有质的不同。\n下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：\n管理原则：\n尽量不干涉里屋用户发帖。\n公开执法，尽量保证客观公正，对事不对人。\n只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。\n具体方针：\n1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）\n2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）\n3、其他帖子不作干预\n4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）\n其他优点：\n1、长期潜水，没有私人恩怨，无党派；\n2、曾经脱团的黄金团员，实践证明不会发闷骚贴\n3、不会暴走\n另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）\n老人看不惯小白贴？出手把它压下去吧\n新人也看不惯小白贴？刷mp吧\n和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。\n我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。\n被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。\n推荐贴代表新动向，精华贴代表传统，互不冲突。\n好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。\n",
+  "wordCount" : "2344",
+  "inLanguage": "en",
+  "datePublished": "2006-08-06T12:09:29Z",
+  "dateModified": "2006-08-06T12:09:29Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/liwu-xiaoshile/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fliwu-xiaoshile%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      里屋，消失了
+    </h1>
+    <div class="post-meta"><span title='2006-08-06 12:09:29 +0000 +0000'>2006-8-6</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。</p>
+<p>终于在一出不断升级的闹剧中结束了…</p>
+<p>从<a href="http://zh.wikipedia.org/wiki/%E9%87%8C%E5%B1%8B">维基百科上记录的情况</a>来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。</p>
+<!-- raw HTML omitted -->
+<p>7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。</p>
+<p>7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。</p>
+<p>7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.</p>
+<p>当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。</p>
+<p>7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。</p>
+<p>与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。</p>
+<p>7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。</p>
+<p>8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。</p>
+<p>8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。</p>
+<p>8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。</p>
+<p>8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。</p>
+<p>8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。</p>
+<!-- raw HTML omitted -->
+<p>其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…<br>
+是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。<a href="http://or2.cn/bbs/">猪笼城寨</a>若是发展壮大，也不会有质的不同。</p>
+<p>下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：</p>
+<!-- raw HTML omitted -->
+<p>管理原则：<br>
+尽量不干涉里屋用户发帖。<br>
+公开执法，尽量保证客观公正，对事不对人。<br>
+只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。</p>
+<p>具体方针：<br>
+1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）<br>
+2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）<br>
+3、其他帖子不作干预<br>
+4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）</p>
+<p>其他优点：<br>
+1、长期潜水，没有私人恩怨，无党派；<br>
+2、曾经脱团的黄金团员，实践证明不会发闷骚贴<br>
+3、不会暴走</p>
+<p>另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）<br>
+老人看不惯小白贴？出手把它压下去吧<br>
+新人也看不惯小白贴？刷mp吧<br>
+和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。<br>
+我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。</p>
+<p>被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。</p>
+<p>推荐贴代表新动向，精华贴代表传统，互不冲突。</p>
+<!-- raw HTML omitted -->
+<p>好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
+        
+          <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/wiki-he-luntan/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Wiki 和论坛</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/shishangzuiqiang-zhi-ktv/">
+    <span class="title">Next »</span>
+    <br>
+    <span>史上最强之 KTV</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2006-08-06 12:09">2006-08-06</time> &bull;
-          
-            
-            <a href="/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95">人生记录</a>
-          
-            , 
-            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
-          </p>
-      <h1>里屋，消失了</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section><p>里屋（2000-10-8 至 2006-8-6）于2006年8月6日14:50分停止。</p>
-
-<p>终于在一出不断升级的闹剧中结束了…</p>
-
-<p>从<a href="http://zh.wikipedia.org/wiki/%E9%87%8C%E5%B1%8B">维基百科上记录的情况</a>来看，7月24日之后，从成员到初管、高管的每一步行动差不多都有问题，几乎都是把冲突推向更加激烈的地步。</p>
-
-<p><blockquote>
-7月24日，管理员waterwave发现在一个同人女论坛上，有里屋用户对里屋出言不逊的情况，以整顿里屋风气的名义，处罚了gry0404和garfieldpan，garfieldpan认为处罚不公正，将自己所发帖子名全部改成同样的标题，类似“某某人去死，快放我出来”的话语，waterwave和bond为首的管理员随即对帖子进行了鉴定，同时，rpg姉貴‎等用户对管理员的行为提出异议，认为管理不善，随即效仿garfieldpan的行为。管理员bond对这样的跟风帖子进行了软删除，十年对帖子进行了物理删除。当日晚，waterwave对garfieldpan做出处罚，扣除MP。而同时，有部分用户开始了对龙骑兵持有“粗口证”的异议。龙骑兵舌战群儒，好不热闹。</p>
-
-<p>7月25日管理员十一·十一自爆id，退出里屋。龙骑兵被十年扣除mp，列入黑名单。当晚，龙骑兵与部分用户仍在舌战。突然，rpg姉貴‎将waterwave列入黑名单，waterwave也将rpg姉貴‎列入黑名单，并对rpg姉貴‎的管理权限提出异议。随后waterwave被rpg姉貴‎撤销了管理员和所有普通用户权限。</p>
-
-<p>7月26日凌晨，龙骑兵舌战的帖子被管理员删除，waterwave的权限被恢复。似乎一切都归于平静。</p>
-
-<p>7月28日，十年以游戏战管理员的id发出公告，由于waterwave触怒rpg姉貴‎，为了不再触怒rpg姉貴‎，撤消所有初管权限.今后里屋管理员只有:十年.</p>
-
-<p>当日下午，公告被删除，随即出现了daliannic发出的声援十年的帖子，引发了更大规模的讨论。就这几天的是是非非，多方继续论战。当晚，狩魔·冥自爆未遂，waterwave和czk11先后自爆。</p>
-
-<p>7月29日凌晨，id为老婆大人的用户疯狂发帖刷屏，内容为czk11的一篇讽刺rpg姉貴‎的帖子，随后自爆。龙骑兵也效仿此法，随后自爆。此举掀起了自爆狂潮。大概有10余名用户紧随自爆。风波似乎暂时平静了。</p>
-
-<p>与此同时，一个名为猪笼城寨的论坛初具规模，注册用户多为这几天的自爆者。而此论坛的建立者，为之前自爆的十一·十一。</p>
-
-<p>7月30日开始，包括十年在内的部分用户在猪笼城寨注册，而里屋由于无人管理进入所谓的无政府状态。</p>
-
-<p>8月2日针对连日的里屋状态，rpg姉貴‎在自己的QQ群内询问是否应该恢复初管，一时间liupizi、青青青青、lcn等用户纷纷献策，liupizi坚决拥护rpg姉貴‎，并希望rpg姉貴‎能撤掉十年。而讨论的结果随着Cjxi一句玩笑式的询问猪笼城寨的地址，和rpg姉貴‎的暴怒而不了了之。</p>
-
-<p>8月3日，维基百科里屋页面被大量修改，其中集中修改了2006年7月末的历史，随后，里屋条目被维基见习编辑以内容重要性存疑、渗杂个人感想为由，列入删除条目。</p>
-
-<p>8月4日，十年发帖宣布整治里屋的混乱状态，rpg姉貴‎也低调的出现，里屋的风波逐渐平息。</p>
-
-<p>8月5日，维基百科里屋条目回档，重新回复到8月2日的内容，只为记录历史。当晚20时30分，rpg姉貴‎发布公告，提出十年不顾里屋大局,为了个人原因,随意撤掉所有初管,因为十年，里屋没了初管，并开始公开招募初管。新一届的初管有上海宝贝KID、狩魔·冥、senken等。此公告帖内，部分用户提出了不同的意见或是灌水，被rpg姉貴‎删除回复。十年发帖，请持不同观点的人在新贴内留言。此帖内再次出现了是是非非的论战。</p>
-
-<p>8月6日下午14时50分开始,原里屋入口(/index.asp,/inyourname.asp)被指向猫扑网或404无法访问。据部分人称，这是Mop的动作。
-</blockquote>
-处罚的范围和标准是什么？为什么有人可以有特权？管理层为什么会因为意见矛盾造成管理的反复、朝令夕改？为什么拥有管理权限者会相互攻击？为什么管理员可以轻易地全部撤销？<br />
-当然，有人会老调重弹地说，在里屋只可能有人治，不要妄想有民主和法治，可是就算是人治也要有点基本的水准吧？人治不是管理混乱的借口。</p>
-
-<p>其实这件事情不过是长久以来积累问题的总爆发。里屋一些成员既想要自己爽，又容不下别人也有相同的不尊重人的举动；看不惯别人不公正的做法，自己又不愿意接受公平规则的约束；发生争论，想到的不是以理服人，而是关小黑屋、mp扣负、利用手中权力或向高管告状…<br />
-是的，这都是猫扑时代遗留下来的作风，但从来也没有真正改变过，以前猫扑有过的动荡，今天在里屋照样重演，而且后果更加伤人心，假如日后里屋借尸还魂，遗风仍在，那么类似的事件必然还会发生。<a href="http://or2.cn/bbs/">猪笼城寨</a>若是发展壮大，也不会有质的不同。</p>
-
-<p>下午rpg姉貴‎发布公告招募初管，我实在看不下去这混乱的情况，所以也希望尝试当一回管理员，申请如下：</p>
-
-<p><blockquote>
-上线时间是晚上，基本可以保证每天在线，但有时候工作繁忙…</p>
-
-<p>管理原则：<br />
-尽量不干涉里屋用户发帖。<br />
-公开执法，尽量保证客观公正，对事不对人。<br />
-只扣mp，不关小黑屋。在猫扑的时候我就不喜欢小黑屋和各种禁言性质的道具，更反感删id，言论自由也包括公开辩护和批评管理者的自由。</p>
-
-<p>具体方针：<br />
-1、危及里屋安全的帖子：无码政治贴、色情贴，负mp，删帖（当然，有价值的我会另外保存，有想法可以在其他地方讨论）<br />
-2、刷屏、发无内容贴、杀猫不注明、人身攻击，扣mp（没有粗口证，没有特权）<br />
-3、其他帖子不作干预<br />
-4、保留并开放处罚的详细记录，公布投诉处理结果，如果投诉有理，恢复mp（会保存在在线网摘中）</p>
-
-<p>其他优点：<br />
-1、长期潜水，没有私人恩怨，无党派；<br />
-2、曾经脱团的黄金团员，实践证明不会发闷骚贴<br />
-3、不会暴走</p>
-
-<p>另外说些废话，虽然能够回帖顶贴，但是无法避免垃圾贴上浮，所以我建议，如果服务器能够承受，又有人有技术，干脆给里屋的程序来个大改，在精华和普通贴之间加个推荐贴专区，每个看过贴的用户可以投票一次加分减分（类似于现在的up/不up，但是不一定要回帖），mp数作权值，mp多的投票更有效。0分以下和最后回复时间超过某一时限的帖子不出现在推荐贴专区，票数多的帖子位置越高。（最好是连投票人也能够公布）<br />
-老人看不惯小白贴？出手把它压下去吧<br />
-新人也看不惯小白贴？刷mp吧<br />
-和丢圈圈、射帖子不同的是，即使你的mp少，照样可以给每个帖子投票，也省下了买道具的操作，所以虽然政策是向老人倾斜的，但是实际对mp少的人有好处。<br />
-我相信大多数的用户都有正确的判断，少数人即使刷mp投票也没用。当然，管理员还是可以介入，如果有大户脑子进水暴走，大量顶垃圾贴，照样有mp处罚。</p>
-
-<p>被人忽视的ACG内涵贴，可由管理员加精，作为里屋传统价值的导向。申请、推荐加精可pm管理员，我相信不会太多。如果精华贴滥竽充数，相信内涵党会选择看上面说的推荐贴，到时候谁都没好处。</p>
-
-<p>推荐贴代表新动向，精华贴代表传统，互不冲突。
-</blockquote>
-结果倒是十年给了我初级管理员的权限，过不多久里屋就变成了“No web site is
-configured at this
-address.”，然后是指向猫扑。直到最后一刻，里屋的管理层还是一片混乱…</p>
-
-<p>好吧，以后就没有常驻论坛了，成了无家可归的流浪汉了。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%87%8c%e5%b1%8b%ef%bc%8c%e6%b6%88%e5%a4%b1%e4%ba%86》&body=https%3a%2f%2fioerr.github.io%2fposts%2fliwu-xiaoshile%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fliwu-xiaoshile%2f&text= @calon %e9%87%8c%e5%b1%8b%ef%bc%8c%e6%b6%88%e5%a4%b1%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -421,5 +290,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

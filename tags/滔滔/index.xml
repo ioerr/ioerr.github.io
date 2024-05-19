@@ -1,119 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>滔滔 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%BB%94%E6%BB%94/</link>
     <description>Recent content in 滔滔 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 18 Dec 2007 13:51:15 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%BB%94%E6%BB%94/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>滔滔图标熄灭</title>
-        <link>https://ioerr.github.io/posts/taotao-tubiao-ximie/</link>
-        <pubDate>Tue, 18 Dec 2007 13:51:15 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/taotao-tubiao-ximie/</guid>
-        <description>&lt;p&gt;给 QQ 好友传送文件，登入 &lt;a href=&#34;http://mail.qq.com/&#34;&gt;QQ
-邮箱&lt;/a&gt;，赫然发现腾讯滔滔发来提醒邮件：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-你是不是一个星期以来都没有去滔滔唠叨几句了？我们很遗憾的告诉你，你的滔滔图标已经熄灭。&lt;br /&gt;
-不过，不用伤心哦，你可以按照下面的步骤重新开通：&lt;/p&gt;
-
-&lt;p&gt;登录滔滔（&lt;a href=&#34;http://www.taotao.com）&#34;&gt;http://www.taotao.com）&lt;/a&lt;br /&gt;
-在设置—〉手机设置里，取消手机关联&lt;br /&gt;
-取消关联后，重新填入手机号码，然后保存&lt;br /&gt;
-将网页提示给你的验证码，通过手机短信发送到对应运营商端口号即可&lt;/p&gt;
-
-&lt;p&gt;注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次
-&lt;/blockquote&gt;
-可是，谁来告诉我“滔滔图标熄灭”是什么意思？是指 QQ
-面板上的某图标变成彩色（但我在 TM
-2008上看不到）？还是滔滔主页上的什么图标变成彩色？还是其他什么高级功能？为什么不在提醒邮件中一句话说清楚？&lt;/p&gt;
-
-&lt;p&gt;本来懒得搞清楚这个疑问，更懒得重新关联手机，但我怕别人说我太没有探索精神，于是顺着邮件给出的链接去&lt;a href=&#34;http://www.taotao.com/help.shtml&#34;&gt;滔滔的帮助页面&lt;/a&gt;看个究竟。&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00093.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00093.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在“常见问题”下倒是找到了和点亮图标相关的条目：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-登录滔滔，在设置里成功关联手机后，即可立刻点亮图标，如果关联不成功，或取消关联，即可熄灭图标。点此查看具体点亮方法
-注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次
-&lt;/blockquote&gt;
-但是这不是等于没有告诉我任何新内容吗？我还是不知道图表熄灭和点亮是什么意思啊…难道是我太长时间不使用
-QQ，所以和不需要任何说明就能看懂的主流用户产生代沟了？&lt;/p&gt;
-
-&lt;p&gt;嗯，既然不知道会有什么损失，就当没有损失好了。&lt;/p&gt;
-
-&lt;p&gt;今天还发现 TM
-2008不爽的地方，除了没有群共享功能之外，搜索联系人时，从之前的在好友清单中直接过滤，变成了在下拉菜单中显示筛选结果：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00092.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00092.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;对下拉菜单没有其他任何操作，只能够左键选择某个好友然后发起会话。&lt;br /&gt;
-那如果我筛选的范围较广，无法精确定位好友，得靠好友资料进一步定位，岂不是每次都要重新筛选一遍？&lt;/p&gt;
-
-&lt;p&gt;可是在下拉菜单中又不能够右键查看好友详细信息。而打开好友对话框之后，一下子还是找不到查看详细资料的地方，摸索了半天，才发现原来入口就在第一行，但就是不提示你…&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00095.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00095.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;虽然这种下拉菜单的方式可以实现快速发起多人会话，但在“邀请好友进行多人会话”的界面中已经可以很好地实现此功能，又何必牺牲原本不错的联系人筛选方式？&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00096.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00096.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后补充一句，QQ
-邮箱的水平还是很高的，目前作为国内的主力邮箱用用挺好的。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>滔滔</title>
-        <link>https://ioerr.github.io/posts/taotao/</link>
-        <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/taotao/</guid>
-        <description>&lt;p&gt;腾讯的&lt;a href=&#34;http://www.taotao.com/&#34;&gt;滔滔/叨客&lt;/a&gt;正式上线，功能上自然还是追随
-Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。&lt;/p&gt;
-
-&lt;p&gt;1、只支持 QQ。&lt;br /&gt;
-站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。&lt;/p&gt;
-
-&lt;p&gt;2、不开放 API。&lt;br /&gt;
-和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。&lt;/p&gt;
-
-&lt;p&gt;3、没有 RSS。&lt;br /&gt;
-RSS 是什么？能赚钱吗？&lt;/p&gt;
-
-&lt;p&gt;4、发言首先要经过语意分析技术分析筛选之后才能够上首页&lt;br /&gt;
-估计也就是“过滤”换了一种说法，从效果来看并不如意。&lt;/p&gt;
-
-&lt;p&gt;5、无法输出到页面&lt;br /&gt;
-没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。&lt;/p&gt;
-
-&lt;p&gt;其他方面：&lt;/p&gt;
-
-&lt;p&gt;名字究竟是叨客还是滔滔？难道是滔滔上的叨客？&lt;br /&gt;
-能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；&lt;br /&gt;
-添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；&lt;br /&gt;
-多次出现系统繁忙的提示，不像是腾讯的服务水准；&lt;br /&gt;
-据说不支持 Opera，摇头…&lt;/p&gt;
-
-&lt;p&gt;总而言之，在我看来是既不开放也缺少诚意的产品。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%BB%94%E6%BB%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>滔滔图标熄灭</title>
+      <link>https://ioerr.github.io/posts/taotao-tubiao-ximie/</link>
+      <pubDate>Tue, 18 Dec 2007 13:51:15 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/taotao-tubiao-ximie/</guid>
+      <description>给 QQ 好友传送文件，登入 QQ 邮箱，赫然发现腾讯滔滔发来提醒邮件： 登录滔滔（http://www.taotao.com） 在设置—〉手机设置里，取消</description>
+      <content:encoded><![CDATA[<p>给 QQ 好友传送文件，登入 <a href="http://mail.qq.com/">QQ<br>
+邮箱</a>，赫然发现腾讯滔滔发来提醒邮件：</p>
+<!-- raw HTML omitted -->
+<p>登录滔滔（http://www.taotao.com）<br>
+在设置—〉手机设置里，取消手机关联<br>
+取消关联后，重新填入手机号码，然后保存<br>
+将网页提示给你的验证码，通过手机短信发送到对应运营商端口号即可</p>
+<p>注：点亮图标之后，如果1周内不发表唠叨（通过任何渠道发布均可，不一定是手机短信），则自动熄灭图标，再次点亮图标，需要先取消手机关联后再重新关联一次</p>
+<!-- raw HTML omitted -->
+<p>本来懒得搞清楚这个疑问，更懒得重新关联手机，但我怕别人说我太没有探索精神，于是顺着邮件给出的链接去<a href="http://www.taotao.com/help.shtml">滔滔的帮助页面</a>看个究竟。<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00093.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00093.png" alt="Photobucket"  />
+</a></p>
+<p>在“常见问题”下倒是找到了和点亮图标相关的条目：</p>
+<!-- raw HTML omitted -->
+<p>嗯，既然不知道会有什么损失，就当没有损失好了。</p>
+<p>今天还发现 TM<br>
+2008不爽的地方，除了没有群共享功能之外，搜索联系人时，从之前的在好友清单中直接过滤，变成了在下拉菜单中显示筛选结果：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00092.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00092.png" alt="Photobucket"  />
+</a></p>
+<p>对下拉菜单没有其他任何操作，只能够左键选择某个好友然后发起会话。<br>
+那如果我筛选的范围较广，无法精确定位好友，得靠好友资料进一步定位，岂不是每次都要重新筛选一遍？</p>
+<p>可是在下拉菜单中又不能够右键查看好友详细信息。而打开好友对话框之后，一下子还是找不到查看详细资料的地方，摸索了半天，才发现原来入口就在第一行，但就是不提示你…<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00095.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00095.png" alt="Photobucket"  />
+</a></p>
+<p>虽然这种下拉菜单的方式可以实现快速发起多人会话，但在“邀请好友进行多人会话”的界面中已经可以很好地实现此功能，又何必牺牲原本不错的联系人筛选方式？<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00096.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00096.png" alt="Photobucket"  />
+</a></p>
+<p>最后补充一句，QQ<br>
+邮箱的水平还是很高的，目前作为国内的主力邮箱用用挺好的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>滔滔</title>
+      <link>https://ioerr.github.io/posts/taotao/</link>
+      <pubDate>Mon, 13 Aug 2007 13:33:39 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/taotao/</guid>
+      <description>腾讯的滔滔/叨客正式上线，功能上自然还是追随 Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。 1、只支持 QQ。 站在腾讯的角</description>
+      <content:encoded><![CDATA[<p>腾讯的<a href="http://www.taotao.com/">滔滔/叨客</a>正式上线，功能上自然还是追随<br>
+Twitter，界面倒更像饭否，整体来看新意不多，而且功能缺失不少。</p>
+<p>1、只支持 QQ。<br>
+站在腾讯的角度来看可以理解，但是站在用户的角度来看就忒没意思了。</p>
+<p>2、不开放 API。<br>
+和旗下其他服务进行整合的事情腾讯都是自己做全套，至于更进一步的开放，还是死心的好。</p>
+<p>3、没有 RSS。<br>
+RSS 是什么？能赚钱吗？</p>
+<p>4、发言首先要经过语意分析技术分析筛选之后才能够上首页<br>
+估计也就是“过滤”换了一种说法，从效果来看并不如意。</p>
+<p>5、无法输出到页面<br>
+没有 Javascripts，没有图片，没有 Flash，连用 RSS 绕道实现也没门。</p>
+<p>其他方面：</p>
+<p>名字究竟是叨客还是滔滔？难道是滔滔上的叨客？<br>
+能够支持小灵通，不错，但是帮助文档中更新方式一节似乎没有明说，只在绑定时有看到；<br>
+添加机器人做成了链接，还算方便，但在联系人列表中直接关注，导入好友列表也还没做到；<br>
+多次出现系统繁忙的提示，不像是腾讯的服务水准；<br>
+据说不支持 Opera，摇头…</p>
+<p>总而言之，在我看来是既不开放也缺少诚意的产品。</p>
+<hr>
+<p>补充一下，以上5点以及支持 Opera 对所谓“低端主流用户”是没有意义的。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

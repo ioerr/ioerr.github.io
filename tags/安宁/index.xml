@@ -1,39 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>安宁 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%AE%89%E5%AE%81/</link>
     <description>Recent content in 安宁 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%AE%89%E5%AE%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>恐慌与安宁</title>
-        <link>https://ioerr.github.io/posts/konghuang-yu-anning/</link>
-        <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/konghuang-yu-anning/</guid>
-        <description>&lt;p&gt;一般的灾难片和恐怖片针对的是人类求生怕死的本能。&lt;br /&gt;
-有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。&lt;br /&gt;
-于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。&lt;br /&gt;
-这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。&lt;/p&gt;
-
-&lt;p&gt;就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。&lt;/p&gt;
-
-&lt;p&gt;像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。&lt;br /&gt;
-对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。&lt;/p&gt;
-
-&lt;p&gt;然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%AE%89%E5%AE%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>恐慌与安宁</title>
+      <link>https://ioerr.github.io/posts/konghuang-yu-anning/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/konghuang-yu-anning/</guid>
+      <description>一般的灾难片和恐怖片针对的是人类求生怕死的本能。 有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。 于是有的文艺作品体现的是，故</description>
+      <content:encoded><![CDATA[<p>一般的灾难片和恐怖片针对的是人类求生怕死的本能。<br>
+有的人则超越了这种本能，他们追求的是更好地认识自己或者认识世界。<br>
+于是有的文艺作品体现的是，故事中的角色发现自己不是一直以来认识的自己，世界也不是自己曾经熟悉的世界。<br>
+这些人带入角色中体会这种感觉时，会比看恐怖片更加恐慌。</p>
+<p>就好像对有的人而言，摔得粉身碎骨、血肉模糊的结局并不吓人，完全可以勇敢直面，但在悬崖边上突然脚下踏空，失去坚实大地支撑的那一瞬间，反而更加骇人。</p>
+<p>像皮浪（Pyrrho of Elis）这样的哲学家，觉得智者应当像猪一样对现实漠不关心，在暴风雨中的小船上也能内心安宁（ataraxia，又译作不动心）、泰然自若地吃吃吃。<br>
+对皮浪主义者而言，不存在发现现实其实是虚幻的恐慌，因为悬置关于外部世界的一切判断，无所谓现实是什么。</p>
+<p>然而，总有人宁愿选择去关心现实，哪怕代价是做不成内心安宁的猪。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

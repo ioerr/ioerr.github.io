@@ -1,63 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>拖延症 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%8B%96%E5%BB%B6%E7%97%87/</link>
     <description>Recent content in 拖延症 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%8B%96%E5%BB%B6%E7%97%87/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>拖延症</title>
-        <link>https://ioerr.github.io/posts/tuoyanzheng/</link>
-        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tuoyanzheng/</guid>
-        <description>&lt;p&gt;为什么现代人的拖延症越来越厉害？&lt;br /&gt;
-以前是人推车走，现在是车拖着人走，车速还越来越快，可不就成了拖延症了吗？&lt;/p&gt;
-
-&lt;p&gt;为什么说行百里者半九十？&lt;br /&gt;
-因为越是要收尾的时候越想摸鱼。&lt;br /&gt;
-等进度条走到了90%，人类摸鱼的动力会急速上升。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>摆脱消费主义的简单方法</title>
-        <link>https://ioerr.github.io/posts/baituo-xiaofeizhuyi-de-jiandan-fangfa/</link>
-        <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/baituo-xiaofeizhuyi-de-jiandan-fangfa/</guid>
-        <description>&lt;p&gt;看到好奇心日报上有一篇《&lt;a href=&#34;http://www.qdaily.com/articles/63657.html&#34;&gt;你如何确定是你在用物品，而不是物品在奴役你？&lt;/a&gt;》的文章，其指导消费者防止消费主义绑架、被物品奴役的建议是，郑重其事，把身边的物品当作人来看待。&lt;/p&gt;
-
-&lt;p&gt;我觉得这样的建议太不实际了，生活中能够做到的少之又少，还不如我自己的经验有用。&lt;br /&gt;
-这个经验就是，有意识的延迟满足。&lt;/p&gt;
-
-&lt;p&gt;不被物品奴役的关键在于确认自己的真实需求。&lt;br /&gt;
-而延迟满足可以让你在延迟的这段时间内，充分感受和判断没有被满足的稀缺需求是否称得上是真实而持久的困扰，审美偏好究竟是被包装手段激发的一时冲动还是经得起时间考验的欣赏。&lt;/p&gt;
-
-&lt;p&gt;你要做的，就是抑制住即刻下单、即时犒劳自己的想法，一次次强行推迟付款的行动，直到数天或数周后再回头想一想、看一看，当初放入购物车中的商品，是否还那么有吸引力。&lt;/p&gt;
-
-&lt;p&gt;就我个人的经验而言，经过这么几次折腾之后入手的商品，除非质量有不可预料的问题，基本都会觉得物有所值，也能物尽其用，确确实实解决了问题，提升幸福。&lt;br /&gt;
-只要有过几次这样的经历，后续就更有动力坚持采用这个方法了。&lt;/p&gt;
-
-&lt;p&gt;当然你也可以说，我被宣传洗脑意识不到所购商品不好的地方，或者能延迟满足只是因为“穷”。&lt;/p&gt;
-
-&lt;p&gt;更新：还有一个原因可能是拖延症？那当代社会最严重的两个问题：拖延症和消费主义竟然形成了这样奇妙的关系？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%8B%96%E5%BB%B6%E7%97%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>拖延症</title>
+      <link>https://ioerr.github.io/posts/tuoyanzheng/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tuoyanzheng/</guid>
+      <description>为什么现代人的拖延症越来越厉害？ 以前是人推车走，现在是车拖着人走，车速还越来越快，可不就成了拖延症了吗？ 为什么说行百里者半九十？ 因为越是要收</description>
+      <content:encoded><![CDATA[<p>为什么现代人的拖延症越来越厉害？<br>
+以前是人推车走，现在是车拖着人走，车速还越来越快，可不就成了拖延症了吗？</p>
+<p>为什么说行百里者半九十？<br>
+因为越是要收尾的时候越想摸鱼。<br>
+等进度条走到了90%，人类摸鱼的动力会急速上升。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>摆脱消费主义的简单方法</title>
+      <link>https://ioerr.github.io/posts/baituo-xiaofeizhuyi-de-jiandan-fangfa/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/baituo-xiaofeizhuyi-de-jiandan-fangfa/</guid>
+      <description>看到好奇心日报上有一篇《你如何确定是你在用物品，而不是物品在奴役你？》的文章，其指导消费者防止消费主义绑架、被物品奴役的建议是，郑重其事，把</description>
+      <content:encoded><![CDATA[<p>看到好奇心日报上有一篇《<a href="http://www.qdaily.com/articles/63657.html">你如何确定是你在用物品，而不是物品在奴役你？</a>》的文章，其指导消费者防止消费主义绑架、被物品奴役的建议是，郑重其事，把身边的物品当作人来看待。</p>
+<p>我觉得这样的建议太不实际了，生活中能够做到的少之又少，还不如我自己的经验有用。<br>
+这个经验就是，有意识的延迟满足。</p>
+<p>不被物品奴役的关键在于确认自己的真实需求。<br>
+而延迟满足可以让你在延迟的这段时间内，充分感受和判断没有被满足的稀缺需求是否称得上是真实而持久的困扰，审美偏好究竟是被包装手段激发的一时冲动还是经得起时间考验的欣赏。</p>
+<p>你要做的，就是抑制住即刻下单、即时犒劳自己的想法，一次次强行推迟付款的行动，直到数天或数周后再回头想一想、看一看，当初放入购物车中的商品，是否还那么有吸引力。</p>
+<p>就我个人的经验而言，经过这么几次折腾之后入手的商品，除非质量有不可预料的问题，基本都会觉得物有所值，也能物尽其用，确确实实解决了问题，提升幸福。<br>
+只要有过几次这样的经历，后续就更有动力坚持采用这个方法了。</p>
+<p>当然你也可以说，我被宣传洗脑意识不到所购商品不好的地方，或者能延迟满足只是因为“穷”。</p>
+<p>更新：还有一个原因可能是拖延症？那当代社会最严重的两个问题：拖延症和消费主义竟然形成了这样奇妙的关系？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

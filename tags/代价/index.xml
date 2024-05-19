@@ -1,47 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>代价 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E4%BB%A3%E4%BB%B7/</link>
     <description>Recent content in 代价 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 05 Oct 2017 14:49:29 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E4%BB%A3%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自由的代价</title>
-        <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
-        <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
-        <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
-
-&lt;p&gt;所以我一直都没有买 iPhone。&lt;/p&gt;
-
-&lt;p&gt;我承认 iPhone 的性能更加强大，产品设计品味尽管一直在走下坡路，依然非常优秀，应用的质量和生态环境甩所有竞争者一大截，安全方面更加值得信赖，硬件方面的创新也走在前列。所以只要别人不在意预算，我都会推荐买 iPhone，老婆说要买，我也毫不犹豫。只是我自己不会买来用，因为在许多细节方面，我就是受不了苹果的种种限制——尽管这都是以为了消费者为名设置的。&lt;/p&gt;
-
-&lt;p&gt;我完全清楚使用 Android 或其他系统的代价是什么，而且自问可以规避或承受。&lt;/p&gt;
-
-&lt;p&gt;Freedom is not free，自由有代价，有代价才有选择的意义。否则，既然自由这么宝贵，又不需要担心有什么损失，谁会不选择自由呢？&lt;/p&gt;
-
-&lt;p&gt;近日发生拉斯维加斯枪击事件后，美国社会进一步加强枪支管制的讨论再次成为热门，讨论的内容与以往并没有多少不同，说到底还是宪法修正案确认（确认而非赋予）的使用武器自卫的自由，及其带来的额外社会成本之间如何平衡取舍。&lt;/p&gt;
-
-&lt;p&gt;拥枪与禁枪两派的理由不需要在此逐个阐述和讨论，在我看来，这也无法靠争论确认谁对谁错，所有人达成一致意见。&lt;/p&gt;
-
-&lt;p&gt;因为自由的价值和代价在不同人眼中各不相同，这是融入不同价值观后的主观差异，而非可以客观衡量以得到唯一答案的问题。即使是同一个人，在不同时间，也可能会因为种种际遇而改变看法。&lt;/p&gt;
-
-&lt;p&gt;所以，最重要的不是当前经过合法程序达成了什么样的结论，而是民众能否通过政治讨论和实践，了解不同选择的代价究竟有多大，以及做出选择之后是否还有重新选择的可能——无法重新选择也包含在代价中。&lt;/p&gt;
-
-&lt;p&gt;当我们并不知道自由的代价有多大时，选择“自由”没有意义。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E4%BB%A3%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自由的代价</title>
+      <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
+      <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
+      <description>一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难</description>
+      <content:encoded><![CDATA[<p>一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。</p>
+<p>所以我一直都没有买 iPhone。</p>
+<p>我承认 iPhone 的性能更加强大，产品设计品味尽管一直在走下坡路，依然非常优秀，应用的质量和生态环境甩所有竞争者一大截，安全方面更加值得信赖，硬件方面的创新也走在前列。所以只要别人不在意预算，我都会推荐买 iPhone，老婆说要买，我也毫不犹豫。只是我自己不会买来用，因为在许多细节方面，我就是受不了苹果的种种限制——尽管这都是以为了消费者为名设置的。</p>
+<p>我完全清楚使用 Android 或其他系统的代价是什么，而且自问可以规避或承受。</p>
+<p>Freedom is not free，自由有代价，有代价才有选择的意义。否则，既然自由这么宝贵，又不需要担心有什么损失，谁会不选择自由呢？</p>
+<p>近日发生拉斯维加斯枪击事件后，美国社会进一步加强枪支管制的讨论再次成为热门，讨论的内容与以往并没有多少不同，说到底还是宪法修正案确认（确认而非赋予）的使用武器自卫的自由，及其带来的额外社会成本之间如何平衡取舍。</p>
+<p>拥枪与禁枪两派的理由不需要在此逐个阐述和讨论，在我看来，这也无法靠争论确认谁对谁错，所有人达成一致意见。</p>
+<p>因为自由的价值和代价在不同人眼中各不相同，这是融入不同价值观后的主观差异，而非可以客观衡量以得到唯一答案的问题。即使是同一个人，在不同时间，也可能会因为种种际遇而改变看法。</p>
+<p>所以，最重要的不是当前经过合法程序达成了什么样的结论，而是民众能否通过政治讨论和实践，了解不同选择的代价究竟有多大，以及做出选择之后是否还有重新选择的可能——无法重新选择也包含在代价中。</p>
+<p>当我们并不知道自由的代价有多大时，选择“自由”没有意义。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

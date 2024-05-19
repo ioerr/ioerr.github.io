@@ -1,285 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>广告 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B9%BF%E5%91%8A/</link>
     <description>Recent content in 广告 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B9%BF%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>碾压与抗拒</title>
-        <link>https://ioerr.github.io/posts/nianya-yu-kangju/</link>
-        <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/nianya-yu-kangju/</guid>
-        <description>&lt;p&gt;苹果公司近日发布了一支新版本 iPad Pro 的广告《&lt;a href=&#34;https://www.youtube.com/watch?v=ntjkwIXWtrc&#34;&gt;Crush!&lt;/a&gt;》：&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ntjkwIXWtrc?si=SEM3-hr7h8h5tnLc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;在广告中，液压机缓缓降下，压碎了许多物件，包括：&lt;br /&gt;
-音乐领域的节拍器、唱片机、小号、钢琴、乐谱、架子鼓、吉他、音箱；&lt;br /&gt;
-绘画领域的颜料罐、蜡笔、木头人偶、石膏像、画笔、粉笔、画板；&lt;br /&gt;
-影视领域的照相机、录像机、镜头、场记板；&lt;br /&gt;
-游戏领域的街机游戏机、国际象棋、愤怒的小鸟瓷器玩偶；&lt;br /&gt;
-服装设计领域的假人模特、皮尺；&lt;br /&gt;
-以及桌面电脑、显示器、打字机、台灯、闹钟、地球仪、书籍、便签纸，等等。&lt;br /&gt;
-最后是 Emoji 表情橡胶玩具被压到变形，以及所有物件被压爆，颜料像血一样流淌。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/Crush! All.jpg&#34; alt=&#34;Crush! All&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/Crush! Emoji.jpg&#34; alt=&#34;Crush! Emoji&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/Crush! Blood.jpg&#34; alt=&#34;Crush! Blood&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;随着液压机缓缓升起，原地出现的是新的 iPad Pro：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/Crush! iPad Pro.jpg&#34; alt=&#34;Crush! iPad Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这则广告引起了巨大争议，以及&lt;a href=&#34;https://twitter.com/asallen/status/1788428991118164356&#34;&gt;疑似抄袭创意&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Twitter 用户 Reza Sixo Safai 发布了&lt;a href=&#34;https://twitter.com/rezawrecktion/status/1788211832936861950&#34;&gt;倒放这支广告的视频&lt;/a&gt;，被碾压的物件在视频中慢慢从碎片复原。&lt;br /&gt;
-他对苹果说：我修正了这支广告。&lt;/p&gt;
-
-&lt;p&gt;推友 Nod Young &lt;a href=&#34;https://twitter.com/NodYoung/status/1788718357149344175&#34;&gt;说&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;它粗暴地粉碎了我们记忆中最美好的生活元素，真实的乐器、柔软的纸张、流动的颜料，以及滴答滴答走个不停的钟……这些事物的消失可能是必然的，但这个“灭亡”并不值得庆祝，更不应该鼓励人们去砸烂和粉碎它们。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;推友 &lt;a href=&#34;https://twitter.com/shellehs/status/1788760422222626999&#34;&gt;Alamo The Dødsfange&lt;/a&gt; 说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我觉得这个广告的野心其实已经超越了《1984》。&lt;br /&gt;
-1984时代，对标的仅仅是IBM。而新广告对标的，是曾经一而再被苹果颠覆的行业和领域。如今你只要拥有一台苹果设备，像我这种完全不懂乐理的人都能通过软件编出一首需要大量昂贵乐器才能完成的曲子。而且还挺唬人。&lt;br /&gt;
-而视频里表达出来的，就是血淋淋赤裸裸的现实。&lt;br /&gt;
-工具越来越厉害。人越来越不重要。新的更强大的工具将旧工具完全碾碎，而后上车的人只能被先上车和他们的后代碾碎&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的评价是：&lt;br /&gt;
-新事物明显优于旧事物时，人们才会为全面取代欢呼。苹果的广告试图引导消费者遐想新产品具备这个能力，对不买账的消费者来说就是反面效果。&lt;br /&gt;
-苹果经典的《&lt;a href=&#34;https://www.youtube.com/watch?v=ErwS24cBZPc&#34;&gt;1984&lt;/a&gt;》广告宣称要对抗的是电脑行业绝对优势的大佬，要带给消费者不一样的精彩。而《Crush!》暗中传递出来的信息，是碾压和消除一切传统的工具，只剩下唯一的那个设备。&lt;br /&gt;
-这个野心太大，给人的感觉是，随传统工具被碾压、消除的，还有苹果设备替代不了的那部分体验和价值。&lt;br /&gt;
-伴随这些传统体验和价值的，还有人们的记忆和情感，都有一种被彻底否定的感觉。除了狂热分子，大部分人追寻工具进步的心态还没有激进到这个程度。&lt;br /&gt;
-所谓颠覆、取代，对部分人来说是这样的，但对更多的人来说，还没到这个地步，在他们看来，你凭什么就把我更钟爱的东西给碾碎了？就因为只有你们觉得足够颠覆和取代了吗？这才是要举着锤子反抗的那个1984。&lt;/p&gt;
-
-&lt;p&gt;Leslie 在 &lt;a href=&#34;https://justgoidea.com/posts/2024-016/&#34;&gt;blog&lt;/a&gt; 中说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我当然能从这条广告片中看到 Apple 想要传达出的那些隐喻。可是，隐喻与一众象征人类文明的视觉元素相比，就不值一提了。&lt;br /&gt;
-一家号称将包容与多样性作为价值观的公司，要碾压一切人类文明。&lt;br /&gt;
-…&lt;br /&gt;
-我想要问 Apple 一句，摧毁一切的创造真的是创造吗？！&lt;br /&gt;
-…&lt;br /&gt;
-现今的科技公司不仅仅是产品的制造者，更是文明的塑造者。Apple，作为科技界的巨头，却在最新的广告片中宣扬「摧毁一切」的创造理念，让人不禁反思：这样的创新，真的是我们所期待的吗？这样的科技公司真是向善的吗？Apple 就能代表创新的权威吗？&lt;/p&gt;
-
-&lt;p&gt;科技的发展应当是人类文明进步的加速器，而不是破坏者。从火的发现到轮子的发明，每一次技术的飞跃都是为了更好地服务于人类的生活，提高生活质量。当科技开始试图定义什么是必要的文化遗产时，我们可能需要停下脚步，重新考虑我们的方向。Apple 的广告片中，那些被液压机压碎的象征人类文明的物品，无疑是一种强烈的视觉冲击。这冲击背后，也是一种极端的 “Think Different” 理念。但是，Different 不应该是对传统的否定，真正的 creative 应该是在尊重和继承传统的基础上，提出新的解决方案。&lt;/p&gt;
-
-&lt;p&gt;每一种文化元素都是人类智慧的结晶，都值得全人类去学习和尊重。科技的发展，不应该是以牺牲这些文化多样性为代价的。Apple 作为全球领先的科技企业，其产品设计和市场策略无疑影响着全球数亿用户的生活方式和价值观。然而，当这种影响力开始向「定义一切」倾斜时，请务必警惕。科技应该是开放的、包容的，它应该鼓励创造性思维，而不是将所有人都框定在一个统一的思维模式中。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;和菜头&lt;a href=&#34;https://www.hecaitou.com/2024/05/Disaster-public-relations.html&#34;&gt;说&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新广告看起来是要摧毁每一个人的生活，把他们丰富多彩的生活全部压缩在一个13英寸见方的小薄板里。它以极为强势的表现方式强调了苹果产品的优点，却对最核心的部分，也就是人本身毫不关心，完全走到了1997年广告的反面。&lt;br /&gt;
-…&lt;br /&gt;
-它采取了攻击性的内容，侵略性的视觉，但是没有提供任何可以让人产生共识和共鸣的价值观。尤其是广告后段，看到黄色Emoji小人偶的眼珠子都被液压机挤到爆浆时，我感觉到的是羞辱和愤怒。它是我生活中的无用之物，但我喜欢这样的小东西，辛劳的生活正是因为有了这样的无用之物，人才得以支撑下去。&lt;br /&gt;
-…&lt;br /&gt;
-反而是逆转版广告成功打动了我，它在明确传递出一种价值观：生活中那些细微小事值得人去追求，值得人去珍视。它也在介绍一种人生观：从强大高效的机器中暂且撤离，回到线下，回到生活。就像是视频最后的缓缓转动的唱机，它讲述了世俗生活中那些微小静谧的幸福。它甚至还暗示了一种可能性：机器可以帮助我们，让我们更好地阅读纸书，更好地绘制油画，更好地演奏乐器，更好地和家人朋友欢度时光。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>广告的未来</title>
-        <link>https://ioerr.github.io/posts/guanggao-de-weilai/</link>
-        <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/guanggao-de-weilai/</guid>
-        <description>&lt;p&gt;一、永远要记住这一点：&lt;br /&gt;
-挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。&lt;/p&gt;
-
-&lt;p&gt;二、让信息自由、流畅而有序流动的 IT 才是好 IT&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-Peter Diamond、Dale Mortensen 和 Christopher Pissarides
-因为对“存在搜寻摩擦的市场”的分析在劳动经济学领域的奠基性贡献，获得2010年的诺贝尔经济学奖。他们分析得出，因为“搜寻摩擦”的存在，买卖双方需要花费精力和时间去寻找和了解对方，因此总是有那么多人找不到工作，同时又有很多职位雇不到人，消费者总是很难买到称心的商品，而商家又苦于没有识货的买家。
-&lt;/blockquote&gt;
-挨踢技术存在的目标之一，不正是应该在实施层面解决这种因为信息交流成本造成的经济学问题么？&lt;/p&gt;
-
-&lt;p&gt;三、为什么会变成这样？&lt;/p&gt;
-
-&lt;p&gt;“我需要无广告版本。”&lt;br /&gt;
-“我一眼就看出你是个枪手。”&lt;br /&gt;
-“我的浏览器必装屏蔽广告的插件。”&lt;br /&gt;
-“我的电子邮箱又被垃圾邮件填满了。”&lt;br /&gt;
-“我最讨厌上那些浮动广告到处飞的网站了。”&lt;br /&gt;
-“我晕，看个30秒的视频还要先看30秒的广告。”&lt;br /&gt;
-“我对这个充满着拙劣的植入广告的世界绝望了！”&lt;br /&gt;
-“我日，下载软件一不小心点了流氓软件下载链接。”&lt;br /&gt;
-“我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”&lt;br /&gt;
-“我的 blog 评论都加上了 nofollow
-属性，你们这些垃圾留言者为什么还要瞎忙？”&lt;br /&gt;
-……&lt;/p&gt;
-
-&lt;p&gt;这样的抱怨和要求你是否非常眼熟？&lt;br /&gt;
-在你使用互联网的时候，是否经常会遇到同样的困扰？&lt;br /&gt;
-你觉得这是正常现象吗？&lt;/p&gt;
-
-&lt;p&gt;如今的互联网广告带给用户太多困扰，严重影响了用户体验。互联网的用户们像传统的报纸、收音机、电视机用户一样忍受着广告的轰炸，有时候甚至是被流氓强行闯进来灌输信息。&lt;br /&gt;
-为什么？&lt;/p&gt;
-
-&lt;p&gt;互联网带来信息的自由，也必然带来被动接受信息的不自由？&lt;br /&gt;
-互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？&lt;br /&gt;
-这是正常的吗？难道不能改变吗？&lt;/p&gt;
-
-&lt;p&gt;有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords
-等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。&lt;/p&gt;
-
-&lt;p&gt;而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords
-宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。&lt;/p&gt;
-
-&lt;p&gt;有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。&lt;/p&gt;
-
-&lt;p&gt;四、广告的本质&lt;/p&gt;
-
-&lt;p&gt;还是从根本上来分析一下吧：&lt;br /&gt;
-广告对消费者和广告主来说是什么？&lt;/p&gt;
-
-&lt;p&gt;广告对广告主来说是向目标客户和潜在客户提供信息的渠道；&lt;br /&gt;
-广告是消费者消费前获取产品信息的渠道。&lt;/p&gt;
-
-&lt;p&gt;非目标用户获得了信息，对广告主来说没有什么价值，除非他是潜在用户，但对潜在用户的广告手段和效果期望又是不一样的，总之都是浪费；&lt;br /&gt;
-消费者获得了不需要的信息，不但没有价值，而且是扰乱生活的垃圾。&lt;/p&gt;
-
-&lt;p&gt;双方都需要的，是找到对口的信息提供/接收者，传递且只传递各自需要的信息，也就是图中蓝色的关系链接：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=7caff0ab.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/7caff0ab.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个非常简单的需求关系链接，只要 IT 服务能够实现，世界将会是和谐的。&lt;/p&gt;
-
-&lt;p&gt;理想很美好，但再深入一点就会发现，要想实现是非常复杂的：&lt;br /&gt;
-用户需要的不一定是某个厂商的产品；&lt;br /&gt;
-广告主需要向用户提供的，则必须是自己产品的信息，而且最好是利润最高的主推产品。&lt;br /&gt;
-如何才能建立另双方都满意的关系链接？&lt;/p&gt;
-
-&lt;p&gt;五、谁来实现理想？&lt;/p&gt;
-
-&lt;p&gt;我们不妨分析一下“广告”的不同模式：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=e2fcac76.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/e2fcac76.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;1、传统的广告模式：&lt;br /&gt;
-生产商付费雇佣广告商，为自己的某类产品作广告宣传。&lt;br /&gt;
-信息是从广告商单向流向消费者，但接收信息的消费者只有一部分会受到广告影响，体现为蓝色的箭头——表示有效的广告。&lt;br /&gt;
-广告的手段、内容、预期目标可以很明确。&lt;br /&gt;
-消费者基本是被动接受。&lt;/p&gt;
-
-&lt;p&gt;2、搜索引擎的广告模式（或者应该说是广搜？）：&lt;br /&gt;
-消费者主动搜索或者浏览，由搜索引擎提供指向产品信息的链接，引导用户找到目标。&lt;br /&gt;
-生产商和搜索引擎不是紧密的雇佣关系，而是相对松散的服务关系。&lt;br /&gt;
-用户需要付出查找、比对、筛选、评估的成本，否则用户只能倾向于相信搜索引擎提供的排序信息——为什么搜索引擎竞价排名模式不值得推广和效仿？因为它并没有致力于降低用户获取有效信息的成本，反而可能把用户带进沟里；对广告主而言，砸钱投入接近传统的模式，又没有得到广告公司的专业服务水平。&lt;/p&gt;
-
-&lt;p&gt;3、新的模式？&lt;br /&gt;
-新的信息服务应该专注于如何简化生产商和消费者之间相互选择的信息链接。&lt;/p&gt;
-
-&lt;p&gt;生产商是否需要更多消费者的身份、产品使用习惯、品位和偏好等信息？能够从你的平台得到吗？&lt;br /&gt;
-也许以前这只有侵犯个人隐私才能做到，但在2.0的时代，只要你让消费者得到足够的利益，是不是可以让他们主动提供？&lt;br /&gt;
-能不能让他们借助你的服务平台主动帮助生产商宣传？&lt;/p&gt;
-
-&lt;p&gt;消费者如何降低选择商品的成本和风险？&lt;br /&gt;
-能否提供更加方便和实用的消费指导，就像有个内行导购或者熟悉的朋友一样知道你购物？&lt;br /&gt;
-如何取得他们的信任，让他们满意？&lt;br /&gt;
-如何及时、准确地响应消费者的购物冲动？&lt;br /&gt;
-如何更好地猜出或引导消费者主动说出需求，而不是要他们花费时间精力描述和输入未必精确的“需求”？&lt;br /&gt;
-如何在不引起消费者反感的情况下潜移默化地塑造品牌形象，而不是仅仅推荐具体的靠谱的产品？&lt;/p&gt;
-
-&lt;p&gt;如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？&lt;/p&gt;
-
-&lt;p&gt;还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon
-或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>真宅</title>
-        <link>https://ioerr.github.io/posts/zhenzhai/</link>
-        <pubDate>Mon, 29 Sep 2008 18:42:51 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhenzhai/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.urahorror.com/&#34;&gt;这个网站&lt;/a&gt;提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。&lt;/p&gt;
-
-&lt;p&gt;归其真宅。——《列子·天瑞》&lt;br /&gt;
-其中，真宅的含义是：人死后的真正归宿…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://supergm.net/movie/&#34;&gt;台词网&lt;/a&gt;，收集各部电影中的经典台词，每个人都可以发表。&lt;br /&gt;
-但是，为什么右上角的精选台词每次都是这一句啊？&lt;br /&gt;
-“ 精選台詞： 我已經沒有特異功能了，還留在這邊惹人嫌嗎！？ ”&lt;/p&gt;
-
-&lt;p&gt;几天不见，&lt;a href=&#34;http://v.youku.com/v_show/id_XNDQwNzE5NDQ=.html&#34;&gt;石家庄计算机职业学院的月饼&lt;/a&gt;进化成了&lt;a href=&#34;http://you.video.sina.com.cn/b/16405728-1468195903.html&#34;&gt;兵器月饼东方同步版&lt;/a&gt;。月饼自重！同步自重！囧&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/e/6c14c842-c189-6e67-533e-7c8efa774768/Jimmy-Charlie-George/&#34;&gt;无聊人的游戏&lt;/a&gt;：&lt;br /&gt;
-杜子美＝杜 Jimmy&lt;br /&gt;
-韩昌黎＝韩 Charlie&lt;br /&gt;
-辛佐治＝辛 George&lt;br /&gt;
-张九龄＝张 Jolin（蔡依林泪流满面）&lt;br /&gt;
-白居易＝白 Joey/Joe&lt;br /&gt;
-范成大＝范 Chandler&lt;br /&gt;
-孔仲尼＝孔 Johnny/Johnnie&lt;br /&gt;
-胡锦涛＝Who Gentle&lt;br /&gt;
-温家宝＝When Jabber&lt;br /&gt;
-感谢 Jessie 和 Chouti 的贡献！&lt;/p&gt;
-
-&lt;p&gt;母亲啊共产党，翻译过来就是：娘CP&lt;/p&gt;
-
-&lt;p&gt;附送一支很好笑的泰国啤酒广告：&lt;/p&gt;
-
-&lt;p&gt;第一段实在是太容易引起共鸣了！&lt;/p&gt;
-
-&lt;p&gt;最后，本 blog
-经过几天的放风之后，貌似又被踢出了墙外，还好已经顺利的把回复区的表情恢复了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>终极心灵控制兵器</title>
-        <link>https://ioerr.github.io/posts/zhongji-xinling-kongzhi-bingqi/</link>
-        <pubDate>Tue, 12 Feb 2008 02:07:21 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhongji-xinling-kongzhi-bingqi/</guid>
-        <description>&lt;p&gt;楔子：&lt;br /&gt;
-每当听到那熟悉的三连击，我都不禁泪流满面；&lt;br /&gt;
-当我听到那加强版的十二连击，不禁血流满面…&lt;/p&gt;
-
-&lt;p&gt;传说很久以前，江湖上有位叫做“猿翔·横”的高手，善使绝技“三羊揩汰掌”，有千里之外无声黑白之威力，武林中人莫不闻之色变。然忽有一日此人竟销声匿迹不再出现，挥一挥衣袖不带走一片&lt;strike&gt;晕菜&lt;/strike&gt;云彩，从此成为江湖一段神秘的传奇。&lt;/p&gt;
-
-&lt;p&gt;又过了数十年，一位域外奇人横空出现，凭借其握薪尝胆苦练十载的“白金之脑”神功一鸣惊人，继而&lt;strike&gt;拳打北京海淀脚踢湖北黄冈，&lt;/strike&gt;拳打武当脚踢少林寻衅任我行调戏任盈盈单挑令狐冲放对岳不群，&lt;strike&gt;大便&lt;/strike&gt;打遍天下无敌手，终成一&lt;strike&gt;捅&lt;/strike&gt;统天下之霸业，独领风骚数十载，至今仍呼风唤雨，叱咤江湖，正是外号“巨人”的“鱼住·史”也。光阴似箭，岁月如梭，岁月流金，沧海桑田，时移势易，&lt;strike&gt;杯壁下流，&lt;/strike&gt;今时今日的武林，众人已只知“巨人争吐”之威名，而不知“猿翔·横”为何人何物也。&lt;/p&gt;
-
-&lt;p&gt;不想这早已远离纷争的世外高人，如今见到“鱼住·史”完全取代了他的江湖地位，竟也耐不住寂寞了，结束闭关修炼重出江湖，其“十二生肖奥运神掌”业已大成，欲与群雄再争锋，可以想见，武林又将迎来一场腥风血雨…&lt;/p&gt;
-
-&lt;p&gt;好吧，其实这只是&lt;a href=&#34;http://calon.weblogs.us/woguo_zhongji_bingqi_yilan/&#34;&gt;我国新一代终极心灵控制兵器&lt;/a&gt;的演练而已，轻摧一掌已是民怨沸腾，亡我之心不死的帝国主义们，&lt;strong&gt;你·们·颤·抖·了·吗？！&lt;/strong&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B9%BF%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>碾压与抗拒</title>
+      <link>https://ioerr.github.io/posts/nianya-yu-kangju/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/nianya-yu-kangju/</guid>
+      <description>苹果公司近日发布了一支新版本 iPad Pro 的广告《Crush!》： 在广告中，液压机缓缓降下，压碎了许多物件，包括： 音乐领域的节拍器、唱片机、小号、钢琴</description>
+      <content:encoded><![CDATA[<p>苹果公司近日发布了一支新版本 iPad Pro 的广告《<a href="https://www.youtube.com/watch?v=ntjkwIXWtrc">Crush!</a>》：</p>
+<!-- raw HTML omitted -->
+<p>在广告中，液压机缓缓降下，压碎了许多物件，包括：<br>
+音乐领域的节拍器、唱片机、小号、钢琴、乐谱、架子鼓、吉他、音箱；<br>
+绘画领域的颜料罐、蜡笔、木头人偶、石膏像、画笔、粉笔、画板；<br>
+影视领域的照相机、录像机、镜头、场记板；<br>
+游戏领域的街机游戏机、国际象棋、愤怒的小鸟瓷器玩偶；<br>
+服装设计领域的假人模特、皮尺；<br>
+以及桌面电脑、显示器、打字机、台灯、闹钟、地球仪、书籍、便签纸，等等。<br>
+最后是 Emoji 表情橡胶玩具被压到变形，以及所有物件被压爆，颜料像血一样流淌。</p>
+<p><img loading="lazy" src="/images/Crush-All.jpg" alt="Crush All"  />
+</p>
+<p><img loading="lazy" src="/images/Crush-Emoji.jpg" alt="Crush Emoji"  />
+</p>
+<p><img loading="lazy" src="/images/Crush-Blood.jpg" alt="Crush Blood"  />
+</p>
+<p>随着液压机缓缓升起，原地出现的是新的 iPad Pro：</p>
+<p><img loading="lazy" src="/images/Crush-iPad-Pro.jpg" alt="Crush iPad Pro"  />
+</p>
+<p>这则广告引起了巨大争议，以及<a href="https://twitter.com/asallen/status/1788428991118164356">疑似抄袭创意</a>。</p>
+<p>Twitter 用户 Reza Sixo Safai 发布了<a href="https://twitter.com/rezawrecktion/status/1788211832936861950">倒放这支广告的视频</a>，被碾压的物件在视频中慢慢从碎片复原。<br>
+他对苹果说：我修正了这支广告。</p>
+<p>推友 Nod Young <a href="https://twitter.com/NodYoung/status/1788718357149344175">说</a>：</p>
+<blockquote>
+<p>它粗暴地粉碎了我们记忆中最美好的生活元素，真实的乐器、柔软的纸张、流动的颜料，以及滴答滴答走个不停的钟……这些事物的消失可能是必然的，但这个“灭亡”并不值得庆祝，更不应该鼓励人们去砸烂和粉碎它们。</p>
+</blockquote>
+<p>推友 <a href="https://twitter.com/shellehs/status/1788760422222626999">Alamo The Dødsfange</a> 说：</p>
+<blockquote>
+<p>我觉得这个广告的野心其实已经超越了《1984》。<br>
+1984时代，对标的仅仅是IBM。而新广告对标的，是曾经一而再被苹果颠覆的行业和领域。如今你只要拥有一台苹果设备，像我这种完全不懂乐理的人都能通过软件编出一首需要大量昂贵乐器才能完成的曲子。而且还挺唬人。<br>
+而视频里表达出来的，就是血淋淋赤裸裸的现实。<br>
+工具越来越厉害。人越来越不重要。新的更强大的工具将旧工具完全碾碎，而后上车的人只能被先上车和他们的后代碾碎</p>
+</blockquote>
+<p>我的评价是：<br>
+新事物明显优于旧事物时，人们才会为全面取代欢呼。苹果的广告试图引导消费者遐想新产品具备这个能力，对不买账的消费者来说就是反面效果。<br>
+苹果经典的《<a href="https://www.youtube.com/watch?v=ErwS24cBZPc">1984</a>》广告宣称要对抗的是电脑行业绝对优势的大佬，要带给消费者不一样的精彩。而《Crush!》暗中传递出来的信息，是碾压和消除一切传统的工具，只剩下唯一的那个设备。<br>
+这个野心太大，给人的感觉是，随传统工具被碾压、消除的，还有苹果设备替代不了的那部分体验和价值。<br>
+伴随这些传统体验和价值的，还有人们的记忆和情感，都有一种被彻底否定的感觉。除了狂热分子，大部分人追寻工具进步的心态还没有激进到这个程度。<br>
+所谓颠覆、取代，对部分人来说是这样的，但对更多的人来说，还没到这个地步，在他们看来，你凭什么就把我更钟爱的东西给碾碎了？就因为只有你们觉得足够颠覆和取代了吗？这才是要举着锤子反抗的那个1984。</p>
+<p>Leslie 在 <a href="https://justgoidea.com/posts/2024-016/">blog</a> 中说：</p>
+<blockquote>
+<p>我当然能从这条广告片中看到 Apple 想要传达出的那些隐喻。可是，隐喻与一众象征人类文明的视觉元素相比，就不值一提了。<br>
+一家号称将包容与多样性作为价值观的公司，要碾压一切人类文明。<br>
+…<br>
+我想要问 Apple 一句，摧毁一切的创造真的是创造吗？！<br>
+…<br>
+现今的科技公司不仅仅是产品的制造者，更是文明的塑造者。Apple，作为科技界的巨头，却在最新的广告片中宣扬「摧毁一切」的创造理念，让人不禁反思：这样的创新，真的是我们所期待的吗？这样的科技公司真是向善的吗？Apple 就能代表创新的权威吗？</p>
+<p>科技的发展应当是人类文明进步的加速器，而不是破坏者。从火的发现到轮子的发明，每一次技术的飞跃都是为了更好地服务于人类的生活，提高生活质量。当科技开始试图定义什么是必要的文化遗产时，我们可能需要停下脚步，重新考虑我们的方向。Apple 的广告片中，那些被液压机压碎的象征人类文明的物品，无疑是一种强烈的视觉冲击。这冲击背后，也是一种极端的 “Think Different” 理念。但是，Different 不应该是对传统的否定，真正的 creative 应该是在尊重和继承传统的基础上，提出新的解决方案。</p>
+<p>每一种文化元素都是人类智慧的结晶，都值得全人类去学习和尊重。科技的发展，不应该是以牺牲这些文化多样性为代价的。Apple 作为全球领先的科技企业，其产品设计和市场策略无疑影响着全球数亿用户的生活方式和价值观。然而，当这种影响力开始向「定义一切」倾斜时，请务必警惕。科技应该是开放的、包容的，它应该鼓励创造性思维，而不是将所有人都框定在一个统一的思维模式中。</p>
+</blockquote>
+<p>和菜头<a href="https://www.hecaitou.com/2024/05/Disaster-public-relations.html">说</a>：</p>
+<blockquote>
+<p>新广告看起来是要摧毁每一个人的生活，把他们丰富多彩的生活全部压缩在一个13英寸见方的小薄板里。它以极为强势的表现方式强调了苹果产品的优点，却对最核心的部分，也就是人本身毫不关心，完全走到了1997年广告的反面。<br>
+…<br>
+它采取了攻击性的内容，侵略性的视觉，但是没有提供任何可以让人产生共识和共鸣的价值观。尤其是广告后段，看到黄色Emoji小人偶的眼珠子都被液压机挤到爆浆时，我感觉到的是羞辱和愤怒。它是我生活中的无用之物，但我喜欢这样的小东西，辛劳的生活正是因为有了这样的无用之物，人才得以支撑下去。<br>
+…<br>
+反而是逆转版广告成功打动了我，它在明确传递出一种价值观：生活中那些细微小事值得人去追求，值得人去珍视。它也在介绍一种人生观：从强大高效的机器中暂且撤离，回到线下，回到生活。就像是视频最后的缓缓转动的唱机，它讲述了世俗生活中那些微小静谧的幸福。它甚至还暗示了一种可能性：机器可以帮助我们，让我们更好地阅读纸书，更好地绘制油画，更好地演奏乐器，更好地和家人朋友欢度时光。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>广告的未来</title>
+      <link>https://ioerr.github.io/posts/guanggao-de-weilai/</link>
+      <pubDate>Fri, 26 Nov 2010 15:24:43 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/guanggao-de-weilai/</guid>
+      <description>一、永远要记住这一点： 挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器</description>
+      <content:encoded><![CDATA[<p>一、永远要记住这一点：<br>
+挨踢技术应该让人类的生活更加幸福、舒适、愉悦、优雅，而不是让垃圾信息和重复劳动反复折磨脆弱的肉身和心灵，使人类过上机器的生活。</p>
+<p>二、让信息自由、流畅而有序流动的 IT 才是好 IT</p>
+<!-- raw HTML omitted -->
+<p>三、为什么会变成这样？</p>
+<p>“我需要无广告版本。”<br>
+“我一眼就看出你是个枪手。”<br>
+“我的浏览器必装屏蔽广告的插件。”<br>
+“我的电子邮箱又被垃圾邮件填满了。”<br>
+“我最讨厌上那些浮动广告到处飞的网站了。”<br>
+“我晕，看个30秒的视频还要先看30秒的广告。”<br>
+“我对这个充满着拙劣的植入广告的世界绝望了！”<br>
+“我日，下载软件一不小心点了流氓软件下载链接。”<br>
+“我的网站加上狗皮膏药一样的广告会破坏整体效果，很难看啊。”<br>
+“我的 blog 评论都加上了 nofollow<br>
+属性，你们这些垃圾留言者为什么还要瞎忙？”<br>
+……</p>
+<p>这样的抱怨和要求你是否非常眼熟？<br>
+在你使用互联网的时候，是否经常会遇到同样的困扰？<br>
+你觉得这是正常现象吗？</p>
+<p>如今的互联网广告带给用户太多困扰，严重影响了用户体验。互联网的用户们像传统的报纸、收音机、电视机用户一样忍受着广告的轰炸，有时候甚至是被流氓强行闯进来灌输信息。<br>
+为什么？</p>
+<p>互联网带来信息的自由，也必然带来被动接受信息的不自由？<br>
+互联网拥有传统渠道无法比拟的技术，广告却效率更低、效果更差、更让人生厌？<br>
+这是正常的吗？难道不能改变吗？</p>
+<p>有一些互联网公司想过要改善这种状况，比如 Google 推出 AdWords<br>
+等形式的广告，但也只是结合网页上下文预测和投放广告，并不够精确，用户还有个人隐私被侵犯的担忧。</p>
+<p>而且，越来越成熟的用户会主动屏蔽互联网广告，就算 AdWords<br>
+宣称关联度高也没用，用户用鼠标投票的结果说明这样的形式还远不完美，至少，他们不信任，也不会觉得好用，如果用户信任你的广告，觉得你的产品好用，他们是不会屏蔽的，只会主动要求使用。</p>
+<p>有抱怨的地方就说明有需求，有需求的地方就会有市场，有市场的地方就会有解决的希望。</p>
+<p>四、广告的本质</p>
+<p>还是从根本上来分析一下吧：<br>
+广告对消费者和广告主来说是什么？</p>
+<p>广告对广告主来说是向目标客户和潜在客户提供信息的渠道；<br>
+广告是消费者消费前获取产品信息的渠道。</p>
+<p>非目标用户获得了信息，对广告主来说没有什么价值，除非他是潜在用户，但对潜在用户的广告手段和效果期望又是不一样的，总之都是浪费；<br>
+消费者获得了不需要的信息，不但没有价值，而且是扰乱生活的垃圾。</p>
+<p>双方都需要的，是找到对口的信息提供/接收者，传递且只传递各自需要的信息，也就是图中蓝色的关系链接：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=7caff0ab.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/7caff0ab.png" alt="Photobucket"  />
+</a></p>
+<p>这是一个非常简单的需求关系链接，只要 IT 服务能够实现，世界将会是和谐的。</p>
+<p>理想很美好，但再深入一点就会发现，要想实现是非常复杂的：<br>
+用户需要的不一定是某个厂商的产品；<br>
+广告主需要向用户提供的，则必须是自己产品的信息，而且最好是利润最高的主推产品。<br>
+如何才能建立另双方都满意的关系链接？</p>
+<p>五、谁来实现理想？</p>
+<p>我们不妨分析一下“广告”的不同模式：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=e2fcac76.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/e2fcac76.png" alt="Photobucket"  />
+</a></p>
+<p>1、传统的广告模式：<br>
+生产商付费雇佣广告商，为自己的某类产品作广告宣传。<br>
+信息是从广告商单向流向消费者，但接收信息的消费者只有一部分会受到广告影响，体现为蓝色的箭头——表示有效的广告。<br>
+广告的手段、内容、预期目标可以很明确。<br>
+消费者基本是被动接受。</p>
+<p>2、搜索引擎的广告模式（或者应该说是广搜？）：<br>
+消费者主动搜索或者浏览，由搜索引擎提供指向产品信息的链接，引导用户找到目标。<br>
+生产商和搜索引擎不是紧密的雇佣关系，而是相对松散的服务关系。<br>
+用户需要付出查找、比对、筛选、评估的成本，否则用户只能倾向于相信搜索引擎提供的排序信息——为什么搜索引擎竞价排名模式不值得推广和效仿？因为它并没有致力于降低用户获取有效信息的成本，反而可能把用户带进沟里；对广告主而言，砸钱投入接近传统的模式，又没有得到广告公司的专业服务水平。</p>
+<p>3、新的模式？<br>
+新的信息服务应该专注于如何简化生产商和消费者之间相互选择的信息链接。</p>
+<p>生产商是否需要更多消费者的身份、产品使用习惯、品位和偏好等信息？能够从你的平台得到吗？<br>
+也许以前这只有侵犯个人隐私才能做到，但在2.0的时代，只要你让消费者得到足够的利益，是不是可以让他们主动提供？<br>
+能不能让他们借助你的服务平台主动帮助生产商宣传？</p>
+<p>消费者如何降低选择商品的成本和风险？<br>
+能否提供更加方便和实用的消费指导，就像有个内行导购或者熟悉的朋友一样知道你购物？<br>
+如何取得他们的信任，让他们满意？<br>
+如何及时、准确地响应消费者的购物冲动？<br>
+如何更好地猜出或引导消费者主动说出需求，而不是要他们花费时间精力描述和输入未必精确的“需求”？<br>
+如何在不引起消费者反感的情况下潜移默化地塑造品牌形象，而不是仅仅推荐具体的靠谱的产品？</p>
+<p>如果你有足够的用户行为数据，能够做到这些吗，能够做得更好吗？</p>
+<p>还有太多的东西需要思考和尝试实现，每一个疑问都可以展开很长，就只分析到这里吧，毕竟空想超标有害健康。而且直觉告诉我，Google、Amazon<br>
+或者 Facebook 最适合做这样的事情，可惜他们目前还不可能杂交。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>真宅</title>
+      <link>https://ioerr.github.io/posts/zhenzhai/</link>
+      <pubDate>Mon, 29 Sep 2008 18:42:51 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhenzhai/</guid>
+      <description>这个网站提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。 归其真宅。——《列子</description>
+      <content:encoded><![CDATA[<p><a href="http://www.urahorror.com/">这个网站</a>提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。</p>
+<p>归其真宅。——《列子·天瑞》<br>
+其中，真宅的含义是：人死后的真正归宿…</p>
+<p><a href="http://supergm.net/movie/">台词网</a>，收集各部电影中的经典台词，每个人都可以发表。<br>
+但是，为什么右上角的精选台词每次都是这一句啊？<br>
+“ 精選台詞： 我已經沒有特異功能了，還留在這邊惹人嫌嗎！？ ”</p>
+<p>几天不见，<a href="http://v.youku.com/v_show/id_XNDQwNzE5NDQ=.html">石家庄计算机职业学院的月饼</a>进化成了<a href="http://you.video.sina.com.cn/b/16405728-1468195903.html">兵器月饼东方同步版</a>。月饼自重！同步自重！囧</p>
+<p><a href="http://friendfeed.com/e/6c14c842-c189-6e67-533e-7c8efa774768/Jimmy-Charlie-George/">无聊人的游戏</a>：<br>
+杜子美＝杜 Jimmy<br>
+韩昌黎＝韩 Charlie<br>
+辛佐治＝辛 George<br>
+张九龄＝张 Jolin（蔡依林泪流满面）<br>
+白居易＝白 Joey/Joe<br>
+范成大＝范 Chandler<br>
+孔仲尼＝孔 Johnny/Johnnie<br>
+胡锦涛＝Who Gentle<br>
+温家宝＝When Jabber<br>
+感谢 Jessie 和 Chouti 的贡献！</p>
+<p>母亲啊共产党，翻译过来就是：娘CP</p>
+<p>附送一支很好笑的泰国啤酒广告：</p>
+<p>第一段实在是太容易引起共鸣了！</p>
+<p>最后，本 blog<br>
+经过几天的放风之后，貌似又被踢出了墙外，还好已经顺利的把回复区的表情恢复了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>终极心灵控制兵器</title>
+      <link>https://ioerr.github.io/posts/zhongji-xinling-kongzhi-bingqi/</link>
+      <pubDate>Tue, 12 Feb 2008 02:07:21 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhongji-xinling-kongzhi-bingqi/</guid>
+      <description>楔子： 每当听到那熟悉的三连击，我都不禁泪流满面； 当我听到那加强版的十二连击，不禁血流满面… 传说很久以前，江湖上有位叫做“猿翔·横”的高手，善</description>
+      <content:encoded><![CDATA[<p>楔子：<br>
+每当听到那熟悉的三连击，我都不禁泪流满面；<br>
+当我听到那加强版的十二连击，不禁血流满面…</p>
+<p>传说很久以前，江湖上有位叫做“猿翔·横”的高手，善使绝技“三羊揩汰掌”，有千里之外无声黑白之威力，武林中人莫不闻之色变。然忽有一日此人竟销声匿迹不再出现，挥一挥衣袖不带走一片<!-- raw HTML omitted -->晕菜<!-- raw HTML omitted -->云彩，从此成为江湖一段神秘的传奇。</p>
+<p>又过了数十年，一位域外奇人横空出现，凭借其握薪尝胆苦练十载的“白金之脑”神功一鸣惊人，继而<!-- raw HTML omitted -->拳打北京海淀脚踢湖北黄冈，<!-- raw HTML omitted -->拳打武当脚踢少林寻衅任我行调戏任盈盈单挑令狐冲放对岳不群，<!-- raw HTML omitted -->大便<!-- raw HTML omitted -->打遍天下无敌手，终成一<!-- raw HTML omitted -->捅<!-- raw HTML omitted -->统天下之霸业，独领风骚数十载，至今仍呼风唤雨，叱咤江湖，正是外号“巨人”的“鱼住·史”也。光阴似箭，岁月如梭，岁月流金，沧海桑田，时移势易，<!-- raw HTML omitted -->杯壁下流，<!-- raw HTML omitted -->今时今日的武林，众人已只知“巨人争吐”之威名，而不知“猿翔·横”为何人何物也。</p>
+<p>不想这早已远离纷争的世外高人，如今见到“鱼住·史”完全取代了他的江湖地位，竟也耐不住寂寞了，结束闭关修炼重出江湖，其“十二生肖奥运神掌”业已大成，欲与群雄再争锋，可以想见，武林又将迎来一场腥风血雨…</p>
+<p>好吧，其实这只是<a href="http://calon.weblogs.us/woguo_zhongji_bingqi_yilan/">我国新一代终极心灵控制兵器</a>的演练而已，轻摧一掌已是民怨沸腾，亡我之心不死的帝国主义们，<strong>你·们·颤·抖·了·吗？！</strong></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

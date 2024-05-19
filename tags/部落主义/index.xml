@@ -1,31 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>部落主义 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%83%A8%E8%90%BD%E4%B8%BB%E4%B9%89/</link>
     <description>Recent content in 部落主义 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%83%A8%E8%90%BD%E4%B8%BB%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>法不责众</title>
-        <link>https://ioerr.github.io/posts/fabuzezhong/</link>
-        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fabuzezhong/</guid>
-        <description>&lt;p&gt;所有人都认为无罪的行为，在法律上确实应该也判断为合法，这是法不责众的基础。&lt;br /&gt;
-但日常所说的法不责众，实际是将少数人团体的道德标准当作了所有人的，或者对自己和对他人采用不同的道德标准。&lt;br /&gt;
-这是源自于部落的思维方式：我周围的几十个人认为这件事该这么干，那它就是对的。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%83%A8%E8%90%BD%E4%B8%BB%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>法不责众</title>
+      <link>https://ioerr.github.io/posts/fabuzezhong/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fabuzezhong/</guid>
+      <description>所有人都认为无罪的行为，在法律上确实应该也判断为合法，这是法不责众的基础。 但日常所说的法不责众，实际是将少数人团体的道德标准当作了所有人的，</description>
+      <content:encoded><![CDATA[<p>所有人都认为无罪的行为，在法律上确实应该也判断为合法，这是法不责众的基础。<br>
+但日常所说的法不责众，实际是将少数人团体的道德标准当作了所有人的，或者对自己和对他人采用不同的道德标准。<br>
+这是源自于部落的思维方式：我周围的几十个人认为这件事该这么干，那它就是对的。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

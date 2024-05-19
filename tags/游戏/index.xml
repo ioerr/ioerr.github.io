@@ -1,734 +1,508 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>游戏 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B8%B8%E6%88%8F/</link>
     <description>Recent content in 游戏 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>NPC 的生活</title>
-        <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
-        <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
-        <description>&lt;p&gt;推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：&lt;br /&gt;
-晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的&lt;br /&gt;
-突然就看哭了&lt;br /&gt;
-我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋&lt;br /&gt;
-有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应&lt;/p&gt;
-
-&lt;p&gt;我想到了2017年曾经提过一嘴：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;看到这个新闻，感觉设想终于有人实现了。&lt;br /&gt;
-但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。&lt;br /&gt;
-以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。&lt;/p&gt;
-
-&lt;p&gt;也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。&lt;br /&gt;
-这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>虚拟世界中的心灵抚慰</title>
-        <link>https://ioerr.github.io/posts/xuni-shijie-zhong-de-xinling-fuwei/</link>
-        <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xuni-shijie-zhong-de-xinling-fuwei/</guid>
-        <description>&lt;p&gt;带动作元素的游戏都在给玩家一种“控制”的快感，一方面优化虚拟人物的响应速度，另一方面通过触感、画面、声音给予及时的反馈——比如任天堂基于按键的交互设计、卡普空擅长的“打击感”。如臂使指、得心应手、挥洒自如…不少成语都是形容这种感觉的。&lt;/p&gt;
-
-&lt;p&gt;RTS 用鼠标框选、点击，指挥部队行动，满足的是“指挥”的快感，演化到微操，再到控制单个人物的行动，RPG 游戏从对话、选择、加点，演化到多少要带一点动作再到以动作为卖点，还是回归到了动作游戏“控制”快感的轨道上来。&lt;/p&gt;
-
-&lt;p&gt;譬如足球游戏，EA 的 FIFA 系列长时间在画面和数据上领先，但在 WE/PES 系列自己没有崩坏之前，资深玩家鄙视 FIFA 是滑冰游戏，其中既有对技战术理解不同导致的差异，也有操控手感的原因。&lt;/p&gt;
-
-&lt;p&gt;现代社会通过分工拉长了生产流程，仅仅负责一个生产环节的人，对自己的工作与最终的结果和意义之间有什么关联，知之不多，进而有一种虚无感。有的人选择做手工、参与体育运动来对抗虚无，而带动作元素的游戏每一次按键都会有即时交互反馈，这本身就在满足原始层面的心理需求，是虚拟世界中的心灵抚慰。&lt;/p&gt;
-
-&lt;p&gt;2023-08-15 更新：&lt;/p&gt;
-
-&lt;p&gt;但动作游戏中的心理需求满足是暂时的，无法积累和永存，于是很多游戏和平台开始有了游戏成就的概念，进一步满足心理需求，包括社交分享的需求。&lt;br /&gt;
-但这仍然是虚拟世界中的满足，而且是别人设计好的成就，与自己探索发现和建立的意义不一样，因此也只有一部分人会满足于此。&lt;br /&gt;
-有的人爱好网上挑刺抬杠辱骂，被说是找存在感。因为生活中缺少有成就和有意义的活动，于是只能换个地方寻求即时的反馈。也因此有人说不要回应喷子，这种反馈只会增强他们的参与感。&lt;/p&gt;
-
-&lt;p&gt;我的建议是找到一种爱好，设置个人项目目标，尝试去创造，尽管卡钦斯基认为这只是权力过程被打断的替代活动。&lt;br /&gt;
-如果觉得自己水平永远比不上别人，不由自主产生焦虑，就再换个少有人的领域，前提是真的爱好而不是仅仅为了逃避。&lt;/p&gt;
-
-&lt;p&gt;德鲁克认为，现代工业生产的分工让单个环节上的生产者看不到自己工作的意义，也带来管理上的冲突，最基础的应对方法是让工人参与管理决策和了解整体流程，让工人具有管理者的态度和责任感。同理，技术人员未必要转职管理岗，但具有管理者的视角和思维，也能消除部分焦虑。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;工业社会和信息社会中，许多工作都需要合作完成，每个人只能负责一小部分，很容易产生“我的所作所为无足轻重”、“什么也掌控不了”的虚无感。一种替代方案是，寻找一件可以自己独立完成，或不需要太多人参与完成的小事业、小爱好，获得一点点的努力带来一点点回报的现实感。&lt;br /&gt;
-炸弹客卡钦斯基称其为替代性活动，并认为无法解决大部分人在主职工作中权力过程被打断，而导致的现代社会心理问题。&lt;br /&gt;
-德鲁克则认为，从整体及产品的角度看待自己的工作，具有管理者的态度和责任感，才能从根本解决问题，但这不能基于将人看作是没有生命的生产机器的流水线作业机制实现。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>NPC 的未来</title>
-        <link>https://ioerr.github.io/posts/npc-de-weilai/</link>
-        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/npc-de-weilai/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1646302873767264256&#34;&gt;云中月&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采集、战斗、开拓、结盟、欺骗、交易、经营，直到完成自己在游戏中的目标。游戏里的NPC（机器管理的配角）是无足轻重的，最多完成指路，提示，交谈这类边缘任务。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2304.03442.pdf&#34;&gt;这篇论文&lt;/a&gt;开拓了模拟类游戏的一个观念。游戏里的NPC（非人类角色）在ChatGPT的武装之下，不再依赖于外部人类角色而独自生存，他们互相对话，互相沟通。人类仅是一个看客，最多作为一个吟游诗人进入他们的生活，想办法用自然语言、通过对话籁影响和干预它们的游戏宇宙的进化。&lt;/p&gt;
-
-&lt;p&gt;原来的模拟游戏、策略游戏、角色扮演游戏都会在新的模式下有新的变种。不再是人类玩家作为角色进入游戏完成自己的目标，而是作为高维角色通过语言干预社会的发展，文明的进步。游戏内部在发展文明，我们作为《苏秦张仪》，《马可波罗》，《老子》，《智子》或者《歌者》去干预或加速游戏中文明的发展。&lt;/p&gt;
-
-&lt;p&gt;总之，这种生成式游戏代理的概念，让游戏里面的NPC以一种我们人类可以理解的方式独立存活，互相交往，协同发展。他们的文明进步不依赖于玩家，玩家升级成为一个干预文明的角色。最后游戏玩家比的不是自己的角色成就，而是自己的宇宙总体文明成就。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646308872049795073&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;观察和轻度干预式的游戏机制更适合模拟经营类游戏的玩家，角色扮演类的玩家需要更像真人的 NPC，更需要精心设计的关卡和剧情，自然演化出来的互动关系也许和现实一样平淡乏味，新鲜劲过去了就会追求更加激烈的形式。&lt;/p&gt;
-
-&lt;p&gt;曾经想象未来的游戏可以是玩家参与设计地图、关卡、人物和剧情，可以在线扩充，形成一个无限的世界。&lt;br /&gt;
-地图已经有很多游戏 MOD 实现了，关卡在马里奥制造这类游戏中也实现了，人物和剧情对玩家的要求有点高，更多停留在换皮上，看来 AI 有望都做到。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Mortal Kombat</title>
-        <link>https://ioerr.github.io/posts/mortal-kombat/</link>
-        <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/mortal-kombat/</guid>
-        <description>&lt;p&gt;1992年10月8日，Mortal Kombat 一代发布，画面粗糙，动作生硬，人设可笑，服饰简陋（健身房风格，据说还真是有从健身房拉人过来录制的），场面血腥（为此没少吃官司）。没想到这个系列不但活了30年，还在日式格斗游戏之外自成一派，玩家群体越来越壮大，电影和动画先后出了好几部。&lt;/p&gt;
-
-&lt;p&gt;喜欢日式格斗游戏的估计都看不上真人快打的水平，不过在格斗之外，各种残忍技、终结技、客串角色、角色互动、皮肤等等还是挺受粉丝欢迎的，毕竟硬核格斗玩家的群体也就那么大。&lt;/p&gt;
-
-&lt;p&gt;还有就是一开始胡逼乱造的故事线简直就是各种对东方文化的臆想和刻板印象的融合怪胎，编来编去编不下去了还多次重启故事线。粉丝也无所谓， 知道是瞎逼逼跟着图个乐子也挺好玩。编到现在反而有一种狗血 B 级片的独特风格，也算是一大特色卖点了。&lt;/p&gt;
-
-&lt;p&gt;游戏满足了部分人血腥暴力虐待的原始变态欲望，反政治正确的快感。游戏人物遭遇肢解、爆炸、溶解、剥皮、火烧、腐蚀、碾压、穿刺、腰斩等等各种死法，下一秒重开一局又活蹦乱跳地站起来继续打。在电子游戏时代之前的人们看到了会觉得匪夷所思，恶心呕吐，现在则成了最大的特色和卖点。&lt;br /&gt;
-这类内容该叫猎奇？查了一下，猎奇的词是 Grotesque，缩写为 guro 就专门指血腥残杀，但广义的猎奇包括了 torture、ryona、SM、vore、piercing、insect/worm、parasite、inflation/expansion/modification、bondage、mind break、amputee、tentacles、scat、cannibal 等等，每类都会让正常人坐立难安。&lt;/p&gt;
-
-&lt;p&gt;同样的癖好，在现实中、视觉、气味和文字描述中，容忍度可以完全不同。比如 Mortal Kombat 中的 Mileena 是人气角色，但在现实中，估计没一个粉丝敢和她交往。&lt;br /&gt;
-还有玩游戏看电影的时候满屏的血浆可能让人兴奋，真到了现实中人早就萎了。&lt;br /&gt;
-不过有的人的毛病是现实和幻想分不清，把猎奇中反人类部分的癖好带到现实中，离犯罪就只有一步之遥了。&lt;/p&gt;
-
-&lt;p&gt;Mortal Kombat 的电影《魔宫帝国》算是游戏改编电影中的翘楚了，里面有 Christophe Lambert 出演，他还演过80年代火过一阵的《挑战者/Highlander》系列电影。&lt;/p&gt;
-
-&lt;p&gt;国内在90年代引进过《Highlander 2》，如果没记错的话，里面有一幕是在加速飞驰的地铁里面格斗，乘客都横着飞起来了，导演的物理学成绩应该不怎么样吧。&lt;br /&gt;
-还有就是屏幕全透明而文字是亮橙色的电脑，看着很酷，但真要我用可能会瞎眼。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>游戏中的道德</title>
-        <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
-        <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1497272702259847171&#34;&gt;夹喵又：&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。&lt;br /&gt;
-你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1497416426617212928&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了&lt;br /&gt;
-可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1497469705371598849&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;所以游戏并没有设置越界就失败。&lt;br /&gt;
-人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。&lt;br /&gt;
-所以法律要基于经验形成的常识常理对抗这种极端混乱。&lt;br /&gt;
-常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。&lt;br /&gt;
-哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Rats!</title>
-        <link>https://ioerr.github.io/posts/rats/</link>
-        <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/rats/</guid>
-        <description>&lt;p&gt;忽然想到以前玩过一个 Windows 下的小游戏，在 &lt;a href=&#34;https://twitter.com/FlyingJuicer&#34;&gt;Flying Juicer&lt;/a&gt; 的&lt;a href=&#34;https://twitter.com/FlyingJuicer/status/1172145280738717696&#34;&gt;提醒&lt;/a&gt;下，通过名字找到了&lt;a href=&#34;http://www.windowsgames.co.uk/rats.html&#34;&gt;作品和作者 Sean O&amp;rsquo;Connor 的网站&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/rats.png&#34; alt=&#34;Rats!&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;游戏的名字叫 Rats!，玩法很简单：&lt;br /&gt;
-地图上有到处乱窜的老鼠，公老鼠和母老鼠相遇后会交配生下更多老鼠。&lt;br /&gt;
-玩家可以在地图上放置多种工具，如定时炸弹炸弹、毒药、毒烟、路障、机器老鼠和剥夺生殖能力的放射源，用于控制老鼠的数量。&lt;br /&gt;
-需要在保证老鼠的总数不超过上限的前提下，尽量多得分。&lt;br /&gt;
-第一个地图免费，后面的需要付费解锁。&lt;/p&gt;
-
-&lt;p&gt;这个游戏如果一上来杀死所有老鼠，很容易但很无趣。&lt;br /&gt;
-最有意思的地方在于老鼠呈几何级数繁殖时，能够及时控制住鼠口上限。&lt;br /&gt;
-满屏幕都是交配和下崽儿的老鼠，配合销魂的呻吟和啵啵啵的下崽儿声音，堪称作死边缘的乐趣。&lt;/p&gt;
-
-&lt;p&gt;Rat! 最早在94年就发布了，现在还能够找到和玩到原版，有种考古发现宝藏的惊喜。&lt;/p&gt;
-
-&lt;p&gt;从 &lt;a href=&#34;mailto:sean@windowsgames.co.uk&#34;&gt;Sean O&amp;rsquo;Connor&lt;/a&gt; 的&lt;a href=&#34;http://www.windowsgames.co.uk/index.html&#34;&gt;作品集&lt;/a&gt;发现，以前在手机上玩过的 &lt;a href=&#34;http://www.windowsgames.co.uk/slay.html&#34;&gt;Slay&lt;/a&gt; 也是他的作品。&lt;/p&gt;
-
-&lt;p&gt;另外，他还写了 &lt;a href=&#34;http://www.windowsgames.co.uk/ff.html&#34;&gt;Firefight&lt;/a&gt;，看上去有点像 Close Combat 的风格，带有地图编辑器。&lt;/p&gt;
-
-&lt;p&gt;有推友搭车求问其他的游戏，于是找到了曾经风靡一时的《&lt;a href=&#34;https://crimsonland.com/&#34;&gt;血腥大地/Crimsonland&lt;/a&gt;》——一款顶视图风格的射击游戏，在汹涌如潮的丧尸和怪物包围下不断开火和升级。&lt;/p&gt;
-
-&lt;p&gt;才知道它已经出了重制版，在多个游戏平台发布。只是看游戏评论，不少老玩家觉得重制版不如原版好玩。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Football Chairman</title>
-        <link>https://ioerr.github.io/posts/football-chairman/</link>
-        <pubDate>Tue, 18 Aug 2015 13:26:03 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/football-chairman/</guid>
-        <description>&lt;p&gt;从 Championship Manager 时代就很喜欢 Sports Interactive 的 Football Manager（FM，足球经理）系列，移动终端版 FM Handheld 也玩过很久时间，但不满意的地方还是很多。&lt;br /&gt;
-对照&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;移动设备触屏游戏六戒&lt;/a&gt;来看的话，第二点的按钮太小，容易误操作，第三点的必须横屏操作，第三点的信息量太大，不容易重新关注，都是 FMH 有的问题。&lt;/p&gt;
-
-&lt;p&gt;另一款颇受欢迎的养成类型足球游戏 New Star Soccer（NSS，新星足球）
-专注于球员个人的成长和人际交往，多了一点人情味，还有手动控制传球、射门、带球过人的动作成分，操作起来倒是有爽感，可在移动场景下，又有第四点需要实时关注的问题，而且移动中手动控制的误操作率会大幅上升，容易积累挫败感。&lt;br /&gt;
-另外，由于装备、消费品的内购机制，昂贵的球鞋、营养剂等物品对技术、体力的影响很大，特别是在我看来比较奇葩的时髦值设定，有种让玩家操心赚钱、炫富、把妹/吊龟多过安心踢球的感觉，总之玩久了总觉得不太对味。&lt;/p&gt;
-
-&lt;p&gt;有没有类似于 FMH 这样的游戏，但简化不必要的信息和指令，节奏像 NSS 一样快，又适合移动端操作呢？&lt;br /&gt;
-比如说只关注球员转会和俱乐部人事，具体事务交给 AI 完成。&lt;/p&gt;
-
-&lt;p&gt;然后就发现了 &lt;a href=&#34;http://www.football-chairman.com/&#34;&gt;Football Chairman（足球主席）&lt;/a&gt;这款游戏。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/mockups/iphone-screen.png&#34; alt=&#34;Football Chairman&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;在这款游戏中，玩家扮演的是足球俱乐部主席角色，负责的工作主要包括：&lt;br /&gt;
-聘请教练班子（包括主教练/经理、助教、球探等）&lt;br /&gt;
-投资建设俱乐部基础设施（比如看台、青训营、训练设施、附加商品等）&lt;br /&gt;
-参与球员管理和转会（设置转会预算、赢球奖励、拍板转会请求、设置转会费和工资等）&lt;/p&gt;
-
-&lt;p&gt;然后就可以坐下来看主教练指挥的战绩如何了。&lt;/p&gt;
-
-&lt;p&gt;俱乐部的各项赛事成绩、人事管理决策、球票等球迷利益相关因素等，都会影响球迷对主席和经理的满意度，同时还要保证俱乐部盈利。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-summary.jpg&#34; alt=&#34;Football Chairman Summary&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;而排兵布阵、战术变化这些，作为主席不会直接干预，只能在聘请主教练时根据教练风格做选择。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-lineup.jpg&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-backroom.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;球员转会，主席也不能越俎代庖、事必躬亲，通常由主教练提出转会申请，主席决定是否砸钱。&lt;br /&gt;
-青训球员提拔、签订职业合同也由主席拍板。&lt;br /&gt;
-转会、租借或续约合同尽量简化，转会费、工资、合同截止日期就是全部，不用考虑非常复杂的规则，比如共有协议、分期付款这些。&lt;br /&gt;
-当然会损失一些真实感，转会狂人想必也少了许多乐趣，但相应也让玩家少死很多脑细胞，总的来说还是利大于弊。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-contract.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;球员信息不像 FM 系列那样面面俱到，不需要通过许多数值判断球员水平，只能看到总体评分、个性、心情、风格等外在特质，和出场数、进球数、身价、工资等统计数据。&lt;br /&gt;
-不过历史数据分析狂人就没有用武之地了，像我这样打开 FM 光球员历史都可以看很久的难免失望。&lt;br /&gt;
-好在俱乐部还比较多，覆盖英格兰七级联赛，有钱的话可以换个俱乐部当主席。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-squad.jpg&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-player.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;比赛画面就是非常简单的文字说明，仿佛回到了 CM 的时代，而解说内容比 CM 还少得多，影响体验乐趣。&lt;br /&gt;
-不过本来临场指挥是主教练的工作，主席不用瞎操心，这种简化也就合理了。&lt;br /&gt;
-在火车上半天时间我就玩了两个赛季，要是换做 FM 真不知道要花多少时间。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-match.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;而成就系统比较丰富，除了俱乐部本身的建设、升级和赛事锦标，还有球迷满意度、俱乐部声望、资金盈利、球员和教练养成（可以出钱让教练深造），以及内置的任务目标、成就。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-chairman.jpg&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://www.football-chairman.com/img/app-screenshots/screenshot-fans.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;对比&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;移动设备触屏游戏六戒&lt;/a&gt;中的几个基本指标来看的话，Football
-Chairman 没有明显触犯任何一条（进入游戏都比龟速的 FM 快了不知道多少，这也相当影响体验）。&lt;br /&gt;
-如果要说有什么期待改进的，就是适当增加一点复杂度和可发展内容，让玩法更加多样。&lt;/p&gt;
-
-&lt;p&gt;游戏分&lt;a href=&#34;http://www.football-chairman.com/#features&#34;&gt;免费版、基础付费版和增强付费版&lt;/a&gt;，区别主要在于界面、画面和内容丰富程度。&lt;br /&gt;
-在 &lt;a href=&#34;http://www.football-chairman.com/#download&#34;&gt;Apple Appstore、Google Play 和 Amazon Kindle Appstore&lt;/a&gt; 都有下载。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Draw Something</title>
-        <link>https://ioerr.github.io/posts/draw-something/</link>
-        <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/draw-something/</guid>
-        <description>&lt;p&gt;最近 &lt;a href=&#34;http://itunes.apple.com/app/draw-something-by-omgpop/id488627858&#34;&gt;Draw
-Something&lt;/a&gt;
-这款 iOS
-上的游戏很火爆，最吸引人的特色大概可以归纳为：&lt;strong&gt;无压力的限题自由创作&lt;/strong&gt;和&lt;strong&gt;异步的交流&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不需要你画得有多棒，只要好友能够认得出来或者猜得出来就行，在熟人眼里，画得很差劲有时候还是个不错的笑料；&lt;br /&gt;
-绘画的题材可以在有限范围内根据不同的难度自己选择，简单题目的金币奖励还是很好赚的；&lt;br /&gt;
-能够同时开多个会话与不同的朋友分别玩，可以通过导入、搜索和随机找人来新开会话，不会因为某个朋友的“创作”瓶颈导致长期冷场；&lt;br /&gt;
-没什么时间限制，三下五除二画一幅草稿，精耕细作画一幅杰作，都可以；&lt;br /&gt;
-画得速度快，几秒钟也可以搞定，简单粗暴有效也别有一种乐趣；&lt;br /&gt;
-即使绘画、猜单词耗时很长，对方看到的过程也是精简之后的，不用担心自己速度太慢。&lt;/p&gt;
-
-&lt;p&gt;无压力，是对用户创作的鼓励；&lt;br /&gt;
-限题，既不会像命题一样太死，也不会因为选择太多让用户迷失方向；&lt;br /&gt;
-自由，是相对一些同样标榜创造的模拟、经营类游戏，后者的“创造”顶多算是“组合”已经设计好的元素，与绘画的自由度不可同日而语。&lt;br /&gt;
-异步，也是避免实时同步交互带来的沟通压力，变相鼓励用户用心创作，也降低了观察对方行为的时间成本；&lt;br /&gt;
-最重要的是，每个人从“创作”和“交流”中享受到的乐趣，多过破坏、消灭、杀戮的原始冲动满足。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-分析如今家用主机多人在线游戏市场，无非是竞争、互相厮杀或者一起杀敌。游戏互动的核心都是从传统单机游戏演变而来。而这些以强大感为中心的游戏变成了在线多人游戏后。人们的互动几乎都是专注于力量的使用。当你看到另一个在线玩家，你的第一个念头一般都是，我要如何把我的力量用在他身上，如何连击他？如何爆头他？这个现象不只出现在游戏中，也发生在今天这个被科技和信息高度强化的社会中，走在商业区的市中心，大家心里想着的是如何完成下一个任务，如何赚取力量如何使用力量。很少有人会驻足和一个过路人交流。而当你放下城市中的力量和包袱去深山中远游，每一个路过的旅人都是异常的亲切。&lt;/p&gt;
-
-&lt;p&gt;所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。
-&lt;/blockquote&gt;
-——&lt;a href=&#34;http://www.zhihu.com/question/20125406/answer/14067659&#34;&gt;陈星汉谈设计《旅程》（Journey）的想法&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;是不是有异曲同工之妙呢？&lt;/p&gt;
-
-&lt;p&gt;最后，可以通过我的邮箱在 Draw Something 中找到我一起玩。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Dungeon Raid</title>
-        <link>https://ioerr.github.io/posts/dungeon-raid/</link>
-        <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dungeon-raid/</guid>
-        <description>&lt;p&gt;之前&lt;a href=&#34;http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/&#34;&gt;有提过不满大部分移动设备触屏游戏的设计&lt;/a&gt;，不过有基本符合要求的好游戏还是要适时称赞的。&lt;/p&gt;
-
-&lt;p&gt;就我目前接触过的游戏来看，&lt;a href=&#34;http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8&#34;&gt;Dungeon
-Raid&lt;/a&gt;
-是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的
-Dungeon Raid）。&lt;br /&gt;
-这个游戏上市的时间很久了，不过其设计值得学习。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://a5.mzstatic.com/us/r1000/031/Purple/3e/bb/d4/mzl.ggwriucc.320x480-75.jpg&#34; alt=&#34;Dungeon
-Raid&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;1、图文识别&lt;br /&gt;
-缺点是仍有太小的图文，比如怪物的描述文字、技能和特性的图标等等。&lt;br /&gt;
-而且怪物的描述文字出现在图标下方，正好被手指挡住，是个败笔。&lt;br /&gt;
-不过熟悉了各种图标之后，需要看文字的机会不多。&lt;/p&gt;
-
-&lt;p&gt;2、指点操作&lt;br /&gt;
-6×6的方格，一般人手指操作已是游刃有余了。&lt;br /&gt;
-作为连线游戏，基本的连线操作错误率低，即使划到一半，跳出恼人的通知窗口，也不会导致误操作。&lt;/p&gt;
-
-&lt;p&gt;3、单手操作&lt;br /&gt;
-单手划线足够了，当然，也有人喜欢一手掌握机身，一手用食指划线。&lt;/p&gt;
-
-&lt;p&gt;4、不需要时刻关心&lt;br /&gt;
-非即时互动，偷闲玩玩毫无压力。&lt;/p&gt;
-
-&lt;p&gt;5、信息量合适&lt;br /&gt;
-怪物和各种道具的布局情况，血量、防御、攻击、经验、金币、技能等等指标均一目了然，基本上不需要进入统计页面查看细项，通常切换回游戏中瞟一眼就可以马上接着玩。&lt;/p&gt;
-
-&lt;p&gt;6、成就感&lt;br /&gt;
-有多种难度和玩法选择；&lt;br /&gt;
-有多种怪物，包括天敌怪物；&lt;br /&gt;
-有多种技能、种族、特性组合；&lt;br /&gt;
-有多种升级选择和发展路径；&lt;br /&gt;
-简而言之，容易沉迷。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>移动设备触屏游戏六戒</title>
-        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
-        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
-        <description>&lt;p&gt;时常觉得 iPod/iPhone
-上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
-
-&lt;p&gt;1、图文难以识别。&lt;br /&gt;
-本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。&lt;br /&gt;
-比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。&lt;/p&gt;
-
-&lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
-
-&lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
-中变更球员名单，很容易点错球员；&lt;br /&gt;
-直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
-间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
-
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
-swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
-如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
-
-&lt;p&gt;至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。&lt;/p&gt;
-
-&lt;p&gt;3、必须双手或横屏操作，无法充分解放另一只手&lt;br /&gt;
-在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。&lt;br /&gt;
-有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。&lt;/p&gt;
-
-&lt;p&gt;4、需要实时关注，一刻不能分心&lt;br /&gt;
-漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。&lt;br /&gt;
-如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。&lt;br /&gt;
-即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。&lt;br /&gt;
-所以应该尽量采用回合制或短场景。&lt;br /&gt;
-如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。&lt;/p&gt;
-
-&lt;p&gt;5、信息量太大，不容易重新关注&lt;br /&gt;
-有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。&lt;/p&gt;
-
-&lt;p&gt;6、没有足够的成就感&lt;br /&gt;
-规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
-这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>手机应用创意</title>
-        <link>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</link>
-        <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</guid>
-        <description>&lt;p&gt;为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。&lt;br /&gt;
-最关心的是，定位功能和手机结合起来能够有什么好玩法。&lt;/p&gt;
-
-&lt;p&gt;现在的 LBS 服务普遍功能单调，实用性不够，签到的操作麻烦。&lt;br /&gt;
-比如，签到一定要手动操作吗？&lt;br /&gt;
-至少以前签到过的地点以后再去能不能自动签到，除非设置例外？&lt;br /&gt;
-如果签到还要发感想，能不能定时提醒为当天的自动签到做补充，或者干脆和当时当地往其他平台发的公开消息绑定？&lt;br /&gt;
-再者，位置信息如果有用，应该比与朋友简单互动、争取商家优惠和记录行程有更大的用处。&lt;/p&gt;
-
-&lt;p&gt;** 联系人擂台战**&lt;/p&gt;
-
-&lt;p&gt;从手机的联系人中导入资料，包括头像、姓名、来往的电话、短信、邮件记录等等，以这些资料为基础创造虚拟人物，转换为攻击、防御、生命力等角色属性，然后放到竞技场中打擂台，对战的结果可以直接发给联系人。&lt;/p&gt;
-
-&lt;p&gt;对战要有一定的随机性，可以组队，画面要够吸引人。&lt;br /&gt;
-新的擂台场景和动作可以对用户收费。&lt;/p&gt;
-
-&lt;p&gt;聚会时可以用来玩不需要动脑筋的杀时间游戏。&lt;/p&gt;
-
-&lt;p&gt;** 食谱安排**&lt;/p&gt;
-
-&lt;p&gt;安排用户每日的食谱，结合当地原料价格、供货情况、用户口味偏好、营养搭配等等进行推荐，并记录用户实际吃到的食物，在此基础上调整后续的食谱建议。&lt;/p&gt;
-
-&lt;p&gt;** 给车辆和行人投票打分**&lt;/p&gt;
-
-&lt;p&gt;看到驾驶习惯差又不会被扣分的司机，比如乱闪远光灯、不提前打灯就突然变道、边开车边打手机堵在快车道上，就拍照投票扣分；&lt;br /&gt;
-看到驾驶习惯好的礼让的司机，就拍照投票加分；&lt;br /&gt;
-和 GPS 或者增强现实视觉设备结合起来一看，周围有哪些马路杀手一目了然。&lt;br /&gt;
-保险公司什么的也可以根据这样的数据调整保险费。&lt;/p&gt;
-
-&lt;p&gt;要有不影响正常驾驶的拍照投票手段。&lt;/p&gt;
-
-&lt;p&gt;扩展一下，也可以给看得顺眼和不顺眼的路人打分。&lt;/p&gt;
-
-&lt;p&gt;** 通用优惠券应用**&lt;/p&gt;
-
-&lt;p&gt;每个商家都打印优惠券很浪费资源，消费者拿着各式各样优惠券不方便总是带着又容易忘记有效期，这种事情就应该交给手机应用来做。&lt;br /&gt;
-虽然现在已经有公司在做餐饮等行业的优惠券联盟，但还要重新申请专用卡。&lt;/p&gt;
-
-&lt;p&gt;** 自动切换手机的情景模式**&lt;/p&gt;
-
-&lt;p&gt;侦测到坐在车辆驾驶位置，就自动切换为驾驶模式，来电一律答复正在开车，进入自动应答留言状态，避免影响驾驶人正常行车；&lt;br /&gt;
-侦测到进入电影院，就自动切换为会议模式静音。&lt;/p&gt;
-
-&lt;p&gt;** 手机自救**&lt;/p&gt;
-
-&lt;p&gt;手机发现自己以超过xG的加速度飞出去，或者正在进水，或者超过设定的时间没有人使用，就定期发送消息报告自己的方位，直到电量耗尽或者损坏。&lt;/p&gt;
-
-&lt;p&gt;** 卡通风格拍照**&lt;/p&gt;
-
-&lt;p&gt;将手机拍摄的照片转换为卡通风格，尤其重要的是，要自动用夸张的手法突出人物外貌的主要特征。&lt;/p&gt;
-
-&lt;p&gt;** 手机使用情况数据统计分析**&lt;/p&gt;
-
-&lt;p&gt;计算出你在这台手机上的所有活动花费，列出一个清单，包括：&lt;br /&gt;
-购买应用的总费用；&lt;br /&gt;
-通话、上网、游戏、听音乐的时长；&lt;br /&gt;
-收发的短信、邮件数量；&lt;br /&gt;
-携带手机活动的路程。&lt;/p&gt;
-
-&lt;p&gt;还可以深入分析，比如：&lt;br /&gt;
-各类活动时间所占的比重，你是不是大部分时间都在玩游戏；&lt;br /&gt;
-与家人和同事联系的时长、次数的比值，还有待在家里、待在办公室和在外游荡的时间比值，你是不是越来越冷落了家庭；&lt;br /&gt;
-哪些应用你花费不菲却很少使用。&lt;/p&gt;
-
-&lt;p&gt;** 短信群发模拟即时通讯群聊**&lt;/p&gt;
-
-&lt;p&gt;在没有网络或者各人没有统一的即时通讯工具时，方便的通过短信群聊。&lt;/p&gt;
-
-&lt;p&gt;在短信界面添加多个联系人成为发送对象，选择群聊模式，就转变为即时通讯式的群组会话模式，背后的交互采用短信网状群发模式。&lt;/p&gt;
-
-&lt;p&gt;不应要求所有参与的用户必须注册服务才能加入群聊（目前的短信群聊服务这一点做得不好），只要发起人有注册和安装应用就行。&lt;br /&gt;
-如果对方手机没有安装专门的应用，由服务方在初始的短信内容中给出群组专用的临时号码，发短信到这个号码就可以加入进来。但是体验不如专用应用。&lt;/p&gt;
-
-&lt;p&gt;** 结合定位功能的电器自动开关**&lt;/p&gt;
-
-&lt;p&gt;在家中时刻打开手机定位功能并随身带着，走到哪里就通知房间中的电灯自动打开，离开时通知电视、空调、电灯等等电器自动关闭。&lt;/p&gt;
-
-&lt;p&gt;如果手机、遥控器和家用电器有专用通知接口，当然不用如此实现，但智能手机移动定位功能足够普及，不利用一下挺可惜。&lt;br /&gt;
-配合无线充电技术，电力不是问题。&lt;br /&gt;
-到朋友家里做客、去公司上班，在智能电器管理系统中认证一下就能取得权限。&lt;/p&gt;
-
-&lt;p&gt;** 召唤出租车**&lt;/p&gt;
-
-&lt;p&gt;出租车公司开放营业中的出租车实时位置信息。&lt;br /&gt;
-用户在手机地图上看到附近有哪些空车，查看车辆、司机信息后，点击目标车辆，告知自己的具体方位，司机确认能够赶到，用户就只需等待；&lt;br /&gt;
-或者用户将起止地点的方位发布到出租车信息平台，由应用程序给司机的反馈（车型和车牌号、赶过来的时间、价格、历史评价等）智能排序，由用户选择最中意的一辆车成交。&lt;/p&gt;
-
-&lt;p&gt;比打电话召车更加直观，也适合多家出租车公司共同竞争使用。&lt;/p&gt;
-
-&lt;p&gt;** 唇语输入**&lt;/p&gt;
-
-&lt;p&gt;优点：&lt;br /&gt;
-与双手输入相比，速度更快，不需要提供外置键盘或全键盘配置，不会占用过多的屏幕空间；&lt;br /&gt;
-与单手输入相比，速度更快，有利拇指健康；&lt;br /&gt;
-与拼音、五笔等编码输入相比，学习曲线低，不懂编码规则也能输入；&lt;br /&gt;
-与语音输入相比，不会影响周围其他人，不需要担心泄露隐私。&lt;/p&gt;
-
-&lt;p&gt;缺点：&lt;br /&gt;
-需要有前置摄像头；&lt;br /&gt;
-汉字设别成功率肯定不如带语调的语音输入；&lt;br /&gt;
-识别技术有待发展。&lt;/p&gt;
-
-&lt;p&gt;** 翻译和精简语言**&lt;/p&gt;
-
-&lt;p&gt;把专业语言翻译成普通人能懂的话，比如说挑出文章中的一些IT语言，告诉你这些话对方很可能听不懂，建议换一种表达方式。&lt;br /&gt;
-背后有语料库支持，收集普通人不明白的语料资料。&lt;/p&gt;
-
-&lt;p&gt;或者把故弄玄虚的句子精简成普通人也能看穿的形式，比如说某些后现代主义大师的句子，精简以后一句话就可以概括，扯谈！&lt;/p&gt;
-
-&lt;p&gt;如此可以拯救万千人被谋杀的生命。&lt;br /&gt;
-不过隐晦的示爱短信就不要用这个来考验了……&lt;/p&gt;
-
-&lt;p&gt;不过以上创意加起来也没有&lt;a href=&#34;http://www.zhihu.com/question/19591517#285324&#34;&gt;另一个答案&lt;/a&gt;有亮点啊，我的头脑果然生锈了。&lt;/p&gt;
-
-&lt;p&gt;** 动车追尾告警系统民间版**&lt;/p&gt;
-
-&lt;p&gt;与时俱进一把。&lt;br /&gt;
-上了动车之后定时上报当前位置和自动识别的车次信息给服务端，由服务端判别是否有追尾危险。&lt;br /&gt;
-如果时间充足，可以集体找司乘人员紧急停车（不建议冒失的拉紧急停车闸），如果时间不足，应用将提供精美的笔记和方便的录音摄像功能，请抓紧时间留下遗言……&lt;/p&gt;
-
-&lt;p&gt;假如发生了奇迹，你还可以通过上面提到的手机自救功能，结合发光、发声功能，通知救援人员你还活着。&lt;/p&gt;
-
-&lt;p&gt;** 到此一游/虚拟地标**&lt;/p&gt;
-
-&lt;p&gt;不要再在名胜古迹自然风景地写到此一游类的文字污染环境了，用虚拟签名吧，挥舞手机写下到此一游四个字，今后和朋友重游故地的时候能够调出来给他们看到。&lt;br /&gt;
-即使过去的建筑物都被推倒了，你从前留下来的签名也会一直保存的。&lt;/p&gt;
-
-&lt;p&gt;** 期望成真通知服务**&lt;/p&gt;
-
-&lt;p&gt;写下你对未来的期望，如果真的成了，就会第一时间通知你。&lt;br /&gt;
-不用担心你最关心的事情淹没在海量的新闻中，优先关注你最期待的事情会不会发生。&lt;br /&gt;
-Google的搜索结果实时通知不靠谱，因为它不能准确了解你期待的是什么。&lt;/p&gt;
-
-&lt;p&gt;** 生词本**&lt;/p&gt;
-
-&lt;p&gt;拍照取词+统计生词出现频率，只有那些较常见的生词才进入生词练习本，不要把90%的精力浪费在出现频率不到10%的单词身上。&lt;/p&gt;
-
-&lt;p&gt;** 彩弹枪游戏**&lt;/p&gt;
-
-&lt;p&gt;通过摄像头+识别系统+定位功能+通讯系统，可以把手机当成电子彩弹枪用。&lt;br /&gt;
-在屏幕指定范围内拍下了对方的影像，就算是命中了，然后通知对方手机告知其已被击中。&lt;br /&gt;
-定位功能用于和队友配合。&lt;/p&gt;
-
-&lt;p&gt;** 家电远程交互控制和软件故障自动排障**&lt;/p&gt;
-
-&lt;p&gt;这个感觉要求很高，目前民用硬件方面应该还不具备条件。&lt;/p&gt;
-
-&lt;p&gt;现在要远程控制电脑，要求双方都必须接入网内。有时候要排除的故障可能就是无法上网，那就没辙了。&lt;br /&gt;
-而这个应用是将手机接上电脑的输入输出接口（分流键盘和显示器接口）后，将输出数据流通过手机网络通道传输给控制端的手机，或接受其控制输入指令给被控制端电脑。（好吧，其实可以让电脑共用手机拨号上网线路）&lt;/p&gt;
-
-&lt;p&gt;例如，被控制端电脑显示蓝屏，插在显示器端口的手机A将蓝屏内容发送给手机B，手机B转译后输入到远端控制电脑，显示在显示屏上。&lt;br /&gt;
-远程维护人员向远端控制电脑输入控制指令，手机B发送镜像指令给手机A，手机A再从键盘接口输入。&lt;/p&gt;
-
-&lt;p&gt;如果考虑周全的话，常见排障流程都可以固化到应用中，用户要做的就是接上电脑指定接口（甚至可以有专用接口，更加简化用户操作），应用自动监控、分析和输入指令排障。&lt;/p&gt;
-
-&lt;p&gt;再扩展的话，今后智能化的家电都可以用这种方法排除常见软件故障，要做的就是先用手机上网下载家电相应型号的最新排障应用，然后插上标准的排障接口。&lt;/p&gt;
-
-&lt;p&gt;** 物品管理**&lt;/p&gt;
-
-&lt;p&gt;拍过一次照后，下次再拍就能自动识别是什么物品；&lt;br /&gt;
-拍照后根据其位置自动更新该物品的位置信息；&lt;br /&gt;
-下次要找什么东西，调出照片或者输入名字，这个应用就会告诉你最后一次你是在什么地方看见它的。&lt;br /&gt;
-健忘的人不用担心重要物品找不到了。&lt;/p&gt;
-
-&lt;p&gt;等物联网成熟了，这应用的死期也就到了。&lt;/p&gt;
-
-&lt;p&gt;** 万能句子**&lt;/p&gt;
-
-&lt;p&gt;当你陷入不知道怎么接话的尴尬境地时，打开这个应用，它就会随机抛出一个万能句子，比如“你先把裤子穿上再说吧”、“今天天气不错嘛”、“这是一个奇迹”，完美的接上话头，轻松打破尴尬的气氛。&lt;/p&gt;
-
-&lt;p&gt;** 正品商标识别**&lt;/p&gt;
-
-&lt;p&gt;现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG
-Amycall手机、康帅傅方便面。&lt;br /&gt;
-用这个应用拍下商标，就可以自动分析是否正品。&lt;br /&gt;
-如果所有产品使用统一的二维码或条码校验，也可以结合二维码和条码验证，准确率更高。这样山寨品牌要造假，标志必须做得完全一样，二维码或条码也必须与正牌完全一样，就很难打擦边球了。&lt;/p&gt;
-
-&lt;p&gt;扩展一下的话，识别出正确的商品标志后，还可以自动推介相关品牌商品，未必不可以从中盈利。&lt;/p&gt;
-
-&lt;p&gt;遇到不认识的国际品牌，也可以凭此应用避免土鳖的尴尬。&lt;/p&gt;
-
-&lt;p&gt;** 稍后回拨提醒**&lt;/p&gt;
-
-&lt;p&gt;你是不是经常在手忙脚乱的时候在电话中对对方说：“稍等一下，等一会儿我再回你的电话。”然后去处理更紧急的事情，结果再也没有想起这回事？&lt;br /&gt;
-这个应用可以通过语音分析功能监控你有没有做出稍后回拨的承诺，自动增加短期提醒，并记录对方的号码、通话时间，如果可能的话，还能记录承诺过多久要回拨。&lt;/p&gt;
-
-&lt;p&gt;** 多用户隐私保护功能**&lt;/p&gt;
-
-&lt;p&gt;是不是很不喜欢其他人玩你的手机？即使你设置了密码，在对方强烈要求下，也不好意思不告诉对方？&lt;br /&gt;
-有时候需要借手机给陌生人临时打个电话，你还提心吊胆。&lt;/p&gt;
-
-&lt;p&gt;你需要多用户隐私保护功能。&lt;br /&gt;
-默认用户不需要密码，或者只用某个简单的密码，能够打开的应用也不多。&lt;br /&gt;
-而你自己用另一个用户登录，入口比较隐蔽。&lt;br /&gt;
-而且只要不是用你的用户身份登录，电话录音什么的都自动保存记录……&lt;/p&gt;
-
-&lt;p&gt;** 打水漂记录器**&lt;/p&gt;
-
-&lt;p&gt;第一次看到有人拿3C产品打水漂，我就被震撼到了！不为这种高端用户量身定制专业应用简直就是产品经理的犯罪啊——如果你不是土豪又想参加打水漂活动，请买防水手机并自带鱼线。&lt;br /&gt;
-这款应用利用重力感应功能记录水漂次数，如果技术成熟，还能记录水漂的弧线，自动上传到网上参加竞赛。&lt;/p&gt;
-
-&lt;p&gt;** 倒车指挥**&lt;/p&gt;
-
-&lt;p&gt;可以将手机卡在后视镜上、可以分析拍下来的停车位和汽车相对位置，或者接入汽车电子系统，结合车尾摄像头、倒车雷达等，指挥倒车。&lt;br /&gt;
-其实能够接管汽车自动驾驶是最好的，但那更多的应该是汽车电子系统自己应该做的事情。&lt;br /&gt;
-拯救那些怎么也不擅长倒车的人。&lt;/p&gt;
-
-&lt;p&gt;** 临时借用屏幕**&lt;/p&gt;
-
-&lt;p&gt;手机只有一个小小的屏幕经常不够用？找不到合适的双屏手机？&lt;br /&gt;
-使用这个应用，可以与同样安装了该应用的另一支手机建立连接，借用其屏幕作为第二块显示屏。&lt;br /&gt;
-数据处理、存储、交互、网络通道都在第一支手机上。&lt;br /&gt;
-好处是，有实体键盘的手机可以和大屏幕手机强强合作，用手机看文档比对资料不用烦恼频繁跳转，应用之间复制粘贴不需要来回切换，等等等等。&lt;/p&gt;
-
-&lt;p&gt;** 报刊文章扫描、阅读、订阅**&lt;/p&gt;
-
-&lt;p&gt;我们有 OCR 应用；&lt;br /&gt;
-有 Instapaper 和 Read It Later，有 Evernote；&lt;br /&gt;
-也有各种报纸杂志的电子版。&lt;br /&gt;
-但是当你看到实体的报纸杂志上的好文章，想要保存起来稍后阅读的时候，却发现没有让人省心的手段。&lt;/p&gt;
-
-&lt;p&gt;直接拍照存下来，阅读的时候不会自动分段和矫正形变；&lt;br /&gt;
-如果文章比较长，排版不规则，拍照、截图也是麻烦事；&lt;br /&gt;
-图片识别成文字，识别率不高，配图和表格什么的还需要自己重新插入排版；&lt;br /&gt;
-翻过了一遍实体报刊，为什么还要再花时间去翻附加很多我不想看的内容的电子版？&lt;/p&gt;
-
-&lt;p&gt;要么，有应用能够对拍下来的文章智能识别和排版：&lt;br /&gt;
-拍照或者视频扫描一遍，经过应用整理好的内容就可以阅读了。&lt;/p&gt;
-
-&lt;p&gt;要么，有应用能够实现快速购买杂志短文，每个短文附一个二维码之类的标识：&lt;br /&gt;
-扫一下，内容方验证你是杂志订阅者后，提供的文章就发进了手机。&lt;/p&gt;
-
-&lt;p&gt;** 钥匙管理**&lt;/p&gt;
-
-&lt;p&gt;在钥匙被电子门禁类产品完全取代之前，想不起某片钥匙是开哪把锁的问题仍会困扰人类。&lt;br /&gt;
-在钥匙上贴标签吧，又怕旁人知道，不太安全。&lt;br /&gt;
-这个应用可以拍照、扫描钥匙的齿形，记录匹配的锁的信息，今后，当你偶然翻出一把很久都没用过的钥匙，又想不起来是用在哪里的时候，用摄像头照一下，答案就出现了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>FMHi2011</title>
-        <link>https://ioerr.github.io/posts/fmhi2011/</link>
-        <pubDate>Tue, 25 Jan 2011 04:41:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fmhi2011/</guid>
-        <description>&lt;p&gt;自从入手 Kindle 3之后，iPod Touch
-就移交给老婆了（或者应该说，因为老婆想玩 iPod
-游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。&lt;/p&gt;
-
-&lt;p&gt;用了1年的 iPod Touch，主要感想如下：&lt;br /&gt;
-1、听音乐不愧是 iPod
-的老本行，如果你有购买正版音乐的习惯，又有苹果的电脑（因为 iTunes
-实在太让人抓狂了），用来购买、管理、欣赏音乐很合适。&lt;br /&gt;
-2、使用最多的应用是看书的 Stanza，有了 Kindle
-之后基本上可以把它忘了。Instapaper 能够发到 Kindle 邮箱后也不需要在 iPod
-上看 Instapaper 存档了。&lt;br /&gt;
-3、其次就是浏览网页和上 Google Talk（通过免费版的 IM+）。&lt;br /&gt;
-但屏幕太小看网页还是不舒服，后台挂 GT
-时它的弹出消息机制又很烦人，总的来说还是多任务机制的大平板才能用得尽兴。&lt;br /&gt;
-当好人修电脑的时候曾经靠 iPod
-连无线网络查资料和改路由器设置，免去了用笔记本的麻烦。&lt;br /&gt;
-4、其他的用途还有做笔记、记账。&lt;br /&gt;
-但 iPod
-的中文输入法不够好用，如果不是在电脑键盘上输入我都觉得会影响记录的时效性。&lt;br /&gt;
-而且在不支持多任务的时候，在主任务和笔记本应用的任务之间来回切换很是伤害心灵，还会有时空错乱的幻觉，这个时候我会想要可以分屏操作的设备……&lt;br /&gt;
-何况现在还随身携带小巧的纸质笔记本，打开 Evernote 的机会也就更少了。&lt;br /&gt;
-5、都说 iPod
-主要是娱乐游戏机，可是没有多少游戏能够让我长时间投入，手感、可玩性、可持续性、耗电等等都是不小的问题。&lt;/p&gt;
-
-&lt;p&gt;几个桌面游戏和 Rogue/Nethack 类游戏的 iPod 版勉强还行（如果是 iPad
-可能就好多了），什么移植大作、3D
-大作，真不对我的胃口。（也许是因为硬件配合方面没有和所谓大作的期望水准保持一致，也许是对大作越来越挑剔？）&lt;/p&gt;
-
-&lt;p&gt;而以怒鸟为代表的这类海量小游戏，还不够分量让我沉迷。管你降价还是免费，一天不到就索然无味有什么用？（可能我是审美疲劳了，比如在
-PC 上早就玩过怒鸟类型的 Flash 游戏了）&lt;/p&gt;
-
-&lt;p&gt;说了这么多 iPod 游戏的坏话打倒一片，主要目的是为了突出我强烈推荐的游戏：&lt;/p&gt;
-
-&lt;p&gt;Sports Interactive 的 &lt;a href=&#34;http://www.footballmanager.com/games?&amp;amp;game_version=ios&#34;&gt;Football Manager Handheld for iPhone/iPod
-2011&lt;/a&gt;，简称
-FMHi2011&lt;/p&gt;
-
-&lt;p&gt;虽然价格比一般的小游戏高多了，但作为足球迷、足球经营游戏爱好者，FMHi2011绝对值得拥有：&lt;br /&gt;
-它不需要格斗、音乐打击类游戏的手感；&lt;br /&gt;
-它简化了数据、界面、事件、画面和规则，不需要像巨无霸似的桌面电脑版本那样顾虑太多，战术设置选项又比
-FMHi2010的多一些，可玩性、平衡性保持得不错（甚至对从 Championship
-Manager 系列开始玩起的老玩家来说很亲切）；&lt;br /&gt;
-它的内容丰富、变化多端、自由度高，可以让你长时间沉迷；&lt;br /&gt;
-它不需要你时刻紧盯屏幕、绷紧神经，没有错过最佳操作时机的忧虑，不需要你有敏捷的反应和灵活的手指；&lt;br /&gt;
-它相对其他大作来说省电多了，体积也不超过80MB。&lt;/p&gt;
-
-&lt;p&gt;所以现在一从老婆那里拿回 iPod 我就抓紧时间玩一会儿 FMHi2011……&lt;/p&gt;
-
-&lt;p&gt;至于缺点么：&lt;br /&gt;
-价格不低，\$9.99 USD/£6.99 GBP；&lt;br /&gt;
-没有中文，不过界面常用单词中也并没有特别难的。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPC 的生活</title>
+      <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
+      <description>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说： 晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后</description>
+      <content:encoded><![CDATA[<p>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：<br>
+晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的<br>
+突然就看哭了<br>
+我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋<br>
+有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应</p>
+<p>我想到了2017年曾经提过一嘴：</p>
+<blockquote>
+<p>网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？</p>
+</blockquote>
+<p>看到这个新闻，感觉设想终于有人实现了。<br>
+但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。<br>
+以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。</p>
+<p>也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。<br>
+这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>虚拟世界中的心灵抚慰</title>
+      <link>https://ioerr.github.io/posts/xuni-shijie-zhong-de-xinling-fuwei/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xuni-shijie-zhong-de-xinling-fuwei/</guid>
+      <description>带动作元素的游戏都在给玩家一种“控制”的快感，一方面优化虚拟人物的响应速度，另一方面通过触感、画面、声音给予及时的反馈——比如任天堂基于按键</description>
+      <content:encoded><![CDATA[<p>带动作元素的游戏都在给玩家一种“控制”的快感，一方面优化虚拟人物的响应速度，另一方面通过触感、画面、声音给予及时的反馈——比如任天堂基于按键的交互设计、卡普空擅长的“打击感”。如臂使指、得心应手、挥洒自如…不少成语都是形容这种感觉的。</p>
+<p>RTS 用鼠标框选、点击，指挥部队行动，满足的是“指挥”的快感，演化到微操，再到控制单个人物的行动，RPG 游戏从对话、选择、加点，演化到多少要带一点动作再到以动作为卖点，还是回归到了动作游戏“控制”快感的轨道上来。</p>
+<p>譬如足球游戏，EA 的 FIFA 系列长时间在画面和数据上领先，但在 WE/PES 系列自己没有崩坏之前，资深玩家鄙视 FIFA 是滑冰游戏，其中既有对技战术理解不同导致的差异，也有操控手感的原因。</p>
+<p>现代社会通过分工拉长了生产流程，仅仅负责一个生产环节的人，对自己的工作与最终的结果和意义之间有什么关联，知之不多，进而有一种虚无感。有的人选择做手工、参与体育运动来对抗虚无，而带动作元素的游戏每一次按键都会有即时交互反馈，这本身就在满足原始层面的心理需求，是虚拟世界中的心灵抚慰。</p>
+<p>2023-08-15 更新：</p>
+<p>但动作游戏中的心理需求满足是暂时的，无法积累和永存，于是很多游戏和平台开始有了游戏成就的概念，进一步满足心理需求，包括社交分享的需求。<br>
+但这仍然是虚拟世界中的满足，而且是别人设计好的成就，与自己探索发现和建立的意义不一样，因此也只有一部分人会满足于此。<br>
+有的人爱好网上挑刺抬杠辱骂，被说是找存在感。因为生活中缺少有成就和有意义的活动，于是只能换个地方寻求即时的反馈。也因此有人说不要回应喷子，这种反馈只会增强他们的参与感。</p>
+<p>我的建议是找到一种爱好，设置个人项目目标，尝试去创造，尽管卡钦斯基认为这只是权力过程被打断的替代活动。<br>
+如果觉得自己水平永远比不上别人，不由自主产生焦虑，就再换个少有人的领域，前提是真的爱好而不是仅仅为了逃避。</p>
+<p>德鲁克认为，现代工业生产的分工让单个环节上的生产者看不到自己工作的意义，也带来管理上的冲突，最基础的应对方法是让工人参与管理决策和了解整体流程，让工人具有管理者的态度和责任感。同理，技术人员未必要转职管理岗，但具有管理者的视角和思维，也能消除部分焦虑。</p>
+<blockquote>
+<p>工业社会和信息社会中，许多工作都需要合作完成，每个人只能负责一小部分，很容易产生“我的所作所为无足轻重”、“什么也掌控不了”的虚无感。一种替代方案是，寻找一件可以自己独立完成，或不需要太多人参与完成的小事业、小爱好，获得一点点的努力带来一点点回报的现实感。<br>
+炸弹客卡钦斯基称其为替代性活动，并认为无法解决大部分人在主职工作中权力过程被打断，而导致的现代社会心理问题。<br>
+德鲁克则认为，从整体及产品的角度看待自己的工作，具有管理者的态度和责任感，才能从根本解决问题，但这不能基于将人看作是没有生命的生产机器的流水线作业机制实现。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>NPC 的未来</title>
+      <link>https://ioerr.github.io/posts/npc-de-weilai/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/npc-de-weilai/</guid>
+      <description>云中月： ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/MoonAtCloud/status/1646302873767264256">云中月</a>：</p>
+<p>ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采集、战斗、开拓、结盟、欺骗、交易、经营，直到完成自己在游戏中的目标。游戏里的NPC（机器管理的配角）是无足轻重的，最多完成指路，提示，交谈这类边缘任务。</p>
+<p><a href="https://arxiv.org/pdf/2304.03442.pdf">这篇论文</a>开拓了模拟类游戏的一个观念。游戏里的NPC（非人类角色）在ChatGPT的武装之下，不再依赖于外部人类角色而独自生存，他们互相对话，互相沟通。人类仅是一个看客，最多作为一个吟游诗人进入他们的生活，想办法用自然语言、通过对话籁影响和干预它们的游戏宇宙的进化。</p>
+<p>原来的模拟游戏、策略游戏、角色扮演游戏都会在新的模式下有新的变种。不再是人类玩家作为角色进入游戏完成自己的目标，而是作为高维角色通过语言干预社会的发展，文明的进步。游戏内部在发展文明，我们作为《苏秦张仪》，《马可波罗》，《老子》，《智子》或者《歌者》去干预或加速游戏中文明的发展。</p>
+<p>总之，这种生成式游戏代理的概念，让游戏里面的NPC以一种我们人类可以理解的方式独立存活，互相交往，协同发展。他们的文明进步不依赖于玩家，玩家升级成为一个干预文明的角色。最后游戏玩家比的不是自己的角色成就，而是自己的宇宙总体文明成就。</p>
+<p><a href="https://twitter.com/calon/status/1646308872049795073">Calon</a>：</p>
+<p>观察和轻度干预式的游戏机制更适合模拟经营类游戏的玩家，角色扮演类的玩家需要更像真人的 NPC，更需要精心设计的关卡和剧情，自然演化出来的互动关系也许和现实一样平淡乏味，新鲜劲过去了就会追求更加激烈的形式。</p>
+<p>曾经想象未来的游戏可以是玩家参与设计地图、关卡、人物和剧情，可以在线扩充，形成一个无限的世界。<br>
+地图已经有很多游戏 MOD 实现了，关卡在马里奥制造这类游戏中也实现了，人物和剧情对玩家的要求有点高，更多停留在换皮上，看来 AI 有望都做到。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Mortal Kombat</title>
+      <link>https://ioerr.github.io/posts/mortal-kombat/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/mortal-kombat/</guid>
+      <description>1992年10月8日，Mortal Kombat 一代发布，画面粗糙，动作生硬，人设可笑，服饰简陋（健身房风格，据说还真是有从健身房拉人过来录制的），场面</description>
+      <content:encoded><![CDATA[<p>1992年10月8日，Mortal Kombat 一代发布，画面粗糙，动作生硬，人设可笑，服饰简陋（健身房风格，据说还真是有从健身房拉人过来录制的），场面血腥（为此没少吃官司）。没想到这个系列不但活了30年，还在日式格斗游戏之外自成一派，玩家群体越来越壮大，电影和动画先后出了好几部。</p>
+<p>喜欢日式格斗游戏的估计都看不上真人快打的水平，不过在格斗之外，各种残忍技、终结技、客串角色、角色互动、皮肤等等还是挺受粉丝欢迎的，毕竟硬核格斗玩家的群体也就那么大。</p>
+<p>还有就是一开始胡逼乱造的故事线简直就是各种对东方文化的臆想和刻板印象的融合怪胎，编来编去编不下去了还多次重启故事线。粉丝也无所谓， 知道是瞎逼逼跟着图个乐子也挺好玩。编到现在反而有一种狗血 B 级片的独特风格，也算是一大特色卖点了。</p>
+<p>游戏满足了部分人血腥暴力虐待的原始变态欲望，反政治正确的快感。游戏人物遭遇肢解、爆炸、溶解、剥皮、火烧、腐蚀、碾压、穿刺、腰斩等等各种死法，下一秒重开一局又活蹦乱跳地站起来继续打。在电子游戏时代之前的人们看到了会觉得匪夷所思，恶心呕吐，现在则成了最大的特色和卖点。<br>
+这类内容该叫猎奇？查了一下，猎奇的词是 Grotesque，缩写为 guro 就专门指血腥残杀，但广义的猎奇包括了 torture、ryona、SM、vore、piercing、insect/worm、parasite、inflation/expansion/modification、bondage、mind break、amputee、tentacles、scat、cannibal 等等，每类都会让正常人坐立难安。</p>
+<p>同样的癖好，在现实中、视觉、气味和文字描述中，容忍度可以完全不同。比如 Mortal Kombat 中的 Mileena 是人气角色，但在现实中，估计没一个粉丝敢和她交往。<br>
+还有玩游戏看电影的时候满屏的血浆可能让人兴奋，真到了现实中人早就萎了。<br>
+不过有的人的毛病是现实和幻想分不清，把猎奇中反人类部分的癖好带到现实中，离犯罪就只有一步之遥了。</p>
+<p>Mortal Kombat 的电影《魔宫帝国》算是游戏改编电影中的翘楚了，里面有 Christophe Lambert 出演，他还演过80年代火过一阵的《挑战者/Highlander》系列电影。</p>
+<p>国内在90年代引进过《Highlander 2》，如果没记错的话，里面有一幕是在加速飞驰的地铁里面格斗，乘客都横着飞起来了，导演的物理学成绩应该不怎么样吧。<br>
+还有就是屏幕全透明而文字是亮橙色的电脑，看着很酷，但真要我用可能会瞎眼。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>游戏中的道德</title>
+      <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
+      <description>夹喵又： The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/recatm/status/1497272702259847171">夹喵又：</a></p>
+<p>The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。<br>
+你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。</p>
+<p><a href="https://twitter.com/Soulogic/status/1497416426617212928">Soulogic</a>：</p>
+<p>看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了<br>
+可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘</p>
+<p><a href="https://twitter.com/calon/status/1497469705371598849">Calon</a>：</p>
+<p>所以游戏并没有设置越界就失败。<br>
+人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。<br>
+所以法律要基于经验形成的常识常理对抗这种极端混乱。<br>
+常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。<br>
+哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Rats!</title>
+      <link>https://ioerr.github.io/posts/rats/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/rats/</guid>
+      <description>忽然想到以前玩过一个 Windows 下的小游戏，在 Flying Juicer 的提醒下，通过名字找到了作品和作者 Sean O&amp;rsquo;Connor 的网站。 游戏的名字叫 Rats!，玩法很简单： 地图上有到处乱窜的</description>
+      <content:encoded><![CDATA[<p>忽然想到以前玩过一个 Windows 下的小游戏，在 <a href="https://twitter.com/FlyingJuicer">Flying Juicer</a> 的<a href="https://twitter.com/FlyingJuicer/status/1172145280738717696">提醒</a>下，通过名字找到了<a href="http://www.windowsgames.co.uk/rats.html">作品和作者 Sean O&rsquo;Connor 的网站</a>。</p>
+<p><img loading="lazy" src="/images/rats.png" alt="Rats!"  />
+</p>
+<p>游戏的名字叫 Rats!，玩法很简单：<br>
+地图上有到处乱窜的老鼠，公老鼠和母老鼠相遇后会交配生下更多老鼠。<br>
+玩家可以在地图上放置多种工具，如定时炸弹炸弹、毒药、毒烟、路障、机器老鼠和剥夺生殖能力的放射源，用于控制老鼠的数量。<br>
+需要在保证老鼠的总数不超过上限的前提下，尽量多得分。<br>
+第一个地图免费，后面的需要付费解锁。</p>
+<p>这个游戏如果一上来杀死所有老鼠，很容易但很无趣。<br>
+最有意思的地方在于老鼠呈几何级数繁殖时，能够及时控制住鼠口上限。<br>
+满屏幕都是交配和下崽儿的老鼠，配合销魂的呻吟和啵啵啵的下崽儿声音，堪称作死边缘的乐趣。</p>
+<p>Rat! 最早在94年就发布了，现在还能够找到和玩到原版，有种考古发现宝藏的惊喜。</p>
+<p>从 <a href="mailto:sean@windowsgames.co.uk">Sean O&rsquo;Connor</a> 的<a href="http://www.windowsgames.co.uk/index.html">作品集</a>发现，以前在手机上玩过的 <a href="http://www.windowsgames.co.uk/slay.html">Slay</a> 也是他的作品。</p>
+<p>另外，他还写了 <a href="http://www.windowsgames.co.uk/ff.html">Firefight</a>，看上去有点像 Close Combat 的风格，带有地图编辑器。</p>
+<p>有推友搭车求问其他的游戏，于是找到了曾经风靡一时的《<a href="https://crimsonland.com/">血腥大地/Crimsonland</a>》——一款顶视图风格的射击游戏，在汹涌如潮的丧尸和怪物包围下不断开火和升级。</p>
+<p>才知道它已经出了重制版，在多个游戏平台发布。只是看游戏评论，不少老玩家觉得重制版不如原版好玩。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Football Chairman</title>
+      <link>https://ioerr.github.io/posts/football-chairman/</link>
+      <pubDate>Tue, 18 Aug 2015 13:26:03 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/football-chairman/</guid>
+      <description>从 Championship Manager 时代就很喜欢 Sports Interactive 的 Football Manager（FM，足球经理）系列，移动终端版 FM Handheld 也玩过很久时间，但不满意的地方还是很多。 对照移动设备触屏游戏六</description>
+      <content:encoded><![CDATA[<p>从 Championship Manager 时代就很喜欢 Sports Interactive 的 Football Manager（FM，足球经理）系列，移动终端版 FM Handheld 也玩过很久时间，但不满意的地方还是很多。<br>
+对照<a href="http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/">移动设备触屏游戏六戒</a>来看的话，第二点的按钮太小，容易误操作，第三点的必须横屏操作，第三点的信息量太大，不容易重新关注，都是 FMH 有的问题。</p>
+<p>另一款颇受欢迎的养成类型足球游戏 New Star Soccer（NSS，新星足球）<br>
+专注于球员个人的成长和人际交往，多了一点人情味，还有手动控制传球、射门、带球过人的动作成分，操作起来倒是有爽感，可在移动场景下，又有第四点需要实时关注的问题，而且移动中手动控制的误操作率会大幅上升，容易积累挫败感。<br>
+另外，由于装备、消费品的内购机制，昂贵的球鞋、营养剂等物品对技术、体力的影响很大，特别是在我看来比较奇葩的时髦值设定，有种让玩家操心赚钱、炫富、把妹/吊龟多过安心踢球的感觉，总之玩久了总觉得不太对味。</p>
+<p>有没有类似于 FMH 这样的游戏，但简化不必要的信息和指令，节奏像 NSS 一样快，又适合移动端操作呢？<br>
+比如说只关注球员转会和俱乐部人事，具体事务交给 AI 完成。</p>
+<p>然后就发现了 <a href="http://www.football-chairman.com/">Football Chairman（足球主席）</a>这款游戏。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/mockups/iphone-screen.png" alt="Football Chairman"  />
+</p>
+<p>在这款游戏中，玩家扮演的是足球俱乐部主席角色，负责的工作主要包括：<br>
+聘请教练班子（包括主教练/经理、助教、球探等）<br>
+投资建设俱乐部基础设施（比如看台、青训营、训练设施、附加商品等）<br>
+参与球员管理和转会（设置转会预算、赢球奖励、拍板转会请求、设置转会费和工资等）</p>
+<p>然后就可以坐下来看主教练指挥的战绩如何了。</p>
+<p>俱乐部的各项赛事成绩、人事管理决策、球票等球迷利益相关因素等，都会影响球迷对主席和经理的满意度，同时还要保证俱乐部盈利。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-summary.jpg" alt="Football Chairman Summary"  />
+</p>
+<p>而排兵布阵、战术变化这些，作为主席不会直接干预，只能在聘请主教练时根据教练风格做选择。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-lineup.jpg" alt=""  />
+<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-backroom.jpg" alt=""  />
+</p>
+<p>球员转会，主席也不能越俎代庖、事必躬亲，通常由主教练提出转会申请，主席决定是否砸钱。<br>
+青训球员提拔、签订职业合同也由主席拍板。<br>
+转会、租借或续约合同尽量简化，转会费、工资、合同截止日期就是全部，不用考虑非常复杂的规则，比如共有协议、分期付款这些。<br>
+当然会损失一些真实感，转会狂人想必也少了许多乐趣，但相应也让玩家少死很多脑细胞，总的来说还是利大于弊。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-contract.jpg" alt=""  />
+</p>
+<p>球员信息不像 FM 系列那样面面俱到，不需要通过许多数值判断球员水平，只能看到总体评分、个性、心情、风格等外在特质，和出场数、进球数、身价、工资等统计数据。<br>
+不过历史数据分析狂人就没有用武之地了，像我这样打开 FM 光球员历史都可以看很久的难免失望。<br>
+好在俱乐部还比较多，覆盖英格兰七级联赛，有钱的话可以换个俱乐部当主席。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-squad.jpg" alt=""  />
+<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-player.jpg" alt=""  />
+</p>
+<p>比赛画面就是非常简单的文字说明，仿佛回到了 CM 的时代，而解说内容比 CM 还少得多，影响体验乐趣。<br>
+不过本来临场指挥是主教练的工作，主席不用瞎操心，这种简化也就合理了。<br>
+在火车上半天时间我就玩了两个赛季，要是换做 FM 真不知道要花多少时间。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-match.jpg" alt=""  />
+</p>
+<p>而成就系统比较丰富，除了俱乐部本身的建设、升级和赛事锦标，还有球迷满意度、俱乐部声望、资金盈利、球员和教练养成（可以出钱让教练深造），以及内置的任务目标、成就。</p>
+<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-chairman.jpg" alt=""  />
+<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-fans.jpg" alt=""  />
+</p>
+<p>对比<a href="http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/">移动设备触屏游戏六戒</a>中的几个基本指标来看的话，Football<br>
+Chairman 没有明显触犯任何一条（进入游戏都比龟速的 FM 快了不知道多少，这也相当影响体验）。<br>
+如果要说有什么期待改进的，就是适当增加一点复杂度和可发展内容，让玩法更加多样。</p>
+<p>游戏分<a href="http://www.football-chairman.com/#features">免费版、基础付费版和增强付费版</a>，区别主要在于界面、画面和内容丰富程度。<br>
+在 <a href="http://www.football-chairman.com/#download">Apple Appstore、Google Play 和 Amazon Kindle Appstore</a> 都有下载。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Draw Something</title>
+      <link>https://ioerr.github.io/posts/draw-something/</link>
+      <pubDate>Wed, 21 Mar 2012 04:20:56 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/draw-something/</guid>
+      <description>最近 Draw Something 这款 iOS 上的游戏很火爆，最吸引人的特色大概可以归纳为：无压力的限题自由创作和异步的交流 不需要你画得有多棒，只要好友能够认得出来或者猜得</description>
+      <content:encoded><![CDATA[<p>最近 <a href="http://itunes.apple.com/app/draw-something-by-omgpop/id488627858">Draw<br>
+Something</a><br>
+这款 iOS<br>
+上的游戏很火爆，最吸引人的特色大概可以归纳为：<strong>无压力的限题自由创作</strong>和<strong>异步的交流</strong></p>
+<p>不需要你画得有多棒，只要好友能够认得出来或者猜得出来就行，在熟人眼里，画得很差劲有时候还是个不错的笑料；<br>
+绘画的题材可以在有限范围内根据不同的难度自己选择，简单题目的金币奖励还是很好赚的；<br>
+能够同时开多个会话与不同的朋友分别玩，可以通过导入、搜索和随机找人来新开会话，不会因为某个朋友的“创作”瓶颈导致长期冷场；<br>
+没什么时间限制，三下五除二画一幅草稿，精耕细作画一幅杰作，都可以；<br>
+画得速度快，几秒钟也可以搞定，简单粗暴有效也别有一种乐趣；<br>
+即使绘画、猜单词耗时很长，对方看到的过程也是精简之后的，不用担心自己速度太慢。</p>
+<p>无压力，是对用户创作的鼓励；<br>
+限题，既不会像命题一样太死，也不会因为选择太多让用户迷失方向；<br>
+自由，是相对一些同样标榜创造的模拟、经营类游戏，后者的“创造”顶多算是“组合”已经设计好的元素，与绘画的自由度不可同日而语。<br>
+异步，也是避免实时同步交互带来的沟通压力，变相鼓励用户用心创作，也降低了观察对方行为的时间成本；<br>
+最重要的是，每个人从“创作”和“交流”中享受到的乐趣，多过破坏、消灭、杀戮的原始冲动满足。</p>
+<!-- raw HTML omitted -->
+<p>所以当我们开始设计《旅程》的时候，我们选择了和泛滥游戏相反的情感。与其让玩家之间相互厮杀斗争而没有任何情感社交，我们希望制作以一款可以让人和人之间相互理解相互支持的游戏。与其让玩家感觉力量膨胀不再需要他人，我们要让玩家感觉自己相对世界渺小和孤独，这样当他们在互联网上遇到另一个玩家时才会真正的有兴趣去和其他玩家社交。</p>
+<!-- raw HTML omitted -->
+<p>是不是有异曲同工之妙呢？</p>
+<p>最后，可以通过我的邮箱在 Draw Something 中找到我一起玩。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Dungeon Raid</title>
+      <link>https://ioerr.github.io/posts/dungeon-raid/</link>
+      <pubDate>Fri, 24 Feb 2012 09:16:25 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dungeon-raid/</guid>
+      <description>之前有提过不满大部分移动设备触屏游戏的设计，不过有基本符合要求的好游戏还是要适时称赞的。 就我目前接触过的游戏来看，Dungeon Raid 是触犯戒条</description>
+      <content:encoded><![CDATA[<p>之前<a href="http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/">有提过不满大部分移动设备触屏游戏的设计</a>，不过有基本符合要求的好游戏还是要适时称赞的。</p>
+<p>就我目前接触过的游戏来看，<a href="http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8">Dungeon<br>
+Raid</a><br>
+是触犯戒条最少的（以及 Tiny Tower、Triple Town，这里只说最先上市的<br>
+Dungeon Raid）。<br>
+这个游戏上市的时间很久了，不过其设计值得学习。</p>
+<p><img loading="lazy" src="http://a5.mzstatic.com/us/r1000/031/Purple/3e/bb/d4/mzl.ggwriucc.320x480-75.jpg" alt="Dungeon&lt;br&gt;
+Raid"  />
+</p>
+<p>1、图文识别<br>
+缺点是仍有太小的图文，比如怪物的描述文字、技能和特性的图标等等。<br>
+而且怪物的描述文字出现在图标下方，正好被手指挡住，是个败笔。<br>
+不过熟悉了各种图标之后，需要看文字的机会不多。</p>
+<p>2、指点操作<br>
+6×6的方格，一般人手指操作已是游刃有余了。<br>
+作为连线游戏，基本的连线操作错误率低，即使划到一半，跳出恼人的通知窗口，也不会导致误操作。</p>
+<p>3、单手操作<br>
+单手划线足够了，当然，也有人喜欢一手掌握机身，一手用食指划线。</p>
+<p>4、不需要时刻关心<br>
+非即时互动，偷闲玩玩毫无压力。</p>
+<p>5、信息量合适<br>
+怪物和各种道具的布局情况，血量、防御、攻击、经验、金币、技能等等指标均一目了然，基本上不需要进入统计页面查看细项，通常切换回游戏中瞟一眼就可以马上接着玩。</p>
+<p>6、成就感<br>
+有多种难度和玩法选择；<br>
+有多种怪物，包括天敌怪物；<br>
+有多种技能、种族、特性组合；<br>
+有多种升级选择和发展路径；<br>
+简而言之，容易沉迷。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>移动设备触屏游戏六戒</title>
+      <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+      <description>时常觉得 iPod/iPhone 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏： 1、图文难以识别。 本来眼神就</description>
+      <content:encoded><![CDATA[<p>时常觉得 iPod/iPhone<br>
+上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：</p>
+<p>1、图文难以识别。<br>
+本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。<br>
+比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。</p>
+<p>图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。</p>
+<p>2、指点不便，操作不灵。<br>
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld<br>
+中变更球员名单，很容易点错球员；<br>
+直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；<br>
+间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。</p>
+<p>滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的<br>
+swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；<br>
+如果游戏对操作精度很高，不建议默认采用滑动操作。</p>
+<p>至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。</p>
+<p>3、必须双手或横屏操作，无法充分解放另一只手<br>
+在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。<br>
+有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。</p>
+<p>4、需要实时关注，一刻不能分心<br>
+漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。<br>
+如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。<br>
+即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。<br>
+所以应该尽量采用回合制或短场景。<br>
+如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。</p>
+<p>5、信息量太大，不容易重新关注<br>
+有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。</p>
+<p>6、没有足够的成就感<br>
+规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。<br>
+比如 Minesweeper<br>
+这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>手机应用创意</title>
+      <link>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</link>
+      <pubDate>Tue, 26 Jul 2011 10:17:52 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shouji-yingyong-chuangyi/</guid>
+      <description>为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。 最关心的是，定位功能和手机结合起来能够有什么好玩法。 现在的 LBS 服务普遍功能单调，</description>
+      <content:encoded><![CDATA[<p>为了回答知乎上的问题而整理的精简集合，有一些是和其他人撞车的。<br>
+最关心的是，定位功能和手机结合起来能够有什么好玩法。</p>
+<p>现在的 LBS 服务普遍功能单调，实用性不够，签到的操作麻烦。<br>
+比如，签到一定要手动操作吗？<br>
+至少以前签到过的地点以后再去能不能自动签到，除非设置例外？<br>
+如果签到还要发感想，能不能定时提醒为当天的自动签到做补充，或者干脆和当时当地往其他平台发的公开消息绑定？<br>
+再者，位置信息如果有用，应该比与朋友简单互动、争取商家优惠和记录行程有更大的用处。</p>
+<p>** 联系人擂台战**</p>
+<p>从手机的联系人中导入资料，包括头像、姓名、来往的电话、短信、邮件记录等等，以这些资料为基础创造虚拟人物，转换为攻击、防御、生命力等角色属性，然后放到竞技场中打擂台，对战的结果可以直接发给联系人。</p>
+<p>对战要有一定的随机性，可以组队，画面要够吸引人。<br>
+新的擂台场景和动作可以对用户收费。</p>
+<p>聚会时可以用来玩不需要动脑筋的杀时间游戏。</p>
+<p>** 食谱安排**</p>
+<p>安排用户每日的食谱，结合当地原料价格、供货情况、用户口味偏好、营养搭配等等进行推荐，并记录用户实际吃到的食物，在此基础上调整后续的食谱建议。</p>
+<p>** 给车辆和行人投票打分**</p>
+<p>看到驾驶习惯差又不会被扣分的司机，比如乱闪远光灯、不提前打灯就突然变道、边开车边打手机堵在快车道上，就拍照投票扣分；<br>
+看到驾驶习惯好的礼让的司机，就拍照投票加分；<br>
+和 GPS 或者增强现实视觉设备结合起来一看，周围有哪些马路杀手一目了然。<br>
+保险公司什么的也可以根据这样的数据调整保险费。</p>
+<p>要有不影响正常驾驶的拍照投票手段。</p>
+<p>扩展一下，也可以给看得顺眼和不顺眼的路人打分。</p>
+<p>** 通用优惠券应用**</p>
+<p>每个商家都打印优惠券很浪费资源，消费者拿着各式各样优惠券不方便总是带着又容易忘记有效期，这种事情就应该交给手机应用来做。<br>
+虽然现在已经有公司在做餐饮等行业的优惠券联盟，但还要重新申请专用卡。</p>
+<p>** 自动切换手机的情景模式**</p>
+<p>侦测到坐在车辆驾驶位置，就自动切换为驾驶模式，来电一律答复正在开车，进入自动应答留言状态，避免影响驾驶人正常行车；<br>
+侦测到进入电影院，就自动切换为会议模式静音。</p>
+<p>** 手机自救**</p>
+<p>手机发现自己以超过xG的加速度飞出去，或者正在进水，或者超过设定的时间没有人使用，就定期发送消息报告自己的方位，直到电量耗尽或者损坏。</p>
+<p>** 卡通风格拍照**</p>
+<p>将手机拍摄的照片转换为卡通风格，尤其重要的是，要自动用夸张的手法突出人物外貌的主要特征。</p>
+<p>** 手机使用情况数据统计分析**</p>
+<p>计算出你在这台手机上的所有活动花费，列出一个清单，包括：<br>
+购买应用的总费用；<br>
+通话、上网、游戏、听音乐的时长；<br>
+收发的短信、邮件数量；<br>
+携带手机活动的路程。</p>
+<p>还可以深入分析，比如：<br>
+各类活动时间所占的比重，你是不是大部分时间都在玩游戏；<br>
+与家人和同事联系的时长、次数的比值，还有待在家里、待在办公室和在外游荡的时间比值，你是不是越来越冷落了家庭；<br>
+哪些应用你花费不菲却很少使用。</p>
+<p>** 短信群发模拟即时通讯群聊**</p>
+<p>在没有网络或者各人没有统一的即时通讯工具时，方便的通过短信群聊。</p>
+<p>在短信界面添加多个联系人成为发送对象，选择群聊模式，就转变为即时通讯式的群组会话模式，背后的交互采用短信网状群发模式。</p>
+<p>不应要求所有参与的用户必须注册服务才能加入群聊（目前的短信群聊服务这一点做得不好），只要发起人有注册和安装应用就行。<br>
+如果对方手机没有安装专门的应用，由服务方在初始的短信内容中给出群组专用的临时号码，发短信到这个号码就可以加入进来。但是体验不如专用应用。</p>
+<p>** 结合定位功能的电器自动开关**</p>
+<p>在家中时刻打开手机定位功能并随身带着，走到哪里就通知房间中的电灯自动打开，离开时通知电视、空调、电灯等等电器自动关闭。</p>
+<p>如果手机、遥控器和家用电器有专用通知接口，当然不用如此实现，但智能手机移动定位功能足够普及，不利用一下挺可惜。<br>
+配合无线充电技术，电力不是问题。<br>
+到朋友家里做客、去公司上班，在智能电器管理系统中认证一下就能取得权限。</p>
+<p>** 召唤出租车**</p>
+<p>出租车公司开放营业中的出租车实时位置信息。<br>
+用户在手机地图上看到附近有哪些空车，查看车辆、司机信息后，点击目标车辆，告知自己的具体方位，司机确认能够赶到，用户就只需等待；<br>
+或者用户将起止地点的方位发布到出租车信息平台，由应用程序给司机的反馈（车型和车牌号、赶过来的时间、价格、历史评价等）智能排序，由用户选择最中意的一辆车成交。</p>
+<p>比打电话召车更加直观，也适合多家出租车公司共同竞争使用。</p>
+<p>** 唇语输入**</p>
+<p>优点：<br>
+与双手输入相比，速度更快，不需要提供外置键盘或全键盘配置，不会占用过多的屏幕空间；<br>
+与单手输入相比，速度更快，有利拇指健康；<br>
+与拼音、五笔等编码输入相比，学习曲线低，不懂编码规则也能输入；<br>
+与语音输入相比，不会影响周围其他人，不需要担心泄露隐私。</p>
+<p>缺点：<br>
+需要有前置摄像头；<br>
+汉字设别成功率肯定不如带语调的语音输入；<br>
+识别技术有待发展。</p>
+<p>** 翻译和精简语言**</p>
+<p>把专业语言翻译成普通人能懂的话，比如说挑出文章中的一些IT语言，告诉你这些话对方很可能听不懂，建议换一种表达方式。<br>
+背后有语料库支持，收集普通人不明白的语料资料。</p>
+<p>或者把故弄玄虚的句子精简成普通人也能看穿的形式，比如说某些后现代主义大师的句子，精简以后一句话就可以概括，扯谈！</p>
+<p>如此可以拯救万千人被谋杀的生命。<br>
+不过隐晦的示爱短信就不要用这个来考验了……</p>
+<p>不过以上创意加起来也没有<a href="http://www.zhihu.com/question/19591517#285324">另一个答案</a>有亮点啊，我的头脑果然生锈了。</p>
+<p>** 动车追尾告警系统民间版**</p>
+<p>与时俱进一把。<br>
+上了动车之后定时上报当前位置和自动识别的车次信息给服务端，由服务端判别是否有追尾危险。<br>
+如果时间充足，可以集体找司乘人员紧急停车（不建议冒失的拉紧急停车闸），如果时间不足，应用将提供精美的笔记和方便的录音摄像功能，请抓紧时间留下遗言……</p>
+<p>假如发生了奇迹，你还可以通过上面提到的手机自救功能，结合发光、发声功能，通知救援人员你还活着。</p>
+<p>** 到此一游/虚拟地标**</p>
+<p>不要再在名胜古迹自然风景地写到此一游类的文字污染环境了，用虚拟签名吧，挥舞手机写下到此一游四个字，今后和朋友重游故地的时候能够调出来给他们看到。<br>
+即使过去的建筑物都被推倒了，你从前留下来的签名也会一直保存的。</p>
+<p>** 期望成真通知服务**</p>
+<p>写下你对未来的期望，如果真的成了，就会第一时间通知你。<br>
+不用担心你最关心的事情淹没在海量的新闻中，优先关注你最期待的事情会不会发生。<br>
+Google的搜索结果实时通知不靠谱，因为它不能准确了解你期待的是什么。</p>
+<p>** 生词本**</p>
+<p>拍照取词+统计生词出现频率，只有那些较常见的生词才进入生词练习本，不要把90%的精力浪费在出现频率不到10%的单词身上。</p>
+<p>** 彩弹枪游戏**</p>
+<p>通过摄像头+识别系统+定位功能+通讯系统，可以把手机当成电子彩弹枪用。<br>
+在屏幕指定范围内拍下了对方的影像，就算是命中了，然后通知对方手机告知其已被击中。<br>
+定位功能用于和队友配合。</p>
+<p>** 家电远程交互控制和软件故障自动排障**</p>
+<p>这个感觉要求很高，目前民用硬件方面应该还不具备条件。</p>
+<p>现在要远程控制电脑，要求双方都必须接入网内。有时候要排除的故障可能就是无法上网，那就没辙了。<br>
+而这个应用是将手机接上电脑的输入输出接口（分流键盘和显示器接口）后，将输出数据流通过手机网络通道传输给控制端的手机，或接受其控制输入指令给被控制端电脑。（好吧，其实可以让电脑共用手机拨号上网线路）</p>
+<p>例如，被控制端电脑显示蓝屏，插在显示器端口的手机A将蓝屏内容发送给手机B，手机B转译后输入到远端控制电脑，显示在显示屏上。<br>
+远程维护人员向远端控制电脑输入控制指令，手机B发送镜像指令给手机A，手机A再从键盘接口输入。</p>
+<p>如果考虑周全的话，常见排障流程都可以固化到应用中，用户要做的就是接上电脑指定接口（甚至可以有专用接口，更加简化用户操作），应用自动监控、分析和输入指令排障。</p>
+<p>再扩展的话，今后智能化的家电都可以用这种方法排除常见软件故障，要做的就是先用手机上网下载家电相应型号的最新排障应用，然后插上标准的排障接口。</p>
+<p>** 物品管理**</p>
+<p>拍过一次照后，下次再拍就能自动识别是什么物品；<br>
+拍照后根据其位置自动更新该物品的位置信息；<br>
+下次要找什么东西，调出照片或者输入名字，这个应用就会告诉你最后一次你是在什么地方看见它的。<br>
+健忘的人不用担心重要物品找不到了。</p>
+<p>等物联网成熟了，这应用的死期也就到了。</p>
+<p>** 万能句子**</p>
+<p>当你陷入不知道怎么接话的尴尬境地时，打开这个应用，它就会随机抛出一个万能句子，比如“你先把裤子穿上再说吧”、“今天天气不错嘛”、“这是一个奇迹”，完美的接上话头，轻松打破尴尬的气氛。</p>
+<p>** 正品商标识别**</p>
+<p>现在的山寨品牌标志直接照抄知名品牌的不多，多是做些小小的改动打擦边球，似是而非，达到混淆不明真相群众的目的，比如奥利粤饼干、雲碧饮料、周住牌洗衣粉、SAMSUNG<br>
+Amycall手机、康帅傅方便面。<br>
+用这个应用拍下商标，就可以自动分析是否正品。<br>
+如果所有产品使用统一的二维码或条码校验，也可以结合二维码和条码验证，准确率更高。这样山寨品牌要造假，标志必须做得完全一样，二维码或条码也必须与正牌完全一样，就很难打擦边球了。</p>
+<p>扩展一下的话，识别出正确的商品标志后，还可以自动推介相关品牌商品，未必不可以从中盈利。</p>
+<p>遇到不认识的国际品牌，也可以凭此应用避免土鳖的尴尬。</p>
+<p>** 稍后回拨提醒**</p>
+<p>你是不是经常在手忙脚乱的时候在电话中对对方说：“稍等一下，等一会儿我再回你的电话。”然后去处理更紧急的事情，结果再也没有想起这回事？<br>
+这个应用可以通过语音分析功能监控你有没有做出稍后回拨的承诺，自动增加短期提醒，并记录对方的号码、通话时间，如果可能的话，还能记录承诺过多久要回拨。</p>
+<p>** 多用户隐私保护功能**</p>
+<p>是不是很不喜欢其他人玩你的手机？即使你设置了密码，在对方强烈要求下，也不好意思不告诉对方？<br>
+有时候需要借手机给陌生人临时打个电话，你还提心吊胆。</p>
+<p>你需要多用户隐私保护功能。<br>
+默认用户不需要密码，或者只用某个简单的密码，能够打开的应用也不多。<br>
+而你自己用另一个用户登录，入口比较隐蔽。<br>
+而且只要不是用你的用户身份登录，电话录音什么的都自动保存记录……</p>
+<p>** 打水漂记录器**</p>
+<p>第一次看到有人拿3C产品打水漂，我就被震撼到了！不为这种高端用户量身定制专业应用简直就是产品经理的犯罪啊——如果你不是土豪又想参加打水漂活动，请买防水手机并自带鱼线。<br>
+这款应用利用重力感应功能记录水漂次数，如果技术成熟，还能记录水漂的弧线，自动上传到网上参加竞赛。</p>
+<p>** 倒车指挥**</p>
+<p>可以将手机卡在后视镜上、可以分析拍下来的停车位和汽车相对位置，或者接入汽车电子系统，结合车尾摄像头、倒车雷达等，指挥倒车。<br>
+其实能够接管汽车自动驾驶是最好的，但那更多的应该是汽车电子系统自己应该做的事情。<br>
+拯救那些怎么也不擅长倒车的人。</p>
+<p>** 临时借用屏幕**</p>
+<p>手机只有一个小小的屏幕经常不够用？找不到合适的双屏手机？<br>
+使用这个应用，可以与同样安装了该应用的另一支手机建立连接，借用其屏幕作为第二块显示屏。<br>
+数据处理、存储、交互、网络通道都在第一支手机上。<br>
+好处是，有实体键盘的手机可以和大屏幕手机强强合作，用手机看文档比对资料不用烦恼频繁跳转，应用之间复制粘贴不需要来回切换，等等等等。</p>
+<p>** 报刊文章扫描、阅读、订阅**</p>
+<p>我们有 OCR 应用；<br>
+有 Instapaper 和 Read It Later，有 Evernote；<br>
+也有各种报纸杂志的电子版。<br>
+但是当你看到实体的报纸杂志上的好文章，想要保存起来稍后阅读的时候，却发现没有让人省心的手段。</p>
+<p>直接拍照存下来，阅读的时候不会自动分段和矫正形变；<br>
+如果文章比较长，排版不规则，拍照、截图也是麻烦事；<br>
+图片识别成文字，识别率不高，配图和表格什么的还需要自己重新插入排版；<br>
+翻过了一遍实体报刊，为什么还要再花时间去翻附加很多我不想看的内容的电子版？</p>
+<p>要么，有应用能够对拍下来的文章智能识别和排版：<br>
+拍照或者视频扫描一遍，经过应用整理好的内容就可以阅读了。</p>
+<p>要么，有应用能够实现快速购买杂志短文，每个短文附一个二维码之类的标识：<br>
+扫一下，内容方验证你是杂志订阅者后，提供的文章就发进了手机。</p>
+<p>** 钥匙管理**</p>
+<p>在钥匙被电子门禁类产品完全取代之前，想不起某片钥匙是开哪把锁的问题仍会困扰人类。<br>
+在钥匙上贴标签吧，又怕旁人知道，不太安全。<br>
+这个应用可以拍照、扫描钥匙的齿形，记录匹配的锁的信息，今后，当你偶然翻出一把很久都没用过的钥匙，又想不起来是用在哪里的时候，用摄像头照一下，答案就出现了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>FMHi2011</title>
+      <link>https://ioerr.github.io/posts/fmhi2011/</link>
+      <pubDate>Tue, 25 Jan 2011 04:41:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fmhi2011/</guid>
+      <description>自从入手 Kindle 3之后，iPod Touch 就移交给老婆了（或者应该说，因为老婆想玩 iPod 游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。 用了1年的 iPod To</description>
+      <content:encoded><![CDATA[<p>自从入手 Kindle 3之后，iPod Touch<br>
+就移交给老婆了（或者应该说，因为老婆想玩 iPod<br>
+游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。</p>
+<p>用了1年的 iPod Touch，主要感想如下：<br>
+1、听音乐不愧是 iPod<br>
+的老本行，如果你有购买正版音乐的习惯，又有苹果的电脑（因为 iTunes<br>
+实在太让人抓狂了），用来购买、管理、欣赏音乐很合适。<br>
+2、使用最多的应用是看书的 Stanza，有了 Kindle<br>
+之后基本上可以把它忘了。Instapaper 能够发到 Kindle 邮箱后也不需要在 iPod<br>
+上看 Instapaper 存档了。<br>
+3、其次就是浏览网页和上 Google Talk（通过免费版的 IM+）。<br>
+但屏幕太小看网页还是不舒服，后台挂 GT<br>
+时它的弹出消息机制又很烦人，总的来说还是多任务机制的大平板才能用得尽兴。<br>
+当好人修电脑的时候曾经靠 iPod<br>
+连无线网络查资料和改路由器设置，免去了用笔记本的麻烦。<br>
+4、其他的用途还有做笔记、记账。<br>
+但 iPod<br>
+的中文输入法不够好用，如果不是在电脑键盘上输入我都觉得会影响记录的时效性。<br>
+而且在不支持多任务的时候，在主任务和笔记本应用的任务之间来回切换很是伤害心灵，还会有时空错乱的幻觉，这个时候我会想要可以分屏操作的设备……<br>
+何况现在还随身携带小巧的纸质笔记本，打开 Evernote 的机会也就更少了。<br>
+5、都说 iPod<br>
+主要是娱乐游戏机，可是没有多少游戏能够让我长时间投入，手感、可玩性、可持续性、耗电等等都是不小的问题。</p>
+<p>几个桌面游戏和 Rogue/Nethack 类游戏的 iPod 版勉强还行（如果是 iPad<br>
+可能就好多了），什么移植大作、3D<br>
+大作，真不对我的胃口。（也许是因为硬件配合方面没有和所谓大作的期望水准保持一致，也许是对大作越来越挑剔？）</p>
+<p>而以怒鸟为代表的这类海量小游戏，还不够分量让我沉迷。管你降价还是免费，一天不到就索然无味有什么用？（可能我是审美疲劳了，比如在<br>
+PC 上早就玩过怒鸟类型的 Flash 游戏了）</p>
+<p>说了这么多 iPod 游戏的坏话打倒一片，主要目的是为了突出我强烈推荐的游戏：</p>
+<p>Sports Interactive 的 <a href="http://www.footballmanager.com/games?&amp;game_version=ios">Football Manager Handheld for iPhone/iPod<br>
+2011</a>，简称<br>
+FMHi2011</p>
+<p>虽然价格比一般的小游戏高多了，但作为足球迷、足球经营游戏爱好者，FMHi2011绝对值得拥有：<br>
+它不需要格斗、音乐打击类游戏的手感；<br>
+它简化了数据、界面、事件、画面和规则，不需要像巨无霸似的桌面电脑版本那样顾虑太多，战术设置选项又比<br>
+FMHi2010的多一些，可玩性、平衡性保持得不错（甚至对从 Championship<br>
+Manager 系列开始玩起的老玩家来说很亲切）；<br>
+它的内容丰富、变化多端、自由度高，可以让你长时间沉迷；<br>
+它不需要你时刻紧盯屏幕、绷紧神经，没有错过最佳操作时机的忧虑，不需要你有敏捷的反应和灵活的手指；<br>
+它相对其他大作来说省电多了，体积也不超过80MB。</p>
+<p>所以现在一从老婆那里拿回 iPod 我就抓紧时间玩一会儿 FMHi2011……</p>
+<p>至于缺点么：<br>
+价格不低，$9.99 USD/£6.99 GBP；<br>
+没有中文，不过界面常用单词中也并没有特别难的。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,93 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>自信 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%87%AA%E4%BF%A1/</link>
     <description>Recent content in 自信 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自信和勇敢的原动力</title>
-        <link>https://ioerr.github.io/posts/zixin-he-yonggan-de-yuandongli/</link>
-        <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zixin-he-yonggan-de-yuandongli/</guid>
-        <description>&lt;p&gt;看到&lt;a href=&#34;https://twitter.com/edward40e/status/1693607772821303502&#34;&gt;有人问&lt;/a&gt;，对于缺乏自信和勇气、恐惧未来的人有什么建议。&lt;/p&gt;
-
-&lt;p&gt;我觉得缺乏的原因在于对目标方向和价值的怀疑。&lt;br /&gt;
-我的成就真有价值吗？正在做的有意义吗？努力的方向坚持下去值得吗？是否应该继续？&lt;br /&gt;
-最后从彷徨变成犹豫，从犹豫变成怀疑，从怀疑变成自我否定。&lt;/p&gt;
-
-&lt;p&gt;而找到自己真正想要什么的人能够乐在其中，即使困难再多阻力再大也不会有动摇，这是自信和勇敢的原动力。&lt;/p&gt;
-
-&lt;p&gt;对未来的恐惧来自于不知道自己的能力能否应对未知的挑战。&lt;br /&gt;
-找准目标的人，首先会对标目标思考自己的能力有哪些需要提升的地方，该如何提升，也就是将未知的恐惧化为可知的一步步实际行动，未知的因素再多，只专注于自己看重的目标，就能少很多焦虑，加上分解、行动、评估的循环，每一步都脚踏实地，会给人带来安心。&lt;/p&gt;
-
-&lt;p&gt;如果仍然不能缓解焦虑，除开个人的原因，那就是社交的因素了。&lt;br /&gt;
-有的人需要融入到更大的集体圈子中才能通过包容、关怀和鼓励在建立自信和勇气，那么需要学会找到和加入适合自己的圈子。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>无知的人最自信</title>
-        <link>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</link>
-        <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</guid>
-        <description>&lt;p&gt;判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。&lt;br /&gt;
-但怎么算是逻辑矛盾，不是那么容易看出来的。&lt;/p&gt;
-
-&lt;p&gt;光的波粒二象性曾经让物理学家抓狂。&lt;br /&gt;
-光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。&lt;/p&gt;
-
-&lt;p&gt;最终只有认知突破之后，才认识到不是那么简单。&lt;br /&gt;
-拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。&lt;/p&gt;
-
-&lt;p&gt;在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。&lt;br /&gt;
-但回头给认知范围还没有拓展的人听，他仍然不会理解。&lt;/p&gt;
-
-&lt;p&gt;越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>怎样最自信</title>
-        <link>https://ioerr.github.io/posts/zenyang-zui-zixin/</link>
-        <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zenyang-zui-zixin/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/HuXijin_GT/status/1577343729815662592&#34;&gt;胡锡进&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;Elon Musk has released his personality too much, and he believes too much in the US and West’s “freedom of speech.” He will be taught a lesson.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/elonmusk/status/1578049022102851584&#34;&gt;Elon Musk&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;手整体插在口袋里的人过分自信。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1578193487966613504&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;头整体插在口袋里的人才最自信。&lt;br /&gt;
-手插在别人口袋里的人更加自信。&lt;br /&gt;
-手插入别人脑袋里面的人最自信。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自信和勇敢的原动力</title>
+      <link>https://ioerr.github.io/posts/zixin-he-yonggan-de-yuandongli/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zixin-he-yonggan-de-yuandongli/</guid>
+      <description>看到有人问，对于缺乏自信和勇气、恐惧未来的人有什么建议。 我觉得缺乏的原因在于对目标方向和价值的怀疑。 我的成就真有价值吗？正在做的有意义吗？努</description>
+      <content:encoded><![CDATA[<p>看到<a href="https://twitter.com/edward40e/status/1693607772821303502">有人问</a>，对于缺乏自信和勇气、恐惧未来的人有什么建议。</p>
+<p>我觉得缺乏的原因在于对目标方向和价值的怀疑。<br>
+我的成就真有价值吗？正在做的有意义吗？努力的方向坚持下去值得吗？是否应该继续？<br>
+最后从彷徨变成犹豫，从犹豫变成怀疑，从怀疑变成自我否定。</p>
+<p>而找到自己真正想要什么的人能够乐在其中，即使困难再多阻力再大也不会有动摇，这是自信和勇敢的原动力。</p>
+<p>对未来的恐惧来自于不知道自己的能力能否应对未知的挑战。<br>
+找准目标的人，首先会对标目标思考自己的能力有哪些需要提升的地方，该如何提升，也就是将未知的恐惧化为可知的一步步实际行动，未知的因素再多，只专注于自己看重的目标，就能少很多焦虑，加上分解、行动、评估的循环，每一步都脚踏实地，会给人带来安心。</p>
+<p>如果仍然不能缓解焦虑，除开个人的原因，那就是社交的因素了。<br>
+有的人需要融入到更大的集体圈子中才能通过包容、关怀和鼓励在建立自信和勇气，那么需要学会找到和加入适合自己的圈子。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>无知的人最自信</title>
+      <link>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wuzhi-de-ren-zui-zixin/</guid>
+      <description>判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。 但怎么算是逻辑矛盾，不是那么容易看出来的。 光的波粒二象性</description>
+      <content:encoded><![CDATA[<p>判断一个理论是否科学，标准之一是内部逻辑一致性，不能一面说鹿不是马，一面又指鹿为马。<br>
+但怎么算是逻辑矛盾，不是那么容易看出来的。</p>
+<p>光的波粒二象性曾经让物理学家抓狂。<br>
+光怎么可能既是波又是粒子呢，这不是自相矛盾吗？必然有一方是不成立的。</p>
+<p>最终只有认知突破之后，才认识到不是那么简单。<br>
+拓展认知范围的途径，一个是被现实拷打（或者看别人被拷打），在科学之墙上撞得多了，才知道墙在哪里，一个是从经验上升到理论，构建新的世界模型，避免臆想出太复杂或太奇葩的墙，两者缺一不可。</p>
+<p>在原本的认知范围内不能接纳为科学的现象，在拓展了认知范围之后就可以解释了。<br>
+但回头给认知范围还没有拓展的人听，他仍然不会理解。</p>
+<p>越是无知的人，越喜欢把一些看上去自相矛盾无法理解的事情当作是确凿无疑的证据，来断定背后存在不为人知的阴谋，因为这比拓展认知边界轻松多了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>怎样最自信</title>
+      <link>https://ioerr.github.io/posts/zenyang-zui-zixin/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zenyang-zui-zixin/</guid>
+      <description>胡锡进： Elon Musk has released his personality too much, and he believes too much in the US and West’s “freedom of speech.” He will be taught a lesson. Elon Musk： 手整体插在口袋里的人过分自信</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/HuXijin_GT/status/1577343729815662592">胡锡进</a>：</p>
+<p>Elon Musk has released his personality too much, and he believes too much in the US and West’s “freedom of speech.” He will be taught a lesson.</p>
+<p><a href="https://twitter.com/elonmusk/status/1578049022102851584">Elon Musk</a>：</p>
+<p>手整体插在口袋里的人过分自信。</p>
+<p><a href="https://twitter.com/calon/status/1578193487966613504">Calon</a>：</p>
+<p>头整体插在口袋里的人才最自信。<br>
+手插在别人口袋里的人更加自信。<br>
+手插入别人脑袋里面的人最自信。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

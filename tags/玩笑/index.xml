@@ -1,44 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>玩笑 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%8E%A9%E7%AC%91/</link>
     <description>Recent content in 玩笑 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%8E%A9%E7%AC%91/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>插件行为艺术</title>
-        <link>https://ioerr.github.io/posts/chajian-xingwei-yishu/</link>
-        <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chajian-xingwei-yishu/</guid>
-        <description>&lt;p&gt;有人发布了一个&lt;a href=&#34;https://github.com/michaelb/do-nothing.vim&#34;&gt;什么功能也没有的 Vim 插件&lt;/a&gt;，号称具有如下特性：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;超越所有插件的加载速度&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;100%代码覆盖率&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;在任何平台、操作系统、架构以及 Vim/Neovim 上都能没有差异的正常运行&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;极低的资源占用&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;没有丑陋的 VimL 脚本，没有写得糟糕的 Python 代码…完全没有任何 bug！&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;初版就极为稳定，功能完备&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;开箱即用，无需任何配置&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;作者承认这毫无价值，是某种艺术和玩笑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/vimplugins/comments/oeyv7i/comment/h4b1msj/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&#34;&gt;有人评论说&lt;/a&gt;，一开始我还是怀疑的，但你说它是艺术，我就被说服了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%8E%A9%E7%AC%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>插件行为艺术</title>
+      <link>https://ioerr.github.io/posts/chajian-xingwei-yishu/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chajian-xingwei-yishu/</guid>
+      <description>有人发布了一个什么功能也没有的 Vim 插件，号称具有如下特性： 超越所有插件的加载速度 100%代码覆盖率 在任何平台、操作系统、架构以及 Vim/Neovim 上都能没有差</description>
+      <content:encoded><![CDATA[<p>有人发布了一个<a href="https://github.com/michaelb/do-nothing.vim">什么功能也没有的 Vim 插件</a>，号称具有如下特性：</p>
+<ul>
+<li>超越所有插件的加载速度</li>
+<li>100%代码覆盖率</li>
+<li>在任何平台、操作系统、架构以及 Vim/Neovim 上都能没有差异的正常运行</li>
+<li>极低的资源占用</li>
+<li>没有丑陋的 VimL 脚本，没有写得糟糕的 Python 代码…完全没有任何 bug！</li>
+<li>初版就极为稳定，功能完备</li>
+<li>开箱即用，无需任何配置</li>
+</ul>
+<p>作者承认这毫无价值，是某种艺术和玩笑。</p>
+<p><a href="https://www.reddit.com/r/vimplugins/comments/oeyv7i/comment/h4b1msj/?utm_source=share&amp;utm_medium=web2x&amp;context=3">有人评论说</a>，一开始我还是怀疑的，但你说它是艺术，我就被说服了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

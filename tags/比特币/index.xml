@@ -1,56 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>比特币 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/</link>
     <description>Recent content in 比特币 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>《三体》和《人类简史》的作用</title>
-        <link>https://ioerr.github.io/posts/santi-he-renleijianshi-de-zuoyong/</link>
-        <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/santi-he-renleijianshi-de-zuoyong/</guid>
-        <description>&lt;p&gt;互联网公司推崇《三体》的原因之一是为共同劣化市场环境找正当理由——这叫降维攻击懂不？&lt;/p&gt;
-
-&lt;p&gt;币圈推崇《人类简史》的原因之一是要吸引韭菜苗入圈——不管懂不懂，大家先相信这个概念再说。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>比特币和技术人员的浪漫</title>
-        <link>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</link>
-        <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</guid>
-        <description>&lt;p&gt;看了霍炬的文章才知道，最近李笑来因为 ICO 的事情又处于舆论风口。不少人说他是骗子，我了解不多不会轻易下结论，但至少能够理解霍炬描述中李笑来的那份理想主义浪漫情怀。&lt;/p&gt;
-
-&lt;p&gt;虽说一直没有参与比特币错过了几个亿，但我最关心的不是通过比特币投资，而是比特币是否能够成为宣传者口中鼓吹的新型货币。&lt;/p&gt;
-
-&lt;p&gt;到目前为止，即使不算公权力干预的因素，我也仍然觉得这事没戏。我身边只有投资比特币赚钱后套现提前退休的例子，没有一个人把它当作普通意义的“货币”。&lt;/p&gt;
-
-&lt;p&gt;中文网络上关于比特币的分析，既容易看懂又能抓住重点的，是&lt;a href=&#34;https://www.zhihu.com/people/liu-xiao/&#34;&gt;刘枭&lt;/a&gt;的《Bitcoin：Geek们的货币实验》，可惜原文所在的 blog 网站已经停止维护。我在知乎上&lt;a href=&#34;https://www.zhihu.com/question/19653494/answer/12535524&#34;&gt;回答的时候引用了大部分内容&lt;/a&gt;，包括当时的一些回复讨论。目前来看仍然相当靠谱。&lt;/p&gt;
-
-&lt;p&gt;至于李笑来的 &lt;a href=&#34;https://press.one/&#34;&gt;PressOne&lt;/a&gt;，其颠覆发行模式的说法，让我想到了各种“让生产者直接对接消费者，绕过赚取暴利的中间商”式的创新。乍一看似乎很有道理，但细细一想不免有哗众取宠吸引眼球的嫌疑。&lt;br /&gt;
-刨除利用公权力垄断优势赚取暴利的出版方，市场中其他出版方自然有其价值所在，其利润正是其市场价值的体现，对应细化分工后的专业要求，并非完全没有必要存在的环节。&lt;/p&gt;
-
-&lt;p&gt;技术人员的浪漫大概就是深信技术可以颠覆世界吧。确实，技术是人类社会天翻地覆的基础，但技术人员往往高估了技术的影响力和决定性（非技术人员则是低估）。以为技术发展后，人类社会经济运作和社会组织可以完全像工程项目一样计划和安排，从而发展出走向乌托邦悲剧的理论，也是这种浪漫的后果之一。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《三体》和《人类简史》的作用</title>
+      <link>https://ioerr.github.io/posts/santi-he-renleijianshi-de-zuoyong/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/santi-he-renleijianshi-de-zuoyong/</guid>
+      <description>互联网公司推崇《三体》的原因之一是为共同劣化市场环境找正当理由——这叫降维攻击懂不？ 币圈推崇《人类简史》的原因之一是要吸引韭菜苗入圈——不管</description>
+      <content:encoded><![CDATA[<p>互联网公司推崇《三体》的原因之一是为共同劣化市场环境找正当理由——这叫降维攻击懂不？</p>
+<p>币圈推崇《人类简史》的原因之一是要吸引韭菜苗入圈——不管懂不懂，大家先相信这个概念再说。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>比特币和技术人员的浪漫</title>
+      <link>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bitcoin-he-jishu-renyuan-de-langman/</guid>
+      <description>看了霍炬的文章才知道，最近李笑来因为 ICO 的事情又处于舆论风口。不少人说他是骗子，我了解不多不会轻易下结论，但至少能够理解霍炬描述中李笑来的那份</description>
+      <content:encoded><![CDATA[<p>看了霍炬的文章才知道，最近李笑来因为 ICO 的事情又处于舆论风口。不少人说他是骗子，我了解不多不会轻易下结论，但至少能够理解霍炬描述中李笑来的那份理想主义浪漫情怀。</p>
+<p>虽说一直没有参与比特币错过了几个亿，但我最关心的不是通过比特币投资，而是比特币是否能够成为宣传者口中鼓吹的新型货币。</p>
+<p>到目前为止，即使不算公权力干预的因素，我也仍然觉得这事没戏。我身边只有投资比特币赚钱后套现提前退休的例子，没有一个人把它当作普通意义的“货币”。</p>
+<p>中文网络上关于比特币的分析，既容易看懂又能抓住重点的，是<a href="https://www.zhihu.com/people/liu-xiao/">刘枭</a>的《Bitcoin：Geek们的货币实验》，可惜原文所在的 blog 网站已经停止维护。我在知乎上<a href="https://www.zhihu.com/question/19653494/answer/12535524">回答的时候引用了大部分内容</a>，包括当时的一些回复讨论。目前来看仍然相当靠谱。</p>
+<p>至于李笑来的 <a href="https://press.one/">PressOne</a>，其颠覆发行模式的说法，让我想到了各种“让生产者直接对接消费者，绕过赚取暴利的中间商”式的创新。乍一看似乎很有道理，但细细一想不免有哗众取宠吸引眼球的嫌疑。<br>
+刨除利用公权力垄断优势赚取暴利的出版方，市场中其他出版方自然有其价值所在，其利润正是其市场价值的体现，对应细化分工后的专业要求，并非完全没有必要存在的环节。</p>
+<p>技术人员的浪漫大概就是深信技术可以颠覆世界吧。确实，技术是人类社会天翻地覆的基础，但技术人员往往高估了技术的影响力和决定性（非技术人员则是低估）。以为技术发展后，人类社会经济运作和社会组织可以完全像工程项目一样计划和安排，从而发展出走向乌托邦悲剧的理论，也是这种浪漫的后果之一。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

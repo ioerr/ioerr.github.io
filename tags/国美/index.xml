@@ -1,36 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>国美 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%9B%BD%E7%BE%8E/</link>
     <description>Recent content in 国美 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 29 Apr 2008 15:22:28 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%9B%BD%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>家乐福</title>
-        <link>https://ioerr.github.io/posts/carrefour/</link>
-        <pubDate>Tue, 29 Apr 2008 15:22:28 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/carrefour/</guid>
-        <description>&lt;p&gt;早上经过家乐福，远远就发现门口站着一堆人，还有警车在旁边维持秩序，以为爱国青年抵制家乐福的热情仍高烧不退呢。&lt;br /&gt;
-走近一看，居然还秩序井然地在排队，敢情抗议也要用单任务轮询机制？&lt;br /&gt;
-再看才知道原来是几周之前百盛神秘地消失之后，国美接管了家乐福上层的百盛店铺，今天试营业限量大优惠，一大早开门之前，闻讯而来的消费者就蹲在外面摩拳擦掌准备领票入场了…&lt;/p&gt;
-
-&lt;p&gt;公司发购物卡，问是要家乐福还是家润多的卡，大惊，心想难道这是要考验员工，回答说要家乐福的卡会被拖出去打死吗？&lt;br /&gt;
-深呼吸一口之后勇敢的回答：要家乐福的卡。&lt;/p&gt;
-
-&lt;p&gt;原因只有一个：离家比较近。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%9B%BD%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>家乐福</title>
+      <link>https://ioerr.github.io/posts/carrefour/</link>
+      <pubDate>Tue, 29 Apr 2008 15:22:28 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/carrefour/</guid>
+      <description>早上经过家乐福，远远就发现门口站着一堆人，还有警车在旁边维持秩序，以为爱国青年抵制家乐福的热情仍高烧不退呢。 走近一看，居然还秩序井然地在排队</description>
+      <content:encoded><![CDATA[<p>早上经过家乐福，远远就发现门口站着一堆人，还有警车在旁边维持秩序，以为爱国青年抵制家乐福的热情仍高烧不退呢。<br>
+走近一看，居然还秩序井然地在排队，敢情抗议也要用单任务轮询机制？<br>
+再看才知道原来是几周之前百盛神秘地消失之后，国美接管了家乐福上层的百盛店铺，今天试营业限量大优惠，一大早开门之前，闻讯而来的消费者就蹲在外面摩拳擦掌准备领票入场了…</p>
+<p>公司发购物卡，问是要家乐福还是家润多的卡，大惊，心想难道这是要考验员工，回答说要家乐福的卡会被拖出去打死吗？<br>
+深呼吸一口之后勇敢的回答：要家乐福的卡。</p>
+<p>原因只有一个：离家比较近。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

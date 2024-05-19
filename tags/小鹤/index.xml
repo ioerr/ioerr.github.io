@@ -1,37 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>小鹤 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B0%8F%E9%B9%A4/</link>
     <description>Recent content in 小鹤 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 06 Jul 2008 14:11:58 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B0%8F%E9%B9%A4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>小鹤双拼</title>
-        <link>https://ioerr.github.io/posts/xiaohe-shuangpin/</link>
-        <pubDate>Sun, 06 Jul 2008 14:11:58 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiaohe-shuangpin/</guid>
-        <description>&lt;p&gt;练熟了自然码双拼方案，又发现不少人说&lt;a href=&#34;http://www.flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;的声韵搭配、键盘布局更合理，本来心想自然码双拼方案已经为各大主流输入法支持，如果更换成其他方案，适应性是个问题，比如自然码、谷歌拼音的界面就不支持自定义双拼方案，其他的输入法都需要新增编码方案。&lt;/p&gt;
-
-&lt;p&gt;好在&lt;a href=&#34;http://www.flypy.com/down.html&#34;&gt;小鹤双拼的主页上给出了部分输入法现成的方案配置文件&lt;/a&gt;，直接替换即可。&lt;br /&gt;
-而小鹤双拼与自然码方案的13个差异应该比较好适应吧？上手自然码双拼方案的时候，一天时间就足够记住对应关系，一周时间就可以比较熟练了。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.flypy.com/images/hejp.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-小鹤双拼的编码方案&lt;/p&gt;
-
-&lt;p&gt;其实不觉得双拼的速度比全拼快很多，击键虽然少了，爽快感也跟着少了，好处则是，不用再输入拼音分隔符，手写的时候可以当作速记的一种办法，也可以用于便捷的加密。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B0%8F%E9%B9%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小鹤双拼</title>
+      <link>https://ioerr.github.io/posts/xiaohe-shuangpin/</link>
+      <pubDate>Sun, 06 Jul 2008 14:11:58 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiaohe-shuangpin/</guid>
+      <description>练熟了自然码双拼方案，又发现不少人说小鹤双拼的声韵搭配、键盘布局更合理，本来心想自然码双拼方案已经为各大主流输入法支持，如果更换成其他方案，</description>
+      <content:encoded><![CDATA[<p>练熟了自然码双拼方案，又发现不少人说<a href="http://www.flypy.com/">小鹤双拼</a>的声韵搭配、键盘布局更合理，本来心想自然码双拼方案已经为各大主流输入法支持，如果更换成其他方案，适应性是个问题，比如自然码、谷歌拼音的界面就不支持自定义双拼方案，其他的输入法都需要新增编码方案。</p>
+<p>好在<a href="http://www.flypy.com/down.html">小鹤双拼的主页上给出了部分输入法现成的方案配置文件</a>，直接替换即可。<br>
+而小鹤双拼与自然码方案的13个差异应该比较好适应吧？上手自然码双拼方案的时候，一天时间就足够记住对应关系，一周时间就可以比较熟练了。</p>
+<p><img loading="lazy" src="http://www.flypy.com/images/hejp.jpg" alt=""  />
+<br>
+小鹤双拼的编码方案</p>
+<p>其实不觉得双拼的速度比全拼快很多，击键虽然少了，爽快感也跟着少了，好处则是，不用再输入拼音分隔符，手写的时候可以当作速记的一种办法，也可以用于便捷的加密。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

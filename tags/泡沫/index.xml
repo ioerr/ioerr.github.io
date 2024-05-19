@@ -1,55 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>泡沫 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/</link>
     <description>Recent content in 泡沫 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 21 Aug 2011 13:55:50 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>市场泡沫破灭的过程</title>
-        <link>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</link>
-        <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</guid>
-        <description>&lt;p&gt;问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？&lt;br /&gt;
-答：有。&lt;br /&gt;
-只要市场活动是一个过程，而不是从产生泡沫到泡沫破裂的一瞬间，就一定会有“最后一根稻草”。但这根稻草事前很难看出来，就好像往沙堆上倒沙子，导致沙堆崩塌的最后那颗沙子是随机出现的。&lt;/p&gt;
-
-&lt;p&gt;问：泡沫破灭之前和开始后，人普遍的心里是怎样的？&lt;br /&gt;
-答：一般是：&lt;br /&gt;
-期望投入很少就能迅速获得巨大的回报，也就是投机心理。&lt;br /&gt;
-投机本身并没有错，但因为投机心理盲目投资和经营，当这种投机成为普遍行为的时候，泡沫就开始膨胀，危机就已经种下。&lt;br /&gt;
-因为投机永远不可能成为支撑一个行业或者一个经济体长期稳定健康运行的基础，如果没有人想提供优秀的产品和服务满足需求来赚钱，大多数人都想投机捞一把就走——如某些人说的，连门口的卖菜老太太都想要拿出积蓄投资xxx了，那么泡沫破灭就不远了。&lt;/p&gt;
-
-&lt;p&gt;问：泡沫破灭过程中的心理一般是：&lt;br /&gt;
-答：终于意识到这是一个陷阱，是不健康的投资和经营。&lt;br /&gt;
-要赶快抽身脱离，割肉都行。&lt;br /&gt;
-走得越慢死得越惨。&lt;/p&gt;
-
-&lt;p&gt;问：是“泡沫破灭”这条信息的传播让泡沫破灭了吗？&lt;br /&gt;
-答：还是拿沙堆做说明。&lt;br /&gt;
-沙堆崩塌的根本原因是重力和沙子的堆叠，只要沙子还在不停的增加，也即市场的不健康程度不断提高，泡沫就会破灭。&lt;br /&gt;
-骑车姿势不对最终总会摔倒，坚信自己不会摔倒不会确保你真的不会摔倒。&lt;br /&gt;
-经济运行自有它的规律，像万有引力一样是真实存在的规律，不遵循经济规律的人总会撞到“科学之墙”。&lt;/p&gt;
-
-&lt;p&gt;问：如果“泡沫破灭”这条信息不能有效传播，泡沫还会破灭吗，或者破灭速度减慢？&lt;br /&gt;
-答：还会破灭。&lt;br /&gt;
-如果只有少部分人知道泡沫已经破灭，
-并且不传播这个消息，就像从正在崩溃的沙堆中取走开始滚动的沙粒。&lt;br /&gt;
-也许会减缓泡沫破灭的速度吧。&lt;br /&gt;
-可是泡沫如果不破灭，沙粒的增长不会停止，还留在沙堆上的沙粒将继续受力，错误的经济行为、不良的资产结构给投资者带来的损失不会消失，糟糕的结局总会到来，最后谁都会明白经济完蛋了，泡沫还是会破灭，只是这回泡沫更大、损失更惨。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B3%A1%E6%B2%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>市场泡沫破灭的过程</title>
+      <link>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</link>
+      <pubDate>Sun, 21 Aug 2011 13:55:50 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shichang-paomo-pomie-de-guocheng/</guid>
+      <description>问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？ 答：有。 只要市场活动是一个过程，而不是从产生泡沫到泡沫破裂的一瞬间，就一定会</description>
+      <content:encoded><![CDATA[<p>问：市场泡沫破灭是不是一定会有导火索或者压死骆驼的最后一根稻草？<br>
+答：有。<br>
+只要市场活动是一个过程，而不是从产生泡沫到泡沫破裂的一瞬间，就一定会有“最后一根稻草”。但这根稻草事前很难看出来，就好像往沙堆上倒沙子，导致沙堆崩塌的最后那颗沙子是随机出现的。</p>
+<p>问：泡沫破灭之前和开始后，人普遍的心里是怎样的？<br>
+答：一般是：<br>
+期望投入很少就能迅速获得巨大的回报，也就是投机心理。<br>
+投机本身并没有错，但因为投机心理盲目投资和经营，当这种投机成为普遍行为的时候，泡沫就开始膨胀，危机就已经种下。<br>
+因为投机永远不可能成为支撑一个行业或者一个经济体长期稳定健康运行的基础，如果没有人想提供优秀的产品和服务满足需求来赚钱，大多数人都想投机捞一把就走——如某些人说的，连门口的卖菜老太太都想要拿出积蓄投资xxx了，那么泡沫破灭就不远了。</p>
+<p>问：泡沫破灭过程中的心理一般是：<br>
+答：终于意识到这是一个陷阱，是不健康的投资和经营。<br>
+要赶快抽身脱离，割肉都行。<br>
+走得越慢死得越惨。</p>
+<p>问：是“泡沫破灭”这条信息的传播让泡沫破灭了吗？<br>
+答：还是拿沙堆做说明。<br>
+沙堆崩塌的根本原因是重力和沙子的堆叠，只要沙子还在不停的增加，也即市场的不健康程度不断提高，泡沫就会破灭。<br>
+骑车姿势不对最终总会摔倒，坚信自己不会摔倒不会确保你真的不会摔倒。<br>
+经济运行自有它的规律，像万有引力一样是真实存在的规律，不遵循经济规律的人总会撞到“科学之墙”。</p>
+<p>问：如果“泡沫破灭”这条信息不能有效传播，泡沫还会破灭吗，或者破灭速度减慢？<br>
+答：还会破灭。<br>
+如果只有少部分人知道泡沫已经破灭，<br>
+并且不传播这个消息，就像从正在崩溃的沙堆中取走开始滚动的沙粒。<br>
+也许会减缓泡沫破灭的速度吧。<br>
+可是泡沫如果不破灭，沙粒的增长不会停止，还留在沙堆上的沙粒将继续受力，错误的经济行为、不良的资产结构给投资者带来的损失不会消失，糟糕的结局总会到来，最后谁都会明白经济完蛋了，泡沫还是会破灭，只是这回泡沫更大、损失更惨。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,44 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Internet on 读写错误</title>
     <link>https://ioerr.github.io/tags/internet/</link>
     <description>Recent content in Internet on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Internet 40岁</title>
-        <link>https://ioerr.github.io/posts/internet-40-sui/</link>
-        <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/internet-40-sui/</guid>
-        <description>&lt;p&gt;再过几个月就是 Internet 的40岁生日了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence &lt;a href=&#34;https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml&#34;&gt;the birth of the Internet&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包括非法交易）、传递信息（包括虚假信息）、抒发情感（包括盼望世界毁灭）、分工协作（包括扯后腿和甩锅）…？&lt;/p&gt;
-
-&lt;p&gt;有了 Internet，那些总想让别人和自己的观点一致的人越来越多，戾气与恶意也越来越重。&lt;br /&gt;
-你为什么要和我想的不一样？&lt;br /&gt;
-你比我蠢，我就秀智商；&lt;br /&gt;
-你无知，我就告诉你什么是真理；&lt;br /&gt;
-你坏，我就骂到你退网；&lt;br /&gt;
-你假装不知道，我就摇到你醒为止；&lt;br /&gt;
-你屁股歪，我就脱你的裤子…&lt;br /&gt;
-但我很有信心我自己是绝对不会错的。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet 40岁</title>
+      <link>https://ioerr.github.io/posts/internet-40-sui/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/internet-40-sui/</guid>
+      <description>再过几个月就是 Internet 的40岁生日了。 ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence the birth of the Internet. 当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包</description>
+      <content:encoded><![CDATA[<p>再过几个月就是 Internet 的40岁生日了。</p>
+<blockquote>
+<p>ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence <a href="https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml">the birth of the Internet</a>.</p>
+</blockquote>
+<p>当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包括非法交易）、传递信息（包括虚假信息）、抒发情感（包括盼望世界毁灭）、分工协作（包括扯后腿和甩锅）…？</p>
+<p>有了 Internet，那些总想让别人和自己的观点一致的人越来越多，戾气与恶意也越来越重。<br>
+你为什么要和我想的不一样？<br>
+你比我蠢，我就秀智商；<br>
+你无知，我就告诉你什么是真理；<br>
+你坏，我就骂到你退网；<br>
+你假装不知道，我就摇到你醒为止；<br>
+你屁股歪，我就脱你的裤子…<br>
+但我很有信心我自己是绝对不会错的。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,57 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>独立 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%8B%AC%E7%AB%8B/</link>
     <description>Recent content in 独立 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%8B%AC%E7%AB%8B/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>夹带私货和复读机</title>
-        <link>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</link>
-        <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</guid>
-        <description>&lt;p&gt;曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错误”观点的行为，就都有可能被批评为“夹带私货”。&lt;/p&gt;
-
-&lt;p&gt;要是按这个标准来看，只要你是人不是复读机，夹带的就都可能是私货。&lt;br /&gt;
-因为指责者总能找到证据说明你夹带了和他认同的观念不一致的私货，而且为越多的事物设置绝对正确标准的人，越容易找到他人夹带的私货。&lt;br /&gt;
-不许夹带私货的意思，就是取消你作为人发表任何异见的权利，只能在指责者划定的圈子范围内，做他观点的复读机。&lt;/p&gt;
-
-&lt;p&gt;有人说，模仿成人言行的儿童也是复读机吗？&lt;br /&gt;
-如果儿童只会重复模仿的行为，那和复读机确实没什么区别，但儿童模仿是为了学习和最终的独立自主。&lt;br /&gt;
-&lt;a href=&#34;../qingchunqi&#34;&gt;青春期&lt;/a&gt;的叛逆就是开始尝试不再复读，即使闹得矛盾重重、头破血流，也要尝试成为人的自由。&lt;br /&gt;
-有复读机行为不一定不是人，但只会复读，那就很可疑了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>青春期</title>
-        <link>https://ioerr.github.io/posts/qingchunqi/</link>
-        <pubDate>Fri, 04 Sep 2009 17:34:30 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/qingchunqi/</guid>
-        <description>&lt;p&gt;为什么人要有青春期的叛逆心理？&lt;br /&gt;
-度过了需要父母保护才能生存的幼年时期后，有时候明知父母的决策是对的或者是对自己有好处的，也要站在反对的立场。这在成年人的眼里是多么傻啊。&lt;/p&gt;
-
-&lt;p&gt;我想，也许只有这样，才能感受到自我是可以独立的（就像有时候一定要摧残自己的身体才能从痛感中感受到自己的存在一样）。听话、懂事、唯命是从也许能够让你好好的生存，但是不能让你感觉能作出自己的选择，过自己的生活。即使这会让你遍体鳞伤甚至众叛亲离，但这只是因为你还需要多多磨练，直到学得保护自己的能力，而不是因为追求自我的独立。&lt;/p&gt;
-
-&lt;p&gt;在此之后，等到过了年少轻狂的青春期，成熟了，被现实驯服了，太识时务知好歹了，便不会再莫名其妙的纯粹为了表达独立和自由而愿意碰得头破血流了。倘若在青春期没有体味过叛逆独立的现实苦闷和自由快感，以后就再难有机会完善和重塑已经定型的人生观了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%8B%AC%E7%AB%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>夹带私货和复读机</title>
+      <link>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</guid>
+      <description>曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错</description>
+      <content:encoded><![CDATA[<p>曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错误”观点的行为，就都有可能被批评为“夹带私货”。</p>
+<p>要是按这个标准来看，只要你是人不是复读机，夹带的就都可能是私货。<br>
+因为指责者总能找到证据说明你夹带了和他认同的观念不一致的私货，而且为越多的事物设置绝对正确标准的人，越容易找到他人夹带的私货。<br>
+不许夹带私货的意思，就是取消你作为人发表任何异见的权利，只能在指责者划定的圈子范围内，做他观点的复读机。</p>
+<p>有人说，模仿成人言行的儿童也是复读机吗？<br>
+如果儿童只会重复模仿的行为，那和复读机确实没什么区别，但儿童模仿是为了学习和最终的独立自主。<br>
+<a href="../qingchunqi">青春期</a>的叛逆就是开始尝试不再复读，即使闹得矛盾重重、头破血流，也要尝试成为人的自由。<br>
+有复读机行为不一定不是人，但只会复读，那就很可疑了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>青春期</title>
+      <link>https://ioerr.github.io/posts/qingchunqi/</link>
+      <pubDate>Fri, 04 Sep 2009 17:34:30 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/qingchunqi/</guid>
+      <description>为什么人要有青春期的叛逆心理？ 度过了需要父母保护才能生存的幼年时期后，有时候明知父母的决策是对的或者是对自己有好处的，也要站在反对的立场。这</description>
+      <content:encoded><![CDATA[<p>为什么人要有青春期的叛逆心理？<br>
+度过了需要父母保护才能生存的幼年时期后，有时候明知父母的决策是对的或者是对自己有好处的，也要站在反对的立场。这在成年人的眼里是多么傻啊。</p>
+<p>我想，也许只有这样，才能感受到自我是可以独立的（就像有时候一定要摧残自己的身体才能从痛感中感受到自己的存在一样）。听话、懂事、唯命是从也许能够让你好好的生存，但是不能让你感觉能作出自己的选择，过自己的生活。即使这会让你遍体鳞伤甚至众叛亲离，但这只是因为你还需要多多磨练，直到学得保护自己的能力，而不是因为追求自我的独立。</p>
+<p>在此之后，等到过了年少轻狂的青春期，成熟了，被现实驯服了，太识时务知好歹了，便不会再莫名其妙的纯粹为了表达独立和自由而愿意碰得头破血流了。倘若在青春期没有体味过叛逆独立的现实苦闷和自由快感，以后就再难有机会完善和重塑已经定型的人生观了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

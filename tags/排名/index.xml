@@ -1,75 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>排名 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%8E%92%E5%90%8D/</link>
     <description>Recent content in 排名 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 14 Nov 2009 17:41:16 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%8E%92%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Elo 排名系统</title>
-        <link>https://ioerr.github.io/posts/elo-paiming-xitong/</link>
-        <pubDate>Sat, 14 Nov 2009 17:41:16 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/elo-paiming-xitong/</guid>
-        <description>&lt;p&gt;看到&lt;a href=&#34;http://bbs.goalhi.com/464426.html&#34;&gt;这篇文章&lt;/a&gt;中提到的世界足坛埃罗排名系统（The
-World Football Elo Rating System），尝试研究了一下这个足球排名系统：&lt;/p&gt;
-
-&lt;p&gt;Elo Rating System 根据评价值进行排名，评价值的计算方式如下：&lt;/p&gt;
-
-&lt;p&gt;Rn = Ro + K × (W - We)&lt;/p&gt;
-
-&lt;p&gt;Rn 表示新的评价值&lt;/p&gt;
-
-&lt;p&gt;Ro 表示原来的评价值&lt;/p&gt;
-
-&lt;p&gt;K 表示比赛的权重，如：&lt;br /&gt;
-世界杯决赛圈比赛，K取60；&lt;br /&gt;
-洲级杯赛决赛圈比赛取50；&lt;br /&gt;
-世界杯和洲级杯赛外围赛取40；&lt;br /&gt;
-其他锦标赛取30；&lt;br /&gt;
-友谊赛取20。&lt;br /&gt;
-根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N
-为净胜球数。&lt;br /&gt;
-如世界杯决赛圈比赛净胜3球，K=60 × (1 + &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; + (3-3)/8) = 105&lt;/p&gt;
-
-&lt;p&gt;W 表示比赛的结果，胜取1，平取0.5，负取0&lt;/p&gt;
-
-&lt;p&gt;We 表示预期结果，计算公式为：&lt;br /&gt;
-We = 1 / (10\^(-dr/400) + 1)&lt;/p&gt;
-
-&lt;p&gt;dr 表示双方排位的差距&lt;/p&gt;
-
-&lt;p&gt;如果不嫌复杂的话，完整的公式可以写作：&lt;br /&gt;
-Rn = Ro + K × (W - 1 / (10\^(-dr/400) + 1))&lt;/p&gt;
-
-&lt;p&gt;以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：&lt;br /&gt;
-法国队目前的评价值是1856，排名第10；&lt;br /&gt;
-爱尔兰队目前的评价值是1742，排名第27；&lt;/p&gt;
-
-&lt;p&gt;世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; + (2-3)/8) = 65&lt;/p&gt;
-
-&lt;p&gt;法国队的新评价值计算如下：&lt;br /&gt;
-Rn = 1856 + 65 × (0 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;400&lt;/sub&gt;) +1)) = 1822&lt;/p&gt;
-
-&lt;p&gt;爱尔兰队的新评价值计算如下：&lt;br /&gt;
-Rn = 1742 + 65 × (1 - 1 / (10\^(-&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;400&lt;/sub&gt;) +1)) = 1773&lt;/p&gt;
-
-&lt;p&gt;假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。&lt;/p&gt;
-
-&lt;p&gt;Elo 排名系统的排名看上去未必就比 &lt;a href=&#34;http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html&#34;&gt;FIFA
-世界排名&lt;/a&gt;靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%8E%92%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elo 排名系统</title>
+      <link>https://ioerr.github.io/posts/elo-paiming-xitong/</link>
+      <pubDate>Sat, 14 Nov 2009 17:41:16 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/elo-paiming-xitong/</guid>
+      <description>看到这篇文章中提到的世界足坛埃罗排名系统（The World Football Elo Rating System），尝试研究了一下这个足球排名系统： Elo Rating System 根据评价值进行排名，评价值的计</description>
+      <content:encoded><![CDATA[<p>看到<a href="http://bbs.goalhi.com/464426.html">这篇文章</a>中提到的世界足坛埃罗排名系统（The<br>
+World Football Elo Rating System），尝试研究了一下这个足球排名系统：</p>
+<p>Elo Rating System 根据评价值进行排名，评价值的计算方式如下：</p>
+<p>Rn = Ro + K × (W - We)</p>
+<p>Rn 表示新的评价值</p>
+<p>Ro 表示原来的评价值</p>
+<p>K 表示比赛的权重，如：<br>
+世界杯决赛圈比赛，K取60；<br>
+洲级杯赛决赛圈比赛取50；<br>
+世界杯和洲级杯赛外围赛取40；<br>
+其他锦标赛取30；<br>
+友谊赛取20。<br>
+根据净胜球数，K 值还要进行调整，增加的比例为3/4 + (N-3)/8，其中 N<br>
+为净胜球数。<br>
+如世界杯决赛圈比赛净胜3球，K=60 × (1 + 3/4 + (3-3)/8) = 105</p>
+<p>W 表示比赛的结果，胜取1，平取0.5，负取0</p>
+<p>We 表示预期结果，计算公式为：<br>
+We = 1 / (10^(-dr/400) + 1)</p>
+<p>dr 表示双方排位的差距</p>
+<p>如果不嫌复杂的话，完整的公式可以写作：<br>
+Rn = Ro + K × (W - 1 / (10^(-dr/400) + 1))</p>
+<p>以今天凌晨法国队客场与爱尔兰的世界杯外围赛附加赛为例，假设爱尔兰队以3:1获胜：<br>
+法国队目前的评价值是1856，排名第10；<br>
+爱尔兰队目前的评价值是1742，排名第27；</p>
+<p>世界杯外围赛附加赛净胜2球的权重分 K = 40 × (1 + 3/4 + (2-3)/8) = 65</p>
+<p>法国队的新评价值计算如下：<br>
+Rn = 1856 + 65 × (0 - 1 / (10^(-17/400) +1)) = 1822</p>
+<p>爱尔兰队的新评价值计算如下：<br>
+Rn = 1742 + 65 × (1 - 1 / (10^(-17/400) +1)) = 1773</p>
+<p>假如其他球队今天没有比赛，则爱尔兰队可以升至第18位，而法国队会跌至第14。</p>
+<p>Elo 排名系统的排名看上去未必就比 <a href="http://www.fifa.com/worldfootball/ranking/lastranking/gender=m/fullranking.html">FIFA<br>
+世界排名</a>靠谱，比如现在这支中国队竟然排名可以高过塞内加尔、南非、乌兹别克斯坦、伊拉克，实在是没有天理。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

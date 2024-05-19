@@ -1,54 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>葛优 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%91%9B%E4%BC%98/</link>
     <description>Recent content in 葛优 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 25 Dec 2007 15:57:50 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%91%9B%E4%BC%98/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>不可靠</title>
-        <link>https://ioerr.github.io/posts/bukekao/</link>
-        <pubDate>Tue, 25 Dec 2007 15:57:50 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bukekao/</guid>
-        <description>&lt;p&gt;这几天很流行的一段话：&lt;br /&gt;
-年底三部大片的启示：&lt;br /&gt;
-色戒：女人不可靠；&lt;br /&gt;
-投名状：兄弟也不可靠；&lt;br /&gt;
-集结号：组织更不可靠 。&lt;/p&gt;
-
-&lt;p&gt;赫然发现往年热门贺岁片少不了的葛爷不在这三部大片中，据说和姜文合作拍了《白鹿原》，感觉又是个必遭剪刀的影片啊。&lt;br /&gt;
-不过葛优要是演这三部大片，也确实不太好办，让我们想象一下：&lt;/p&gt;
-
-&lt;p&gt;葛优演《色·戒》：&lt;br /&gt;
-王佳芝：鸽子蛋？你个猥琐汉奸，给我鹅卵石都要干掉你！&lt;/p&gt;
-
-&lt;p&gt;葛优演《投名状》：&lt;br /&gt;
-庞青山：地主家也没有余粮了，到哪给你们去弄馒头呀？&lt;/p&gt;
-
-&lt;p&gt;葛优演《集结号》：&lt;br /&gt;
-谷子地：卧槽，团长，一看您这面相就知道是打入我军内部的敌特分子啊～哪能让您给卖了呢？&lt;br /&gt;
-:023:&lt;/p&gt;
-
-&lt;p&gt;三部大片只看了《色·戒》，一句话概括就是，一个试图在错误的对象身上得到爱与关怀的女人，和一个只爱自己的自私的寂寞男人。其他的噱头就不必废话了。&lt;/p&gt;
-
-&lt;p&gt;试了一下 Maxthon 2下对应 Firefox
-的一些插件，Diigo、Del.icio.us、TinyUrl、Twitter
-的插件功能都太简陋了，相当于用 Firefox
-中的书签实现，CoLT、InformEnter、It&amp;rsquo;s All Text
-等扩展则还没有对应的插件，始终是不顺手啊…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%91%9B%E4%BC%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不可靠</title>
+      <link>https://ioerr.github.io/posts/bukekao/</link>
+      <pubDate>Tue, 25 Dec 2007 15:57:50 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bukekao/</guid>
+      <description>这几天很流行的一段话： 年底三部大片的启示： 色戒：女人不可靠； 投名状：兄弟也不可靠； 集结号：组织更不可靠 。 赫然发现往年热门贺岁片少不了的葛爷不</description>
+      <content:encoded><![CDATA[<p>这几天很流行的一段话：<br>
+年底三部大片的启示：<br>
+色戒：女人不可靠；<br>
+投名状：兄弟也不可靠；<br>
+集结号：组织更不可靠 。</p>
+<p>赫然发现往年热门贺岁片少不了的葛爷不在这三部大片中，据说和姜文合作拍了《白鹿原》，感觉又是个必遭剪刀的影片啊。<br>
+不过葛优要是演这三部大片，也确实不太好办，让我们想象一下：</p>
+<p>葛优演《色·戒》：<br>
+王佳芝：鸽子蛋？你个猥琐汉奸，给我鹅卵石都要干掉你！</p>
+<p>葛优演《投名状》：<br>
+庞青山：地主家也没有余粮了，到哪给你们去弄馒头呀？</p>
+<p>葛优演《集结号》：<br>
+谷子地：卧槽，团长，一看您这面相就知道是打入我军内部的敌特分子啊～哪能让您给卖了呢？<br>
+:023:</p>
+<p>三部大片只看了《色·戒》，一句话概括就是，一个试图在错误的对象身上得到爱与关怀的女人，和一个只爱自己的自私的寂寞男人。其他的噱头就不必废话了。</p>
+<p>试了一下 Maxthon 2下对应 Firefox<br>
+的一些插件，Diigo、Del.icio.us、TinyUrl、Twitter<br>
+的插件功能都太简陋了，相当于用 Firefox<br>
+中的书签实现，CoLT、InformEnter、It&rsquo;s All Text<br>
+等扩展则还没有对应的插件，始终是不顺手啊…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

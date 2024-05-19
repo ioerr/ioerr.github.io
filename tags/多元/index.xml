@@ -1,106 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>多元 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%A4%9A%E5%85%83/</link>
     <description>Recent content in 多元 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 09 Mar 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%A4%9A%E5%85%83/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>尊重认知差异，隔离试验风险</title>
-        <link>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</link>
-        <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</guid>
-        <description>&lt;p&gt;在知乎上 &lt;a href=&#34;https://www.zhihu.com/question/581806122/&#34;&gt;ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？&lt;/a&gt;的&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;回答&lt;/a&gt;中，回答者&lt;a href=&#34;https://www.zhihu.com/people/hua-yan&#34;&gt;华严&lt;/a&gt;的核心观点是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;人的行为对市场的影响很难预测。&lt;br /&gt;
-技术演进基本都是每一小步都需要获得正反馈，在正反馈和负反馈各自的激励下走出技术发展的实际路径，而对市场环境的粗暴干预则会改变激励机制，从而影响技术路径。&lt;br /&gt;
-不必要的干预在前期所带来的某项成本的微小提升，可能会直接影响到技术路径的选择和演化，这个效应不断被放大，最后造成天壤之别的结果。&lt;br /&gt;
-你对市场的干预和限制越多，市场给你的惊喜就越少，经济学规律是公平的。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;电子游戏的禁令、版号收紧、言论控制、监管审批等等都是干预和限制的例子。&lt;/p&gt;
-
-&lt;p&gt;有的人不理解，认为这个回答是事后诸葛亮，是被 ChatGPT 吓到后的愤怒发泄、情绪输出，是为无能推卸责任找借口，最终将问题归咎于意识形态是掺杂&lt;a href=&#34;../jiadai-sihuo-he-fuduji&#34;&gt;私货&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;干预每一步造成的微小影响，本来就不是每个人都能够认同的。&lt;br /&gt;
-你说有因果关系，他说没有因果关系，最终谁也说服不了谁，因为两类人的认知就不一样。&lt;br /&gt;
-社会发展又不是实验室里的试验，能够严格控制变量，你动了 A，B 就一定会发生的，最终还是看每个人的认知能力。&lt;/p&gt;
-
-&lt;p&gt;而认知的差异大多来自于对市场与技术演进机制的认识不同，这个认识的差异决定了，拿任何现实中的例子和数据出来说，都只会固化、加强自己的观点。&lt;br /&gt;
-最后看上去就成了信念甚至信仰的争论，互指对方是傻逼，这么简单的因果关系都看不出。&lt;/p&gt;
-
-&lt;p&gt;这也就是为什么要鼓励多元观念并存和风险隔离。&lt;br /&gt;
-最理想的是（可惜现实不可能这么理想）每个人都有自己的&lt;a href=&#34;https://www.youtube.com/watch?v=Ka8_-ciDJfA&#34;&gt;试验田&lt;/a&gt;，可以自愿合作、合伙、合并，对自己观念落到现实的结果负责，与人基本无害。&lt;br /&gt;
-你说你有理，结果最差大不了也就是在试验田范围内自我毁灭了。&lt;/p&gt;
-
-&lt;p&gt;最怕就是那种，我觉得我有理，我通天晓地掌握了历史规律，未来尽在掌握，你们这些废物做的都是奇技淫巧无用之功，所有人必须集中力量听我统一指挥。&lt;br /&gt;
-结果未来的发展不是那么称心如意，最后出岔子偏离设想的道路了，又变成甩锅第一名。&lt;br /&gt;
-出发点是好的，大方向没有问题，就是执行有一点偏差和意外，只要其他人去死一死，剩下的人继续保持信念、万众一心，最终必将胜利。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>审查的问题</title>
-        <link>https://ioerr.github.io/posts/shencha-de-wenti/</link>
-        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shencha-de-wenti/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;没有审查的网站大多数人（99.99%）受不了。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;人们不反感社区自治的审查，比如里屋论坛，私人所有，管理员说了算，爱玩玩，不玩滚。&lt;/p&gt;
-
-&lt;p&gt;饱受批评的审查问题是：&lt;br /&gt;
-一、没有死角余隙的全面覆盖，小众内容也无容身之处。&lt;br /&gt;
-二、违背公理常识，只是正常的表达也要受影响，反而招来更多反感。&lt;br /&gt;
-三、借用马克思所说，是政府垄断的批评。&lt;br /&gt;
-四、不相信多元社区自我治理的能力和大众的辨别能力，却对自己的治理和辨别水平莫名自信。&lt;br /&gt;
-五、审查没有标准，标准仅在审查者心中，在事后才落实到惩罚。&lt;br /&gt;
-这连法无定法都算不上，因为就没有法治之法。&lt;br /&gt;
-这也根源于法治观念的差异：&lt;br /&gt;
-如果法只用于维护治理者的利益，那么自然看最终结果的利弊再定“法”最好；&lt;br /&gt;
-反之则是认为应用于降低社会成员之间的沟通、交易、博弈成本，进而降低治理成本。&lt;/p&gt;
-
-&lt;p&gt;为这种审查辩护的，一是光谱正好和审查者重合，累及不到自身或无伤大雅，就好像加税加不到自己身上自然举双手赞成，二是对治理的认知就天然排斥多元分布自治的模式，就像古人无法理解，怎能一日无君，怎能自由择业，怎能…，那天下不得大乱？视批评审查形同谋逆乱政。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>鸿鹄安知燕雀之志？</title>
-        <link>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</link>
-        <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</guid>
-        <description>&lt;p&gt;在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。&lt;br /&gt;
-不认同这一志向的燕雀，都算是失败者。&lt;br /&gt;
-鸿鹄认为现实世界一向如此也只能如此，而燕雀则自有其生存之道。&lt;br /&gt;
-燕雀也可以反问一句，鸿鹄安知燕雀之志？&lt;/p&gt;
-
-&lt;p&gt;在价值观多元的社会中，鸿鹄有鸿鹄的追求，燕雀有燕雀的活法，井水不犯河水，不必计较谁高谁低。&lt;br /&gt;
-但习惯了等级社会的人，要认知到并且接受这一点，很难。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%A4%9A%E5%85%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>尊重认知差异，隔离试验风险</title>
+      <link>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</guid>
+      <description>在知乎上 ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？的回答中，回答者华严的核心观点是： 人的行为对市场的影响很难预测。 技术演进基本</description>
+      <content:encoded><![CDATA[<p>在知乎上 <a href="https://www.zhihu.com/question/581806122/">ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？</a>的<a href="https://www.zhihu.com/question/581806122/answer/2887595601">回答</a>中，回答者<a href="https://www.zhihu.com/people/hua-yan">华严</a>的核心观点是：</p>
+<blockquote>
+<p>人的行为对市场的影响很难预测。<br>
+技术演进基本都是每一小步都需要获得正反馈，在正反馈和负反馈各自的激励下走出技术发展的实际路径，而对市场环境的粗暴干预则会改变激励机制，从而影响技术路径。<br>
+不必要的干预在前期所带来的某项成本的微小提升，可能会直接影响到技术路径的选择和演化，这个效应不断被放大，最后造成天壤之别的结果。<br>
+你对市场的干预和限制越多，市场给你的惊喜就越少，经济学规律是公平的。</p>
+</blockquote>
+<p>电子游戏的禁令、版号收紧、言论控制、监管审批等等都是干预和限制的例子。</p>
+<p>有的人不理解，认为这个回答是事后诸葛亮，是被 ChatGPT 吓到后的愤怒发泄、情绪输出，是为无能推卸责任找借口，最终将问题归咎于意识形态是掺杂<a href="../jiadai-sihuo-he-fuduji">私货</a>。</p>
+<p>干预每一步造成的微小影响，本来就不是每个人都能够认同的。<br>
+你说有因果关系，他说没有因果关系，最终谁也说服不了谁，因为两类人的认知就不一样。<br>
+社会发展又不是实验室里的试验，能够严格控制变量，你动了 A，B 就一定会发生的，最终还是看每个人的认知能力。</p>
+<p>而认知的差异大多来自于对市场与技术演进机制的认识不同，这个认识的差异决定了，拿任何现实中的例子和数据出来说，都只会固化、加强自己的观点。<br>
+最后看上去就成了信念甚至信仰的争论，互指对方是傻逼，这么简单的因果关系都看不出。</p>
+<p>这也就是为什么要鼓励多元观念并存和风险隔离。<br>
+最理想的是（可惜现实不可能这么理想）每个人都有自己的<a href="https://www.youtube.com/watch?v=Ka8_-ciDJfA">试验田</a>，可以自愿合作、合伙、合并，对自己观念落到现实的结果负责，与人基本无害。<br>
+你说你有理，结果最差大不了也就是在试验田范围内自我毁灭了。</p>
+<p>最怕就是那种，我觉得我有理，我通天晓地掌握了历史规律，未来尽在掌握，你们这些废物做的都是奇技淫巧无用之功，所有人必须集中力量听我统一指挥。<br>
+结果未来的发展不是那么称心如意，最后出岔子偏离设想的道路了，又变成甩锅第一名。<br>
+出发点是好的，大方向没有问题，就是执行有一点偏差和意外，只要其他人去死一死，剩下的人继续保持信念、万众一心，最终必将胜利。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>审查的问题</title>
+      <link>https://ioerr.github.io/posts/shencha-de-wenti/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shencha-de-wenti/</guid>
+      <description>没有审查的网站大多数人（99.99%）受不了。 人们不反感社区自治的审查，比如里屋论坛，私人所有，管理员说了算，爱玩玩，不玩滚。 饱受批评的审查</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>没有审查的网站大多数人（99.99%）受不了。</p>
+</blockquote>
+<p>人们不反感社区自治的审查，比如里屋论坛，私人所有，管理员说了算，爱玩玩，不玩滚。</p>
+<p>饱受批评的审查问题是：<br>
+一、没有死角余隙的全面覆盖，小众内容也无容身之处。<br>
+二、违背公理常识，只是正常的表达也要受影响，反而招来更多反感。<br>
+三、借用马克思所说，是政府垄断的批评。<br>
+四、不相信多元社区自我治理的能力和大众的辨别能力，却对自己的治理和辨别水平莫名自信。<br>
+五、审查没有标准，标准仅在审查者心中，在事后才落实到惩罚。<br>
+这连法无定法都算不上，因为就没有法治之法。<br>
+这也根源于法治观念的差异：<br>
+如果法只用于维护治理者的利益，那么自然看最终结果的利弊再定“法”最好；<br>
+反之则是认为应用于降低社会成员之间的沟通、交易、博弈成本，进而降低治理成本。</p>
+<p>为这种审查辩护的，一是光谱正好和审查者重合，累及不到自身或无伤大雅，就好像加税加不到自己身上自然举双手赞成，二是对治理的认知就天然排斥多元分布自治的模式，就像古人无法理解，怎能一日无君，怎能自由择业，怎能…，那天下不得大乱？视批评审查形同谋逆乱政。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>鸿鹄安知燕雀之志？</title>
+      <link>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</guid>
+      <description>在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。 不认同这一志向的燕雀，都算是失败者。 鸿鹄认为现实世界</description>
+      <content:encoded><![CDATA[<p>在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。<br>
+不认同这一志向的燕雀，都算是失败者。<br>
+鸿鹄认为现实世界一向如此也只能如此，而燕雀则自有其生存之道。<br>
+燕雀也可以反问一句，鸿鹄安知燕雀之志？</p>
+<p>在价值观多元的社会中，鸿鹄有鸿鹄的追求，燕雀有燕雀的活法，井水不犯河水，不必计较谁高谁低。<br>
+但习惯了等级社会的人，要认知到并且接受这一点，很难。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

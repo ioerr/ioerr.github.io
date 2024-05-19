@@ -1,79 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>恶意 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%81%B6%E6%84%8F/</link>
     <description>Recent content in 恶意 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%81%B6%E6%84%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>辱华</title>
-        <link>https://ioerr.github.io/posts/ruhua/</link>
-        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ruhua/</guid>
-        <description>&lt;p&gt;伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客&lt;a href=&#34;https://twitter.com/Byron_Wan/status/1748941110616211880&#34;&gt;发生了冲突&lt;/a&gt;，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自有分寸。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/lilaoshizuikeai/status/1749165763699589313&#34;&gt;看到有人说&lt;/a&gt;，Brendan Kavanagh 在冲突后，故意弹了一首在西方很著名的带有歧视意味的《Ching Cheng Hanji》，其采样了中国戏剧《铡美案》中的音乐片段。&lt;/p&gt;
-
-&lt;p&gt;挺好奇为什么弹《铡美案》的取样音乐也算辱华，这辱华的标准也太宽泛了吧。&lt;br /&gt;
-查了一下 &lt;a href=&#34;https://knowyourmeme.com/memes/ching-cheng-hanji&#34;&gt;meme 来源&lt;/a&gt;，不得不感叹 meme 的产生和传播总是出人意料啊。&lt;/p&gt;
-
-&lt;p&gt;由此想到，辱华这个事情值得深入讨论。&lt;/p&gt;
-
-&lt;p&gt;首先，如果一段素材经过加工、传播，比如铡美案中的音乐以及最初拿它取样的歌曲，当时并没有恶意，那么它本身是否辱华？&lt;br /&gt;
-如果算是的话，那么这相当于将艺术品的解释权拱手让给了所有恶意辱华的人，一旦被其观念污染，就再也不可能回归正常的诠释。&lt;/p&gt;
-
-&lt;p&gt;其次，在日常生活中，我们所感知到的侮辱，除了使用的素材之外，更重要的是感受到的恶意。一件平平无奇的日常事物，叠加上满满的恶意，一样也可以用来侮辱人。&lt;br /&gt;
-但是现在似乎不管主观感受如何，只要出现了特定的素材，甚至相近的素材，就一律认定为辱华。还总有人把别人都察觉不到的侮辱广而告之发扬光大，主动让更多的人感觉或者感知到侮辱。&lt;br /&gt;
-如果有心智不成熟的傻逼骂我一句听不懂的话，我根本不理会，然后旁边有人主动翻译成我能听懂的话，我虽然感受到了恶意，但还是觉得没必要和这种人计较，这时有人说，你怎么可以没觉得受到侮辱，你要不上去揍他你就是孬种，我会觉得这位也是傻逼。&lt;br /&gt;
-又好比路上有一块干结的牛粪，大多数路人只当作一块臭石头，没当回事。&lt;br /&gt;
-偏偏有人要跑过去拿棍子戳烂甩得到处都是，大声喊，这里有一坨屎诶！&lt;br /&gt;
-看到其他人若无其事，还要挑起来送到每个人眼前说，屎诶，是屎诶！&lt;br /&gt;
-一般这种做法我们地方方言有句话叫，屎不臭，挑着臭，这种人叫搅屎棍。&lt;/p&gt;
-
-&lt;p&gt;第三，日常生活中我们也会遇到各种恶意，有的有明确的判断标准可以用法律手段解决，有的够不上违法或执法成本高，反应强烈反而激励对方越战越勇，比如典型的网络巨魔。&lt;br /&gt;
-在日常生活中，每个人有自己的一套解决之道，但在辱华的话题上似乎任何一方都只允许有一种观点存在。&lt;/p&gt;
-
-&lt;p&gt;第四，持个人主义观点的人可能会认为，辱华是辱的抽象集体概念，不关我个人的事。&lt;br /&gt;
-但这个前提是，对方也都是个人主义者，他不是在针对你。&lt;br /&gt;
-在线下的生活中，如果对方将对集体概念的恶意实实在在落到了具体的人身上，这个时候说与个人无关，解决不了现实问题。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>回不来的信任</title>
-        <link>https://ioerr.github.io/posts/huibulai-de-xinren/</link>
-        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/huibulai-de-xinren/</guid>
-        <description>&lt;p&gt;以前是无图无真相，或者有电话录音就能坐实。&lt;br /&gt;
-后来伪造图片和音频太多太厉害，变成有视频才有真相。&lt;br /&gt;
-再后来视频也能修，变成有直播才有真相。&lt;br /&gt;
-现在连直播都可以实时“美化”，发什么形式的内容都不可全信。&lt;/p&gt;
-
-&lt;p&gt;最终，还是靠信息发布人的信用。&lt;br /&gt;
-信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。&lt;/p&gt;
-
-&lt;p&gt;同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。&lt;br /&gt;
-而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。&lt;br /&gt;
-互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。&lt;br /&gt;
-人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%81%B6%E6%84%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>辱华</title>
+      <link>https://ioerr.github.io/posts/ruhua/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ruhua/</guid>
+      <description>伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客发生了冲突，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自</description>
+      <content:encoded><![CDATA[<p>伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客<a href="https://twitter.com/Byron_Wan/status/1748941110616211880">发生了冲突</a>，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自有分寸。</p>
+<p><a href="https://twitter.com/lilaoshizuikeai/status/1749165763699589313">看到有人说</a>，Brendan Kavanagh 在冲突后，故意弹了一首在西方很著名的带有歧视意味的《Ching Cheng Hanji》，其采样了中国戏剧《铡美案》中的音乐片段。</p>
+<p>挺好奇为什么弹《铡美案》的取样音乐也算辱华，这辱华的标准也太宽泛了吧。<br>
+查了一下 <a href="https://knowyourmeme.com/memes/ching-cheng-hanji">meme 来源</a>，不得不感叹 meme 的产生和传播总是出人意料啊。</p>
+<p>由此想到，辱华这个事情值得深入讨论。</p>
+<p>首先，如果一段素材经过加工、传播，比如铡美案中的音乐以及最初拿它取样的歌曲，当时并没有恶意，那么它本身是否辱华？<br>
+如果算是的话，那么这相当于将艺术品的解释权拱手让给了所有恶意辱华的人，一旦被其观念污染，就再也不可能回归正常的诠释。</p>
+<p>其次，在日常生活中，我们所感知到的侮辱，除了使用的素材之外，更重要的是感受到的恶意。一件平平无奇的日常事物，叠加上满满的恶意，一样也可以用来侮辱人。<br>
+但是现在似乎不管主观感受如何，只要出现了特定的素材，甚至相近的素材，就一律认定为辱华。还总有人把别人都察觉不到的侮辱广而告之发扬光大，主动让更多的人感觉或者感知到侮辱。<br>
+如果有心智不成熟的傻逼骂我一句听不懂的话，我根本不理会，然后旁边有人主动翻译成我能听懂的话，我虽然感受到了恶意，但还是觉得没必要和这种人计较，这时有人说，你怎么可以没觉得受到侮辱，你要不上去揍他你就是孬种，我会觉得这位也是傻逼。<br>
+又好比路上有一块干结的牛粪，大多数路人只当作一块臭石头，没当回事。<br>
+偏偏有人要跑过去拿棍子戳烂甩得到处都是，大声喊，这里有一坨屎诶！<br>
+看到其他人若无其事，还要挑起来送到每个人眼前说，屎诶，是屎诶！<br>
+一般这种做法我们地方方言有句话叫，屎不臭，挑着臭，这种人叫搅屎棍。</p>
+<p>第三，日常生活中我们也会遇到各种恶意，有的有明确的判断标准可以用法律手段解决，有的够不上违法或执法成本高，反应强烈反而激励对方越战越勇，比如典型的网络巨魔。<br>
+在日常生活中，每个人有自己的一套解决之道，但在辱华的话题上似乎任何一方都只允许有一种观点存在。</p>
+<p>第四，持个人主义观点的人可能会认为，辱华是辱的抽象集体概念，不关我个人的事。<br>
+但这个前提是，对方也都是个人主义者，他不是在针对你。<br>
+在线下的生活中，如果对方将对集体概念的恶意实实在在落到了具体的人身上，这个时候说与个人无关，解决不了现实问题。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>回不来的信任</title>
+      <link>https://ioerr.github.io/posts/huibulai-de-xinren/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huibulai-de-xinren/</guid>
+      <description>以前是无图无真相，或者有电话录音就能坐实。 后来伪造图片和音频太多太厉害，变成有视频才有真相。 再后来视频也能修，变成有直播才有真相。 现在连直播</description>
+      <content:encoded><![CDATA[<p>以前是无图无真相，或者有电话录音就能坐实。<br>
+后来伪造图片和音频太多太厉害，变成有视频才有真相。<br>
+再后来视频也能修，变成有直播才有真相。<br>
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。</p>
+<p>最终，还是靠信息发布人的信用。<br>
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。</p>
+<p>同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。<br>
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。<br>
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。<br>
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

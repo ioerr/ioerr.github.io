@@ -1,148 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>遗传 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%81%97%E4%BC%A0/</link>
     <description>Recent content in 遗传 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%81%97%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>基因-文化协同进化</title>
-        <link>https://ioerr.github.io/posts/gene-culture-coveolution/</link>
-        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/gene-culture-coveolution/</guid>
-        <description>&lt;p&gt;在《&lt;a href=&#34;../tanlan-de-danao/&#34;&gt;贪婪的大脑&lt;/a&gt;》的读书笔记中，曾经提到过，生物演化的机制有两种，一种利用基因保存和传承遗传信息，另一种则利用大脑。&lt;/p&gt;
-
-&lt;p&gt;正好在读爱德华·威尔逊（Edward O. Wilson）的《知识大融通（Consilience - The Unity of Knowledge）》时，看到他早在1981年就和拉姆斯登（Charles J. Lumsden）一起提出“基因-文化协同进化”的概念。&lt;/p&gt;
-
-&lt;p&gt;这种协同进化的机制简单来说就是：&lt;/p&gt;
-
-&lt;p&gt;文化的产生根植和受限于按照基因生长的大脑。&lt;br /&gt;
-文化的演变比基因更加快速、灵活，更容易传播、变化和适应环境。&lt;br /&gt;
-文化带给群体/个体不同的竞争力，通过竞争和自然选择，反过来决定哪些基因能够留存和传播。&lt;br /&gt;
-两者不断相互影响，协同进化。&lt;/p&gt;
-
-&lt;p&gt;不但有两种机制，而且两者之间互相影响，共同作用于人类的进化。&lt;/p&gt;
-
-&lt;p&gt;以下是原书中的部分摘录：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“基因-文化协同进化”（gene-culture coveolution）的精华是：&lt;br /&gt;
-第一，在基因进化的同时，人类也相对应地添加了文化的进化；&lt;br /&gt;
-第二，这两种形式的进化过程互相关联。&lt;br /&gt;
-文化由人类集体的心灵产生，其中的每一个心灵，又来自基因所架构的人类大脑。因此基因和文化是不可分割的，但是它们之间的关联具有某种惮性，而且大半还未被评估。&lt;br /&gt;
-这个关联相当曲折：基因采取了外遗传法则（epigenetic rule）， 也就是神经元在认知发展过程中所遵行的途径和规则，个别的心灵就是借此而自我组合的。人类的心灵由生到死，都是靠着吸收既有文化中可获取的成分而成长，同时借由个人大脑天生固有的外遗传法则来进行选择。&lt;/p&gt;
-
-&lt;p&gt;文化身为基因-文化协同进化的一部分，在每个世代，都会在所有的个人心灵中重建。当口头文化得到文字和艺术的补充和支持时，文化的发展因而无限扩大，甚至可以隔代相传。然而外遗传法则具有特殊倾向的基本影响却持续不变，既是遗传的，也是无法根除的。&lt;/p&gt;
-
-&lt;p&gt;继承基因外遗传法则的人，比缺乏这些法则或具备较弱法则的人，更能在周遭的坏境和文化中具有较佳的生存和緊殖状态。借由这种方法，并经过许多世代之后．较为成功的外遗传法则与造成这些法则的基因，将在族群中广为传播。结果人类就经由遗传上的天择，在行为上发生了进化，正如大脑结构和大脑生理上的进化一样。&lt;/p&gt;
-
-&lt;p&gt;我们可以在下述的文字中，更清楚地看到遗传所带来的束缚和文化所演的角色。某些文化规范比其他与其竞争的规范更容易生存和繁殖，这使得文化能够和基因并行进化，而且速度往往更快。文化进化的步调愈快，基因和文化之间的关联就愈松散，虽然不会完全断裂。文化借着精細调整后的适应能力，快速因应环境中的变化，但基因无法产生和传播相当的适应力。从这个层次来看，人类和其他所有动物基本上是有别的。&lt;/p&gt;
-
-&lt;p&gt;基因-文化协同进化的例子：&lt;br /&gt;
-天生容易对蛇感到害怕或着迷，是一种外遗传法则，文化则是依据这种害怕和着迷的反应．创造出相关的隐喻和描述。&lt;br /&gt;
-由于受到与蛇相关的外遗传法则的指引，在亚马孙巫师的逸闻和艺术作品中占据卓越地位的梦中巨蛇形象，将继续不断地滋润他们世代相传的文化内容。&lt;br /&gt;
-在人类进化过程里，毒蛇几乎在所有社会中都是致命的重要原因。借由梦中巨蛇的形象和文化里的符号来加强我们对毒蛇的注意力，无疑也会增大我们的生存机会。&lt;br /&gt;
-在一个文化中，梦中巨蛇和其他巨蛇符号的出现率，与环境中真实毒蛇的数量相关。然而，由于外遗传法则赋予巨蛇形象一种令人畏惧和着迷的威力，巨蛇很轻易地就具备了神话意涵。它们在不同的文化中，以医疗人员、传信使者、恶魔和神明等各种角色出现。&lt;/p&gt;
-
-&lt;p&gt;最可能准确描述基因-文化协同进化的说法是：天择在基因进化上，平行添加了文化进化，而且这两种进化形式互相关联。我们有时会认为，不论结局是好是坏，我们不仅受到基因的限制，同时还受到文化的局限。&lt;/p&gt;
-
-&lt;p&gt;不论采不采用这个隐喻，不可否认的真理是：每一个社会都会创造文化，同时又被文化所创造。通过不断地修饰、装扮，交换礼物，分享食物和发酵饮料，以及听音乐和讲故事等活动，象征性的心灵共同生活得以成形，并且把群体所面对的外在现实统一成属于这个群体的梦想世界；不论是在森林、绿地、沙漠、冰天雪地或城市中，这些文化活动都能产生一个道德和礼仪的网络，把族群中的每一个成员都维系在相同的命运上。&lt;br /&gt;
-文化的建构包含了具有生产力的语言，而组成语言的随意文字和符号，则是纯粹为了传达资讯而发明的。以此来看，人类是独一无二的。虽然动物的沟通系统有时也非常复杂，但它们既不是发明者，也不会把这个系统传教给其他动物。&lt;/p&gt;
-
-&lt;p&gt;基因指定了外遗传法则，也就是感觉和心理发展的规律，也是产生文化的动力和渠道。&lt;br /&gt;
-文化有助于决定哪一些基因能够存活并且世代繁衍。&lt;br /&gt;
-新生的成功基因会改变族群中的外遗传法则。&lt;br /&gt;
-受到更改的外遗传法则会改变文化生成渠道的方向和有效程度。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>从一封垃圾邮件聊起</title>
-        <link>https://ioerr.github.io/posts/cong-yifeng-lajiyoujian-liaoqi/</link>
-        <pubDate>Mon, 21 May 2007 15:21:43 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/cong-yifeng-lajiyoujian-liaoqi/</guid>
-        <description>&lt;p&gt;看到 &lt;a href=&#34;http://www.donews.net/tinyfool/&#34;&gt;Tinyfool&lt;/a&gt;
-&lt;a href=&#34;http://www.tinydust.net/jsjy/sxl/2007/05/blog-post_20.html&#34;&gt;从垃圾信聊起&lt;/a&gt;，正好今天临近下班的时候，我看到一封有意思的垃圾信，也来聊一聊。&lt;/p&gt;
-
-&lt;p&gt;在 TiddlyWiki
-的群组邮件中出现了一封神创论者发送的维护神创论和批驳达尔文进化论的邮件，内容蛮欢乐的，所以抽几条出来玩玩：&lt;/p&gt;
-
-&lt;p&gt;“6. Universe moving towards entropy (or heat death).”&lt;br /&gt;
-神创论者都是物理学不及格吗？到现在还错误的使用热力学第二定律。&lt;br /&gt;
-背景：神创论认为，根据热力学第二定律，熵总是增加的，因此自然界不可能出现由简单到复杂的进化，生命也就不可能不是神创的。可是他们根本就没看清楚，或者没打算看清楚，热力学第二定律成立的条件有“封闭的系统”这几个字。&lt;/p&gt;
-
-&lt;p&gt;“All humans seem to have descended from this &amp;ldquo;Eve&amp;rdquo; and her male partner.
-This idea supports the Bible.”&lt;br /&gt;
-我记得partner复数形式是要加s的嘛。&lt;br /&gt;
-背景：通过对线粒体遗传的研究，科学家发现人类可能都是某位非洲女性的后代（具体情况请自行
-google，我已经不记得原始出处的书名了）。但线粒体的遗传线索好像和男性无关，因为精子中的线粒体很少，受精后就被榨干踹飞，不会留给新生儿。于是从线粒体遗传的线索出发，无法确定存在一个“非洲亚当”。而神创论者看到夏娃，就认为有一个对应的亚当，然后就说这个科学结论是支持圣经的观点的，但是他们真的考虑到多个亚当配一个夏娃的情况吗？何况，“非洲夏娃”也不是当时唯一的女性，这和圣经还是有很大区别的吧。&lt;/p&gt;
-
-&lt;p&gt;“True scientists trust in the Creator of the Universe. Examples: Newton,
-Pasteur, Linnaeus, Faraday, Pascal, Kelvin, Maxwell, Kepler, etc.”&lt;br /&gt;
-终于放过了爱因斯坦，不容易啊。&lt;br /&gt;
-背景：基督徒喜欢拿爱因斯坦谈到上帝的几句话说爱因斯坦也信奉基督教。&lt;/p&gt;
-
-&lt;p&gt;“Mutations are harmful, deadly, and destructive to genetic codes.
-Example: Cancer.”&lt;br /&gt;
-核电站会给周边地区带来毁灭性的灾难，比如切尔诺贝利。&lt;br /&gt;
-背景：神创论者认为基因变异是有害的，从不考虑概率虽小，但是不无可能的有益变异和没有负面影响的变异，举例也用癌症来吓唬人，顺着这个逻辑下去，核电站不用建设也就罢了，是不是汽车也不能开了？&lt;/p&gt;
-
-&lt;p&gt;“Carbon-14 production rate exceeds decay by 30%. Thus, Earth&amp;rsquo;s
-atmosphere is less than 30,000 years old.”&lt;br /&gt;
-谁说用碳-14测定地球年龄了？XD&lt;br /&gt;
-背景：碳-14同位素经常用于测定化石的年代，但是由于其半衰期不够长，所以用同位素衰变来测定地球年龄一般采用其他元素，如铀、钍的同位素衰变成铅的同位素等等。&lt;/p&gt;
-
-&lt;p&gt;“10. A Theory: the Earth is near the center of the Universe. This idea
-supports the Bible.”&lt;br /&gt;
-原来改成near就行了么？XD&lt;br /&gt;
-背景：“地球中心论”应该不用再介绍了吧，如今在句子中增加一个“near”，这么一改就可以支持圣经了？&lt;/p&gt;
-
-&lt;p&gt;“9. Saturn has three rings. They have been set in place.”&lt;br /&gt;
-原来脑残星人的天文学知识如此发达，难怪可以入侵蓝星。&lt;br /&gt;
-背景：神创论者认为土星的三个光环是很神奇的存在，只有神的创造才能够解释。&lt;/p&gt;
-
-&lt;p&gt;“About the atheist&amp;rsquo;s &amp;ldquo;Invisible Pink Unicorn:&amp;rdquo; if she did not create the
-Universe, then it is not important to me if she exists or not.”&lt;br /&gt;
-所以FSM必然存在且创造了世界。&lt;br /&gt;
-背景：关于飞天意面怪，Flying Spaghetti Monster，FSM
-的介绍，请看我以前的文章《&lt;a href=&#34;http://calon.weblogs.us/zhihuishejilun_de_zhenglun/&#34;&gt;智慧设计论的争论&lt;/a&gt;》。&lt;/p&gt;
-
-&lt;p&gt;“If you accuse me of &amp;ldquo;lying, hypocrisy, etc.,&amp;rdquo; I&amp;rsquo;m not affected with
-your accusations. The Lord knows my intentions.”&lt;br /&gt;
-这就是传说中的死猪不怕开水烫，挖坑闭眼夹裤裆了。&lt;/p&gt;
-
-&lt;p&gt;神创论者的垃圾邮件总是比其它的spam有更多乐趣啊。&lt;/p&gt;
-
-&lt;p&gt;另外还有这么一句对其他基督徒说的：&lt;br /&gt;
-“Don&amp;rsquo;t waste your time with those who don&amp;rsquo;t want to trust in God. It is
-enough that we warn them only ONCE. If they refuse to repent, it&amp;rsquo;s
-because the Lord did not transform their &amp;ldquo;hearts.&amp;ldquo;”&lt;br /&gt;
-所以如果你是个神创论者，又觉得本篇文章不爽，大可以不用浪费时间了。&lt;/p&gt;
-
-&lt;p&gt;本来上面这些话是发布在 Twitter 的，可是今天 Twitter
-机器人生病，回家一看，都没有发布成功。好在 Gmail Chats
-记录中皆一一记录在案，真是万岁！&lt;/p&gt;
-
-&lt;p&gt;另：Gmail 的空间使用率数字换成了蓝色的图示，什么时候变的？难道我火星了？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%81%97%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基因-文化协同进化</title>
+      <link>https://ioerr.github.io/posts/gene-culture-coveolution/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/gene-culture-coveolution/</guid>
+      <description>在《贪婪的大脑》的读书笔记中，曾经提到过，生物演化的机制有两种，一种利用基因保存和传承遗传信息，另一种则利用大脑。 正好在读爱德华·威尔逊（E</description>
+      <content:encoded><![CDATA[<p>在《<a href="../tanlan-de-danao/">贪婪的大脑</a>》的读书笔记中，曾经提到过，生物演化的机制有两种，一种利用基因保存和传承遗传信息，另一种则利用大脑。</p>
+<p>正好在读爱德华·威尔逊（Edward O. Wilson）的《知识大融通（Consilience - The Unity of Knowledge）》时，看到他早在1981年就和拉姆斯登（Charles J. Lumsden）一起提出“基因-文化协同进化”的概念。</p>
+<p>这种协同进化的机制简单来说就是：</p>
+<p>文化的产生根植和受限于按照基因生长的大脑。<br>
+文化的演变比基因更加快速、灵活，更容易传播、变化和适应环境。<br>
+文化带给群体/个体不同的竞争力，通过竞争和自然选择，反过来决定哪些基因能够留存和传播。<br>
+两者不断相互影响，协同进化。</p>
+<p>不但有两种机制，而且两者之间互相影响，共同作用于人类的进化。</p>
+<p>以下是原书中的部分摘录：</p>
+<blockquote>
+<p>“基因-文化协同进化”（gene-culture coveolution）的精华是：<br>
+第一，在基因进化的同时，人类也相对应地添加了文化的进化；<br>
+第二，这两种形式的进化过程互相关联。<br>
+文化由人类集体的心灵产生，其中的每一个心灵，又来自基因所架构的人类大脑。因此基因和文化是不可分割的，但是它们之间的关联具有某种惮性，而且大半还未被评估。<br>
+这个关联相当曲折：基因采取了外遗传法则（epigenetic rule）， 也就是神经元在认知发展过程中所遵行的途径和规则，个别的心灵就是借此而自我组合的。人类的心灵由生到死，都是靠着吸收既有文化中可获取的成分而成长，同时借由个人大脑天生固有的外遗传法则来进行选择。</p>
+<p>文化身为基因-文化协同进化的一部分，在每个世代，都会在所有的个人心灵中重建。当口头文化得到文字和艺术的补充和支持时，文化的发展因而无限扩大，甚至可以隔代相传。然而外遗传法则具有特殊倾向的基本影响却持续不变，既是遗传的，也是无法根除的。</p>
+<p>继承基因外遗传法则的人，比缺乏这些法则或具备较弱法则的人，更能在周遭的坏境和文化中具有较佳的生存和緊殖状态。借由这种方法，并经过许多世代之后．较为成功的外遗传法则与造成这些法则的基因，将在族群中广为传播。结果人类就经由遗传上的天择，在行为上发生了进化，正如大脑结构和大脑生理上的进化一样。</p>
+<p>我们可以在下述的文字中，更清楚地看到遗传所带来的束缚和文化所演的角色。某些文化规范比其他与其竞争的规范更容易生存和繁殖，这使得文化能够和基因并行进化，而且速度往往更快。文化进化的步调愈快，基因和文化之间的关联就愈松散，虽然不会完全断裂。文化借着精細调整后的适应能力，快速因应环境中的变化，但基因无法产生和传播相当的适应力。从这个层次来看，人类和其他所有动物基本上是有别的。</p>
+<p>基因-文化协同进化的例子：<br>
+天生容易对蛇感到害怕或着迷，是一种外遗传法则，文化则是依据这种害怕和着迷的反应．创造出相关的隐喻和描述。<br>
+由于受到与蛇相关的外遗传法则的指引，在亚马孙巫师的逸闻和艺术作品中占据卓越地位的梦中巨蛇形象，将继续不断地滋润他们世代相传的文化内容。<br>
+在人类进化过程里，毒蛇几乎在所有社会中都是致命的重要原因。借由梦中巨蛇的形象和文化里的符号来加强我们对毒蛇的注意力，无疑也会增大我们的生存机会。<br>
+在一个文化中，梦中巨蛇和其他巨蛇符号的出现率，与环境中真实毒蛇的数量相关。然而，由于外遗传法则赋予巨蛇形象一种令人畏惧和着迷的威力，巨蛇很轻易地就具备了神话意涵。它们在不同的文化中，以医疗人员、传信使者、恶魔和神明等各种角色出现。</p>
+<p>最可能准确描述基因-文化协同进化的说法是：天择在基因进化上，平行添加了文化进化，而且这两种进化形式互相关联。我们有时会认为，不论结局是好是坏，我们不仅受到基因的限制，同时还受到文化的局限。</p>
+<p>不论采不采用这个隐喻，不可否认的真理是：每一个社会都会创造文化，同时又被文化所创造。通过不断地修饰、装扮，交换礼物，分享食物和发酵饮料，以及听音乐和讲故事等活动，象征性的心灵共同生活得以成形，并且把群体所面对的外在现实统一成属于这个群体的梦想世界；不论是在森林、绿地、沙漠、冰天雪地或城市中，这些文化活动都能产生一个道德和礼仪的网络，把族群中的每一个成员都维系在相同的命运上。<br>
+文化的建构包含了具有生产力的语言，而组成语言的随意文字和符号，则是纯粹为了传达资讯而发明的。以此来看，人类是独一无二的。虽然动物的沟通系统有时也非常复杂，但它们既不是发明者，也不会把这个系统传教给其他动物。</p>
+<p>基因指定了外遗传法则，也就是感觉和心理发展的规律，也是产生文化的动力和渠道。<br>
+文化有助于决定哪一些基因能够存活并且世代繁衍。<br>
+新生的成功基因会改变族群中的外遗传法则。<br>
+受到更改的外遗传法则会改变文化生成渠道的方向和有效程度。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>从一封垃圾邮件聊起</title>
+      <link>https://ioerr.github.io/posts/cong-yifeng-lajiyoujian-liaoqi/</link>
+      <pubDate>Mon, 21 May 2007 15:21:43 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/cong-yifeng-lajiyoujian-liaoqi/</guid>
+      <description>看到 Tinyfool 从垃圾信聊起，正好今天临近下班的时候，我看到一封有意思的垃圾信，也来聊一聊。 在 TiddlyWiki 的群组邮件中出现了一封神创论者发送的维护神创论和批驳达</description>
+      <content:encoded><![CDATA[<p>看到 <a href="http://www.donews.net/tinyfool/">Tinyfool</a><br>
+<a href="http://www.tinydust.net/jsjy/sxl/2007/05/blog-post_20.html">从垃圾信聊起</a>，正好今天临近下班的时候，我看到一封有意思的垃圾信，也来聊一聊。</p>
+<p>在 TiddlyWiki<br>
+的群组邮件中出现了一封神创论者发送的维护神创论和批驳达尔文进化论的邮件，内容蛮欢乐的，所以抽几条出来玩玩：</p>
+<p>“6. Universe moving towards entropy (or heat death).”<br>
+神创论者都是物理学不及格吗？到现在还错误的使用热力学第二定律。<br>
+背景：神创论认为，根据热力学第二定律，熵总是增加的，因此自然界不可能出现由简单到复杂的进化，生命也就不可能不是神创的。可是他们根本就没看清楚，或者没打算看清楚，热力学第二定律成立的条件有“封闭的系统”这几个字。</p>
+<p>“All humans seem to have descended from this &ldquo;Eve&rdquo; and her male partner.<br>
+This idea supports the Bible.”<br>
+我记得partner复数形式是要加s的嘛。<br>
+背景：通过对线粒体遗传的研究，科学家发现人类可能都是某位非洲女性的后代（具体情况请自行<br>
+google，我已经不记得原始出处的书名了）。但线粒体的遗传线索好像和男性无关，因为精子中的线粒体很少，受精后就被榨干踹飞，不会留给新生儿。于是从线粒体遗传的线索出发，无法确定存在一个“非洲亚当”。而神创论者看到夏娃，就认为有一个对应的亚当，然后就说这个科学结论是支持圣经的观点的，但是他们真的考虑到多个亚当配一个夏娃的情况吗？何况，“非洲夏娃”也不是当时唯一的女性，这和圣经还是有很大区别的吧。</p>
+<p>“True scientists trust in the Creator of the Universe. Examples: Newton,<br>
+Pasteur, Linnaeus, Faraday, Pascal, Kelvin, Maxwell, Kepler, etc.”<br>
+终于放过了爱因斯坦，不容易啊。<br>
+背景：基督徒喜欢拿爱因斯坦谈到上帝的几句话说爱因斯坦也信奉基督教。</p>
+<p>“Mutations are harmful, deadly, and destructive to genetic codes.<br>
+Example: Cancer.”<br>
+核电站会给周边地区带来毁灭性的灾难，比如切尔诺贝利。<br>
+背景：神创论者认为基因变异是有害的，从不考虑概率虽小，但是不无可能的有益变异和没有负面影响的变异，举例也用癌症来吓唬人，顺着这个逻辑下去，核电站不用建设也就罢了，是不是汽车也不能开了？</p>
+<p>“Carbon-14 production rate exceeds decay by 30%. Thus, Earth&rsquo;s<br>
+atmosphere is less than 30,000 years old.”<br>
+谁说用碳-14测定地球年龄了？XD<br>
+背景：碳-14同位素经常用于测定化石的年代，但是由于其半衰期不够长，所以用同位素衰变来测定地球年龄一般采用其他元素，如铀、钍的同位素衰变成铅的同位素等等。</p>
+<p>“10. A Theory: the Earth is near the center of the Universe. This idea<br>
+supports the Bible.”<br>
+原来改成near就行了么？XD<br>
+背景：“地球中心论”应该不用再介绍了吧，如今在句子中增加一个“near”，这么一改就可以支持圣经了？</p>
+<p>“9. Saturn has three rings. They have been set in place.”<br>
+原来脑残星人的天文学知识如此发达，难怪可以入侵蓝星。<br>
+背景：神创论者认为土星的三个光环是很神奇的存在，只有神的创造才能够解释。</p>
+<p>“About the atheist&rsquo;s &ldquo;Invisible Pink Unicorn:&rdquo; if she did not create the<br>
+Universe, then it is not important to me if she exists or not.”<br>
+所以FSM必然存在且创造了世界。<br>
+背景：关于飞天意面怪，Flying Spaghetti Monster，FSM<br>
+的介绍，请看我以前的文章《<a href="http://calon.weblogs.us/zhihuishejilun_de_zhenglun/">智慧设计论的争论</a>》。</p>
+<p>“If you accuse me of &ldquo;lying, hypocrisy, etc.,&rdquo; I&rsquo;m not affected with<br>
+your accusations. The Lord knows my intentions.”<br>
+这就是传说中的死猪不怕开水烫，挖坑闭眼夹裤裆了。</p>
+<p>神创论者的垃圾邮件总是比其它的spam有更多乐趣啊。</p>
+<p>另外还有这么一句对其他基督徒说的：<br>
+“Don&rsquo;t waste your time with those who don&rsquo;t want to trust in God. It is<br>
+enough that we warn them only ONCE. If they refuse to repent, it&rsquo;s<br>
+because the Lord did not transform their &ldquo;hearts.&quot;”<br>
+所以如果你是个神创论者，又觉得本篇文章不爽，大可以不用浪费时间了。</p>
+<p>本来上面这些话是发布在 Twitter 的，可是今天 Twitter<br>
+机器人生病，回家一看，都没有发布成功。好在 Gmail Chats<br>
+记录中皆一一记录在案，真是万岁！</p>
+<p>另：Gmail 的空间使用率数字换成了蓝色的图示，什么时候变的？难道我火星了？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

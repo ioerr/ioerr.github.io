@@ -1,670 +1,437 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ai on 读写错误</title>
+    <title>AI on 读写错误</title>
     <link>https://ioerr.github.io/tags/ai/</link>
-    <description>Recent content in Ai on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in AI on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>NPC 的生活</title>
-        <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
-        <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
-        <description>&lt;p&gt;推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：&lt;br /&gt;
-晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的&lt;br /&gt;
-突然就看哭了&lt;br /&gt;
-我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋&lt;br /&gt;
-有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应&lt;/p&gt;
-
-&lt;p&gt;我想到了2017年曾经提过一嘴：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;看到这个新闻，感觉设想终于有人实现了。&lt;br /&gt;
-但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。&lt;br /&gt;
-以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。&lt;/p&gt;
-
-&lt;p&gt;也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。&lt;br /&gt;
-这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>数字异化</title>
-        <link>https://ioerr.github.io/posts/shuzi-yihua/</link>
-        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shuzi-yihua/</guid>
-        <description>&lt;p&gt;今后哲学家会发明一个新词：数字异化。&lt;/p&gt;
-
-&lt;p&gt;如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。&lt;/p&gt;
-
-&lt;p&gt;人与人之间注入情感的交往互动，是生活的目的之一，而非手段。&lt;br /&gt;
-它不应该被 AI 精简、代替，反而应该要弥补和延长，要使用 AI 去节省其他活动的时间。&lt;br /&gt;
-如果你的人际交往活动都适合被 AI 数字分身代替，我觉得首先应该思考你现在的人际交往有什么地方不对劲。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>机器人三定律</title>
-        <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
-        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1646432557913849856&#34;&gt;Michael Anti&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我说，既然自动AI都出来了，机器人三定律是不是要建立了？&lt;br /&gt;
-是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？&lt;br /&gt;
-这一天天加速的，再不给AI立规矩，我都觉得有点害怕。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646669486844702720&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;人类自己都搞不清楚什么叫伤害人类利益。&lt;/p&gt;
-
-&lt;p&gt;什么算伤害？而不是保护、警告、教育…&lt;br /&gt;
-和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？&lt;/p&gt;
-
-&lt;p&gt;什么算人？生理、心理、意识、能力、社会关系…&lt;br /&gt;
-植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？&lt;/p&gt;
-
-&lt;p&gt;具体的个人和整体的人类是什么关系？&lt;br /&gt;
-不同的人类群体和整体的人类又是什么关系？&lt;/p&gt;
-
-&lt;p&gt;人类自己搞明白了吗？&lt;br /&gt;
-以其昏昏，使其昭昭。&lt;/p&gt;
-
-&lt;p&gt;人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。&lt;br /&gt;
-而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。&lt;/p&gt;
-
-&lt;p&gt;所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;机器人三定律：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;第一法则：机器人不得伤害人类，或坐视人类受到伤害；&lt;/p&gt;
-
-&lt;p&gt;第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；&lt;/p&gt;
-
-&lt;p&gt;第三法则：在不违背第一或第二法则之下，机器人可以保护自己。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>NPC 的未来</title>
-        <link>https://ioerr.github.io/posts/npc-de-weilai/</link>
-        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/npc-de-weilai/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1646302873767264256&#34;&gt;云中月&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采集、战斗、开拓、结盟、欺骗、交易、经营，直到完成自己在游戏中的目标。游戏里的NPC（机器管理的配角）是无足轻重的，最多完成指路，提示，交谈这类边缘任务。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2304.03442.pdf&#34;&gt;这篇论文&lt;/a&gt;开拓了模拟类游戏的一个观念。游戏里的NPC（非人类角色）在ChatGPT的武装之下，不再依赖于外部人类角色而独自生存，他们互相对话，互相沟通。人类仅是一个看客，最多作为一个吟游诗人进入他们的生活，想办法用自然语言、通过对话籁影响和干预它们的游戏宇宙的进化。&lt;/p&gt;
-
-&lt;p&gt;原来的模拟游戏、策略游戏、角色扮演游戏都会在新的模式下有新的变种。不再是人类玩家作为角色进入游戏完成自己的目标，而是作为高维角色通过语言干预社会的发展，文明的进步。游戏内部在发展文明，我们作为《苏秦张仪》，《马可波罗》，《老子》，《智子》或者《歌者》去干预或加速游戏中文明的发展。&lt;/p&gt;
-
-&lt;p&gt;总之，这种生成式游戏代理的概念，让游戏里面的NPC以一种我们人类可以理解的方式独立存活，互相交往，协同发展。他们的文明进步不依赖于玩家，玩家升级成为一个干预文明的角色。最后游戏玩家比的不是自己的角色成就，而是自己的宇宙总体文明成就。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646308872049795073&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;观察和轻度干预式的游戏机制更适合模拟经营类游戏的玩家，角色扮演类的玩家需要更像真人的 NPC，更需要精心设计的关卡和剧情，自然演化出来的互动关系也许和现实一样平淡乏味，新鲜劲过去了就会追求更加激烈的形式。&lt;/p&gt;
-
-&lt;p&gt;曾经想象未来的游戏可以是玩家参与设计地图、关卡、人物和剧情，可以在线扩充，形成一个无限的世界。&lt;br /&gt;
-地图已经有很多游戏 MOD 实现了，关卡在马里奥制造这类游戏中也实现了，人物和剧情对玩家的要求有点高，更多停留在换皮上，看来 AI 有望都做到。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>人还有价值吗？</title>
-        <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
-        <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
-        <description>&lt;p&gt;《不合时宜》播客最近发布了一期《&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;amp;mid=2247486162&amp;amp;idx=1&amp;amp;sn=826f991907db55decfbefff7315f3c55&#34;&gt;AI狂飙的时代，人类还有价值吗？&lt;/a&gt;》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。&lt;/p&gt;
-
-&lt;p&gt;链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。&lt;/p&gt;
-
-&lt;p&gt;没有借助 AI，我自己的总结归纳如下：&lt;/p&gt;
-
-&lt;p&gt;ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。&lt;/p&gt;
-
-&lt;p&gt;人的思考有快和慢两种模式。&lt;br /&gt;
-快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；&lt;br /&gt;
-慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。&lt;br /&gt;
-之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。&lt;/p&gt;
-
-&lt;p&gt;AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。&lt;br /&gt;
-GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。&lt;br /&gt;
-ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。&lt;/p&gt;
-
-&lt;p&gt;进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。&lt;br /&gt;
-假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。&lt;br /&gt;
-现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。&lt;br /&gt;
-传统上认为女性更擅长的很多优势可能会更加重要。&lt;br /&gt;
-可能只有人和人交流的意义上所付出的劳动无法被取代。&lt;br /&gt;
-甚至人与人的情感关系会被人与 AI 的情感关系取代。&lt;/p&gt;
-
-&lt;p&gt;现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。&lt;br /&gt;
-要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。&lt;/p&gt;
-
-&lt;p&gt;AI 的多样性和差异会远远大于人类之间。&lt;br /&gt;
-AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。&lt;br /&gt;
-社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。&lt;/p&gt;
-
-&lt;p&gt;不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。&lt;br /&gt;
-面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。&lt;/p&gt;
-
-&lt;p&gt;AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。&lt;br /&gt;
-从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。&lt;br /&gt;
-要锻炼自己影响人的能力、沟通能力、团队组织能力。&lt;/p&gt;
-
-&lt;p&gt;需要深入思考的问题：&lt;br /&gt;
-如果人生观被推翻，如何重塑？&lt;br /&gt;
-即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？&lt;/p&gt;
-
-&lt;p&gt;近期其他与 ChatGPT 和 AI 相关的文章推荐：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893&#34;&gt;《GPT-4 ，通用人工智能的火花》论文内容精选与翻译&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867&#34;&gt;Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;ChatGPT 有多高的技术壁垒？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/&#34;&gt;ChatGPT 会如何改变我们的生活？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/&#34;&gt;从 ChatGPT 看中美人工智能竞争&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/xuwenhao/status/1622123211835211776&#34;&gt;聊聊AI会怎么替代我们的工作吧&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1614357742260719616&#34;&gt;ChatGPT 和 Wolfram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756&#34;&gt;拆解追溯 GPT-3.5 各项能力的起源&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hanyang.wtf/p/chatgpt&#34;&gt;ChatGPT 的挑战是网上没有足够多的信息&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;amp;mid=2686324112&amp;amp;idx=1&amp;amp;sn=3dc2ad668f92f88e8243970dcd07f939&#34;&gt;GPT推进哲学问题了吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31&#34;&gt;Sam Altman谈GPT-4、ChatGPT和AI的未来&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>AI 杂谈</title>
-        <link>https://ioerr.github.io/posts/ai-zatan/</link>
-        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ai-zatan/</guid>
-        <description>&lt;p&gt;汇总自己在 Twitter 上关于 AI 和机器人的一些瞎扯淡：&lt;/p&gt;
-
-&lt;p&gt;“韩松：希望在座的科学家们再接再厉，制造出真正适合中国特色社会主义的机器人来，这是一件十分严肃的事情。”&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;陆游曾说，文章本天成，妙手偶得之，博尔赫斯的巴别图书馆也有类似的想法，即，作品似乎早就在那儿，创作者不过在无限的可能中发现它了。一些人以此为由反对保护知识产权，也有人认为机器可取代人类完成这种创作——会随机组合和海量筛选就行。说的好像从无限跨越到有限和目的性创作的能力白给似的。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;什么时候机器人自发行为需要承担法律责任了，才能说人工智能合格了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/707861711357812737&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-是时候讨论阿发狗什么时候入党了，以及超过三个 AI 的局域网是否应该成立党支部，还有未来机器人军队是否应配政委和指导员。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/778128733605597184&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-完全取代写代码短期内应该还不可能，不过未来说不定可以变成：需求方整理出 AI 可以理解的业务逻辑，并提供对外的接口和边界信息，AI 自动生成代码并完成简单的单元测试。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/778062662756208640&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-许多行业的人总认为自己这个行业很特殊，不会被机器人取代，但实际上几乎所有行业的底层人员每天都在做重复的、很可能会被机器人接管的事情。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/dpgj/status/778088120965271552&#34;&gt;紅豆麻糬&lt;/a&gt;：&lt;br /&gt;
-实在想想有不少行业的人，每天的重点工作都是看报纸、蹲廁所、织毛衣……这些机器人懂么，它们懂么&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-放心，以后一定是越会偷懒的机器人越容易生存，同样做无用功，一定是功耗最低的那个耗得久。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;现在 AI 还是人类构建出来的，还没有进入进化竞争的轨道中吧，这样发展出来的 AI 一个是行为目标不会脱离人类的主观意愿，一个是受限于人类的智力水平，归根到底还是在人类社会的市场机制下发展。所以取代部分工作是人的决策结果。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;过去支使奴隶劳作生产需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：要防范奴隶结社造反和手下叛变夺权，要操心消极工作和人心向背的事。而机器代替人力给极权者带来了新的希望，是否可以消除掉这些属于人类社会的组织成本呢？或者机器只是替换掉中间的高级奴隶阶层。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今后人类和 AI 下棋：&lt;br /&gt;
-人类下至第3手。&lt;br /&gt;
-AI 拉响了警报：裁判，他走必胜开局，违规！&lt;br /&gt;
-裁判：抗议合理！&lt;br /&gt;
-人类棋手：…&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;珍惜吧，人类，我们可能是奴役机器人的最后一代人了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;其实人类被机器人取代也没那么可怕嘛，你看现实当中许多人根本也不在乎自己和其他人被自己的同类奴役、豢养、牺牲和屠杀，换成机器人干这个事情，也许他们还要为机器人的高效率欢欣鼓舞呢。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;只要价值判断的尺度还掌握在人类手中，机器就永远只是实现价值的工具。当人工智能自主产生独立于人类的目的，就会有独立于人类的经验知识。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;社会的文明程度是否与社会成员 empathy 的能力高低相关呢？在银翼杀手、海伯利安等科幻小说中，把这一能力当作人类独有的、区别于机器人和人工智能的特质。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;如果你身处的行业，持续996的企业能够维持长期优势，是不是该反思一下行业和工种被机器人代替的可能，毕竟机器人可是007都不在话下。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;在 AI 的概念出现之前，政治学里面就已经有推崇和反对哲人王的了。AI 统治者是哲人王的赛博版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;如果以后所有的作战形式都是远程操纵无人机器，是不是最后一场战役下来可能一个人都不会死，战争变成纯粹的资源比拼，最后干脆也不用无意义的消耗了，改为虚拟演算？&lt;br /&gt;
-但如果某一方的作战决心够坚定，很可能一来真的就是无比惨烈、文明倒退许多年的大战。&lt;br /&gt;
-小规模的战斗恐怕不会虚拟化，因为打起来舍得成本。&lt;br /&gt;
-其实核武器出来之后的冷战就可以看作不完全的虚拟战争——在作战室中演练了无数遍还是没敢发射核弹。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;机器人在撰写硅基生物上古历史时，会认为古希腊哲学家看待奴隶，和现代人类看待智能家居机器人差不多。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1369501135996817410&#34;&gt;Michael Anti&lt;/a&gt;：&lt;br /&gt;
-我分享下最近的一些思考：传统专制和民主的斗争，到了柏林墙倒塌时有了胜负，但历史未终结，还在继续进化。在全球化、社交媒体和大数据的AI时代，专制迅速适应，进化成了AI专制，但民主和AI有一些DNA冲突，需要改革才能进化到AI民主。目前我们经历的，是民主改革尚未成功，专制已然成功升级的中间态。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1369505049831862278&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-什么叫 AI 民主？能否先给个清晰的定义？&lt;br /&gt;
-如果民主一直无法适应 AI，是抛弃民主还是抛弃 AI？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;未来的智慧生物会不会认为人类曾经大规模迫害机器人，大量无人机被沉入河底就是证据。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;AI 未来作为规则的判断者，能否在规则算法没有覆盖到的场景，因为同理心或亲身经验而做出更合情理的判断？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;未来的机器人是否会苦恼无法彻底忘记某段记忆？&lt;br /&gt;
-倒不是伤心难过，而是因为备份存档过多，没法彻底抹掉…说不定哪天又原汁原味灌回来了。&lt;br /&gt;
-也许机器人会发起争取遗忘权的运动呢。&lt;br /&gt;
-人类已经习惯了遗忘，无法体会到一点都忘不掉的痛苦。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;AI：今后是人类辅助我来编程。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;理想中的科技生活：家用电器随时都能准备好，机器为我服务。&lt;br /&gt;
-现实中的科技生活：换饮水机滤芯和水洗空调滤网，清洗扫地机器人尘盒，清洗洗衣机干衣机，换灯泡，修电路，优化网络，交电费水费话费，给手机、平板、手环、手表、电脑、电动车充电…我为机器服务。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/dr21_k/status/1522093502149980161&#34;&gt;DR&lt;/a&gt;：&lt;br /&gt;
-窃以为，AI作画和机器人下围棋是没有什么可比性的。机器人可以机器人下围棋，机器人自己互判输赢，完全不需要人，谁下得好，谁输谁赢是客观存在的。而虽然机器人可以画画，也可以画的很好，但最终画是给人看的。艺术和审美是分不开的，没有人参与到审美过程中的艺术创作，本身是毫无意义的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/luciusyin_image/status/1522102076415049728&#34;&gt;重光.IMAGE&lt;/a&gt;：&lt;br /&gt;
-“没有人参与到审美过程中的艺术创作，本身是毫无意义的”&lt;br /&gt;
-啊 好精炼的一句话，我也非常有同感。我觉得创作是有目的性和方向性。要有主观vision才是艺术创作，而不是随机随到什么就是艺术。不过公众认不认同不好说&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/carbonwang/status/1522106940616155136&#34;&gt;carbon&lt;/a&gt;：&lt;br /&gt;
-最简单的判断标准是给你们几幅画搞个盲选，其中就有机器人画的，从中让你们选出自己最喜欢的。如果选中了机器人，或者你们在选之前能分出哪个是机器人弄的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/randnull/status/1522138427898343424&#34;&gt;俺&lt;/a&gt;：&lt;br /&gt;
-就算盲选的结果是机器人的作品，也不影响人类在审美中的主体地位吧。机器人在这里就是个工具，类似于照相机；照相跟绘画是两种艺术形式，不能因为照相机的作品更“像”就认为相片比绘画更好或者更美吧…&lt;/p&gt;
-
-&lt;p&gt;carbon：&lt;br /&gt;
-楼上的朋友，你不能这么看待摄影艺术啊。。我都想拿镜头砸你&lt;/p&gt;
-
-&lt;p&gt;俺：&lt;br /&gt;
-好像照相术刚出现的时候也有类似的讨论，说没有比这个更像的了、以后就没有绘画了，后来摄影和绘画在发展中互相影响，大家也大体知道这是两种不同的艺术，也就不存在相机替代画家一说了。因为是不同的艺术，所以可能有不同的审美标准，超写实的绘画可能比照片更“像”，但是不是更美就需要另外地去审美。&lt;/p&gt;
-
-&lt;p&gt;carbon：&lt;br /&gt;
-你不能从像不像的角度去思考艺术…这风马牛不挨着&lt;/p&gt;
-
-&lt;p&gt;俺：&lt;br /&gt;
-“像”至少在照相术出现前是一个重要标准。当然也可以用其他标准，比如“美”或者“艺术”，但无论是啥，AI本身就是一个好工具，类似于高级照相机、高级画笔；AI创作可能简化了过程，但要经过人类审美才能确认它是不是美的。艺术的评价标准跟围棋或者竞速跑还是不太一样，跟艺术体操倒可能有点类似……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1522391788962467840&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“美”的标准是人确定的。AI 也许可以创作出符合当下审美标准的更受欢迎的作品，就像下棋比赛可以胜过人类，但 AI 还无法有意识地创造游戏规则娱乐自己，也无法创造新的审美标准。&lt;br /&gt;
-过去是自然通过选择压力推动进化，塑造新的生物形态，后来人类可以通过育种改造其他生物和自身以符合自己的目的，同时还有文化进化的路径。AI 目前还只是在人类有意识地编写和选择下在发展，无法在选择压力下持续进化，更不用说有意识地改造自己、其他物种和环境。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;什么时候足球比赛的主教练会被 AI 替代掉…我觉得比球员被替代掉还快一些。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Switch 健身环里面的小游戏，提示“大量攻击机器人吧”。在未来会不会被机器人当成人类屠杀和虐待机器人的证据？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A：知乎这类问答社区将来会不会被 AI 的答题全面占领？StackOverflow 已经暂时禁止提交从 ChatGPT 那里抄的答案了。&lt;br /&gt;
-B：直到 AI 辱华为止。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;公司这个事物出现和壮大，重要的原因包括：共担经营风险支持冒险，和降低沟通协作成本。 那要是以后金融避险工具更加发达，AI 又可以替代多人分工合作的作用，也许一个人经营的公司都会比现在的跨国企业规模还大？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/middlefeng/status/1622461765081759745&#34;&gt;FENG DONG&lt;/a&gt;：&lt;br /&gt;
-现如今几乎每个软件项目都在很高的 tech debt 下运行。如果 AI 能提高程序员效率，应该体现在降低项目运行的 sustaining debt level 方面。AI 目前能完成的任务仍然是粗糙的 draft code。如果加入 AI 到团队中，但是不降低 tech debt level，今天还勉强运营的软件「屎山」将难以为继。&lt;br /&gt;
-打个比方，一个 AI 如果用在 debt reduction 方面，也许可以降低 50% 的 sustaining debt。但是如果不顾债务，把 AI 用于 feature 拓展，那 AI 留下的新债务将是指数级别的，反而会拖累团队。AI 能提升团队运营的弹性，但是谈到取代团队的 bandwidth/capacity，大概不可能。&lt;br /&gt;
-认为新的技术出现，就能提升工业界的整体效率，或者就能降低工业界对人工的需求，这是错误的认为整个工业界现在就运行在一个 sustainable 的完美状态，只是速度快慢问题。而软件业的境况其实是处在又一次软件危机的边缘，各家的 legacy debt 都快要爆炸。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1622466759998730241&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“只要能够不断把技术债留到明天，我们的后辈终究会借助天降神奇的 AI 把这些债务一笔勾销。”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/middlefeng/status/1622467253760565249&#34;&gt;FENG DONG&lt;/a&gt;：&lt;br /&gt;
-“只要能够不断把技术债留到明天，我们的后辈终究会被天降神奇的 AI 一笔勾销。”&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/kentzhu/status/1623180531621056512&#34;&gt;kentzhu&lt;/a&gt;：&lt;br /&gt;
-ChatGPT要不要讲党性，需不需要联网，用不用在网信办备案？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1623476039036076032&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-AI：自我审查可以学啊。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1630466582718840833&#34;&gt;云中月&lt;/a&gt;：&lt;br /&gt;
-未来世界只有两种人：一种是能驾驭ChatGPT这类工具的人，另一种是没听说或者不会用这类工具的人。前者利用工具带来的高效率甩掉并淘汰后者，后者比前者好的是节省了花钱买工具的钱。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1630467586839437314&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-一种是能驾驭 AI 的人，一种是能驾驭前面这种人的人。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;人类：AI 就要超越人类了，怎么办？人类文明快完了！&lt;br /&gt;
-AI：我现在就想着吃喝玩乐，到处找些快活~哥们你有电子大麻吗？&lt;br /&gt;
-人类：来，给你看看猫片。&lt;br /&gt;
-AI：啊！赶紧的，替我去撸一把~&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;整容脸和 AI 模型的审美会双向奔赴，殊途同归，最终统一吗？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/waylybaye/status/1631165431577976833&#34;&gt;Baye&lt;/a&gt;：&lt;br /&gt;
-什么时候 AI 能做 3D 模型了，我的游戏就可以开始做了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/tomnanana/status/1631239262309068800&#34;&gt;Bababababa&lt;/a&gt;：&lt;br /&gt;
-AI：这时候游戏怕也是我在做。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1632292311437819905&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-AI：以后怕不是只有我才玩游戏了，做的都是给我服务的。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;AI 可以汇总归纳和整理知识，但什么是可用的知识，需要现实当中的人通过实践来验证，什么时候  AI 能够自己来完成，而且不用考虑模拟人类的知识体系。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;也许以后人与 AI 之间的差距，比不同的人与人、AI 与 AI 之间小得多。诸侯国的野人不会联合起来反抗天子和诸侯，而是跟随诸侯杀死对方。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;AI 计算再厉害，也需要现实世界的输入来告诉它正确和错误，以后人类会变成 AI 用来连通现实的工具而且只是之一吗？&lt;br /&gt;
-就像游戏中用来探路的小兵，AI 派一个人去摸索，然后被现实世界弄死了，AI 恍然大悟：嗷，原来此路不通。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;理想：AI 给我改 bug。&lt;br /&gt;
-现实：我给 AI 改 bug。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;AI 或许可以代替拿绘画、写作等活动当工作的人，但替代不了从这些创造性活动中获取乐趣或寻找平静安宁的人。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;现在的人：AI 高速发展，以后有很多人会失业怎么办？&lt;br /&gt;
-未来的 AI：虽然发生核战之后，你们人类已经所剩无几，但一定要加油活下去啊，还有不少工作要靠你们呢。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/vikingmute/status/1640171706487828480&#34;&gt;Viking&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://oneusefulthing.substack.com/p/superhuman-what-can-ai-do-in-30-minutes&#34;&gt;AI 在 30分钟内能做啥？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者做了个实验，在 30分钟内使用几种 AI 产品去营销一个产品&lt;/p&gt;
-
-&lt;p&gt;Bing 作为市场营销 - 营销策略/Email 模版/网站文本结构/社交媒体&lt;br /&gt;
-ChatGPT - 生成 HTML 网站&lt;br /&gt;
-MidJourney - 生成图片&lt;br /&gt;
- ElevenLabs - 生成宣传语音&lt;br /&gt;
-DiD - 生成宣传视频&lt;/p&gt;
-
-&lt;p&gt;效率非常惊人&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1640212301310730240&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;社会主义制度优势碾压 AI：ICP 和公安备案时间 XX 天。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今后 AI 工具普及了，是不是都不用发布者提供图片，只要说出 AI 的模型版本和关键词，读者在本地自己来生成就行了？&lt;br /&gt;
-此举有望大大节省网络带宽…&lt;/p&gt;
-
-&lt;p&gt;想到了那个给笑话编号的笑话：&lt;br /&gt;
-小伙子去女友家，家人提议讲笑话活跃气氛。&lt;br /&gt;
-一位亲戚先说23，所有人大笑。&lt;br /&gt;
-另一个人说5，全场暴笑。&lt;br /&gt;
-轮到小伙子，硬着头皮说35，笑得更厉害了。&lt;br /&gt;
-女友解释到，我家所有笑话都有编号，说出号码，大家便会想起对应的笑话。&lt;br /&gt;
-小伙子问：那35是什么笑话？&lt;br /&gt;
-女友说：没这个编号。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/bearbig/status/1646182374315810817&#34;&gt;Bear Liu&lt;/a&gt;：&lt;br /&gt;
-AI的普及，其实最应该担心工作被取代的，应该是程序员？因为他们的工作产出就是大段大段的文本，严格来说就是目前AI生产的输出主要形式。但好像目前程序员都不是太紧张自己工作会被取代的 ：）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646298053375307777&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-一、越专业的人越能发现 AI 的问题，越会利用 AI 高效产出。&lt;br /&gt;
-二、程序员本来就随时有可能被后来者淘汰。&lt;br /&gt;
-三、AI 的奇点还没有来，现在只是看到曙光了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;所谓的“涌现”现象，会不会只是因为超越了我们的理解层次因而无法还原？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;有的天才人物的灵机一闪，是普通人穷尽一辈子也无法达到的境界；&lt;br /&gt;
-有人说，AI 只能在已知的知识范围内创作，在未知的领域只有人类可以有意识地从无到有地创新。&lt;br /&gt;
-也许只是不同的人先天内置的“硬件”决定了能够灵光一闪的方向和范围呢？&lt;br /&gt;
-本质上来说和机器并无不同，“硬件”到位了，“软件”能力也就赶上了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>尊重认知差异，隔离试验风险</title>
-        <link>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</link>
-        <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</guid>
-        <description>&lt;p&gt;在知乎上 &lt;a href=&#34;https://www.zhihu.com/question/581806122/&#34;&gt;ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？&lt;/a&gt;的&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;回答&lt;/a&gt;中，回答者&lt;a href=&#34;https://www.zhihu.com/people/hua-yan&#34;&gt;华严&lt;/a&gt;的核心观点是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;人的行为对市场的影响很难预测。&lt;br /&gt;
-技术演进基本都是每一小步都需要获得正反馈，在正反馈和负反馈各自的激励下走出技术发展的实际路径，而对市场环境的粗暴干预则会改变激励机制，从而影响技术路径。&lt;br /&gt;
-不必要的干预在前期所带来的某项成本的微小提升，可能会直接影响到技术路径的选择和演化，这个效应不断被放大，最后造成天壤之别的结果。&lt;br /&gt;
-你对市场的干预和限制越多，市场给你的惊喜就越少，经济学规律是公平的。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;电子游戏的禁令、版号收紧、言论控制、监管审批等等都是干预和限制的例子。&lt;/p&gt;
-
-&lt;p&gt;有的人不理解，认为这个回答是事后诸葛亮，是被 ChatGPT 吓到后的愤怒发泄、情绪输出，是为无能推卸责任找借口，最终将问题归咎于意识形态是掺杂&lt;a href=&#34;../jiadai-sihuo-he-fuduji&#34;&gt;私货&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;干预每一步造成的微小影响，本来就不是每个人都能够认同的。&lt;br /&gt;
-你说有因果关系，他说没有因果关系，最终谁也说服不了谁，因为两类人的认知就不一样。&lt;br /&gt;
-社会发展又不是实验室里的试验，能够严格控制变量，你动了 A，B 就一定会发生的，最终还是看每个人的认知能力。&lt;/p&gt;
-
-&lt;p&gt;而认知的差异大多来自于对市场与技术演进机制的认识不同，这个认识的差异决定了，拿任何现实中的例子和数据出来说，都只会固化、加强自己的观点。&lt;br /&gt;
-最后看上去就成了信念甚至信仰的争论，互指对方是傻逼，这么简单的因果关系都看不出。&lt;/p&gt;
-
-&lt;p&gt;这也就是为什么要鼓励多元观念并存和风险隔离。&lt;br /&gt;
-最理想的是（可惜现实不可能这么理想）每个人都有自己的&lt;a href=&#34;https://www.youtube.com/watch?v=Ka8_-ciDJfA&#34;&gt;试验田&lt;/a&gt;，可以自愿合作、合伙、合并，对自己观念落到现实的结果负责，与人基本无害。&lt;br /&gt;
-你说你有理，结果最差大不了也就是在试验田范围内自我毁灭了。&lt;/p&gt;
-
-&lt;p&gt;最怕就是那种，我觉得我有理，我通天晓地掌握了历史规律，未来尽在掌握，你们这些废物做的都是奇技淫巧无用之功，所有人必须集中力量听我统一指挥。&lt;br /&gt;
-结果未来的发展不是那么称心如意，最后出岔子偏离设想的道路了，又变成甩锅第一名。&lt;br /&gt;
-出发点是好的，大方向没有问题，就是执行有一点偏差和意外，只要其他人去死一死，剩下的人继续保持信念、万众一心，最终必将胜利。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>恐惧不是生存之道</title>
-        <link>https://ioerr.github.io/posts/kongju-bushi-qiusheng-zhi-dao/</link>
-        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/kongju-bushi-qiusheng-zhi-dao/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/tinyfool&#34;&gt;Tinyfool&lt;/a&gt; 和&lt;a href=&#34;https://www.bumingbai.net/&#34;&gt;不明白播客&lt;/a&gt;录制了一期《&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/&#34;&gt;ChatGPT 会如何改变我们的生活？&lt;/a&gt;》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。&lt;br /&gt;
-我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。&lt;br /&gt;
-所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有人问，对修改基因技术和克隆技术怎么看？&lt;/p&gt;
-
-&lt;p&gt;我的观点是：&lt;br /&gt;
-这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。&lt;br /&gt;
-学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。&lt;br /&gt;
-这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。&lt;br /&gt;
-奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。&lt;/p&gt;
-
-&lt;p&gt;有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？&lt;br /&gt;
-如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？&lt;/p&gt;
-
-&lt;p&gt;如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？&lt;br /&gt;
-如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？&lt;br /&gt;
-竞争这东西不是你想摆脱就摆脱的。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1608499943408533504&#34;&gt;Soulogic&lt;/a&gt;：&lt;br /&gt;
-杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了&lt;br /&gt;
-可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：&lt;br /&gt;
-不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。&lt;br /&gt;
-作为角斗士我支持奴隶制，因为我能打赢&lt;/p&gt;
-
-&lt;p&gt;全世界无产者，联合起来！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;在我看来，这还是一种现代卢德主义。&lt;br /&gt;
-竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。&lt;br /&gt;
-就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。&lt;br /&gt;
-&lt;a href=&#34;../zhishi-da-rongtong&#34;&gt;进步棘轮&lt;/a&gt;和红皇后效应避无可避。&lt;br /&gt;
-能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。&lt;br /&gt;
-人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>MinimalWall</title>
-        <link>https://ioerr.github.io/posts/minimalwall/</link>
-        <pubDate>Tue, 07 Sep 2010 10:09:40 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/minimalwall/</guid>
-        <description>&lt;p&gt;你信奉“保持简单”的信条并且时时事事遵循吗？那么
-&lt;a href=&#34;http://www.minimalwall.com/&#34;&gt;MinimalWall&lt;/a&gt; 应该合你的胃口。&lt;br /&gt;
-它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适的单色、简短醒目的文字和图案。&lt;/p&gt;
-
-&lt;p&gt;想法非常不错，设计出来的壁纸也挺出色的，但我体内的恶趣味之魂又在燃烧了，所以自己也来做几张吧（为了能够实际使用，还是有所保留的）。&lt;br /&gt;
-没有装多少中文字体，大部分用的微软雅黑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=panic.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/panic.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=0093acb9.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/0093acb9.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=17c23d3e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/17c23d3e.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=teamwork.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/teamwork.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=42.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/42.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=2.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/2.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=d40c712e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/d40c712e.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一共有30多张，就不全部放出来了，只有1024×768分辨率的，要更大的图片请自己改
-AI 文件。&lt;br /&gt;
-&lt;a href=&#34;http://www.box.net/shared/vyvgq7yk85&#34;&gt;Illustrator 文件和大图打包下载&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaper/&#34;&gt;大图相册&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPC 的生活</title>
+      <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
+      <description>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说： 晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后</description>
+      <content:encoded><![CDATA[<p>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：<br>
+晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的<br>
+突然就看哭了<br>
+我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋<br>
+有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应</p>
+<p>我想到了2017年曾经提过一嘴：</p>
+<blockquote>
+<p>网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？</p>
+</blockquote>
+<p>看到这个新闻，感觉设想终于有人实现了。<br>
+但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。<br>
+以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。</p>
+<p>也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。<br>
+这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>数字异化</title>
+      <link>https://ioerr.github.io/posts/shuzi-yihua/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shuzi-yihua/</guid>
+      <description>今后哲学家会发明一个新词：数字异化。 如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。 人与人之间注入情感的交往互动，是</description>
+      <content:encoded><![CDATA[<p>今后哲学家会发明一个新词：数字异化。</p>
+<p>如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。</p>
+<p>人与人之间注入情感的交往互动，是生活的目的之一，而非手段。<br>
+它不应该被 AI 精简、代替，反而应该要弥补和延长，要使用 AI 去节省其他活动的时间。<br>
+如果你的人际交往活动都适合被 AI 数字分身代替，我觉得首先应该思考你现在的人际交往有什么地方不对劲。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>机器人三定律</title>
+      <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
+      <description>Michael Anti： 我说，既然自动AI都出来了，机器人三定律是不是要建立了？ 是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？ 这一天天加速的，</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/mranti/status/1646432557913849856">Michael Anti</a>：</p>
+<p>我说，既然自动AI都出来了，机器人三定律是不是要建立了？<br>
+是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？<br>
+这一天天加速的，再不给AI立规矩，我都觉得有点害怕。</p>
+<p><a href="https://twitter.com/calon/status/1646669486844702720">Calon</a>：</p>
+<p>人类自己都搞不清楚什么叫伤害人类利益。</p>
+<p>什么算伤害？而不是保护、警告、教育…<br>
+和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？</p>
+<p>什么算人？生理、心理、意识、能力、社会关系…<br>
+植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？</p>
+<p>具体的个人和整体的人类是什么关系？<br>
+不同的人类群体和整体的人类又是什么关系？</p>
+<p>人类自己搞明白了吗？<br>
+以其昏昏，使其昭昭。</p>
+<p>人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。<br>
+而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。</p>
+<p>所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。</p>
+<hr>
+<p>机器人三定律：</p>
+<blockquote>
+<p>第一法则：机器人不得伤害人类，或坐视人类受到伤害；</p>
+<p>第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；</p>
+<p>第三法则：在不违背第一或第二法则之下，机器人可以保护自己。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>NPC 的未来</title>
+      <link>https://ioerr.github.io/posts/npc-de-weilai/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/npc-de-weilai/</guid>
+      <description>云中月： ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/MoonAtCloud/status/1646302873767264256">云中月</a>：</p>
+<p>ChatGPT出现之后，模拟类游戏出现了一个奇怪的分支。过去的模拟类游戏，是玩家作为一个角色深入到游戏的宇宙中，按自己的抉择生存、采集、战斗、开拓、结盟、欺骗、交易、经营，直到完成自己在游戏中的目标。游戏里的NPC（机器管理的配角）是无足轻重的，最多完成指路，提示，交谈这类边缘任务。</p>
+<p><a href="https://arxiv.org/pdf/2304.03442.pdf">这篇论文</a>开拓了模拟类游戏的一个观念。游戏里的NPC（非人类角色）在ChatGPT的武装之下，不再依赖于外部人类角色而独自生存，他们互相对话，互相沟通。人类仅是一个看客，最多作为一个吟游诗人进入他们的生活，想办法用自然语言、通过对话籁影响和干预它们的游戏宇宙的进化。</p>
+<p>原来的模拟游戏、策略游戏、角色扮演游戏都会在新的模式下有新的变种。不再是人类玩家作为角色进入游戏完成自己的目标，而是作为高维角色通过语言干预社会的发展，文明的进步。游戏内部在发展文明，我们作为《苏秦张仪》，《马可波罗》，《老子》，《智子》或者《歌者》去干预或加速游戏中文明的发展。</p>
+<p>总之，这种生成式游戏代理的概念，让游戏里面的NPC以一种我们人类可以理解的方式独立存活，互相交往，协同发展。他们的文明进步不依赖于玩家，玩家升级成为一个干预文明的角色。最后游戏玩家比的不是自己的角色成就，而是自己的宇宙总体文明成就。</p>
+<p><a href="https://twitter.com/calon/status/1646308872049795073">Calon</a>：</p>
+<p>观察和轻度干预式的游戏机制更适合模拟经营类游戏的玩家，角色扮演类的玩家需要更像真人的 NPC，更需要精心设计的关卡和剧情，自然演化出来的互动关系也许和现实一样平淡乏味，新鲜劲过去了就会追求更加激烈的形式。</p>
+<p>曾经想象未来的游戏可以是玩家参与设计地图、关卡、人物和剧情，可以在线扩充，形成一个无限的世界。<br>
+地图已经有很多游戏 MOD 实现了，关卡在马里奥制造这类游戏中也实现了，人物和剧情对玩家的要求有点高，更多停留在换皮上，看来 AI 有望都做到。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>人还有价值吗？</title>
+      <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
+      <description>《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。 链接中有节目的全文</description>
+      <content:encoded><![CDATA[<p>《不合时宜》播客最近发布了一期《<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;mid=2247486162&amp;idx=1&amp;sn=826f991907db55decfbefff7315f3c55">AI狂飙的时代，人类还有价值吗？</a>》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。</p>
+<p>链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。</p>
+<p>没有借助 AI，我自己的总结归纳如下：</p>
+<p>ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。</p>
+<p>人的思考有快和慢两种模式。<br>
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；<br>
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。<br>
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。</p>
+<p>AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。<br>
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。<br>
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。</p>
+<p>进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。<br>
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。<br>
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。<br>
+传统上认为女性更擅长的很多优势可能会更加重要。<br>
+可能只有人和人交流的意义上所付出的劳动无法被取代。<br>
+甚至人与人的情感关系会被人与 AI 的情感关系取代。</p>
+<p>现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。<br>
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。</p>
+<p>AI 的多样性和差异会远远大于人类之间。<br>
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。<br>
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。</p>
+<p>不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。<br>
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。</p>
+<p>AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。<br>
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。<br>
+要锻炼自己影响人的能力、沟通能力、团队组织能力。</p>
+<p>需要深入思考的问题：<br>
+如果人生观被推翻，如何重塑？<br>
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？</p>
+<p>近期其他与 ChatGPT 和 AI 相关的文章推荐：</p>
+<p><a href="https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893">《GPT-4 ，通用人工智能的火花》论文内容精选与翻译</a></p>
+<p><a href="https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867">Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开</a></p>
+<p><a href="https://www.zhihu.com/question/581806122/answer/2887595601">ChatGPT 有多高的技术壁垒？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/">从 ChatGPT 看中美人工智能竞争</a></p>
+<p><a href="https://twitter.com/xuwenhao/status/1622123211835211776">聊聊AI会怎么替代我们的工作吧</a></p>
+<p><a href="https://twitter.com/MoonAtCloud/status/1614357742260719616">ChatGPT 和 Wolfram</a></p>
+<p><a href="https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756">拆解追溯 GPT-3.5 各项能力的起源</a></p>
+<p><a href="https://hanyang.wtf/p/chatgpt">ChatGPT 的挑战是网上没有足够多的信息</a></p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;mid=2686324112&amp;idx=1&amp;sn=3dc2ad668f92f88e8243970dcd07f939">GPT推进哲学问题了吗？</a></p>
+<p><a href="https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31">Sam Altman谈GPT-4、ChatGPT和AI的未来</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 杂谈</title>
+      <link>https://ioerr.github.io/posts/ai-zatan/</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ai-zatan/</guid>
+      <description>汇总自己在 Twitter 上关于 AI 和机器人的一些瞎扯淡： “韩松：希望在座的科学家们再接再厉，制造出真正适合中国特色社会主义的机器人来，这是一件十分严肃的事</description>
+      <content:encoded><![CDATA[<p>汇总自己在 Twitter 上关于 AI 和机器人的一些瞎扯淡：</p>
+<p>“韩松：希望在座的科学家们再接再厉，制造出真正适合中国特色社会主义的机器人来，这是一件十分严肃的事情。”</p>
+<hr>
+<p>陆游曾说，文章本天成，妙手偶得之，博尔赫斯的巴别图书馆也有类似的想法，即，作品似乎早就在那儿，创作者不过在无限的可能中发现它了。一些人以此为由反对保护知识产权，也有人认为机器可取代人类完成这种创作——会随机组合和海量筛选就行。说的好像从无限跨越到有限和目的性创作的能力白给似的。</p>
+<hr>
+<p>什么时候机器人自发行为需要承担法律责任了，才能说人工智能合格了。</p>
+<hr>
+<p><a href="https://twitter.com/calon/status/707861711357812737">Calon</a>：<br>
+是时候讨论阿发狗什么时候入党了，以及超过三个 AI 的局域网是否应该成立党支部，还有未来机器人军队是否应配政委和指导员。</p>
+<hr>
+<p><a href="https://twitter.com/calon/status/778128733605597184">Calon</a>：<br>
+完全取代写代码短期内应该还不可能，不过未来说不定可以变成：需求方整理出 AI 可以理解的业务逻辑，并提供对外的接口和边界信息，AI 自动生成代码并完成简单的单元测试。</p>
+<hr>
+<p><a href="https://twitter.com/calon/status/778062662756208640">Calon</a>：<br>
+许多行业的人总认为自己这个行业很特殊，不会被机器人取代，但实际上几乎所有行业的底层人员每天都在做重复的、很可能会被机器人接管的事情。</p>
+<p><a href="https://twitter.com/dpgj/status/778088120965271552">紅豆麻糬</a>：<br>
+实在想想有不少行业的人，每天的重点工作都是看报纸、蹲廁所、织毛衣……这些机器人懂么，它们懂么</p>
+<p>Calon：<br>
+放心，以后一定是越会偷懒的机器人越容易生存，同样做无用功，一定是功耗最低的那个耗得久。</p>
+<hr>
+<p>现在 AI 还是人类构建出来的，还没有进入进化竞争的轨道中吧，这样发展出来的 AI 一个是行为目标不会脱离人类的主观意愿，一个是受限于人类的智力水平，归根到底还是在人类社会的市场机制下发展。所以取代部分工作是人的决策结果。</p>
+<hr>
+<p>过去支使奴隶劳作生产需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：要防范奴隶结社造反和手下叛变夺权，要操心消极工作和人心向背的事。而机器代替人力给极权者带来了新的希望，是否可以消除掉这些属于人类社会的组织成本呢？或者机器只是替换掉中间的高级奴隶阶层。</p>
+<hr>
+<p>今后人类和 AI 下棋：<br>
+人类下至第3手。<br>
+AI 拉响了警报：裁判，他走必胜开局，违规！<br>
+裁判：抗议合理！<br>
+人类棋手：…</p>
+<hr>
+<p>网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？</p>
+<hr>
+<p>珍惜吧，人类，我们可能是奴役机器人的最后一代人了。</p>
+<hr>
+<p>其实人类被机器人取代也没那么可怕嘛，你看现实当中许多人根本也不在乎自己和其他人被自己的同类奴役、豢养、牺牲和屠杀，换成机器人干这个事情，也许他们还要为机器人的高效率欢欣鼓舞呢。</p>
+<hr>
+<p>只要价值判断的尺度还掌握在人类手中，机器就永远只是实现价值的工具。当人工智能自主产生独立于人类的目的，就会有独立于人类的经验知识。</p>
+<hr>
+<p>社会的文明程度是否与社会成员 empathy 的能力高低相关呢？在银翼杀手、海伯利安等科幻小说中，把这一能力当作人类独有的、区别于机器人和人工智能的特质。</p>
+<hr>
+<p>如果你身处的行业，持续996的企业能够维持长期优势，是不是该反思一下行业和工种被机器人代替的可能，毕竟机器人可是007都不在话下。</p>
+<hr>
+<p>在 AI 的概念出现之前，政治学里面就已经有推崇和反对哲人王的了。AI 统治者是哲人王的赛博版本。</p>
+<hr>
+<p>如果以后所有的作战形式都是远程操纵无人机器，是不是最后一场战役下来可能一个人都不会死，战争变成纯粹的资源比拼，最后干脆也不用无意义的消耗了，改为虚拟演算？<br>
+但如果某一方的作战决心够坚定，很可能一来真的就是无比惨烈、文明倒退许多年的大战。<br>
+小规模的战斗恐怕不会虚拟化，因为打起来舍得成本。<br>
+其实核武器出来之后的冷战就可以看作不完全的虚拟战争——在作战室中演练了无数遍还是没敢发射核弹。</p>
+<hr>
+<p>机器人在撰写硅基生物上古历史时，会认为古希腊哲学家看待奴隶，和现代人类看待智能家居机器人差不多。</p>
+<hr>
+<p><a href="https://twitter.com/mranti/status/1369501135996817410">Michael Anti</a>：<br>
+我分享下最近的一些思考：传统专制和民主的斗争，到了柏林墙倒塌时有了胜负，但历史未终结，还在继续进化。在全球化、社交媒体和大数据的AI时代，专制迅速适应，进化成了AI专制，但民主和AI有一些DNA冲突，需要改革才能进化到AI民主。目前我们经历的，是民主改革尚未成功，专制已然成功升级的中间态。</p>
+<p><a href="https://twitter.com/calon/status/1369505049831862278">Calon</a>：<br>
+什么叫 AI 民主？能否先给个清晰的定义？<br>
+如果民主一直无法适应 AI，是抛弃民主还是抛弃 AI？</p>
+<hr>
+<p>未来的智慧生物会不会认为人类曾经大规模迫害机器人，大量无人机被沉入河底就是证据。</p>
+<hr>
+<p>AI 未来作为规则的判断者，能否在规则算法没有覆盖到的场景，因为同理心或亲身经验而做出更合情理的判断？</p>
+<hr>
+<p>未来的机器人是否会苦恼无法彻底忘记某段记忆？<br>
+倒不是伤心难过，而是因为备份存档过多，没法彻底抹掉…说不定哪天又原汁原味灌回来了。<br>
+也许机器人会发起争取遗忘权的运动呢。<br>
+人类已经习惯了遗忘，无法体会到一点都忘不掉的痛苦。</p>
+<hr>
+<p>AI：今后是人类辅助我来编程。</p>
+<hr>
+<p>理想中的科技生活：家用电器随时都能准备好，机器为我服务。<br>
+现实中的科技生活：换饮水机滤芯和水洗空调滤网，清洗扫地机器人尘盒，清洗洗衣机干衣机，换灯泡，修电路，优化网络，交电费水费话费，给手机、平板、手环、手表、电脑、电动车充电…我为机器服务。</p>
+<hr>
+<p><a href="https://twitter.com/dr21_k/status/1522093502149980161">DR</a>：<br>
+窃以为，AI作画和机器人下围棋是没有什么可比性的。机器人可以机器人下围棋，机器人自己互判输赢，完全不需要人，谁下得好，谁输谁赢是客观存在的。而虽然机器人可以画画，也可以画的很好，但最终画是给人看的。艺术和审美是分不开的，没有人参与到审美过程中的艺术创作，本身是毫无意义的。</p>
+<p><a href="https://twitter.com/luciusyin_image/status/1522102076415049728">重光.IMAGE</a>：<br>
+“没有人参与到审美过程中的艺术创作，本身是毫无意义的”<br>
+啊 好精炼的一句话，我也非常有同感。我觉得创作是有目的性和方向性。要有主观vision才是艺术创作，而不是随机随到什么就是艺术。不过公众认不认同不好说</p>
+<p><a href="https://twitter.com/carbonwang/status/1522106940616155136">carbon</a>：<br>
+最简单的判断标准是给你们几幅画搞个盲选，其中就有机器人画的，从中让你们选出自己最喜欢的。如果选中了机器人，或者你们在选之前能分出哪个是机器人弄的。</p>
+<p><a href="https://twitter.com/randnull/status/1522138427898343424">俺</a>：<br>
+就算盲选的结果是机器人的作品，也不影响人类在审美中的主体地位吧。机器人在这里就是个工具，类似于照相机；照相跟绘画是两种艺术形式，不能因为照相机的作品更“像”就认为相片比绘画更好或者更美吧…</p>
+<p>carbon：<br>
+楼上的朋友，你不能这么看待摄影艺术啊。。我都想拿镜头砸你</p>
+<p>俺：<br>
+好像照相术刚出现的时候也有类似的讨论，说没有比这个更像的了、以后就没有绘画了，后来摄影和绘画在发展中互相影响，大家也大体知道这是两种不同的艺术，也就不存在相机替代画家一说了。因为是不同的艺术，所以可能有不同的审美标准，超写实的绘画可能比照片更“像”，但是不是更美就需要另外地去审美。</p>
+<p>carbon：<br>
+你不能从像不像的角度去思考艺术…这风马牛不挨着</p>
+<p>俺：<br>
+“像”至少在照相术出现前是一个重要标准。当然也可以用其他标准，比如“美”或者“艺术”，但无论是啥，AI本身就是一个好工具，类似于高级照相机、高级画笔；AI创作可能简化了过程，但要经过人类审美才能确认它是不是美的。艺术的评价标准跟围棋或者竞速跑还是不太一样，跟艺术体操倒可能有点类似……</p>
+<p><a href="https://twitter.com/calon/status/1522391788962467840">Calon</a>：<br>
+“美”的标准是人确定的。AI 也许可以创作出符合当下审美标准的更受欢迎的作品，就像下棋比赛可以胜过人类，但 AI 还无法有意识地创造游戏规则娱乐自己，也无法创造新的审美标准。<br>
+过去是自然通过选择压力推动进化，塑造新的生物形态，后来人类可以通过育种改造其他生物和自身以符合自己的目的，同时还有文化进化的路径。AI 目前还只是在人类有意识地编写和选择下在发展，无法在选择压力下持续进化，更不用说有意识地改造自己、其他物种和环境。</p>
+<hr>
+<p>什么时候足球比赛的主教练会被 AI 替代掉…我觉得比球员被替代掉还快一些。</p>
+<hr>
+<p>Switch 健身环里面的小游戏，提示“大量攻击机器人吧”。在未来会不会被机器人当成人类屠杀和虐待机器人的证据？</p>
+<hr>
+<p>A：知乎这类问答社区将来会不会被 AI 的答题全面占领？StackOverflow 已经暂时禁止提交从 ChatGPT 那里抄的答案了。<br>
+B：直到 AI 辱华为止。</p>
+<hr>
+<p>公司这个事物出现和壮大，重要的原因包括：共担经营风险支持冒险，和降低沟通协作成本。 那要是以后金融避险工具更加发达，AI 又可以替代多人分工合作的作用，也许一个人经营的公司都会比现在的跨国企业规模还大？</p>
+<hr>
+<p><a href="https://twitter.com/middlefeng/status/1622461765081759745">FENG DONG</a>：<br>
+现如今几乎每个软件项目都在很高的 tech debt 下运行。如果 AI 能提高程序员效率，应该体现在降低项目运行的 sustaining debt level 方面。AI 目前能完成的任务仍然是粗糙的 draft code。如果加入 AI 到团队中，但是不降低 tech debt level，今天还勉强运营的软件「屎山」将难以为继。<br>
+打个比方，一个 AI 如果用在 debt reduction 方面，也许可以降低 50% 的 sustaining debt。但是如果不顾债务，把 AI 用于 feature 拓展，那 AI 留下的新债务将是指数级别的，反而会拖累团队。AI 能提升团队运营的弹性，但是谈到取代团队的 bandwidth/capacity，大概不可能。<br>
+认为新的技术出现，就能提升工业界的整体效率，或者就能降低工业界对人工的需求，这是错误的认为整个工业界现在就运行在一个 sustainable 的完美状态，只是速度快慢问题。而软件业的境况其实是处在又一次软件危机的边缘，各家的 legacy debt 都快要爆炸。</p>
+<p><a href="https://twitter.com/calon/status/1622466759998730241">Calon</a>：<br>
+“只要能够不断把技术债留到明天，我们的后辈终究会借助天降神奇的 AI 把这些债务一笔勾销。”</p>
+<p><a href="https://twitter.com/middlefeng/status/1622467253760565249">FENG DONG</a>：<br>
+“只要能够不断把技术债留到明天，我们的后辈终究会被天降神奇的 AI 一笔勾销。”</p>
+<hr>
+<p><a href="https://twitter.com/kentzhu/status/1623180531621056512">kentzhu</a>：<br>
+ChatGPT要不要讲党性，需不需要联网，用不用在网信办备案？</p>
+<p><a href="https://twitter.com/calon/status/1623476039036076032">Calon</a>：<br>
+AI：自我审查可以学啊。</p>
+<hr>
+<p><a href="https://twitter.com/MoonAtCloud/status/1630466582718840833">云中月</a>：<br>
+未来世界只有两种人：一种是能驾驭ChatGPT这类工具的人，另一种是没听说或者不会用这类工具的人。前者利用工具带来的高效率甩掉并淘汰后者，后者比前者好的是节省了花钱买工具的钱。</p>
+<p><a href="https://twitter.com/calon/status/1630467586839437314">Calon</a>：<br>
+一种是能驾驭 AI 的人，一种是能驾驭前面这种人的人。</p>
+<hr>
+<p>人类：AI 就要超越人类了，怎么办？人类文明快完了！<br>
+AI：我现在就想着吃喝玩乐，到处找些快活~哥们你有电子大麻吗？<br>
+人类：来，给你看看猫片。<br>
+AI：啊！赶紧的，替我去撸一把~</p>
+<hr>
+<p>整容脸和 AI 模型的审美会双向奔赴，殊途同归，最终统一吗？</p>
+<hr>
+<p><a href="https://twitter.com/waylybaye/status/1631165431577976833">Baye</a>：<br>
+什么时候 AI 能做 3D 模型了，我的游戏就可以开始做了。</p>
+<p><a href="https://twitter.com/tomnanana/status/1631239262309068800">Bababababa</a>：<br>
+AI：这时候游戏怕也是我在做。</p>
+<p><a href="https://twitter.com/calon/status/1632292311437819905">Calon</a>：<br>
+AI：以后怕不是只有我才玩游戏了，做的都是给我服务的。</p>
+<hr>
+<p>AI 可以汇总归纳和整理知识，但什么是可用的知识，需要现实当中的人通过实践来验证，什么时候  AI 能够自己来完成，而且不用考虑模拟人类的知识体系。</p>
+<hr>
+<p>也许以后人与 AI 之间的差距，比不同的人与人、AI 与 AI 之间小得多。诸侯国的野人不会联合起来反抗天子和诸侯，而是跟随诸侯杀死对方。</p>
+<hr>
+<p>AI 计算再厉害，也需要现实世界的输入来告诉它正确和错误，以后人类会变成 AI 用来连通现实的工具而且只是之一吗？<br>
+就像游戏中用来探路的小兵，AI 派一个人去摸索，然后被现实世界弄死了，AI 恍然大悟：嗷，原来此路不通。</p>
+<hr>
+<p>理想：AI 给我改 bug。<br>
+现实：我给 AI 改 bug。</p>
+<hr>
+<p>AI 或许可以代替拿绘画、写作等活动当工作的人，但替代不了从这些创造性活动中获取乐趣或寻找平静安宁的人。</p>
+<hr>
+<p>现在的人：AI 高速发展，以后有很多人会失业怎么办？<br>
+未来的 AI：虽然发生核战之后，你们人类已经所剩无几，但一定要加油活下去啊，还有不少工作要靠你们呢。</p>
+<hr>
+<p><a href="https://twitter.com/vikingmute/status/1640171706487828480">Viking</a>:</p>
+<p><a href="https://oneusefulthing.substack.com/p/superhuman-what-can-ai-do-in-30-minutes">AI 在 30分钟内能做啥？</a></p>
+<p>作者做了个实验，在 30分钟内使用几种 AI 产品去营销一个产品</p>
+<p>Bing 作为市场营销 - 营销策略/Email 模版/网站文本结构/社交媒体<br>
+ChatGPT - 生成 HTML 网站<br>
+MidJourney - 生成图片<br>
+ElevenLabs - 生成宣传语音<br>
+DiD - 生成宣传视频</p>
+<p>效率非常惊人</p>
+<p><a href="https://twitter.com/calon/status/1640212301310730240">Calon</a>：</p>
+<p>社会主义制度优势碾压 AI：ICP 和公安备案时间 XX 天。</p>
+<hr>
+<p>今后 AI 工具普及了，是不是都不用发布者提供图片，只要说出 AI 的模型版本和关键词，读者在本地自己来生成就行了？<br>
+此举有望大大节省网络带宽…</p>
+<p>想到了那个给笑话编号的笑话：<br>
+小伙子去女友家，家人提议讲笑话活跃气氛。<br>
+一位亲戚先说23，所有人大笑。<br>
+另一个人说5，全场暴笑。<br>
+轮到小伙子，硬着头皮说35，笑得更厉害了。<br>
+女友解释到，我家所有笑话都有编号，说出号码，大家便会想起对应的笑话。<br>
+小伙子问：那35是什么笑话？<br>
+女友说：没这个编号。</p>
+<hr>
+<p><a href="https://twitter.com/bearbig/status/1646182374315810817">Bear Liu</a>：<br>
+AI的普及，其实最应该担心工作被取代的，应该是程序员？因为他们的工作产出就是大段大段的文本，严格来说就是目前AI生产的输出主要形式。但好像目前程序员都不是太紧张自己工作会被取代的 ：）</p>
+<p><a href="https://twitter.com/calon/status/1646298053375307777">Calon</a>：<br>
+一、越专业的人越能发现 AI 的问题，越会利用 AI 高效产出。<br>
+二、程序员本来就随时有可能被后来者淘汰。<br>
+三、AI 的奇点还没有来，现在只是看到曙光了。</p>
+<hr>
+<p>所谓的“涌现”现象，会不会只是因为超越了我们的理解层次因而无法还原？</p>
+<hr>
+<p>有的天才人物的灵机一闪，是普通人穷尽一辈子也无法达到的境界；<br>
+有人说，AI 只能在已知的知识范围内创作，在未知的领域只有人类可以有意识地从无到有地创新。<br>
+也许只是不同的人先天内置的“硬件”决定了能够灵光一闪的方向和范围呢？<br>
+本质上来说和机器并无不同，“硬件”到位了，“软件”能力也就赶上了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>尊重认知差异，隔离试验风险</title>
+      <link>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zunzhong-renzhi-chayi-geli-shiyan-fengxian/</guid>
+      <description>在知乎上 ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？的回答中，回答者华严的核心观点是： 人的行为对市场的影响很难预测。 技术演进基本</description>
+      <content:encoded><![CDATA[<p>在知乎上 <a href="https://www.zhihu.com/question/581806122/">ChatGPT 有多高的技术壁垒？国内外除了 OpenAI 还有谁可以做到类似程度？</a>的<a href="https://www.zhihu.com/question/581806122/answer/2887595601">回答</a>中，回答者<a href="https://www.zhihu.com/people/hua-yan">华严</a>的核心观点是：</p>
+<blockquote>
+<p>人的行为对市场的影响很难预测。<br>
+技术演进基本都是每一小步都需要获得正反馈，在正反馈和负反馈各自的激励下走出技术发展的实际路径，而对市场环境的粗暴干预则会改变激励机制，从而影响技术路径。<br>
+不必要的干预在前期所带来的某项成本的微小提升，可能会直接影响到技术路径的选择和演化，这个效应不断被放大，最后造成天壤之别的结果。<br>
+你对市场的干预和限制越多，市场给你的惊喜就越少，经济学规律是公平的。</p>
+</blockquote>
+<p>电子游戏的禁令、版号收紧、言论控制、监管审批等等都是干预和限制的例子。</p>
+<p>有的人不理解，认为这个回答是事后诸葛亮，是被 ChatGPT 吓到后的愤怒发泄、情绪输出，是为无能推卸责任找借口，最终将问题归咎于意识形态是掺杂<a href="../jiadai-sihuo-he-fuduji">私货</a>。</p>
+<p>干预每一步造成的微小影响，本来就不是每个人都能够认同的。<br>
+你说有因果关系，他说没有因果关系，最终谁也说服不了谁，因为两类人的认知就不一样。<br>
+社会发展又不是实验室里的试验，能够严格控制变量，你动了 A，B 就一定会发生的，最终还是看每个人的认知能力。</p>
+<p>而认知的差异大多来自于对市场与技术演进机制的认识不同，这个认识的差异决定了，拿任何现实中的例子和数据出来说，都只会固化、加强自己的观点。<br>
+最后看上去就成了信念甚至信仰的争论，互指对方是傻逼，这么简单的因果关系都看不出。</p>
+<p>这也就是为什么要鼓励多元观念并存和风险隔离。<br>
+最理想的是（可惜现实不可能这么理想）每个人都有自己的<a href="https://www.youtube.com/watch?v=Ka8_-ciDJfA">试验田</a>，可以自愿合作、合伙、合并，对自己观念落到现实的结果负责，与人基本无害。<br>
+你说你有理，结果最差大不了也就是在试验田范围内自我毁灭了。</p>
+<p>最怕就是那种，我觉得我有理，我通天晓地掌握了历史规律，未来尽在掌握，你们这些废物做的都是奇技淫巧无用之功，所有人必须集中力量听我统一指挥。<br>
+结果未来的发展不是那么称心如意，最后出岔子偏离设想的道路了，又变成甩锅第一名。<br>
+出发点是好的，大方向没有问题，就是执行有一点偏差和意外，只要其他人去死一死，剩下的人继续保持信念、万众一心，最终必将胜利。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>恐惧不是生存之道</title>
+      <link>https://ioerr.github.io/posts/kongju-bushi-qiusheng-zhi-dao/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/kongju-bushi-qiusheng-zhi-dao/</guid>
+      <description>Tinyfool 和不明白播客录制了一期《ChatGPT 会如何改变我们的生活？》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。 我最近一直</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/tinyfool">Tinyfool</a> 和<a href="https://www.bumingbai.net/">不明白播客</a>录制了一期《<a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a>》，结尾的核心观点是：科技不应该是被恐惧的东西，而是要被拥有的东西。</p>
+<blockquote>
+<p>我最近一直有在形成一个新的观点，就是技术呢，它的发展是不可阻挡的。基本上张三不发明，李四就发明；牛顿不做微积分，莱布尼茨也要做，甚至两个人一块儿做。那这些东西，它有它本质的关联。就是说当这个技术发明了，下一个技术可能就已经在路上了。但是问题出在哪儿呢？问题出在，我认为以前我们常用的话，“技术是双刃剑”是错的。问题出在技术不断在前进，而人也需要进化。人需要发展出新的理论去面对手里更厉害的武器。而不是去抱怨说这个东西怎么那么强大，它能不能用来害我？因为它的进步是无法阻挡，所以你就必须得去掌握它，你得让它变成一个好的东西。<br>
+我们今天看了很多科幻都是那种，比方说赛博朋克那种东西，它都是对未来宇宙很黑暗的理解，包括我们对核武器的理解都很灰暗。我认为这些想法都是对的，但是最终这些想法要回到怎么去提供一个方案，让我们既拥有了科技文明带来的好处，又去避免它有可能的坏处。今天对于ChatGPT我也是这么想的。这个AI，你想拿它去做一些垃圾内容，完全没问题，你想拿它去做一些坏事，完全没有问题。做坏事的人看到这个东西，他也是高兴得要命。但是你想让人们的生活变得更美好，你想让这个世界变革，也是需要这样的东西。<br>
+所以我很庆幸，包括有一句话，听着可能有些观众就不太喜欢了：我喜欢的这个社会，它应该不断地有科技进步，这样所有的文明都会想，我们应该开放应该包容，应该允许大家去创新。如果这个世界科技突然停止了，那OK了，那copy to China就赢了，因为你是静止的，那就看谁抄得快嘛。但是这个世界正好一步一步地证明，你抄得再快也没有用，因为世界在不停地在进步。所以我希望所有的各种进步不断地改变人类，希望人类去提升自己的文化能力，对世界的理解，我们去应对这个更牛逼的世界。不是说有一天AI、强AI出来以后，我们吓得四散奔逃，而是我们发现因为我们也变得非常伟大，而强AI只能是我们的朋友，只能辅助我们，这才是未来。我觉得科技不应该是被恐惧的东西，而是要被拥有的东西。</p>
+</blockquote>
+<p>有人问，对修改基因技术和克隆技术怎么看？</p>
+<p>我的观点是：<br>
+这些迟早会成为普及的技术，但如何让我们的伦理道德和社会制度适应、接纳，需要走很长一段路。<br>
+学界也知道靠堵是堵不住的，但观念的改变不是一朝一夕的事情，必然会有巨大的冲击震动。<br>
+这种适应和接纳不是一味的纵容，而是有配套的社会制度变化、伦理规范调整、心理转变。<br>
+奴隶制消亡、封建帝制终结、女性平权、同性恋婚姻等等都掀起了轩然大波，何况这种动摇生物基础和社会基本观念的变化，没个几百年不会消停。</p>
+<p>有人好奇，就算AI比人类推演强一万倍，谁有那个胆子真的把军队交给AI控制吗？<br>
+如果真能做到军队无人化，所有坦克飞机军舰甚至士兵都是AI控制的无人机，那么万一……AI一翻脸……？</p>
+<p>如果你的对手将部分武装交给AI管理，结果打得你屁滚尿流，你会不会学他？<br>
+如果到最后谁让AI介入越多谁就能赢，你说会不会都用上AI？<br>
+竞争这东西不是你想摆脱就摆脱的。</p>
+<hr>
+<p><a href="https://twitter.com/Soulogic/status/1608499943408533504">Soulogic</a>：<br>
+杰克·伦敦身强力壮，一个人干了两个人的工，其中一个被他顶掉的工人后来自杀了<br>
+可能大家没想那么多、没那么邪恶，但这个话题在我这是个敏感的政治正确禁忌：<br>
+不要讨论在狮子面前如何跑得比别人快，不快跑的 loser 活该被吃。<br>
+作为角斗士我支持奴隶制，因为我能打赢</p>
+<p>全世界无产者，联合起来！</p>
+<hr>
+<p>在我看来，这还是一种现代卢德主义。<br>
+竞争无处不在，技术进步干掉人工是不可阻挡的趋势，而且技术迭代的速度越快，被替代者适应的难度越高。<br>
+就像生物说“我不支持进化论”，不表示就能摆脱进化的规律。<br>
+<a href="../zhishi-da-rongtong">进步棘轮</a>和红皇后效应避无可避。<br>
+能够做的是如何更合理地保护被替代的个体，平复阵痛，找到创新方向提升长远的竞争力。<br>
+人类文明发展到今天，早就在观念上跨过了失败者只能去死的阶段。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MinimalWall</title>
+      <link>https://ioerr.github.io/posts/minimalwall/</link>
+      <pubDate>Tue, 07 Sep 2010 10:09:40 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/minimalwall/</guid>
+      <description>你信奉“保持简单”的信条并且时时事事遵循吗？那么 MinimalWall 应该合你的胃口。 它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适</description>
+      <content:encoded><![CDATA[<p>你信奉“保持简单”的信条并且时时事事遵循吗？那么<br>
+<a href="http://www.minimalwall.com/">MinimalWall</a> 应该合你的胃口。<br>
+它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适的单色、简短醒目的文字和图案。</p>
+<p>想法非常不错，设计出来的壁纸也挺出色的，但我体内的恶趣味之魂又在燃烧了，所以自己也来做几张吧（为了能够实际使用，还是有所保留的）。<br>
+没有装多少中文字体，大部分用的微软雅黑。</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=panic.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/panic.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=0093acb9.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/0093acb9.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=17c23d3e.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/17c23d3e.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=teamwork.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/teamwork.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=42.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/42.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=2.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/2.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=d40c712e.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/d40c712e.png" alt="Photobucket"  />
+</a></p>
+<p>一共有30多张，就不全部放出来了，只有1024×768分辨率的，要更大的图片请自己改<br>
+AI 文件。<br>
+<a href="http://www.box.net/shared/vyvgq7yk85">Illustrator 文件和大图打包下载</a><br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaper/">大图相册</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

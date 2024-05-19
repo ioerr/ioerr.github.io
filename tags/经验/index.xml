@@ -1,96 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>经验 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C/</link>
     <description>Recent content in 经验 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>机器人三定律</title>
-        <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
-        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1646432557913849856&#34;&gt;Michael Anti&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我说，既然自动AI都出来了，机器人三定律是不是要建立了？&lt;br /&gt;
-是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？&lt;br /&gt;
-这一天天加速的，再不给AI立规矩，我都觉得有点害怕。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646669486844702720&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;人类自己都搞不清楚什么叫伤害人类利益。&lt;/p&gt;
-
-&lt;p&gt;什么算伤害？而不是保护、警告、教育…&lt;br /&gt;
-和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？&lt;/p&gt;
-
-&lt;p&gt;什么算人？生理、心理、意识、能力、社会关系…&lt;br /&gt;
-植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？&lt;/p&gt;
-
-&lt;p&gt;具体的个人和整体的人类是什么关系？&lt;br /&gt;
-不同的人类群体和整体的人类又是什么关系？&lt;/p&gt;
-
-&lt;p&gt;人类自己搞明白了吗？&lt;br /&gt;
-以其昏昏，使其昭昭。&lt;/p&gt;
-
-&lt;p&gt;人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。&lt;br /&gt;
-而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。&lt;/p&gt;
-
-&lt;p&gt;所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;机器人三定律：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;第一法则：机器人不得伤害人类，或坐视人类受到伤害；&lt;/p&gt;
-
-&lt;p&gt;第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；&lt;/p&gt;
-
-&lt;p&gt;第三法则：在不违背第一或第二法则之下，机器人可以保护自己。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>游戏中的道德</title>
-        <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
-        <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1497272702259847171&#34;&gt;夹喵又：&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。&lt;br /&gt;
-你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1497416426617212928&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了&lt;br /&gt;
-可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1497469705371598849&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;所以游戏并没有设置越界就失败。&lt;br /&gt;
-人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。&lt;br /&gt;
-所以法律要基于经验形成的常识常理对抗这种极端混乱。&lt;br /&gt;
-常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。&lt;br /&gt;
-哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器人三定律</title>
+      <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
+      <description>Michael Anti： 我说，既然自动AI都出来了，机器人三定律是不是要建立了？ 是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？ 这一天天加速的，</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/mranti/status/1646432557913849856">Michael Anti</a>：</p>
+<p>我说，既然自动AI都出来了，机器人三定律是不是要建立了？<br>
+是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？<br>
+这一天天加速的，再不给AI立规矩，我都觉得有点害怕。</p>
+<p><a href="https://twitter.com/calon/status/1646669486844702720">Calon</a>：</p>
+<p>人类自己都搞不清楚什么叫伤害人类利益。</p>
+<p>什么算伤害？而不是保护、警告、教育…<br>
+和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？</p>
+<p>什么算人？生理、心理、意识、能力、社会关系…<br>
+植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？</p>
+<p>具体的个人和整体的人类是什么关系？<br>
+不同的人类群体和整体的人类又是什么关系？</p>
+<p>人类自己搞明白了吗？<br>
+以其昏昏，使其昭昭。</p>
+<p>人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。<br>
+而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。</p>
+<p>所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。</p>
+<hr>
+<p>机器人三定律：</p>
+<blockquote>
+<p>第一法则：机器人不得伤害人类，或坐视人类受到伤害；</p>
+<p>第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；</p>
+<p>第三法则：在不违背第一或第二法则之下，机器人可以保护自己。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>游戏中的道德</title>
+      <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
+      <description>夹喵又： The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/recatm/status/1497272702259847171">夹喵又：</a></p>
+<p>The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。<br>
+你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。</p>
+<p><a href="https://twitter.com/Soulogic/status/1497416426617212928">Soulogic</a>：</p>
+<p>看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了<br>
+可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘</p>
+<p><a href="https://twitter.com/calon/status/1497469705371598849">Calon</a>：</p>
+<p>所以游戏并没有设置越界就失败。<br>
+人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。<br>
+所以法律要基于经验形成的常识常理对抗这种极端混乱。<br>
+常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。<br>
+哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

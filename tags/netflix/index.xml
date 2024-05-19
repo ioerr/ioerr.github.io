@@ -1,54 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Netflix on 读写错误</title>
     <link>https://ioerr.github.io/tags/netflix/</link>
     <description>Recent content in Netflix on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/netflix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Netflix 模式失败了吗？</title>
-        <link>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</link>
-        <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/wastemobile/status/1538324144986550272&#34;&gt;wastemobile&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。&lt;/p&gt;
-
-&lt;p&gt;我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。&lt;/p&gt;
-
-&lt;p&gt;《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。&lt;/p&gt;
-
-&lt;p&gt;男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。&lt;/p&gt;
-
-&lt;p&gt;小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。&lt;/p&gt;
-
-&lt;p&gt;10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。&lt;/p&gt;
-
-&lt;p&gt;Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1538331408841601025&#34;&gt;Calon：&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：&lt;br /&gt;
-大脑：我会了！&lt;br /&gt;
-手：不，你不会。&lt;/p&gt;
-
-&lt;p&gt;但这已经是后面了，前面这一步要做到也不容易。&lt;br /&gt;
-怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。&lt;br /&gt;
-Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。&lt;br /&gt;
-堪比先了解大脑如何思维，再造人工智能。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/netflix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netflix 模式失败了吗？</title>
+      <link>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/netflix-moshi-shibaile-ma/</guid>
+      <description>wastemobile： 《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。 我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/wastemobile/status/1538324144986550272">wastemobile</a>：</p>
+<p>《蜘蛛頭監獄》在 imdb 得分為 5.5/10，應該更低。</p>
+<p>我認為 #Netflix 這種根據觀看數據、用戶評分，製作出自以為吻合大眾口味、因此能夠叫好叫座的企圖，已經多次證明失敗，該急流勇退了。</p>
+<p>《Escape from Spiderhead》改編自 George Saunders 刊登在 2010 New Yorker 的短篇科幻小說。</p>
+<p>男子接受藥物神秘實驗，交錯進行著大量性、愛、以及殺意，是蠻有意思的敘事，電影中自行補上的情境，幾乎毀了這個故事。</p>
+<p>小說中譯版收錄在由喬治・桑德斯短篇小說集《十二月十日》。</p>
+<p>10 篇風格迥異的短篇小說，2013 年度唯一榮登《紐約時報》暢銷書榜冠軍的短篇小說集，作者並以本書獲選《時代》雜誌年度百大影響人物。</p>
+<p>Netflix 花了一億美金改拍這個故事，卻在最核心的關鍵，也就是男主角究竟以何心態發起了最終逃亡這個點，套上了好萊塢的浪漫英雄公式，有夠蠢。</p>
+<p><a href="https://twitter.com/calon/status/1538331408841601025">Calon：</a></p>
+<p>就算 Netflix 猜中了用户的口味，也不保证一定能够制作出同样吸引人的作品。这就像看视频学知识一样：<br>
+大脑：我会了！<br>
+手：不，你不会。</p>
+<p>但这已经是后面了，前面这一步要做到也不容易。<br>
+怎么讲好故事虽然有经验总结出来的套路，但也只是大原则，从用户消费数据中得到的信息和这些原则之间，还有巨大的发挥空间和鸿沟。<br>
+Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想明白了。<br>
+堪比先了解大脑如何思维，再造人工智能。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

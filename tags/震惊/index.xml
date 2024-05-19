@@ -1,49 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>震惊 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/</link>
     <description>Recent content in 震惊 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 27 Mar 2017 21:18:52 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>震惊</title>
-        <link>https://ioerr.github.io/posts/zhenjing/</link>
-        <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhenjing/</guid>
-        <description>&lt;p&gt;前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。&lt;/p&gt;
-
-&lt;p&gt;背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;哈克：我太震惊了！&lt;br /&gt;
-汉弗莱：你还震惊，我才震惊呢！&lt;br /&gt;
-哈克：真不敢相信，我…太震惊了。你怎么想？&lt;br /&gt;
-伯纳德：我震惊了，大臣。&lt;br /&gt;
-哈克：我也是。震惊啊！&lt;br /&gt;
-汉弗莱：让人震惊！&lt;br /&gt;
-哈克：震惊…我简直没法形容！&lt;br /&gt;
-伯纳德：震惊？&lt;br /&gt;
-哈克：震惊！&lt;br /&gt;
-可这是真的吗？&lt;br /&gt;
-他不是吓唬你吧？&lt;br /&gt;
-一个部门怎能说废就废？&lt;br /&gt;
-汉弗莱：听起来很像真的，对吧？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%9C%87%E6%83%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>震惊</title>
+      <link>https://ioerr.github.io/posts/zhenjing/</link>
+      <pubDate>Mon, 27 Mar 2017 21:18:52 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/zhenjing/</guid>
+      <description>前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。 背景</description>
+      <content:encoded><![CDATA[<p>前一段时间因为标题党新闻而出名的 UC 震惊部的新闻让人震惊，我首先想到的是英国经典政治喜剧《是的，大臣/Yes, Minister》中的一段。</p>
+<p>背景是行政事务部大臣哈克提议精简公务员队伍，首相打算顺势把他的部门给精简了，于是大臣哈克、常务秘书汉弗莱、私人秘书伯纳德三人虎躯连震：</p>
+<blockquote>
+<p>哈克：我太震惊了！<br>
+汉弗莱：你还震惊，我才震惊呢！<br>
+哈克：真不敢相信，我…太震惊了。你怎么想？<br>
+伯纳德：我震惊了，大臣。<br>
+哈克：我也是。震惊啊！<br>
+汉弗莱：让人震惊！<br>
+哈克：震惊…我简直没法形容！<br>
+伯纳德：震惊？<br>
+哈克：震惊！<br>
+可这是真的吗？<br>
+他不是吓唬你吧？<br>
+一个部门怎能说废就废？<br>
+汉弗莱：听起来很像真的，对吧？</p>
+</blockquote>
+<p><img loading="lazy" src="http://wx2.sinaimg.cn/mw690/77d39178gy1fde70z5dr5g208v06oqvc.gif" alt=""  />
+</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

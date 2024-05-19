@@ -1,471 +1,375 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Executor on 读写错误</title>
     <link>https://ioerr.github.io/tags/executor/</link>
     <description>Recent content in Executor on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 21 Aug 2008 14:58:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/executor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Dash Command</title>
-        <link>https://ioerr.github.io/posts/dash-command/</link>
-        <pubDate>Thu, 21 Aug 2008 14:58:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dash-command/</guid>
-        <description>&lt;p&gt;Life Hacker
-终于想起来要&lt;a href=&#34;http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher&#34;&gt;介绍&lt;/a&gt;
-&lt;a href=&#34;http://calon.weblogs.us/executor/&#34;&gt;Executor&lt;/a&gt;
-这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor
-很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的
-Launchy 用户，而且，有的用户并没有深入研究就认为 Executor
-具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为
-Launchy 使用 runner 插件添加别名就能达到和它一样效果。&lt;/p&gt;
-
-&lt;p&gt;额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：&lt;a href=&#34;http://trydash.com/home/&#34;&gt;Dash
-Command&lt;/a&gt;（急急如勒令？命令大师？囧）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/DashDemo1.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dash
-是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价\$50，与其他免费好用的同类软件相比这是个很大的劣势。&lt;br /&gt;
-但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。&lt;/p&gt;
-
-&lt;p&gt;下面是试用版的使用体验：&lt;/p&gt;
-
-&lt;p&gt;首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_203810.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203810.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy
-新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。&lt;/p&gt;
-
-&lt;p&gt;Dash 和 Launchy
-接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引
-Firefox
-书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。&lt;br /&gt;
-一些特殊命令试用版中也无效：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_203631.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203631.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this
-下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像
-TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。&lt;br /&gt;
-试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords
-下面的文件突破限制。&lt;br /&gt;
-&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/Dash-UI11.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music
-命令，那么输入关键词之后再按 Tab
-或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_205441.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_205441.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;另一特色是输入
-/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。&lt;/p&gt;
-
-&lt;p&gt;在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_220722.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_220722.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break
-不能设置为热键…&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_204126.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204126.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;对中文的支持并非完美，据说今后的版本会支持 Unicode：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-08-21_204507.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204507.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;正式版的界面可以看&lt;a href=&#34;http://www.trydash.com/home/screenshots/&#34;&gt;这里&lt;/a&gt;，从它的&lt;a href=&#34;http://www.trydash.com/home/information/features/&#34;&gt;特性介绍&lt;/a&gt;来看，试用版少了很多同类软件不具备的强大功能：&lt;/p&gt;
-
-&lt;p&gt;预览图片：&lt;br /&gt;
-&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/Dash-UI7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;直接操作文件和目录：&lt;br /&gt;
-&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/Zip.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;可以针对指定网站建立定期刷新的索引，图中的 Websites 就是证据：&lt;br /&gt;
-&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/Dash-UI12-small.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;快速搜索或翻译选定的文本：&lt;br /&gt;
-&lt;img src=&#34;http://www.trydash.com/home/wp-content/uploads/image/TextSelection.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;实时计算结果的计算器，复制计算结果也很方便：&lt;br /&gt;
-&lt;img src=&#34;http://trydash.com/images/DashCalculator1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;兼容 &lt;a href=&#34;http://www.fullphat.net/&#34;&gt;Snarl&lt;/a&gt; 协议，其他兼容 Snarl
-的程序都可以通过 Dash 实现桌面提醒，而且不用安装 Snarl：&lt;br /&gt;
-&lt;img src=&#34;http://trydash.com/images/DashNotify-UI1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;还有超级模糊匹配和正则表达式，不过我觉得会大大增加候选项降低速度，或者一般人根本用不到：&lt;br /&gt;
-Type** gmap** to find &lt;strong&gt;G&lt;/strong&gt;oogle &lt;strong&gt;Map&lt;/strong&gt;s&lt;/p&gt;
-
-&lt;p&gt;Type** apc** to find &lt;strong&gt;A&lt;/strong&gt;dobe &lt;strong&gt;P&lt;/strong&gt;hotoshop &lt;strong&gt;C&lt;/strong&gt;S3&lt;/p&gt;
-
-&lt;p&gt;更多的特性请看安装程序自带的使用手册和&lt;a href=&#34;http://www.trydash.com/home/wp-content/uploads/file/Dash%20Users%20Manual.pdf&#34;&gt;官方帮助文档&lt;/a&gt;、&lt;a href=&#34;http://www.trydash.com/home/tutorials/&#34;&gt;演示动画&lt;/a&gt;、&lt;a href=&#34;http://www.trydash.com/home/dash-video-tour/&#34;&gt;视频&lt;/a&gt;，都说得很清楚。&lt;/p&gt;
-
-&lt;p&gt;最后，为何我要介绍一款收费软件？因为 &lt;a href=&#34;http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher#c7315216&#34;&gt;Dash
-的开发者之一声称&lt;/a&gt;要放出一个
-new UNLIMITED TRIAL version：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-I am one of the Dash Command developers. We are going to be releasing a
-new UNLIMITED TRIAL version to replace our old demo (which lags behind
-the current registered version by quite a lot).
-&lt;/blockquote&gt;
-这实在是让人期待。&lt;br /&gt;
-但谁能告诉我 UNLIMITED TRIAL 是什么意思？不限时、不限次数还是不限功能？&lt;/p&gt;
-
-&lt;p&gt;补充说明：试用版的说明文档中说：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-This version of Dash must only be run for the duration of the trial
-period.
-&lt;/blockquote&gt;
-FAQ 中说：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-What are the restrictions in the trial version?&lt;/p&gt;
-
-&lt;p&gt;The restrictions at this point are a smaller set of commands, the user
-can only create 5 keywords, keywords and scanners cannot be edited. The
-trial is also time limited.
-&lt;/blockquote&gt;
-但我不知到这个 time limit 到底是多少，难道要我自己试？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.trydash.com/home/free-download/#comment-88&#34;&gt;开发者去年曾经说&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-Unrestricted Trial: The next update we make to the trial version is
-going to be non-restricted, so that everyone can test all the features
-in Dash. We don’t have a set date yet, but I suspect it will be coming
-out around the end of Sept. or beginning of Oct.
-&lt;/blockquote&gt;
-结果到今年还没有推出全功能试用版…&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>我的快速启动程序最佳选择</title>
-        <link>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</link>
-        <pubDate>Mon, 26 May 2008 16:05:49 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</guid>
-        <description>&lt;p&gt;最近
-&lt;a href=&#34;http://lifehacker.com/392136/best-application-launchers&#34;&gt;LifeHacker&lt;/a&gt;、&lt;a href=&#34;http://xbeta.info/ask-quick-launch.htm&#34;&gt;善用佳软&lt;/a&gt;和&lt;a href=&#34;http://www.appinn.com/ask-quick-launch/&#34;&gt;小众软件&lt;/a&gt;都在讨论快速启动程序工具软件的话题，我也正好凑个热闹。&lt;/p&gt;
-
-&lt;p&gt;最初开始使用这一类软件时，我的选择是
-&lt;a href=&#34;http://www.galanc.com/&#34;&gt;TypeAndRun&lt;/a&gt;，为此还专门写了&lt;a href=&#34;http://calon.weblogs.us/duibi_launchy_he_tar/&#34;&gt;对比 Launchy 和
-TAR&lt;/a&gt; 的文章。&lt;/p&gt;
-
-&lt;p&gt;后来偶然发现了 &lt;a href=&#34;http://www.executor.dk/&#34;&gt;Executor&lt;/a&gt;，加上 TAR
-一直停止更新，于是换用了更新勤快功能也很强大的前者。&lt;br /&gt;
-Executor
-既能够快速上手（如导入开始菜单项目），也适合蛋疼人士深入钻研各种参数、选项、变量、快捷键和功能，同时其身材和资源占用也保持的不错，所以一直使用到现在。&lt;br /&gt;
-期间有写过一篇&lt;a href=&#34;http://calon.weblogs.us/executor/&#34;&gt;专门介绍它的文章&lt;/a&gt;，以及&lt;a href=&#34;http://calon.weblogs.us/executor_bangzhuwendang/&#34;&gt;帮助文档的翻译&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;除了上面提到的几款软件，还有
-&lt;a href=&#34;http://www.donationcoder.com/Software/Mouser/findrun/index.html&#34;&gt;FindAndRunRobot!&lt;/a&gt;、&lt;a href=&#34;http://www.3lsoft.com/&#34;&gt;音速启动/VStart&lt;/a&gt;、&lt;a href=&#34;http://www.truelaunchbar.com/&#34;&gt;Ture
-Launchy
-Bar&lt;/a&gt;（我觉得这不能算啊，纯命令行的才是王道！），因为操作不习惯、资源占用和对华丽界面无兴趣的原因，就不一一介绍和比较了。&lt;br /&gt;
-特别要介绍的是 JourneyBoy 写出来自用的
-&lt;a href=&#34;http://journeyboy.blog.sohu.com/79386735.html&#34;&gt;HotRun&lt;/a&gt;，身材小巧，作者更新频繁，也有如支持通配符这样的特色功能。&lt;/p&gt;
-
-&lt;p&gt;当然，谁是最佳的快速启动程序工具软件，就像谁是最佳浏览器、输入法、邮件客户端等等一样，只有适合自己才是最好的。对我来说，Executor
-就是我目前的最佳选择。&lt;/p&gt;
-
-&lt;p&gt;接下来选择性的翻译一些 Executor
-&lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/didyouknow.html&#34;&gt;小技巧&lt;/a&gt;，有的在帮助文档和选项设置中是看不到的。&lt;/p&gt;
-
-&lt;p&gt;输入文本后如果没找到目标，可以用 Ctrl+R
-切换成模糊匹配模式，相当于在文字前后加上通配符“*”；&lt;br /&gt;
-每个关键词都可以指定相应的热键和群组；&lt;br /&gt;
-导入 standard.exc 可以获得一些系统命令关键词，比如：&lt;br /&gt;
-输入 apps 可以列出并管理进程；&lt;br /&gt;
-recent 列出开始菜单中的最近打开的文件等；&lt;br /&gt;
-clipboard
-不回车，列出复制过的文本，选择其中一条就相当于重新复制，可以替代部分剪贴板助手程序的功能；&lt;br /&gt;
-$CE$ 表示当前选中的文本，通过设置 executor.ini 中 fastsearch
-对应的关键词（默认启动 Google
-搜索），配合快捷键，可以实现快速搜索、直接打开选中的
-URL、本地目录等功能；$C$ 则表示剪贴板内容。&lt;/p&gt;
-
-&lt;p&gt;最后再说说到目前的新版本0.98b 为止增加的实用功能：&lt;br /&gt;
-能够自己添加进行扫描和建立索引的目录；&lt;br /&gt;
-增加关键字群组概念，输入群组名 browser 作为关键字，之前归类为 browser 的
-Firefox、Opera 等等就会出现在待选列表中；&lt;br /&gt;
-新的设置界面；&lt;br /&gt;
-可以选择为图标、关键词、历史记录建立缓存，牺牲一点内存换取速度。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Executor 帮助文档</title>
-        <link>https://ioerr.github.io/posts/executor-bangzhuwendang/</link>
-        <pubDate>Wed, 12 Sep 2007 09:59:05 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/executor-bangzhuwendang/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/executor/&#34;&gt;Executor&lt;/a&gt; 帮助文档&lt;/p&gt;
-
-&lt;p&gt;名词定义：&lt;br /&gt;
-命令：原文 command，最终被执行的实际指令；&lt;br /&gt;
-关键词：原文
-keyword，一般指由用户自定义的与一个或一组命令对应的字符串，有时也会包括“开始菜单程序”和“文件系统命令”；&lt;br /&gt;
-程序：原文
-programs，“开始菜单”的“所有程序”中被索引的条目，可能还包括控制面板等的项目；&lt;br /&gt;
-文件系统命令：原文 file system，Windows
-文件系统目录下可以直接执行的命令；&lt;br /&gt;
-历史记录：原文 history，曾经使用过的别名；&lt;/p&gt;
-
-&lt;p&gt;默认按键：&lt;br /&gt;
-默认呼叫热键：Win+Z（我改为了 Pause/Break）；&lt;br /&gt;
-在控制台输入命令时上下浏览其他自动补全的别名：↑/↓或 Tab/Shift+Tab
-或向前向后滚动；&lt;br /&gt;
-打开下拉菜单浏览自动补全的别名：Alt+↓或 F4；&lt;br /&gt;
-打开下拉菜单浏览历史记录和关键词：Shift+↓或 F5；&lt;br /&gt;
-从历史记录中删除当前条目：Shift+Del；&lt;br /&gt;
-从历史记录中删除下拉菜单中高亮的条目：Delete；&lt;br /&gt;
-跳到下/上一个分隔符：Ctrl+Tab/Ctrl+Shift+Tab；&lt;br /&gt;
-清除当前控制台上已输入的命令，如果控制台命令行无内容，则隐藏控制台：Esc；&lt;br /&gt;
-隐藏控制台：Shift+Esc；&lt;br /&gt;
-显示命令提示或关键词注释、命令类型：Ctrl+T；&lt;br /&gt;
-打开设置界面：Ctrl+S；&lt;br /&gt;
-打开关键词编辑器：Ctrl+K；&lt;br /&gt;
-添加关键词：Ctrl+Alt+K ；&lt;br /&gt;
-简单地说就是使用模糊匹配模式：Ctrl+R；&lt;br /&gt;
-在关键词编辑器中打开当前输入的关键词：Ctrl+O；&lt;br /&gt;
-在 Vista 下提高权限执行命令：Shift+Enter；&lt;br /&gt;
-如果用列表取代下拉菜单，同时关闭快速启动选项，那么按住 ALT 或 Ctrl
-选择列表中的别名可以直接执行对应的命令，如果快速启动选项是打开的，则正好相反，按住
-ALT 或 Ctrl 表示选择别名。&lt;/p&gt;
-
-&lt;p&gt;增加关键词到 Executor 的方法：&lt;br /&gt;
-1、直接拖拽快捷方式、文件、文件夹、收藏到控制台上（如果控制台被文件浏览器挡住了，需要在拖拽的同时呼叫出控制台）；&lt;br /&gt;
-2、在关键词编辑器中右键点击关键词列表，选择“增加关键词”；&lt;br /&gt;
-3、拖拽快捷方式、文件、文件夹、收藏到关键词列表；&lt;br /&gt;
-4、拖拽快捷方式、文件、文件夹、收藏到关键词基本信息编辑界面（就在关键词列表下方）；[!]注意，慎用该方法，如果覆盖了已有的关键词项目讲无法撤销，只能够手工改回，即使关闭了“自动应用”选项也是如此；&lt;br /&gt;
-5、在关键词编辑器中右键点击关键词列表，选择“导入关键词”，可以导入开始菜单中的快捷方式和备份文件；&lt;br /&gt;
-6、关键词基本信息编辑界面有“查找”按钮，可用于定位目标文件；&lt;br /&gt;
-7、可以在设置界面打开“增加至‘发送到’菜单”选项，然后在资源浏览器的右键菜单中就可以直接发送到
-Executor 了。&lt;/p&gt;
-
-&lt;p&gt;使用一个关键词启动多个关键词、网址、文件系统命令、程序等等：&lt;br /&gt;
-1、可以在控制台输入多个关键词，在多个命令间增加双竖线分隔符“||”，如“www.deviantart.com||gimp||google
-gimp tutorial”；&lt;br /&gt;
-2、可以使用一个关键词，如“example”启动上述命令或关键词，就是把它们作为关键词“example”对应的命令；&lt;br /&gt;
-3、关键词之间的对应关系只有第一层生效，不会出现循环调用的问题；&lt;br /&gt;
-4、呼叫其他关键词会传递参数，例如，建立一个名为“supersearch”的关键词，对应的命令为“google
-$U$||wiki $U$||groups
-$U$”，“google”、“wiki”、“groups”又是分别启动三类搜索的关键词，那么在控制台输入“supersearch
-calon”，那么参数“calon”会传递给那三个关键词并分别启动三类搜索的动作；[!]注意，在有的电脑上可能需要在每个命令后面增加“$W$”参数，用于等待一段时间才启动下一个命令，否则有的浏览器可能不会分别开始搜索；&lt;br /&gt;
-5、自动补全和下拉菜单对控制台上输入的多重命令仍然有效，其效果相当于被“||”分割为多个关键词；&lt;br /&gt;
-6、在隐藏设置中，可以修改默认分隔符“||”为你自己喜欢的其他符号。&lt;/p&gt;
-
-&lt;p&gt;关于下拉菜单和列表中的程序：&lt;br /&gt;
-1、打开选项之后可以自动将开始菜单、控制面板、我的文档等中的项目加入进来；&lt;br /&gt;
-2、匹配方式是模糊匹配，可以从每个单词的开头开始匹配，如在控制台输入“fire”会匹配“windows
-firewall”，但不会匹配“wildfire”；&lt;br /&gt;
-3、Executor
-启动时会自动检测刷新，运行过程中也会在后台定时刷新，禁用程序的关键词则不会占用系统资源；&lt;br /&gt;
-4、智能排序；&lt;br /&gt;
-5、不依赖任何 Windows 索引服务；&lt;br /&gt;
-6、在隐藏设置中可以选择仅在第一次启动时刷新。&lt;/p&gt;
-
-&lt;p&gt;特殊命令和参数：&lt;br /&gt;
-$P$：表示参数部分输入的文本，如“photoshop”是关键词，则输入“photoshop
--nosplash”时$P$会替换为“-nosplash”；&lt;br /&gt;
-$U$：类同$P$，用于 URL 格式的参数；&lt;br /&gt;
-$W$：表示执行命令后会等待1秒钟，直接跟在关键词后，如“photoshop$W$”；&lt;br /&gt;
-$M$：最小化所有窗口，等同于显示桌面，写在命令之前或之后皆可，如“$M$c:\program files\adobe\photoshop.exe”；&lt;br /&gt;
-$R$：撤销最小化所有窗口；&lt;br /&gt;
-$D$：插入 Executor 所在的驱动器盘符，把 Executor 和其他程序都放在 U
-盘上使用的时候很有用，如“$D$\tools\winhex\winhex.exe”；&lt;br /&gt;
-上述所有命令可以一同使用，互不冲突；&lt;br /&gt;
-支持下列环境变量：%systemroot%、%programfiles%、%temp%、%tmp%、%windir%、%homedrive%、%homedrive%；&lt;/p&gt;
-
-&lt;p&gt;$TIME$：显示当前的时间、日期、今年第几周，默认关键词为“time”，以下类同；&lt;br /&gt;
-$LOCK$：注销，显示切换用户对话框，“?lock”；&lt;br /&gt;
-$SHUTDOWN$：关机，“?shutdown”；&lt;br /&gt;
-$RESTART$：重启，“?restart”；&lt;br /&gt;
-$STANDBY$：待机，“?standby”；&lt;br /&gt;
-$HIBERNATE$：休眠，“?hibernate”；&lt;br /&gt;
-$SCREENSAVER$：启动屏幕保护程序，“?screensaver”；&lt;br /&gt;
-$MUTE$：打开和关闭声音，“mute”；&lt;br /&gt;
-$MONITOR$：关闭显示器，“?monitor”；&lt;br /&gt;
-$SHOWIP$：列出本机所有的 IP 地址，“ip”；&lt;br /&gt;
-$SEARCH$：打开系统自带的搜索，“search”；&lt;br /&gt;
-$EMPTYRECYCLEBIN$：清空回收站，“?emptyrecyclebin”；&lt;br /&gt;
-$NEXT$、$PREV$、$PLAY$、$STOP$、$MEDIA$：控制默认的媒体播放器，跳到下/上一首、播放、停止、打开播放器，“next”、“previous”、“play”、“stop”、“media”。如果是
-Winamp，需要打开 Winamp 的全局热键选项；&lt;br /&gt;
-$WOPEN$、$WCLOSE$、$WMAXIMIZE$、$WMINIMIZE$、$WRESTORE$：显示、关闭、最大化、最小化、恢复当前窗口，“open”、“close”、“maximize”、“minimize”、“restore”。导入
-windowkeywords.exc 这个文件之后才会生效。&lt;/p&gt;
-
-&lt;p&gt;可以在控制台输入以下命令：&lt;br /&gt;
--s 或 -settings：打开设置界面；&lt;br /&gt;
--k 或 -keywords：打开关键词配置界面；&lt;br /&gt;
--a 或
--add：打开添加关键词的对话框，如果后面加上字符串，则表示将其作为新的关键词并开始编辑；&lt;br /&gt;
--i 或 -import：打开开始菜单导入界面；&lt;br /&gt;
--ad 或 -about：显示“关于”页面；&lt;br /&gt;
--v 或 -version：显示版本信息；&lt;br /&gt;
--q 或 -x 或 -quit：退出 Executor，关闭进程。&lt;/p&gt;
-
-&lt;p&gt;Executor.exe 本身可以使用的参数：&lt;br /&gt;
--exit：关闭已经在运行的 Executor；&lt;br /&gt;
--s：如果自动隐藏的选项是打开的，则以最小化方式启动；&lt;br /&gt;
-文件路径：启动后进入关键词编辑界面，将该文件路径作为新的关键词。&lt;/p&gt;
-
-&lt;p&gt;内置的计算器：&lt;br /&gt;
-1、要使用内置计算器，以“#”为开头，如“#52*10+14”；&lt;br /&gt;
-2、支持的运算符包括：+、-、*、/、\^、abs、sqrt、sqr、sin、cos、arctan、ln、log、exp、fak、pi、e、x；&lt;br /&gt;
-3、要使用代数，用这种语法：“#x=[value]”；&lt;br /&gt;
-示例：#x=403 exp(cos(-2*Sqr(x) - 4*x+ 3))/(1/(x+0.01))&lt;/p&gt;
-
-&lt;p&gt;其他细节和技巧：&lt;br /&gt;
-如果没有成功执行命令，则控制台中的文本会变成红色，在隐藏设置中可以修改这个颜色；&lt;br /&gt;
-使用皮肤的话，控制台宽度和字体都有限制；&lt;br /&gt;
-常用命令可以改为更短小的关键词，如“google”改为“.”；&lt;br /&gt;
-在历史记录中查找所有的 doc 格式文档，可以输入“.doc”，再按下 Ctrl+R；&lt;/p&gt;
-
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help.html&#34;&gt;Executor
-Documentation/help/hints&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;设置界面中的重要选项：&lt;br /&gt;
-Save history是否保存历史记录；&lt;br /&gt;
-Autohide：是否自动隐藏；&lt;br /&gt;
-Stay on top：控制台总在最上方；&lt;br /&gt;
-Start on windows startup：随系统启动；&lt;br /&gt;
-Add to windows &amp;ldquo;Send to&amp;rdquo; menu：加入到右键菜单中的“发送”菜单；&lt;br /&gt;
-Auto-complete and order：自动补全时，三类关键词出现的顺序；&lt;br /&gt;
-Enabled types and order：选择在控制台下拉菜单中出现的关键词类型和顺序；&lt;br /&gt;
-Auto open when items：自动打开下拉菜单；&lt;br /&gt;
-Quick launch items：一旦选择某个项目则立即执行；&lt;br /&gt;
-Show type headers in drop down：在下拉菜单中显示关键词的类别；&lt;br /&gt;
-Button will show
-auto-completed：点击下拉菜单按钮时，仅显示匹配当前输入文本的项目，否则显示全部的关键词。&lt;/p&gt;
-
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help-settings.html&#34;&gt;Executor Settings
-help&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;隐藏设置选项：&lt;br /&gt;
-可在 executor.ini 文件中编辑以下选项，如Executor
-目录中没有该文件，可以自己新建一个。[!]注意，首先请关闭
-Executor。如果使用了 Executor 一段时间之后才打算使用
-executor.ini，最好先导出已经配置好的关键词和皮肤再新建该文件。&lt;br /&gt;
-failcolor：命令执行失败时控制台字体的颜色，默认为红色；&lt;br /&gt;
-separator：关键词分隔符，默认为“||”；&lt;br /&gt;
-browser：指定浏览器，如
-browser=d:\program files\mozilla firefox\firefox.exe；&lt;br /&gt;
-noindexrefresh：不自动刷新开始菜单程序等的索引，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
-explore：指定资源浏览器，如
-explore=&amp;ldquo;c:\program files\totalcmd\totalcmd.exe&amp;rdquo;；&lt;br /&gt;
-listinherittransparency：列表是否继承控制台的透明效果，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
-infoenabled：未激活时控制台可以显示指定的信息，需要关闭自动隐藏和打开总在最上方的选项，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
-infoonfocus：激活时控制台可以显示指定的信息，一旦输入文本则信息会消失，0=选项无效，1=选项生效，默认该选项无效；&lt;br /&gt;
-infosyntax：支持显示的信息如下：&lt;br /&gt;
-$dd$=较短格式的日期；&lt;br /&gt;
-$ddd$=日期时间；&lt;br /&gt;
-$mpct$=已使用的内存百分比；&lt;br /&gt;
-$mfree$=空闲内存；&lt;br /&gt;
-$mused$=已使用的内存数，单位 MB；&lt;br /&gt;
-$mtotal$=总内存数，单位 MB；&lt;br /&gt;
-$wnum$=今年的第几个星期；&lt;br /&gt;
-$ip$：本机 IP 列表，如果是\$ip1则仅显示一个 IP 地址。&lt;/p&gt;
-
-&lt;p&gt;以上内容的全文和原文见 &lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/hidden.html&#34;&gt;executor.ini file hidden
-settings&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Executor</title>
-        <link>https://ioerr.github.io/posts/executor/</link>
-        <pubDate>Wed, 29 Aug 2007 03:31:07 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/executor/</guid>
-        <description>&lt;p&gt;看到 &lt;a href=&#34;http://www.cnbeta.com/articles/37583.htm&#34;&gt;CB
-上有人推荐&lt;/a&gt;命令行运行工具
-&lt;a href=&#34;http://www.executor.dk/&#34;&gt;Executor&lt;/a&gt;，收藏页面时发现原来6月份就已经关注过了，正好顺手试试效果。&lt;/p&gt;
-
-&lt;p&gt;Executor
-的&lt;a href=&#34;http://www.executor.dk/&#34;&gt;主页&lt;/a&gt;，&lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/presentation.html&#34;&gt;简介&lt;/a&gt;，&lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/screenshots.html&#34;&gt;界面演示&lt;/a&gt;，&lt;a href=&#34;http://home25.inet.tele.dk/mb/executor/help.html&#34;&gt;帮助文档&lt;/a&gt;，&lt;a href=&#34;http://executor.21.forumer.com/&#34;&gt;论坛&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;因为我目前使用的是 &lt;a href=&#34;http://www.galanc.com/&#34;&gt;TAR&lt;/a&gt;，而
-&lt;a href=&#34;http://www.launchy.net/&#34;&gt;Launchy&lt;/a&gt; 很流行，所以在介绍 Executor
-之外还会和这两款同类软件作比较（TAR 与 Launchy
-的对比见&lt;a href=&#34;http://calon.weblogs.us/duibi_launchy_he_tar/&#34;&gt;这篇文章&lt;/a&gt;）。由于
-Launchy 被我弃用，没有跟踪关注，可能会有没照顾到它的新特性新功能的情况。&lt;/p&gt;
-
-&lt;p&gt;一、上手速度&lt;/p&gt;
-
-&lt;p&gt;基本上摸清楚了最基本的 Executor 的控制台快捷键，就可以上手了，系统命令和
-Windows 自带的应用程序已经可以调用。不会像 Launchy
-那样一启动就搜索整个目录树，把各类文件全部加入索引，而是更加靠近 TAR
-的风格。&lt;/p&gt;
-
-&lt;p&gt;二、界面&lt;/p&gt;
-
-&lt;p&gt;Executor 支持换肤、自制皮肤，支持显示图标，不过论美观程度还是比不上
-Launchy。于我而言，反正命令行不用有多花哨，TAR 那种简陋的界面就足够了。&lt;br /&gt;
-托盘图标没有菜单，只能够通过控制台右键菜单调出设置界面；&lt;/p&gt;
-
-&lt;p&gt;三、功能&lt;/p&gt;
-
-&lt;p&gt;Executor
-通过右键菜单中的“发送”添加别名，别名保存在文本格式的配置文件中；&lt;br /&gt;
-别名从头匹配的方式与 TAR 类似，不同于 Launchy 的模糊匹配；&lt;br /&gt;
-目前还不支持插件，但扩展别名已经集成了不少实用命令了，如运行屏幕保护程序、显示桌面、开关机、打开控制面板、调节音量、关闭显示器等等，不过没找到像
-TAR 那样直接杀死进程的别名；&lt;br /&gt;
-支持单个别名对应批量操作命令；&lt;br /&gt;
-支持热键启动，并设定运行别名对应的程序后自动退出，如此可以进一步节省资源占用。&lt;/p&gt;
-
-&lt;p&gt;四、自定义&lt;/p&gt;
-
-&lt;p&gt;Executor 支持单个快捷键，比 Launchy 强，也支持使用 Pause/Break
-作为快捷键，比 TAR 强；&lt;br /&gt;
-细节设定虽然不如 TAR 详细，但是重要的几个参数都没丢下；&lt;br /&gt;
-自定义设置的界面在一个窗口中，比 TAR 更加一目了然；&lt;br /&gt;
-添加、修改自定义的别名比 Launchy 方便得多，因为 Launchy 的重点不在此；&lt;br /&gt;
-支持别名注释、测试执行别名，这点强于 TAR ，但 TAR
-可以将别名+参数+运行目录等合并为一行显示和修改，方便复制粘贴导入导出，Executor
-便有所不及，好在维护别名的时候复制粘贴还算贴心，会自动将复制的别名更改为“Copy_of_xxx”；&lt;br /&gt;
-自定义选项默认是自动应用的，只提供恢复为默认设置的选项，万一设置错了，不能够取消或撤销，未免有点不友好。&lt;/p&gt;
-
-&lt;p&gt;五、资源占用&lt;/p&gt;
-
-&lt;p&gt;免安装 Zip 包体积760KB 左右；&lt;br /&gt;
-内存和 CPU 占用略高于 TAR，低于 Launchy。&lt;/p&gt;
-
-&lt;p&gt;六、稳定性&lt;/p&gt;
-
-&lt;p&gt;目前还没有发现异常情况。&lt;/p&gt;
-
-&lt;p&gt;七、总结&lt;/p&gt;
-
-&lt;p&gt;Executor 在定位上应该是靠近 TAR
-的，即添加、管理、快速执行常用命令、操作、文件，与更适合在大量文件中临时定位单个文件的
-Launchy 有一些差异；&lt;br /&gt;
-除了资源占用稍高和功能稍弱之外，对入门和中级用户更加友好，完全可以取代
-TAR；&lt;br /&gt;
-由于 &lt;a href=&#34;http://www.galanc.com/&#34;&gt;TAR
-的主页&lt;/a&gt;一直在维护中，很久不见新版本推出，建议舍
-TAR 而取 Executor，除非你需要用到 TAR 的一些无法取代的功能。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/executor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dash Command</title>
+      <link>https://ioerr.github.io/posts/dash-command/</link>
+      <pubDate>Thu, 21 Aug 2008 14:58:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dash-command/</guid>
+      <description>Life Hacker 终于想起来要介绍 Executor 这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor 很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走</description>
+      <content:encoded><![CDATA[<p>Life Hacker<br>
+终于想起来要<a href="http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher">介绍</a><br>
+<a href="http://calon.weblogs.us/executor/">Executor</a><br>
+这个功能强大的快速启动工具，留言中的群众纷纷表示 Executor<br>
+很好很强大；同时，因为它的设置选项太丰富，能够挖掘的东西太多，也吓走不少喜欢简单快速上手的<br>
+Launchy 用户，而且，有的用户并没有深入研究就认为 Executor<br>
+具有某种缺点：比如，以为一定要先用箭头向下移动才能选择第一候选，以为<br>
+Launchy 使用 runner 插件添加别名就能达到和它一样效果。</p>
+<p>额外的收获是，看到有人推荐自己参与开发的另一款快速启动工具：<a href="http://trydash.com/home/">Dash<br>
+Command</a>（急急如勒令？命令大师？囧）</p>
+<p><img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/DashDemo1.gif" alt=""  />
+</p>
+<p>Dash<br>
+是一款收费软件，目前还没有到1.0正式版，预售优惠价19.95，正式售价$50，与其他免费好用的同类软件相比这是个很大的劣势。<br>
+但它的优势是系统资源占用相对小很多，同时又保持了漂亮的界面和强大的功能。</p>
+<p>下面是试用版的使用体验：</p>
+<p>首先，基本的使用方法都差不多，呼叫出控制台，敲入关键字，自动列出对应的文件：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_203810.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203810.png" alt="Photobucket"  />
+</a><br>
+控制台出现的速度很快，资源占用大大小于 Launchy（听说 Launchy<br>
+新版本资源占用越来越厉害了）。12个皮肤虽然不算多，但都还比较好看。</p>
+<p>Dash 和 Launchy<br>
+接近，都可以自动索引“开始菜单”等常用快捷方式集散地，而且它还原生支持索引<br>
+Firefox<br>
+书签、音乐目录。但因为是试用版，不能自己增加要建立索引的目录，也不能编辑修改索引选项。<br>
+一些特殊命令试用版中也无效：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_203631.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_203631.png" alt="Photobucket"  />
+</a></p>
+<p>增加关键词的方式很奇特：用 Add 命令启动下面这个界面，Open this<br>
+下拉菜单中是当前已经打开的程序清单，也可以手动选择其他文件和目录，然后设定对应的关键词别名和描述。但我不知道如何像<br>
+TAR 和 Executor 一样在资源管理器界面中为当前文件快速添加关键词别名。<br>
+试用版只能添加5个自定义关键词，但我没试能不能通过修改 Keywords<br>
+下面的文件突破限制。<br>
+<img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI11.jpg" alt=""  />
+</p>
+<p>Dash 有个特色，就是如果特殊命令可以带参数，比如 Play Music<br>
+命令，那么输入关键词之后再按 Tab<br>
+或空格，就进入参数输入模式，此时再输入你要播放的音乐文件名，支持模糊匹配：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_205441.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_205441.png" alt="Photobucket"  />
+</a></p>
+<p>另一特色是输入<br>
+/，就可以用方向键在控制台浏览本地目录和文件。截图无法很好的展示这个功能，自己试一试就能感受到这个功能很有想法。</p>
+<p>在控制台按下 Ctrl 键可以查看当前匹配的文件的详细信息：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_220722.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_220722.png" alt="Photobucket"  />
+</a></p>
+<p>控制台呼叫热键支持 Ctrl、Shift、Win 加其他按键的组合，可是 Pause/Break<br>
+不能设置为热键…<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_204126.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204126.png" alt="Photobucket"  />
+</a></p>
+<p>对中文的支持并非完美，据说今后的版本会支持 Unicode：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-08-21_204507.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-08-21_204507.png" alt="Photobucket"  />
+</a></p>
+<p>正式版的界面可以看<a href="http://www.trydash.com/home/screenshots/">这里</a>，从它的<a href="http://www.trydash.com/home/information/features/">特性介绍</a>来看，试用版少了很多同类软件不具备的强大功能：</p>
+<p>预览图片：<br>
+<img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI7.jpg" alt=""  />
+</p>
+<p>直接操作文件和目录：<br>
+<img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/Zip.gif" alt=""  />
+</p>
+<p>可以针对指定网站建立定期刷新的索引，图中的 Websites 就是证据：<br>
+<img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/Dash-UI12-small.jpg" alt=""  />
+</p>
+<p>快速搜索或翻译选定的文本：<br>
+<img loading="lazy" src="http://www.trydash.com/home/wp-content/uploads/image/TextSelection.gif" alt=""  />
+</p>
+<p>实时计算结果的计算器，复制计算结果也很方便：<br>
+<img loading="lazy" src="http://trydash.com/images/DashCalculator1.jpg" alt=""  />
+</p>
+<p>兼容 <a href="http://www.fullphat.net/">Snarl</a> 协议，其他兼容 Snarl<br>
+的程序都可以通过 Dash 实现桌面提醒，而且不用安装 Snarl：<br>
+<img loading="lazy" src="http://trydash.com/images/DashNotify-UI1.jpg" alt=""  />
+</p>
+<p>还有超级模糊匹配和正则表达式，不过我觉得会大大增加候选项降低速度，或者一般人根本用不到：<br>
+Type** gmap** to find <strong>G</strong>oogle <strong>Map</strong>s</p>
+<p>Type** apc** to find <strong>A</strong>dobe <strong>P</strong>hotoshop <strong>C</strong>S3</p>
+<p>更多的特性请看安装程序自带的使用手册和<a href="http://www.trydash.com/home/wp-content/uploads/file/Dash%20Users%20Manual.pdf">官方帮助文档</a>、<a href="http://www.trydash.com/home/tutorials/">演示动画</a>、<a href="http://www.trydash.com/home/dash-video-tour/">视频</a>，都说得很清楚。</p>
+<p>最后，为何我要介绍一款收费软件？因为 <a href="http://lifehacker.com/400566/executor-is-impressive-full+featured-app-launcher#c7315216">Dash<br>
+的开发者之一声称</a>要放出一个<br>
+new UNLIMITED TRIAL version：</p>
+<!-- raw HTML omitted -->
+<p>补充说明：试用版的说明文档中说：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The restrictions at this point are a smaller set of commands, the user<br>
+can only create 5 keywords, keywords and scanners cannot be edited. The<br>
+trial is also time limited.</p>
+<!-- raw HTML omitted -->
+<p><a href="http://www.trydash.com/home/free-download/#comment-88">开发者去年曾经说</a>：</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
+    <item>
+      <title>我的快速启动程序最佳选择</title>
+      <link>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</link>
+      <pubDate>Mon, 26 May 2008 16:05:49 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wo-de-kuaisu-qidong-chengxu-zuijia-xuanze/</guid>
+      <description>最近 LifeHacker、善用佳软和小众软件都在讨论快速启动程序工具软件的话题，我也正好凑个热闹。 最初开始使用这一类软件时，我的选择是 Typ</description>
+      <content:encoded><![CDATA[<p>最近<br>
+<a href="http://lifehacker.com/392136/best-application-launchers">LifeHacker</a>、<a href="http://xbeta.info/ask-quick-launch.htm">善用佳软</a>和<a href="http://www.appinn.com/ask-quick-launch/">小众软件</a>都在讨论快速启动程序工具软件的话题，我也正好凑个热闹。</p>
+<p>最初开始使用这一类软件时，我的选择是<br>
+<a href="http://www.galanc.com/">TypeAndRun</a>，为此还专门写了<a href="http://calon.weblogs.us/duibi_launchy_he_tar/">对比 Launchy 和<br>
+TAR</a> 的文章。</p>
+<p>后来偶然发现了 <a href="http://www.executor.dk/">Executor</a>，加上 TAR<br>
+一直停止更新，于是换用了更新勤快功能也很强大的前者。<br>
+Executor<br>
+既能够快速上手（如导入开始菜单项目），也适合蛋疼人士深入钻研各种参数、选项、变量、快捷键和功能，同时其身材和资源占用也保持的不错，所以一直使用到现在。<br>
+期间有写过一篇<a href="http://calon.weblogs.us/executor/">专门介绍它的文章</a>，以及<a href="http://calon.weblogs.us/executor_bangzhuwendang/">帮助文档的翻译</a>。</p>
+<p>除了上面提到的几款软件，还有<br>
+<a href="http://www.donationcoder.com/Software/Mouser/findrun/index.html">FindAndRunRobot!</a>、<a href="http://www.3lsoft.com/">音速启动/VStart</a>、<a href="http://www.truelaunchbar.com/">Ture<br>
+Launchy<br>
+Bar</a>（我觉得这不能算啊，纯命令行的才是王道！），因为操作不习惯、资源占用和对华丽界面无兴趣的原因，就不一一介绍和比较了。<br>
+特别要介绍的是 JourneyBoy 写出来自用的<br>
+<a href="http://journeyboy.blog.sohu.com/79386735.html">HotRun</a>，身材小巧，作者更新频繁，也有如支持通配符这样的特色功能。</p>
+<p>当然，谁是最佳的快速启动程序工具软件，就像谁是最佳浏览器、输入法、邮件客户端等等一样，只有适合自己才是最好的。对我来说，Executor<br>
+就是我目前的最佳选择。</p>
+<p>接下来选择性的翻译一些 Executor<br>
+<a href="http://home25.inet.tele.dk/mb/executor/didyouknow.html">小技巧</a>，有的在帮助文档和选项设置中是看不到的。</p>
+<p>输入文本后如果没找到目标，可以用 Ctrl+R<br>
+切换成模糊匹配模式，相当于在文字前后加上通配符“*”；<br>
+每个关键词都可以指定相应的热键和群组；<br>
+导入 standard.exc 可以获得一些系统命令关键词，比如：<br>
+输入 apps 可以列出并管理进程；<br>
+recent 列出开始菜单中的最近打开的文件等；<br>
+clipboard<br>
+不回车，列出复制过的文本，选择其中一条就相当于重新复制，可以替代部分剪贴板助手程序的功能；<br>
+$CE$ 表示当前选中的文本，通过设置 executor.ini 中 fastsearch<br>
+对应的关键词（默认启动 Google<br>
+搜索），配合快捷键，可以实现快速搜索、直接打开选中的<br>
+URL、本地目录等功能；$C$ 则表示剪贴板内容。</p>
+<p>最后再说说到目前的新版本0.98b 为止增加的实用功能：<br>
+能够自己添加进行扫描和建立索引的目录；<br>
+增加关键字群组概念，输入群组名 browser 作为关键字，之前归类为 browser 的<br>
+Firefox、Opera 等等就会出现在待选列表中；<br>
+新的设置界面；<br>
+可以选择为图标、关键词、历史记录建立缓存，牺牲一点内存换取速度。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Executor 帮助文档</title>
+      <link>https://ioerr.github.io/posts/executor-bangzhuwendang/</link>
+      <pubDate>Wed, 12 Sep 2007 09:59:05 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/executor-bangzhuwendang/</guid>
+      <description>Executor 帮助文档 名词定义： 命令：原文 command，最终被执行的实际指令； 关键词：原文 keyword，一般指由用户自定义的与一个或一组命令对应的字</description>
+      <content:encoded><![CDATA[<p><a href="http://calon.weblogs.us/executor/">Executor</a> 帮助文档</p>
+<p>名词定义：<br>
+命令：原文 command，最终被执行的实际指令；<br>
+关键词：原文<br>
+keyword，一般指由用户自定义的与一个或一组命令对应的字符串，有时也会包括“开始菜单程序”和“文件系统命令”；<br>
+程序：原文<br>
+programs，“开始菜单”的“所有程序”中被索引的条目，可能还包括控制面板等的项目；<br>
+文件系统命令：原文 file system，Windows<br>
+文件系统目录下可以直接执行的命令；<br>
+历史记录：原文 history，曾经使用过的别名；</p>
+<p>默认按键：<br>
+默认呼叫热键：Win+Z（我改为了 Pause/Break）；<br>
+在控制台输入命令时上下浏览其他自动补全的别名：↑/↓或 Tab/Shift+Tab<br>
+或向前向后滚动；<br>
+打开下拉菜单浏览自动补全的别名：Alt+↓或 F4；<br>
+打开下拉菜单浏览历史记录和关键词：Shift+↓或 F5；<br>
+从历史记录中删除当前条目：Shift+Del；<br>
+从历史记录中删除下拉菜单中高亮的条目：Delete；<br>
+跳到下/上一个分隔符：Ctrl+Tab/Ctrl+Shift+Tab；<br>
+清除当前控制台上已输入的命令，如果控制台命令行无内容，则隐藏控制台：Esc；<br>
+隐藏控制台：Shift+Esc；<br>
+显示命令提示或关键词注释、命令类型：Ctrl+T；<br>
+打开设置界面：Ctrl+S；<br>
+打开关键词编辑器：Ctrl+K；<br>
+添加关键词：Ctrl+Alt+K ；<br>
+简单地说就是使用模糊匹配模式：Ctrl+R；<br>
+在关键词编辑器中打开当前输入的关键词：Ctrl+O；<br>
+在 Vista 下提高权限执行命令：Shift+Enter；<br>
+如果用列表取代下拉菜单，同时关闭快速启动选项，那么按住 ALT 或 Ctrl<br>
+选择列表中的别名可以直接执行对应的命令，如果快速启动选项是打开的，则正好相反，按住<br>
+ALT 或 Ctrl 表示选择别名。</p>
+<p>增加关键词到 Executor 的方法：<br>
+1、直接拖拽快捷方式、文件、文件夹、收藏到控制台上（如果控制台被文件浏览器挡住了，需要在拖拽的同时呼叫出控制台）；<br>
+2、在关键词编辑器中右键点击关键词列表，选择“增加关键词”；<br>
+3、拖拽快捷方式、文件、文件夹、收藏到关键词列表；<br>
+4、拖拽快捷方式、文件、文件夹、收藏到关键词基本信息编辑界面（就在关键词列表下方）；[!]注意，慎用该方法，如果覆盖了已有的关键词项目讲无法撤销，只能够手工改回，即使关闭了“自动应用”选项也是如此；<br>
+5、在关键词编辑器中右键点击关键词列表，选择“导入关键词”，可以导入开始菜单中的快捷方式和备份文件；<br>
+6、关键词基本信息编辑界面有“查找”按钮，可用于定位目标文件；<br>
+7、可以在设置界面打开“增加至‘发送到’菜单”选项，然后在资源浏览器的右键菜单中就可以直接发送到<br>
+Executor 了。</p>
+<p>使用一个关键词启动多个关键词、网址、文件系统命令、程序等等：<br>
+1、可以在控制台输入多个关键词，在多个命令间增加双竖线分隔符“||”，如“www.deviantart.com||gimp||google<br>
+gimp tutorial”；<br>
+2、可以使用一个关键词，如“example”启动上述命令或关键词，就是把它们作为关键词“example”对应的命令；<br>
+3、关键词之间的对应关系只有第一层生效，不会出现循环调用的问题；<br>
+4、呼叫其他关键词会传递参数，例如，建立一个名为“supersearch”的关键词，对应的命令为“google<br>
+$U$||wiki $U$||groups<br>
+$U$”，“google”、“wiki”、“groups”又是分别启动三类搜索的关键词，那么在控制台输入“supersearch<br>
+calon”，那么参数“calon”会传递给那三个关键词并分别启动三类搜索的动作；[!]注意，在有的电脑上可能需要在每个命令后面增加“$W$”参数，用于等待一段时间才启动下一个命令，否则有的浏览器可能不会分别开始搜索；<br>
+5、自动补全和下拉菜单对控制台上输入的多重命令仍然有效，其效果相当于被“||”分割为多个关键词；<br>
+6、在隐藏设置中，可以修改默认分隔符“||”为你自己喜欢的其他符号。</p>
+<p>关于下拉菜单和列表中的程序：<br>
+1、打开选项之后可以自动将开始菜单、控制面板、我的文档等中的项目加入进来；<br>
+2、匹配方式是模糊匹配，可以从每个单词的开头开始匹配，如在控制台输入“fire”会匹配“windows<br>
+firewall”，但不会匹配“wildfire”；<br>
+3、Executor<br>
+启动时会自动检测刷新，运行过程中也会在后台定时刷新，禁用程序的关键词则不会占用系统资源；<br>
+4、智能排序；<br>
+5、不依赖任何 Windows 索引服务；<br>
+6、在隐藏设置中可以选择仅在第一次启动时刷新。</p>
+<p>特殊命令和参数：<br>
+$P$：表示参数部分输入的文本，如“photoshop”是关键词，则输入“photoshop<br>
+-nosplash”时$P$会替换为“-nosplash”；<br>
+$U$：类同$P$，用于 URL 格式的参数；<br>
+$W$：表示执行命令后会等待1秒钟，直接跟在关键词后，如“photoshop$W$”；<br>
+$M$：最小化所有窗口，等同于显示桌面，写在命令之前或之后皆可，如“$M$c:\program files\adobe\photoshop.exe”；<br>
+$R$：撤销最小化所有窗口；<br>
+$D$：插入 Executor 所在的驱动器盘符，把 Executor 和其他程序都放在 U<br>
+盘上使用的时候很有用，如“$D$\tools\winhex\winhex.exe”；<br>
+上述所有命令可以一同使用，互不冲突；<br>
+支持下列环境变量：%systemroot%、%programfiles%、%temp%、%tmp%、%windir%、%homedrive%、%homedrive%；</p>
+<p>$TIME$：显示当前的时间、日期、今年第几周，默认关键词为“time”，以下类同；<br>
+$LOCK$：注销，显示切换用户对话框，“?lock”；<br>
+$SHUTDOWN$：关机，“?shutdown”；<br>
+$RESTART$：重启，“?restart”；<br>
+$STANDBY$：待机，“?standby”；<br>
+$HIBERNATE$：休眠，“?hibernate”；<br>
+$SCREENSAVER$：启动屏幕保护程序，“?screensaver”；<br>
+$MUTE$：打开和关闭声音，“mute”；<br>
+$MONITOR$：关闭显示器，“?monitor”；<br>
+$SHOWIP$：列出本机所有的 IP 地址，“ip”；<br>
+$SEARCH$：打开系统自带的搜索，“search”；<br>
+$EMPTYRECYCLEBIN$：清空回收站，“?emptyrecyclebin”；<br>
+$NEXT$、$PREV$、$PLAY$、$STOP$、$MEDIA$：控制默认的媒体播放器，跳到下/上一首、播放、停止、打开播放器，“next”、“previous”、“play”、“stop”、“media”。如果是<br>
+Winamp，需要打开 Winamp 的全局热键选项；<br>
+$WOPEN$、$WCLOSE$、$WMAXIMIZE$、$WMINIMIZE$、$WRESTORE$：显示、关闭、最大化、最小化、恢复当前窗口，“open”、“close”、“maximize”、“minimize”、“restore”。导入<br>
+windowkeywords.exc 这个文件之后才会生效。</p>
+<p>可以在控制台输入以下命令：<br>
+-s 或 -settings：打开设置界面；<br>
+-k 或 -keywords：打开关键词配置界面；<br>
+-a 或<br>
+-add：打开添加关键词的对话框，如果后面加上字符串，则表示将其作为新的关键词并开始编辑；<br>
+-i 或 -import：打开开始菜单导入界面；<br>
+-ad 或 -about：显示“关于”页面；<br>
+-v 或 -version：显示版本信息；<br>
+-q 或 -x 或 -quit：退出 Executor，关闭进程。</p>
+<p>Executor.exe 本身可以使用的参数：<br>
+-exit：关闭已经在运行的 Executor；<br>
+-s：如果自动隐藏的选项是打开的，则以最小化方式启动；<br>
+文件路径：启动后进入关键词编辑界面，将该文件路径作为新的关键词。</p>
+<p>内置的计算器：<br>
+1、要使用内置计算器，以“#”为开头，如“#52<em>10+14”；<br>
+2、支持的运算符包括：+、-、</em>、/、^、abs、sqrt、sqr、sin、cos、arctan、ln、log、exp、fak、pi、e、x；<br>
+3、要使用代数，用这种语法：“#x=[value]”；<br>
+示例：#x=403 exp(cos(-2<em>Sqr(x) - 4</em>x+ 3))/(1/(x+0.01))</p>
+<p>其他细节和技巧：<br>
+如果没有成功执行命令，则控制台中的文本会变成红色，在隐藏设置中可以修改这个颜色；<br>
+使用皮肤的话，控制台宽度和字体都有限制；<br>
+常用命令可以改为更短小的关键词，如“google”改为“.”；<br>
+在历史记录中查找所有的 doc 格式文档，可以输入“.doc”，再按下 Ctrl+R；</p>
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/help.html">Executor<br>
+Documentation/help/hints</a></p>
+<p>设置界面中的重要选项：<br>
+Save history是否保存历史记录；<br>
+Autohide：是否自动隐藏；<br>
+Stay on top：控制台总在最上方；<br>
+Start on windows startup：随系统启动；<br>
+Add to windows &ldquo;Send to&rdquo; menu：加入到右键菜单中的“发送”菜单；<br>
+Auto-complete and order：自动补全时，三类关键词出现的顺序；<br>
+Enabled types and order：选择在控制台下拉菜单中出现的关键词类型和顺序；<br>
+Auto open when items：自动打开下拉菜单；<br>
+Quick launch items：一旦选择某个项目则立即执行；<br>
+Show type headers in drop down：在下拉菜单中显示关键词的类别；<br>
+Button will show<br>
+auto-completed：点击下拉菜单按钮时，仅显示匹配当前输入文本的项目，否则显示全部的关键词。</p>
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/help-settings.html">Executor Settings<br>
+help</a></p>
+<p>隐藏设置选项：<br>
+可在 executor.ini 文件中编辑以下选项，如Executor<br>
+目录中没有该文件，可以自己新建一个。[!]注意，首先请关闭<br>
+Executor。如果使用了 Executor 一段时间之后才打算使用<br>
+executor.ini，最好先导出已经配置好的关键词和皮肤再新建该文件。<br>
+failcolor：命令执行失败时控制台字体的颜色，默认为红色；<br>
+separator：关键词分隔符，默认为“||”；<br>
+browser：指定浏览器，如<br>
+browser=d:\program files\mozilla firefox\firefox.exe；<br>
+noindexrefresh：不自动刷新开始菜单程序等的索引，0=选项无效，1=选项生效，默认该选项无效；<br>
+explore：指定资源浏览器，如<br>
+explore=&ldquo;c:\program files\totalcmd\totalcmd.exe&rdquo;；<br>
+listinherittransparency：列表是否继承控制台的透明效果，0=选项无效，1=选项生效，默认该选项无效；<br>
+infoenabled：未激活时控制台可以显示指定的信息，需要关闭自动隐藏和打开总在最上方的选项，0=选项无效，1=选项生效，默认该选项无效；<br>
+infoonfocus：激活时控制台可以显示指定的信息，一旦输入文本则信息会消失，0=选项无效，1=选项生效，默认该选项无效；<br>
+infosyntax：支持显示的信息如下：<br>
+$dd$=较短格式的日期；<br>
+$ddd$=日期时间；<br>
+$mpct$=已使用的内存百分比；<br>
+$mfree$=空闲内存；<br>
+$mused$=已使用的内存数，单位 MB；<br>
+$mtotal$=总内存数，单位 MB；<br>
+$wnum$=今年的第几个星期；<br>
+$ip$：本机 IP 列表，如果是$ip1则仅显示一个 IP 地址。</p>
+<p>以上内容的全文和原文见 <a href="http://home25.inet.tele.dk/mb/executor/hidden.html">executor.ini file hidden<br>
+settings</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Executor</title>
+      <link>https://ioerr.github.io/posts/executor/</link>
+      <pubDate>Wed, 29 Aug 2007 03:31:07 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/executor/</guid>
+      <description>看到 CB 上有人推荐命令行运行工具 Executor，收藏页面时发现原来6月份就已经关注过了，正好顺手试试效果。 Executor 的主页，简介，界面演示，帮助文档</description>
+      <content:encoded><![CDATA[<p>看到 <a href="http://www.cnbeta.com/articles/37583.htm">CB<br>
+上有人推荐</a>命令行运行工具<br>
+<a href="http://www.executor.dk/">Executor</a>，收藏页面时发现原来6月份就已经关注过了，正好顺手试试效果。</p>
+<p>Executor<br>
+的<a href="http://www.executor.dk/">主页</a>，<a href="http://home25.inet.tele.dk/mb/executor/presentation.html">简介</a>，<a href="http://home25.inet.tele.dk/mb/executor/screenshots.html">界面演示</a>，<a href="http://home25.inet.tele.dk/mb/executor/help.html">帮助文档</a>，<a href="http://executor.21.forumer.com/">论坛</a>。</p>
+<p>因为我目前使用的是 <a href="http://www.galanc.com/">TAR</a>，而<br>
+<a href="http://www.launchy.net/">Launchy</a> 很流行，所以在介绍 Executor<br>
+之外还会和这两款同类软件作比较（TAR 与 Launchy<br>
+的对比见<a href="http://calon.weblogs.us/duibi_launchy_he_tar/">这篇文章</a>）。由于<br>
+Launchy 被我弃用，没有跟踪关注，可能会有没照顾到它的新特性新功能的情况。</p>
+<p>一、上手速度</p>
+<p>基本上摸清楚了最基本的 Executor 的控制台快捷键，就可以上手了，系统命令和<br>
+Windows 自带的应用程序已经可以调用。不会像 Launchy<br>
+那样一启动就搜索整个目录树，把各类文件全部加入索引，而是更加靠近 TAR<br>
+的风格。</p>
+<p>二、界面</p>
+<p>Executor 支持换肤、自制皮肤，支持显示图标，不过论美观程度还是比不上<br>
+Launchy。于我而言，反正命令行不用有多花哨，TAR 那种简陋的界面就足够了。<br>
+托盘图标没有菜单，只能够通过控制台右键菜单调出设置界面；</p>
+<p>三、功能</p>
+<p>Executor<br>
+通过右键菜单中的“发送”添加别名，别名保存在文本格式的配置文件中；<br>
+别名从头匹配的方式与 TAR 类似，不同于 Launchy 的模糊匹配；<br>
+目前还不支持插件，但扩展别名已经集成了不少实用命令了，如运行屏幕保护程序、显示桌面、开关机、打开控制面板、调节音量、关闭显示器等等，不过没找到像<br>
+TAR 那样直接杀死进程的别名；<br>
+支持单个别名对应批量操作命令；<br>
+支持热键启动，并设定运行别名对应的程序后自动退出，如此可以进一步节省资源占用。</p>
+<p>四、自定义</p>
+<p>Executor 支持单个快捷键，比 Launchy 强，也支持使用 Pause/Break<br>
+作为快捷键，比 TAR 强；<br>
+细节设定虽然不如 TAR 详细，但是重要的几个参数都没丢下；<br>
+自定义设置的界面在一个窗口中，比 TAR 更加一目了然；<br>
+添加、修改自定义的别名比 Launchy 方便得多，因为 Launchy 的重点不在此；<br>
+支持别名注释、测试执行别名，这点强于 TAR ，但 TAR<br>
+可以将别名+参数+运行目录等合并为一行显示和修改，方便复制粘贴导入导出，Executor<br>
+便有所不及，好在维护别名的时候复制粘贴还算贴心，会自动将复制的别名更改为“Copy_of_xxx”；<br>
+自定义选项默认是自动应用的，只提供恢复为默认设置的选项，万一设置错了，不能够取消或撤销，未免有点不友好。</p>
+<p>五、资源占用</p>
+<p>免安装 Zip 包体积760KB 左右；<br>
+内存和 CPU 占用略高于 TAR，低于 Launchy。</p>
+<p>六、稳定性</p>
+<p>目前还没有发现异常情况。</p>
+<p>七、总结</p>
+<p>Executor 在定位上应该是靠近 TAR<br>
+的，即添加、管理、快速执行常用命令、操作、文件，与更适合在大量文件中临时定位单个文件的<br>
+Launchy 有一些差异；<br>
+除了资源占用稍高和功能稍弱之外，对入门和中级用户更加友好，完全可以取代<br>
+TAR；<br>
+由于 <a href="http://www.galanc.com/">TAR<br>
+的主页</a>一直在维护中，很久不见新版本推出，建议舍<br>
+TAR 而取 Executor，除非你需要用到 TAR 的一些无法取代的功能。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

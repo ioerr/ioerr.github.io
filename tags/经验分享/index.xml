@@ -1,54 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>经验分享 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</link>
     <description>Recent content in 经验分享 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 12 Jan 2018 20:24:39 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>理光 GR2评价和使用经验</title>
-        <link>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</link>
-        <pubDate>Fri, 12 Jan 2018 20:24:39 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</guid>
-        <description>&lt;p&gt;入手理光 GR2不到一年，在&lt;a href=&#34;https://www.smzdm.com/&#34;&gt;什么值得买&lt;/a&gt;上投稿了一篇文章&lt;a href=&#34;https://post.smzdm.com/p/639625/&#34;&gt;GR 新一代上市之前，RICOH 理光 GR II 使用评价和经验分享&lt;/a&gt;。
-实在懒得再搬一次图片了，只在这里发链接吧。&lt;/p&gt;
-
-&lt;p&gt;简单的总结如下：&lt;/p&gt;
-
-&lt;p&gt;缺点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;成像质量方面：色彩平淡不讨喜，高感成像素质一般，1600万像素不算高；&lt;/li&gt;
-&lt;li&gt;装逼方面：外形不够骚（但我很喜欢它的低调外形），没有自带电子或光学取景器；&lt;/li&gt;
-&lt;li&gt;功能方面：对焦慢，自动对焦容易识别错主体而跑焦，WiFi 传输实用性不高且耗电快，手机应用异常难用，没有防抖，没有触摸屏，微距最近10厘米；&lt;/li&gt;
-&lt;li&gt;可靠性方面：电池续航时间不算长，需要至少备一块电池，有进灰的通病，偶尔会死机。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;优点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;体积小巧，APS-C 幅面相机中最便携的；&lt;/li&gt;
-&lt;li&gt;单手操控能力强，机身软件响应迅速，手感和外形低调，便携小数码相机中最适合街拍的；&lt;/li&gt;
-&lt;li&gt;镜头成像优异，不愧 GR 系列历来以成像素质闻名的镜头；&lt;/li&gt;
-&lt;li&gt;针对的细分目标用户群非常明确，功能设计目的性强，充分扬长避短。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;GR 系列相机就像一把暗藏于手中，随时可以出鞘的漆黑匕首，它不是长枪、弩箭或刀剑，如果它的设计理念符合你的需求，那么就没有什么好犹豫的。&lt;/p&gt;
-
-&lt;p&gt;反正对我来说，它是2017年最值的一件商品。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理光 GR2评价和使用经验</title>
+      <link>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</link>
+      <pubDate>Fri, 12 Jan 2018 20:24:39 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/rioch-gr2-pingjia-he-shiyong-jingyan/</guid>
+      <description>入手理光 GR2不到一年，在什么值得买上投稿了一篇文章GR 新一代上市之前，RICOH 理光 GR II 使用评价和经验分享。 实在懒得再搬一次图片了，只在这</description>
+      <content:encoded><![CDATA[<p>入手理光 GR2不到一年，在<a href="https://www.smzdm.com/">什么值得买</a>上投稿了一篇文章<a href="https://post.smzdm.com/p/639625/">GR 新一代上市之前，RICOH 理光 GR II 使用评价和经验分享</a>。<br>
+实在懒得再搬一次图片了，只在这里发链接吧。</p>
+<p>简单的总结如下：</p>
+<p>缺点：</p>
+<ul>
+<li>成像质量方面：色彩平淡不讨喜，高感成像素质一般，1600万像素不算高；</li>
+<li>装逼方面：外形不够骚（但我很喜欢它的低调外形），没有自带电子或光学取景器；</li>
+<li>功能方面：对焦慢，自动对焦容易识别错主体而跑焦，WiFi 传输实用性不高且耗电快，手机应用异常难用，没有防抖，没有触摸屏，微距最近10厘米；</li>
+<li>可靠性方面：电池续航时间不算长，需要至少备一块电池，有进灰的通病，偶尔会死机。</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>体积小巧，APS-C 幅面相机中最便携的；</li>
+<li>单手操控能力强，机身软件响应迅速，手感和外形低调，便携小数码相机中最适合街拍的；</li>
+<li>镜头成像优异，不愧 GR 系列历来以成像素质闻名的镜头；</li>
+<li>针对的细分目标用户群非常明确，功能设计目的性强，充分扬长避短。</li>
+</ul>
+<p>GR 系列相机就像一把暗藏于手中，随时可以出鞘的漆黑匕首，它不是长枪、弩箭或刀剑，如果它的设计理念符合你的需求，那么就没有什么好犹豫的。</p>
+<p>反正对我来说，它是2017年最值的一件商品。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

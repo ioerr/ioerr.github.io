@@ -1,42 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on 读写错误</title>
     <link>https://ioerr.github.io/tags/blog/</link>
     <description>Recent content in Blog on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 29 Jan 2008 16:40:35 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>有多忙？</title>
-        <link>https://ioerr.github.io/posts/youduomang/</link>
-        <pubDate>Tue, 29 Jan 2008 16:40:35 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/youduomang/</guid>
-        <description>&lt;p&gt;有道提供的&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;2007 blog 测试&lt;/a&gt;。&lt;br /&gt;
-&lt;table cellpadding=&#34;3&#34; width=&#34;500&#34; style=&#34;background:#fff;&#34; cellspacing=&#34;0&#34; bordercolor=&#34;#A60707&#34;&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center; border-top:2px solid #ccc;&#34;&gt;
-&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;&lt;img src=&#34;http://www.yodao.com/07busy/images/logoIcon.gif&#34; alt=&#34;2007我很忙&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.yodao.com/07busy/&#34;&gt;“2007我很忙！”
-你呢？点这里测测看！**&lt;/a&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-经鉴定，夏秋季节交配活动频繁，昼伏夜出，患有周一恐惧症，雄性特征明显，中产阶级。&lt;/p&gt;
-</description>
-      </item>
-    
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更换 Hugo 主题</title>
+      <link>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</guid>
+      <description>一时手痒，将自己修改后用了好几年的 Simplicity 主题，改为了 PaperMod。 同时将 Hugo 程序也升级到了最新版本。 本来是为了实现自带站内搜索功能，而不依赖于</description>
+      <content:encoded><![CDATA[<p>一时手痒，将自己修改后用了好几年的 <a href="https://github.com/eshlox/simplicity">Simplicity</a> 主题，改为了 <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>。<br>
+同时将 <a href="https://gohugo.io/">Hugo</a> 程序也升级到了最新版本。</p>
+<p>本来是为了实现自带站内搜索功能，而不依赖于 <a href="https://programmablesearchengine.google.com/">Programmable Search Engine</a>。<br>
+结果升级和更换主题后，发现一堆设置要改，许多自定义的东西要从头来，且做个记录。</p>
+<p>首先是配置站内搜索，参照主题的帮助文档和示例配置来就行。</p>
+<p>然后是首页风格，从文章列表式改成了简介首页式的。</p>
+<p>页眉的链接通过配置修改。</p>
+<p>变更了默认字体以及微调字体大小——之前的主题调整 CSS 花了不少时间，现在懒了。</p>
+<p>改了网站的副标题：To Input and Output Error is Human.</p>
+<p>发现新版本的 Hugo 仍然默认 markdown 格式不使用硬回车（hard line break）。<br>
+老版本用的 blackfriday 插件，新版本默认用 goldmark，又要改配置（hardWraps）。</p>
+<p>发现新版本的 Hugo 图片资源相对链接变了，历史文章中展示的本地图片全部失效…<br>
+于是又摸索着调整了图片资源目录，以及修改了历史文章中的图片地址。</p>
+<p>RSS 默认不输出全文，修改 RSS 模板配置。<br>
+不过自从由 <a href="https://www.inoreader.com/">Inoreader</a> 切换回本地 RSS 阅读器（<a href="https://github.com/martinrotter/rssguard">RSS Guard</a>），并且针对不同类型的订阅源分别设置是否自动打开原文后，订阅源是否输出全文似乎也没那么重要了。对那些看重访问量、精心设计了页面的 blogger 倒是好事。</p>
+<p>发现新主题默认不启用项目和文章分类，于是增加项目页面，插入分类代码，并且调整为看上去和标签（tag）并列。</p>
+<p>调整日期格式，改为自己更习惯的格式。</p>
+<p>修改生成站点时指定的默认输出目录。</p>
+<p>修改新建文章时的默认模板，改回自己更习惯的格式。</p>
+<p>关闭了主题自带的黑暗模式。</p>
+<p>增加文章大纲功能。</p>
+<p>重新配置 Giscus 评论系统、各种统计脚本。</p>
+<p>迁移 favicon、logo 等静态资源。</p>
+<p>暂时应该没有非改不可的东西了，如果发现有什么不对劲的地方，欢迎留言、来信提醒。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于公开笔记的讨论</title>
+      <link>https://ioerr.github.io/posts/guanyu-gongkai-biji-de-taolun/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/guanyu-gongkai-biji-de-taolun/</guid>
+      <description>Owen： 看到一个说法：笔记是一种无限游戏，没有结果，只有过程；而博客是一种有限游戏，因为它产出了完成的作品：博文。这说明我们不能当一个完美</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/OwenYoungZh/status/1775977873301713157">Owen</a>：<br>
+看到一个说法：笔记是一种无限游戏，没有结果，只有过程；而博客是一种有限游戏，因为它产出了完成的作品：博文。这说明我们不能当一个完美主义者，只在脑海或草稿箱中保留想法，我们应该尽可能完成作品，公开它，然后不断的练习这个过程。</p>
+<p>我更坚定那个想法了：做一个默认设计为公开的笔记软件。</p>
+<p>我设想的是一个 Tumblr，但是拥有笔记软件的各种优点：一流的编辑体验，一个结构清晰，易于检索的个人知识库，一个设计良好的人生CMS，可以很容易的分发多个主题的博客。</p>
+<p>总之就是它是面向长期主义的，精心设计的，能鼓励人们持续公开的分享（不要营销）。</p>
+<p><a href="https://twitter.com/wilbeibi/status/1775999962230522049">Wilbeibi</a>：<br>
+我觉得这两者是矛盾的，博客的受众是他人，强调传播，零散笔记的受众是自己（和小部分感兴趣的 follower）。<br>
+如果要做笔记博客分享，应该搭建一个只有自己内容的网站，类似 <a href="http://simonwillison.net">http://simonwillison.net</a> 那样。</p>
+<p><a href="https://twitter.com/calon/status/1776030136040857906">Calon</a>：<br>
+我也认为这是矛盾的。</p>
+<p>读者想看到的内容和形式，和作者自己整理的东西，往往是两回事。<br>
+不成体系的分享对读者来说价值不大。<br>
+与其持续公开分享，不如让 AI 来协助回顾和关联笔记，让它充当一个不厌其烦阅读笔记碎片并不断提问的助手。对大多数人来说也许更加实用。<br>
+公开分享的内容，最好至少是经过整理和思考的半成品，可以以链接的形式发布在社交平台上，然后根据反馈持续更新。</p>
+<p>回顾 blog 的起源和变化，一开始大家是当作以个人为中心的记录和分享手段，然后出现以内容为中心的运营思路，以个人为中心则走向个人品牌运营。</p>
+<p>公开共享笔记更接近以内容为中心的运营思路，读者期待的不是有个人魅力加成的日常碎碎念，所以公开的笔记至少得是经过加工的半成品。<br>
+以卡片笔记这种形式为例，从原始素材到闪念笔记、永久笔记和项目笔记的过程。<br>
+关注个人的读者也许会喜欢形成闪念笔记的过程和结果，但关注内容的读者兴趣不大。<br>
+作者为什么关注什么问题，从相关的卡片中提炼洞察出什么结果，这个思考过程和产物，才是最有价值的，这个环节读者的反馈也是最有价值的。<br>
+项目笔记读者最感兴趣，但完善和输出太慢，永久笔记输出频率快，读者也有兴趣，在这个阶段得到大量反馈能够在早期就避免走弯路。我觉得会是一个很好的平衡点。</p>
+<p>从我个人的经验来看，虽然我的笔记系统中有类似于永久笔记定位的中间环节，但实际上我的 blog 文章也充当了类似的角色。<br>
+但前者是指向内部链接，后者指向公开链接，互不通用，分类组织也不同用。<br>
+如果有笔记工具可以让两者无缝切换/转换，只需一次编辑，就已经很好了。<br>
+但 blog 仍然有以个人为中心的内容，比如生活记录，所以还不能完全与笔记系统等同，或者，需要能够同时对接两套以上的笔记仓库，并行不悖。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>有多忙？</title>
+      <link>https://ioerr.github.io/posts/youduomang/</link>
+      <pubDate>Tue, 29 Jan 2008 16:40:35 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/youduomang/</guid>
+      <description>有道提供的2007 blog 测试。\</description>
+      <content:encoded><![CDATA[<p>有道提供的<a href="http://www.yodao.com/07busy/">2007 blog 测试</a>。\</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,39 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>答案 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%AD%94%E6%A1%88/</link>
     <description>Recent content in 答案 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%AD%94%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>唯一真理的幻觉</title>
-        <link>https://ioerr.github.io/posts/weiyi-zhenli-de-huanjue/</link>
-        <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/weiyi-zhenli-de-huanjue/</guid>
-        <description>&lt;p&gt;我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。&lt;/p&gt;
-
-&lt;p&gt;这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。&lt;/p&gt;
-
-&lt;p&gt;相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。&lt;/p&gt;
-
-&lt;p&gt;虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。&lt;br /&gt;
-譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。&lt;/p&gt;
-
-&lt;p&gt;认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。&lt;br /&gt;
-人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%AD%94%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>唯一真理的幻觉</title>
+      <link>https://ioerr.github.io/posts/weiyi-zhenli-de-huanjue/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weiyi-zhenli-de-huanjue/</guid>
+      <description>我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。 这个信念的重点和疑点不</description>
+      <content:encoded><![CDATA[<p>我们总以为一个内核不变的政治理论或道德标准就是这个世界的唯一答案，就像相信生命、宇宙以及万事万物的终极答案是42一样。</p>
+<p>这个信念的重点和疑点不只是42这个答案（所以在《银河系漫游指南》中，知道答案的人类又回头追问终极问题是什么），还有为什么答案一定是唯一的。</p>
+<p>相信有唯一解，就像相信因果律是始终成立的客观事实一样，也许只是人类进化过程中产生的幻觉。</p>
+<p>虽说称为幻觉，但并不是否定幻觉的实用性，幻觉也可以增加生物的适应性。<br>
+譬如因果律也可能是幻觉，但同时又是理性的产物，是人类知识的基础。</p>
+<p>认可幻觉的实用性，另一方面也要警惕将幻觉当作真理带来的副作用。<br>
+人类的许多悲剧来源都是妄图用唯一的“真理”一统天下，当这种幻觉（可以说是基于幻觉的幻觉）的坏处多于实用价值时，质疑“唯一真理”是必要的求生求生本能。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

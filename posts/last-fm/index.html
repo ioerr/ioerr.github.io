@@ -1,111 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>Last.fm @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Last.fm @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/last-fm/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/last-fm/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="Last.fm" />
-<meta property="og:description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的 :) 不禁后悔错过了这么久…
-Google 了一把，发现中文 blog 上难得找到一篇比较详细的介绍，大多都是称赞 Last.Fm 不错的。所以我还是自己来写一写吧。
-Last.Fm 主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用 Last.Fm Radio 在线听音乐。
-下面是使用说明：
-首先当然是到 Sign Up 页面进行注册。
-然后当然是直奔 Download 页面。根据你用到的音乐播放器选择下载相应的插件并安装。
-我个人一直使用的 Foobar 2000，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新 beta 版本上，所以最好使用稳定版本，如目前的 0.8.3。
-安装之后打开 Foobar 2000，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在 Last.Fm 上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。
-在上一个步骤之后，只要你使用 Foobar 2000播放一个音频文件，稍微等一会儿就能够在 Last.Fm 上自己的页面中看到发送过去的信息了。例如我的用户页面就是这个，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在 Overviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方 Help 左面的 Charts 中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。
-由于 Audioscrobbler 上传的信息是根据歌曲的 tag 信息，如 ID3 tag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag 设置是否正确。如果有大量的文件需要修改 tag 信息，那么我推荐一款免费的工具 Mp3tag，个头有点大，但对中文支持不错，界面设计也比 Mp3 Tag Tools 要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试 eMusicTag Editor。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/last-fm/" />
-
-
-
-<meta property="article:published_time" content="2006-02-20T14:11:54&#43;00:00"/>
-
-<meta property="article:modified_time" content="2006-02-20T14:11:54&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="Last.fm">
-<meta itemprop="description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的 :) 不禁后悔错过了这么久…
-Google 了一把，发现中文 blog 上难得找到一篇比较详细的介绍，大多都是称赞 Last.Fm 不错的。所以我还是自己来写一写吧。
-Last.Fm 主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用 Last.Fm Radio 在线听音乐。
-下面是使用说明：
-首先当然是到 Sign Up 页面进行注册。
-然后当然是直奔 Download 页面。根据你用到的音乐播放器选择下载相应的插件并安装。
-我个人一直使用的 Foobar 2000，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新 beta 版本上，所以最好使用稳定版本，如目前的 0.8.3。
-安装之后打开 Foobar 2000，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在 Last.Fm 上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。
-在上一个步骤之后，只要你使用 Foobar 2000播放一个音频文件，稍微等一会儿就能够在 Last.Fm 上自己的页面中看到发送过去的信息了。例如我的用户页面就是这个，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在 Overviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方 Help 左面的 Charts 中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。
-由于 Audioscrobbler 上传的信息是根据歌曲的 tag 信息，如 ID3 tag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag 设置是否正确。如果有大量的文件需要修改 tag 信息，那么我推荐一款免费的工具 Mp3tag，个头有点大，但对中文支持不错，界面设计也比 Mp3 Tag Tools 要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试 eMusicTag Editor。">
-
-
-<meta itemprop="datePublished" content="2006-02-20T14:11:54&#43;00:00" />
-<meta itemprop="dateModified" content="2006-02-20T14:11:54&#43;00:00" />
-<meta itemprop="wordCount" content="147">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Last.fm"/>
-<meta name="twitter:description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的 :) 不禁后悔错过了这么久…
-Google 了一把，发现中文 blog 上难得找到一篇比较详细的介绍，大多都是称赞 Last.Fm 不错的。所以我还是自己来写一写吧。
-Last.Fm 主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用 Last.Fm Radio 在线听音乐。
-下面是使用说明：
-首先当然是到 Sign Up 页面进行注册。
-然后当然是直奔 Download 页面。根据你用到的音乐播放器选择下载相应的插件并安装。
-我个人一直使用的 Foobar 2000，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新 beta 版本上，所以最好使用稳定版本，如目前的 0.8.3。
-安装之后打开 Foobar 2000，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在 Last.Fm 上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。
-在上一个步骤之后，只要你使用 Foobar 2000播放一个音频文件，稍微等一会儿就能够在 Last.Fm 上自己的页面中看到发送过去的信息了。例如我的用户页面就是这个，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在 Overviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方 Help 左面的 Charts 中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。
-由于 Audioscrobbler 上传的信息是根据歌曲的 tag 信息，如 ID3 tag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag 设置是否正确。如果有大量的文件需要修改 tag 信息，那么我推荐一款免费的工具 Mp3tag，个头有点大，但对中文支持不错，界面设计也比 Mp3 Tag Tools 要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试 eMusicTag Editor。"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -116,244 +49,286 @@ Last.Fm 主要有两大功能，其一是把你听过的音乐信息记录在它
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="Last.fm" />
+<meta property="og:description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/last-fm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2006-02-20T14:11:54+00:00" />
+<meta property="article:modified_time" content="2006-02-20T14:11:54+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Last.fm"/>
+<meta name="twitter:description" content="虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Last.fm",
+      "item": "https://ioerr.github.io/posts/last-fm/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Last.fm",
+  "name": "Last.fm",
+  "description": "虽然早在2004年8月17日，我就把 Last.Fm 收藏到了 Del.icio.us 中，但当时没有仔细看，也可能那时还没有与 Audioscrobbler 合并，所以一直都没有使用它的服务。前段时间不知道为",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "虽然早在2004年8月17日，我就把 Last.Fm 收藏到了\nDel.icio.us\n中，但当时没有仔细看，也可能那时还没有与\nAudioscrobbler\n合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的\n:) 不禁后悔错过了这么久…\nGoogle 了一把，发现中文 blog\n上难得找到一篇比较详细的介绍，大多都是称赞\nLast.Fm 不错的。所以我还是自己来写一写吧。\nLast.Fm\n主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用\nLast.Fm Radio 在线听音乐。\n下面是使用说明：\n首先当然是到 Sign Up 页面进行注册。\n然后当然是直奔 Download\n页面。根据你用到的音乐播放器选择下载相应的插件并安装。\n我个人一直使用的 Foobar\n2000，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新\nbeta 版本上，所以最好使用稳定版本，如目前的 0.8.3。\n安装之后打开 Foobar\n2000，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在\nLast.Fm\n上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。\n在上一个步骤之后，只要你使用 Foobar\n2000播放一个音频文件，稍微等一会儿就能够在\nLast.Fm\n上自己的页面中看到发送过去的信息了。例如我的用户页面就是这个，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在\nOverviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方\nHelp 左面的 Charts\n中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。\n由于 Audioscrobbler\n上传的信息是根据歌曲的 tag 信息，如 ID3\ntag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag\n设置是否正确。如果有大量的文件需要修改 tag\n信息，那么我推荐一款免费的工具\nMp3tag，个头有点大，但对中文支持不错，界面设计也比\nMp3 Tag Tools\n要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试\neMusicTag Editor。\n如果什么多余的工具都不想装，也可以在 Foobar\n2000中直接修改…\n在 On Your Site 页面中，除了\nLast.Fm 的\nLogo、Banner、Button、Feeds\n之外，对用户有吸引力的就是 Chart\nImage 了。\nChart Image 是用来展示你的统计数据的小图片，不像某些 JavaScripts\n代码受到诸多限制，你可以把它们贴在几乎所有的\nblog、论坛签名中，告诉别人你最喜欢哪只乐队或者最近正在狂听哪首歌曲－－这可是最真实的统计数据！\n以下分别是几个 Chart Image 的演示效果，在我的 blog 侧栏也放了一张：\n另有数千张 Chart\nImage\n可供选择～\n不过要注意，如果把图片放在侧栏等位置，使它的宽度减小，就会相应地压缩图片中的文字，效果就是只能看到寥寥几个字符而已。因此请确保不要将字体较大的图片放置在宽度较窄的地方。\n如果你把下面这张图片的用户名替换成你自己的，还可以显示你刚刚听的歌。\n免费用户还可以在这个与\nLast.Fm 合作的站点定制如下效果的 Image Chart：\n付费用户的话就没有许多限制了。\nLast.Fm 另一个有趣的服务就是和其名称相配的\nRadio 啦！\n这个使用也同样简单，依然是先奔\nDownload 页面，下载 Radio Player。\n安装之后输入用户名、密码。\n最后到 Radio 页面听 “FM\n调频立体声收音机节目”啦～可以直接点击现成的小喇叭标签，也可以在搜索框中根据\ntag、名称搜索到感兴趣的音乐，再收听“节目”。\n不过这里的 tag 并不是指 MP3文件中的 ID3\ntag，而是由各位用户自己为歌曲和歌手标注的\ntag，每首歌曲、每个歌手的页面左侧都有编辑 tag\n的选项，编辑后在自己页面的左侧都可以看到。\n除此之外，在用户页面右侧，还可以看到 Last.Fm\n根据你听过的音乐推荐给你的歌手和其他用户的日志，更好玩的是，在“邻居/Neighbours”中是口味和你相近的用户，如果感觉没有什么新鲜的音乐，除了找\nRadio\n解闷之外，还可以去邻居那里坐一坐，也许会有差点永远错过的惊喜呢？\n更多的内容还可以去群组、论坛、日志中发掘。\n如果看到这里你还没有觉得烦人，那么请在注册后到我的页面逛一逛，并且在页面左侧使用“Add\nas friend”功能加我为好友吧 :D\n最后补充一点，为什么我一上手就喜欢用 Last.Fm\n的服务呢？除了适合喜欢音乐和分享的人，简单易用也是很大的原因。一般情况下，我只需要下载、设置之后，就不用再为它操心了，一切都在后台自动完成，到时候贴出图片与朋友分享即可。相比之下，有的社会性服务性质相似，却要求用户每次都记得做一份额外的功课，久而久之，再琐碎的操作也让用户受不了，最终不得不弃用。\n",
+  "wordCount" : "1823",
+  "inLanguage": "en",
+  "datePublished": "2006-02-20T14:11:54Z",
+  "dateModified": "2006-02-20T14:11:54Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/last-fm/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flast-fm%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      Last.fm
+    </h1>
+    <div class="post-meta"><span title='2006-02-20 14:11:54 +0000 +0000'>2006-2-20</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>虽然早在2004年8月17日，我就把 <a href="http://www.last.fm/">Last.Fm</a> 收藏到了<br>
+<a href="http://del.icio.us/">Del.icio.us</a><br>
+中，但当时没有仔细看，也可能那时还没有与<br>
+<a href="http://www.audioscrobbler.net/">Audioscrobbler</a><br>
+合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的<br>
+:) 不禁后悔错过了这么久…</p>
+<p><a href="http://www.google.com/">Google</a> 了一把，发现中文 blog<br>
+上难得找到一篇比较详细的介绍，大多都是称赞<br>
+<a href="http://www.last.fm/">Last.Fm</a> 不错的。所以我还是自己来写一写吧。</p>
+<p><img loading="lazy" src="http://static.last.fm/media/banners/icanseeyou.gif" alt=""  />
+</p>
+<p><a href="http://www.last.fm/">Last.Fm</a><br>
+主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用<br>
+<a href="http://www.last.fm/radio/">Last.Fm Radio</a> 在线听音乐。</p>
+<p>下面是使用说明：</p>
+<p>首先当然是到 <a href="http://www.last.fm/signup.php">Sign Up</a> 页面进行注册。</p>
+<p>然后当然是直奔 <a href="http://www.last.fm/postsignup.php">Download</a><br>
+页面。根据你用到的音乐播放器选择下载相应的插件并安装。<br>
+我个人一直使用的 <a href="http://www.foobar2000.org/">Foobar<br>
+2000</a>，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新<br>
+beta 版本上，所以最好使用稳定版本，如目前的 0.8.3。</p>
+<p>安装之后打开 <a href="http://www.foobar2000.org/">Foobar<br>
+2000</a>，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在<br>
+<a href="http://www.last.fm/">Last.Fm</a><br>
+上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。</p>
+<p>在上一个步骤之后，只要你使用 <a href="http://www.foobar2000.org/">Foobar<br>
+2000</a>播放一个音频文件，稍微等一会儿就能够在<br>
+<a href="http://www.last.fm/">Last.Fm</a><br>
+上自己的页面中看到发送过去的信息了。例如我的用户页面就是<a href="http://www.last.fm/user/calonxu/">这个</a>，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在<br>
+Overviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方<br>
+Help 左面的 Charts<br>
+中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。</p>
+<p>由于 <a href="http://www.audioscrobbler.net/">Audioscrobbler</a><br>
+上传的信息是根据歌曲的 tag 信息，如 ID3<br>
+tag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag<br>
+设置是否正确。如果有大量的文件需要修改 tag<br>
+信息，那么我推荐一款免费的工具<br>
+<a href="http://www.mp3tag.de/">Mp3tag</a>，个头有点大，但对中文支持不错，界面设计也比<br>
+<a href="http://massid3lib.sourceforge.net/">Mp3 Tag Tools</a><br>
+要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试<br>
+eMusicTag Editor。<br>
+如果什么多余的工具都不想装，也可以在 <a href="http://www.foobar2000.org/">Foobar<br>
+2000</a>中直接修改…</p>
+<p>在 <a href="http://www.last.fm/onyoursite/">On Your Site</a> 页面中，除了<br>
+<a href="http://www.last.fm/">Last.Fm</a> 的<br>
+<a href="http://www.last.fm/onyoursite/banners.php">Logo、Banner、Button</a>、<a href="http://www.last.fm/onyoursite/datafeeds.php">Feeds</a><br>
+之外，对用户有吸引力的就是 <a href="http://www.last.fm/onyoursite/chartgallery/">Chart<br>
+Image</a> 了。</p>
+<p>Chart Image 是用来展示你的统计数据的小图片，不像某些 JavaScripts<br>
+代码受到诸多限制，你可以把它们贴在几乎所有的<br>
+blog、论坛签名中，告诉别人你最喜欢哪只乐队或者最近正在狂听哪首歌曲－－这可是最真实的统计数据！</p>
+<p>以下分别是几个 Chart Image 的演示效果，在我的 blog 侧栏也放了一张：</p>
+<p><a href="http://www.last.fm/user/calonxu/?chartstyle=winterheadphones"><img loading="lazy" src="http://imagegen.last.fm/winterheadphones/otracks/calonxu.gif" alt="calonxu&amp;rsquo;s Last.fm Overall Tracks&lt;br&gt;
+Chart"  />
+</a></p>
+<p><a href="http://www.last.fm/user/calonxu/?chartstyle=CommandPrompt"><img loading="lazy" src="http://imagegen.last.fm/CommandPrompt/oartists/calonxu.gif" alt="calonxu&amp;rsquo;s Last.fm Overall Artists&lt;br&gt;
+Chart"  />
+</a></p>
+<p><a href="http://www.last.fm/user/calonxu/?chartstyle=iPodnano"><img loading="lazy" src="http://imagegen.last.fm/iPodnano/otracks/calonxu.gif" alt="calonxu&amp;rsquo;s Last.fm Overall Tracks&lt;br&gt;
+Chart"  />
+</a></p>
+<p><a href="http://www.last.fm/user/calonxu/?chartstyle=brushed10"><img loading="lazy" src="http://imagegen.last.fm/brushed10/oartists/calonxu.gif" alt="calonxu&amp;rsquo;s Last.fm Overall Artists&lt;br&gt;
+Chart"  />
+</a></p>
+<p><a href="http://www.last.fm/user/calonxu/?chartstyle=LisaTracks"><img loading="lazy" src="http://imagegen.last.fm/LisaTracks/otracks/calonxu.gif" alt="calonxu&amp;rsquo;s Last.fm Overall Tracks&lt;br&gt;
+Chart"  />
+</a></p>
+<p>另有<a href="http://www.last.fm/onyoursite/chartgallery/+popularity">数千张 Chart<br>
+Image</a><br>
+可供选择～<br>
+不过要注意，如果把图片放在侧栏等位置，使它的宽度减小，就会相应地压缩图片中的文字，效果就是只能看到寥寥几个字符而已。因此请确保不要将字体较大的图片放置在宽度较窄的地方。</p>
+<p>如果你把下面这张图片的用户名替换成你自己的，还可以显示你刚刚听的歌。<br>
+<img loading="lazy" src="http://www.denness.net/rpi/username/calonxu" alt=""  />
+</p>
+<p>免费用户还可以在<a href="http://www.denness.net/">这个</a>与<br>
+<a href="http://www.last.fm/">Last.Fm</a> 合作的站点定制如下效果的 Image Chart：<br>
+<img loading="lazy" src="http://www.denness.net/rpi/u/calonxu/fs/9/tza/8/width/400/bc/CCCCCC/bg/FFFFFF/bg1/EEEEEE/bg2/FFFFFF/ac/3333FF/tc/000000/dc/000000/nc/000000/tic/FF0000/rpi.png" alt=""  />
+</p>
+<p>付费用户的话就没有许多限制了。</p>
+<p><a href="http://www.last.fm/">Last.Fm</a> 另一个有趣的服务就是和其名称相配的<br>
+<a href="http://www.last.fm/radio/">Radio</a> 啦！</p>
+<p>这个使用也同样简单，依然是先奔<br>
+<a href="http://www.last.fm/postsignup.php">Download</a> 页面，下载 Radio Player。</p>
+<p>安装之后输入用户名、密码。</p>
+<p>最后到 <a href="http://www.last.fm/radio/">Radio</a> 页面听 “FM<br>
+调频立体声收音机节目”啦～可以直接点击现成的小喇叭标签，也可以在搜索框中根据<br>
+tag、名称搜索到感兴趣的音乐，再收听“节目”。</p>
+<p>不过这里的 tag 并不是指 MP3文件中的 ID3<br>
+tag，而是由各位用户自己为歌曲和歌手标注的<br>
+tag，每首歌曲、每个歌手的页面左侧都有编辑 tag<br>
+的选项，编辑后在自己页面的左侧都可以看到。</p>
+<p>除此之外，在用户页面右侧，还可以看到 <a href="http://www.last.fm/">Last.Fm</a><br>
+根据你听过的音乐推荐给你的歌手和其他用户的日志，更好玩的是，在“邻居/Neighbours”中是口味和你相近的用户，如果感觉没有什么新鲜的音乐，除了找<br>
+<a href="http://www.last.fm/radio/">Radio</a><br>
+解闷之外，还可以去邻居那里坐一坐，也许会有差点永远错过的惊喜呢？</p>
+<p>更多的内容还可以去<a href="http://www.last.fm/groups/">群组</a>、<a href="http://www.last.fm/forum/">论坛</a>、日志中发掘。</p>
+<p>如果看到这里你还没有觉得烦人，那么请在注册后到<a href="http://www.last.fm/user/calonxu/">我的页面</a>逛一逛，并且在页面左侧使用“Add<br>
+as friend”功能加我为好友吧 :D</p>
+<p>最后补充一点，为什么我一上手就喜欢用 <a href="http://www.last.fm/">Last.Fm</a><br>
+的服务呢？除了适合喜欢音乐和分享的人，简单易用也是很大的原因。一般情况下，我只需要下载、设置之后，就不用再为它操心了，一切都在后台自动完成，到时候贴出图片与朋友分享即可。相比之下，有的社会性服务性质相似，却要求用户每次都记得做一份额外的功课，久而久之，再琐碎的操作也让用户受不了，最终不得不弃用。</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+        
+          <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/flickr-and-webimager/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Flickr and WebImager</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/jianping-kehuanshijie-2yuekan-3wen/">
+    <span class="title">Next »</span>
+    <br>
+    <span>简评《科幻世界》2月刊3文</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2006-02-20 02:11">2006-02-20</time> &bull;
-          
-            
-            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
-          
-            , 
-            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
-          </p>
-      <h1>Last.fm</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section><p>虽然早在2004年8月17日，我就把 <a href="http://www.last.fm/">Last.Fm</a> 收藏到了
-<a href="http://del.icio.us/">Del.icio.us</a>
-中，但当时没有仔细看，也可能那时还没有与
-<a href="http://www.audioscrobbler.net/">Audioscrobbler</a>
-合并，所以一直都没有使用它的服务。前段时间不知道为什么忽然又把它翻出来，才发现它的服务正是我需要的
-:) 不禁后悔错过了这么久…</p>
-
-<p><a href="http://www.google.com/">Google</a> 了一把，发现中文 blog
-上难得找到一篇比较详细的介绍，大多都是称赞
-<a href="http://www.last.fm/">Last.Fm</a> 不错的。所以我还是自己来写一写吧。</p>
-
-<p><img src="http://static.last.fm/media/banners/icanseeyou.gif" alt="" /></p>
-
-<p><a href="http://www.last.fm/">Last.Fm</a>
-主要有两大功能，其一是把你听过的音乐信息记录在它的网站上，生成每周/总计的热门歌曲/歌手/专辑清单，并展示出来，附加功能还包括为歌曲、歌手加标签、加入群组讨论等等；其二则是利用
-<a href="http://www.last.fm/radio/">Last.Fm Radio</a> 在线听音乐。</p>
-
-<p>下面是使用说明：</p>
-
-<p>首先当然是到 <a href="http://www.last.fm/signup.php">Sign Up</a> 页面进行注册。</p>
-
-<p>然后当然是直奔 <a href="http://www.last.fm/postsignup.php">Download</a>
-页面。根据你用到的音乐播放器选择下载相应的插件并安装。<br />
-我个人一直使用的 <a href="http://www.foobar2000.org/">Foobar
-2000</a>，但要注意这款播放器的版本升级速度很快，可能插件无法正常工作在最新
-beta 版本上，所以最好使用稳定版本，如目前的 0.8.3。</p>
-
-<p>安装之后打开 <a href="http://www.foobar2000.org/">Foobar
-2000</a>，在“参数设置/Preference”的“组件/Components”中找到“Audioscrobbler”这一项，激活它并填写在
-<a href="http://www.last.fm/">Last.Fm</a>
-上注册的用户名、密码。如果使用其他的播放器，操作应该大同小异，我就不多说了。</p>
-
-<p>在上一个步骤之后，只要你使用 <a href="http://www.foobar2000.org/">Foobar
-2000</a>播放一个音频文件，稍微等一会儿就能够在
-<a href="http://www.last.fm/">Last.Fm</a>
-上自己的页面中看到发送过去的信息了。例如我的用户页面就是<a href="http://www.last.fm/user/calonxu/">这个</a>，其中有记载刚刚听的歌曲、自安装插件以来播放次数最多的歌曲和歌手/乐队，其实应该还有过去一周的统计项，不过那是一周才更新一次的。在
-Overviews 附近的那个 Charts 中可以切换查看个人所有的统计结果。在最上方
-Help 左面的 Charts
-中则可以看到根据所有用户的情况统计出的热门歌曲和热门歌手。</p>
-
-<p>由于 <a href="http://www.audioscrobbler.net/">Audioscrobbler</a>
-上传的信息是根据歌曲的 tag 信息，如 ID3
-tag，因此如果歌手、歌曲名称有错误，请检查你的音乐文件 tag
-设置是否正确。如果有大量的文件需要修改 tag
-信息，那么我推荐一款免费的工具
-<a href="http://www.mp3tag.de/">Mp3tag</a>，个头有点大，但对中文支持不错，界面设计也比
-<a href="http://massid3lib.sourceforge.net/">Mp3 Tag Tools</a>
-要合理。当然，如果你有把握在15天之内修改完所有的文件，也可以试试
-eMusicTag Editor。<br />
-如果什么多余的工具都不想装，也可以在 <a href="http://www.foobar2000.org/">Foobar
-2000</a>中直接修改…</p>
-
-<p>在 <a href="http://www.last.fm/onyoursite/">On Your Site</a> 页面中，除了
-<a href="http://www.last.fm/">Last.Fm</a> 的
-<a href="http://www.last.fm/onyoursite/banners.php">Logo、Banner、Button</a>、<a href="http://www.last.fm/onyoursite/datafeeds.php">Feeds</a>
-之外，对用户有吸引力的就是 <a href="http://www.last.fm/onyoursite/chartgallery/">Chart
-Image</a> 了。</p>
-
-<p>Chart Image 是用来展示你的统计数据的小图片，不像某些 JavaScripts
-代码受到诸多限制，你可以把它们贴在几乎所有的
-blog、论坛签名中，告诉别人你最喜欢哪只乐队或者最近正在狂听哪首歌曲－－这可是最真实的统计数据！</p>
-
-<p>以下分别是几个 Chart Image 的演示效果，在我的 blog 侧栏也放了一张：</p>
-
-<p><a href="http://www.last.fm/user/calonxu/?chartstyle=winterheadphones"><img src="http://imagegen.last.fm/winterheadphones/otracks/calonxu.gif" alt="calonxu's Last.fm Overall Tracks
-Chart" /></a></p>
-
-<p><a href="http://www.last.fm/user/calonxu/?chartstyle=CommandPrompt"><img src="http://imagegen.last.fm/CommandPrompt/oartists/calonxu.gif" alt="calonxu's Last.fm Overall Artists
-Chart" /></a></p>
-
-<p><a href="http://www.last.fm/user/calonxu/?chartstyle=iPodnano"><img src="http://imagegen.last.fm/iPodnano/otracks/calonxu.gif" alt="calonxu's Last.fm Overall Tracks
-Chart" /></a></p>
-
-<p><a href="http://www.last.fm/user/calonxu/?chartstyle=brushed10"><img src="http://imagegen.last.fm/brushed10/oartists/calonxu.gif" alt="calonxu's Last.fm Overall Artists
-Chart" /></a></p>
-
-<p><a href="http://www.last.fm/user/calonxu/?chartstyle=LisaTracks"><img src="http://imagegen.last.fm/LisaTracks/otracks/calonxu.gif" alt="calonxu's Last.fm Overall Tracks
-Chart" /></a></p>
-
-<p>另有<a href="http://www.last.fm/onyoursite/chartgallery/+popularity">数千张 Chart
-Image</a>
-可供选择～<br />
-不过要注意，如果把图片放在侧栏等位置，使它的宽度减小，就会相应地压缩图片中的文字，效果就是只能看到寥寥几个字符而已。因此请确保不要将字体较大的图片放置在宽度较窄的地方。</p>
-
-<p>如果你把下面这张图片的用户名替换成你自己的，还可以显示你刚刚听的歌。<br />
-<img src="http://www.denness.net/rpi/username/calonxu" alt="" /></p>
-
-<p>免费用户还可以在<a href="http://www.denness.net/">这个</a>与
-<a href="http://www.last.fm/">Last.Fm</a> 合作的站点定制如下效果的 Image Chart：<br />
-<img src="http://www.denness.net/rpi/u/calonxu/fs/9/tza/8/width/400/bc/CCCCCC/bg/FFFFFF/bg1/EEEEEE/bg2/FFFFFF/ac/3333FF/tc/000000/dc/000000/nc/000000/tic/FF0000/rpi.png" alt="" /></p>
-
-<p>付费用户的话就没有许多限制了。</p>
-
-<p><a href="http://www.last.fm/">Last.Fm</a> 另一个有趣的服务就是和其名称相配的
-<a href="http://www.last.fm/radio/">Radio</a> 啦！</p>
-
-<p>这个使用也同样简单，依然是先奔
-<a href="http://www.last.fm/postsignup.php">Download</a> 页面，下载 Radio Player。</p>
-
-<p>安装之后输入用户名、密码。</p>
-
-<p>最后到 <a href="http://www.last.fm/radio/">Radio</a> 页面听 “FM
-调频立体声收音机节目”啦～可以直接点击现成的小喇叭标签，也可以在搜索框中根据
-tag、名称搜索到感兴趣的音乐，再收听“节目”。</p>
-
-<p>不过这里的 tag 并不是指 MP3文件中的 ID3
-tag，而是由各位用户自己为歌曲和歌手标注的
-tag，每首歌曲、每个歌手的页面左侧都有编辑 tag
-的选项，编辑后在自己页面的左侧都可以看到。</p>
-
-<p>除此之外，在用户页面右侧，还可以看到 <a href="http://www.last.fm/">Last.Fm</a>
-根据你听过的音乐推荐给你的歌手和其他用户的日志，更好玩的是，在“邻居/Neighbours”中是口味和你相近的用户，如果感觉没有什么新鲜的音乐，除了找
-<a href="http://www.last.fm/radio/">Radio</a>
-解闷之外，还可以去邻居那里坐一坐，也许会有差点永远错过的惊喜呢？</p>
-
-<p>更多的内容还可以去<a href="http://www.last.fm/groups/">群组</a>、<a href="http://www.last.fm/forum/">论坛</a>、日志中发掘。</p>
-
-<p>如果看到这里你还没有觉得烦人，那么请在注册后到<a href="http://www.last.fm/user/calonxu/">我的页面</a>逛一逛，并且在页面左侧使用“Add
-as friend”功能加我为好友吧 :D</p>
-
-<p>最后补充一点，为什么我一上手就喜欢用 <a href="http://www.last.fm/">Last.Fm</a>
-的服务呢？除了适合喜欢音乐和分享的人，简单易用也是很大的原因。一般情况下，我只需要下载、设置之后，就不用再为它操心了，一切都在后台自动完成，到时候贴出图片与朋友分享即可。相比之下，有的社会性服务性质相似，却要求用户每次都记得做一份额外的功课，久而久之，再琐碎的操作也让用户受不了，最终不得不弃用。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《Last.fm》&body=https%3a%2f%2fioerr.github.io%2fposts%2flast-fm%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2flast-fm%2f&text= @calon Last.fm&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -372,5 +347,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

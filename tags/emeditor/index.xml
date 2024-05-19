@@ -1,230 +1,190 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Emeditor on 读写错误</title>
+    <title>EmEditor on 读写错误</title>
     <link>https://ioerr.github.io/tags/emeditor/</link>
-    <description>Recent content in Emeditor on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in EmEditor on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 20 Nov 2008 13:12:29 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/emeditor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>EmEditor 8</title>
-        <link>https://ioerr.github.io/posts/emeditor-8/</link>
-        <pubDate>Thu, 20 Nov 2008 13:12:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/emeditor-8/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt; 终于发布了 Professional
-8正式版，部分改进如下：&lt;/p&gt;
-
-&lt;p&gt;1、支持打开超过248 GB 的大型文件；&lt;br /&gt;
-2、新增列编辑模式，按下 Alt 之后不只是可以列选，也可以输入了；&lt;br /&gt;
-3、新增二进制和16进制编辑模式；&lt;br /&gt;
-4、提高了搜索和替换的速度；&lt;br /&gt;
-5、改进了工程插件；&lt;br /&gt;
-6、特殊字符（CR、LF、Tab、空格、文件尾标记）的可视标记可以自定义了；&lt;br /&gt;
-7、如果没有选择文字，复制和剪切命令会复制和剪切当前的整行内容；&lt;br /&gt;
-8、Ctrl+鼠标滚轮可以调整字体大小；&lt;/p&gt;
-
-&lt;p&gt;2、3是这次大版本升级最大的亮点，应该说是许多用户翘首期盼已久的功能。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>EmEditor 7.0</title>
-        <link>https://ioerr.github.io/posts/emeditor-70/</link>
-        <pubDate>Fri, 21 Dec 2007 15:11:48 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/emeditor-70/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt; 在多次 beta
-版本更新之后，终于发布了7.0的正式版本。&lt;br /&gt;
-个人觉得这一新版本并没有太多激动人心的新功能，当然官网则是称是 the
-biggest upgrade ever in EmEditor history!&lt;/p&gt;
-
-&lt;p&gt;1、再次优化了性能。&lt;br /&gt;
-最初 EmEditor
-是以快速打开大文件而闻名的，只是后来版本升高功能增加之后，感觉开启窗口的速度反而还变慢了。&lt;br /&gt;
-而这个版本打开巨大的文件速度仍然飞快，官网的例子是打开1000万行809 M
-的文件用时13秒。&lt;/p&gt;
-
-&lt;p&gt;在内存为1 GB 的机器上可以打开7.18 GB 的文件。&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_hugefile.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_hugefile_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;内存占用则不到50 MB。&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_hugefile_mem.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_hugefile_mem_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用正则表达式替换文本的效率也有很大提高。&lt;/p&gt;
-
-&lt;p&gt;2、增加了多个插件。&lt;br /&gt;
-FindBar，工具栏上的查找工具条，结合 EmEditor
-最强大的多重高亮功能，使用更加顺手；&lt;br /&gt;
-HTMLBar，快速插入 HTML 标签的工具条，相当于把以前的各个 HTML
-插件都集成到了一起，不过插入图片和链接竟然只能够选择本地文件，不够完美；&lt;br /&gt;
-ProjectBar，工程管理功能；&lt;br /&gt;
-Word
-Complete，单词自动补完，功能强大，自定义选项丰富，也是我一直期待的功能，结合
-AutoComplete
-插件，基本完美，&lt;a href=&#34;这就要靠智能狂拼了&#34;&gt;除了不支持中文&lt;/a&gt;…当然，已经比大多数文本编辑器都强大了。&lt;/p&gt;
-
-&lt;p&gt;FindBar 和 ProjectBar 图示：&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_findbar.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_findbar_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Word Complete 图示：&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_wordcomplete.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_wordcomplete_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3、增强的宏功能。&lt;br /&gt;
-可以使用宏召唤其他程序进行更多鼠标、键盘动作，新增一些对象、属性和宏方法，以及宏功能工具条。&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_macros_toolbar.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_macros_toolbar_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;4、其他有用的新增功能。&lt;br /&gt;
-提供便携选项，可以将 EmEditor 安装在 U 盘了；&lt;br /&gt;
-提供平滑滚动选项；&lt;br /&gt;
-激活的标签有了关闭按钮；&lt;br /&gt;
-支持应用主题设置显示字体和颜色，可导入导出；&lt;br /&gt;
-EmEditor 崩溃或者 Windows
-自动重启时，能够自动保存内容到以“AutoSave-”开头的文件中；&lt;br /&gt;
-崩溃后重新打开 EmEditor，会显示自动恢复的文件列表。&lt;br /&gt;
-&lt;a href=&#34;http://www.emeditor.com/images/emeditor7_auto_recovered.png&#34;&gt;&lt;img src=&#34;http://www.emeditor.com/images/emeditor7_auto_recovered_s.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>推荐免费的文本编辑工具</title>
-        <link>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</link>
-        <pubDate>Tue, 29 Nov 2005 16:25:50 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.devzoo.com/&#34;&gt;DevZoo&lt;/a&gt; 列出了一个 Windows
-下免费文本编辑软件的&lt;a href=&#34;http://www.devzoo.com/index.php?tooltype=WindowsEditor&#34;&gt;清单&lt;/a&gt;，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.fixedsys.com/context/&#34;&gt;ConTEXT&lt;/a&gt;&lt;br /&gt;
-界面平常，功能中规中矩。用了一段之后我的疑问是，虽然主要是用来写代码的，可也不至于设置了自动换行也没反应吧？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;&lt;br /&gt;
-现在我使用的就是 &lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;，所以介绍得详细一点：&lt;br /&gt;
-安装之前需要修改 install.bat 文件，将 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的安装路径按照实际情况进行更改，然后在原 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中
-[DIR] 为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的安装目录。其他的许多设置启动后在菜单中就可以设置了。&lt;br /&gt;
-如果不习惯没有 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc
-文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去
-&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 所在的目录中摸索各个 vim 文件吧。&lt;/p&gt;
-
-&lt;p&gt;它对原来 &lt;a href=&#34;http://www.vim.org/&#34;&gt;gVim&lt;/a&gt;
-的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的
-Windows 编辑软件，实乃我等菜鸟之福音。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，由于使用了不少的脚本来改进界面、增加功能，&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt;
-占用的系统资源要远远超过 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;，因此除了担心使用
-&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 会影响深入学习 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-的人之外，优先节约系统资源的人也有理由放弃这个工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.crimsoneditor.com/&#34;&gt;Crimson Editor&lt;/a&gt;&lt;br /&gt;
-以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和
-EmEditor 这样的付费软件作比较，未免有些不公平。&lt;br /&gt;
-除此之外，这款软件没有多少可以批评的地方了…嗯…好吧…其实…我想说，那个狗头的图标未免太丑陋了一点…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;/&lt;a href=&#34;http://www.xemacs.org/&#34;&gt;XEmacs&lt;/a&gt;&lt;br /&gt;
-和 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vi/Vim&lt;/a&gt; 齐名的软件，但可耻的是我首先被
-&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt; 拉拢了…:P&lt;br /&gt;
-这类软件的阴险之处在于，由于功能异常强大，内涵异常丰富，要摸清楚它的底细简直是不可能的，因此，一般只会有人夸它的好，没人敢说它的坏话。如果你对它的第一印象很好，那么尽管放心大胆地深入学习，保证不会让你失望，它们绝不只是一个文本编辑工具这么简单，而如果是相反的情况，那么还是早早收手换一个工具的好，否则它会不断地打击你的信心。&lt;/p&gt;
-
-&lt;p&gt;经常有人争论
-&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt; 和
-&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-哪个更好，结论往往是适合自己的才是最好的。作为一个注重人机界面的用户，我觉得还是只向经常编辑代码的人推荐比较好…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vi/Vim/gVim&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://cream.sf.net/&#34;&gt;Cream&lt;/a&gt; 只是个外壳，它才是灵魂。&lt;br /&gt;
-喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的
-Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed
-MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然
-GUI 经过了改进，但如果要我选择学习曲线最陡的流行软件，估计就是它了 :P&lt;br /&gt;
-当然，一款人机界面如此之差以至于不但有 GUI
-改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim
-isn&amp;rsquo;t an editor designed to hold its users&amp;rsquo; hands. It is a tool, the use
-of which must be
-learned.”你越是深入学习它，就会越觉得它的功能强大，最后觉得其他工具都不称手。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jedit.org/&#34;&gt;jEdit&lt;/a&gt;&lt;br /&gt;
-最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java
-有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java
-做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载
-Java，我一定会把它作为首选的文本编辑工具。&lt;/p&gt;
-
-&lt;p&gt;最近有许多人收藏了 &lt;a href=&#34;http://ifakedit.com/&#34;&gt;Jesse Crouch&lt;/a&gt;
-的&lt;a href=&#34;http://ifakedit.com/log/other/apps/&#34;&gt;一篇文章&lt;/a&gt;，其中就强烈推荐
-&lt;a href=&#34;http://jedit.org/&#34;&gt;jEdit&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~lcc-win32/&#34;&gt;LCC&lt;/a&gt;&lt;br /&gt;
-这个，把它卸载了之后，我已经忘记它有什么特性了…可能稍后再补上吧，如果没补上也不要怪我，反正不在推荐之列。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://notepad-plus.sourceforge.net/&#34;&gt;Notepad++&lt;/a&gt;&lt;br /&gt;
-&lt;strike&gt;平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且
-language 菜单太长、plugins
-菜单组织得很差劲…总体处于比上不足比下有余的位置。&lt;br /&gt;
-另外，我宁愿选择 &lt;a href=&#34;http://www.crimsoneditor.com/&#34;&gt;Crimson Editor&lt;/a&gt;
-的狗头也不愿意面对 NPP 的避役…&lt;/strike&gt;&lt;br /&gt;
-新版本的 NPP
-终于把原来丑陋的图标改掉了，而且更加适合中级以上的用户自己配置使用。在功能方面，它已经非常强大，推荐经常编辑代码或网页的人使用。&lt;br /&gt;
-不过对我来说，它还有一些小问题：&lt;br /&gt;
-函数补全的快捷键是 Ctrl+Space，与输入法快捷键相冲突，又不能自己修改；&lt;br /&gt;
-快速插入 HTML 标签（类似 EmEditor HTML Tag 插件）并自动定位不方便；&lt;br /&gt;
-列块模式的用法很奇怪；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;&lt;br /&gt;
-如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯
-&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;/&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;，那么它成为首选是没问题的。&lt;br /&gt;
-就固有功能来说，与 NPP
-各有千秋；它的扩展基本都是脚本形式，且支持多种脚本语言，方便自己修改。&lt;br /&gt;
-现在唯一让我不爽的就是，不能够使用非等宽字体！于是
-Georgia、Palatino、Times New Roman
-等美观字体就只能呆在一边了，中文字体也不堪入目。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.scintilla.org/SciTE.html&#34;&gt;SciTE&lt;/a&gt;&lt;br /&gt;
-一个语法选项十分丰富的最好是专门用于各类代码编辑的工具，也是备受好评。&lt;br /&gt;
-修改配置需要自己编辑配置文件，对初级用户不够友好。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://madedit.sourceforge.net/&#34;&gt;MadEdit&lt;/a&gt;&lt;br /&gt;
-界面朴素，但是功能不弱，16进制和列块模式可以替代 UE。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;&lt;br /&gt;
-最后说一说为什么我总是对 &lt;a href=&#34;http://www.emeditor.com/&#34;&gt;EmEditor&lt;/a&gt;
-这个收费软件念念不忘，原因是它的一些优点其他软件都没有能够做到：&lt;br /&gt;
-首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的
-Windows 窗口没什么不同，整体的感觉却不在一个档次上。&lt;br /&gt;
-其次是丰富的自定义设置，其中最方便的又属设置第 n
-次搜索时搜索结果的高亮字体，如第一次的搜索结果在全文范围内用绿色背景表示，第二次搜索之后就变成明黄色背景，这样多次搜索之后每次的搜索结果都能够一目了然。&lt;br /&gt;
-第三是和 Windows
-系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如
-&lt;a href=&#34;http://www.gnu.org/software/emacs/windows/ntemacs.html&#34;&gt;Emacs&lt;/a&gt;、&lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt;
-也未做到最好。&lt;br /&gt;
-第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了
-V5系列已经得到了解决。&lt;br /&gt;
-第五是常驻托盘的 EmEDTray
-有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的
-UE 虽然也有托盘图标，但仅仅是用来最大化最小化的。&lt;/p&gt;
-
-&lt;p&gt;随时更新的&lt;a href=&#34;http://calon.tiddlyspot.com/#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91&#34;&gt;文本编辑工具推荐列表&lt;/a&gt;。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/emeditor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EmEditor 8</title>
+      <link>https://ioerr.github.io/posts/emeditor-8/</link>
+      <pubDate>Thu, 20 Nov 2008 13:12:29 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/emeditor-8/</guid>
+      <description>EmEditor 终于发布了 Professional 8正式版，部分改进如下： 1、支持打开超过248 GB 的大型文件； 2、新增列编辑模式，按下 Alt 之后不只是可以列选，也可以输入了； 3、新</description>
+      <content:encoded><![CDATA[<p><a href="http://www.emeditor.com/">EmEditor</a> 终于发布了 Professional<br>
+8正式版，部分改进如下：</p>
+<p>1、支持打开超过248 GB 的大型文件；<br>
+2、新增列编辑模式，按下 Alt 之后不只是可以列选，也可以输入了；<br>
+3、新增二进制和16进制编辑模式；<br>
+4、提高了搜索和替换的速度；<br>
+5、改进了工程插件；<br>
+6、特殊字符（CR、LF、Tab、空格、文件尾标记）的可视标记可以自定义了；<br>
+7、如果没有选择文字，复制和剪切命令会复制和剪切当前的整行内容；<br>
+8、Ctrl+鼠标滚轮可以调整字体大小；</p>
+<p>2、3是这次大版本升级最大的亮点，应该说是许多用户翘首期盼已久的功能。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>EmEditor 7.0</title>
+      <link>https://ioerr.github.io/posts/emeditor-70/</link>
+      <pubDate>Fri, 21 Dec 2007 15:11:48 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/emeditor-70/</guid>
+      <description>EmEditor 在多次 beta 版本更新之后，终于发布了7.0的正式版本。 个人觉得这一新版本并没有太多激动人心的新功能，当然官网则是称是 the biggest upgrade ever in EmEditor history! 1、再次优化</description>
+      <content:encoded><![CDATA[<p><a href="http://www.emeditor.com/">EmEditor</a> 在多次 beta<br>
+版本更新之后，终于发布了7.0的正式版本。<br>
+个人觉得这一新版本并没有太多激动人心的新功能，当然官网则是称是 the<br>
+biggest upgrade ever in EmEditor history!</p>
+<p>1、再次优化了性能。<br>
+最初 EmEditor<br>
+是以快速打开大文件而闻名的，只是后来版本升高功能增加之后，感觉开启窗口的速度反而还变慢了。<br>
+而这个版本打开巨大的文件速度仍然飞快，官网的例子是打开1000万行809 M<br>
+的文件用时13秒。</p>
+<p>在内存为1 GB 的机器上可以打开7.18 GB 的文件。<br>
+<a href="http://www.emeditor.com/images/emeditor7_hugefile.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_hugefile_s.png" alt=""  />
+</a></p>
+<p>内存占用则不到50 MB。<br>
+<a href="http://www.emeditor.com/images/emeditor7_hugefile_mem.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_hugefile_mem_s.png" alt=""  />
+</a></p>
+<p>使用正则表达式替换文本的效率也有很大提高。</p>
+<p>2、增加了多个插件。<br>
+FindBar，工具栏上的查找工具条，结合 EmEditor<br>
+最强大的多重高亮功能，使用更加顺手；<br>
+HTMLBar，快速插入 HTML 标签的工具条，相当于把以前的各个 HTML<br>
+插件都集成到了一起，不过插入图片和链接竟然只能够选择本地文件，不够完美；<br>
+ProjectBar，工程管理功能；<br>
+Word<br>
+Complete，单词自动补完，功能强大，自定义选项丰富，也是我一直期待的功能，结合<br>
+AutoComplete<br>
+插件，基本完美，<a href="%E8%BF%99%E5%B0%B1%E8%A6%81%E9%9D%A0%E6%99%BA%E8%83%BD%E7%8B%82%E6%8B%BC%E4%BA%86">除了不支持中文</a>…当然，已经比大多数文本编辑器都强大了。</p>
+<p>FindBar 和 ProjectBar 图示：<br>
+<a href="http://www.emeditor.com/images/emeditor7_findbar.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_findbar_s.png" alt=""  />
+</a></p>
+<p>Word Complete 图示：<br>
+<a href="http://www.emeditor.com/images/emeditor7_wordcomplete.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_wordcomplete_s.png" alt=""  />
+</a></p>
+<p>3、增强的宏功能。<br>
+可以使用宏召唤其他程序进行更多鼠标、键盘动作，新增一些对象、属性和宏方法，以及宏功能工具条。<br>
+<a href="http://www.emeditor.com/images/emeditor7_macros_toolbar.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_macros_toolbar_s.png" alt=""  />
+</a></p>
+<p>4、其他有用的新增功能。<br>
+提供便携选项，可以将 EmEditor 安装在 U 盘了；<br>
+提供平滑滚动选项；<br>
+激活的标签有了关闭按钮；<br>
+支持应用主题设置显示字体和颜色，可导入导出；<br>
+EmEditor 崩溃或者 Windows<br>
+自动重启时，能够自动保存内容到以“AutoSave-”开头的文件中；<br>
+崩溃后重新打开 EmEditor，会显示自动恢复的文件列表。<br>
+<a href="http://www.emeditor.com/images/emeditor7_auto_recovered.png"><img loading="lazy" src="http://www.emeditor.com/images/emeditor7_auto_recovered_s.png" alt=""  />
+</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐免费的文本编辑工具</title>
+      <link>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</link>
+      <pubDate>Tue, 29 Nov 2005 16:25:50 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tuijian-mianfeide-wenben-bianjigongju/</guid>
+      <description>DevZoo 列出了一个 Windows 下免费文本编辑软件的清单，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不</description>
+      <content:encoded><![CDATA[<p><a href="http://www.devzoo.com/">DevZoo</a> 列出了一个 Windows<br>
+下免费文本编辑软件的<a href="http://www.devzoo.com/index.php?tooltype=WindowsEditor">清单</a>，并附有简介，几乎称得上是一网打尽了。但不足的是，许多简介只是照抄作者网站上的介绍而已，一眼看过去并不知道哪些软件是真正好用，哪些是滥竽充数，所以我选择了几个风评较好的作更进一步的介绍。</p>
+<p><a href="http://www.fixedsys.com/context/">ConTEXT</a><br>
+界面平常，功能中规中矩。用了一段之后我的疑问是，虽然主要是用来写代码的，可也不至于设置了自动换行也没反应吧？</p>
+<p><a href="http://cream.sf.net/">Cream</a><br>
+现在我使用的就是 <a href="http://cream.sf.net/">Cream</a>，所以介绍得详细一点：<br>
+安装之前需要修改 install.bat 文件，将 <a href="http://www.vim.org/">Vim</a><br>
+的安装路径按照实际情况进行更改，然后在原 <a href="http://www.vim.org/">Vim</a><br>
+的启动快捷方式后增加“-U NONE -u [DIR]\cream\creamrc”的参数，其中<br>
+[DIR] 为 <a href="http://www.vim.org/">Vim</a><br>
+的安装目录。其他的许多设置启动后在菜单中就可以设置了。<br>
+如果不习惯没有 <a href="http://www.vim.org/">Vim</a><br>
+的高级功能，可以打开“设置－》偏好－》专家模式”。之前在 vimrc<br>
+文件中设置的参数都会失效，可以转移到 creamrc 文件中。剩下的，自己去<br>
+<a href="http://cream.sf.net/">Cream</a> 所在的目录中摸索各个 vim 文件吧。</p>
+<p>它对原来 <a href="http://www.vim.org/">gVim</a><br>
+的界面进行了大改造，许多设置和功能可以直接在菜单中找到，还有新增功能，编辑模式的默认设置也更改了，比较贴近常用的<br>
+Windows 编辑软件，实乃我等菜鸟之福音。</p>
+<p>值得注意的是，由于使用了不少的脚本来改进界面、增加功能，<a href="http://cream.sf.net/">Cream</a><br>
+占用的系统资源要远远超过 <a href="http://www.vim.org/">Vim</a>，因此除了担心使用<br>
+<a href="http://cream.sf.net/">Cream</a> 会影响深入学习 <a href="http://www.vim.org/">Vim</a><br>
+的人之外，优先节约系统资源的人也有理由放弃这个工具。</p>
+<p><a href="http://www.crimsoneditor.com/">Crimson Editor</a><br>
+以前使用过这个软件，对中文的支持还不错，却因为和智能狂拼2严重冲突而弃用，另一个让人觉得不够完美的地方是，自定义各类文字的颜色时不能够指定背景色，当然，这是和<br>
+EmEditor 这样的付费软件作比较，未免有些不公平。<br>
+除此之外，这款软件没有多少可以批评的地方了…嗯…好吧…其实…我想说，那个狗头的图标未免太丑陋了一点…</p>
+<p><a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.xemacs.org/">XEmacs</a><br>
+和 <a href="http://www.vim.org/">Vi/Vim</a> 齐名的软件，但可耻的是我首先被<br>
+<a href="http://www.vim.org/">Vim</a> 拉拢了…:P<br>
+这类软件的阴险之处在于，由于功能异常强大，内涵异常丰富，要摸清楚它的底细简直是不可能的，因此，一般只会有人夸它的好，没人敢说它的坏话。如果你对它的第一印象很好，那么尽管放心大胆地深入学习，保证不会让你失望，它们绝不只是一个文本编辑工具这么简单，而如果是相反的情况，那么还是早早收手换一个工具的好，否则它会不断地打击你的信心。</p>
+<p>经常有人争论<br>
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a> 和<br>
+<a href="http://www.vim.org/">Vim</a><br>
+哪个更好，结论往往是适合自己的才是最好的。作为一个注重人机界面的用户，我觉得还是只向经常编辑代码的人推荐比较好…</p>
+<p><a href="http://www.vim.org/">Vi/Vim/gVim</a><br>
+<a href="http://cream.sf.net/">Cream</a> 只是个外壳，它才是灵魂。<br>
+喜欢对人机界面设计评头论足的我总觉得这实在是个让包括我在内的新手频频抓狂的软件，不支持我喜欢的<br>
+Georgia/Times New Roman 字体、不支持拖拽编辑、没有 tabbed<br>
+MDI、基本上什么设置都要找到帮助文件找到配置的写法再自己写入配置文件并祈祷不出问题，虽然<br>
+GUI 经过了改进，但如果要我选择学习曲线最陡的流行软件，估计就是它了 :P<br>
+当然，一款人机界面如此之差以至于不但有 GUI<br>
+改进版，还开发了专门的外壳的软件能够受到众多人的衷心拥护不是没有道理的，用它网站上一句话来说，“Vim<br>
+isn&rsquo;t an editor designed to hold its users&rsquo; hands. It is a tool, the use<br>
+of which must be<br>
+learned.”你越是深入学习它，就会越觉得它的功能强大，最后觉得其他工具都不称手。</p>
+<p><a href="http://jedit.org/">jEdit</a><br>
+最令人吃惊的一点是，这个软件是用 Java 写的。不是我对 Java<br>
+有偏见，而是－－恕我孤陋寡闻－－轻量级的工具软件用 Java<br>
+做得这么好的实在是少见。如果不是无论怎么设置字体也无法同时正常显示菜单、工具栏、文件浏览器和正文中所有的中文，和需要另外下载<br>
+Java，我一定会把它作为首选的文本编辑工具。</p>
+<p>最近有许多人收藏了 <a href="http://ifakedit.com/">Jesse Crouch</a><br>
+的<a href="http://ifakedit.com/log/other/apps/">一篇文章</a>，其中就强烈推荐<br>
+<a href="http://jedit.org/">jEdit</a>。</p>
+<p><a href="http://www.cs.virginia.edu/~lcc-win32/">LCC</a><br>
+这个，把它卸载了之后，我已经忘记它有什么特性了…可能稍后再补上吧，如果没补上也不要怪我，反正不在推荐之列。</p>
+<p><a href="http://notepad-plus.sourceforge.net/">Notepad++</a><br>
+<!-- raw HTML omitted -->平心而论也是个相当出色的软件，但是能够自定义设置的地方太少，而且<br>
+language 菜单太长、plugins<br>
+菜单组织得很差劲…总体处于比上不足比下有余的位置。<br>
+另外，我宁愿选择 <a href="http://www.crimsoneditor.com/">Crimson Editor</a><br>
+的狗头也不愿意面对 NPP 的避役…<!-- raw HTML omitted --><br>
+新版本的 NPP<br>
+终于把原来丑陋的图标改掉了，而且更加适合中级以上的用户自己配置使用。在功能方面，它已经非常强大，推荐经常编辑代码或网页的人使用。<br>
+不过对我来说，它还有一些小问题：<br>
+函数补全的快捷键是 Ctrl+Space，与输入法快捷键相冲突，又不能自己修改；<br>
+快速插入 HTML 标签（类似 EmEditor HTML Tag 插件）并自动定位不方便；<br>
+列块模式的用法很奇怪；</p>
+<p><a href="http://www.pspad.com/">PSPad</a><br>
+如果没记错的话，很久之前它对中文的支持还很差，所以一直没有再试过，这次发现不但在中文支持方面大有长进，而且功能增强了许多。如果实在用不惯<br>
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>/<a href="http://www.vim.org/">Vim</a>，那么它成为首选是没问题的。<br>
+就固有功能来说，与 NPP<br>
+各有千秋；它的扩展基本都是脚本形式，且支持多种脚本语言，方便自己修改。<br>
+现在唯一让我不爽的就是，不能够使用非等宽字体！于是<br>
+Georgia、Palatino、Times New Roman<br>
+等美观字体就只能呆在一边了，中文字体也不堪入目。</p>
+<p><a href="http://www.scintilla.org/SciTE.html">SciTE</a><br>
+一个语法选项十分丰富的最好是专门用于各类代码编辑的工具，也是备受好评。<br>
+修改配置需要自己编辑配置文件，对初级用户不够友好。</p>
+<p><a href="http://madedit.sourceforge.net/">MadEdit</a><br>
+界面朴素，但是功能不弱，16进制和列块模式可以替代 UE。</p>
+<p><a href="http://www.emeditor.com/">EmEditor</a><br>
+最后说一说为什么我总是对 <a href="http://www.emeditor.com/">EmEditor</a><br>
+这个收费软件念念不忘，原因是它的一些优点其他软件都没有能够做到：<br>
+首先是界面设计简洁明快而很耐看，一些细节例如图标、回车换行等控制符的淡蓝色符号等等，风格统一，配色协调，所以即使大部分的窗体和一般的<br>
+Windows 窗口没什么不同，整体的感觉却不在一个档次上。<br>
+其次是丰富的自定义设置，其中最方便的又属设置第 n<br>
+次搜索时搜索结果的高亮字体，如第一次的搜索结果在全文范围内用绿色背景表示，第二次搜索之后就变成明黄色背景，这样多次搜索之后每次的搜索结果都能够一目了然。<br>
+第三是和 Windows<br>
+系统、中文的兼容做得很好。其他一些软件因为跨平台或者开发者不使用亚洲双字节文字的缘故，在这些方面总有这样那样的不足，功能强大如<br>
+<a href="http://www.gnu.org/software/emacs/windows/ntemacs.html">Emacs</a>、<a href="http://www.vim.org/">Vim</a><br>
+也未做到最好。<br>
+第四是占用资源少、启动速度快，刚开始接触它的时候对这一点是非常满意的。V4的版本因为加入集成多窗口的功能而降低了程序运行的效率，从网站的宣传来看，这个问题到了<br>
+V5系列已经得到了解决。<br>
+第五是常驻托盘的 EmEDTray<br>
+有自定义的功能，例如我就设定右键单击托盘图标是“新建并粘贴”，然后左键双击是“新建文档”，左键单击的菜单中可以打开最近编辑过的文件和访问过的目录，可以在文件中查找等等，同样是收费软件的<br>
+UE 虽然也有托盘图标，但仅仅是用来最大化最小化的。</p>
+<p>随时更新的<a href="http://calon.tiddlyspot.com/#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91">文本编辑工具推荐列表</a>。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

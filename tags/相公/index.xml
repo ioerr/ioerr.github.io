@@ -1,35 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>相公 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%9B%B8%E5%85%AC/</link>
     <description>Recent content in 相公 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 19 Jan 2010 12:47:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%9B%B8%E5%85%AC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>相公样板</title>
-        <link>https://ioerr.github.io/posts/xianggong-yangban/</link>
-        <pubDate>Tue, 19 Jan 2010 12:47:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xianggong-yangban/</guid>
-        <description>&lt;p&gt;看到&lt;a href=&#34;http://thisisdongdongqiang.com/archives/1916&#34;&gt;东东枪抄录&lt;/a&gt;了《晚清戏曲的变革》中一段关于晚清时北京各路“堂子”里那些“相公”的描述：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-你的任何话题都会得到支持，你的任何情绪都会得到鼓励，你的任何遭遇都会得到理解，你的任何倡议都会得到响应。在那里，你永远是主人、朋友、权威。你的出众和才情都会受到带有夸张意味，但是却不露痕迹的肯定、仰慕；你的愚蠢会受到有意的却是没有痕迹的忽略、宽容、谅解和合理的解释。你永远不会有被冷落、被反对、被嘲笑、被轻视的情况出现。
-&lt;/blockquote&gt;
-这简直就是网评员的榜样，草民的楷模，执政党的最佳搭档和终极需求啊！&lt;br /&gt;
-“先陛下之忧而忧，后陛下之乐而乐”的各位准相公们请努力加油吧，争取早日将表演提升到职业水准。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%9B%B8%E5%85%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>相公样板</title>
+      <link>https://ioerr.github.io/posts/xianggong-yangban/</link>
+      <pubDate>Tue, 19 Jan 2010 12:47:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xianggong-yangban/</guid>
+      <description>看到东东枪抄录了《晚清戏曲的变革》中一段关于晚清时北京各路“堂子”里那些“相公”的描述：</description>
+      <content:encoded><![CDATA[<p>看到<a href="http://thisisdongdongqiang.com/archives/1916">东东枪抄录</a>了《晚清戏曲的变革》中一段关于晚清时北京各路“堂子”里那些“相公”的描述：</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

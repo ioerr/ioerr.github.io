@@ -1,68 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>垃圾 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE/</link>
     <description>Recent content in 垃圾 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 21 Feb 2009 14:44:27 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>垃圾分类</title>
-        <link>https://ioerr.github.io/posts/laji-fenlei/</link>
-        <pubDate>Sat, 21 Feb 2009 14:44:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/laji-fenlei/</guid>
-        <description>&lt;p&gt;好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？&lt;/p&gt;
-
-&lt;p&gt;答案是：略知一二，不敢肯定。&lt;/p&gt;
-
-&lt;p&gt;于是回家上网查得&lt;a href=&#34;http://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E&#34;&gt;答案如下&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-可回收的资源垃圾：&lt;br /&gt;
-经过人类研究，可透过收集并经由回收工厂，透过技术处理成为纯净可再使用的资源，这些垃圾称为可回收的资源垃圾。细分类为：&lt;br /&gt;
-* 纸类，例如纸皮；&lt;br /&gt;
-* 金属类，如汽水罐、油罐、饼干罐等；&lt;br /&gt;
-* 玻璃，如酒瓶；&lt;br /&gt;
-* 聚合物类；&lt;br /&gt;
-* 衣物；&lt;br /&gt;
-* 废电池，如手机电池；&lt;br /&gt;
-* 厨余肥料，转为猪吃的食物；&lt;br /&gt;
-* 废家具；&lt;br /&gt;
-* 电子电气品，如二手电视机；&lt;br /&gt;
-* 动物粪便，转为燃料。&lt;/p&gt;
-
-&lt;p&gt;不可回收的垃圾：&lt;br /&gt;
-完全无法经由工厂的干净技术而产生纯净可再使用的垃圾，称为不可回收的垃圾。例如经垃圾车搅拌的混合物。
-&lt;/blockquote&gt;
-但对不可回收垃圾的概念还是不够清楚，看来笨人要首先用枚举法剃掉可回收垃圾细分类之后才能确认？囧&lt;/p&gt;
-
-&lt;p&gt;其实两种分类也是不够的，&lt;a href=&#34;http://www.jbw.cn/news.jsp?NewsId=7071&#34;&gt;生活类垃圾最好分为四类&lt;/a&gt;分别处理：&lt;br /&gt;
-可回收垃圾：包括纸类、金属、塑料、玻璃等，通过综合处理回收利用，可以减少污染，节省资源。&lt;br /&gt;
-厨余垃圾：包括剩饭、骨头、菜根、菜叶等食品类废物，经生物技术就地处理堆肥，可生产有机肥料。&lt;br /&gt;
-有害垃圾：包括废电池、废日光灯管、废水银温度计、过期药品等，这些垃圾需要特殊安全处理。&lt;br /&gt;
-其他垃圾：包括除上述几类垃圾之外的砖瓦陶瓷、渣土、卫生间废纸等难以回收的废弃物，采取卫生填埋可有效减少对地下水、地表水、土壤及空气的污染。&lt;/p&gt;
-
-&lt;p&gt;接下来的问题是，有多少市民清楚垃圾分类并且按照分类扔垃圾呢？据我的观察，答案是无限趋近于0…&lt;br /&gt;
-这不是市民素质低的问题。以我个人的经验来看，从幼儿园一直到参加工作，从来没有人告诉过我关于垃圾分类的详细知识，城市生活垃圾具体是怎么处理的，也很少有人来告诉你。&lt;br /&gt;
-没有人宣传，没有人教育，没有人鼓励，没有人监督和处罚，市政部门当然不能指望把垃圾桶统统换成分类式的，市民就自动习得垃圾分类技能。因此，分类垃圾桶成了无用的摆设，政府才应该好好反思是不是只做了表面文章。&lt;/p&gt;
-
-&lt;p&gt;同时，&lt;a href=&#34;http://news.sohu.com/20071218/n254144053.shtml&#34;&gt;垃圾分类处理的情况也不乐观&lt;/a&gt;。&lt;br /&gt;
-收集、运输、压缩、回收处理等等流程，哪个是真正分类处理了？从源头分类就没做好的现状来看，因为后期再分类的成本过高，相信分类处理没有办法落到实处，否则就事倍功半了。&lt;br /&gt;
-若最终并没有真正做到分类处理，又会让大多数了解情况的市民放弃分类的努力，从而陷入的恶性循环。&lt;/p&gt;
-
-&lt;p&gt;要打破这个循环，还是得从宣传、教育、引导上入手。从&lt;a href=&#34;http://news.sohu.com/20071218/n254144053.shtml&#34;&gt;广州垃圾分类的问题分析&lt;/a&gt;来看，建立垃圾分类回收利用体系、处理设施是政府完全可以操作的事情，提高回收效益虽然短期内无法实现，但还可以动用国家补贴，但广大市民没有了解垃圾分类回收的好处和意义，没有被引导和推动，没有配合从源头将垃圾分类做好，就只能永远耗费国家的补贴，建立的体系和设施也便无法发挥应有的作用了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%9E%83%E5%9C%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>垃圾分类</title>
+      <link>https://ioerr.github.io/posts/laji-fenlei/</link>
+      <pubDate>Sat, 21 Feb 2009 14:44:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/laji-fenlei/</guid>
+      <description>好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？ 答</description>
+      <content:encoded><![CDATA[<p>好几次走在路上丢垃圾的时候，看到垃圾箱上写着“可回收”和“不可回收”的分类，我就想，自己真的搞清楚了哪些是可回收哪些是不可回收的垃圾了吗？</p>
+<p>答案是：略知一二，不敢肯定。</p>
+<p>于是回家上网查得<a href="http://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E">答案如下</a>：</p>
+<!-- raw HTML omitted -->
+<p>不可回收的垃圾：<br>
+完全无法经由工厂的干净技术而产生纯净可再使用的垃圾，称为不可回收的垃圾。例如经垃圾车搅拌的混合物。</p>
+<!-- raw HTML omitted -->
+<p>其实两种分类也是不够的，<a href="http://www.jbw.cn/news.jsp?NewsId=7071">生活类垃圾最好分为四类</a>分别处理：<br>
+可回收垃圾：包括纸类、金属、塑料、玻璃等，通过综合处理回收利用，可以减少污染，节省资源。<br>
+厨余垃圾：包括剩饭、骨头、菜根、菜叶等食品类废物，经生物技术就地处理堆肥，可生产有机肥料。<br>
+有害垃圾：包括废电池、废日光灯管、废水银温度计、过期药品等，这些垃圾需要特殊安全处理。<br>
+其他垃圾：包括除上述几类垃圾之外的砖瓦陶瓷、渣土、卫生间废纸等难以回收的废弃物，采取卫生填埋可有效减少对地下水、地表水、土壤及空气的污染。</p>
+<p>接下来的问题是，有多少市民清楚垃圾分类并且按照分类扔垃圾呢？据我的观察，答案是无限趋近于0…<br>
+这不是市民素质低的问题。以我个人的经验来看，从幼儿园一直到参加工作，从来没有人告诉过我关于垃圾分类的详细知识，城市生活垃圾具体是怎么处理的，也很少有人来告诉你。<br>
+没有人宣传，没有人教育，没有人鼓励，没有人监督和处罚，市政部门当然不能指望把垃圾桶统统换成分类式的，市民就自动习得垃圾分类技能。因此，分类垃圾桶成了无用的摆设，政府才应该好好反思是不是只做了表面文章。</p>
+<p>同时，<a href="http://news.sohu.com/20071218/n254144053.shtml">垃圾分类处理的情况也不乐观</a>。<br>
+收集、运输、压缩、回收处理等等流程，哪个是真正分类处理了？从源头分类就没做好的现状来看，因为后期再分类的成本过高，相信分类处理没有办法落到实处，否则就事倍功半了。<br>
+若最终并没有真正做到分类处理，又会让大多数了解情况的市民放弃分类的努力，从而陷入的恶性循环。</p>
+<p>要打破这个循环，还是得从宣传、教育、引导上入手。从<a href="http://news.sohu.com/20071218/n254144053.shtml">广州垃圾分类的问题分析</a>来看，建立垃圾分类回收利用体系、处理设施是政府完全可以操作的事情，提高回收效益虽然短期内无法实现，但还可以动用国家补贴，但广大市民没有了解垃圾分类回收的好处和意义，没有被引导和推动，没有配合从源头将垃圾分类做好，就只能永远耗费国家的补贴，建立的体系和设施也便无法发挥应有的作用了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

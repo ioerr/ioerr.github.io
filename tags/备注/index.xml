@@ -1,45 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>备注 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%A4%87%E6%B3%A8/</link>
     <description>Recent content in 备注 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 10 Jan 2014 10:02:46 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%A4%87%E6%B3%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>支持照片语音备注的移动社交应用</title>
-        <link>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
-        <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
-        <description>&lt;p&gt;近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。&lt;/p&gt;
-
-&lt;p&gt;查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。&lt;/p&gt;
-
-&lt;p&gt;数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。&lt;br /&gt;
-另外，抱着相机录音感觉挺傻。&lt;br /&gt;
-反正至今为止，周围没有人使用过数码相机的这一功能。&lt;/p&gt;
-
-&lt;p&gt;不过，这对手机社交应用都不是问题。&lt;br /&gt;
-拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。&lt;br /&gt;
-不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。&lt;/p&gt;
-
-&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;
-这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。&lt;br /&gt;
-虽然&lt;a href=&#34;http://weixin.qq.com/&#34;&gt;微信&lt;/a&gt;等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。&lt;/p&gt;
-
-&lt;p&gt;嗯，是我土鳖了，因为没有用过“啪啪”。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%A4%87%E6%B3%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>支持照片语音备注的移动社交应用</title>
+      <link>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
+      <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
+      <description>近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏</description>
+      <content:encoded><![CDATA[<p>近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。</p>
+<p>查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。</p>
+<p>数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。<br>
+另外，抱着相机录音感觉挺傻。<br>
+反正至今为止，周围没有人使用过数码相机的这一功能。</p>
+<p>不过，这对手机社交应用都不是问题。<br>
+拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。<br>
+不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。</p>
+<p>虽然已经有 <a href="https://vine.co/">Vine</a><br>
+这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。<br>
+虽然<a href="http://weixin.qq.com/">微信</a>等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。</p>
+<p>嗯，是我土鳖了，因为没有用过“啪啪”。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,36 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>战术手册 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%88%98%E6%9C%AF%E6%89%8B%E5%86%8C/</link>
     <description>Recent content in 战术手册 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 17 Apr 2011 12:26:43 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%88%98%E6%9C%AF%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Wesnoth 高级战术手册</title>
-        <link>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</link>
-        <pubDate>Sun, 17 Apr 2011 12:26:43 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</guid>
-        <description>&lt;p&gt;因为&lt;a href=&#34;http://www.wesnoth.cn/&#34;&gt;韦诺之战中文论坛&lt;/a&gt;中有人提出来，所以抽时间翻译了下
-the Battle for Wesnoth
-的《高级战术手册》，只润色了一遍，而且因为游戏水平有限，一些存疑的地方给出了原文。&lt;/p&gt;
-
-&lt;p&gt;译自 Wesnoth Wiki 的
-&lt;a href=&#34;http://wiki.wesnoth.org/AdvancedTactics&#34;&gt;AdvancedTactics&lt;/a&gt;，&lt;a href=&#34;http://wiki.wesnoth.org/Advanced_Tactics_%28Simplified_Chinese%29&#34;&gt;这里是简体中文的页面&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;翻译过程中学到了一些之前没有发现的战术，比如用夜行单位堵路、背刺单位成对狩猎落单的单位、在不利时段开始前下毒、即将过关时不要升级。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%88%98%E6%9C%AF%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wesnoth 高级战术手册</title>
+      <link>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</link>
+      <pubDate>Sun, 17 Apr 2011 12:26:43 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wesnoth-gaoji-zhanshu-shouce/</guid>
+      <description>因为韦诺之战中文论坛中有人提出来，所以抽时间翻译了下 the Battle for Wesnoth 的《高级战术手册》，只润色了一遍，而且因为游戏水平有限，一些存疑的地方给出了原文</description>
+      <content:encoded><![CDATA[<p>因为<a href="http://www.wesnoth.cn/">韦诺之战中文论坛</a>中有人提出来，所以抽时间翻译了下<br>
+the Battle for Wesnoth<br>
+的《高级战术手册》，只润色了一遍，而且因为游戏水平有限，一些存疑的地方给出了原文。</p>
+<p>译自 Wesnoth Wiki 的<br>
+<a href="http://wiki.wesnoth.org/AdvancedTactics">AdvancedTactics</a>，<a href="http://wiki.wesnoth.org/Advanced_Tactics_%28Simplified_Chinese%29">这里是简体中文的页面</a>。</p>
+<p>翻译过程中学到了一些之前没有发现的战术，比如用夜行单位堵路、背刺单位成对狩猎落单的单位、在不利时段开始前下毒、即将过关时不要升级。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

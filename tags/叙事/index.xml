@@ -1,46 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>叙事 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8F%99%E4%BA%8B/</link>
     <description>Recent content in 叙事 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8F%99%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>张艺谋的《英雄》</title>
-        <link>https://ioerr.github.io/posts/zhangyimou-de-yingxiong/</link>
-        <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhangyimou-de-yingxiong/</guid>
-        <description>&lt;p&gt;看到有人&lt;a href=&#34;https://twitter.com/renfanzi/status/1609825537287139335&#34;&gt;提起&lt;/a&gt;最近闲来无事看了张艺谋的《英雄》，勾起了以前看这部电影时的回忆。&lt;/p&gt;
-
-&lt;p&gt;电影的画面，特别是颜色主题的设计和场景呈现，确实是没得说，要不然当年也不会掀起国产大片的狂潮，连带推动电视和显示器屏幕来了一次小小的升级。&lt;br /&gt;
-能够一度进入 IMDb Top 250，除了国外观众以为这是最好的功夫武打片之外，画面感官方面也占了很大的便宜。&lt;/p&gt;
-
-&lt;p&gt;但故事中人物的行动逻辑，在我看来就太别扭了。&lt;br /&gt;
-李连杰饰演的无名，原型是中国历史上最有名的刺客荆轲，刺杀嬴政不成而当场被杀，梁朝伟等人饰演的其他刺客，原型是自愿献头的樊於期。&lt;br /&gt;
-这样的人物，在中国历史上最出名的政治动物嬴政面前，仅仅因为后者表达出建立统一帝国、结束战国纷争、为民众带来和平的宏伟理想，就当场改变立场，背弃所托，放弃刺杀，自愿受死。&lt;br /&gt;
-倘若电影在之前已经用足够的铺垫告诉观众，无名是一个武功高强、意志坚定但政治幼稚的刺客，看不到统一之后暴秦二世而亡，那倒还能够理解。&lt;br /&gt;
-如果类似陈凯歌的《荆轲刺秦王》，李雪健饰演的秦王嬴政口中说着：“只要六国还在，战争还不会停止，天下就永不得安宁，百姓就永不得安宁。”有着同样的理想，但没有把秦王简单塑造成一个建立大一统帝国君主的符号和工具，也有足够的说服力。&lt;br /&gt;
-可是陈道明版本的嬴政除了大一统的理想外，什么都没有，能改变刺客心意的，只有大一统之后百姓安居乐业的画饼，这个饼不需要质疑也不允许质疑，它是历史意志的必然，是理所当然的结果，是近在咫尺的终极状态，并且其本身就是终极价值，哪怕中间经过曲折的道路，有过错误的教训，会有更多的生灵涂炭，会有千古的骂名，会有大一统带来的其他苦难，但有理想的君主知道，为了这个理想什么都是值得的，希望刺客能够理解、认同和参与，至少不要不识抬举。&lt;br /&gt;
-最后，无名甘于舍弃刺杀任务和生命换来的大一统结局，如果与打动他的理想蓝图相去甚远，那么影片至少还有一点黑色幽默的讽刺意味。然而影片结尾的那段文字交待只能显示出张艺谋的鸡贼和心虚：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;公元前二二一年，秦王统一中国后，结束战争，修建长城，&lt;strong&gt;护国护民&lt;/strong&gt;，成为中国历史上第一个皇帝，史称秦始皇。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;打死我都想不到，有一天“护国护民”这样的评价会落在嬴政头上。当年看到这里的时候，荒谬感油然而生，至今难忘。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8F%99%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>张艺谋的《英雄》</title>
+      <link>https://ioerr.github.io/posts/zhangyimou-de-yingxiong/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhangyimou-de-yingxiong/</guid>
+      <description>看到有人提起最近闲来无事看了张艺谋的《英雄》，勾起了以前看这部电影时的回忆。 电影的画面，特别是颜色主题的设计和场景呈现，确实是没得说，要不然</description>
+      <content:encoded><![CDATA[<p>看到有人<a href="https://twitter.com/renfanzi/status/1609825537287139335">提起</a>最近闲来无事看了张艺谋的《英雄》，勾起了以前看这部电影时的回忆。</p>
+<p>电影的画面，特别是颜色主题的设计和场景呈现，确实是没得说，要不然当年也不会掀起国产大片的狂潮，连带推动电视和显示器屏幕来了一次小小的升级。<br>
+能够一度进入 IMDb Top 250，除了国外观众以为这是最好的功夫武打片之外，画面感官方面也占了很大的便宜。</p>
+<p>但故事中人物的行动逻辑，在我看来就太别扭了。<br>
+李连杰饰演的无名，原型是中国历史上最有名的刺客荆轲，刺杀嬴政不成而当场被杀，梁朝伟等人饰演的其他刺客，原型是自愿献头的樊於期。<br>
+这样的人物，在中国历史上最出名的政治动物嬴政面前，仅仅因为后者表达出建立统一帝国、结束战国纷争、为民众带来和平的宏伟理想，就当场改变立场，背弃所托，放弃刺杀，自愿受死。<br>
+倘若电影在之前已经用足够的铺垫告诉观众，无名是一个武功高强、意志坚定但政治幼稚的刺客，看不到统一之后暴秦二世而亡，那倒还能够理解。<br>
+如果类似陈凯歌的《荆轲刺秦王》，李雪健饰演的秦王嬴政口中说着：“只要六国还在，战争还不会停止，天下就永不得安宁，百姓就永不得安宁。”有着同样的理想，但没有把秦王简单塑造成一个建立大一统帝国君主的符号和工具，也有足够的说服力。<br>
+可是陈道明版本的嬴政除了大一统的理想外，什么都没有，能改变刺客心意的，只有大一统之后百姓安居乐业的画饼，这个饼不需要质疑也不允许质疑，它是历史意志的必然，是理所当然的结果，是近在咫尺的终极状态，并且其本身就是终极价值，哪怕中间经过曲折的道路，有过错误的教训，会有更多的生灵涂炭，会有千古的骂名，会有大一统带来的其他苦难，但有理想的君主知道，为了这个理想什么都是值得的，希望刺客能够理解、认同和参与，至少不要不识抬举。<br>
+最后，无名甘于舍弃刺杀任务和生命换来的大一统结局，如果与打动他的理想蓝图相去甚远，那么影片至少还有一点黑色幽默的讽刺意味。然而影片结尾的那段文字交待只能显示出张艺谋的鸡贼和心虚：</p>
+<blockquote>
+<p>公元前二二一年，秦王统一中国后，结束战争，修建长城，<strong>护国护民</strong>，成为中国历史上第一个皇帝，史称秦始皇。</p>
+</blockquote>
+<p>打死我都想不到，有一天“护国护民”这样的评价会落在嬴政头上。当年看到这里的时候，荒谬感油然而生，至今难忘。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

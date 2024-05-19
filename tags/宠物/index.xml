@@ -1,61 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>宠物 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%AE%A0%E7%89%A9/</link>
     <description>Recent content in 宠物 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%AE%A0%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>差异与歧视</title>
-        <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
-        <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1774108640364081295&#34;&gt;吴非盯着看～ ❁҉҉҉҉҉҉҉҉&lt;/a&gt;：&lt;br /&gt;
-各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。&lt;br /&gt;
-这事儿套到人类身上，除了政治不正确，别的没啥问题吧？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1774361388351471729&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。&lt;br /&gt;
-人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。&lt;br /&gt;
-越是强调自由、多元、平等的地区，以人种为单位的差异越小。&lt;/p&gt;
-
-&lt;p&gt;反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。&lt;br /&gt;
-对差异的态度取决于我们的&lt;a href=&#34;../yuanjing-zhong-de-shijie&#34;&gt;愿景&lt;/a&gt;，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>齐天大圣宠物猴</title>
-        <link>https://ioerr.github.io/posts/qitiandasheng-chongwuhou/</link>
-        <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/qitiandasheng-chongwuhou/</guid>
-        <description>&lt;p&gt;暑假期间给明洲看86版西游记电视剧，今天正演到太白金星第二次请孙悟空上天做齐天大圣。&lt;/p&gt;
-
-&lt;p&gt;猴子每日四处和天界神仙们勾肩搭背嬉笑打闹。站在神仙们的角度来看，原本一本正经、等级分明的天界有个泼猴四处乱窜应该也挺好玩的。&lt;br /&gt;
-感觉就像现在很多互联网公司、咖啡店里面养了猫一样，没事过去逗一逗，摸摸头，撸一把，简直不要太开心。&lt;/p&gt;
-
-&lt;p&gt;天界神仙们沉迷于撸猴不可自拔，所以日后孙悟空西天取经途中能够请动各路神仙，估计也和这个有点关系。&lt;br /&gt;
-你家的猫主子本来伺候得好好的，要是跑出去一段时间，又跑回来用可怜巴巴的眼神求你帮忙，你会不答应吗？&lt;/p&gt;
-
-&lt;p&gt;这么来看的话，如来佛祖的五指山应该类似于宠物笼，观音菩萨的紧箍咒就相当于给宠物做绝育手术，西游记就是齐天大圣孙悟空被阉割驯化成不会发情发狂的老实宠物的过程。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%AE%A0%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>差异与歧视</title>
+      <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
+      <description>吴非盯着看～ ❁҉҉҉҉҉҉҉҉： 各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。 这事儿套到人类身上，除了政治不正确，别的没啥</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/volfay/status/1774108640364081295">吴非盯着看～ ❁҉҉҉҉҉҉҉҉</a>：<br>
+各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。<br>
+这事儿套到人类身上，除了政治不正确，别的没啥问题吧？</p>
+<p><a href="https://twitter.com/calon/status/1774361388351471729">Calon</a>：<br>
+人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。<br>
+人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。<br>
+越是强调自由、多元、平等的地区，以人种为单位的差异越小。</p>
+<p>反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。<br>
+对差异的态度取决于我们的<a href="../yuanjing-zhong-de-shijie">愿景</a>，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>齐天大圣宠物猴</title>
+      <link>https://ioerr.github.io/posts/qitiandasheng-chongwuhou/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/qitiandasheng-chongwuhou/</guid>
+      <description>暑假期间给明洲看86版西游记电视剧，今天正演到太白金星第二次请孙悟空上天做齐天大圣。 猴子每日四处和天界神仙们勾肩搭背嬉笑打闹。站在神仙们的角</description>
+      <content:encoded><![CDATA[<p>暑假期间给明洲看86版西游记电视剧，今天正演到太白金星第二次请孙悟空上天做齐天大圣。</p>
+<p>猴子每日四处和天界神仙们勾肩搭背嬉笑打闹。站在神仙们的角度来看，原本一本正经、等级分明的天界有个泼猴四处乱窜应该也挺好玩的。<br>
+感觉就像现在很多互联网公司、咖啡店里面养了猫一样，没事过去逗一逗，摸摸头，撸一把，简直不要太开心。</p>
+<p>天界神仙们沉迷于撸猴不可自拔，所以日后孙悟空西天取经途中能够请动各路神仙，估计也和这个有点关系。<br>
+你家的猫主子本来伺候得好好的，要是跑出去一段时间，又跑回来用可怜巴巴的眼神求你帮忙，你会不答应吗？</p>
+<p>这么来看的话，如来佛祖的五指山应该类似于宠物笼，观音菩萨的紧箍咒就相当于给宠物做绝育手术，西游记就是齐天大圣孙悟空被阉割驯化成不会发情发狂的老实宠物的过程。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

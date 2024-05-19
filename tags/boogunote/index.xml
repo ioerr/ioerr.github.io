@@ -1,180 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Boogunote on 读写错误</title>
+    <title>BooguNote on 读写错误</title>
     <link>https://ioerr.github.io/tags/boogunote/</link>
-    <description>Recent content in Boogunote on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in BooguNote on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 30 Mar 2010 13:28:22 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/boogunote/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>BooguNote</title>
-        <link>https://ioerr.github.io/posts/boogunote/</link>
-        <pubDate>Tue, 30 Mar 2010 13:28:22 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/boogunote/</guid>
-        <description>
-
-&lt;p&gt;BooguNote
-这款小巧而强大的树型笔记软件终于推出了0.3.1.1正式版本，你可以在它的&lt;a href=&#34;http://boogu.me/index_zh.htm&#34;&gt;中文&lt;/a&gt;和&lt;a href=&#34;http://boogu.me/&#34;&gt;英文&lt;/a&gt;主页分别下载不同语言的版本。&lt;/p&gt;
-
-&lt;p&gt;详细的使用方法，在主页上已经有给出一些介绍的文章，如《&lt;a href=&#34;http://geek4.us/all-in-boogunote/&#34;&gt;BooguNote
-全解&lt;/a&gt;》和《&lt;a href=&#34;http://www.gtdstudy.com/?p=1761&amp;amp;replytocom=124821&#34;&gt;提升生活效能的小软件：BooguNote的三种应用&lt;/a&gt;》，同时，软件也自带了一个简单的教程，浏览一遍就大致清楚用法了。&lt;/p&gt;
-
-&lt;p&gt;BooguNote 基本界面：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2010-03-30-20-25-29.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2010-03-30-20-25-29.png&#34; alt=&#34;BooguNote
-基本界面&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;自从上手之后，BooguNote 已经取代 Evernote
-等成为我的首选笔记工具，主要的原因有：&lt;/p&gt;
-
-&lt;p&gt;1、BooguNote 最大的特色：树形结构的信息组织方式&lt;br /&gt;
-OneNote
-类的笔记软件，主要的信息组织方式是分组卡片式，辅助的则有项目符号、段落标记、表格；&lt;br /&gt;
-Evernote、CintaNotes
-类的笔记软件，信息组织方式是多标签，辅助的是项目符号等；&lt;br /&gt;
-SEO Note、KeyNote 类的笔记软件，信息组织方式是树形目录加卡片；&lt;br /&gt;
-MiniPad2类的笔记软件，信息组织方式只有树形目录；&lt;br /&gt;
-WikidPad 类的笔记软件（如果你把它当成笔记工具的话），信息组织方式是 Wiki
-式的链接加树形目录。&lt;/p&gt;
-
-&lt;p&gt;而 BooguNote
-的信息组织方式直接就是树形目录，笔记的目录结构和树叶节点的内容（文字块）都集中在一个窗口中，简单易懂，不需要在多个工作区来回切换，不需要与太多的附加信息和格式打交道，层次清晰又简洁。&lt;/p&gt;
-
-&lt;p&gt;2、方便的键盘操作&lt;br /&gt;
-光有树形目录也不行，只有给移动、展开、收缩、编辑节点配上快捷的键盘操作，树形目录才不会拖累用户。&lt;br /&gt;
-除此之外，BooguNote 大部分的操作都可以自定义快捷键，这比
-Evernote、OneNote 等贴心多了。&lt;/p&gt;
-
-&lt;p&gt;3、纯文本加图片和超链接的内容&lt;br /&gt;
-作为纯文本党人，我对 Evernote、OneNote 等富文本笔记工具很有意见，比如
-Evernote 的全局抓取和粘贴，每次都要 Ctrl+Shift+V
-再选择粘贴纯文本，否则从网页、富文本文档等信息源头抓取来的内容就会带上不同的字体、大小、颜色、格式，使得整个界面混乱无比。&lt;/p&gt;
-
-&lt;p&gt;不过，纯文本也不是万能的，所以 BooguNote
-也可以在笔记中嵌入图片和超链接内容，支持文字加粗、文字块收缩、给文字块加上集中图标，提高了软件的应用能力。&lt;br /&gt;
-超链接支持点击打开，图片是作为独立的文件保存，笔记中只是存储其相对/绝对位置并显示缩略图，这样便不会使得笔记文件本身的体积急速膨胀，间接提高了性能。&lt;/p&gt;
-
-&lt;h2 id=&#34;加粗-图标功能可以用于-gtd-应用-但我认为-boogunote-的发展方向不应该是&#34;&gt;加粗、图标功能可以用于 GTD 应用，但我认为 BooguNote 的发展方向不应该是&lt;/h2&gt;
-
-&lt;p&gt;工具，因为树形目录的长处在于组织和展示信息，而不是管理待完成事务和提醒。&lt;/p&gt;
-
-&lt;p&gt;BooguNote 保存的笔记文件后缀名是 boo，其实内容就是 XML
-格式，可以同时保存一份相对易于直接阅读的纯文本文件，还可以在配置中打开记录操作日志，这些都是可以自己用文本编辑工具打开自己查看修改的。&lt;br /&gt;
-用户完全可以将笔记文件另做后期处理，一些 BooguNote
-暂时未能完善的功能，如搜索定位、批量替换等等，可以自己完成，这就比采用加密或封闭的存储格式更加方便。&lt;/p&gt;
-
-&lt;p&gt;4、便携性&lt;br /&gt;
-BooguNote 是绿色软件，不需要安装；&lt;br /&gt;
-压缩后300KB，展开也不超过700KB，与安装文件40MB 的 Evernote、200-300MB 的
-OneNote 相比是超轻量级，与 MiniPad2、CintaNotes
-等一个量级。当然，它没有手写识别、富文本、加密、办公软件集成等功能，如果你不需要这些功能的话，自然没有必要选择体积更加臃肿的工具；&lt;br /&gt;
-设置默认存储路径后，默认存储路径中的图片插入笔记就会记录相对路径，移动笔记文件的时同时移动图片，就不会丢失笔记中的缩略图了；&lt;br /&gt;
-可惜的是目前还没有在线同步功能，毕竟作者资源有限，现阶段只能先完善基础功能。结合
-Dropbox 的同步功能也基本够用了，只剩下移动设备平台的编辑问题。&lt;/p&gt;
-
-&lt;p&gt;5、其他特色&lt;br /&gt;
-右键拖拽可以移动屏幕&lt;br /&gt;
-侧边停靠适合宽屏显示器&lt;br /&gt;
-抓取内容时可以自动带上窗口标题和链接/路径&lt;br /&gt;
-配色方案有丰富的自定义属性&lt;br /&gt;
-文本文件格式可以自定义编码方式&lt;br /&gt;
-另存为 FreeMind Notes 的 mm 格式，这是其他文本笔记工具无法做到的&lt;/p&gt;
-
-&lt;p&gt;6、开发者&lt;br /&gt;
-最后，也许是最重要的一点，就是 BooguNote
-的开发者能够及时响应用户反馈的信息，非常勤快的增加功能和修补 bug。&lt;br /&gt;
-而要在 Evernote、OneNote 等工具那里得到及时的反馈就相当困难了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;待改进的地方：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1、稳定性&lt;br /&gt;
-尽管在前期测试阶段，勤奋的作者经过了多次升级修改，目前的正式版仍然有一些小问题。&lt;br /&gt;
-发现的问题可以到&lt;a href=&#34;http://groups.google.de/group/boogunote?hl=zh-cn&#34;&gt;讨论组&lt;/a&gt;向作者反映，或者&lt;a href=&#34;boogunote@gmail.com&#34;&gt;直接发邮件&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;2、完善基本功能&lt;br /&gt;
-如完善撤销功能、增加最近打开的文件列表、全局抓取后的托盘气泡提示等。&lt;/p&gt;
-
-&lt;p&gt;3、同步&lt;br /&gt;
-前面已经提到，建议配合使用 &lt;a href=&#34;http://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;
-等同步工具。&lt;/p&gt;
-
-&lt;p&gt;4、搜索定位&lt;br /&gt;
-笔记内容越来越多的时候，更加强大精准的搜索定位功能就十分必要了。然而目前
-BooguNote
-的搜索功能只能说非常简陋，暂时的解决之道就是配合文本搜索工具以提升能力。&lt;/p&gt;
-
-&lt;p&gt;5、多标签组合&lt;br /&gt;
-多标签组合功能不是万能的，管理海量信息并不合适以多标签方式为主，而没有多标签组合即使不是“万万不能”，也会让人困扰，尤其是
-BooguNote 搜索定位功能不强大的情况下。&lt;br /&gt;
-在结构化信息存储的目标实现后，这个应不是问题。&lt;/p&gt;
-
-&lt;p&gt;6、进一步优化树形目录操作&lt;br /&gt;
-BooguNote
-已经是操作最舒服快捷的笔记工具了，但还不够完美，当内容条目很多、树结构复杂的时候，操作就会显得力不从心了。&lt;br /&gt;
-因此作者和用户还要多想想如何进一步完善优化树形目录的操作，如增加快速返回父节点和收缩所有层级子节点的快捷键、同级文字块排序、临时高亮显示子节点和父节点的连线等等。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;开发者的野望&lt;/strong&gt;&lt;br /&gt;
-开发者 hawk 在讨论组中多次提到了今后的发展规划，感觉 BooguNote
-还有许多潜力可挖：&lt;/p&gt;
-
-&lt;p&gt;1、富文本支持&lt;br /&gt;
-作为纯文本党人，我觉得目前只要能够增加删除线格式就行了。&lt;br /&gt;
-开发者则打算实现富文本功能，即 HTML 和 RTF
-数据的抓取和保存，不过在抓取文本的时候，可以去掉文字大小、字体属性，尽量保证版面的整齐。&lt;/p&gt;
-
-&lt;p&gt;2、网络同步和发布&lt;br /&gt;
-如与 Google Calendar 和 Outlook
-的同步，在网络/企业内部社区发布、共享笔记。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-通过快捷方式能保存文件。&lt;br /&gt;
-以后不光保存 boo 文件，也保存 boo
-文件中快捷方式指向的文件。这样在任何地方都可以用boo的文件快捷方式访问想要的文件。这样一体化的存储，可以有效的和
-Dropbox 竞争。
-&lt;/blockquote&gt;
-3、跨平台支持&lt;br /&gt;
-Linux 下有 &lt;a href=&#34;http://basket.kde.org/&#34;&gt;Basket Note Pads&lt;/a&gt;，但 Windows
-版本还只在计划中；&lt;br /&gt;
-Windows Mobile 平台上有
-&lt;a href=&#34;http://www.iliumsoft.com/site/lp/listpro.php&#34;&gt;ListPro&lt;/a&gt;
-这样的神器，但不免费不跨平台，同步也很难用；&lt;br /&gt;
-Evernote
-虽然跨多平台、可同步，移动设备上的免费版却不能本地保存，而且不好用…&lt;/p&gt;
-
-&lt;p&gt;如果 BooguNote
-可以跨平台，又内建了同步功能，那么其他同类工具就更没有优势了。&lt;/p&gt;
-
-&lt;p&gt;4、结构化信息&lt;br /&gt;
-最重头的未来功能，BooguNote 的信息组织能力会凭此上一个新的台阶。&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-0.4.0左右的BooguNote将会出现结构化信息。什么叫结构化信息呢？&lt;br /&gt;
-学过数据库的人大家都知道这样的概念：&lt;br /&gt;
-学生的属性包括:姓名，出生日期，学号。&lt;br /&gt;
-那我就可以在BooguNote里面标注某个文字块就是名字，出生日期，或者学号。&lt;br /&gt;
-这就是结构化信息。只要我按照这个模板填写。以后就可以很容易用搜索功能从各个不同的文件里，搜出所有学生的信息。&lt;br /&gt;
-更进一步，我甚至可以实现关系数据库的功能。通过 sql 语句进行查询。&lt;br /&gt;
-结构化信息存储主要是方便以后信息的提取和使用。
-&lt;/blockquote&gt;
-标签、模板等功能都可以顺带实现了。&lt;/p&gt;
-
-&lt;p&gt;5、显示文件内容缩略图&lt;/p&gt;
-
-&lt;p&gt;6、打印功能&lt;/p&gt;
-
-&lt;p&gt;7、拖拽功能&lt;br /&gt;
-目前还不支持鼠标直接拖拽文字块&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/boogunote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BooguNote</title>
+      <link>https://ioerr.github.io/posts/boogunote/</link>
+      <pubDate>Tue, 30 Mar 2010 13:28:22 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/boogunote/</guid>
+      <description>BooguNote 这款小巧而强大的树型笔记软件终于推出了0.3.1.1正式版本，你可以在它的中文和英文主页分别下载不同语言的版本。 详细的使用方法，在主页上已</description>
+      <content:encoded><![CDATA[<p>BooguNote<br>
+这款小巧而强大的树型笔记软件终于推出了0.3.1.1正式版本，你可以在它的<a href="http://boogu.me/index_zh.htm">中文</a>和<a href="http://boogu.me/">英文</a>主页分别下载不同语言的版本。</p>
+<p>详细的使用方法，在主页上已经有给出一些介绍的文章，如《<a href="http://geek4.us/all-in-boogunote/">BooguNote<br>
+全解</a>》和《<a href="http://www.gtdstudy.com/?p=1761&amp;replytocom=124821">提升生活效能的小软件：BooguNote的三种应用</a>》，同时，软件也自带了一个简单的教程，浏览一遍就大致清楚用法了。</p>
+<p>BooguNote 基本界面：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2010-03-30-20-25-29.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2010-03-30-20-25-29.png" alt="BooguNote&lt;br&gt;
+基本界面"  />
+</a></p>
+<p>自从上手之后，BooguNote 已经取代 Evernote<br>
+等成为我的首选笔记工具，主要的原因有：</p>
+<p>1、BooguNote 最大的特色：树形结构的信息组织方式<br>
+OneNote<br>
+类的笔记软件，主要的信息组织方式是分组卡片式，辅助的则有项目符号、段落标记、表格；<br>
+Evernote、CintaNotes<br>
+类的笔记软件，信息组织方式是多标签，辅助的是项目符号等；<br>
+SEO Note、KeyNote 类的笔记软件，信息组织方式是树形目录加卡片；<br>
+MiniPad2类的笔记软件，信息组织方式只有树形目录；<br>
+WikidPad 类的笔记软件（如果你把它当成笔记工具的话），信息组织方式是 Wiki<br>
+式的链接加树形目录。</p>
+<p>而 BooguNote<br>
+的信息组织方式直接就是树形目录，笔记的目录结构和树叶节点的内容（文字块）都集中在一个窗口中，简单易懂，不需要在多个工作区来回切换，不需要与太多的附加信息和格式打交道，层次清晰又简洁。</p>
+<p>2、方便的键盘操作<br>
+光有树形目录也不行，只有给移动、展开、收缩、编辑节点配上快捷的键盘操作，树形目录才不会拖累用户。<br>
+除此之外，BooguNote 大部分的操作都可以自定义快捷键，这比<br>
+Evernote、OneNote 等贴心多了。</p>
+<p>3、纯文本加图片和超链接的内容<br>
+作为纯文本党人，我对 Evernote、OneNote 等富文本笔记工具很有意见，比如<br>
+Evernote 的全局抓取和粘贴，每次都要 Ctrl+Shift+V<br>
+再选择粘贴纯文本，否则从网页、富文本文档等信息源头抓取来的内容就会带上不同的字体、大小、颜色、格式，使得整个界面混乱无比。</p>
+<h2 id="加粗图标功能可以用于-gtd-应用但我认为-boogunote-的发展方向不应该是">不过，纯文本也不是万能的，所以 BooguNote<br>
+也可以在笔记中嵌入图片和超链接内容，支持文字加粗、文字块收缩、给文字块加上集中图标，提高了软件的应用能力。<br>
+超链接支持点击打开，图片是作为独立的文件保存，笔记中只是存储其相对/绝对位置并显示缩略图，这样便不会使得笔记文件本身的体积急速膨胀，间接提高了性能。<br>
+加粗、图标功能可以用于 GTD 应用，但我认为 BooguNote 的发展方向不应该是</h2>
+<p>工具，因为树形目录的长处在于组织和展示信息，而不是管理待完成事务和提醒。</p>
+<p>BooguNote 保存的笔记文件后缀名是 boo，其实内容就是 XML<br>
+格式，可以同时保存一份相对易于直接阅读的纯文本文件，还可以在配置中打开记录操作日志，这些都是可以自己用文本编辑工具打开自己查看修改的。<br>
+用户完全可以将笔记文件另做后期处理，一些 BooguNote<br>
+暂时未能完善的功能，如搜索定位、批量替换等等，可以自己完成，这就比采用加密或封闭的存储格式更加方便。</p>
+<p>4、便携性<br>
+BooguNote 是绿色软件，不需要安装；<br>
+压缩后300KB，展开也不超过700KB，与安装文件40MB 的 Evernote、200-300MB 的<br>
+OneNote 相比是超轻量级，与 MiniPad2、CintaNotes<br>
+等一个量级。当然，它没有手写识别、富文本、加密、办公软件集成等功能，如果你不需要这些功能的话，自然没有必要选择体积更加臃肿的工具；<br>
+设置默认存储路径后，默认存储路径中的图片插入笔记就会记录相对路径，移动笔记文件的时同时移动图片，就不会丢失笔记中的缩略图了；<br>
+可惜的是目前还没有在线同步功能，毕竟作者资源有限，现阶段只能先完善基础功能。结合<br>
+Dropbox 的同步功能也基本够用了，只剩下移动设备平台的编辑问题。</p>
+<p>5、其他特色<br>
+右键拖拽可以移动屏幕<br>
+侧边停靠适合宽屏显示器<br>
+抓取内容时可以自动带上窗口标题和链接/路径<br>
+配色方案有丰富的自定义属性<br>
+文本文件格式可以自定义编码方式<br>
+另存为 FreeMind Notes 的 mm 格式，这是其他文本笔记工具无法做到的</p>
+<p>6、开发者<br>
+最后，也许是最重要的一点，就是 BooguNote<br>
+的开发者能够及时响应用户反馈的信息，非常勤快的增加功能和修补 bug。<br>
+而要在 Evernote、OneNote 等工具那里得到及时的反馈就相当困难了。</p>
+<p><strong>待改进的地方：</strong></p>
+<p>1、稳定性<br>
+尽管在前期测试阶段，勤奋的作者经过了多次升级修改，目前的正式版仍然有一些小问题。<br>
+发现的问题可以到<a href="http://groups.google.de/group/boogunote?hl=zh-cn">讨论组</a>向作者反映，或者<a href="boogunote@gmail.com">直接发邮件</a>。</p>
+<p>2、完善基本功能<br>
+如完善撤销功能、增加最近打开的文件列表、全局抓取后的托盘气泡提示等。</p>
+<p>3、同步<br>
+前面已经提到，建议配合使用 <a href="http://www.dropbox.com/">Dropbox</a><br>
+等同步工具。</p>
+<p>4、搜索定位<br>
+笔记内容越来越多的时候，更加强大精准的搜索定位功能就十分必要了。然而目前<br>
+BooguNote<br>
+的搜索功能只能说非常简陋，暂时的解决之道就是配合文本搜索工具以提升能力。</p>
+<p>5、多标签组合<br>
+多标签组合功能不是万能的，管理海量信息并不合适以多标签方式为主，而没有多标签组合即使不是“万万不能”，也会让人困扰，尤其是<br>
+BooguNote 搜索定位功能不强大的情况下。<br>
+在结构化信息存储的目标实现后，这个应不是问题。</p>
+<p>6、进一步优化树形目录操作<br>
+BooguNote<br>
+已经是操作最舒服快捷的笔记工具了，但还不够完美，当内容条目很多、树结构复杂的时候，操作就会显得力不从心了。<br>
+因此作者和用户还要多想想如何进一步完善优化树形目录的操作，如增加快速返回父节点和收缩所有层级子节点的快捷键、同级文字块排序、临时高亮显示子节点和父节点的连线等等。</p>
+<p><strong>开发者的野望</strong><br>
+开发者 hawk 在讨论组中多次提到了今后的发展规划，感觉 BooguNote<br>
+还有许多潜力可挖：</p>
+<p>1、富文本支持<br>
+作为纯文本党人，我觉得目前只要能够增加删除线格式就行了。<br>
+开发者则打算实现富文本功能，即 HTML 和 RTF<br>
+数据的抓取和保存，不过在抓取文本的时候，可以去掉文字大小、字体属性，尽量保证版面的整齐。</p>
+<p>2、网络同步和发布<br>
+如与 Google Calendar 和 Outlook<br>
+的同步，在网络/企业内部社区发布、共享笔记。</p>
+<!-- raw HTML omitted -->
+<p>如果 BooguNote<br>
+可以跨平台，又内建了同步功能，那么其他同类工具就更没有优势了。</p>
+<p>4、结构化信息<br>
+最重头的未来功能，BooguNote 的信息组织能力会凭此上一个新的台阶。</p>
+<!-- raw HTML omitted -->
+<p>5、显示文件内容缩略图</p>
+<p>6、打印功能</p>
+<p>7、拖拽功能<br>
+目前还不支持鼠标直接拖拽文字块</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

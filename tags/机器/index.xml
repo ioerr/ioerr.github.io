@@ -1,115 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>机器 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8/</link>
     <description>Recent content in 机器 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>个人价值的未来</title>
-        <link>https://ioerr.github.io/posts/geren-jiazhi-de-weilai/</link>
-        <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/geren-jiazhi-de-weilai/</guid>
-        <description>&lt;p&gt;一些做大数据分析的技术人员，终极梦想是通过海量数据的收集和分析，预测人类群体的行为，甚至利用预测结果进行提前干预和控制。&lt;br /&gt;
-其中有的人认为个人得行为虽然不能精确预测，但放在群体中，个人的因素会被抹平。&lt;br /&gt;
-有的则认为个人的行为总有一天也可以精确预测。&lt;br /&gt;
-人类的大脑是个黑盒子也无所谓，只要数据够多，建模够准，什么时候作妖都能预测到。&lt;br /&gt;
-而研究大脑运作的一些科学家，则梦想有一天能够完全理解人是如何思考、决策和行动的。&lt;/p&gt;
-
-&lt;p&gt;假如两者都成真，并且结合起来，人就会是透明的机器，和人打交道就像玩游戏时背板。&lt;/p&gt;
-
-&lt;p&gt;如果真到了那一天，每个人都没有秘密且可以任意操控，人是否还有存在的价值？&lt;br /&gt;
-是否会被认为没有价值而整体抹除。&lt;br /&gt;
-还是说，人可以凭借对自身的深入认识，继续进化到更加复杂的境界？&lt;br /&gt;
-比如和硅基机器相结合，成为一种混合的生物？&lt;/p&gt;
-
-&lt;p&gt;这样的未来早已有人设想过，《Matrix》系列都算是后辈，而且还多余地给人保留了当“电池”的微小价值。&lt;br /&gt;
-但在技术还没有进化到这一步的时候，许多人在心态上就已经习惯将个人的价值再次回归到文艺复兴之前的状态，并准备迎接个人连电池的价值都不如的未来。&lt;/p&gt;
-
-&lt;p&gt;在我看来，这就是一种自我实现预言的“俄狄浦斯效应”，保护个人价值既来自于技术的发展、社会关系的演变，也来自于每个人的珍视。&lt;br /&gt;
-越是视个人为标准统一的工具耗材，忽略千差万别的每个人，忽略他们千差万别的创造和潜力，忽略各种微妙而细致的差异，越容易推动未来向否定人的方向演进。&lt;/p&gt;
-
-&lt;p&gt;分辨不出快餐和珍馐的人，只配得到快餐。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;3月25日更新：&lt;/p&gt;
-
-&lt;p&gt;听了 podcast 节目声东击西《&lt;a href=&#34;https://etw.fm/205&#34;&gt;经济学家眼里的算法之蠢和治理难题&lt;/a&gt;》的这一期&lt;/p&gt;
-
-&lt;p&gt;嘉宾将看不见的手理解为算法有些偏颇，看不见的手还包括许多隐藏的偏好信息，算法永远都过于粗糙和抽象。&lt;/p&gt;
-
-&lt;p&gt;如果算法=看不见的手，那么掌握算法的平台=市场机制，但显然平台只是市场中的关键参与者之一。&lt;/p&gt;
-
-&lt;p&gt;而且交易信息的分布式交互海量数据和集中的实时采集建模计算能力，不是算法可以支撑的，甚至是永远无法实现的。&lt;br /&gt;
-如果可以的话，中央计划经济确实就可以成立了。&lt;/p&gt;
-
-&lt;p&gt;平台也不能仅仅理解为撮合者——听上去仅仅是交易多方的信息对接，实际平台还有更多的角色，平台之间的竞争和合作，主动协助提升生产能力，创造需求，还有抢占交易者、生产者的生态位。&lt;/p&gt;
-
-&lt;p&gt;节目中还提到，新闻媒体的操守不可信，平台技术人员也可能无法理解和完全掌握算法，需要政府监管来控制算法。&lt;br /&gt;
-那政府监管者凭什么操守可信和有能力指导算法优化呢？未免过于乐观了。&lt;br /&gt;
-当用算法隔绝个人联系形成组织，隐匿、消除舆情的成本比解决问题成本更低时，会发生什么，现实中已经发生过很多，教会了我们很多。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>当代科技生活</title>
-        <link>https://ioerr.github.io/posts/dangdai-keji-shenghuo/</link>
-        <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dangdai-keji-shenghuo/</guid>
-        <description>&lt;p&gt;理想中的科技生活：&lt;br /&gt;
-家用电器随时都能准备好，招之即来，挥之即去，完美完成安排的工作。&lt;br /&gt;
-——机器为我服务。&lt;/p&gt;
-
-&lt;p&gt;现实中的科技生活：&lt;br /&gt;
-换饮水机滤芯，洗空调滤网，清洗扫地机器人尘盒，清洗洗衣机、干衣机，换灯泡，修电路，优化网络，交电费、水费、话费、交通费，给手机、平板、手环、手表、电脑、电动车充电…&lt;br /&gt;
-——我为机器服务。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>躺平</title>
-        <link>https://ioerr.github.io/posts/tangping/</link>
-        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tangping/</guid>
-        <description>&lt;p&gt;网上热议躺平，于是有人有推荐看拉法格的《&lt;a href=&#34;https://book.douban.com/subject/26873263/&#34;&gt;懒惰的权利及其他&lt;/a&gt;》以及《&lt;a href=&#34;https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm&#34;&gt;懒惰权（驳斥1848年“劳动权”）&lt;/a&gt;》，堪称“摸鱼学/躺平学宣言”。&lt;/p&gt;
-
-&lt;p&gt;但我觉得躺平也要分情况。&lt;/p&gt;
-
-&lt;p&gt;劳动是否幸福，取决于目的是否合意。&lt;br /&gt;
-最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。&lt;/p&gt;
-
-&lt;p&gt;人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。&lt;br /&gt;
-浑浑噩噩、毫无目的活着的人，是行尸走肉。&lt;br /&gt;
-被强制无法为自己而活的人是奴隶。&lt;br /&gt;
-机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。&lt;/p&gt;
-
-&lt;p&gt;奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。&lt;/p&gt;
-
-&lt;p&gt;因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人价值的未来</title>
+      <link>https://ioerr.github.io/posts/geren-jiazhi-de-weilai/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/geren-jiazhi-de-weilai/</guid>
+      <description>一些做大数据分析的技术人员，终极梦想是通过海量数据的收集和分析，预测人类群体的行为，甚至利用预测结果进行提前干预和控制。 其中有的人认为个人得</description>
+      <content:encoded><![CDATA[<p>一些做大数据分析的技术人员，终极梦想是通过海量数据的收集和分析，预测人类群体的行为，甚至利用预测结果进行提前干预和控制。<br>
+其中有的人认为个人得行为虽然不能精确预测，但放在群体中，个人的因素会被抹平。<br>
+有的则认为个人的行为总有一天也可以精确预测。<br>
+人类的大脑是个黑盒子也无所谓，只要数据够多，建模够准，什么时候作妖都能预测到。<br>
+而研究大脑运作的一些科学家，则梦想有一天能够完全理解人是如何思考、决策和行动的。</p>
+<p>假如两者都成真，并且结合起来，人就会是透明的机器，和人打交道就像玩游戏时背板。</p>
+<p>如果真到了那一天，每个人都没有秘密且可以任意操控，人是否还有存在的价值？<br>
+是否会被认为没有价值而整体抹除。<br>
+还是说，人可以凭借对自身的深入认识，继续进化到更加复杂的境界？<br>
+比如和硅基机器相结合，成为一种混合的生物？</p>
+<p>这样的未来早已有人设想过，《Matrix》系列都算是后辈，而且还多余地给人保留了当“电池”的微小价值。<br>
+但在技术还没有进化到这一步的时候，许多人在心态上就已经习惯将个人的价值再次回归到文艺复兴之前的状态，并准备迎接个人连电池的价值都不如的未来。</p>
+<p>在我看来，这就是一种自我实现预言的“俄狄浦斯效应”，保护个人价值既来自于技术的发展、社会关系的演变，也来自于每个人的珍视。<br>
+越是视个人为标准统一的工具耗材，忽略千差万别的每个人，忽略他们千差万别的创造和潜力，忽略各种微妙而细致的差异，越容易推动未来向否定人的方向演进。</p>
+<p>分辨不出快餐和珍馐的人，只配得到快餐。</p>
+<hr>
+<p>3月25日更新：</p>
+<p>听了 podcast 节目声东击西《<a href="https://etw.fm/205">经济学家眼里的算法之蠢和治理难题</a>》的这一期</p>
+<p>嘉宾将看不见的手理解为算法有些偏颇，看不见的手还包括许多隐藏的偏好信息，算法永远都过于粗糙和抽象。</p>
+<p>如果算法=看不见的手，那么掌握算法的平台=市场机制，但显然平台只是市场中的关键参与者之一。</p>
+<p>而且交易信息的分布式交互海量数据和集中的实时采集建模计算能力，不是算法可以支撑的，甚至是永远无法实现的。<br>
+如果可以的话，中央计划经济确实就可以成立了。</p>
+<p>平台也不能仅仅理解为撮合者——听上去仅仅是交易多方的信息对接，实际平台还有更多的角色，平台之间的竞争和合作，主动协助提升生产能力，创造需求，还有抢占交易者、生产者的生态位。</p>
+<p>节目中还提到，新闻媒体的操守不可信，平台技术人员也可能无法理解和完全掌握算法，需要政府监管来控制算法。<br>
+那政府监管者凭什么操守可信和有能力指导算法优化呢？未免过于乐观了。<br>
+当用算法隔绝个人联系形成组织，隐匿、消除舆情的成本比解决问题成本更低时，会发生什么，现实中已经发生过很多，教会了我们很多。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>当代科技生活</title>
+      <link>https://ioerr.github.io/posts/dangdai-keji-shenghuo/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dangdai-keji-shenghuo/</guid>
+      <description>理想中的科技生活： 家用电器随时都能准备好，招之即来，挥之即去，完美完成安排的工作。 ——机器为我服务。 现实中的科技生活： 换饮水机滤芯，洗空调滤</description>
+      <content:encoded><![CDATA[<p>理想中的科技生活：<br>
+家用电器随时都能准备好，招之即来，挥之即去，完美完成安排的工作。<br>
+——机器为我服务。</p>
+<p>现实中的科技生活：<br>
+换饮水机滤芯，洗空调滤网，清洗扫地机器人尘盒，清洗洗衣机、干衣机，换灯泡，修电路，优化网络，交电费、水费、话费、交通费，给手机、平板、手环、手表、电脑、电动车充电…<br>
+——我为机器服务。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>躺平</title>
+      <link>https://ioerr.github.io/posts/tangping/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tangping/</guid>
+      <description>网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。 但我觉得躺</description>
+      <content:encoded><![CDATA[<p>网上热议躺平，于是有人有推荐看拉法格的《<a href="https://book.douban.com/subject/26873263/">懒惰的权利及其他</a>》以及《<a href="https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm">懒惰权（驳斥1848年“劳动权”）</a>》，堪称“摸鱼学/躺平学宣言”。</p>
+<p>但我觉得躺平也要分情况。</p>
+<p>劳动是否幸福，取决于目的是否合意。<br>
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。</p>
+<p>人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。<br>
+浑浑噩噩、毫无目的活着的人，是行尸走肉。<br>
+被强制无法为自己而活的人是奴隶。<br>
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。</p>
+<p>奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。</p>
+<p>因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

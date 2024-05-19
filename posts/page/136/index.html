@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 读写错误">
+<meta name="author" content="">
+<link rel="canonical" href="https://ioerr.github.io/posts/">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://ioerr.github.io/posts/index.xml">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ioerr.github.io/posts/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">关于风水的讨论
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>这回学聪明了，复制过来的大量文本还是放在 Plain Text 那边比较好，不至于造成 feed 出错。 《关于风水的讨论》，原文是来自于《这世界上真的有风水之说么？》。 没...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-09-02 15:10:36 +0000 +0000'>2007-9-2</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 关于风水的讨论" href="https://ioerr.github.io/posts/guanyu-fengshui-de-taolun/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Feed
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>考虑到有用国内 feed 订阅服务或者本地客户端的读者，因此放出托管在 FeedSky 的 feed：http://feed.feedsky.com/calon 如果想直...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-08-30 16:05:16 +0000 +0000'>2007-8-30</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to Feed" href="https://ioerr.github.io/posts/feed-2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">FeedBurner 被 GFW？
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问 feeds.feedburner.com 二级域名。是不是 GFW 所为，其他电信运营商网络会不会跟进，还需要进一步观察。 最直接...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-08-30 09:40:18 +0000 +0000'>2007-8-30</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to FeedBurner 被 GFW？" href="https://ioerr.github.io/posts/feedburner-bei-gfw/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Executor
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>看到 CB 上有人推荐命令行运行工具 Executor，收藏页面时发现原来6月份就已经关注过了，正好顺手试试效果。 Executor 的主页，简介，界面演示，帮助文档...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-08-29 03:31:07 +0000 +0000'>2007-8-29</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to Executor" href="https://ioerr.github.io/posts/executor/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">韩国人质事件有转机
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>据说塔利班将会有条件地释放19名韩国人质，等了这么久终于有一个还算不错的消息了，希望谈判能够成功达成协议，人质平安回家。 这一个多月以来，网络...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-08-28 16:13:17 +0000 +0000'>2007-8-28</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 韩国人质事件有转机" href="https://ioerr.github.io/posts/hanguo-renzhi-shijian-youzhuanji/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://ioerr.github.io/posts/page/135/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://ioerr.github.io/posts/page/137/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

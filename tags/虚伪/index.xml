@@ -1,101 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>虚伪 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%99%9A%E4%BC%AA/</link>
     <description>Recent content in 虚伪 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E4%BC%AA/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>写作风格应该追求简洁还是复杂？</title>
-        <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
-        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/baibanbaonet/status/1751815054960234541&#34;&gt;白板报&lt;/a&gt;：&lt;br /&gt;
-自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1751816921945960449&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。&lt;br /&gt;
-其实风格还在其次，最重要的是真诚。&lt;br /&gt;
-追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。&lt;/p&gt;
-
-&lt;p&gt;白板报：&lt;br /&gt;
-这点恕不能完全同意。文字的作用之一是掩饰。&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>道德高地</title>
-        <link>https://ioerr.github.io/posts/daode-gaodi/</link>
-        <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/daode-gaodi/</guid>
-        <description>&lt;p&gt;在讨论道德议题的时候，经常遇到有的人喜欢把一切道德追求——哪怕只是现代文明社会做人的底线——都称为“道德高地”，一切对道德有基本要求——包括自我约束——的人都是不敢诚实追求利益的伪君子。&lt;br /&gt;
-有感而发，遂作此画。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/moral-high-ground.png&#34; alt=&#34;道德高地&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Whataboutism</title>
-        <link>https://ioerr.github.io/posts/whataboutism/</link>
-        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/whataboutism/</guid>
-        <description>&lt;p&gt;Whataboutism 或 Whataboutery 的定义是：&lt;/p&gt;
-
-&lt;p&gt;面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。&lt;br /&gt;
-是 Tu quoque 模式（拉丁语“你也是”）的变体，属于人身攻击论证的子类型，将原问题与“批评者资格”的问题混为一谈，是一种逻辑谬误。&lt;br /&gt;
-其目的是质疑批评的不正当、不合法、不完整和不公平，转移话题。&lt;/p&gt;
-
-&lt;p&gt;鲁迅在文章《外国也有》中提出的“臭虫论”，也属于 whataboutism：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;凡中国所有的，外国也都有。外国人说中国多臭虫，但西洋也有臭虫。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;指责批评者双重标准，有时也属于 whataboutism 的一种。&lt;/p&gt;
-
-&lt;p&gt;Whataboutism 的目的，不是通过反问去阻止对方也做什么不道德的事，而是说服自己去做，即使心中明知道这件事不道德，不应该做。&lt;br /&gt;
-正因为知道不应该做，所以同样的道理可以拿来指责他人；&lt;br /&gt;
-通过指责他人来搅浑水，证明天下乌鸦一般黑，从而为自己争取到心安理得去做的机会。&lt;br /&gt;
-即，用实用主义手段达到道德虚无的目的。&lt;/p&gt;
-
-&lt;p&gt;Whataboutism 的精髓在于将“烂”变成纯粹相对的东西。&lt;br /&gt;
-再烂的东西，一旦有了更烂的做对比，仿佛就有底气说自己不烂。&lt;/p&gt;
-
-&lt;p&gt;不是这样的，都很烂，烂得各有千秋。死去的生命、他人的不幸不是用来比较谁更优越，而是用来反思各自宣扬的这一套，怎么做才能不这么烂。&lt;br /&gt;
-抱着这样的目的，比较才算有点意义，也才有进步的动力。&lt;/p&gt;
-
-&lt;p&gt;另：&lt;br /&gt;
-Whataboutism 已经被滥用到了几乎说什么都可以叫 whataboutism 的程度，成为一种新的可以取代 whataboutism 发挥同样作用的工具。&lt;/p&gt;
-
-&lt;p&gt;又另：&lt;br /&gt;
-Michael Jackson 的《Earth Song》，歌词一共出现“what about”52次，堪称 whataboutism 大师。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E4%BC%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写作风格应该追求简洁还是复杂？</title>
+      <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
+      <description>白板报： 自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/baibanbaonet/status/1751815054960234541">白板报</a>：<br>
+自从 Strunk &amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。</p>
+<p><a href="https://twitter.com/calon/status/1751816921945960449">Calon</a>：<br>
+对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。<br>
+其实风格还在其次，最重要的是真诚。<br>
+追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。</p>
+<p>白板报：<br>
+这点恕不能完全同意。文字的作用之一是掩饰。</p>
+<p>Calon：<br>
+有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>道德高地</title>
+      <link>https://ioerr.github.io/posts/daode-gaodi/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/daode-gaodi/</guid>
+      <description>在讨论道德议题的时候，经常遇到有的人喜欢把一切道德追求——哪怕只是现代文明社会做人的底线——都称为“道德高地”，一切对道德有基本要求——包括</description>
+      <content:encoded><![CDATA[<p>在讨论道德议题的时候，经常遇到有的人喜欢把一切道德追求——哪怕只是现代文明社会做人的底线——都称为“道德高地”，一切对道德有基本要求——包括自我约束——的人都是不敢诚实追求利益的伪君子。<br>
+有感而发，遂作此画。</p>
+<p><img loading="lazy" src="/images/moral-high-ground.png" alt="道德高地"  />
+</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Whataboutism</title>
+      <link>https://ioerr.github.io/posts/whataboutism/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/whataboutism/</guid>
+      <description>Whataboutism 或 Whataboutery 的定义是： 面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。 是 Tu quoque 模式（拉丁语“你也是”）的变</description>
+      <content:encoded><![CDATA[<p>Whataboutism 或 Whataboutery 的定义是：</p>
+<p>面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。<br>
+是 Tu quoque 模式（拉丁语“你也是”）的变体，属于人身攻击论证的子类型，将原问题与“批评者资格”的问题混为一谈，是一种逻辑谬误。<br>
+其目的是质疑批评的不正当、不合法、不完整和不公平，转移话题。</p>
+<p>鲁迅在文章《外国也有》中提出的“臭虫论”，也属于 whataboutism：</p>
+<blockquote>
+<p>凡中国所有的，外国也都有。外国人说中国多臭虫，但西洋也有臭虫。</p>
+</blockquote>
+<p>指责批评者双重标准，有时也属于 whataboutism 的一种。</p>
+<p>Whataboutism 的目的，不是通过反问去阻止对方也做什么不道德的事，而是说服自己去做，即使心中明知道这件事不道德，不应该做。<br>
+正因为知道不应该做，所以同样的道理可以拿来指责他人；<br>
+通过指责他人来搅浑水，证明天下乌鸦一般黑，从而为自己争取到心安理得去做的机会。<br>
+即，用实用主义手段达到道德虚无的目的。</p>
+<p>Whataboutism 的精髓在于将“烂”变成纯粹相对的东西。<br>
+再烂的东西，一旦有了更烂的做对比，仿佛就有底气说自己不烂。</p>
+<p>不是这样的，都很烂，烂得各有千秋。死去的生命、他人的不幸不是用来比较谁更优越，而是用来反思各自宣扬的这一套，怎么做才能不这么烂。<br>
+抱着这样的目的，比较才算有点意义，也才有进步的动力。</p>
+<p>另：<br>
+Whataboutism 已经被滥用到了几乎说什么都可以叫 whataboutism 的程度，成为一种新的可以取代 whataboutism 发挥同样作用的工具。</p>
+<p>又另：<br>
+Michael Jackson 的《Earth Song》，歌词一共出现“what about”52次，堪称 whataboutism 大师。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

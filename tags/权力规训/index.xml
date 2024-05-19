@@ -1,43 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>权力规训 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%9D%83%E5%8A%9B%E8%A7%84%E8%AE%AD/</link>
     <description>Recent content in 权力规训 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%9D%83%E5%8A%9B%E8%A7%84%E8%AE%AD/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>房间里的大象</title>
-        <link>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</link>
-        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</guid>
-        <description>&lt;p&gt;历史可以粉饰、美化，可以遗忘、删除，可以颠倒黑白，也可以正视、反思。&lt;br /&gt;
-只要有意愿又有能力，所有人都可以只接受一种历史。&lt;br /&gt;
-这样的历史观已经深入人心，“反思”一词在今天的网络上已经普遍等同于“自卑”。&lt;/p&gt;
-
-&lt;p&gt;不过历史不是只存在于头脑或文本中的记录，对历史的态度本身也是历史的一部分。&lt;/p&gt;
-
-&lt;p&gt;保持一种历史观带来的结果在现在越是“成功”，在未来就越容易复制、重现。&lt;br /&gt;
-现在鼓吹这种“成功”的既得利益者——比如不允许说房间里有头大象，即使不断有人被大象踩死，他们也会强调假装不存在大象很重要——因为将历史的成功归功于隐瞒大象的存在。&lt;/p&gt;
-
-&lt;p&gt;房间里一头看不见但会踩死人的大象也可以看作一种权力规训的手段。&lt;br /&gt;
-那些了解了情况、侥幸没有被踩中的人，大部分在经过一段时间的认知失调后会主动调整，完成自我规训，有的炫耀自己目光如炬、轻功了得，幸灾乐祸地看下一个被大象踩死的倒霉蛋，有的则化身为&lt;a href=&#34;../wangjing-jianyu/&#34;&gt;网景监狱&lt;/a&gt;的一员。&lt;/p&gt;
-
-&lt;p&gt;赞美崇拜二向箔威力的人，不妨将大象看作现实版的二向箔。&lt;br /&gt;
-都是将人变成二维平面的，应该没有什么不同。&lt;br /&gt;
-变成平面的是别人而不是自己，那就更棒啦！&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%9D%83%E5%8A%9B%E8%A7%84%E8%AE%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>房间里的大象</title>
+      <link>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fangjian-li-de-daxiang/</guid>
+      <description>历史可以粉饰、美化，可以遗忘、删除，可以颠倒黑白，也可以正视、反思。 只要有意愿又有能力，所有人都可以只接受一种历史。 这样的历史观已经深入人心</description>
+      <content:encoded><![CDATA[<p>历史可以粉饰、美化，可以遗忘、删除，可以颠倒黑白，也可以正视、反思。<br>
+只要有意愿又有能力，所有人都可以只接受一种历史。<br>
+这样的历史观已经深入人心，“反思”一词在今天的网络上已经普遍等同于“自卑”。</p>
+<p>不过历史不是只存在于头脑或文本中的记录，对历史的态度本身也是历史的一部分。</p>
+<p>保持一种历史观带来的结果在现在越是“成功”，在未来就越容易复制、重现。<br>
+现在鼓吹这种“成功”的既得利益者——比如不允许说房间里有头大象，即使不断有人被大象踩死，他们也会强调假装不存在大象很重要——因为将历史的成功归功于隐瞒大象的存在。</p>
+<p>房间里一头看不见但会踩死人的大象也可以看作一种权力规训的手段。<br>
+那些了解了情况、侥幸没有被踩中的人，大部分在经过一段时间的认知失调后会主动调整，完成自我规训，有的炫耀自己目光如炬、轻功了得，幸灾乐祸地看下一个被大象踩死的倒霉蛋，有的则化身为<a href="../wangjing-jianyu/">网景监狱</a>的一员。</p>
+<p>赞美崇拜二向箔威力的人，不妨将大象看作现实版的二向箔。<br>
+都是将人变成二维平面的，应该没有什么不同。<br>
+变成平面的是别人而不是自己，那就更棒啦！</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

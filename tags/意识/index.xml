@@ -1,1381 +1,762 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>意识 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%84%8F%E8%AF%86/</link>
     <description>Recent content in 意识 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%84%8F%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>人类最强大的工具</title>
-        <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
-        <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/songma/status/1600831363388944384&#34;&gt;Song Ma&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1600872615064653824&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我认为是广义的“语言”。&lt;br /&gt;
-语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。&lt;br /&gt;
-其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。&lt;/p&gt;
-
-&lt;p&gt;从这个角度看，电脑的信息沟通效率比人类高得多。&lt;br /&gt;
-不过电脑需要至少具备两个能力完全胜过人类：&lt;br /&gt;
-一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；&lt;br /&gt;
-第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>关于数字生命的思考</title>
-        <link>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</link>
-        <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</guid>
-        <description>&lt;p&gt;计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。&lt;br /&gt;
-但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？&lt;br /&gt;
-从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？&lt;/p&gt;
-
-&lt;p&gt;今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。&lt;/p&gt;
-
-&lt;p&gt;这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。&lt;br /&gt;
-人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。&lt;/p&gt;
-
-&lt;p&gt;人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。&lt;/p&gt;
-
-&lt;p&gt;当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>贪婪的大脑</title>
-        <link>https://ioerr.github.io/posts/tanlan-de-danao/</link>
-        <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tanlan-de-danao/</guid>
-        <description>&lt;p&gt;最近在图书馆翻书的时候，偶然发现一本名叫《贪婪的大脑》的科普书，副标题是“为何人类会无止境地寻求意义”，正好是比较关心的问题。&lt;/p&gt;
-
-&lt;p&gt;这个事说来话长，不妨从生物群体演化的机制开始。&lt;/p&gt;
-
-&lt;p&gt;生物演化利用基因保存和传承遗传信息，这种模式如此运作：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;使用遗传基因记录有利于生存的重要信息&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;读取基因中的信息，构造生物个体&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;个体进行繁殖活动，复制基因信息&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;发生基因变异，产生新的信息，并在完全保持一致和完全混乱之间保持平衡&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;通过自然选择，保留更适应环境的个体，及其基因中携带的生存信息&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;当环境和生物间的竞争要求更复杂的生存策略时，需要写在基因中的信息也越来越多。&lt;br /&gt;
-同时，通过淘汰个体来适应新环境的方法效率太低，在一个生命周期内能够获取生存知识的个体更有竞争力——越是偏向于 K 选择理论的物种越是如此。&lt;br /&gt;
-于是，在基因编码之外，生物进化出了神经元及其集合——大脑，用神经元来形成和记录更高层次的信息——“概念”。&lt;br /&gt;
-更多的层次在这些基础上建构，一层又一层，直到产生一种高效的体系，形成从信息流中发现规律性和意义的学习能力，认识大自然中高度结构化、互相关联、具有不同的等级结构，准确地捕捉到世界瞬息变幻的特征，并且在众多现象中洞悉本质，做出精确的预测，掌握胜过其他生物演化的优势。&lt;/p&gt;
-
-&lt;p&gt;这种演化的模式如此运作：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;神经元在无意识状态下处理相对简单的、几乎不具备任何结构的信息&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;在大量的信息中过滤和提炼数据，决定要进一步分析哪些重要的信息&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;这一过程就是“注意”，注意接收原始输入，并将其转换成由相互关联的各种事实组成的一个整体，然后进入意识范围&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;“注意”输出的信息存贮在工作记忆空间中，最多只有4个意识空间可用于短暂保留意识对象&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;利用注意系统以及意识强大的分析能力，可以藐视工作记忆的界限，将大量的数据有规律地载入每个意识空间&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;寻找组块：渴望发现接收到的任何信息的结构，积极寻求模式——任何能够提高实践及理解能力的数据信息&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;不断寻找生活各个方面的规律&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;想出各种对自己有利的策略&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;积极寻求游戏里的模式，即使游戏对生存没什么直接的作用&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;沉迷于发现信息的结构，如果不能在日常生活中让自己的渴望得到满足，会人为地制造机会发现模式，并从中获得乐趣&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;注意并记住组块：意识在工作记忆内部寻找具有结构性的信息组块，发现信息中重复的部分，将这种重复归纳成一条规律&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;将信息压缩成容量更小却更有用的形式，不再需要记住大量数据，只要记住一条规律&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;规律能够揭示数据的某些机制，使我们对数据有深刻的理解，根据数据进行预测&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;学习的过程就是将新的项目与之前记住的项目联系起来形成组块，组块再组合起来，形成更大的记忆对象，产生具有各种功能、各种等级、相互关联的知识&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;工作记忆里的组块，能为长期记忆提供索引，很快找到重要信息&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;将看起来独立的不同项目依据模式组合起来，发现新的联系，觉察到事物的机制，更深入了解这些事物的运作情况。记忆系统也随之变得更高效、更聪明&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;运用构建起来的组块作出决定和指挥行动&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;大脑存在两种工作模式的系统：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一种是缓慢的、慎重的意识系统，意识处理某些很新或很复杂的任务，进行重大革新，揭示深层的模式，优化重要目标，发现潜在的重要机会，从而使精神世界更高效地运作，能以最少量的意识完成任务&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;另一种是快速、自动、几乎无意识的系统，利用意识形成的组块进行运作&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;从生物学上来说，人类的目的是为了生存和繁衍，无意识为这个目标尽一切努力，而意识是协助无意识达到目标的高级助手，在做决定和行动时只是起辅助作用，而不是起支配作用。&lt;br /&gt;
-习惯性的、重复的决定看起来是不自觉的、无意识的，但在最初的时候，是经过有意识的思考才形成的，无意识无法进行具有结构性的、高级的思考，因此在做重要的复杂决定时，意识仍然起了不可忽视的作用。&lt;/p&gt;
-
-&lt;p&gt;意识组块与无意识自动处理过程相互作用，目的是同时利用信息处理的两种方式。&lt;br /&gt;
-理想的对策是：在一切顺利的情况下，力求稳定；但生命受到威胁、面临绝境、需要新思想改变状况时，则将意识看作革新机器，倾向混乱、革新。&lt;br /&gt;
-但是，与基因的方法不同，意识是以相对安全的、经过引导的方式，实行半混乱的探查，只接受那些明显有益于有机体的深刻见解，这些见解或是提高有机体对世界的认知能力，或是提高有机体的行为能力。&lt;br /&gt;
-一旦这些革新组块被发现，就会逐渐添加到认知体系相对稳定的那部分中（大多属于无意识范围）。&lt;/p&gt;
-
-&lt;p&gt;回到最开始引起我兴趣的那个副标题的问题——为何人类会无止境地寻求意义？&lt;br /&gt;
-现在我们已经有了初步的答案：&lt;br /&gt;
-我们大脑的认知工作模式天生就要在看似杂乱无章的世界中寻找信息的模式、规律和结构，因为这能带给我们超越基因演化模式的优势。&lt;br /&gt;
-这一演化动力驱使我们不断深入挖掘更深层次的意义，甚至自己制造和赋予意义。&lt;/p&gt;
-
-&lt;p&gt;根据意识神经科学对大脑的研究认识，作者还谈论了价值体系和情感，自我意识和自由意志，精神分裂症、抑郁症、自闭症等意识异常导致的精神疾病等话题，部分内容摘录如下：&lt;/p&gt;
-
-&lt;p&gt;仅仅是存储信息没有意义，还需要运用知识去做有意义的事请，也就是行动起来。&lt;br /&gt;
-人类的大脑，其主要的任务还是以最佳的方式控制躯体的运动。&lt;br /&gt;
-运动的首要机制是本能行为，这是所有动物都具备的。&lt;br /&gt;
-本能是一种先天遗传的大脑“程序”，能将感觉输入与特定的反应联系起来。本能有利于生存，并能使动物最大限度地进行繁衍。&lt;br /&gt;
-在本能行为中，基因的作用是利用大脑储存及处理信息的能力（这些信息太复杂，不能仅仅以直接的遗传方式解决）。&lt;br /&gt;
-本能很重要，但如果没有一些最基本的学习能力，本能发挥的作用并不大。&lt;br /&gt;
-学习当然是件好事，但如果被无数的事实包围着，那么该学习哪些呢？&lt;br /&gt;
-答案是：动物受一套价值体系的限制，价值体系规定了什么是好的、让人愉快的，什么是不好的、令人痛苦的。&lt;br /&gt;
-这一机制在进化过程中不断完善，规定什么有利于生存与繁衍，什么不利于生存与繁衍。&lt;br /&gt;
-这套价值体系对任何相关的刺激物归类，归类的依据为刺激物是有利于动物发展还是使动物陷入危险，以及利益或危险有多大。&lt;br /&gt;
-简单的动物会遵照这套价值体系活动。但它们并不知道为什么某些东西是有利的或有害的。&lt;br /&gt;
-这时价值体系需要情感来扩充，情感解释了动物认为某些东西有利或有害的原因。&lt;br /&gt;
-原始的情感主要有三类：恐惧，厌恶和愤怒。&lt;br /&gt;
-与简单动物相比，我们人类有着大量复杂的情感类型，如妒忌、幸灾乐祸、不公平感。&lt;br /&gt;
-人类比其他哺乳动物有更为丰富的情感类型，因为我们生活在庞大、复杂、等级制度的社会，要处理各种社会及政治问题，要与不同类型的人打交道。&lt;/p&gt;
-
-&lt;p&gt;各种形式的自我意识只是高深的智力与丰富的意识生活的副产品，而不是意识产生的原因。&lt;br /&gt;
-我们的情感和感觉都很重要，使我们能够生存下去。从意识的角度看，它们只是我们能够意识到的另一种形式的信息，是我们意识到上百万种经验的一部分，有很多经验与我们的情感和感觉无关。&lt;br /&gt;
-意识到自我，或自己的想法和感觉，可能是意识的副产品，然而这个副产品却有深刻意义。&lt;br /&gt;
-对自我的意识属于重要的意识现象，属于很高的概念层次，处于思想金字塔的顶端。在概念的分层中，意识处于顶端。&lt;br /&gt;
-这使我们体验到的不是一些枯燥的原始数据，而是具有各种模式的生动的信息，这些信息蕴含着意义，使我们能毫不费力地了解周围世界。&lt;/p&gt;
-
-&lt;p&gt;我认为自由意志很简单。如果我们不需要大脑这台机器与外界产生互动就能进行自由选择，那么我们就不能说自己具有自由意志。&lt;br /&gt;
-我们的大脑就是一台机器，我们怎么能够离开大脑而进行选择呢？&lt;br /&gt;
-如果有人认为机器是没有自由意志的，我们人类也是没有自由意志的，那么就没有争论的必要了。&lt;br /&gt;
-然而，我们低估了处于危险情境下神经机器的能力。&lt;br /&gt;
-我们的大脑极其复杂，有600万亿个神经联结。&lt;br /&gt;
-大脑这台机器很特殊，是一个无比强大的信息处理装置，存有关于世界的无限丰富的内在模式，还能精确地复制过去经历的事件。&lt;br /&gt;
-这些神奇的特性让我们产生幻觉，以为离开外部世界、甚至离开神经系统的羁绊，我们也能做出决定。&lt;br /&gt;
-例如，假设由于命运的捉弄，我失去了所有感觉，要靠药物维系生命，通过管子进食和呼吸。我不能收到任何外界信息，但我可能还能意识清醒地活上好几年。&lt;br /&gt;
-在这期间，我可以在脑海里构思古怪的小说，谱写乐曲，或者构想某些关于政治和哲学的天真的理论。&lt;br /&gt;
-我的内在世界发生了什么很难准确预测，但是我可以创造性地利用与外界失去联系之前积累起来的各种知识。&lt;br /&gt;
-没有任何人造机器能够进行这些无法预测的活动，而我们人类与外界失去联系后还能进行这些活动。&lt;br /&gt;
-我并不是说，大脑的复杂性使得自由意志成为可能。相反，我只是强调那种幻觉令人信服的一个原因。&lt;br /&gt;
-几乎没有什么可以动摇我们根深蒂固的关于自由意志的幻觉，那么我们就接受这一思路，只是需要重新定义自由意志，将它限定在一个范围之内，即正常情况下做的有意识的、理性的决定。&lt;br /&gt;
-比如，精神分裂症患者所具有的自由意志比正常人大为减弱，因为他不能做有意识的、理性的决定，而做这样的决定在正常人看来是理所当然的。&lt;/p&gt;
-
-&lt;p&gt;自闭症患者的信息组合能力特别强。&lt;br /&gt;
-为了压缩过剩的意识以减轻压力，很多自闭症患者会建构各种结构，不管是在他们的头脑中还是在现实生活中。他们会小心翼翼地搭积木，并制订很多规则，有很多习惯性动作。这些做法的目的是减少生活中的新奇和混乱，代之以有规律的、压缩的模式。这也是他们寻求具有很强规律性的爱好（如数学运算，成为“活日历”等）的原因。事实上，自闭症患者拥有的特殊才能只限定在一个小范围内，但是这些才能大多与具有逻辑性和等级结构的意义模式有关。&lt;br /&gt;
-我们很多人都渴望模式和结构。但是自闭症患者的渴望更迫切，更持久。关注结构以及习惯性地运用组块，成了自闭症患者的救生艇，为了不被意识信息的海洋淹没，他们拼命地抓住这艘救生艇。同时，寻找模式也成了他们的生活乐趣，给他们带来安全感。&lt;br /&gt;
-由于社会生活太混乱、无序、不可预知、无法掌控，自闭症患者很容易感到沮丧。相对而言，他们的精神生活更具逻辑性。换句话说，自闭症患者最初避开社会生活，是因为他们感受到的信息量过多，无法有效压缩，让他们感到压力过大。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>涌现</title>
-        <link>https://ioerr.github.io/posts/yongxian/</link>
-        <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yongxian/</guid>
-        <description>&lt;p&gt;所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。&lt;/p&gt;
-
-&lt;p&gt;换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。&lt;br /&gt;
-就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、&lt;a href=&#34;https://www.facebook.com/watch/?v=2296999357052625&#34;&gt;往复运动的小球形成滚动的圆&lt;/a&gt;…&lt;br /&gt;
-我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>音乐的力量</title>
-        <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
-        <description>&lt;p&gt;不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”&lt;br /&gt;
-进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”&lt;/p&gt;
-
-&lt;p&gt;不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。&lt;/p&gt;
-
-&lt;p&gt;但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。&lt;br /&gt;
-某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。&lt;br /&gt;
-就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。&lt;/p&gt;
-
-&lt;p&gt;在音乐本身的审美价值之外，还有一点值得一提。&lt;/p&gt;
-
-&lt;p&gt;想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。&lt;/p&gt;
-
-&lt;p&gt;一支音乐不过几分钟时间，却有这样触动人心的力量。&lt;br /&gt;
-更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。&lt;br /&gt;
-有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。&lt;br /&gt;
-这是诉诸理性的文本无法达到的效果。&lt;/p&gt;
-
-&lt;p&gt;诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。&lt;br /&gt;
-音乐甚至不需要理性意志的参与，就可直达无意识的深渊。&lt;br /&gt;
-两者相比较之下，音乐的力量是不是很像某种魔法效果呢？&lt;/p&gt;
-
-&lt;p&gt;生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。&lt;/p&gt;
-
-&lt;p&gt;这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>关于绝症、死亡和信仰的讨论</title>
-        <link>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
-        <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
-        <description>&lt;p&gt;—————  2017-09-04  —————&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆，去年查出来肠癌晚期。开刀后发现转移到胰腺和肺。一年来都在做化疗以及自费靶向，这周五准备再去开刀了。这次是肝。&lt;/p&gt;
-
-&lt;p&gt;我其实很想劝他们，吃中药控制吧。别再遭各种罪。人不人鬼不鬼的。完全没有生活质量。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@百合 完全同意！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;可是这种话我说不出口。站在我的立场，没有权利决定开不开刀的…&lt;/p&gt;
-
-&lt;p&gt;当初医生说最多半年到一年。现在一年多四个月。&lt;/p&gt;
-
-&lt;p&gt;期间就是各种化疗各种靶向。一个月住医院至少三次。&lt;/p&gt;
-
-&lt;p&gt;人活的完全没有生活质量和尊严。&lt;/p&gt;
-
-&lt;p&gt;最后弄得负债累累。到头来一场空。我领导她老公，三年前查出肺癌晚期。然后他比较理智，坚持不化疗不开刀。就吃中药控制。每年出去旅行。去国外。生活得很快乐。现在好的不的了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;心态是很重要&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;相比之下，这边完全就是愁云惨淡，一直笼罩在一种压抑的气氛下。因为化疗的反应，人都完全变样了。路也走不动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有各种情况 @百合&lt;/p&gt;
-
-&lt;p&gt;其实关键是心态&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;其实大家都知道，这一天迟早会来的。一种是开心并且高质量滴生活，一种是在病痛和各种化疗反应中中生活。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;真轮到自己，也未必有那么好的心态啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;其实我感觉他心态变了。也知道自己看不好了。但是想活下去，是人的本能。于是只有一次次去化疗。加上靶向。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆也是各种手术化疗折腾了几年。西医到最后完全是像对待机器一样折腾人&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;求生本能吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ethan Sun：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;活得人不人鬼不鬼&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是呀。我看着真的有点于心不忍。因为化疗，满嘴的溃疡。吃不能吃。喝不能喝。还全身痛。头发掉光。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ethan Sun：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;何必&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;轮到自己 心态会不一样的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我倒是想到了伽罗华，明知决斗必死，连夜写下研究成果，感叹时间不多了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我很想跟他们说，其实一开始就别开刀。既然知道是晚期，那就在有限的日子里好好生活。&lt;/p&gt;
-
-&lt;p&gt;但是以我的立场，是不能这么说的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯，为了活着，怎么努力都不为过。虽然可能是越努力越深陷。但努力的过程起码一直有期望。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;可是这些期望都是建立在无穷的痛苦上。化疗的各种不良反应，身体机能的蜕化。人活的像躯壳一样。只是为了活着而活着。&lt;/p&gt;
-
-&lt;p&gt;我觉得应该是选择更有尊严，相对来说更高质量地活着。&lt;/p&gt;
-
-&lt;p&gt;而且很可能这次开刀就很难再站起来了。可能就要一直和那些冰冷的仪器在一起。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;躺在那里苦苦求生的不是你呀&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;好死不如赖活着
-关键我不认为放化疗比中医更能让人赖活&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆胰腺癌最后那段时间，瞒不住了，她意识到自己要不行了，哭着打☆☆耳光，骂他不救她&lt;/p&gt;
-
-&lt;p&gt;她的条件不允许做手术，所有的钱都花在给她买杜冷丁止痛上了&lt;/p&gt;
-
-&lt;p&gt;当事人有时候是很想活下去的，哪怕只有一线希望&lt;/p&gt;
-
-&lt;p&gt;作为家属，如果当时没有尽力，后面可能会一直愧疚&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;胰腺癌不好治，只能用质子重离子放疗&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;手术问题因人而异&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;绝大部分人都是很想活下去的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;根本没法治，乔布斯扛了几年也去了&lt;/p&gt;
-
-&lt;p&gt;已经算久的&lt;/p&gt;
-
-&lt;p&gt;我☆☆从发现已经是晚期，坚持了不到一年&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆当时肚子里两个肿瘤都有拳头大小了，但是最严重的是积水，体内积水等于脏器一直泡在浓水里，所以不得不手术&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我能理解家人想尽力救治的心情。我也希望有的救。哪怕百分之一的希望。但是医生明说了，没有希望。病灶根本无法去除。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;个人选择吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个其实已经不取决于你和☆☆怎么想了&lt;/p&gt;
-
-&lt;p&gt;关键于病人怎么想&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆经历了手术，经历了化疗，并且因为糖尿病高血压，伤口难愈合，最后留下腹壁疝，现在肚子越来越大。一度还有忧郁症。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆是肠癌晚期转移到胰腺和肺，肝&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;家属尽力而为，不能草率决定病人的生死&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;如果你们放弃了他，有生之年这个坎都会过不去的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;其实中药治疗我觉得真的很好。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;会觉得后悔自己没有尽最大的努力&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你觉得，这不是觉得&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;活生生的例子就在眼前。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;每个人的情况不一样&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;中药在你☆☆这里未必有那么好的效果&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;例子都是个案，大数据统计下来，生肿瘤的人大都心态或者情绪不好&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有些人性情改变了，病也就好了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆求医期间也看过中医，同样的方子，病友多活了几个月&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;同意爱纱说的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆完全没用&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我看到他全身插满管子在icu里，想喝水都不能。只能从鼻管里打进去。&lt;/p&gt;
-
-&lt;p&gt;真的很可怜&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个不是说别人中医好了，你☆☆就有效的，如果换了中医效果更差，那时候怕是要更自责&lt;/p&gt;
-
-&lt;p&gt;会想说如果没换是不是还有机会&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@蝴蝶薇安 是的。对于我☆☆的病，我问☆☆为什么一直坚持到处找各种西医疗法而不试中医或偏方，她答复是“我相信科学，这样即使最后治不好我也不后悔，因为我尽力了。而如果我因为相信偏方错过了正确的救治我会遗憾一辈子。”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆这边也是，中药吃着，但是究竟是否有效果，哈哈哈，我们不知道。我们自己不熬药都是医院直接送的，多少人说没用。无数人说吃中药不能吃葱姜蒜，不能吃这不能吃那。。。。。我☆☆全凭心情来忌口&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我一个朋友的公公胃癌刚走，她老公就是后期用了中医疗法，但是没用，公公去的很快，他现在陷入自责&lt;/p&gt;
-
-&lt;p&gt;其实大家都知道没戏了，但是他固执的认为如果当时没换可能还能活下来&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;百合，你离病人隔着一道门的距离，可以觉得&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;没法睡觉，一把把的掉头发&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯@老人家 我能觉得&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;当你是唯一拿主意的人，立场不同，决断也不同&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;而且我可以感受到他的感受&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你是感性的人，我是理性的人&lt;/p&gt;
-
-&lt;p&gt;你的感受有时候完全没用&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我知道知道他很迫切想要付出一切代价活下去的感觉&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;谁都知道&lt;/p&gt;
-
-&lt;p&gt;问题是，因人而异，病情和病人的心态才是一切，很多时候，是求生意志&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;只要☆☆还有求生的欲望，哪怕倾家荡产，也得治，为的是后半生不会陷入无尽的悔恨&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你若有医学背景，你的感觉或许更有价值&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;话说的难听一些，他都这样了，还能撑多久&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我们普通人，中医，西医都有问或参考，但最终对病人最好的治疗方法，无人能决断&lt;/p&gt;
-
-&lt;p&gt;有些西医能治好的，中医也能只好&lt;/p&gt;
-
-&lt;p&gt;有些西医治不好的，中医也治不好&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;西医都治不好的中医就能行吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我就是觉得他到最后是浑身插满管子，和冰冷的仪器一起离开太可怜了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;从来没听过胰腺癌可以被中医治好&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以，我还是相信，尽人事听天命&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有另外一种活法&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;让病人尽量心情舒畅，懒散中保持运动，让她觉得自己重要，被依靠，有更强的求生意识&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但是很多人都是不能理解&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个没有办法，人啊，不是在痛苦中死去，就是在无知觉的状态下迅速离世&lt;/p&gt;
-
-&lt;p&gt;百合，怎么说呢，你的观点，用在自己身上没有问题&lt;/p&gt;
-
-&lt;p&gt;但是对于☆☆和他的儿子，太残忍&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是啊 不能总在他身上&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;百合，你若能理解所有人，也会理解所谓的【不理解】，不是真不理解&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;☆☆未必觉得自己可怜&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他可能觉得只要这样就还有希望&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;需要的是临终关怀，不是中医&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他还活着 他可能觉得就很好了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;还在打针，还在吃药，就总归还有希望&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯他是这么觉得 他相信现代医学 相信医生和医院&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以啊&lt;/p&gt;
-
-&lt;p&gt;他并不觉得自己可怜&lt;/p&gt;
-
-&lt;p&gt;是你觉得罢了&lt;/p&gt;
-
-&lt;p&gt;他还在抗争&lt;/p&gt;
-
-&lt;p&gt;虽然很痛苦&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;非常痛苦&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;放弃这些，他可能才会绝望&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他满嘴的溃疡&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;觉得最终被判了死刑&lt;/p&gt;
-
-&lt;p&gt;我☆☆最后就是觉得自己在等死，也确实是在等死&lt;/p&gt;
-
-&lt;p&gt;所以她打骂☆☆，骂他不孝&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆一句话都说不出来，因为不是不想救她&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;随着年龄的增长，癌症会变成一个越来越高几率的事情&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;那时候做手术没有意义，只能每天哪儿疼上杜冷丁，哪儿有问题治哪儿，如果当时用各种手段治疗的话，她心里可能会好受些，至少不会觉得被☆☆放弃了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是呀。如果我以后万一有什么，我一定选择开开心心去旅行。不把钱总在毫无意义的治疗上最后在插满管子和仪器中痛苦离世。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你这个假设是发现在行为能力健全时&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。
-至少这样多少能有点希望和念想。人就是活在希望中的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我会选择什么都不做&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;假设没啥意义的，人年轻的心态和年老的心态完全不一样，有儿女晚辈和没儿女晚辈的心态也完全不一样&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你现在想的都是基于你当下的心态&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我不想被活着。哪怕是自己强加给自己的意愿。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我16岁那会还觉得为了喜欢的高兴一下都可以去死呢。。。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你还年轻，以后的事以后再说，我30岁和现在的想法都不一样@百合&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我16岁那会还觉得为了喜欢的女孩子高兴一下都可以去死呢。。。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;人随着年龄增长变得快着呢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我☆☆岁了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;问题是你还没到60呢&lt;/p&gt;
-
-&lt;p&gt;你能保证那个时候和现在想的一样吗&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我不敢保证。但是我胆小，肯定怕打针什么的。&lt;/p&gt;
-
-&lt;p&gt;我会抗拒的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;胆小到不怕死吗[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;什么四处旅行啊都是年轻人的想法，我爷爷奶奶现在很明显唯一想的就是儿女多在眼前一点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@白衣杨子 我9岁就已经因为想到以后会死去，而躺在被窝里哭&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我看到那种医院的各种仪器我就害怕&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有时候躺在床上会突然想到死后会是什么感觉，然后很恐惧。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的是的[握手]@有害书籍爱好者&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@小呆 我因为怕死这个问题一直在犹豫要不要信基督[捂脸]&lt;/p&gt;
-
-&lt;p&gt;@有害书籍爱好者 我也有过&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有些老人你要是能让他维持到能看见孙儿成家，或者重孙出世，我敢说你天天拿刀剐他给他治疗他都能忍住&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;每天都当作最后一天来活&lt;/p&gt;
-
-&lt;p&gt;我经常这样&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这种恐惧从小学到现在一直都有，一直都有。
-只不过现在没空去想这种感受了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一想到不可避免的会要永远失去自我的存在，就本能的觉得恐惧。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;邓锋：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是啊@有害书籍爱好者&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;昨日种种仿佛今日生，今日种种仿佛明日死&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我年轻的时候也觉得得了什么严重的病就不治了，去旅行。现在觉得，拥有的东西越多，就越怕失去，所以也会犹豫那时候真的狠的下心放弃生的希望吗&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@Camille 有点信仰真的很好&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;每天都当作最后一天来活[握手][握手]@猫行天下@程序员客栈 ，虽然和你的努力方向不同，但是不能同意更多&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯 不过我还在犹豫[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一无所有并不怕失去，而拥有的越多，特别是爱的时候，就越怕失去&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有时候又觉得死了会变成星星的一部分也挺浪漫。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我信佛教。其实我并不惧怕死亡。死亡对我来说只是另一个轮回。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我的信仰很传统，有点像是传统儒家和道家的结合，偶尔也看点佛学&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我不信轮回&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我是怀疑论者&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我笃信佛教[呲牙]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我应该会成为基督徒&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但是我觉得我们这一代人可能能够等到神智永生&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一切有为法，如梦幻泡影，如露亦如电，应作如是观&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;某种半机械共生的状态&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我比较认可我们一个老师的想法&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我从来不去考虑自己感觉，我只考虑当下应该如何抉择，对家人对自己是最平衡的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;家人和睦是福如东海，桃李天下是寿比南山&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百合：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;老人家不容易&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以大家也不用太悲观&lt;/p&gt;
-
-&lt;p&gt;先努力活下去&lt;/p&gt;
-
-&lt;p&gt;活得越久越好&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;每一天都好好的活着，活成不管几时离开都不后悔的状态就是了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;之后就是神智进入虚拟世界的永生状态了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@猫行天下@程序员客栈 不知道这种永生状态能否有取代超越自然选择进化的机制，正因为有后者死亡才有意义。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;剩下的都是被安排好的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的@蝴蝶薇安&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tao Lu：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;活到2040年就可以永生了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯，世间一切都会有平衡的，@有害书籍爱好者&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;然后发现永生的是你的复制意识，你的本体还是挂了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;其实，本体太容易浪费资源，挂了就挂了，哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;其实这个无所谓，因为挂了的不过是肉体&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tao Lu：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;最后都是一种意识上的存在&lt;/p&gt;
-
-&lt;p&gt;开心快乐&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;首先，我们要先撑过朝鲜乱搞&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tao Lu：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;都是脑子里面的想法&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;老人家：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;相当于是把信息丛一个磁盘拷贝到另外一个磁盘&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;听说又要扔洲际导弹了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;信息和逻辑本身是独特的&lt;/p&gt;
-
-&lt;p&gt;这里要避免的，是存在的唯一性&lt;/p&gt;
-
-&lt;p&gt;要确保的&lt;/p&gt;
-
-&lt;p&gt;的确是个不稳定因子&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@Tao Lu 为什么2040&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但是越来越多的证据说明意识貌似是无法脱离物质形式存在的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;邓锋：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2022年 我把虚拟现实搞起来&lt;/p&gt;
-
-&lt;p&gt;—————  2017-09-05  —————&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@猫行天下@程序员客栈 @老人家 昨天回了一条就睡下了，大家聊得真好。我有个问题：“什么是把生命当最后一天活？”是每天的“人生资产负债表”都要算平？（有仇当时就报了，有福当时就享了的及时行乐）还是因为我的事业还没完成，灰姑娘怕午夜来临的急迫感呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@司马 说得好。这是两种解释
-[偷笑]只要那个珍惜时间看淡其他的态度，不能真的当最后一天&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是心态，不是负债&lt;/p&gt;
-
-&lt;p&gt;没钱就去赚，有恩就去报，活得明确而充实，有理想，但不奢求；有眷恋，但不牵绊。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tao Lu：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[强]对的，两个字洒脱，再两个字豁达&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@百合 开始我想说的是，从操作上，你很难确认哪个病是值得你放弃治疗的“不治之症”。从感情上，直到躺到特护病房的床上，我们还是觉得“我可以再抢救一下”。我今年唯一的舅舅肺癌去世了，全家人特别是他自己很希望活着，用了很多医疗/非医疗的手段，虽然我知道总有一天会到来，但也非常排斥那天的到来。他病了三年，期间几次都像没事了似的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@捍卫战士 就是“即便明天死了也不亏”的心态？&lt;/p&gt;
-
-&lt;p&gt;我觉得这就是我们需要孩子的地方，就是白衣说，有的老人为了看到孙女出嫁宁可遭千刀万剐之苦的原因。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对。就是问问自己，如果明天死了，自己还有什么遗憾？如果还有，就去努力实现，即便不成，也洒脱点别带进骨灰盒里[呲牙]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;最想做的事，爱最爱的人&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;向死而生，比较不那么容易死&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@百合 另外，我觉得有个信仰真好。我曾经4年作为基督教的“慕道教友”，一堆叔叔阿姨兄弟姐妹围绕在我身边，想让我受洗，结果我还是没法真心接受“圣经是上帝用人手写的”和“上帝造人”两个基础假设。&lt;/p&gt;
-
-&lt;p&gt;糊里糊涂就信了的朋友，反而很快乐。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@司马 你觉得自己不如稀里糊涂就信教的朋友快乐？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不如，他们有依靠，我却走在迷失、彷徨、恐惧里。他们迷失、彷徨、恐惧了，信主说的就好了。我因为不信，所以要靠自己，而自己是渺小的、无知的，解决不了相应问题时，我会自卑、封闭自己。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;信主真的就解决他们的问题了吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;信了的，就解决了，虽然物质生活还是那样，但精神上得到了依靠。我看过，但没经历过。身不能至，心向往之。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在我看来，如果仅是这样，其实其状态和一个拥有大心脏的人差不多。但我觉得宗教不仅于此。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但是信仰 就是那么个东西：你只能通过假装加入，不能通过假装获得力量。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我从心底里不信&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;宗教肯定不止于此，但我觉得如果能得到这种好处，已经善莫大焉了。我也不信，所以我得不到。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;信仰使人能够承受，给很多负面的东西一个合理的解读&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不从那里得到&lt;/p&gt;
-
-&lt;p&gt;恩，我信自己&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;比如说亲人走了，信教的人就说蒙主召唤&lt;/p&gt;
-
-&lt;p&gt;不信的人就说失去了至亲&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;把生死看作必然的循环&lt;/p&gt;
-
-&lt;p&gt;每个人都要经历的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;宗教的雏形本来就是人类对自然界不能支配的力量的理解和揣测&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不，如果相信循环，就是相信由死至生的宗教故事。我觉得由生至死，是单向的，不可逆的。&lt;/p&gt;
-
-&lt;p&gt;@JediChang 嗯，宗教。特别是现代的基督教，给了一个最温和、舒适的解释。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不是指那种轮回的循环吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈生死不是轮回&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;恩，不是轮回&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是生死转化&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;应该更像狮子王中说的那种circle of life&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;消亡和生长之间是有循环的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你的分子原子都还存在，不过会参与其他自然过程&lt;/p&gt;
-
-&lt;p&gt;与你的意识再无关系&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我希望，意识是一种“存在”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你其实希望的，是你的存在&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;意识是什么，未被证实，也未被证伪，所以暂时不可知&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;“我” 这个概念的生存&lt;/p&gt;
-
-&lt;p&gt;不被灭亡&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;如果能像数据那样保留下来，等待某天在另一个“体”中再次与这个世界相互作用。就太美好了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;我觉得还是有可能的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;期待&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个就要靠科技进步了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我觉得宗教改善的是人内部世界，科技改变的是人外部世界&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;人类的活体冷冻 其实就是通过保持整体的物质，来进行这种保存。但这种保存效率太低。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;两者其实各善其长，但也有各自达不到的地方&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;如果，像云天明那样，保鲜一部分存有“意识”的实体，甚至能实现上传“意识流”。那么宗教的意义就会大打折扣。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我不太感冒宗教一个原因，是因为接触到太多教徒，带着强烈的功利性，以及对自己行为带来的结果不负责任&lt;/p&gt;
-
-&lt;p&gt;认为这些都是上天安排好的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;冬眠技术其实只是依托于人类现在的科技认知：人的意识是和人脑紧密联系的。才有这样的技术产生。但如我所说，无法证实也无法证伪，现在对意识的研究还非常浅薄。意识能否被转移？是否可以纳入其他容器？都属未知&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@猫行天下@程序员客栈 纽约、洛杉矶等大城市的中文教会的确非常PUSH。这点在美国乡村的英文教会里，会非常温和。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他们的信仰，更像是一种对上天的贿赂&lt;/p&gt;
-
-&lt;p&gt;我贡献给你什么，你回报我什么&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@猫行天下@程序员客栈 同意，在用“奉献”“拉人入会”等进行交换，差别不过是不用上香的方式交换而已。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;貌似记忆的数据和大脑的物质结构共同构成了自我意识，如果只复制数据，而没有还原大脑的机制，思维方式都会完全改变。就好像把不同类型游戏的数据倒来换去，就算可以导入，游戏机制也完全变了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不可否认，宗教是人类联系的重要纽带，否则战争或许比如今多100倍&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有一句话我很认同&lt;/p&gt;
-
-&lt;p&gt;有求则迷&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在教徒身上看到的，经常是愚昧和盲从&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;无求则信&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@捍卫战士 同意&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;判断是不是真的信仰，看你是不是想要交换甚至是乞讨&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我比较认同人类简史里的一个观点：想象的结合体，是智人能不相互残杀的，结成更大协作的基础。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;即使都失去依然信&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是宗教做到的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这样的人是值得尊敬的&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;貌似绿绿们都是[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;教徒肯定是因为在某个地方 无法自我实现了，才会真正的归信，从那个角度讲，他就是“愚昧”的。但客观上，自从信了，他就无需再探索，也就没有痛苦了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@有害书籍爱好者 是的，记忆和大脑中神经元连接的方式，大脑的环境&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这些都很重要&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;宗教中有很多很多优秀的思想，哲学观，价值观其实大可以拿来利用，指导自己的行为。不一定非得信教才能学习。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;这个我很赞同&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;信教和科学是不一样方向&lt;/p&gt;
-
-&lt;p&gt;就跟中医西医一样&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;佛教中很多思想很值得学习&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;面对不确定，宗教的麻醉作用的确是一剂良药&lt;/p&gt;
-
-&lt;p&gt;但类似佛学中的无限细分概念，其实与我们认识物质世界也有异曲同工之妙&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的&lt;/p&gt;
-
-&lt;p&gt;很有意思&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不说三大宗教，一些披着“宗教”外衣的邪教组织，也能在一段时间，一段空间内积累相当数量的信徒甚至狂信徒，说明“归拢信仰”这件事是有一整套方法论的。不是说必须大贤的思想，而是哪怕粗鄙不堪，但用对法门，就可实现（至少阶段性实现）的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;嗯，值得学习&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;社会学和营销学在这些方面应该有很多研究&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一些新兴扩张的基督教组织拉人信教的思路，还在实用主义阶段，特别是在农村，基本就是循环报应、消灾保平安等朴素善恶观披了张基督教的皮&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;捍卫战士：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;前两天看河北奶奶庙的那个视频，挺有意思&lt;/p&gt;
-
-&lt;p&gt;也反应了我国人民朴素的价值观：缺啥求啥&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蝴蝶薇安：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在我国，长期有求于神佛的信徒还会看不起临时有求的非信徒呢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以需要“满天神佛包邮”&lt;/p&gt;
-
-&lt;p&gt;@蝴蝶薇安 当然包月停车的看不起计时停车的了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;中国百姓普遍持的还是实用主义观念，哪个宗教能保佑我，大家都说灵，就信哪个&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;邓锋：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;马云当初网商大会也是这么说的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我觉得相比宗教，中国传统儒家的格物修身养气的功夫跟现代科学的冲突还少些。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;邓锋：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;还有心学&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;阿猎：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;奶奶庙那个视频我也看了，缺啥求啥。自古以来都是这样啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;那要看从什么时候算起算是传统儒家了吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;白衣：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哲学性的儒家其实要么就算到春秋时期，要么就从宋儒算起&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;司马：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;儒，对我来说不太具体，就是温文尔雅，爱好诗文，坚持道德正统的一群人而已。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%84%8F%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人类最强大的工具</title>
+      <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
+      <description>Song Ma： 开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/songma/status/1600831363388944384">Song Ma</a>：</p>
+<p>开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。</p>
+<p><a href="https://twitter.com/calon/status/1600872615064653824">Calon</a>：</p>
+<p>我认为是广义的“语言”。<br>
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。<br>
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。</p>
+<p>从这个角度看，电脑的信息沟通效率比人类高得多。<br>
+不过电脑需要至少具备两个能力完全胜过人类：<br>
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；<br>
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于数字生命的思考</title>
+      <link>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</guid>
+      <description>计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。 但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证</description>
+      <content:encoded><![CDATA[<p>计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。<br>
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？<br>
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？</p>
+<p>今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。</p>
+<p>这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。<br>
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。</p>
+<p>人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。</p>
+<p>当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>贪婪的大脑</title>
+      <link>https://ioerr.github.io/posts/tanlan-de-danao/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tanlan-de-danao/</guid>
+      <description>最近在图书馆翻书的时候，偶然发现一本名叫《贪婪的大脑》的科普书，副标题是“为何人类会无止境地寻求意义”，正好是比较关心的问题。 这个事说来话长</description>
+      <content:encoded><![CDATA[<p>最近在图书馆翻书的时候，偶然发现一本名叫《贪婪的大脑》的科普书，副标题是“为何人类会无止境地寻求意义”，正好是比较关心的问题。</p>
+<p>这个事说来话长，不妨从生物群体演化的机制开始。</p>
+<p>生物演化利用基因保存和传承遗传信息，这种模式如此运作：</p>
+<ol>
+<li>使用遗传基因记录有利于生存的重要信息</li>
+<li>读取基因中的信息，构造生物个体</li>
+<li>个体进行繁殖活动，复制基因信息</li>
+<li>发生基因变异，产生新的信息，并在完全保持一致和完全混乱之间保持平衡</li>
+<li>通过自然选择，保留更适应环境的个体，及其基因中携带的生存信息</li>
+</ol>
+<p>当环境和生物间的竞争要求更复杂的生存策略时，需要写在基因中的信息也越来越多。<br>
+同时，通过淘汰个体来适应新环境的方法效率太低，在一个生命周期内能够获取生存知识的个体更有竞争力——越是偏向于 K 选择理论的物种越是如此。<br>
+于是，在基因编码之外，生物进化出了神经元及其集合——大脑，用神经元来形成和记录更高层次的信息——“概念”。<br>
+更多的层次在这些基础上建构，一层又一层，直到产生一种高效的体系，形成从信息流中发现规律性和意义的学习能力，认识大自然中高度结构化、互相关联、具有不同的等级结构，准确地捕捉到世界瞬息变幻的特征，并且在众多现象中洞悉本质，做出精确的预测，掌握胜过其他生物演化的优势。</p>
+<p>这种演化的模式如此运作：</p>
+<ol>
+<li>神经元在无意识状态下处理相对简单的、几乎不具备任何结构的信息</li>
+<li>在大量的信息中过滤和提炼数据，决定要进一步分析哪些重要的信息</li>
+</ol>
+<ul>
+<li>这一过程就是“注意”，注意接收原始输入，并将其转换成由相互关联的各种事实组成的一个整体，然后进入意识范围</li>
+</ul>
+<ol start="3">
+<li>“注意”输出的信息存贮在工作记忆空间中，最多只有4个意识空间可用于短暂保留意识对象</li>
+</ol>
+<ul>
+<li>利用注意系统以及意识强大的分析能力，可以藐视工作记忆的界限，将大量的数据有规律地载入每个意识空间</li>
+</ul>
+<ol start="4">
+<li>寻找组块：渴望发现接收到的任何信息的结构，积极寻求模式——任何能够提高实践及理解能力的数据信息</li>
+</ol>
+<ul>
+<li>不断寻找生活各个方面的规律</li>
+<li>想出各种对自己有利的策略</li>
+<li>积极寻求游戏里的模式，即使游戏对生存没什么直接的作用</li>
+<li>沉迷于发现信息的结构，如果不能在日常生活中让自己的渴望得到满足，会人为地制造机会发现模式，并从中获得乐趣</li>
+</ul>
+<ol start="5">
+<li>注意并记住组块：意识在工作记忆内部寻找具有结构性的信息组块，发现信息中重复的部分，将这种重复归纳成一条规律</li>
+</ol>
+<ul>
+<li>将信息压缩成容量更小却更有用的形式，不再需要记住大量数据，只要记住一条规律</li>
+<li>规律能够揭示数据的某些机制，使我们对数据有深刻的理解，根据数据进行预测</li>
+<li>学习的过程就是将新的项目与之前记住的项目联系起来形成组块，组块再组合起来，形成更大的记忆对象，产生具有各种功能、各种等级、相互关联的知识</li>
+<li>工作记忆里的组块，能为长期记忆提供索引，很快找到重要信息</li>
+<li>将看起来独立的不同项目依据模式组合起来，发现新的联系，觉察到事物的机制，更深入了解这些事物的运作情况。记忆系统也随之变得更高效、更聪明</li>
+</ul>
+<ol start="6">
+<li>运用构建起来的组块作出决定和指挥行动</li>
+</ol>
+<p>大脑存在两种工作模式的系统：</p>
+<ul>
+<li>一种是缓慢的、慎重的意识系统，意识处理某些很新或很复杂的任务，进行重大革新，揭示深层的模式，优化重要目标，发现潜在的重要机会，从而使精神世界更高效地运作，能以最少量的意识完成任务</li>
+<li>另一种是快速、自动、几乎无意识的系统，利用意识形成的组块进行运作</li>
+</ul>
+<p>从生物学上来说，人类的目的是为了生存和繁衍，无意识为这个目标尽一切努力，而意识是协助无意识达到目标的高级助手，在做决定和行动时只是起辅助作用，而不是起支配作用。<br>
+习惯性的、重复的决定看起来是不自觉的、无意识的，但在最初的时候，是经过有意识的思考才形成的，无意识无法进行具有结构性的、高级的思考，因此在做重要的复杂决定时，意识仍然起了不可忽视的作用。</p>
+<p>意识组块与无意识自动处理过程相互作用，目的是同时利用信息处理的两种方式。<br>
+理想的对策是：在一切顺利的情况下，力求稳定；但生命受到威胁、面临绝境、需要新思想改变状况时，则将意识看作革新机器，倾向混乱、革新。<br>
+但是，与基因的方法不同，意识是以相对安全的、经过引导的方式，实行半混乱的探查，只接受那些明显有益于有机体的深刻见解，这些见解或是提高有机体对世界的认知能力，或是提高有机体的行为能力。<br>
+一旦这些革新组块被发现，就会逐渐添加到认知体系相对稳定的那部分中（大多属于无意识范围）。</p>
+<p>回到最开始引起我兴趣的那个副标题的问题——为何人类会无止境地寻求意义？<br>
+现在我们已经有了初步的答案：<br>
+我们大脑的认知工作模式天生就要在看似杂乱无章的世界中寻找信息的模式、规律和结构，因为这能带给我们超越基因演化模式的优势。<br>
+这一演化动力驱使我们不断深入挖掘更深层次的意义，甚至自己制造和赋予意义。</p>
+<p>根据意识神经科学对大脑的研究认识，作者还谈论了价值体系和情感，自我意识和自由意志，精神分裂症、抑郁症、自闭症等意识异常导致的精神疾病等话题，部分内容摘录如下：</p>
+<p>仅仅是存储信息没有意义，还需要运用知识去做有意义的事请，也就是行动起来。<br>
+人类的大脑，其主要的任务还是以最佳的方式控制躯体的运动。<br>
+运动的首要机制是本能行为，这是所有动物都具备的。<br>
+本能是一种先天遗传的大脑“程序”，能将感觉输入与特定的反应联系起来。本能有利于生存，并能使动物最大限度地进行繁衍。<br>
+在本能行为中，基因的作用是利用大脑储存及处理信息的能力（这些信息太复杂，不能仅仅以直接的遗传方式解决）。<br>
+本能很重要，但如果没有一些最基本的学习能力，本能发挥的作用并不大。<br>
+学习当然是件好事，但如果被无数的事实包围着，那么该学习哪些呢？<br>
+答案是：动物受一套价值体系的限制，价值体系规定了什么是好的、让人愉快的，什么是不好的、令人痛苦的。<br>
+这一机制在进化过程中不断完善，规定什么有利于生存与繁衍，什么不利于生存与繁衍。<br>
+这套价值体系对任何相关的刺激物归类，归类的依据为刺激物是有利于动物发展还是使动物陷入危险，以及利益或危险有多大。<br>
+简单的动物会遵照这套价值体系活动。但它们并不知道为什么某些东西是有利的或有害的。<br>
+这时价值体系需要情感来扩充，情感解释了动物认为某些东西有利或有害的原因。<br>
+原始的情感主要有三类：恐惧，厌恶和愤怒。<br>
+与简单动物相比，我们人类有着大量复杂的情感类型，如妒忌、幸灾乐祸、不公平感。<br>
+人类比其他哺乳动物有更为丰富的情感类型，因为我们生活在庞大、复杂、等级制度的社会，要处理各种社会及政治问题，要与不同类型的人打交道。</p>
+<p>各种形式的自我意识只是高深的智力与丰富的意识生活的副产品，而不是意识产生的原因。<br>
+我们的情感和感觉都很重要，使我们能够生存下去。从意识的角度看，它们只是我们能够意识到的另一种形式的信息，是我们意识到上百万种经验的一部分，有很多经验与我们的情感和感觉无关。<br>
+意识到自我，或自己的想法和感觉，可能是意识的副产品，然而这个副产品却有深刻意义。<br>
+对自我的意识属于重要的意识现象，属于很高的概念层次，处于思想金字塔的顶端。在概念的分层中，意识处于顶端。<br>
+这使我们体验到的不是一些枯燥的原始数据，而是具有各种模式的生动的信息，这些信息蕴含着意义，使我们能毫不费力地了解周围世界。</p>
+<p>我认为自由意志很简单。如果我们不需要大脑这台机器与外界产生互动就能进行自由选择，那么我们就不能说自己具有自由意志。<br>
+我们的大脑就是一台机器，我们怎么能够离开大脑而进行选择呢？<br>
+如果有人认为机器是没有自由意志的，我们人类也是没有自由意志的，那么就没有争论的必要了。<br>
+然而，我们低估了处于危险情境下神经机器的能力。<br>
+我们的大脑极其复杂，有600万亿个神经联结。<br>
+大脑这台机器很特殊，是一个无比强大的信息处理装置，存有关于世界的无限丰富的内在模式，还能精确地复制过去经历的事件。<br>
+这些神奇的特性让我们产生幻觉，以为离开外部世界、甚至离开神经系统的羁绊，我们也能做出决定。<br>
+例如，假设由于命运的捉弄，我失去了所有感觉，要靠药物维系生命，通过管子进食和呼吸。我不能收到任何外界信息，但我可能还能意识清醒地活上好几年。<br>
+在这期间，我可以在脑海里构思古怪的小说，谱写乐曲，或者构想某些关于政治和哲学的天真的理论。<br>
+我的内在世界发生了什么很难准确预测，但是我可以创造性地利用与外界失去联系之前积累起来的各种知识。<br>
+没有任何人造机器能够进行这些无法预测的活动，而我们人类与外界失去联系后还能进行这些活动。<br>
+我并不是说，大脑的复杂性使得自由意志成为可能。相反，我只是强调那种幻觉令人信服的一个原因。<br>
+几乎没有什么可以动摇我们根深蒂固的关于自由意志的幻觉，那么我们就接受这一思路，只是需要重新定义自由意志，将它限定在一个范围之内，即正常情况下做的有意识的、理性的决定。<br>
+比如，精神分裂症患者所具有的自由意志比正常人大为减弱，因为他不能做有意识的、理性的决定，而做这样的决定在正常人看来是理所当然的。</p>
+<p>自闭症患者的信息组合能力特别强。<br>
+为了压缩过剩的意识以减轻压力，很多自闭症患者会建构各种结构，不管是在他们的头脑中还是在现实生活中。他们会小心翼翼地搭积木，并制订很多规则，有很多习惯性动作。这些做法的目的是减少生活中的新奇和混乱，代之以有规律的、压缩的模式。这也是他们寻求具有很强规律性的爱好（如数学运算，成为“活日历”等）的原因。事实上，自闭症患者拥有的特殊才能只限定在一个小范围内，但是这些才能大多与具有逻辑性和等级结构的意义模式有关。<br>
+我们很多人都渴望模式和结构。但是自闭症患者的渴望更迫切，更持久。关注结构以及习惯性地运用组块，成了自闭症患者的救生艇，为了不被意识信息的海洋淹没，他们拼命地抓住这艘救生艇。同时，寻找模式也成了他们的生活乐趣，给他们带来安全感。<br>
+由于社会生活太混乱、无序、不可预知、无法掌控，自闭症患者很容易感到沮丧。相对而言，他们的精神生活更具逻辑性。换句话说，自闭症患者最初避开社会生活，是因为他们感受到的信息量过多，无法有效压缩，让他们感到压力过大。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>涌现</title>
+      <link>https://ioerr.github.io/posts/yongxian/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yongxian/</guid>
+      <description>所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现</description>
+      <content:encoded><![CDATA[<p>所谓“涌现”，是指系统中的个体遵循简单的规则，通过局部的相互作用构成一个整体的时候，一些新的属性或者规律就会突然一下子在系统的层面诞生。涌现并不破坏单个个体的规则，但是用个体的规则却无法加以解释。</p>
+<p>换个角度看，涌现可以看作是智慧生物理解的意义层次发生切换变化的结果，而不是所观察的对象突然发生了什么神奇的变化，产生了什么新的属性和规律。<br>
+就像电视机上的雪花斑点、沙滩上的纹路、天上的云朵、<a href="https://www.facebook.com/watch/?v=2296999357052625">往复运动的小球形成滚动的圆</a>…<br>
+我们忽然从中看到熟悉的图案和有规律的运动，是因为人类的认知系统从中识别出了本来就可以理解的某种模式。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>音乐的力量</title>
+      <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
+      <description>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？” 进而也鄙视音乐，“</description>
+      <content:encoded><![CDATA[<p>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”<br>
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”</p>
+<p>不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。</p>
+<p>但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。<br>
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。<br>
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。</p>
+<p>在音乐本身的审美价值之外，还有一点值得一提。</p>
+<p>想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。</p>
+<p>一支音乐不过几分钟时间，却有这样触动人心的力量。<br>
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。<br>
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。<br>
+这是诉诸理性的文本无法达到的效果。</p>
+<p>诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。<br>
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。<br>
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？</p>
+<p>生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。</p>
+<p>这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于绝症、死亡和信仰的讨论</title>
+      <link>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</link>
+      <pubDate>Wed, 06 Sep 2017 13:26:09 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/guanyu-juezheng-siwang-he-xinyang-de-taolun/</guid>
+      <description>————— 2017-09-04 ————— 百合： 我☆☆，去年查出来肠癌晚期。开刀后发现转移到胰腺和肺。一年来都在做化疗以及自费靶向，这周五准备再去开刀了。这次是</description>
+      <content:encoded><![CDATA[<p>—————  2017-09-04  —————</p>
+<p><strong>百合：</strong></p>
+<p>我☆☆，去年查出来肠癌晚期。开刀后发现转移到胰腺和肺。一年来都在做化疗以及自费靶向，这周五准备再去开刀了。这次是肝。</p>
+<p>我其实很想劝他们，吃中药控制吧。别再遭各种罪。人不人鬼不鬼的。完全没有生活质量。</p>
+<p><strong>小呆：</strong></p>
+<p>@百合 完全同意！</p>
+<p><strong>百合：</strong></p>
+<p>可是这种话我说不出口。站在我的立场，没有权利决定开不开刀的…</p>
+<p>当初医生说最多半年到一年。现在一年多四个月。</p>
+<p>期间就是各种化疗各种靶向。一个月住医院至少三次。</p>
+<p>人活的完全没有生活质量和尊严。</p>
+<p>最后弄得负债累累。到头来一场空。我领导她老公，三年前查出肺癌晚期。然后他比较理智，坚持不化疗不开刀。就吃中药控制。每年出去旅行。去国外。生活得很快乐。现在好的不的了。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>心态是很重要</p>
+<p><strong>百合：</strong></p>
+<p>相比之下，这边完全就是愁云惨淡，一直笼罩在一种压抑的气氛下。因为化疗的反应，人都完全变样了。路也走不动。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>有各种情况 @百合</p>
+<p>其实关键是心态</p>
+<p><strong>百合：</strong></p>
+<p>其实大家都知道，这一天迟早会来的。一种是开心并且高质量滴生活，一种是在病痛和各种化疗反应中中生活。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>真轮到自己，也未必有那么好的心态啊</p>
+<p><strong>百合：</strong></p>
+<p>其实我感觉他心态变了。也知道自己看不好了。但是想活下去，是人的本能。于是只有一次次去化疗。加上靶向。</p>
+<p><strong>小呆：</strong></p>
+<p>我☆☆也是各种手术化疗折腾了几年。西医到最后完全是像对待机器一样折腾人</p>
+<p><strong>Camille：</strong></p>
+<p>求生本能吧</p>
+<p><strong>Ethan Sun：</strong></p>
+<p>活得人不人鬼不鬼</p>
+<p><strong>百合：</strong></p>
+<p>是呀。我看着真的有点于心不忍。因为化疗，满嘴的溃疡。吃不能吃。喝不能喝。还全身痛。头发掉光。</p>
+<p><strong>Ethan Sun：</strong></p>
+<p>何必</p>
+<p><strong>Camille：</strong></p>
+<p>轮到自己 心态会不一样的</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>我倒是想到了伽罗华，明知决斗必死，连夜写下研究成果，感叹时间不多了</p>
+<p><strong>百合：</strong></p>
+<p>我很想跟他们说，其实一开始就别开刀。既然知道是晚期，那就在有限的日子里好好生活。</p>
+<p>但是以我的立场，是不能这么说的。</p>
+<p><strong>司马：</strong></p>
+<p>嗯，为了活着，怎么努力都不为过。虽然可能是越努力越深陷。但努力的过程起码一直有期望。</p>
+<p><strong>百合：</strong></p>
+<p>可是这些期望都是建立在无穷的痛苦上。化疗的各种不良反应，身体机能的蜕化。人活的像躯壳一样。只是为了活着而活着。</p>
+<p>我觉得应该是选择更有尊严，相对来说更高质量地活着。</p>
+<p>而且很可能这次开刀就很难再站起来了。可能就要一直和那些冰冷的仪器在一起。</p>
+<p><strong>Camille：</strong></p>
+<p>躺在那里苦苦求生的不是你呀</p>
+<p><strong>小呆：</strong></p>
+<p>好死不如赖活着<br>
+关键我不认为放化疗比中医更能让人赖活</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我☆☆胰腺癌最后那段时间，瞒不住了，她意识到自己要不行了，哭着打☆☆耳光，骂他不救她</p>
+<p>她的条件不允许做手术，所有的钱都花在给她买杜冷丁止痛上了</p>
+<p>当事人有时候是很想活下去的，哪怕只有一线希望</p>
+<p>作为家属，如果当时没有尽力，后面可能会一直愧疚</p>
+<p><strong>小呆：</strong></p>
+<p>胰腺癌不好治，只能用质子重离子放疗</p>
+<p><strong>老人家：</strong></p>
+<p>手术问题因人而异</p>
+<p><strong>Camille：</strong></p>
+<p>绝大部分人都是很想活下去的</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>根本没法治，乔布斯扛了几年也去了</p>
+<p>已经算久的</p>
+<p>我☆☆从发现已经是晚期，坚持了不到一年</p>
+<p><strong>老人家：</strong></p>
+<p>我☆☆当时肚子里两个肿瘤都有拳头大小了，但是最严重的是积水，体内积水等于脏器一直泡在浓水里，所以不得不手术</p>
+<p><strong>百合：</strong></p>
+<p>我能理解家人想尽力救治的心情。我也希望有的救。哪怕百分之一的希望。但是医生明说了，没有希望。病灶根本无法去除。</p>
+<p><strong>Camille：</strong></p>
+<p>个人选择吧</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>这个其实已经不取决于你和☆☆怎么想了</p>
+<p>关键于病人怎么想</p>
+<p><strong>Camille：</strong></p>
+<p>是的</p>
+<p><strong>老人家：</strong></p>
+<p>我☆☆经历了手术，经历了化疗，并且因为糖尿病高血压，伤口难愈合，最后留下腹壁疝，现在肚子越来越大。一度还有忧郁症。</p>
+<p><strong>百合：</strong></p>
+<p>我☆☆是肠癌晚期转移到胰腺和肺，肝</p>
+<p><strong>老人家：</strong></p>
+<p>家属尽力而为，不能草率决定病人的生死</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>如果你们放弃了他，有生之年这个坎都会过不去的</p>
+<p><strong>百合：</strong></p>
+<p>其实中药治疗我觉得真的很好。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>会觉得后悔自己没有尽最大的努力</p>
+<p><strong>老人家：</strong></p>
+<p>你觉得，这不是觉得</p>
+<p><strong>百合：</strong></p>
+<p>活生生的例子就在眼前。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>每个人的情况不一样</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>中药在你☆☆这里未必有那么好的效果</p>
+<p><strong>老人家：</strong></p>
+<p>例子都是个案，大数据统计下来，生肿瘤的人大都心态或者情绪不好</p>
+<p><strong>老人家：</strong></p>
+<p>有些人性情改变了，病也就好了</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我☆☆求医期间也看过中医，同样的方子，病友多活了几个月</p>
+<p><strong>老人家：</strong></p>
+<p>同意爱纱说的</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我☆☆完全没用</p>
+<p><strong>百合：</strong></p>
+<p>我看到他全身插满管子在icu里，想喝水都不能。只能从鼻管里打进去。</p>
+<p>真的很可怜</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>这个不是说别人中医好了，你☆☆就有效的，如果换了中医效果更差，那时候怕是要更自责</p>
+<p>会想说如果没换是不是还有机会</p>
+<p><strong>小呆：</strong></p>
+<p>@蝴蝶薇安 是的。对于我☆☆的病，我问☆☆为什么一直坚持到处找各种西医疗法而不试中医或偏方，她答复是“我相信科学，这样即使最后治不好我也不后悔，因为我尽力了。而如果我因为相信偏方错过了正确的救治我会遗憾一辈子。”</p>
+<p><strong>老人家：</strong></p>
+<p>我☆☆这边也是，中药吃着，但是究竟是否有效果，哈哈哈，我们不知道。我们自己不熬药都是医院直接送的，多少人说没用。无数人说吃中药不能吃葱姜蒜，不能吃这不能吃那。。。。。我☆☆全凭心情来忌口</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我一个朋友的公公胃癌刚走，她老公就是后期用了中医疗法，但是没用，公公去的很快，他现在陷入自责</p>
+<p>其实大家都知道没戏了，但是他固执的认为如果当时没换可能还能活下来</p>
+<p><strong>老人家：</strong></p>
+<p>百合，你离病人隔着一道门的距离，可以觉得</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>没法睡觉，一把把的掉头发</p>
+<p><strong>百合：</strong></p>
+<p>嗯@老人家 我能觉得</p>
+<p><strong>老人家：</strong></p>
+<p>当你是唯一拿主意的人，立场不同，决断也不同</p>
+<p><strong>百合：</strong></p>
+<p>而且我可以感受到他的感受</p>
+<p><strong>老人家：</strong></p>
+<p>你是感性的人，我是理性的人</p>
+<p>你的感受有时候完全没用</p>
+<p><strong>百合：</strong></p>
+<p>我知道知道他很迫切想要付出一切代价活下去的感觉</p>
+<p><strong>老人家：</strong></p>
+<p>谁都知道</p>
+<p>问题是，因人而异，病情和病人的心态才是一切，很多时候，是求生意志</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>只要☆☆还有求生的欲望，哪怕倾家荡产，也得治，为的是后半生不会陷入无尽的悔恨</p>
+<p><strong>老人家：</strong></p>
+<p>你若有医学背景，你的感觉或许更有价值</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>话说的难听一些，他都这样了，还能撑多久</p>
+<p><strong>老人家：</strong></p>
+<p>我们普通人，中医，西医都有问或参考，但最终对病人最好的治疗方法，无人能决断</p>
+<p>有些西医能治好的，中医也能只好</p>
+<p>有些西医治不好的，中医也治不好</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>西医都治不好的中医就能行吗？</p>
+<p><strong>百合：</strong></p>
+<p>我就是觉得他到最后是浑身插满管子，和冰冷的仪器一起离开太可怜了。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>从来没听过胰腺癌可以被中医治好</p>
+<p><strong>老人家：</strong></p>
+<p>所以，我还是相信，尽人事听天命</p>
+<p><strong>百合：</strong></p>
+<p>有另外一种活法</p>
+<p><strong>老人家：</strong></p>
+<p>让病人尽量心情舒畅，懒散中保持运动，让她觉得自己重要，被依靠，有更强的求生意识</p>
+<p><strong>百合：</strong></p>
+<p>但是很多人都是不能理解</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>这个没有办法，人啊，不是在痛苦中死去，就是在无知觉的状态下迅速离世</p>
+<p>百合，怎么说呢，你的观点，用在自己身上没有问题</p>
+<p>但是对于☆☆和他的儿子，太残忍</p>
+<p><strong>百合：</strong></p>
+<p>是啊 不能总在他身上</p>
+<p><strong>老人家：</strong></p>
+<p>百合，你若能理解所有人，也会理解所谓的【不理解】，不是真不理解</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>☆☆未必觉得自己可怜</p>
+<p><strong>Camille：</strong></p>
+<p>是的</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>他可能觉得只要这样就还有希望</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>需要的是临终关怀，不是中医</p>
+<p><strong>Camille：</strong></p>
+<p>他还活着 他可能觉得就很好了</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>还在打针，还在吃药，就总归还有希望</p>
+<p><strong>百合：</strong></p>
+<p>嗯他是这么觉得 他相信现代医学 相信医生和医院</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>所以啊</p>
+<p>他并不觉得自己可怜</p>
+<p>是你觉得罢了</p>
+<p>他还在抗争</p>
+<p>虽然很痛苦</p>
+<p><strong>百合：</strong></p>
+<p>非常痛苦</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>放弃这些，他可能才会绝望</p>
+<p><strong>百合：</strong></p>
+<p>他满嘴的溃疡</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>觉得最终被判了死刑</p>
+<p>我☆☆最后就是觉得自己在等死，也确实是在等死</p>
+<p>所以她打骂☆☆，骂他不孝</p>
+<p><strong>百合：</strong></p>
+<p>是吧</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我☆☆一句话都说不出来，因为不是不想救她</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>随着年龄的增长，癌症会变成一个越来越高几率的事情</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>那时候做手术没有意义，只能每天哪儿疼上杜冷丁，哪儿有问题治哪儿，如果当时用各种手段治疗的话，她心里可能会好受些，至少不会觉得被☆☆放弃了</p>
+<p><strong>百合：</strong></p>
+<p>是呀。如果我以后万一有什么，我一定选择开开心心去旅行。不把钱总在毫无意义的治疗上最后在插满管子和仪器中痛苦离世。</p>
+<p><strong>老人家：</strong></p>
+<p>你这个假设是发现在行为能力健全时</p>
+<p><strong>小呆：</strong></p>
+<p>到那种时候，如果你相信中医，就去找中医。如果你相信西医，就去找西医。<br>
+至少这样多少能有点希望和念想。人就是活在希望中的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p><strong>百合：</strong></p>
+<p>我会选择什么都不做</p>
+<p><strong>白衣：</strong></p>
+<p>假设没啥意义的，人年轻的心态和年老的心态完全不一样，有儿女晚辈和没儿女晚辈的心态也完全不一样</p>
+<p><strong>老人家：</strong></p>
+<p>是的</p>
+<p><strong>Camille：</strong></p>
+<p>是的</p>
+<p><strong>白衣：</strong></p>
+<p>你现在想的都是基于你当下的心态</p>
+<p><strong>百合：</strong></p>
+<p>我不想被活着。哪怕是自己强加给自己的意愿。</p>
+<p><strong>白衣：</strong></p>
+<p>我16岁那会还觉得为了喜欢的高兴一下都可以去死呢。。。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>你还年轻，以后的事以后再说，我30岁和现在的想法都不一样@百合</p>
+<p><strong>白衣：</strong></p>
+<p>我16岁那会还觉得为了喜欢的女孩子高兴一下都可以去死呢。。。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>人随着年龄增长变得快着呢</p>
+<p><strong>百合：</strong></p>
+<p>我☆☆岁了</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>问题是你还没到60呢</p>
+<p>你能保证那个时候和现在想的一样吗</p>
+<p><strong>百合：</strong></p>
+<p>我不敢保证。但是我胆小，肯定怕打针什么的。</p>
+<p>我会抗拒的</p>
+<p><strong>Camille：</strong></p>
+<p>胆小到不怕死吗[捂脸]</p>
+<p><strong>白衣：</strong></p>
+<p>什么四处旅行啊都是年轻人的想法，我爷爷奶奶现在很明显唯一想的就是儿女多在眼前一点。</p>
+<p><strong>小呆：</strong></p>
+<p>@白衣杨子 我9岁就已经因为想到以后会死去，而躺在被窝里哭</p>
+<p><strong>百合：</strong></p>
+<p>我看到那种医院的各种仪器我就害怕</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>有时候躺在床上会突然想到死后会是什么感觉，然后很恐惧。</p>
+<p><strong>小呆：</strong></p>
+<p>是的是的[握手]@有害书籍爱好者</p>
+<p><strong>Camille：</strong></p>
+<p>@小呆 我因为怕死这个问题一直在犹豫要不要信基督[捂脸]</p>
+<p>@有害书籍爱好者 我也有过</p>
+<p><strong>白衣：</strong></p>
+<p>有些老人你要是能让他维持到能看见孙儿成家，或者重孙出世，我敢说你天天拿刀剐他给他治疗他都能忍住</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>每天都当作最后一天来活</p>
+<p>我经常这样</p>
+<p><strong>小呆：</strong></p>
+<p>这种恐惧从小学到现在一直都有，一直都有。<br>
+只不过现在没空去想这种感受了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>一想到不可避免的会要永远失去自我的存在，就本能的觉得恐惧。</p>
+<p><strong>邓锋：</strong></p>
+<p>嗯</p>
+<p><strong>小呆：</strong></p>
+<p>是啊@有害书籍爱好者</p>
+<p><strong>白衣：</strong></p>
+<p>昨日种种仿佛今日生，今日种种仿佛明日死</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>我年轻的时候也觉得得了什么严重的病就不治了，去旅行。现在觉得，拥有的东西越多，就越怕失去，所以也会犹豫那时候真的狠的下心放弃生的希望吗</p>
+<p><strong>小呆：</strong></p>
+<p>@Camille 有点信仰真的很好</p>
+<p><strong>老人家：</strong></p>
+<p>每天都当作最后一天来活[握手][握手]@猫行天下@程序员客栈 ，虽然和你的努力方向不同，但是不能同意更多</p>
+<p><strong>Camille：</strong></p>
+<p>嗯 不过我还在犹豫[捂脸]</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>一无所有并不怕失去，而拥有的越多，特别是爱的时候，就越怕失去</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>有时候又觉得死了会变成星星的一部分也挺浪漫。</p>
+<p><strong>百合：</strong></p>
+<p>我信佛教。其实我并不惧怕死亡。死亡对我来说只是另一个轮回。</p>
+<p><strong>小呆：</strong></p>
+<p>我的信仰很传统，有点像是传统儒家和道家的结合，偶尔也看点佛学</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我不信轮回</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>我是怀疑论者</p>
+<p><strong>百合：</strong></p>
+<p>我笃信佛教[呲牙]</p>
+<p><strong>Camille：</strong></p>
+<p>我应该会成为基督徒</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>但是我觉得我们这一代人可能能够等到神智永生</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>一切有为法，如梦幻泡影，如露亦如电，应作如是观</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>某种半机械共生的状态</p>
+<p><strong>白衣：</strong></p>
+<p>我比较认可我们一个老师的想法</p>
+<p><strong>老人家：</strong></p>
+<p>我从来不去考虑自己感觉，我只考虑当下应该如何抉择，对家人对自己是最平衡的</p>
+<p><strong>白衣：</strong></p>
+<p>家人和睦是福如东海，桃李天下是寿比南山</p>
+<p><strong>百合：</strong></p>
+<p>老人家不容易</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>所以大家也不用太悲观</p>
+<p>先努力活下去</p>
+<p>活得越久越好</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>每一天都好好的活着，活成不管几时离开都不后悔的状态就是了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>之后就是神智进入虚拟世界的永生状态了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>@猫行天下@程序员客栈 不知道这种永生状态能否有取代超越自然选择进化的机制，正因为有后者死亡才有意义。</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>剩下的都是被安排好的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的@蝴蝶薇安</p>
+<p><strong>Tao Lu：</strong></p>
+<p>活到2040年就可以永生了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>嗯，世间一切都会有平衡的，@有害书籍爱好者</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>然后发现永生的是你的复制意识，你的本体还是挂了。</p>
+<p><strong>老人家：</strong></p>
+<p>其实，本体太容易浪费资源，挂了就挂了，哈哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>其实这个无所谓，因为挂了的不过是肉体</p>
+<p><strong>Tao Lu：</strong></p>
+<p>最后都是一种意识上的存在</p>
+<p>开心快乐</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>首先，我们要先撑过朝鲜乱搞</p>
+<p><strong>Tao Lu：</strong></p>
+<p>都是脑子里面的想法</p>
+<p><strong>老人家：</strong></p>
+<p>哈哈哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>相当于是把信息丛一个磁盘拷贝到另外一个磁盘</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>听说又要扔洲际导弹了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>信息和逻辑本身是独特的</p>
+<p>这里要避免的，是存在的唯一性</p>
+<p>要确保的</p>
+<p>的确是个不稳定因子</p>
+<p><strong>Camille：</strong></p>
+<p>@Tao Lu 为什么2040</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>但是越来越多的证据说明意识貌似是无法脱离物质形式存在的</p>
+<p><strong>邓锋：</strong></p>
+<p>2022年 我把虚拟现实搞起来</p>
+<p>—————  2017-09-05  —————</p>
+<p><strong>司马：</strong></p>
+<p>@猫行天下@程序员客栈 @老人家 昨天回了一条就睡下了，大家聊得真好。我有个问题：“什么是把生命当最后一天活？”是每天的“人生资产负债表”都要算平？（有仇当时就报了，有福当时就享了的及时行乐）还是因为我的事业还没完成，灰姑娘怕午夜来临的急迫感呢？</p>
+<p><strong>小呆：</strong></p>
+<p>@司马 说得好。这是两种解释<br>
+[偷笑]只要那个珍惜时间看淡其他的态度，不能真的当最后一天</p>
+<p><strong>捍卫战士：</strong></p>
+<p>是心态，不是负债</p>
+<p>没钱就去赚，有恩就去报，活得明确而充实，有理想，但不奢求；有眷恋，但不牵绊。</p>
+<p><strong>Tao Lu：</strong></p>
+<p>[强]对的，两个字洒脱，再两个字豁达</p>
+<p><strong>司马：</strong></p>
+<p>@百合 开始我想说的是，从操作上，你很难确认哪个病是值得你放弃治疗的“不治之症”。从感情上，直到躺到特护病房的床上，我们还是觉得“我可以再抢救一下”。我今年唯一的舅舅肺癌去世了，全家人特别是他自己很希望活着，用了很多医疗/非医疗的手段，虽然我知道总有一天会到来，但也非常排斥那天的到来。他病了三年，期间几次都像没事了似的。</p>
+<p><strong>司马：</strong></p>
+<p>@捍卫战士 就是“即便明天死了也不亏”的心态？</p>
+<p>我觉得这就是我们需要孩子的地方，就是白衣说，有的老人为了看到孙女出嫁宁可遭千刀万剐之苦的原因。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>对。就是问问自己，如果明天死了，自己还有什么遗憾？如果还有，就去努力实现，即便不成，也洒脱点别带进骨灰盒里[呲牙]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>最想做的事，爱最爱的人</p>
+<p><strong>捍卫战士：</strong></p>
+<p>向死而生，比较不那么容易死</p>
+<p><strong>司马：</strong></p>
+<p>@百合 另外，我觉得有个信仰真好。我曾经4年作为基督教的“慕道教友”，一堆叔叔阿姨兄弟姐妹围绕在我身边，想让我受洗，结果我还是没法真心接受“圣经是上帝用人手写的”和“上帝造人”两个基础假设。</p>
+<p>糊里糊涂就信了的朋友，反而很快乐。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>@司马 你觉得自己不如稀里糊涂就信教的朋友快乐？</p>
+<p><strong>司马：</strong></p>
+<p>不如，他们有依靠，我却走在迷失、彷徨、恐惧里。他们迷失、彷徨、恐惧了，信主说的就好了。我因为不信，所以要靠自己，而自己是渺小的、无知的，解决不了相应问题时，我会自卑、封闭自己。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>信主真的就解决他们的问题了吗？</p>
+<p><strong>司马：</strong></p>
+<p>信了的，就解决了，虽然物质生活还是那样，但精神上得到了依靠。我看过，但没经历过。身不能至，心向往之。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>在我看来，如果仅是这样，其实其状态和一个拥有大心脏的人差不多。但我觉得宗教不仅于此。</p>
+<p><strong>司马：</strong></p>
+<p>但是信仰 就是那么个东西：你只能通过假装加入，不能通过假装获得力量。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我从心底里不信</p>
+<p><strong>司马：</strong></p>
+<p>宗教肯定不止于此，但我觉得如果能得到这种好处，已经善莫大焉了。我也不信，所以我得不到。</p>
+<p><strong>JediChang：</strong></p>
+<p>信仰使人能够承受，给很多负面的东西一个合理的解读</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>不从那里得到</p>
+<p>恩，我信自己</p>
+<p><strong>JediChang：</strong></p>
+<p>比如说亲人走了，信教的人就说蒙主召唤</p>
+<p>不信的人就说失去了至亲</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p>把生死看作必然的循环</p>
+<p>每个人都要经历的</p>
+<p><strong>JediChang：</strong></p>
+<p>宗教的雏形本来就是人类对自然界不能支配的力量的理解和揣测</p>
+<p><strong>司马：</strong></p>
+<p>不，如果相信循环，就是相信由死至生的宗教故事。我觉得由生至死，是单向的，不可逆的。</p>
+<p>@JediChang 嗯，宗教。特别是现代的基督教，给了一个最温和、舒适的解释。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>不是指那种轮回的循环吧</p>
+<p><strong>捍卫战士：</strong></p>
+<p>哈哈生死不是轮回</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>恩，不是轮回</p>
+<p><strong>捍卫战士：</strong></p>
+<p>是生死转化</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>应该更像狮子王中说的那种circle of life</p>
+<p><strong>捍卫战士：</strong></p>
+<p>消亡和生长之间是有循环的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>你的分子原子都还存在，不过会参与其他自然过程</p>
+<p>与你的意识再无关系</p>
+<p><strong>司马：</strong></p>
+<p>我希望，意识是一种“存在”。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>你其实希望的，是你的存在</p>
+<p><strong>捍卫战士：</strong></p>
+<p>意识是什么，未被证实，也未被证伪，所以暂时不可知</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>“我” 这个概念的生存</p>
+<p>不被灭亡</p>
+<p><strong>司马：</strong></p>
+<p>如果能像数据那样保留下来，等待某天在另一个“体”中再次与这个世界相互作用。就太美好了。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p>我觉得还是有可能的</p>
+<p><strong>司马：</strong></p>
+<p>期待</p>
+<p><strong>捍卫战士：</strong></p>
+<p>这个就要靠科技进步了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p><strong>捍卫战士：</strong></p>
+<p>我觉得宗教改善的是人内部世界，科技改变的是人外部世界</p>
+<p><strong>司马：</strong></p>
+<p>人类的活体冷冻 其实就是通过保持整体的物质，来进行这种保存。但这种保存效率太低。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>两者其实各善其长，但也有各自达不到的地方</p>
+<p><strong>司马：</strong></p>
+<p>如果，像云天明那样，保鲜一部分存有“意识”的实体，甚至能实现上传“意识流”。那么宗教的意义就会大打折扣。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我不太感冒宗教一个原因，是因为接触到太多教徒，带着强烈的功利性，以及对自己行为带来的结果不负责任</p>
+<p>认为这些都是上天安排好的</p>
+<p><strong>捍卫战士：</strong></p>
+<p>冬眠技术其实只是依托于人类现在的科技认知：人的意识是和人脑紧密联系的。才有这样的技术产生。但如我所说，无法证实也无法证伪，现在对意识的研究还非常浅薄。意识能否被转移？是否可以纳入其他容器？都属未知</p>
+<p><strong>司马：</strong></p>
+<p>@猫行天下@程序员客栈 纽约、洛杉矶等大城市的中文教会的确非常PUSH。这点在美国乡村的英文教会里，会非常温和。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>他们的信仰，更像是一种对上天的贿赂</p>
+<p>我贡献给你什么，你回报我什么</p>
+<p><strong>司马：</strong></p>
+<p>@猫行天下@程序员客栈 同意，在用“奉献”“拉人入会”等进行交换，差别不过是不用上香的方式交换而已。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>貌似记忆的数据和大脑的物质结构共同构成了自我意识，如果只复制数据，而没有还原大脑的机制，思维方式都会完全改变。就好像把不同类型游戏的数据倒来换去，就算可以导入，游戏机制也完全变了。</p>
+<p><strong>捍卫战士：</strong></p>
+<p>不可否认，宗教是人类联系的重要纽带，否则战争或许比如今多100倍</p>
+<p><strong>JediChang：</strong></p>
+<p>有一句话我很认同</p>
+<p>有求则迷</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>在教徒身上看到的，经常是愚昧和盲从</p>
+<p><strong>JediChang：</strong></p>
+<p>无求则信</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>@捍卫战士 同意</p>
+<p><strong>JediChang：</strong></p>
+<p>判断是不是真的信仰，看你是不是想要交换甚至是乞讨</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p><strong>捍卫战士：</strong></p>
+<p>我比较认同人类简史里的一个观点：想象的结合体，是智人能不相互残杀的，结成更大协作的基础。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>即使都失去依然信</p>
+<p><strong>捍卫战士：</strong></p>
+<p>这是宗教做到的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这样的人是值得尊敬的</p>
+<p>是的</p>
+<p><strong>JediChang：</strong></p>
+<p>貌似绿绿们都是[捂脸]</p>
+<p><strong>司马：</strong></p>
+<p>教徒肯定是因为在某个地方 无法自我实现了，才会真正的归信，从那个角度讲，他就是“愚昧”的。但客观上，自从信了，他就无需再探索，也就没有痛苦了。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>@有害书籍爱好者 是的，记忆和大脑中神经元连接的方式，大脑的环境</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这些都很重要</p>
+<p><strong>捍卫战士：</strong></p>
+<p>宗教中有很多很多优秀的思想，哲学观，价值观其实大可以拿来利用，指导自己的行为。不一定非得信教才能学习。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p>这个我很赞同</p>
+<p><strong>JediChang：</strong></p>
+<p>信教和科学是不一样方向</p>
+<p>就跟中医西医一样</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>佛教中很多思想很值得学习</p>
+<p><strong>捍卫战士：</strong></p>
+<p>面对不确定，宗教的麻醉作用的确是一剂良药</p>
+<p>但类似佛学中的无限细分概念，其实与我们认识物质世界也有异曲同工之妙</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>是的</p>
+<p>很有意思</p>
+<p><strong>捍卫战士：</strong></p>
+<p>不说三大宗教，一些披着“宗教”外衣的邪教组织，也能在一段时间，一段空间内积累相当数量的信徒甚至狂信徒，说明“归拢信仰”这件事是有一整套方法论的。不是说必须大贤的思想，而是哪怕粗鄙不堪，但用对法门，就可实现（至少阶段性实现）的。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>嗯，值得学习</p>
+<p><strong>捍卫战士：</strong></p>
+<p>社会学和营销学在这些方面应该有很多研究</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>一些新兴扩张的基督教组织拉人信教的思路，还在实用主义阶段，特别是在农村，基本就是循环报应、消灾保平安等朴素善恶观披了张基督教的皮</p>
+<p><strong>捍卫战士：</strong></p>
+<p>前两天看河北奶奶庙的那个视频，挺有意思</p>
+<p>也反应了我国人民朴素的价值观：缺啥求啥</p>
+<p><strong>蝴蝶薇安：</strong></p>
+<p>在我国，长期有求于神佛的信徒还会看不起临时有求的非信徒呢</p>
+<p><strong>司马：</strong></p>
+<p>所以需要“满天神佛包邮”</p>
+<p>@蝴蝶薇安 当然包月停车的看不起计时停车的了</p>
+<p><strong>白衣：</strong></p>
+<p>中国百姓普遍持的还是实用主义观念，哪个宗教能保佑我，大家都说灵，就信哪个</p>
+<p><strong>邓锋：</strong></p>
+<p>马云当初网商大会也是这么说的</p>
+<p><strong>白衣：</strong></p>
+<p>我觉得相比宗教，中国传统儒家的格物修身养气的功夫跟现代科学的冲突还少些。</p>
+<p><strong>邓锋：</strong></p>
+<p>还有心学</p>
+<p><strong>阿猎：</strong></p>
+<p>奶奶庙那个视频我也看了，缺啥求啥。自古以来都是这样啊</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>那要看从什么时候算起算是传统儒家了吧</p>
+<p><strong>白衣：</strong></p>
+<p>哲学性的儒家其实要么就算到春秋时期，要么就从宋儒算起</p>
+<p><strong>司马：</strong></p>
+<p>儒，对我来说不太具体，就是温文尔雅，爱好诗文，坚持道德正统的一群人而已。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

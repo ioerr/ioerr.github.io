@@ -1,49 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>号码 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/</link>
     <description>Recent content in 号码 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 16 Nov 2012 09:55:39 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>通讯录服务应有的变革</title>
-        <link>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</link>
-        <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</guid>
-        <description>&lt;p&gt;看到《&lt;a href=&#34;http://www.ifanr.com/197224&#34;&gt;触宝拨号怎么做“第三代来电显示”&lt;/a&gt;》这篇文章，想到了深藏心底已久的一个想法。&lt;/p&gt;
-
-&lt;p&gt;其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。&lt;/p&gt;
-
-&lt;p&gt;为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。&lt;br /&gt;
-在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如
-YouKnowWho at
-Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。&lt;br /&gt;
-用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。&lt;/p&gt;
-
-&lt;p&gt;想像一下，手机一碰，或者生成一次性二维码让对方识别，我的联系信息就授权运营商开放给对方查询了，同时运营商也记录下我将联系信息开放给谁。&lt;br /&gt;
-若限定是商务来往，通过运营商发过去的就只有商务邮箱地址和工作用的手机号码。&lt;br /&gt;
-要是还不够熟，也可以只发给对方一段代码，运营商根据此代码仅提供指向我联系方式的“链接”或永久绑定的伪号码，呼叫过去，对方并不知道真实的被叫号码是多少，邮件、短信也同理。&lt;br /&gt;
-倘若双方绝交，只要告知运营商收回对方查询调用权限即可，完全没必要在移动端设置黑名单，甚至更换自己的手机号。&lt;br /&gt;
-而如果哪天真要更换、增减联系方式了，也只是告知运营商“逻辑号码”原来指向的“物理号码（同时包括现在运营商定义的逻辑和物理号码）”变了，再也不需要一个个地通知所有联系人，还担心有遗漏。&lt;/p&gt;
-
-&lt;p&gt;至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。&lt;/p&gt;
-
-&lt;p&gt;其实这就像即时通讯软件 ID
-从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。&lt;br /&gt;
-而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8F%B7%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通讯录服务应有的变革</title>
+      <link>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</link>
+      <pubDate>Fri, 16 Nov 2012 09:55:39 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tongxunlu-fuwu-yingyou-de-biange/</guid>
+      <description>看到《触宝拨号怎么做“第三代来电显示”》这篇文章，想到了深藏心底已久的一个想法。 其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打</description>
+      <content:encoded><![CDATA[<p>看到《<a href="http://www.ifanr.com/197224">触宝拨号怎么做“第三代来电显示”</a>》这篇文章，想到了深藏心底已久的一个想法。</p>
+<p>其实电信运营商手中掌握了更全面用户的身份信息，完全可以考虑打通一下用户之间的联系，在通讯录管理方面做更多文章。</p>
+<p>为什么一定要记住联系人的号码？人一多，就算是短号也不好记忆。<br>
+在通讯录中看到的不应该是一串数字，也不是电子邮件那样因为重名太多只好另选名字导致容易记错的英文字符串，而应该是面向人类的语言，是你想到某人时自然而然就蹦出来的身份的文字描述，比如<br>
+YouKnowWho at<br>
+Minitrue、发小黑皮、老板张大民、观海听涛奥巴马，猪如此累。<br>
+用户不需要关心底层的实现是怎样的，只知道根据通讯录能够找到对方就行。</p>
+<p>想像一下，手机一碰，或者生成一次性二维码让对方识别，我的联系信息就授权运营商开放给对方查询了，同时运营商也记录下我将联系信息开放给谁。<br>
+若限定是商务来往，通过运营商发过去的就只有商务邮箱地址和工作用的手机号码。<br>
+要是还不够熟，也可以只发给对方一段代码，运营商根据此代码仅提供指向我联系方式的“链接”或永久绑定的伪号码，呼叫过去，对方并不知道真实的被叫号码是多少，邮件、短信也同理。<br>
+倘若双方绝交，只要告知运营商收回对方查询调用权限即可，完全没必要在移动端设置黑名单，甚至更换自己的手机号。<br>
+而如果哪天真要更换、增减联系方式了，也只是告知运营商“逻辑号码”原来指向的“物理号码（同时包括现在运营商定义的逻辑和物理号码）”变了，再也不需要一个个地通知所有联系人，还担心有遗漏。</p>
+<p>至于查号，也不需要本地保存数据库，商户注册开通电话、手机时告知运营商开放联系信息就行（这一点其实现在的运营商查号服务就应该提供查询的应用，阻碍也许是收费不便），更换地址和联系方式后，以前保存了联系信息的客户也不会丢失。</p>
+<p>其实这就像即时通讯软件 ID<br>
+从一串数字到注册邮箱再到实名的演化一样，但即时通讯软件的问题是本身就是远程的独立的交互场景，缺少移动场景那种面对面沟通，从一回生到二回熟，先面交再神交，才发展到交换联系方式的过程。<br>
+而且这样的通讯录管理变革应该覆盖所有的人人交互领域，没有电信运营商参与是不完整、不彻底的。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

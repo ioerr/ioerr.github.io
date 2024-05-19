@@ -1,114 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>概念 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%A6%82%E5%BF%B5/</link>
     <description>Recent content in 概念 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>机器人三定律</title>
-        <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
-        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mranti/status/1646432557913849856&#34;&gt;Michael Anti&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我说，既然自动AI都出来了，机器人三定律是不是要建立了？&lt;br /&gt;
-是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？&lt;br /&gt;
-这一天天加速的，再不给AI立规矩，我都觉得有点害怕。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1646669486844702720&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;人类自己都搞不清楚什么叫伤害人类利益。&lt;/p&gt;
-
-&lt;p&gt;什么算伤害？而不是保护、警告、教育…&lt;br /&gt;
-和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？&lt;/p&gt;
-
-&lt;p&gt;什么算人？生理、心理、意识、能力、社会关系…&lt;br /&gt;
-植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？&lt;/p&gt;
-
-&lt;p&gt;具体的个人和整体的人类是什么关系？&lt;br /&gt;
-不同的人类群体和整体的人类又是什么关系？&lt;/p&gt;
-
-&lt;p&gt;人类自己搞明白了吗？&lt;br /&gt;
-以其昏昏，使其昭昭。&lt;/p&gt;
-
-&lt;p&gt;人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。&lt;br /&gt;
-而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。&lt;/p&gt;
-
-&lt;p&gt;所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;机器人三定律：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;第一法则：机器人不得伤害人类，或坐视人类受到伤害；&lt;/p&gt;
-
-&lt;p&gt;第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；&lt;/p&gt;
-
-&lt;p&gt;第三法则：在不违背第一或第二法则之下，机器人可以保护自己。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>授课大忌</title>
-        <link>https://ioerr.github.io/posts/shouke-daji/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shouke-daji/</guid>
-        <description>&lt;p&gt;为什么有的课程让人昏昏欲睡或望而生畏？我觉得主要有以下原因：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;没说清楚要传授的知识是为了解决什么现实问题&lt;br /&gt;
-人脑毕竟更容易接受现实中就可以理解的知识和概念，如果远离现实太远，要消耗的认知能量就多得多，认知路径也更加曲折，影响知识吸收的效率也就顺理成章。&lt;br /&gt;
-同样的道理，科幻小说的写作也受这个规律限制。写作者大可以天马行空，想象常人前所未见的世界，但如果脱离现实中的事物太遥远，甚至完全不在人类的先天认知范围之内，想象得再精彩也只有极少数人才能理解。&lt;br /&gt;
-另一方面，如果没有危机强迫必须直面问题，大多数人遇到认知困难自然就想绕道而行。&lt;br /&gt;
-所以，问题导向才能驱动人关注课程的内容，哪怕更难、更复杂。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;没说清楚理论中的概念名词代表着什么实际意义&lt;br /&gt;
-从概念到实际，大脑需要做一次关系映射，这也是要消耗认知能量的。&lt;br /&gt;
-经过长期训练适应后，大脑已经能够下意识地完成这种映射转换，认知的负担才会解放。&lt;br /&gt;
-同样是一段充斥着大量专业术语、缩写的信息，在专业人士看来可能很平常，而不熟悉这些概念的门外汉看来就如同写满密码的天书，即使提前知道它们各自的具体含义，连起来也晦涩难懂。&lt;br /&gt;
-除非他们同样经过专业训练，或者转换为他们可以迅速理解意义的形式。如果没有通过这些手段事先消除认知障碍，课程学习者自然也就容易望而却步了。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>仇恨的对象</title>
-        <link>https://ioerr.github.io/posts/chouhen-de-duixiang/</link>
-        <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chouhen-de-duixiang/</guid>
-        <description>&lt;p&gt;人总是容易被鼓动和说服去仇恨遥远、抽象、简单、像符号一样典型的对象，而且往往是作为集体概念存在的对象，如一群人、一个民族或国家。&lt;/p&gt;
-
-&lt;p&gt;个人当然也会因为生活中的遭遇而怨恨，但这种来源于具体事务的不满，理应指向具体的人。&lt;/p&gt;
-
-&lt;p&gt;只有当他面对的是一个多人都参与但又无人应最终负责的系统，仇恨抽象的集体概念才可理解。&lt;/p&gt;
-
-&lt;p&gt;作为个人，你很可能仇恨某个沃贡拆迁队的工人或某个强迫你品诗的沃贡诗人，但有什么理由要仇恨所有的沃贡人呢？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器人三定律</title>
+      <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiqiren-san-dinglv/</guid>
+      <description>Michael Anti： 我说，既然自动AI都出来了，机器人三定律是不是要建立了？ 是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？ 这一天天加速的，</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/mranti/status/1646432557913849856">Michael Anti</a>：</p>
+<p>我说，既然自动AI都出来了，机器人三定律是不是要建立了？<br>
+是不是得要求所有AI项目都不得产生伤害人类利益的结果啊？<br>
+这一天天加速的，再不给AI立规矩，我都觉得有点害怕。</p>
+<p><a href="https://twitter.com/calon/status/1646669486844702720">Calon</a>：</p>
+<p>人类自己都搞不清楚什么叫伤害人类利益。</p>
+<p>什么算伤害？而不是保护、警告、教育…<br>
+和你交易赚了钱、雇佣你干活、玩 SM、劝你买加密货币、重金求子、和你一起建设乌托邦、送你去火星或者西伯利亚种土豆，算伤害利益吗？</p>
+<p>什么算人？生理、心理、意识、能力、社会关系…<br>
+植物人、无自主意识的精神病患、刚受精的卵子、坚称自己不是人、只剩下大脑、部分身体替换为机器的是不是人？</p>
+<p>具体的个人和整体的人类是什么关系？<br>
+不同的人类群体和整体的人类又是什么关系？</p>
+<p>人类自己搞明白了吗？<br>
+以其昏昏，使其昭昭。</p>
+<p>人类的原始认知模式不是从概念定义往上构建，不会一开始就抽象出一个叫做“人”的对象，以及相应的方法和规则，然后基于其运行。<br>
+而是从经验中归纳总结，再去检验理论，通过一次次试错知道这个不能干，那个有风险，尝试找到模式和规律。</p>
+<p>所以像阿西莫夫那样直接告诉机器人三定律没什么用，估计得让人类成为 AI 的“自然环境”，淘汰搞不清形势的实例（类似于遗传算法 Genetic Algorithm），留下自己可以悟道的实例。</p>
+<hr>
+<p>机器人三定律：</p>
+<blockquote>
+<p>第一法则：机器人不得伤害人类，或坐视人类受到伤害；</p>
+<p>第二法则：机器人必须服从人类命令，除非命令与第一法则发生冲突；</p>
+<p>第三法则：在不违背第一或第二法则之下，机器人可以保护自己。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>授课大忌</title>
+      <link>https://ioerr.github.io/posts/shouke-daji/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shouke-daji/</guid>
+      <description>为什么有的课程让人昏昏欲睡或望而生畏？我觉得主要有以下原因： 没说清楚要传授的知识是为了解决什么现实问题 人脑毕竟更容易接受现实中就可以理解的知</description>
+      <content:encoded><![CDATA[<p>为什么有的课程让人昏昏欲睡或望而生畏？我觉得主要有以下原因：</p>
+<ol>
+<li>
+<p>没说清楚要传授的知识是为了解决什么现实问题<br>
+人脑毕竟更容易接受现实中就可以理解的知识和概念，如果远离现实太远，要消耗的认知能量就多得多，认知路径也更加曲折，影响知识吸收的效率也就顺理成章。<br>
+同样的道理，科幻小说的写作也受这个规律限制。写作者大可以天马行空，想象常人前所未见的世界，但如果脱离现实中的事物太遥远，甚至完全不在人类的先天认知范围之内，想象得再精彩也只有极少数人才能理解。<br>
+另一方面，如果没有危机强迫必须直面问题，大多数人遇到认知困难自然就想绕道而行。<br>
+所以，问题导向才能驱动人关注课程的内容，哪怕更难、更复杂。</p>
+</li>
+<li>
+<p>没说清楚理论中的概念名词代表着什么实际意义<br>
+从概念到实际，大脑需要做一次关系映射，这也是要消耗认知能量的。<br>
+经过长期训练适应后，大脑已经能够下意识地完成这种映射转换，认知的负担才会解放。<br>
+同样是一段充斥着大量专业术语、缩写的信息，在专业人士看来可能很平常，而不熟悉这些概念的门外汉看来就如同写满密码的天书，即使提前知道它们各自的具体含义，连起来也晦涩难懂。<br>
+除非他们同样经过专业训练，或者转换为他们可以迅速理解意义的形式。如果没有通过这些手段事先消除认知障碍，课程学习者自然也就容易望而却步了。</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>仇恨的对象</title>
+      <link>https://ioerr.github.io/posts/chouhen-de-duixiang/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chouhen-de-duixiang/</guid>
+      <description>人总是容易被鼓动和说服去仇恨遥远、抽象、简单、像符号一样典型的对象，而且往往是作为集体概念存在的对象，如一群人、一个民族或国家。 个人当然也会</description>
+      <content:encoded><![CDATA[<p>人总是容易被鼓动和说服去仇恨遥远、抽象、简单、像符号一样典型的对象，而且往往是作为集体概念存在的对象，如一群人、一个民族或国家。</p>
+<p>个人当然也会因为生活中的遭遇而怨恨，但这种来源于具体事务的不满，理应指向具体的人。</p>
+<p>只有当他面对的是一个多人都参与但又无人应最终负责的系统，仇恨抽象的集体概念才可理解。</p>
+<p>作为个人，你很可能仇恨某个沃贡拆迁队的工人或某个强迫你品诗的沃贡诗人，但有什么理由要仇恨所有的沃贡人呢？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

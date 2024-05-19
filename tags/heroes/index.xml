@@ -1,38 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Heroes on 读写错误</title>
     <link>https://ioerr.github.io/tags/heroes/</link>
     <description>Recent content in Heroes on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 10 Jun 2008 15:23:23 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/heroes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Battlefield: Heroes</title>
-        <link>https://ioerr.github.io/posts/battlefield-heroes/</link>
-        <pubDate>Tue, 10 Jun 2008 15:23:23 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/battlefield-heroes/</guid>
-        <description>&lt;p&gt;看样子 EA 这个免费的网络对战游戏《&lt;a href=&#34;http://www.battlefield-heroes.com/&#34;&gt;Battlefield:
-Heroes&lt;/a&gt;》挺有意思的，目前很多人被它搞笑、卡通的风格吊住了胃口，热切的盼望开放测试和运营。&lt;/p&gt;
-
-&lt;p&gt;看到某些大兵奔跑起来的姿势我忍不住笑了…&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;和坦克的开火很扯啊，还有那飞一般的转向和炮塔旋转，到底是卡通风格游戏…好处则是再也不用担心宝贵的坦克在诺曼底的灌木丛中卡住然后熄火了…&lt;/p&gt;
-
-&lt;p&gt;如果有卡通渲染效果就更完美了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/heroes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Battlefield: Heroes</title>
+      <link>https://ioerr.github.io/posts/battlefield-heroes/</link>
+      <pubDate>Tue, 10 Jun 2008 15:23:23 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/battlefield-heroes/</guid>
+      <description>看样子 EA 这个免费的网络对战游戏《Battlefield: Heroes》挺有意思的，目前很多人被它搞笑、卡通的风格吊住了胃口，热切的盼望开放测</description>
+      <content:encoded><![CDATA[<p>看样子 EA 这个免费的网络对战游戏《<a href="http://www.battlefield-heroes.com/">Battlefield:<br>
+Heroes</a>》挺有意思的，目前很多人被它搞笑、卡通的风格吊住了胃口，热切的盼望开放测试和运营。</p>
+<p>看到某些大兵奔跑起来的姿势我忍不住笑了…</p>
+<hr>
+<p>和坦克的开火很扯啊，还有那飞一般的转向和炮塔旋转，到底是卡通风格游戏…好处则是再也不用担心宝贵的坦克在诺曼底的灌木丛中卡住然后熄火了…</p>
+<p>如果有卡通渲染效果就更完美了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

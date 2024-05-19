@@ -1,71 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>虚拟世界 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E4%B8%96%E7%95%8C/</link>
     <description>Recent content in 虚拟世界 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E4%B8%96%E7%95%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>NPC 的生活</title>
-        <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
-        <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
-        <description>&lt;p&gt;推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：&lt;br /&gt;
-晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的&lt;br /&gt;
-突然就看哭了&lt;br /&gt;
-我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋&lt;br /&gt;
-有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应&lt;/p&gt;
-
-&lt;p&gt;我想到了2017年曾经提过一嘴：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;看到这个新闻，感觉设想终于有人实现了。&lt;br /&gt;
-但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。&lt;br /&gt;
-以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。&lt;/p&gt;
-
-&lt;p&gt;也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。&lt;br /&gt;
-这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>关于数字生命的思考</title>
-        <link>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</link>
-        <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</guid>
-        <description>&lt;p&gt;计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。&lt;br /&gt;
-但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？&lt;br /&gt;
-从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？&lt;/p&gt;
-
-&lt;p&gt;今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。&lt;/p&gt;
-
-&lt;p&gt;这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。&lt;br /&gt;
-人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。&lt;/p&gt;
-
-&lt;p&gt;人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。&lt;/p&gt;
-
-&lt;p&gt;当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E4%B8%96%E7%95%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPC 的生活</title>
+      <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/npc-de-shenghuo/</guid>
+      <description>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说： 晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后</description>
+      <content:encoded><![CDATA[<p>推友 Mia（签名是：人生是部RPG，感谢各位NPC）说：<br>
+晚上看到网友在斯坦福用ChatGPT打造了一个开源「AI小镇」的讯息下面评论，说以后游戏里或许真的会有AI扮演的NPC了，不再是千篇一律设定好的<br>
+突然就看哭了<br>
+我小时候总是很孤独，喜欢玩RPG游戏是因为里面有NPC可以对话，虽然那时候的仙一仙二都好简陋<br>
+有生之年是不是真的可以有我的专属NPC可以一直陪我说话了，24H不离线，事事有回应</p>
+<p>我想到了2017年曾经提过一嘴：</p>
+<blockquote>
+<p>网络上的人工智能机器人好像一般都是聊天型的，要是开放一些接口，可以像和 NPC 一样有交互逻辑，有生命值、情绪、好感度、虚拟位置等等属性，有任务和故事等互动内容，很多个这样的机器人组合在一起，会不会相当于一个超大型网络游戏？</p>
+</blockquote>
+<p>看到这个新闻，感觉设想终于有人实现了。<br>
+但是凡事围绕自己存在的 NPC，如果当他是朋友我会觉得很可怜，会希望他有自己的生活。<br>
+以前看到模拟城市和模拟人生的游戏，希望结合一下，让我可以静静观察虚拟城市中虚拟人物的丰富生活，不用我去扮演，也不用为我服务。</p>
+<p>也就是大型终极拟真放置型游戏，生老病死、喜怒哀乐，都可以在游戏中生成。<br>
+这么一想，其实观察现实生活也是一样的，只是没有那么方便，也没有那么沉重，毕竟现实中的不幸都真实存在，虚拟世界中的就没有那么多感情投入。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于数字生命的思考</title>
+      <link>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/guanyu-shuzi-shengming-de-sikao/</guid>
+      <description>计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。 但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证</description>
+      <content:encoded><![CDATA[<p>计算机技术出现后，人类幻想上传意识，达到在数字虚拟空间中永生的目的。<br>
+但即使抛开承载人类意识的生物物质基础与计算机完全不同这一因素，谁又能保证未来的数字生物一定是人类可以理解的形式呢？<br>
+从能够复制自身的原始生物演化到人类，其间的变化何其大。最终活跃于数字世界中的生命，又凭什么像人类的投影一样行动和思维呢？</p>
+<p>今天存在于人类头脑中的 meme，已经在数字世界中存在和传播，并不断演化，多个 meme 可能结合起来，在未来形成更加复杂和主动的信息体，争夺、感染进入数字世界的人类意识。</p>
+<p>这种 meme 复合体演化到足够复杂，比今天的故事、知识、宗教和意识形态更加庞大，有自我复制和变异的机制，甚至有目的意识和自我意识，就会形成和人类截然不同的数字生命。<br>
+人类看着它们相互竞争，就像看到红楼梦的超级变种正把巫毒教第43代按在地上摩擦，而小星星变奏曲躲在旁边瑟瑟发抖。</p>
+<p>人类将从这种数字生物的创造者变为容器，假如有一天人类被外星人消灭或融合求，或者人类将它们以信息的形式传播出去，外星人就可能被感染而成为它们的新容器。</p>
+<p>当然 meme 也只是人类可以理解的一种形式，可能人家根本不需要肉体做思想容器，自个交互就完成了融合、复制、变异，就像个无限大巨复杂的康威博弈游戏。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

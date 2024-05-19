@@ -1,71 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>界面友好 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2%E5%8F%8B%E5%A5%BD/</link>
     <description>Recent content in 界面友好 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2%E5%8F%8B%E5%A5%BD/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>老人用电脑的痛苦</title>
-        <link>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</link>
-        <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</guid>
-        <description>&lt;p&gt;远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。&lt;/p&gt;
-
-&lt;p&gt;问：笔记本电脑的开关是哪个键？&lt;br /&gt;
-年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？&lt;br /&gt;
-即使有0/1组合符号的标识提示，老人能够理解吗？&lt;br /&gt;
-有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。&lt;br /&gt;
-也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。&lt;/p&gt;
-
-&lt;p&gt;问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？&lt;br /&gt;
-有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。&lt;br /&gt;
-控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。&lt;br /&gt;
-最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。&lt;/p&gt;
-
-&lt;p&gt;各种账号让老人晕头转向。&lt;br /&gt;
-进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。&lt;br /&gt;
-问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？&lt;br /&gt;
-密码和密钥是什么区别？&lt;br /&gt;
-登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？&lt;/p&gt;
-
-&lt;p&gt;而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。&lt;br /&gt;
-Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。&lt;/p&gt;
-
-&lt;p&gt;问：密码可以输入中文吗，要不要切换输入法？&lt;br /&gt;
-输入法现在是中文还是英文？&lt;br /&gt;
-是可以看托盘图标，但对眼神不好的老人来说，太难看到了。&lt;/p&gt;
-
-&lt;p&gt;问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？&lt;br /&gt;
-这些设置应该以最醒目、层级最少的方式优先显示。&lt;/p&gt;
-
-&lt;p&gt;问：微信不是系统自带的吗？要怎么安装？上网用哪个？&lt;br /&gt;
-系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。&lt;br /&gt;
-苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。&lt;br /&gt;
-Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。&lt;br /&gt;
-微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。&lt;/p&gt;
-
-&lt;p&gt;问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？&lt;/p&gt;
-
-&lt;p&gt;问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？&lt;/p&gt;
-
-&lt;p&gt;还有最经典也最常见的质问：&lt;br /&gt;
-你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？&lt;br /&gt;
-以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！&lt;br /&gt;
-为什么你在的时候就没问题，你一不在就各种问题都来了？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%95%8C%E9%9D%A2%E5%8F%8B%E5%A5%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>老人用电脑的痛苦</title>
+      <link>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/laoren-yong-diannao-de-tongku/</guid>
+      <description>远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。 问：笔记本电脑的开关是哪个键？ 年轻人当然</description>
+      <content:encoded><![CDATA[<p>远程指导我妈使用电脑真的是可以发现很多用户体验上的盲点，以及很多我们觉得很容易的事情，老人难以理解。</p>
+<p>问：笔记本电脑的开关是哪个键？<br>
+年轻人当然可以一眼看出来，但老年人看到一个和笔记本 C 面颜色差不多，没有任何标识，圆角的一个小按钮，怎么知道它是电源开关键呢？<br>
+即使有0/1组合符号的标识提示，老人能够理解吗？<br>
+有的开关写着 on/off，我们当然习以为常，但对不懂英文的老人来说可能是天书。<br>
+也许你会说，天天用自然就会用了，但老人的记忆和学习能力是在每天下降的，总有记不住的时候。</p>
+<p>问：键盘上的 enter/backspace/shift/alt/ctrl/fn/delete/esc/tab/caps lock 等等这都是什么，有什么作用？<br>
+有的键盘会写中文，有的没有，远程指导的时候怎么告诉老人该按哪个键？比如最后一排第4个。<br>
+控制键、转换键、上档键、特殊功能键又有什么不同？也很难解释清楚，只能举例。<br>
+最终我是要她给键盘拍照，我用图示一个个写明白再发回给她。</p>
+<p>各种账号让老人晕头转向。<br>
+进操作系统有登录账号，默认提示登录微软账号（还是用的英文 Microsoft 账号，更不懂），登录微信要微信账号，登录 QQ 要 QQ账号，登录邮箱要邮箱账号。<br>
+问：登录其他账号要用邮箱，那密码是用邮箱账号的密码吗？<br>
+密码和密钥是什么区别？<br>
+登录账号时可以用手机，（之前没有用手机注册过账号）直接填手机就可以吗？</p>
+<p>而且微软账号注册时可以用手机，可以发短信，但是填验证码后直接报错。我不知道是微软自己的毛病还是墙的原因。<br>
+Windows 11 Edge 首次使用时，不需要登录微软账号也可以使用，但该选项按钮的背景没有突出显示。</p>
+<p>问：密码可以输入中文吗，要不要切换输入法？<br>
+输入法现在是中文还是英文？<br>
+是可以看托盘图标，但对眼神不好的老人来说，太难看到了。</p>
+<p>问：字体大小在哪里改？设置从哪里进？调整缩放是否就可以调整字体大小？为什么最多只能调到175%，字体还不够大怎么办？<br>
+这些设置应该以最醒目、层级最少的方式优先显示。</p>
+<p>问：微信不是系统自带的吗？要怎么安装？上网用哪个？<br>
+系统默认浏览器 Edge 的名称是英文的，我只能用“那个绿色的 C”来称呼指代。<br>
+苹果你也别笑，Safari、App Store、iTunes 我妈也看不懂。<br>
+Edge 默认搜索引擎是百度，百度搜索“微信下载”第一个是“官方”认证，但可能错点进“官方”那个蓝色的图标。<br>
+微信下载页面有7种版本，前4个是 Android、iOS、Windows、macOS，对老人来说又全是英文。</p>
+<p>问：为什么屏幕下面的图标是单击打开，桌面的图标要双击打开，开始菜单里面的是单击，文件浏览器里面的要双击？什么时候单击，什么时候双击，有什么规律？</p>
+<p>问：说明书上写，“电脑产品皆为全新未拆封未激活，首次开机需要先连接电源适配器激活电池后才能正常开机启动”，要怎么激活电池，这个意思是先激活电池再开机吗？</p>
+<p>还有最经典也最常见的质问：<br>
+你给我弄的这些软件，为什么总是有英文，不能帮我全部改成中文的吗？<br>
+以前的那个电脑（初代上网本，华硕 EeePC，Win XP）多好用，新买的这些电脑都没那个好用！<br>
+为什么你在的时候就没问题，你一不在就各种问题都来了？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,217 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>电脑 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%94%B5%E8%84%91/</link>
     <description>Recent content in 电脑 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自用电脑方案</title>
-        <link>https://ioerr.github.io/posts/ziyong-diannao-fangan/</link>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyong-diannao-fangan/</guid>
-        <description>&lt;p&gt;近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。&lt;/p&gt;
-
-&lt;p&gt;之前的机器条件和使用环境是这样的：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台威联通 NAS 用于数据存储和备份&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;工作和自用需求有：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;需要处理、存储、管理大量照片&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;需要归档存储文档、书籍资料&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔要玩 PC 游戏，但对硬件配置要求不高&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;日常出行要能够随时处理公务&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;要方便工作时会议投影&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;电池续航时间长，在外充电方便&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔要处理视频&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔需要手绘&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最开始是考虑 iPad Pro、Surface 这类二合一平板设备。&lt;br /&gt;
-但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。&lt;br /&gt;
-Surface 性价比低，同样的价钱换来的性能太差，Pro 系列尺寸不算便携，Go 系列性能实在是不行。&lt;/p&gt;
-
-&lt;p&gt;然后是各种办公笔记本，MacBook、ThinkPad、联想小新等等，普遍的问题是屏幕尺寸太大不便携、配置稍微好一点就很贵。&lt;br /&gt;
-还考虑了 GPD 、壹号本等号称给网络工程师设计的口袋本，但一来价格也不低，二来对质量和售后不放心，三来有各种设计上的槽点无法接受。&lt;/p&gt;
-
-&lt;p&gt;接着又考虑 iPad mini 和三星 Galaxy Tab S 系列平板，综合考虑下来淘汰了三星平板，入手 iPad mini 6 64GB 版本，价格3400元左右。&lt;br /&gt;
-如此用远程桌面方式控制办公笔记本，或者连接云电脑，可以应急处理公务，同时满足读书、笔记、手绘功能。&lt;br /&gt;
-但性能方面仍然没有满足，由于网络时延影响，性能体验反而更差。&lt;br /&gt;
-在本地管理大量文件也不方便。&lt;/p&gt;
-
-&lt;p&gt;最终想到了一个可以兼顾各种需求，短板又不算很痛苦的方案：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小平板+小主机+原有笔记本+NAS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;小平板：iPad mini 6&lt;br /&gt;
-上面已经说了，随身携带很轻巧，虽然不如 Kindle 小巧，胜在阅读 PDF、epub 等通用格式，笔记记录、同步、导出更方便。&lt;br /&gt;
-作为随身的远程控制台，各方面都可以临时胜任，腾出 Kindle 给孩子看书用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;小主机：零刻 SER6 Pro&lt;br /&gt;
-买的时候7还没有上市，因此买的6 Pro 32GB 版本。&lt;br /&gt;
-CPU 性能、内存大小，办公绰绰有余，图片处理和中型游戏不在话下，视频处理能够胜任，能耗不算高，较大的缺点就是发热和风扇噪音无法兼顾。&lt;br /&gt;
-其实具体的配置不重要，根据需求选一个你觉得日常够用的随便什么机器就行。&lt;br /&gt;
-不用的时候进入低功耗状态，如果不幸死机无法唤醒，用米家应用控制小米智能插线板关电再强制重开机。&lt;br /&gt;
-另外购买一个 Ehomewei 的外接显示器，总投资在4000元左右。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;原有笔记本&lt;br /&gt;
-公司的笔记本继续发挥余热，一直丢在办公桌上就好，也不必24小时开机了。&lt;br /&gt;
-比 iPad mini 接口多，适合投影、外接设备，带着开会也不显眼。&lt;br /&gt;
-作为工作岗位上的远程控制台，原本捉襟见肘的性能就富余了。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;NAS&lt;br /&gt;
-没有开公网访问，与小主机在同一个网段网络，通过小主机传输文件。&lt;br /&gt;
-配置作为小主机的网络驱动器使用，指定盘符直接访问。&lt;br /&gt;
-Total Commander 管理文件；&lt;br /&gt;
-Everything 和 FileLocator Pro 用于快速搜索——威联通的搜索工具用不惯；&lt;br /&gt;
-Picasa 通过指定网络驱动器盘符实现索引、管理照片。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;其他投入&lt;br /&gt;
-加购一个罗技 M575 轨迹球，不到200元。&lt;br /&gt;
-办公室和家里各放一个，不用每天背着跑，进一步减轻负担。&lt;br /&gt;
-可移动可折叠升降电脑桌，不到600元，放外接显示器、键盘、轨迹球。&lt;br /&gt;
-试验了各种远程桌面工具，最终用 ZeroTier 搭建虚拟网络，用微软 Windows 自带的远程桌面作为主力。&lt;br /&gt;
-选择 Raylink、ToDesk、AnyDesk、向日葵等远程桌面工具作为备用。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;除了已有的设备外，以上总投入8300元以下。&lt;br /&gt;
-相比购买一个同等价位的高性能笔记本随身携带，背负压力少了很多；&lt;br /&gt;
-对远程接入终端的性能要求下降许多，性能较差的笔记本也能继续用下去；&lt;br /&gt;
-小主机接口更加丰富，同时续航时间长；&lt;br /&gt;
-大部分处理集中在一台电脑上，减少了程序安装、数据同步和切换场景；&lt;br /&gt;
-顺便满足了笔记、绘画的需求。&lt;/p&gt;
-
-&lt;p&gt;缺点主要是：&lt;br /&gt;
-小主机比笔记本电脑多出来的电费；&lt;br /&gt;
-网络质量差会影响体验，但因为不会远程玩时延要求高的大型游戏，影响不大；&lt;br /&gt;
-远程桌面连接不上的风险——大半年下来遇到过几次，所以准备了多个备用方案和应急处理方案，目前还没有被坑死过；&lt;br /&gt;
-远程桌面工具的网络安全隐患。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>人类最强大的工具</title>
-        <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
-        <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/songma/status/1600831363388944384&#34;&gt;Song Ma&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1600872615064653824&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我认为是广义的“语言”。&lt;br /&gt;
-语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。&lt;br /&gt;
-其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。&lt;/p&gt;
-
-&lt;p&gt;从这个角度看，电脑的信息沟通效率比人类高得多。&lt;br /&gt;
-不过电脑需要至少具备两个能力完全胜过人类：&lt;br /&gt;
-一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；&lt;br /&gt;
-第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>哪里不对劲</title>
-        <link>https://ioerr.github.io/posts/nali-bu-duijin/</link>
-        <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/nali-bu-duijin/</guid>
-        <description>&lt;p&gt;经过杀死数百亿人的试验后，人类终于设计出了比自身更加理性、高效、冷静的超级电脑来控制和安排生活中的一切。&lt;/p&gt;
-
-&lt;p&gt;某天，某人的生活因为一次错误计算而被彻底毁掉，但所有人都告诉他是他自己出了问题，因为历史证明发展到这一阶段的电脑不可能出错。&lt;/p&gt;
-
-&lt;p&gt;这一过程不断重复，直到只剩最后一个人时，他会说“哪里不对劲”吗？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>最佳演奏者</title>
-        <link>https://ioerr.github.io/posts/zuijia-yanzouzhe/</link>
-        <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zuijia-yanzouzhe/</guid>
-        <description>&lt;p&gt;如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。&lt;br /&gt;
-毕竟最厉害的人类也无法做到像电脑一样精确控制，分毫不差。&lt;/p&gt;
-
-&lt;p&gt;但我们仍会欣赏人类不完美的演奏，和即兴的不稳定发挥。&lt;br /&gt;
-而且，一支音乐作品的最佳版本往往不是严丝合缝、丝毫不差的那个，而是精确性让位于情感感染力的版本。&lt;/p&gt;
-
-&lt;p&gt;如果将乐谱看作显性知识，无法用符号表达创作者的完整意图，那么演奏时各种微妙的变化就是演奏者尝试领悟和演绎的隐性知识。&lt;br /&gt;
-最佳演奏者不是对照显性知识照本宣科，而是能在熟悉乐谱之后又超越它，直达创作者的意图。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>好习惯</title>
-        <link>https://ioerr.github.io/posts/hao-xiguan/</link>
-        <pubDate>Sun, 27 Apr 2008 14:11:52 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/hao-xiguan/</guid>
-        <description>&lt;p&gt;当修电脑的好人当久了之后，发现很多问题的发生其实不是因为电脑缺少什么 NB
-软硬件防护措施，也不是因为水平太菜，而在于使用者没有一种良好的使用习惯（而且通常不认为有必要改变）。&lt;br /&gt;
-其实如果能养成好习惯，会发现花费在维护上的时间越来越少——尤其是在国内这种时刻拿用户当傻瓜的互联网环境。&lt;/p&gt;
-
-&lt;p&gt;下面列举一下我认为使用电脑时有必要坚持的好习惯：&lt;br /&gt;
-1、一定要及时打上系统的补丁；&lt;br /&gt;
-2、如果有使用杀毒、防木马、防火墙等工具，一定要及时升级，不要认为只要开着就万事大吉；&lt;br /&gt;
-3、尽量使用非 IE
-内核、安全机制更让人放心的浏览器——就算“只是因为使用量小，不是众矢之的，所以才更加安全”，那毕竟也是更加安全啊；&lt;br /&gt;
-4、尽量使用正版、官方网站提供、有信誉而不是有名气的站点提供的程序，远离各种破解版、重新打包版、非官方增强版程序；&lt;br /&gt;
-5、安装应用程序的时候一定要多留个心眼，每一步都要仔细阅读提示信息；&lt;br /&gt;
-6、不要使用简单、重复、容易猜出来的密码和密码取回问题，也不要明文保存密码；&lt;br /&gt;
-7、便携存储设备给其他人使用的时候，如果不需要往里面写内容，记得打开写保护；&lt;br /&gt;
-8、IM 上看到的不熟悉的链接最好和对方确认以后再打开；&lt;br /&gt;
-9、看到界面花哨而混乱的网页一定要慎重点击链接，因为有故意误导浏览者的嫌疑；&lt;br /&gt;
-10、如果频繁出现的安全提示很烦人，最好是检查一下安全防护的设置，而不要图方便随便选择“确定”；&lt;br /&gt;
-11、定期清除临时文件和浏览器缓存；&lt;br /&gt;
-12、尽量不要把电脑给习惯不良的人使用，特别是你不在的时候；&lt;br /&gt;
-13、所有接触过你电脑的人都必须灭口。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自用电脑方案</title>
+      <link>https://ioerr.github.io/posts/ziyong-diannao-fangan/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyong-diannao-fangan/</guid>
+      <description>近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。 之前的机器条件和使用环境是这样的： 一台公司</description>
+      <content:encoded><![CDATA[<p>近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。</p>
+<p>之前的机器条件和使用环境是这样的：</p>
+<ul>
+<li>一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张</li>
+<li>一台威联通 NAS 用于数据存储和备份</li>
+<li>一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用</li>
+<li>一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件</li>
+<li>一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便</li>
+<li>笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事</li>
+<li>每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛</li>
+<li>通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除</li>
+</ul>
+<p>工作和自用需求有：</p>
+<ul>
+<li>需要处理、存储、管理大量照片</li>
+<li>需要归档存储文档、书籍资料</li>
+<li>偶尔要玩 PC 游戏，但对硬件配置要求不高</li>
+<li>日常出行要能够随时处理公务</li>
+<li>同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记</li>
+<li>要方便工作时会议投影</li>
+<li>电池续航时间长，在外充电方便</li>
+<li>偶尔要处理视频</li>
+<li>偶尔需要手绘</li>
+</ul>
+<p>最开始是考虑 iPad Pro、Surface 这类二合一平板设备。<br>
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。<br>
+Surface 性价比低，同样的价钱换来的性能太差，Pro 系列尺寸不算便携，Go 系列性能实在是不行。</p>
+<p>然后是各种办公笔记本，MacBook、ThinkPad、联想小新等等，普遍的问题是屏幕尺寸太大不便携、配置稍微好一点就很贵。<br>
+还考虑了 GPD 、壹号本等号称给网络工程师设计的口袋本，但一来价格也不低，二来对质量和售后不放心，三来有各种设计上的槽点无法接受。</p>
+<p>接着又考虑 iPad mini 和三星 Galaxy Tab S 系列平板，综合考虑下来淘汰了三星平板，入手 iPad mini 6 64GB 版本，价格3400元左右。<br>
+如此用远程桌面方式控制办公笔记本，或者连接云电脑，可以应急处理公务，同时满足读书、笔记、手绘功能。<br>
+但性能方面仍然没有满足，由于网络时延影响，性能体验反而更差。<br>
+在本地管理大量文件也不方便。</p>
+<p>最终想到了一个可以兼顾各种需求，短板又不算很痛苦的方案：</p>
+<p><strong>小平板+小主机+原有笔记本+NAS</strong></p>
+<ul>
+<li>
+<p>小平板：iPad mini 6<br>
+上面已经说了，随身携带很轻巧，虽然不如 Kindle 小巧，胜在阅读 PDF、epub 等通用格式，笔记记录、同步、导出更方便。<br>
+作为随身的远程控制台，各方面都可以临时胜任，腾出 Kindle 给孩子看书用。</p>
+</li>
+<li>
+<p>小主机：零刻 SER6 Pro<br>
+买的时候7还没有上市，因此买的6 Pro 32GB 版本。<br>
+CPU 性能、内存大小，办公绰绰有余，图片处理和中型游戏不在话下，视频处理能够胜任，能耗不算高，较大的缺点就是发热和风扇噪音无法兼顾。<br>
+其实具体的配置不重要，根据需求选一个你觉得日常够用的随便什么机器就行。<br>
+不用的时候进入低功耗状态，如果不幸死机无法唤醒，用米家应用控制小米智能插线板关电再强制重开机。<br>
+另外购买一个 Ehomewei 的外接显示器，总投资在4000元左右。</p>
+</li>
+<li>
+<p>原有笔记本<br>
+公司的笔记本继续发挥余热，一直丢在办公桌上就好，也不必24小时开机了。<br>
+比 iPad mini 接口多，适合投影、外接设备，带着开会也不显眼。<br>
+作为工作岗位上的远程控制台，原本捉襟见肘的性能就富余了。</p>
+</li>
+<li>
+<p>NAS<br>
+没有开公网访问，与小主机在同一个网段网络，通过小主机传输文件。<br>
+配置作为小主机的网络驱动器使用，指定盘符直接访问。<br>
+Total Commander 管理文件；<br>
+Everything 和 FileLocator Pro 用于快速搜索——威联通的搜索工具用不惯；<br>
+Picasa 通过指定网络驱动器盘符实现索引、管理照片。</p>
+</li>
+<li>
+<p>其他投入<br>
+加购一个罗技 M575 轨迹球，不到200元。<br>
+办公室和家里各放一个，不用每天背着跑，进一步减轻负担。<br>
+可移动可折叠升降电脑桌，不到600元，放外接显示器、键盘、轨迹球。<br>
+试验了各种远程桌面工具，最终用 ZeroTier 搭建虚拟网络，用微软 Windows 自带的远程桌面作为主力。<br>
+选择 Raylink、ToDesk、AnyDesk、向日葵等远程桌面工具作为备用。</p>
+</li>
+</ul>
+<p>除了已有的设备外，以上总投入8300元以下。<br>
+相比购买一个同等价位的高性能笔记本随身携带，背负压力少了很多；<br>
+对远程接入终端的性能要求下降许多，性能较差的笔记本也能继续用下去；<br>
+小主机接口更加丰富，同时续航时间长；<br>
+大部分处理集中在一台电脑上，减少了程序安装、数据同步和切换场景；<br>
+顺便满足了笔记、绘画的需求。</p>
+<p>缺点主要是：<br>
+小主机比笔记本电脑多出来的电费；<br>
+网络质量差会影响体验，但因为不会远程玩时延要求高的大型游戏，影响不大；<br>
+远程桌面连接不上的风险——大半年下来遇到过几次，所以准备了多个备用方案和应急处理方案，目前还没有被坑死过；<br>
+远程桌面工具的网络安全隐患。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>人类最强大的工具</title>
+      <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
+      <description>Song Ma： 开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/songma/status/1600831363388944384">Song Ma</a>：</p>
+<p>开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。</p>
+<p><a href="https://twitter.com/calon/status/1600872615064653824">Calon</a>：</p>
+<p>我认为是广义的“语言”。<br>
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。<br>
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。</p>
+<p>从这个角度看，电脑的信息沟通效率比人类高得多。<br>
+不过电脑需要至少具备两个能力完全胜过人类：<br>
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；<br>
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>哪里不对劲</title>
+      <link>https://ioerr.github.io/posts/nali-bu-duijin/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/nali-bu-duijin/</guid>
+      <description>经过杀死数百亿人的试验后，人类终于设计出了比自身更加理性、高效、冷静的超级电脑来控制和安排生活中的一切。 某天，某人的生活因为一次错误计算而被</description>
+      <content:encoded><![CDATA[<p>经过杀死数百亿人的试验后，人类终于设计出了比自身更加理性、高效、冷静的超级电脑来控制和安排生活中的一切。</p>
+<p>某天，某人的生活因为一次错误计算而被彻底毁掉，但所有人都告诉他是他自己出了问题，因为历史证明发展到这一阶段的电脑不可能出错。</p>
+<p>这一过程不断重复，直到只剩最后一个人时，他会说“哪里不对劲”吗？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最佳演奏者</title>
+      <link>https://ioerr.github.io/posts/zuijia-yanzouzhe/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zuijia-yanzouzhe/</guid>
+      <description>如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。 毕竟最厉害的人类也无法做到像电脑一样</description>
+      <content:encoded><![CDATA[<p>如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。<br>
+毕竟最厉害的人类也无法做到像电脑一样精确控制，分毫不差。</p>
+<p>但我们仍会欣赏人类不完美的演奏，和即兴的不稳定发挥。<br>
+而且，一支音乐作品的最佳版本往往不是严丝合缝、丝毫不差的那个，而是精确性让位于情感感染力的版本。</p>
+<p>如果将乐谱看作显性知识，无法用符号表达创作者的完整意图，那么演奏时各种微妙的变化就是演奏者尝试领悟和演绎的隐性知识。<br>
+最佳演奏者不是对照显性知识照本宣科，而是能在熟悉乐谱之后又超越它，直达创作者的意图。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>好习惯</title>
+      <link>https://ioerr.github.io/posts/hao-xiguan/</link>
+      <pubDate>Sun, 27 Apr 2008 14:11:52 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/hao-xiguan/</guid>
+      <description>当修电脑的好人当久了之后，发现很多问题的发生其实不是因为电脑缺少什么 NB 软硬件防护措施，也不是因为水平太菜，而在于使用者没有一种良好的使用习惯</description>
+      <content:encoded><![CDATA[<p>当修电脑的好人当久了之后，发现很多问题的发生其实不是因为电脑缺少什么 NB<br>
+软硬件防护措施，也不是因为水平太菜，而在于使用者没有一种良好的使用习惯（而且通常不认为有必要改变）。<br>
+其实如果能养成好习惯，会发现花费在维护上的时间越来越少——尤其是在国内这种时刻拿用户当傻瓜的互联网环境。</p>
+<p>下面列举一下我认为使用电脑时有必要坚持的好习惯：<br>
+1、一定要及时打上系统的补丁；<br>
+2、如果有使用杀毒、防木马、防火墙等工具，一定要及时升级，不要认为只要开着就万事大吉；<br>
+3、尽量使用非 IE<br>
+内核、安全机制更让人放心的浏览器——就算“只是因为使用量小，不是众矢之的，所以才更加安全”，那毕竟也是更加安全啊；<br>
+4、尽量使用正版、官方网站提供、有信誉而不是有名气的站点提供的程序，远离各种破解版、重新打包版、非官方增强版程序；<br>
+5、安装应用程序的时候一定要多留个心眼，每一步都要仔细阅读提示信息；<br>
+6、不要使用简单、重复、容易猜出来的密码和密码取回问题，也不要明文保存密码；<br>
+7、便携存储设备给其他人使用的时候，如果不需要往里面写内容，记得打开写保护；<br>
+8、IM 上看到的不熟悉的链接最好和对方确认以后再打开；<br>
+9、看到界面花哨而混乱的网页一定要慎重点击链接，因为有故意误导浏览者的嫌疑；<br>
+10、如果频繁出现的安全提示很烦人，最好是检查一下安全防护的设置，而不要图方便随便选择“确定”；<br>
+11、定期清除临时文件和浏览器缓存；<br>
+12、尽量不要把电脑给习惯不良的人使用，特别是你不在的时候；<br>
+13、所有接触过你电脑的人都必须灭口。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

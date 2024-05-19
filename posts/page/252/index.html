@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 读写错误">
+<meta name="author" content="">
+<link rel="canonical" href="https://ioerr.github.io/posts/">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://ioerr.github.io/posts/index.xml">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ioerr.github.io/posts/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">生活中的十多个东西
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Datou@2Simple 列了“生活中的十个东东”。我也凑个热闹，不过不止10个，为什么一定要是10个呢？ 书：人生一大乐趣，不可或缺。－－附带需要的物品：书柜、台灯...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-31 14:20:22 +0000 +0000'>2005-1-31</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 生活中的十多个东西" href="https://ioerr.github.io/posts/shenghuozhongde-shiduoge-dongxi/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">《艺术哲学》摘抄 \#8
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>同样，在哲学和科学方面，他们也只愿意摘取事物的精华。他们绝对没有近代学者的牺牲精神，肯把所有的才智用来阐明考据学上的一个暧昧的问题，花十年功...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-24 13:49:28 +0000 +0000'>2005-1-24</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 《艺术哲学》摘抄 \#8" href="https://ioerr.github.io/posts/yishu-zhexue-zhaichao-8/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">8名中国人质获释
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>8名中国人质终于获释，值得庆幸。 呵呵，不过你不属于这种人，你只是爱伊拉克罢了，伊拉克人杀了中国人，你一样会继续爱的 印度洋地震海啸确认死亡的人...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-23 13:45:36 +0000 +0000'>2005-1-23</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 8名中国人质获释" href="https://ioerr.github.io/posts/8min-zhongguo-renzhi-huoshi/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pasteright
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ming Shen 在智识上提到，Grassroots 翻译为“草根”属于望文生义的错误译法，同时提到 Copyright 的直接译法乃是“复制权”。于是想到，以前使用 DOS，在...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-20 13:40:25 +0000 +0000'>2005-1-20</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to Pasteright" href="https://ioerr.github.io/posts/pasteright/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">8名中国人在伊拉克成为人质
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>但愿早日通过当地伊斯兰教长老会进行沟通并解决这个问题，先让人质们平安回家吧。 那些说“死了活该”，或者说“福建人给中国人丢脸”的国人，等自己陷...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-20 12:57:59 +0000 +0000'>2005-1-20</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 8名中国人在伊拉克成为人质" href="https://ioerr.github.io/posts/8min-zhongguoren-zai-yilake-chengwei-renzhi/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://ioerr.github.io/posts/page/251/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://ioerr.github.io/posts/page/253/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

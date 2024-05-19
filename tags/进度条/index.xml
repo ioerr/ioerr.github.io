@@ -1,59 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>进度条 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/</link>
     <description>Recent content in 进度条 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 03 Sep 2010 07:47:58 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>电梯的可用性</title>
-        <link>https://ioerr.github.io/posts/dianti-de-keyongxing/</link>
-        <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dianti-de-keyongxing/</guid>
-        <description>&lt;p&gt;Datou
-在《&lt;a href=&#34;http://2simple.cn/2010/09/%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7%e9%97%ae%e9%a2%98.htm&#34;&gt;电梯的可用性问题&lt;/a&gt;》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，没去他想去的地方，他很茫然。”&lt;/p&gt;
-
-&lt;p&gt;类似这样的情形我也看到过多次，通常是使用者正在干其他事情（比如接电话）时发生的，他在那一刻想的不是要“去下面的楼层”，而是想“控制电梯下来”载人上去，如果不是正忙着其他事情，根本不会搞错。也许，这说明电梯的操作方法还是经过学习和适应养成的，到了非常时刻，便会败给最直接的下意识。&lt;/p&gt;
-
-&lt;p&gt;Datou
-提出了如何优化电梯可用性的问题，我的想法是，冗余的信息是扰乱用户的原因之一：&lt;br /&gt;
-用户关心的不是电梯在哪一层，也不必要计算出和他所在楼层的相对位置，他只需要关心电梯离自己有多远（其实关注的是电梯多久可以来到这一层，但是时间不好估计，除非电梯控制中心能够知道所有等待和使用电梯的人的目标楼层）。&lt;/p&gt;
-
-&lt;p&gt;比如说，用户在6楼等电梯时，电梯正从1楼向上走和电梯正从11楼向下走，对他来说都是一样的，他只要知道电梯正在向他走并且还差5层楼的距离就可以了，为什么要被更多的定位信息烦扰呢，电梯检修人员开门检修的时候才需要知道这些吧？&lt;/p&gt;
-
-&lt;p&gt;效果图就是这样的：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2c9637db.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2c9637db.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;但是仍有几个问题：&lt;br /&gt;
-1、挑战长久以来的使用习惯。&lt;br /&gt;
-不管原有的设计如何不合理，只要大多数用户已经习惯了，那么任何大的改变都可能失败，何况目前电梯的操作相对已经很合理了。&lt;/p&gt;
-
-&lt;p&gt;2、用户可能被信息缺失恐惧感打败。&lt;br /&gt;
-即使不知道电梯所在楼层不是什么大事，用户还是可能因此惊恐抓狂，捶打着墙壁哀嚎，带着哭腔质问：电梯怎么弄丢了？！&lt;/p&gt;
-
-&lt;p&gt;3、并不是完全没有损失。&lt;br /&gt;
-通过楼层数字显示可以（让用户以为能）估算出到达的时间，用进度条就不好估算了，因为没有与现实对象的映射。&lt;br /&gt;
-如果用文字告诉用户进度条上的每个进度格指代的是楼层的差距，那么习惯了楼层用数字展示的用户还需要重新学习和适应。&lt;/p&gt;
-
-&lt;p&gt;4、电梯从楼下跑到了楼上，却不在本层停下，进度条该怎么显示？&lt;br /&gt;
-这个问题好办，进度条增长到还差一格就不必动了，如果电梯继续远离，进度条就可以缩了。&lt;/p&gt;
-
-&lt;p&gt;5、不同楼层的进度条要统一。&lt;br /&gt;
-要么外观统一，进度格数量一致，这样进度格与楼层数就不是一一对应了；&lt;br /&gt;
-要么外观不统一，顶楼、底楼的进度条最长，中间楼层的进度条最短，但建设成本会提高。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%BF%9B%E5%BA%A6%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电梯的可用性</title>
+      <link>https://ioerr.github.io/posts/dianti-de-keyongxing/</link>
+      <pubDate>Fri, 03 Sep 2010 07:47:58 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dianti-de-keyongxing/</guid>
+      <description>Datou 在《电梯的可用性问题》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，</description>
+      <content:encoded><![CDATA[<p>Datou<br>
+在《<a href="http://2simple.cn/2010/09/%e7%94%b5%e6%a2%af%e7%9a%84%e5%8f%af%e7%94%a8%e6%80%a7%e9%97%ae%e9%a2%98.htm">电梯的可用性问题</a>》中提到“经常会发现有人按“↓”，他不是要去地下车库，他想让电梯下来，进入电梯之后他开始按想去的楼层，但是电梯往下走，没去他想去的地方，他很茫然。”</p>
+<p>类似这样的情形我也看到过多次，通常是使用者正在干其他事情（比如接电话）时发生的，他在那一刻想的不是要“去下面的楼层”，而是想“控制电梯下来”载人上去，如果不是正忙着其他事情，根本不会搞错。也许，这说明电梯的操作方法还是经过学习和适应养成的，到了非常时刻，便会败给最直接的下意识。</p>
+<p>Datou<br>
+提出了如何优化电梯可用性的问题，我的想法是，冗余的信息是扰乱用户的原因之一：<br>
+用户关心的不是电梯在哪一层，也不必要计算出和他所在楼层的相对位置，他只需要关心电梯离自己有多远（其实关注的是电梯多久可以来到这一层，但是时间不好估计，除非电梯控制中心能够知道所有等待和使用电梯的人的目标楼层）。</p>
+<p>比如说，用户在6楼等电梯时，电梯正从1楼向上走和电梯正从11楼向下走，对他来说都是一样的，他只要知道电梯正在向他走并且还差5层楼的距离就可以了，为什么要被更多的定位信息烦扰呢，电梯检修人员开门检修的时候才需要知道这些吧？</p>
+<p>效果图就是这样的：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2c9637db.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2c9637db.png" alt="Photobucket"  />
+</a></p>
+<p>但是仍有几个问题：<br>
+1、挑战长久以来的使用习惯。<br>
+不管原有的设计如何不合理，只要大多数用户已经习惯了，那么任何大的改变都可能失败，何况目前电梯的操作相对已经很合理了。</p>
+<p>2、用户可能被信息缺失恐惧感打败。<br>
+即使不知道电梯所在楼层不是什么大事，用户还是可能因此惊恐抓狂，捶打着墙壁哀嚎，带着哭腔质问：电梯怎么弄丢了？！</p>
+<p>3、并不是完全没有损失。<br>
+通过楼层数字显示可以（让用户以为能）估算出到达的时间，用进度条就不好估算了，因为没有与现实对象的映射。<br>
+如果用文字告诉用户进度条上的每个进度格指代的是楼层的差距，那么习惯了楼层用数字展示的用户还需要重新学习和适应。</p>
+<p>4、电梯从楼下跑到了楼上，却不在本层停下，进度条该怎么显示？<br>
+这个问题好办，进度条增长到还差一格就不必动了，如果电梯继续远离，进度条就可以缩了。</p>
+<p>5、不同楼层的进度条要统一。<br>
+要么外观统一，进度格数量一致，这样进度格与楼层数就不是一一对应了；<br>
+要么外观不统一，顶楼、底楼的进度条最长，中间楼层的进度条最短，但建设成本会提高。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

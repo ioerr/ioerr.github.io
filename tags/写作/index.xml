@@ -1,769 +1,436 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>写作 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%86%99%E4%BD%9C/</link>
     <description>Recent content in 写作 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>写作风格应该追求简洁还是复杂？</title>
-        <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
-        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/baibanbaonet/status/1751815054960234541&#34;&gt;白板报&lt;/a&gt;：&lt;br /&gt;
-自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1751816921945960449&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。&lt;br /&gt;
-其实风格还在其次，最重要的是真诚。&lt;br /&gt;
-追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。&lt;/p&gt;
-
-&lt;p&gt;白板报：&lt;br /&gt;
-这点恕不能完全同意。文字的作用之一是掩饰。&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>从童话开始的回忆和讨论</title>
-        <link>https://ioerr.github.io/posts/cong-tonghua-kaishi-de-huiyi-he-taolun/</link>
-        <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/cong-tonghua-kaishi-de-huiyi-he-taolun/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我女儿刚刚跟我说 妈妈白雪公主的后妈因为生气一口气没上来就死了 所以你不要生气[发抖]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;赵明华：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你和她说，这个规则只针对后妈有效[呲牙][呲牙][呲牙]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我现在觉得，要少给孩子们看灰姑娘，白雪公女主这类的童话&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;安非他明：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈哈笑死了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;尤其是女孩子&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;影响认知&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;格林童话里好多开膛剖肚的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;好像是的。。。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;芭比故事里整天不学习不工作谈恋爱&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;23333&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我家芭比有七八个 现在要求我给她买个芭比的男朋友&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我也在苦恼～我家的喜欢的都是长发公主睡美人芭比&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;静静这么小孩子就知道女人也可以睡女人了啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;你们的成长教育是不是着急了些&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;长发公主～睡美人公主～芭比娃娃[捂脸]@JediChang&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;迪斯尼公主童话里面很多都是亲妈死了有后妈[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我也是纳闷了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我家小时候还问过我 白雪公主灰姑娘的妈妈都去世了 那我的妈妈呢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[皱眉]这是盼着后妈来虐待啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;还是说觉得你就是后妈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不如自己写&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;现在好的绘本还是很多的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;要把把关&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;小时候最喜欢的童话故事是夏洛的网、小飞人卡尔松、时代广场的蟋蟀，好像都是比较现代的故事了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我最喜欢的故事是郑渊洁的幻影号&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;幻影号超帅啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;幻影号没什么印象了，郑渊洁的故事除了舒克贝塔外，印象最深的是飞马牌汽车&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;@有害书籍爱好者 我也喜欢夏洛的网～很温暖的故事&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;飞马牌汽车当年可以在二环上不间断的形式&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;现在估计除了飞没有办法实现了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;二环应该也不让飞，飞起来安全隐患太大&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;飞马牌汽车我记忆不深刻，幻影号我记得&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;还有一个随风飘来的玛丽波萍斯阿姨我也记得&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;老郑其实一直是十八禁写手，用童话遮蔽了自己的真面目&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;到后期就有点血腥了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;十二生肖系列里面有一集是将女反派剥光了传送进一个满是蛆的大箱子折磨她，看的时候觉得郑渊洁应该有些变态的嗜好，那个时候竟然可以在童话书中正常出版也是奇迹。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;好像还有配图&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;啊～我怎么不记得这个故事&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我记得都是蛇王淘金&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;虎王下山之类的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;都是短篇吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我光记得猴王了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但最好玩的还是幻影号&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;跟现在的小说一脉相承&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;什么随身带个异次元空间啥的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;大批运钱吧？&amp;rdquo;断体夫人对花生米说。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;行，现在开始，最好直接运到放钱的地方，省得搬来搬去。&amp;rdquo;花生米说。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;也对，咱们到保险室去。&amp;rdquo;断体夫人站起来。&lt;/p&gt;
-
-&lt;p&gt;　　花生米跟着断体夫人来到一间墙壁很厚装着铁门的房间里。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;您就在这儿收钱吧！&amp;rdquo;花生米突然走出房间，把铁门关上了。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;混蛋，小兔崽子你要干什么？&amp;rdquo;断体夫人在屋里骂。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;我给她运点儿她最喜欢的东西。&amp;rdquo;力力士说。&lt;/p&gt;
-
-&lt;p&gt;　　几百万只蛆被力力士运进了断体夫人的保险室，它们埋没了断体夫人的全身，只剩下她的头露在外边。蛆们蠕动着柔软的身体像找到了久别的亲人似的在断体夫人身上撒娇争宠。&lt;/p&gt;
-
-&lt;p&gt;　　&amp;rdquo;让她在这儿欢聚一堂吧，咱们先去收拾她的党羽。&amp;rdquo;力力士说。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;机器猴传奇里面的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;当年那阵子气功特别流行 ，隔空搬运是每个大师的基本功&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JediChang：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这里也看到了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;虎王传奇里面有个故事是身体变小的，和机器猫有一集变小了打海战有异曲同工之妙，看的时候挺羡慕的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;　　半小时后，全国各大报刊都在头版头条位置刊登了绣花党倾巢覆灭的消息，还说绣花党党员全部变成了植物人，医院立刻变成了监狱。医院院长不愿改行当监狱长提出辞职可总统不批。&lt;/p&gt;
-
-&lt;p&gt;　　断体夫人落了终生与蛆为伍的下场，她的这间保险室被力力士特意运到一座无人问津的森林里。她享受着和蛆生活在一起却时刻想着煮衣服的乐趣。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;郑的故事里面经常出现小孩子发现了反常的奇迹而大人都不相信的桥段，小孩子看了会觉得大人怎么都不相信孩子呢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是郑渊洁童话？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我怎么从没看过&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;然后是靠超能力主持正义终极制裁&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;郑的童话小时候最喜欢的，应该是红沙发音乐成&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我正要说还有红沙发音乐城[微笑]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以我反而特别喜欢飞马牌汽车这种面对尴尬的现实充满无奈的讽刺幽默风格。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这类我小时候看不懂&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;蒋静：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;和夏洛的网一套系列的还有 长袜子皮皮 我也喜欢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;飞向人马座&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我也很喜欢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不过这是初中了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;小学5，6年级第一次看到尼罗河女儿&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;被打开了日漫点大门&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;女神的圣斗士，七龙珠，阿拉蕾&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;北斗神拳，婆娑罗&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我五年级被圣斗士和七龙珠打开了日漫的大门&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;幽游白书&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;印象深刻的还有一本德国的童话《嫫嫫》，小女孩对抗偷窃时间的灰先生的故事，一开始愣是没看懂，行文叙事也不是惯常的童话风格。后来多看几遍才看懂。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;幽游白书是我最喜欢的漫画&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有一本对我影像远大漫画&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;足球小将…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;觉得足球小将太假就弃了[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;曾经有段时间每天去晨跑的时候是踢着足球去的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;奈何实在无天赋，自从带着足球，就没怎么顺利跑完过贺龙体育馆[发抖]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;后来作者果然承认他不懂足球[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;就是很励志吧&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一开始练带球还是要慢慢来，不用急&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;夏洛的网长大了看了电影才知道&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;很好看&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;很温暖&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我是真的看哭了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;电影还没看过[发呆]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;后来才知道夏洛的网是E.B.怀特写的，难怪这么好看&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不记得具体情节了，只记得看完的感受&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这也是人脑记忆的一个特征，记感受和记细节用的不同机制&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;为什么？他还写了什么？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;飞马牌汽车的幽默讽刺印象超深。红沙发音乐城则是标准的美丽童话。都很好看啊&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;恩，飞马牌我完全不记得了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;红沙发很喜欢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;当时看到就不忍释卷&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;因为后来看了一本风格的要素&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他是主要作者&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在邻居家看到的，然后就每天去她家报道直到把书看完&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;突然想起十万个为什么也是在她家看完的[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一查作者信息，夏洛的网就蹦出来了，感觉好奇妙&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;风格的要素？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;讲些做的吗&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;郑渊洁的大部分故事都很喜欢。&lt;br /&gt;
-机器猴，蛇王，龙珠都是一个版本的，满足儿童的愿望&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这些我都不太喜欢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的，经典的英文写作指南&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;曾经想买他后来推出的全集，发现太贵了[尴尬]&lt;br /&gt;
-而且越来越多&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;前段时间翻了一下海明威的老人与海&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;郑渊洁高产似母猪[捂脸]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;译文&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;怀疑那个时候郑渊洁就有写手工作室模式了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;最早看的是一个小熊的，好像叫朱塔？&lt;br /&gt;
-还有魔方大厦看的小人书&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;瞬间喜欢上他的行文方式&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;再就是舒克贝塔开始了&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对啊，还有魔方大厦&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;舒克贝塔也是&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;喜欢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但都不及红沙发&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;是的。他的行为超牛，既灌了水还有内容。那种不加标点的排比长句[呲牙]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;干净，透彻&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小呆：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;行文&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;说老人的样子如何衰老，眼睛却是海一样的蓝&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;说他睡着了的时候如何破败，睁开眼却像刚刚从远方旅行回来&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;怀特的风格的要素和福塞尔的格调、恶俗，安兰德的源泉、阿特拉斯耸耸肩配合食用，堪称装逼文风的照妖镜，虽然安兰德自己也挺喜欢装的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有害书籍爱好者：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;然后就会觉得海明威的文风真牛逼，虽然海明威在生活中也是装逼大师。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈哈哈哈哈哈&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我小时候郑渊洁好像只看过书克贝塔&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;现在市面上流行马小跳系列故事&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我给我闺女买了一套 结果后来有文章出来批评&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;后来有学生跟我说他们看的时候根本想不到这么多&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;带着批判的眼光去看，当然全是问题&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;小朋友看的时候可能只会觉得热闹好玩&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;就像段子里说的，新华字典纯粹就是小黄书&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camille：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我是这么觉得的，但是也担心对他们的认知会有潜在影响&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;安非他明：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;郑渊洁童话，没收全，也没看呢&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;安非他明：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;就是童年的念想&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;恩&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;后来订了童话大王&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;不余。：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[捂脸]初中时的愿望就是收集郑渊洁全套，去皮皮鲁大厦玩&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;猫行天下@程序员客栈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;哈哈哈哈哈&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Pandoc &amp; Markdown</title>
-        <link>https://ioerr.github.io/posts/pandoc-markdown/</link>
-        <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
-        <description>&lt;p&gt;实在不明白为什么很多人需要编辑器有 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 实时预览功能。
-&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。&lt;/p&gt;
-
-&lt;p&gt;如果需要预览才能用好，那是否说明 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 还不够简单、直观？&lt;/p&gt;
-
-&lt;p&gt;我使用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 的次数不多，因为 &lt;a href=&#34;http://www.vim.org/&#34;&gt;Vim&lt;/a&gt; + HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;如果要用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;，我一般会通过 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 转换输出为 HTML 再发布，这样不管是不支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 语法的，还是支持 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 &lt;a href=&#34;https://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 等平台上，当然还是用 HTML 比较通用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的一大好处是支持的输入输出格式极为丰富，简单的东西用 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。
-其次是可以自定义的参数一大堆，比如 &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 中要求行末加双空格才转为换行，&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 用 markdown+hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。&lt;/p&gt;
-
-&lt;p&gt;如果配合 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 使用，安装 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 后可以在工具栏中增加 &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt; 的快捷图标，参数栏中写上：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;-f markdown+hard_line_breaks %N -o %O.html
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。&lt;/p&gt;
-
-&lt;p&gt;不使用 &lt;a href=&#34;http://www.ghisler.com/&#34;&gt;Total Commander&lt;/a&gt; 也可以自己写个脚本或批处理干这事。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>最简便的内容发布方案</title>
-        <link>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</link>
-        <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
-        <description>
-
-&lt;p&gt;宣传、推广 Markdown
-标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。&lt;/p&gt;
-
-&lt;p&gt;比如说我们使用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
-发布文章，至少要有这么几步：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;登录（假设自动登录并直接跳转到发布页面）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;编辑标题（可以省略，但严肃的作者通常不会忽视标题）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;撰写正文（或复制粘贴已经准备好的内容）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;发布（如果不放心还要打开文章页面看看效果）&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这还不包括选择类别、增加标签、设置 post slug 等操作。&lt;/p&gt;
-
-&lt;h3 id=&#34;邮件发布&#34;&gt;邮件发布&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的 &lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
-插件包中有 &lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Post By Email&lt;/a&gt;
-功能，&lt;a href=&#34;http://www.tumblr.com/&#34;&gt;Tumblr&lt;/a&gt;
-等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。&lt;br /&gt;
-如果习惯邮件发布的话，&lt;a href=&#34;http://jetpack.me/&#34;&gt;Jetpack&lt;/a&gt;
-是不错的选择，因为能支持大多数参数设置。&lt;br /&gt;
-不过使用邮件发布的用户始终是少数。&lt;/p&gt;
-
-&lt;h3 id=&#34;编辑&#34;&gt;编辑&lt;/h3&gt;
-
-&lt;p&gt;要是文章发布后不满意又要修改呢？还是至少要经过以下步骤：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;登录&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;跳转到所有文章列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;定位到要修改的文章&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;修改正文（或者复制粘贴已经修改好的内容）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;发布更新&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。&lt;/p&gt;
-
-&lt;p&gt;如果网站的编辑功能还不够完善呢？&lt;br /&gt;
-比如说不支持更好用的 [Markdown]
-扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……&lt;br /&gt;
-在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的
-&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8621&#34;&gt;Windows Live
-Writer&lt;/a&gt;、&lt;a href=&#34;http://www.zoundry.com/download.html&#34;&gt;Zoundry
-Raven&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&#34;内容迁移&#34;&gt;内容迁移&lt;/h3&gt;
-
-&lt;p&gt;如果还考虑内容迁移呢？&lt;br /&gt;
-后台不同的导出、格式转换、导入有多麻烦就不说了（当年汉字编码的转换就害死不少人），很多内容发布平台根本就不提供完整的导入、导出功能，而且导出来的也许是各种不好读的格式。&lt;/p&gt;
-
-&lt;h3 id=&#34;理想方案&#34;&gt;理想方案&lt;/h3&gt;
-
-&lt;p&gt;有没有一个服务能结合
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt; +
-&lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;/&lt;a href=&#34;https://readthedocs.org/&#34;&gt;Read the Docs&lt;/a&gt;
-并继续扩展呢？&lt;/p&gt;
-
-&lt;p&gt;写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；&lt;br /&gt;
-格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word
-Docs 都适用；&lt;br /&gt;
-写完了复制到某个指定文件夹就是发布，这个文件夹类似于
-&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;Dropbox&lt;/a&gt;/&lt;a href=&#34;https://www.box.com/&#34;&gt;Box&lt;/a&gt;
-的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；&lt;br /&gt;
-标题就是文件名，post slug 在文件名中的括号中指定，或者参考
-&lt;a href=&#34;http://jetpack.me/support/post-by-email/&#34;&gt;Jetpack&lt;/a&gt; 的标签参数；&lt;br /&gt;
-修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；&lt;br /&gt;
-要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment
-的超文本或文本格式文件，其中就是留言内容。&lt;/p&gt;
-
-&lt;p&gt;这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写作风格应该追求简洁还是复杂？</title>
+      <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
+      <description>白板报： 自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/baibanbaonet/status/1751815054960234541">白板报</a>：<br>
+自从 Strunk &amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。</p>
+<p><a href="https://twitter.com/calon/status/1751816921945960449">Calon</a>：<br>
+对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。<br>
+其实风格还在其次，最重要的是真诚。<br>
+追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。</p>
+<p>白板报：<br>
+这点恕不能完全同意。文字的作用之一是掩饰。</p>
+<p>Calon：<br>
+有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>从童话开始的回忆和讨论</title>
+      <link>https://ioerr.github.io/posts/cong-tonghua-kaishi-de-huiyi-he-taolun/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/cong-tonghua-kaishi-de-huiyi-he-taolun/</guid>
+      <description>Camille： 我女儿刚刚跟我说 妈妈白雪公主的后妈因为生气一口气没上来就死了 所以你不要生气[发抖] 赵明华： 你和她说，这个规则只针对后妈有效[</description>
+      <content:encoded><![CDATA[<p><strong>Camille：</strong></p>
+<p>我女儿刚刚跟我说 妈妈白雪公主的后妈因为生气一口气没上来就死了 所以你不要生气[发抖]</p>
+<p><strong>赵明华：</strong></p>
+<p>你和她说，这个规则只针对后妈有效[呲牙][呲牙][呲牙]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我现在觉得，要少给孩子们看灰姑娘，白雪公女主这类的童话</p>
+<p><strong>安非他明：</strong></p>
+<p>哈哈哈哈哈哈哈笑死了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>尤其是女孩子</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>影响认知</p>
+<p><strong>Camille：</strong></p>
+<p>格林童话里好多开膛剖肚的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>好像是的。。。</p>
+<p><strong>Camille：</strong></p>
+<p>芭比故事里整天不学习不工作谈恋爱</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>23333</p>
+<p><strong>Camille：</strong></p>
+<p>我家芭比有七八个 现在要求我给她买个芭比的男朋友</p>
+<p><strong>蒋静：</strong></p>
+<p>我也在苦恼～我家的喜欢的都是长发公主睡美人芭比</p>
+<p><strong>JediChang：</strong></p>
+<p>静静这么小孩子就知道女人也可以睡女人了啊</p>
+<p><strong>JediChang：</strong></p>
+<p>你们的成长教育是不是着急了些</p>
+<p><strong>蒋静：</strong></p>
+<p>长发公主～睡美人公主～芭比娃娃[捂脸]@JediChang</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈哈哈哈哈哈哈</p>
+<p><strong>蒋静：</strong></p>
+<p>迪斯尼公主童话里面很多都是亲妈死了有后妈[捂脸]</p>
+<p><strong>蒋静：</strong></p>
+<p>我也是纳闷了</p>
+<p><strong>Camille：</strong></p>
+<p>我家小时候还问过我 白雪公主灰姑娘的妈妈都去世了 那我的妈妈呢</p>
+<p><strong>不余。：</strong></p>
+<p>[皱眉]这是盼着后妈来虐待啊</p>
+<p><strong>不余。：</strong></p>
+<p>还是说觉得你就是后妈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>不如自己写</p>
+<p><strong>Camille：</strong></p>
+<p>现在好的绘本还是很多的</p>
+<p><strong>Camille：</strong></p>
+<p>要把把关</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>小时候最喜欢的童话故事是夏洛的网、小飞人卡尔松、时代广场的蟋蟀，好像都是比较现代的故事了</p>
+<p><strong>JediChang：</strong></p>
+<p>我最喜欢的故事是郑渊洁的幻影号</p>
+<p><strong>不余。：</strong></p>
+<p>幻影号超帅啊</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>幻影号没什么印象了，郑渊洁的故事除了舒克贝塔外，印象最深的是飞马牌汽车</p>
+<p><strong>蒋静：</strong></p>
+<p>@有害书籍爱好者 我也喜欢夏洛的网～很温暖的故事</p>
+<p><strong>JediChang：</strong></p>
+<p>飞马牌汽车当年可以在二环上不间断的形式</p>
+<p><strong>JediChang：</strong></p>
+<p>现在估计除了飞没有办法实现了</p>
+<p><strong>JediChang：</strong></p>
+<p>二环应该也不让飞，飞起来安全隐患太大</p>
+<p><strong>蒋静：</strong></p>
+<p>飞马牌汽车我记忆不深刻，幻影号我记得</p>
+<p><strong>蒋静：</strong></p>
+<p>还有一个随风飘来的玛丽波萍斯阿姨我也记得</p>
+<p><strong>JediChang：</strong></p>
+<p>老郑其实一直是十八禁写手，用童话遮蔽了自己的真面目</p>
+<p><strong>JediChang：</strong></p>
+<p>到后期就有点血腥了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>十二生肖系列里面有一集是将女反派剥光了传送进一个满是蛆的大箱子折磨她，看的时候觉得郑渊洁应该有些变态的嗜好，那个时候竟然可以在童话书中正常出版也是奇迹。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>好像还有配图</p>
+<p><strong>蒋静：</strong></p>
+<p>啊～我怎么不记得这个故事</p>
+<p><strong>蒋静：</strong></p>
+<p>我记得都是蛇王淘金</p>
+<p><strong>蒋静：</strong></p>
+<p>虎王下山之类的</p>
+<p><strong>JediChang：</strong></p>
+<p>都是短篇吧</p>
+<p><strong>JediChang：</strong></p>
+<p>我光记得猴王了</p>
+<p><strong>JediChang：</strong></p>
+<p>但最好玩的还是幻影号</p>
+<p><strong>JediChang：</strong></p>
+<p>跟现在的小说一脉相承</p>
+<p><strong>JediChang：</strong></p>
+<p>什么随身带个异次元空间啥的</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>　　&ldquo;大批运钱吧？&ldquo;断体夫人对花生米说。</p>
+<p>　　&ldquo;行，现在开始，最好直接运到放钱的地方，省得搬来搬去。&ldquo;花生米说。</p>
+<p>　　&ldquo;也对，咱们到保险室去。&ldquo;断体夫人站起来。</p>
+<p>　　花生米跟着断体夫人来到一间墙壁很厚装着铁门的房间里。</p>
+<p>　　&ldquo;您就在这儿收钱吧！&ldquo;花生米突然走出房间，把铁门关上了。</p>
+<p>　　&ldquo;混蛋，小兔崽子你要干什么？&ldquo;断体夫人在屋里骂。</p>
+<p>　　&ldquo;我给她运点儿她最喜欢的东西。&ldquo;力力士说。</p>
+<p>　　几百万只蛆被力力士运进了断体夫人的保险室，它们埋没了断体夫人的全身，只剩下她的头露在外边。蛆们蠕动着柔软的身体像找到了久别的亲人似的在断体夫人身上撒娇争宠。</p>
+<p>　　&ldquo;让她在这儿欢聚一堂吧，咱们先去收拾她的党羽。&ldquo;力力士说。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>机器猴传奇里面的</p>
+<p><strong>JediChang：</strong></p>
+<p>当年那阵子气功特别流行 ，隔空搬运是每个大师的基本功</p>
+<p><strong>JediChang：</strong></p>
+<p>这里也看到了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>虎王传奇里面有个故事是身体变小的，和机器猫有一集变小了打海战有异曲同工之妙，看的时候挺羡慕的。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>　　半小时后，全国各大报刊都在头版头条位置刊登了绣花党倾巢覆灭的消息，还说绣花党党员全部变成了植物人，医院立刻变成了监狱。医院院长不愿改行当监狱长提出辞职可总统不批。</p>
+<p>　　断体夫人落了终生与蛆为伍的下场，她的这间保险室被力力士特意运到一座无人问津的森林里。她享受着和蛆生活在一起却时刻想着煮衣服的乐趣。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>郑的故事里面经常出现小孩子发现了反常的奇迹而大人都不相信的桥段，小孩子看了会觉得大人怎么都不相信孩子呢</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这是郑渊洁童话？</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我怎么从没看过</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>然后是靠超能力主持正义终极制裁</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>郑的童话小时候最喜欢的，应该是红沙发音乐成</p>
+<p><strong>蒋静：</strong></p>
+<p>我正要说还有红沙发音乐城[微笑]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈哈哈</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>所以我反而特别喜欢飞马牌汽车这种面对尴尬的现实充满无奈的讽刺幽默风格。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这类我小时候看不懂</p>
+<p><strong>蒋静：</strong></p>
+<p>和夏洛的网一套系列的还有 长袜子皮皮 我也喜欢</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>飞向人马座</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>我也很喜欢</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>不过这是初中了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>小学5，6年级第一次看到尼罗河女儿</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>被打开了日漫点大门</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>女神的圣斗士，七龙珠，阿拉蕾</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>北斗神拳，婆娑罗</p>
+<p><strong>不余。：</strong></p>
+<p>我五年级被圣斗士和七龙珠打开了日漫的大门</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>幽游白书</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>印象深刻的还有一本德国的童话《嫫嫫》，小女孩对抗偷窃时间的灰先生的故事，一开始愣是没看懂，行文叙事也不是惯常的童话风格。后来多看几遍才看懂。</p>
+<p><strong>不余。：</strong></p>
+<p>幽游白书是我最喜欢的漫画</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>有一本对我影像远大漫画</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>足球小将…</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>觉得足球小将太假就弃了[捂脸]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>曾经有段时间每天去晨跑的时候是踢着足球去的</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>奈何实在无天赋，自从带着足球，就没怎么顺利跑完过贺龙体育馆[发抖]</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>后来作者果然承认他不懂足球[捂脸]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>就是很励志吧</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>一开始练带球还是要慢慢来，不用急</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>夏洛的网长大了看了电影才知道</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>很好看</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>很温暖</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>我是真的看哭了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>电影还没看过[发呆]</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>后来才知道夏洛的网是E.B.怀特写的，难怪这么好看</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>不记得具体情节了，只记得看完的感受</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这也是人脑记忆的一个特征，记感受和记细节用的不同机制</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>为什么？他还写了什么？</p>
+<p><strong>小呆：</strong></p>
+<p>飞马牌汽车的幽默讽刺印象超深。红沙发音乐城则是标准的美丽童话。都很好看啊</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>恩，飞马牌我完全不记得了</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>红沙发很喜欢</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>当时看到就不忍释卷</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>因为后来看了一本风格的要素</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>他是主要作者</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>在邻居家看到的，然后就每天去她家报道直到把书看完</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>突然想起十万个为什么也是在她家看完的[捂脸]</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>一查作者信息，夏洛的网就蹦出来了，感觉好奇妙</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>风格的要素？</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>讲些做的吗</p>
+<p><strong>小呆：</strong></p>
+<p>郑渊洁的大部分故事都很喜欢。<br>
+机器猴，蛇王，龙珠都是一个版本的，满足儿童的愿望</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>这些我都不太喜欢</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>是的，经典的英文写作指南</p>
+<p><strong>小呆：</strong></p>
+<p>曾经想买他后来推出的全集，发现太贵了[尴尬]<br>
+而且越来越多</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>前段时间翻了一下海明威的老人与海</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>郑渊洁高产似母猪[捂脸]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>译文</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>怀疑那个时候郑渊洁就有写手工作室模式了</p>
+<p><strong>小呆：</strong></p>
+<p>最早看的是一个小熊的，好像叫朱塔？<br>
+还有魔方大厦看的小人书</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>瞬间喜欢上他的行文方式</p>
+<p><strong>小呆：</strong></p>
+<p>再就是舒克贝塔开始了</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>对啊，还有魔方大厦</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>舒克贝塔也是</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>喜欢</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>但都不及红沙发</p>
+<p><strong>小呆：</strong></p>
+<p>是的。他的行为超牛，既灌了水还有内容。那种不加标点的排比长句[呲牙]</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>干净，透彻</p>
+<p><strong>小呆：</strong></p>
+<p>行文</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>说老人的样子如何衰老，眼睛却是海一样的蓝</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>说他睡着了的时候如何破败，睁开眼却像刚刚从远方旅行回来</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>怀特的风格的要素和福塞尔的格调、恶俗，安兰德的源泉、阿特拉斯耸耸肩配合食用，堪称装逼文风的照妖镜，虽然安兰德自己也挺喜欢装的。</p>
+<p><strong>有害书籍爱好者：</strong></p>
+<p>然后就会觉得海明威的文风真牛逼，虽然海明威在生活中也是装逼大师。</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈哈哈哈哈哈</p>
+<p><strong>Camille：</strong></p>
+<p>我小时候郑渊洁好像只看过书克贝塔</p>
+<p><strong>Camille：</strong></p>
+<p>现在市面上流行马小跳系列故事</p>
+<p><strong>Camille：</strong></p>
+<p>我给我闺女买了一套 结果后来有文章出来批评</p>
+<p><strong>Camille：</strong></p>
+<p>后来有学生跟我说他们看的时候根本想不到这么多</p>
+<p><strong>不余。：</strong></p>
+<p>带着批判的眼光去看，当然全是问题</p>
+<p><strong>不余。：</strong></p>
+<p>小朋友看的时候可能只会觉得热闹好玩</p>
+<p><strong>不余。：</strong></p>
+<p>就像段子里说的，新华字典纯粹就是小黄书</p>
+<p><strong>Camille：</strong></p>
+<p>我是这么觉得的，但是也担心对他们的认知会有潜在影响</p>
+<p><strong>安非他明：</strong></p>
+<p>郑渊洁童话，没收全，也没看呢</p>
+<p><strong>安非他明：</strong></p>
+<p>就是童年的念想</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>恩</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>后来订了童话大王</p>
+<p><strong>不余。：</strong></p>
+<p>[捂脸]初中时的愿望就是收集郑渊洁全套，去皮皮鲁大厦玩</p>
+<p><strong>猫行天下@程序员客栈：</strong></p>
+<p>哈哈哈哈哈</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Pandoc &amp; Markdown</title>
+      <link>https://ioerr.github.io/posts/pandoc-markdown/</link>
+      <pubDate>Thu, 23 Oct 2014 07:25:28 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/pandoc-markdown/</guid>
+      <description>实在不明白为什么很多人需要编辑器有 Markdown 实时预览功能。 Markdown 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求</description>
+      <content:encoded><![CDATA[<p>实在不明白为什么很多人需要编辑器有 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 实时预览功能。<br>
+<a href="http://daringfireball.net/projects/markdown/">Markdown</a> 标记语言就是用来直观的编辑和阅读弱格式文本的，转换成 HTML 等格式是最后输出才做的事，盲目追求实时预览完全违背了初衷吧。</p>
+<p>如果需要预览才能用好，那是否说明 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 还不够简单、直观？</p>
+<p>我使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 的次数不多，因为 <a href="http://www.vim.org/">Vim</a> + HTML 插件够方便，够强大，用于写文章的简单 HTML 也容易理解，通常不需要求助于 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>。</p>
+<p>如果要用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>，我一般会通过 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 转换输出为 HTML 再发布，这样不管是不支持 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 语法的，还是支持 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 嵌套 HTML 的发布渠道都没有问题，不会被发布渠道的能力束缚——在 <a href="https://wordpress.org/">WordPress</a> 等平台上，当然还是用 HTML 比较通用。</p>
+<p><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的一大好处是支持的输入输出格式极为丰富，简单的东西用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 写好，想转换成什么都比较方便，包含中文的 PDF 文档除外，除非你知道怎么解决 LaTeX 相关的配置。<br>
+其次是可以自定义的参数一大堆，比如 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 中要求行末加双空格才转为换行，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 用 markdown+hard_line_breaks 参数就轻松化解，不用害怕忘记双空格这种反直觉的标记。</p>
+<p>如果配合 <a href="http://www.ghisler.com/">Total Commander</a> 使用，安装 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 后可以在工具栏中增加 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> 的快捷图标，参数栏中写上：</p>
+<pre><code>-f markdown+hard_line_breaks %N -o %O.html
+</code></pre>
+<p>其中 %N 表示当前选中的文件，%O 表示当前选中文件不含后缀的文件名。</p>
+<p>不使用 <a href="http://www.ghisler.com/">Total Commander</a> 也可以自己写个脚本或批处理干这事。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最简便的内容发布方案</title>
+      <link>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</link>
+      <pubDate>Mon, 10 Feb 2014 16:13:52 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zui-jianbian-de-neirong-fabu-fangan/</guid>
+      <description>宣传、推广 Markdown 标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护</description>
+      <content:encoded><![CDATA[<p>宣传、推广 Markdown<br>
+标记语言和协作工具的人往往强调其可读、易修改、文件格式通用的优点，但是对互联网上的写作者来说，「写」只是第一步，「发布」和「维护」还有许多优化的事情可做。</p>
+<p>比如说我们使用 <a href="http://wordpress.org/">WordPress</a><br>
+发布文章，至少要有这么几步：</p>
+<ol>
+<li>
+<p>登录（假设自动登录并直接跳转到发布页面）</p>
+</li>
+<li>
+<p>编辑标题（可以省略，但严肃的作者通常不会忽视标题）</p>
+</li>
+<li>
+<p>撰写正文（或复制粘贴已经准备好的内容）</p>
+</li>
+<li>
+<p>发布（如果不放心还要打开文章页面看看效果）</p>
+</li>
+</ol>
+<p>这还不包括选择类别、增加标签、设置 post slug 等操作。</p>
+<h3 id="邮件发布">邮件发布</h3>
+<p><a href="http://wordpress.org/">WordPress</a> 的 <a href="http://jetpack.me/">Jetpack</a><br>
+插件包中有 <a href="http://jetpack.me/support/post-by-email/">Post By Email</a><br>
+功能，<a href="http://www.tumblr.com/">Tumblr</a><br>
+等一早就支持邮件发布，好处是自动备份，不用额外客户端，不需要登录网站。<br>
+如果习惯邮件发布的话，<a href="http://jetpack.me/">Jetpack</a><br>
+是不错的选择，因为能支持大多数参数设置。<br>
+不过使用邮件发布的用户始终是少数。</p>
+<h3 id="编辑">编辑</h3>
+<p>要是文章发布后不满意又要修改呢？还是至少要经过以下步骤：</p>
+<ol>
+<li>
+<p>登录</p>
+</li>
+<li>
+<p>跳转到所有文章列表</p>
+</li>
+<li>
+<p>定位到要修改的文章</p>
+</li>
+<li>
+<p>修改正文（或者复制粘贴已经修改好的内容）</p>
+</li>
+<li>
+<p>发布更新</p>
+</li>
+</ol>
+<p>如果保持登录状态，在文章阅读界面也可以直接进入编辑界面，但也只是将上述步骤调换了顺序而已。</p>
+<p>如果网站的编辑功能还不够完善呢？<br>
+比如说不支持更好用的 [Markdown]<br>
+扩展语法，或者更习惯本地编辑器的丰富功能，如版本管理、本地备份、语法高亮、快捷键……<br>
+在本地编辑界面和网页发布界面就得切换一下了，要么就得找足够好用的发布服务客户端，比如曾经很流行的<br>
+<a href="http://www.microsoft.com/en-us/download/details.aspx?id=8621">Windows Live<br>
+Writer</a>、<a href="http://www.zoundry.com/download.html">Zoundry<br>
+Raven</a>。</p>
+<h3 id="内容迁移">内容迁移</h3>
+<p>如果还考虑内容迁移呢？<br>
+后台不同的导出、格式转换、导入有多麻烦就不说了（当年汉字编码的转换就害死不少人），很多内容发布平台根本就不提供完整的导入、导出功能，而且导出来的也许是各种不好读的格式。</p>
+<h3 id="理想方案">理想方案</h3>
+<p>有没有一个服务能结合<br>
+<a href="https://www.dropbox.com/">Dropbox</a>/<a href="https://www.box.com/">Box</a> +<br>
+<a href="https://github.com/">Github</a>/<a href="https://readthedocs.org/">Read the Docs</a><br>
+并继续扩展呢？</p>
+<p>写文章在本地保存文档就好了，和平时写作完全没有两样，爱用什么顺手的本地编辑器就用什么；<br>
+格式也没有特殊要求，无任何特殊标记的纯文字，Markdown/txt2tags/reStructuredText等等，HTML/RTF/Word<br>
+Docs 都适用；<br>
+写完了复制到某个指定文件夹就是发布，这个文件夹类似于<br>
+<a href="https://www.dropbox.com/">Dropbox</a>/<a href="https://www.box.com/">Box</a><br>
+的同步目录，自动上传并转换为服务网站上的静态页面发布，同时在本地目录中生成相应的静态网页文件用于预览；<br>
+标题就是文件名，post slug 在文件名中的括号中指定，或者参考<br>
+<a href="http://jetpack.me/support/post-by-email/">Jetpack</a> 的标签参数；<br>
+修改也简单，直接在本地编辑发布目录中的文件，后续的更新发布不用手工操作；<br>
+要是有人留言评论，也会自动在本地目录中生成后缀名为 .comment<br>
+的超文本或文本格式文件，其中就是留言内容。</p>
+<p>这样，写作者只要操心写文章，发布是一个复制操作就能搞定的事情，内容备份什么的与日常普通的文件备份管理统一，与内容发布服务无关。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

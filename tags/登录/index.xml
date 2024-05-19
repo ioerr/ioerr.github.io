@@ -1,59 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>登录 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%99%BB%E5%BD%95/</link>
     <description>Recent content in 登录 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 05 Jan 2008 04:00:36 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%99%BB%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>注册登录界面的八大错误</title>
-        <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
-        <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
-        <description>&lt;p&gt;Cisco
-在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。&lt;br /&gt;
-Jared M. Spool
-以此为例提到&lt;a href=&#34;http://www.uie.com/articles/account_design_mistakes/&#34;&gt;了注册和登录界面中的一些糟糕设计，主要存在以下8个常见错误&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误1：万事以登录为先&lt;/strong&gt;&lt;br /&gt;
-用户不喜欢被与直接目的无关的活动打断，如果发起操作与呈现内容不和用户的身份挂钩，就不要强制用户注册和登录。简言之即，如无必要，毋须登录。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误2：太早要求登录&lt;/strong&gt;&lt;br /&gt;
-如果登录之后，用户并未得到及时的足够的激励，觉得和不登录没多大区别，就会觉得登录操作本身没什么价值，久而久之就会反感。不如首先让用户进行活动，等到他觉得值得登录完成操作，再适时地跳出登录界面（之前的操作可以由小甜饼记录）。简言之即，如无必要，推迟登录。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误3：要求注册却不提好处&lt;/strong&gt;&lt;br /&gt;
-面对注册的要求，用户不得不打断思路，想一个用户名和密码，还得担心自己的电子邮箱地址和其他个人信息给泄漏到互联网黑暗的深处，而这一切和自己正在浏览的内容、想要获得的东西没什么关系，如果不告诉他们好处引诱其上钩就冷冰冰地要求注册，会给他们脆弱的心灵带来巨大打击的。简言之即，注册登录，先谈好处。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误4：不起眼的登录按钮&lt;/strong&gt;&lt;br /&gt;
-有明显的注册按钮，登录链接却毫不起眼，用户会掉大把头发的，和举办了盛大婚礼却在蜜月玩失踪一样恶劣。简言之即，门户大开，再要我来。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误5：看不到注册新账号或找回密码的渠道&lt;/strong&gt;&lt;br /&gt;
-在反面例子中，设计者是把这些链接放在了下拉菜单中，看上去不像是链接，用户很难找到，也不易理解。简言之即，左转右转，都要显眼。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误6：关键的地方不提供登录界面&lt;/strong&gt;&lt;br /&gt;
-在一系列的操作中，当用户急需用到与账号关联的信息时，界面上却不能够方便的登录，无疑是一种与排长龙的银行不提供公共厕所相当的卑鄙行为，或者是和神木林的猴子拦住问你要一支很久很久以前就已经丢掉的香蕉（我不在受害人之列）相提并论的抓狂设置，用户不得不回退或新开窗口，无疑又是对流畅体验的影响和对积极性的挫伤。简言之即，关键时候，不离左右。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误7：注册时需要填写的信息太多&lt;/strong&gt;&lt;br /&gt;
-用户注册不是上户口写档案向组织交代情况，填那么多大家都不感兴趣八辈子用不到的信息干什么？用户总是希望注册时提的问题越少越好。简言之即，如无必要，勿增问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;错误8：不告诉用户怎么使用他们的信息&lt;/strong&gt;&lt;br /&gt;
-如果非要询问用户名、密码之外的信息，特别是真实姓名、住址、电话号码等重要信息，要么把问题设计得风趣可爱一点（有时并不起作用），要么明确告诉用户这些信息的用处，而且要有说服力，最好马上给他们看到实实在在的好处。简言之即，欲先取之，必先语之。&lt;/p&gt;
-
-&lt;p&gt;因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。
-:023:&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%99%BB%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>注册登录界面的八大错误</title>
+      <link>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</link>
+      <pubDate>Sat, 05 Jan 2008 04:00:36 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhuce-denglu-jiemian-de-bada-cuowu/</guid>
+      <description>Cisco 在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位</description>
+      <content:encoded><![CDATA[<p>Cisco<br>
+在网页上向用户销售带有其标志的小玩意，但用户要看到打上标志的效果图，必须先注册，而注册流程共有4个页面、45个问题，其中询问职业1次、职位2次、语言3次，还全是英文界面。<br>
+Jared M. Spool<br>
+以此为例提到<a href="http://www.uie.com/articles/account_design_mistakes/">了注册和登录界面中的一些糟糕设计，主要存在以下8个常见错误</a>：</p>
+<p><strong>错误1：万事以登录为先</strong><br>
+用户不喜欢被与直接目的无关的活动打断，如果发起操作与呈现内容不和用户的身份挂钩，就不要强制用户注册和登录。简言之即，如无必要，毋须登录。</p>
+<p><strong>错误2：太早要求登录</strong><br>
+如果登录之后，用户并未得到及时的足够的激励，觉得和不登录没多大区别，就会觉得登录操作本身没什么价值，久而久之就会反感。不如首先让用户进行活动，等到他觉得值得登录完成操作，再适时地跳出登录界面（之前的操作可以由小甜饼记录）。简言之即，如无必要，推迟登录。</p>
+<p><strong>错误3：要求注册却不提好处</strong><br>
+面对注册的要求，用户不得不打断思路，想一个用户名和密码，还得担心自己的电子邮箱地址和其他个人信息给泄漏到互联网黑暗的深处，而这一切和自己正在浏览的内容、想要获得的东西没什么关系，如果不告诉他们好处引诱其上钩就冷冰冰地要求注册，会给他们脆弱的心灵带来巨大打击的。简言之即，注册登录，先谈好处。</p>
+<p><strong>错误4：不起眼的登录按钮</strong><br>
+有明显的注册按钮，登录链接却毫不起眼，用户会掉大把头发的，和举办了盛大婚礼却在蜜月玩失踪一样恶劣。简言之即，门户大开，再要我来。</p>
+<p><strong>错误5：看不到注册新账号或找回密码的渠道</strong><br>
+在反面例子中，设计者是把这些链接放在了下拉菜单中，看上去不像是链接，用户很难找到，也不易理解。简言之即，左转右转，都要显眼。</p>
+<p><strong>错误6：关键的地方不提供登录界面</strong><br>
+在一系列的操作中，当用户急需用到与账号关联的信息时，界面上却不能够方便的登录，无疑是一种与排长龙的银行不提供公共厕所相当的卑鄙行为，或者是和神木林的猴子拦住问你要一支很久很久以前就已经丢掉的香蕉（我不在受害人之列）相提并论的抓狂设置，用户不得不回退或新开窗口，无疑又是对流畅体验的影响和对积极性的挫伤。简言之即，关键时候，不离左右。</p>
+<p><strong>错误7：注册时需要填写的信息太多</strong><br>
+用户注册不是上户口写档案向组织交代情况，填那么多大家都不感兴趣八辈子用不到的信息干什么？用户总是希望注册时提的问题越少越好。简言之即，如无必要，勿增问题。</p>
+<p><strong>错误8：不告诉用户怎么使用他们的信息</strong><br>
+如果非要询问用户名、密码之外的信息，特别是真实姓名、住址、电话号码等重要信息，要么把问题设计得风趣可爱一点（有时并不起作用），要么明确告诉用户这些信息的用处，而且要有说服力，最好马上给他们看到实实在在的好处。简言之即，欲先取之，必先语之。</p>
+<p>因为时间有限，又是部分翻译加自己胡诌，所以具体的正反两面例子就不多说了，请大家脑内自行补完。<br>
+:023:</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

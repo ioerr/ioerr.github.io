@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ioerr.github.io/sitemap.xml

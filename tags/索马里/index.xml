@@ -1,38 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>索马里 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%B4%A2%E9%A9%AC%E9%87%8C/</link>
     <description>Recent content in 索马里 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 28 Dec 2012 10:03:37 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%B4%A2%E9%A9%AC%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>过犹不及</title>
-        <link>https://ioerr.github.io/posts/guoyoubuji/</link>
-        <pubDate>Fri, 28 Dec 2012 10:03:37 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/guoyoubuji/</guid>
-        <description>&lt;p&gt;在里屋看到有人转的这篇南方周末的《&lt;a href=&#34;http://www.infzm.com/content/84182&#34;&gt;索马里：民众生活不太坏&lt;/a&gt;》，真不知道是猪一样的队友，还是国内
-liberal 有意的高级黑啊……&lt;/p&gt;
-
-&lt;p&gt;基本数据的问题就不说了。&lt;/p&gt;
-
-&lt;p&gt;为了反对政府，竟然无视内战和军阀割据（以及随之而来的关税、厘金，还可能有对内抢劫）对经济民生的巨大影响。&lt;br /&gt;
-后面两者对经济自由有巨大的负面影响，同样也是自由主义应该反对的。&lt;br /&gt;
-一个保证和平的、保护私有产权的、提供基础公共服务的政府，就其国内市场而言，显然优于损害正常生产和自由贸易的内战和军阀割据。&lt;/p&gt;
-
-&lt;p&gt;反对大政府不必非得反成无政府主义不可。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%B4%A2%E9%A9%AC%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>过犹不及</title>
+      <link>https://ioerr.github.io/posts/guoyoubuji/</link>
+      <pubDate>Fri, 28 Dec 2012 10:03:37 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/guoyoubuji/</guid>
+      <description>在里屋看到有人转的这篇南方周末的《索马里：民众生活不太坏》，真不知道是猪一样的队友，还是国内 liberal 有意的高级黑啊…… 基本数据的问题就不说了。 为了</description>
+      <content:encoded><![CDATA[<p>在里屋看到有人转的这篇南方周末的《<a href="http://www.infzm.com/content/84182">索马里：民众生活不太坏</a>》，真不知道是猪一样的队友，还是国内<br>
+liberal 有意的高级黑啊……</p>
+<p>基本数据的问题就不说了。</p>
+<p>为了反对政府，竟然无视内战和军阀割据（以及随之而来的关税、厘金，还可能有对内抢劫）对经济民生的巨大影响。<br>
+后面两者对经济自由有巨大的负面影响，同样也是自由主义应该反对的。<br>
+一个保证和平的、保护私有产权的、提供基础公共服务的政府，就其国内市场而言，显然优于损害正常生产和自由贸易的内战和军阀割据。</p>
+<p>反对大政府不必非得反成无政府主义不可。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

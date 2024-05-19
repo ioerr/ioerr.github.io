@@ -1,101 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>桌面 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2/</link>
     <description>Recent content in 桌面 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 25 Feb 2011 03:31:44 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Simple Desktops</title>
-        <link>https://ioerr.github.io/posts/simple-desktops/</link>
-        <pubDate>Fri, 25 Feb 2011 03:31:44 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/simple-desktops/</guid>
-        <description>&lt;p&gt;之前介绍过提供简洁桌面背景图的
-&lt;a href=&#34;http://calon.weblogs.us/minimalwall/&#34;&gt;MinimalWall&lt;/a&gt;，不过图片内容基本都是文字，而
-&lt;a href=&#34;http://simpledesktops.com/&#34;&gt;Simple Desktops&lt;/a&gt;
-的技术含量高一点，背景图片的内容都是图案了。&lt;/p&gt;
-
-&lt;p&gt;比如说《&lt;strike&gt;情人节&lt;/strike&gt;圣诞节前的噩梦》中的 Jack：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/feb/10/jack/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/02/10/Jack4.png.610x382_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;或者 Konami 游戏中的秘籍：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2011/jan/10/konami-code/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2011/01/10/konami-code.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;还有《2001太空奥德赛》中的机器人 HAL 9000：&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/apr/01/hal-9000/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/04/01/hal-9000.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可是，像这种宝丽莱相机的图案一点都不简洁好吗？&lt;br /&gt;
-&lt;a href=&#34;http://simpledesktops.com/browse/desktops/2010/jun/09/fly-polaroid/&#34;&gt;&lt;img src=&#34;http://static.simpledesktops.com/desktops/2010/06/07/pomo.png.610x381_q100.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>MinimalWall</title>
-        <link>https://ioerr.github.io/posts/minimalwall/</link>
-        <pubDate>Tue, 07 Sep 2010 10:09:40 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/minimalwall/</guid>
-        <description>&lt;p&gt;你信奉“保持简单”的信条并且时时事事遵循吗？那么
-&lt;a href=&#34;http://www.minimalwall.com/&#34;&gt;MinimalWall&lt;/a&gt; 应该合你的胃口。&lt;br /&gt;
-它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适的单色、简短醒目的文字和图案。&lt;/p&gt;
-
-&lt;p&gt;想法非常不错，设计出来的壁纸也挺出色的，但我体内的恶趣味之魂又在燃烧了，所以自己也来做几张吧（为了能够实际使用，还是有所保留的）。&lt;br /&gt;
-没有装多少中文字体，大部分用的微软雅黑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=panic.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/panic.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=0093acb9.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/0093acb9.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=17c23d3e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/17c23d3e.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=teamwork.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/teamwork.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=42.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/42.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=2.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/2.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;amp;current=d40c712e.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/d40c712e.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一共有30多张，就不全部放出来了，只有1024×768分辨率的，要更大的图片请自己改
-AI 文件。&lt;br /&gt;
-&lt;a href=&#34;http://www.box.net/shared/vyvgq7yk85&#34;&gt;Illustrator 文件和大图打包下载&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaper/&#34;&gt;大图相册&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Prism 升级</title>
-        <link>https://ioerr.github.io/posts/prism-shengji/</link>
-        <pubDate>Sat, 08 Mar 2008 15:29:08 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/prism-shengji/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/webrunner/&#34;&gt;WebRunner&lt;/a&gt; 升级到
-&lt;a href=&#34;http://labs.mozilla.com/2007/10/prism/&#34;&gt;Prism&lt;/a&gt;
-之后，现在又有了新的进展。Prism 可以以 Firefox
-3的扩展形式出现，创建网页的桌面应用版变得更加容易。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://labs.mozilla.com/uploads/2008/03/prism-menu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%A1%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Desktops</title>
+      <link>https://ioerr.github.io/posts/simple-desktops/</link>
+      <pubDate>Fri, 25 Feb 2011 03:31:44 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/simple-desktops/</guid>
+      <description>之前介绍过提供简洁桌面背景图的 MinimalWall，不过图片内容基本都是文字，而 Simple Desktops 的技术含量高一点，背景图片的内容都是图案了。 比如说《情</description>
+      <content:encoded><![CDATA[<p>之前介绍过提供简洁桌面背景图的<br>
+<a href="http://calon.weblogs.us/minimalwall/">MinimalWall</a>，不过图片内容基本都是文字，而<br>
+<a href="http://simpledesktops.com/">Simple Desktops</a><br>
+的技术含量高一点，背景图片的内容都是图案了。</p>
+<p>比如说《<!-- raw HTML omitted -->情人节<!-- raw HTML omitted -->圣诞节前的噩梦》中的 Jack：<br>
+<a href="http://simpledesktops.com/browse/desktops/2011/feb/10/jack/"><img loading="lazy" src="http://static.simpledesktops.com/desktops/2011/02/10/Jack4.png.610x382_q100.png" alt=""  />
+</a></p>
+<p>或者 Konami 游戏中的秘籍：<br>
+<a href="http://simpledesktops.com/browse/desktops/2011/jan/10/konami-code/"><img loading="lazy" src="http://static.simpledesktops.com/desktops/2011/01/10/konami-code.png.610x381_q100.png" alt=""  />
+</a></p>
+<p>还有《2001太空奥德赛》中的机器人 HAL 9000：<br>
+<a href="http://simpledesktops.com/browse/desktops/2010/apr/01/hal-9000/"><img loading="lazy" src="http://static.simpledesktops.com/desktops/2010/04/01/hal-9000.png.610x381_q100.png" alt=""  />
+</a></p>
+<p>可是，像这种宝丽莱相机的图案一点都不简洁好吗？<br>
+<a href="http://simpledesktops.com/browse/desktops/2010/jun/09/fly-polaroid/"><img loading="lazy" src="http://static.simpledesktops.com/desktops/2010/06/07/pomo.png.610x381_q100.png" alt=""  />
+</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MinimalWall</title>
+      <link>https://ioerr.github.io/posts/minimalwall/</link>
+      <pubDate>Tue, 07 Sep 2010 10:09:40 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/minimalwall/</guid>
+      <description>你信奉“保持简单”的信条并且时时事事遵循吗？那么 MinimalWall 应该合你的胃口。 它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适</description>
+      <content:encoded><![CDATA[<p>你信奉“保持简单”的信条并且时时事事遵循吗？那么<br>
+<a href="http://www.minimalwall.com/">MinimalWall</a> 应该合你的胃口。<br>
+它的目的就是设计简洁至极的桌面背景图，让纷繁复杂的桌面背景精简到只剩下舒适的单色、简短醒目的文字和图案。</p>
+<p>想法非常不错，设计出来的壁纸也挺出色的，但我体内的恶趣味之魂又在燃烧了，所以自己也来做几张吧（为了能够实际使用，还是有所保留的）。<br>
+没有装多少中文字体，大部分用的微软雅黑。</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=panic.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/panic.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=0093acb9.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/0093acb9.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=17c23d3e.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/17c23d3e.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=teamwork.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/teamwork.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=42.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/42.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=2.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/2.png" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/?action=view&amp;current=d40c712e.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/MinimalWallpaperSmall/d40c712e.png" alt="Photobucket"  />
+</a></p>
+<p>一共有30多张，就不全部放出来了，只有1024×768分辨率的，要更大的图片请自己改<br>
+AI 文件。<br>
+<a href="http://www.box.net/shared/vyvgq7yk85">Illustrator 文件和大图打包下载</a><br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/MinimalWallpaper/">大图相册</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Prism 升级</title>
+      <link>https://ioerr.github.io/posts/prism-shengji/</link>
+      <pubDate>Sat, 08 Mar 2008 15:29:08 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/prism-shengji/</guid>
+      <description>WebRunner 升级到 Prism 之后，现在又有了新的进展。Prism 可以以 Firefox 3的扩展形式出现，创建网页的桌面应用版变得更加容易。</description>
+      <content:encoded><![CDATA[<p><a href="http://calon.weblogs.us/webrunner/">WebRunner</a> 升级到<br>
+<a href="http://labs.mozilla.com/2007/10/prism/">Prism</a><br>
+之后，现在又有了新的进展。Prism 可以以 Firefox<br>
+3的扩展形式出现，创建网页的桌面应用版变得更加容易。</p>
+<p><img loading="lazy" src="http://labs.mozilla.com/uploads/2008/03/prism-menu.png" alt=""  />
+</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

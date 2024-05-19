@@ -1,35 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>简体字 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%AE%80%E4%BD%93%E5%AD%97/</link>
     <description>Recent content in 简体字 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 09 Mar 2009 19:34:15 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%AE%80%E4%BD%93%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>简繁之争</title>
-        <link>https://ioerr.github.io/posts/jianfan-zhi-zheng/</link>
-        <pubDate>Mon, 09 Mar 2009 19:34:15 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jianfan-zhi-zheng/</guid>
-        <description>&lt;p&gt;因为两会提案恢复繁体字的关系，汉字的简繁之争又开始活跃了起来，但我觉得一些争论已经误入歧途了。&lt;/p&gt;
-
-&lt;p&gt;比如我不喜欢“正体字”的说法，因为任何争论一旦涉及到何为正统，立刻就沦落到了争论“我是你爸爸”的水平，标榜正统的背后，是想要占据绝对正确方位的企图，暗含一种唯我独尊的心态，这不利于语言文字的生生不息；&lt;/p&gt;
-
-&lt;p&gt;其次我很反感提议自上至下强制推行一套标准的做法，现在已经不是秦始皇/太祖的时代，可总有人还想按照秦始皇/太祖的思路来办事；&lt;br /&gt;
-语言文字是属于全社会成员的共同文化财产，不应该是哪个政府哪位高人觉得“哎哟我日”“如此甚好”就重新洗牌这么玩的，就算是当年的简体字运动，很多简化的方案也早已是生活中实际广泛在使用的。汉字的简化或者回归繁体本身不可怕，可怕的是这种隔三差五想请人带领/代表大家瞎折腾的劲头。&lt;br /&gt;
-与其废除简体字，倒不如推行简繁并存，剩下的，不妨就让文字的全体使用者们在生活实践中的去选择和创造吧。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%AE%80%E4%BD%93%E5%AD%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简繁之争</title>
+      <link>https://ioerr.github.io/posts/jianfan-zhi-zheng/</link>
+      <pubDate>Mon, 09 Mar 2009 19:34:15 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jianfan-zhi-zheng/</guid>
+      <description>因为两会提案恢复繁体字的关系，汉字的简繁之争又开始活跃了起来，但我觉得一些争论已经误入歧途了。 比如我不喜欢“正体字”的说法，因为任何争论一旦</description>
+      <content:encoded><![CDATA[<p>因为两会提案恢复繁体字的关系，汉字的简繁之争又开始活跃了起来，但我觉得一些争论已经误入歧途了。</p>
+<p>比如我不喜欢“正体字”的说法，因为任何争论一旦涉及到何为正统，立刻就沦落到了争论“我是你爸爸”的水平，标榜正统的背后，是想要占据绝对正确方位的企图，暗含一种唯我独尊的心态，这不利于语言文字的生生不息；</p>
+<p>其次我很反感提议自上至下强制推行一套标准的做法，现在已经不是秦始皇/太祖的时代，可总有人还想按照秦始皇/太祖的思路来办事；<br>
+语言文字是属于全社会成员的共同文化财产，不应该是哪个政府哪位高人觉得“哎哟我日”“如此甚好”就重新洗牌这么玩的，就算是当年的简体字运动，很多简化的方案也早已是生活中实际广泛在使用的。汉字的简化或者回归繁体本身不可怕，可怕的是这种隔三差五想请人带领/代表大家瞎折腾的劲头。<br>
+与其废除简体字，倒不如推行简繁并存，剩下的，不妨就让文字的全体使用者们在生活实践中的去选择和创造吧。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

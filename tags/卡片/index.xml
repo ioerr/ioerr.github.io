@@ -1,40 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>卡片 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8D%A1%E7%89%87/</link>
     <description>Recent content in 卡片 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 23 May 2012 09:40:22 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8D%A1%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>购物自助声明卡片</title>
-        <link>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</link>
-        <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</guid>
-        <description>&lt;p&gt;几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。&lt;br /&gt;
-其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和介绍——有时候客人不敢开口，不敢呆太久，又不知道自己想要的东西放在哪里，好不好用，本来想买的最后硬生生的忍住了只好默默走掉；有的时候客人更怕店员上来说话，店员一开口他/她就红着脸走掉了。&lt;/p&gt;
-
-&lt;p&gt;作为顾客，我也时常有这样的矛盾心理。&lt;br /&gt;
-买自己熟悉的或者愿意自己一个人慢慢挑选的商品，比如书籍、服装，我就不喜欢店员上来啰嗦；&lt;br /&gt;
-要是找自己不熟悉的商品，又希望店员能够陪伴左右，给出专业的介绍和建议。&lt;/p&gt;
-
-&lt;p&gt;有什么好的解决办法呢？&lt;br /&gt;
-商家可以在门口放一堆带别针的卡片或者贴纸，上面写“别理我，我自己看”、“免打扰”、“自助购物”之类的文字，顾客可以别在衣服、随身包上面，店员看到这样的顾客，就不需要上前打扰人家了。&lt;br /&gt;
-当然也可以反过来，写上“需要咨询帮助”、“帮我拿主意”、“欢迎提建议”的文字，说不定还可以促进顾客互相交流和搭讪呢。&lt;/p&gt;
-
-&lt;p&gt;为了降低成本，卡片或贴纸的背面可以印广告。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8D%A1%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>购物自助声明卡片</title>
+      <link>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</link>
+      <pubDate>Wed, 23 May 2012 09:40:22 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/gouwu-zizhu-shengming-kapian/</guid>
+      <description>几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。 其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和</description>
+      <content:encoded><![CDATA[<p>几个月以前在《晨报周刊》还是《壹周刊》看到一系列关于长沙情趣用品商店的报道。<br>
+其中有一处提到，顾客进店来看情趣用品，店员很矛盾要不要上去询问和介绍——有时候客人不敢开口，不敢呆太久，又不知道自己想要的东西放在哪里，好不好用，本来想买的最后硬生生的忍住了只好默默走掉；有的时候客人更怕店员上来说话，店员一开口他/她就红着脸走掉了。</p>
+<p>作为顾客，我也时常有这样的矛盾心理。<br>
+买自己熟悉的或者愿意自己一个人慢慢挑选的商品，比如书籍、服装，我就不喜欢店员上来啰嗦；<br>
+要是找自己不熟悉的商品，又希望店员能够陪伴左右，给出专业的介绍和建议。</p>
+<p>有什么好的解决办法呢？<br>
+商家可以在门口放一堆带别针的卡片或者贴纸，上面写“别理我，我自己看”、“免打扰”、“自助购物”之类的文字，顾客可以别在衣服、随身包上面，店员看到这样的顾客，就不需要上前打扰人家了。<br>
+当然也可以反过来，写上“需要咨询帮助”、“帮我拿主意”、“欢迎提建议”的文字，说不定还可以促进顾客互相交流和搭讪呢。</p>
+<p>为了降低成本，卡片或贴纸的背面可以印广告。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

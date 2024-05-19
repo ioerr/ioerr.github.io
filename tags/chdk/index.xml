@@ -1,43 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Chdk on 读写错误</title>
+    <title>CHDK on 读写错误</title>
     <link>https://ioerr.github.io/tags/chdk/</link>
-    <description>Recent content in Chdk on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in CHDK on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 15 Oct 2007 15:03:54 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/chdk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>CHDK 支持 G7 1.00j 固件</title>
-        <link>https://ioerr.github.io/posts/chdk-zhichi-g7-100j-gujian/</link>
-        <pubDate>Mon, 15 Oct 2007 15:03:54 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chdk-zhichi-g7-100j-gujian/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK&#34;&gt;CHDK&lt;/a&gt;
-的固件脚本&lt;a href=&#34;http://calon.weblogs.us/ziwen_zida/&#34;&gt;已经支持&lt;/a&gt; Canon G7
-的1.00j
-版本，&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK_firmware_usage#.3CALT.3E_mode&#34;&gt;相关讨论见这里&lt;/a&gt;，&lt;a href=&#34;http://www.zshare.net/download/413542734fd1db/&#34;&gt;直接下载见这里&lt;/a&gt;，&lt;a href=&#34;http://scratchpad.wikia.com/wiki/CHDK/FAQ&#34;&gt;常见问题见这里&lt;/a&gt;，&lt;a href=&#34;http://chdk.wikia.com/wiki/CHDK_firmware_usage&#34;&gt;使用和设置方法见这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;如此，我的 G7已经可以支持 RAW
-格式记录，电量显示，包围曝光步进拍摄，实时直方图，高光斑马显示…如果实在无聊的话，还可以用相机看书、游戏甚至当手电筒…与
-G9相比已是各有千秋。&lt;/p&gt;
-
-&lt;p&gt;存在的问题有：&lt;br /&gt;
-虽然 FAQ 中说2G 以上存储卡对开机自动载入脚本的支持有问题，但我没有想到2G
-卡本身也存在此问题，如手工格式化为 FAT16
-格式则可以支持，但我觉得不爽啊~&lt;br /&gt;
-生成的 RAW 文件无法用 Total Commander
-直接从相机上转移出来，看来还是有必要入一个读卡器？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/chdk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CHDK 支持 G7 1.00j 固件</title>
+      <link>https://ioerr.github.io/posts/chdk-zhichi-g7-100j-gujian/</link>
+      <pubDate>Mon, 15 Oct 2007 15:03:54 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chdk-zhichi-g7-100j-gujian/</guid>
+      <description>CHDK 的固件脚本已经支持 Canon G7 的1.00j 版本，相关讨论见这里，直接下载见这里，常见问题见这里，使用和设置方法见这里。 如此，我的 G7已经可以支持 RAW</description>
+      <content:encoded><![CDATA[<p><a href="http://chdk.wikia.com/wiki/CHDK">CHDK</a><br>
+的固件脚本<a href="http://calon.weblogs.us/ziwen_zida/">已经支持</a> Canon G7<br>
+的1.00j<br>
+版本，<a href="http://chdk.wikia.com/wiki/CHDK_firmware_usage#.3CALT.3E_mode">相关讨论见这里</a>，<a href="http://www.zshare.net/download/413542734fd1db/">直接下载见这里</a>，<a href="http://scratchpad.wikia.com/wiki/CHDK/FAQ">常见问题见这里</a>，<a href="http://chdk.wikia.com/wiki/CHDK_firmware_usage">使用和设置方法见这里</a>。</p>
+<p>如此，我的 G7已经可以支持 RAW<br>
+格式记录，电量显示，包围曝光步进拍摄，实时直方图，高光斑马显示…如果实在无聊的话，还可以用相机看书、游戏甚至当手电筒…与<br>
+G9相比已是各有千秋。</p>
+<p>存在的问题有：<br>
+虽然 FAQ 中说2G 以上存储卡对开机自动载入脚本的支持有问题，但我没有想到2G<br>
+卡本身也存在此问题，如手工格式化为 FAT16<br>
+格式则可以支持，但我觉得不爽啊~<br>
+生成的 RAW 文件无法用 Total Commander<br>
+直接从相机上转移出来，看来还是有必要入一个读卡器？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,54 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>996 on 读写错误</title>
     <link>https://ioerr.github.io/tags/996/</link>
     <description>Recent content in 996 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/996/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>再说996</title>
-        <link>https://ioerr.github.io/posts/zai-shuo-996/</link>
-        <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zai-shuo-996/</guid>
-        <description>&lt;p&gt;据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，&lt;a href=&#34;https://github.com/996icu/996.ICU/pull/26101&#34;&gt;判处有期徒刑五年，剥夺政治权利五年&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。&lt;br /&gt;
-审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Datou/status/1669493899818336256&#34;&gt;Datou&lt;/a&gt;：&lt;br /&gt;
-大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1669511344469712896&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-在我看来，这类项目是个混合体。&lt;br /&gt;
-停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。&lt;br /&gt;
-另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。&lt;br /&gt;
-保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。&lt;br /&gt;
-如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Datou/status/1669521344730644480&#34;&gt;Datou&lt;/a&gt;：&lt;br /&gt;
-“心甘情愿”和“是否值得”矛盾了。&lt;br /&gt;
-另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1669525928953933824&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。&lt;br /&gt;
-另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。&lt;/p&gt;
-
-&lt;p&gt;资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？&lt;br /&gt;
-我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。&lt;br /&gt;
-但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/996/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>再说996</title>
+      <link>https://ioerr.github.io/posts/zai-shuo-996/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zai-shuo-996/</guid>
+      <description>据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，判处有期徒刑五年，剥夺政治权利五年。 “发</description>
+      <content:encoded><![CDATA[<p>据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，<a href="https://github.com/996icu/996.ICU/pull/26101">判处有期徒刑五年，剥夺政治权利五年</a>。</p>
+<p>“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。<br>
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。</p>
+<p><a href="https://twitter.com/Datou/status/1669493899818336256">Datou</a>：<br>
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。</p>
+<p><a href="https://twitter.com/calon/status/1669511344469712896">Calon</a>：<br>
+在我看来，这类项目是个混合体。<br>
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。<br>
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。<br>
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。<br>
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。</p>
+<p><a href="https://twitter.com/Datou/status/1669521344730644480">Datou</a>：<br>
+“心甘情愿”和“是否值得”矛盾了。<br>
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。</p>
+<p><a href="https://twitter.com/calon/status/1669525928953933824">Calon</a>：<br>
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。<br>
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。</p>
+<p>资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？<br>
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。<br>
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

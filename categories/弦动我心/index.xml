@@ -1,1287 +1,973 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>弦动我心 on 读写错误</title>
     <link>https://ioerr.github.io/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83/</link>
     <description>Recent content in 弦动我心 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>音乐分享</title>
-        <link>https://ioerr.github.io/projects/music-share/</link>
-        <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/projects/music-share/</guid>
-        <description>&lt;p&gt;在 Twitter 上开了一个&lt;a href=&#34;https://twitter.com/calon/status/1468218162915119109&#34;&gt;分享音乐的会话&lt;/a&gt;，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。&lt;/p&gt;
-
-&lt;p&gt;本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=BIQ2D6AIys8&#34;&gt;Intermezzo from Cavalleria Rusticana&lt;/a&gt;&lt;br /&gt;
-乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。&lt;br /&gt;
-作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。&lt;br /&gt;
-如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rfhRicrwaCs&#34;&gt;Russian Red - The Memory Is Cruel&lt;/a&gt;&lt;br /&gt;
-目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？&lt;/p&gt;
-
-&lt;p&gt;椎名林檎的入门向系列推荐：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1vt411u7hr/&#34;&gt;东京事变 - 落日&lt;/a&gt;&lt;br /&gt;
-某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ECxBHhMc7oI&#34;&gt;椎名林檎 - 本能&lt;/a&gt;&lt;br /&gt;
-MV 中护士装的打扮是她早期的经典形象。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MVUPJZUoKxM&#34;&gt;椎名林檎 - ギャンブル （赌局/Gamble）&lt;/a&gt;&lt;br /&gt;
-椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=krCk3EcsaxE&#34;&gt;椎名林檎 - 歌舞伎町の女王&lt;/a&gt;&lt;br /&gt;
-听到就忍不住跟着吹口哨啊。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Vx411W78L/&#34;&gt;椎名林檎 - 丸の内サディステック（丸之内虐待狂）&lt;/a&gt;&lt;br /&gt;
-现场经典的小跳步最适合这一首。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YLfkgo-3_sk&#34;&gt;椎名林檎 - 長く短い祭&lt;/a&gt;&lt;br /&gt;
-这首歌得看现场才最有感觉。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Tg8foBeQfcw&#34;&gt;椎名林檎 - 眩晕&lt;/a&gt;&lt;br /&gt;
-氛围营造相当到位，编曲一流。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AAwbl-loghk&#34;&gt;椎名林檎 - すべりだい（滑梯）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FlIzq3wLlDY&#34;&gt;椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lC8la4l4RhQ&#34;&gt;东京事变 - キラーチューン（杀手调）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=w1UnJ-aNzOw&#34;&gt;椎名林檎 - 同じ夜（同一夜）&lt;/a&gt;&lt;br /&gt;
-Dynamite Out 现场版最好，但没有找到网上的版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=dSd4ATGZCPg&#34;&gt;椎名林檎 - 積木遊び（积木游戏）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=oyQgpPbQO9Q&#34;&gt;椎名林檎 - 正しい街（正确的大街）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wXMydSionoQ&#34;&gt;椎名林檎 - 警告&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i13pRVZP7Ck&#34;&gt;椎名林檎 - 時が暴走する&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xy5hLV3NgVE&#34;&gt;椎名林檎 - シドと白昼夢（席德与白日梦）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;没有列出翻唱的作品，比如 Les Feuilles Mortes、Unconditional Love、Love is Blind、Fly Me to the Moon、I Won&amp;rsquo;t Last A Day Without You、Can&amp;rsquo;t Take My Eyes Off You 等等，编曲都可以好好品。&lt;br /&gt;
-如果听完这些还是对椎名林檎没有兴趣，那么基本上就和她无缘了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KJzwqfiyDH8&#34;&gt;梅艳芳 - 夕阳之歌&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=WCrtSxDNZS8&#34;&gt;陈慧娴 - 千千阙歌&lt;/a&gt;&lt;br /&gt;
-梅艳芳的《夕阳之歌》与陈慧娴的《千千阙歌》一曲两词，编曲和演唱风格大为不同，很多人不连着听都没意识到这是同一首歌曲的不同翻唱，而且超越了渣男近藤真彦的原唱《夕焼けの歌》，堪称香港音乐翻唱作品的巅峰之一。&lt;br /&gt;
-当年两首歌同时拿到同一届十大中文金曲金奖，先后同台表演，也是难得一见。&lt;br /&gt;
-同一年还有&lt;a href=&#34;https://www.youtube.com/watch?v=FPeOH4c35T0&#34;&gt;关淑怡的《难得有情人》&lt;/a&gt;、陈百强《一生何求》、Beyond《真的爱你》。&lt;br /&gt;
-赵鹏翻唱《难得有情人》的国语版本《&lt;a href=&#34;https://www.youtube.com/watch?v=9lH1s3upuCI&#34;&gt;早春&lt;/a&gt;》，因为声音低沉，成了发烧试机碟常用曲目。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FV33wtmGrYE&#34;&gt;Mina &amp;amp; Adriano Celentano - Brivido Felino &amp;amp; Acqua e Sale&lt;/a&gt;&lt;br /&gt;
-两首歌曲翻唱联唱现场版。挥洒自如的随性和风情万种的韵味是现场版独特的魅力。&lt;br /&gt;
-原版的 &lt;a href=&#34;https://www.youtube.com/watch?v=cIEfpco3wG4&#34;&gt;Brivido Felino&lt;/a&gt; 和 &lt;a href=&#34;https://www.youtube.com/watch?v=5WgCtuxGgEo&#34;&gt;Acqua e Sale&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=85hiOJli0Gs&#34;&gt;Burundi - Royal Burundi Drums&lt;/a&gt;&lt;br /&gt;
-上海世博会时，现场看了布隆迪大鼓的表演，第一场看了后半截意犹未尽，守在旁边又看了完整的第二场，可惜的当时没有好的设备录下来。&lt;br /&gt;
-感谢互联网，现在能找到在其他场合表演的版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ddpEVcuwDAg&#34;&gt;Mireille Mathieu &amp;amp; Patrick Duffy - Together We&amp;rsquo;re Strong &lt;/a&gt;&lt;br /&gt;
-尽管老视频的画质很糟，颜色失真，但 Mireille Mathieu 少女般的青春活力（那年她已有37岁）满溢而出。&lt;br /&gt;
-35年后，&lt;a href=&#34;https://www.youtube.com/watch?v=GCb3s8mCENQ&#34;&gt;两人同台演唱&lt;/a&gt; Together We&amp;rsquo;re Strong，一位须发皆白，一位身材发福，青春不在，美妙的声音仍在，美好的回忆仍在。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=08wk0ePNQEs&#34;&gt;卢巧音 - 好心分手&lt;/a&gt;&lt;br /&gt;
-个人认为独唱版胜过与王力宏合唱的版本，也可能是我先听的独唱版，所以先入为主吧。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=z2gmZ_T_210&#34;&gt;卢巧音 - 深蓝&lt;/a&gt;&lt;br /&gt;
-说到卢巧音，我更喜欢她另一首歌《深蓝》。当年感觉风格与众不同，令人耳目一新。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=dYi4bkV5qL0&#34;&gt;林子祥 - 数字人生 + Ah Lam 日记 + 千亿个夜晚&lt;/a&gt;&lt;br /&gt;
-现场音质全损版😂&lt;br /&gt;
-超强机能，超长待机，收放自如，举重若轻。&lt;/p&gt;
-
-&lt;p&gt;林子祥和胡夏合唱的《&lt;a href=&#34;https://www.youtube.com/watch?v=jKChIcjjlCU&#34;&gt;数字人生&lt;/a&gt;》，这回音质好了，更能体会到老前辈的恐怖实力。中间加入威风堂堂进行曲是神来之笔。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=R2-43p3GVTQ&#34;&gt;Edward Elgar - Pomp and Circumstance March No. 1 in D major (Land of Hope and Glory)&lt;/a&gt;&lt;br /&gt;
-2014年逍遥音乐节上激动人心的多地现场大合唱版本。&lt;br /&gt;
-不少人评论：我不是英国人听着都热血沸腾开始爱国了。&lt;br /&gt;
-还有个神回复：我的咖啡听到了这个，现在它是一杯茶了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=oQ_XDXDk96Q&#34;&gt;Vera Lynn - Land of Hope and Glory&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JSkvHrnAvKM&#34;&gt;陈奕迅、林子祥 - Shall We Talk&lt;/a&gt;&lt;br /&gt;
-孩童只盼望欢乐，大人只知道期望；&lt;br /&gt;
-为何都不大懂得，努力体恤对方。&lt;br /&gt;
-成人只寄望收获，情人只听见承诺；&lt;br /&gt;
-为何都不大懂得，努力珍惜对方。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4IFQZyxxyyM&#34;&gt;Olivia Newton-John  - Have You Never Been Mellow&lt;/a&gt;&lt;br /&gt;
-1975年现场版。&lt;br /&gt;
-Have you never been mellow?&lt;br /&gt;
-Have you never tried to find a comfort from inside you?&lt;br /&gt;
-Have you never been happy just to hear your song?&lt;br /&gt;
-Have you never let someone else be strong?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1f7411H71a/&#34;&gt;与非门 - 正午&lt;/a&gt;&lt;br /&gt;
-与非门这么好的乐队，可惜作品太少了，现在三少也已经因病去世。&lt;br /&gt;
-蒋凡这么好的歌手，唱功一流，现场稳，声线辨识度高，知道的人也太少了，因为谁是宝藏歌手节目才有更多人见识到。&lt;br /&gt;
-Youtube 上没有《正午》的资源，发个 B 站的，可惜不如在现场看过的版本好。&lt;/p&gt;
-
-&lt;p&gt;“谁是宝藏歌手”节目上，蒋凡唱的《&lt;a href=&#34;https://www.youtube.com/watch?v=sp1BEq3gq28&#34;&gt;乐园&lt;/a&gt;》粤语版。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=SdXas1bvdnE&#34;&gt;与非门 - 我睡在你眼睛的沙漠里&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uyNPds1mPmM&#34;&gt;与非门 - Happy New Year&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y147Rg/&#34;&gt;与非门 - 1061&lt;/a&gt;&lt;br /&gt;
-2007年3月24日的网络直播表演。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=3Uo0JAUWijM&#34;&gt;ABBA - Happy New Year&lt;/a&gt;&lt;br /&gt;
-Happy New Year&lt;br /&gt;
-May we all have a vision now and then&lt;br /&gt;
-Of a world where every neighbor is a friend&lt;br /&gt;
-Happy New Year&lt;br /&gt;
-May we all have our hopes, our will to try&lt;br /&gt;
-If we don&amp;rsquo;t we might as well lay down and die&lt;br /&gt;
-You and I&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=92cwKCU8Z5c&#34;&gt;ABBA - The Winner Takes It All&lt;/a&gt;&lt;br /&gt;
-But tell me does she kiss&lt;br /&gt;
-Like I used to kiss you?&lt;br /&gt;
-Does it feel the same&lt;br /&gt;
-When she calls your name?&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t wanna talk&lt;br /&gt;
-If it makes you feel sad&lt;br /&gt;
-And I understand&lt;br /&gt;
-You&amp;rsquo;ve come to shake my hand&lt;br /&gt;
-I apologize&lt;br /&gt;
-If it makes you feel bad&lt;br /&gt;
-Seeing me so tense&lt;br /&gt;
-No self-confidence&lt;br /&gt;
-But you see&lt;br /&gt;
-The winner takes it all&lt;/p&gt;
-
-&lt;p&gt;曾经心碎过的人才会懂。&lt;br /&gt;
-评论中有人说，我是个五十多岁生活美满幸福的已婚男人，能让我哭得像个婴儿的唯有这一首歌。&lt;br /&gt;
-另一个人说，只有到了一定的年龄才能体会到这首歌的深度。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XEjLoHdbVeE&#34;&gt;ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)&lt;/a&gt;&lt;br /&gt;
-40多年前的洗脑神曲。前奏你绝对听过，麦当娜在 Hang Up 中还用了一段采样。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xFrGuyw1V8s&#34;&gt;ABBA - Dancing Queen&lt;/a&gt;&lt;br /&gt;
-我入坑 ABBA 的第一首歌。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kU-fVLmY-iw&#34;&gt;郑智化 - 朋友，天堂好吗&lt;/a&gt;&lt;br /&gt;
-朋友啊天堂好吗&lt;br /&gt;
-我还厚着脸皮继续活着&lt;br /&gt;
-反反复复有太多借口&lt;br /&gt;
-找不到真正的理由&lt;br /&gt;
-朋友啊天堂好吗&lt;br /&gt;
-我的一生为着别人而活&lt;br /&gt;
-我在掌声之中起起落落&lt;br /&gt;
-没有人相信我的脆弱&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CsuBC_ilGsw&#34;&gt;Ben Kweller - Nothing Happening&lt;/a&gt;&lt;br /&gt;
-Let&amp;rsquo;s focus on tomorrow, instead of right now.&lt;br /&gt;
-Nothing happening. It&amp;rsquo;s all illusion. It&amp;rsquo;s all confusion.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2H5uWRjFsGc&#34;&gt;Chumbawamba - Tubthumping&lt;/a&gt;&lt;br /&gt;
-当年通过 EA 的 FIFA World Cup 98 知道这首歌，为了它买了《Now 4》合辑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9-L5GS_7JNc&#34;&gt;God Is an Astronaut - Forever Lost&lt;/a&gt;&lt;br /&gt;
-国内的后摇听得不多，国外的我是从 Forever Lost 入坑的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6Juju5eE6fY&#34;&gt;夏小虎 - 逝年&lt;/a&gt;&lt;br /&gt;
-某天加班时，老婆打电话过来，说明洲在问，我开车的时候放过一首歌，歌词里面有一句是“时间似流水”，歌名是什么，他忽然想听😂&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/KermitTheFrog/status/1254077709392719872&#34;&gt;Kermit The Frog - Rainbow Connection&lt;/a&gt;&lt;br /&gt;
-Someday we&amp;rsquo;ll find it,&lt;br /&gt;
-The rainbow connection,&lt;br /&gt;
-The lovers, the dreamers and me.&lt;/p&gt;
-
-&lt;p&gt;翻唱或者与青蛙合唱这首经典歌曲的有很多，比如 &lt;a href=&#34;https://www.youtube.com/watch?v=y9oyvgXgKQs&#34;&gt;Barbra Streisand&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/watch?v=PYuE2roIkH0&#34;&gt;Carpenters&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/watch?v=h0Hd3uWKFKY&#34;&gt;Debbie Harry&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/watch?v=ANHRk9tjFF0&#34;&gt;Tori Kelly&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/watch?v=2u2tJU7Gxp4&#34;&gt;Trespassers William&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/watch?v=MWWAIyZs7Os&#34;&gt;Sarah McLachlan&lt;/a&gt; 等等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=pqjt5NVGH1I&#34;&gt;秋山羊子 - どん&lt;/a&gt;&lt;br /&gt;
-慢慢慢慢，没有使用的机会&lt;br /&gt;
-我也慢慢慢慢地生起了锈&lt;br /&gt;
-开心也好，悲伤也好&lt;br /&gt;
-最好也罢，最差也罢&lt;br /&gt;
-不知不觉间，在慢慢的远去&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YCyuF9teerQ&#34;&gt;Scorpions - Life Is Too Short&lt;/a&gt;&lt;br /&gt;
-简单几句歌词就描绘出静谧、优美的画面，世界如此美好，生命却短暂易逝，大好时光不要浪费在不值得的事物上。&lt;br /&gt;
-在里斯本的这次现场表演很经典，比录音室版本要好。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5J75tIG2Vj4&#34;&gt;梶浦由记 - 媛星&lt;/a&gt;&lt;br /&gt;
-自创语言的音乐，就是容易空耳…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://music.163.com/song?id=27676397&#34;&gt;何真真 - 爱的微笑&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YG6ethg5mpk&#34;&gt;李杰 - 笑容&lt;/a&gt;&lt;br /&gt;
-很惊讶在 YouTube 上还能找到这首歌。当年小小的流行过一阵，后来再也没有在公共场合听到人播放过了…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gKNuVFoBNAE&amp;amp;list=PL-HhU06lpxM38s8EGCfgmMQif3oIuKJRr&#34;&gt;Frank Klepacki - C&amp;amp;C Tiberium Dawn OST&lt;/a&gt;&lt;br /&gt;
-虽然 Red Alert 的 Hell March 最知名，但我心中命令与征服1代的 OST 更棒，堪称神专。&lt;br /&gt;
-Act on Instinct、March to Doom、Just Do It Up、Industrial、In the Line of Fire、C&amp;amp;C Thang、Warfare…太多经典曲目了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZONKoKIQ9RY&#34;&gt;Cyndi Lauper - All Through the Night&lt;/a&gt;&lt;br /&gt;
-极具年代特色的编曲风格，和 Cyndi 标志性的音色。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LGV1xTgJf0Q&#34;&gt;Cyndi Lauper - Change of Heart&lt;/a&gt;&lt;br /&gt;
-非常有感染力的表演，Cyndi 的现场功力一流，绝对值得一看。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1stlgC5sUU4&#34;&gt;Cyndi Lauper - Unconditional Love&lt;/a&gt;&lt;br /&gt;
-I ain&amp;rsquo;t got no sense of direction now 这一句结尾的高音处理比录音室下行的版本要带感。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ry9AsSO7hTo&#34;&gt;The 80s: A Pop Culture Special&lt;/a&gt;&lt;br /&gt;
-看到过最棒的80年代欧美流行文化混剪视频，经历过80年代的可以看到无数熟悉的画面听到熟悉的音乐。&lt;br /&gt;
-结尾的音乐是 &lt;a href=&#34;https://www.youtube.com/watch?v=3wxyN3z9PL4&#34;&gt;Starship - Nothing&amp;rsquo;s Gonna Stop Us Now&lt;/a&gt;&lt;br /&gt;
-确实是很适合代表80年代时代精神的一首歌。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Md7uBJBiwLo&#34;&gt;Fire Inc. -  Tonight Is What It Means To Be Young&lt;/a&gt;&lt;br /&gt;
-Jim Steinman 为电影 Street of Fire（怒火街头）创作的歌曲之一。电影版和唱片版的领唱是 Laurie Sargent 和 Holly Sherwood。&lt;br /&gt;
-电影中 Diane Lane 的对口型表演以假乱真，以至于很多人以为她真是歌手。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0Fxe9zy_sNU&#34;&gt;Maria Conchita Alonso - La Loca&lt;/a&gt;&lt;br /&gt;
-陈慧娴《傻女》的原唱。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YfczFtTvzbg&#34;&gt;Ennio Morricone - Once Upon a Time in America&lt;/a&gt;&lt;br /&gt;
-大师之作，短短两分钟却让人有回顾一生的错觉，恍然如梦，不知今夕何年。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-PvyBKSmQ_g&#34;&gt;Ennio Morricone - L&amp;rsquo;estasi dell&amp;rsquo;Oro&lt;/a&gt;&lt;br /&gt;
-Tuco 在墓地狂奔寻金的背景音乐，被无数次引用的经典，适合激励打工人为财富自由奋斗终身。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=S4oM2K3okOE&#34;&gt;Ennio Morricone - Un Amico&lt;/a&gt;&lt;br /&gt;
-将近50年前的作品放在今天依然不朽，昆汀在《无耻混蛋》中致敬了一回，用得也是恰到好处。&lt;br /&gt;
-还有 Daniel Beretta 演唱的&lt;a href=&#34;https://www.youtube.com/watch?v=GlEDlsIfArY&#34;&gt;法语版&lt;/a&gt;，但我觉得不用人声的更好听。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Y-rAi-2hZ6U&#34;&gt;Chantelle Duncan - Forever&lt;/a&gt;&lt;br /&gt;
-The Man from Earth 的片尾曲，整首歌的歌词都可圈可点，格局很大，境界很高，最后回归人的感情，还能够与电影的内容完美匹配。&lt;/p&gt;
-
-&lt;p&gt;Nothing lasts forever,&lt;br /&gt;
-That&amp;rsquo;s what I&amp;rsquo;ve always heard.&lt;br /&gt;
-All things good must end, you know it&amp;rsquo;s true.&lt;/p&gt;
-
-&lt;p&gt;Nothing lasts forever,&lt;br /&gt;
-But maybe some things do.&lt;br /&gt;
-Forever is the way I feel for you.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PpKcPip81Hc&#34;&gt;张艾嘉 - 戏雪&lt;/a&gt;&lt;br /&gt;
-个人在时代的洪流中微不足道，有时候身不由己随波逐流，有时候一念之差就会天翻地覆抱憾终生&lt;/p&gt;
-
-&lt;p&gt;1948年，我离开我最爱的人&lt;br /&gt;
-当火车开动的时候，北方正落着苍茫的雪&lt;br /&gt;
-如果我知道这一别就要四十一年&lt;br /&gt;
-岁月若能从头，我很想说，我不走&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5PsFGSg3z28&#34;&gt;万晓利 - 这一切没有想象的那么糟&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;每天都要精心的灌溉&lt;br /&gt;
-兰花却一天天的垂败&lt;br /&gt;
-清风送来了杏花香&lt;br /&gt;
-这一切没有想象的那么糟&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lcOxhH8N3Bo&#34;&gt;Bonnie Tyler - Total Eclipse of the Heart&lt;/a&gt;&lt;br /&gt;
-适合绝望伤心者的歌，词作水准一流，但 MV 看不懂…&lt;/p&gt;
-
-&lt;p&gt;And I need you now tonight&lt;br /&gt;
-And I need you more than ever.&lt;br /&gt;
-And if you only hold me tight,&lt;br /&gt;
-We&amp;rsquo;ll be holding on forever.&lt;br /&gt;
-And we&amp;rsquo;ll only be making it right,&lt;br /&gt;
-&amp;lsquo;Cause we can never be wrong.&lt;br /&gt;
-Together we can take it to the end of the line.&lt;br /&gt;
-Your love is like a shadow on me all of the time.&lt;br /&gt;
-I don&amp;rsquo;t know what to do and I&amp;rsquo;m always in the dark.&lt;br /&gt;
-We&amp;rsquo;re living in a powder keg and giving off sparks.&lt;br /&gt;
-I really need you tonight.&lt;br /&gt;
-Forever&amp;rsquo;s gonna start tonight.&lt;br /&gt;
-Forever&amp;rsquo;s gonna start tonight.&lt;/p&gt;
-
-&lt;p&gt;Once upon a time, I was falling in love,&lt;br /&gt;
-But now I&amp;rsquo;m only falling apart.&lt;br /&gt;
-There&amp;rsquo;s nothing I can do.&lt;br /&gt;
-A total eclipse of the heart.&lt;br /&gt;
-Once upon a time, there was light in my life.&lt;br /&gt;
-But now there&amp;rsquo;s only love in the dark.&lt;br /&gt;
-Nothing I can say.&lt;br /&gt;
-A total eclipse of the heart.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bWcASV2sey0&#34;&gt;Bonnie Tyler - Holding Out For A Hero&lt;/a&gt;&lt;br /&gt;
-她的好歌太多了，只发几首。&lt;br /&gt;
-有部电影叫《完美盗贼/Bandits》，凯特·布兰切特饰演的女主人公特别喜欢跟着她的音乐唱歌。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bEOl38y8Nj8&#34;&gt;Bonnie Tyler - It&amp;rsquo;s A Heartache&lt;/a&gt;&lt;br /&gt;
-It&amp;rsquo;s a heartache&lt;br /&gt;
-Nothing but a heartache&lt;br /&gt;
-Hits you when it&amp;rsquo;s too late&lt;br /&gt;
-Hits you when you&amp;rsquo;re down&lt;br /&gt;
-It&amp;rsquo;s a fool&amp;rsquo;s game&lt;br /&gt;
-Nothing but a fool&amp;rsquo;s game&lt;br /&gt;
-Standing in the cold rain&lt;br /&gt;
-Feeling like a clown&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ziWg-b-KBtU&#34;&gt;Rod Stewart - It&amp;rsquo;s A Heartache&lt;/a&gt;&lt;br /&gt;
-Rod Stewart 的版本，各有千秋。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=St6jyEFe5WM&#34;&gt;Procol Harum - A Whiter Shade of Pale&lt;/a&gt;&lt;br /&gt;
-非常棒的现场版，而且年老之后醇厚的声音更有韵味。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1hU4y1W7Tm/&#34;&gt;韦启良 - When The World Let You Know Love&lt;/a&gt;&lt;br /&gt;
-电影《男人四十》、《江湖救急》都用过，听过的一定印象深刻。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Nqq_cHS9T6g&#34;&gt;须藤薰 - 雨の中の噴水（雨中的喷泉）&lt;/a&gt;&lt;br /&gt;
-City Pop 风格的代表之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=T_lC2O1oIew&#34;&gt;竹内まりや - Plastic Love&lt;/a&gt;&lt;br /&gt;
-City Pop 绕不过去的歌手和作品，竹内玛利亚的塑料爱，因为在 Youtube 上重新火了，官方又制作了个 MV。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mWQdGkLR1PE&#34;&gt;竹内まりや - Teko&amp;rsquo;s Theme&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=pTynyJkhNC0&#34;&gt;竹内まりや - けんかをやめて&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CbptWZzHBvc&#34;&gt;竹内まりや - 元気を出して&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=O_i9t7h8AgY&#34;&gt;Dexys Midnight Runners - Come On Eileen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=z825tkkfbIo&#34;&gt;Dan Hill - Sometimes When We Touch&lt;/a&gt;&lt;br /&gt;
-现在大家更熟悉的可能是各种翻唱版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EpsbK9XNhCE&#34;&gt;Rachael Yamagata - Dealbreaker&lt;/a&gt;&lt;br /&gt;
-All of this means nothing without you.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KUuMyyZoYO4&#34;&gt;Rachael Yamagata &amp;amp; Ray Lamontagne - Duet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2u8PmdK7MVY&#34;&gt;Rachael Yamagata - Over and Over&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Y-wUs9uyOz8&#34;&gt;La Grande Sophie - Tu n&amp;rsquo;as pas cherché&amp;hellip;&lt;/a&gt;&lt;br /&gt;
-Et puis un jour, on accepte les choses&lt;br /&gt;
-On se recroise, mais pour se dire au revoir&lt;br /&gt;
-Good bye&lt;br /&gt;
-Alors un jour, on regarde les choses&lt;br /&gt;
-On se dira un mot, on se dira au revoir&lt;br /&gt;
-Good bye&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=VpjlHja8PzQ&#34;&gt;Patricia Kaas - Il Me Dit Que Je Suis Belle&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZfQLaKS8yJY&#34;&gt;Les Choristes - Vois sur ton chemin&lt;/a&gt;&lt;br /&gt;
-电影《放牛班的春天》中很有名的歌曲，也是明洲参加合唱团学会的第一首法语歌。&lt;br /&gt;
-电影中的其他歌曲，如 Cerf volant、Les Avions en Papier 也不错。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TrwGCgnPoTQ&#34;&gt;Jean-Baptiste Maunier &amp;amp; Clemence - Concerto Pour Deux Voix&lt;/a&gt;&lt;br /&gt;
-我唯一会唱的法语歌应该就是这首了…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i6Ne8j7bPBw&#34;&gt;Indila - Feuille d&amp;rsquo;automne&lt;/a&gt;&lt;br /&gt;
-网友戏称，有咖喱味😂&lt;br /&gt;
-但这段童声真好听&lt;br /&gt;
-Mille et une couleurs&lt;br /&gt;
-Qui font battre mon cœur&lt;br /&gt;
-Au rythme des saisons&lt;br /&gt;
-Le temps d&amp;rsquo;une chanson&lt;br /&gt;
-Sous un saule pleureur&lt;br /&gt;
-Je rêve d&amp;rsquo;une vie meilleure&lt;br /&gt;
-Mais il faut être fort&lt;br /&gt;
-Alors j&amp;rsquo;attends encore&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=o0rWAKS1y7w&#34;&gt;Exodus&lt;/a&gt;&lt;br /&gt;
-厚重磅礴的《出埃及记》主题曲，可惜找得到的版本都嫌节奏过快。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=u925g6CgKuw&#34;&gt;Neil Young - Heart of Gold&lt;/a&gt;&lt;br /&gt;
-I&amp;rsquo;ve been a miner for a heart of gold.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Rf53qmhcGc8&#34;&gt;Karla Moheno/Sean Lennon - My Hero&lt;/a&gt;&lt;br /&gt;
-别打肿脸充胖子，天天想整些高大上的超能力，自信一点就好。&lt;br /&gt;
-唱到 faster than the speed of sound 时老想成 speed of light🤦&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6Ut5zTJkN4c&#34;&gt;新裤子 - 没有理想的人不伤心&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[Patti Smith - Because The Night]()&lt;br /&gt;
-《你的剧本逊毙了！》一书中，作者谈到&lt;a href=&#34;https://yourscreenplaysucks.wordpress.com/2012/08/26/the-difference-between-good-and-great-very-scary/&#34;&gt;好和伟大的差别&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Patti Smith 的声音（正是你希望剧本所具备的）力量澎湃，不可思议，如同海啸一般，显得 Natalie Merchant 版本的声音像肮脏的洗碗水。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作者还说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://youtube.com/watch?v=ydKbP0L9qcE&#34;&gt;Natalie Merchant 现场翻唱的《Because the Night》&lt;/a&gt;听上去很好，就像一部还不错的剧本。&lt;br /&gt;
-但当你看到 &lt;a href=&#34;https://youtube.com/watch?v=0brHGJ6xqbk&#34;&gt;Patti Smith 的版本&lt;/a&gt;，两相比较之下，立即就会明白哪个更好，也就是你的剧本应该成为的样子。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gxEPV4kolz0&#34;&gt;Billy Joel - Piano Man&lt;/a&gt;&lt;br /&gt;
-Yes, they&amp;rsquo;re sharing a drink they call loneliness.&lt;br /&gt;
-But it&amp;rsquo;s better than drinkin&amp;rsquo; alone.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2cwex7CmJdQ&#34;&gt;Caron Nightingale - Promises Don&amp;rsquo;t Come Easy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tCKO57ZbHSY&#34;&gt;Rita Coolidge - We&amp;rsquo;re All Alone&lt;/a&gt;&lt;br /&gt;
-这首歌翻唱的版本很多，华语歌手就有钟镇涛、周华健、张国荣翻唱过。&lt;br /&gt;
-我觉得 Rita Coolidge 翻唱的版本比原唱者 Boz Scaggs 的版本要好。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Qyclqo_AV2M&#34;&gt;The Beatles - We Can Work it Out&lt;/a&gt;&lt;br /&gt;
-Life is very short, and there&amp;rsquo;s no time for fussing and fighting, my friend.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5GUP7bsDPXg&#34;&gt;Judy Garland - Old Man River&lt;/a&gt;&lt;br /&gt;
-I&amp;rsquo;m tired of living but scared of dying.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jqN8McQ9d2I&#34;&gt;苏芮 - 一样的月光&lt;/a&gt;&lt;br /&gt;
-台北演唱会现场版本，吉他游正彦，贝斯郭宗韶，鼓手黄瑞丰，钢琴陈玉立。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=d4hJoBAzFFA&#34;&gt;John H. Clarke - Aurora Borealis&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=frv93sVjn1U&#34;&gt;Blackmore&amp;rsquo;s Night - Under A Violet Moon&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y11f8Oc25AI&#34;&gt;Manic Street Preachers - Suicide Is Painless&lt;/a&gt;&lt;br /&gt;
-喜欢这个和原唱风格截然不同的版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=16y1AkoZkmQ&#34;&gt;Boney M. - Rasputin&lt;/a&gt;&lt;br /&gt;
-乐队由西德人 Frank Farian 创立，成员来自牙买加、蒙特塞拉特和阿鲁巴。 唱片中男声是 Farian 唱的，舞者 Bobby Farrell 在现场表演时才有机会开口。&lt;br /&gt;
-这样的组合在波兰现场唱一首采样自土耳其的旋律关于拉斯普京的英文歌，相当奇妙。&lt;br /&gt;
-歌曲在俄罗斯大受欢迎，而 Farrell 去世的日期和地点和拉斯普京一样。&lt;br /&gt;
-据说歌曲旋律的源远流长，来源包括 katibim、ruse kose kuro imaš、shukno patar nupur paaye、tri bhuboner 等等。&lt;br /&gt;
-创作者的妻子是在北马其顿听到了第二首歌曲并介绍给他。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bGFV8o1liEQ&#34;&gt;山下达郎 - Your Eyes&lt;/a&gt;&lt;br /&gt;
-山下达郎有一把好嗓子，就是不知道是不是编曲太过精致细腻的原因，听多了有点腻。这首 Your Eyes 倒是百听不厌。&lt;br /&gt;
-另外，黄渤出名后，看山下达郎总觉得像黄渤，难道他不喜欢上镜是有先见之明？😂&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=h1tNw1aFzSM&#34;&gt;莫文蔚 - 忽然之间&lt;/a&gt;&lt;br /&gt;
-这首歌是为了台湾1999年9月21日的大地震而作，李焯雄根据地震中的亲身经历作词，词曲和 MV 简单质朴却打动人心，是我最喜欢的莫文蔚的歌曲之一。&lt;br /&gt;
-当年8月17日，土耳其伊兹密特也发生了大地震，超17000人死亡。&lt;br /&gt;
-今年，土耳其和叙利亚再遭地震，更为惨烈。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XuAPX5i8QYI&#34;&gt;Gala - 骊歌&lt;/a&gt;&lt;br /&gt;
-都知欢聚最难得，难耐别离多&lt;br /&gt;
-同样的曲子改了歌词也用在了和邵夷贝合作的《知音难觅》上。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=61zsUcnKAKs&#34;&gt;Michael Buble - What A Wonderful World&lt;/a&gt;&lt;br /&gt;
-I see skies of blue&lt;br /&gt;
-clouds of white&lt;br /&gt;
-The bright blessed day&lt;br /&gt;
-dark sacred night&lt;br /&gt;
-And I think to myself&lt;br /&gt;
-what a wonderful world&lt;br /&gt;
-Louis Armstrong 的版本如果是蓝天白云，那么 Buble 的版本就像是暮鼓晨钟。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=RW0Db5HVEqU&#34;&gt;忍者龍剣伝/Ninja Gaiden III - Act IV Part 1&lt;/a&gt;&lt;br /&gt;
-《忍者龙剑传3：黄泉的方舟》即使在系列中属于难度相对不高的一作，对我这样的动作苦手仍然难度很高，但它的音乐绝对让人过耳不忘。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H055G4XoMJU&#34;&gt;忍者龍剣伝/Ninja Gaiden STAGE 4-2 鮮烈のリュウ/Unbreakable Determination&lt;/a&gt;&lt;br /&gt;
-忍者龙剑传系列作中最出名的还是这一首，制作方 Tecmo 本来觉得风格和关卡不搭，准备弃用，但因为是在带感，于是保留了下来。&lt;br /&gt;
-这首曲子在网上有许多重新演绎的版本，其中 &lt;a href=&#34;https://www.youtube.com/watch?v=QRUFZcYRFDg&#34;&gt;Pontus Hultgren 的版本&lt;/a&gt;不错，特别是前奏部分。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CoGFV_xxR64&#34;&gt;Last Ninja 2 - Central Park&lt;/a&gt;&lt;br /&gt;
-Commodore 64平台上8 bit 音乐的巅峰作，相当上头，令人欲罢不能。其他芯片音乐的重新演绎大多都会用更加现代的乐器和编曲，唯独这一首太适合芯片音乐的风格了，波形不弄规整点都不行。&lt;br /&gt;
-一个不错的 &lt;a href=&#34;https://www.youtube.com/watch?v=P2eFlVpQ3dc&#34;&gt;remix 版本&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;纪如瑾 - 你累了吗/值得一辈子去爱/咖啡杯里的水仙/最美的原来是看不见的…&lt;/p&gt;
-
-&lt;p&gt;从同学那里知道的纪如瑾，因为他买了一盒《值得一辈子去爱》的磁带，和我交换着听。&lt;br /&gt;
-在2000年左右小有名气的内地女歌手中，她的风格甚是独特，加上名字好听，也就一直记住了。&lt;br /&gt;
-她出身音乐世家，从小立志成为歌手，可惜在这张专辑后没过几年就发了最后一张专辑，然后再也听不到她的消息，名气还不如之前在港台发展的时候。&lt;br /&gt;
-直到现在才知道原来她在橙天娱乐当副总裁，还成了唐嫣的经纪人。这转型太出乎意料了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GNMvzmRNnOc&#34;&gt;Bohdi Jones - Oh Father&lt;/a&gt;&lt;br /&gt;
-I never wanted anything from you but love&lt;br /&gt;
-Tell me who are you I need to know&lt;br /&gt;
-Without you I&amp;rsquo;m not whole&lt;/p&gt;
-
-&lt;p&gt;人有寻找父母角色的天性，希望强壮、温柔、坚毅、包容的长者给予自己无条件的爱。但现实中有幸得到这样爱的人太少，特别是父爱稀缺。&lt;br /&gt;
-有的人在现实中找不到能够给予父爱的人，可能会在其他方面寻找替代品，将父亲的角色投射到其身上，比如工作中的上级、生活中伴侣以及带有威权色彩的组织，并寻求其认可。&lt;br /&gt;
-有的人则需要花一生的时间摆脱对父爱的渴求，成功的人获得更加独立的心智，失败的人迁怒于人，陷入无穷无尽的愤怒和仇恨。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=UWP0rgs-P3I&#34;&gt;李宗盛 - 希望&lt;/a&gt;&lt;br /&gt;
-如果这纷乱的世界让我沮丧&lt;br /&gt;
-我就去看看她们眼中的光芒&lt;br /&gt;
-她们是未来的希望&lt;br /&gt;
-但愿我能给她一个最像天堂的地方&lt;/p&gt;
-
-&lt;p&gt;很多人最喜欢的李宗盛的歌是《当爱已成往事》，是《山丘》。&lt;br /&gt;
-对我来说是这一首，因为有一刻超越了都市情歌和老男人感慨人生的境界。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fk6twiO6uGU&#34;&gt;范晓萱 - 处处都有你&lt;/a&gt;&lt;br /&gt;
-范晓萱的出道风格和她的目标截然不同，反响却很好，除了清纯（《Rain》、《雪人》）、古灵精怪（《魔力 ESP》、《你的甜蜜》），还为动画配歌，如这首出自『ザ☆ドラえもんズ ムシムシぴょんぴょん大作戦!』 《哆啦A梦七小子：虫虫大作战》&lt;br /&gt;
-曾经有位同学是范晓萱的死忠，迷上的是初期风格的她。不知道后来范晓萱顺从本心转型后，他有没有一直喜欢下去，也不知道后来爆出了许多负面新闻后，这位死忠是否初心不改。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bL_17rgGZw4&#34;&gt;Ninja Gaiden - A Hero&amp;rsquo;s End/镇魂曲&lt;/a&gt;&lt;br /&gt;
-继续忍者龙剑传&lt;br /&gt;
-不到1分钟的结尾曲，开头来自罗密欧与朱丽叶&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LmZYpAk7ctc&#34;&gt;Peter, Paul and Mary - Puff the Magic Dragon&lt;/a&gt;&lt;br /&gt;
-我们中的一小部分人成为了 Peter Pan，大部分则成为了 Jackie Paper&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6dYWe1c3OyU&#34;&gt;Gloria Gaynor - I Will Survive&lt;/a&gt;&lt;br /&gt;
-随机到了一个电子舞曲风格编曲的版本，把精华全干掉了，真的有害身心健康，赶紧找来原版的洗一下耳朵。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7rwJIeN1M7o&#34;&gt;X Japan - Endless Rain&lt;/a&gt;&lt;br /&gt;
-X Japan 在97年解散前最后一次现场演出，成员们坐在斑驳的灯光中若有所思沉默不语，然后相继走下舞台&lt;br /&gt;
-观众反复不停地唱着…&lt;br /&gt;
-endless rain&lt;br /&gt;
-fall on my heart&lt;br /&gt;
-心の傷に&lt;br /&gt;
-let me forget&lt;br /&gt;
-all of the hate&lt;br /&gt;
-all of the sadness&lt;br /&gt;
-半年后，吉他手 Hide 意外去世&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xarC5jAiO7w&#34;&gt;ODESZA - A Moment Apart&lt;/a&gt;&lt;br /&gt;
-Forza Horizon 4中几乎每一首音乐的评论区，都有一大半的人在说：是 FH4 让我知道有这么好的音乐，和认识这些音乐人。&lt;br /&gt;
-这首是开场画面的背景音乐，有玩家评论说，玩试玩版时一听这个音乐我就知道应该下单了，以及这首歌能让我逗留在开场不舍得进入。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mxWTTXmZVvk&#34;&gt;Jasing Rye - Une Hirondelle A Fait Le Printemps&lt;/a&gt;&lt;br /&gt;
-融入了越剧“天上掉下个林妹妹”的法语香颂《独燕成春》，奇妙的组合。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>最佳演奏者</title>
-        <link>https://ioerr.github.io/posts/zuijia-yanzouzhe/</link>
-        <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zuijia-yanzouzhe/</guid>
-        <description>&lt;p&gt;如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。&lt;br /&gt;
-毕竟最厉害的人类也无法做到像电脑一样精确控制，分毫不差。&lt;/p&gt;
-
-&lt;p&gt;但我们仍会欣赏人类不完美的演奏，和即兴的不稳定发挥。&lt;br /&gt;
-而且，一支音乐作品的最佳版本往往不是严丝合缝、丝毫不差的那个，而是精确性让位于情感感染力的版本。&lt;/p&gt;
-
-&lt;p&gt;如果将乐谱看作显性知识，无法用符号表达创作者的完整意图，那么演奏时各种微妙的变化就是演奏者尝试领悟和演绎的隐性知识。&lt;br /&gt;
-最佳演奏者不是对照显性知识照本宣科，而是能在熟悉乐谱之后又超越它，直达创作者的意图。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>音乐的力量</title>
-        <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
-        <description>&lt;p&gt;不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”&lt;br /&gt;
-进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”&lt;/p&gt;
-
-&lt;p&gt;不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。&lt;/p&gt;
-
-&lt;p&gt;但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。&lt;br /&gt;
-某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。&lt;br /&gt;
-就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。&lt;/p&gt;
-
-&lt;p&gt;在音乐本身的审美价值之外，还有一点值得一提。&lt;/p&gt;
-
-&lt;p&gt;想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。&lt;/p&gt;
-
-&lt;p&gt;一支音乐不过几分钟时间，却有这样触动人心的力量。&lt;br /&gt;
-更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。&lt;br /&gt;
-有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。&lt;br /&gt;
-这是诉诸理性的文本无法达到的效果。&lt;/p&gt;
-
-&lt;p&gt;诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。&lt;br /&gt;
-音乐甚至不需要理性意志的参与，就可直达无意识的深渊。&lt;br /&gt;
-两者相比较之下，音乐的力量是不是很像某种魔法效果呢？&lt;/p&gt;
-
-&lt;p&gt;生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。&lt;/p&gt;
-
-&lt;p&gt;这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>我是歌手</title>
-        <link>https://ioerr.github.io/posts/wo-shi-geshou/</link>
-        <pubDate>Mon, 15 Apr 2013 08:53:44 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wo-shi-geshou/</guid>
-        <description>&lt;p&gt;《我是&lt;del&gt;割&lt;/del&gt;歌手》第一季落下帷幕，但是我一场完整的比赛都没有看过。决赛也不过看了个开头，然后通过收音机和在网上跳着看了一点重播。&lt;/p&gt;
-
-&lt;p&gt;有的人为林志炫没得第一打抱不平，要是我投票，当然投他得第一，尤其最后翻唱的《浮夸》，歌咏志，情胜技（他的歌曲容易出现技巧难度高，却在情感上拒人千里之外的尴尬，比如翻唱罗大佑《你的样子》，从先天条件到后天技巧，罗大佑当然完败，但他清明透亮的声音就是不适合这首歌要表达的情感），不愧是他的落幕曲，虽然比以前
-One Take 中的演绎有差。&lt;br /&gt;
-《Easy
-Lover》据说有两点败笔，一是错误地安排萧敬腾喧宾夺主，比起邓超的锦上添花，反而有扣分，二是观众可能不大熟悉这首歌曲——这就完全站不住脚，不是说观众都是精心挑选的爱乐人士么？哪怕之前从没有听过，也应该听得出水准如何吧。倒是忽然改变风格挺冒险的，有的人就觉得这首歌唱完冠军没戏了。&lt;/p&gt;
-
-&lt;p&gt;羽泉拿了第一名被称作爆冷，但决赛中相对较稳的也是他们，听说根据赛制，半决赛的分数也要计入，半决赛我没看，想来以他们的改编和编曲再创作能力，名次靠前也是实至名归。&lt;br /&gt;
-作为歌手，他们最大的优点在于营造“气氛”的感染力，他们带着玩的心态参加比赛，足够放得开，既能提升现场发挥水平，也能更好地感染现场观众，再说，作为表演者，这又何尝不是硬实力的一种呢？&lt;br /&gt;
-要是觉得这样不符合节目的定位，那就改变最终结果评定的打分者和赛制吧。&lt;/p&gt;
-
-&lt;p&gt;看得最完整的一场就是复活赛，那场杨宗纬唱《流浪纪》真是拼了老命，也把观众的魂魄给勾走了。&lt;br /&gt;
-这一场的《我离开我自己》，我是在收音机里面听的，在车库听完了才肯下车。&lt;br /&gt;
-第一首《我要我们在一起》感觉被李泉掩盖了，钢琴加分很多，杨宗纬的存在感却不够强。&lt;/p&gt;
-
-&lt;p&gt;彭佳慧和顺子的组合出错不少，尤其是顺子，感觉功力退化许多。但能够把《一无所有》和《酒干倘卖无》编在一起真是出乎意料之外的好！&lt;br /&gt;
-第二首《相见恨晚》差强人意，杀伤力差了点，如果是我，会选择《喜欢两个人》并且放在第一首。&lt;/p&gt;
-
-&lt;p&gt;黄绮珊的成名曲没啥可说的，和韩国原版《我是歌手》冠军合唱《Without
-You》（每次听这首歌，老婆都说会联想到《你是我的眼》，orz）唱砸了，看直播时真不忍心直视台上的挣扎，唱完后主持人还交口称赞，我都想换台了。深情不是靠飙高音展现的，何况还飙得错乱了。&lt;br /&gt;
-当时我还想，改唱《Total Eclipse Of The
-Heart》更好，但后来又觉得，恐怕难唱出 Bonnie Tyler 的痛彻心肺。&lt;/p&gt;
-
-&lt;p&gt;辛晓琪是真不行了，两首歌都毫无亮点，本来我觉得唱《领悟》还能多得点分，老婆说她之前参赛时已经唱过了。&lt;/p&gt;
-
-&lt;p&gt;周晓鸥更加没有什么存在感，听说他之前凭借霸气外露的《九个太阳》拿过一次第一？&lt;br /&gt;
-翻唱《Everything I
-Do》这种流行度高又难出现亮点的歌曲，不可理喻，还不如唱自己的《Bar
-Street》呢，不过听说零点乐队为了翻唱的事情找他索赔，看来少唱旧作倒是好事……&lt;/p&gt;
-
-&lt;p&gt;整个节目下来，除了泪流满面的观众（据说决赛黄牛票价3000元，难怪观众要流泪），最让人受不了的是湖南卫视那几个主持人扮的所谓的“经纪人”，从头违和到尾，对节目的进程和歌手的发挥也没看出有什么正面效果，沈梦辰搔首弄姿的伴舞算是最大的贡献了吧？&lt;br /&gt;
-没看过韩国原版的情况，我觉得经纪人应该是用来指导歌手的，比如在赛前帮助歌手选曲，确定表演风格，协助与编曲、伴奏、和声沟通，在每个阶段的比赛后及时指出不足之处，协助提升实力，弥补短板，等等，最好是由圈内有分量的制作人之类的专业人士担当。湖南卫视那几个主持人在音乐方面的专业水平可以忽略不计，难堪大任，连加油打气都像扮小丑。&lt;/p&gt;
-
-&lt;p&gt;要不，在《我是歌手》之外另外弄一个的节目吧，歌手选择有潜力的新人或者遭遇瓶颈的过气歌手，指导老师和制作团队才是请最顶级的——《中国好声音》那种明星导师不够分量——最大的看点应该是歌手被指导和包装的过程，和前后的表演水平比较，这样，随着歌手的成长，观众不但有代入感，还能知道在幕后，一个专业歌手的团队都做了哪些工作，以及为什么要做这些工作。&lt;br /&gt;
-不过风险是，大部分的观众可能更喜欢看炫技表演，要是能力不足，制作这样的节目容易搞砸。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>第二届橘洲音乐节</title>
-        <link>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</link>
-        <pubDate>Sun, 26 Sep 2010 09:53:54 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</guid>
-        <description>&lt;p&gt;这是标题党，因为我只去了第二天的音乐节。&lt;/p&gt;
-
-&lt;p&gt;9月22-24日的3天，第二届长沙橘洲音乐节在橘子洲头举办。本来没有兴趣在冰冷雨天去听音乐会，而且感兴趣的乐队不多，但因为免费弄到了23日的票，所以决定去开开眼界，看看本地办的这类音乐节水准如何。&lt;/p&gt;
-
-&lt;p&gt;去之前查了一下官方网站和各个社区的活动页面，发现抱怨门票价格、场地、组织不周到和担忧天气的人不少，而且捆绑的沙雕展览完全没有吸引人的地方。&lt;/p&gt;
-
-&lt;p&gt;23日下午一直是下雨，从桥头走到橘子洲头一路上冷冷清清，略过比较惊悚的沙雕直接到了现场，发现也就一、两百人在寒风细雨中哆哆嗦嗦，附近的沙地上立着十数个帐篷，路边有卖
-CD
-、纪念品、小商品、餐饮的店面，比如乡村基…还有多背一公斤的公益活动摊位、涂鸦墙和某楼盘宣传位…&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020251637/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4128/5020251637_0692a9e4c8.jpg&#34; alt=&#34;帐篷&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;表演的乐队比较卖力，没有因为观众太少而放不开。下午时的老赵、阿修罗还不错，后者的出场和鼓动还掀起了不小的高潮。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020271115/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4106/5020271115_f2080f99a8.jpg&#34; alt=&#34;阿修罗&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020895202/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4153/5020895202_5344fe2afb.jpg&#34; alt=&#34;同挥舞手臂&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;悲剧的是，乐队轮换、设备调音的间隙一直在放 Queen
-的歌曲，我个人觉得还是这几段最给力啊，忍不住跟着一起唱…&lt;/p&gt;
-
-&lt;p&gt;快吃晚饭时，脑浊的出场又是一个高潮，身边的摇滚青年们都陷入无意识状态。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020955596/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4150/5020955596_d8bd4cd67c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我还是没有兴奋起来，除了几段吉他独奏外，对歌词和旋律没有什么感觉，如果光跟着震耳欲聋的鼓声晃动身体又挺傻的。&lt;br /&gt;
-这个时候雨小了，人也多了，看上去总算有个小型音乐节的样子。&lt;/p&gt;
-
-&lt;p&gt;之后是与非门出场。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020911986/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4125/5020911986_02bd6b2bd3.jpg&#34; alt=&#34;与非门&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;摇滚青年们似乎很不习惯从已经热起来的摇滚氛围突然进入电子乐的世界，加上主唱蒋凡在寒风中一边发抖一边唱歌，和长沙老乡们拉家常话又有点多，场面一下子就冷了，甚至有人中途抱怨怎么这支乐队还没唱完。&lt;br /&gt;
-我倒挺喜欢与非门的表演，《乐园》、《1061》、《正午》都合我的胃口，也许是因为我更加熟悉他们一些？&lt;/p&gt;
-
-&lt;p&gt;经过半个小时以上的设备检修+广告时间，木玛乐队出场。我不清楚国内摇滚乐队的情况，看样子木玛很火？而且随便说一些牵强附会的言论也有一群人跟着叫好，诸如“现场音响设备老是出故障，就像中国摇滚的现状一样”——我还以为他们是在自省呢。&lt;br /&gt;
-好在气氛重新活跃，摇滚青年们在拥挤的人群中玩起了火车接龙。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/5020330785/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4092/5020330785_6e394d524b.jpg&#34; alt=&#34;开火车的小青年&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020315847/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4128/5020315847_800d101ba7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可能是音响设备问题影响效果，听了几首之后觉得兴味索然，于是走路回家。之后的痛仰和汪峰我也不想跟了，在风雨中站了几个小时腰都在痛，他们的魅力还没这么大。&lt;/p&gt;
-
-&lt;p&gt;最后说说对活动组织的看法：&lt;br /&gt;
-1、沙雕展览完全没有必要一起办，提高了门票价格导致以学生为主的观众数量大减，现场饮食很贵又不准观众带水入场（据说热水4元1杯），学生观众可以充分体会饥寒交迫或挨宰的感觉；&lt;br /&gt;
-2、下雨天应该发放一次性雨衣；&lt;br /&gt;
-3、音响设备问题影响很大，浪费所有人的时间，不能够一再出现；&lt;br /&gt;
-4、LCD 屏幕和旁边的小投影根本就没有发挥实质作用；&lt;br /&gt;
-5、要多想办法制造气氛，现在感觉就像放观众进来任其自生自灭；&lt;br /&gt;
-6、据说场地大小和音响比去年差，加上天气如此糟糕，搞不好下一届就没了…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/5020843744/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4107/5020843744_61c2e9cc74.jpg&#34; alt=&#34;旗帜&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>纵贯线</title>
-        <link>https://ioerr.github.io/posts/zongguanxian/</link>
-        <pubDate>Mon, 21 Sep 2009 14:09:03 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zongguanxian/</guid>
-        <description>&lt;p&gt;盼星星盼月亮，终于盼来了纵贯线长沙站演唱会！如果你不是他们其中任何一人的忠实歌迷，请称呼他们为中国流行音乐史上最短暂骗钱组合
-XD，因为明年纵贯线就要解散了，今后恐怕再没有机会看到这四人组团巡演了。&lt;/p&gt;
-
-&lt;p&gt;很遗憾没有弄到正对舞台的内场 VIP
-票，所以蹲到了离舞台最近的一层看台侧面，悲剧的是，等到四个人亮相，才发现看不到打鼓的张震岳…&lt;/p&gt;
-
-&lt;p&gt;事先在网上公布的歌曲清单并没有完全兑现，《爱情有什么道理》、《爱我别走》、《思念是一种病》、《路口》、《难念的经》都没有唱，倒是罗大佑虽然很多好歌没有入选，却意外的唱了《爱的箴言》。&lt;/p&gt;
-
-&lt;p&gt;周华健版的《穿过你的黑发的我的手》非常好听！遗憾的是没有来得及录下来，好在《有没有那么一首歌会让你想起我》没有跑掉；&lt;br /&gt;
-李宗盛的《凡人歌》加了 rap
-段别有风味，《我是一只小小鸟》的伴奏相当好听；&lt;br /&gt;
-因为几首喜欢的歌都没有唱，这次张震岳还是《自由》最好听，最好唱的《爱的初体验》全场最热闹；&lt;br /&gt;
-能听到罗大佑现场唱《光阴的故事》、《你的样子》、《爱的箴言》真是幸福啊！还有最初给刘文正唱的《风儿轻轻吹》，以及罗大佑正式发表的第一首歌曲《歌》。&lt;/p&gt;
-
-&lt;p&gt;长沙的歌迷还算热情，数次大合唱老歌，不过很多内场 VIP
-观众不知安可曲（encore）为何物，一看台上灯光熄灭瞬间就走了一半，结果错过了《明天会更好》、《真心英雄》、《朋友》联唱和《亡命之徒/出发啦》完整版。&lt;/p&gt;
-
-&lt;p&gt;因为相机不能胜任晚上长距离拍照，所以改成录像，然则又不是摄像专家，存储卡空间不多，长时间录像机身明显发热，所以录了个大概能够唤起回忆就好…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.youku.com/playlist_show/id_3765596.html&#34;&gt;纵贯线长沙站部分视频专辑&lt;/a&gt;，用最差的画质录的，听声音就好：&lt;/p&gt;
-
-&lt;p&gt;光阴的故事：&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;爱的箴言、花心、寂寞难耐：&lt;/p&gt;
-
-&lt;p&gt;明天会更好、真心英雄、朋友：&lt;/p&gt;
-
-&lt;p&gt;爱的初体验：&lt;/p&gt;
-
-&lt;p&gt;有没有一首歌会让你想起我：&lt;/p&gt;
-
-&lt;p&gt;明天我要嫁给你了：&lt;/p&gt;
-
-&lt;p&gt;恋曲1990：&lt;/p&gt;
-
-&lt;p&gt;我是一只小小鸟：&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>简评快女十强</title>
-        <link>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</link>
-        <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</guid>
-        <description>&lt;p&gt;刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：&lt;/p&gt;
-
-&lt;p&gt;1、郁可唯&lt;br /&gt;
-今天选歌很成功，第一轮拿到最高分有些过分，但车轮战胜出没有争议。&lt;br /&gt;
-之前偶尔几次看快女节目都没有看到她的表现，以为水平中等，现在看来只要能够保持风格，进入三甲是很有可能的。&lt;/p&gt;
-
-&lt;p&gt;2、李霄云&lt;br /&gt;
-无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合
-R&amp;B; 风格的问题。&lt;/p&gt;
-
-&lt;p&gt;3、刘惜君&lt;br /&gt;
-第一次完整听她唱歌，之前只是看过一次清唱 PK。&lt;br /&gt;
-对气息的控制很见功力，选歌从不冒险，不会随便丢分。应该至少进入前三吧。&lt;/p&gt;
-
-&lt;p&gt;4、江映蓉&lt;br /&gt;
-相当有活力有感染力，声音条件也比谈莉娜好得多。但她的选歌起伏太大，有的时候很不讨巧大众。&lt;/p&gt;
-
-&lt;p&gt;5、潘虹樾&lt;br /&gt;
-感觉她实力不算出众，不过今晚最后一首歌即使不完美，也唱出了荡气回肠的气势。&lt;/p&gt;
-
-&lt;p&gt;6、曾轶可&lt;br /&gt;
-争议最大的选手。感觉她的创作风格大同小异，总以为翻来覆去听的是同一首歌。&lt;br /&gt;
-唱歌的基本功就不说了，就算说是靠着特色的创作受到音乐界人士的喜爱走到全国十强，也只能说明大陆的创作水准太差了，竟然为这样的水平而惊艳。&lt;/p&gt;
-
-&lt;p&gt;7、谈莉娜&lt;br /&gt;
-外形和风范是我最喜欢的一位，台风极佳，感染力极强，真的很有明星的味道。&lt;br /&gt;
-希望她能够多唱唱莫文蔚的快歌。&lt;br /&gt;
-只是怕一招不慎就可能被挡在7强门外，毕竟唱功实力不敢恭维。&lt;/p&gt;
-
-&lt;p&gt;8、李媛希&lt;br /&gt;
-没有任何特色和亮点可言。我能够想到的就是缩水版的蔡依林。&lt;/p&gt;
-
-&lt;p&gt;9、黄英&lt;br /&gt;
-上一次听到她唱《阿里山的姑娘》就已经非常失败了，没想到今天唱了一个更加失败的《明月几时有》。&lt;br /&gt;
-她的声音辨识度再高，也要选择适合的歌曲来演绎才行，今天输给不在状态的谈莉娜一点也不冤枉。&lt;/p&gt;
-
-&lt;p&gt;10、潘辰&lt;br /&gt;
-抓住像《爱如潮水》这样的歌曲可以让人眼前一亮，但劲歌热舞显然非其所长，舞蹈动作极其不自然，声音处理漫不经心没有任何修饰。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>年轻的朋友二十年后再相会</title>
-        <link>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
-        <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
-        <description>&lt;p&gt;1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；&lt;/p&gt;
-
-&lt;p&gt;1999年12月，甲丁邀请张枚同再写一首《二十年后再相会》，甲丁修改后仍由谷建芬老师谱曲。&lt;/p&gt;
-
-&lt;blockquote&gt;
-《年轻的朋友来相会》
-
-年轻的朋友们，今天来相会，\
-荡起小船儿，暖风轻轻吹，\
-花儿香，鸟儿鸣，春光惹人醉，\
-欢歌笑语绕着彩云飞。
-
-啊，亲爱的朋友们，\
-美妙的春光属于谁？\
-属于我，属于你，\
-属于我们八十年代的新一辈！
-
-再过二十年，我们重相会，\
-伟大的祖国该有多么美！\
-天也新，地也新，春光更明媚，\
-城市乡村处处增光辉。
-
-啊，亲爱的朋友们，\
-创造这奇迹要靠谁？\
-要靠我，要靠你，\
-要靠我们八十年代的新一辈！
-
-但愿到那时，我们再相会，\
-举杯赞英雄，光荣属于谁？\
-为祖国，为四化，流过多少汗？\
-回首往事心中可有愧？
-
-啊，亲爱的朋友们，\
-愿我们自豪地举起杯，\
-挺胸膛，笑扬眉，\
-光荣属于八十年代的新一辈！\
-光荣属于八十年代的新一辈！\
-光荣属于八十年代的新一辈！
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-《二十年后再相会》
-
-来不及等待，来不及沉醉，\
-噢来不及沉醉，\
-年轻的心迎着太阳，\
-一同把那希望去追。
-
-我们和心愿心愿再一次约会，\
-让光阴见证让岁月体会，\
-我们是否无怨无悔。
-
-再过二十年我们来相会，\
-那时的山，噢那时的水，\
-那时祖国一定很美，\
-但愿到那时我们再相会，\
-那时的春，噢那时的秋，\
-那时硕果令人心醉。
-
-来不及感慨，来不及回味，\
-噢来不及回味，\
-多彩的梦满载理想，\
-一同向着未来放飞
-
-我们把蓝图蓝图再一次描绘，\
-让时代检阅让时光评说，\
-我们是否问心无愧。
-
-再过二十年我们来相会，\
-那时的天，噢那时的地，\
-那时祖国一定更美，\
-但愿到那时我们再相会，\
-那时的你，噢那时的我，\
-那时成就令人欣慰。
-
-那时的你，噢那时的我，\
-那时我们再相会，\
-那时的你，噢那时的我，\
-跨世纪的新一辈，\
-那时我们再相会。
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>画出一首歌</title>
-        <link>https://ioerr.github.io/posts/huachu-yishouge/</link>
-        <pubDate>Tue, 21 Apr 2009 14:57:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/huachu-yishouge/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt;
-可以让你发送匿名邮件，发件人的地址可以随便填写，支持中文。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.sendanonymousemail.net/&#34;&gt;Send Anonymous Email&lt;/a&gt;
-是另一个同类工具，区别主要在于需要填写验证码，但尝试给我的邮箱发信一直没有收到…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://send-email.org/&#34;&gt;Send Email Message&lt;/a&gt; 还有个同样免费的服务，&lt;a href=&#34;http://verify-email.org/&#34;&gt;Free
-Email Address
-Verifier&lt;/a&gt;，验证指定邮箱是否存在。花44.90美元可以&lt;a href=&#34;http://verify-email.org/buy-script.htm&#34;&gt;买到验证邮箱的
-PHP 脚本&lt;/a&gt;（WIndows
-环境不适用）。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://lab.andre-michelle.com/tonematrix&#34;&gt;ToneMatrix&lt;/a&gt;
-是一个可以用来玩作曲的16×16格矩阵，从上到下是音调高低，从左至右是时间流顺序，循环播放。有人声称曾沉迷其中多日。&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-20-34-51.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-34-51.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这让我想起了一个玩节拍器/节奏鼓模拟器的软件
-&lt;a href=&#34;http://www.threechords.com/hammerhead/introduction.shtml&#34;&gt;HammerHead&lt;/a&gt;，也是容易让人沉迷的。&lt;br /&gt;
-&lt;img src=&#34;http://www.threechords.com/hammerhead/images/hammerhead.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;还有一个比较实用的体积非常小的节拍器是 &lt;a href=&#34;http://www.pinkandaint.com/weirdmet.shtml&#34;&gt;Weird
-Metronome&lt;/a&gt;，可以方便的设置节拍速率。&lt;br /&gt;
-&lt;img src=&#34;http://www.pinkandaint.com/images/weirdmet.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最近很流行的 Flash 是 &lt;a href=&#34;http://soytuaire.labuat.com/&#34;&gt;Pintando una
-canción&lt;/a&gt;（画出一首歌），&lt;a href=&#34;http://soytuaire.labuat.com/mp3/mix.mp3&#34;&gt;音乐&lt;/a&gt;好听，水墨画效果很惊人，最棒的还是这个创意，让你随着音乐挥舞鼠标画水墨画。&lt;br /&gt;
-可以先看看别人录制的&lt;a href=&#34;http://v.youku.com/v_show/id_XODE4MTk0ODg=.html&#34;&gt;动画&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;以及我的截图：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-19-57-32-1.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-19-57-32-1.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-20-07-37-1.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-07-37-1.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-20-09-40-1.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-09-40-1.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2009-04-21-20-09-59-2.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-09-59-2.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后是伊卡洛斯之翼（传说中的翅膀）最近架起来已经发布几期的音乐电台&lt;a href=&#34;http://www.vvland.cn/flytodie/&#34;&gt;塞壬之夜&lt;/a&gt;，怎么下载就不用我提示了吧。&lt;br /&gt;
-这一期的最后一首 Do Virgins Taste Better/Dragon&amp;rsquo;s Retort 很欢乐：&lt;/p&gt;
-
-&lt;p&gt;Do Virgins Taste Better?&lt;/p&gt;
-
-&lt;p&gt;A dragon has come to our village today.&lt;br /&gt;
-We&amp;rsquo;ve asked him to leave, but he won&amp;rsquo;t go away.&lt;br /&gt;
-Now he&amp;rsquo;s talked with our king and they&amp;rsquo;ve worked out a deal.&lt;br /&gt;
-No homes will he burn and no crops will he steal.&lt;/p&gt;
-
-&lt;p&gt;Now there is but one catch, we dislike it a bunch,&lt;br /&gt;
-Twice a year he invites him a virgin to lunch.&lt;br /&gt;
-Well, we&amp;rsquo;ve no other choice, so the deal we&amp;rsquo;ll respect,&lt;br /&gt;
-But we can&amp;rsquo;t help but wonder and pause to reflect.&lt;/p&gt;
-
-&lt;p&gt;[Do virgins taste better than those who&amp;rsquo;re not?&lt;br /&gt;
-Are they salty or sweet or more juicy or what?&lt;br /&gt;
-Do you savor them slowly? Gulp them down on the spot?&lt;br /&gt;
-Do virgins taste better than those who&amp;rsquo;re not?] = [#1]&lt;/p&gt;
-
-&lt;p&gt;Now we&amp;rsquo;d like to be shed and many have tried,&lt;br /&gt;
-But no one can get through your thick scaly hide.&lt;br /&gt;
-We hope that someday, some brave knight will come by,&lt;br /&gt;
-&amp;lsquo;Cause we can&amp;rsquo;t wait around &amp;lsquo;til you&amp;rsquo;re too fat to fly.&lt;/p&gt;
-
-&lt;p&gt;Now you have such good taste in your women for sure.&lt;br /&gt;
-They always are pretty, they always are pure.&lt;br /&gt;
-But your notion of dining, it makes us all flinch,&lt;br /&gt;
-For your favorite entree is a barbecued wench.&lt;/p&gt;
-
-&lt;p&gt;[#1]&lt;/p&gt;
-
-&lt;p&gt;Now we&amp;rsquo;ve found a solution, It works out so neat.&lt;br /&gt;
-If you insist on nothing but virgins to eat,&lt;br /&gt;
-No more will our numbers grow ever so small.&lt;br /&gt;
-We&amp;rsquo;ll simply make sure there&amp;rsquo;s no virgins at all!&lt;/p&gt;
-
-&lt;p&gt;[#1]&lt;/p&gt;
-
-&lt;p&gt;Dragon:&lt;/p&gt;
-
-&lt;p&gt;Now, I am a dragon. Please listen to me.&lt;br /&gt;
-For I&amp;rsquo;m misunderstood to a dreadful degree.&lt;br /&gt;
-This ecology needs me, and I know me place,&lt;br /&gt;
-But I&amp;rsquo;m fighting extinction with all of me race.&lt;/p&gt;
-
-&lt;p&gt;Well, I came to this village to better me health.&lt;br /&gt;
-Which is ever so poor despite all me wealth.&lt;br /&gt;
-But I get no assistance and no sympathy.&lt;br /&gt;
-Just impertinent questioning shouted at me.&lt;/p&gt;
-
-&lt;p&gt;[Yes, virgins taste better than those who&amp;rsquo;re not.&lt;br /&gt;
-But my favorite snack mixed with peril is fraught&lt;br /&gt;
-For my teeth will decay and my trim go to pot&lt;br /&gt;
-Yes, virgins taste better than those who&amp;rsquo;re not.] = [#2]&lt;/p&gt;
-
-&lt;p&gt;You see I&amp;rsquo;m really quite kind almost all through the year.&lt;br /&gt;
-Vegetarian ways are now mine out of fear.&lt;br /&gt;
-But a birthday needs sweet so I&amp;rsquo;m sure you&amp;rsquo;ll agree.&lt;br /&gt;
-And barbecued wench tastes like candy to me.&lt;/p&gt;
-
-&lt;p&gt;As it happens our interests are almost the same.&lt;br /&gt;
-You see I&amp;rsquo;m really quite skillful at magic and game.&lt;br /&gt;
-If I ate just your men, would your excess decline?&lt;br /&gt;
-Of course not, the rest would just make better time.&lt;/p&gt;
-
-&lt;p&gt;[#2]&lt;/p&gt;
-
-&lt;p&gt;Now, the number of babies a woman can bare,&lt;br /&gt;
-Has limits, and that&amp;rsquo;s why my pruning&amp;rsquo;s done there.&lt;br /&gt;
-And an orphan&amp;rsquo;s a sad sight, and so when I munch,&lt;br /&gt;
-I&amp;rsquo;m careful to eat only virgins for lunch.&lt;/p&gt;
-
-&lt;p&gt;[#2]&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Mixtape 与音乐回忆</title>
-        <link>https://ioerr.github.io/posts/mixtape-yu-yinyue-huiyi/</link>
-        <pubDate>Wed, 19 Nov 2008 16:16:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/mixtape-yu-yinyue-huiyi/</guid>
-        <description>&lt;p&gt;流行 &lt;a href=&#34;http://ifire.cn/archives/20081119/&#34;&gt;Mixtape&lt;/a&gt;
-的时候，我还没有女朋友呢，虽然家里有台可以转录的录放机，但等到我想做
-Mixtape 的时候，已经进入了 MP3 的时代。&lt;br /&gt;
-当然，还有两个原因也很重要：&lt;br /&gt;
-1、当时能够接触到的好音乐并不多，特别是摇滚，大部分时间是听古典音乐，就算要做
-Mixtape 送人也不合适；&lt;br /&gt;
-2、我很讨厌把搅出来的磁带从录放机肚子里面扒出来整理好再塞回磁带里面的过程，而当你使用的是一台老机器时，这太司空见惯了，以至于从此以后我对某些人受伤后后把掉出来的肠子塞回肚子的描述产生了心理阴影。&lt;/p&gt;
-
-&lt;p&gt;倒是记得死皮赖脸向同学借了个高级的随身听去录电视里面播放的90年罗马三大男高音合唱的《我的太阳》，以及
-Michael Jackson 领衔群星的《We Are The
-World》，虽然录出来的效果很差劲，也听得很乐。&lt;/p&gt;
-
-&lt;p&gt;顺便回顾一下第一次接触各种音乐记录载体的经历：&lt;br /&gt;
-磁带：最早还留有印象的应该是吴涤清的《阿里巴巴》和崔健的《一无所有》，特别是前者，看着成年人随着奇怪的歌词曲调跳着奇怪的舞蹈，震惊了我幼小的心灵；80年代的小青年那时还流行肩扛硕大的录放机上街招摇的行为艺术，颇有黑人街区的范儿，今时今日公交车上的山寨手机山寨歌，仅吵杂胜之，而风范尽失矣；&lt;br /&gt;
-LD：和一台二手的 LD/CD 播放机+功放机一起来到我家，鉴于上面的卡拉 OK
-歌曲完全无法引起我的兴趣，我唯一的想法就是想把那几张厚、大而重的 LD
-当作飞盘飞出去；&lt;br /&gt;
-CD：和 LD
-盘一起进驻我家，内容貌似是荷东迪士高，可惜那个时候我已经对迪士高音乐麻木了，同时也进入了觉得霹雳舞很傻很天真的境界；&lt;br /&gt;
-VCD：搜刮到了 Beyond 的1991演唱会，于是开始了抄歌词练唱歌的阶段；&lt;br /&gt;
-MD：对我这个不追求音质的人来说，这个东西性价比太低了，交流起来也很麻烦，于是一开始就坚定的认为它没有前途，即使后来淘碟的时候看到满满一面墙已经灌好歌曲的
-MD；&lt;br /&gt;
-MP3：从号称囊括谭咏麟全集某张碟开始接触
-MP3光盘这个东西，那个时候电脑上好用的
-MP3播放器还不多，最开始用的是一个界面像 BP 机的播放软件，功能非常简单。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2978710262/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3003/2978710262_6216d24f13.jpg&#34; alt=&#34;IMG\_3594 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;至于 LP 黑胶什么的，就和我完全绝缘了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Freddie Mercury 纪念演唱会</title>
-        <link>https://ioerr.github.io/posts/freddie-mercury-jinian-yanchanghui/</link>
-        <pubDate>Sun, 01 Jun 2008 15:03:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/freddie-mercury-jinian-yanchanghui/</guid>
-        <description>&lt;p&gt;92年的 Freddie Mercury 纪念演唱会是一届相当经典的演唱会，对 Queen
-乐队的歌迷来说更是意义重大，其中一些极品现场版，Queen
-乐迷是看一次湿一次。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919124365586978&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxWy3_siI/AAAAAAAAA1E/Nth7eaX3yO4/s400/TRIBUTE3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;手中的演唱会版本只有演唱 Queen
-乐队自己作品的那一部分，好在精华也在这里。&lt;a href=&#34;http://www.queen.snowproducciones.com.ar/TRIBUTE-FIX-2.html&#34;&gt;完整的曲目见这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;首先出场的是 Queen 乐队吉他手 Brian May，乐队成员中我最喜欢的一个，他与
-Def Leppard 乐队主唱 Joe Elliott、吉他牛人 Slash（当时应该还在 Guns N&amp;rsquo;
-Roses 吧？）合作献上《Tie Your Mother Down》：&lt;/p&gt;
-
-&lt;p&gt;Brian May 和 Slash 切磋，一下子就感觉很热血啊！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918729351511010&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKw_zVTO-I/AAAAAAAAAw0/1-ymWRXL_dY/s400/1-1%20Tie%20Your%20Mother%20Down%20-%20Queen%2C%20Joe%20Elliott%20and%20Slash.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Joe Elliott 的金色长发真像某种名犬…&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918994534913362&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxPPN81VI/AAAAAAAAAzs/zuyyQaDGY1A/s400/1-1.2%20Tie%20Your%20Mother%20Down%20-%20Queen%2C%20Joe%20Elliott%20and%20Slash.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;接下来是 Roger Daltrey 主唱的《I Want It All》，一起飙吉他的换成了 Brian
-May 和 Black Sabbath 的吉他大牛 Tony Iommi：&lt;/p&gt;
-
-&lt;p&gt;热血度再次达到峰值！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919005294936690&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxP3TVwnI/AAAAAAAAAz0/yTNlb0nyy2s/s400/1-2.2%20I%20Want%20It%20All%20-%20Queen%2C%20Roger%20Daltrey%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Who 的主唱 Roger Daltrey
-喜欢把话筒在空中抡圆了甩，还乐此不疲，真的很想扁他一顿啊！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919015718271602&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxQeIdOnI/AAAAAAAAAz8/DSZDqVZXqEA/s400/1-2%20I%20Want%20It%20All%20-%20Queen%2C%20Roger%20Daltrey%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;意大利人 Zucchero 的《Las Palabras De
-Amor》感情充沛，给先前火爆的气氛注入了一丝柔情：&lt;/p&gt;
-
-&lt;p&gt;整个过程几乎没有看到他睁开眼睛过啊…&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918759725064706&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxBke64gI/AAAAAAAAAw8/n_mZJfFhPWM/s400/1-3%20Las%20Palabras%20De%20Amor%20-%20Queen%20and%20Zucchero.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tony Iommi 再次出场，这次的主唱轮到了 Extreme 的 Gary Cherone：&lt;/p&gt;
-
-&lt;p&gt;Gary Cherone 在台上上窜下跳，气氛是很活跃，但那抽搐扭动的样子太骚了！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918771028287490&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxCOl0YAI/AAAAAAAAAxE/L27eYVyFXtw/s400/1-4%20Hammer%20To%20Fall%20-%20Queen%2C%20Gary%20Cherone%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tony Iommi 的独秀。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918779033443538&#34;&gt;&lt;img src=&#34;http://lh6.ggpht.com/calon.xu/SEKxCsaZXNI/AAAAAAAAAxM/BgQ4W5mxO5c/s400/1-4.2%20Hammer%20To%20Fall%20-%20Queen%2C%20Gary%20Cherone%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《Stone Cold Crazy》，硬朗的歌曲当然由 Metallica 硬朗的主唱 James
-Hetfield 来演唱：&lt;/p&gt;
-
-&lt;p&gt;James Hetfield 一副脏兮兮的样子，歌曲本身我也不喜欢。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918792563237250&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxDe0JoYI/AAAAAAAAAxU/ei3iZ-Cx2hg/s400/1-5%20Stone%20Cold%20Crazy%20-%20Queen%2C%20James%20Hetfield%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Led Zeppelin 的主唱 Robert Plant 演绎《Crazy Little Thing Called
-Love》：&lt;/p&gt;
-
-&lt;p&gt;Robert Plant 不但声音很华丽，而且舞台上的举手投足都娘到了妖艳的程度。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918801073226098&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxD-hFwXI/AAAAAAAAAxc/qRBgx671owY/s400/1-6%20Crazy%20Little%20Thing%20Called%20Love%20-%20Queen%20and%20Robert%20Plant.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最打动我的一幕是 Brian May 自弹自唱自己所作的《Too Much Love Will Kill
-You》，这首早期的作品无疑是最适合送给 Freddie Mercury 的。&lt;/p&gt;
-
-&lt;p&gt;整个 Wembley 球场的歌迷都静了下来，默默的挥舞手中的横幅和倾听 Brian
-独唱。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919024790677698&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxQ_7fKMI/AAAAAAAAA0E/yasl10pa7Qs/s400/1-7%20Too%20Much%20Love%20Will%20Kill%20You%20-%20Brian%20May.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Brian 的诚挚感情掩盖了现场发挥的不完美。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918808465169666&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxEaDd3QI/AAAAAAAAAxk/6Uiy5-lPOPE/s400/1-7.2%20Too%20Much%20Love%20Will%20Kill%20You%20-%20Brian%20May.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;情歌王子 Paul Young 用《Radio Ga Ga》恢复了现场活跃的气氛：&lt;/p&gt;
-
-&lt;p&gt;Roger Daltrey 喜欢扔话筒，Paul Young 则是舞话筒架。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918817669415458&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxE8V7giI/AAAAAAAAAxs/TPbP708eWTY/s400/1-8%20Radio%20Ga%20Ga%20-%20Queen%20and%20Paul%20Young.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全场观众跟着一起鼓掌。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919036224275506&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxRqheBDI/AAAAAAAAA0M/bT1RYA6nZkk/s400/1-8.2%20Radio%20Ga%20Ga%20-%20Queen%20and%20Paul%20Young.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;又是一首经典的现场翻唱！Seal 用雄浑磁性的声音唱出《Who Wants To Live
-Forever》，在这样的场合比原唱更加动人。&lt;/p&gt;
-
-&lt;p&gt;那忧郁的眼神可以杀人！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918825892374018&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxFa-b5gI/AAAAAAAAAx0/ehYqlgXbIQM/s400/1-9%20Who%20Wants%20To%20Live%20Forever%20-%20Queen%20and%20Seal.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;熟悉了 Seal
-光头造型，看看当年他梳着黑人大辫配巨型眼镜全身雪白，还真是不习惯。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919052342643330&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxSmkYyoI/AAAAAAAAA0U/WljKGYo6LbM/s400/1-9.2%20Who%20Wants%20To%20Live%20Forever%20-%20Queen%20and%20Seal.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第一位女性嘉宾出现——Lisa Stansfield 推着吸尘器出现在舞台上，演唱的是《I
-Want To Break Free》：&lt;/p&gt;
-
-&lt;p&gt;她一直走个不停，要抓一张清晰的正面很困难。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918836828658690&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxGDt2XAI/AAAAAAAAAx8/Vs8tcHnmoJQ/s400/1-10%20I%20Want%20To%20Break%20Free%20-%20Queen%20and%20Lisa%20Stansfield.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一贯低调的 John Deacon 对着镜头露出笑脸。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919059348236402&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxTAqpqHI/AAAAAAAAA0c/8sTEXfATZkQ/s400/1-10.2%20I%20Want%20To%20Break%20Free%20-%20Queen%20and%20Lisa%20Stansfield.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;另一个妖人出现！金眼妖瞳 David Bowie
-身着粉绿西装现身，眼睛画得像熊猫一样的 Annie Lennox 替代 Freddie
-与他同唱《Under Pressure》：&lt;/p&gt;
-
-&lt;p&gt;粉绿色的西装真的太难看了！&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918847015826354&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxGpqqM7I/AAAAAAAAAyE/k-2qIenhMXI/s400/2-1%20Under%20Pressure%20-%20Queen%2C%20David%20Bowie%20and%20Annie%20Lennox.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;原 Mott The Hoople 的主唱 Ian Hunter、吉他手 Mick Ronson 演唱《All The
-Young Dudes》，与 Mott The Hoople 颇有渊源的 David Bowie
-用拿手的萨克斯伴奏，Joe Elliott 作为他们的粉丝也跑出来参一腿：&lt;/p&gt;
-
-&lt;p&gt;Ian Hunter 总是带着墨镜。David Bowie 萨克斯的声音几乎完全被掩盖了。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918856560138322&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxHNOM2FI/AAAAAAAAAyM/gfkp7-EbSVk/s400/2-2%20All%20The%20Young%20Dudes%20-%20Queen%2C%20Ian%20Hunter%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;吉他牛人 Mick Ronson 留下来和 David Bowie 再献上一首《Heroes》：&lt;/p&gt;
-
-&lt;p&gt;Mick Ronson 与 Brian May 对飙。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918863260654786&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxHmLunMI/AAAAAAAAAyU/b5LmE4730Ww/s400/2-3%20Heroes%20-%20Queen%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;David Bowie 面对 Wembley 球场上密密麻麻的观众。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918872785828802&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxIJqtO8I/AAAAAAAAAyc/0d4rCUzwZqY/s400/2-3.2%20Heroes%20-%20Queen%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;另一个骚人 George Michael 降临现场。&lt;/p&gt;
-
-&lt;p&gt;《&amp;rsquo;39》虽然不错，但 George Michael 的造型实在很难看。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918882248491826&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxIs6yAzI/AAAAAAAAAyk/fXkLAIfS3XM/s400/2-4%20%2739%20-%20Queen%2C%20George%20Michael.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Lisa Stansfield 再次出场，与 George Michael 深情对唱《These Are The Days
-Of Our Lives》。&lt;/p&gt;
-
-&lt;p&gt;把卷发筒和吸尘器去掉的效果好多了。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918892355230402&#34;&gt;&lt;img src=&#34;http://lh6.ggpht.com/calon.xu/SEKxJSkamsI/AAAAAAAAAys/MJ6tbD0rwls/s400/2-5%20These%20Are%20The%20Days%20Of%20Our%20Lives%20-%20Queen%2C%20George%20Michael%20and%20Lisa%20Stansfield.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;之前 David Bowie 作了一番祈祷，George Michael
-则是提醒艾滋病的危害，然后来了首他最喜欢的《Somebody To Love》。&lt;/p&gt;
-
-&lt;p&gt;Wembley 不但是梦幻的球场，还是理想的演唱会地点。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918903598809890&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxJ8dGAyI/AAAAAAAAAy0/X08mtoO7bYk/s400/2-6%20Somebody%20To%20Love%20-%20Queen%20and%20George%20Michael.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最精彩的一幕上演，因为 Elton John 和 Axl Rose 上台演唱 Queen
-乐队最经典的作品《Bohemian Rhapsody》！&lt;/p&gt;
-
-&lt;p&gt;Elton John 弹起前奏，全场歌迷与他一起歌唱。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919072950248354&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxTzVn46I/AAAAAAAAA0k/LkxB_FyH2J0/s400/2-7%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;“Mama, Woooh, Oh I don&amp;rsquo;t want to die&amp;hellip;”&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918925730681522&#34;&gt;&lt;img src=&#34;http://lh6.ggpht.com/calon.xu/SEKxLO5vkrI/AAAAAAAAAy8/1bMMgVPXoSs/s400/2-7.2%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在重放了 Freddie 来自天堂的声音之后，Axl Rose 跳上台放声歌唱。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919096411715074&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxVKvRdgI/AAAAAAAAA0s/j6POvXUhV5o/s400/2-7.3%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;“Nothing really matters,&lt;br /&gt;
-Anyone can see.&lt;br /&gt;
-Nothing really matters,&lt;br /&gt;
-nothing really matters to me.&lt;br /&gt;
-Anyway the wind blows…”&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918939766622850&#34;&gt;&lt;img src=&#34;http://lh6.ggpht.com/calon.xu/SEKxMDMLCoI/AAAAAAAAAzE/hOCoiOXk6Kk/s400/2-7.4%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Elton John 的最爱，《The Show Must Go On》。斯人已逝，但演出仍将继续。&lt;/p&gt;
-
-&lt;p&gt;又是一个经典的现场版本，非 Elton John 充满激情的声音不可。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919106867395938&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxVxsGfWI/AAAAAAAAA00/rCVEjhi8v_w/s400/2-8%20The%20Show%20Must%20Go%20On%20-%20Queen%2C%20Elton%20John%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Brian May 和 Tony Iommi 再次让吉他手泪流满面。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918950016731474&#34;&gt;&lt;img src=&#34;http://lh4.ggpht.com/calon.xu/SEKxMpX_SVI/AAAAAAAAAzM/pMP7DV9PJFI/s400/2-8.2%20The%20Show%20Must%20Go%20On%20-%20Queen%2C%20Elton%20John%20and%20Tony%20Iommi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Axl Rose 版的《We Will Rock You》较之 Freddie 的还是失色许多。&lt;/p&gt;
-
-&lt;p&gt;Axl Rose 唱错了几处地方，节奏也乱了一点。还好 Brian 镇得住场面。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918957431274642&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxNE_wPJI/AAAAAAAAAzU/5thufa58G2A/s400/2-9%20We%20Will%20Rock%20You%20-%20Queen%20and%20Axl%20Rose.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后是爵士歌手 Liza Minnelli 用浑厚的女声演唱《We Are The Champions》：&lt;/p&gt;
-
-&lt;p&gt;很有型的甩头。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918972994719890&#34;&gt;&lt;img src=&#34;http://lh5.ggpht.com/calon.xu/SEKxN--XkJI/AAAAAAAAAzc/Oh1ox_8YMiQ/s400/2-10%20We%20Are%20The%20Champions%20-%20Liza%20Minnelli%20and%20Cast.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这首赞颂与世俗抗争、永不言败的歌曲让全场气氛达到另一个高潮。女生唱这首歌容易高亢过头，Liza
-Minnelli 拿捏得不错。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206918985573097170&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxOt1SXtI/AAAAAAAAAzk/9t0kyreAiys/s400/2-10.2%20We%20Are%20The%20Champions%20-%20Liza%20Minnelli%20and%20Cast.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;所有嘉宾上台谢幕之后，全场高唱《God Save the Queen》，画面闪回到 Freddie
-在以前的演唱会现场头戴皇冠身披锦袍手执话筒的造型。&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919117637132146&#34;&gt;&lt;img src=&#34;http://lh3.ggpht.com/calon.xu/SEKxWZzzn3I/AAAAAAAAA08/cONUmGGq3Ok/s400/2-11%20God%20Save%20the%20Queen.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Freddie Mercury 的标志动作：&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Concert/photo#5206919132952005762&#34;&gt;&lt;img src=&#34;http://lh6.ggpht.com/calon.xu/SEKxXS3KDII/AAAAAAAAA1M/TTHhre5BkXE/s400/Freddie_Mercury.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>爱与怨念的音乐清单</title>
-        <link>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</link>
-        <pubDate>Thu, 14 Feb 2008 15:19:36 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.tudou.com/playlist/0214list/&#34;&gt;充满爱与怨念的音乐清单&lt;/a&gt;…&lt;br /&gt;
-因为怨念比较重，所以只有后面几首算是祝福情人们的。而且没有时间写文字和贴歌词了，自己挖掘吧…&lt;/p&gt;
-
-&lt;p&gt;虽然连义理巧克力都没有收到，但至少能够在 Twitter
-上收到义理小于3，也不错了…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>音乐分享</title>
+      <link>https://ioerr.github.io/projects/music-share/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/projects/music-share/</guid>
+      <description>在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。 本来准</description>
+      <content:encoded><![CDATA[<p>在 Twitter 上开了一个<a href="https://twitter.com/calon/status/1468218162915119109">分享音乐的会话</a>，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。</p>
+<p>本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。</p>
+<p><a href="https://www.youtube.com/watch?v=BIQ2D6AIys8">Intermezzo from Cavalleria Rusticana</a><br>
+乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。<br>
+作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。<br>
+如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。</p>
+<p><a href="https://www.youtube.com/watch?v=rfhRicrwaCs">Russian Red - The Memory Is Cruel</a><br>
+目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？</p>
+<p>椎名林檎的入门向系列推荐：</p>
+<p><a href="https://www.bilibili.com/video/BV1vt411u7hr/">东京事变 - 落日</a><br>
+某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。</p>
+<p><a href="https://www.youtube.com/watch?v=ECxBHhMc7oI">椎名林檎 - 本能</a><br>
+MV 中护士装的打扮是她早期的经典形象。</p>
+<p><a href="https://www.youtube.com/watch?v=MVUPJZUoKxM">椎名林檎 - ギャンブル （赌局/Gamble）</a><br>
+椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。</p>
+<p><a href="https://www.youtube.com/watch?v=krCk3EcsaxE">椎名林檎 - 歌舞伎町の女王</a><br>
+听到就忍不住跟着吹口哨啊。</p>
+<p><a href="https://www.bilibili.com/video/BV1Vx411W78L/">椎名林檎 - 丸の内サディステック（丸之内虐待狂）</a><br>
+现场经典的小跳步最适合这一首。</p>
+<p><a href="https://www.youtube.com/watch?v=YLfkgo-3_sk">椎名林檎 - 長く短い祭</a><br>
+这首歌得看现场才最有感觉。</p>
+<p><a href="https://www.youtube.com/watch?v=Tg8foBeQfcw">椎名林檎 - 眩晕</a><br>
+氛围营造相当到位，编曲一流。</p>
+<p><a href="https://www.youtube.com/watch?v=AAwbl-loghk">椎名林檎 - すべりだい（滑梯）</a></p>
+<p><a href="https://www.youtube.com/watch?v=FlIzq3wLlDY">椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）</a></p>
+<p><a href="https://www.youtube.com/watch?v=lC8la4l4RhQ">东京事变 - キラーチューン（杀手调）</a></p>
+<p><a href="https://www.youtube.com/watch?v=w1UnJ-aNzOw">椎名林檎 - 同じ夜（同一夜）</a><br>
+Dynamite Out 现场版最好，但没有找到网上的版本。</p>
+<p><a href="https://www.youtube.com/watch?v=dSd4ATGZCPg">椎名林檎 - 積木遊び（积木游戏）</a></p>
+<p><a href="https://www.youtube.com/watch?v=oyQgpPbQO9Q">椎名林檎 - 正しい街（正确的大街）</a></p>
+<p><a href="https://www.youtube.com/watch?v=wXMydSionoQ">椎名林檎 - 警告</a></p>
+<p><a href="https://www.youtube.com/watch?v=i13pRVZP7Ck">椎名林檎 - 時が暴走する</a></p>
+<p><a href="https://www.youtube.com/watch?v=xy5hLV3NgVE">椎名林檎 - シドと白昼夢（席德与白日梦）</a></p>
+<p>没有列出翻唱的作品，比如 Les Feuilles Mortes、Unconditional Love、Love is Blind、Fly Me to the Moon、I Won&rsquo;t Last A Day Without You、Can&rsquo;t Take My Eyes Off You 等等，编曲都可以好好品。<br>
+如果听完这些还是对椎名林檎没有兴趣，那么基本上就和她无缘了。</p>
+<p><a href="https://www.youtube.com/watch?v=KJzwqfiyDH8">梅艳芳 - 夕阳之歌</a><br>
+<a href="https://www.youtube.com/watch?v=WCrtSxDNZS8">陈慧娴 - 千千阙歌</a><br>
+梅艳芳的《夕阳之歌》与陈慧娴的《千千阙歌》一曲两词，编曲和演唱风格大为不同，很多人不连着听都没意识到这是同一首歌曲的不同翻唱，而且超越了渣男近藤真彦的原唱《夕焼けの歌》，堪称香港音乐翻唱作品的巅峰之一。<br>
+当年两首歌同时拿到同一届十大中文金曲金奖，先后同台表演，也是难得一见。<br>
+同一年还有<a href="https://www.youtube.com/watch?v=FPeOH4c35T0">关淑怡的《难得有情人》</a>、陈百强《一生何求》、Beyond《真的爱你》。<br>
+赵鹏翻唱《难得有情人》的国语版本《<a href="https://www.youtube.com/watch?v=9lH1s3upuCI">早春</a>》，因为声音低沉，成了发烧试机碟常用曲目。</p>
+<p><a href="https://www.youtube.com/watch?v=FV33wtmGrYE">Mina &amp; Adriano Celentano - Brivido Felino &amp; Acqua e Sale</a><br>
+两首歌曲翻唱联唱现场版。挥洒自如的随性和风情万种的韵味是现场版独特的魅力。<br>
+原版的 <a href="https://www.youtube.com/watch?v=cIEfpco3wG4">Brivido Felino</a> 和 <a href="https://www.youtube.com/watch?v=5WgCtuxGgEo">Acqua e Sale</a></p>
+<p><a href="https://www.youtube.com/watch?v=85hiOJli0Gs">Burundi - Royal Burundi Drums</a><br>
+上海世博会时，现场看了布隆迪大鼓的表演，第一场看了后半截意犹未尽，守在旁边又看了完整的第二场，可惜的当时没有好的设备录下来。<br>
+感谢互联网，现在能找到在其他场合表演的版本。</p>
+<p><a href="https://www.youtube.com/watch?v=ddpEVcuwDAg">Mireille Mathieu &amp; Patrick Duffy - Together We&rsquo;re Strong </a><br>
+尽管老视频的画质很糟，颜色失真，但 Mireille Mathieu 少女般的青春活力（那年她已有37岁）满溢而出。<br>
+35年后，<a href="https://www.youtube.com/watch?v=GCb3s8mCENQ">两人同台演唱</a> Together We&rsquo;re Strong，一位须发皆白，一位身材发福，青春不在，美妙的声音仍在，美好的回忆仍在。</p>
+<p><a href="https://www.youtube.com/watch?v=08wk0ePNQEs">卢巧音 - 好心分手</a><br>
+个人认为独唱版胜过与王力宏合唱的版本，也可能是我先听的独唱版，所以先入为主吧。</p>
+<p><a href="https://www.youtube.com/watch?v=z2gmZ_T_210">卢巧音 - 深蓝</a><br>
+说到卢巧音，我更喜欢她另一首歌《深蓝》。当年感觉风格与众不同，令人耳目一新。</p>
+<p><a href="https://www.youtube.com/watch?v=dYi4bkV5qL0">林子祥 - 数字人生 + Ah Lam 日记 + 千亿个夜晚</a><br>
+现场音质全损版😂<br>
+超强机能，超长待机，收放自如，举重若轻。</p>
+<p>林子祥和胡夏合唱的《<a href="https://www.youtube.com/watch?v=jKChIcjjlCU">数字人生</a>》，这回音质好了，更能体会到老前辈的恐怖实力。中间加入威风堂堂进行曲是神来之笔。</p>
+<p><a href="https://www.youtube.com/watch?v=R2-43p3GVTQ">Edward Elgar - Pomp and Circumstance March No. 1 in D major (Land of Hope and Glory)</a><br>
+2014年逍遥音乐节上激动人心的多地现场大合唱版本。<br>
+不少人评论：我不是英国人听着都热血沸腾开始爱国了。<br>
+还有个神回复：我的咖啡听到了这个，现在它是一杯茶了。</p>
+<p><a href="https://www.youtube.com/watch?v=oQ_XDXDk96Q">Vera Lynn - Land of Hope and Glory</a></p>
+<p><a href="https://www.youtube.com/watch?v=JSkvHrnAvKM">陈奕迅、林子祥 - Shall We Talk</a><br>
+孩童只盼望欢乐，大人只知道期望；<br>
+为何都不大懂得，努力体恤对方。<br>
+成人只寄望收获，情人只听见承诺；<br>
+为何都不大懂得，努力珍惜对方。</p>
+<p><a href="https://www.youtube.com/watch?v=4IFQZyxxyyM">Olivia Newton-John  - Have You Never Been Mellow</a><br>
+1975年现场版。<br>
+Have you never been mellow?<br>
+Have you never tried to find a comfort from inside you?<br>
+Have you never been happy just to hear your song?<br>
+Have you never let someone else be strong?</p>
+<p><a href="https://www.bilibili.com/video/BV1f7411H71a/">与非门 - 正午</a><br>
+与非门这么好的乐队，可惜作品太少了，现在三少也已经因病去世。<br>
+蒋凡这么好的歌手，唱功一流，现场稳，声线辨识度高，知道的人也太少了，因为谁是宝藏歌手节目才有更多人见识到。<br>
+Youtube 上没有《正午》的资源，发个 B 站的，可惜不如在现场看过的版本好。</p>
+<p>“谁是宝藏歌手”节目上，蒋凡唱的《<a href="https://www.youtube.com/watch?v=sp1BEq3gq28">乐园</a>》粤语版。</p>
+<p><a href="https://www.youtube.com/watch?v=SdXas1bvdnE">与非门 - 我睡在你眼睛的沙漠里</a></p>
+<p><a href="https://www.youtube.com/watch?v=uyNPds1mPmM">与非门 - Happy New Year</a></p>
+<p><a href="https://www.bilibili.com/video/BV15a4y147Rg/">与非门 - 1061</a><br>
+2007年3月24日的网络直播表演。</p>
+<p><a href="https://www.youtube.com/watch?v=3Uo0JAUWijM">ABBA - Happy New Year</a><br>
+Happy New Year<br>
+May we all have a vision now and then<br>
+Of a world where every neighbor is a friend<br>
+Happy New Year<br>
+May we all have our hopes, our will to try<br>
+If we don&rsquo;t we might as well lay down and die<br>
+You and I</p>
+<p><a href="https://www.youtube.com/watch?v=92cwKCU8Z5c">ABBA - The Winner Takes It All</a><br>
+But tell me does she kiss<br>
+Like I used to kiss you?<br>
+Does it feel the same<br>
+When she calls your name?</p>
+<p>I don&rsquo;t wanna talk<br>
+If it makes you feel sad<br>
+And I understand<br>
+You&rsquo;ve come to shake my hand<br>
+I apologize<br>
+If it makes you feel bad<br>
+Seeing me so tense<br>
+No self-confidence<br>
+But you see<br>
+The winner takes it all</p>
+<p>曾经心碎过的人才会懂。<br>
+评论中有人说，我是个五十多岁生活美满幸福的已婚男人，能让我哭得像个婴儿的唯有这一首歌。<br>
+另一个人说，只有到了一定的年龄才能体会到这首歌的深度。</p>
+<p><a href="https://www.youtube.com/watch?v=XEjLoHdbVeE">ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)</a><br>
+40多年前的洗脑神曲。前奏你绝对听过，麦当娜在 Hang Up 中还用了一段采样。</p>
+<p><a href="https://www.youtube.com/watch?v=xFrGuyw1V8s">ABBA - Dancing Queen</a><br>
+我入坑 ABBA 的第一首歌。</p>
+<p><a href="https://www.youtube.com/watch?v=kU-fVLmY-iw">郑智化 - 朋友，天堂好吗</a><br>
+朋友啊天堂好吗<br>
+我还厚着脸皮继续活着<br>
+反反复复有太多借口<br>
+找不到真正的理由<br>
+朋友啊天堂好吗<br>
+我的一生为着别人而活<br>
+我在掌声之中起起落落<br>
+没有人相信我的脆弱</p>
+<p><a href="https://www.youtube.com/watch?v=CsuBC_ilGsw">Ben Kweller - Nothing Happening</a><br>
+Let&rsquo;s focus on tomorrow, instead of right now.<br>
+Nothing happening. It&rsquo;s all illusion. It&rsquo;s all confusion.</p>
+<p><a href="https://www.youtube.com/watch?v=2H5uWRjFsGc">Chumbawamba - Tubthumping</a><br>
+当年通过 EA 的 FIFA World Cup 98 知道这首歌，为了它买了《Now 4》合辑。</p>
+<p><a href="https://www.youtube.com/watch?v=9-L5GS_7JNc">God Is an Astronaut - Forever Lost</a><br>
+国内的后摇听得不多，国外的我是从 Forever Lost 入坑的。</p>
+<p><a href="https://www.youtube.com/watch?v=6Juju5eE6fY">夏小虎 - 逝年</a><br>
+某天加班时，老婆打电话过来，说明洲在问，我开车的时候放过一首歌，歌词里面有一句是“时间似流水”，歌名是什么，他忽然想听😂</p>
+<p><a href="https://twitter.com/KermitTheFrog/status/1254077709392719872">Kermit The Frog - Rainbow Connection</a><br>
+Someday we&rsquo;ll find it,<br>
+The rainbow connection,<br>
+The lovers, the dreamers and me.</p>
+<p>翻唱或者与青蛙合唱这首经典歌曲的有很多，比如 <a href="https://www.youtube.com/watch?v=y9oyvgXgKQs">Barbra Streisand</a>、<a href="https://www.youtube.com/watch?v=PYuE2roIkH0">Carpenters</a>、<a href="https://www.youtube.com/watch?v=h0Hd3uWKFKY">Debbie Harry</a>、<a href="https://www.youtube.com/watch?v=ANHRk9tjFF0">Tori Kelly</a>、<a href="https://www.youtube.com/watch?v=2u2tJU7Gxp4">Trespassers William</a>、<a href="https://www.youtube.com/watch?v=MWWAIyZs7Os">Sarah McLachlan</a> 等等。</p>
+<p><a href="https://www.youtube.com/watch?v=pqjt5NVGH1I">秋山羊子 - どん</a><br>
+慢慢慢慢，没有使用的机会<br>
+我也慢慢慢慢地生起了锈<br>
+开心也好，悲伤也好<br>
+最好也罢，最差也罢<br>
+不知不觉间，在慢慢的远去</p>
+<p><a href="https://www.youtube.com/watch?v=YCyuF9teerQ">Scorpions - Life Is Too Short</a><br>
+简单几句歌词就描绘出静谧、优美的画面，世界如此美好，生命却短暂易逝，大好时光不要浪费在不值得的事物上。<br>
+在里斯本的这次现场表演很经典，比录音室版本要好。</p>
+<p><a href="https://www.youtube.com/watch?v=5J75tIG2Vj4">梶浦由记 - 媛星</a><br>
+自创语言的音乐，就是容易空耳…</p>
+<p><a href="https://music.163.com/song?id=27676397">何真真 - 爱的微笑</a></p>
+<p><a href="https://www.youtube.com/watch?v=YG6ethg5mpk">李杰 - 笑容</a><br>
+很惊讶在 YouTube 上还能找到这首歌。当年小小的流行过一阵，后来再也没有在公共场合听到人播放过了…</p>
+<p><a href="https://www.youtube.com/watch?v=gKNuVFoBNAE&amp;list=PL-HhU06lpxM38s8EGCfgmMQif3oIuKJRr">Frank Klepacki - C&amp;C Tiberium Dawn OST</a><br>
+虽然 Red Alert 的 Hell March 最知名，但我心中命令与征服1代的 OST 更棒，堪称神专。<br>
+Act on Instinct、March to Doom、Just Do It Up、Industrial、In the Line of Fire、C&amp;C Thang、Warfare…太多经典曲目了。</p>
+<p><a href="https://www.youtube.com/watch?v=ZONKoKIQ9RY">Cyndi Lauper - All Through the Night</a><br>
+极具年代特色的编曲风格，和 Cyndi 标志性的音色。</p>
+<p><a href="https://www.youtube.com/watch?v=LGV1xTgJf0Q">Cyndi Lauper - Change of Heart</a><br>
+非常有感染力的表演，Cyndi 的现场功力一流，绝对值得一看。</p>
+<p><a href="https://www.youtube.com/watch?v=1stlgC5sUU4">Cyndi Lauper - Unconditional Love</a><br>
+I ain&rsquo;t got no sense of direction now 这一句结尾的高音处理比录音室下行的版本要带感。</p>
+<p><a href="https://www.youtube.com/watch?v=ry9AsSO7hTo">The 80s: A Pop Culture Special</a><br>
+看到过最棒的80年代欧美流行文化混剪视频，经历过80年代的可以看到无数熟悉的画面听到熟悉的音乐。<br>
+结尾的音乐是 <a href="https://www.youtube.com/watch?v=3wxyN3z9PL4">Starship - Nothing&rsquo;s Gonna Stop Us Now</a><br>
+确实是很适合代表80年代时代精神的一首歌。</p>
+<p><a href="https://www.youtube.com/watch?v=Md7uBJBiwLo">Fire Inc. -  Tonight Is What It Means To Be Young</a><br>
+Jim Steinman 为电影 Street of Fire（怒火街头）创作的歌曲之一。电影版和唱片版的领唱是 Laurie Sargent 和 Holly Sherwood。<br>
+电影中 Diane Lane 的对口型表演以假乱真，以至于很多人以为她真是歌手。</p>
+<p><a href="https://www.youtube.com/watch?v=0Fxe9zy_sNU">Maria Conchita Alonso - La Loca</a><br>
+陈慧娴《傻女》的原唱。</p>
+<p><a href="https://www.youtube.com/watch?v=YfczFtTvzbg">Ennio Morricone - Once Upon a Time in America</a><br>
+大师之作，短短两分钟却让人有回顾一生的错觉，恍然如梦，不知今夕何年。</p>
+<p><a href="https://www.youtube.com/watch?v=-PvyBKSmQ_g">Ennio Morricone - L&rsquo;estasi dell&rsquo;Oro</a><br>
+Tuco 在墓地狂奔寻金的背景音乐，被无数次引用的经典，适合激励打工人为财富自由奋斗终身。</p>
+<p><a href="https://www.youtube.com/watch?v=S4oM2K3okOE">Ennio Morricone - Un Amico</a><br>
+将近50年前的作品放在今天依然不朽，昆汀在《无耻混蛋》中致敬了一回，用得也是恰到好处。<br>
+还有 Daniel Beretta 演唱的<a href="https://www.youtube.com/watch?v=GlEDlsIfArY">法语版</a>，但我觉得不用人声的更好听。</p>
+<p><a href="https://www.youtube.com/watch?v=Y-rAi-2hZ6U">Chantelle Duncan - Forever</a><br>
+The Man from Earth 的片尾曲，整首歌的歌词都可圈可点，格局很大，境界很高，最后回归人的感情，还能够与电影的内容完美匹配。</p>
+<p>Nothing lasts forever,<br>
+That&rsquo;s what I&rsquo;ve always heard.<br>
+All things good must end, you know it&rsquo;s true.</p>
+<p>Nothing lasts forever,<br>
+But maybe some things do.<br>
+Forever is the way I feel for you.</p>
+<p><a href="https://www.youtube.com/watch?v=PpKcPip81Hc">张艾嘉 - 戏雪</a><br>
+个人在时代的洪流中微不足道，有时候身不由己随波逐流，有时候一念之差就会天翻地覆抱憾终生</p>
+<p>1948年，我离开我最爱的人<br>
+当火车开动的时候，北方正落着苍茫的雪<br>
+如果我知道这一别就要四十一年<br>
+岁月若能从头，我很想说，我不走</p>
+<p><a href="https://www.youtube.com/watch?v=5PsFGSg3z28">万晓利 - 这一切没有想象的那么糟</a></p>
+<p>每天都要精心的灌溉<br>
+兰花却一天天的垂败<br>
+清风送来了杏花香<br>
+这一切没有想象的那么糟</p>
+<p><a href="https://www.youtube.com/watch?v=lcOxhH8N3Bo">Bonnie Tyler - Total Eclipse of the Heart</a><br>
+适合绝望伤心者的歌，词作水准一流，但 MV 看不懂…</p>
+<p>And I need you now tonight<br>
+And I need you more than ever.<br>
+And if you only hold me tight,<br>
+We&rsquo;ll be holding on forever.<br>
+And we&rsquo;ll only be making it right,<br>
+&lsquo;Cause we can never be wrong.<br>
+Together we can take it to the end of the line.<br>
+Your love is like a shadow on me all of the time.<br>
+I don&rsquo;t know what to do and I&rsquo;m always in the dark.<br>
+We&rsquo;re living in a powder keg and giving off sparks.<br>
+I really need you tonight.<br>
+Forever&rsquo;s gonna start tonight.<br>
+Forever&rsquo;s gonna start tonight.</p>
+<p>Once upon a time, I was falling in love,<br>
+But now I&rsquo;m only falling apart.<br>
+There&rsquo;s nothing I can do.<br>
+A total eclipse of the heart.<br>
+Once upon a time, there was light in my life.<br>
+But now there&rsquo;s only love in the dark.<br>
+Nothing I can say.<br>
+A total eclipse of the heart.</p>
+<p><a href="https://www.youtube.com/watch?v=bWcASV2sey0">Bonnie Tyler - Holding Out For A Hero</a><br>
+她的好歌太多了，只发几首。<br>
+有部电影叫《完美盗贼/Bandits》，凯特·布兰切特饰演的女主人公特别喜欢跟着她的音乐唱歌。</p>
+<p><a href="https://www.youtube.com/watch?v=bEOl38y8Nj8">Bonnie Tyler - It&rsquo;s A Heartache</a><br>
+It&rsquo;s a heartache<br>
+Nothing but a heartache<br>
+Hits you when it&rsquo;s too late<br>
+Hits you when you&rsquo;re down<br>
+It&rsquo;s a fool&rsquo;s game<br>
+Nothing but a fool&rsquo;s game<br>
+Standing in the cold rain<br>
+Feeling like a clown</p>
+<p><a href="https://www.youtube.com/watch?v=ziWg-b-KBtU">Rod Stewart - It&rsquo;s A Heartache</a><br>
+Rod Stewart 的版本，各有千秋。</p>
+<p><a href="https://www.youtube.com/watch?v=St6jyEFe5WM">Procol Harum - A Whiter Shade of Pale</a><br>
+非常棒的现场版，而且年老之后醇厚的声音更有韵味。</p>
+<p><a href="https://www.bilibili.com/video/BV1hU4y1W7Tm/">韦启良 - When The World Let You Know Love</a><br>
+电影《男人四十》、《江湖救急》都用过，听过的一定印象深刻。</p>
+<p><a href="https://www.youtube.com/watch?v=Nqq_cHS9T6g">须藤薰 - 雨の中の噴水（雨中的喷泉）</a><br>
+City Pop 风格的代表之一。</p>
+<p><a href="https://www.youtube.com/watch?v=T_lC2O1oIew">竹内まりや - Plastic Love</a><br>
+City Pop 绕不过去的歌手和作品，竹内玛利亚的塑料爱，因为在 Youtube 上重新火了，官方又制作了个 MV。</p>
+<p><a href="https://www.youtube.com/watch?v=mWQdGkLR1PE">竹内まりや - Teko&rsquo;s Theme</a></p>
+<p><a href="https://www.youtube.com/watch?v=pTynyJkhNC0">竹内まりや - けんかをやめて</a></p>
+<p><a href="https://www.youtube.com/watch?v=CbptWZzHBvc">竹内まりや - 元気を出して</a></p>
+<p><a href="https://www.youtube.com/watch?v=O_i9t7h8AgY">Dexys Midnight Runners - Come On Eileen</a></p>
+<p><a href="https://www.youtube.com/watch?v=z825tkkfbIo">Dan Hill - Sometimes When We Touch</a><br>
+现在大家更熟悉的可能是各种翻唱版本。</p>
+<p><a href="https://www.youtube.com/watch?v=EpsbK9XNhCE">Rachael Yamagata - Dealbreaker</a><br>
+All of this means nothing without you.</p>
+<p><a href="https://www.youtube.com/watch?v=KUuMyyZoYO4">Rachael Yamagata &amp; Ray Lamontagne - Duet</a></p>
+<p><a href="https://www.youtube.com/watch?v=2u8PmdK7MVY">Rachael Yamagata - Over and Over</a></p>
+<p><a href="https://www.youtube.com/watch?v=Y-wUs9uyOz8">La Grande Sophie - Tu n&rsquo;as pas cherché&hellip;</a><br>
+Et puis un jour, on accepte les choses<br>
+On se recroise, mais pour se dire au revoir<br>
+Good bye<br>
+Alors un jour, on regarde les choses<br>
+On se dira un mot, on se dira au revoir<br>
+Good bye</p>
+<p><a href="https://www.youtube.com/watch?v=VpjlHja8PzQ">Patricia Kaas - Il Me Dit Que Je Suis Belle</a></p>
+<p><a href="https://www.youtube.com/watch?v=ZfQLaKS8yJY">Les Choristes - Vois sur ton chemin</a><br>
+电影《放牛班的春天》中很有名的歌曲，也是明洲参加合唱团学会的第一首法语歌。<br>
+电影中的其他歌曲，如 Cerf volant、Les Avions en Papier 也不错。</p>
+<p><a href="https://www.youtube.com/watch?v=TrwGCgnPoTQ">Jean-Baptiste Maunier &amp; Clemence - Concerto Pour Deux Voix</a><br>
+我唯一会唱的法语歌应该就是这首了…</p>
+<p><a href="https://www.youtube.com/watch?v=i6Ne8j7bPBw">Indila - Feuille d&rsquo;automne</a><br>
+网友戏称，有咖喱味😂<br>
+但这段童声真好听<br>
+Mille et une couleurs<br>
+Qui font battre mon cœur<br>
+Au rythme des saisons<br>
+Le temps d&rsquo;une chanson<br>
+Sous un saule pleureur<br>
+Je rêve d&rsquo;une vie meilleure<br>
+Mais il faut être fort<br>
+Alors j&rsquo;attends encore</p>
+<p><a href="https://www.youtube.com/watch?v=o0rWAKS1y7w">Exodus</a><br>
+厚重磅礴的《出埃及记》主题曲，可惜找得到的版本都嫌节奏过快。</p>
+<p><a href="https://www.youtube.com/watch?v=u925g6CgKuw">Neil Young - Heart of Gold</a><br>
+I&rsquo;ve been a miner for a heart of gold.</p>
+<p><a href="https://www.youtube.com/watch?v=Rf53qmhcGc8">Karla Moheno/Sean Lennon - My Hero</a><br>
+别打肿脸充胖子，天天想整些高大上的超能力，自信一点就好。<br>
+唱到 faster than the speed of sound 时老想成 speed of light🤦</p>
+<p><a href="https://www.youtube.com/watch?v=6Ut5zTJkN4c">新裤子 - 没有理想的人不伤心</a></p>
+<p><a href="">Patti Smith - Because The Night</a><br>
+《你的剧本逊毙了！》一书中，作者谈到<a href="https://yourscreenplaysucks.wordpress.com/2012/08/26/the-difference-between-good-and-great-very-scary/">好和伟大的差别</a>：</p>
+<blockquote>
+<p>Patti Smith 的声音（正是你希望剧本所具备的）力量澎湃，不可思议，如同海啸一般，显得 Natalie Merchant 版本的声音像肮脏的洗碗水。</p>
+</blockquote>
+<p>作者还说：</p>
+<blockquote>
+<p><a href="https://youtube.com/watch?v=ydKbP0L9qcE">Natalie Merchant 现场翻唱的《Because the Night》</a>听上去很好，就像一部还不错的剧本。<br>
+但当你看到 <a href="https://youtube.com/watch?v=0brHGJ6xqbk">Patti Smith 的版本</a>，两相比较之下，立即就会明白哪个更好，也就是你的剧本应该成为的样子。</p>
+</blockquote>
+<p><a href="https://www.youtube.com/watch?v=gxEPV4kolz0">Billy Joel - Piano Man</a><br>
+Yes, they&rsquo;re sharing a drink they call loneliness.<br>
+But it&rsquo;s better than drinkin&rsquo; alone.</p>
+<p><a href="https://www.youtube.com/watch?v=2cwex7CmJdQ">Caron Nightingale - Promises Don&rsquo;t Come Easy</a></p>
+<p><a href="https://www.youtube.com/watch?v=tCKO57ZbHSY">Rita Coolidge - We&rsquo;re All Alone</a><br>
+这首歌翻唱的版本很多，华语歌手就有钟镇涛、周华健、张国荣翻唱过。<br>
+我觉得 Rita Coolidge 翻唱的版本比原唱者 Boz Scaggs 的版本要好。</p>
+<p><a href="https://www.youtube.com/watch?v=Qyclqo_AV2M">The Beatles - We Can Work it Out</a><br>
+Life is very short, and there&rsquo;s no time for fussing and fighting, my friend.</p>
+<p><a href="https://www.youtube.com/watch?v=5GUP7bsDPXg">Judy Garland - Old Man River</a><br>
+I&rsquo;m tired of living but scared of dying.</p>
+<p><a href="https://www.youtube.com/watch?v=jqN8McQ9d2I">苏芮 - 一样的月光</a><br>
+台北演唱会现场版本，吉他游正彦，贝斯郭宗韶，鼓手黄瑞丰，钢琴陈玉立。</p>
+<p><a href="https://www.youtube.com/watch?v=d4hJoBAzFFA">John H. Clarke - Aurora Borealis</a></p>
+<p><a href="https://www.youtube.com/watch?v=frv93sVjn1U">Blackmore&rsquo;s Night - Under A Violet Moon</a></p>
+<p><a href="https://www.youtube.com/watch?v=y11f8Oc25AI">Manic Street Preachers - Suicide Is Painless</a><br>
+喜欢这个和原唱风格截然不同的版本。</p>
+<p><a href="https://www.youtube.com/watch?v=16y1AkoZkmQ">Boney M. - Rasputin</a><br>
+乐队由西德人 Frank Farian 创立，成员来自牙买加、蒙特塞拉特和阿鲁巴。 唱片中男声是 Farian 唱的，舞者 Bobby Farrell 在现场表演时才有机会开口。<br>
+这样的组合在波兰现场唱一首采样自土耳其的旋律关于拉斯普京的英文歌，相当奇妙。<br>
+歌曲在俄罗斯大受欢迎，而 Farrell 去世的日期和地点和拉斯普京一样。<br>
+据说歌曲旋律的源远流长，来源包括 katibim、ruse kose kuro imaš、shukno patar nupur paaye、tri bhuboner 等等。<br>
+创作者的妻子是在北马其顿听到了第二首歌曲并介绍给他。</p>
+<p><a href="https://www.youtube.com/watch?v=bGFV8o1liEQ">山下达郎 - Your Eyes</a><br>
+山下达郎有一把好嗓子，就是不知道是不是编曲太过精致细腻的原因，听多了有点腻。这首 Your Eyes 倒是百听不厌。<br>
+另外，黄渤出名后，看山下达郎总觉得像黄渤，难道他不喜欢上镜是有先见之明？😂</p>
+<p><a href="https://www.youtube.com/watch?v=h1tNw1aFzSM">莫文蔚 - 忽然之间</a><br>
+这首歌是为了台湾1999年9月21日的大地震而作，李焯雄根据地震中的亲身经历作词，词曲和 MV 简单质朴却打动人心，是我最喜欢的莫文蔚的歌曲之一。<br>
+当年8月17日，土耳其伊兹密特也发生了大地震，超17000人死亡。<br>
+今年，土耳其和叙利亚再遭地震，更为惨烈。</p>
+<p><a href="https://www.youtube.com/watch?v=XuAPX5i8QYI">Gala - 骊歌</a><br>
+都知欢聚最难得，难耐别离多<br>
+同样的曲子改了歌词也用在了和邵夷贝合作的《知音难觅》上。</p>
+<p><a href="https://www.youtube.com/watch?v=61zsUcnKAKs">Michael Buble - What A Wonderful World</a><br>
+I see skies of blue<br>
+clouds of white<br>
+The bright blessed day<br>
+dark sacred night<br>
+And I think to myself<br>
+what a wonderful world<br>
+Louis Armstrong 的版本如果是蓝天白云，那么 Buble 的版本就像是暮鼓晨钟。</p>
+<p><a href="https://www.youtube.com/watch?v=RW0Db5HVEqU">忍者龍剣伝/Ninja Gaiden III - Act IV Part 1</a><br>
+《忍者龙剑传3：黄泉的方舟》即使在系列中属于难度相对不高的一作，对我这样的动作苦手仍然难度很高，但它的音乐绝对让人过耳不忘。</p>
+<p><a href="https://www.youtube.com/watch?v=H055G4XoMJU">忍者龍剣伝/Ninja Gaiden STAGE 4-2 鮮烈のリュウ/Unbreakable Determination</a><br>
+忍者龙剑传系列作中最出名的还是这一首，制作方 Tecmo 本来觉得风格和关卡不搭，准备弃用，但因为是在带感，于是保留了下来。<br>
+这首曲子在网上有许多重新演绎的版本，其中 <a href="https://www.youtube.com/watch?v=QRUFZcYRFDg">Pontus Hultgren 的版本</a>不错，特别是前奏部分。</p>
+<p><a href="https://www.youtube.com/watch?v=CoGFV_xxR64">Last Ninja 2 - Central Park</a><br>
+Commodore 64平台上8 bit 音乐的巅峰作，相当上头，令人欲罢不能。其他芯片音乐的重新演绎大多都会用更加现代的乐器和编曲，唯独这一首太适合芯片音乐的风格了，波形不弄规整点都不行。<br>
+一个不错的 <a href="https://www.youtube.com/watch?v=P2eFlVpQ3dc">remix 版本</a>。</p>
+<p>纪如瑾 - 你累了吗/值得一辈子去爱/咖啡杯里的水仙/最美的原来是看不见的…</p>
+<p>从同学那里知道的纪如瑾，因为他买了一盒《值得一辈子去爱》的磁带，和我交换着听。<br>
+在2000年左右小有名气的内地女歌手中，她的风格甚是独特，加上名字好听，也就一直记住了。<br>
+她出身音乐世家，从小立志成为歌手，可惜在这张专辑后没过几年就发了最后一张专辑，然后再也听不到她的消息，名气还不如之前在港台发展的时候。<br>
+直到现在才知道原来她在橙天娱乐当副总裁，还成了唐嫣的经纪人。这转型太出乎意料了。</p>
+<p><a href="https://www.youtube.com/watch?v=GNMvzmRNnOc">Bohdi Jones - Oh Father</a><br>
+I never wanted anything from you but love<br>
+Tell me who are you I need to know<br>
+Without you I&rsquo;m not whole</p>
+<p>人有寻找父母角色的天性，希望强壮、温柔、坚毅、包容的长者给予自己无条件的爱。但现实中有幸得到这样爱的人太少，特别是父爱稀缺。<br>
+有的人在现实中找不到能够给予父爱的人，可能会在其他方面寻找替代品，将父亲的角色投射到其身上，比如工作中的上级、生活中伴侣以及带有威权色彩的组织，并寻求其认可。<br>
+有的人则需要花一生的时间摆脱对父爱的渴求，成功的人获得更加独立的心智，失败的人迁怒于人，陷入无穷无尽的愤怒和仇恨。</p>
+<p><a href="https://www.youtube.com/watch?v=UWP0rgs-P3I">李宗盛 - 希望</a><br>
+如果这纷乱的世界让我沮丧<br>
+我就去看看她们眼中的光芒<br>
+她们是未来的希望<br>
+但愿我能给她一个最像天堂的地方</p>
+<p>很多人最喜欢的李宗盛的歌是《当爱已成往事》，是《山丘》。<br>
+对我来说是这一首，因为有一刻超越了都市情歌和老男人感慨人生的境界。</p>
+<p><a href="https://www.youtube.com/watch?v=fk6twiO6uGU">范晓萱 - 处处都有你</a><br>
+范晓萱的出道风格和她的目标截然不同，反响却很好，除了清纯（《Rain》、《雪人》）、古灵精怪（《魔力 ESP》、《你的甜蜜》），还为动画配歌，如这首出自『ザ☆ドラえもんズ ムシムシぴょんぴょん大作戦!』 《哆啦A梦七小子：虫虫大作战》<br>
+曾经有位同学是范晓萱的死忠，迷上的是初期风格的她。不知道后来范晓萱顺从本心转型后，他有没有一直喜欢下去，也不知道后来爆出了许多负面新闻后，这位死忠是否初心不改。</p>
+<p><a href="https://www.youtube.com/watch?v=bL_17rgGZw4">Ninja Gaiden - A Hero&rsquo;s End/镇魂曲</a><br>
+继续忍者龙剑传<br>
+不到1分钟的结尾曲，开头来自罗密欧与朱丽叶</p>
+<p><a href="https://www.youtube.com/watch?v=LmZYpAk7ctc">Peter, Paul and Mary - Puff the Magic Dragon</a><br>
+我们中的一小部分人成为了 Peter Pan，大部分则成为了 Jackie Paper</p>
+<p><a href="https://www.youtube.com/watch?v=6dYWe1c3OyU">Gloria Gaynor - I Will Survive</a><br>
+随机到了一个电子舞曲风格编曲的版本，把精华全干掉了，真的有害身心健康，赶紧找来原版的洗一下耳朵。</p>
+<p><a href="https://www.youtube.com/watch?v=7rwJIeN1M7o">X Japan - Endless Rain</a><br>
+X Japan 在97年解散前最后一次现场演出，成员们坐在斑驳的灯光中若有所思沉默不语，然后相继走下舞台<br>
+观众反复不停地唱着…<br>
+endless rain<br>
+fall on my heart<br>
+心の傷に<br>
+let me forget<br>
+all of the hate<br>
+all of the sadness<br>
+半年后，吉他手 Hide 意外去世</p>
+<p><a href="https://www.youtube.com/watch?v=xarC5jAiO7w">ODESZA - A Moment Apart</a><br>
+Forza Horizon 4中几乎每一首音乐的评论区，都有一大半的人在说：是 FH4 让我知道有这么好的音乐，和认识这些音乐人。<br>
+这首是开场画面的背景音乐，有玩家评论说，玩试玩版时一听这个音乐我就知道应该下单了，以及这首歌能让我逗留在开场不舍得进入。</p>
+<p><a href="https://www.youtube.com/watch?v=mxWTTXmZVvk">Jasing Rye - Une Hirondelle A Fait Le Printemps</a><br>
+融入了越剧“天上掉下个林妹妹”的法语香颂《独燕成春》，奇妙的组合。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最佳演奏者</title>
+      <link>https://ioerr.github.io/posts/zuijia-yanzouzhe/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zuijia-yanzouzhe/</guid>
+      <description>如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。 毕竟最厉害的人类也无法做到像电脑一样</description>
+      <content:encoded><![CDATA[<p>如果你认为乐谱忠实反映了创作者的原意，应该精准按照乐谱的音准、节奏、强度等等演奏，那么最佳演奏者是电脑。<br>
+毕竟最厉害的人类也无法做到像电脑一样精确控制，分毫不差。</p>
+<p>但我们仍会欣赏人类不完美的演奏，和即兴的不稳定发挥。<br>
+而且，一支音乐作品的最佳版本往往不是严丝合缝、丝毫不差的那个，而是精确性让位于情感感染力的版本。</p>
+<p>如果将乐谱看作显性知识，无法用符号表达创作者的完整意图，那么演奏时各种微妙的变化就是演奏者尝试领悟和演绎的隐性知识。<br>
+最佳演奏者不是对照显性知识照本宣科，而是能在熟悉乐谱之后又超越它，直达创作者的意图。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>音乐的力量</title>
+      <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
+      <description>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？” 进而也鄙视音乐，“</description>
+      <content:encoded><![CDATA[<p>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”<br>
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”</p>
+<p>不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。</p>
+<p>但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。<br>
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。<br>
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。</p>
+<p>在音乐本身的审美价值之外，还有一点值得一提。</p>
+<p>想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。</p>
+<p>一支音乐不过几分钟时间，却有这样触动人心的力量。<br>
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。<br>
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。<br>
+这是诉诸理性的文本无法达到的效果。</p>
+<p>诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。<br>
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。<br>
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？</p>
+<p>生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。</p>
+<p>这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>我是歌手</title>
+      <link>https://ioerr.github.io/posts/wo-shi-geshou/</link>
+      <pubDate>Mon, 15 Apr 2013 08:53:44 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wo-shi-geshou/</guid>
+      <description>《我是割歌手》第一季落下帷幕，但是我一场完整的比赛都没有看过。决赛也不过看了个开头，然后通过收音机和在网上跳着看了一点重播。 有的人为林志炫没</description>
+      <content:encoded><![CDATA[<p>《我是<!-- raw HTML omitted -->割<!-- raw HTML omitted -->歌手》第一季落下帷幕，但是我一场完整的比赛都没有看过。决赛也不过看了个开头，然后通过收音机和在网上跳着看了一点重播。</p>
+<p>有的人为林志炫没得第一打抱不平，要是我投票，当然投他得第一，尤其最后翻唱的《浮夸》，歌咏志，情胜技（他的歌曲容易出现技巧难度高，却在情感上拒人千里之外的尴尬，比如翻唱罗大佑《你的样子》，从先天条件到后天技巧，罗大佑当然完败，但他清明透亮的声音就是不适合这首歌要表达的情感），不愧是他的落幕曲，虽然比以前<br>
+One Take 中的演绎有差。<br>
+《Easy<br>
+Lover》据说有两点败笔，一是错误地安排萧敬腾喧宾夺主，比起邓超的锦上添花，反而有扣分，二是观众可能不大熟悉这首歌曲——这就完全站不住脚，不是说观众都是精心挑选的爱乐人士么？哪怕之前从没有听过，也应该听得出水准如何吧。倒是忽然改变风格挺冒险的，有的人就觉得这首歌唱完冠军没戏了。</p>
+<p>羽泉拿了第一名被称作爆冷，但决赛中相对较稳的也是他们，听说根据赛制，半决赛的分数也要计入，半决赛我没看，想来以他们的改编和编曲再创作能力，名次靠前也是实至名归。<br>
+作为歌手，他们最大的优点在于营造“气氛”的感染力，他们带着玩的心态参加比赛，足够放得开，既能提升现场发挥水平，也能更好地感染现场观众，再说，作为表演者，这又何尝不是硬实力的一种呢？<br>
+要是觉得这样不符合节目的定位，那就改变最终结果评定的打分者和赛制吧。</p>
+<p>看得最完整的一场就是复活赛，那场杨宗纬唱《流浪纪》真是拼了老命，也把观众的魂魄给勾走了。<br>
+这一场的《我离开我自己》，我是在收音机里面听的，在车库听完了才肯下车。<br>
+第一首《我要我们在一起》感觉被李泉掩盖了，钢琴加分很多，杨宗纬的存在感却不够强。</p>
+<p>彭佳慧和顺子的组合出错不少，尤其是顺子，感觉功力退化许多。但能够把《一无所有》和《酒干倘卖无》编在一起真是出乎意料之外的好！<br>
+第二首《相见恨晚》差强人意，杀伤力差了点，如果是我，会选择《喜欢两个人》并且放在第一首。</p>
+<p>黄绮珊的成名曲没啥可说的，和韩国原版《我是歌手》冠军合唱《Without<br>
+You》（每次听这首歌，老婆都说会联想到《你是我的眼》，orz）唱砸了，看直播时真不忍心直视台上的挣扎，唱完后主持人还交口称赞，我都想换台了。深情不是靠飙高音展现的，何况还飙得错乱了。<br>
+当时我还想，改唱《Total Eclipse Of The<br>
+Heart》更好，但后来又觉得，恐怕难唱出 Bonnie Tyler 的痛彻心肺。</p>
+<p>辛晓琪是真不行了，两首歌都毫无亮点，本来我觉得唱《领悟》还能多得点分，老婆说她之前参赛时已经唱过了。</p>
+<p>周晓鸥更加没有什么存在感，听说他之前凭借霸气外露的《九个太阳》拿过一次第一？<br>
+翻唱《Everything I<br>
+Do》这种流行度高又难出现亮点的歌曲，不可理喻，还不如唱自己的《Bar<br>
+Street》呢，不过听说零点乐队为了翻唱的事情找他索赔，看来少唱旧作倒是好事……</p>
+<p>整个节目下来，除了泪流满面的观众（据说决赛黄牛票价3000元，难怪观众要流泪），最让人受不了的是湖南卫视那几个主持人扮的所谓的“经纪人”，从头违和到尾，对节目的进程和歌手的发挥也没看出有什么正面效果，沈梦辰搔首弄姿的伴舞算是最大的贡献了吧？<br>
+没看过韩国原版的情况，我觉得经纪人应该是用来指导歌手的，比如在赛前帮助歌手选曲，确定表演风格，协助与编曲、伴奏、和声沟通，在每个阶段的比赛后及时指出不足之处，协助提升实力，弥补短板，等等，最好是由圈内有分量的制作人之类的专业人士担当。湖南卫视那几个主持人在音乐方面的专业水平可以忽略不计，难堪大任，连加油打气都像扮小丑。</p>
+<p>要不，在《我是歌手》之外另外弄一个的节目吧，歌手选择有潜力的新人或者遭遇瓶颈的过气歌手，指导老师和制作团队才是请最顶级的——《中国好声音》那种明星导师不够分量——最大的看点应该是歌手被指导和包装的过程，和前后的表演水平比较，这样，随着歌手的成长，观众不但有代入感，还能知道在幕后，一个专业歌手的团队都做了哪些工作，以及为什么要做这些工作。<br>
+不过风险是，大部分的观众可能更喜欢看炫技表演，要是能力不足，制作这样的节目容易搞砸。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第二届橘洲音乐节</title>
+      <link>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</link>
+      <pubDate>Sun, 26 Sep 2010 09:53:54 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dierjie-juzhou-yinyuejie/</guid>
+      <description>这是标题党，因为我只去了第二天的音乐节。 9月22-24日的3天，第二届长沙橘洲音乐节在橘子洲头举办。本来没有兴趣在冰冷雨天去听音乐会，而且感</description>
+      <content:encoded><![CDATA[<p>这是标题党，因为我只去了第二天的音乐节。</p>
+<p>9月22-24日的3天，第二届长沙橘洲音乐节在橘子洲头举办。本来没有兴趣在冰冷雨天去听音乐会，而且感兴趣的乐队不多，但因为免费弄到了23日的票，所以决定去开开眼界，看看本地办的这类音乐节水准如何。</p>
+<p>去之前查了一下官方网站和各个社区的活动页面，发现抱怨门票价格、场地、组织不周到和担忧天气的人不少，而且捆绑的沙雕展览完全没有吸引人的地方。</p>
+<p>23日下午一直是下雨，从桥头走到橘子洲头一路上冷冷清清，略过比较惊悚的沙雕直接到了现场，发现也就一、两百人在寒风细雨中哆哆嗦嗦，附近的沙地上立着十数个帐篷，路边有卖<br>
+CD<br>
+、纪念品、小商品、餐饮的店面，比如乡村基…还有多背一公斤的公益活动摊位、涂鸦墙和某楼盘宣传位…<br>
+<a href="http://www.flickr.com/photos/calon/5020251637/"><img loading="lazy" src="http://farm5.static.flickr.com/4128/5020251637_0692a9e4c8.jpg" alt="帐篷"  />
+</a></p>
+<p>表演的乐队比较卖力，没有因为观众太少而放不开。下午时的老赵、阿修罗还不错，后者的出场和鼓动还掀起了不小的高潮。<br>
+<a href="http://www.flickr.com/photos/calon/5020271115/"><img loading="lazy" src="http://farm5.static.flickr.com/4106/5020271115_f2080f99a8.jpg" alt="阿修罗"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/5020895202/"><img loading="lazy" src="http://farm5.static.flickr.com/4153/5020895202_5344fe2afb.jpg" alt="同挥舞手臂"  />
+</a></p>
+<p>悲剧的是，乐队轮换、设备调音的间隙一直在放 Queen<br>
+的歌曲，我个人觉得还是这几段最给力啊，忍不住跟着一起唱…</p>
+<p>快吃晚饭时，脑浊的出场又是一个高潮，身边的摇滚青年们都陷入无意识状态。<br>
+<a href="http://www.flickr.com/photos/calon/5020955596/"><img loading="lazy" src="http://farm5.static.flickr.com/4150/5020955596_d8bd4cd67c.jpg" alt=""  />
+</a></p>
+<p>我还是没有兴奋起来，除了几段吉他独奏外，对歌词和旋律没有什么感觉，如果光跟着震耳欲聋的鼓声晃动身体又挺傻的。<br>
+这个时候雨小了，人也多了，看上去总算有个小型音乐节的样子。</p>
+<p>之后是与非门出场。<br>
+<a href="http://www.flickr.com/photos/calon/5020911986/"><img loading="lazy" src="http://farm5.static.flickr.com/4125/5020911986_02bd6b2bd3.jpg" alt="与非门"  />
+</a></p>
+<p>摇滚青年们似乎很不习惯从已经热起来的摇滚氛围突然进入电子乐的世界，加上主唱蒋凡在寒风中一边发抖一边唱歌，和长沙老乡们拉家常话又有点多，场面一下子就冷了，甚至有人中途抱怨怎么这支乐队还没唱完。<br>
+我倒挺喜欢与非门的表演，《乐园》、《1061》、《正午》都合我的胃口，也许是因为我更加熟悉他们一些？</p>
+<p>经过半个小时以上的设备检修+广告时间，木玛乐队出场。我不清楚国内摇滚乐队的情况，看样子木玛很火？而且随便说一些牵强附会的言论也有一群人跟着叫好，诸如“现场音响设备老是出故障，就像中国摇滚的现状一样”——我还以为他们是在自省呢。<br>
+好在气氛重新活跃，摇滚青年们在拥挤的人群中玩起了火车接龙。<br>
+<a href="http://www.flickr.com/photos/calon/5020330785/"><img loading="lazy" src="http://farm5.static.flickr.com/4092/5020330785_6e394d524b.jpg" alt="开火车的小青年"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/5020315847/"><img loading="lazy" src="http://farm5.static.flickr.com/4128/5020315847_800d101ba7.jpg" alt=""  />
+</a></p>
+<p>可能是音响设备问题影响效果，听了几首之后觉得兴味索然，于是走路回家。之后的痛仰和汪峰我也不想跟了，在风雨中站了几个小时腰都在痛，他们的魅力还没这么大。</p>
+<p>最后说说对活动组织的看法：<br>
+1、沙雕展览完全没有必要一起办，提高了门票价格导致以学生为主的观众数量大减，现场饮食很贵又不准观众带水入场（据说热水4元1杯），学生观众可以充分体会饥寒交迫或挨宰的感觉；<br>
+2、下雨天应该发放一次性雨衣；<br>
+3、音响设备问题影响很大，浪费所有人的时间，不能够一再出现；<br>
+4、LCD 屏幕和旁边的小投影根本就没有发挥实质作用；<br>
+5、要多想办法制造气氛，现在感觉就像放观众进来任其自生自灭；<br>
+6、据说场地大小和音响比去年差，加上天气如此糟糕，搞不好下一届就没了…</p>
+<p><a href="http://www.flickr.com/photos/calon/5020843744/"><img loading="lazy" src="http://farm5.static.flickr.com/4107/5020843744_61c2e9cc74.jpg" alt="旗帜"  />
+</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>纵贯线</title>
+      <link>https://ioerr.github.io/posts/zongguanxian/</link>
+      <pubDate>Mon, 21 Sep 2009 14:09:03 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zongguanxian/</guid>
+      <description>盼星星盼月亮，终于盼来了纵贯线长沙站演唱会！如果你不是他们其中任何一人的忠实歌迷，请称呼他们为中国流行音乐史上最短暂骗钱组合 XD，因为明年纵</description>
+      <content:encoded><![CDATA[<p>盼星星盼月亮，终于盼来了纵贯线长沙站演唱会！如果你不是他们其中任何一人的忠实歌迷，请称呼他们为中国流行音乐史上最短暂骗钱组合<br>
+XD，因为明年纵贯线就要解散了，今后恐怕再没有机会看到这四人组团巡演了。</p>
+<p>很遗憾没有弄到正对舞台的内场 VIP<br>
+票，所以蹲到了离舞台最近的一层看台侧面，悲剧的是，等到四个人亮相，才发现看不到打鼓的张震岳…</p>
+<p>事先在网上公布的歌曲清单并没有完全兑现，《爱情有什么道理》、《爱我别走》、《思念是一种病》、《路口》、《难念的经》都没有唱，倒是罗大佑虽然很多好歌没有入选，却意外的唱了《爱的箴言》。</p>
+<p>周华健版的《穿过你的黑发的我的手》非常好听！遗憾的是没有来得及录下来，好在《有没有那么一首歌会让你想起我》没有跑掉；<br>
+李宗盛的《凡人歌》加了 rap<br>
+段别有风味，《我是一只小小鸟》的伴奏相当好听；<br>
+因为几首喜欢的歌都没有唱，这次张震岳还是《自由》最好听，最好唱的《爱的初体验》全场最热闹；<br>
+能听到罗大佑现场唱《光阴的故事》、《你的样子》、《爱的箴言》真是幸福啊！还有最初给刘文正唱的《风儿轻轻吹》，以及罗大佑正式发表的第一首歌曲《歌》。</p>
+<p>长沙的歌迷还算热情，数次大合唱老歌，不过很多内场 VIP<br>
+观众不知安可曲（encore）为何物，一看台上灯光熄灭瞬间就走了一半，结果错过了《明天会更好》、《真心英雄》、《朋友》联唱和《亡命之徒/出发啦》完整版。</p>
+<p>因为相机不能胜任晚上长距离拍照，所以改成录像，然则又不是摄像专家，存储卡空间不多，长时间录像机身明显发热，所以录了个大概能够唤起回忆就好…</p>
+<p><a href="http://www.youku.com/playlist_show/id_3765596.html">纵贯线长沙站部分视频专辑</a>，用最差的画质录的，听声音就好：</p>
+<p>光阴的故事：</p>
+<hr>
+<hr>
+<p>爱的箴言、花心、寂寞难耐：</p>
+<p>明天会更好、真心英雄、朋友：</p>
+<p>爱的初体验：</p>
+<p>有没有一首歌会让你想起我：</p>
+<p>明天我要嫁给你了：</p>
+<p>恋曲1990：</p>
+<p>我是一只小小鸟：</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>简评快女十强</title>
+      <link>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</link>
+      <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</guid>
+      <description>刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下： 1、郁可唯 今天选歌很成功，第一轮拿到最高分有些过分，但车轮战</description>
+      <content:encoded><![CDATA[<p>刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：</p>
+<p>1、郁可唯<br>
+今天选歌很成功，第一轮拿到最高分有些过分，但车轮战胜出没有争议。<br>
+之前偶尔几次看快女节目都没有看到她的表现，以为水平中等，现在看来只要能够保持风格，进入三甲是很有可能的。</p>
+<p>2、李霄云<br>
+无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合<br>
+R&amp;B; 风格的问题。</p>
+<p>3、刘惜君<br>
+第一次完整听她唱歌，之前只是看过一次清唱 PK。<br>
+对气息的控制很见功力，选歌从不冒险，不会随便丢分。应该至少进入前三吧。</p>
+<p>4、江映蓉<br>
+相当有活力有感染力，声音条件也比谈莉娜好得多。但她的选歌起伏太大，有的时候很不讨巧大众。</p>
+<p>5、潘虹樾<br>
+感觉她实力不算出众，不过今晚最后一首歌即使不完美，也唱出了荡气回肠的气势。</p>
+<p>6、曾轶可<br>
+争议最大的选手。感觉她的创作风格大同小异，总以为翻来覆去听的是同一首歌。<br>
+唱歌的基本功就不说了，就算说是靠着特色的创作受到音乐界人士的喜爱走到全国十强，也只能说明大陆的创作水准太差了，竟然为这样的水平而惊艳。</p>
+<p>7、谈莉娜<br>
+外形和风范是我最喜欢的一位，台风极佳，感染力极强，真的很有明星的味道。<br>
+希望她能够多唱唱莫文蔚的快歌。<br>
+只是怕一招不慎就可能被挡在7强门外，毕竟唱功实力不敢恭维。</p>
+<p>8、李媛希<br>
+没有任何特色和亮点可言。我能够想到的就是缩水版的蔡依林。</p>
+<p>9、黄英<br>
+上一次听到她唱《阿里山的姑娘》就已经非常失败了，没想到今天唱了一个更加失败的《明月几时有》。<br>
+她的声音辨识度再高，也要选择适合的歌曲来演绎才行，今天输给不在状态的谈莉娜一点也不冤枉。</p>
+<p>10、潘辰<br>
+抓住像《爱如潮水》这样的歌曲可以让人眼前一亮，但劲歌热舞显然非其所长，舞蹈动作极其不自然，声音处理漫不经心没有任何修饰。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>年轻的朋友二十年后再相会</title>
+      <link>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
+      <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
+      <description>1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快</description>
+      <content:encoded><![CDATA[<p>1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；</p>
+<p>1999年12月，甲丁邀请张枚同再写一首《二十年后再相会》，甲丁修改后仍由谷建芬老师谱曲。</p>
+<!-- raw HTML omitted -->
+<p>年轻的朋友们，今天来相会，<br>
+荡起小船儿，暖风轻轻吹，<br>
+花儿香，鸟儿鸣，春光惹人醉，<br>
+欢歌笑语绕着彩云飞。</p>
+<p>啊，亲爱的朋友们，<br>
+美妙的春光属于谁？<br>
+属于我，属于你，<br>
+属于我们八十年代的新一辈！</p>
+<p>再过二十年，我们重相会，<br>
+伟大的祖国该有多么美！<br>
+天也新，地也新，春光更明媚，<br>
+城市乡村处处增光辉。</p>
+<p>啊，亲爱的朋友们，<br>
+创造这奇迹要靠谁？<br>
+要靠我，要靠你，<br>
+要靠我们八十年代的新一辈！</p>
+<p>但愿到那时，我们再相会，<br>
+举杯赞英雄，光荣属于谁？<br>
+为祖国，为四化，流过多少汗？<br>
+回首往事心中可有愧？</p>
+<p>啊，亲爱的朋友们，<br>
+愿我们自豪地举起杯，<br>
+挺胸膛，笑扬眉，<br>
+光荣属于八十年代的新一辈！<br>
+光荣属于八十年代的新一辈！<br>
+光荣属于八十年代的新一辈！</p>
+<!-- raw HTML omitted -->
+<p>来不及等待，来不及沉醉，<br>
+噢来不及沉醉，<br>
+年轻的心迎着太阳，<br>
+一同把那希望去追。</p>
+<p>我们和心愿心愿再一次约会，<br>
+让光阴见证让岁月体会，<br>
+我们是否无怨无悔。</p>
+<p>再过二十年我们来相会，<br>
+那时的山，噢那时的水，<br>
+那时祖国一定很美，<br>
+但愿到那时我们再相会，<br>
+那时的春，噢那时的秋，<br>
+那时硕果令人心醉。</p>
+<p>来不及感慨，来不及回味，<br>
+噢来不及回味，<br>
+多彩的梦满载理想，<br>
+一同向着未来放飞</p>
+<p>我们把蓝图蓝图再一次描绘，<br>
+让时代检阅让时光评说，<br>
+我们是否问心无愧。</p>
+<p>再过二十年我们来相会，<br>
+那时的天，噢那时的地，<br>
+那时祖国一定更美，<br>
+但愿到那时我们再相会，<br>
+那时的你，噢那时的我，<br>
+那时成就令人欣慰。</p>
+<p>那时的你，噢那时的我，<br>
+那时我们再相会，<br>
+那时的你，噢那时的我，<br>
+跨世纪的新一辈，<br>
+那时我们再相会。</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
+    <item>
+      <title>画出一首歌</title>
+      <link>https://ioerr.github.io/posts/huachu-yishouge/</link>
+      <pubDate>Tue, 21 Apr 2009 14:57:31 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huachu-yishouge/</guid>
+      <description>Send Email Message 可以让你发送匿名邮件，发件人的地址可以随便填写，支持中文。 Send Anonymous Email 是另一个同类工具，区别主要在于需要填写验证码，但尝试给我的邮箱发信一直</description>
+      <content:encoded><![CDATA[<p><a href="http://send-email.org/">Send Email Message</a><br>
+可以让你发送匿名邮件，发件人的地址可以随便填写，支持中文。</p>
+<p><a href="http://www.sendanonymousemail.net/">Send Anonymous Email</a><br>
+是另一个同类工具，区别主要在于需要填写验证码，但尝试给我的邮箱发信一直没有收到…</p>
+<p><a href="http://send-email.org/">Send Email Message</a> 还有个同样免费的服务，<a href="http://verify-email.org/">Free<br>
+Email Address<br>
+Verifier</a>，验证指定邮箱是否存在。花44.90美元可以<a href="http://verify-email.org/buy-script.htm">买到验证邮箱的<br>
+PHP 脚本</a>（WIndows<br>
+环境不适用）。</p>
+<p><a href="http://lab.andre-michelle.com/tonematrix">ToneMatrix</a><br>
+是一个可以用来玩作曲的16×16格矩阵，从上到下是音调高低，从左至右是时间流顺序，循环播放。有人声称曾沉迷其中多日。<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-21-20-34-51.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-34-51.png" alt="Photobucket"  />
+</a></p>
+<p>这让我想起了一个玩节拍器/节奏鼓模拟器的软件<br>
+<a href="http://www.threechords.com/hammerhead/introduction.shtml">HammerHead</a>，也是容易让人沉迷的。<br>
+<img loading="lazy" src="http://www.threechords.com/hammerhead/images/hammerhead.gif" alt=""  />
+</p>
+<p>还有一个比较实用的体积非常小的节拍器是 <a href="http://www.pinkandaint.com/weirdmet.shtml">Weird<br>
+Metronome</a>，可以方便的设置节拍速率。<br>
+<img loading="lazy" src="http://www.pinkandaint.com/images/weirdmet.png" alt=""  />
+</p>
+<p>最近很流行的 Flash 是 <a href="http://soytuaire.labuat.com/">Pintando una<br>
+canción</a>（画出一首歌），<a href="http://soytuaire.labuat.com/mp3/mix.mp3">音乐</a>好听，水墨画效果很惊人，最棒的还是这个创意，让你随着音乐挥舞鼠标画水墨画。<br>
+可以先看看别人录制的<a href="http://v.youku.com/v_show/id_XODE4MTk0ODg=.html">动画</a>：</p>
+<p>以及我的截图：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-21-19-57-32-1.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-19-57-32-1.jpg" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-21-20-07-37-1.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-07-37-1.jpg" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-21-20-09-40-1.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-09-40-1.jpg" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-21-20-09-59-2.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-21-20-09-59-2.jpg" alt="Photobucket"  />
+</a></p>
+<p>最后是伊卡洛斯之翼（传说中的翅膀）最近架起来已经发布几期的音乐电台<a href="http://www.vvland.cn/flytodie/">塞壬之夜</a>，怎么下载就不用我提示了吧。<br>
+这一期的最后一首 Do Virgins Taste Better/Dragon&rsquo;s Retort 很欢乐：</p>
+<p>Do Virgins Taste Better?</p>
+<p>A dragon has come to our village today.<br>
+We&rsquo;ve asked him to leave, but he won&rsquo;t go away.<br>
+Now he&rsquo;s talked with our king and they&rsquo;ve worked out a deal.<br>
+No homes will he burn and no crops will he steal.</p>
+<p>Now there is but one catch, we dislike it a bunch,<br>
+Twice a year he invites him a virgin to lunch.<br>
+Well, we&rsquo;ve no other choice, so the deal we&rsquo;ll respect,<br>
+But we can&rsquo;t help but wonder and pause to reflect.</p>
+<p>[Do virgins taste better than those who&rsquo;re not?<br>
+Are they salty or sweet or more juicy or what?<br>
+Do you savor them slowly? Gulp them down on the spot?<br>
+Do virgins taste better than those who&rsquo;re not?] = [#1]</p>
+<p>Now we&rsquo;d like to be shed and many have tried,<br>
+But no one can get through your thick scaly hide.<br>
+We hope that someday, some brave knight will come by,<br>
+&lsquo;Cause we can&rsquo;t wait around &rsquo;til you&rsquo;re too fat to fly.</p>
+<p>Now you have such good taste in your women for sure.<br>
+They always are pretty, they always are pure.<br>
+But your notion of dining, it makes us all flinch,<br>
+For your favorite entree is a barbecued wench.</p>
+<p>[#1]</p>
+<p>Now we&rsquo;ve found a solution, It works out so neat.<br>
+If you insist on nothing but virgins to eat,<br>
+No more will our numbers grow ever so small.<br>
+We&rsquo;ll simply make sure there&rsquo;s no virgins at all!</p>
+<p>[#1]</p>
+<p>Dragon:</p>
+<p>Now, I am a dragon. Please listen to me.<br>
+For I&rsquo;m misunderstood to a dreadful degree.<br>
+This ecology needs me, and I know me place,<br>
+But I&rsquo;m fighting extinction with all of me race.</p>
+<p>Well, I came to this village to better me health.<br>
+Which is ever so poor despite all me wealth.<br>
+But I get no assistance and no sympathy.<br>
+Just impertinent questioning shouted at me.</p>
+<p>[Yes, virgins taste better than those who&rsquo;re not.<br>
+But my favorite snack mixed with peril is fraught<br>
+For my teeth will decay and my trim go to pot<br>
+Yes, virgins taste better than those who&rsquo;re not.] = [#2]</p>
+<p>You see I&rsquo;m really quite kind almost all through the year.<br>
+Vegetarian ways are now mine out of fear.<br>
+But a birthday needs sweet so I&rsquo;m sure you&rsquo;ll agree.<br>
+And barbecued wench tastes like candy to me.</p>
+<p>As it happens our interests are almost the same.<br>
+You see I&rsquo;m really quite skillful at magic and game.<br>
+If I ate just your men, would your excess decline?<br>
+Of course not, the rest would just make better time.</p>
+<p>[#2]</p>
+<p>Now, the number of babies a woman can bare,<br>
+Has limits, and that&rsquo;s why my pruning&rsquo;s done there.<br>
+And an orphan&rsquo;s a sad sight, and so when I munch,<br>
+I&rsquo;m careful to eat only virgins for lunch.</p>
+<p>[#2]</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Mixtape 与音乐回忆</title>
+      <link>https://ioerr.github.io/posts/mixtape-yu-yinyue-huiyi/</link>
+      <pubDate>Wed, 19 Nov 2008 16:16:31 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/mixtape-yu-yinyue-huiyi/</guid>
+      <description>流行 Mixtape 的时候，我还没有女朋友呢，虽然家里有台可以转录的录放机，但等到我想做 Mixtape 的时候，已经进入了 MP3 的时代。 当然，还有两个原因也很重要： 1、当时</description>
+      <content:encoded><![CDATA[<p>流行 <a href="http://ifire.cn/archives/20081119/">Mixtape</a><br>
+的时候，我还没有女朋友呢，虽然家里有台可以转录的录放机，但等到我想做<br>
+Mixtape 的时候，已经进入了 MP3 的时代。<br>
+当然，还有两个原因也很重要：<br>
+1、当时能够接触到的好音乐并不多，特别是摇滚，大部分时间是听古典音乐，就算要做<br>
+Mixtape 送人也不合适；<br>
+2、我很讨厌把搅出来的磁带从录放机肚子里面扒出来整理好再塞回磁带里面的过程，而当你使用的是一台老机器时，这太司空见惯了，以至于从此以后我对某些人受伤后后把掉出来的肠子塞回肚子的描述产生了心理阴影。</p>
+<p>倒是记得死皮赖脸向同学借了个高级的随身听去录电视里面播放的90年罗马三大男高音合唱的《我的太阳》，以及<br>
+Michael Jackson 领衔群星的《We Are The<br>
+World》，虽然录出来的效果很差劲，也听得很乐。</p>
+<p>顺便回顾一下第一次接触各种音乐记录载体的经历：<br>
+磁带：最早还留有印象的应该是吴涤清的《阿里巴巴》和崔健的《一无所有》，特别是前者，看着成年人随着奇怪的歌词曲调跳着奇怪的舞蹈，震惊了我幼小的心灵；80年代的小青年那时还流行肩扛硕大的录放机上街招摇的行为艺术，颇有黑人街区的范儿，今时今日公交车上的山寨手机山寨歌，仅吵杂胜之，而风范尽失矣；<br>
+LD：和一台二手的 LD/CD 播放机+功放机一起来到我家，鉴于上面的卡拉 OK<br>
+歌曲完全无法引起我的兴趣，我唯一的想法就是想把那几张厚、大而重的 LD<br>
+当作飞盘飞出去；<br>
+CD：和 LD<br>
+盘一起进驻我家，内容貌似是荷东迪士高，可惜那个时候我已经对迪士高音乐麻木了，同时也进入了觉得霹雳舞很傻很天真的境界；<br>
+VCD：搜刮到了 Beyond 的1991演唱会，于是开始了抄歌词练唱歌的阶段；<br>
+MD：对我这个不追求音质的人来说，这个东西性价比太低了，交流起来也很麻烦，于是一开始就坚定的认为它没有前途，即使后来淘碟的时候看到满满一面墙已经灌好歌曲的<br>
+MD；<br>
+MP3：从号称囊括谭咏麟全集某张碟开始接触<br>
+MP3光盘这个东西，那个时候电脑上好用的<br>
+MP3播放器还不多，最开始用的是一个界面像 BP 机的播放软件，功能非常简单。</p>
+<p><a href="http://www.flickr.com/photos/calon/2978710262/"><img loading="lazy" src="http://farm4.static.flickr.com/3003/2978710262_6216d24f13.jpg" alt="IMG_3594 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>至于 LP 黑胶什么的，就和我完全绝缘了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Freddie Mercury 纪念演唱会</title>
+      <link>https://ioerr.github.io/posts/freddie-mercury-jinian-yanchanghui/</link>
+      <pubDate>Sun, 01 Jun 2008 15:03:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/freddie-mercury-jinian-yanchanghui/</guid>
+      <description>92年的 Freddie Mercury 纪念演唱会是一届相当经典的演唱会，对 Queen 乐队的歌迷来说更是意义重大，其中一些极品现场版，Queen 乐迷是看一次湿一次。 手中的演唱会</description>
+      <content:encoded><![CDATA[<p>92年的 Freddie Mercury 纪念演唱会是一届相当经典的演唱会，对 Queen<br>
+乐队的歌迷来说更是意义重大，其中一些极品现场版，Queen<br>
+乐迷是看一次湿一次。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919124365586978"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxWy3_siI/AAAAAAAAA1E/Nth7eaX3yO4/s400/TRIBUTE3.jpg" alt=""  />
+</a></p>
+<p>手中的演唱会版本只有演唱 Queen<br>
+乐队自己作品的那一部分，好在精华也在这里。<a href="http://www.queen.snowproducciones.com.ar/TRIBUTE-FIX-2.html">完整的曲目见这里</a>。</p>
+<p>首先出场的是 Queen 乐队吉他手 Brian May，乐队成员中我最喜欢的一个，他与<br>
+Def Leppard 乐队主唱 Joe Elliott、吉他牛人 Slash（当时应该还在 Guns N&rsquo;<br>
+Roses 吧？）合作献上《Tie Your Mother Down》：</p>
+<p>Brian May 和 Slash 切磋，一下子就感觉很热血啊！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918729351511010"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKw_zVTO-I/AAAAAAAAAw0/1-ymWRXL_dY/s400/1-1%20Tie%20Your%20Mother%20Down%20-%20Queen%2C%20Joe%20Elliott%20and%20Slash.jpg" alt=""  />
+</a></p>
+<p>Joe Elliott 的金色长发真像某种名犬…<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918994534913362"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxPPN81VI/AAAAAAAAAzs/zuyyQaDGY1A/s400/1-1.2%20Tie%20Your%20Mother%20Down%20-%20Queen%2C%20Joe%20Elliott%20and%20Slash.jpg" alt=""  />
+</a></p>
+<p>接下来是 Roger Daltrey 主唱的《I Want It All》，一起飙吉他的换成了 Brian<br>
+May 和 Black Sabbath 的吉他大牛 Tony Iommi：</p>
+<p>热血度再次达到峰值！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919005294936690"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxP3TVwnI/AAAAAAAAAz0/yTNlb0nyy2s/s400/1-2.2%20I%20Want%20It%20All%20-%20Queen%2C%20Roger%20Daltrey%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>The Who 的主唱 Roger Daltrey<br>
+喜欢把话筒在空中抡圆了甩，还乐此不疲，真的很想扁他一顿啊！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919015718271602"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxQeIdOnI/AAAAAAAAAz8/DSZDqVZXqEA/s400/1-2%20I%20Want%20It%20All%20-%20Queen%2C%20Roger%20Daltrey%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>意大利人 Zucchero 的《Las Palabras De<br>
+Amor》感情充沛，给先前火爆的气氛注入了一丝柔情：</p>
+<p>整个过程几乎没有看到他睁开眼睛过啊…<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918759725064706"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxBke64gI/AAAAAAAAAw8/n_mZJfFhPWM/s400/1-3%20Las%20Palabras%20De%20Amor%20-%20Queen%20and%20Zucchero.jpg" alt=""  />
+</a></p>
+<p>Tony Iommi 再次出场，这次的主唱轮到了 Extreme 的 Gary Cherone：</p>
+<p>Gary Cherone 在台上上窜下跳，气氛是很活跃，但那抽搐扭动的样子太骚了！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918771028287490"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxCOl0YAI/AAAAAAAAAxE/L27eYVyFXtw/s400/1-4%20Hammer%20To%20Fall%20-%20Queen%2C%20Gary%20Cherone%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>Tony Iommi 的独秀。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918779033443538"><img loading="lazy" src="http://lh6.ggpht.com/calon.xu/SEKxCsaZXNI/AAAAAAAAAxM/BgQ4W5mxO5c/s400/1-4.2%20Hammer%20To%20Fall%20-%20Queen%2C%20Gary%20Cherone%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>《Stone Cold Crazy》，硬朗的歌曲当然由 Metallica 硬朗的主唱 James<br>
+Hetfield 来演唱：</p>
+<p>James Hetfield 一副脏兮兮的样子，歌曲本身我也不喜欢。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918792563237250"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxDe0JoYI/AAAAAAAAAxU/ei3iZ-Cx2hg/s400/1-5%20Stone%20Cold%20Crazy%20-%20Queen%2C%20James%20Hetfield%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>Led Zeppelin 的主唱 Robert Plant 演绎《Crazy Little Thing Called<br>
+Love》：</p>
+<p>Robert Plant 不但声音很华丽，而且舞台上的举手投足都娘到了妖艳的程度。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918801073226098"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxD-hFwXI/AAAAAAAAAxc/qRBgx671owY/s400/1-6%20Crazy%20Little%20Thing%20Called%20Love%20-%20Queen%20and%20Robert%20Plant.jpg" alt=""  />
+</a></p>
+<p>最打动我的一幕是 Brian May 自弹自唱自己所作的《Too Much Love Will Kill<br>
+You》，这首早期的作品无疑是最适合送给 Freddie Mercury 的。</p>
+<p>整个 Wembley 球场的歌迷都静了下来，默默的挥舞手中的横幅和倾听 Brian<br>
+独唱。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919024790677698"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxQ_7fKMI/AAAAAAAAA0E/yasl10pa7Qs/s400/1-7%20Too%20Much%20Love%20Will%20Kill%20You%20-%20Brian%20May.jpg" alt=""  />
+</a></p>
+<p>Brian 的诚挚感情掩盖了现场发挥的不完美。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918808465169666"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxEaDd3QI/AAAAAAAAAxk/6Uiy5-lPOPE/s400/1-7.2%20Too%20Much%20Love%20Will%20Kill%20You%20-%20Brian%20May.jpg" alt=""  />
+</a></p>
+<p>情歌王子 Paul Young 用《Radio Ga Ga》恢复了现场活跃的气氛：</p>
+<p>Roger Daltrey 喜欢扔话筒，Paul Young 则是舞话筒架。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918817669415458"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxE8V7giI/AAAAAAAAAxs/TPbP708eWTY/s400/1-8%20Radio%20Ga%20Ga%20-%20Queen%20and%20Paul%20Young.jpg" alt=""  />
+</a></p>
+<p>全场观众跟着一起鼓掌。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919036224275506"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxRqheBDI/AAAAAAAAA0M/bT1RYA6nZkk/s400/1-8.2%20Radio%20Ga%20Ga%20-%20Queen%20and%20Paul%20Young.jpg" alt=""  />
+</a></p>
+<p>又是一首经典的现场翻唱！Seal 用雄浑磁性的声音唱出《Who Wants To Live<br>
+Forever》，在这样的场合比原唱更加动人。</p>
+<p>那忧郁的眼神可以杀人！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918825892374018"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxFa-b5gI/AAAAAAAAAx0/ehYqlgXbIQM/s400/1-9%20Who%20Wants%20To%20Live%20Forever%20-%20Queen%20and%20Seal.jpg" alt=""  />
+</a></p>
+<p>熟悉了 Seal<br>
+光头造型，看看当年他梳着黑人大辫配巨型眼镜全身雪白，还真是不习惯。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919052342643330"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxSmkYyoI/AAAAAAAAA0U/WljKGYo6LbM/s400/1-9.2%20Who%20Wants%20To%20Live%20Forever%20-%20Queen%20and%20Seal.jpg" alt=""  />
+</a></p>
+<p>第一位女性嘉宾出现——Lisa Stansfield 推着吸尘器出现在舞台上，演唱的是《I<br>
+Want To Break Free》：</p>
+<p>她一直走个不停，要抓一张清晰的正面很困难。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918836828658690"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxGDt2XAI/AAAAAAAAAx8/Vs8tcHnmoJQ/s400/1-10%20I%20Want%20To%20Break%20Free%20-%20Queen%20and%20Lisa%20Stansfield.jpg" alt=""  />
+</a></p>
+<p>一贯低调的 John Deacon 对着镜头露出笑脸。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919059348236402"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxTAqpqHI/AAAAAAAAA0c/8sTEXfATZkQ/s400/1-10.2%20I%20Want%20To%20Break%20Free%20-%20Queen%20and%20Lisa%20Stansfield.jpg" alt=""  />
+</a></p>
+<p>另一个妖人出现！金眼妖瞳 David Bowie<br>
+身着粉绿西装现身，眼睛画得像熊猫一样的 Annie Lennox 替代 Freddie<br>
+与他同唱《Under Pressure》：</p>
+<p>粉绿色的西装真的太难看了！<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918847015826354"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxGpqqM7I/AAAAAAAAAyE/k-2qIenhMXI/s400/2-1%20Under%20Pressure%20-%20Queen%2C%20David%20Bowie%20and%20Annie%20Lennox.jpg" alt=""  />
+</a></p>
+<p>原 Mott The Hoople 的主唱 Ian Hunter、吉他手 Mick Ronson 演唱《All The<br>
+Young Dudes》，与 Mott The Hoople 颇有渊源的 David Bowie<br>
+用拿手的萨克斯伴奏，Joe Elliott 作为他们的粉丝也跑出来参一腿：</p>
+<p>Ian Hunter 总是带着墨镜。David Bowie 萨克斯的声音几乎完全被掩盖了。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918856560138322"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxHNOM2FI/AAAAAAAAAyM/gfkp7-EbSVk/s400/2-2%20All%20The%20Young%20Dudes%20-%20Queen%2C%20Ian%20Hunter%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg" alt=""  />
+</a></p>
+<p>吉他牛人 Mick Ronson 留下来和 David Bowie 再献上一首《Heroes》：</p>
+<p>Mick Ronson 与 Brian May 对飙。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918863260654786"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxHmLunMI/AAAAAAAAAyU/b5LmE4730Ww/s400/2-3%20Heroes%20-%20Queen%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg" alt=""  />
+</a></p>
+<p>David Bowie 面对 Wembley 球场上密密麻麻的观众。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918872785828802"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxIJqtO8I/AAAAAAAAAyc/0d4rCUzwZqY/s400/2-3.2%20Heroes%20-%20Queen%2C%20David%20Bowie%20and%20Mick%20Ronson.jpg" alt=""  />
+</a></p>
+<p>另一个骚人 George Michael 降临现场。</p>
+<p>《&lsquo;39》虽然不错，但 George Michael 的造型实在很难看。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918882248491826"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxIs6yAzI/AAAAAAAAAyk/fXkLAIfS3XM/s400/2-4%20%2739%20-%20Queen%2C%20George%20Michael.jpg" alt=""  />
+</a></p>
+<p>Lisa Stansfield 再次出场，与 George Michael 深情对唱《These Are The Days<br>
+Of Our Lives》。</p>
+<p>把卷发筒和吸尘器去掉的效果好多了。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918892355230402"><img loading="lazy" src="http://lh6.ggpht.com/calon.xu/SEKxJSkamsI/AAAAAAAAAys/MJ6tbD0rwls/s400/2-5%20These%20Are%20The%20Days%20Of%20Our%20Lives%20-%20Queen%2C%20George%20Michael%20and%20Lisa%20Stansfield.jpg" alt=""  />
+</a></p>
+<p>之前 David Bowie 作了一番祈祷，George Michael<br>
+则是提醒艾滋病的危害，然后来了首他最喜欢的《Somebody To Love》。</p>
+<p>Wembley 不但是梦幻的球场，还是理想的演唱会地点。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918903598809890"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxJ8dGAyI/AAAAAAAAAy0/X08mtoO7bYk/s400/2-6%20Somebody%20To%20Love%20-%20Queen%20and%20George%20Michael.jpg" alt=""  />
+</a></p>
+<p>最精彩的一幕上演，因为 Elton John 和 Axl Rose 上台演唱 Queen<br>
+乐队最经典的作品《Bohemian Rhapsody》！</p>
+<p>Elton John 弹起前奏，全场歌迷与他一起歌唱。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919072950248354"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxTzVn46I/AAAAAAAAA0k/LkxB_FyH2J0/s400/2-7%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg" alt=""  />
+</a></p>
+<p>“Mama, Woooh, Oh I don&rsquo;t want to die&hellip;”<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918925730681522"><img loading="lazy" src="http://lh6.ggpht.com/calon.xu/SEKxLO5vkrI/AAAAAAAAAy8/1bMMgVPXoSs/s400/2-7.2%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg" alt=""  />
+</a></p>
+<p>在重放了 Freddie 来自天堂的声音之后，Axl Rose 跳上台放声歌唱。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919096411715074"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxVKvRdgI/AAAAAAAAA0s/j6POvXUhV5o/s400/2-7.3%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg" alt=""  />
+</a></p>
+<p>“Nothing really matters,<br>
+Anyone can see.<br>
+Nothing really matters,<br>
+nothing really matters to me.<br>
+Anyway the wind blows…”<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918939766622850"><img loading="lazy" src="http://lh6.ggpht.com/calon.xu/SEKxMDMLCoI/AAAAAAAAAzE/hOCoiOXk6Kk/s400/2-7.4%20Bohemian%20Rhapsody%20-%20Queen%2C%20Elton%20John%20and%20Axl%20Rose.jpg" alt=""  />
+</a></p>
+<p>Elton John 的最爱，《The Show Must Go On》。斯人已逝，但演出仍将继续。</p>
+<p>又是一个经典的现场版本，非 Elton John 充满激情的声音不可。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919106867395938"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxVxsGfWI/AAAAAAAAA00/rCVEjhi8v_w/s400/2-8%20The%20Show%20Must%20Go%20On%20-%20Queen%2C%20Elton%20John%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>Brian May 和 Tony Iommi 再次让吉他手泪流满面。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918950016731474"><img loading="lazy" src="http://lh4.ggpht.com/calon.xu/SEKxMpX_SVI/AAAAAAAAAzM/pMP7DV9PJFI/s400/2-8.2%20The%20Show%20Must%20Go%20On%20-%20Queen%2C%20Elton%20John%20and%20Tony%20Iommi.jpg" alt=""  />
+</a></p>
+<p>Axl Rose 版的《We Will Rock You》较之 Freddie 的还是失色许多。</p>
+<p>Axl Rose 唱错了几处地方，节奏也乱了一点。还好 Brian 镇得住场面。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918957431274642"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxNE_wPJI/AAAAAAAAAzU/5thufa58G2A/s400/2-9%20We%20Will%20Rock%20You%20-%20Queen%20and%20Axl%20Rose.jpg" alt=""  />
+</a></p>
+<p>最后是爵士歌手 Liza Minnelli 用浑厚的女声演唱《We Are The Champions》：</p>
+<p>很有型的甩头。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918972994719890"><img loading="lazy" src="http://lh5.ggpht.com/calon.xu/SEKxN--XkJI/AAAAAAAAAzc/Oh1ox_8YMiQ/s400/2-10%20We%20Are%20The%20Champions%20-%20Liza%20Minnelli%20and%20Cast.jpg" alt=""  />
+</a></p>
+<p>这首赞颂与世俗抗争、永不言败的歌曲让全场气氛达到另一个高潮。女生唱这首歌容易高亢过头，Liza<br>
+Minnelli 拿捏得不错。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206918985573097170"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxOt1SXtI/AAAAAAAAAzk/9t0kyreAiys/s400/2-10.2%20We%20Are%20The%20Champions%20-%20Liza%20Minnelli%20and%20Cast.jpg" alt=""  />
+</a></p>
+<p>所有嘉宾上台谢幕之后，全场高唱《God Save the Queen》，画面闪回到 Freddie<br>
+在以前的演唱会现场头戴皇冠身披锦袍手执话筒的造型。<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919117637132146"><img loading="lazy" src="http://lh3.ggpht.com/calon.xu/SEKxWZzzn3I/AAAAAAAAA08/cONUmGGq3Ok/s400/2-11%20God%20Save%20the%20Queen.jpg" alt=""  />
+</a></p>
+<p>Freddie Mercury 的标志动作：<br>
+<a href="http://picasaweb.google.com/calon.xu/Concert/photo#5206919132952005762"><img loading="lazy" src="http://lh6.ggpht.com/calon.xu/SEKxXS3KDII/AAAAAAAAA1M/TTHhre5BkXE/s400/Freddie_Mercury.jpg" alt=""  />
+</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>爱与怨念的音乐清单</title>
+      <link>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</link>
+      <pubDate>Thu, 14 Feb 2008 15:19:36 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ai-yu-yuannian-de-yinyue-qingdan/</guid>
+      <description>充满爱与怨念的音乐清单… 因为怨念比较重，所以只有后面几首算是祝福情人们的。而且没有时间写文字和贴歌词了，自己挖掘吧… 虽然连义理巧克力都没有收</description>
+      <content:encoded><![CDATA[<p><a href="http://www.tudou.com/playlist/0214list/">充满爱与怨念的音乐清单</a>…<br>
+因为怨念比较重，所以只有后面几首算是祝福情人们的。而且没有时间写文字和贴歌词了，自己挖掘吧…</p>
+<p>虽然连义理巧克力都没有收到，但至少能够在 Twitter<br>
+上收到义理小于3，也不错了…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

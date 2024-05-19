@@ -1,45 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>皮具 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%9A%AE%E5%85%B7/</link>
     <description>Recent content in 皮具 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 02 Aug 2008 18:55:03 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%9A%AE%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>小皮具</title>
-        <link>https://ioerr.github.io/posts/xiao-piju/</link>
-        <pubDate>Sat, 02 Aug 2008 18:55:03 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiao-piju/</guid>
-        <description>&lt;p&gt;今天给妹妹买礼物的时候找到一个皮具手工坊，虽说手艺没有想象中上乘，但价格还是适合我等穷人的。而且最近生意不好，混熟了有希望多打一点折扣。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2725081679/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3293/2725081679_2cb381f2c3.jpg&#34; alt=&#34;小羊皮袋 (by
-calontream)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2725894564/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3263/2725894564_427caa195a.jpg&#34; alt=&#34;镜子 (by
-calontream)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2725085233/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3100/2725085233_5e15f94768.jpg&#34; alt=&#34;小羊皮袋和镜子 (by
-calontream)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;问了一下伙计，还可以定做皮具，寻思着自己画几个图案让人做些小玩意，以后可以送人。&lt;/p&gt;
-
-&lt;p&gt;可惜不能拿 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
-的标志去做些小荷包、小皮袋子之类的，否则拿到 cnbloggercon
-上面卖，说不定会有销路？&lt;br /&gt;
-好像 twitter 的 logo 不反对商用也。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%9A%AE%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小皮具</title>
+      <link>https://ioerr.github.io/posts/xiao-piju/</link>
+      <pubDate>Sat, 02 Aug 2008 18:55:03 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiao-piju/</guid>
+      <description>今天给妹妹买礼物的时候找到一个皮具手工坊，虽说手艺没有想象中上乘，但价格还是适合我等穷人的。而且最近生意不好，混熟了有希望多打一点折扣。 问了</description>
+      <content:encoded><![CDATA[<p>今天给妹妹买礼物的时候找到一个皮具手工坊，虽说手艺没有想象中上乘，但价格还是适合我等穷人的。而且最近生意不好，混熟了有希望多打一点折扣。</p>
+<p><a href="http://www.flickr.com/photos/calon/2725081679/"><img loading="lazy" src="http://farm4.static.flickr.com/3293/2725081679_2cb381f2c3.jpg" alt="小羊皮袋 (by&lt;br&gt;
+calontream)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2725894564/"><img loading="lazy" src="http://farm4.static.flickr.com/3263/2725894564_427caa195a.jpg" alt="镜子 (by&lt;br&gt;
+calontream)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2725085233/"><img loading="lazy" src="http://farm4.static.flickr.com/3100/2725085233_5e15f94768.jpg" alt="小羊皮袋和镜子 (by&lt;br&gt;
+calontream)"  />
+</a></p>
+<p>问了一下伙计，还可以定做皮具，寻思着自己画几个图案让人做些小玩意，以后可以送人。</p>
+<p>可惜不能拿 <a href="http://wordpress.org/">WordPress</a><br>
+的标志去做些小荷包、小皮袋子之类的，否则拿到 cnbloggercon<br>
+上面卖，说不定会有销路？<br>
+好像 twitter 的 logo 不反对商用也。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

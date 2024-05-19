@@ -1,36 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Gtd on 读写错误</title>
+    <title>GTD on 读写错误</title>
     <link>https://ioerr.github.io/tags/gtd/</link>
-    <description>Recent content in Gtd on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in GTD on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>工具失效的原因</title>
-        <link>https://ioerr.github.io/posts/gongju-shixiao-de-yuanyin/</link>
-        <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/gongju-shixiao-de-yuanyin/</guid>
-        <description>&lt;p&gt;GTD（Getting Things Done）的时间管理方法已经盛行多年，但很多人反映不管什么 GTD 工具都不好使，录入了待办事项，跟踪管理了一段时间后，哪怕是 &lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt; 这样简洁易用的工具都不想打开，然后就没有然后了。&lt;br /&gt;
-于是继续寻找下一个好用的工具，继续从上手到放弃的死循环。&lt;/p&gt;
-
-&lt;p&gt;不止是 GTD，其他许多工具都存在这样的问题场景。&lt;/p&gt;
-
-&lt;p&gt;在我看来，问题的源头不在工具，而在于人。&lt;br /&gt;
-工具不会（起码99%的情况下不会）让人爱上之前抗拒的工作。&lt;br /&gt;
-当使用者本来就抗拒某一项工作，而不是因为工具的效率和易用性影响应用，那么再怎么换用不同的替代品都解决不了问题，不管使用工具的成本有多低，他都会在潜意识里找各种理由逃避。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工具失效的原因</title>
+      <link>https://ioerr.github.io/posts/gongju-shixiao-de-yuanyin/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/gongju-shixiao-de-yuanyin/</guid>
+      <description>GTD（Getting Things Done）的时间管理方法已经盛行多年，但很多人反映不管什么 GTD 工具都不好使，录入了待办事项，跟踪管理了一段时间后，哪怕</description>
+      <content:encoded><![CDATA[<p>GTD（Getting Things Done）的时间管理方法已经盛行多年，但很多人反映不管什么 GTD 工具都不好使，录入了待办事项，跟踪管理了一段时间后，哪怕是 <a href="https://trello.com/">Trello</a> 这样简洁易用的工具都不想打开，然后就没有然后了。<br>
+于是继续寻找下一个好用的工具，继续从上手到放弃的死循环。</p>
+<p>不止是 GTD，其他许多工具都存在这样的问题场景。</p>
+<p>在我看来，问题的源头不在工具，而在于人。<br>
+工具不会（起码99%的情况下不会）让人爱上之前抗拒的工作。<br>
+当使用者本来就抗拒某一项工作，而不是因为工具的效率和易用性影响应用，那么再怎么换用不同的替代品都解决不了问题，不管使用工具的成本有多低，他都会在潜意识里找各种理由逃避。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

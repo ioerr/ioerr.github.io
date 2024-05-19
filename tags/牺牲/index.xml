@@ -1,171 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>牺牲 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%89%BA%E7%89%B2/</link>
     <description>Recent content in 牺牲 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%89%BA%E7%89%B2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>人类社会的“架构师”</title>
-        <link>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</link>
-        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</guid>
-        <description>&lt;p&gt;IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“&lt;a href=&#34;https://icyfenix.cn/introduction/about-the-fenix-project.html#%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E8%BF%9B&#34;&gt;凤凰系统&lt;/a&gt;”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的整体稳定，因此要设计出方便某个服务顺利地“死去”与“重生”的架构，比如：&lt;br /&gt;
-要拆分服务到一定的粒度，生死更迭时对整体的影响较小，甚至无感知。&lt;br /&gt;
-服务之间互相解耦、隔离，不要因为某个实例异常，影响一大片。&lt;br /&gt;
-要能够及时监控发现服务的状态。&lt;br /&gt;
-要建立标准服务，方便扩展伸缩和管理。&lt;br /&gt;
-等等。&lt;/p&gt;
-
-&lt;p&gt;类似地，人类社会架构师思考如何将寿命短暂、智商低下、目光短浅、自私自利、本能驱动、意志软弱…有各种弱点的个体，组合成繁荣、和谐、活跃、常青的组织。&lt;/p&gt;
-
-&lt;p&gt;不过，IT 系统架构师要销毁重建的不可靠部件可不会包括自己和同类个体，因此在谈到销毁重建时毫无压力——那毕竟都是非生命的存在，没有感知，没有感情，也不会反抗，为了完成工作任务而创建，也为了保证工作任务顺利完成而被“处理”。&lt;/p&gt;
-
-&lt;p&gt;将这种思路运用到人类社会中可就难说了。&lt;/p&gt;
-
-&lt;p&gt;如果完全照搬 IT 架构设计的思路，将具体的人看作抹除个体差异、完全为整体而存在的零部件——那么他完全有可能心安理得地按下批量销毁人类的按钮，只要他相信能够找到同质的替代零部件，相信这一切有利于某个集体的存续。&lt;/p&gt;
-
-&lt;p&gt;问题的关键主要不在于笃信这个目标于是不择手段，而在衡量目标的过程。&lt;br /&gt;
-如果他认为个人本身毫无存在价值，除了为集体存续而存在，那么在衡量目标时，根本就不会将每个个人的意见纳入考虑，不需要顾虑他的求生欲望和反抗能力，“人”也就和容器差不多，成为只需要服从控制的“对象”，随时可以接受命令销毁重建。&lt;br /&gt;
-最极端的时候，“我”可以由架构师降格为代理，连自己都愿意为了实现唯一有意义的目标，主动成为被销毁的“对象”，以及将这种行为美化为宗教圣徒般的献身——至高的“神”就是世界、集体背后的那个终极架构师。&lt;/p&gt;
-
-&lt;p&gt;最荒谬的是，以个体牺牲为至高美德的“圣徒”，会指责那些保卫个人价值、以个人主义为基础构建组织并反感牺牲的人，是有道德洁癖、不敢承担“处理”责任的伪君子。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>锦囊妙计</title>
-        <link>https://ioerr.github.io/posts/jinnangmiaoji/</link>
-        <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jinnangmiaoji/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/zmt021/status/1442300127495000064&#34;&gt;流浪国男&lt;/a&gt;：&lt;br /&gt;
-所有民主国家的女人都要冠夫姓，所有发达国家的女人都要冠夫姓，墙国女不冠夫姓，是墙国落后于现代国家的根本原因。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1734067573128614172&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-对女性不冠夫姓不满的墙国男愤而自杀，问题即迎刃而解。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;大猫 😺：&lt;br /&gt;
-必须打核战才能尽快结束战争拯救生命 👌&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1731932607313838412&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-如果现在全球人类死亡，顶多死亡 80 亿，如果人类一直存在，死亡的人数将没有上限，所以为了减少人口总死亡数，应该马上消灭所有人类是吧？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Hnbhger17/status/1733424016525029517&#34;&gt;汉尼拔火罐&lt;/a&gt;：&lt;br /&gt;
-1. 处理台湾问题的成本是很大的，让那么多国承认 “一个中国”，代价就是人民币… 解决了台湾问题，可以把这一块全部省下来，这个量级是惊人的，经济负担会大大减轻…&lt;br /&gt;
-2. 大规模战争就是按一次经济的 Reset 键，肯定会痛苦，但可以把原来的痛苦覆盖掉，最终通过经济的浴火重生，达到共同止痛和开创新局的效果，这是俄罗斯的经验…&lt;br /&gt;
-3. 经济问题说到底是人心的问题，人的气顺了，对国家有信心了，经济就会上去！武统有 90% 以上的支持率，还有什么比解决台湾问题更能让中国人提气的？&lt;br /&gt;
-所以中国经济越好，老共对以上问题考虑的越少，武统也就越往后拖… 可湾湾却天天盼着中国经济崩溃，这跟骂阎王迟到有什么区别？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1733489677636923858&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-把原来的痛苦覆盖掉，比大规模战争更好的办法，是迫切要发动战争的人都失去耐心痛苦到集体自杀，真正意义上的浴火重生，这一块的成本全部省下来，这个量级是惊人的，经济负担会大大减轻。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/yibingdebing/status/1733788115633119699&#34;&gt;一饼的饼&lt;/a&gt;：&lt;br /&gt;
-爱国主义是中国从官方到民间的主流思想，粉红也是中国人中绝对的主体人群，占比具体有多高我不知道，但大家心里有数。嘲笑辱骂粉红，实际上妥妥的就是歧视中国人。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1733795941738791174&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-那粉红都不堪其辱自杀死掉，就不会歧视中国人了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/zmt021/status/1734107488964759845&#34;&gt;流浪国男&lt;/a&gt;：&lt;br /&gt;
-世界各国生育率直线下降，才是墙国最大的机遇，只要全民信仰董志民思想，战无不胜。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1736186327979417839&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-提高生育率除了提高分子，还可以降低分母。&lt;br /&gt;
-凡是信仰董志民思想的统统自杀，不需要任何强制手段，生育率一下就上去了。&lt;br /&gt;
-赶紧的吧。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;结论：&lt;br /&gt;
-不尊重生命的人，总觉得牺牲他人解决自己的问题天经地义。&lt;br /&gt;
-在我看来，这样的人把自己解决掉，也就解决了他们的问题。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;2024-03-13 更新：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/zmt021/status/1767848342262829542&#34;&gt;流浪国男&lt;/a&gt;：&lt;br /&gt;
-去年墙国经济崩溃，GDP只剩美利坚的65%。。。欧美严防死守之下，继续提高人均GDP难度骤增。。。最简单的办法就是守住均量，提高总量，学董爆人口。。。俺不相信，一年生3000万，二三十年之后能不超过美利坚&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1767860547536789951&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-这样人均 GDP 会快速下降，不如找根铁链把自己勒死，这样人均数据就上去了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>等级社会的特征</title>
-        <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
-        <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
-        <description>&lt;p&gt;等级社会的特征之一：&lt;br /&gt;
-人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。&lt;br /&gt;
-社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。&lt;br /&gt;
-社会等级最高的人理应享有特权。&lt;/p&gt;
-
-&lt;p&gt;特征之二：&lt;br /&gt;
-社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；&lt;br /&gt;
-社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；&lt;br /&gt;
-社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。&lt;/p&gt;
-
-&lt;p&gt;特征之三：&lt;br /&gt;
-等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>集体和历史决定论的幻觉</title>
-        <link>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</link>
-        <pubDate>Fri, 27 Dec 2013 16:37:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</guid>
-        <description>&lt;p&gt;品评历史人物是非功过时，常有这样一种观点：牺牲过去的个人，即使手段不堪，换来现在大多数人的幸福，那也值得称颂。&lt;/p&gt;
-
-&lt;p&gt;以功利的观念来看，似乎挺有道理，持此观点的人也通常自认为理性客观，逻辑上无懈可击，比感情用事而脱离现实的道德家们更有道理。&lt;br /&gt;
-由此逻辑出发，许多人类历史上的悲剧，作为某些所谓伟大崇高目标的过程，反成了可以原谅、接受的必要的恶，甚至成了引以为傲的功劳。&lt;/p&gt;
-
-&lt;p&gt;其中的奥妙在于，将群体和历史看作整体，价值上的得与失，均以集体的观念来衡量，如此，过去的和个人的牺牲，就能与现在和整体的利益相减，差值是衡量功过得失的标准。&lt;/p&gt;
-
-&lt;p&gt;所得与所失可以是纯粹主观的价值判断，你我二人损失、收益的综合结果是好是坏，在你我看来可能完全截然相反，哪里能够简单相加相减，得出一个客观的算术答案呢？&lt;br /&gt;
-但若换上集体的视角来看，就可无视个人之间主观价值判断的差异了，问题是，哪里有什么集体视角？&lt;br /&gt;
-现在的人怎么可能真正体会到过去被牺牲者的痛苦？哪怕是在同一时间，你又怎么可能真正了解我的感受？未经他人授权即自命为集体代言人，是权力欲、控制欲使其产生幻觉，以为自己全知全能。&lt;br /&gt;
-于是所谓集体的视角，不过是现在伪装客观的功利主义者假集体名义，强调既得利益而掩盖牺牲者的声音——死人不能表达异议，这才是无懈可击的理性真理背后的无赖逻辑。&lt;br /&gt;
-等到未来这些功利主义者自己也要被牺牲时，大概才会打破与集体合体的幻觉，但愿到时候他们都已经修炼成集体主义世界观中彻底无我无私的道德完人吧。&lt;/p&gt;
-
-&lt;p&gt;另外，现代人回顾已成定局的历史，对照从有限的经验归纳出的历史理论，也容易产生一种历史决定论的幻觉，以为从过去到现在和未来的历史发展的真理已掌握在手，既如此，跪拜在这种历史神话的人们青睐能用于逃脱历史责任的犬儒主义：为所谓历史真理服务的一切罪行都可宽恕，牺牲因其神圣而化为正义。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%89%BA%E7%89%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人类社会的“架构师”</title>
+      <link>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/renlei-shehui-de-jiagoushi/</guid>
+      <description>IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“凤凰系统”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的</description>
+      <content:encoded><![CDATA[<p>IT 系统架构师思考用不可靠的部件构造出可靠的系统——比如“<a href="https://icyfenix.cn/introduction/about-the-fenix-project.html#%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E8%BF%9B">凤凰系统</a>”。当某个具体的零部件崩溃消亡时，能够有新的零部件重新代替其作用，维持系统的整体稳定，因此要设计出方便某个服务顺利地“死去”与“重生”的架构，比如：<br>
+要拆分服务到一定的粒度，生死更迭时对整体的影响较小，甚至无感知。<br>
+服务之间互相解耦、隔离，不要因为某个实例异常，影响一大片。<br>
+要能够及时监控发现服务的状态。<br>
+要建立标准服务，方便扩展伸缩和管理。<br>
+等等。</p>
+<p>类似地，人类社会架构师思考如何将寿命短暂、智商低下、目光短浅、自私自利、本能驱动、意志软弱…有各种弱点的个体，组合成繁荣、和谐、活跃、常青的组织。</p>
+<p>不过，IT 系统架构师要销毁重建的不可靠部件可不会包括自己和同类个体，因此在谈到销毁重建时毫无压力——那毕竟都是非生命的存在，没有感知，没有感情，也不会反抗，为了完成工作任务而创建，也为了保证工作任务顺利完成而被“处理”。</p>
+<p>将这种思路运用到人类社会中可就难说了。</p>
+<p>如果完全照搬 IT 架构设计的思路，将具体的人看作抹除个体差异、完全为整体而存在的零部件——那么他完全有可能心安理得地按下批量销毁人类的按钮，只要他相信能够找到同质的替代零部件，相信这一切有利于某个集体的存续。</p>
+<p>问题的关键主要不在于笃信这个目标于是不择手段，而在衡量目标的过程。<br>
+如果他认为个人本身毫无存在价值，除了为集体存续而存在，那么在衡量目标时，根本就不会将每个个人的意见纳入考虑，不需要顾虑他的求生欲望和反抗能力，“人”也就和容器差不多，成为只需要服从控制的“对象”，随时可以接受命令销毁重建。<br>
+最极端的时候，“我”可以由架构师降格为代理，连自己都愿意为了实现唯一有意义的目标，主动成为被销毁的“对象”，以及将这种行为美化为宗教圣徒般的献身——至高的“神”就是世界、集体背后的那个终极架构师。</p>
+<p>最荒谬的是，以个体牺牲为至高美德的“圣徒”，会指责那些保卫个人价值、以个人主义为基础构建组织并反感牺牲的人，是有道德洁癖、不敢承担“处理”责任的伪君子。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>锦囊妙计</title>
+      <link>https://ioerr.github.io/posts/jinnangmiaoji/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jinnangmiaoji/</guid>
+      <description>流浪国男： 所有民主国家的女人都要冠夫姓，所有发达国家的女人都要冠夫姓，墙国女不冠夫姓，是墙国落后于现代国家的根本原因。 Calon： 对女性不冠</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/zmt021/status/1442300127495000064">流浪国男</a>：<br>
+所有民主国家的女人都要冠夫姓，所有发达国家的女人都要冠夫姓，墙国女不冠夫姓，是墙国落后于现代国家的根本原因。</p>
+<p><a href="https://twitter.com/calon/status/1734067573128614172">Calon</a>：<br>
+对女性不冠夫姓不满的墙国男愤而自杀，问题即迎刃而解。</p>
+<hr>
+<p>大猫 😺：<br>
+必须打核战才能尽快结束战争拯救生命 👌</p>
+<p><a href="https://twitter.com/calon/status/1731932607313838412">Calon</a>：<br>
+如果现在全球人类死亡，顶多死亡 80 亿，如果人类一直存在，死亡的人数将没有上限，所以为了减少人口总死亡数，应该马上消灭所有人类是吧？</p>
+<hr>
+<p><a href="https://twitter.com/Hnbhger17/status/1733424016525029517">汉尼拔火罐</a>：</p>
+<ol>
+<li>处理台湾问题的成本是很大的，让那么多国承认 “一个中国”，代价就是人民币… 解决了台湾问题，可以把这一块全部省下来，这个量级是惊人的，经济负担会大大减轻…</li>
+<li>大规模战争就是按一次经济的 Reset 键，肯定会痛苦，但可以把原来的痛苦覆盖掉，最终通过经济的浴火重生，达到共同止痛和开创新局的效果，这是俄罗斯的经验…</li>
+<li>经济问题说到底是人心的问题，人的气顺了，对国家有信心了，经济就会上去！武统有 90% 以上的支持率，还有什么比解决台湾问题更能让中国人提气的？<br>
+所以中国经济越好，老共对以上问题考虑的越少，武统也就越往后拖… 可湾湾却天天盼着中国经济崩溃，这跟骂阎王迟到有什么区别？</li>
+</ol>
+<p><a href="https://twitter.com/calon/status/1733489677636923858">Calon</a>：<br>
+把原来的痛苦覆盖掉，比大规模战争更好的办法，是迫切要发动战争的人都失去耐心痛苦到集体自杀，真正意义上的浴火重生，这一块的成本全部省下来，这个量级是惊人的，经济负担会大大减轻。</p>
+<hr>
+<p><a href="https://twitter.com/yibingdebing/status/1733788115633119699">一饼的饼</a>：<br>
+爱国主义是中国从官方到民间的主流思想，粉红也是中国人中绝对的主体人群，占比具体有多高我不知道，但大家心里有数。嘲笑辱骂粉红，实际上妥妥的就是歧视中国人。</p>
+<p><a href="https://twitter.com/calon/status/1733795941738791174">Calon</a>：<br>
+那粉红都不堪其辱自杀死掉，就不会歧视中国人了。</p>
+<hr>
+<p><a href="https://twitter.com/zmt021/status/1734107488964759845">流浪国男</a>：<br>
+世界各国生育率直线下降，才是墙国最大的机遇，只要全民信仰董志民思想，战无不胜。</p>
+<p><a href="https://twitter.com/calon/status/1736186327979417839">Calon</a>：<br>
+提高生育率除了提高分子，还可以降低分母。<br>
+凡是信仰董志民思想的统统自杀，不需要任何强制手段，生育率一下就上去了。<br>
+赶紧的吧。</p>
+<hr>
+<p>结论：<br>
+不尊重生命的人，总觉得牺牲他人解决自己的问题天经地义。<br>
+在我看来，这样的人把自己解决掉，也就解决了他们的问题。</p>
+<hr>
+<p>2024-03-13 更新：</p>
+<p><a href="https://twitter.com/zmt021/status/1767848342262829542">流浪国男</a>：<br>
+去年墙国经济崩溃，GDP只剩美利坚的65%。。。欧美严防死守之下，继续提高人均GDP难度骤增。。。最简单的办法就是守住均量，提高总量，学董爆人口。。。俺不相信，一年生3000万，二三十年之后能不超过美利坚</p>
+<p><a href="https://twitter.com/calon/status/1767860547536789951">Calon</a>：<br>
+这样人均 GDP 会快速下降，不如找根铁链把自己勒死，这样人均数据就上去了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>等级社会的特征</title>
+      <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
+      <description>等级社会的特征之一： 人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。 社会最低等级的人不配谈人权</description>
+      <content:encoded><![CDATA[<p>等级社会的特征之一：<br>
+人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。<br>
+社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。<br>
+社会等级最高的人理应享有特权。</p>
+<p>特征之二：<br>
+社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；<br>
+社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；<br>
+社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。</p>
+<p>特征之三：<br>
+等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>集体和历史决定论的幻觉</title>
+      <link>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</link>
+      <pubDate>Fri, 27 Dec 2013 16:37:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiti-he-lishi-juedinglun-de-huanjue/</guid>
+      <description>品评历史人物是非功过时，常有这样一种观点：牺牲过去的个人，即使手段不堪，换来现在大多数人的幸福，那也值得称颂。 以功利的观念来看，似乎挺有道理</description>
+      <content:encoded><![CDATA[<p>品评历史人物是非功过时，常有这样一种观点：牺牲过去的个人，即使手段不堪，换来现在大多数人的幸福，那也值得称颂。</p>
+<p>以功利的观念来看，似乎挺有道理，持此观点的人也通常自认为理性客观，逻辑上无懈可击，比感情用事而脱离现实的道德家们更有道理。<br>
+由此逻辑出发，许多人类历史上的悲剧，作为某些所谓伟大崇高目标的过程，反成了可以原谅、接受的必要的恶，甚至成了引以为傲的功劳。</p>
+<p>其中的奥妙在于，将群体和历史看作整体，价值上的得与失，均以集体的观念来衡量，如此，过去的和个人的牺牲，就能与现在和整体的利益相减，差值是衡量功过得失的标准。</p>
+<p>所得与所失可以是纯粹主观的价值判断，你我二人损失、收益的综合结果是好是坏，在你我看来可能完全截然相反，哪里能够简单相加相减，得出一个客观的算术答案呢？<br>
+但若换上集体的视角来看，就可无视个人之间主观价值判断的差异了，问题是，哪里有什么集体视角？<br>
+现在的人怎么可能真正体会到过去被牺牲者的痛苦？哪怕是在同一时间，你又怎么可能真正了解我的感受？未经他人授权即自命为集体代言人，是权力欲、控制欲使其产生幻觉，以为自己全知全能。<br>
+于是所谓集体的视角，不过是现在伪装客观的功利主义者假集体名义，强调既得利益而掩盖牺牲者的声音——死人不能表达异议，这才是无懈可击的理性真理背后的无赖逻辑。<br>
+等到未来这些功利主义者自己也要被牺牲时，大概才会打破与集体合体的幻觉，但愿到时候他们都已经修炼成集体主义世界观中彻底无我无私的道德完人吧。</p>
+<p>另外，现代人回顾已成定局的历史，对照从有限的经验归纳出的历史理论，也容易产生一种历史决定论的幻觉，以为从过去到现在和未来的历史发展的真理已掌握在手，既如此，跪拜在这种历史神话的人们青睐能用于逃脱历史责任的犬儒主义：为所谓历史真理服务的一切罪行都可宽恕，牺牲因其神圣而化为正义。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

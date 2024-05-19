@@ -1,63 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>无聊 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%97%A0%E8%81%8A/</link>
     <description>Recent content in 无聊 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%97%A0%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>五言绝句</title>
-        <link>https://ioerr.github.io/posts/wuyan-jueju/</link>
-        <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wuyan-jueju/</guid>
-        <description>&lt;p&gt;诺尔切贝利&lt;br /&gt;
-罗格里德斯&lt;br /&gt;
-德科约维奇&lt;br /&gt;
-巴图蒂斯塔&lt;br /&gt;
-列士敦支登&lt;br /&gt;
-赫拉克斯勒&lt;br /&gt;
-德拉克勒斯&lt;br /&gt;
-大卫嘉李图&lt;br /&gt;
-约翰霍德华&lt;br /&gt;
-托尼塔斯克&lt;br /&gt;
-伊隆马克斯&lt;br /&gt;
-乞力扎马罗&lt;br /&gt;
-瓦尔内尔德&lt;br /&gt;
-安托那利亚&lt;br /&gt;
-萨勒塔尼纳&lt;br /&gt;
-伊坦斯布尔&lt;br /&gt;
-亚士里多德&lt;br /&gt;
-巴伦加西亚&lt;br /&gt;
-夏布多里昂&lt;br /&gt;
-卡内莫拉西&lt;br /&gt;
-提加德罗康&lt;br /&gt;
-奥特斯罗姆&lt;br /&gt;
-普罗米斯修&lt;br /&gt;
-比勒陀亚利&lt;br /&gt;
-哥斯达加黎&lt;br /&gt;
-布基纳索法&lt;br /&gt;
-毛里塔亚尼&lt;br /&gt;
-东山呼保义&lt;br /&gt;
-北河玉麒麟&lt;br /&gt;
-豹子杨锦鳞&lt;br /&gt;
-枪手徐金宁&lt;br /&gt;
-顺毛虎燕锦&lt;br /&gt;
-正刀鬼曹操&lt;/p&gt;
-
-&lt;p&gt;StarKnight 点评：#五言绝句&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%97%A0%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>五言绝句</title>
+      <link>https://ioerr.github.io/posts/wuyan-jueju/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wuyan-jueju/</guid>
+      <description>诺尔切贝利 罗格里德斯 德科约维奇 巴图蒂斯塔 列士敦支登 赫拉克斯勒 德拉克勒斯 大卫嘉李图 约翰霍德华 托尼塔斯克 伊隆马克斯 乞力扎马罗 瓦尔内尔德 安托那利亚</description>
+      <content:encoded><![CDATA[<p>诺尔切贝利<br>
+罗格里德斯<br>
+德科约维奇<br>
+巴图蒂斯塔<br>
+列士敦支登<br>
+赫拉克斯勒<br>
+德拉克勒斯<br>
+大卫嘉李图<br>
+约翰霍德华<br>
+托尼塔斯克<br>
+伊隆马克斯<br>
+乞力扎马罗<br>
+瓦尔内尔德<br>
+安托那利亚<br>
+萨勒塔尼纳<br>
+伊坦斯布尔<br>
+亚士里多德<br>
+巴伦加西亚<br>
+夏布多里昂<br>
+卡内莫拉西<br>
+提加德罗康<br>
+奥特斯罗姆<br>
+普罗米斯修<br>
+比勒陀亚利<br>
+哥斯达加黎<br>
+布基纳索法<br>
+毛里塔亚尼<br>
+东山呼保义<br>
+北河玉麒麟<br>
+豹子杨锦鳞<br>
+枪手徐金宁<br>
+顺毛虎燕锦<br>
+正刀鬼曹操</p>
+<p>StarKnight 点评：#五言绝句</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

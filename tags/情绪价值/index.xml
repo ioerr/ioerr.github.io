@@ -1,46 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>情绪价值 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC/</link>
     <description>Recent content in 情绪价值 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>情绪价值与知识价值</title>
-        <link>https://ioerr.github.io/posts/qingxu-jiazhi-yu-zhishi-jiazhi/</link>
-        <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/qingxu-jiazhi-yu-zhishi-jiazhi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/Beichen/status/1736517930849087894&#34;&gt;师北宸&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;情绪价值是最贵的，否则为什么那么多伟大的作品都在歌颂爱呢？这是许多知识分子和专家没有的，他们自己匮乏，他们批判那些只知道给情绪价值，不给所谓干货思考的网红。&lt;/p&gt;
-
-&lt;p&gt;人类最伟大的知识最好获取，学会搜索免费，不然就办一张图书卡，一个月几十块最多百来块，一辈子都读不完。&lt;/p&gt;
-
-&lt;p&gt;这就是纯知识的价格。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1736596799715172450&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;教育、学习和读书得分开看。&lt;br /&gt;
-知识获取还是要看吸收率，图书卡是便宜，但能够看完就学到知识、运用知识的万里无一，还有许多知识脱离了长期训练和实践等于无效。&lt;/p&gt;
-
-&lt;p&gt;从入幼儿园到走进社会，整个过程都是教育，也就是塑造我们的大脑。&lt;br /&gt;
-如果将耗费在其间的投入，变成像下载、安装软件一样快捷，然后马上生效，愿意花大价钱买这种服务的肯定大有人在。&lt;br /&gt;
-然而知识的获得很难简化为捷径一蹴而就。&lt;/p&gt;
-
-&lt;p&gt;其实情绪价值也是类似，获得情感安慰可以越来越即时、廉价，但要收获长期稳定的（广义的）爱，这样宝贵、独特、纯粹的情绪价值仍然需要我们自身真诚的参与、投入、沉浸，与网红能够提供的服务不是一回事。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>情绪价值与知识价值</title>
+      <link>https://ioerr.github.io/posts/qingxu-jiazhi-yu-zhishi-jiazhi/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/qingxu-jiazhi-yu-zhishi-jiazhi/</guid>
+      <description>师北宸： 情绪价值是最贵的，否则为什么那么多伟大的作品都在歌颂爱呢？这是许多知识分子和专家没有的，他们自己匮乏，他们批判那些只知道给情绪价值，</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/Beichen/status/1736517930849087894">师北宸</a>：</p>
+<p>情绪价值是最贵的，否则为什么那么多伟大的作品都在歌颂爱呢？这是许多知识分子和专家没有的，他们自己匮乏，他们批判那些只知道给情绪价值，不给所谓干货思考的网红。</p>
+<p>人类最伟大的知识最好获取，学会搜索免费，不然就办一张图书卡，一个月几十块最多百来块，一辈子都读不完。</p>
+<p>这就是纯知识的价格。</p>
+<p><a href="https://twitter.com/calon/status/1736596799715172450">Calon</a>：</p>
+<p>教育、学习和读书得分开看。<br>
+知识获取还是要看吸收率，图书卡是便宜，但能够看完就学到知识、运用知识的万里无一，还有许多知识脱离了长期训练和实践等于无效。</p>
+<p>从入幼儿园到走进社会，整个过程都是教育，也就是塑造我们的大脑。<br>
+如果将耗费在其间的投入，变成像下载、安装软件一样快捷，然后马上生效，愿意花大价钱买这种服务的肯定大有人在。<br>
+然而知识的获得很难简化为捷径一蹴而就。</p>
+<p>其实情绪价值也是类似，获得情感安慰可以越来越即时、廉价，但要收获长期稳定的（广义的）爱，这样宝贵、独特、纯粹的情绪价值仍然需要我们自身真诚的参与、投入、沉浸，与网红能够提供的服务不是一回事。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

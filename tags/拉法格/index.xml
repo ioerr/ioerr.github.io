@@ -1,43 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>拉法格 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%8B%89%E6%B3%95%E6%A0%BC/</link>
     <description>Recent content in 拉法格 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%8B%89%E6%B3%95%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>躺平</title>
-        <link>https://ioerr.github.io/posts/tangping/</link>
-        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tangping/</guid>
-        <description>&lt;p&gt;网上热议躺平，于是有人有推荐看拉法格的《&lt;a href=&#34;https://book.douban.com/subject/26873263/&#34;&gt;懒惰的权利及其他&lt;/a&gt;》以及《&lt;a href=&#34;https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm&#34;&gt;懒惰权（驳斥1848年“劳动权”）&lt;/a&gt;》，堪称“摸鱼学/躺平学宣言”。&lt;/p&gt;
-
-&lt;p&gt;但我觉得躺平也要分情况。&lt;/p&gt;
-
-&lt;p&gt;劳动是否幸福，取决于目的是否合意。&lt;br /&gt;
-最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。&lt;/p&gt;
-
-&lt;p&gt;人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。&lt;br /&gt;
-浑浑噩噩、毫无目的活着的人，是行尸走肉。&lt;br /&gt;
-被强制无法为自己而活的人是奴隶。&lt;br /&gt;
-机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。&lt;/p&gt;
-
-&lt;p&gt;奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。&lt;/p&gt;
-
-&lt;p&gt;因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%8B%89%E6%B3%95%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>躺平</title>
+      <link>https://ioerr.github.io/posts/tangping/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tangping/</guid>
+      <description>网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。 但我觉得躺</description>
+      <content:encoded><![CDATA[<p>网上热议躺平，于是有人有推荐看拉法格的《<a href="https://book.douban.com/subject/26873263/">懒惰的权利及其他</a>》以及《<a href="https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm">懒惰权（驳斥1848年“劳动权”）</a>》，堪称“摸鱼学/躺平学宣言”。</p>
+<p>但我觉得躺平也要分情况。</p>
+<p>劳动是否幸福，取决于目的是否合意。<br>
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。</p>
+<p>人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。<br>
+浑浑噩噩、毫无目的活着的人，是行尸走肉。<br>
+被强制无法为自己而活的人是奴隶。<br>
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。</p>
+<p>奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。</p>
+<p>因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

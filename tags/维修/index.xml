@@ -1,42 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>维修 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%BB%B4%E4%BF%AE/</link>
     <description>Recent content in 维修 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 26 Jun 2008 16:03:14 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%BB%B4%E4%BF%AE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>笔记本送修</title>
-        <link>https://ioerr.github.io/posts/bijiben-songxiu/</link>
-        <pubDate>Thu, 26 Jun 2008 16:03:14 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bijiben-songxiu/</guid>
-        <description>&lt;p&gt;手头的 &lt;a href=&#34;http://www.hp.com/&#34;&gt;HP&lt;/a&gt;
-笔记本频繁死机，于是昨天抽了个时间送修。从来没注意过保修期的我以为早就过了期限，结果维修人员一查机器序号，满室皆惊：“只有两天就过保了！&lt;strike&gt;老栓，就是运气了你！&lt;/strike&gt;”&lt;br /&gt;
-因为是临近下班才送过去的，实际上再过一天就是最后期限了…&lt;/p&gt;
-
-&lt;p&gt;今天上午维修人员打来电话：“你的电脑 CPU 坏了，要换一个新的。”&lt;br /&gt;
-这下所有的电脑配件损坏都让我遇到过了，算是填补了《浮云录》上一项个人记录的空白，达到了国际先进水平…&lt;/p&gt;
-
-&lt;p&gt;下午下班的时候，维修人员又来了个电话：“主板也坏了，要换一个新的。”&lt;/p&gt;
-
-&lt;p&gt;这…我究竟是怎么坚持下来用到今天的啊 :worship:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2612814771/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3065/2612814771_542a5a583a.jpg&#34; alt=&#34;笔记本硬盘 (by
-calontream)&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-为了保证公司机密资料的安全，先把笔记本硬盘卸了下来。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%BB%B4%E4%BF%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>笔记本送修</title>
+      <link>https://ioerr.github.io/posts/bijiben-songxiu/</link>
+      <pubDate>Thu, 26 Jun 2008 16:03:14 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bijiben-songxiu/</guid>
+      <description>手头的 HP 笔记本频繁死机，于是昨天抽了个时间送修。从来没注意过保修期的我以为早就过了期限，结果维修人员一查机器序号，满室皆惊：“只有两天就过保</description>
+      <content:encoded><![CDATA[<p>手头的 <a href="http://www.hp.com/">HP</a><br>
+笔记本频繁死机，于是昨天抽了个时间送修。从来没注意过保修期的我以为早就过了期限，结果维修人员一查机器序号，满室皆惊：“只有两天就过保了！<!-- raw HTML omitted -->老栓，就是运气了你！<!-- raw HTML omitted -->”<br>
+因为是临近下班才送过去的，实际上再过一天就是最后期限了…</p>
+<p>今天上午维修人员打来电话：“你的电脑 CPU 坏了，要换一个新的。”<br>
+这下所有的电脑配件损坏都让我遇到过了，算是填补了《浮云录》上一项个人记录的空白，达到了国际先进水平…</p>
+<p>下午下班的时候，维修人员又来了个电话：“主板也坏了，要换一个新的。”</p>
+<p>这…我究竟是怎么坚持下来用到今天的啊 :worship:</p>
+<p><a href="http://www.flickr.com/photos/calon/2612814771/"><img loading="lazy" src="http://farm4.static.flickr.com/3065/2612814771_542a5a583a.jpg" alt="笔记本硬盘 (by&lt;br&gt;
+calontream)"  />
+</a><br>
+为了保证公司机密资料的安全，先把笔记本硬盘卸了下来。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

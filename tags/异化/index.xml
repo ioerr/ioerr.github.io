@@ -1,35 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>异化 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%BC%82%E5%8C%96/</link>
     <description>Recent content in 异化 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%BC%82%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>数字异化</title>
-        <link>https://ioerr.github.io/posts/shuzi-yihua/</link>
-        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shuzi-yihua/</guid>
-        <description>&lt;p&gt;今后哲学家会发明一个新词：数字异化。&lt;/p&gt;
-
-&lt;p&gt;如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。&lt;/p&gt;
-
-&lt;p&gt;人与人之间注入情感的交往互动，是生活的目的之一，而非手段。&lt;br /&gt;
-它不应该被 AI 精简、代替，反而应该要弥补和延长，要使用 AI 去节省其他活动的时间。&lt;br /&gt;
-如果你的人际交往活动都适合被 AI 数字分身代替，我觉得首先应该思考你现在的人际交往有什么地方不对劲。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%BC%82%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数字异化</title>
+      <link>https://ioerr.github.io/posts/shuzi-yihua/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shuzi-yihua/</guid>
+      <description>今后哲学家会发明一个新词：数字异化。 如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。 人与人之间注入情感的交往互动，是</description>
+      <content:encoded><![CDATA[<p>今后哲学家会发明一个新词：数字异化。</p>
+<p>如果柏拉图复生，可能会说，人们在真实的山洞里面再自己搭建了一个数字山洞。</p>
+<p>人与人之间注入情感的交往互动，是生活的目的之一，而非手段。<br>
+它不应该被 AI 精简、代替，反而应该要弥补和延长，要使用 AI 去节省其他活动的时间。<br>
+如果你的人际交往活动都适合被 AI 数字分身代替，我觉得首先应该思考你现在的人际交往有什么地方不对劲。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

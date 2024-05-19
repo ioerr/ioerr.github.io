@@ -1,65 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>工作日志 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/</link>
     <description>Recent content in 工作日志 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 31 Jan 2011 09:46:47 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自制简单工作日志任务表</title>
-        <link>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</link>
-        <pubDate>Mon, 31 Jan 2011 09:46:47 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</guid>
-        <description>&lt;p&gt;因为感觉还是 Excel
-用的比较顺手，就做了一个简单的工作日志任务表，用来记录工作中的事项，便于跟踪和回顾工作情况。&lt;br /&gt;
-从08年11月份开始使用至今，感觉用于个人的工作记录还是够用的，不适合多人共同维护或者管理小组。&lt;/p&gt;
-
-&lt;p&gt;大概的样子就是如下图所示了：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2011-01-26_163508.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2011-01-26_163508.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第一列是日期，应用了条件格式，奇数日期的单元格背景颜色是淡黄色。&lt;/p&gt;
-
-&lt;p&gt;第二列是工作内容，一句话概括工作的主要内容即可。&lt;/p&gt;
-
-&lt;p&gt;第三列是处理情况，更加细致的描述工作处理的过程和结果。&lt;br /&gt;
-如果工作任务有分支，建议在处理情况中分行说明，因为用 Excel
-实现分支任务管理并不经济。&lt;/p&gt;
-
-&lt;p&gt;第四列是联系对象，包括完成任务需要联络的各位人员。&lt;br /&gt;
-最好不要根据不同的联系人分解任务，道理同上。&lt;br /&gt;
-而且如果大多数任务都这样分解，管理成本也会升高，若必须如此，还是换用专业的任务管理工具更佳。&lt;/p&gt;
-
-&lt;p&gt;第五列是完成情况，分为四类，在每个单元格中有下拉菜单选择，不需要手工输入内容：&lt;br /&gt;
-完成：表示任务已经完成，关闭跟踪，背景颜色自动变成绿色；&lt;br /&gt;
-未完：任务还没有完成，需要继续跟踪，背景颜色自动变成红色；&lt;br /&gt;
-取消：因为种种原因不需要完成任务了，无需继续跟踪，背景颜色自动变成灰色；&lt;br /&gt;
-变更：任务被推迟，负责人有变化但又要继续跟踪，或者任务内容有大变化，必须新开一个任务单独管理时，使用这个选项。&lt;br /&gt;
-标题栏有筛选，可以根据任务完成情况筛选出需要跟踪的任务。&lt;/p&gt;
-
-&lt;p&gt;第六列是要求完成目标的时间和实际完成的时间：&lt;br /&gt;
-如果任务还没有完成，填写的时间就是计划要求完成的时间点；&lt;br /&gt;
-如果任务已经完成，填写的时间就是实际完成的时间点。&lt;/p&gt;
-
-&lt;p&gt;第七列是任务编号，根据日期列自动计算，同一天新增的任务会按顺序编号，不需要手工输入。&lt;/p&gt;
-
-&lt;p&gt;第八列是备注说明，一些补充说明、任务变更和跳转信息等等都可以在其中填写。&lt;/p&gt;
-
-&lt;p&gt;如果对任务紧急程度也有要求，可以在备注中注明，或者干脆参照第六列补上一列。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.box.net/shared/dvf016eal4&#34;&gt;下载地址请猛击这里&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自制简单工作日志任务表</title>
+      <link>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</link>
+      <pubDate>Mon, 31 Jan 2011 09:46:47 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zizhi-jiandan-gongzuo-rizhi-renwubiao/</guid>
+      <description>因为感觉还是 Excel 用的比较顺手，就做了一个简单的工作日志任务表，用来记录工作中的事项，便于跟踪和回顾工作情况。 从08年11月份开始使用至今，感觉</description>
+      <content:encoded><![CDATA[<p>因为感觉还是 Excel<br>
+用的比较顺手，就做了一个简单的工作日志任务表，用来记录工作中的事项，便于跟踪和回顾工作情况。<br>
+从08年11月份开始使用至今，感觉用于个人的工作记录还是够用的，不适合多人共同维护或者管理小组。</p>
+<p>大概的样子就是如下图所示了：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2011-01-26_163508.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2011-01-26_163508.png" alt="Photobucket"  />
+</a></p>
+<p>第一列是日期，应用了条件格式，奇数日期的单元格背景颜色是淡黄色。</p>
+<p>第二列是工作内容，一句话概括工作的主要内容即可。</p>
+<p>第三列是处理情况，更加细致的描述工作处理的过程和结果。<br>
+如果工作任务有分支，建议在处理情况中分行说明，因为用 Excel<br>
+实现分支任务管理并不经济。</p>
+<p>第四列是联系对象，包括完成任务需要联络的各位人员。<br>
+最好不要根据不同的联系人分解任务，道理同上。<br>
+而且如果大多数任务都这样分解，管理成本也会升高，若必须如此，还是换用专业的任务管理工具更佳。</p>
+<p>第五列是完成情况，分为四类，在每个单元格中有下拉菜单选择，不需要手工输入内容：<br>
+完成：表示任务已经完成，关闭跟踪，背景颜色自动变成绿色；<br>
+未完：任务还没有完成，需要继续跟踪，背景颜色自动变成红色；<br>
+取消：因为种种原因不需要完成任务了，无需继续跟踪，背景颜色自动变成灰色；<br>
+变更：任务被推迟，负责人有变化但又要继续跟踪，或者任务内容有大变化，必须新开一个任务单独管理时，使用这个选项。<br>
+标题栏有筛选，可以根据任务完成情况筛选出需要跟踪的任务。</p>
+<p>第六列是要求完成目标的时间和实际完成的时间：<br>
+如果任务还没有完成，填写的时间就是计划要求完成的时间点；<br>
+如果任务已经完成，填写的时间就是实际完成的时间点。</p>
+<p>第七列是任务编号，根据日期列自动计算，同一天新增的任务会按顺序编号，不需要手工输入。</p>
+<p>第八列是备注说明，一些补充说明、任务变更和跳转信息等等都可以在其中填写。</p>
+<p>如果对任务紧急程度也有要求，可以在备注中注明，或者干脆参照第六列补上一列。</p>
+<p><a href="http://www.box.net/shared/dvf016eal4">下载地址请猛击这里</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

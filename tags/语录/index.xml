@@ -1,34 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>语录 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%AF%AD%E5%BD%95/</link>
     <description>Recent content in 语录 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 21 Feb 2008 15:25:51 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%AF%AD%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>流行语出处</title>
-        <link>https://ioerr.github.io/posts/liuxingyu-chuchu/</link>
-        <pubDate>Thu, 21 Feb 2008 15:25:51 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/liuxingyu-chuchu/</guid>
-        <description>&lt;p&gt;在豆瓣&lt;a href=&#34;http://www.douban.com/group/72544/&#34;&gt;人肉搜索引擎小组&lt;/a&gt;人数快要突破400人的时候，我注意到一个好玩的现象，那就是除了找书找电影找音乐等等之外，还有两则求助询问流行语的出处：&lt;br /&gt;
-&lt;a href=&#34;http://www.douban.com/group/topic/2565784/&#34;&gt;&amp;ldquo;我看好你哟&amp;rdquo;语出何处？&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.douban.com/group/topic/2666952/&#34;&gt;[提问]你才。。你们全家都。。语出何处？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;由此想到，有没有人专门收集这种流行语的出处，编纂成册呢？这种信息放到维基百科或
-&lt;a href=&#34;http://www.wikiquote.org/&#34;&gt;Wikiquote&lt;/a&gt; 上面是不是都不够正规呢？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%AF%AD%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>流行语出处</title>
+      <link>https://ioerr.github.io/posts/liuxingyu-chuchu/</link>
+      <pubDate>Thu, 21 Feb 2008 15:25:51 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/liuxingyu-chuchu/</guid>
+      <description>在豆瓣人肉搜索引擎小组人数快要突破400人的时候，我注意到一个好玩的现象，那就是除了找书找电影找音乐等等之外，还有两则求助询问流行语的出处：</description>
+      <content:encoded><![CDATA[<p>在豆瓣<a href="http://www.douban.com/group/72544/">人肉搜索引擎小组</a>人数快要突破400人的时候，我注意到一个好玩的现象，那就是除了找书找电影找音乐等等之外，还有两则求助询问流行语的出处：<br>
+<a href="http://www.douban.com/group/topic/2565784/">&ldquo;我看好你哟&quot;语出何处？</a><br>
+<a href="http://www.douban.com/group/topic/2666952/">[提问]你才。。你们全家都。。语出何处？</a></p>
+<p>由此想到，有没有人专门收集这种流行语的出处，编纂成册呢？这种信息放到维基百科或<br>
+<a href="http://www.wikiquote.org/">Wikiquote</a> 上面是不是都不够正规呢？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

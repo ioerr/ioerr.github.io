@@ -1,137 +1,149 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Rss on 读写错误</title>
+    <title>RSS on 读写错误</title>
     <link>https://ioerr.github.io/tags/rss/</link>
-    <description>Recent content in Rss on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in RSS on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 27 Oct 2013 16:32:31 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/rss/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>微信杀手和精简交互</title>
-        <link>https://ioerr.github.io/posts/weixin-shashou-he-jingjian-jiaohu/</link>
-        <pubDate>Sun, 27 Oct 2013 16:32:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/weixin-shashou-he-jingjian-jiaohu/</guid>
-        <description>&lt;p&gt;易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？&lt;/p&gt;
-
-&lt;p&gt;微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。&lt;br /&gt;
-易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。&lt;br /&gt;
-更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。&lt;br /&gt;
-当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。&lt;/p&gt;
-
-&lt;p&gt;我对微信不满意的地方，随便就能想到以下这些：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;语音消息的标注和检索；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;离线缓存公众平台消息；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更加开放的分享功能；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更加易用的公众平台发布功能（对用惯了
-&lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; 的人来说简直就是残废）；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更加强大的公众平台订阅用户管理和统计功能；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;公众平台的发布规则限制太死，不够灵活；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更多社交互动元素的足够吸引人的异步模式的游戏；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;历史消息保存和导出；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ
-群转战过来的群聊）。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。&lt;br /&gt;
-而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。&lt;/p&gt;
-
-&lt;p&gt;Aaron Swartz 曾经提过 &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0
-的改进方向&lt;/a&gt;，但如果真要用什么东西取代
-RSS，我希望是“精简交互”（Really Simple Interaction）
-这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。&lt;br /&gt;
-在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。&lt;br /&gt;
-不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看
-&lt;a href=&#34;http://zh.wikipedia.org/zh/OpenID&#34;&gt;OpenID&lt;/a&gt; 或
-&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt; 的角色）的订阅/交互客户端，都能够实现 RSS
-订阅和微信公众平台交互的综合效果。&lt;br /&gt;
-你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像
-blog 热潮时到处用 &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt;
-建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。&lt;/p&gt;
-
-&lt;p&gt;在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。
-比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。&lt;br /&gt;
-但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>再见 Google Reader</title>
-        <link>https://ioerr.github.io/posts/zaijian-google-reader/</link>
-        <pubDate>Mon, 08 Apr 2013 09:39:14 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zaijian-google-reader/</guid>
-        <description>
-
-&lt;p&gt;Google 前一段时间宣布，将在7月1日关闭 Google Reader。&lt;br /&gt;
-作为低调的老用户，咱就不贴出趋势图凑热闹了。&lt;/p&gt;
-
-&lt;p&gt;Google 这几年被 Facebook
-刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推
-Google Plus 这种没琢磨透需求的半成品。&lt;br /&gt;
-作为用户，能够理解 Google
-关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google
-不仅损失许多有能量的核心用户，更重要的是，Google
-服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；&lt;br /&gt;
-同样作为用户，也犯不着可怜兮兮地请愿，Google
-从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。&lt;/p&gt;
-
-&lt;p&gt;目前号称可以替代 Reader&lt;/p&gt;
-
-&lt;h2 id=&#34;的在线服务-feedly-http-www-feedly-com-bloglines-鲜果-http-xianguo-com-抓虾-http-www-zhuaxia-com-有道阅读-http-reader-youdao-com-the&#34;&gt;的在线服务，&lt;a href=&#34;http://www.feedly.com/&#34;&gt;Feedly&lt;/a&gt;、Bloglines、&lt;a href=&#34;http://xianguo.com/&#34;&gt;鲜果&lt;/a&gt;、&lt;a href=&#34;http://www.zhuaxia.com&#34;&gt;抓虾&lt;/a&gt;、&lt;a href=&#34;http://reader.youdao.com/&#34;&gt;有道阅读&lt;/a&gt;、[The&lt;/h2&gt;
-
-&lt;p&gt;Reader](&lt;a href=&#34;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&#34;&gt;http://theoldreader.com/)、[美味爱读](http://readwise.net/)（AVOS&lt;/a&gt;
-能把 Delicious
-整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。&lt;/p&gt;
-
-&lt;p&gt;于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的
-GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader
-等桌面客户端（Mac OS
-下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用
-FeedDemon。&lt;br /&gt;
-尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。&lt;/p&gt;
-
-&lt;p&gt;FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到
-AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助
-Dropbox 等同步服务也可以勉强搞定。&lt;br /&gt;
-代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。&lt;/p&gt;
-
-&lt;p&gt;注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像
-RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的
-feed 看待，所以最好在导入之前自己先清理一下。&lt;/p&gt;
-
-&lt;p&gt;另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？&lt;/p&gt;
-
-&lt;p&gt;为了保险起见，建议只订阅了 &lt;a href=&#34;http://feeds.feedburner.com/calon&#34;&gt;http://feeds.feedburner.com/calon&lt;/a&gt;
-的读者多个心眼，另外订阅 &lt;a href=&#34;http://calon.weblogs.us/feed/&#34;&gt;http://calon.weblogs.us/feed/&lt;/a&gt;
-作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过
-&lt;a href=&#34;http://www.feedblitz.com/&#34;&gt;FeedBlitz&lt;/a&gt; 也可以用邮箱收取 feed
-更新，美中不足是，有的文章标题变乱码）。&lt;/p&gt;
-</description>
-      </item>
-    
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更换 Hugo 主题</title>
+      <link>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</guid>
+      <description>一时手痒，将自己修改后用了好几年的 Simplicity 主题，改为了 PaperMod。 同时将 Hugo 程序也升级到了最新版本。 本来是为了实现自带站内搜索功能，而不依赖于</description>
+      <content:encoded><![CDATA[<p>一时手痒，将自己修改后用了好几年的 <a href="https://github.com/eshlox/simplicity">Simplicity</a> 主题，改为了 <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>。<br>
+同时将 <a href="https://gohugo.io/">Hugo</a> 程序也升级到了最新版本。</p>
+<p>本来是为了实现自带站内搜索功能，而不依赖于 <a href="https://programmablesearchengine.google.com/">Programmable Search Engine</a>。<br>
+结果升级和更换主题后，发现一堆设置要改，许多自定义的东西要从头来，且做个记录。</p>
+<p>首先是配置站内搜索，参照主题的帮助文档和示例配置来就行。</p>
+<p>然后是首页风格，从文章列表式改成了简介首页式的。</p>
+<p>页眉的链接通过配置修改。</p>
+<p>变更了默认字体以及微调字体大小——之前的主题调整 CSS 花了不少时间，现在懒了。</p>
+<p>改了网站的副标题：To Input and Output Error is Human.</p>
+<p>发现新版本的 Hugo 仍然默认 markdown 格式不使用硬回车（hard line break）。<br>
+老版本用的 blackfriday 插件，新版本默认用 goldmark，又要改配置（hardWraps）。</p>
+<p>发现新版本的 Hugo 图片资源相对链接变了，历史文章中展示的本地图片全部失效…<br>
+于是又摸索着调整了图片资源目录，以及修改了历史文章中的图片地址。</p>
+<p>RSS 默认不输出全文，修改 RSS 模板配置。<br>
+不过自从由 <a href="https://www.inoreader.com/">Inoreader</a> 切换回本地 RSS 阅读器（<a href="https://github.com/martinrotter/rssguard">RSS Guard</a>），并且针对不同类型的订阅源分别设置是否自动打开原文后，订阅源是否输出全文似乎也没那么重要了。对那些看重访问量、精心设计了页面的 blogger 倒是好事。</p>
+<p>发现新主题默认不启用项目和文章分类，于是增加项目页面，插入分类代码，并且调整为看上去和标签（tag）并列。</p>
+<p>调整日期格式，改为自己更习惯的格式。</p>
+<p>修改生成站点时指定的默认输出目录。</p>
+<p>修改新建文章时的默认模板，改回自己更习惯的格式。</p>
+<p>关闭了主题自带的黑暗模式。</p>
+<p>增加文章大纲功能。</p>
+<p>重新配置 Giscus 评论系统、各种统计脚本。</p>
+<p>迁移 favicon、logo 等静态资源。</p>
+<p>暂时应该没有非改不可的东西了，如果发现有什么不对劲的地方，欢迎留言、来信提醒。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>微信杀手和精简交互</title>
+      <link>https://ioerr.github.io/posts/weixin-shashou-he-jingjian-jiaohu/</link>
+      <pubDate>Sun, 27 Oct 2013 16:32:31 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weixin-shashou-he-jingjian-jiaohu/</guid>
+      <description>易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？ 微信竞争者首先要定位清</description>
+      <content:encoded><![CDATA[<p>易信也好，来往也好，第一步就没有拿出足够优秀又不同于微信的功能。如果只是复制一个微信，怎么可能打败已经如此成熟的微信？</p>
+<p>微信竞争者首先要定位清楚，是以抢夺微信用户为主，还是以我为主先发展不和微信直接冲突和抢夺用户时间的移动应用。<br>
+易信和来往看来属于前者，那么就要不但迎合现有微信用户的核心需求，而且在微信无法让用户满意的方面，还要做得够好，带给用户的好处能够战胜平台社交粘性。<br>
+更进一步地，才是结合自己其他方面的服务，提供腾讯无法迅速复制和追赶的能力，比如电子商务、支付、通信等等。<br>
+当然，留给支付宝的时间可能不多了，微信在移动支付上的布局领先很多，这也许是阿里巴巴阵脚大乱的直接原因。</p>
+<p>我对微信不满意的地方，随便就能想到以下这些：</p>
+<ul>
+<li>
+<p>语音消息的标注和检索；</p>
+</li>
+<li>
+<p>离线缓存公众平台消息；</p>
+</li>
+<li>
+<p>更加开放的分享功能；</p>
+</li>
+<li>
+<p>更加易用的公众平台发布功能（对用惯了<br>
+<a href="http://wordpress.org/">WordPress</a> 的人来说简直就是残废）；</p>
+</li>
+<li>
+<p>更加强大的公众平台订阅用户管理和统计功能；</p>
+</li>
+<li>
+<p>公众平台的发布规则限制太死，不够灵活；</p>
+</li>
+<li>
+<p>更多社交互动元素的足够吸引人的异步模式的游戏；</p>
+</li>
+<li>
+<p>历史消息保存和导出；</p>
+</li>
+<li>
+<p>更实用的群组功能（还坚持使用微信的最大原因是从宿遗 QQ<br>
+群转战过来的群聊）。</p>
+</li>
+</ul>
+<p>微信团队很可能以专注移动场景和保持功能简洁为由，不考虑完善上述方面，我估计也不是典型的目标用户。<br>
+而对我来说，微信的竞争者们只要在以上一些方面够优秀，就可以留住我一段时间，蚕食微信占用的时间，直至渐渐取代也未可知。</p>
+<p>Aaron Swartz 曾经提过 <a href="http://www.aaronsw.com/weblog/000574">RSS 3.0<br>
+的改进方向</a>，但如果真要用什么东西取代<br>
+RSS，我希望是“精简交互”（Really Simple Interaction）<br>
+这样的概念，也就是说，读者不止可以通过简洁的格式订阅内容，还可以与服务端进行有限、实时、精简但必要的交互。<br>
+在我看来，微信特别是公众平台干的就是类似的事情（如果你把微信上的好友看作是限制更少的公众号的话），即，在移动应用框架内实现精简的信息发布、订阅和交互。<br>
+不过微信的发布和订阅渠道都限制死了，交互的能力也极为有限且不适合有大量用户的公众号，而我理想中的应用场景是，只要是支持通用接口格式（包括认证方式，可以看看<br>
+<a href="http://zh.wikipedia.org/zh/OpenID">OpenID</a> 或<br>
+<a href="http://disqus.com/">Disqus</a> 的角色）的订阅/交互客户端，都能够实现 RSS<br>
+订阅和微信公众平台交互的综合效果。<br>
+你可以想象一下每个网站都可以用成熟软件搭建类似微信公众号的信息发布和交互平台，就像<br>
+blog 热潮时到处用 <a href="http://wordpress.org/">WordPress</a><br>
+建站一样，而不必被微信一家限制住，移动用户也不需要跟着不同的发布平台切换不同的移动应用和帐号。</p>
+<p>在此基础上，微信不愿意做或者做不到的功能，也能在通用接口的基础上延伸实现。<br>
+比如说，为什么不能像使用微信一样收发邮件呢？没办法，像我这种落后于移动互联网时代的人，不但工作离不开电子邮件，还觉得电子邮件才是最好的社交工具，没有之一。<br>
+但这没有关系，我能够想到的扩展应用必然拼不过群众的汪洋大海，关键是，只要提供四海通用的平台，让信息发布者们更专注于发布、交互和提升移动用户感知，在不断的竞争下，比微信做得更多、更好的服务总会出现。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>再见 Google Reader</title>
+      <link>https://ioerr.github.io/posts/zaijian-google-reader/</link>
+      <pubDate>Mon, 08 Apr 2013 09:39:14 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zaijian-google-reader/</guid>
+      <description>Google 前一段时间宣布，将在7月1日关闭 Google Reader。 作为低调的老用户，咱就不贴出趋势图凑热闹了。 Google 这几年被 Facebook 刺激，说得好听是有强烈的危机意识，</description>
+      <content:encoded><![CDATA[<p>Google 前一段时间宣布，将在7月1日关闭 Google Reader。<br>
+作为低调的老用户，咱就不贴出趋势图凑热闹了。</p>
+<p>Google 这几年被 Facebook<br>
+刺激，说得好听是有强烈的危机意识，急迫地要在社交服务方面做大，避免在基于社会关系的新信息时代，抱着搜索引擎的老本退到边缘，说得难听是阵脚大乱，妄图用低品质的粗糙产品迅速打开市场，强推<br>
+Google Plus 这种没琢磨透需求的半成品。<br>
+作为用户，能够理解 Google<br>
+关闭高流量却不够活跃，还和社交战略不一致的的服务，但关闭 Reader，Google<br>
+不仅损失许多有能量的核心用户，更重要的是，Google<br>
+服务值得信赖的持续可用性大受损害，这种对用户信心的无形打击，可能有无可估量的严重后果；<br>
+同样作为用户，也犯不着可怜兮兮地请愿，Google<br>
+从来都不是慈善家，没有义务为用户免费维护不赚钱的高质量服务，如果你真是高价值的用户，用脚投票吧。</p>
+<h2 id="的在线服务feedlyhttpwwwfeedlycombloglines鲜果httpxianguocom抓虾httpwwwzhuaxiacom有道阅读httpreaderyoudaocomthe">目前号称可以替代 Reader<br>
+的在线服务，<a href="http://www.feedly.com/">Feedly</a>、Bloglines、<a href="http://xianguo.com/">鲜果</a>、<a href="http://www.zhuaxia.com">抓虾</a>、<a href="http://reader.youdao.com/">有道阅读</a>、[The</h2>
+<p>Reader](<a href="http://theoldreader.com/">http://theoldreader.com/</a>)、<a href="http://readwise.net/">美味爱读</a>（AVOS<br>
+能把 Delicious<br>
+整得好用一点吗？）等等，没有一个能打的，能不能长久运营也值得怀疑。</p>
+<p>于是还是回到最初的订阅阅读方案，重新拾起 Reader 出现之前就用过的<br>
+GreatNews、FeedDemon，以及后来出现的 RSS Owl、FeedReader<br>
+等桌面客户端（Mac OS<br>
+下还没考虑，短期内只在办公室和笔记本上有时间阅读）逐个试试，在综合衡量稳定性、资源占用、功能等等之后，还是决定使用<br>
+FeedDemon。<br>
+尽管它随着 Reader 一同停止维护，但桌面客户端的好处就在于不依赖于服务方。</p>
+<p>FeedDemon 不借助 Reader 就没有同步功能，但非要同步的话，到<br>
+AppData\Local\FeedDemon\v1 下面找要同步的文件，或者更改这个缓存文件夹，借助<br>
+Dropbox 等同步服务也可以勉强搞定。<br>
+代理的话，借助 polipo/solipo 可以和 socks 代理牵上线。</p>
+<p>注意，导入 opml 文件时，如果不同的目录下有同名 feed，FeedDemon 不会像<br>
+RSS Owl 一样关联处理、同步更新，而是自动给第二个重命名，当作完全不同的<br>
+feed 看待，所以最好在导入之前自己先清理一下。</p>
+<p>另外，Google Reader 已经快要死了，FeedBurner 变成 FeedBurnt 还远吗？</p>
+<p>为了保险起见，建议只订阅了 <a href="http://feeds.feedburner.com/calon">http://feeds.feedburner.com/calon</a><br>
+的读者多个心眼，另外订阅 <a href="http://calon.weblogs.us/feed/">http://calon.weblogs.us/feed/</a><br>
+作为备份，或者在侧栏通过邮件订阅本 blog 的更新（通过<br>
+<a href="http://www.feedblitz.com/">FeedBlitz</a> 也可以用邮箱收取 feed<br>
+更新，美中不足是，有的文章标题变乱码）。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

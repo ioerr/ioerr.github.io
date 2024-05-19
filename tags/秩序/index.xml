@@ -1,80 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>秩序 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%A7%A9%E5%BA%8F/</link>
     <description>Recent content in 秩序 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%A7%A9%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自由、平等与普世价值</title>
-        <link>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</link>
-        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</guid>
-        <description>&lt;p&gt;刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话来说，如果自由不是“普世价值”，为什么全世界的监狱都要上锁？全世界的监狱都要上锁，说明全世界人都渴望自由。在这个意义上，自由当然是普世价值。但是，更重要的问题，或许不是全世界民众是否热爱自由，而是当自由与其他价值发生冲突时，比如当自由和平等发生冲突时、当自由和秩序发生冲突时，人们如何排序？面对价值的冲突，也就是所谓“诸善之争”的时候，价值的排序或价值序列中的权重不同，就带来政治文化的差异，这才是“文明冲突”的起源。&lt;/p&gt;
-
-&lt;p&gt;比如，有些文化重视秩序超过自由，有些文化则重视自由超过秩序；有些文化认为主权比人权重要，有些文化则认为人权比主权重要；有些文化更重视平等，有些文化更重视效率；等等。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;自由与平等对立冲突的说法经常听到，主权比人权重要也被归结为政治文化差异。&lt;br /&gt;
-我的看法是，政治文化是有差异，但很多时候这只是表面现象和其他差异的结果。&lt;br /&gt;
-就像全世界的人都渴望自由，其实全世界的人也都极为看重人权。&lt;br /&gt;
-那些口头喊着“主权大于人权”的人，在自己的基本人权被侵犯时，反应之激烈往往远超主权被侵犯时，只是很多时候并不敢体现在行动上，只在内心中愤怒——因为作出反抗行动的后果可能是权利进一步被侵犯。&lt;br /&gt;
-除开情趣玩家，鲜有人身为奴隶而光荣。&lt;/p&gt;
-
-&lt;p&gt;同样的道理，表态“私有制度万恶”的人，真要损失自己的私有财产时，大概率万般不情愿——“真有一头牛”的笑话在现实中比比皆是。&lt;br /&gt;
-自由和秩序也未必绝对对立——偏好秩序的人未必就是自由受限制的人。&lt;/p&gt;
-
-&lt;p&gt;所以，普世价值不能仅仅看作每个人为自己所珍视的价值。&lt;br /&gt;
-什么时候觉得别人的自由和人权也很重要，才叫做普世价值。&lt;br /&gt;
-这种推己及人和己所不欲勿施于人的同理心，才具有道德价值。&lt;br /&gt;
-在等级社会意识中推崇的是我的自由和权利凌驾于他人之上，就和普世背道而驰了。&lt;br /&gt;
-也因此在我看来，普世价值意义上的自由和平等互相冲突不成立。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>游戏中的道德</title>
-        <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
-        <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1497272702259847171&#34;&gt;夹喵又：&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。&lt;br /&gt;
-你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1497416426617212928&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了&lt;br /&gt;
-可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1497469705371598849&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;所以游戏并没有设置越界就失败。&lt;br /&gt;
-人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。&lt;br /&gt;
-所以法律要基于经验形成的常识常理对抗这种极端混乱。&lt;br /&gt;
-常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。&lt;br /&gt;
-哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%A7%A9%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自由、平等与普世价值</title>
+      <link>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</guid>
+      <description>刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段： 老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话</description>
+      <content:encoded><![CDATA[<p>刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段：</p>
+<blockquote>
+<p>老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话来说，如果自由不是“普世价值”，为什么全世界的监狱都要上锁？全世界的监狱都要上锁，说明全世界人都渴望自由。在这个意义上，自由当然是普世价值。但是，更重要的问题，或许不是全世界民众是否热爱自由，而是当自由与其他价值发生冲突时，比如当自由和平等发生冲突时、当自由和秩序发生冲突时，人们如何排序？面对价值的冲突，也就是所谓“诸善之争”的时候，价值的排序或价值序列中的权重不同，就带来政治文化的差异，这才是“文明冲突”的起源。</p>
+<p>比如，有些文化重视秩序超过自由，有些文化则重视自由超过秩序；有些文化认为主权比人权重要，有些文化则认为人权比主权重要；有些文化更重视平等，有些文化更重视效率；等等。</p>
+</blockquote>
+<p>自由与平等对立冲突的说法经常听到，主权比人权重要也被归结为政治文化差异。<br>
+我的看法是，政治文化是有差异，但很多时候这只是表面现象和其他差异的结果。<br>
+就像全世界的人都渴望自由，其实全世界的人也都极为看重人权。<br>
+那些口头喊着“主权大于人权”的人，在自己的基本人权被侵犯时，反应之激烈往往远超主权被侵犯时，只是很多时候并不敢体现在行动上，只在内心中愤怒——因为作出反抗行动的后果可能是权利进一步被侵犯。<br>
+除开情趣玩家，鲜有人身为奴隶而光荣。</p>
+<p>同样的道理，表态“私有制度万恶”的人，真要损失自己的私有财产时，大概率万般不情愿——“真有一头牛”的笑话在现实中比比皆是。<br>
+自由和秩序也未必绝对对立——偏好秩序的人未必就是自由受限制的人。</p>
+<p>所以，普世价值不能仅仅看作每个人为自己所珍视的价值。<br>
+什么时候觉得别人的自由和人权也很重要，才叫做普世价值。<br>
+这种推己及人和己所不欲勿施于人的同理心，才具有道德价值。<br>
+在等级社会意识中推崇的是我的自由和权利凌驾于他人之上，就和普世背道而驰了。<br>
+也因此在我看来，普世价值意义上的自由和平等互相冲突不成立。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>游戏中的道德</title>
+      <link>https://ioerr.github.io/posts/youxi-zhong-de-daode/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/youxi-zhong-de-daode/</guid>
+      <description>夹喵又： The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/recatm/status/1497272702259847171">夹喵又：</a></p>
+<p>The war of mine 的开发团队（波兰）的另一个著名生存建设经营类游戏是 Frostpunk （我最爱之一，玩遍了所有剧情和DLC）曾被国内玩家集体打差评，称之为圣母婊游戏。<br>
+你把童工、按比例处死重病人、警察社会、宗教审判的法律树点了个遍，结局时被问一声“这样做值得吗？” 就跳脚了：刁民！吃饱了还叫唤。</p>
+<p><a href="https://twitter.com/Soulogic/status/1497416426617212928">Soulogic</a>：</p>
+<p>看过有人说，菜逼玩家和菜逼独裁者一样，会为自己的行为找借口，我就没用那些法律，也让大家活下来了<br>
+可也有人说，游戏中设了很多坎，看起来是故意刁难，所以我又想知道那些说没越界又成绩傲人的，有没有反复读盘，毕竟现实没法读盘</p>
+<p><a href="https://twitter.com/calon/status/1497469705371598849">Calon</a>：</p>
+<p>所以游戏并没有设置越界就失败。<br>
+人类社会介于可以复现调试和毫无规则之间。这种辩护的理由走到极端容易滑向后者，于是任何罪行都可以依此逃脱指责：你们都不能读档完全还原现场站在我的角度体会当时的难处，你说你行你也上不了，不能指责我有罪。<br>
+所以法律要基于经验形成的常识常理对抗这种极端混乱。<br>
+常识和道德标准确实会随着现实经验演变，但不同时代不同文明都有着共同的价值观基本内核，或是经过长期博弈形成的稳态规则，没有在演化中走向极端混乱。<br>
+哪怕是未来某天，生存环境会劣化到欺骗、虐待、奴役、残杀成为新的常识甚至美德，但至少不是今时今日。真到了那一天，估计就是人类濒临灭绝的时候。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

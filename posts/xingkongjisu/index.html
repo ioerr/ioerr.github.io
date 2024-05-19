@@ -1,177 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>星空极速 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>星空极速 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。 先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/xingkongjisu/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/xingkongjisu/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="星空极速" />
-<meta property="og:description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。
-先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。
-然后中国电信就此事作出公开声明。
-但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。
-声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”
-首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows 本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然 Windows 自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到 Linux 下以避免“受害”。
-其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。
-第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。
-声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”
-首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。
-其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。
-声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”
-这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。
-声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起&rdquo;百万家庭健康上网大行动 &ldquo;，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”
-首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。
-其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP 劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。
-总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。
-相关链接：
-在上海出差，首次拨号时浏览器首页暂时被替换成星空极速页面的直接链接。原来收录的链接记录了首页、IP、CPU Name、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。
-网易和 cnBeta 的专题系列和天涯社区的讨论贴：
-关注终极流氓软件
-关注星空极速的目标 - 占领用户桌面
-被实施了MAC绑定的用户请到这里来报告
-上海电信向用户下达告用户书,可能强行安装星空极速
-提速的诱饵,温柔的陷阱
-网友技术分析,抓包法获取星空急速密码的详细教程
-有关于电信的强制广告业务
-关注劫持http,推送广告的推波助澜者
-匪夷所思 流氓还要量身定做?!
-推广星空极速 电信出奇招 延迟30秒访问?!
-中国电信的星空极速是什么玩意儿?
-中国电信星空极速官方页面" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/xingkongjisu/" />
-
-
-
-<meta property="article:published_time" content="2006-10-21T14:00:12&#43;00:00"/>
-
-<meta property="article:modified_time" content="2006-10-21T14:00:12&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="星空极速">
-<meta itemprop="description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。
-先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。
-然后中国电信就此事作出公开声明。
-但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。
-声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”
-首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows 本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然 Windows 自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到 Linux 下以避免“受害”。
-其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。
-第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。
-声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”
-首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。
-其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。
-声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”
-这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。
-声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起&rdquo;百万家庭健康上网大行动 &ldquo;，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”
-首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。
-其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP 劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。
-总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。
-相关链接：
-在上海出差，首次拨号时浏览器首页暂时被替换成星空极速页面的直接链接。原来收录的链接记录了首页、IP、CPU Name、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。
-网易和 cnBeta 的专题系列和天涯社区的讨论贴：
-关注终极流氓软件
-关注星空极速的目标 - 占领用户桌面
-被实施了MAC绑定的用户请到这里来报告
-上海电信向用户下达告用户书,可能强行安装星空极速
-提速的诱饵,温柔的陷阱
-网友技术分析,抓包法获取星空急速密码的详细教程
-有关于电信的强制广告业务
-关注劫持http,推送广告的推波助澜者
-匪夷所思 流氓还要量身定做?!
-推广星空极速 电信出奇招 延迟30秒访问?!
-中国电信的星空极速是什么玩意儿?
-中国电信星空极速官方页面">
-
-
-<meta itemprop="datePublished" content="2006-10-21T14:00:12&#43;00:00" />
-<meta itemprop="dateModified" content="2006-10-21T14:00:12&#43;00:00" />
-<meta itemprop="wordCount" content="52">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="星空极速"/>
-<meta name="twitter:description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。
-先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。
-然后中国电信就此事作出公开声明。
-但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。
-声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”
-首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows 本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然 Windows 自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到 Linux 下以避免“受害”。
-其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。
-第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。
-声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”
-首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。
-其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。
-声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”
-这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。
-声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起&rdquo;百万家庭健康上网大行动 &ldquo;，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”
-首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。
-其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP 劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。
-总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。
-相关链接：
-在上海出差，首次拨号时浏览器首页暂时被替换成星空极速页面的直接链接。原来收录的链接记录了首页、IP、CPU Name、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。
-网易和 cnBeta 的专题系列和天涯社区的讨论贴：
-关注终极流氓软件
-关注星空极速的目标 - 占领用户桌面
-被实施了MAC绑定的用户请到这里来报告
-上海电信向用户下达告用户书,可能强行安装星空极速
-提速的诱饵,温柔的陷阱
-网友技术分析,抓包法获取星空急速密码的详细教程
-有关于电信的强制广告业务
-关注劫持http,推送广告的推波助澜者
-匪夷所思 流氓还要量身定做?!
-推广星空极速 电信出奇招 延迟30秒访问?!
-中国电信的星空极速是什么玩意儿?
-中国电信星空极速官方页面"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -182,181 +49,226 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="星空极速" />
+<meta property="og:description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。 先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/xingkongjisu/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2006-10-21T14:00:12+00:00" />
+<meta property="article:modified_time" content="2006-10-21T14:00:12+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="星空极速"/>
+<meta name="twitter:description" content="沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。 先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "星空极速",
+      "item": "https://ioerr.github.io/posts/xingkongjisu/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "星空极速",
+  "name": "星空极速",
+  "description": "沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。 先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。\n先是反流氓软件联盟要向信息产业部、中国电信总公司投诉中国电信，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。\n然后中国电信就此事作出公开声明。\n但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。\n声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”\n首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows\n本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然\nWindows\n自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到\nLinux 下以避免“受害”。\n其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。\n第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。\n声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”\n首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。\n其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。\n声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”\n这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。\n声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起\"百万家庭健康上网大行动\n“，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”\n首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。\n其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP\n劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。\n总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。\n相关链接：\n在上海出差，首次拨号时浏览器首页暂时被替换成星空极速页面的直接链接。原来收录的链接记录了首页、IP、CPU\nName、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。\n网易和 cnBeta 的专题系列和天涯社区的讨论贴：\n关注终极流氓软件\n关注星空极速的目标 -\n占领用户桌面\n被实施了MAC绑定的用户请到这里来报告\n上海电信向用户下达告用户书,可能强行安装星空极速\n提速的诱饵,温柔的陷阱\n网友技术分析,抓包法获取星空急速密码的详细教程\n有关于电信的强制广告业务\n关注劫持http,推送广告的推波助澜者\n匪夷所思\n流氓还要量身定做?!\n推广星空极速 电信出奇招\n延迟30秒访问?!\n中国电信的星空极速是什么玩意儿?\n中国电信星空极速官方页面\n",
+  "wordCount" : "1960",
+  "inLanguage": "en",
+  "datePublished": "2006-10-21T14:00:12Z",
+  "dateModified": "2006-10-21T14:00:12Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/xingkongjisu/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxingkongjisu%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      星空极速
+    </h1>
+    <div class="post-meta"><span title='2006-10-21 14:00:12 +0000 +0000'>2006-10-21</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。</p>
+<p>先是反流氓软件联盟要向信息产业部、中国电信总公司<a href="http://tech.163.com/06/1020/08/2TS509B9000915BF.html">投诉中国电信</a>，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。</p>
+<p>然后中国电信就此事作出<a href="http://tech.163.com/06/1021/09/2TUTTEJ1000915BE.html">公开声明</a>。</p>
+<p>但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。</p>
+<p>声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”</p>
+<p>首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows<br>
+本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然<br>
+Windows<br>
+自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到<br>
+Linux 下以避免“受害”。</p>
+<p>其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。</p>
+<p>第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。</p>
+<p>声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”</p>
+<p>首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。</p>
+<p>其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。</p>
+<p>声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”</p>
+<p>这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。</p>
+<p>声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起&quot;百万家庭健康上网大行动<br>
+&ldquo;，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”</p>
+<p>首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。</p>
+<p>其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP<br>
+劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。</p>
+<p>总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。</p>
+<p>相关链接：</p>
+<p>在上海出差，首次拨号时浏览器首页暂时被替换成<a href="http://welcome.sh.vnet.cn/portal/nt/index.jsp">星空极速页面的直接链接</a>。原来收录的链接记录了首页、IP、CPU<br>
+Name、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。</p>
+<p>网易和 cnBeta 的专题系列和天涯社区的讨论贴：</p>
+<p><a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14295">关注终极流氓软件</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14294">关注星空极速的目标 -<br>
+占领用户桌面</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14296">被实施了MAC绑定的用户请到这里来报告</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14424">上海电信向用户下达告用户书,可能强行安装星空极速</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14474">提速的诱饵,温柔的陷阱</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14475">网友技术分析,抓包法获取星空急速密码的详细教程</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14477">有关于电信的强制广告业务</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14493">关注劫持http,推送广告的推波助澜者</a><br>
+<a href="http://www.cnbeta.com/modules.php?name=News&amp;file=article&amp;sid=14584">匪夷所思<br>
+流氓还要量身定做?!</a><br>
+<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14754">推广星空极速 电信出奇招<br>
+延迟30秒访问?!</a><br>
+<a href="http://www11.tianya.cn/New/PublicForum/Content.asp?idWriter=0&amp;Key=0&amp;strItem=it&amp;idArticle=337201&amp;flag=1">中国电信的星空极速是什么玩意儿?</a><br>
+<a href="http://messenger.vnet.cn/index.htm">中国电信星空极速官方页面</a></p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/duochong-renge-duihua/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>多重人格对话？</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/shiminzhi/">
+    <span class="title">Next »</span>
+    <br>
+    <span>实名制</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2006-10-21 02:00">2006-10-21</time> &bull;
-          
-            
-            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
-          </p>
-      <h1>星空极速</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section><p>沸沸扬扬闹了很久的中国电信“星空极速”事件最近终于又有了进展。</p>
-
-<p>先是反流氓软件联盟要向信息产业部、中国电信总公司<a href="http://tech.163.com/06/1020/08/2TS509B9000915BF.html">投诉中国电信</a>，原因是“劫持浏览器、强制安装极速客户端、强制插入广告窗口、未知情下消费”等。</p>
-
-<p>然后中国电信就此事作出<a href="http://tech.163.com/06/1021/09/2TUTTEJ1000915BE.html">公开声明</a>。</p>
-
-<p>但是这份声明显然没有收到预期效果，因为它没有体现出对用户的尊重和中国电信“用户至上，用心服务”的服务理念，也没有用诚恳的态度交待事实、反省、改过。</p>
-
-<p>声明中说：“中国电信将星空极速作为正版上网工具软件免费提供给用户，用户可以自主选择是否安装或使用其他拨号软件。星空极速采用的是绿色软件的卸载方式，对用户操作系统没有任何影响。”</p>
-
-<p>首先，强调星空极速是“正版”和“免费”软件毫无意义，因为 MS Windows
-本身就自带了免费的拨号上网软件，而且用户对这类软件并没有很高的要求，完全没有必要由中国电信另外提供工具，星空极速的其他功能也完全能够通过网页访问的方式实现；如果中国电信是认为虽然
-Windows
-自带的拨号软件免费，但那是附带在盗版的操作系统中的，本身不算免费和正版，那么星空极速应该以跨操作系统平台的形式出现才算合理，然而事实是，很多用户在电信员工上门安装星空极速软件时，故意切换到
-Linux 下以避免“受害”。</p>
-
-<p>其次，“用户可以自主选择是否安装或使用其他拨号软件”是一句谎言。正是在用户不知情的情况下（包括上门服务的电信员工未告知用户星空极速软件的特性而代为安装）安装了星空极速，造成其他拨号程序无法使用，以及卸载星空极速后仍无法恢复，才会有许多用户愤怒地指责星空极速软件的霸道。如果星空极速一开始就符合声明所声称的特性，这个事件也不会闹大。</p>
-
-<p>第三，“绿色软件”一说也是无稽之谈，稍微有点计算机常识的星空极速用户都可以分辨这句话的真假，而且“绿色软件的卸载方式”更是可笑的矛盾，如果真是绿色软件，直接移除程序的目录或文件即可，而那，不叫做“卸载”。另外还有用户反映“断网以后卸载，还提示系统模块使用中重新启动以后再执行”。</p>
-
-<p>声明中又说：“为表达对用户使用中国电信服务的友好和尊重，中国电信集团公司要求各级电信企业在推广星空极速过程中严格按照集团规范，在用户第一次登录Chinanet上网时弹出一个与用户互动的欢迎页面，为用户呈现最新网络资讯内容和电信优惠服务信息。”</p>
-
-<p>首先，用户上网时自动弹出欢迎网页，显示资讯、服务信息，这恐怕只算是集团规范，而不是对用户的友好和尊重。如果真是对用户友好和尊重，应该可以允许用户取消这一设置。</p>
-
-<p>其次，就算中国电信真的认为这样的弹出窗口是对用户的友好和尊重，也只能够说明规范的指定者对互联网用户心理的无知。可以明确地说这是为了推广新业务的广告措施，但请不要没水准地说这是为用户着想。</p>
-
-<p>声明中提到：“弹出页面可以自动关闭，也可以由用户选择立即关闭该页面。”</p>
-
-<p>这样的解释毫无效果。弹出窗口对用户使用造成的影响并不因为它会自动关闭或可以由用户关闭（救命～）而被用户接受。</p>
-
-<p>声明中还提到：“中国电信始终致力于营造健康文明的网络环境，坚决支持打击各种形式的网络不文明现象，2005年中国电信与团中央等部门共同发起&rdquo;百万家庭健康上网大行动
-&ldquo;，被中央文明办和团中央等五部委授予“健康上网大行动杰出贡献奖”，被中国互联网协会授予“2006年度中国互联网行业自律贡献奖”。”</p>
-
-<p>首先，国内的这种评奖基本没什么说服力，如中国互联网行业自律贡献奖获奖者中就有数家网站的新闻版块是明显有靠打色情擦边球赚取流量的，连臭名昭著的中搜也可以活得获奖提名。</p>
-
-<p>其次，中国电信打着“健康上网”旗号的“绿色上网”服务有令人不齿的 HTTP
-劫持行为，和星空极速事件中打着“用户至上，用心服务”口号却安装流氓软件的所作所为何其相似。而现在，在为星空极速作辩解的时候竟然还能够拿出“健康上网”行动的例子，实在让人遗憾。</p>
-
-<p>总之，我从这次星空极速事件中看不到中国电信“用户至上，用心服务”的服务理念体现在什么地方，只看到几乎一边倒的被流氓手段激怒的用户。如果真是以用户为重，那么请不要再用这种无耻的手段和可笑的声明把宝贵的用户驱赶到竞争对手那边去了。</p>
-
-<p>相关链接：</p>
-
-<p>在上海出差，首次拨号时浏览器首页暂时被替换成<a href="http://welcome.sh.vnet.cn/portal/nt/index.jsp">星空极速页面的直接链接</a>。原来收录的链接记录了首页、IP、CPU
-Name、CP Key 等参数，过一段时间会自动跳转到自己设置的首页。</p>
-
-<p>网易和 cnBeta 的专题系列和天涯社区的讨论贴：</p>
-
-<p><a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14295">关注终极流氓软件</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14294">关注星空极速的目标 -
-占领用户桌面</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14296">被实施了MAC绑定的用户请到这里来报告</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14424">上海电信向用户下达告用户书,可能强行安装星空极速</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14474">提速的诱饵,温柔的陷阱</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14475">网友技术分析,抓包法获取星空急速密码的详细教程</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14477">有关于电信的强制广告业务</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14493">关注劫持http,推送广告的推波助澜者</a><br />
-<a href="http://www.cnbeta.com/modules.php?name=News&amp;file=article&amp;sid=14584">匪夷所思
-流氓还要量身定做?!</a><br />
-<a href="http://www.cnbeta.com//modules.php?name=News&amp;file=article&amp;sid=14754">推广星空极速 电信出奇招
-延迟30秒访问?!</a><br />
-<a href="http://www11.tianya.cn/New/PublicForum/Content.asp?idWriter=0&amp;Key=0&amp;strItem=it&amp;idArticle=337201&amp;flag=1">中国电信的星空极速是什么玩意儿?</a><br />
-<a href="http://messenger.vnet.cn/index.htm">中国电信星空极速官方页面</a></p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e6%98%9f%e7%a9%ba%e6%9e%81%e9%80%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fxingkongjisu%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fxingkongjisu%2f&text= @calon %e6%98%9f%e7%a9%ba%e6%9e%81%e9%80%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -375,5 +287,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

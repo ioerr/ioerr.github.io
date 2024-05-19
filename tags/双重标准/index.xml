@@ -1,58 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>双重标准 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8F%8C%E9%87%8D%E6%A0%87%E5%87%86/</link>
     <description>Recent content in 双重标准 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8F%8C%E9%87%8D%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Whataboutism</title>
-        <link>https://ioerr.github.io/posts/whataboutism/</link>
-        <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/whataboutism/</guid>
-        <description>&lt;p&gt;Whataboutism 或 Whataboutery 的定义是：&lt;/p&gt;
-
-&lt;p&gt;面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。&lt;br /&gt;
-是 Tu quoque 模式（拉丁语“你也是”）的变体，属于人身攻击论证的子类型，将原问题与“批评者资格”的问题混为一谈，是一种逻辑谬误。&lt;br /&gt;
-其目的是质疑批评的不正当、不合法、不完整和不公平，转移话题。&lt;/p&gt;
-
-&lt;p&gt;鲁迅在文章《外国也有》中提出的“臭虫论”，也属于 whataboutism：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;凡中国所有的，外国也都有。外国人说中国多臭虫，但西洋也有臭虫。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;指责批评者双重标准，有时也属于 whataboutism 的一种。&lt;/p&gt;
-
-&lt;p&gt;Whataboutism 的目的，不是通过反问去阻止对方也做什么不道德的事，而是说服自己去做，即使心中明知道这件事不道德，不应该做。&lt;br /&gt;
-正因为知道不应该做，所以同样的道理可以拿来指责他人；&lt;br /&gt;
-通过指责他人来搅浑水，证明天下乌鸦一般黑，从而为自己争取到心安理得去做的机会。&lt;br /&gt;
-即，用实用主义手段达到道德虚无的目的。&lt;/p&gt;
-
-&lt;p&gt;Whataboutism 的精髓在于将“烂”变成纯粹相对的东西。&lt;br /&gt;
-再烂的东西，一旦有了更烂的做对比，仿佛就有底气说自己不烂。&lt;/p&gt;
-
-&lt;p&gt;不是这样的，都很烂，烂得各有千秋。死去的生命、他人的不幸不是用来比较谁更优越，而是用来反思各自宣扬的这一套，怎么做才能不这么烂。&lt;br /&gt;
-抱着这样的目的，比较才算有点意义，也才有进步的动力。&lt;/p&gt;
-
-&lt;p&gt;另：&lt;br /&gt;
-Whataboutism 已经被滥用到了几乎说什么都可以叫 whataboutism 的程度，成为一种新的可以取代 whataboutism 发挥同样作用的工具。&lt;/p&gt;
-
-&lt;p&gt;又另：&lt;br /&gt;
-Michael Jackson 的《Earth Song》，歌词一共出现“what about”52次，堪称 whataboutism 大师。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8F%8C%E9%87%8D%E6%A0%87%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whataboutism</title>
+      <link>https://ioerr.github.io/posts/whataboutism/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/whataboutism/</guid>
+      <description>Whataboutism 或 Whataboutery 的定义是： 面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。 是 Tu quoque 模式（拉丁语“你也是”）的变</description>
+      <content:encoded><![CDATA[<p>Whataboutism 或 Whataboutery 的定义是：</p>
+<p>面对批判性的问题或论点，回避正面的讨论和回答，而反过来使用批判性的反问，对批判者提出指控。<br>
+是 Tu quoque 模式（拉丁语“你也是”）的变体，属于人身攻击论证的子类型，将原问题与“批评者资格”的问题混为一谈，是一种逻辑谬误。<br>
+其目的是质疑批评的不正当、不合法、不完整和不公平，转移话题。</p>
+<p>鲁迅在文章《外国也有》中提出的“臭虫论”，也属于 whataboutism：</p>
+<blockquote>
+<p>凡中国所有的，外国也都有。外国人说中国多臭虫，但西洋也有臭虫。</p>
+</blockquote>
+<p>指责批评者双重标准，有时也属于 whataboutism 的一种。</p>
+<p>Whataboutism 的目的，不是通过反问去阻止对方也做什么不道德的事，而是说服自己去做，即使心中明知道这件事不道德，不应该做。<br>
+正因为知道不应该做，所以同样的道理可以拿来指责他人；<br>
+通过指责他人来搅浑水，证明天下乌鸦一般黑，从而为自己争取到心安理得去做的机会。<br>
+即，用实用主义手段达到道德虚无的目的。</p>
+<p>Whataboutism 的精髓在于将“烂”变成纯粹相对的东西。<br>
+再烂的东西，一旦有了更烂的做对比，仿佛就有底气说自己不烂。</p>
+<p>不是这样的，都很烂，烂得各有千秋。死去的生命、他人的不幸不是用来比较谁更优越，而是用来反思各自宣扬的这一套，怎么做才能不这么烂。<br>
+抱着这样的目的，比较才算有点意义，也才有进步的动力。</p>
+<p>另：<br>
+Whataboutism 已经被滥用到了几乎说什么都可以叫 whataboutism 的程度，成为一种新的可以取代 whataboutism 发挥同样作用的工具。</p>
+<p>又另：<br>
+Michael Jackson 的《Earth Song》，歌词一共出现“what about”52次，堪称 whataboutism 大师。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

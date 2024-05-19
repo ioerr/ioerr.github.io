@@ -1,43 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>沈腾 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B2%88%E8%85%BE/</link>
     <description>Recent content in 沈腾 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B2%88%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>疯狂的外星人</title>
-        <link>https://ioerr.github.io/posts/fengkuang-de-waixingren/</link>
-        <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fengkuang-de-waixingren/</guid>
-        <description>&lt;p&gt;看完了宁浩导演，黄渤和沈腾主演的《疯狂的外星人》，号称是根据刘慈欣《乡村教师》改编的，最诧异的是竟然和我印象中的原著完全对不上号，到底是编剧的鬼斧神工，还是我记忆力真的不行了…&lt;br /&gt;
-后来看到说只是拿《乡村教师》当了个药引子…&lt;/p&gt;
-
-&lt;p&gt;总体而言，如果不是靠黄渤和沈腾撑着能让观众大笑，电影乏善可陈，想比前两部《疯狂的石头》和《疯狂的赛车》是大退步了。&lt;br /&gt;
-特别是电影结尾并没有化解已经不可调和的矛盾冲突，而是用喝断片了混过去，有点不爽的感觉。&lt;/p&gt;
-
-&lt;p&gt;人类与猴子，外星人与人类，是对应的两组奴役控制关系，掌握了更高科技和更强大暴力的一方处于绝对优势地位，自命为更高级的文明。&lt;br /&gt;
-在黄渤和沈腾的角色被外星人当猴耍之后，我以为他们会反思人类与猴子的关系，找个合适场景和机会，与曾经被当作猴虐待和训练的外星人，相互和解。&lt;br /&gt;
-特别是黄渤饰演的耍猴人耿浩，他应该最能体会猴子的感受，最适合以理服人、以情动人化解和外星人的矛盾，和影片开头处于困境仍不离不弃的人猴亲密关系也可以有呼应和升华。&lt;br /&gt;
-即使沟通失败，至少也已经完成了人物的弧光。&lt;/p&gt;
-
-&lt;p&gt;在外星人找回了身体和能力后，矛盾冲突达到顶点，此时正是最佳的时机，哪知层层铺垫了一大段，特别是美帝特工尝试用暴力解决问题被碾压充当了很好的反面对比材料，耿浩却仍然选择开着车和外星人硬怼…&lt;/p&gt;
-
-&lt;p&gt;当然，喜剧片不必强求人文思想和人文关怀，但正因为两组关系对应太强，所以当耿浩等人用抽鞭子、敲锣成功制服外星人时，共情心理强的人想到的反而是小猴子、外星人和耿浩们自己之前所遭到的折磨，并没有所谓复仇的快感，只有不舒服的感觉。&lt;br /&gt;
-而一旦导演和编剧决定用暴力对抗来将矛盾发展成不可调和的态势，结果就只能够靠失忆（编剧三大忌：失忆、双胞胎、机械降神）来回避矛盾了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B2%88%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>疯狂的外星人</title>
+      <link>https://ioerr.github.io/posts/fengkuang-de-waixingren/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fengkuang-de-waixingren/</guid>
+      <description>看完了宁浩导演，黄渤和沈腾主演的《疯狂的外星人》，号称是根据刘慈欣《乡村教师》改编的，最诧异的是竟然和我印象中的原著完全对不上号，到底是编剧</description>
+      <content:encoded><![CDATA[<p>看完了宁浩导演，黄渤和沈腾主演的《疯狂的外星人》，号称是根据刘慈欣《乡村教师》改编的，最诧异的是竟然和我印象中的原著完全对不上号，到底是编剧的鬼斧神工，还是我记忆力真的不行了…<br>
+后来看到说只是拿《乡村教师》当了个药引子…</p>
+<p>总体而言，如果不是靠黄渤和沈腾撑着能让观众大笑，电影乏善可陈，想比前两部《疯狂的石头》和《疯狂的赛车》是大退步了。<br>
+特别是电影结尾并没有化解已经不可调和的矛盾冲突，而是用喝断片了混过去，有点不爽的感觉。</p>
+<p>人类与猴子，外星人与人类，是对应的两组奴役控制关系，掌握了更高科技和更强大暴力的一方处于绝对优势地位，自命为更高级的文明。<br>
+在黄渤和沈腾的角色被外星人当猴耍之后，我以为他们会反思人类与猴子的关系，找个合适场景和机会，与曾经被当作猴虐待和训练的外星人，相互和解。<br>
+特别是黄渤饰演的耍猴人耿浩，他应该最能体会猴子的感受，最适合以理服人、以情动人化解和外星人的矛盾，和影片开头处于困境仍不离不弃的人猴亲密关系也可以有呼应和升华。<br>
+即使沟通失败，至少也已经完成了人物的弧光。</p>
+<p>在外星人找回了身体和能力后，矛盾冲突达到顶点，此时正是最佳的时机，哪知层层铺垫了一大段，特别是美帝特工尝试用暴力解决问题被碾压充当了很好的反面对比材料，耿浩却仍然选择开着车和外星人硬怼…</p>
+<p>当然，喜剧片不必强求人文思想和人文关怀，但正因为两组关系对应太强，所以当耿浩等人用抽鞭子、敲锣成功制服外星人时，共情心理强的人想到的反而是小猴子、外星人和耿浩们自己之前所遭到的折磨，并没有所谓复仇的快感，只有不舒服的感觉。<br>
+而一旦导演和编剧决定用暴力对抗来将矛盾发展成不可调和的态势，结果就只能够靠失忆（编剧三大忌：失忆、双胞胎、机械降神）来回避矛盾了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

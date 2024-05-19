@@ -1,117 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>菜鸟教练笔记 \#2 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>菜鸟教练笔记 \#2 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="Racing Club de Paris #2 为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="菜鸟教练笔记 \#2" />
-<meta property="og:description" content="Racing Club de Paris #2
-为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：
-Jean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是 Balance、Jumping、Positioning，其它一塌糊涂，只能担任替补
-Ronald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning 较差，其它方面充任主力门将还是够了
-Mickël D&rsquo;Amore，28岁，D R，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和 Work Rate 尚可，不过其它属性看上去一点也不像个后卫…
-Issa Djeme，19岁，D RC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions 偏低，个人认为多少还值得培养。
-Fabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace 简直就是全队最低。
-Sébastien Bertrand，22岁，D/DM L，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了 Stamina、Strength 数值可怜外，Decisions、Determination、Passing 也比较低，作后卫用的话，Positioning、Tackling 都很可怜
-Richard Soulas，29岁，D LC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想
-David-Alexandre Dicanot，27岁，D C，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation 有所不足，我也会极为青睐他的。
-Guillaume Izquierdo，29岁，D C，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength 一般般。
-Yannick Lalisse，28岁，D C，同样深受 Lipka 青睐，Tackling、Determination、Long Shots 和 Passing 能力很强，我都想把他移到中场了，特别是 Juming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/" />
-
-
-
-<meta property="article:published_time" content="2005-07-16T08:51:42&#43;00:00"/>
-
-<meta property="article:modified_time" content="2005-07-16T08:51:42&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="菜鸟教练笔记 \#2">
-<meta itemprop="description" content="Racing Club de Paris #2
-为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：
-Jean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是 Balance、Jumping、Positioning，其它一塌糊涂，只能担任替补
-Ronald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning 较差，其它方面充任主力门将还是够了
-Mickël D&rsquo;Amore，28岁，D R，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和 Work Rate 尚可，不过其它属性看上去一点也不像个后卫…
-Issa Djeme，19岁，D RC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions 偏低，个人认为多少还值得培养。
-Fabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace 简直就是全队最低。
-Sébastien Bertrand，22岁，D/DM L，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了 Stamina、Strength 数值可怜外，Decisions、Determination、Passing 也比较低，作后卫用的话，Positioning、Tackling 都很可怜
-Richard Soulas，29岁，D LC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想
-David-Alexandre Dicanot，27岁，D C，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation 有所不足，我也会极为青睐他的。
-Guillaume Izquierdo，29岁，D C，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength 一般般。
-Yannick Lalisse，28岁，D C，同样深受 Lipka 青睐，Tackling、Determination、Long Shots 和 Passing 能力很强，我都想把他移到中场了，特别是 Juming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…">
-
-
-<meta itemprop="datePublished" content="2005-07-16T08:51:42&#43;00:00" />
-<meta itemprop="dateModified" content="2005-07-16T08:51:42&#43;00:00" />
-<meta itemprop="wordCount" content="214">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="菜鸟教练笔记 \#2"/>
-<meta name="twitter:description" content="Racing Club de Paris #2
-为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：
-Jean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是 Balance、Jumping、Positioning，其它一塌糊涂，只能担任替补
-Ronald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning 较差，其它方面充任主力门将还是够了
-Mickël D&rsquo;Amore，28岁，D R，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和 Work Rate 尚可，不过其它属性看上去一点也不像个后卫…
-Issa Djeme，19岁，D RC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions 偏低，个人认为多少还值得培养。
-Fabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace 简直就是全队最低。
-Sébastien Bertrand，22岁，D/DM L，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了 Stamina、Strength 数值可怜外，Decisions、Determination、Passing 也比较低，作后卫用的话，Positioning、Tackling 都很可怜
-Richard Soulas，29岁，D LC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想
-David-Alexandre Dicanot，27岁，D C，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation 有所不足，我也会极为青睐他的。
-Guillaume Izquierdo，29岁，D C，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength 一般般。
-Yannick Lalisse，28岁，D C，同样深受 Lipka 青睐，Tackling、Determination、Long Shots 和 Passing 能力很强，我都想把他移到中场了，特别是 Juming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -122,245 +49,276 @@ Yannick Lalisse，28岁，D C，同样深受 Lipka 青睐，Tackling、Determina
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="菜鸟教练笔记 \#2" />
+<meta property="og:description" content="Racing Club de Paris #2 为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-07-16T08:51:42+00:00" />
+<meta property="article:modified_time" content="2005-07-16T08:51:42+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="菜鸟教练笔记 \#2"/>
+<meta name="twitter:description" content="Racing Club de Paris #2 为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "菜鸟教练笔记 \\#2",
+      "item": "https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "菜鸟教练笔记 \\#2",
+  "name": "菜鸟教练笔记 \\#2",
+  "description": "Racing Club de Paris #2 为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是 Racing Club de Paris 的主要球员名单，以及判断球员能力的指标为10的助理教",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "Racing Club de Paris #2\n为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是\nRacing Club de Paris\n的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：\nJean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是\nBalance、Jumping、Positioning，其它一塌糊涂，只能担任替补\nRonald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning\n较差，其它方面充任主力门将还是够了\nMickël D’Amore，28岁，D\nR，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和\nWork Rate 尚可，不过其它属性看上去一点也不像个后卫…\nIssa Djeme，19岁，D\nRC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions\n偏低，个人认为多少还值得培养。\nFabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace\n简直就是全队最低。\nSébastien Bertrand，22岁，D/DM\nL，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了\nStamina、Strength 数值可怜外，Decisions、Determination、Passing\n也比较低，作后卫用的话，Positioning、Tackling 都很可怜\nRichard Soulas，29岁，D\nLC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想\nDavid-Alexandre Dicanot，27岁，D\nC，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation\n有所不足，我也会极为青睐他的。\nGuillaume Izquierdo，29岁，D\nC，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength\n一般般。\nYannick Lalisse，28岁，D C，同样深受 Lipka\n青睐，Tackling、Determination、Long Shots 和 Passing\n能力很强，我都想把他移到中场了，特别是\nJuming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…\nNouhoum Koné，19岁，M RC，最近才加入俱乐部，Pace、Acceleration\n不错，Finishing 出奇地高，Work Rate 更是全队最高，Determination\n也不低，加上 Crossing、Passing 十分可怜，还不如转行做 S C\n算了…令人痛心的是，Decisions、Anticipation、Positioning、Off The Ball\n几乎都可进入全队倒数三甲之列。\nPatrick Léonetti，29岁，M C，本赛季加盟球队，Creativity 和 Passing\n怎么看都不像中场选手，Set Pieces 与 Agility 倒是为数不多的亮点。\nSébastien Malfleury，18岁，M\nC，本赛季才成为职业球员，身体条件良好，Passing、Technique、Teamwork 和\nDribbling 不合格。\nMaxime Poisson，27岁，M/S C，被认为作为前锋具有举足轻重的地位，因为他的\nTechnique、Passing、Dribbling\n惨不忍睹，当中场实在不值得期待有上佳表现。但在\nPace、Acceleration、Aggression、Creativity、Agility 和 Workrate\n相当高的同时，Finishing、Dribbling\n又离前锋的要求相去甚远，难道是另一个李毅？(-_-#)\nJulien Stephan，20岁，M C，本赛季才成为职业球员，Technique\n是其唯一亮点，其它条件都一般，Aggression、Agility 尤其差。\nTarek Bouabdellah，27岁，AM/F RL，深受助理教练青睐，除了\nCrossing、Passing 不符合边路要求外，Decisions 和 Determination\n两项精神属性也偏低，其它方面倒挺好用。\nChristophe Branlard，31岁，AM/F\nRC，据说有很好的前景（都31岁了耶…），其实也就 Jumping、Acceleration 与\nAggression 还行，Work Rate、Influence 也还对得起老球员身份。\nYannick Chandioux，25岁，AM\nR，深受助理教练青睐，Teamwork、Dribbling、Crossing、Passing 都不够，Off\nThe Ball、Tackling、Work Rate、Pace 较高，值得注意的是，他的 Set Pieces\n全队最高。\nFranck Soler，30岁，AM/F R，本赛季刚刚加盟，Strength\n之低令人咋舌，诸项精神属性也形同废人，空有较高的\nAgility、Flair、Technique 与 Acceleration。\nEmmanuel Vasseur，24岁，AM C，本赛季才进入本队，作为攻击型中场竟然\nCreativity、Passing、Teamwork 都不及格…需要靠\nPace、Acceletation、Stamina 与 Long Shots 冲击对手防线？另外，Technique\n与 Flair 也挺高的。\nSébastien Robert，27岁，F C，又是占有举足轻重地位的球员，Finishing、Long\nShots、Flair\n确实相当有水准，其它方面大概比我这个做教练的还差…真是术业有专攻啊…关键是精神属性差劲。\nHocine Lachaab，31岁，S\nC，本赛季刚刚加盟，Finishing、Heading、Anticipation\n较差，可喜的是，Dribbling、Teamwork 很高。\nSamir Lagnaoui，32岁，S\nC，摩洛哥人，被认为占有举足轻重的地位。Crossing、Passing、Technique、Anticipation、Agility、Pace、Jumping\n都不错，错就错在 Dribbling、Finishing、Acceleration、Decision\n属于业余水准。\n剩下的一些人员被各个教练都评价为“毫无进步”、“建议列入转会名单”，经我查看之后确实关键属性令人发指，于是连同\nMickël D’Amore、Fabrice Grangé 一起插上草标统统挂牌出售。\n在23名主要球员中，竟然有11名本赛季才加入球队以至于教练组无法判断其实际能力，真不明白我的前任和俱乐部高层是怎么想的…\n从主要球员的显性属性来看，都与其擅长位置的要求在至少一项关键属性上存在致命的差距，当然，这只是最低级别的职业联赛，要求不能够太高，但是要想在我这个菜鸟教练的带领下逃出生天，这些人员显然还远远不够啊～\n同时有感于两位教练判断球员 Ability 与 Potential Ability\n的能力实在太低，决定从失业的教练大军中找一位更擅长于此道的教练过来。查找、对比、拉拢了半天，大部分待业教练对我们的\nRacing CP 都不屑一顾，只有年仅30岁的前世界冠军队成员 Alain Boghossian\n愿意签约。他的能力大都不错，唯独 Level of Discipline\n非常低，但愿不要给球队带来过多的风波就好，而且他的风格是技术型，喜欢打攻势足球，可能不太适合我们这个将要苦苦挣扎的小球会，当然，前提是他不要拒绝我提出的合同 虽然在 CM\n中决定一个球员水准与价值的远不止在游戏中展现出来的各项能力值，但由于规定不能够使用\nCM Scout\n等工具查看隐藏能力属性，所以只好依据自己、教练的眼光，以及根据球员在比赛中的实际发挥来估计了。\n还没有想好到底是把这个系列写成是小说还是流水帐。如果写成小说，花费的功夫就很大了，而且写作速度是一定会远远低于游戏的进度，最可惜的是，记录的信息也会少很多。所以暂时还只是做一个忠实的记录。\n",
+  "wordCount" : "2987",
+  "inLanguage": "en",
+  "datePublished": "2005-07-16T08:51:42Z",
+  "dateModified": "2005-07-16T08:51:42Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/cainiao-jiaolian-biji-2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-2%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      菜鸟教练笔记 \#2
+    </h1>
+    <div class="post-meta"><span title='2005-07-16 08:51:42 +0000 +0000'>2005-7-16</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p><strong>Racing Club de Paris</strong> #2</p>
+<p>为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是<br>
+Racing Club de Paris<br>
+的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：</p>
+<p>Jean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是<br>
+Balance、Jumping、Positioning，其它一塌糊涂，只能担任替补</p>
+<p>Ronald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning<br>
+较差，其它方面充任主力门将还是够了</p>
+<p>Mickël D&rsquo;Amore，28岁，D<br>
+R，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和<br>
+Work Rate 尚可，不过其它属性看上去一点也不像个后卫…</p>
+<p>Issa Djeme，19岁，D<br>
+RC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions<br>
+偏低，个人认为多少还值得培养。</p>
+<p>Fabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace<br>
+简直就是全队最低。</p>
+<p>Sébastien Bertrand，22岁，D/DM<br>
+L，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了<br>
+Stamina、Strength 数值可怜外，Decisions、Determination、Passing<br>
+也比较低，作后卫用的话，Positioning、Tackling 都很可怜</p>
+<p>Richard Soulas，29岁，D<br>
+LC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想</p>
+<p>David-Alexandre Dicanot，27岁，D<br>
+C，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation<br>
+有所不足，我也会极为青睐他的。</p>
+<p>Guillaume Izquierdo，29岁，D<br>
+C，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength<br>
+一般般。</p>
+<p>Yannick Lalisse，28岁，D C，同样深受 Lipka<br>
+青睐，Tackling、Determination、Long Shots 和 Passing<br>
+能力很强，我都想把他移到中场了，特别是<br>
+Juming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…</p>
+<p>Nouhoum Koné，19岁，M RC，最近才加入俱乐部，Pace、Acceleration<br>
+不错，Finishing 出奇地高，Work Rate 更是全队最高，Determination<br>
+也不低，加上 Crossing、Passing 十分可怜，还不如转行做 S C<br>
+算了…令人痛心的是，Decisions、Anticipation、Positioning、Off The Ball<br>
+几乎都可进入全队倒数三甲之列。</p>
+<p>Patrick Léonetti，29岁，M C，本赛季加盟球队，Creativity 和 Passing<br>
+怎么看都不像中场选手，Set Pieces 与 Agility 倒是为数不多的亮点。</p>
+<p>Sébastien Malfleury，18岁，M<br>
+C，本赛季才成为职业球员，身体条件良好，Passing、Technique、Teamwork 和<br>
+Dribbling 不合格。</p>
+<p>Maxime Poisson，27岁，M/S C，被认为作为前锋具有举足轻重的地位，因为他的<br>
+Technique、Passing、Dribbling<br>
+惨不忍睹，当中场实在不值得期待有上佳表现。但在<br>
+Pace、Acceleration、Aggression、Creativity、Agility 和 Workrate<br>
+相当高的同时，Finishing、Dribbling<br>
+又离前锋的要求相去甚远，难道是另一个李毅？(-_-#)</p>
+<p>Julien Stephan，20岁，M C，本赛季才成为职业球员，Technique<br>
+是其唯一亮点，其它条件都一般，Aggression、Agility 尤其差。</p>
+<p>Tarek Bouabdellah，27岁，AM/F RL，深受助理教练青睐，除了<br>
+Crossing、Passing 不符合边路要求外，Decisions 和 Determination<br>
+两项精神属性也偏低，其它方面倒挺好用。</p>
+<p>Christophe Branlard，31岁，AM/F<br>
+RC，据说有很好的前景（都31岁了耶…），其实也就 Jumping、Acceleration 与<br>
+Aggression 还行，Work Rate、Influence 也还对得起老球员身份。</p>
+<p>Yannick Chandioux，25岁，AM<br>
+R，深受助理教练青睐，Teamwork、Dribbling、Crossing、Passing 都不够，Off<br>
+The Ball、Tackling、Work Rate、Pace 较高，值得注意的是，他的 Set Pieces<br>
+全队最高。</p>
+<p>Franck Soler，30岁，AM/F R，本赛季刚刚加盟，Strength<br>
+之低令人咋舌，诸项精神属性也形同废人，空有较高的<br>
+Agility、Flair、Technique 与 Acceleration。</p>
+<p>Emmanuel Vasseur，24岁，AM C，本赛季才进入本队，作为攻击型中场竟然<br>
+Creativity、Passing、Teamwork 都不及格…需要靠<br>
+Pace、Acceletation、Stamina 与 Long Shots 冲击对手防线？另外，Technique<br>
+与 Flair 也挺高的。</p>
+<p>Sébastien Robert，27岁，F C，又是占有举足轻重地位的球员，Finishing、Long<br>
+Shots、Flair<br>
+确实相当有水准，其它方面大概比我这个做教练的还差…真是术业有专攻啊…关键是精神属性差劲。</p>
+<p>Hocine Lachaab，31岁，S<br>
+C，本赛季刚刚加盟，Finishing、Heading、Anticipation<br>
+较差，可喜的是，Dribbling、Teamwork 很高。</p>
+<p>Samir Lagnaoui，32岁，S<br>
+C，摩洛哥人，被认为占有举足轻重的地位。Crossing、Passing、Technique、Anticipation、Agility、Pace、Jumping<br>
+都不错，错就错在 Dribbling、Finishing、Acceleration、Decision<br>
+属于业余水准。</p>
+<p>剩下的一些人员被各个教练都评价为“毫无进步”、“建议列入转会名单”，经我查看之后确实关键属性令人发指，于是连同<br>
+Mickël D&rsquo;Amore、Fabrice Grangé 一起插上草标统统挂牌出售。</p>
+<p>在23名主要球员中，竟然有11名本赛季才加入球队以至于教练组无法判断其实际能力，真不明白我的前任和俱乐部高层是怎么想的…</p>
+<p>从主要球员的显性属性来看，都与其擅长位置的要求在至少一项关键属性上存在致命的差距，当然，这只是最低级别的职业联赛，要求不能够太高，但是要想在我这个菜鸟教练的带领下逃出生天，这些人员显然还远远不够啊～</p>
+<h2 id="非常低但愿不要给球队带来过多的风波就好而且他的风格是技术型喜欢打攻势足球可能不太适合我们这个将要苦苦挣扎的小球会当然前提是他不要拒绝我提出的合同">同时有感于两位教练判断球员 Ability 与 Potential Ability<br>
+的能力实在太低，决定从失业的教练大军中找一位更擅长于此道的教练过来。查找、对比、拉拢了半天，大部分待业教练对我们的<br>
+Racing CP 都不屑一顾，只有年仅30岁的前世界冠军队成员 Alain Boghossian<br>
+愿意签约。他的能力大都不错，唯独 Level of Discipline<br>
+非常低，但愿不要给球队带来过多的风波就好，而且他的风格是技术型，喜欢打攻势足球，可能不太适合我们这个将要苦苦挣扎的小球会，当然，前提是他不要拒绝我提出的合同</h2>
+<p>虽然在 CM<br>
+中决定一个球员水准与价值的远不止在游戏中展现出来的各项能力值，但由于规定不能够使用<br>
+CM Scout<br>
+等工具查看隐藏能力属性，所以只好依据自己、教练的眼光，以及根据球员在比赛中的实际发挥来估计了。</p>
+<hr>
+<p>还没有想好到底是把这个系列写成是小说还是流水帐。如果写成小说，花费的功夫就很大了，而且写作速度是一定会远远低于游戏的进度，最可惜的是，记录的信息也会少很多。所以暂时还只是做一个忠实的记录。</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/another-random-quote/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Another Random Quote</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/xinde-zhengcheng/">
+    <span class="title">Next »</span>
+    <br>
+    <span>新的征程</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2005-07-16 08:51">2005-07-16</time> &bull;
-          
-            
-            <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
-          </p>
-      <h1>菜鸟教练笔记 \#2</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section>
-
-<p><strong>Racing Club de Paris</strong> #2</p>
-
-<p>为了摸清楚队内球员的基本状况，我大致浏览了一下一线队球员的能力，以下是
-Racing Club de Paris
-的主要球员名单，以及判断球员能力的指标为10的助理教练的评价：</p>
-
-<p>Jean-Philipe Caumartin，30岁，GK，本赛季刚加入球队，比较突出的地方是
-Balance、Jumping、Positioning，其它一塌糊涂，只能担任替补</p>
-
-<p>Ronald Thomas，27岁，GK，本赛季加盟球队，Jumping、Work Rate、Positioning
-较差，其它方面充任主力门将还是够了</p>
-
-<p>Mickël D&rsquo;Amore，28岁，D
-R，助理教练的评价是“进步太慢，应该列入转会名单”，Agility、Strength 和
-Work Rate 尚可，不过其它属性看上去一点也不像个后卫…</p>
-
-<p>Issa Djeme，19岁，D
-RC，本赛季加盟球队，身体条件还不错，Tackling、Anticipation 和 Decisions
-偏低，个人认为多少还值得培养。</p>
-
-<p>Fabrice Grangé，29岁，D/DM R，新来的球员，只有 Crossing 值得一说，Pace
-简直就是全队最低。</p>
-
-<p>Sébastien Bertrand，22岁，D/DM
-L，被助理教练视为“球队中举足轻重的人物”，Crossing、Teamwork 极佳，除了
-Stamina、Strength 数值可怜外，Decisions、Determination、Passing
-也比较低，作后卫用的话，Positioning、Tackling 都很可怜</p>
-
-<p>Richard Soulas，29岁，D
-LC，“地位举足轻重”，Tackling、Teamwork、Decisions、Marking 不够理想</p>
-
-<p>David-Alexandre Dicanot，27岁，D
-C，极受助理教练青睐，如果不是Positioning、Work Rate 和 Anticipation
-有所不足，我也会极为青睐他的。</p>
-
-<p>Guillaume Izquierdo，29岁，D
-C，被认为有极好的前景，需要留在队中，Anticipation、Heading 和 Strength
-一般般。</p>
-
-<p>Yannick Lalisse，28岁，D C，同样深受 Lipka
-青睐，Tackling、Determination、Long Shots 和 Passing
-能力很强，我都想把他移到中场了，特别是
-Juming、Bravery、Teamwork、Technique 极差，更不放心让他在后防线上把关…</p>
-
-<p>Nouhoum Koné，19岁，M RC，最近才加入俱乐部，Pace、Acceleration
-不错，Finishing 出奇地高，Work Rate 更是全队最高，Determination
-也不低，加上 Crossing、Passing 十分可怜，还不如转行做 S C
-算了…令人痛心的是，Decisions、Anticipation、Positioning、Off The Ball
-几乎都可进入全队倒数三甲之列。</p>
-
-<p>Patrick Léonetti，29岁，M C，本赛季加盟球队，Creativity 和 Passing
-怎么看都不像中场选手，Set Pieces 与 Agility 倒是为数不多的亮点。</p>
-
-<p>Sébastien Malfleury，18岁，M
-C，本赛季才成为职业球员，身体条件良好，Passing、Technique、Teamwork 和
-Dribbling 不合格。</p>
-
-<p>Maxime Poisson，27岁，M/S C，被认为作为前锋具有举足轻重的地位，因为他的
-Technique、Passing、Dribbling
-惨不忍睹，当中场实在不值得期待有上佳表现。但在
-Pace、Acceleration、Aggression、Creativity、Agility 和 Workrate
-相当高的同时，Finishing、Dribbling
-又离前锋的要求相去甚远，难道是另一个李毅？(-_-#)</p>
-
-<p>Julien Stephan，20岁，M C，本赛季才成为职业球员，Technique
-是其唯一亮点，其它条件都一般，Aggression、Agility 尤其差。</p>
-
-<p>Tarek Bouabdellah，27岁，AM/F RL，深受助理教练青睐，除了
-Crossing、Passing 不符合边路要求外，Decisions 和 Determination
-两项精神属性也偏低，其它方面倒挺好用。</p>
-
-<p>Christophe Branlard，31岁，AM/F
-RC，据说有很好的前景（都31岁了耶…），其实也就 Jumping、Acceleration 与
-Aggression 还行，Work Rate、Influence 也还对得起老球员身份。</p>
-
-<p>Yannick Chandioux，25岁，AM
-R，深受助理教练青睐，Teamwork、Dribbling、Crossing、Passing 都不够，Off
-The Ball、Tackling、Work Rate、Pace 较高，值得注意的是，他的 Set Pieces
-全队最高。</p>
-
-<p>Franck Soler，30岁，AM/F R，本赛季刚刚加盟，Strength
-之低令人咋舌，诸项精神属性也形同废人，空有较高的
-Agility、Flair、Technique 与 Acceleration。</p>
-
-<p>Emmanuel Vasseur，24岁，AM C，本赛季才进入本队，作为攻击型中场竟然
-Creativity、Passing、Teamwork 都不及格…需要靠
-Pace、Acceletation、Stamina 与 Long Shots 冲击对手防线？另外，Technique
-与 Flair 也挺高的。</p>
-
-<p>Sébastien Robert，27岁，F C，又是占有举足轻重地位的球员，Finishing、Long
-Shots、Flair
-确实相当有水准，其它方面大概比我这个做教练的还差…真是术业有专攻啊…关键是精神属性差劲。</p>
-
-<p>Hocine Lachaab，31岁，S
-C，本赛季刚刚加盟，Finishing、Heading、Anticipation
-较差，可喜的是，Dribbling、Teamwork 很高。</p>
-
-<p>Samir Lagnaoui，32岁，S
-C，摩洛哥人，被认为占有举足轻重的地位。Crossing、Passing、Technique、Anticipation、Agility、Pace、Jumping
-都不错，错就错在 Dribbling、Finishing、Acceleration、Decision
-属于业余水准。</p>
-
-<p>剩下的一些人员被各个教练都评价为“毫无进步”、“建议列入转会名单”，经我查看之后确实关键属性令人发指，于是连同
-Mickël D&rsquo;Amore、Fabrice Grangé 一起插上草标统统挂牌出售。</p>
-
-<p>在23名主要球员中，竟然有11名本赛季才加入球队以至于教练组无法判断其实际能力，真不明白我的前任和俱乐部高层是怎么想的…</p>
-
-<p>从主要球员的显性属性来看，都与其擅长位置的要求在至少一项关键属性上存在致命的差距，当然，这只是最低级别的职业联赛，要求不能够太高，但是要想在我这个菜鸟教练的带领下逃出生天，这些人员显然还远远不够啊～</p>
-
-<p>同时有感于两位教练判断球员 Ability 与 Potential Ability
-的能力实在太低，决定从失业的教练大军中找一位更擅长于此道的教练过来。查找、对比、拉拢了半天，大部分待业教练对我们的
-Racing CP 都不屑一顾，只有年仅30岁的前世界冠军队成员 Alain Boghossian
-愿意签约。他的能力大都不错，唯独 Level of Discipline</p>
-
-<h2 id="非常低-但愿不要给球队带来过多的风波就好-而且他的风格是技术型-喜欢打攻势足球-可能不太适合我们这个将要苦苦挣扎的小球会-当然-前提是他不要拒绝我提出的合同">非常低，但愿不要给球队带来过多的风波就好，而且他的风格是技术型，喜欢打攻势足球，可能不太适合我们这个将要苦苦挣扎的小球会，当然，前提是他不要拒绝我提出的合同</h2>
-
-<p>虽然在 CM
-中决定一个球员水准与价值的远不止在游戏中展现出来的各项能力值，但由于规定不能够使用
-CM Scout
-等工具查看隐藏能力属性，所以只好依据自己、教练的眼光，以及根据球员在比赛中的实际发挥来估计了。</p>
-
-<hr />
-
-<p>还没有想好到底是把这个系列写成是小说还是流水帐。如果写成小说，花费的功夫就很大了，而且写作速度是一定会远远低于游戏的进度，最可惜的是，记录的信息也会少很多。所以暂时还只是做一个忠实的记录。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%8f%9c%e9%b8%9f%e6%95%99%e7%bb%83%e7%ac%94%e8%ae%b0%20%5c%232》&body=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-2%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-2%2f&text= @calon %e8%8f%9c%e9%b8%9f%e6%95%99%e7%bb%83%e7%ac%94%e8%ae%b0%20%5c%232&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -379,5 +337,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

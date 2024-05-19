@@ -1,37 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>监狱 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%9B%91%E7%8B%B1/</link>
     <description>Recent content in 监狱 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%9B%91%E7%8B%B1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>网景监狱</title>
-        <link>https://ioerr.github.io/posts/wangjing-jianyu/</link>
-        <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wangjing-jianyu/</guid>
-        <description>&lt;p&gt;全景监狱的三个特征：&lt;br /&gt;
-1. 监视者可以看到所有被监视者的状态；&lt;br /&gt;
-2. 被监视者看不到监视者的状态，但知道会被监控；&lt;br /&gt;
-3. 被监视者之间互相无法交流反对监视者的意见。&lt;/p&gt;
-
-&lt;p&gt;推动这三方面的技术应用正在高速发展，未来有广阔的发展前景。&lt;/p&gt;
-
-&lt;p&gt;然则边沁和福柯还是太单纯，后来者就想到了发动群众、改造思想的手段，让每个被监视者以为自己是监视者的一员，主动监视所有人。&lt;br /&gt;
-可以称之为网景监狱（不是 Netscape😂）。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%9B%91%E7%8B%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网景监狱</title>
+      <link>https://ioerr.github.io/posts/wangjing-jianyu/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wangjing-jianyu/</guid>
+      <description>全景监狱的三个特征： 监视者可以看到所有被监视者的状态； 被监视者看不到监视者的状态，但知道会被监控； 被监视者之间互相无法交流反对监视者的意见。</description>
+      <content:encoded><![CDATA[<p>全景监狱的三个特征：</p>
+<ol>
+<li>监视者可以看到所有被监视者的状态；</li>
+<li>被监视者看不到监视者的状态，但知道会被监控；</li>
+<li>被监视者之间互相无法交流反对监视者的意见。</li>
+</ol>
+<p>推动这三方面的技术应用正在高速发展，未来有广阔的发展前景。</p>
+<p>然则边沁和福柯还是太单纯，后来者就想到了发动群众、改造思想的手段，让每个被监视者以为自己是监视者的一员，主动监视所有人。<br>
+可以称之为网景监狱（不是 Netscape😂）。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,105 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>主观 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E4%B8%BB%E8%A7%82/</link>
     <description>Recent content in 主观 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E4%B8%BB%E8%A7%82/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>吃屎</title>
-        <link>https://ioerr.github.io/posts/chishi/</link>
-        <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chishi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/delphij/status/1609060739310051328&#34;&gt;𝓧𝓲𝓷 𝓛𝓲&lt;/a&gt;：&lt;br /&gt;
-甲：人应该多吃饭，少吃屎&lt;br /&gt;
-乙：为什么要吃屎&lt;br /&gt;
-丙：有没有可能不吃屎&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1609076575940808705&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-丁：不必那么反感，吃屎有时候是必要和合理的，适应了就好。&lt;br /&gt;
-戊：我觉得挺好吃的，凭什么说是屎？&lt;br /&gt;
-己：就是，我怎么就没有吃到过屎呢？你看这看那都是屎才会吃到屎。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>夹带私货和复读机</title>
-        <link>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</link>
-        <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</guid>
-        <description>&lt;p&gt;曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错误”观点的行为，就都有可能被批评为“夹带私货”。&lt;/p&gt;
-
-&lt;p&gt;要是按这个标准来看，只要你是人不是复读机，夹带的就都可能是私货。&lt;br /&gt;
-因为指责者总能找到证据说明你夹带了和他认同的观念不一致的私货，而且为越多的事物设置绝对正确标准的人，越容易找到他人夹带的私货。&lt;br /&gt;
-不许夹带私货的意思，就是取消你作为人发表任何异见的权利，只能在指责者划定的圈子范围内，做他观点的复读机。&lt;/p&gt;
-
-&lt;p&gt;有人说，模仿成人言行的儿童也是复读机吗？&lt;br /&gt;
-如果儿童只会重复模仿的行为，那和复读机确实没什么区别，但儿童模仿是为了学习和最终的独立自主。&lt;br /&gt;
-&lt;a href=&#34;../qingchunqi&#34;&gt;青春期&lt;/a&gt;的叛逆就是开始尝试不再复读，即使闹得矛盾重重、头破血流，也要尝试成为人的自由。&lt;br /&gt;
-有复读机行为不一定不是人，但只会复读，那就很可疑了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>自由意志与主观客观的分界</title>
-        <link>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</link>
-        <pubDate>Fri, 27 Feb 2015 04:52:39 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</guid>
-        <description>&lt;p&gt;有关自由意志是否存在的讨论中，一种观点认为，自由意志与决定论可以兼容的自由意志纯粹是一种感觉，甚至是错觉。&lt;br /&gt;
-即使无法证明或证否自由意志是一种错觉，也可以通过假设该命题成立而与决定论兼容。&lt;/p&gt;
-
-&lt;p&gt;这种错觉从何而来呢？&lt;br /&gt;
-一种看法是，信息不足是自由意志错觉的源头。&lt;br /&gt;
-如 Aether
-在《&lt;a href=&#34;http://aetherwu.com/wei-du-de-cuo-jue/&#34;&gt;有关自由的维度错觉，以及主观和客观问题&lt;/a&gt;》中说：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-&amp;gt; 在我们的世俗视角来看，我们生活于这个世界以内，我们的一切行为受制于这个时空和内在的规则，我们在从右（过去）到左（未来）的历程中，自由是存在的：对于信息不足不充分的我们来说。或者说，这种不充分的信息和时间箭头，支撑了我们对于自由的真实感受。然而这种感受在高维生物的角度来看则是不存在的。也就是说，自由是一种纯主观的感受。&lt;br /&gt;
-&amp;gt; 我们总是在强调人的主观能动性，只不过是因为主观所处的那个特殊的位置（就在现在的边缘差数毫秒到数百毫秒不等的位置），信息不足而导致的误解，这就是作为主观感受而存在的自由感。&lt;/p&gt;
-
-&lt;p&gt;&lt;/blockquote&gt;
-这种差异也带来评价判断是“主观的”还是“客观的”的差异：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-&amp;gt; 信息上的充分导致客观，不够充分，就是所谓的主观。对于我们生活在这个时空的生物来说来说，我们的信息永远是相对不充分的。我们通常所说的客观，总是相对的客观。信息更充分一些，决策就相对更客观一些，信息越少，关键信息越不足，决策就相对更主观一些。&lt;br /&gt;
-&amp;gt; 主观和客观这两个概念并不是所谓的身心二元对立这个古老的哲学难题，而是说信息处理机所掌握的信息的充分必要程度。而从人脑这个信息处理机的角度而言，它的一切有关信息和决策都是主观的，尽管它可以通过科学的实证方法做到尽量客观。&lt;/p&gt;
-
-&lt;p&gt;&lt;/blockquote&gt;
-要注意的是，这种说法不能理解为“信息、知识越多则越没有自由”。&lt;br /&gt;
-只能说，掌握信息更多的人会认为信息更少的人更不自由，他们自己面临的未知并不会变少。&lt;br /&gt;
-也许我们能够一眼看穿低维生物的整个世界，但我们同样也受缚于自身所处的高维度世界。&lt;/p&gt;
-
-&lt;p&gt;至少在我们这个世界中，收集并验证信息需要耗费资源、付出成本。&lt;br /&gt;
-追求完全充分的信息，等于不计一切代价，不考虑最终的收益。&lt;br /&gt;
-当获得更多信息付出的边际成本，大于用之于优化决策所增加的边际收益，那么获取信息的行为就会停在这个边际上，再进一步只会入不敷出，哪怕这是当时收益最佳的策略。&lt;br /&gt;
-也就是说，主观和客观的分界线就是这个获取信息的成本收益平衡边际。&lt;br /&gt;
-在这个意义上，客观并不就比主观更好，不那么客观但更高效的主观决断，仍然有其适用的场景。&lt;br /&gt;
-也许这也是某些政治不正确的偏见生生不息的原因吧。&lt;/p&gt;
-
-&lt;p&gt;换个角度看，在资源有限的世界中，也就永远不会出现全知因而也是完全客观的生物。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E4%B8%BB%E8%A7%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>吃屎</title>
+      <link>https://ioerr.github.io/posts/chishi/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chishi/</guid>
+      <description>𝓧𝓲𝓷 𝓛𝓲： 甲：人应该多吃饭，少吃屎 乙：为什么要吃屎 丙：有没有可能不吃屎 Calon： 丁：不必那么反感，吃屎有时候是必要和合理的，适应了就好。</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/delphij/status/1609060739310051328">𝓧𝓲𝓷 𝓛𝓲</a>：<br>
+甲：人应该多吃饭，少吃屎<br>
+乙：为什么要吃屎<br>
+丙：有没有可能不吃屎</p>
+<p><a href="https://twitter.com/calon/status/1609076575940808705">Calon</a>：<br>
+丁：不必那么反感，吃屎有时候是必要和合理的，适应了就好。<br>
+戊：我觉得挺好吃的，凭什么说是屎？<br>
+己：就是，我怎么就没有吃到过屎呢？你看这看那都是屎才会吃到屎。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>夹带私货和复读机</title>
+      <link>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiadai-sihuo-he-fuduji/</guid>
+      <description>曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错</description>
+      <content:encoded><![CDATA[<p>曾几何时，“夹带私货”成了网络上常见的指责用语，我不知道这个词的准确定义是什么，看上去好像只要是，任何期望获得客观真理的场合，对方表达了“错误”观点的行为，就都有可能被批评为“夹带私货”。</p>
+<p>要是按这个标准来看，只要你是人不是复读机，夹带的就都可能是私货。<br>
+因为指责者总能找到证据说明你夹带了和他认同的观念不一致的私货，而且为越多的事物设置绝对正确标准的人，越容易找到他人夹带的私货。<br>
+不许夹带私货的意思，就是取消你作为人发表任何异见的权利，只能在指责者划定的圈子范围内，做他观点的复读机。</p>
+<p>有人说，模仿成人言行的儿童也是复读机吗？<br>
+如果儿童只会重复模仿的行为，那和复读机确实没什么区别，但儿童模仿是为了学习和最终的独立自主。<br>
+<a href="../qingchunqi">青春期</a>的叛逆就是开始尝试不再复读，即使闹得矛盾重重、头破血流，也要尝试成为人的自由。<br>
+有复读机行为不一定不是人，但只会复读，那就很可疑了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>自由意志与主观客观的分界</title>
+      <link>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</link>
+      <pubDate>Fri, 27 Feb 2015 04:52:39 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyouyizhi-yu-zhuguan-keguan-de-fenjie/</guid>
+      <description>有关自由意志是否存在的讨论中，一种观点认为，自由意志与决定论可以兼容的自由意志纯粹是一种感觉，甚至是错觉。 即使无法证明或证否自由意志是一种错</description>
+      <content:encoded><![CDATA[<p>有关自由意志是否存在的讨论中，一种观点认为，自由意志与决定论可以兼容的自由意志纯粹是一种感觉，甚至是错觉。<br>
+即使无法证明或证否自由意志是一种错觉，也可以通过假设该命题成立而与决定论兼容。</p>
+<p>这种错觉从何而来呢？<br>
+一种看法是，信息不足是自由意志错觉的源头。<br>
+如 Aether<br>
+在《<a href="http://aetherwu.com/wei-du-de-cuo-jue/">有关自由的维度错觉，以及主观和客观问题</a>》中说：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>至少在我们这个世界中，收集并验证信息需要耗费资源、付出成本。<br>
+追求完全充分的信息，等于不计一切代价，不考虑最终的收益。<br>
+当获得更多信息付出的边际成本，大于用之于优化决策所增加的边际收益，那么获取信息的行为就会停在这个边际上，再进一步只会入不敷出，哪怕这是当时收益最佳的策略。<br>
+也就是说，主观和客观的分界线就是这个获取信息的成本收益平衡边际。<br>
+在这个意义上，客观并不就比主观更好，不那么客观但更高效的主观决断，仍然有其适用的场景。<br>
+也许这也是某些政治不正确的偏见生生不息的原因吧。</p>
+<p>换个角度看，在资源有限的世界中，也就永远不会出现全知因而也是完全客观的生物。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

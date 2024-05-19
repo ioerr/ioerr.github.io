@@ -1,31 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>房子 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%88%BF%E5%AD%90/</link>
     <description>Recent content in 房子 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 19 Jul 2008 14:08:40 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%88%BF%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>没有房子的悲哀</title>
-        <link>https://ioerr.github.io/posts/meiyou-fangzi-de-beiai/</link>
-        <pubDate>Sat, 19 Jul 2008 14:08:40 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/meiyou-fangzi-de-beiai/</guid>
-        <description>&lt;p&gt;为什么很多人会觉得蜗牛可爱而蛞蝓很恶心呢？这就是没有房子的悲哀啊…&lt;br /&gt;
-为什么很多人会觉得乌龟安全而蛇很危险呢？这就是没有房子的悲哀啊…&lt;br /&gt;
-为什么很多人会觉得蜜蜂优秀而苍蝇很无良呢？这就是没有房子的悲哀啊…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%88%BF%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>没有房子的悲哀</title>
+      <link>https://ioerr.github.io/posts/meiyou-fangzi-de-beiai/</link>
+      <pubDate>Sat, 19 Jul 2008 14:08:40 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/meiyou-fangzi-de-beiai/</guid>
+      <description>为什么很多人会觉得蜗牛可爱而蛞蝓很恶心呢？这就是没有房子的悲哀啊… 为什么很多人会觉得乌龟安全而蛇很危险呢？这就是没有房子的悲哀啊… 为什么很多</description>
+      <content:encoded><![CDATA[<p>为什么很多人会觉得蜗牛可爱而蛞蝓很恶心呢？这就是没有房子的悲哀啊…<br>
+为什么很多人会觉得乌龟安全而蛇很危险呢？这就是没有房子的悲哀啊…<br>
+为什么很多人会觉得蜜蜂优秀而苍蝇很无良呢？这就是没有房子的悲哀啊…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

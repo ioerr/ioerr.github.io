@@ -1,59 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>台词 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8F%B0%E8%AF%8D/</link>
     <description>Recent content in 台词 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 29 Sep 2008 18:42:51 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8F%B0%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>真宅</title>
-        <link>https://ioerr.github.io/posts/zhenzhai/</link>
-        <pubDate>Mon, 29 Sep 2008 18:42:51 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhenzhai/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.urahorror.com/&#34;&gt;这个网站&lt;/a&gt;提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。&lt;/p&gt;
-
-&lt;p&gt;归其真宅。——《列子·天瑞》&lt;br /&gt;
-其中，真宅的含义是：人死后的真正归宿…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://supergm.net/movie/&#34;&gt;台词网&lt;/a&gt;，收集各部电影中的经典台词，每个人都可以发表。&lt;br /&gt;
-但是，为什么右上角的精选台词每次都是这一句啊？&lt;br /&gt;
-“ 精選台詞： 我已經沒有特異功能了，還留在這邊惹人嫌嗎！？ ”&lt;/p&gt;
-
-&lt;p&gt;几天不见，&lt;a href=&#34;http://v.youku.com/v_show/id_XNDQwNzE5NDQ=.html&#34;&gt;石家庄计算机职业学院的月饼&lt;/a&gt;进化成了&lt;a href=&#34;http://you.video.sina.com.cn/b/16405728-1468195903.html&#34;&gt;兵器月饼东方同步版&lt;/a&gt;。月饼自重！同步自重！囧&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://friendfeed.com/e/6c14c842-c189-6e67-533e-7c8efa774768/Jimmy-Charlie-George/&#34;&gt;无聊人的游戏&lt;/a&gt;：&lt;br /&gt;
-杜子美＝杜 Jimmy&lt;br /&gt;
-韩昌黎＝韩 Charlie&lt;br /&gt;
-辛佐治＝辛 George&lt;br /&gt;
-张九龄＝张 Jolin（蔡依林泪流满面）&lt;br /&gt;
-白居易＝白 Joey/Joe&lt;br /&gt;
-范成大＝范 Chandler&lt;br /&gt;
-孔仲尼＝孔 Johnny/Johnnie&lt;br /&gt;
-胡锦涛＝Who Gentle&lt;br /&gt;
-温家宝＝When Jabber&lt;br /&gt;
-感谢 Jessie 和 Chouti 的贡献！&lt;/p&gt;
-
-&lt;p&gt;母亲啊共产党，翻译过来就是：娘CP&lt;/p&gt;
-
-&lt;p&gt;附送一支很好笑的泰国啤酒广告：&lt;/p&gt;
-
-&lt;p&gt;第一段实在是太容易引起共鸣了！&lt;/p&gt;
-
-&lt;p&gt;最后，本 blog
-经过几天的放风之后，貌似又被踢出了墙外，还好已经顺利的把回复区的表情恢复了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8F%B0%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>真宅</title>
+      <link>https://ioerr.github.io/posts/zhenzhai/</link>
+      <pubDate>Mon, 29 Sep 2008 18:42:51 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhenzhai/</guid>
+      <description>这个网站提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。 归其真宅。——《列子</description>
+      <content:encoded><![CDATA[<p><a href="http://www.urahorror.com/">这个网站</a>提供了几段恐怖、惊悚风格的视频，可是感觉效果做的太假了一点，本来还将信将疑的，一看到那么明显的破绽就彻底囧化了。</p>
+<p>归其真宅。——《列子·天瑞》<br>
+其中，真宅的含义是：人死后的真正归宿…</p>
+<p><a href="http://supergm.net/movie/">台词网</a>，收集各部电影中的经典台词，每个人都可以发表。<br>
+但是，为什么右上角的精选台词每次都是这一句啊？<br>
+“ 精選台詞： 我已經沒有特異功能了，還留在這邊惹人嫌嗎！？ ”</p>
+<p>几天不见，<a href="http://v.youku.com/v_show/id_XNDQwNzE5NDQ=.html">石家庄计算机职业学院的月饼</a>进化成了<a href="http://you.video.sina.com.cn/b/16405728-1468195903.html">兵器月饼东方同步版</a>。月饼自重！同步自重！囧</p>
+<p><a href="http://friendfeed.com/e/6c14c842-c189-6e67-533e-7c8efa774768/Jimmy-Charlie-George/">无聊人的游戏</a>：<br>
+杜子美＝杜 Jimmy<br>
+韩昌黎＝韩 Charlie<br>
+辛佐治＝辛 George<br>
+张九龄＝张 Jolin（蔡依林泪流满面）<br>
+白居易＝白 Joey/Joe<br>
+范成大＝范 Chandler<br>
+孔仲尼＝孔 Johnny/Johnnie<br>
+胡锦涛＝Who Gentle<br>
+温家宝＝When Jabber<br>
+感谢 Jessie 和 Chouti 的贡献！</p>
+<p>母亲啊共产党，翻译过来就是：娘CP</p>
+<p>附送一支很好笑的泰国啤酒广告：</p>
+<p>第一段实在是太容易引起共鸣了！</p>
+<p>最后，本 blog<br>
+经过几天的放风之后，貌似又被踢出了墙外，还好已经顺利的把回复区的表情恢复了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

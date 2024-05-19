@@ -1,58 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>超市 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%B6%85%E5%B8%82/</link>
     <description>Recent content in 超市 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%B6%85%E5%B8%82/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>被超市控制</title>
-        <link>https://ioerr.github.io/posts/bei-chaoshi-kongzhi/</link>
-        <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bei-chaoshi-kongzhi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/y_g_y_/status/1507078840476221452&#34;&gt;原圭一&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;你们有没有生活被超市控制的感觉呢？超市有什么我就只能买什么&lt;br /&gt;
-下架了喜欢的食物也无法投诉 觉得懊恼，后悔以前没有多买点&lt;br /&gt;
-品类 口味 质量都不由自己决定 除了另找一家超市毫无办法&lt;br /&gt;
-其实超市才是控制你一切日常的deep state&amp;hellip;?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1507241573758619650&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我可以选择不同的超市，或者干脆不去超市啊。超市并没有承诺并承担供应所有商品的责任，又谈何控制呢？&lt;br /&gt;
-它能够提供一小部分我自己无法生产的价廉物美的商品已经很好了。&lt;br /&gt;
-一厢情愿的将自由选择权交给无需为此负责的超市，然后认为自己被它控制，这思路就不正常吧。&lt;/p&gt;
-
-&lt;p&gt;原圭一：&lt;/p&gt;
-
-&lt;p&gt;就是这么一说啦，开个玩笑…严格意义上我的确可以不去超市或者换个超市，但门口最近的超市就是我最常买东西的地方，网上购物也是这家连锁。&lt;br /&gt;
-其他选项在我这边都排除了，地理距离上更远，因为我没有车这样。&lt;br /&gt;
-去其他地方需要一个半小时来回吧&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;/p&gt;
-
-&lt;p&gt;所以实际是被我们懒惰的天性控制，习惯了之后就会觉得理所当然，然后还要甩锅给超市。😂&lt;br /&gt;
-不过存在另一种情况，就是你愿意出钱，超市也完全有利润可赚，但因为超市自身的运营策略原因，就是不愿意提供你想要的商品，还把附近能提供商品的竞争对手挤掉了。&lt;/p&gt;
-
-&lt;p&gt;原圭一：&lt;/p&gt;
-
-&lt;p&gt;我懒是真的😂&lt;br /&gt;
-它没有故意不提供 就自然淘汰了大概不太好卖的东西 我以后多买点吧&lt;br /&gt;
-超市并没有“统治”我们 而是由于行动方式的限制 客观上被有限的可能性局限了 造成了事实上的“统治”&lt;br /&gt;
-还是网购好啊&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%B6%85%E5%B8%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>被超市控制</title>
+      <link>https://ioerr.github.io/posts/bei-chaoshi-kongzhi/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bei-chaoshi-kongzhi/</guid>
+      <description>原圭一： 你们有没有生活被超市控制的感觉呢？超市有什么我就只能买什么 下架了喜欢的食物也无法投诉 觉得懊恼，后悔以前没有多买点 品类 口味 质量都不由自</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/y_g_y_/status/1507078840476221452">原圭一</a>：</p>
+<p>你们有没有生活被超市控制的感觉呢？超市有什么我就只能买什么<br>
+下架了喜欢的食物也无法投诉 觉得懊恼，后悔以前没有多买点<br>
+品类 口味 质量都不由自己决定 除了另找一家超市毫无办法<br>
+其实超市才是控制你一切日常的deep state&hellip;?</p>
+<p><a href="https://twitter.com/calon/status/1507241573758619650">Calon</a>：</p>
+<p>我可以选择不同的超市，或者干脆不去超市啊。超市并没有承诺并承担供应所有商品的责任，又谈何控制呢？<br>
+它能够提供一小部分我自己无法生产的价廉物美的商品已经很好了。<br>
+一厢情愿的将自由选择权交给无需为此负责的超市，然后认为自己被它控制，这思路就不正常吧。</p>
+<p>原圭一：</p>
+<p>就是这么一说啦，开个玩笑…严格意义上我的确可以不去超市或者换个超市，但门口最近的超市就是我最常买东西的地方，网上购物也是这家连锁。<br>
+其他选项在我这边都排除了，地理距离上更远，因为我没有车这样。<br>
+去其他地方需要一个半小时来回吧</p>
+<p>Calon：</p>
+<p>所以实际是被我们懒惰的天性控制，习惯了之后就会觉得理所当然，然后还要甩锅给超市。😂<br>
+不过存在另一种情况，就是你愿意出钱，超市也完全有利润可赚，但因为超市自身的运营策略原因，就是不愿意提供你想要的商品，还把附近能提供商品的竞争对手挤掉了。</p>
+<p>原圭一：</p>
+<p>我懒是真的😂<br>
+它没有故意不提供 就自然淘汰了大概不太好卖的东西 我以后多买点吧<br>
+超市并没有“统治”我们 而是由于行动方式的限制 客观上被有限的可能性局限了 造成了事实上的“统治”<br>
+还是网购好啊</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

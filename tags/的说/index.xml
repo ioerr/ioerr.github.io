@@ -1,37 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>的说 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%9A%84%E8%AF%B4/</link>
     <description>Recent content in 的说 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 17 Dec 2008 14:20:43 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%9A%84%E8%AF%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>“的说”的来源</title>
-        <link>https://ioerr.github.io/posts/deshuo-de-laiyuan/</link>
-        <pubDate>Wed, 17 Dec 2008 14:20:43 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/deshuo-de-laiyuan/</guid>
-        <description>&lt;p&gt;经常听见有人说话结尾带个“的说”，比如“这个东西很好玩的说”，那么最开始是怎么来的呢？&lt;/p&gt;
-
-&lt;p&gt;在 Twitter
-上问了一下，&lt;a href=&#34;http://twitter.com/lilimarleen/statuses/1062171653&#34;&gt;lilimarleen&lt;/a&gt;
-和 &lt;a href=&#34;http://twitter.com/kDolphin/statuses/1061982314&#34;&gt;kDolphin&lt;/a&gt;
-都说是来自台湾，&lt;a href=&#34;http://twitter.com/sopp/statuses/1062095947&#34;&gt;sopp&lt;/a&gt;
-则认为是出自日语“っす”，作为句末结束语。&lt;br /&gt;
-在里屋询问，大部分人认为是出自日语中的“っす”或者“です”（不懂日语，是不是这两个差不多？），罗马发音是
-desu，小部分人则认为是从四川方言“的嗦”发展来的，还有说法是日文的用法来自四川方言…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%9A%84%E8%AF%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“的说”的来源</title>
+      <link>https://ioerr.github.io/posts/deshuo-de-laiyuan/</link>
+      <pubDate>Wed, 17 Dec 2008 14:20:43 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/deshuo-de-laiyuan/</guid>
+      <description>经常听见有人说话结尾带个“的说”，比如“这个东西很好玩的说”，那么最开始是怎么来的呢？ 在 Twitter 上问了一下，lilimarleen 和 kDolphin 都说是来自台</description>
+      <content:encoded><![CDATA[<p>经常听见有人说话结尾带个“的说”，比如“这个东西很好玩的说”，那么最开始是怎么来的呢？</p>
+<p>在 Twitter<br>
+上问了一下，<a href="http://twitter.com/lilimarleen/statuses/1062171653">lilimarleen</a><br>
+和 <a href="http://twitter.com/kDolphin/statuses/1061982314">kDolphin</a><br>
+都说是来自台湾，<a href="http://twitter.com/sopp/statuses/1062095947">sopp</a><br>
+则认为是出自日语“っす”，作为句末结束语。<br>
+在里屋询问，大部分人认为是出自日语中的“っす”或者“です”（不懂日语，是不是这两个差不多？），罗马发音是<br>
+desu，小部分人则认为是从四川方言“的嗦”发展来的，还有说法是日文的用法来自四川方言…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

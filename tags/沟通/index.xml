@@ -1,69 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>沟通 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B2%9F%E9%80%9A/</link>
     <description>Recent content in 沟通 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B2%9F%E9%80%9A/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>人类最强大的工具</title>
-        <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
-        <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/songma/status/1600831363388944384&#34;&gt;Song Ma&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1600872615064653824&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我认为是广义的“语言”。&lt;br /&gt;
-语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。&lt;br /&gt;
-其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。&lt;/p&gt;
-
-&lt;p&gt;从这个角度看，电脑的信息沟通效率比人类高得多。&lt;br /&gt;
-不过电脑需要至少具备两个能力完全胜过人类：&lt;br /&gt;
-一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；&lt;br /&gt;
-第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>语言是为了交流</title>
-        <link>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</link>
-        <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/haoel&#34;&gt;Hao Chen&lt;/a&gt;：&lt;br /&gt;
-中文夹带英文单词有问题吗？我们程序员天天不都这样说话吗？——“那个Java的bug你看了吗？什么时候可以fix啊？commit前记得先开个issue，这样也好track，然后提个PR做个Code Review，对了，merge前加个对应的test case，然后跑个regression，以免break其它的feature……”，这样的表达方式不是很顺畅吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/FreiheitYu&#34;&gt;YU&lt;/a&gt;：&lt;br /&gt;
-这个问题是没有意义的，所以不会有答案&lt;br /&gt;
-有意义的问题是：什么场景下中英混杂是可以接受的，什么场景下是不可以接受的&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/&#34;&gt;calon&lt;/a&gt;：&lt;br /&gt;
-语言是为了交流，双方都可以接受、不必翻译过来就能迅速理解的混杂表达没问题，不顾及对方的转换成本导致影响沟通效率的就有问题。&lt;/p&gt;
-
-&lt;p&gt;这让我想起了一场 Marianna Pascal 的 TEDxPenangRoad 演讲：&lt;br /&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/mwpdffpixBY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;语言只是用来得到沟通交流结果的工具，只要能够完成这个任务就好，不必当作一件艺术品来追求纯洁和完美。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B2%9F%E9%80%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人类最强大的工具</title>
+      <link>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/renlei-zui-qiangda-de-gongju/</guid>
+      <description>Song Ma： 开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/songma/status/1600831363388944384">Song Ma</a>：</p>
+<p>开个话题：都说人与动物的区别是人类发明工具。你觉得人类有史以来发明的最强大工具是什么？我觉得是智能手机。从便携性、功能性、娱乐性来说，现在任何一个普通人，只要负担得起，可以有一个小小机器获取海量信息，处理财务，查看地图，找到人生伴侣，学习知识，阅读书籍，看电影听音乐等等无限可能。</p>
+<p><a href="https://twitter.com/calon/status/1600872615064653824">Calon</a>：</p>
+<p>我认为是广义的“语言”。<br>
+语言、文字、数学、音乐、绘画、舞蹈、计算机程序都算在内，都是可以用于沟通交流的信息编码方式。<br>
+其他生物也有各种频道的电磁波、各种信息素以及舞蹈动作和声音来传递信息，但人类的信息编码解码工具与人类本身发达的识别表达能力相辅相成，效率非常高——只是在有的方面因为先天能力缺失仍无法胜过某些生物。</p>
+<p>从这个角度看，电脑的信息沟通效率比人类高得多。<br>
+不过电脑需要至少具备两个能力完全胜过人类：<br>
+一个是在面对复杂的未知世界时，创造性的发现模式规律的能力，也就是认知能力；<br>
+第二个是面对未知的信息时，构建新的信息编码解码方案，也就是发明新的语言。只是人类意识和知识的高级复读机还不够班。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>语言是为了交流</title>
+      <link>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yuyan-shi-weile-jiaoliu/</guid>
+      <description>Hao Chen： 中文夹带英文单词有问题吗？我们程序员天天不都这样说话吗？——“那个Java的bug你看了吗？什么时候可以fix啊？commit前</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/haoel">Hao Chen</a>：<br>
+中文夹带英文单词有问题吗？我们程序员天天不都这样说话吗？——“那个Java的bug你看了吗？什么时候可以fix啊？commit前记得先开个issue，这样也好track，然后提个PR做个Code Review，对了，merge前加个对应的test case，然后跑个regression，以免break其它的feature……”，这样的表达方式不是很顺畅吗？</p>
+<p><a href="https://twitter.com/FreiheitYu">YU</a>：<br>
+这个问题是没有意义的，所以不会有答案<br>
+有意义的问题是：什么场景下中英混杂是可以接受的，什么场景下是不可以接受的</p>
+<p><a href="https://twitter.com/calon/">calon</a>：<br>
+语言是为了交流，双方都可以接受、不必翻译过来就能迅速理解的混杂表达没问题，不顾及对方的转换成本导致影响沟通效率的就有问题。</p>
+<p>这让我想起了一场 Marianna Pascal 的 TEDxPenangRoad 演讲：</p>
+<!-- raw HTML omitted -->
+<p>语言只是用来得到沟通交流结果的工具，只要能够完成这个任务就好，不必当作一件艺术品来追求纯洁和完美。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

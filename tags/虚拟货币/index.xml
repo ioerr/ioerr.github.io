@@ -1,116 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>虚拟货币 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/</link>
     <description>Recent content in 虚拟货币 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>屎特币</title>
-        <link>https://ioerr.github.io/posts/shit-coin/</link>
-        <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shit-coin/</guid>
-        <description>&lt;p&gt;看到最近炒作&lt;a href=&#34;https://www.shibatoken.com/&#34;&gt;狗狗币 SHIB（Shiba Inu Coin/Shiba Token）&lt;/a&gt;，忽然想到能否搞一个“屎特币”（Shit Coin）出来。&lt;/p&gt;
-
-&lt;p&gt;其优点随便数数就有许多：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;屎，自古以来早有“黄金”之称，比信息时代才出现的比特概念早到不知道哪里去了；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以通过生物特征（残留的人体组织、细菌的 DNA 片段）保证其唯一性；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;产量受粮食资源限制，吃多少拉多少，不会无限制超发；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以通过拉稀实现无限可分；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以随身携带，落地交易；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;交易所随处可见；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;不会浪费电力、计算力、磁盘空间，比其他虚拟币环保多了；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可降解、施肥、发电，内含价值；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人人皆可产出且产量相近，真正的去中心和属于人民的货币！&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;简直前途无量，只要你能说服对方相信它的价值（或者升值潜力）！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mrseaox&#34;&gt;Mr. Sea Ox&lt;/a&gt; 则在这之前宣布他发明了 &lt;a href=&#34;https://twitter.com/mrseaox/status/1387201052622082053&#34;&gt;Proof-of-Shit&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;证明自己大便后即可挖矿拿币，消化系统资源有限&lt;br /&gt;
-第一天，所有人拼命吃饭挖矿不浪费，药店泻药售罄&lt;br /&gt;
-第二天，有余粮的财主们找穷人免费提供给食宿代其 PoS，当然都配了洗手间&lt;br /&gt;
-第三天，非洲儿童都吃上了饭&lt;br /&gt;
-之后，粮食问题，贫穷和饥饿的问题都解决了&lt;br /&gt;
-盛世无饥馁，何须耕织忙？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;注：币圈已经有 Shitcoin 的说法，一般是指无价值的垃圾数字货币。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Bitcoin</title>
-        <link>https://ioerr.github.io/posts/bitcoin/</link>
-        <pubDate>Fri, 20 May 2011 15:32:02 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bitcoin/</guid>
-        <description>&lt;p&gt;最近 &lt;a href=&#34;http://www.bitcoin.org/&#34;&gt;Bitcoin&lt;/a&gt; 虚拟货币的话题引人注目，比如36氪的《&lt;a href=&#34;http://www.36kr.com/dangerous-bitcoin-p2p-currency/&#34;&gt;Bitcoin P2P 货币：有史以来最危险的项目&lt;/a&gt;》和云风的《&lt;a href=&#34;http://blog.codingnow.com/2011/05/bitcoin.html&#34;&gt;Bitcoin 的基本原理&lt;/a&gt;》到处被转载和讨论，说明大家的兴趣高昂。&lt;/p&gt;
-
-&lt;p&gt;我也觉得这个想法非常有意思，但本能地觉得有什么地方不太对头，对超乎寻常的美好是不是应该有超乎寻常的怀疑呢？&lt;/p&gt;
-
-&lt;p&gt;找 Bitcoin 相关的资料看了一下，特别是 &lt;a href=&#34;http://www.quora.com/Bitcoin/Is-the-cryptocurrency-Bitcoin-a-good-idea?&#34;&gt;Quora 上的这轮讨论&lt;/a&gt;，我的经济学和货币理论知识属于门外汉级别，综合别人的观点再结合自己的想法来谈谈，希望有专家出来指正和解惑。&lt;/p&gt;
-
-&lt;p&gt;● Bitcoin 的算法不关心供求关系，与市场上的商品价值、经济总量没有任何关系，因而其币值是不稳定和不可控的，而且在通货膨胀或通货紧缩时没有与市场供求关系相关的负反馈手段来进行遏制。币值不稳定本身会增加交易成本，这与 Bitcoin 的初衷是相悖的，也与&lt;a href=&#34;http://www.cenet.org.cn/article.asp?articleid=25227&#34;&gt;货币的基本用途&lt;/a&gt;相悖。&lt;/p&gt;
-
-&lt;p&gt;● Bitcoin 就像凭空发明的度量衡单位，不能额外满足多少有利于市场健康运作的实际需求。&lt;/p&gt;
-
-&lt;p&gt;● 个人设备损坏可能导致永久损失 Bitcoin，对个人而言这比“传统”的虚拟货币更加脆弱。&lt;/p&gt;
-
-&lt;p&gt;● Bitcoin 是凭空产生的、没有任何实物和实体为其担保的通货，其他虚拟货币都是与真实货币挂钩才进入市场的，追根朔源最终由发行货币的银行为其担保，有政府的税收和国家的财富作为基础，而 Bitcoin 是没有担保就进入市场流通并兑换现实中有担保的货币。&lt;/p&gt;
-
-&lt;p&gt;● 当 Bitcoin 出现安全问题时，不会像金银一样物理存在不受影响，而且会影响所有持有者，而担保的责任会被摊到所有持有人身上，结果就是没有任何人能负责，先前白白耗费的计算能力也没有任何偿还作用，击鼓传花的游戏停止了，Bitcoin 的泡沫就会破裂。&lt;/p&gt;
-
-&lt;p&gt;● 信任 Bitcoin 超过信任政府和银行的前提是民众都信任 Bitcoin 的算法和机制（打死你我也不相信大众会这么 geeky），除非他们是&lt;a href=&#34;http://www.36kr.com/bitcoin-investment-vehicle/&#34;&gt;为了投机而使用 Bitcoin&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;● 如果发现现有的机制有问题，或者太多人加入导致计算和存储开销呈指数级别增长，Bitcoin 是要让所有生产者升级程序算法吗？会影响原来持有的 Bitcoin吗？会影响来不及升级的人吗？如果有人不升级怎么办？&lt;/p&gt;
-
-&lt;p&gt;● 直觉告诉我白白浪费时间和电力制造 Bitcoin 这样的纯符号是很蠢的行为。可能我的直觉是错的，但货币是否具有购买能力应取决于人们是否认可它的信用担保，而不是取决于是否耗费财富制造了它。&lt;/p&gt;
-
-&lt;p&gt;● 耗费时间、电力利用计算能力生产 Bitcoin 的人本质上是在投机。先生产和购入 Bitcoin 的人拉更多的人进来生产、兑换它，期望 Bitcoin 在手中升值之后抛给下家。宣传 Bitcoin 好处的文章会告诉你，它将会升值，进一步升值，反正越早参与进来从升值得到的好处越大。&lt;/p&gt;
-
-&lt;p&gt;为啥我嗅到了荷兰郁金香泡沫和庞氏骗局的气味呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://songshuhui.net/archives/45531&#34;&gt;科学松鼠会刊过这样一则漫画&lt;/a&gt;（&lt;a href=&#34;http://spikedmath.com/183.html&#34;&gt;原作地址&lt;/a&gt;），物理学家、化学家、生物学家等都可能因为试验出错毁灭世界，但数学家人畜无害。&lt;br /&gt;
-但假如 Bitcoin 机制和算法大规模应用起来真的非常危险又能蛊惑人心，那么要恭喜数学家们了，你们的历史地位又要升格了，无政府主义者和计算机专家们也能跟着鸡犬升天——除非不招人待见的经济学家们出来拯救世界。&lt;/p&gt;
-
-&lt;p&gt;话说回来，就算 Bitcoin 没有看上去的那么美好，这种尝试也是挺好玩的。最好是有更多的虚拟货币出来相互竞争，等那些实际是投机工具的虚拟货币死在泡沫和直接竞争里面后，剩下的那个可能就是我们真正想要的东西了。&lt;/p&gt;
-
-&lt;p&gt;另：&lt;/p&gt;
-
-&lt;p&gt;我觉得没有必要以不受监控的地下金钱交易为理由批评虚拟货币，遏制非法交易不是这么玩的，如果虚拟货币大大有利于降低所有交易的成本，这样做得不偿失。&lt;/p&gt;
-
-&lt;p&gt;我也不认同环保主义者以浪费能源为理由反对 Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇人埋和挖钞票一样愚蠢。但凯恩斯理论的缺陷不是因为这种看上去愚蠢的现象，而应该是实践的失败。&lt;/p&gt;
-
-&lt;p&gt;交易没有政府监管和控制也不是什么致命的问题，反而我会很欢迎无需政府插手的交易机制，前提是该机制要被证明确实成功，不是玩不下去的骗局。&lt;br /&gt;
-还有，Bitcoin 和哈耶克的非国家化的货币本质上也不是一码事。&lt;/p&gt;
-
-&lt;p&gt;有人认为 Bitcoin 的目的不是取代目前的主流货币，我认为倘若这样就没有意思了，否则无政府主义者和货币阴谋论主义者完全没必要如此激动。没有希望成为主流货币的虚拟货币不是好货币。&lt;/p&gt;
-
-&lt;p&gt;最后，本来想写一篇《论屎作为货币的优劣》，介绍屎的去中心化生产机制、与每个人一一对应的永远有限的产量（个人超发的结果是自杀）、唯一形态带来的保密性和安全性、无需浪费多余的能源、便携性、各国通用无需多余语言描述…虽然缺点也不少，比如可能被直接用于恐怖袭击（乾坤一掷？），但只要有足够多的人愿意使用它买卖，它还是有望立足于世界货币之林的。&lt;br /&gt;
-但担心热心支持 Bitcoin 并积极挖矿甚至不惜在页面上挂利用读者挖矿的脚本的朋友们反应过度以为我是恶意嘲讽，遂作罢。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>屎特币</title>
+      <link>https://ioerr.github.io/posts/shit-coin/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shit-coin/</guid>
+      <description>看到最近炒作狗狗币 SHIB（Shiba Inu Coin/Shiba Token），忽然想到能否搞一个“屎特币”（Shit Coin）出来。 其优点随便数数就有许多： 屎，自</description>
+      <content:encoded><![CDATA[<p>看到最近炒作<a href="https://www.shibatoken.com/">狗狗币 SHIB（Shiba Inu Coin/Shiba Token）</a>，忽然想到能否搞一个“屎特币”（Shit Coin）出来。</p>
+<p>其优点随便数数就有许多：</p>
+<ul>
+<li>屎，自古以来早有“黄金”之称，比信息时代才出现的比特概念早到不知道哪里去了；</li>
+<li>可以通过生物特征（残留的人体组织、细菌的 DNA 片段）保证其唯一性；</li>
+<li>产量受粮食资源限制，吃多少拉多少，不会无限制超发；</li>
+<li>可以通过拉稀实现无限可分；</li>
+<li>可以随身携带，落地交易；</li>
+<li>交易所随处可见；</li>
+<li>不会浪费电力、计算力、磁盘空间，比其他虚拟币环保多了；</li>
+<li>可降解、施肥、发电，内含价值；</li>
+<li>人人皆可产出且产量相近，真正的去中心和属于人民的货币！</li>
+</ul>
+<p>简直前途无量，只要你能说服对方相信它的价值（或者升值潜力）！</p>
+<p><a href="https://twitter.com/mrseaox">Mr. Sea Ox</a> 则在这之前宣布他发明了 <a href="https://twitter.com/mrseaox/status/1387201052622082053">Proof-of-Shit</a>：</p>
+<blockquote>
+<p>证明自己大便后即可挖矿拿币，消化系统资源有限<br>
+第一天，所有人拼命吃饭挖矿不浪费，药店泻药售罄<br>
+第二天，有余粮的财主们找穷人免费提供给食宿代其 PoS，当然都配了洗手间<br>
+第三天，非洲儿童都吃上了饭<br>
+之后，粮食问题，贫穷和饥饿的问题都解决了<br>
+盛世无饥馁，何须耕织忙？</p>
+</blockquote>
+<p>注：币圈已经有 Shitcoin 的说法，一般是指无价值的垃圾数字货币。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bitcoin</title>
+      <link>https://ioerr.github.io/posts/bitcoin/</link>
+      <pubDate>Fri, 20 May 2011 15:32:02 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bitcoin/</guid>
+      <description>最近 Bitcoin 虚拟货币的话题引人注目，比如36氪的《Bitcoin P2P 货币：有史以来最危险的项目》和云风的《Bitcoin 的基本原理》到处被转载和讨论</description>
+      <content:encoded><![CDATA[<p>最近 <a href="http://www.bitcoin.org/">Bitcoin</a> 虚拟货币的话题引人注目，比如36氪的《<a href="http://www.36kr.com/dangerous-bitcoin-p2p-currency/">Bitcoin P2P 货币：有史以来最危险的项目</a>》和云风的《<a href="http://blog.codingnow.com/2011/05/bitcoin.html">Bitcoin 的基本原理</a>》到处被转载和讨论，说明大家的兴趣高昂。</p>
+<p>我也觉得这个想法非常有意思，但本能地觉得有什么地方不太对头，对超乎寻常的美好是不是应该有超乎寻常的怀疑呢？</p>
+<p>找 Bitcoin 相关的资料看了一下，特别是 <a href="http://www.quora.com/Bitcoin/Is-the-cryptocurrency-Bitcoin-a-good-idea?">Quora 上的这轮讨论</a>，我的经济学和货币理论知识属于门外汉级别，综合别人的观点再结合自己的想法来谈谈，希望有专家出来指正和解惑。</p>
+<p>● Bitcoin 的算法不关心供求关系，与市场上的商品价值、经济总量没有任何关系，因而其币值是不稳定和不可控的，而且在通货膨胀或通货紧缩时没有与市场供求关系相关的负反馈手段来进行遏制。币值不稳定本身会增加交易成本，这与 Bitcoin 的初衷是相悖的，也与<a href="http://www.cenet.org.cn/article.asp?articleid=25227">货币的基本用途</a>相悖。</p>
+<p>● Bitcoin 就像凭空发明的度量衡单位，不能额外满足多少有利于市场健康运作的实际需求。</p>
+<p>● 个人设备损坏可能导致永久损失 Bitcoin，对个人而言这比“传统”的虚拟货币更加脆弱。</p>
+<p>● Bitcoin 是凭空产生的、没有任何实物和实体为其担保的通货，其他虚拟货币都是与真实货币挂钩才进入市场的，追根朔源最终由发行货币的银行为其担保，有政府的税收和国家的财富作为基础，而 Bitcoin 是没有担保就进入市场流通并兑换现实中有担保的货币。</p>
+<p>● 当 Bitcoin 出现安全问题时，不会像金银一样物理存在不受影响，而且会影响所有持有者，而担保的责任会被摊到所有持有人身上，结果就是没有任何人能负责，先前白白耗费的计算能力也没有任何偿还作用，击鼓传花的游戏停止了，Bitcoin 的泡沫就会破裂。</p>
+<p>● 信任 Bitcoin 超过信任政府和银行的前提是民众都信任 Bitcoin 的算法和机制（打死你我也不相信大众会这么 geeky），除非他们是<a href="http://www.36kr.com/bitcoin-investment-vehicle/">为了投机而使用 Bitcoin</a>。</p>
+<p>● 如果发现现有的机制有问题，或者太多人加入导致计算和存储开销呈指数级别增长，Bitcoin 是要让所有生产者升级程序算法吗？会影响原来持有的 Bitcoin吗？会影响来不及升级的人吗？如果有人不升级怎么办？</p>
+<p>● 直觉告诉我白白浪费时间和电力制造 Bitcoin 这样的纯符号是很蠢的行为。可能我的直觉是错的，但货币是否具有购买能力应取决于人们是否认可它的信用担保，而不是取决于是否耗费财富制造了它。</p>
+<p>● 耗费时间、电力利用计算能力生产 Bitcoin 的人本质上是在投机。先生产和购入 Bitcoin 的人拉更多的人进来生产、兑换它，期望 Bitcoin 在手中升值之后抛给下家。宣传 Bitcoin 好处的文章会告诉你，它将会升值，进一步升值，反正越早参与进来从升值得到的好处越大。</p>
+<p>为啥我嗅到了荷兰郁金香泡沫和庞氏骗局的气味呢？</p>
+<p><a href="http://songshuhui.net/archives/45531">科学松鼠会刊过这样一则漫画</a>（<a href="http://spikedmath.com/183.html">原作地址</a>），物理学家、化学家、生物学家等都可能因为试验出错毁灭世界，但数学家人畜无害。<br>
+但假如 Bitcoin 机制和算法大规模应用起来真的非常危险又能蛊惑人心，那么要恭喜数学家们了，你们的历史地位又要升格了，无政府主义者和计算机专家们也能跟着鸡犬升天——除非不招人待见的经济学家们出来拯救世界。</p>
+<p>话说回来，就算 Bitcoin 没有看上去的那么美好，这种尝试也是挺好玩的。最好是有更多的虚拟货币出来相互竞争，等那些实际是投机工具的虚拟货币死在泡沫和直接竞争里面后，剩下的那个可能就是我们真正想要的东西了。</p>
+<p>另：</p>
+<p>我觉得没有必要以不受监控的地下金钱交易为理由批评虚拟货币，遏制非法交易不是这么玩的，如果虚拟货币大大有利于降低所有交易的成本，这样做得不偿失。</p>
+<p>我也不认同环保主义者以浪费能源为理由反对 Bitcoin，我只是觉得白白浪费能源有点像根据凯恩斯的理论雇人埋和挖钞票一样愚蠢。但凯恩斯理论的缺陷不是因为这种看上去愚蠢的现象，而应该是实践的失败。</p>
+<p>交易没有政府监管和控制也不是什么致命的问题，反而我会很欢迎无需政府插手的交易机制，前提是该机制要被证明确实成功，不是玩不下去的骗局。<br>
+还有，Bitcoin 和哈耶克的非国家化的货币本质上也不是一码事。</p>
+<p>有人认为 Bitcoin 的目的不是取代目前的主流货币，我认为倘若这样就没有意思了，否则无政府主义者和货币阴谋论主义者完全没必要如此激动。没有希望成为主流货币的虚拟货币不是好货币。</p>
+<p>最后，本来想写一篇《论屎作为货币的优劣》，介绍屎的去中心化生产机制、与每个人一一对应的永远有限的产量（个人超发的结果是自杀）、唯一形态带来的保密性和安全性、无需浪费多余的能源、便携性、各国通用无需多余语言描述…虽然缺点也不少，比如可能被直接用于恐怖袭击（乾坤一掷？），但只要有足够多的人愿意使用它买卖，它还是有望立足于世界货币之林的。<br>
+但担心热心支持 Bitcoin 并积极挖矿甚至不惜在页面上挂利用读者挖矿的脚本的朋友们反应过度以为我是恶意嘲讽，遂作罢。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

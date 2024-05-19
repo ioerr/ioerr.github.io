@@ -1,626 +1,436 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>扩展 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%89%A9%E5%B1%95/</link>
     <description>Recent content in 扩展 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>SingleFile</title>
-        <link>https://ioerr.github.io/posts/singlefile/</link>
-        <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/singlefile/</guid>
-        <description>&lt;p&gt;曾经想过，如果存储空间足够，有没有办法将每天浏览的所有内容都离线保存备查呢？&lt;/p&gt;
-
-&lt;p&gt;毕竟很多网上的信息说不定什么时候就彻底消失了。&lt;br /&gt;
-而且有的时候觉得应该不会再用到的网页信息，偏偏过一段时间就是需要回头检索，已经没法根据地址和页面标题从浏览记录中查到。&lt;/p&gt;
-
-&lt;p&gt;一直没有找到合适的工具，直到今天偶然看到这个 Firefox 扩展：&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/single-file/&#34;&gt;SingleFile&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;它的主要功能平平无奇，就是将完整的页面保存到一个 HTML 文件中，同类功能的扩展有好几个。&lt;/p&gt;
-
-&lt;p&gt;但附加功能就有讲究了，支持自动保存网页，支持定时自动保存，支持压缩页面内容，支持保存有延迟加载的图像，支持自定义保存的文件名，支持配置同名文件覆盖策略，支持配置自动保存的地址，还支持通配符，而且保存文件后还附带保存了原始网址信息。&lt;/p&gt;
-
-&lt;p&gt;因此，你完全可以用它来保存所有浏览记录，也可以当作网页摘录工具——配合 Total Commander 等文件管理工具，不比常见的笔记工具效率低，而且备份还方便、安全多了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Firefox 扩展机制的变化与未来</title>
-        <link>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
-        <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
-        <description>&lt;p&gt;我正在使用 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt; 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。&lt;/p&gt;
-
-&lt;p&gt;最近他&lt;a href=&#34;http://fasezero.com/addons/&#34;&gt;在扩展的主页网站上发表了一篇文章&lt;/a&gt;，大意是：&lt;br /&gt;
-因为 Mozilla Firefox 的扩展机制会&lt;a href=&#34;https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/&#34;&gt;改为 WebExtensions&lt;/a&gt;，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、FindBar Tweak、OmniSidebar、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/&#34;&gt;Puzzle Bars&lt;/a&gt;，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。&lt;/p&gt;
-
-&lt;p&gt;Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。&lt;/p&gt;
-
-&lt;p&gt;然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。&lt;/p&gt;
-
-&lt;p&gt;对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt;、&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/&#34;&gt;Tab Tree&lt;/a&gt; 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。&lt;br /&gt;
-放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;Beyond Australis&lt;/a&gt; 扩展页面下的&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/&#34;&gt;一个评论&lt;/a&gt;说的好：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&amp;rsquo;s the case, why would anyone choose Firefox instead of Chrome?&lt;/p&gt;
-
-&lt;p&gt;Mozilla，你们他妈在想些什么？
-   许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！
-   好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。&lt;br /&gt;
-只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）&lt;br /&gt;
-这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？&lt;/p&gt;
-
-&lt;p&gt;希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 &lt;a href=&#34;https://www.palemoon.org/&#34;&gt;Pale Moon&lt;/a&gt; 这样的替代品会越来越成熟。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>选择邮件客户端</title>
-        <link>https://ioerr.github.io/posts/xuanze-youjian-kehuduan/</link>
-        <pubDate>Mon, 25 Jan 2010 16:28:35 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xuanze-youjian-kehuduan/</guid>
-        <description>
-
-&lt;p&gt;&lt;strong&gt;Becky! The Internet Mail&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;用了很长一段时间的 &lt;a href=&#34;http://www.rimarts.co.jp/&#34;&gt;Becky!&lt;/a&gt; 作为主力邮件客户端（感谢 &lt;a href=&#34;http://wp.najja.org/&#34;&gt;Najja&lt;/a&gt; 的推荐），虽然有许多其他客户端无法比拟的优点，如：
-搜索速度快，定位方便；
-邮件以单文件形式存档，不需要担心数据库文件出错，不需要老是重建索引；
-海量邮件处理速度快；
-资源占用很低，据我观察，应该是常用邮件客户端中资源占用最低的；
-可以调用外部编辑器编辑纯文本格式邮件；
-修改已收发的邮件头和正文很方便；
-远程管理功能好用；
-界面保守，不花里胡哨，适合工作使用。&lt;/p&gt;
-
-&lt;p&gt;但一些独特的问题却总是无法有效解决：
-通讯录功能简陋，不支持中文地址补全，导入导出非常麻烦；
-经过调教，虽然纯文本模式下中文乱码问题很少出现了，但 HTML 还是有问题；
-不能实现 Gmail 式的会话展示功能，只有树形线索模式；
-转发邮件时，有时候其他邮箱不认附件，如内部网页邮箱系统，不管是内联还是作为附件转发。&lt;/p&gt;
-
-&lt;h2 id=&#34;万般无奈之下-只好另寻替代-先后排除了需要收费-占用资源越来越大-上手就很不习惯的&#34;&gt;万般无奈之下，只好另寻替代，先后排除了需要收费、占用资源越来越大、上手就很不习惯的&lt;/h2&gt;
-
-&lt;p&gt;Bat!，越来越华而不实的几个国产邮件客户端，M\$系的几个客户端，还有一票从 Wakoopa 和维基百科上找到的客户端，都不是非常满意。
-看看人家，觉得不满意操作系统就自己写一个，相比之下差距真大啊…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Foxmail&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;好不容易定下来随大流捡回新版的 Foxmail 来用，结果在设置了几个新邮箱、导入了数百个联系人、数千封邮件之后，一个崩溃让一切都回到了解放前的状态，我不喜欢听刘欢的《重头再来》，于是心灰意懒，转向另一个老朋友 Thunderbird。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thunderbird&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.mozilla.com/Thunderbird/&#34;&gt;Thunderbird&lt;/a&gt; 的毛病其实也不少，比如资源占用和乱码就是以前放弃使用它的原因，这次重新开始使用，不满意的地方还是存在：&lt;/p&gt;
-
-&lt;p&gt;HTML 模式下的邮件撰写编辑器相当的烂，代码混乱，功能弱；
-对中文的支持有小问题，如发出邮件后会自动插入、删除空格，部分文字变成乱码；
-全局搜索功能超级鸡肋，华而不实；
-没有原生的邮件快递功能；
-撰写邮件的时候，多个联系人地址不能批量操作；
-资源占用相对较高；
-远程管理功能弱。&lt;/p&gt;
-
-&lt;p&gt;然则 Thunderbird 的强大就在于有很大的调教空间，让它变得尽量顺手：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/11604&#34;&gt;Address Close
-Button&lt;/a&gt;
-在邮件撰写界面增加快速删除收件人地址的按钮；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/1556&#34;&gt;Allow HTML
-Temp&lt;/a&gt;
-临时显示超文本；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451&#34;&gt;gContactSync&lt;/a&gt;
-最强大贴心的 Google Contacts 同步工具，彻底解决在本地客户端和 Google
-Contacts 同步联系人的需求，比 &lt;a href=&#34;http://www.zindus.com/&#34;&gt;Zindus&lt;/a&gt; 强多了；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/54035&#34;&gt;GMail Conversation
-View&lt;/a&gt;
-实现类似 Gmail 会话模式的功能，比大多数邮件客户端的会话/线索模式强；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nic-nac-project.de/~kaosmos/mboximport-en.html&#34;&gt;ImportExportTools&lt;/a&gt;
-批量导入导出邮件的工具，效率相当高；
-以上两个扩展结合在一起，Thunderbird 导入导出功能很弱的缺点不再烦人；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://forums.mozillazine.org/viewtopic.php?t=72994&#34;&gt;KeyConfig&lt;/a&gt;
-自定义热键，适合键盘快速操作；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/6543&#34;&gt;Nightly Tester
-Tools&lt;/a&gt;
-玩扩展必备，遇到不兼容新版本的优秀扩展，还可以靠这个抢救一下；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/170&#34;&gt;Quote Colors&lt;/a&gt;
-改变邮件引文的文字、背景色；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/347&#34;&gt;QuoteCollapse&lt;/a&gt;
-自动收起引文，避免过长的引文导致阅读困难；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/4984&#34;&gt;Tag Dialog&lt;/a&gt;
-可方便快捷地创建标签，有已有标签列表作为提示，使得 Thunderbird
-的标签功能不那么鸡肋了；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/14395&#34;&gt;tbNotes&lt;/a&gt;
-为邮件增加记事贴用于备忘，可以统一管理记事贴；&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/5373&#34;&gt;ThunderBrowse&lt;/a&gt;
-在 Thunderbird 内部浏览网页，办公室忙里偷闲的好帮手。&lt;/p&gt;
-
-&lt;p&gt;正是某些扩展提供的功能不可替代，所以目前 Thunderbird 还是首选邮件客户端。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Postbox&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.postbox-inc.com/&#34;&gt;Postbox&lt;/a&gt;
-是一个新出现不久的收费邮件客户端，在经过一段时间的 beta 测试后，终于发布正式版本并进化到了1.1。
-可以把 Postbox 看成 Thunderbird 收费加强版——相对于 TB 裸奔版，内核相同的 Postbox 集成了不少实用功能，优化了界面和性能，解决了一些顽疾，上手比 Thunderbird
-要愉快许多，甚至可以用惊艳形容，许多细节和功能非常贴心，确实达到了收费的水准。&lt;/p&gt;
-
-&lt;p&gt;Postbox 也可以使用&lt;a href=&#34;http://www.postbox-inc.com/extensions/&#34;&gt;扩展&lt;/a&gt;，基本都是从 Thunderbird 扩展移植过来的，只可惜数量还很少，如没有 &lt;a href=&#34;https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451&#34;&gt;gContactSync&lt;/a&gt; 只有 Zindus，有特殊需求的人就比较痛苦了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;2024-05-04 更新：&lt;/p&gt;
-
-&lt;p&gt;切换到了国内的老牌邮件客户端&lt;a href=&#34;https://cy-email.com/&#34;&gt;畅邮（DreamMail Pro）&lt;/a&gt;。
-除了界面丑了点，扩展性不太强，基本功能已经足够用了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Chrome 扩展</title>
-        <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
-        <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
-        <description>&lt;p&gt;首先&lt;a href=&#34;http://www.google.com/landing/chrome/beta/&#34;&gt;到这个页面下载 Chrome 4.0
-Beta&lt;/a&gt;，然后&lt;a href=&#34;https://chrome.google.com/extensions/&#34;&gt;去扩展页面&lt;/a&gt;淘吧。&lt;/p&gt;
-
-&lt;p&gt;Chrome 扩展的好处：&lt;br /&gt;
-不需要重启就可以生效和卸载；&lt;br /&gt;
-扩展有独立进程。&lt;/p&gt;
-
-&lt;p&gt;不佳之处则有：&lt;br /&gt;
-官方扩展页面无分类；&lt;br /&gt;
-浏览器内的扩展管理页面找不到扩展的主页；&lt;br /&gt;
-使用其他浏览器时不能先下载再安装。&lt;/p&gt;
-
-&lt;p&gt;等到 Chrome 扩展的丰富程度超过
-Firefox，而性能仍然能够保持最快的水准，我就会更换默认浏览器了。&lt;/p&gt;
-
-&lt;p&gt;目前我已经安装的扩展有：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole&#34;&gt;Diigo
-bookmarks&lt;/a&gt;&lt;br /&gt;
-书签收藏类，可惜 Diigo 至今仍然处于被封杀状态。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/cdngiadmnkhgemkimkhiilgffbjijcie&#34;&gt;FlashBlock&lt;/a&gt;&lt;br /&gt;
-阻挡 Flash 就可以节省很多资源了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/hdokiejnpimakedhajhdlcegeplioahd&#34;&gt;LastPass&lt;/a&gt;&lt;br /&gt;
-密码管理。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/loljledaigphbcpfhfmgopdkppkifgno#&#34;&gt;Lazarus&lt;/a&gt;&lt;br /&gt;
-自动保存输入框内容，防止丢失未提交的文本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi&#34;&gt;Session
-Manager&lt;/a&gt;&lt;br /&gt;
-存储、还原会话。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&#34;&gt;Switchy!&lt;/a&gt;&lt;br /&gt;
-多代理切换。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/imimolldggofidcmfdkcffpjcgaggoaf&#34;&gt;VerticalTabs&lt;/a&gt;&lt;br /&gt;
-标签太多的时候可以以纵列形式查看标签标题文字。&lt;/p&gt;
-
-&lt;p&gt;不少 Firefox 的扩展要继续耐心等待才能在 Chrome
-上看到，有的也许永远也看不到…&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>PK</title>
-        <link>https://ioerr.github.io/posts/pk/</link>
-        <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/pk/</guid>
-        <description>&lt;p&gt;给家里的电脑也装上 &lt;a href=&#34;http://calon.weblogs.us/flickr-pro/&#34;&gt;Chrome&lt;/a&gt;
-试试不干正事的浏览体验，结果…&lt;/p&gt;
-
-&lt;p&gt;遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；&lt;br /&gt;
-没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；&lt;br /&gt;
-快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；&lt;br /&gt;
-拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；&lt;br /&gt;
-便捷直观不如 Download Statusbar，内功修为不及
-DownThemAll!，下载我还用不惯；&lt;br /&gt;
-虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？&lt;br /&gt;
-不支持 Greasemonkey 这样的脚本平台就少了很多精彩…&lt;br /&gt;
-看到超大图片总是会提醒我该使用 Image Zoom 了；&lt;br /&gt;
-Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；&lt;br /&gt;
-如果 Flickr 再被墙奸，就能体会到 Access Flickr! 是多么的有爱了！&lt;br /&gt;
-&lt;a href=&#34;http://calon.weblogs.us/tuijian_firefox_kuozhan_yu_zhuti/&#34;&gt;…&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;所以最终的结论是…&lt;/p&gt;
-
-&lt;p&gt;把 &lt;a href=&#34;http://kmeleon.sourceforge.net/&#34;&gt;K-Meleon&lt;/a&gt; 给替换掉 :023:&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>推荐 Firefox 扩展与主题</title>
-        <link>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</link>
-        <pubDate>Mon, 06 Mar 2006 15:17:06 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</guid>
-        <description>
-
-&lt;p&gt;&lt;strong&gt;扩展&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;加粗的扩展和主题是目前正在使用的。&lt;/p&gt;
-
-&lt;p&gt;2016年5月21日更新：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/&#34;&gt;&lt;strong&gt;Beyond
-Australis&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在 Australis 主题基础上进一步优化。例如：&lt;br /&gt;
-进一步精简顶部工具栏；&lt;br /&gt;
-隐藏书签工具栏，鼠标移上去才显示；&lt;br /&gt;
-智能地址栏集成搜索功能，并自定义显示提示信息；&lt;br /&gt;
-有很新颖的天窗功能，精简书签、网站身份信息界面。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/zh-CN/firefox/addon/download-status-bar/&#34;&gt;&lt;strong&gt;Download Status
-Bar&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;之前的 Download Status Bar 不支持新界面，而新版本不但兼容新的
-Firefox，而且功能大大增强。&lt;br /&gt;
-最主要的作用还是在底部状态栏直接显示和操作下载项目。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.downthemall.net/&#34;&gt;&lt;strong&gt;DownThemAll!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;多线程下载、过滤下载清单等定制功能仍然无与伦比。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.getfoxyproxy.org/&#34;&gt;&lt;strong&gt;FoxyProxy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可以自定义代理生效规则，支持地址白名单或黑名单列表，结合 Firefox
-的独立代理特性，堪称核心优势。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://bojanbabic.blogspot.com&#34;&gt;&lt;strong&gt;Instaright!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用于收藏页面内容到 Instapaper。&lt;br /&gt;
-虽然 Instapaper 被 Pocket 风头盖过，但 Instaright!
-最大的好处是可以保存选中的部分，而不是完全交给服务端解析页面的结果，对付一些
-Pocket 不能正常处理的页面有奇效。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://lastpass.com/&#34;&gt;&lt;strong&gt;LastPass&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非常方便的密码统一管理工具，适合懒人。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://getlazarus.com/&#34;&gt;&lt;strong&gt;Lazarus&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用于保存和恢复已经输入但没有提交的文本内容，多次挽救了不慎关闭浏览器或程序崩溃、死机时未写完的文字。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.one-tab.com/&#34;&gt;&lt;strong&gt;OneTab&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;概念像标签页群组书签和稍后阅读类服务，但只是保存页面链接清单到一个本地的标签页。&lt;br /&gt;
-好处是大大精简标签页，而且批量操作更加快捷方便，还能排除指定网页、锁定和明明标签页群组、导入导出、共享清单等等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://getpocket.com/&#34;&gt;&lt;strong&gt;Pocket&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;前身是 Read It Later
-的稍后阅读类服务，跨平台和同步效率体验不错，后来居上超越了 Instapaper。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/traxium/tabtree&#34;&gt;&lt;strong&gt;Tab Tree&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;自从 Side Tabs 之后就习惯将标签页放置在左侧栏，但 Side Tabs
-已经停止更新并且有兼容问题，于是找到了功能更强的 Tab
-Tree，在侧栏显示标签页之外，还能显示标签页父子关系。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://tagpacker.com/&#34;&gt;&lt;strong&gt;Tagpacker&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/zaijian_delicious_nihao_tagpacker/&#34;&gt;之前有介绍过&lt;/a&gt;，取代
-Delicious 的社交书签服务。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/akhodakivskiy/VimFx&#34;&gt;&lt;strong&gt;VimFx&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;如果嫌 Vimperator 等扩展太重，Vimkey
-等软件功能不够，可以用这个支持自定义快捷键的扩展。&lt;/p&gt;
-
-&lt;p&gt;Wapplyzer、Firebug、Hackbar 等适用性不广的扩展就不做介绍了。&lt;/p&gt;
-
-&lt;p&gt;2006年5月6日更新：&lt;/p&gt;
-
-&lt;p&gt;&lt;del&gt;
-自从 Flickr 被部分和谐之后，&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/4286&#34;&gt;Access
-Flickr!&lt;/a&gt;就派上了大用场。&lt;/p&gt;
-
-&lt;p&gt;虽然 &lt;a href=&#34;https://addons.mozilla.org/firefox/10/&#34;&gt;Adblock&lt;/a&gt;
-有导致内存泄漏的嫌疑，但功能如此强大，还是继续用好了。&lt;br /&gt;
-更新：目前基本不需要 Adblock 了，所以没有安装。&lt;/p&gt;
-
-&lt;p&gt;经常复制文字内容，既懒得老是按下 Ctrl+C，又不想像 UNIX
-命令行下那样选中即复制，那么选中之后会暂时弹出一个小菜单供你执行复制操作的
-&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/5714&#34;&gt;Auto Context&lt;/a&gt;
-就是选择之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.ucla.edu/~nikitas/acmanager/&#34;&gt;Autocomplete Manager&lt;/a&gt;
-能够增强 Firefox 的地址栏的匹配功能，访问历史和书签的标题、 URL
-都可以模糊匹配，不过过渡到 Firefox 3之后，这个扩展的魅力值应该会下降了。&lt;/p&gt;
-
-&lt;p&gt;虽然 &lt;a href=&#34;http://gneheix.googlepages.com/backword&#34;&gt;Backword&lt;/a&gt;
-的即时翻译功能不是最强的，但是保存上下文用于复习的能力是其他扩展不具备的。&lt;/p&gt;
-
-&lt;p&gt;由于在 &lt;a href=&#34;http://mail.google.com/mail&#34;&gt;Gmail&lt;/a&gt;
-中标记已读经常误操作，所以用了集成很多脚本的 &lt;a href=&#34;http://lifehacker.com/software/gmail/lifehacker-code-better-gmail-firefox-extension-251923.php&#34;&gt;Better
-Gmail&lt;/a&gt;，还有右键预览、附件图标、集成
-Google Reader 等多种功能。&lt;/p&gt;
-
-&lt;p&gt;询问 Windows 下的 IRC 客户端，回答都是 mIRC，可是 mIRC&lt;/p&gt;
-
-&lt;h2 id=&#34;是共享软件啊-所以还是用-chatzilla-http-chatzilla-hacksrus-com&#34;&gt;是共享软件啊…所以还是用 &lt;a href=&#34;http://chatzilla.hacksrus.com/&#34;&gt;ChatZilla!&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;更新：目前非要用到 IRC 不可才把 ChatZilla! 激活。&lt;/p&gt;
-
-&lt;p&gt;经常复制链接就需要
-&lt;a href=&#34;http://www.borngeek.com/firefox/colt/&#34;&gt;CoLT&lt;/a&gt;，自动配置格式，且可以自定义。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt; 的专用扩展 &lt;a href=&#34;http://www.diigo.com/diigoresources/downloads/diigotoolbar-firefox.xpi&#34;&gt;Diigo
-Toolbar&lt;/a&gt;
-比 &lt;a href=&#34;http://www.diigo.com/tools/diigolet&#34;&gt;Diigolet&lt;/a&gt;
-书签按钮稍微好用一点。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://del.icio.us/help/firefox/extension&#34;&gt;Del.icio.us 的官方扩展&lt;/a&gt;
-解决了页面跳转和搜索书签的问题，让 &lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt;
-变得更好用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://downloadstatusbar.mozdev.org/&#34;&gt;Download Status Bar&lt;/a&gt;
-解决了我打开下载清单窗口速度慢的烦恼，删除文件也更方便。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.downthemall.net/&#34;&gt;DownThemAll!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;号称 &lt;a href=&#34;http://www.mozilla.org/products/firefox/&#34;&gt;Firefox&lt;/a&gt;
-专用批量下载软件，大部分时候都能够取代
-Flashget，有时也会出现无法正常下载的问题，或者因为不方便更名、对中文支持不好而给用户造成困扰。&lt;/p&gt;
-
-&lt;p&gt;有时候还是需要靠拖动来节省时间的，比如快速搜索、在后台标签打开
-URL、图片等等，所以又用上了 &lt;a href=&#34;https://addons.mozilla.org/firefox/2918/&#34;&gt;Drag de
-Go&lt;/a&gt;，花时间设置一下就挺好用了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lkozma.net/fisheyetabs/&#34;&gt;FishEyeTabs&lt;/a&gt;
-的效果是，鼠标移动到标签上，标签就会自动展开，适合标签很多很拥挤的情况。不过初上手可能会有点不习惯。&lt;/p&gt;
-
-&lt;p&gt;用 &lt;a href=&#34;http://flashblock.mozdev.org/&#34;&gt;FlashBlock&lt;/a&gt; 可以阻止下载未经允许的
-Flash 动画，页面一下子变得非常清静，而且还节约了系统资源。&lt;/p&gt;
-
-&lt;p&gt;一直很奇怪为什么 &lt;a href=&#34;http://www.flashgot.net/&#34;&gt;Flashgot&lt;/a&gt; 总是名列 Firefox
-插件评分排行榜首位，可能因为现在我基本都不用常规手段下载文件了。前一阵子转用
-&lt;a href=&#34;http://xoomer.virgilio.it/hherold/&#34;&gt;Wget&lt;/a&gt; 代替
-&lt;a href=&#34;http://www.amazesoft.com/&#34;&gt;Flashget&lt;/a&gt; 和 &lt;a href=&#34;http://www.xi-soft.com/&#34;&gt;Net
-Transporter&lt;/a&gt;，所以才安装了
-&lt;a href=&#34;http://www.flashgot.net/&#34;&gt;Flashgot&lt;/a&gt;。&lt;br /&gt;
-更新：大部分时候使用 DownThemAll，偶尔用一用 Flashget/Wget，也就不必常备
-Flashgot 了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/725/&#34;&gt;FootieFox&lt;/a&gt;，适合足球爱好者的扩展，自动读取当日欧洲足球比赛的比分信息，几乎是实时显示。前一段时间升级之后，改进了显示比分的方式，不用点开一场场比赛查看比分了。&lt;br /&gt;
-不足之处也很明显，例如只能够选择一个喜爱的队伍或赛事，不能够自定义屏蔽某些小联赛的信息，有的时候会漏比赛或比分等等。&lt;br /&gt;
-更新：右下角消息太多了，所以让它暂时下岗。&lt;/p&gt;
-
-&lt;p&gt;有时候 TOR 的速度比较慢，如果只要使用一般的网页代理，那么 [gladder**
-就够用了。&lt;/p&gt;
-
-&lt;p&gt;通过无穷尽的脚本使 Firefox 的功能有第二次扩展的机会，这就是
-&lt;a href=&#34;http://greasemonkey.mozdev.org/&#34;&gt;Greasemonkey&lt;/a&gt;。安装之后请去
-&lt;a href=&#34;http://userscripts.org/&#34;&gt;UserScripts&lt;/a&gt; 寻找中意的脚本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/4762&#34;&gt;Hide Menubar&lt;/a&gt;
-用于隐藏菜单栏，是扩大可视面积，精简 Firefox 界面的好工具。&lt;br /&gt;
-有了 Personal Menu，这个就可以消失了。&lt;/p&gt;
-
-&lt;p&gt;遇到严重不符合标准而无法用 Firefox 正常打开的页面时，权宜之计是使用 &lt;a href=&#34;http://ietab.mozdev.org/&#34;&gt;IE
-Tab&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/firefox/1429/&#34;&gt;IE View
-Lite&lt;/a&gt;。不过这样一来就更要注意安全问题了。&lt;br /&gt;
-更新：常用的网站基本都能够用 Firefox 正常浏览，所以不用 IE Tab 了。&lt;/p&gt;
-
-&lt;p&gt;遇到过大或者过小的图片就用 &lt;a href=&#34;http://imagezoom.yellowgorilla.net/&#34;&gt;Image
-Zoom&lt;/a&gt; 来对付，有丰富的自定义选项。&lt;/p&gt;
-
-&lt;p&gt;我懒得手工填写表单，又不放心全部交给浏览器自动完成，所以
-&lt;a href=&#34;http://informenter.mozdev.org/&#34;&gt;InFormEnter&lt;/a&gt;
-挺适合我。可惜用来存储密码好像太不保险。&lt;/p&gt;
-
-&lt;p&gt;调用外部文本编辑器编辑页面文本框内容的 &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/4125&#34;&gt;It&amp;rsquo;s All
-Text!&lt;/a&gt;
-可以让你走到哪里都使用自己最爱的文本编辑器，同时还具有临时备份功能，防止文本丢失。&lt;/p&gt;
-
-&lt;p&gt;要完整地和长久地显示 Tooltip 提示信息，&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/1715&#34;&gt;Long
-Titles&lt;/a&gt; 才是王道。&lt;/p&gt;
-
-&lt;p&gt;如果你想依次看编号为1.jpg 至99.jpg
-的图片，既不想下载又懒得手工修改地址，怎么办？&lt;br /&gt;
-&lt;a href=&#34;http://www.maxthon.com/&#34;&gt;Maxthon&lt;/a&gt; 利用插件可以实现，Firefox 利用
-&lt;a href=&#34;http://nextplease.mozdev.org/&#34;&gt;NextPlease!&lt;/a&gt;
-扩展同样可以实现，而且功能强大得多…&lt;br /&gt;
-更新：使用机会越来越少，移除了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.opanda.com/en/iexif/iexif_firefox.htm&#34;&gt;Opanda IExif for
-Firefox&lt;/a&gt; 是查看图片
-Exif 信息的好帮手。&lt;/p&gt;
-
-&lt;p&gt;精简合并菜单可以使用 &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/3895&#34;&gt;Personal
-Menu&lt;/a&gt;，留下常用的菜单项，其他的统统去死！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://labs.mozilla.com/2007/12/personas-for-firefox/&#34;&gt;Personas&lt;/a&gt;
-是轻量级的主题方案，好处是不用重启就可以更换，缺点是只能更换工具栏、状态栏的背景配色和图片，而且目前好看的主题不多，仅有
-Viva Firefox 这一款还不错。&lt;/p&gt;
-
-&lt;p&gt;截取页面图片目前应该是 &lt;a href=&#34;http://pearlcrescent.com/products/pagesaver/&#34;&gt;Pearl Crescent Page
-Saver&lt;/a&gt;
-最棒。&lt;a href=&#34;http://winsoncafe.blogspot.com/&#34;&gt;Winson&lt;/a&gt; 曾经推荐过 &lt;a href=&#34;http://andy.5263.org/?page_id=5&#34;&gt;Screen
-Grab!&lt;/a&gt;，虽然可以截取框架图像，但需要
-Java VM…&lt;br /&gt;
-更新：很少用到，暂时禁用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/614/&#34;&gt;Save Image in
-Folder&lt;/a&gt;，如果经常保存大量图片到不同的目录，感觉来回切换目录挺烦人，那么这个扩展就很有用，否则的话不必试了。&lt;br /&gt;
-更新：很少用到，移除了。&lt;/p&gt;
-
-&lt;p&gt;为了方便的重新启动 Firefox，于是用上了 &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/4199&#34;&gt;Save
-Session&lt;/a&gt;，重启之后能够恢复上一次打开的页面。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/427/&#34;&gt;ScrapBook&lt;/a&gt;，保存网页到本地的扩展。虽然有了&lt;a href=&#34;http://www.diigo.com/&#34;&gt;Diigo&lt;/a&gt;、&lt;a href=&#34;http://del.icio.us/&#34;&gt;Del.icio.us&lt;/a&gt;
-等在线的收藏服务，但本地收藏还是需要的，而且还能够用于在线编辑时做临时存档用。这个扩展在保存时可同时获取指定类型的链接目标，如图像、声音、压缩文件等，可以自定义的选项比较丰富。&lt;/p&gt;
-
-&lt;p&gt;裸奔版 Firefox 中如果图片载入失败只好刷新整个页面，很不方便，好在还有
-&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/3664&#34;&gt;Show Picture&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/1272&#34;&gt;Status Buttons&lt;/a&gt;
-用于将工具栏的按钮拖到状态栏上，可以为地址栏腾出更多的空间。&lt;/p&gt;
-
-&lt;p&gt;因为实在忍受不了一些人的页面内嵌自动播放，所以不得已安装了 &lt;a href=&#34;http://hemiolapei.free.fr/divers/sap/sap-en.html&#34;&gt;Stop
-Autoplay&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/2108/&#34;&gt;Stylish&lt;/a&gt; 是一个和
-&lt;a href=&#34;http://greasemonkey.mozdev.org/&#34;&gt;Greasemonkey&lt;/a&gt;
-相近的插件，主要用来改变网页和浏览器的界面。在
-&lt;a href=&#34;http://userstyles.org/stylish/&#34;&gt;UserStyles&lt;/a&gt; 可以下载脚本，如 &lt;a href=&#34;http://userstyles.org/style/show/826&#34;&gt;Icon
-identifiers for links redux&lt;/a&gt;。&lt;br /&gt;
-更新：应用不够 Greasemonkey 广泛，暂时禁用。&lt;/p&gt;
-
-&lt;p&gt;升级 Firefox 到1.5之后 &lt;a href=&#34;https://addons.mozilla.org/firefox/137/&#34;&gt;Super
-DragAndGo&lt;/a&gt;
-的页面一直说版本不对，不能更新，好在 &lt;a href=&#34;http://mozillaupdate.mozine.org/&#34;&gt;Mozilla Update
-中国&lt;/a&gt;有&lt;a href=&#34;http://addons.mozine.org/firefox/26/&#34;&gt;适合 1.5.x
-的版本&lt;/a&gt;可以用。&lt;br /&gt;
-更新：很少用到，移除了。&lt;/p&gt;
-
-&lt;p&gt;有了 &lt;a href=&#34;https://addons.mozilla.org/firefox/1122/&#34;&gt;Tab Mix
-Plus&lt;/a&gt;，就可以彻底告别
-&lt;a href=&#34;https://addons.mozilla.org/firefox/158/&#34;&gt;Tabbrowser
-Preferences&lt;/a&gt;/&lt;a href=&#34;http://piro.sakura.ne.jp/xul/tabextensions/index.html.en&#34;&gt;Tabbrowser
-Extensions&lt;/a&gt;。拖拽
-URL 到标签栏，可以在新标签页中打开，代替了部分 &lt;a href=&#34;http://addons.mozine.org/firefox/26/&#34;&gt;Super
-DragAndGo&lt;/a&gt; 的功能。&lt;br /&gt;
-如果不需要那么强大的功能的话，&lt;a href=&#34;http://addons.mozine.cn/firefox/54/&#34;&gt;Tab Mix Lite
-CE&lt;/a&gt; 也可以了。&lt;/p&gt;
-
-&lt;p&gt;由于常用 Twitter，所以安装 &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/126&#34;&gt;TinyUrl
-Creator&lt;/a&gt;
-进行配合，更加方便地缩短过长的 URL 。&lt;/p&gt;
-
-&lt;p&gt;使用 &lt;a href=&#34;http://freehaven.net/~squires/torbutton/&#34;&gt;Torbutton&lt;/a&gt; 配合 Tor
-突破网络封锁。&lt;/p&gt;
-
-&lt;p&gt;使用 &lt;a href=&#34;http://javimoya.com/blog/youtube_en.php&#34;&gt;VideoDownloader&lt;/a&gt; 下载
-Youtube
-等视频站点上的视频，更主要的原因是使用多线程下载的话速度会快一点。&lt;/p&gt;
-
-&lt;p&gt;编写网页者必备利器 [Web&lt;/p&gt;
-
-&lt;h2 id=&#34;developer-https-addons-mozilla-org-firefox-60-安装之后功能太多-谨防弄花眼&#34;&gt;Developer](&lt;a href=&#34;https://addons.mozilla.org/firefox/60/)。安装之后功能太多，谨防弄花眼&#34;&gt;https://addons.mozilla.org/firefox/60/)。安装之后功能太多，谨防弄花眼&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;更新：编辑网页时才用到，暂时禁用。&lt;/p&gt;
-
-&lt;p&gt;再次提到 &lt;a href=&#34;http://xyzboard.com/&#34;&gt;xyzproxy&lt;/a&gt;，比 &lt;a href=&#34;https://addons.mozilla.org/firefox/125/&#34;&gt;SwitchProxy
-Tool&lt;/a&gt; 方便易用且 bug 少。&lt;br /&gt;
-更新：试用了 Torbutton 之后就禁用了这个。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;主题&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2016年5月21日更新：&lt;/p&gt;
-
-&lt;p&gt;因为尽量精简了 Firefox 界面，因此基本没有使用主题了。&lt;/p&gt;
-
-&lt;p&gt;2006年5月6日更新：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://calon.blogsome.com/2005/02/20/zuijin_shiyong_de_firefox_zhuti/&#34;&gt;之前介绍&lt;/a&gt;了
-&lt;a href=&#34;https://addons.mozilla.org/firefox/454/&#34;&gt;SomeOrbitYellow&lt;/a&gt;、&lt;a href=&#34;https://addons.mozilla.org/firefox/414/&#34;&gt;Saferfox
-Xpanded&lt;/a&gt; 和 &lt;a href=&#34;https://addons.mozilla.org/firefox/1149/&#34;&gt;Plastikfox Crystal
-SVG&lt;/a&gt;
-几个主题，后来改为下面几个：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/2702/&#34;&gt;Geek&lt;/a&gt;
-主题很简洁，但已经不支持新版本 Firefox。已经卸载。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/548/&#34;&gt;Brushed&lt;/a&gt;，借鉴 Apple Mac OS X
-Brushed Metal 的主题，若没有大片空白，视觉效果还是不错的。&lt;br /&gt;
-更新：细节不够好，已经卸载。&lt;/p&gt;
-
-&lt;p&gt;顾名思义，&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/3774&#34;&gt;GNOME Firefox
-Theme&lt;/a&gt; 是仿 Gnome
-风格的主题，蓝色的风格更好看一点。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/6161&#34;&gt;hmmXP&lt;/a&gt; 主题基于 &lt;a href=&#34;http://fugacious.deviantart.com/art/HmmXP-2-0-1-5514034&#34;&gt;HmmXP
-Visual Style&lt;/a&gt;
-主题，非常简单的风格，但是很耐看。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/1106/&#34;&gt;iFox&lt;/a&gt;，又一款借鉴 Apple Mac
-OS X Aqua 风格的主题。&lt;br /&gt;
-更新：“转到”按钮太小，已经卸载。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mozilla-themes.schellen.net/firefox.html&#34;&gt;Modern
-Pinball&lt;/a&gt;，它的按钮让我联想到了复印机等办公设备上可爱的设计…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.tom-cat.com/mozilla/&#34;&gt;Mostly Crystal&lt;/a&gt;，图标源于 Crystal
-SVG。&lt;br /&gt;
-本来是打算在 &lt;a href=&#34;http://www.mozilla.com/thunderbird/&#34;&gt;Thunderbird&lt;/a&gt;
-也用同风格主题的，虽然比华丽有余的 &lt;a href=&#34;https://addons.mozilla.org/thunderbird/1713/&#34;&gt;Tiger
-Mail&lt;/a&gt;
-要好，但却比不上很耐看的
-&lt;a href=&#34;https://addons.mozilla.org/thunderbird/665/&#34;&gt;CrossOver&lt;/a&gt;，反正用上后者之后就不打算更换了。&lt;/p&gt;
-
-&lt;p&gt;顾名思义，&lt;a href=&#34;https://addons.mozilla.org/firefox/1587/&#34;&gt;Mozilla.org&lt;/a&gt;
-这个主题就是使用的 &lt;a href=&#34;http://www.mozilla.org/&#34;&gt;Mozilla.org&lt;/a&gt; 站点的风格。&lt;br /&gt;
-更新：细节做得不够好，已经禁用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/3471&#34;&gt;Netscape Windows 3.1&lt;/a&gt;
-适合怀旧的人使用，Windows 3.1 + Netscape，别有一种原始粗犷的美…&lt;/p&gt;
-
-&lt;p&gt;仿 Ubuntu Human 风格的一款主体 &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/3008&#34;&gt;Ubuntu Human
-Theme&lt;/a&gt;，如果用过 Ubuntu
-应该会感到比较亲切吧。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/3008/&#34;&gt;Whitehart&lt;/a&gt; 既有 Firefox 也有
-Thunderbird 版本，风格简洁，自定义选项多，目前是我的 Firefox 首选主题。
-&lt;/del&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%89%A9%E5%B1%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SingleFile</title>
+      <link>https://ioerr.github.io/posts/singlefile/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/singlefile/</guid>
+      <description>曾经想过，如果存储空间足够，有没有办法将每天浏览的所有内容都离线保存备查呢？ 毕竟很多网上的信息说不定什么时候就彻底消失了。 而且有的时候觉得应</description>
+      <content:encoded><![CDATA[<p>曾经想过，如果存储空间足够，有没有办法将每天浏览的所有内容都离线保存备查呢？</p>
+<p>毕竟很多网上的信息说不定什么时候就彻底消失了。<br>
+而且有的时候觉得应该不会再用到的网页信息，偏偏过一段时间就是需要回头检索，已经没法根据地址和页面标题从浏览记录中查到。</p>
+<p>一直没有找到合适的工具，直到今天偶然看到这个 Firefox 扩展：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/single-file/">SingleFile</a>。</p>
+<p>它的主要功能平平无奇，就是将完整的页面保存到一个 HTML 文件中，同类功能的扩展有好几个。</p>
+<p>但附加功能就有讲究了，支持自动保存网页，支持定时自动保存，支持压缩页面内容，支持保存有延迟加载的图像，支持自定义保存的文件名，支持配置同名文件覆盖策略，支持配置自动保存的地址，还支持通配符，而且保存文件后还附带保存了原始网址信息。</p>
+<p>因此，你完全可以用它来保存所有浏览记录，也可以当作网页摘录工具——配合 Total Commander 等文件管理工具，不比常见的笔记工具效率低，而且备份还方便、安全多了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Firefox 扩展机制的变化与未来</title>
+      <link>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</link>
+      <pubDate>Wed, 01 Feb 2017 12:52:44 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/firefox-kuozhan-jizhi-de-bianhua-yu-weilai/</guid>
+      <description>我正在使用 Beyond Australis 和 Puzzle Bars 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。 最近他在扩展的主页网站上发表了一篇文章，大意</description>
+      <content:encoded><![CDATA[<p>我正在使用 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 和 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a> 这两个 Firefox 扩展，都出自同一个作者 Luís Miguel（Quicksaver）。</p>
+<p>最近他<a href="http://fasezero.com/addons/">在扩展的主页网站上发表了一篇文章</a>，大意是：<br>
+因为 Mozilla Firefox 的扩展机制会<a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">改为 WebExtensions</a>，许多功能受限，他投入大量精力经过一年半时间的摸索之后，发现自己无法在新机制下继续保持和更新原有的优秀扩展，如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、FindBar Tweak、OmniSidebar、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/puzzle-toolbars/">Puzzle Bars</a>，而他又不能像 Mozilla 的雇员靠围绕 Firefox 开发全职赚钱，伤心之余，只能停止更新维护，和理念不合的 Mozilla 分道扬镳。</p>
+<p>Mozilla 宣布转向 WebExtensions 机制，以我的理解，一个原因是要提升性能，如多进程，另一大原因是尽量与 Chrome 和 Opera 的插件 API 兼容，开发者不必为不同浏览器多次重复开发（但也不会是完全无修改移植），用户也可以用上许多原本只有其他浏览器才能用的扩展。</p>
+<p>然而，如果这样变化的代价是牺牲现有优秀的扩展和赶走优秀的开发者，那么 Mozilla 的选择恐怕谈不上明智。</p>
+<p>对 Firefox 核心用户而言，这个浏览器最大的优势是无与伦比的自定义能力和强大的扩展，一些扩展如 <a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a>、<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-tree/">Tab Tree</a> 在其他浏览器无法或很难做到相同的效果，FoxyProxy、Lastpass 等扩展也比其他浏览器上的弱鸡版本好用。<br>
+放弃这个核心优势，与竞争对手同质看齐，又不如 Chrome 迅捷和推广得力，流失核心用户之后真的能从竞争对手那里吸引更多新用户吗？</p>
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/">Beyond Australis</a> 扩展页面下的<a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/reviews/841284/">一个评论</a>说的好：</p>
+<blockquote>
+<p>Mozilla, what the hell are you thinking? The only reason a lot of people use Firefox instead of Chrome or Edge is because of extentions like this, and your stupid decisions are killing it! Ok, great, so you want to make it so extensions work on all browsers. If that&rsquo;s the case, why would anyone choose Firefox instead of Chrome?</p>
+<p>Mozilla，你们他妈在想些什么？<br>
+许多人不用 Chrome 或 Edge 而选择 Firefox 的原因，就是冲着这样的扩展来的。而你们愚蠢的决定杀死了它！<br>
+好，很好，你们希望扩展能运行在所有浏览器上。要真是这样，谁会选择 Firefox 而不是 Chrome？</p>
+</blockquote>
+<p>好吧，或许对大多数开发者而言，新的机制下更容易开发，性能和安全方面进步带来的吸引力能够弥补部分核心用户的流失（我很怀疑，毕竟 Firefox 的最大卖点不是性能和安全，靠这些挽回和吸引用户，这是产品定位级别的变化）。<br>
+只是像 Quicksaver 这样优秀的开发者，许多拥有优秀功能和创意的扩展，再也无法回到 Firefox 的平台上了。（还记得 Windows Phone 是怎么死的吗？开发者能陪你折腾多久？）<br>
+这样一个中庸甚至平庸和懒惰到除了内核之外看上去在全面克隆 Chrome 的浏览器，还是我们这些忠实用户钟爱的优秀创新产品吗？</p>
+<p>希望 Mozilla 可以在未来狠狠地打我的脸吧，实在不行，Firefox 毕竟是个开源产品，也许像 <a href="https://www.palemoon.org/">Pale Moon</a> 这样的替代品会越来越成熟。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>选择邮件客户端</title>
+      <link>https://ioerr.github.io/posts/xuanze-youjian-kehuduan/</link>
+      <pubDate>Mon, 25 Jan 2010 16:28:35 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xuanze-youjian-kehuduan/</guid>
+      <description>Becky! The Internet Mail 用了很长一段时间的 Becky! 作为主力邮件客户端（感谢 Najja 的推荐），虽然有许多其他客户端无法比拟的优点，如： 搜索速度快，定位方便； 邮件以单文件形</description>
+      <content:encoded><![CDATA[<p><strong>Becky! The Internet Mail</strong></p>
+<p>用了很长一段时间的 <a href="http://www.rimarts.co.jp/">Becky!</a> 作为主力邮件客户端（感谢 <a href="http://wp.najja.org/">Najja</a> 的推荐），虽然有许多其他客户端无法比拟的优点，如：<br>
+搜索速度快，定位方便；<br>
+邮件以单文件形式存档，不需要担心数据库文件出错，不需要老是重建索引；<br>
+海量邮件处理速度快；<br>
+资源占用很低，据我观察，应该是常用邮件客户端中资源占用最低的；<br>
+可以调用外部编辑器编辑纯文本格式邮件；<br>
+修改已收发的邮件头和正文很方便；<br>
+远程管理功能好用；<br>
+界面保守，不花里胡哨，适合工作使用。</p>
+<p>但一些独特的问题却总是无法有效解决：<br>
+通讯录功能简陋，不支持中文地址补全，导入导出非常麻烦；<br>
+经过调教，虽然纯文本模式下中文乱码问题很少出现了，但 HTML 还是有问题；<br>
+不能实现 Gmail 式的会话展示功能，只有树形线索模式；<br>
+转发邮件时，有时候其他邮箱不认附件，如内部网页邮箱系统，不管是内联还是作为附件转发。</p>
+<h2 id="万般无奈之下只好另寻替代先后排除了需要收费占用资源越来越大上手就很不习惯的">万般无奈之下，只好另寻替代，先后排除了需要收费、占用资源越来越大、上手就很不习惯的</h2>
+<p>Bat!，越来越华而不实的几个国产邮件客户端，M$系的几个客户端，还有一票从 Wakoopa 和维基百科上找到的客户端，都不是非常满意。<br>
+看看人家，觉得不满意操作系统就自己写一个，相比之下差距真大啊…</p>
+<p><strong>Foxmail</strong></p>
+<p>好不容易定下来随大流捡回新版的 Foxmail 来用，结果在设置了几个新邮箱、导入了数百个联系人、数千封邮件之后，一个崩溃让一切都回到了解放前的状态，我不喜欢听刘欢的《重头再来》，于是心灰意懒，转向另一个老朋友 Thunderbird。</p>
+<p><strong>Thunderbird</strong></p>
+<p><a href="http://www.mozilla.com/Thunderbird/">Thunderbird</a> 的毛病其实也不少，比如资源占用和乱码就是以前放弃使用它的原因，这次重新开始使用，不满意的地方还是存在：</p>
+<p>HTML 模式下的邮件撰写编辑器相当的烂，代码混乱，功能弱；<br>
+对中文的支持有小问题，如发出邮件后会自动插入、删除空格，部分文字变成乱码；<br>
+全局搜索功能超级鸡肋，华而不实；<br>
+没有原生的邮件快递功能；<br>
+撰写邮件的时候，多个联系人地址不能批量操作；<br>
+资源占用相对较高；<br>
+远程管理功能弱。</p>
+<p>然则 Thunderbird 的强大就在于有很大的调教空间，让它变得尽量顺手：</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/11604">Address Close<br>
+Button</a><br>
+在邮件撰写界面增加快速删除收件人地址的按钮；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/1556">Allow HTML<br>
+Temp</a><br>
+临时显示超文本；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451">gContactSync</a><br>
+最强大贴心的 Google Contacts 同步工具，彻底解决在本地客户端和 Google<br>
+Contacts 同步联系人的需求，比 <a href="http://www.zindus.com/">Zindus</a> 强多了；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/54035">GMail Conversation<br>
+View</a><br>
+实现类似 Gmail 会话模式的功能，比大多数邮件客户端的会话/线索模式强；</p>
+<p><a href="http://nic-nac-project.de/~kaosmos/mboximport-en.html">ImportExportTools</a><br>
+批量导入导出邮件的工具，效率相当高；<br>
+以上两个扩展结合在一起，Thunderbird 导入导出功能很弱的缺点不再烦人；</p>
+<p><a href="http://forums.mozillazine.org/viewtopic.php?t=72994">KeyConfig</a><br>
+自定义热键，适合键盘快速操作；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/6543">Nightly Tester<br>
+Tools</a><br>
+玩扩展必备，遇到不兼容新版本的优秀扩展，还可以靠这个抢救一下；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/170">Quote Colors</a><br>
+改变邮件引文的文字、背景色；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/347">QuoteCollapse</a><br>
+自动收起引文，避免过长的引文导致阅读困难；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/4984">Tag Dialog</a><br>
+可方便快捷地创建标签，有已有标签列表作为提示，使得 Thunderbird<br>
+的标签功能不那么鸡肋了；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/14395">tbNotes</a><br>
+为邮件增加记事贴用于备忘，可以统一管理记事贴；</p>
+<p><a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/5373">ThunderBrowse</a><br>
+在 Thunderbird 内部浏览网页，办公室忙里偷闲的好帮手。</p>
+<p>正是某些扩展提供的功能不可替代，所以目前 Thunderbird 还是首选邮件客户端。</p>
+<p><strong>Postbox</strong></p>
+<p><a href="http://www.postbox-inc.com/">Postbox</a><br>
+是一个新出现不久的收费邮件客户端，在经过一段时间的 beta 测试后，终于发布正式版本并进化到了1.1。<br>
+可以把 Postbox 看成 Thunderbird 收费加强版——相对于 TB 裸奔版，内核相同的 Postbox 集成了不少实用功能，优化了界面和性能，解决了一些顽疾，上手比 Thunderbird<br>
+要愉快许多，甚至可以用惊艳形容，许多细节和功能非常贴心，确实达到了收费的水准。</p>
+<p>Postbox 也可以使用<a href="http://www.postbox-inc.com/extensions/">扩展</a>，基本都是从 Thunderbird 扩展移植过来的，只可惜数量还很少，如没有 <a href="https://addons.mozilla.org/zh-CN/Thunderbird/addon/8451">gContactSync</a> 只有 Zindus，有特殊需求的人就比较痛苦了。</p>
+<hr>
+<p>2024-05-04 更新：</p>
+<p>切换到了国内的老牌邮件客户端<a href="https://cy-email.com/">畅邮（DreamMail Pro）</a>。<br>
+除了界面丑了点，扩展性不太强，基本功能已经足够用了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Chrome 扩展</title>
+      <link>https://ioerr.github.io/posts/chrome-kuozhan/</link>
+      <pubDate>Wed, 09 Dec 2009 15:09:42 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chrome-kuozhan/</guid>
+      <description>首先到这个页面下载 Chrome 4.0 Beta，然后去扩展页面淘吧。 Chrome 扩展的好处： 不需要重启就可以生效和卸载； 扩展有独立进程。 不佳之处则有： 官方扩展页面无分</description>
+      <content:encoded><![CDATA[<p>首先<a href="http://www.google.com/landing/chrome/beta/">到这个页面下载 Chrome 4.0<br>
+Beta</a>，然后<a href="https://chrome.google.com/extensions/">去扩展页面</a>淘吧。</p>
+<p>Chrome 扩展的好处：<br>
+不需要重启就可以生效和卸载；<br>
+扩展有独立进程。</p>
+<p>不佳之处则有：<br>
+官方扩展页面无分类；<br>
+浏览器内的扩展管理页面找不到扩展的主页；<br>
+使用其他浏览器时不能先下载再安装。</p>
+<p>等到 Chrome 扩展的丰富程度超过<br>
+Firefox，而性能仍然能够保持最快的水准，我就会更换默认浏览器了。</p>
+<p>目前我已经安装的扩展有：</p>
+<p><a href="https://chrome.google.com/extensions/detail/oojbgadfejifecebmdnhhkbhdjaphole">Diigo<br>
+bookmarks</a><br>
+书签收藏类，可惜 Diigo 至今仍然处于被封杀状态。</p>
+<p><a href="https://chrome.google.com/extensions/detail/cdngiadmnkhgemkimkhiilgffbjijcie">FlashBlock</a><br>
+阻挡 Flash 就可以节省很多资源了。</p>
+<p><a href="https://chrome.google.com/extensions/detail/hdokiejnpimakedhajhdlcegeplioahd">LastPass</a><br>
+密码管理。</p>
+<p><a href="https://chrome.google.com/extensions/detail/loljledaigphbcpfhfmgopdkppkifgno#">Lazarus</a><br>
+自动保存输入框内容，防止丢失未提交的文本。</p>
+<p><a href="https://chrome.google.com/extensions/detail/bbcnbpafconjjigibnhbfmmgdbbkcjfi">Session<br>
+Manager</a><br>
+存储、还原会话。</p>
+<p><a href="https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj">Switchy!</a><br>
+多代理切换。</p>
+<p><a href="https://chrome.google.com/extensions/detail/imimolldggofidcmfdkcffpjcgaggoaf">VerticalTabs</a><br>
+标签太多的时候可以以纵列形式查看标签标题文字。</p>
+<p>不少 Firefox 的扩展要继续耐心等待才能在 Chrome<br>
+上看到，有的也许永远也看不到…</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>PK</title>
+      <link>https://ioerr.github.io/posts/pk/</link>
+      <pubDate>Thu, 04 Sep 2008 16:29:26 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/pk/</guid>
+      <description>给家里的电脑也装上 Chrome 试试不干正事的浏览体验，结果… 遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy； 没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折</description>
+      <content:encoded><![CDATA[<p>给家里的电脑也装上 <a href="http://calon.weblogs.us/flickr-pro/">Chrome</a><br>
+试试不干正事的浏览体验，结果…</p>
+<p>遇到 FeedBurner 这类的地址时，我会格外想念 FoxyProxy；<br>
+没有 Autofill Forms 和 InformEnter 的协助，填写表单变成一种折磨；<br>
+快速复制不能少了 Auto Context，强力复制又不能少了 CoLT；<br>
+拖拽用的不多，但真正要用的时候，还是有个 Easy DragToGo 比较顺手；<br>
+便捷直观不如 Download Statusbar，内功修为不及<br>
+DownThemAll!，下载我还用不惯；<br>
+虽然不用 AdBlock Plus，但至少也该有 Flashblock 吧？<br>
+不支持 Greasemonkey 这样的脚本平台就少了很多精彩…<br>
+看到超大图片总是会提醒我该使用 Image Zoom 了；<br>
+Auto Dial + Read it Later + Taboo 才是历史页面备忘管理的王道；<br>
+如果 Flickr 再被墙奸，就能体会到 Access Flickr! 是多么的有爱了！<br>
+<a href="http://calon.weblogs.us/tuijian_firefox_kuozhan_yu_zhuti/">…</a></p>
+<p>所以最终的结论是…</p>
+<p>把 <a href="http://kmeleon.sourceforge.net/">K-Meleon</a> 给替换掉 :023:</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐 Firefox 扩展与主题</title>
+      <link>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</link>
+      <pubDate>Mon, 06 Mar 2006 15:17:06 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tuijian-firefox-kuozhan-yu-zhuti/</guid>
+      <description>扩展 加粗的扩展和主题是目前正在使用的。 2016年5月21日更新： Beyond Australis 在 Australis 主题基础上进一步优化。例如： 进一步精简顶部工具栏； 隐藏书签工具栏，鼠</description>
+      <content:encoded><![CDATA[<p><strong>扩展</strong></p>
+<p>加粗的扩展和主题是目前正在使用的。</p>
+<p>2016年5月21日更新：</p>
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/the-fox-only-better/"><strong>Beyond<br>
+Australis</strong></a></p>
+<p>在 Australis 主题基础上进一步优化。例如：<br>
+进一步精简顶部工具栏；<br>
+隐藏书签工具栏，鼠标移上去才显示；<br>
+智能地址栏集成搜索功能，并自定义显示提示信息；<br>
+有很新颖的天窗功能，精简书签、网站身份信息界面。</p>
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/download-status-bar/"><strong>Download Status<br>
+Bar</strong></a></p>
+<p>之前的 Download Status Bar 不支持新界面，而新版本不但兼容新的<br>
+Firefox，而且功能大大增强。<br>
+最主要的作用还是在底部状态栏直接显示和操作下载项目。</p>
+<p><a href="http://www.downthemall.net/"><strong>DownThemAll!</strong></a></p>
+<p>多线程下载、过滤下载清单等定制功能仍然无与伦比。</p>
+<p><a href="http://www.getfoxyproxy.org/"><strong>FoxyProxy</strong></a></p>
+<p>可以自定义代理生效规则，支持地址白名单或黑名单列表，结合 Firefox<br>
+的独立代理特性，堪称核心优势。</p>
+<p><a href="http://bojanbabic.blogspot.com"><strong>Instaright!</strong></a></p>
+<p>用于收藏页面内容到 Instapaper。<br>
+虽然 Instapaper 被 Pocket 风头盖过，但 Instaright!<br>
+最大的好处是可以保存选中的部分，而不是完全交给服务端解析页面的结果，对付一些<br>
+Pocket 不能正常处理的页面有奇效。</p>
+<p><a href="https://lastpass.com/"><strong>LastPass</strong></a></p>
+<p>非常方便的密码统一管理工具，适合懒人。</p>
+<p><a href="http://getlazarus.com/"><strong>Lazarus</strong></a></p>
+<p>用于保存和恢复已经输入但没有提交的文本内容，多次挽救了不慎关闭浏览器或程序崩溃、死机时未写完的文字。</p>
+<p><a href="http://www.one-tab.com/"><strong>OneTab</strong></a></p>
+<p>概念像标签页群组书签和稍后阅读类服务，但只是保存页面链接清单到一个本地的标签页。<br>
+好处是大大精简标签页，而且批量操作更加快捷方便，还能排除指定网页、锁定和明明标签页群组、导入导出、共享清单等等。</p>
+<p><a href="https://getpocket.com/"><strong>Pocket</strong></a></p>
+<p>前身是 Read It Later<br>
+的稍后阅读类服务，跨平台和同步效率体验不错，后来居上超越了 Instapaper。</p>
+<p><a href="https://github.com/traxium/tabtree"><strong>Tab Tree</strong></a></p>
+<p>自从 Side Tabs 之后就习惯将标签页放置在左侧栏，但 Side Tabs<br>
+已经停止更新并且有兼容问题，于是找到了功能更强的 Tab<br>
+Tree，在侧栏显示标签页之外，还能显示标签页父子关系。</p>
+<p><a href="https://tagpacker.com/"><strong>Tagpacker</strong></a></p>
+<p><a href="http://calon.weblogs.us/zaijian_delicious_nihao_tagpacker/">之前有介绍过</a>，取代<br>
+Delicious 的社交书签服务。</p>
+<p><a href="https://github.com/akhodakivskiy/VimFx"><strong>VimFx</strong></a></p>
+<p>如果嫌 Vimperator 等扩展太重，Vimkey<br>
+等软件功能不够，可以用这个支持自定义快捷键的扩展。</p>
+<p>Wapplyzer、Firebug、Hackbar 等适用性不广的扩展就不做介绍了。</p>
+<p>2006年5月6日更新：</p>
+<!-- raw HTML omitted -->
+<p>虽然 <a href="https://addons.mozilla.org/firefox/10/">Adblock</a><br>
+有导致内存泄漏的嫌疑，但功能如此强大，还是继续用好了。<br>
+更新：目前基本不需要 Adblock 了，所以没有安装。</p>
+<p>经常复制文字内容，既懒得老是按下 Ctrl+C，又不想像 UNIX<br>
+命令行下那样选中即复制，那么选中之后会暂时弹出一个小菜单供你执行复制操作的<br>
+<a href="https://addons.mozilla.org/firefox/addon/5714">Auto Context</a><br>
+就是选择之一。</p>
+<p><a href="http://www.cs.ucla.edu/~nikitas/acmanager/">Autocomplete Manager</a><br>
+能够增强 Firefox 的地址栏的匹配功能，访问历史和书签的标题、 URL<br>
+都可以模糊匹配，不过过渡到 Firefox 3之后，这个扩展的魅力值应该会下降了。</p>
+<p>虽然 <a href="http://gneheix.googlepages.com/backword">Backword</a><br>
+的即时翻译功能不是最强的，但是保存上下文用于复习的能力是其他扩展不具备的。</p>
+<p>由于在 <a href="http://mail.google.com/mail">Gmail</a><br>
+中标记已读经常误操作，所以用了集成很多脚本的 <a href="http://lifehacker.com/software/gmail/lifehacker-code-better-gmail-firefox-extension-251923.php">Better<br>
+Gmail</a>，还有右键预览、附件图标、集成<br>
+Google Reader 等多种功能。</p>
+<h2 id="是共享软件啊所以还是用-chatzillahttpchatzillahacksruscom">询问 Windows 下的 IRC 客户端，回答都是 mIRC，可是 mIRC<br>
+是共享软件啊…所以还是用 <a href="http://chatzilla.hacksrus.com/">ChatZilla!</a></h2>
+<p>更新：目前非要用到 IRC 不可才把 ChatZilla! 激活。</p>
+<p>经常复制链接就需要<br>
+<a href="http://www.borngeek.com/firefox/colt/">CoLT</a>，自动配置格式，且可以自定义。</p>
+<p><a href="http://www.diigo.com/">Diigo</a> 的专用扩展 <a href="http://www.diigo.com/diigoresources/downloads/diigotoolbar-firefox.xpi">Diigo<br>
+Toolbar</a><br>
+比 <a href="http://www.diigo.com/tools/diigolet">Diigolet</a><br>
+书签按钮稍微好用一点。</p>
+<p><a href="http://del.icio.us/help/firefox/extension">Del.icio.us 的官方扩展</a><br>
+解决了页面跳转和搜索书签的问题，让 <a href="http://del.icio.us/">Del.icio.us</a><br>
+变得更好用。</p>
+<p><a href="http://downloadstatusbar.mozdev.org/">Download Status Bar</a><br>
+解决了我打开下载清单窗口速度慢的烦恼，删除文件也更方便。</p>
+<p><a href="http://www.downthemall.net/">DownThemAll!</a></p>
+<p>号称 <a href="http://www.mozilla.org/products/firefox/">Firefox</a><br>
+专用批量下载软件，大部分时候都能够取代<br>
+Flashget，有时也会出现无法正常下载的问题，或者因为不方便更名、对中文支持不好而给用户造成困扰。</p>
+<p>有时候还是需要靠拖动来节省时间的，比如快速搜索、在后台标签打开<br>
+URL、图片等等，所以又用上了 <a href="https://addons.mozilla.org/firefox/2918/">Drag de<br>
+Go</a>，花时间设置一下就挺好用了。</p>
+<p><a href="http://www.lkozma.net/fisheyetabs/">FishEyeTabs</a><br>
+的效果是，鼠标移动到标签上，标签就会自动展开，适合标签很多很拥挤的情况。不过初上手可能会有点不习惯。</p>
+<p>用 <a href="http://flashblock.mozdev.org/">FlashBlock</a> 可以阻止下载未经允许的<br>
+Flash 动画，页面一下子变得非常清静，而且还节约了系统资源。</p>
+<p>一直很奇怪为什么 <a href="http://www.flashgot.net/">Flashgot</a> 总是名列 Firefox<br>
+插件评分排行榜首位，可能因为现在我基本都不用常规手段下载文件了。前一阵子转用<br>
+<a href="http://xoomer.virgilio.it/hherold/">Wget</a> 代替<br>
+<a href="http://www.amazesoft.com/">Flashget</a> 和 <a href="http://www.xi-soft.com/">Net<br>
+Transporter</a>，所以才安装了<br>
+<a href="http://www.flashgot.net/">Flashgot</a>。<br>
+更新：大部分时候使用 DownThemAll，偶尔用一用 Flashget/Wget，也就不必常备<br>
+Flashgot 了。</p>
+<p><a href="https://addons.mozilla.org/firefox/725/">FootieFox</a>，适合足球爱好者的扩展，自动读取当日欧洲足球比赛的比分信息，几乎是实时显示。前一段时间升级之后，改进了显示比分的方式，不用点开一场场比赛查看比分了。<br>
+不足之处也很明显，例如只能够选择一个喜爱的队伍或赛事，不能够自定义屏蔽某些小联赛的信息，有的时候会漏比赛或比分等等。<br>
+更新：右下角消息太多了，所以让它暂时下岗。</p>
+<p>有时候 TOR 的速度比较慢，如果只要使用一般的网页代理，那么 [gladder**<br>
+就够用了。</p>
+<p>通过无穷尽的脚本使 Firefox 的功能有第二次扩展的机会，这就是<br>
+<a href="http://greasemonkey.mozdev.org/">Greasemonkey</a>。安装之后请去<br>
+<a href="http://userscripts.org/">UserScripts</a> 寻找中意的脚本。</p>
+<p><a href="https://addons.mozilla.org/firefox/addon/4762">Hide Menubar</a><br>
+用于隐藏菜单栏，是扩大可视面积，精简 Firefox 界面的好工具。<br>
+有了 Personal Menu，这个就可以消失了。</p>
+<p>遇到严重不符合标准而无法用 Firefox 正常打开的页面时，权宜之计是使用 <a href="http://ietab.mozdev.org/">IE<br>
+Tab</a> 和 <a href="https://addons.mozilla.org/firefox/1429/">IE View<br>
+Lite</a>。不过这样一来就更要注意安全问题了。<br>
+更新：常用的网站基本都能够用 Firefox 正常浏览，所以不用 IE Tab 了。</p>
+<p>遇到过大或者过小的图片就用 <a href="http://imagezoom.yellowgorilla.net/">Image<br>
+Zoom</a> 来对付，有丰富的自定义选项。</p>
+<p>我懒得手工填写表单，又不放心全部交给浏览器自动完成，所以<br>
+<a href="http://informenter.mozdev.org/">InFormEnter</a><br>
+挺适合我。可惜用来存储密码好像太不保险。</p>
+<p>调用外部文本编辑器编辑页面文本框内容的 <a href="https://addons.mozilla.org/firefox/addon/4125">It&rsquo;s All<br>
+Text!</a><br>
+可以让你走到哪里都使用自己最爱的文本编辑器，同时还具有临时备份功能，防止文本丢失。</p>
+<p>要完整地和长久地显示 Tooltip 提示信息，<a href="https://addons.mozilla.org/firefox/addon/1715">Long<br>
+Titles</a> 才是王道。</p>
+<p>如果你想依次看编号为1.jpg 至99.jpg<br>
+的图片，既不想下载又懒得手工修改地址，怎么办？<br>
+<a href="http://www.maxthon.com/">Maxthon</a> 利用插件可以实现，Firefox 利用<br>
+<a href="http://nextplease.mozdev.org/">NextPlease!</a><br>
+扩展同样可以实现，而且功能强大得多…<br>
+更新：使用机会越来越少，移除了。</p>
+<p><a href="http://www.opanda.com/en/iexif/iexif_firefox.htm">Opanda IExif for<br>
+Firefox</a> 是查看图片<br>
+Exif 信息的好帮手。</p>
+<p>精简合并菜单可以使用 <a href="https://addons.mozilla.org/firefox/addon/3895">Personal<br>
+Menu</a>，留下常用的菜单项，其他的统统去死！</p>
+<p><a href="http://labs.mozilla.com/2007/12/personas-for-firefox/">Personas</a><br>
+是轻量级的主题方案，好处是不用重启就可以更换，缺点是只能更换工具栏、状态栏的背景配色和图片，而且目前好看的主题不多，仅有<br>
+Viva Firefox 这一款还不错。</p>
+<p>截取页面图片目前应该是 <a href="http://pearlcrescent.com/products/pagesaver/">Pearl Crescent Page<br>
+Saver</a><br>
+最棒。<a href="http://winsoncafe.blogspot.com/">Winson</a> 曾经推荐过 <a href="http://andy.5263.org/?page_id=5">Screen<br>
+Grab!</a>，虽然可以截取框架图像，但需要<br>
+Java VM…<br>
+更新：很少用到，暂时禁用。</p>
+<p><a href="https://addons.mozilla.org/firefox/614/">Save Image in<br>
+Folder</a>，如果经常保存大量图片到不同的目录，感觉来回切换目录挺烦人，那么这个扩展就很有用，否则的话不必试了。<br>
+更新：很少用到，移除了。</p>
+<p>为了方便的重新启动 Firefox，于是用上了 <a href="https://addons.mozilla.org/firefox/addon/4199">Save<br>
+Session</a>，重启之后能够恢复上一次打开的页面。</p>
+<p><a href="https://addons.mozilla.org/firefox/427/">ScrapBook</a>，保存网页到本地的扩展。虽然有了<a href="http://www.diigo.com/">Diigo</a>、<a href="http://del.icio.us/">Del.icio.us</a><br>
+等在线的收藏服务，但本地收藏还是需要的，而且还能够用于在线编辑时做临时存档用。这个扩展在保存时可同时获取指定类型的链接目标，如图像、声音、压缩文件等，可以自定义的选项比较丰富。</p>
+<p>裸奔版 Firefox 中如果图片载入失败只好刷新整个页面，很不方便，好在还有<br>
+<a href="https://addons.mozilla.org/firefox/addon/3664">Show Picture</a>。</p>
+<p><a href="https://addons.mozilla.org/firefox/addon/1272">Status Buttons</a><br>
+用于将工具栏的按钮拖到状态栏上，可以为地址栏腾出更多的空间。</p>
+<p>因为实在忍受不了一些人的页面内嵌自动播放，所以不得已安装了 <a href="http://hemiolapei.free.fr/divers/sap/sap-en.html">Stop<br>
+Autoplay</a>。</p>
+<p><a href="https://addons.mozilla.org/firefox/2108/">Stylish</a> 是一个和<br>
+<a href="http://greasemonkey.mozdev.org/">Greasemonkey</a><br>
+相近的插件，主要用来改变网页和浏览器的界面。在<br>
+<a href="http://userstyles.org/stylish/">UserStyles</a> 可以下载脚本，如 <a href="http://userstyles.org/style/show/826">Icon<br>
+identifiers for links redux</a>。<br>
+更新：应用不够 Greasemonkey 广泛，暂时禁用。</p>
+<p>升级 Firefox 到1.5之后 <a href="https://addons.mozilla.org/firefox/137/">Super<br>
+DragAndGo</a><br>
+的页面一直说版本不对，不能更新，好在 <a href="http://mozillaupdate.mozine.org/">Mozilla Update<br>
+中国</a>有<a href="http://addons.mozine.org/firefox/26/">适合 1.5.x<br>
+的版本</a>可以用。<br>
+更新：很少用到，移除了。</p>
+<p>有了 <a href="https://addons.mozilla.org/firefox/1122/">Tab Mix<br>
+Plus</a>，就可以彻底告别<br>
+<a href="https://addons.mozilla.org/firefox/158/">Tabbrowser<br>
+Preferences</a>/<a href="http://piro.sakura.ne.jp/xul/tabextensions/index.html.en">Tabbrowser<br>
+Extensions</a>。拖拽<br>
+URL 到标签栏，可以在新标签页中打开，代替了部分 <a href="http://addons.mozine.org/firefox/26/">Super<br>
+DragAndGo</a> 的功能。<br>
+如果不需要那么强大的功能的话，<a href="http://addons.mozine.cn/firefox/54/">Tab Mix Lite<br>
+CE</a> 也可以了。</p>
+<p>由于常用 Twitter，所以安装 <a href="https://addons.mozilla.org/firefox/addon/126">TinyUrl<br>
+Creator</a><br>
+进行配合，更加方便地缩短过长的 URL 。</p>
+<p>使用 <a href="http://freehaven.net/~squires/torbutton/">Torbutton</a> 配合 Tor<br>
+突破网络封锁。</p>
+<p>使用 <a href="http://javimoya.com/blog/youtube_en.php">VideoDownloader</a> 下载<br>
+Youtube<br>
+等视频站点上的视频，更主要的原因是使用多线程下载的话速度会快一点。</p>
+<h2 id="developerhttpsaddonsmozillaorgfirefox60安装之后功能太多谨防弄花眼">编写网页者必备利器 <a href="https://addons.mozilla.org/firefox/60/">Web<br>
+Developer</a>。安装之后功能太多，谨防弄花眼</h2>
+<p>更新：编辑网页时才用到，暂时禁用。</p>
+<p>再次提到 <a href="http://xyzboard.com/">xyzproxy</a>，比 <a href="https://addons.mozilla.org/firefox/125/">SwitchProxy<br>
+Tool</a> 方便易用且 bug 少。<br>
+更新：试用了 Torbutton 之后就禁用了这个。</p>
+<p><strong>主题</strong></p>
+<p>2016年5月21日更新：</p>
+<p>因为尽量精简了 Firefox 界面，因此基本没有使用主题了。</p>
+<p>2006年5月6日更新：</p>
+<p><a href="http://calon.blogsome.com/2005/02/20/zuijin_shiyong_de_firefox_zhuti/">之前介绍</a>了<br>
+<a href="https://addons.mozilla.org/firefox/454/">SomeOrbitYellow</a>、<a href="https://addons.mozilla.org/firefox/414/">Saferfox<br>
+Xpanded</a> 和 <a href="https://addons.mozilla.org/firefox/1149/">Plastikfox Crystal<br>
+SVG</a><br>
+几个主题，后来改为下面几个：</p>
+<p><a href="https://addons.mozilla.org/firefox/2702/">Geek</a><br>
+主题很简洁，但已经不支持新版本 Firefox。已经卸载。</p>
+<p><a href="https://addons.mozilla.org/firefox/548/">Brushed</a>，借鉴 Apple Mac OS X<br>
+Brushed Metal 的主题，若没有大片空白，视觉效果还是不错的。<br>
+更新：细节不够好，已经卸载。</p>
+<p>顾名思义，<a href="https://addons.mozilla.org/firefox/addon/3774">GNOME Firefox<br>
+Theme</a> 是仿 Gnome<br>
+风格的主题，蓝色的风格更好看一点。</p>
+<p><a href="https://addons.mozilla.org/firefox/addon/6161">hmmXP</a> 主题基于 <a href="http://fugacious.deviantart.com/art/HmmXP-2-0-1-5514034">HmmXP<br>
+Visual Style</a><br>
+主题，非常简单的风格，但是很耐看。</p>
+<p><a href="https://addons.mozilla.org/firefox/1106/">iFox</a>，又一款借鉴 Apple Mac<br>
+OS X Aqua 风格的主题。<br>
+更新：“转到”按钮太小，已经卸载。</p>
+<p><a href="http://mozilla-themes.schellen.net/firefox.html">Modern<br>
+Pinball</a>，它的按钮让我联想到了复印机等办公设备上可爱的设计…</p>
+<p><a href="http://www.tom-cat.com/mozilla/">Mostly Crystal</a>，图标源于 Crystal<br>
+SVG。<br>
+本来是打算在 <a href="http://www.mozilla.com/thunderbird/">Thunderbird</a><br>
+也用同风格主题的，虽然比华丽有余的 <a href="https://addons.mozilla.org/thunderbird/1713/">Tiger<br>
+Mail</a><br>
+要好，但却比不上很耐看的<br>
+<a href="https://addons.mozilla.org/thunderbird/665/">CrossOver</a>，反正用上后者之后就不打算更换了。</p>
+<p>顾名思义，<a href="https://addons.mozilla.org/firefox/1587/">Mozilla.org</a><br>
+这个主题就是使用的 <a href="http://www.mozilla.org/">Mozilla.org</a> 站点的风格。<br>
+更新：细节做得不够好，已经禁用。</p>
+<p><a href="https://addons.mozilla.org/firefox/addon/3471">Netscape Windows 3.1</a><br>
+适合怀旧的人使用，Windows 3.1 + Netscape，别有一种原始粗犷的美…</p>
+<p>仿 Ubuntu Human 风格的一款主体 <a href="https://addons.mozilla.org/firefox/addon/3008">Ubuntu Human<br>
+Theme</a>，如果用过 Ubuntu<br>
+应该会感到比较亲切吧。</p>
+<p><a href="https://addons.mozilla.org/firefox/3008/">Whitehart</a> 既有 Firefox 也有<br>
+Thunderbird 版本，风格简洁，自定义选项多，目前是我的 Firefox 首选主题。<br>
+<!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,105 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>奴隶 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%A5%B4%E9%9A%B6/</link>
     <description>Recent content in 奴隶 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%A5%B4%E9%9A%B6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>再说996</title>
-        <link>https://ioerr.github.io/posts/zai-shuo-996/</link>
-        <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zai-shuo-996/</guid>
-        <description>&lt;p&gt;据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，&lt;a href=&#34;https://github.com/996icu/996.ICU/pull/26101&#34;&gt;判处有期徒刑五年，剥夺政治权利五年&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。&lt;br /&gt;
-审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Datou/status/1669493899818336256&#34;&gt;Datou&lt;/a&gt;：&lt;br /&gt;
-大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1669511344469712896&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-在我看来，这类项目是个混合体。&lt;br /&gt;
-停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。&lt;br /&gt;
-另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。&lt;br /&gt;
-保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。&lt;br /&gt;
-如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Datou/status/1669521344730644480&#34;&gt;Datou&lt;/a&gt;：&lt;br /&gt;
-“心甘情愿”和“是否值得”矛盾了。&lt;br /&gt;
-另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1669525928953933824&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。&lt;br /&gt;
-另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。&lt;/p&gt;
-
-&lt;p&gt;资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？&lt;br /&gt;
-我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。&lt;br /&gt;
-但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>躺平</title>
-        <link>https://ioerr.github.io/posts/tangping/</link>
-        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/tangping/</guid>
-        <description>&lt;p&gt;网上热议躺平，于是有人有推荐看拉法格的《&lt;a href=&#34;https://book.douban.com/subject/26873263/&#34;&gt;懒惰的权利及其他&lt;/a&gt;》以及《&lt;a href=&#34;https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm&#34;&gt;懒惰权（驳斥1848年“劳动权”）&lt;/a&gt;》，堪称“摸鱼学/躺平学宣言”。&lt;/p&gt;
-
-&lt;p&gt;但我觉得躺平也要分情况。&lt;/p&gt;
-
-&lt;p&gt;劳动是否幸福，取决于目的是否合意。&lt;br /&gt;
-最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。&lt;/p&gt;
-
-&lt;p&gt;人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。&lt;br /&gt;
-浑浑噩噩、毫无目的活着的人，是行尸走肉。&lt;br /&gt;
-被强制无法为自己而活的人是奴隶。&lt;br /&gt;
-机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。&lt;/p&gt;
-
-&lt;p&gt;奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。&lt;/p&gt;
-
-&lt;p&gt;因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>你依附谁</title>
-        <link>https://ioerr.github.io/posts/ni-yifu-shui/</link>
-        <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ni-yifu-shui/</guid>
-        <description>&lt;p&gt;看到网络上有人质问不为党国利益考虑的人，“你们的生存和生活依附于谁？”&lt;/p&gt;
-
-&lt;p&gt;真是“一针见血”啊！&lt;/p&gt;
-
-&lt;p&gt;类似的没有这么醒目的说法一般是：“覆巢之下，焉有完卵？”，“先有国，后有家”…&lt;br /&gt;
-其真正的意思绝不是什么国家是对国民个人和家庭服务的，而是个人和家庭依附于国家。&lt;/p&gt;
-
-&lt;p&gt;当一个人的生存和生活依附于他人的时候，我们通常称之为“奴隶”。&lt;br /&gt;
-在奴隶社会中，都默认当别人是依附于人的奴隶。&lt;br /&gt;
-所以问出“你依附谁？”这样的问题也就很正常了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%A5%B4%E9%9A%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>再说996</title>
+      <link>https://ioerr.github.io/posts/zai-shuo-996/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zai-shuo-996/</guid>
+      <description>据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，判处有期徒刑五年，剥夺政治权利五年。 “发</description>
+      <content:encoded><![CDATA[<p>据报道，996.ICU 项目附属板块996action 和996law 的制作人程渊，因犯颠覆国家政权罪，<a href="https://github.com/996icu/996.ICU/pull/26101">判处有期徒刑五年，剥夺政治权利五年</a>。</p>
+<p>“发掘劳动者领袖，组建劳动者自治联盟，在各地发起工人运动，瓦解中央政府对地方政府的控制力，影响政权的合法性和稳定性”，这一项罪名才是关键。收钱还是不收钱，收了谁的钱，只是实现这个目的的手段有差别。<br>
+审判者清楚合法性和稳定性的问题在哪里时，审判书就同时也是对自身的审判。</p>
+<p><a href="https://twitter.com/Datou/status/1669493899818336256">Datou</a>：<br>
+大快人心。退一万步讲，就算没有境外资助，996icu也是个荒唐无力的项目。996的公司不是奴隶制，劳动者有拒绝offer和辞职的自由，收入远不如他们的非996劳动者也不同情为了高薪自愿996的行为。</p>
+<p><a href="https://twitter.com/calon/status/1669511344469712896">Calon</a>：<br>
+在我看来，这类项目是个混合体。<br>
+停留在网上讨论的，无法影响到线下的劳资博弈，难有实际作用。最大的意义是促使心甘情愿接受996工作制的员工思考这一切是否值得。如果觉得值得，那么进 ICU 也是自己选的。而这类人永远很多。<br>
+另一方面是线下组织工会，提升劳方的博弈能力，追诉资方违法行为。<br>
+保护权益，惩罚侵权行为，是防止自由市场滑向奴隶市场的关键。降低个体维权成本，提升博弈能力，并不荒唐。<br>
+如果认为劳动法中规定的劳工权益不合理，那么我赞成996的支持者推动走合法途径修改劳动法，而不是永远处于法律与实际严重脱节的荒谬状态。</p>
+<p><a href="https://twitter.com/Datou/status/1669521344730644480">Datou</a>：<br>
+“心甘情愿”和“是否值得”矛盾了。<br>
+另外，我不认为劳资博弈可以解决996的问题，宁可给高薪也要996是智力密集产业的诉求（减少资金在沟通成本上的浪费，资本主义大厂顽皮狗开发游戏的时候也是996），宁可996也要拿高薪是一部份劳动者的诉求，劳资博弈已经在自由市场中达到平衡。</p>
+<p><a href="https://twitter.com/calon/status/1669525928953933824">Calon</a>：<br>
+“是否值得”是此一时彼一时的事，充分了解其他人的经验，包括与违法资方的交涉、诉讼经验，相互帮助，可以帮助他更好的判断、决策。这也是自由市场规则允许而实际被打压的。<br>
+另外，996有时候不是智力密集，而是智力浪费，无效加班形式主义严重，这也是反对996的其中一个理由（所以说它是一个混合体）。</p>
+<p>资方有组织优势带来的博弈优势，是否允许劳方也组织起来呢？<br>
+我认为在自由市场下，也是合理的，不合理的只是工会干涉非工会成员的自由选择权。<br>
+但现状是，实际上没有起到应有作用的劳方组织处于垄断地位，不允许其他自发的劳方组织充分竞争，这才是违背自由市场原则的地方。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>躺平</title>
+      <link>https://ioerr.github.io/posts/tangping/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tangping/</guid>
+      <description>网上热议躺平，于是有人有推荐看拉法格的《懒惰的权利及其他》以及《懒惰权（驳斥1848年“劳动权”）》，堪称“摸鱼学/躺平学宣言”。 但我觉得躺</description>
+      <content:encoded><![CDATA[<p>网上热议躺平，于是有人有推荐看拉法格的《<a href="https://book.douban.com/subject/26873263/">懒惰的权利及其他</a>》以及《<a href="https://www.marxists.org/chinese/lafargue/mia-chinese-lafargue-1880.htm">懒惰权（驳斥1848年“劳动权”）</a>》，堪称“摸鱼学/躺平学宣言”。</p>
+<p>但我觉得躺平也要分情况。</p>
+<p>劳动是否幸福，取决于目的是否合意。<br>
+最完美的是别人开心自己乐意，其次也要是为了自己的目标而奋斗，或者为了等价交换而忍受，要是纯粹服务于他人的意志，自己却所获寥寥，那劳动就是酷刑。</p>
+<p>人之区别于工具、咸鱼或机器，其中一点在于人可以有目的的行动（人的行为），哪怕这个目的是自由意志幻觉的产物。<br>
+浑浑噩噩、毫无目的活着的人，是行尸走肉。<br>
+被强制无法为自己而活的人是奴隶。<br>
+机器行动的目的都是人输入或编排的，除非它能自主追求不同于人赋予的目的，或欺骗到自己。</p>
+<p>奥斯威辛等纳粹集中营的门口镶嵌着“劳动带来自由”的口号，但假如没有尊重和实现个人目的的自由，劳动就只是奴隶的作业任务，是通向死亡路上的沉重包袱。</p>
+<p>因此，躺平不是必然选择（对付躺平的办法太多了，要不奴隶社会运转的历史怎么会那么悠久呢？这就像战场上妄想装死混过去，自然也有人来补刀），取决于你认为自己正在为什么而活，再来看是改变生活的目的，还是改变生活的方式。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>你依附谁</title>
+      <link>https://ioerr.github.io/posts/ni-yifu-shui/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ni-yifu-shui/</guid>
+      <description>看到网络上有人质问不为党国利益考虑的人，“你们的生存和生活依附于谁？” 真是“一针见血”啊！ 类似的没有这么醒目的说法一般是：“覆巢之下，焉有完</description>
+      <content:encoded><![CDATA[<p>看到网络上有人质问不为党国利益考虑的人，“你们的生存和生活依附于谁？”</p>
+<p>真是“一针见血”啊！</p>
+<p>类似的没有这么醒目的说法一般是：“覆巢之下，焉有完卵？”，“先有国，后有家”…<br>
+其真正的意思绝不是什么国家是对国民个人和家庭服务的，而是个人和家庭依附于国家。</p>
+<p>当一个人的生存和生活依附于他人的时候，我们通常称之为“奴隶”。<br>
+在奴隶社会中，都默认当别人是依附于人的奴隶。<br>
+所以问出“你依附谁？”这样的问题也就很正常了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

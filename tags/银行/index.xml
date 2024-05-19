@@ -1,146 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>银行 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%93%B6%E8%A1%8C/</link>
     <description>Recent content in 银行 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 02 Sep 2008 16:02:59 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%93%B6%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Flickr Pro</title>
-        <link>https://ioerr.github.io/posts/flickr-pro/</link>
-        <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickr-pro/</guid>
-        <description>&lt;p&gt;最近终于购买了 &lt;a href=&#34;http://www.flickr.com/upgrade/&#34;&gt;Flickr Pro&lt;/a&gt;
-的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr
-也是当仁不让的首选！&lt;/p&gt;
-
-&lt;p&gt;于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但
-Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在
-&lt;a href=&#34;http://www.flickr.com/photos/organize/&#34;&gt;Organize&lt;/a&gt;
-中活用照片集、筛选、搜索和“Jump to date”。&lt;/p&gt;
-
-&lt;p&gt;为了网上付款的事情，在多次被建设银行调戏之后，一怒之下把钱都取出来全部存到了招商银行，两边的服务一对比，才觉得自己像个真正的顾客了。&lt;/p&gt;
-
-&lt;p&gt;看到 Twitter 上有人提起
-&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对
-Unicode
-的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆
-Unicode 字符也不能用了，看来仅适合写代码人士使用了…&lt;/p&gt;
-
-&lt;p&gt;今天的&lt;a href=&#34;http://googlechinablog.com/2008/09/blog-post_02.html&#34;&gt;大消息&lt;/a&gt;是
-&lt;a href=&#34;http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html&#34;&gt;Google
-Chrome&lt;/a&gt;（谷铬？）即将现身江湖，重复的话就不多说了，只说两点：&lt;br /&gt;
-1、从描述和截图来看，&lt;a href=&#34;http://www.google.com/chrome&#34;&gt;Chrome&lt;/a&gt; =
-Safari+Firefox+Opera+IE8+Prism？&lt;br /&gt;
-2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari
-Windows 版。&lt;/p&gt;
-
-&lt;p&gt;第二代身份证还没有到手，打电话问了一下公安局，答复说新身份证要在办理后60天才能拿到。那开始白纸黑字写30天之内是什么意思？还有人说&lt;a href=&#34;http://twitter.com/gaolei80/statuses/905561071&#34;&gt;等了8个月才拿到&lt;/a&gt;，只怕到时候我的联系方式都变了…&lt;/p&gt;
-
-&lt;p&gt;凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在
-Karlsruhe 时被 Okocha 戏耍的视频…&lt;br /&gt;
-现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke
-当正选门将了，可惜他的巅峰期只留给国内联赛和冠军杯。&lt;/p&gt;
-
-&lt;p&gt;OM 的正太 Samir Nasri 去了 Arsenal
-之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和
-Arsenal
-了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在
-Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires
-的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM
-吧，免得暴殄天物啊～&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>记一次失败的网上购书经历，之二</title>
-        <link>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli-zhier/</link>
-        <pubDate>Sun, 11 Nov 2007 16:40:41 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli-zhier/</guid>
-        <description>
-
-&lt;p&gt;终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-您的个人网上银行防伪信息没有设置，为了保护您的资金安全，建议您登录个人网银，在安全中心设置防伪信息。
-&lt;/blockquote&gt;
-于是转去“安全中心”，可是遇到如下提示：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-信息提示： 8007&lt;br /&gt;
-系统繁忙，请重新登录或与银行联系。
-&lt;/blockquote&gt;
-而且等了十数分钟，反复尝试几次都是如此，现在可是晚上10点之后的非高峰时期啊！&lt;br /&gt;
-遂重新登录，进入安全中心，嗯，这是什么？&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/calon.xu/Snapshot/photo#5131592933457812738&#34;&gt;&lt;img src=&#34;http://lh5.google.com/calon.xu/RzcUlaqoXQI/AAAAAAAAAbg/GpxhzwHhy1c/s400/ScreenShot00071.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-这也可以整出乱码啊~凭什么其他服务的页面都没问题，就是我要用的服务会出现乱码啊？！这是存心要陷害我吗？我长得既不像人大代表也不像奥运猪啊！&lt;/p&gt;
-
-&lt;p&gt;好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-错误代码： 210035 密码校验次数超限&lt;br /&gt;
-本次支付失败，请重新下单。
-&lt;/blockquote&gt;
-啊，我已经快要怒发冲冠了~才第一次输入密码就次数超限？而且支付密码分明是对的啊~&lt;br /&gt;
-强忍怒火去“常见问题解答”页面用“校验次数”或“校验”搜索下一下，嗯，竟然没有返回任何结果…怎么？难道又是只有一个人会遇见这种根本就不常见的问题而且那个人就是我？&lt;br /&gt;
-心中的小宇宙产量顿时翻了一番！我不能够被这个银行击败！改输入“密码”作为关键字查询！&lt;br /&gt;
-于是第一条问答就出现如下内容：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-网银密码每日最多输错几次会被冻结？&lt;/p&gt;
-
-&lt;p&gt;每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示&lt;strong&gt;密码校验次数超限&lt;/strong&gt;，第二日会自动解锁。&lt;/p&gt;
-
-&lt;p&gt;您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。
-&lt;/blockquote&gt;
-黑线开始爬上我的额头，小宇宙开始出现裂缝 :023:&lt;br /&gt;
-这么上等的帮助页面查询只能够搜索问题的内容而不搜索回答的全文内容？如果我知道“网银密码输错”会导致“密码校验次数超限”，我还来问你作甚？&lt;/p&gt;
-
-&lt;p&gt;好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…&lt;/p&gt;
-
-&lt;h2 id=&#34;嗯&#34;&gt;嗯&lt;/h2&gt;
-
-&lt;p&gt;解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~&lt;/p&gt;
-
-&lt;p&gt;决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…&lt;/p&gt;
-
-&lt;p&gt;补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。&lt;/p&gt;
-
-&lt;p&gt;再补充：改为使用储蓄卡转账方式，提示如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-信息提示： ASSS99&lt;br /&gt;
-ASSS99&lt;br /&gt;
-此时段不允许做此交易
-&lt;/blockquote&gt;
-在帮助信息中查到：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-我办理银证转账有没有时间限制？&lt;/p&gt;
-
-&lt;p&gt;您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。
-&lt;/blockquote&gt;
-貌似比银行柜台营业时间还短啊，真是无语了…&lt;/p&gt;
-
-&lt;p&gt;所以说我讨厌和银行打交道是有原因的…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%93%B6%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flickr Pro</title>
+      <link>https://ioerr.github.io/posts/flickr-pro/</link>
+      <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickr-pro/</guid>
+      <description>最近终于购买了 Flickr Pro 的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr 也是当仁不让的首选！ 于是每天都在大量的上传积存的照</description>
+      <content:encoded><![CDATA[<p>最近终于购买了 <a href="http://www.flickr.com/upgrade/">Flickr Pro</a><br>
+的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr<br>
+也是当仁不让的首选！</p>
+<p>于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但<br>
+Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在<br>
+<a href="http://www.flickr.com/photos/organize/">Organize</a><br>
+中活用照片集、筛选、搜索和“Jump to date”。</p>
+<p>为了网上付款的事情，在多次被建设银行调戏之后，一怒之下把钱都取出来全部存到了招商银行，两边的服务一对比，才觉得自己像个真正的顾客了。</p>
+<p>看到 Twitter 上有人提起<br>
+<a href="http://www.pspad.com/">PSPad</a>，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对<br>
+Unicode<br>
+的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆<br>
+Unicode 字符也不能用了，看来仅适合写代码人士使用了…</p>
+<p>今天的<a href="http://googlechinablog.com/2008/09/blog-post_02.html">大消息</a>是<br>
+<a href="http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html">Google<br>
+Chrome</a>（谷铬？）即将现身江湖，重复的话就不多说了，只说两点：<br>
+1、从描述和截图来看，<a href="http://www.google.com/chrome">Chrome</a> =<br>
+Safari+Firefox+Opera+IE8+Prism？<br>
+2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari<br>
+Windows 版。</p>
+<p>第二代身份证还没有到手，打电话问了一下公安局，答复说新身份证要在办理后60天才能拿到。那开始白纸黑字写30天之内是什么意思？还有人说<a href="http://twitter.com/gaolei80/statuses/905561071">等了8个月才拿到</a>，只怕到时候我的联系方式都变了…</p>
+<p>凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在<br>
+Karlsruhe 时被 Okocha 戏耍的视频…<br>
+现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke<br>
+当正选门将了，可惜他的巅峰期只留给国内联赛和冠军杯。</p>
+<p>OM 的正太 Samir Nasri 去了 Arsenal<br>
+之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和<br>
+Arsenal<br>
+了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在<br>
+Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires<br>
+的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM<br>
+吧，免得暴殄天物啊～</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>记一次失败的网上购书经历，之二</title>
+      <link>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli-zhier/</link>
+      <pubDate>Sun, 11 Nov 2007 16:40:41 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ji-yici-shibaide-wangshang-goushu-jingli-zhier/</guid>
+      <description>终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知： 好不容易不断</description>
+      <content:encoded><![CDATA[<p>终于下定决心走普通邮寄的方式网上购书，填好订单选择寄送方式和付款方式（建设银行网上支付）之后，来到了建设银行的支付界面，被告知：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>好不容易不断刷新页面等到乱码消失了，输入支付密码之后，又告诉我：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>每日网银登录密码累计输错3次，交易密码累计输错6次，密码将被锁定，系统会提示<strong>密码校验次数超限</strong>，第二日会自动解锁。</p>
+<p>您如果想修改网银登录密码和交易密码请进入“安全中心”菜单下选择“修改密码”。</p>
+<!-- raw HTML omitted -->
+<h2 id="嗯">好了，和谐，要和谐，毕竟问题的原因已经找到，现在来看看怎么解决问题…<br>
+嗯\</h2>
+<p>解决个头啊，如果是以往被锁定过，按照它的解答，不是到今天早就已经自动解锁了吗？而今天又是第一次尝试支付，就算我输入的支付密码不对，也不能锁住我的密码啊~</p>
+<p>决定过了0点再试一次，如果仍然失败，就选择储蓄卡汇款方式，如果还失败，那么明天就试试它的客户服务热线水准好了…</p>
+<p>补充：0点之后再试，仍然是一样的提示。已确认证书、登录密码、交易密码无误。</p>
+<p>再补充：改为使用储蓄卡转账方式，提示如下：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>您办理银证转账业务的时间一般为：周一到周五9：30－15：00，节假日除外。具体情况请咨询当地95533。</p>
+<!-- raw HTML omitted -->
+<p>所以说我讨厌和银行打交道是有原因的…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,50 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>快递 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%BF%AB%E9%80%92/</link>
     <description>Recent content in 快递 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 19 Nov 2015 05:22:42 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%BF%AB%E9%80%92/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>快递条例</title>
-        <link>https://ioerr.github.io/posts/kuaidi-tiaoli/</link>
-        <pubDate>Thu, 19 Nov 2015 05:22:42 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/kuaidi-tiaoli/</guid>
-        <description>&lt;p&gt;国务院法制办近日公布《&lt;a href=&#34;http://yijian.chinalaw.gov.cn/.../law.../1447635960401.doc&#34;&gt;快递条例（征求意见稿）&lt;/a&gt;》。&lt;br /&gt;
-关注的重点之一是因为之前落实快递行业实名制，所以配合重罚倒卖、泄露用户信息。&lt;br /&gt;
-之二是重罚抛扔快递行为。&lt;/p&gt;
-
-&lt;p&gt;第一点说来话长，先只说第二点。&lt;/p&gt;
-
-&lt;p&gt;快递行业暴力分拣现象严重的根本原因是什么？&lt;br /&gt;
-是快递包裹量大，而快递企业的分拣手段还在人工或半自动阶段，萝卜快了不洗泥。&lt;br /&gt;
-是消费者目前仍然对价格非常敏感，市场选择的结果就是这种服务不算靠谱但总体来说“性价比高”的企业。&lt;/p&gt;
-
-&lt;p&gt;但这个问题可以通过市场竞争逐步优化。&lt;br /&gt;
-顺丰、德邦等品牌形象较好的快递企业，以及大型电商自有物流都会主动有意识的优化服务。&lt;br /&gt;
-激烈竞争中利润率越来越低的中低端企业要想进一步发展，迟早也要步上这条路，否则就等着要求越来越高的消费者要求卖家不用自家的快递。&lt;br /&gt;
-也就是说，服务监管和提升不用外部第三方介入，通过竞争机制，企业自己就会主动去做。&lt;/p&gt;
-
-&lt;p&gt;只是，要升级到自动分拣体系，完成相应的系统改造，并完善管理体系，要投入更多成本。&lt;br /&gt;
-因此，短期内，除非企业自己先承受升级成本而不转嫁，则更好的服务质量对应的必然是价格的上升。&lt;/p&gt;
-
-&lt;p&gt;那么，这个《快递条例》出台的初衷是什么呢？&lt;br /&gt;
-初衷之一恐怕是消费者既希望快递服务迅速优化，同时又不想被转嫁优化成本，于是希望政府出面监管快递企业，仿佛政府监管的管理成本永远不会同样转嫁到消费者身上。&lt;br /&gt;
-而政府也乐得响应群众呼声。&lt;br /&gt;
-至于监管是不是高效、到位，监管的设备、人力成本谁来承担，以往早有先例，不难猜到，等到正式施行就知道了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%BF%AB%E9%80%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快递条例</title>
+      <link>https://ioerr.github.io/posts/kuaidi-tiaoli/</link>
+      <pubDate>Thu, 19 Nov 2015 05:22:42 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/kuaidi-tiaoli/</guid>
+      <description>国务院法制办近日公布《快递条例（征求意见稿）》。 关注的重点之一是因为之前落实快递行业实名制，所以配合重罚倒卖、泄露用户信息。 之二是重罚抛扔快</description>
+      <content:encoded><![CDATA[<p>国务院法制办近日公布《<a href="http://yijian.chinalaw.gov.cn/.../law.../1447635960401.doc">快递条例（征求意见稿）</a>》。<br>
+关注的重点之一是因为之前落实快递行业实名制，所以配合重罚倒卖、泄露用户信息。<br>
+之二是重罚抛扔快递行为。</p>
+<p>第一点说来话长，先只说第二点。</p>
+<p>快递行业暴力分拣现象严重的根本原因是什么？<br>
+是快递包裹量大，而快递企业的分拣手段还在人工或半自动阶段，萝卜快了不洗泥。<br>
+是消费者目前仍然对价格非常敏感，市场选择的结果就是这种服务不算靠谱但总体来说“性价比高”的企业。</p>
+<p>但这个问题可以通过市场竞争逐步优化。<br>
+顺丰、德邦等品牌形象较好的快递企业，以及大型电商自有物流都会主动有意识的优化服务。<br>
+激烈竞争中利润率越来越低的中低端企业要想进一步发展，迟早也要步上这条路，否则就等着要求越来越高的消费者要求卖家不用自家的快递。<br>
+也就是说，服务监管和提升不用外部第三方介入，通过竞争机制，企业自己就会主动去做。</p>
+<p>只是，要升级到自动分拣体系，完成相应的系统改造，并完善管理体系，要投入更多成本。<br>
+因此，短期内，除非企业自己先承受升级成本而不转嫁，则更好的服务质量对应的必然是价格的上升。</p>
+<p>那么，这个《快递条例》出台的初衷是什么呢？<br>
+初衷之一恐怕是消费者既希望快递服务迅速优化，同时又不想被转嫁优化成本，于是希望政府出面监管快递企业，仿佛政府监管的管理成本永远不会同样转嫁到消费者身上。<br>
+而政府也乐得响应群众呼声。<br>
+至于监管是不是高效、到位，监管的设备、人力成本谁来承担，以往早有先例，不难猜到，等到正式施行就知道了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

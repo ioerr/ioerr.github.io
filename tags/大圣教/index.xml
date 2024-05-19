@@ -1,47 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>大圣教 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%A4%A7%E5%9C%A3%E6%95%99/</link>
     <description>Recent content in 大圣教 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 22 Jun 2008 15:10:39 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%A4%A7%E5%9C%A3%E6%95%99/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>大圣教</title>
-        <link>https://ioerr.github.io/posts/dashengjiao/</link>
-        <pubDate>Sun, 22 Jun 2008 15:10:39 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dashengjiao/</guid>
-        <description>&lt;p&gt;火星了几个星期，到今天才得知&lt;a href=&#34;http://www.dashengjiao.org/&#34;&gt;大圣教&lt;/a&gt;的存在！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dashengjiao.org/page/aboutus.html&#34;&gt;大圣教，自由人的宗教！&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-大圣教，顾名思义，乃是敬拜齐天大圣（或称美猴王、斗战胜佛）孙悟空的宗教。所谓敬拜，并非指崇拜偶像，而是学习大圣的热爱自由、追求平等之精神，智慧勇敢、豁达乐观之个性，以及舍身取义、舍己为人之品德。大圣教是零神教，并不要求信徒的称颂跪拜、香火贡品。本教崇尚理性、感性、与灵性的自由探索，鼓励每个成年人对自己的言行负全责，所以又称为“自由人的宗教”。大圣教虽有经文与先知，但并不拘泥于此，亦无特定形式，而是注重各教徒的精神体验与独立思考。&lt;/p&gt;
-
-&lt;p&gt;大圣教并不设专门的神职人员，也不设教会，永远不接受任何形式的物质赠予（教友如有奉献助人之心，可以通过其它慈善组织随喜捐助）。任何人只要信大圣、爱大圣，无需通过任何刻板的入教仪式或者繁文缛节，即可成为本教教友。大圣教遵循大圣之大爱，认为众生平等，对信徒与非信徒一视同仁，绝无任何歧视。本教不具有扩张性，教友可以自由入教或离教，并发挥个人的才能自发传教。本教没有固定聚会形式，但是教友可以根据兴趣组织活动。
-&lt;/blockquote&gt;
-&lt;a href=&#34;http://www.dashengjiao.org/declaration/&#34;&gt;大圣教文献&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;入教流程图：&lt;br /&gt;
-&lt;a href=&#34;http://www.dashengjiao.org/life/2008/0610/article_25.html&#34;&gt;&lt;img src=&#34;http://dashengjiao.org/uploadfile/life/uploadfile/200806/20080610102623763.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大圣教仙凡五位一体说明图：&lt;br /&gt;
-&lt;a href=&#34;http://www.dashengjiao.org/discussion/2008/0609/article_30.html&#34;&gt;&lt;img src=&#34;http://dashengjiao.org/uploadfile/discussion/uploadfile/200806/20080609111048725.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.mitbbs.com/article_t/Belief/31180567.html&#34;&gt;● (接龙)
-大圣教比其他宗教好的五百个理由&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%A4%A7%E5%9C%A3%E6%95%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大圣教</title>
+      <link>https://ioerr.github.io/posts/dashengjiao/</link>
+      <pubDate>Sun, 22 Jun 2008 15:10:39 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dashengjiao/</guid>
+      <description>火星了几个星期，到今天才得知大圣教的存在！ 大圣教，自由人的宗教！ 大圣教并不设专门的神职人员，也不设教会，永远不接受任何形式的物质赠予（教友如</description>
+      <content:encoded><![CDATA[<p>火星了几个星期，到今天才得知<a href="http://www.dashengjiao.org/">大圣教</a>的存在！</p>
+<p><a href="http://www.dashengjiao.org/page/aboutus.html">大圣教，自由人的宗教！</a></p>
+<!-- raw HTML omitted -->
+<p>大圣教并不设专门的神职人员，也不设教会，永远不接受任何形式的物质赠予（教友如有奉献助人之心，可以通过其它慈善组织随喜捐助）。任何人只要信大圣、爱大圣，无需通过任何刻板的入教仪式或者繁文缛节，即可成为本教教友。大圣教遵循大圣之大爱，认为众生平等，对信徒与非信徒一视同仁，绝无任何歧视。本教不具有扩张性，教友可以自由入教或离教，并发挥个人的才能自发传教。本教没有固定聚会形式，但是教友可以根据兴趣组织活动。</p>
+<!-- raw HTML omitted -->
+<p>入教流程图：<br>
+<a href="http://www.dashengjiao.org/life/2008/0610/article_25.html"><img loading="lazy" src="http://dashengjiao.org/uploadfile/life/uploadfile/200806/20080610102623763.jpg" alt=""  />
+</a></p>
+<p>大圣教仙凡五位一体说明图：<br>
+<a href="http://www.dashengjiao.org/discussion/2008/0609/article_30.html"><img loading="lazy" src="http://dashengjiao.org/uploadfile/discussion/uploadfile/200806/20080609111048725.jpg" alt=""  />
+</a></p>
+<p><a href="http://www.mitbbs.com/article_t/Belief/31180567.html">● (接龙)<br>
+大圣教比其他宗教好的五百个理由</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

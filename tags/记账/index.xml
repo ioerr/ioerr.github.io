@@ -1,30 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>记账 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%AE%B0%E8%B4%A6/</link>
     <description>Recent content in 记账 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 08 Oct 2007 15:25:39 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%AE%B0%E8%B4%A6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>旅游记账</title>
-        <link>https://ioerr.github.io/posts/lvyou-jizhang/</link>
-        <pubDate>Mon, 08 Oct 2007 15:25:39 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/lvyou-jizhang/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.yupoo.com/photos/view?id=ff8080811579dcac0115802598676023&#34;&gt;&lt;img src=&#34;http://photo11.yupoo.com/20071008/230448_310464516_irgokvvl.jpg&#34; alt=&#34;旅游记账&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-其中出行交通费用1057元，门票费用638元，住宿536元。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%AE%B0%E8%B4%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>旅游记账</title>
+      <link>https://ioerr.github.io/posts/lvyou-jizhang/</link>
+      <pubDate>Mon, 08 Oct 2007 15:25:39 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/lvyou-jizhang/</guid>
+      <description>其中出行交通费用1057元，门票费用638元，住宿536元。</description>
+      <content:encoded><![CDATA[<p><a href="http://www.yupoo.com/photos/view?id=ff8080811579dcac0115802598676023"><img loading="lazy" src="http://photo11.yupoo.com/20071008/230448_310464516_irgokvvl.jpg" alt="旅游记账"  />
+</a><br>
+其中出行交通费用1057元，门票费用638元，住宿536元。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

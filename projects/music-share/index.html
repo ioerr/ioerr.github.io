@@ -1,162 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>音乐分享 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>音乐分享 @ 读写错误</title>
+<meta name="keywords" content="音乐">
+<meta name="description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。 本来准">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/projects/music-share/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/projects/music-share/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="音乐分享" />
-<meta property="og:description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。
-本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。
-Intermezzo from Cavalleria Rusticana
-乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。
-作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。
-如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。
-Russian Red - The Memory Is Cruel
-目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？
-椎名林檎的入门向系列推荐：
-东京事变 - 落日
-某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。
-椎名林檎 - 本能
-MV 中护士装的打扮是她早期的经典形象。
-椎名林檎 - ギャンブル （赌局/Gamble）
-椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。
-椎名林檎 - 歌舞伎町の女王
-听到就忍不住跟着吹口哨啊。
-椎名林檎 - 丸の内サディステック（丸之内虐待狂）
-现场经典的小跳步最适合这一首。
-椎名林檎 - 長く短い祭
-这首歌得看现场才最有感觉。
-椎名林檎 - 眩晕
-氛围营造相当到位，编曲一流。
-椎名林檎 - すべりだい（滑梯）
-椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）
-东京事变 - キラーチューン（杀手调）
-椎名林檎 - 同じ夜（同一夜）" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/projects/music-share/" />
-
-
-
-<meta property="article:published_time" content="2021-12-07T00:00:00&#43;00:00"/>
-
-<meta property="article:modified_time" content="2021-12-07T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="音乐分享">
-<meta itemprop="description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。
-本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。
-Intermezzo from Cavalleria Rusticana
-乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。
-作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。
-如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。
-Russian Red - The Memory Is Cruel
-目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？
-椎名林檎的入门向系列推荐：
-东京事变 - 落日
-某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。
-椎名林檎 - 本能
-MV 中护士装的打扮是她早期的经典形象。
-椎名林檎 - ギャンブル （赌局/Gamble）
-椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。
-椎名林檎 - 歌舞伎町の女王
-听到就忍不住跟着吹口哨啊。
-椎名林檎 - 丸の内サディステック（丸之内虐待狂）
-现场经典的小跳步最适合这一首。
-椎名林檎 - 長く短い祭
-这首歌得看现场才最有感觉。
-椎名林檎 - 眩晕
-氛围营造相当到位，编曲一流。
-椎名林檎 - すべりだい（滑梯）
-椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）
-东京事变 - キラーチューン（杀手调）
-椎名林檎 - 同じ夜（同一夜）">
-
-
-<meta itemprop="datePublished" content="2021-12-07T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2021-12-07T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1587">
-
-
-
-<meta itemprop="keywords" content="音乐," />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="音乐分享"/>
-<meta name="twitter:description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。
-本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。
-Intermezzo from Cavalleria Rusticana
-乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。
-作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。
-如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。
-Russian Red - The Memory Is Cruel
-目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？
-椎名林檎的入门向系列推荐：
-东京事变 - 落日
-某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。
-椎名林檎 - 本能
-MV 中护士装的打扮是她早期的经典形象。
-椎名林檎 - ギャンブル （赌局/Gamble）
-椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。
-椎名林檎 - 歌舞伎町の女王
-听到就忍不住跟着吹口哨啊。
-椎名林檎 - 丸の内サディステック（丸之内虐待狂）
-现场经典的小跳步最适合这一首。
-椎名林檎 - 長く短い祭
-这首歌得看现场才最有感觉。
-椎名林檎 - 眩晕
-氛围营造相当到位，编曲一流。
-椎名林檎 - すべりだい（滑梯）
-椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）
-东京事变 - キラーチューン（杀手调）
-椎名林檎 - 同じ夜（同一夜）"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -167,643 +49,557 @@ MV 中护士装的打扮是她早期的经典形象。
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
-    
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
-    
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fprojects%2fmusic-share%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
-  </div>
-</nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2021-12-07 12:00">2021-12-07</time> &bull;
-          
-            
-            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
-          </p>
-      <h1>音乐分享</h1>
-      <p>
-        
-          
-            
-            <a href="/tags/%E9%9F%B3%E4%B9%90">
-              <span class="hash">#</span>音乐</a>
-          
-        
-      </p>
-    </header>
-    <section><p>在 Twitter 上开了一个<a href="https://twitter.com/calon/status/1468218162915119109">分享音乐的会话</a>，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。</p>
+<meta property="og:title" content="音乐分享" />
+<meta property="og:description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。 本来准" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/projects/music-share/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2021-12-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-07T00:00:00+00:00" />
 
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="音乐分享"/>
+<meta name="twitter:description" content="在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。 本来准"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://ioerr.github.io/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "音乐分享",
+      "item": "https://ioerr.github.io/projects/music-share/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "音乐分享",
+  "name": "音乐分享",
+  "description": "在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。 本来准",
+  "keywords": [
+    "音乐"
+  ],
+  "articleBody": "在 Twitter 上开了一个分享音乐的会话，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。\n本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。\nIntermezzo from Cavalleria Rusticana\n乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。\n作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。\n如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。\nRussian Red - The Memory Is Cruel\n目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？\n椎名林檎的入门向系列推荐：\n东京事变 - 落日\n某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。\n椎名林檎 - 本能\nMV 中护士装的打扮是她早期的经典形象。\n椎名林檎 - ギャンブル （赌局/Gamble）\n椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。\n椎名林檎 - 歌舞伎町の女王\n听到就忍不住跟着吹口哨啊。\n椎名林檎 - 丸の内サディステック（丸之内虐待狂）\n现场经典的小跳步最适合这一首。\n椎名林檎 - 長く短い祭\n这首歌得看现场才最有感觉。\n椎名林檎 - 眩晕\n氛围营造相当到位，编曲一流。\n椎名林檎 - すべりだい（滑梯）\n椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）\n东京事变 - キラーチューン（杀手调）\n椎名林檎 - 同じ夜（同一夜）\nDynamite Out 现场版最好，但没有找到网上的版本。\n椎名林檎 - 積木遊び（积木游戏）\n椎名林檎 - 正しい街（正确的大街）\n椎名林檎 - 警告\n椎名林檎 - 時が暴走する\n椎名林檎 - シドと白昼夢（席德与白日梦）\n没有列出翻唱的作品，比如 Les Feuilles Mortes、Unconditional Love、Love is Blind、Fly Me to the Moon、I Won’t Last A Day Without You、Can’t Take My Eyes Off You 等等，编曲都可以好好品。\n如果听完这些还是对椎名林檎没有兴趣，那么基本上就和她无缘了。\n梅艳芳 - 夕阳之歌\n陈慧娴 - 千千阙歌\n梅艳芳的《夕阳之歌》与陈慧娴的《千千阙歌》一曲两词，编曲和演唱风格大为不同，很多人不连着听都没意识到这是同一首歌曲的不同翻唱，而且超越了渣男近藤真彦的原唱《夕焼けの歌》，堪称香港音乐翻唱作品的巅峰之一。\n当年两首歌同时拿到同一届十大中文金曲金奖，先后同台表演，也是难得一见。\n同一年还有关淑怡的《难得有情人》、陈百强《一生何求》、Beyond《真的爱你》。\n赵鹏翻唱《难得有情人》的国语版本《早春》，因为声音低沉，成了发烧试机碟常用曲目。\nMina \u0026 Adriano Celentano - Brivido Felino \u0026 Acqua e Sale\n两首歌曲翻唱联唱现场版。挥洒自如的随性和风情万种的韵味是现场版独特的魅力。\n原版的 Brivido Felino 和 Acqua e Sale\nBurundi - Royal Burundi Drums\n上海世博会时，现场看了布隆迪大鼓的表演，第一场看了后半截意犹未尽，守在旁边又看了完整的第二场，可惜的当时没有好的设备录下来。\n感谢互联网，现在能找到在其他场合表演的版本。\nMireille Mathieu \u0026 Patrick Duffy - Together We’re Strong 尽管老视频的画质很糟，颜色失真，但 Mireille Mathieu 少女般的青春活力（那年她已有37岁）满溢而出。\n35年后，两人同台演唱 Together We’re Strong，一位须发皆白，一位身材发福，青春不在，美妙的声音仍在，美好的回忆仍在。\n卢巧音 - 好心分手\n个人认为独唱版胜过与王力宏合唱的版本，也可能是我先听的独唱版，所以先入为主吧。\n卢巧音 - 深蓝\n说到卢巧音，我更喜欢她另一首歌《深蓝》。当年感觉风格与众不同，令人耳目一新。\n林子祥 - 数字人生 + Ah Lam 日记 + 千亿个夜晚\n现场音质全损版😂\n超强机能，超长待机，收放自如，举重若轻。\n林子祥和胡夏合唱的《数字人生》，这回音质好了，更能体会到老前辈的恐怖实力。中间加入威风堂堂进行曲是神来之笔。\nEdward Elgar - Pomp and Circumstance March No. 1 in D major (Land of Hope and Glory)\n2014年逍遥音乐节上激动人心的多地现场大合唱版本。\n不少人评论：我不是英国人听着都热血沸腾开始爱国了。\n还有个神回复：我的咖啡听到了这个，现在它是一杯茶了。\nVera Lynn - Land of Hope and Glory\n陈奕迅、林子祥 - Shall We Talk\n孩童只盼望欢乐，大人只知道期望；\n为何都不大懂得，努力体恤对方。\n成人只寄望收获，情人只听见承诺；\n为何都不大懂得，努力珍惜对方。\nOlivia Newton-John - Have You Never Been Mellow\n1975年现场版。\nHave you never been mellow?\nHave you never tried to find a comfort from inside you?\nHave you never been happy just to hear your song?\nHave you never let someone else be strong?\n与非门 - 正午\n与非门这么好的乐队，可惜作品太少了，现在三少也已经因病去世。\n蒋凡这么好的歌手，唱功一流，现场稳，声线辨识度高，知道的人也太少了，因为谁是宝藏歌手节目才有更多人见识到。\nYoutube 上没有《正午》的资源，发个 B 站的，可惜不如在现场看过的版本好。\n“谁是宝藏歌手”节目上，蒋凡唱的《乐园》粤语版。\n与非门 - 我睡在你眼睛的沙漠里\n与非门 - Happy New Year\n与非门 - 1061\n2007年3月24日的网络直播表演。\nABBA - Happy New Year\nHappy New Year\nMay we all have a vision now and then\nOf a world where every neighbor is a friend\nHappy New Year\nMay we all have our hopes, our will to try\nIf we don’t we might as well lay down and die\nYou and I\nABBA - The Winner Takes It All\nBut tell me does she kiss\nLike I used to kiss you?\nDoes it feel the same\nWhen she calls your name?\nI don’t wanna talk\nIf it makes you feel sad\nAnd I understand\nYou’ve come to shake my hand\nI apologize\nIf it makes you feel bad\nSeeing me so tense\nNo self-confidence\nBut you see\nThe winner takes it all\n曾经心碎过的人才会懂。\n评论中有人说，我是个五十多岁生活美满幸福的已婚男人，能让我哭得像个婴儿的唯有这一首歌。\n另一个人说，只有到了一定的年龄才能体会到这首歌的深度。\nABBA - Gimme! Gimme! Gimme! (A Man After Midnight)\n40多年前的洗脑神曲。前奏你绝对听过，麦当娜在 Hang Up 中还用了一段采样。\nABBA - Dancing Queen\n我入坑 ABBA 的第一首歌。\n郑智化 - 朋友，天堂好吗\n朋友啊天堂好吗\n我还厚着脸皮继续活着\n反反复复有太多借口\n找不到真正的理由\n朋友啊天堂好吗\n我的一生为着别人而活\n我在掌声之中起起落落\n没有人相信我的脆弱\nBen Kweller - Nothing Happening\nLet’s focus on tomorrow, instead of right now.\nNothing happening. It’s all illusion. It’s all confusion.\nChumbawamba - Tubthumping\n当年通过 EA 的 FIFA World Cup 98 知道这首歌，为了它买了《Now 4》合辑。\nGod Is an Astronaut - Forever Lost\n国内的后摇听得不多，国外的我是从 Forever Lost 入坑的。\n夏小虎 - 逝年\n某天加班时，老婆打电话过来，说明洲在问，我开车的时候放过一首歌，歌词里面有一句是“时间似流水”，歌名是什么，他忽然想听😂\nKermit The Frog - Rainbow Connection\nSomeday we’ll find it,\nThe rainbow connection,\nThe lovers, the dreamers and me.\n翻唱或者与青蛙合唱这首经典歌曲的有很多，比如 Barbra Streisand、Carpenters、Debbie Harry、Tori Kelly、Trespassers William、Sarah McLachlan 等等。\n秋山羊子 - どん\n慢慢慢慢，没有使用的机会\n我也慢慢慢慢地生起了锈\n开心也好，悲伤也好\n最好也罢，最差也罢\n不知不觉间，在慢慢的远去\nScorpions - Life Is Too Short\n简单几句歌词就描绘出静谧、优美的画面，世界如此美好，生命却短暂易逝，大好时光不要浪费在不值得的事物上。\n在里斯本的这次现场表演很经典，比录音室版本要好。\n梶浦由记 - 媛星\n自创语言的音乐，就是容易空耳…\n何真真 - 爱的微笑\n李杰 - 笑容\n很惊讶在 YouTube 上还能找到这首歌。当年小小的流行过一阵，后来再也没有在公共场合听到人播放过了…\nFrank Klepacki - C\u0026C Tiberium Dawn OST\n虽然 Red Alert 的 Hell March 最知名，但我心中命令与征服1代的 OST 更棒，堪称神专。\nAct on Instinct、March to Doom、Just Do It Up、Industrial、In the Line of Fire、C\u0026C Thang、Warfare…太多经典曲目了。\nCyndi Lauper - All Through the Night\n极具年代特色的编曲风格，和 Cyndi 标志性的音色。\nCyndi Lauper - Change of Heart\n非常有感染力的表演，Cyndi 的现场功力一流，绝对值得一看。\nCyndi Lauper - Unconditional Love\nI ain’t got no sense of direction now 这一句结尾的高音处理比录音室下行的版本要带感。\nThe 80s: A Pop Culture Special\n看到过最棒的80年代欧美流行文化混剪视频，经历过80年代的可以看到无数熟悉的画面听到熟悉的音乐。\n结尾的音乐是 Starship - Nothing’s Gonna Stop Us Now\n确实是很适合代表80年代时代精神的一首歌。\nFire Inc. - Tonight Is What It Means To Be Young\nJim Steinman 为电影 Street of Fire（怒火街头）创作的歌曲之一。电影版和唱片版的领唱是 Laurie Sargent 和 Holly Sherwood。\n电影中 Diane Lane 的对口型表演以假乱真，以至于很多人以为她真是歌手。\nMaria Conchita Alonso - La Loca\n陈慧娴《傻女》的原唱。\nEnnio Morricone - Once Upon a Time in America\n大师之作，短短两分钟却让人有回顾一生的错觉，恍然如梦，不知今夕何年。\nEnnio Morricone - L’estasi dell’Oro\nTuco 在墓地狂奔寻金的背景音乐，被无数次引用的经典，适合激励打工人为财富自由奋斗终身。\nEnnio Morricone - Un Amico\n将近50年前的作品放在今天依然不朽，昆汀在《无耻混蛋》中致敬了一回，用得也是恰到好处。\n还有 Daniel Beretta 演唱的法语版，但我觉得不用人声的更好听。\nChantelle Duncan - Forever\nThe Man from Earth 的片尾曲，整首歌的歌词都可圈可点，格局很大，境界很高，最后回归人的感情，还能够与电影的内容完美匹配。\nNothing lasts forever,\nThat’s what I’ve always heard.\nAll things good must end, you know it’s true.\nNothing lasts forever,\nBut maybe some things do.\nForever is the way I feel for you.\n张艾嘉 - 戏雪\n个人在时代的洪流中微不足道，有时候身不由己随波逐流，有时候一念之差就会天翻地覆抱憾终生\n1948年，我离开我最爱的人\n当火车开动的时候，北方正落着苍茫的雪\n如果我知道这一别就要四十一年\n岁月若能从头，我很想说，我不走\n万晓利 - 这一切没有想象的那么糟\n每天都要精心的灌溉\n兰花却一天天的垂败\n清风送来了杏花香\n这一切没有想象的那么糟\nBonnie Tyler - Total Eclipse of the Heart\n适合绝望伤心者的歌，词作水准一流，但 MV 看不懂…\nAnd I need you now tonight\nAnd I need you more than ever.\nAnd if you only hold me tight,\nWe’ll be holding on forever.\nAnd we’ll only be making it right,\n‘Cause we can never be wrong.\nTogether we can take it to the end of the line.\nYour love is like a shadow on me all of the time.\nI don’t know what to do and I’m always in the dark.\nWe’re living in a powder keg and giving off sparks.\nI really need you tonight.\nForever’s gonna start tonight.\nForever’s gonna start tonight.\nOnce upon a time, I was falling in love,\nBut now I’m only falling apart.\nThere’s nothing I can do.\nA total eclipse of the heart.\nOnce upon a time, there was light in my life.\nBut now there’s only love in the dark.\nNothing I can say.\nA total eclipse of the heart.\nBonnie Tyler - Holding Out For A Hero\n她的好歌太多了，只发几首。\n有部电影叫《完美盗贼/Bandits》，凯特·布兰切特饰演的女主人公特别喜欢跟着她的音乐唱歌。\nBonnie Tyler - It’s A Heartache\nIt’s a heartache\nNothing but a heartache\nHits you when it’s too late\nHits you when you’re down\nIt’s a fool’s game\nNothing but a fool’s game\nStanding in the cold rain\nFeeling like a clown\nRod Stewart - It’s A Heartache\nRod Stewart 的版本，各有千秋。\nProcol Harum - A Whiter Shade of Pale\n非常棒的现场版，而且年老之后醇厚的声音更有韵味。\n韦启良 - When The World Let You Know Love\n电影《男人四十》、《江湖救急》都用过，听过的一定印象深刻。\n须藤薰 - 雨の中の噴水（雨中的喷泉）\nCity Pop 风格的代表之一。\n竹内まりや - Plastic Love\nCity Pop 绕不过去的歌手和作品，竹内玛利亚的塑料爱，因为在 Youtube 上重新火了，官方又制作了个 MV。\n竹内まりや - Teko’s Theme\n竹内まりや - けんかをやめて\n竹内まりや - 元気を出して\nDexys Midnight Runners - Come On Eileen\nDan Hill - Sometimes When We Touch\n现在大家更熟悉的可能是各种翻唱版本。\nRachael Yamagata - Dealbreaker\nAll of this means nothing without you.\nRachael Yamagata \u0026 Ray Lamontagne - Duet\nRachael Yamagata - Over and Over\nLa Grande Sophie - Tu n’as pas cherché…\nEt puis un jour, on accepte les choses\nOn se recroise, mais pour se dire au revoir\nGood bye\nAlors un jour, on regarde les choses\nOn se dira un mot, on se dira au revoir\nGood bye\nPatricia Kaas - Il Me Dit Que Je Suis Belle\nLes Choristes - Vois sur ton chemin\n电影《放牛班的春天》中很有名的歌曲，也是明洲参加合唱团学会的第一首法语歌。\n电影中的其他歌曲，如 Cerf volant、Les Avions en Papier 也不错。\nJean-Baptiste Maunier \u0026 Clemence - Concerto Pour Deux Voix\n我唯一会唱的法语歌应该就是这首了…\nIndila - Feuille d’automne\n网友戏称，有咖喱味😂\n但这段童声真好听\nMille et une couleurs\nQui font battre mon cœur\nAu rythme des saisons\nLe temps d’une chanson\nSous un saule pleureur\nJe rêve d’une vie meilleure\nMais il faut être fort\nAlors j’attends encore\nExodus\n厚重磅礴的《出埃及记》主题曲，可惜找得到的版本都嫌节奏过快。\nNeil Young - Heart of Gold\nI’ve been a miner for a heart of gold.\nKarla Moheno/Sean Lennon - My Hero\n别打肿脸充胖子，天天想整些高大上的超能力，自信一点就好。\n唱到 faster than the speed of sound 时老想成 speed of light🤦\n新裤子 - 没有理想的人不伤心\nPatti Smith - Because The Night\n《你的剧本逊毙了！》一书中，作者谈到好和伟大的差别：\nPatti Smith 的声音（正是你希望剧本所具备的）力量澎湃，不可思议，如同海啸一般，显得 Natalie Merchant 版本的声音像肮脏的洗碗水。\n作者还说：\nNatalie Merchant 现场翻唱的《Because the Night》听上去很好，就像一部还不错的剧本。\n但当你看到 Patti Smith 的版本，两相比较之下，立即就会明白哪个更好，也就是你的剧本应该成为的样子。\nBilly Joel - Piano Man\nYes, they’re sharing a drink they call loneliness.\nBut it’s better than drinkin’ alone.\nCaron Nightingale - Promises Don’t Come Easy\nRita Coolidge - We’re All Alone\n这首歌翻唱的版本很多，华语歌手就有钟镇涛、周华健、张国荣翻唱过。\n我觉得 Rita Coolidge 翻唱的版本比原唱者 Boz Scaggs 的版本要好。\nThe Beatles - We Can Work it Out\nLife is very short, and there’s no time for fussing and fighting, my friend.\nJudy Garland - Old Man River\nI’m tired of living but scared of dying.\n苏芮 - 一样的月光\n台北演唱会现场版本，吉他游正彦，贝斯郭宗韶，鼓手黄瑞丰，钢琴陈玉立。\nJohn H. Clarke - Aurora Borealis\nBlackmore’s Night - Under A Violet Moon\nManic Street Preachers - Suicide Is Painless\n喜欢这个和原唱风格截然不同的版本。\nBoney M. - Rasputin\n乐队由西德人 Frank Farian 创立，成员来自牙买加、蒙特塞拉特和阿鲁巴。 唱片中男声是 Farian 唱的，舞者 Bobby Farrell 在现场表演时才有机会开口。\n这样的组合在波兰现场唱一首采样自土耳其的旋律关于拉斯普京的英文歌，相当奇妙。\n歌曲在俄罗斯大受欢迎，而 Farrell 去世的日期和地点和拉斯普京一样。\n据说歌曲旋律的源远流长，来源包括 katibim、ruse kose kuro imaš、shukno patar nupur paaye、tri bhuboner 等等。\n创作者的妻子是在北马其顿听到了第二首歌曲并介绍给他。\n山下达郎 - Your Eyes\n山下达郎有一把好嗓子，就是不知道是不是编曲太过精致细腻的原因，听多了有点腻。这首 Your Eyes 倒是百听不厌。\n另外，黄渤出名后，看山下达郎总觉得像黄渤，难道他不喜欢上镜是有先见之明？😂\n莫文蔚 - 忽然之间\n这首歌是为了台湾1999年9月21日的大地震而作，李焯雄根据地震中的亲身经历作词，词曲和 MV 简单质朴却打动人心，是我最喜欢的莫文蔚的歌曲之一。\n当年8月17日，土耳其伊兹密特也发生了大地震，超17000人死亡。\n今年，土耳其和叙利亚再遭地震，更为惨烈。\nGala - 骊歌\n都知欢聚最难得，难耐别离多\n同样的曲子改了歌词也用在了和邵夷贝合作的《知音难觅》上。\nMichael Buble - What A Wonderful World\nI see skies of blue\nclouds of white\nThe bright blessed day\ndark sacred night\nAnd I think to myself\nwhat a wonderful world\nLouis Armstrong 的版本如果是蓝天白云，那么 Buble 的版本就像是暮鼓晨钟。\n忍者龍剣伝/Ninja Gaiden III - Act IV Part 1\n《忍者龙剑传3：黄泉的方舟》即使在系列中属于难度相对不高的一作，对我这样的动作苦手仍然难度很高，但它的音乐绝对让人过耳不忘。\n忍者龍剣伝/Ninja Gaiden STAGE 4-2 鮮烈のリュウ/Unbreakable Determination\n忍者龙剑传系列作中最出名的还是这一首，制作方 Tecmo 本来觉得风格和关卡不搭，准备弃用，但因为是在带感，于是保留了下来。\n这首曲子在网上有许多重新演绎的版本，其中 Pontus Hultgren 的版本不错，特别是前奏部分。\nLast Ninja 2 - Central Park\nCommodore 64平台上8 bit 音乐的巅峰作，相当上头，令人欲罢不能。其他芯片音乐的重新演绎大多都会用更加现代的乐器和编曲，唯独这一首太适合芯片音乐的风格了，波形不弄规整点都不行。\n一个不错的 remix 版本。\n纪如瑾 - 你累了吗/值得一辈子去爱/咖啡杯里的水仙/最美的原来是看不见的…\n从同学那里知道的纪如瑾，因为他买了一盒《值得一辈子去爱》的磁带，和我交换着听。\n在2000年左右小有名气的内地女歌手中，她的风格甚是独特，加上名字好听，也就一直记住了。\n她出身音乐世家，从小立志成为歌手，可惜在这张专辑后没过几年就发了最后一张专辑，然后再也听不到她的消息，名气还不如之前在港台发展的时候。\n直到现在才知道原来她在橙天娱乐当副总裁，还成了唐嫣的经纪人。这转型太出乎意料了。\nBohdi Jones - Oh Father\nI never wanted anything from you but love\nTell me who are you I need to know\nWithout you I’m not whole\n人有寻找父母角色的天性，希望强壮、温柔、坚毅、包容的长者给予自己无条件的爱。但现实中有幸得到这样爱的人太少，特别是父爱稀缺。\n有的人在现实中找不到能够给予父爱的人，可能会在其他方面寻找替代品，将父亲的角色投射到其身上，比如工作中的上级、生活中伴侣以及带有威权色彩的组织，并寻求其认可。\n有的人则需要花一生的时间摆脱对父爱的渴求，成功的人获得更加独立的心智，失败的人迁怒于人，陷入无穷无尽的愤怒和仇恨。\n李宗盛 - 希望\n如果这纷乱的世界让我沮丧\n我就去看看她们眼中的光芒\n她们是未来的希望\n但愿我能给她一个最像天堂的地方\n很多人最喜欢的李宗盛的歌是《当爱已成往事》，是《山丘》。\n对我来说是这一首，因为有一刻超越了都市情歌和老男人感慨人生的境界。\n范晓萱 - 处处都有你\n范晓萱的出道风格和她的目标截然不同，反响却很好，除了清纯（《Rain》、《雪人》）、古灵精怪（《魔力 ESP》、《你的甜蜜》），还为动画配歌，如这首出自『ザ☆ドラえもんズ ムシムシぴょんぴょん大作戦!』 《哆啦A梦七小子：虫虫大作战》\n曾经有位同学是范晓萱的死忠，迷上的是初期风格的她。不知道后来范晓萱顺从本心转型后，他有没有一直喜欢下去，也不知道后来爆出了许多负面新闻后，这位死忠是否初心不改。\nNinja Gaiden - A Hero’s End/镇魂曲\n继续忍者龙剑传\n不到1分钟的结尾曲，开头来自罗密欧与朱丽叶\nPeter, Paul and Mary - Puff the Magic Dragon\n我们中的一小部分人成为了 Peter Pan，大部分则成为了 Jackie Paper\nGloria Gaynor - I Will Survive\n随机到了一个电子舞曲风格编曲的版本，把精华全干掉了，真的有害身心健康，赶紧找来原版的洗一下耳朵。\nX Japan - Endless Rain\nX Japan 在97年解散前最后一次现场演出，成员们坐在斑驳的灯光中若有所思沉默不语，然后相继走下舞台\n观众反复不停地唱着…\nendless rain\nfall on my heart\n心の傷に\nlet me forget\nall of the hate\nall of the sadness\n半年后，吉他手 Hide 意外去世\nODESZA - A Moment Apart\nForza Horizon 4中几乎每一首音乐的评论区，都有一大半的人在说：是 FH4 让我知道有这么好的音乐，和认识这些音乐人。\n这首是开场画面的背景音乐，有玩家评论说，玩试玩版时一听这个音乐我就知道应该下单了，以及这首歌能让我逗留在开场不舍得进入。\nJasing Rye - Une Hirondelle A Fait Le Printemps\n融入了越剧“天上掉下个林妹妹”的法语香颂《独燕成春》，奇妙的组合。\n",
+  "wordCount" : "6923",
+  "inLanguage": "en",
+  "datePublished": "2021-12-07T00:00:00Z",
+  "dateModified": "2021-12-07T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/projects/music-share/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      音乐分享
+    </h1>
+    <div class="post-meta"><span title='2021-12-07 00:00:00 +0000 UTC'>2021-12-7</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>在 Twitter 上开了一个<a href="https://twitter.com/calon/status/1468218162915119109">分享音乐的会话</a>，一个目的是记录线下听到的喜欢的音乐，并分享给大家，另一个目的是在回复中找到机器算法推荐覆盖不到的好音乐。</p>
 <p>本来准备在 Telegram 上开个频道，但不如在 Twitter 方便交互和公开，而且大部分要分享的音乐在 Youtube 上都有，发在 Twitter 预览方便。</p>
-
-<p><a href="https://www.youtube.com/watch?v=BIQ2D6AIys8">Intermezzo from Cavalleria Rusticana</a><br />
-乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。<br />
-作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。<br />
+<p><a href="https://www.youtube.com/watch?v=BIQ2D6AIys8">Intermezzo from Cavalleria Rusticana</a><br>
+乡村骑士间奏曲，希望可以在自己葬礼上播放的音乐之一。短短几分钟仿佛经历从拂晓到黄昏，人生如梦，恍如隔世，每一次听都会拨动心弦，感慨唏嘘。<br>
+作者马斯卡尼因为崇拜墨索里尼和信奉法西斯主义而名誉扫地，但不妨碍这部歌剧成为永恒的经典，这首间奏曲被无数次引用。<br>
 如果因为政治、品德等原因贬低一个人的艺术作品，那这就是最好的反对理由。</p>
-
-<p><a href="https://www.youtube.com/watch?v=rfhRicrwaCs">Russian Red - The Memory Is Cruel</a><br />
+<p><a href="https://www.youtube.com/watch?v=rfhRicrwaCs">Russian Red - The Memory Is Cruel</a><br>
 目前是我的来电铃声——每天几十个电话还能长期当铃声的，都是经得起时间考验的音乐。第一次听的时候就觉得旋律似曾相识，也许好的音乐会让人觉得本就该如此谱写？</p>
-
 <p>椎名林檎的入门向系列推荐：</p>
-
-<p><a href="https://www.bilibili.com/video/BV1vt411u7hr/">东京事变 - 落日</a><br />
+<p><a href="https://www.bilibili.com/video/BV1vt411u7hr/">东京事变 - 落日</a><br>
 某天路过一个叫做落日的精酿啤酒店时，播放的音乐正好是东京事变的《落日》，也是巧合。这次现场表演的椎名林檎看着有坂井泉水的感觉了。</p>
-
-<p><a href="https://www.youtube.com/watch?v=ECxBHhMc7oI">椎名林檎 - 本能</a><br />
+<p><a href="https://www.youtube.com/watch?v=ECxBHhMc7oI">椎名林檎 - 本能</a><br>
 MV 中护士装的打扮是她早期的经典形象。</p>
-
-<p><a href="https://www.youtube.com/watch?v=MVUPJZUoKxM">椎名林檎 - ギャンブル （赌局/Gamble）</a><br />
+<p><a href="https://www.youtube.com/watch?v=MVUPJZUoKxM">椎名林檎 - ギャンブル （赌局/Gamble）</a><br>
 椎名林檎为电影《恶女花魁》创作的音乐之一，配上电影中土屋安娜花魁游街的片段超有感觉。</p>
-
-<p><a href="https://www.youtube.com/watch?v=krCk3EcsaxE">椎名林檎 - 歌舞伎町の女王</a><br />
+<p><a href="https://www.youtube.com/watch?v=krCk3EcsaxE">椎名林檎 - 歌舞伎町の女王</a><br>
 听到就忍不住跟着吹口哨啊。</p>
-
-<p><a href="https://www.bilibili.com/video/BV1Vx411W78L/">椎名林檎 - 丸の内サディステック（丸之内虐待狂）</a><br />
+<p><a href="https://www.bilibili.com/video/BV1Vx411W78L/">椎名林檎 - 丸の内サディステック（丸之内虐待狂）</a><br>
 现场经典的小跳步最适合这一首。</p>
-
-<p><a href="https://www.youtube.com/watch?v=YLfkgo-3_sk">椎名林檎 - 長く短い祭</a><br />
+<p><a href="https://www.youtube.com/watch?v=YLfkgo-3_sk">椎名林檎 - 長く短い祭</a><br>
 这首歌得看现场才最有感觉。</p>
-
-<p><a href="https://www.youtube.com/watch?v=Tg8foBeQfcw">椎名林檎 - 眩晕</a><br />
+<p><a href="https://www.youtube.com/watch?v=Tg8foBeQfcw">椎名林檎 - 眩晕</a><br>
 氛围营造相当到位，编曲一流。</p>
-
 <p><a href="https://www.youtube.com/watch?v=AAwbl-loghk">椎名林檎 - すべりだい（滑梯）</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=FlIzq3wLlDY">椎名林檎 - 茜さす帰路照らされど…（虽然夕阳照耀归途）</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=lC8la4l4RhQ">东京事变 - キラーチューン（杀手调）</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=w1UnJ-aNzOw">椎名林檎 - 同じ夜（同一夜）</a><br />
+<p><a href="https://www.youtube.com/watch?v=w1UnJ-aNzOw">椎名林檎 - 同じ夜（同一夜）</a><br>
 Dynamite Out 现场版最好，但没有找到网上的版本。</p>
-
 <p><a href="https://www.youtube.com/watch?v=dSd4ATGZCPg">椎名林檎 - 積木遊び（积木游戏）</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=oyQgpPbQO9Q">椎名林檎 - 正しい街（正确的大街）</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=wXMydSionoQ">椎名林檎 - 警告</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=i13pRVZP7Ck">椎名林檎 - 時が暴走する</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=xy5hLV3NgVE">椎名林檎 - シドと白昼夢（席德与白日梦）</a></p>
-
-<p>没有列出翻唱的作品，比如 Les Feuilles Mortes、Unconditional Love、Love is Blind、Fly Me to the Moon、I Won&rsquo;t Last A Day Without You、Can&rsquo;t Take My Eyes Off You 等等，编曲都可以好好品。<br />
+<p>没有列出翻唱的作品，比如 Les Feuilles Mortes、Unconditional Love、Love is Blind、Fly Me to the Moon、I Won&rsquo;t Last A Day Without You、Can&rsquo;t Take My Eyes Off You 等等，编曲都可以好好品。<br>
 如果听完这些还是对椎名林檎没有兴趣，那么基本上就和她无缘了。</p>
-
-<p><a href="https://www.youtube.com/watch?v=KJzwqfiyDH8">梅艳芳 - 夕阳之歌</a><br />
-<a href="https://www.youtube.com/watch?v=WCrtSxDNZS8">陈慧娴 - 千千阙歌</a><br />
-梅艳芳的《夕阳之歌》与陈慧娴的《千千阙歌》一曲两词，编曲和演唱风格大为不同，很多人不连着听都没意识到这是同一首歌曲的不同翻唱，而且超越了渣男近藤真彦的原唱《夕焼けの歌》，堪称香港音乐翻唱作品的巅峰之一。<br />
-当年两首歌同时拿到同一届十大中文金曲金奖，先后同台表演，也是难得一见。<br />
-同一年还有<a href="https://www.youtube.com/watch?v=FPeOH4c35T0">关淑怡的《难得有情人》</a>、陈百强《一生何求》、Beyond《真的爱你》。<br />
+<p><a href="https://www.youtube.com/watch?v=KJzwqfiyDH8">梅艳芳 - 夕阳之歌</a><br>
+<a href="https://www.youtube.com/watch?v=WCrtSxDNZS8">陈慧娴 - 千千阙歌</a><br>
+梅艳芳的《夕阳之歌》与陈慧娴的《千千阙歌》一曲两词，编曲和演唱风格大为不同，很多人不连着听都没意识到这是同一首歌曲的不同翻唱，而且超越了渣男近藤真彦的原唱《夕焼けの歌》，堪称香港音乐翻唱作品的巅峰之一。<br>
+当年两首歌同时拿到同一届十大中文金曲金奖，先后同台表演，也是难得一见。<br>
+同一年还有<a href="https://www.youtube.com/watch?v=FPeOH4c35T0">关淑怡的《难得有情人》</a>、陈百强《一生何求》、Beyond《真的爱你》。<br>
 赵鹏翻唱《难得有情人》的国语版本《<a href="https://www.youtube.com/watch?v=9lH1s3upuCI">早春</a>》，因为声音低沉，成了发烧试机碟常用曲目。</p>
-
-<p><a href="https://www.youtube.com/watch?v=FV33wtmGrYE">Mina &amp; Adriano Celentano - Brivido Felino &amp; Acqua e Sale</a><br />
-两首歌曲翻唱联唱现场版。挥洒自如的随性和风情万种的韵味是现场版独特的魅力。<br />
+<p><a href="https://www.youtube.com/watch?v=FV33wtmGrYE">Mina &amp; Adriano Celentano - Brivido Felino &amp; Acqua e Sale</a><br>
+两首歌曲翻唱联唱现场版。挥洒自如的随性和风情万种的韵味是现场版独特的魅力。<br>
 原版的 <a href="https://www.youtube.com/watch?v=cIEfpco3wG4">Brivido Felino</a> 和 <a href="https://www.youtube.com/watch?v=5WgCtuxGgEo">Acqua e Sale</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=85hiOJli0Gs">Burundi - Royal Burundi Drums</a><br />
-上海世博会时，现场看了布隆迪大鼓的表演，第一场看了后半截意犹未尽，守在旁边又看了完整的第二场，可惜的当时没有好的设备录下来。<br />
+<p><a href="https://www.youtube.com/watch?v=85hiOJli0Gs">Burundi - Royal Burundi Drums</a><br>
+上海世博会时，现场看了布隆迪大鼓的表演，第一场看了后半截意犹未尽，守在旁边又看了完整的第二场，可惜的当时没有好的设备录下来。<br>
 感谢互联网，现在能找到在其他场合表演的版本。</p>
-
-<p><a href="https://www.youtube.com/watch?v=ddpEVcuwDAg">Mireille Mathieu &amp; Patrick Duffy - Together We&rsquo;re Strong </a><br />
-尽管老视频的画质很糟，颜色失真，但 Mireille Mathieu 少女般的青春活力（那年她已有37岁）满溢而出。<br />
+<p><a href="https://www.youtube.com/watch?v=ddpEVcuwDAg">Mireille Mathieu &amp; Patrick Duffy - Together We&rsquo;re Strong </a><br>
+尽管老视频的画质很糟，颜色失真，但 Mireille Mathieu 少女般的青春活力（那年她已有37岁）满溢而出。<br>
 35年后，<a href="https://www.youtube.com/watch?v=GCb3s8mCENQ">两人同台演唱</a> Together We&rsquo;re Strong，一位须发皆白，一位身材发福，青春不在，美妙的声音仍在，美好的回忆仍在。</p>
-
-<p><a href="https://www.youtube.com/watch?v=08wk0ePNQEs">卢巧音 - 好心分手</a><br />
+<p><a href="https://www.youtube.com/watch?v=08wk0ePNQEs">卢巧音 - 好心分手</a><br>
 个人认为独唱版胜过与王力宏合唱的版本，也可能是我先听的独唱版，所以先入为主吧。</p>
-
-<p><a href="https://www.youtube.com/watch?v=z2gmZ_T_210">卢巧音 - 深蓝</a><br />
+<p><a href="https://www.youtube.com/watch?v=z2gmZ_T_210">卢巧音 - 深蓝</a><br>
 说到卢巧音，我更喜欢她另一首歌《深蓝》。当年感觉风格与众不同，令人耳目一新。</p>
-
-<p><a href="https://www.youtube.com/watch?v=dYi4bkV5qL0">林子祥 - 数字人生 + Ah Lam 日记 + 千亿个夜晚</a><br />
-现场音质全损版😂<br />
+<p><a href="https://www.youtube.com/watch?v=dYi4bkV5qL0">林子祥 - 数字人生 + Ah Lam 日记 + 千亿个夜晚</a><br>
+现场音质全损版😂<br>
 超强机能，超长待机，收放自如，举重若轻。</p>
-
 <p>林子祥和胡夏合唱的《<a href="https://www.youtube.com/watch?v=jKChIcjjlCU">数字人生</a>》，这回音质好了，更能体会到老前辈的恐怖实力。中间加入威风堂堂进行曲是神来之笔。</p>
-
-<p><a href="https://www.youtube.com/watch?v=R2-43p3GVTQ">Edward Elgar - Pomp and Circumstance March No. 1 in D major (Land of Hope and Glory)</a><br />
-2014年逍遥音乐节上激动人心的多地现场大合唱版本。<br />
-不少人评论：我不是英国人听着都热血沸腾开始爱国了。<br />
+<p><a href="https://www.youtube.com/watch?v=R2-43p3GVTQ">Edward Elgar - Pomp and Circumstance March No. 1 in D major (Land of Hope and Glory)</a><br>
+2014年逍遥音乐节上激动人心的多地现场大合唱版本。<br>
+不少人评论：我不是英国人听着都热血沸腾开始爱国了。<br>
 还有个神回复：我的咖啡听到了这个，现在它是一杯茶了。</p>
-
 <p><a href="https://www.youtube.com/watch?v=oQ_XDXDk96Q">Vera Lynn - Land of Hope and Glory</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=JSkvHrnAvKM">陈奕迅、林子祥 - Shall We Talk</a><br />
-孩童只盼望欢乐，大人只知道期望；<br />
-为何都不大懂得，努力体恤对方。<br />
-成人只寄望收获，情人只听见承诺；<br />
+<p><a href="https://www.youtube.com/watch?v=JSkvHrnAvKM">陈奕迅、林子祥 - Shall We Talk</a><br>
+孩童只盼望欢乐，大人只知道期望；<br>
+为何都不大懂得，努力体恤对方。<br>
+成人只寄望收获，情人只听见承诺；<br>
 为何都不大懂得，努力珍惜对方。</p>
-
-<p><a href="https://www.youtube.com/watch?v=4IFQZyxxyyM">Olivia Newton-John  - Have You Never Been Mellow</a><br />
-1975年现场版。<br />
-Have you never been mellow?<br />
-Have you never tried to find a comfort from inside you?<br />
-Have you never been happy just to hear your song?<br />
+<p><a href="https://www.youtube.com/watch?v=4IFQZyxxyyM">Olivia Newton-John  - Have You Never Been Mellow</a><br>
+1975年现场版。<br>
+Have you never been mellow?<br>
+Have you never tried to find a comfort from inside you?<br>
+Have you never been happy just to hear your song?<br>
 Have you never let someone else be strong?</p>
-
-<p><a href="https://www.bilibili.com/video/BV1f7411H71a/">与非门 - 正午</a><br />
-与非门这么好的乐队，可惜作品太少了，现在三少也已经因病去世。<br />
-蒋凡这么好的歌手，唱功一流，现场稳，声线辨识度高，知道的人也太少了，因为谁是宝藏歌手节目才有更多人见识到。<br />
+<p><a href="https://www.bilibili.com/video/BV1f7411H71a/">与非门 - 正午</a><br>
+与非门这么好的乐队，可惜作品太少了，现在三少也已经因病去世。<br>
+蒋凡这么好的歌手，唱功一流，现场稳，声线辨识度高，知道的人也太少了，因为谁是宝藏歌手节目才有更多人见识到。<br>
 Youtube 上没有《正午》的资源，发个 B 站的，可惜不如在现场看过的版本好。</p>
-
 <p>“谁是宝藏歌手”节目上，蒋凡唱的《<a href="https://www.youtube.com/watch?v=sp1BEq3gq28">乐园</a>》粤语版。</p>
-
 <p><a href="https://www.youtube.com/watch?v=SdXas1bvdnE">与非门 - 我睡在你眼睛的沙漠里</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=uyNPds1mPmM">与非门 - Happy New Year</a></p>
-
-<p><a href="https://www.bilibili.com/video/BV15a4y147Rg/">与非门 - 1061</a><br />
+<p><a href="https://www.bilibili.com/video/BV15a4y147Rg/">与非门 - 1061</a><br>
 2007年3月24日的网络直播表演。</p>
-
-<p><a href="https://www.youtube.com/watch?v=3Uo0JAUWijM">ABBA - Happy New Year</a><br />
-Happy New Year<br />
-May we all have a vision now and then<br />
-Of a world where every neighbor is a friend<br />
-Happy New Year<br />
-May we all have our hopes, our will to try<br />
-If we don&rsquo;t we might as well lay down and die<br />
+<p><a href="https://www.youtube.com/watch?v=3Uo0JAUWijM">ABBA - Happy New Year</a><br>
+Happy New Year<br>
+May we all have a vision now and then<br>
+Of a world where every neighbor is a friend<br>
+Happy New Year<br>
+May we all have our hopes, our will to try<br>
+If we don&rsquo;t we might as well lay down and die<br>
 You and I</p>
-
-<p><a href="https://www.youtube.com/watch?v=92cwKCU8Z5c">ABBA - The Winner Takes It All</a><br />
-But tell me does she kiss<br />
-Like I used to kiss you?<br />
-Does it feel the same<br />
+<p><a href="https://www.youtube.com/watch?v=92cwKCU8Z5c">ABBA - The Winner Takes It All</a><br>
+But tell me does she kiss<br>
+Like I used to kiss you?<br>
+Does it feel the same<br>
 When she calls your name?</p>
-
-<p>I don&rsquo;t wanna talk<br />
-If it makes you feel sad<br />
-And I understand<br />
-You&rsquo;ve come to shake my hand<br />
-I apologize<br />
-If it makes you feel bad<br />
-Seeing me so tense<br />
-No self-confidence<br />
-But you see<br />
+<p>I don&rsquo;t wanna talk<br>
+If it makes you feel sad<br>
+And I understand<br>
+You&rsquo;ve come to shake my hand<br>
+I apologize<br>
+If it makes you feel bad<br>
+Seeing me so tense<br>
+No self-confidence<br>
+But you see<br>
 The winner takes it all</p>
-
-<p>曾经心碎过的人才会懂。<br />
-评论中有人说，我是个五十多岁生活美满幸福的已婚男人，能让我哭得像个婴儿的唯有这一首歌。<br />
+<p>曾经心碎过的人才会懂。<br>
+评论中有人说，我是个五十多岁生活美满幸福的已婚男人，能让我哭得像个婴儿的唯有这一首歌。<br>
 另一个人说，只有到了一定的年龄才能体会到这首歌的深度。</p>
-
-<p><a href="https://www.youtube.com/watch?v=XEjLoHdbVeE">ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)</a><br />
+<p><a href="https://www.youtube.com/watch?v=XEjLoHdbVeE">ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)</a><br>
 40多年前的洗脑神曲。前奏你绝对听过，麦当娜在 Hang Up 中还用了一段采样。</p>
-
-<p><a href="https://www.youtube.com/watch?v=xFrGuyw1V8s">ABBA - Dancing Queen</a><br />
+<p><a href="https://www.youtube.com/watch?v=xFrGuyw1V8s">ABBA - Dancing Queen</a><br>
 我入坑 ABBA 的第一首歌。</p>
-
-<p><a href="https://www.youtube.com/watch?v=kU-fVLmY-iw">郑智化 - 朋友，天堂好吗</a><br />
-朋友啊天堂好吗<br />
-我还厚着脸皮继续活着<br />
-反反复复有太多借口<br />
-找不到真正的理由<br />
-朋友啊天堂好吗<br />
-我的一生为着别人而活<br />
-我在掌声之中起起落落<br />
+<p><a href="https://www.youtube.com/watch?v=kU-fVLmY-iw">郑智化 - 朋友，天堂好吗</a><br>
+朋友啊天堂好吗<br>
+我还厚着脸皮继续活着<br>
+反反复复有太多借口<br>
+找不到真正的理由<br>
+朋友啊天堂好吗<br>
+我的一生为着别人而活<br>
+我在掌声之中起起落落<br>
 没有人相信我的脆弱</p>
-
-<p><a href="https://www.youtube.com/watch?v=CsuBC_ilGsw">Ben Kweller - Nothing Happening</a><br />
-Let&rsquo;s focus on tomorrow, instead of right now.<br />
+<p><a href="https://www.youtube.com/watch?v=CsuBC_ilGsw">Ben Kweller - Nothing Happening</a><br>
+Let&rsquo;s focus on tomorrow, instead of right now.<br>
 Nothing happening. It&rsquo;s all illusion. It&rsquo;s all confusion.</p>
-
-<p><a href="https://www.youtube.com/watch?v=2H5uWRjFsGc">Chumbawamba - Tubthumping</a><br />
+<p><a href="https://www.youtube.com/watch?v=2H5uWRjFsGc">Chumbawamba - Tubthumping</a><br>
 当年通过 EA 的 FIFA World Cup 98 知道这首歌，为了它买了《Now 4》合辑。</p>
-
-<p><a href="https://www.youtube.com/watch?v=9-L5GS_7JNc">God Is an Astronaut - Forever Lost</a><br />
+<p><a href="https://www.youtube.com/watch?v=9-L5GS_7JNc">God Is an Astronaut - Forever Lost</a><br>
 国内的后摇听得不多，国外的我是从 Forever Lost 入坑的。</p>
-
-<p><a href="https://www.youtube.com/watch?v=6Juju5eE6fY">夏小虎 - 逝年</a><br />
+<p><a href="https://www.youtube.com/watch?v=6Juju5eE6fY">夏小虎 - 逝年</a><br>
 某天加班时，老婆打电话过来，说明洲在问，我开车的时候放过一首歌，歌词里面有一句是“时间似流水”，歌名是什么，他忽然想听😂</p>
-
-<p><a href="https://twitter.com/KermitTheFrog/status/1254077709392719872">Kermit The Frog - Rainbow Connection</a><br />
-Someday we&rsquo;ll find it,<br />
-The rainbow connection,<br />
+<p><a href="https://twitter.com/KermitTheFrog/status/1254077709392719872">Kermit The Frog - Rainbow Connection</a><br>
+Someday we&rsquo;ll find it,<br>
+The rainbow connection,<br>
 The lovers, the dreamers and me.</p>
-
 <p>翻唱或者与青蛙合唱这首经典歌曲的有很多，比如 <a href="https://www.youtube.com/watch?v=y9oyvgXgKQs">Barbra Streisand</a>、<a href="https://www.youtube.com/watch?v=PYuE2roIkH0">Carpenters</a>、<a href="https://www.youtube.com/watch?v=h0Hd3uWKFKY">Debbie Harry</a>、<a href="https://www.youtube.com/watch?v=ANHRk9tjFF0">Tori Kelly</a>、<a href="https://www.youtube.com/watch?v=2u2tJU7Gxp4">Trespassers William</a>、<a href="https://www.youtube.com/watch?v=MWWAIyZs7Os">Sarah McLachlan</a> 等等。</p>
-
-<p><a href="https://www.youtube.com/watch?v=pqjt5NVGH1I">秋山羊子 - どん</a><br />
-慢慢慢慢，没有使用的机会<br />
-我也慢慢慢慢地生起了锈<br />
-开心也好，悲伤也好<br />
-最好也罢，最差也罢<br />
+<p><a href="https://www.youtube.com/watch?v=pqjt5NVGH1I">秋山羊子 - どん</a><br>
+慢慢慢慢，没有使用的机会<br>
+我也慢慢慢慢地生起了锈<br>
+开心也好，悲伤也好<br>
+最好也罢，最差也罢<br>
 不知不觉间，在慢慢的远去</p>
-
-<p><a href="https://www.youtube.com/watch?v=YCyuF9teerQ">Scorpions - Life Is Too Short</a><br />
-简单几句歌词就描绘出静谧、优美的画面，世界如此美好，生命却短暂易逝，大好时光不要浪费在不值得的事物上。<br />
+<p><a href="https://www.youtube.com/watch?v=YCyuF9teerQ">Scorpions - Life Is Too Short</a><br>
+简单几句歌词就描绘出静谧、优美的画面，世界如此美好，生命却短暂易逝，大好时光不要浪费在不值得的事物上。<br>
 在里斯本的这次现场表演很经典，比录音室版本要好。</p>
-
-<p><a href="https://www.youtube.com/watch?v=5J75tIG2Vj4">梶浦由记 - 媛星</a><br />
+<p><a href="https://www.youtube.com/watch?v=5J75tIG2Vj4">梶浦由记 - 媛星</a><br>
 自创语言的音乐，就是容易空耳…</p>
-
 <p><a href="https://music.163.com/song?id=27676397">何真真 - 爱的微笑</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=YG6ethg5mpk">李杰 - 笑容</a><br />
+<p><a href="https://www.youtube.com/watch?v=YG6ethg5mpk">李杰 - 笑容</a><br>
 很惊讶在 YouTube 上还能找到这首歌。当年小小的流行过一阵，后来再也没有在公共场合听到人播放过了…</p>
-
-<p><a href="https://www.youtube.com/watch?v=gKNuVFoBNAE&amp;list=PL-HhU06lpxM38s8EGCfgmMQif3oIuKJRr">Frank Klepacki - C&amp;C Tiberium Dawn OST</a><br />
-虽然 Red Alert 的 Hell March 最知名，但我心中命令与征服1代的 OST 更棒，堪称神专。<br />
+<p><a href="https://www.youtube.com/watch?v=gKNuVFoBNAE&amp;list=PL-HhU06lpxM38s8EGCfgmMQif3oIuKJRr">Frank Klepacki - C&amp;C Tiberium Dawn OST</a><br>
+虽然 Red Alert 的 Hell March 最知名，但我心中命令与征服1代的 OST 更棒，堪称神专。<br>
 Act on Instinct、March to Doom、Just Do It Up、Industrial、In the Line of Fire、C&amp;C Thang、Warfare…太多经典曲目了。</p>
-
-<p><a href="https://www.youtube.com/watch?v=ZONKoKIQ9RY">Cyndi Lauper - All Through the Night</a><br />
+<p><a href="https://www.youtube.com/watch?v=ZONKoKIQ9RY">Cyndi Lauper - All Through the Night</a><br>
 极具年代特色的编曲风格，和 Cyndi 标志性的音色。</p>
-
-<p><a href="https://www.youtube.com/watch?v=LGV1xTgJf0Q">Cyndi Lauper - Change of Heart</a><br />
+<p><a href="https://www.youtube.com/watch?v=LGV1xTgJf0Q">Cyndi Lauper - Change of Heart</a><br>
 非常有感染力的表演，Cyndi 的现场功力一流，绝对值得一看。</p>
-
-<p><a href="https://www.youtube.com/watch?v=1stlgC5sUU4">Cyndi Lauper - Unconditional Love</a><br />
+<p><a href="https://www.youtube.com/watch?v=1stlgC5sUU4">Cyndi Lauper - Unconditional Love</a><br>
 I ain&rsquo;t got no sense of direction now 这一句结尾的高音处理比录音室下行的版本要带感。</p>
-
-<p><a href="https://www.youtube.com/watch?v=ry9AsSO7hTo">The 80s: A Pop Culture Special</a><br />
-看到过最棒的80年代欧美流行文化混剪视频，经历过80年代的可以看到无数熟悉的画面听到熟悉的音乐。<br />
-结尾的音乐是 <a href="https://www.youtube.com/watch?v=3wxyN3z9PL4">Starship - Nothing&rsquo;s Gonna Stop Us Now</a><br />
+<p><a href="https://www.youtube.com/watch?v=ry9AsSO7hTo">The 80s: A Pop Culture Special</a><br>
+看到过最棒的80年代欧美流行文化混剪视频，经历过80年代的可以看到无数熟悉的画面听到熟悉的音乐。<br>
+结尾的音乐是 <a href="https://www.youtube.com/watch?v=3wxyN3z9PL4">Starship - Nothing&rsquo;s Gonna Stop Us Now</a><br>
 确实是很适合代表80年代时代精神的一首歌。</p>
-
-<p><a href="https://www.youtube.com/watch?v=Md7uBJBiwLo">Fire Inc. -  Tonight Is What It Means To Be Young</a><br />
-Jim Steinman 为电影 Street of Fire（怒火街头）创作的歌曲之一。电影版和唱片版的领唱是 Laurie Sargent 和 Holly Sherwood。<br />
+<p><a href="https://www.youtube.com/watch?v=Md7uBJBiwLo">Fire Inc. -  Tonight Is What It Means To Be Young</a><br>
+Jim Steinman 为电影 Street of Fire（怒火街头）创作的歌曲之一。电影版和唱片版的领唱是 Laurie Sargent 和 Holly Sherwood。<br>
 电影中 Diane Lane 的对口型表演以假乱真，以至于很多人以为她真是歌手。</p>
-
-<p><a href="https://www.youtube.com/watch?v=0Fxe9zy_sNU">Maria Conchita Alonso - La Loca</a><br />
+<p><a href="https://www.youtube.com/watch?v=0Fxe9zy_sNU">Maria Conchita Alonso - La Loca</a><br>
 陈慧娴《傻女》的原唱。</p>
-
-<p><a href="https://www.youtube.com/watch?v=YfczFtTvzbg">Ennio Morricone - Once Upon a Time in America</a><br />
+<p><a href="https://www.youtube.com/watch?v=YfczFtTvzbg">Ennio Morricone - Once Upon a Time in America</a><br>
 大师之作，短短两分钟却让人有回顾一生的错觉，恍然如梦，不知今夕何年。</p>
-
-<p><a href="https://www.youtube.com/watch?v=-PvyBKSmQ_g">Ennio Morricone - L&rsquo;estasi dell&rsquo;Oro</a><br />
+<p><a href="https://www.youtube.com/watch?v=-PvyBKSmQ_g">Ennio Morricone - L&rsquo;estasi dell&rsquo;Oro</a><br>
 Tuco 在墓地狂奔寻金的背景音乐，被无数次引用的经典，适合激励打工人为财富自由奋斗终身。</p>
-
-<p><a href="https://www.youtube.com/watch?v=S4oM2K3okOE">Ennio Morricone - Un Amico</a><br />
-将近50年前的作品放在今天依然不朽，昆汀在《无耻混蛋》中致敬了一回，用得也是恰到好处。<br />
+<p><a href="https://www.youtube.com/watch?v=S4oM2K3okOE">Ennio Morricone - Un Amico</a><br>
+将近50年前的作品放在今天依然不朽，昆汀在《无耻混蛋》中致敬了一回，用得也是恰到好处。<br>
 还有 Daniel Beretta 演唱的<a href="https://www.youtube.com/watch?v=GlEDlsIfArY">法语版</a>，但我觉得不用人声的更好听。</p>
-
-<p><a href="https://www.youtube.com/watch?v=Y-rAi-2hZ6U">Chantelle Duncan - Forever</a><br />
+<p><a href="https://www.youtube.com/watch?v=Y-rAi-2hZ6U">Chantelle Duncan - Forever</a><br>
 The Man from Earth 的片尾曲，整首歌的歌词都可圈可点，格局很大，境界很高，最后回归人的感情，还能够与电影的内容完美匹配。</p>
-
-<p>Nothing lasts forever,<br />
-That&rsquo;s what I&rsquo;ve always heard.<br />
+<p>Nothing lasts forever,<br>
+That&rsquo;s what I&rsquo;ve always heard.<br>
 All things good must end, you know it&rsquo;s true.</p>
-
-<p>Nothing lasts forever,<br />
-But maybe some things do.<br />
+<p>Nothing lasts forever,<br>
+But maybe some things do.<br>
 Forever is the way I feel for you.</p>
-
-<p><a href="https://www.youtube.com/watch?v=PpKcPip81Hc">张艾嘉 - 戏雪</a><br />
+<p><a href="https://www.youtube.com/watch?v=PpKcPip81Hc">张艾嘉 - 戏雪</a><br>
 个人在时代的洪流中微不足道，有时候身不由己随波逐流，有时候一念之差就会天翻地覆抱憾终生</p>
-
-<p>1948年，我离开我最爱的人<br />
-当火车开动的时候，北方正落着苍茫的雪<br />
-如果我知道这一别就要四十一年<br />
+<p>1948年，我离开我最爱的人<br>
+当火车开动的时候，北方正落着苍茫的雪<br>
+如果我知道这一别就要四十一年<br>
 岁月若能从头，我很想说，我不走</p>
-
 <p><a href="https://www.youtube.com/watch?v=5PsFGSg3z28">万晓利 - 这一切没有想象的那么糟</a></p>
-
-<p>每天都要精心的灌溉<br />
-兰花却一天天的垂败<br />
-清风送来了杏花香<br />
+<p>每天都要精心的灌溉<br>
+兰花却一天天的垂败<br>
+清风送来了杏花香<br>
 这一切没有想象的那么糟</p>
-
-<p><a href="https://www.youtube.com/watch?v=lcOxhH8N3Bo">Bonnie Tyler - Total Eclipse of the Heart</a><br />
+<p><a href="https://www.youtube.com/watch?v=lcOxhH8N3Bo">Bonnie Tyler - Total Eclipse of the Heart</a><br>
 适合绝望伤心者的歌，词作水准一流，但 MV 看不懂…</p>
-
-<p>And I need you now tonight<br />
-And I need you more than ever.<br />
-And if you only hold me tight,<br />
-We&rsquo;ll be holding on forever.<br />
-And we&rsquo;ll only be making it right,<br />
-&lsquo;Cause we can never be wrong.<br />
-Together we can take it to the end of the line.<br />
-Your love is like a shadow on me all of the time.<br />
-I don&rsquo;t know what to do and I&rsquo;m always in the dark.<br />
-We&rsquo;re living in a powder keg and giving off sparks.<br />
-I really need you tonight.<br />
-Forever&rsquo;s gonna start tonight.<br />
+<p>And I need you now tonight<br>
+And I need you more than ever.<br>
+And if you only hold me tight,<br>
+We&rsquo;ll be holding on forever.<br>
+And we&rsquo;ll only be making it right,<br>
+&lsquo;Cause we can never be wrong.<br>
+Together we can take it to the end of the line.<br>
+Your love is like a shadow on me all of the time.<br>
+I don&rsquo;t know what to do and I&rsquo;m always in the dark.<br>
+We&rsquo;re living in a powder keg and giving off sparks.<br>
+I really need you tonight.<br>
+Forever&rsquo;s gonna start tonight.<br>
 Forever&rsquo;s gonna start tonight.</p>
-
-<p>Once upon a time, I was falling in love,<br />
-But now I&rsquo;m only falling apart.<br />
-There&rsquo;s nothing I can do.<br />
-A total eclipse of the heart.<br />
-Once upon a time, there was light in my life.<br />
-But now there&rsquo;s only love in the dark.<br />
-Nothing I can say.<br />
+<p>Once upon a time, I was falling in love,<br>
+But now I&rsquo;m only falling apart.<br>
+There&rsquo;s nothing I can do.<br>
+A total eclipse of the heart.<br>
+Once upon a time, there was light in my life.<br>
+But now there&rsquo;s only love in the dark.<br>
+Nothing I can say.<br>
 A total eclipse of the heart.</p>
-
-<p><a href="https://www.youtube.com/watch?v=bWcASV2sey0">Bonnie Tyler - Holding Out For A Hero</a><br />
-她的好歌太多了，只发几首。<br />
+<p><a href="https://www.youtube.com/watch?v=bWcASV2sey0">Bonnie Tyler - Holding Out For A Hero</a><br>
+她的好歌太多了，只发几首。<br>
 有部电影叫《完美盗贼/Bandits》，凯特·布兰切特饰演的女主人公特别喜欢跟着她的音乐唱歌。</p>
-
-<p><a href="https://www.youtube.com/watch?v=bEOl38y8Nj8">Bonnie Tyler - It&rsquo;s A Heartache</a><br />
-It&rsquo;s a heartache<br />
-Nothing but a heartache<br />
-Hits you when it&rsquo;s too late<br />
-Hits you when you&rsquo;re down<br />
-It&rsquo;s a fool&rsquo;s game<br />
-Nothing but a fool&rsquo;s game<br />
-Standing in the cold rain<br />
+<p><a href="https://www.youtube.com/watch?v=bEOl38y8Nj8">Bonnie Tyler - It&rsquo;s A Heartache</a><br>
+It&rsquo;s a heartache<br>
+Nothing but a heartache<br>
+Hits you when it&rsquo;s too late<br>
+Hits you when you&rsquo;re down<br>
+It&rsquo;s a fool&rsquo;s game<br>
+Nothing but a fool&rsquo;s game<br>
+Standing in the cold rain<br>
 Feeling like a clown</p>
-
-<p><a href="https://www.youtube.com/watch?v=ziWg-b-KBtU">Rod Stewart - It&rsquo;s A Heartache</a><br />
+<p><a href="https://www.youtube.com/watch?v=ziWg-b-KBtU">Rod Stewart - It&rsquo;s A Heartache</a><br>
 Rod Stewart 的版本，各有千秋。</p>
-
-<p><a href="https://www.youtube.com/watch?v=St6jyEFe5WM">Procol Harum - A Whiter Shade of Pale</a><br />
+<p><a href="https://www.youtube.com/watch?v=St6jyEFe5WM">Procol Harum - A Whiter Shade of Pale</a><br>
 非常棒的现场版，而且年老之后醇厚的声音更有韵味。</p>
-
-<p><a href="https://www.bilibili.com/video/BV1hU4y1W7Tm/">韦启良 - When The World Let You Know Love</a><br />
+<p><a href="https://www.bilibili.com/video/BV1hU4y1W7Tm/">韦启良 - When The World Let You Know Love</a><br>
 电影《男人四十》、《江湖救急》都用过，听过的一定印象深刻。</p>
-
-<p><a href="https://www.youtube.com/watch?v=Nqq_cHS9T6g">须藤薰 - 雨の中の噴水（雨中的喷泉）</a><br />
+<p><a href="https://www.youtube.com/watch?v=Nqq_cHS9T6g">须藤薰 - 雨の中の噴水（雨中的喷泉）</a><br>
 City Pop 风格的代表之一。</p>
-
-<p><a href="https://www.youtube.com/watch?v=T_lC2O1oIew">竹内まりや - Plastic Love</a><br />
+<p><a href="https://www.youtube.com/watch?v=T_lC2O1oIew">竹内まりや - Plastic Love</a><br>
 City Pop 绕不过去的歌手和作品，竹内玛利亚的塑料爱，因为在 Youtube 上重新火了，官方又制作了个 MV。</p>
-
 <p><a href="https://www.youtube.com/watch?v=mWQdGkLR1PE">竹内まりや - Teko&rsquo;s Theme</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=pTynyJkhNC0">竹内まりや - けんかをやめて</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=CbptWZzHBvc">竹内まりや - 元気を出して</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=O_i9t7h8AgY">Dexys Midnight Runners - Come On Eileen</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=z825tkkfbIo">Dan Hill - Sometimes When We Touch</a><br />
+<p><a href="https://www.youtube.com/watch?v=z825tkkfbIo">Dan Hill - Sometimes When We Touch</a><br>
 现在大家更熟悉的可能是各种翻唱版本。</p>
-
-<p><a href="https://www.youtube.com/watch?v=EpsbK9XNhCE">Rachael Yamagata - Dealbreaker</a><br />
+<p><a href="https://www.youtube.com/watch?v=EpsbK9XNhCE">Rachael Yamagata - Dealbreaker</a><br>
 All of this means nothing without you.</p>
-
 <p><a href="https://www.youtube.com/watch?v=KUuMyyZoYO4">Rachael Yamagata &amp; Ray Lamontagne - Duet</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=2u8PmdK7MVY">Rachael Yamagata - Over and Over</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=Y-wUs9uyOz8">La Grande Sophie - Tu n&rsquo;as pas cherché&hellip;</a><br />
-Et puis un jour, on accepte les choses<br />
-On se recroise, mais pour se dire au revoir<br />
-Good bye<br />
-Alors un jour, on regarde les choses<br />
-On se dira un mot, on se dira au revoir<br />
+<p><a href="https://www.youtube.com/watch?v=Y-wUs9uyOz8">La Grande Sophie - Tu n&rsquo;as pas cherché&hellip;</a><br>
+Et puis un jour, on accepte les choses<br>
+On se recroise, mais pour se dire au revoir<br>
+Good bye<br>
+Alors un jour, on regarde les choses<br>
+On se dira un mot, on se dira au revoir<br>
 Good bye</p>
-
 <p><a href="https://www.youtube.com/watch?v=VpjlHja8PzQ">Patricia Kaas - Il Me Dit Que Je Suis Belle</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=ZfQLaKS8yJY">Les Choristes - Vois sur ton chemin</a><br />
-电影《放牛班的春天》中很有名的歌曲，也是明洲参加合唱团学会的第一首法语歌。<br />
+<p><a href="https://www.youtube.com/watch?v=ZfQLaKS8yJY">Les Choristes - Vois sur ton chemin</a><br>
+电影《放牛班的春天》中很有名的歌曲，也是明洲参加合唱团学会的第一首法语歌。<br>
 电影中的其他歌曲，如 Cerf volant、Les Avions en Papier 也不错。</p>
-
-<p><a href="https://www.youtube.com/watch?v=TrwGCgnPoTQ">Jean-Baptiste Maunier &amp; Clemence - Concerto Pour Deux Voix</a><br />
+<p><a href="https://www.youtube.com/watch?v=TrwGCgnPoTQ">Jean-Baptiste Maunier &amp; Clemence - Concerto Pour Deux Voix</a><br>
 我唯一会唱的法语歌应该就是这首了…</p>
-
-<p><a href="https://www.youtube.com/watch?v=i6Ne8j7bPBw">Indila - Feuille d&rsquo;automne</a><br />
-网友戏称，有咖喱味😂<br />
-但这段童声真好听<br />
-Mille et une couleurs<br />
-Qui font battre mon cœur<br />
-Au rythme des saisons<br />
-Le temps d&rsquo;une chanson<br />
-Sous un saule pleureur<br />
-Je rêve d&rsquo;une vie meilleure<br />
-Mais il faut être fort<br />
+<p><a href="https://www.youtube.com/watch?v=i6Ne8j7bPBw">Indila - Feuille d&rsquo;automne</a><br>
+网友戏称，有咖喱味😂<br>
+但这段童声真好听<br>
+Mille et une couleurs<br>
+Qui font battre mon cœur<br>
+Au rythme des saisons<br>
+Le temps d&rsquo;une chanson<br>
+Sous un saule pleureur<br>
+Je rêve d&rsquo;une vie meilleure<br>
+Mais il faut être fort<br>
 Alors j&rsquo;attends encore</p>
-
-<p><a href="https://www.youtube.com/watch?v=o0rWAKS1y7w">Exodus</a><br />
+<p><a href="https://www.youtube.com/watch?v=o0rWAKS1y7w">Exodus</a><br>
 厚重磅礴的《出埃及记》主题曲，可惜找得到的版本都嫌节奏过快。</p>
-
-<p><a href="https://www.youtube.com/watch?v=u925g6CgKuw">Neil Young - Heart of Gold</a><br />
+<p><a href="https://www.youtube.com/watch?v=u925g6CgKuw">Neil Young - Heart of Gold</a><br>
 I&rsquo;ve been a miner for a heart of gold.</p>
-
-<p><a href="https://www.youtube.com/watch?v=Rf53qmhcGc8">Karla Moheno/Sean Lennon - My Hero</a><br />
-别打肿脸充胖子，天天想整些高大上的超能力，自信一点就好。<br />
+<p><a href="https://www.youtube.com/watch?v=Rf53qmhcGc8">Karla Moheno/Sean Lennon - My Hero</a><br>
+别打肿脸充胖子，天天想整些高大上的超能力，自信一点就好。<br>
 唱到 faster than the speed of sound 时老想成 speed of light🤦</p>
-
 <p><a href="https://www.youtube.com/watch?v=6Ut5zTJkN4c">新裤子 - 没有理想的人不伤心</a></p>
-
-<p>[Patti Smith - Because The Night]()<br />
+<p><a href="">Patti Smith - Because The Night</a><br>
 《你的剧本逊毙了！》一书中，作者谈到<a href="https://yourscreenplaysucks.wordpress.com/2012/08/26/the-difference-between-good-and-great-very-scary/">好和伟大的差别</a>：</p>
-
 <blockquote>
 <p>Patti Smith 的声音（正是你希望剧本所具备的）力量澎湃，不可思议，如同海啸一般，显得 Natalie Merchant 版本的声音像肮脏的洗碗水。</p>
 </blockquote>
-
 <p>作者还说：</p>
-
 <blockquote>
-<p><a href="https://youtube.com/watch?v=ydKbP0L9qcE">Natalie Merchant 现场翻唱的《Because the Night》</a>听上去很好，就像一部还不错的剧本。<br />
+<p><a href="https://youtube.com/watch?v=ydKbP0L9qcE">Natalie Merchant 现场翻唱的《Because the Night》</a>听上去很好，就像一部还不错的剧本。<br>
 但当你看到 <a href="https://youtube.com/watch?v=0brHGJ6xqbk">Patti Smith 的版本</a>，两相比较之下，立即就会明白哪个更好，也就是你的剧本应该成为的样子。</p>
 </blockquote>
-
-<p><a href="https://www.youtube.com/watch?v=gxEPV4kolz0">Billy Joel - Piano Man</a><br />
-Yes, they&rsquo;re sharing a drink they call loneliness.<br />
+<p><a href="https://www.youtube.com/watch?v=gxEPV4kolz0">Billy Joel - Piano Man</a><br>
+Yes, they&rsquo;re sharing a drink they call loneliness.<br>
 But it&rsquo;s better than drinkin&rsquo; alone.</p>
-
 <p><a href="https://www.youtube.com/watch?v=2cwex7CmJdQ">Caron Nightingale - Promises Don&rsquo;t Come Easy</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=tCKO57ZbHSY">Rita Coolidge - We&rsquo;re All Alone</a><br />
-这首歌翻唱的版本很多，华语歌手就有钟镇涛、周华健、张国荣翻唱过。<br />
+<p><a href="https://www.youtube.com/watch?v=tCKO57ZbHSY">Rita Coolidge - We&rsquo;re All Alone</a><br>
+这首歌翻唱的版本很多，华语歌手就有钟镇涛、周华健、张国荣翻唱过。<br>
 我觉得 Rita Coolidge 翻唱的版本比原唱者 Boz Scaggs 的版本要好。</p>
-
-<p><a href="https://www.youtube.com/watch?v=Qyclqo_AV2M">The Beatles - We Can Work it Out</a><br />
+<p><a href="https://www.youtube.com/watch?v=Qyclqo_AV2M">The Beatles - We Can Work it Out</a><br>
 Life is very short, and there&rsquo;s no time for fussing and fighting, my friend.</p>
-
-<p><a href="https://www.youtube.com/watch?v=5GUP7bsDPXg">Judy Garland - Old Man River</a><br />
+<p><a href="https://www.youtube.com/watch?v=5GUP7bsDPXg">Judy Garland - Old Man River</a><br>
 I&rsquo;m tired of living but scared of dying.</p>
-
-<p><a href="https://www.youtube.com/watch?v=jqN8McQ9d2I">苏芮 - 一样的月光</a><br />
+<p><a href="https://www.youtube.com/watch?v=jqN8McQ9d2I">苏芮 - 一样的月光</a><br>
 台北演唱会现场版本，吉他游正彦，贝斯郭宗韶，鼓手黄瑞丰，钢琴陈玉立。</p>
-
 <p><a href="https://www.youtube.com/watch?v=d4hJoBAzFFA">John H. Clarke - Aurora Borealis</a></p>
-
 <p><a href="https://www.youtube.com/watch?v=frv93sVjn1U">Blackmore&rsquo;s Night - Under A Violet Moon</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=y11f8Oc25AI">Manic Street Preachers - Suicide Is Painless</a><br />
+<p><a href="https://www.youtube.com/watch?v=y11f8Oc25AI">Manic Street Preachers - Suicide Is Painless</a><br>
 喜欢这个和原唱风格截然不同的版本。</p>
-
-<p><a href="https://www.youtube.com/watch?v=16y1AkoZkmQ">Boney M. - Rasputin</a><br />
-乐队由西德人 Frank Farian 创立，成员来自牙买加、蒙特塞拉特和阿鲁巴。 唱片中男声是 Farian 唱的，舞者 Bobby Farrell 在现场表演时才有机会开口。<br />
-这样的组合在波兰现场唱一首采样自土耳其的旋律关于拉斯普京的英文歌，相当奇妙。<br />
-歌曲在俄罗斯大受欢迎，而 Farrell 去世的日期和地点和拉斯普京一样。<br />
-据说歌曲旋律的源远流长，来源包括 katibim、ruse kose kuro imaš、shukno patar nupur paaye、tri bhuboner 等等。<br />
+<p><a href="https://www.youtube.com/watch?v=16y1AkoZkmQ">Boney M. - Rasputin</a><br>
+乐队由西德人 Frank Farian 创立，成员来自牙买加、蒙特塞拉特和阿鲁巴。 唱片中男声是 Farian 唱的，舞者 Bobby Farrell 在现场表演时才有机会开口。<br>
+这样的组合在波兰现场唱一首采样自土耳其的旋律关于拉斯普京的英文歌，相当奇妙。<br>
+歌曲在俄罗斯大受欢迎，而 Farrell 去世的日期和地点和拉斯普京一样。<br>
+据说歌曲旋律的源远流长，来源包括 katibim、ruse kose kuro imaš、shukno patar nupur paaye、tri bhuboner 等等。<br>
 创作者的妻子是在北马其顿听到了第二首歌曲并介绍给他。</p>
-
-<p><a href="https://www.youtube.com/watch?v=bGFV8o1liEQ">山下达郎 - Your Eyes</a><br />
-山下达郎有一把好嗓子，就是不知道是不是编曲太过精致细腻的原因，听多了有点腻。这首 Your Eyes 倒是百听不厌。<br />
+<p><a href="https://www.youtube.com/watch?v=bGFV8o1liEQ">山下达郎 - Your Eyes</a><br>
+山下达郎有一把好嗓子，就是不知道是不是编曲太过精致细腻的原因，听多了有点腻。这首 Your Eyes 倒是百听不厌。<br>
 另外，黄渤出名后，看山下达郎总觉得像黄渤，难道他不喜欢上镜是有先见之明？😂</p>
-
-<p><a href="https://www.youtube.com/watch?v=h1tNw1aFzSM">莫文蔚 - 忽然之间</a><br />
-这首歌是为了台湾1999年9月21日的大地震而作，李焯雄根据地震中的亲身经历作词，词曲和 MV 简单质朴却打动人心，是我最喜欢的莫文蔚的歌曲之一。<br />
-当年8月17日，土耳其伊兹密特也发生了大地震，超17000人死亡。<br />
+<p><a href="https://www.youtube.com/watch?v=h1tNw1aFzSM">莫文蔚 - 忽然之间</a><br>
+这首歌是为了台湾1999年9月21日的大地震而作，李焯雄根据地震中的亲身经历作词，词曲和 MV 简单质朴却打动人心，是我最喜欢的莫文蔚的歌曲之一。<br>
+当年8月17日，土耳其伊兹密特也发生了大地震，超17000人死亡。<br>
 今年，土耳其和叙利亚再遭地震，更为惨烈。</p>
-
-<p><a href="https://www.youtube.com/watch?v=XuAPX5i8QYI">Gala - 骊歌</a><br />
-都知欢聚最难得，难耐别离多<br />
+<p><a href="https://www.youtube.com/watch?v=XuAPX5i8QYI">Gala - 骊歌</a><br>
+都知欢聚最难得，难耐别离多<br>
 同样的曲子改了歌词也用在了和邵夷贝合作的《知音难觅》上。</p>
-
-<p><a href="https://www.youtube.com/watch?v=61zsUcnKAKs">Michael Buble - What A Wonderful World</a><br />
-I see skies of blue<br />
-clouds of white<br />
-The bright blessed day<br />
-dark sacred night<br />
-And I think to myself<br />
-what a wonderful world<br />
+<p><a href="https://www.youtube.com/watch?v=61zsUcnKAKs">Michael Buble - What A Wonderful World</a><br>
+I see skies of blue<br>
+clouds of white<br>
+The bright blessed day<br>
+dark sacred night<br>
+And I think to myself<br>
+what a wonderful world<br>
 Louis Armstrong 的版本如果是蓝天白云，那么 Buble 的版本就像是暮鼓晨钟。</p>
-
-<p><a href="https://www.youtube.com/watch?v=RW0Db5HVEqU">忍者龍剣伝/Ninja Gaiden III - Act IV Part 1</a><br />
+<p><a href="https://www.youtube.com/watch?v=RW0Db5HVEqU">忍者龍剣伝/Ninja Gaiden III - Act IV Part 1</a><br>
 《忍者龙剑传3：黄泉的方舟》即使在系列中属于难度相对不高的一作，对我这样的动作苦手仍然难度很高，但它的音乐绝对让人过耳不忘。</p>
-
-<p><a href="https://www.youtube.com/watch?v=H055G4XoMJU">忍者龍剣伝/Ninja Gaiden STAGE 4-2 鮮烈のリュウ/Unbreakable Determination</a><br />
-忍者龙剑传系列作中最出名的还是这一首，制作方 Tecmo 本来觉得风格和关卡不搭，准备弃用，但因为是在带感，于是保留了下来。<br />
+<p><a href="https://www.youtube.com/watch?v=H055G4XoMJU">忍者龍剣伝/Ninja Gaiden STAGE 4-2 鮮烈のリュウ/Unbreakable Determination</a><br>
+忍者龙剑传系列作中最出名的还是这一首，制作方 Tecmo 本来觉得风格和关卡不搭，准备弃用，但因为是在带感，于是保留了下来。<br>
 这首曲子在网上有许多重新演绎的版本，其中 <a href="https://www.youtube.com/watch?v=QRUFZcYRFDg">Pontus Hultgren 的版本</a>不错，特别是前奏部分。</p>
-
-<p><a href="https://www.youtube.com/watch?v=CoGFV_xxR64">Last Ninja 2 - Central Park</a><br />
-Commodore 64平台上8 bit 音乐的巅峰作，相当上头，令人欲罢不能。其他芯片音乐的重新演绎大多都会用更加现代的乐器和编曲，唯独这一首太适合芯片音乐的风格了，波形不弄规整点都不行。<br />
+<p><a href="https://www.youtube.com/watch?v=CoGFV_xxR64">Last Ninja 2 - Central Park</a><br>
+Commodore 64平台上8 bit 音乐的巅峰作，相当上头，令人欲罢不能。其他芯片音乐的重新演绎大多都会用更加现代的乐器和编曲，唯独这一首太适合芯片音乐的风格了，波形不弄规整点都不行。<br>
 一个不错的 <a href="https://www.youtube.com/watch?v=P2eFlVpQ3dc">remix 版本</a>。</p>
-
 <p>纪如瑾 - 你累了吗/值得一辈子去爱/咖啡杯里的水仙/最美的原来是看不见的…</p>
-
-<p>从同学那里知道的纪如瑾，因为他买了一盒《值得一辈子去爱》的磁带，和我交换着听。<br />
-在2000年左右小有名气的内地女歌手中，她的风格甚是独特，加上名字好听，也就一直记住了。<br />
-她出身音乐世家，从小立志成为歌手，可惜在这张专辑后没过几年就发了最后一张专辑，然后再也听不到她的消息，名气还不如之前在港台发展的时候。<br />
+<p>从同学那里知道的纪如瑾，因为他买了一盒《值得一辈子去爱》的磁带，和我交换着听。<br>
+在2000年左右小有名气的内地女歌手中，她的风格甚是独特，加上名字好听，也就一直记住了。<br>
+她出身音乐世家，从小立志成为歌手，可惜在这张专辑后没过几年就发了最后一张专辑，然后再也听不到她的消息，名气还不如之前在港台发展的时候。<br>
 直到现在才知道原来她在橙天娱乐当副总裁，还成了唐嫣的经纪人。这转型太出乎意料了。</p>
-
-<p><a href="https://www.youtube.com/watch?v=GNMvzmRNnOc">Bohdi Jones - Oh Father</a><br />
-I never wanted anything from you but love<br />
-Tell me who are you I need to know<br />
+<p><a href="https://www.youtube.com/watch?v=GNMvzmRNnOc">Bohdi Jones - Oh Father</a><br>
+I never wanted anything from you but love<br>
+Tell me who are you I need to know<br>
 Without you I&rsquo;m not whole</p>
-
-<p>人有寻找父母角色的天性，希望强壮、温柔、坚毅、包容的长者给予自己无条件的爱。但现实中有幸得到这样爱的人太少，特别是父爱稀缺。<br />
-有的人在现实中找不到能够给予父爱的人，可能会在其他方面寻找替代品，将父亲的角色投射到其身上，比如工作中的上级、生活中伴侣以及带有威权色彩的组织，并寻求其认可。<br />
+<p>人有寻找父母角色的天性，希望强壮、温柔、坚毅、包容的长者给予自己无条件的爱。但现实中有幸得到这样爱的人太少，特别是父爱稀缺。<br>
+有的人在现实中找不到能够给予父爱的人，可能会在其他方面寻找替代品，将父亲的角色投射到其身上，比如工作中的上级、生活中伴侣以及带有威权色彩的组织，并寻求其认可。<br>
 有的人则需要花一生的时间摆脱对父爱的渴求，成功的人获得更加独立的心智，失败的人迁怒于人，陷入无穷无尽的愤怒和仇恨。</p>
-
-<p><a href="https://www.youtube.com/watch?v=UWP0rgs-P3I">李宗盛 - 希望</a><br />
-如果这纷乱的世界让我沮丧<br />
-我就去看看她们眼中的光芒<br />
-她们是未来的希望<br />
+<p><a href="https://www.youtube.com/watch?v=UWP0rgs-P3I">李宗盛 - 希望</a><br>
+如果这纷乱的世界让我沮丧<br>
+我就去看看她们眼中的光芒<br>
+她们是未来的希望<br>
 但愿我能给她一个最像天堂的地方</p>
-
-<p>很多人最喜欢的李宗盛的歌是《当爱已成往事》，是《山丘》。<br />
+<p>很多人最喜欢的李宗盛的歌是《当爱已成往事》，是《山丘》。<br>
 对我来说是这一首，因为有一刻超越了都市情歌和老男人感慨人生的境界。</p>
-
-<p><a href="https://www.youtube.com/watch?v=fk6twiO6uGU">范晓萱 - 处处都有你</a><br />
-范晓萱的出道风格和她的目标截然不同，反响却很好，除了清纯（《Rain》、《雪人》）、古灵精怪（《魔力 ESP》、《你的甜蜜》），还为动画配歌，如这首出自『ザ☆ドラえもんズ ムシムシぴょんぴょん大作戦!』 《哆啦A梦七小子：虫虫大作战》<br />
+<p><a href="https://www.youtube.com/watch?v=fk6twiO6uGU">范晓萱 - 处处都有你</a><br>
+范晓萱的出道风格和她的目标截然不同，反响却很好，除了清纯（《Rain》、《雪人》）、古灵精怪（《魔力 ESP》、《你的甜蜜》），还为动画配歌，如这首出自『ザ☆ドラえもんズ ムシムシぴょんぴょん大作戦!』 《哆啦A梦七小子：虫虫大作战》<br>
 曾经有位同学是范晓萱的死忠，迷上的是初期风格的她。不知道后来范晓萱顺从本心转型后，他有没有一直喜欢下去，也不知道后来爆出了许多负面新闻后，这位死忠是否初心不改。</p>
-
-<p><a href="https://www.youtube.com/watch?v=bL_17rgGZw4">Ninja Gaiden - A Hero&rsquo;s End/镇魂曲</a><br />
-继续忍者龙剑传<br />
+<p><a href="https://www.youtube.com/watch?v=bL_17rgGZw4">Ninja Gaiden - A Hero&rsquo;s End/镇魂曲</a><br>
+继续忍者龙剑传<br>
 不到1分钟的结尾曲，开头来自罗密欧与朱丽叶</p>
-
-<p><a href="https://www.youtube.com/watch?v=LmZYpAk7ctc">Peter, Paul and Mary - Puff the Magic Dragon</a><br />
+<p><a href="https://www.youtube.com/watch?v=LmZYpAk7ctc">Peter, Paul and Mary - Puff the Magic Dragon</a><br>
 我们中的一小部分人成为了 Peter Pan，大部分则成为了 Jackie Paper</p>
-
-<p><a href="https://www.youtube.com/watch?v=6dYWe1c3OyU">Gloria Gaynor - I Will Survive</a><br />
+<p><a href="https://www.youtube.com/watch?v=6dYWe1c3OyU">Gloria Gaynor - I Will Survive</a><br>
 随机到了一个电子舞曲风格编曲的版本，把精华全干掉了，真的有害身心健康，赶紧找来原版的洗一下耳朵。</p>
-
-<p><a href="https://www.youtube.com/watch?v=7rwJIeN1M7o">X Japan - Endless Rain</a><br />
-X Japan 在97年解散前最后一次现场演出，成员们坐在斑驳的灯光中若有所思沉默不语，然后相继走下舞台<br />
-观众反复不停地唱着…<br />
-endless rain<br />
-fall on my heart<br />
-心の傷に<br />
-let me forget<br />
-all of the hate<br />
-all of the sadness<br />
+<p><a href="https://www.youtube.com/watch?v=7rwJIeN1M7o">X Japan - Endless Rain</a><br>
+X Japan 在97年解散前最后一次现场演出，成员们坐在斑驳的灯光中若有所思沉默不语，然后相继走下舞台<br>
+观众反复不停地唱着…<br>
+endless rain<br>
+fall on my heart<br>
+心の傷に<br>
+let me forget<br>
+all of the hate<br>
+all of the sadness<br>
 半年后，吉他手 Hide 意外去世</p>
-
-<p><a href="https://www.youtube.com/watch?v=xarC5jAiO7w">ODESZA - A Moment Apart</a><br />
-Forza Horizon 4中几乎每一首音乐的评论区，都有一大半的人在说：是 FH4 让我知道有这么好的音乐，和认识这些音乐人。<br />
+<p><a href="https://www.youtube.com/watch?v=xarC5jAiO7w">ODESZA - A Moment Apart</a><br>
+Forza Horizon 4中几乎每一首音乐的评论区，都有一大半的人在说：是 FH4 让我知道有这么好的音乐，和认识这些音乐人。<br>
 这首是开场画面的背景音乐，有玩家评论说，玩试玩版时一听这个音乐我就知道应该下单了，以及这首歌能让我逗留在开场不舍得进入。</p>
-
-<p><a href="https://www.youtube.com/watch?v=mxWTTXmZVvk">Jasing Rye - Une Hirondelle A Fait Le Printemps</a><br />
+<p><a href="https://www.youtube.com/watch?v=mxWTTXmZVvk">Jasing Rye - Une Hirondelle A Fait Le Printemps</a><br>
 融入了越剧“天上掉下个林妹妹”的法语香颂《独燕成春》，奇妙的组合。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%9f%b3%e4%b9%90%e5%88%86%e4%ba%ab》&body=https%3a%2f%2fioerr.github.io%2fprojects%2fmusic-share%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fprojects%2fmusic-share%2f&text= @calon %e9%9f%b3%e4%b9%90%e5%88%86%e4%ba%ab&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://ioerr.github.io/tags/%E9%9F%B3%E4%B9%90/">音乐</a></li>
       
-    </footer>
-  </article>
+        
+          <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+        
+      
+    </ul>
 
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -822,5 +618,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

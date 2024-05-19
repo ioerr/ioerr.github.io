@@ -1,111 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>审美 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%AE%A1%E7%BE%8E/</link>
     <description>Recent content in 审美 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%AE%A1%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>聊聊美役</title>
-        <link>https://ioerr.github.io/posts/liaoliao-meiyi/</link>
-        <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/liaoliao-meiyi/</guid>
-        <description>&lt;p&gt;小红书上的&lt;a href=&#34;https://www.xiaohongshu.com/user/profile/616f0a7f0000000002025ff0&#34;&gt;凯尔特柚&lt;/a&gt;发了一段名为“&lt;a href=&#34;https://www.xiaohongshu.com/explore/65e04059000000000b019bba&#34;&gt;谈谈美役&lt;/a&gt;”的视频：&lt;br /&gt;
-贾玲用减肥话题宣传电影《热辣滚烫》，被人批评是在“服美役”——（主要是女性）为了迎合社会观念中的审美而牺牲自己的行为，如消耗不必要的资源，损害健康，等等，相当于是为了“美丽”服役。&lt;/p&gt;
-
-&lt;p&gt;她的态度是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;你可以选择做或者不做，但是我们可能需要清楚的知道，这个怪物的模样，知道它背后的权力机制。当我们看见所谓“取悦自己”背后那个隐身的怪物的时候，如果你还想要变美，那你至少不会再说这是我的自由，这是取悦自己。&lt;br /&gt;
-之所以它不是完全的自由，是因为权力它绝对不会说它逼你去做什么，而是在你认为自己很自主地想要做什么的时候，它就已经润物细无声地影响了，潜伏在你的脑海里面，让你想去做这件事情了。&lt;br /&gt;
-比如我们认为女生爱打扮爱美，这是自然的，但是我们可能想一下，它是不是历史叙事、是媒介、是教育、是主流话语让我们相信的。你认为的自我决定、你笃信的新自由主义，其实可以为结构的错误免责。&lt;br /&gt;
-反对的不是变美，而是对自己不完美的内耗。我们可能需要随时去反省，随时问自己这些对美的追求，它有没有限制我们去追求舒适、自由、知识、力量…这些更加珍贵的东西。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;大部分观点我认同，但有一处不能接受。&lt;br /&gt;
-“潜移默化的影响” 这种表述最可怕的点在于无法证实或者证伪，没有一个明确的客观标准，大多数时候全凭判断者的一张嘴，一旦他认为你被悄悄洗脑了，你的任何反驳都会变成“被洗脑”的证据，不断加强这个判断，陷入死循环；而那些自认为没有被“洗脑”的人，也惶惶不可终日，生怕一不留神就着了道。无论如何都会加剧焦虑。&lt;/p&gt;
-
-&lt;p&gt;在我看来，不用把个人的判断能力和自由选择权利看得太弱。&lt;br /&gt;
-倘若对社会不同的审美标准从何而来有所认识，知道它们为何会发展至今成为一种社会标准后，仍然选择认同其中的一种，那么就没有必要认为是服美役。&lt;br /&gt;
-这是一种主观的标准，结果可以是参差多态的，不必因为各人选择不同而互相否定。&lt;br /&gt;
-心灵上的奴役来自于无知，不是来自选择。我们应摆脱自身的无知，尊重他人选择。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>写作风格应该追求简洁还是复杂？</title>
-        <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
-        <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/baibanbaonet/status/1751815054960234541&#34;&gt;白板报&lt;/a&gt;：&lt;br /&gt;
-自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1751816921945960449&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。&lt;br /&gt;
-其实风格还在其次，最重要的是真诚。&lt;br /&gt;
-追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。&lt;/p&gt;
-
-&lt;p&gt;白板报：&lt;br /&gt;
-这点恕不能完全同意。文字的作用之一是掩饰。&lt;/p&gt;
-
-&lt;p&gt;Calon：&lt;br /&gt;
-有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>音乐的力量</title>
-        <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
-        <description>&lt;p&gt;不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”&lt;br /&gt;
-进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”&lt;/p&gt;
-
-&lt;p&gt;不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。&lt;/p&gt;
-
-&lt;p&gt;但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。&lt;br /&gt;
-某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。&lt;br /&gt;
-就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。&lt;/p&gt;
-
-&lt;p&gt;在音乐本身的审美价值之外，还有一点值得一提。&lt;/p&gt;
-
-&lt;p&gt;想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。&lt;/p&gt;
-
-&lt;p&gt;一支音乐不过几分钟时间，却有这样触动人心的力量。&lt;br /&gt;
-更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。&lt;br /&gt;
-有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。&lt;br /&gt;
-这是诉诸理性的文本无法达到的效果。&lt;/p&gt;
-
-&lt;p&gt;诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。&lt;br /&gt;
-音乐甚至不需要理性意志的参与，就可直达无意识的深渊。&lt;br /&gt;
-两者相比较之下，音乐的力量是不是很像某种魔法效果呢？&lt;/p&gt;
-
-&lt;p&gt;生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。&lt;/p&gt;
-
-&lt;p&gt;这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%AE%A1%E7%BE%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>聊聊美役</title>
+      <link>https://ioerr.github.io/posts/liaoliao-meiyi/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/liaoliao-meiyi/</guid>
+      <description>小红书上的凯尔特柚发了一段名为“谈谈美役”的视频： 贾玲用减肥话题宣传电影《热辣滚烫》，被人批评是在“服美役”——（主要是女性）为了迎合社会观</description>
+      <content:encoded><![CDATA[<p>小红书上的<a href="https://www.xiaohongshu.com/user/profile/616f0a7f0000000002025ff0">凯尔特柚</a>发了一段名为“<a href="https://www.xiaohongshu.com/explore/65e04059000000000b019bba">谈谈美役</a>”的视频：<br>
+贾玲用减肥话题宣传电影《热辣滚烫》，被人批评是在“服美役”——（主要是女性）为了迎合社会观念中的审美而牺牲自己的行为，如消耗不必要的资源，损害健康，等等，相当于是为了“美丽”服役。</p>
+<p>她的态度是：</p>
+<blockquote>
+<p>你可以选择做或者不做，但是我们可能需要清楚的知道，这个怪物的模样，知道它背后的权力机制。当我们看见所谓“取悦自己”背后那个隐身的怪物的时候，如果你还想要变美，那你至少不会再说这是我的自由，这是取悦自己。<br>
+之所以它不是完全的自由，是因为权力它绝对不会说它逼你去做什么，而是在你认为自己很自主地想要做什么的时候，它就已经润物细无声地影响了，潜伏在你的脑海里面，让你想去做这件事情了。<br>
+比如我们认为女生爱打扮爱美，这是自然的，但是我们可能想一下，它是不是历史叙事、是媒介、是教育、是主流话语让我们相信的。你认为的自我决定、你笃信的新自由主义，其实可以为结构的错误免责。<br>
+反对的不是变美，而是对自己不完美的内耗。我们可能需要随时去反省，随时问自己这些对美的追求，它有没有限制我们去追求舒适、自由、知识、力量…这些更加珍贵的东西。</p>
+</blockquote>
+<p>大部分观点我认同，但有一处不能接受。<br>
+“潜移默化的影响” 这种表述最可怕的点在于无法证实或者证伪，没有一个明确的客观标准，大多数时候全凭判断者的一张嘴，一旦他认为你被悄悄洗脑了，你的任何反驳都会变成“被洗脑”的证据，不断加强这个判断，陷入死循环；而那些自认为没有被“洗脑”的人，也惶惶不可终日，生怕一不留神就着了道。无论如何都会加剧焦虑。</p>
+<p>在我看来，不用把个人的判断能力和自由选择权利看得太弱。<br>
+倘若对社会不同的审美标准从何而来有所认识，知道它们为何会发展至今成为一种社会标准后，仍然选择认同其中的一种，那么就没有必要认为是服美役。<br>
+这是一种主观的标准，结果可以是参差多态的，不必因为各人选择不同而互相否定。<br>
+心灵上的奴役来自于无知，不是来自选择。我们应摆脱自身的无知，尊重他人选择。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>写作风格应该追求简洁还是复杂？</title>
+      <link>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiezuo-fengge-yinggai-zhuiqiu-jianjie-haishi-fuza/</guid>
+      <description>白板报： 自从 Strunk &amp;amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/baibanbaonet/status/1751815054960234541">白板报</a>：<br>
+自从 Strunk &amp; White 的 The Element of Style 诞生以来，简洁 brivity 被高举到至高无上的位置，几乎成了写作指南的唯一圭臬。但是，纳博科夫这些大师却对简洁不以为然。“你的简洁是洗尽铅华呢？还是因为驾驭不了复杂呢？我看大部分是后者。</p>
+<p><a href="https://twitter.com/calon/status/1751816921945960449">Calon</a>：<br>
+对能力不够的人来说，追求简洁总比不自量力地追求繁复强，做到前者起码能够维持底线，后者则是没有尽头的巨大灾难，更误导其他人共同败坏文风。<br>
+其实风格还在其次，最重要的是真诚。<br>
+追求繁复文风除了审美需求外，大部分时候目的却在于不愿意直面问题，避重就轻，文过饰非，又或者狐假虎威，靠自己也不理解的词语吓住对方。</p>
+<p>白板报：<br>
+这点恕不能完全同意。文字的作用之一是掩饰。</p>
+<p>Calon：<br>
+有这个作用，但是不值得提倡的作用。就像代码的作用包括制造和传播病毒。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>音乐的力量</title>
+      <link>https://ioerr.github.io/posts/yinyue-de-liliang/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinyue-de-liliang/</guid>
+      <description>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？” 进而也鄙视音乐，“</description>
+      <content:encoded><![CDATA[<p>不少人看不起会唱歌的人，“不就是会唱歌么？凭什么成为万人追捧的明星？凭什么收入超过实干的技术人才或靠写书为生的知识分子？”<br>
+进而也鄙视音乐，“不创造任何看得见的价值，只会让人沉迷其中，寻找虚无的安慰。说到底只是一种消费而不是生产。”</p>
+<p>不得不承认，我曾经部分认同这样的想法，而且至今也觉得一些流行音乐的歌唱明星配不上他们的社会地位和身价。</p>
+<p>但我不想否认所有音乐人和音乐的价值，特别是不需要将消费和生产完全对立起来。<br>
+某种意义上而言，审美的消费才是人类生活的终极意义所在——生产是供应的过程，生产本身没有价值。<br>
+就像那个养羊、生娃死循环的笑话，忙忙碌碌活一辈子，不管是为了自己还是他人，总要有一个落脚点，要去创造出什么值得欣赏和体验的东西，就好像总要设置一个条件退出无限递归。</p>
+<p>在音乐本身的审美价值之外，还有一点值得一提。</p>
+<p>想到这一点，是某一天我在听一首歌曲，听到触动心弦的时候，勾起许多回忆，不禁感叹世事无常，昨日恍如隔世，泪水都快要夺眶而出。</p>
+<p>一支音乐不过几分钟时间，却有这样触动人心的力量。<br>
+更夸张的，可以让音乐会现场的数万人，同时观看直播的数亿人，沉浸于音乐营造的氛围中，跟随它，服从它，膜拜它，为它激动、呐喊、愤怒、哭泣，甚至暂时消解自我的存在感，与幻想中的听众和整个世界化为一体。<br>
+有的时候，根本不需要任何乐器伴奏，简单清唱的人声都足够深入人心了。<br>
+这是诉诸理性的文本无法达到的效果。</p>
+<p>诉诸理性的文本，需要我们的意识转换、理解之后，才能建立起与作者的心意相通的管道。<br>
+音乐甚至不需要理性意志的参与，就可直达无意识的深渊。<br>
+两者相比较之下，音乐的力量是不是很像某种魔法效果呢？</p>
+<p>生活的经历在人类的脑海中埋下情感思绪的种子，音乐如同魔法咒语一般，瞬间将它们唤醒激活，在心灵深处恣意生长。</p>
+<p>这么一想，除非是完全不懂欣赏音乐的人，是不是对这门艺术和能熟练运用技艺的人有不同的感觉了呢？</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

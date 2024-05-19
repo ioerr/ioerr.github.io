@@ -1,43 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>植物大战僵尸 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/</link>
     <description>Recent content in 植物大战僵尸 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>僵尸和除草机</title>
-        <link>https://ioerr.github.io/posts/jiangshi-he-chucaoji/</link>
-        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiangshi-he-chucaoji/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/disksing/status/1664434738118131714&#34;&gt;象牙山刘能&lt;/a&gt;：&lt;br /&gt;
-昨天小朋友问我工作为什么忙。&lt;/p&gt;
-
-&lt;p&gt;我说总是一件任务还没做完，第二个任务又来了。&lt;/p&gt;
-
-&lt;p&gt;小朋友说我知道了，就跟植物大战僵尸一样，第一个僵尸还没打死，第二个僵尸已经来了，这时候最好是打第二个，第一个就交给除草机算了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1664436659574939648&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“我就是那个除草机。”🤡&lt;/p&gt;
-
-&lt;p&gt;“有时候我还是僵尸，大家互相踩后院草坪。”🤡&lt;/p&gt;
-
-&lt;p&gt;“其实我对你的脑子不感兴趣，但是它在 KPI 里面。”&lt;/p&gt;
-
-&lt;p&gt;“如果真是除草机倒也不坏，起码僵尸一来就可以下班了。”&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>僵尸和除草机</title>
+      <link>https://ioerr.github.io/posts/jiangshi-he-chucaoji/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiangshi-he-chucaoji/</guid>
+      <description>象牙山刘能： 昨天小朋友问我工作为什么忙。 我说总是一件任务还没做完，第二个任务又来了。 小朋友说我知道了，就跟植物大战僵尸一样，第一个僵尸还没打</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/disksing/status/1664434738118131714">象牙山刘能</a>：<br>
+昨天小朋友问我工作为什么忙。</p>
+<p>我说总是一件任务还没做完，第二个任务又来了。</p>
+<p>小朋友说我知道了，就跟植物大战僵尸一样，第一个僵尸还没打死，第二个僵尸已经来了，这时候最好是打第二个，第一个就交给除草机算了。</p>
+<p><a href="https://twitter.com/calon/status/1664436659574939648">Calon</a>：<br>
+“我就是那个除草机。”🤡</p>
+<p>“有时候我还是僵尸，大家互相踩后院草坪。”🤡</p>
+<p>“其实我对你的脑子不感兴趣，但是它在 KPI 里面。”</p>
+<p>“如果真是除草机倒也不坏，起码僵尸一来就可以下班了。”</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

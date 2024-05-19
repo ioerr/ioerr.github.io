@@ -1,43 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>工程学 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B7%A5%E7%A8%8B%E5%AD%A6/</link>
     <description>Recent content in 工程学 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E7%A8%8B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>解数学题的问题</title>
-        <link>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</link>
-        <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</guid>
-        <description>&lt;p&gt;抽空总结了一下，近期辅导明洲做数学题时，最常指出的习惯问题，包括：&lt;br /&gt;
-1、读题不仔细，没搞清楚条件的含义和要问的问题；&lt;br /&gt;
-2、概念不清楚，或者只知道定义不知道如何结合题目中的条件灵活运用；&lt;br /&gt;
-3、不理解数学概念对应在生活中的实际意义，只是套公式；&lt;br /&gt;
-4、跳过论证步骤直接得出结论；&lt;br /&gt;
-5、不在草稿纸上动笔验算。&lt;/p&gt;
-
-&lt;p&gt;于是，遇到稍微困难一点的题目，要么直接放弃，上来就说不会做，要么拿题目中的数字瞎凑个算式随便给个结果。&lt;/p&gt;
-
-&lt;p&gt;排除小学阶段小朋友的认知能力发展有限的因素外，感觉都是现实生活中很典型的问题，特别是把人类社会当工程学搞理论实践的人，犯的错基本都在这几类当中。&lt;/p&gt;
-
-&lt;p&gt;比如本末倒置，忘却初心，为了人类的福祉做出了灭绝人性的事情；&lt;br /&gt;
-比如把概念当信仰，成为原教旨主义者；或把理论当教条，只知道死板地执行；&lt;br /&gt;
-比如把通向未来理想蓝图的路径规划当不容置疑的历史真理，或者用目的高尚论证手段的正确；&lt;br /&gt;
-比如拒不评估和反思实施的结果是否正确，或者是干脆就不具备可验证的可能，等等。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B7%A5%E7%A8%8B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解数学题的问题</title>
+      <link>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jie-shuxueti-de-wenti/</guid>
+      <description>抽空总结了一下，近期辅导明洲做数学题时，最常指出的习惯问题，包括： 1、读题不仔细，没搞清楚条件的含义和要问的问题； 2、概念不清楚，或者只知道</description>
+      <content:encoded><![CDATA[<p>抽空总结了一下，近期辅导明洲做数学题时，最常指出的习惯问题，包括：<br>
+1、读题不仔细，没搞清楚条件的含义和要问的问题；<br>
+2、概念不清楚，或者只知道定义不知道如何结合题目中的条件灵活运用；<br>
+3、不理解数学概念对应在生活中的实际意义，只是套公式；<br>
+4、跳过论证步骤直接得出结论；<br>
+5、不在草稿纸上动笔验算。</p>
+<p>于是，遇到稍微困难一点的题目，要么直接放弃，上来就说不会做，要么拿题目中的数字瞎凑个算式随便给个结果。</p>
+<p>排除小学阶段小朋友的认知能力发展有限的因素外，感觉都是现实生活中很典型的问题，特别是把人类社会当工程学搞理论实践的人，犯的错基本都在这几类当中。</p>
+<p>比如本末倒置，忘却初心，为了人类的福祉做出了灭绝人性的事情；<br>
+比如把概念当信仰，成为原教旨主义者；或把理论当教条，只知道死板地执行；<br>
+比如把通向未来理想蓝图的路径规划当不容置疑的历史真理，或者用目的高尚论证手段的正确；<br>
+比如拒不评估和反思实施的结果是否正确，或者是干脆就不具备可验证的可能，等等。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,260 +1,216 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>照片 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%85%A7%E7%89%87/</link>
     <description>Recent content in 照片 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 10 Jan 2014 10:02:46 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%85%A7%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>支持照片语音备注的移动社交应用</title>
-        <link>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
-        <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
-        <description>&lt;p&gt;近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。&lt;/p&gt;
-
-&lt;p&gt;查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。&lt;/p&gt;
-
-&lt;p&gt;数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。&lt;br /&gt;
-另外，抱着相机录音感觉挺傻。&lt;br /&gt;
-反正至今为止，周围没有人使用过数码相机的这一功能。&lt;/p&gt;
-
-&lt;p&gt;不过，这对手机社交应用都不是问题。&lt;br /&gt;
-拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。&lt;br /&gt;
-不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。&lt;/p&gt;
-
-&lt;p&gt;虽然已经有 &lt;a href=&#34;https://vine.co/&#34;&gt;Vine&lt;/a&gt;
-这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。&lt;br /&gt;
-虽然&lt;a href=&#34;http://weixin.qq.com/&#34;&gt;微信&lt;/a&gt;等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。&lt;/p&gt;
-
-&lt;p&gt;嗯，是我土鳖了，因为没有用过“啪啪”。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>上海世博会</title>
-        <link>https://ioerr.github.io/posts/shanghai-expo/</link>
-        <pubDate>Sat, 07 Aug 2010 17:32:08 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shanghai-expo/</guid>
-        <description>
-
-&lt;p&gt;因为公司的安排，7月末去了一趟上海世博会，整体的感觉是：人多拥挤、内容尚可。&lt;br /&gt;
-如果你关心未来城市的发展，或者像我这样的土包子要看看感兴趣的场馆，还是值得一去的。&lt;br /&gt;
-关心前者的，可以去城市实践馆和一些比较用心的国家馆，比如俄罗斯、德国、智利、日本、丹麦，要看主题之外的精华的，应该去意大利、法国、&lt;/p&gt;
-
-&lt;p&gt;安排的参观时间只有两天，加上团体行动不能够提前入场，所以无法以最有效率的方式看遍场馆，经过第一天的摸索之后，才确定了最佳的原则：&lt;/p&gt;
-
-&lt;p&gt;√
-如果可以很早到达世博园门口，就从最靠近目标场馆的大门进入并领取预约票，然后开始排其他热门场馆的队伍，一个上午至少能够进入一个最热门的场馆，然后在中午、下午吃饭的时候分别开始排其他的热门场馆，像俄罗斯、美国这样的中等热门馆应可以在一个半小时左右进入，晚饭之后人流减少，再选择一个热门场馆，此时一个小时之内就可以搞定，算下来一天至少可以进入4个热门场馆（沙特馆这种特别变态的除外）。&lt;br /&gt;
-√
-别人吃饭、休息的时段就是排队的机会，所以自带或者购买园区内的打包食物，一边排队一边吃吧。&lt;br /&gt;
-√
-事先打听好露天表演节目的时间和地点，如果觉得值得一看就抢先占据有利地形。这次我觉得最精彩的是布隆迪的大鼓表演，相当的给力，比任何一个场馆的内容都精彩，以至于从中午到下午我连续追看了三场。&lt;br /&gt;
-√ 荷兰馆是较高的露天建筑，利于拍欧洲国家馆区的夜景。&lt;/p&gt;
-
-&lt;p&gt;接下来贴一些园区中的照片：&lt;/p&gt;
-
-&lt;p&gt;拉脱维亚馆的外墙全部是各色的金属片，有风吹动的时候会出现波浪。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4814731185/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4095/4814731185_ca10881d1c.jpg&#34; alt=&#34;P7120257&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;智利馆前很风趣的“大叔”，其实年龄只有31岁。提问问一些西班牙语的单词怎么说，答对的可以进去。可惜我只会
-hola、amigo
-这几个，所以继续排队…哥伦比亚馆门口也有小伙子教西班牙语，不过没这位大叔风趣。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4801652427/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4096/4801652427_a81dfd760f.jpg&#34; alt=&#34;智利馆前的大叔&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-智利馆的内容还算是符合“城市，让生活更美好”这个主题，有心人不妨多看看，例如对智利的城市公园的介绍，可惜大多数游客都是匆匆走过。当然，木制的装修非常有特色，是中型国家馆中的高水准。&lt;/p&gt;
-
-&lt;p&gt;斯洛文尼亚馆的主题是书籍，馆内所有的门都是书的形状，颜色还会渐变。顶上吊的是书籍形状的装饰，展览的有斯洛文尼亚的名著和语言教材。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4863203012/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4094/4863203012_13fe23dd59.jpg&#34; alt=&#34;色彩变幻的斯洛文尼亚馆&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;俄罗斯馆外墙的花纹很漂亮，进去的路是绕场馆半圈的水边木制小道。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4863230670/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4079/4863230670_9db8459464.jpg&#34; alt=&#34;俄罗斯馆&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;根据俄罗斯小朋友绘画制成的未来城市模型，旁边还有小朋友的讲解视频。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4864878387/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4081/4864878387_e954d356ec.jpg&#34; alt=&#34;俄罗斯馆中的未来城市模型&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;俄罗斯馆二楼是个旋转式的夜景童话公园，很梦幻的色彩。莫非俄罗斯人挺羡慕马里奥兄弟的世界？&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4802350768/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4080/4802350768_455171e156.jpg&#34; alt=&#34;俄罗斯馆&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;看布隆迪大鼓表演的小女孩。下午看的时候我只能站在侧面第二排，有时候会被挡住，所以晚上又跑到非洲馆前面的舞台再看。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4801672033/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4138/4801672033_0edc00227f.jpg&#34; alt=&#34;看布隆迪大鼓表演的小女孩&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;丹麦馆的小喷泉一会儿喷一会儿停，跑进跑出中间的小圈子时要避免被喷到，一帮小孩大人玩疯了。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4864921345/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4102/4864921345_2ef3884a85.jpg&#34; alt=&#34;丹麦馆的小喷泉&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-丹麦馆的高速慢放的视频很有意思，主题有单车之城、水的城市等等，可以坐在旋转而上的圆弧走廊中慢慢欣赏。&lt;/p&gt;
-
-&lt;p&gt;黑山馆的触摸演示屏幕机器是 Windows&lt;/p&gt;
-
-&lt;h2 id=&#34;系统-演示程序挂掉之后可以返回桌面-我趁着没人调出了经典的扫雷界面-并拍照留念&#34;&gt;系统，演示程序挂掉之后可以返回桌面，我趁着没人调出了经典的扫雷界面，并拍照留念&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/4801584711/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4077/4801584711_ac6896c606.jpg&#34; alt=&#34;黑山馆的扫雷&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-触雷就不是我干的了。&lt;/p&gt;
-
-&lt;p&gt;意大利馆算是大型场馆中内容最丰富的了，但符合城市主题的内容不多，更像是历史文物和名牌大汇展——观众是不会计较这些的。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4802198000/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4096/4802198000_5af4ea3c2a.jpg&#34; alt=&#34;意大利馆的抽象主义光球&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;罗马万神殿的剖面模型。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4868716171/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4097/4868716171_1345a04367.jpg&#34; alt=&#34;意大利馆的罗马万神殿剖面模型&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-学建筑的是不是都想抱一尊这样的模型回家呢？&lt;/p&gt;
-
-&lt;p&gt;最让我激动的文物：我的偶像、牛人、全才、大师 Benvenuto Cellini 的名作
-Perseus with the Head of
-Medusa，第一次亲眼见到这个传奇人物的作品啊。牛的原因不多解释，请看他的自传《致命的百合花》。&lt;br /&gt;
-雕塑的故事背景是古希腊神话中，珀耳修斯斩杀蛇发妖女美杜莎，将她的头颅献给雅典娜。大部分的观众则是如此向身边的人解释：被砍头的就是《诸神之战》中那个女的…&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4801551487/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4076/4801551487_71f343fdff.jpg&#34; alt=&#34;Perseus with the Head of
-Medusa&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;意大利馆的演示屏幕。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4865702412/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4134/4865702412_379b05e366.jpg&#34; alt=&#34;意大利馆的演示屏幕&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;阿尔及利亚馆将南部 Timimoun
-绿洲附近采石场的16种不同颜色的沙子放在一个展台展出，这才是体现了热爱自己的国土啊！&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4865722080/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4099/4865722080_771b41c42c.jpg&#34; alt=&#34;阿尔及利亚的沙&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;南非馆的陈列展品。这些壶还真是骄傲呢。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4802169212/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4095/4802169212_7988aebe14.jpg&#34; alt=&#34;南非馆的壶和碗&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;南非馆里面的小人儿，让我想起了某乐队…&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4811819447/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4139/4811819447_96369b1797.jpg&#34; alt=&#34;God is an
-astronaut&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后来一张在远大馆里面的照片，漆黑的走廊，墙壁上用各国语言写着：寻找你的方向。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4865481140/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4100/4865481140_67fc4e66e0.jpg&#34; alt=&#34;寻找你的方向&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;其它照片见链接：&lt;a href=&#34;http://www.flickr.com/photos/calon/sets/72157624408646827&#34;&gt;2010年上海世博会照片集&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>09年照片</title>
-        <link>https://ioerr.github.io/posts/09-nian-zhaopian/</link>
-        <pubDate>Fri, 01 Jan 2010 16:59:33 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/09-nian-zhaopian/</guid>
-        <description>&lt;p&gt;从09年每月的照片中各挑一张作为小小的总结，可惜不是每个月都有时间出门拍照。&lt;/p&gt;
-
-&lt;p&gt;1月：白日过隙&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3203868596/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3496/3203868596_a5e5d9f6cc.jpg&#34; alt=&#34;白日过隙 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2月：兰花&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3277458621/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3497/3277458621_2be2d741ff.jpg&#34; alt=&#34;兰花 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3月：猪&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3374668020/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3438/3374668020_23266e3ae8.jpg&#34; alt=&#34;猪 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;5月：玩船的少年&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3588379646/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3647/3588379646_09ebe78c05.jpg&#34; alt=&#34;玩船的少年 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;6月：划过天际&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3507086367/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3368/3507086367_fbbeac7193.jpg&#34; alt=&#34;划过天际 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;8月：鼓掌&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/3830413596/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2566/3830413596_0cd74748fa.jpg&#34; alt=&#34;鼓掌 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;10月：眺望&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4083323394/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2759/4083323394_b3aedbd632.jpg&#34; alt=&#34;眺望 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;11月：What&amp;rsquo;s up, man?&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4124257617/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2513/4124257617_dfdd69aa9f.jpg&#34; alt=&#34;What&#39;s up, man? (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;12月：水&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/4218256313/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4027/4218256313_cff35c7672.jpg&#34; alt=&#34;水 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/archives/date-taken/2009/&#34;&gt;09年全部照片在此&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>交互、分享地图照片</title>
-        <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
-        <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://blog.timetide.net/&#34;&gt;Owen&lt;/a&gt; 曾经在05年发起 &lt;a href=&#34;http://blog.timetide.net/archives/2005/01/21/20050121224101.php&#34;&gt;10 Places of My
-City&lt;/a&gt;
-的活动，没想到到前天&lt;a href=&#34;http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry&#34;&gt;还有人&lt;/a&gt;加上&lt;a href=&#34;http://www.technorati.com/tag/10placesofmycity&#34;&gt;这个标签&lt;/a&gt;——但现在
-Technorati 上也只查到这一个 blog 了，Flickr
-上则到06年7月为止，而且貌似还不是参与这次活动的。&lt;/p&gt;
-
-&lt;p&gt;这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n
-只爪子都数不过来。&lt;/p&gt;
-
-&lt;p&gt;2年后的现在，我们有了 &lt;a href=&#34;http://earth.google.com/&#34;&gt;Google Earth&lt;/a&gt;/&lt;a href=&#34;http://maps.google.com/&#34;&gt;Google
-Maps&lt;/a&gt; +
-&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;，&lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt;
-支持方便地标注地理位置，&lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-也支持坐标了，类似这样的活动是不是可以有更新的形式呢？&lt;/p&gt;
-
-&lt;p&gt;我的想法是这样的：&lt;br /&gt;
-1、Blogger
-首先公布自己所在的坐标，例如我的位置就在&lt;a href=&#34;http://maps.google.com/maps/ms?msa=0&amp;amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;amp;ll=28.256459,112.982111&amp;amp;spn=0.019203,0.029182&amp;amp;t=k&amp;amp;z=15&amp;amp;om=1&#34;&gt;这里&lt;/a&gt;，坐标大概是28.254200,
-112.982000；&lt;br /&gt;
-2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；&lt;br /&gt;
-3、访问 blog
-的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;这个体育场&lt;/a&gt;；&lt;br /&gt;
-4、访客记录下这个位置的坐标，通过留言等方式告诉
-blogger，如这个&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;链接&lt;/a&gt;，或28.1817°
-112.977°，或+28° 10&amp;rsquo; 54.12&amp;rdquo;, +112° 58&amp;rsquo; 37.20&amp;rdquo;等等；&lt;br /&gt;
-5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到
-&lt;a href=&#34;http://picasaweb.google.com/&#34;&gt;Picasa Web
-Album&lt;/a&gt;、&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;
-或 &lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;，标记坐标和标签，并在 blog
-上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger
-发布的 KML 地标文件。&lt;/p&gt;
-
-&lt;p&gt;这样的好处是：&lt;br /&gt;
-1、也许能够因此发现之前一直都不知道的有趣的地方；&lt;br /&gt;
-2、让宅在家里的人有动力出去放放风；&lt;br /&gt;
-3、相当于替别人进行了一次小小的旅行；&lt;br /&gt;
-4、增进与读者的交流。&lt;/p&gt;
-
-&lt;p&gt;不方便的地方有：&lt;br /&gt;
-1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio
-照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；&lt;br /&gt;
-2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；&lt;br /&gt;
-3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；&lt;br /&gt;
-4、会有人感兴趣吗？&lt;/p&gt;
-
-&lt;p&gt;这类活动的名称还没有想好，包括这篇 blog
-的名字也很难想啊~而且不知道是否重新发明了轮子…&lt;/p&gt;
-
-&lt;p&gt;我在 Panoramio
-的照片在&lt;a href=&#34;http://www.panoramio.com/user/516541&#34;&gt;这里&lt;/a&gt;，可以&lt;a href=&#34;http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;amp;ln=112.9924185&amp;amp;z=6&#34;&gt;直接在地图上查看&lt;/a&gt;，也可以下载并用
-Google Earth 打开相应的 &lt;a href=&#34;http://www.panoramio.com/kml/?user=516541&#34;&gt;KML
-地标文件&lt;/a&gt;。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%85%A7%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>支持照片语音备注的移动社交应用</title>
+      <link>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</link>
+      <pubDate>Fri, 10 Jan 2014 10:02:46 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhichi-zhaopian-yuyin-bwizhu-de-yidong-shejiao-yingyong/</guid>
+      <description>近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏</description>
+      <content:encoded><![CDATA[<p>近期在整理、上传照片时，突然想到，整理、输入照片的标题、描述太费时间了，而且如果已经忘记当时的心境，事后再回想既可能有偏差，量大了也让人疲乏。</p>
+<p>查看亲朋好友的网络相册时，光看图片也容易分心，因为熟人照片背后的故事、感想比平均水准不高的照片更吸引人，而语音可以大大丰富这种信息——顺便还能帮网络服务提升用户停留时间。</p>
+<p>数码相机倒是很早就有了语备注忘功能，但有的是专用格式，不适合分享传播，有的是图片和声音文件分离（JPG+WAV），处理、查看、分享并不方便。<br>
+另外，抱着相机录音感觉挺傻。<br>
+反正至今为止，周围没有人使用过数码相机的这一功能。</p>
+<p>不过，这对手机社交应用都不是问题。<br>
+拍照就录音加备注然后上传分享，在手机应用上可以做得很方便。<br>
+不管文件类型是否专用还是分离，应用自己搞定就可以，这一层面对外不可见，不需要用户操心。</p>
+<p>虽然已经有 <a href="https://vine.co/">Vine</a><br>
+这样的短视频分享服务，但录制视频的成本还是比拍照+录音要高。<br>
+虽然<a href="http://weixin.qq.com/">微信</a>等社交应用能分别发照片和语音，毕竟还是分离的，一则不适合二次传播，二来语音脱离了相关场景，感觉就会差一些。起码在我眼里，一条只有声波标志和上下文割裂的消息毫无魅力，和可视信息结合起来才有足够鲜活的生命。</p>
+<p>嗯，是我土鳖了，因为没有用过“啪啪”。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>上海世博会</title>
+      <link>https://ioerr.github.io/posts/shanghai-expo/</link>
+      <pubDate>Sat, 07 Aug 2010 17:32:08 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shanghai-expo/</guid>
+      <description>因为公司的安排，7月末去了一趟上海世博会，整体的感觉是：人多拥挤、内容尚可。 如果你关心未来城市的发展，或者像我这样的土包子要看看感兴趣的场馆</description>
+      <content:encoded><![CDATA[<p>因为公司的安排，7月末去了一趟上海世博会，整体的感觉是：人多拥挤、内容尚可。<br>
+如果你关心未来城市的发展，或者像我这样的土包子要看看感兴趣的场馆，还是值得一去的。<br>
+关心前者的，可以去城市实践馆和一些比较用心的国家馆，比如俄罗斯、德国、智利、日本、丹麦，要看主题之外的精华的，应该去意大利、法国、</p>
+<p>安排的参观时间只有两天，加上团体行动不能够提前入场，所以无法以最有效率的方式看遍场馆，经过第一天的摸索之后，才确定了最佳的原则：</p>
+<p>√<br>
+如果可以很早到达世博园门口，就从最靠近目标场馆的大门进入并领取预约票，然后开始排其他热门场馆的队伍，一个上午至少能够进入一个最热门的场馆，然后在中午、下午吃饭的时候分别开始排其他的热门场馆，像俄罗斯、美国这样的中等热门馆应可以在一个半小时左右进入，晚饭之后人流减少，再选择一个热门场馆，此时一个小时之内就可以搞定，算下来一天至少可以进入4个热门场馆（沙特馆这种特别变态的除外）。<br>
+√<br>
+别人吃饭、休息的时段就是排队的机会，所以自带或者购买园区内的打包食物，一边排队一边吃吧。<br>
+√<br>
+事先打听好露天表演节目的时间和地点，如果觉得值得一看就抢先占据有利地形。这次我觉得最精彩的是布隆迪的大鼓表演，相当的给力，比任何一个场馆的内容都精彩，以至于从中午到下午我连续追看了三场。<br>
+√ 荷兰馆是较高的露天建筑，利于拍欧洲国家馆区的夜景。</p>
+<p>接下来贴一些园区中的照片：</p>
+<p>拉脱维亚馆的外墙全部是各色的金属片，有风吹动的时候会出现波浪。<br>
+<a href="http://www.flickr.com/photos/calon/4814731185/"><img loading="lazy" src="http://farm5.static.flickr.com/4095/4814731185_ca10881d1c.jpg" alt="P7120257"  />
+</a></p>
+<p>智利馆前很风趣的“大叔”，其实年龄只有31岁。提问问一些西班牙语的单词怎么说，答对的可以进去。可惜我只会<br>
+hola、amigo<br>
+这几个，所以继续排队…哥伦比亚馆门口也有小伙子教西班牙语，不过没这位大叔风趣。<br>
+<a href="http://www.flickr.com/photos/calon/4801652427/"><img loading="lazy" src="http://farm5.static.flickr.com/4096/4801652427_a81dfd760f.jpg" alt="智利馆前的大叔"  />
+</a><br>
+智利馆的内容还算是符合“城市，让生活更美好”这个主题，有心人不妨多看看，例如对智利的城市公园的介绍，可惜大多数游客都是匆匆走过。当然，木制的装修非常有特色，是中型国家馆中的高水准。</p>
+<p>斯洛文尼亚馆的主题是书籍，馆内所有的门都是书的形状，颜色还会渐变。顶上吊的是书籍形状的装饰，展览的有斯洛文尼亚的名著和语言教材。<br>
+<a href="http://www.flickr.com/photos/calon/4863203012/"><img loading="lazy" src="http://farm5.static.flickr.com/4094/4863203012_13fe23dd59.jpg" alt="色彩变幻的斯洛文尼亚馆"  />
+</a></p>
+<p>俄罗斯馆外墙的花纹很漂亮，进去的路是绕场馆半圈的水边木制小道。<br>
+<a href="http://www.flickr.com/photos/calon/4863230670/"><img loading="lazy" src="http://farm5.static.flickr.com/4079/4863230670_9db8459464.jpg" alt="俄罗斯馆"  />
+</a></p>
+<p>根据俄罗斯小朋友绘画制成的未来城市模型，旁边还有小朋友的讲解视频。<br>
+<a href="http://www.flickr.com/photos/calon/4864878387/"><img loading="lazy" src="http://farm5.static.flickr.com/4081/4864878387_e954d356ec.jpg" alt="俄罗斯馆中的未来城市模型"  />
+</a></p>
+<p>俄罗斯馆二楼是个旋转式的夜景童话公园，很梦幻的色彩。莫非俄罗斯人挺羡慕马里奥兄弟的世界？<br>
+<a href="http://www.flickr.com/photos/calon/4802350768/"><img loading="lazy" src="http://farm5.static.flickr.com/4080/4802350768_455171e156.jpg" alt="俄罗斯馆"  />
+</a></p>
+<p>看布隆迪大鼓表演的小女孩。下午看的时候我只能站在侧面第二排，有时候会被挡住，所以晚上又跑到非洲馆前面的舞台再看。<br>
+<a href="http://www.flickr.com/photos/calon/4801672033/"><img loading="lazy" src="http://farm5.static.flickr.com/4138/4801672033_0edc00227f.jpg" alt="看布隆迪大鼓表演的小女孩"  />
+</a></p>
+<p>丹麦馆的小喷泉一会儿喷一会儿停，跑进跑出中间的小圈子时要避免被喷到，一帮小孩大人玩疯了。<br>
+<a href="http://www.flickr.com/photos/calon/4864921345/"><img loading="lazy" src="http://farm5.static.flickr.com/4102/4864921345_2ef3884a85.jpg" alt="丹麦馆的小喷泉"  />
+</a><br>
+丹麦馆的高速慢放的视频很有意思，主题有单车之城、水的城市等等，可以坐在旋转而上的圆弧走廊中慢慢欣赏。</p>
+<h2 id="系统演示程序挂掉之后可以返回桌面我趁着没人调出了经典的扫雷界面并拍照留念">黑山馆的触摸演示屏幕机器是 Windows<br>
+系统，演示程序挂掉之后可以返回桌面，我趁着没人调出了经典的扫雷界面，并拍照留念</h2>
+<p><a href="http://www.flickr.com/photos/calon/4801584711/"><img loading="lazy" src="http://farm5.static.flickr.com/4077/4801584711_ac6896c606.jpg" alt="黑山馆的扫雷"  />
+</a><br>
+触雷就不是我干的了。</p>
+<p>意大利馆算是大型场馆中内容最丰富的了，但符合城市主题的内容不多，更像是历史文物和名牌大汇展——观众是不会计较这些的。<br>
+<a href="http://www.flickr.com/photos/calon/4802198000/"><img loading="lazy" src="http://farm5.static.flickr.com/4096/4802198000_5af4ea3c2a.jpg" alt="意大利馆的抽象主义光球"  />
+</a></p>
+<p>罗马万神殿的剖面模型。<br>
+<a href="http://www.flickr.com/photos/calon/4868716171/"><img loading="lazy" src="http://farm5.static.flickr.com/4097/4868716171_1345a04367.jpg" alt="意大利馆的罗马万神殿剖面模型"  />
+</a><br>
+学建筑的是不是都想抱一尊这样的模型回家呢？</p>
+<p>最让我激动的文物：我的偶像、牛人、全才、大师 Benvenuto Cellini 的名作<br>
+Perseus with the Head of<br>
+Medusa，第一次亲眼见到这个传奇人物的作品啊。牛的原因不多解释，请看他的自传《致命的百合花》。<br>
+雕塑的故事背景是古希腊神话中，珀耳修斯斩杀蛇发妖女美杜莎，将她的头颅献给雅典娜。大部分的观众则是如此向身边的人解释：被砍头的就是《诸神之战》中那个女的…<br>
+<a href="http://www.flickr.com/photos/calon/4801551487/"><img loading="lazy" src="http://farm5.static.flickr.com/4076/4801551487_71f343fdff.jpg" alt="Perseus with the Head of&lt;br&gt;
+Medusa"  />
+</a></p>
+<p>意大利馆的演示屏幕。<br>
+<a href="http://www.flickr.com/photos/calon/4865702412/"><img loading="lazy" src="http://farm5.static.flickr.com/4134/4865702412_379b05e366.jpg" alt="意大利馆的演示屏幕"  />
+</a></p>
+<p>阿尔及利亚馆将南部 Timimoun<br>
+绿洲附近采石场的16种不同颜色的沙子放在一个展台展出，这才是体现了热爱自己的国土啊！<br>
+<a href="http://www.flickr.com/photos/calon/4865722080/"><img loading="lazy" src="http://farm5.static.flickr.com/4099/4865722080_771b41c42c.jpg" alt="阿尔及利亚的沙"  />
+</a></p>
+<p>南非馆的陈列展品。这些壶还真是骄傲呢。<br>
+<a href="http://www.flickr.com/photos/calon/4802169212/"><img loading="lazy" src="http://farm5.static.flickr.com/4095/4802169212_7988aebe14.jpg" alt="南非馆的壶和碗"  />
+</a></p>
+<p>南非馆里面的小人儿，让我想起了某乐队…<br>
+<a href="http://www.flickr.com/photos/calon/4811819447/"><img loading="lazy" src="http://farm5.static.flickr.com/4139/4811819447_96369b1797.jpg" alt="God is an&lt;br&gt;
+astronaut"  />
+</a></p>
+<p>最后来一张在远大馆里面的照片，漆黑的走廊，墙壁上用各国语言写着：寻找你的方向。<br>
+<a href="http://www.flickr.com/photos/calon/4865481140/"><img loading="lazy" src="http://farm5.static.flickr.com/4100/4865481140_67fc4e66e0.jpg" alt="寻找你的方向"  />
+</a></p>
+<p>其它照片见链接：<a href="http://www.flickr.com/photos/calon/sets/72157624408646827">2010年上海世博会照片集</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>09年照片</title>
+      <link>https://ioerr.github.io/posts/09-nian-zhaopian/</link>
+      <pubDate>Fri, 01 Jan 2010 16:59:33 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/09-nian-zhaopian/</guid>
+      <description>从09年每月的照片中各挑一张作为小小的总结，可惜不是每个月都有时间出门拍照。 1月：白日过隙 2月：兰花 3月：猪 5月：玩船的少年 6月：划过天际 8</description>
+      <content:encoded><![CDATA[<p>从09年每月的照片中各挑一张作为小小的总结，可惜不是每个月都有时间出门拍照。</p>
+<p>1月：白日过隙<br>
+<a href="http://www.flickr.com/photos/calon/3203868596/"><img loading="lazy" src="http://farm4.static.flickr.com/3496/3203868596_a5e5d9f6cc.jpg" alt="白日过隙 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>2月：兰花<br>
+<a href="http://www.flickr.com/photos/calon/3277458621/"><img loading="lazy" src="http://farm4.static.flickr.com/3497/3277458621_2be2d741ff.jpg" alt="兰花 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>3月：猪<br>
+<a href="http://www.flickr.com/photos/calon/3374668020/"><img loading="lazy" src="http://farm4.static.flickr.com/3438/3374668020_23266e3ae8.jpg" alt="猪 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>5月：玩船的少年<br>
+<a href="http://www.flickr.com/photos/calon/3588379646/"><img loading="lazy" src="http://farm4.static.flickr.com/3647/3588379646_09ebe78c05.jpg" alt="玩船的少年 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>6月：划过天际<br>
+<a href="http://www.flickr.com/photos/calon/3507086367/"><img loading="lazy" src="http://farm4.static.flickr.com/3368/3507086367_fbbeac7193.jpg" alt="划过天际 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>8月：鼓掌<br>
+<a href="http://www.flickr.com/photos/calon/3830413596/"><img loading="lazy" src="http://farm3.static.flickr.com/2566/3830413596_0cd74748fa.jpg" alt="鼓掌 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>10月：眺望<br>
+<a href="http://www.flickr.com/photos/calon/4083323394/"><img loading="lazy" src="http://farm3.static.flickr.com/2759/4083323394_b3aedbd632.jpg" alt="眺望 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>11月：What&rsquo;s up, man?<br>
+<a href="http://www.flickr.com/photos/calon/4124257617/"><img loading="lazy" src="http://farm3.static.flickr.com/2513/4124257617_dfdd69aa9f.jpg" alt="What&amp;rsquo;s up, man? (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>12月：水<br>
+<a href="http://www.flickr.com/photos/calon/4218256313/"><img loading="lazy" src="http://farm5.static.flickr.com/4027/4218256313_cff35c7672.jpg" alt="水 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/archives/date-taken/2009/">09年全部照片在此</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>交互、分享地图照片</title>
+      <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
+      <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
+      <description>Owen 曾经在05年发起 10 Places of My City 的活动，没想到到前天还有人加上这个标签——但现在 Technorati 上也只查到这一个 blog 了，Flickr 上则到06年7月为止，而且貌</description>
+      <content:encoded><![CDATA[<p><a href="http://blog.timetide.net/">Owen</a> 曾经在05年发起 <a href="http://blog.timetide.net/archives/2005/01/21/20050121224101.php">10 Places of My<br>
+City</a><br>
+的活动，没想到到前天<a href="http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry">还有人</a>加上<a href="http://www.technorati.com/tag/10placesofmycity">这个标签</a>——但现在<br>
+Technorati 上也只查到这一个 blog 了，Flickr<br>
+上则到06年7月为止，而且貌似还不是参与这次活动的。</p>
+<p>这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n<br>
+只爪子都数不过来。</p>
+<p>2年后的现在，我们有了 <a href="http://earth.google.com/">Google Earth</a>/<a href="http://maps.google.com/">Google<br>
+Maps</a> +<br>
+<a href="http://www.panoramio.com/">Panoramio</a>，<a href="http://picasa.google.com/">Picasa</a><br>
+支持方便地标注地理位置，<a href="http://flickr.com/">Flickr</a><br>
+也支持坐标了，类似这样的活动是不是可以有更新的形式呢？</p>
+<p>我的想法是这样的：<br>
+1、Blogger<br>
+首先公布自己所在的坐标，例如我的位置就在<a href="http://maps.google.com/maps/ms?msa=0&amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;ll=28.256459,112.982111&amp;spn=0.019203,0.029182&amp;t=k&amp;z=15&amp;om=1">这里</a>，坐标大概是28.254200,<br>
+112.982000；<br>
+2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；<br>
+3、访问 blog<br>
+的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">这个体育场</a>；<br>
+4、访客记录下这个位置的坐标，通过留言等方式告诉<br>
+blogger，如这个<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">链接</a>，或28.1817°<br>
+112.977°，或+28° 10&rsquo; 54.12&quot;, +112° 58&rsquo; 37.20&quot;等等；<br>
+5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到<br>
+<a href="http://picasaweb.google.com/">Picasa Web<br>
+Album</a>、<a href="http://www.panoramio.com/">Panoramio</a><br>
+或 <a href="http://flickr.com/">Flickr</a>，标记坐标和标签，并在 blog<br>
+上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger<br>
+发布的 KML 地标文件。</p>
+<p>这样的好处是：<br>
+1、也许能够因此发现之前一直都不知道的有趣的地方；<br>
+2、让宅在家里的人有动力出去放放风；<br>
+3、相当于替别人进行了一次小小的旅行；<br>
+4、增进与读者的交流。</p>
+<p>不方便的地方有：<br>
+1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio<br>
+照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；<br>
+2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；<br>
+3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；<br>
+4、会有人感兴趣吗？</p>
+<p>这类活动的名称还没有想好，包括这篇 blog<br>
+的名字也很难想啊~而且不知道是否重新发明了轮子…</p>
+<p>我在 Panoramio<br>
+的照片在<a href="http://www.panoramio.com/user/516541">这里</a>，可以<a href="http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;ln=112.9924185&amp;z=6">直接在地图上查看</a>，也可以下载并用<br>
+Google Earth 打开相应的 <a href="http://www.panoramio.com/kml/?user=516541">KML<br>
+地标文件</a>。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

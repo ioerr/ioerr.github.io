@@ -1,229 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>平等 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B9%B3%E7%AD%89/</link>
     <description>Recent content in 平等 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B9%B3%E7%AD%89/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>差异与歧视</title>
-        <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
-        <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1774108640364081295&#34;&gt;吴非盯着看～ ❁҉҉҉҉҉҉҉҉&lt;/a&gt;：&lt;br /&gt;
-各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。&lt;br /&gt;
-这事儿套到人类身上，除了政治不正确，别的没啥问题吧？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1774361388351471729&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。&lt;br /&gt;
-人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。&lt;br /&gt;
-越是强调自由、多元、平等的地区，以人种为单位的差异越小。&lt;/p&gt;
-
-&lt;p&gt;反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。&lt;br /&gt;
-对差异的态度取决于我们的&lt;a href=&#34;../yuanjing-zhong-de-shijie&#34;&gt;愿景&lt;/a&gt;，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>自由、平等与普世价值</title>
-        <link>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</link>
-        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</guid>
-        <description>&lt;p&gt;刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话来说，如果自由不是“普世价值”，为什么全世界的监狱都要上锁？全世界的监狱都要上锁，说明全世界人都渴望自由。在这个意义上，自由当然是普世价值。但是，更重要的问题，或许不是全世界民众是否热爱自由，而是当自由与其他价值发生冲突时，比如当自由和平等发生冲突时、当自由和秩序发生冲突时，人们如何排序？面对价值的冲突，也就是所谓“诸善之争”的时候，价值的排序或价值序列中的权重不同，就带来政治文化的差异，这才是“文明冲突”的起源。&lt;/p&gt;
-
-&lt;p&gt;比如，有些文化重视秩序超过自由，有些文化则重视自由超过秩序；有些文化认为主权比人权重要，有些文化则认为人权比主权重要；有些文化更重视平等，有些文化更重视效率；等等。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;自由与平等对立冲突的说法经常听到，主权比人权重要也被归结为政治文化差异。&lt;br /&gt;
-我的看法是，政治文化是有差异，但很多时候这只是表面现象和其他差异的结果。&lt;br /&gt;
-就像全世界的人都渴望自由，其实全世界的人也都极为看重人权。&lt;br /&gt;
-那些口头喊着“主权大于人权”的人，在自己的基本人权被侵犯时，反应之激烈往往远超主权被侵犯时，只是很多时候并不敢体现在行动上，只在内心中愤怒——因为作出反抗行动的后果可能是权利进一步被侵犯。&lt;br /&gt;
-除开情趣玩家，鲜有人身为奴隶而光荣。&lt;/p&gt;
-
-&lt;p&gt;同样的道理，表态“私有制度万恶”的人，真要损失自己的私有财产时，大概率万般不情愿——“真有一头牛”的笑话在现实中比比皆是。&lt;br /&gt;
-自由和秩序也未必绝对对立——偏好秩序的人未必就是自由受限制的人。&lt;/p&gt;
-
-&lt;p&gt;所以，普世价值不能仅仅看作每个人为自己所珍视的价值。&lt;br /&gt;
-什么时候觉得别人的自由和人权也很重要，才叫做普世价值。&lt;br /&gt;
-这种推己及人和己所不欲勿施于人的同理心，才具有道德价值。&lt;br /&gt;
-在等级社会意识中推崇的是我的自由和权利凌驾于他人之上，就和普世背道而驰了。&lt;br /&gt;
-也因此在我看来，普世价值意义上的自由和平等互相冲突不成立。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>人还有价值吗？</title>
-        <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
-        <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
-        <description>&lt;p&gt;《不合时宜》播客最近发布了一期《&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;amp;mid=2247486162&amp;amp;idx=1&amp;amp;sn=826f991907db55decfbefff7315f3c55&#34;&gt;AI狂飙的时代，人类还有价值吗？&lt;/a&gt;》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。&lt;/p&gt;
-
-&lt;p&gt;链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。&lt;/p&gt;
-
-&lt;p&gt;没有借助 AI，我自己的总结归纳如下：&lt;/p&gt;
-
-&lt;p&gt;ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。&lt;/p&gt;
-
-&lt;p&gt;人的思考有快和慢两种模式。&lt;br /&gt;
-快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；&lt;br /&gt;
-慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。&lt;br /&gt;
-之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。&lt;/p&gt;
-
-&lt;p&gt;AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。&lt;br /&gt;
-GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。&lt;br /&gt;
-ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。&lt;/p&gt;
-
-&lt;p&gt;进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。&lt;br /&gt;
-假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。&lt;br /&gt;
-现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。&lt;br /&gt;
-传统上认为女性更擅长的很多优势可能会更加重要。&lt;br /&gt;
-可能只有人和人交流的意义上所付出的劳动无法被取代。&lt;br /&gt;
-甚至人与人的情感关系会被人与 AI 的情感关系取代。&lt;/p&gt;
-
-&lt;p&gt;现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。&lt;br /&gt;
-要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。&lt;/p&gt;
-
-&lt;p&gt;AI 的多样性和差异会远远大于人类之间。&lt;br /&gt;
-AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。&lt;br /&gt;
-社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。&lt;/p&gt;
-
-&lt;p&gt;不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。&lt;br /&gt;
-面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。&lt;/p&gt;
-
-&lt;p&gt;AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。&lt;br /&gt;
-从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。&lt;br /&gt;
-要锻炼自己影响人的能力、沟通能力、团队组织能力。&lt;/p&gt;
-
-&lt;p&gt;需要深入思考的问题：&lt;br /&gt;
-如果人生观被推翻，如何重塑？&lt;br /&gt;
-即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？&lt;/p&gt;
-
-&lt;p&gt;近期其他与 ChatGPT 和 AI 相关的文章推荐：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893&#34;&gt;《GPT-4 ，通用人工智能的火花》论文内容精选与翻译&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867&#34;&gt;Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;ChatGPT 有多高的技术壁垒？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/&#34;&gt;ChatGPT 会如何改变我们的生活？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/&#34;&gt;从 ChatGPT 看中美人工智能竞争&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/xuwenhao/status/1622123211835211776&#34;&gt;聊聊AI会怎么替代我们的工作吧&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1614357742260719616&#34;&gt;ChatGPT 和 Wolfram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756&#34;&gt;拆解追溯 GPT-3.5 各项能力的起源&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hanyang.wtf/p/chatgpt&#34;&gt;ChatGPT 的挑战是网上没有足够多的信息&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;amp;mid=2686324112&amp;amp;idx=1&amp;amp;sn=3dc2ad668f92f88e8243970dcd07f939&#34;&gt;GPT推进哲学问题了吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31&#34;&gt;Sam Altman谈GPT-4、ChatGPT和AI的未来&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>婚姻建议</title>
-        <link>https://ioerr.github.io/posts/hunyin-jianyi/</link>
-        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/hunyin-jianyi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/erjinxia/status/1314435675970707456&#34;&gt;尔今夏&lt;/a&gt;：&lt;br /&gt;
-想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1314607786895069184&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-自由，平等，独立，真诚，宽容，责任。&lt;/p&gt;
-
-&lt;p&gt;出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。&lt;/p&gt;
-
-&lt;p&gt;前提是你和对方都认同且践行。&lt;/p&gt;
-
-&lt;p&gt;自由的反面是控制和束缚；&lt;br /&gt;
-平等的反面是贬低人格；&lt;br /&gt;
-独立的反面是依附和依赖；&lt;br /&gt;
-真诚的反面是自欺欺人，辜负信任；&lt;br /&gt;
-宽容的反面是缺少理解和信任，锱铢必较；&lt;br /&gt;
-责任的反面是只知索取不知付出。&lt;/p&gt;
-
-&lt;p&gt;这只是保证婚姻幸福的下限。&lt;br /&gt;
-有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…&lt;br /&gt;
-这就是不同的人各有各的幸福追求了，没法有个一致的标准。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>等级社会的特征</title>
-        <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
-        <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
-        <description>&lt;p&gt;等级社会的特征之一：&lt;br /&gt;
-人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。&lt;br /&gt;
-社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。&lt;br /&gt;
-社会等级最高的人理应享有特权。&lt;/p&gt;
-
-&lt;p&gt;特征之二：&lt;br /&gt;
-社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；&lt;br /&gt;
-社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；&lt;br /&gt;
-社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。&lt;/p&gt;
-
-&lt;p&gt;特征之三：&lt;br /&gt;
-等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>朗西埃的真·民主</title>
-        <link>https://ioerr.github.io/posts/ranciere-de-zhen-minzhu/</link>
-        <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ranciere-de-zhen-minzhu/</guid>
-        <description>&lt;p&gt;在书店找到一本朗西埃的&lt;a href=&#34;https://book.douban.com/subject/26821267/&#34;&gt;《对民主之恨》&lt;/a&gt;，快速翻阅之下，挺想吐槽。&lt;/p&gt;
-
-&lt;p&gt;正文也就102页，陆兴华写的导读有64页…&lt;/p&gt;
-
-&lt;p&gt;朗西埃眼中的民主：批判这个不是真民主，那个不是真民主，真·民主是所有人每天为了追求平等而互相对抗。&lt;br /&gt;
-至于怎么落实，左翼知识分子朗西埃不知道，也坦承当下做不到，反正最后都期待必然会到来的共产主义就对了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B9%B3%E7%AD%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>差异与歧视</title>
+      <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
+      <description>吴非盯着看～ ❁҉҉҉҉҉҉҉҉： 各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。 这事儿套到人类身上，除了政治不正确，别的没啥</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/volfay/status/1774108640364081295">吴非盯着看～ ❁҉҉҉҉҉҉҉҉</a>：<br>
+各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。<br>
+这事儿套到人类身上，除了政治不正确，别的没啥问题吧？</p>
+<p><a href="https://twitter.com/calon/status/1774361388351471729">Calon</a>：<br>
+人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。<br>
+人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。<br>
+越是强调自由、多元、平等的地区，以人种为单位的差异越小。</p>
+<p>反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。<br>
+对差异的态度取决于我们的<a href="../yuanjing-zhong-de-shijie">愿景</a>，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>自由、平等与普世价值</title>
+      <link>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyou-pingdeng-yu-pushi-jiazhi/</guid>
+      <description>刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段： 老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话</description>
+      <content:encoded><![CDATA[<p>刘瑜的《可能性的艺术：比较政治学30讲》中，有这么一段：</p>
+<blockquote>
+<p>老实说，我觉得“普世价值”这个词有点偷懒。显然，全世界的人都热爱自由。用秦晖老师的话来说，如果自由不是“普世价值”，为什么全世界的监狱都要上锁？全世界的监狱都要上锁，说明全世界人都渴望自由。在这个意义上，自由当然是普世价值。但是，更重要的问题，或许不是全世界民众是否热爱自由，而是当自由与其他价值发生冲突时，比如当自由和平等发生冲突时、当自由和秩序发生冲突时，人们如何排序？面对价值的冲突，也就是所谓“诸善之争”的时候，价值的排序或价值序列中的权重不同，就带来政治文化的差异，这才是“文明冲突”的起源。</p>
+<p>比如，有些文化重视秩序超过自由，有些文化则重视自由超过秩序；有些文化认为主权比人权重要，有些文化则认为人权比主权重要；有些文化更重视平等，有些文化更重视效率；等等。</p>
+</blockquote>
+<p>自由与平等对立冲突的说法经常听到，主权比人权重要也被归结为政治文化差异。<br>
+我的看法是，政治文化是有差异，但很多时候这只是表面现象和其他差异的结果。<br>
+就像全世界的人都渴望自由，其实全世界的人也都极为看重人权。<br>
+那些口头喊着“主权大于人权”的人，在自己的基本人权被侵犯时，反应之激烈往往远超主权被侵犯时，只是很多时候并不敢体现在行动上，只在内心中愤怒——因为作出反抗行动的后果可能是权利进一步被侵犯。<br>
+除开情趣玩家，鲜有人身为奴隶而光荣。</p>
+<p>同样的道理，表态“私有制度万恶”的人，真要损失自己的私有财产时，大概率万般不情愿——“真有一头牛”的笑话在现实中比比皆是。<br>
+自由和秩序也未必绝对对立——偏好秩序的人未必就是自由受限制的人。</p>
+<p>所以，普世价值不能仅仅看作每个人为自己所珍视的价值。<br>
+什么时候觉得别人的自由和人权也很重要，才叫做普世价值。<br>
+这种推己及人和己所不欲勿施于人的同理心，才具有道德价值。<br>
+在等级社会意识中推崇的是我的自由和权利凌驾于他人之上，就和普世背道而驰了。<br>
+也因此在我看来，普世价值意义上的自由和平等互相冲突不成立。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>人还有价值吗？</title>
+      <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
+      <description>《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。 链接中有节目的全文</description>
+      <content:encoded><![CDATA[<p>《不合时宜》播客最近发布了一期《<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;mid=2247486162&amp;idx=1&amp;sn=826f991907db55decfbefff7315f3c55">AI狂飙的时代，人类还有价值吗？</a>》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。</p>
+<p>链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。</p>
+<p>没有借助 AI，我自己的总结归纳如下：</p>
+<p>ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。</p>
+<p>人的思考有快和慢两种模式。<br>
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；<br>
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。<br>
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。</p>
+<p>AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。<br>
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。<br>
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。</p>
+<p>进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。<br>
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。<br>
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。<br>
+传统上认为女性更擅长的很多优势可能会更加重要。<br>
+可能只有人和人交流的意义上所付出的劳动无法被取代。<br>
+甚至人与人的情感关系会被人与 AI 的情感关系取代。</p>
+<p>现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。<br>
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。</p>
+<p>AI 的多样性和差异会远远大于人类之间。<br>
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。<br>
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。</p>
+<p>不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。<br>
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。</p>
+<p>AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。<br>
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。<br>
+要锻炼自己影响人的能力、沟通能力、团队组织能力。</p>
+<p>需要深入思考的问题：<br>
+如果人生观被推翻，如何重塑？<br>
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？</p>
+<p>近期其他与 ChatGPT 和 AI 相关的文章推荐：</p>
+<p><a href="https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893">《GPT-4 ，通用人工智能的火花》论文内容精选与翻译</a></p>
+<p><a href="https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867">Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开</a></p>
+<p><a href="https://www.zhihu.com/question/581806122/answer/2887595601">ChatGPT 有多高的技术壁垒？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/">从 ChatGPT 看中美人工智能竞争</a></p>
+<p><a href="https://twitter.com/xuwenhao/status/1622123211835211776">聊聊AI会怎么替代我们的工作吧</a></p>
+<p><a href="https://twitter.com/MoonAtCloud/status/1614357742260719616">ChatGPT 和 Wolfram</a></p>
+<p><a href="https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756">拆解追溯 GPT-3.5 各项能力的起源</a></p>
+<p><a href="https://hanyang.wtf/p/chatgpt">ChatGPT 的挑战是网上没有足够多的信息</a></p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;mid=2686324112&amp;idx=1&amp;sn=3dc2ad668f92f88e8243970dcd07f939">GPT推进哲学问题了吗？</a></p>
+<p><a href="https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31">Sam Altman谈GPT-4、ChatGPT和AI的未来</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>婚姻建议</title>
+      <link>https://ioerr.github.io/posts/hunyin-jianyi/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/hunyin-jianyi/</guid>
+      <description>尔今夏： 想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊 Calon： 自由，平等，独立，真诚，宽容，责任。 出于爱情而有了灵与肉的亲密接</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/erjinxia/status/1314435675970707456">尔今夏</a>：<br>
+想收集个话题：已婚人士对未婚人士有什么建议吗？#随便聊聊</p>
+<p><a href="https://twitter.com/calon/status/1314607786895069184">Calon</a>：<br>
+自由，平等，独立，真诚，宽容，责任。</p>
+<p>出于爱情而有了灵与肉的亲密接触，并且还愿意在人格独立、自由和平等的基础上和对方进一步分享和创造生活，真诚待人，宽容待人，因为明白爱是平等、自愿的付出而愿意承担责任。</p>
+<p>前提是你和对方都认同且践行。</p>
+<p>自由的反面是控制和束缚；<br>
+平等的反面是贬低人格；<br>
+独立的反面是依附和依赖；<br>
+真诚的反面是自欺欺人，辜负信任；<br>
+宽容的反面是缺少理解和信任，锱铢必较；<br>
+责任的反面是只知索取不知付出。</p>
+<p>这只是保证婚姻幸福的下限。<br>
+有的人看重经济实力，有的人强调风趣幽默，有的人要求学识智商，有的人讲究性格契合…<br>
+这就是不同的人各有各的幸福追求了，没法有个一致的标准。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>等级社会的特征</title>
+      <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
+      <description>等级社会的特征之一： 人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。 社会最低等级的人不配谈人权</description>
+      <content:encoded><![CDATA[<p>等级社会的特征之一：<br>
+人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。<br>
+社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。<br>
+社会等级最高的人理应享有特权。</p>
+<p>特征之二：<br>
+社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；<br>
+社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；<br>
+社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。</p>
+<p>特征之三：<br>
+等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>朗西埃的真·民主</title>
+      <link>https://ioerr.github.io/posts/ranciere-de-zhen-minzhu/</link>
+      <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ranciere-de-zhen-minzhu/</guid>
+      <description>在书店找到一本朗西埃的《对民主之恨》，快速翻阅之下，挺想吐槽。 正文也就102页，陆兴华写的导读有64页… 朗西埃眼中的民主：批判这个不是真民主</description>
+      <content:encoded><![CDATA[<p>在书店找到一本朗西埃的<a href="https://book.douban.com/subject/26821267/">《对民主之恨》</a>，快速翻阅之下，挺想吐槽。</p>
+<p>正文也就102页，陆兴华写的导读有64页…</p>
+<p>朗西埃眼中的民主：批判这个不是真民主，那个不是真民主，真·民主是所有人每天为了追求平等而互相对抗。<br>
+至于怎么落实，左翼知识分子朗西埃不知道，也坦承当下做不到，反正最后都期待必然会到来的共产主义就对了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

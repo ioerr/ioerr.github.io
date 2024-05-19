@@ -1,99 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>雪灾 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/</link>
     <description>Recent content in 雪灾 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 29 Jan 2008 08:59:59 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>雪灾</title>
-        <link>https://ioerr.github.io/posts/xuezai/</link>
-        <pubDate>Tue, 29 Jan 2008 08:59:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xuezai/</guid>
-        <description>&lt;p&gt;近段时间中国中南部从贵州到安徽遭遇严重雪灾，我所在的湖南是受灾最严重的省份之一，不写一点东西不行。&lt;/p&gt;
-
-&lt;p&gt;1、这里的气温和北方比不算低，大概-4℃左右。但一来南方很少有暖气供应，二来下的不是大雪而是雪籽、小雪、夹杂冻雨，落地成冰，三是湿气极重，湿冷渗入骨髓，非常难受。我的房间开着空调，玻璃窗内侧都可以结冰…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2227508643/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2015/2227508643_694d50174c.jpg&#34; alt=&#34;窗内侧的冰 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2、交通全面中断。这个大家都知道了。&lt;br /&gt;
-对外的高速公路全部封路，撒盐和铲雪也无法完全解决冰冻，因为一转眼马上又冻上了。许多乘坐汽车回家的人，尤其是学生和民工，被困在路上无法动弹，缺水缺粮缺医受寒。&lt;br /&gt;
-市内部分高架桥和河流桥梁禁止通行，怕负重超限。部分公交车还在运营，其中有的不得不改道行驶，被绕过的地区如四方坪，人们上班要在寒风中等几个小时才能看到来车。有的公交车车门被冻住，乘客上下车需要自己动手。的士很难打到，尤其是靠近城郊的地区。&lt;br /&gt;
-由于缺电，京广线长沙段停运，大量旅客滞留（目前大概是1.3万，高峰时期6万。但广州至今滞留的30万人，许多都是要回湖南的民工）。我家位于车站以北的铁路附近，从昨天断断续续观察的情况看，维修车来回的次数很频繁，全天只看到过一列由北向南的列车经过。&lt;/p&gt;
-
-&lt;p&gt;经常出现的维修车：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2228304624/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2187/2228304624_2ab0b54607.jpg&#34; alt=&#34;铁路维修车 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;飞机因为机身结冰，机场也是大部分时间关闭，滞留的乘客也有不少。&lt;br /&gt;
-因为地面冰冻，出行非常不便。据说有老人家摔倒时后脑着地当场死了。水管爆裂加上冰冻也让人不得不绕道，据说家乐福门口就成了一片汪洋。&lt;br /&gt;
-冰冻第一天我不怕死去上班，如果不是有拐杖早就摔倒了，其他的同事有几个都摔跤了。因为不敢走结冰的人行天桥，只好提前一站下车。下车一看倒抽一口凉气，一路上全部是冰层，真正是“如履薄冰”啊。走到一半的距离我就没有信心了，因为整个人都往地势较低的地方滑，拐杖稍微倾斜一点就会溜走。好不容易到了公司，又担心晚上走的时候没有公交车和地面冰冻更加严重，于是在中午的时候趁着冰面融化了一点赶紧逃窜回去了。走的时候还看到侧门有近10辆汽车相撞…&lt;/p&gt;
-
-&lt;p&gt;3、大面积停电。&lt;br /&gt;
-上周开始电塔电线因为冰冻而损坏，三峡的电无法输送到湖南，湖南益阳的电力也无法正常输出，煤矿也因为大雪封山运输困难，于是开始分批分区停电。&lt;br /&gt;
-火车停运主要就是因为断电，郴州电台和电视台前几天也被迫停止播出了。&lt;br /&gt;
-昨天家里第一次遇到停电，一停就是将近24个小时，只好站在窗户边看外面的路灯，一边用
-MP3外放听歌（收音机都坏掉了）一边
-Twitter，要么就是读书、念书，总算离原始社会还有那么一点距离。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2228303014/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2137/2228303014_e5768cc938.jpg&#34; alt=&#34;第一个冻死之前用 Twitter 的人 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;素来怕冷的我冻得手脚冰凉，膝盖以下更是阵阵生疼，好在煤气还没有断，自来水也在中午恢复了，于是每隔一段时间烧开水倒在密封杯里面当热水袋用。&lt;br /&gt;
-因为停电，这篇文章也是到现在才写出来，还好我有随时保存和自动保存的好习惯——但如果频繁停电造成硬盘损坏…&lt;/p&gt;
-
-&lt;p&gt;4、物资紧缺目前在大城市不明显，超市还是有不少存货的，政府的后备物资供应做得不错。&lt;br /&gt;
-不过价格还是有上涨，大蒜到了14元/斤，茄子2元多/斤，小菜普遍2元以上，只有芽白在2元以下。&lt;br /&gt;
-最苦的就是滞留在车站和路上的人们了，总担心有人就这么在饥寒交迫中死了。&lt;/p&gt;
-
-&lt;p&gt;5、交通、电力、自来水、电信、消防、急救等各方面都很紧张。&lt;br /&gt;
-湖南已经有3名电力工人在维修时牺牲。&lt;br /&gt;
-停电往往停一整天，半夜的时候许多人已经上床睡觉了，这个时候来电，最容易因为一些电器没关造成火灾。&lt;/p&gt;
-
-&lt;p&gt;6、有时候会想象如果开始打仗（比如东南地区）会怎样？但愿我是杞人忧天吧…&lt;br /&gt;
-大量东南地区的人会往内陆逃难——也许比春运的流量还恐怖；&lt;br /&gt;
-因为遭受敌人对后方的袭击，交通设施，尤其是重要桥梁、铁路、公路被切断，部分人口稠密的城市水、电、粮食、汽油的供应被切断或短缺——范围广度或许和目前受灾省份差不多，延续时间可能更长；&lt;br /&gt;
-通讯设施必然优先遭到打击——比目前电信、广播、电视遭受的天气影响要严重得多；&lt;br /&gt;
-堤坝遭受攻击引起的水灾、轰炸和导弹袭击引起的火灾随时可能发生——抢险的压力会比现在大百倍；&lt;br /&gt;
-大量的死亡引起疫病流行——目前的雪灾中我们还没有经受这方面的考验；&lt;br /&gt;
-近期的股价震荡、近年来的 CPI
-飞升、房价居高不下等等问题，和战时的经济动不动就面临崩溃边缘相比，更是小巫见大巫；&lt;br /&gt;
-…&lt;br /&gt;
-我们在这次天灾时的紧急应变能力表现得如何？我们到时候又是否有应付的能力？&lt;br /&gt;
-虽然我认为近期没有打仗的可能性，但如果真的发生了，希望在此之前的决策时能够多想想后果，以天灾为鉴，可知人祸之惨烈，不要到时候把无辜的人丢在战争的洪流中任其自生自灭。&lt;/p&gt;
-
-&lt;p&gt;其他照片：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2228285230/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2221/2228285230_429530eae1.jpg&#34; alt=&#34;窗框中的雪籽 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2227506947/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2278/2227506947_8e348dbf03.jpg&#34; alt=&#34;小区 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2228294092/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2063/2228294092_a637c7474c.jpg&#34; alt=&#34;小区 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2227500021/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2102/2227500021_ae7c294dd2.jpg&#34; alt=&#34;小区停车坪 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2228305314/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2417/2228305314_da5c3eacce.jpg&#34; alt=&#34;楼下的桶 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在&lt;a href=&#34;http://www.hecaitou.net/?p=2493&#34;&gt;和菜头那里&lt;/a&gt;看到，&lt;a href=&#34;http://news.xinhuanet.com/photo/2008-01/28/content_7508503.htm&#34;&gt;新华网采用的这张照片&lt;/a&gt;照得真好！&lt;br /&gt;
-&lt;img src=&#34;http://news.xinhuanet.com/photo/2008-01/28/xin_27201052807300312145212.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%9B%AA%E7%81%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>雪灾</title>
+      <link>https://ioerr.github.io/posts/xuezai/</link>
+      <pubDate>Tue, 29 Jan 2008 08:59:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xuezai/</guid>
+      <description>近段时间中国中南部从贵州到安徽遭遇严重雪灾，我所在的湖南是受灾最严重的省份之一，不写一点东西不行。 1、这里的气温和北方比不算低，大概-4℃左</description>
+      <content:encoded><![CDATA[<p>近段时间中国中南部从贵州到安徽遭遇严重雪灾，我所在的湖南是受灾最严重的省份之一，不写一点东西不行。</p>
+<p>1、这里的气温和北方比不算低，大概-4℃左右。但一来南方很少有暖气供应，二来下的不是大雪而是雪籽、小雪、夹杂冻雨，落地成冰，三是湿气极重，湿冷渗入骨髓，非常难受。我的房间开着空调，玻璃窗内侧都可以结冰…</p>
+<p><a href="http://www.flickr.com/photos/calon/2227508643/"><img loading="lazy" src="http://static.flickr.com/2015/2227508643_694d50174c.jpg" alt="窗内侧的冰 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>2、交通全面中断。这个大家都知道了。<br>
+对外的高速公路全部封路，撒盐和铲雪也无法完全解决冰冻，因为一转眼马上又冻上了。许多乘坐汽车回家的人，尤其是学生和民工，被困在路上无法动弹，缺水缺粮缺医受寒。<br>
+市内部分高架桥和河流桥梁禁止通行，怕负重超限。部分公交车还在运营，其中有的不得不改道行驶，被绕过的地区如四方坪，人们上班要在寒风中等几个小时才能看到来车。有的公交车车门被冻住，乘客上下车需要自己动手。的士很难打到，尤其是靠近城郊的地区。<br>
+由于缺电，京广线长沙段停运，大量旅客滞留（目前大概是1.3万，高峰时期6万。但广州至今滞留的30万人，许多都是要回湖南的民工）。我家位于车站以北的铁路附近，从昨天断断续续观察的情况看，维修车来回的次数很频繁，全天只看到过一列由北向南的列车经过。</p>
+<p>经常出现的维修车：<br>
+<a href="http://www.flickr.com/photos/calon/2228304624/"><img loading="lazy" src="http://static.flickr.com/2187/2228304624_2ab0b54607.jpg" alt="铁路维修车 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>飞机因为机身结冰，机场也是大部分时间关闭，滞留的乘客也有不少。<br>
+因为地面冰冻，出行非常不便。据说有老人家摔倒时后脑着地当场死了。水管爆裂加上冰冻也让人不得不绕道，据说家乐福门口就成了一片汪洋。<br>
+冰冻第一天我不怕死去上班，如果不是有拐杖早就摔倒了，其他的同事有几个都摔跤了。因为不敢走结冰的人行天桥，只好提前一站下车。下车一看倒抽一口凉气，一路上全部是冰层，真正是“如履薄冰”啊。走到一半的距离我就没有信心了，因为整个人都往地势较低的地方滑，拐杖稍微倾斜一点就会溜走。好不容易到了公司，又担心晚上走的时候没有公交车和地面冰冻更加严重，于是在中午的时候趁着冰面融化了一点赶紧逃窜回去了。走的时候还看到侧门有近10辆汽车相撞…</p>
+<p>3、大面积停电。<br>
+上周开始电塔电线因为冰冻而损坏，三峡的电无法输送到湖南，湖南益阳的电力也无法正常输出，煤矿也因为大雪封山运输困难，于是开始分批分区停电。<br>
+火车停运主要就是因为断电，郴州电台和电视台前几天也被迫停止播出了。<br>
+昨天家里第一次遇到停电，一停就是将近24个小时，只好站在窗户边看外面的路灯，一边用<br>
+MP3外放听歌（收音机都坏掉了）一边<br>
+Twitter，要么就是读书、念书，总算离原始社会还有那么一点距离。<br>
+<a href="http://www.flickr.com/photos/calon/2228303014/"><img loading="lazy" src="http://static.flickr.com/2137/2228303014_e5768cc938.jpg" alt="第一个冻死之前用 Twitter 的人 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>素来怕冷的我冻得手脚冰凉，膝盖以下更是阵阵生疼，好在煤气还没有断，自来水也在中午恢复了，于是每隔一段时间烧开水倒在密封杯里面当热水袋用。<br>
+因为停电，这篇文章也是到现在才写出来，还好我有随时保存和自动保存的好习惯——但如果频繁停电造成硬盘损坏…</p>
+<p>4、物资紧缺目前在大城市不明显，超市还是有不少存货的，政府的后备物资供应做得不错。<br>
+不过价格还是有上涨，大蒜到了14元/斤，茄子2元多/斤，小菜普遍2元以上，只有芽白在2元以下。<br>
+最苦的就是滞留在车站和路上的人们了，总担心有人就这么在饥寒交迫中死了。</p>
+<p>5、交通、电力、自来水、电信、消防、急救等各方面都很紧张。<br>
+湖南已经有3名电力工人在维修时牺牲。<br>
+停电往往停一整天，半夜的时候许多人已经上床睡觉了，这个时候来电，最容易因为一些电器没关造成火灾。</p>
+<p>6、有时候会想象如果开始打仗（比如东南地区）会怎样？但愿我是杞人忧天吧…<br>
+大量东南地区的人会往内陆逃难——也许比春运的流量还恐怖；<br>
+因为遭受敌人对后方的袭击，交通设施，尤其是重要桥梁、铁路、公路被切断，部分人口稠密的城市水、电、粮食、汽油的供应被切断或短缺——范围广度或许和目前受灾省份差不多，延续时间可能更长；<br>
+通讯设施必然优先遭到打击——比目前电信、广播、电视遭受的天气影响要严重得多；<br>
+堤坝遭受攻击引起的水灾、轰炸和导弹袭击引起的火灾随时可能发生——抢险的压力会比现在大百倍；<br>
+大量的死亡引起疫病流行——目前的雪灾中我们还没有经受这方面的考验；<br>
+近期的股价震荡、近年来的 CPI<br>
+飞升、房价居高不下等等问题，和战时的经济动不动就面临崩溃边缘相比，更是小巫见大巫；<br>
+…<br>
+我们在这次天灾时的紧急应变能力表现得如何？我们到时候又是否有应付的能力？<br>
+虽然我认为近期没有打仗的可能性，但如果真的发生了，希望在此之前的决策时能够多想想后果，以天灾为鉴，可知人祸之惨烈，不要到时候把无辜的人丢在战争的洪流中任其自生自灭。</p>
+<p>其他照片：</p>
+<p><a href="http://www.flickr.com/photos/calon/2228285230/"><img loading="lazy" src="http://static.flickr.com/2221/2228285230_429530eae1.jpg" alt="窗框中的雪籽 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2227506947/"><img loading="lazy" src="http://static.flickr.com/2278/2227506947_8e348dbf03.jpg" alt="小区 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2228294092/"><img loading="lazy" src="http://static.flickr.com/2063/2228294092_a637c7474c.jpg" alt="小区 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2227500021/"><img loading="lazy" src="http://static.flickr.com/2102/2227500021_ae7c294dd2.jpg" alt="小区停车坪 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2228305314/"><img loading="lazy" src="http://static.flickr.com/2417/2228305314_da5c3eacce.jpg" alt="楼下的桶 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p>在<a href="http://www.hecaitou.net/?p=2493">和菜头那里</a>看到，<a href="http://news.xinhuanet.com/photo/2008-01/28/content_7508503.htm">新华网采用的这张照片</a>照得真好！<br>
+<img loading="lazy" src="http://news.xinhuanet.com/photo/2008-01/28/xin_27201052807300312145212.jpg" alt=""  />
+</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

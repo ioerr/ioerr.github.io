@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>设计 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  
+
+<meta property="og:title" content="设计" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="设计"/>
+<meta name="twitter:description" content=""/>
+
+</head>
+
+<body class="list" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    设计
+    <a href="/tags/%E8%AE%BE%E8%AE%A1/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">单向拉门
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>这个世界上的悲剧有很多，其中有一种特别令人悲伤，那就是当你兴高采烈的推开一扇友善的大门后，发现你的老板/老婆/老爸/老情人捂着鼻子痛苦的蹲在...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-03-15 09:47:47 +0000 +0000'>2010-3-15</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 单向拉门" href="https://ioerr.github.io/posts/danxiang-lamen/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">O my god, F my life
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>在 WordCamp China 2009 的照片中，看到 thruth 所穿的 T恤，不知是谁的设计，将 Opera 标志的 O 字与“Oh my god”结合起来。 那么同样的创意可不可以也用在 Firefox 上面呢？我想到了...</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-08-24 15:06:21 +0000 +0000'>2009-8-24</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to O my god, F my life" href="https://ioerr.github.io/posts/o-my-god-f-my-life/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">糟糕的图标
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>据说看一个人的领子和袖口是否整洁干净，就能看出他的素养，如果这两个地方拾掇不好，会影响他人的第一印象，这或许就是“领袖”一词的来历？ 对一个程...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-10-14 10:00:57 +0000 +0000'>2008-10-14</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 糟糕的图标" href="https://ioerr.github.io/posts/zaogaode-tubiao/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">标签页的细节
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>发现一个奇怪的现象：使用 Foxit PDF Reader 时，经常误操作把一批文档全部都关掉，而使用其他软件的时候，例如 Firefox、WPS，却很少出现这种乌龙，这是...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-10-06 09:26:37 +0000 +0000'>2008-10-6</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 标签页的细节" href="https://ioerr.github.io/posts/biaoqianye-de-xijie/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">人品界面的糟糕典范
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-07-01 14:33:57 +0000 +0000'>2008-7-1</span>&nbsp;·&nbsp;calon</footer>
+  <a class="entry-link" aria-label="post link to 人品界面的糟糕典范" href="https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

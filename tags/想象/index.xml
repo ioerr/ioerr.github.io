@@ -1,83 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>想象 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%83%B3%E8%B1%A1/</link>
     <description>Recent content in 想象 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%83%B3%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>什么是科幻？</title>
-        <link>https://ioerr.github.io/posts/shenme-shi-kehuan/</link>
-        <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shenme-shi-kehuan/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/312062153/&#34;&gt;科幻作品是否需要遵循已知的科学原理？到底什么是科幻？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《流浪地球》《三体》等作品有一些不符合现有科学认知的脑洞，这些作品属于科幻吗？&lt;/p&gt;
-
-&lt;p&gt;科幻作品是否需要严格遵循现有的科学原理？&lt;/p&gt;
-
-&lt;p&gt;科幻和科学之间的交集与边界在哪里？&lt;/p&gt;
-
-&lt;p&gt;到底什么才是科幻？&lt;/p&gt;
-
-&lt;p&gt;涉及到定义，我习惯先查韦氏词典，这是 science fiction 的定义：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;fiction dealing principally with the impact of actual or imagined science on society or individuals or having a scientific factor as an essential orienting component.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;actual science 自不必说，关键是“想象的科学”和作为“必要成分”的“科学因素”是否需要遵循已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;阿西莫夫的定义是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;branch of literature which deals with the reaction of human beings to changes in science and technology.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关键是这个科学和技术的“变化”变到什么程度，是否允许变得偏离已知科学原理。&lt;/p&gt;
-
-&lt;p&gt;我的观点是：&lt;/p&gt;
-
-&lt;p&gt;这些都不需要完全遵循已知的科学原理（有的科幻小说卖点就是变更已知的科学定律）。&lt;/p&gt;
-
-&lt;p&gt;但其中的“科学因素”必须是在遵循科学方法论的世界中可能存在的，这个“世界”不一定是我们所处的现实世界。&lt;/p&gt;
-
-&lt;p&gt;也就是说，小说的世界观并未脱离科学方法论——即使在此世界观下得出的结论颠覆现实世界中的认知。相反，这种颠覆正因为符合科学方法世界观才更加具有震撼人心的力度。&lt;/p&gt;
-
-&lt;p&gt;因此，即使是“神”、“上帝”，在阿西莫夫等作者的笔下，一样可以出现在科幻小说中，因为他们通过幻想实实在在地影响到了小说中的世界，不再是不可证伪的，他们影响世界的方式也不是超自然的。&lt;/p&gt;
-
-&lt;p&gt;克拉克的第三定律说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;any sufficiently advanced technology is indistinguishable from magic.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但科技和魔法毕竟不同。&lt;/p&gt;
-
-&lt;p&gt;当我们谈论科技时，仍会默认它们的原理在科学的世界观中最终是逻辑自洽、可理解、可还原的。哪怕幻想的具体设定有错误，也是保留方法论和世界观，读者来吐槽，作者来堵漏。&lt;/p&gt;
-
-&lt;p&gt;而魔法存在超自然、神秘的不可知因素，与现实世界自然规律格格不入，当两者发生矛盾时，会默认存在与现实世界自然规律并行的另一套体系。&lt;/p&gt;
-
-&lt;p&gt;这大概就像主动带上镣铐在法庭上自我辩护的囚徒，和自创一套社会体系的法外狂徒的区别，镣铐就是科幻小说的自限，所认同的法律体系，就是科学方法论的世界观。&lt;/p&gt;
-
-&lt;p&gt;所以结论是：&lt;/p&gt;
-
-&lt;p&gt;有一个遵循统一、逻辑自洽的科学方法论的世界观，就够了。&lt;/p&gt;
-
-&lt;p&gt;而在这一世界观下，超出已知科技的部分，如果是故事必不可少的因素，那么就可以视为科幻小说。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%83%B3%E8%B1%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是科幻？</title>
+      <link>https://ioerr.github.io/posts/shenme-shi-kehuan/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shenme-shi-kehuan/</guid>
+      <description>科幻作品是否需要遵循已知的科学原理？到底什么是科幻？ 《流浪地球》《三体》等作品有一些不符合现有科学认知的脑洞，这些作品属于科幻吗？ 科幻作品是</description>
+      <content:encoded><![CDATA[<p><a href="https://www.zhihu.com/question/312062153/">科幻作品是否需要遵循已知的科学原理？到底什么是科幻？</a></p>
+<p>《流浪地球》《三体》等作品有一些不符合现有科学认知的脑洞，这些作品属于科幻吗？</p>
+<p>科幻作品是否需要严格遵循现有的科学原理？</p>
+<p>科幻和科学之间的交集与边界在哪里？</p>
+<p>到底什么才是科幻？</p>
+<p>涉及到定义，我习惯先查韦氏词典，这是 science fiction 的定义：</p>
+<blockquote>
+<p>fiction dealing principally with the impact of actual or imagined science on society or individuals or having a scientific factor as an essential orienting component.</p>
+</blockquote>
+<p>actual science 自不必说，关键是“想象的科学”和作为“必要成分”的“科学因素”是否需要遵循已知科学原理。</p>
+<p>阿西莫夫的定义是：</p>
+<blockquote>
+<p>branch of literature which deals with the reaction of human beings to changes in science and technology.</p>
+</blockquote>
+<p>关键是这个科学和技术的“变化”变到什么程度，是否允许变得偏离已知科学原理。</p>
+<p>我的观点是：</p>
+<p>这些都不需要完全遵循已知的科学原理（有的科幻小说卖点就是变更已知的科学定律）。</p>
+<p>但其中的“科学因素”必须是在遵循科学方法论的世界中可能存在的，这个“世界”不一定是我们所处的现实世界。</p>
+<p>也就是说，小说的世界观并未脱离科学方法论——即使在此世界观下得出的结论颠覆现实世界中的认知。相反，这种颠覆正因为符合科学方法世界观才更加具有震撼人心的力度。</p>
+<p>因此，即使是“神”、“上帝”，在阿西莫夫等作者的笔下，一样可以出现在科幻小说中，因为他们通过幻想实实在在地影响到了小说中的世界，不再是不可证伪的，他们影响世界的方式也不是超自然的。</p>
+<p>克拉克的第三定律说：</p>
+<blockquote>
+<p>any sufficiently advanced technology is indistinguishable from magic.</p>
+</blockquote>
+<p>但科技和魔法毕竟不同。</p>
+<p>当我们谈论科技时，仍会默认它们的原理在科学的世界观中最终是逻辑自洽、可理解、可还原的。哪怕幻想的具体设定有错误，也是保留方法论和世界观，读者来吐槽，作者来堵漏。</p>
+<p>而魔法存在超自然、神秘的不可知因素，与现实世界自然规律格格不入，当两者发生矛盾时，会默认存在与现实世界自然规律并行的另一套体系。</p>
+<p>这大概就像主动带上镣铐在法庭上自我辩护的囚徒，和自创一套社会体系的法外狂徒的区别，镣铐就是科幻小说的自限，所认同的法律体系，就是科学方法论的世界观。</p>
+<p>所以结论是：</p>
+<p>有一个遵循统一、逻辑自洽的科学方法论的世界观，就够了。</p>
+<p>而在这一世界观下，超出已知科技的部分，如果是故事必不可少的因素，那么就可以视为科幻小说。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

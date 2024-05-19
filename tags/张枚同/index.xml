@@ -1,108 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>张枚同 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%BC%A0%E6%9E%9A%E5%90%8C/</link>
     <description>Recent content in 张枚同 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 04 Jun 2009 14:03:29 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%BC%A0%E6%9E%9A%E5%90%8C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>年轻的朋友二十年后再相会</title>
-        <link>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
-        <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
-        <description>&lt;p&gt;1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；&lt;/p&gt;
-
-&lt;p&gt;1999年12月，甲丁邀请张枚同再写一首《二十年后再相会》，甲丁修改后仍由谷建芬老师谱曲。&lt;/p&gt;
-
-&lt;blockquote&gt;
-《年轻的朋友来相会》
-
-年轻的朋友们，今天来相会，\
-荡起小船儿，暖风轻轻吹，\
-花儿香，鸟儿鸣，春光惹人醉，\
-欢歌笑语绕着彩云飞。
-
-啊，亲爱的朋友们，\
-美妙的春光属于谁？\
-属于我，属于你，\
-属于我们八十年代的新一辈！
-
-再过二十年，我们重相会，\
-伟大的祖国该有多么美！\
-天也新，地也新，春光更明媚，\
-城市乡村处处增光辉。
-
-啊，亲爱的朋友们，\
-创造这奇迹要靠谁？\
-要靠我，要靠你，\
-要靠我们八十年代的新一辈！
-
-但愿到那时，我们再相会，\
-举杯赞英雄，光荣属于谁？\
-为祖国，为四化，流过多少汗？\
-回首往事心中可有愧？
-
-啊，亲爱的朋友们，\
-愿我们自豪地举起杯，\
-挺胸膛，笑扬眉，\
-光荣属于八十年代的新一辈！\
-光荣属于八十年代的新一辈！\
-光荣属于八十年代的新一辈！
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-《二十年后再相会》
-
-来不及等待，来不及沉醉，\
-噢来不及沉醉，\
-年轻的心迎着太阳，\
-一同把那希望去追。
-
-我们和心愿心愿再一次约会，\
-让光阴见证让岁月体会，\
-我们是否无怨无悔。
-
-再过二十年我们来相会，\
-那时的山，噢那时的水，\
-那时祖国一定很美，\
-但愿到那时我们再相会，\
-那时的春，噢那时的秋，\
-那时硕果令人心醉。
-
-来不及感慨，来不及回味，\
-噢来不及回味，\
-多彩的梦满载理想，\
-一同向着未来放飞
-
-我们把蓝图蓝图再一次描绘，\
-让时代检阅让时光评说，\
-我们是否问心无愧。
-
-再过二十年我们来相会，\
-那时的天，噢那时的地，\
-那时祖国一定更美，\
-但愿到那时我们再相会，\
-那时的你，噢那时的我，\
-那时成就令人欣慰。
-
-那时的你，噢那时的我，\
-那时我们再相会，\
-那时的你，噢那时的我，\
-跨世纪的新一辈，\
-那时我们再相会。
-&lt;/blockquote&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%BC%A0%E6%9E%9A%E5%90%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>年轻的朋友二十年后再相会</title>
+      <link>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</link>
+      <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/nianqingde-pengyou-ershinian-hou-zai-xianghui/</guid>
+      <description>1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快</description>
+      <content:encoded><![CDATA[<p>1979年，张枚同写出《年轻的朋友来相会》歌词，发表在1980年3月号的《词刊》上，当时歌词的题目叫《八十年代新一辈》，谷建芬老师看到后很快谱曲并将题目改为《年轻的朋友来相会》；</p>
+<p>1999年12月，甲丁邀请张枚同再写一首《二十年后再相会》，甲丁修改后仍由谷建芬老师谱曲。</p>
+<!-- raw HTML omitted -->
+<p>年轻的朋友们，今天来相会，<br>
+荡起小船儿，暖风轻轻吹，<br>
+花儿香，鸟儿鸣，春光惹人醉，<br>
+欢歌笑语绕着彩云飞。</p>
+<p>啊，亲爱的朋友们，<br>
+美妙的春光属于谁？<br>
+属于我，属于你，<br>
+属于我们八十年代的新一辈！</p>
+<p>再过二十年，我们重相会，<br>
+伟大的祖国该有多么美！<br>
+天也新，地也新，春光更明媚，<br>
+城市乡村处处增光辉。</p>
+<p>啊，亲爱的朋友们，<br>
+创造这奇迹要靠谁？<br>
+要靠我，要靠你，<br>
+要靠我们八十年代的新一辈！</p>
+<p>但愿到那时，我们再相会，<br>
+举杯赞英雄，光荣属于谁？<br>
+为祖国，为四化，流过多少汗？<br>
+回首往事心中可有愧？</p>
+<p>啊，亲爱的朋友们，<br>
+愿我们自豪地举起杯，<br>
+挺胸膛，笑扬眉，<br>
+光荣属于八十年代的新一辈！<br>
+光荣属于八十年代的新一辈！<br>
+光荣属于八十年代的新一辈！</p>
+<!-- raw HTML omitted -->
+<p>来不及等待，来不及沉醉，<br>
+噢来不及沉醉，<br>
+年轻的心迎着太阳，<br>
+一同把那希望去追。</p>
+<p>我们和心愿心愿再一次约会，<br>
+让光阴见证让岁月体会，<br>
+我们是否无怨无悔。</p>
+<p>再过二十年我们来相会，<br>
+那时的山，噢那时的水，<br>
+那时祖国一定很美，<br>
+但愿到那时我们再相会，<br>
+那时的春，噢那时的秋，<br>
+那时硕果令人心醉。</p>
+<p>来不及感慨，来不及回味，<br>
+噢来不及回味，<br>
+多彩的梦满载理想，<br>
+一同向着未来放飞</p>
+<p>我们把蓝图蓝图再一次描绘，<br>
+让时代检阅让时光评说，<br>
+我们是否问心无愧。</p>
+<p>再过二十年我们来相会，<br>
+那时的天，噢那时的地，<br>
+那时祖国一定更美，<br>
+但愿到那时我们再相会，<br>
+那时的你，噢那时的我，<br>
+那时成就令人欣慰。</p>
+<p>那时的你，噢那时的我，<br>
+那时我们再相会，<br>
+那时的你，噢那时的我，<br>
+跨世纪的新一辈，<br>
+那时我们再相会。</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,46 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>自发秩序 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F/</link>
     <description>Recent content in 自发秩序 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>保守主义与生态环境保护</title>
-        <link>https://ioerr.github.io/posts/baoshou-zhuyi-yu-shengtai-huanjing-baohu/</link>
-        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/baoshou-zhuyi-yu-shengtai-huanjing-baohu/</guid>
-        <description>&lt;p&gt;保守主义的观念，按理说应该能和生态环境保护运动能够取得共识。&lt;/p&gt;
-
-&lt;p&gt;生态环境保护运动的一支认为，我们对生态环境的认识还太少，亦不可相信自然有无限的自我修复能力，在有把握控制改造自然的影响之前，要尽量维持现状，只有不知天高地厚的妄人才想着激进地改造和利用自然。&lt;br /&gt;
-这和保守主义是一个思路嘛。&lt;/p&gt;
-
-&lt;p&gt;但现实是，许多自称是保守主义者的人，和生态环境保护主义的这一支也势同水火。&lt;br /&gt;
-因为在他们的叙事中，人与环境对立时要优先考虑人的利益。&lt;/p&gt;
-
-&lt;p&gt;我觉得，这要么是这些保守主义者自己就没有能力调和他们所相信的保守主义观念的内部冲突，要么他们只是半吊子的保守主义者。&lt;/p&gt;
-
-&lt;p&gt;尊重自发形成的惯性，是因为长久以来行之有效的习惯和规则已经被时间证明没有大的问题。&lt;br /&gt;
-而想要推倒一切重来的人，往往因为无知和自负，闯下无法预计到后果的大祸。&lt;/p&gt;
-
-&lt;p&gt;生态环境保护的观念其实也差不多。&lt;br /&gt;
-生态环境是长期演化的产物，但总有人以为能洞察自然的规律，或打破生态平衡后有把握对抗自然的反噬。&lt;/p&gt;
-
-&lt;p&gt;如果说工业化形成的社会惯性和生态环境的惯性有冲突，我觉得这也属于保守主义自己要解决的内部观念冲突：&lt;br /&gt;
-到底要保守哪一种惯性。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E5%8F%91%E7%A7%A9%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>保守主义与生态环境保护</title>
+      <link>https://ioerr.github.io/posts/baoshou-zhuyi-yu-shengtai-huanjing-baohu/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/baoshou-zhuyi-yu-shengtai-huanjing-baohu/</guid>
+      <description>保守主义的观念，按理说应该能和生态环境保护运动能够取得共识。 生态环境保护运动的一支认为，我们对生态环境的认识还太少，亦不可相信自然有无限的自</description>
+      <content:encoded><![CDATA[<p>保守主义的观念，按理说应该能和生态环境保护运动能够取得共识。</p>
+<p>生态环境保护运动的一支认为，我们对生态环境的认识还太少，亦不可相信自然有无限的自我修复能力，在有把握控制改造自然的影响之前，要尽量维持现状，只有不知天高地厚的妄人才想着激进地改造和利用自然。<br>
+这和保守主义是一个思路嘛。</p>
+<p>但现实是，许多自称是保守主义者的人，和生态环境保护主义的这一支也势同水火。<br>
+因为在他们的叙事中，人与环境对立时要优先考虑人的利益。</p>
+<p>我觉得，这要么是这些保守主义者自己就没有能力调和他们所相信的保守主义观念的内部冲突，要么他们只是半吊子的保守主义者。</p>
+<p>尊重自发形成的惯性，是因为长久以来行之有效的习惯和规则已经被时间证明没有大的问题。<br>
+而想要推倒一切重来的人，往往因为无知和自负，闯下无法预计到后果的大祸。</p>
+<p>生态环境保护的观念其实也差不多。<br>
+生态环境是长期演化的产物，但总有人以为能洞察自然的规律，或打破生态平衡后有把握对抗自然的反噬。</p>
+<p>如果说工业化形成的社会惯性和生态环境的惯性有冲突，我觉得这也属于保守主义自己要解决的内部观念冲突：<br>
+到底要保守哪一种惯性。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

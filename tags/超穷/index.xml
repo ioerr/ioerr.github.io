@@ -1,33 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>超穷 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%B6%85%E7%A9%B7/</link>
     <description>Recent content in 超穷 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%B6%85%E7%A9%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>超穷</title>
-        <link>https://ioerr.github.io/posts/chaoqiong/</link>
-        <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chaoqiong/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;康托尔意识到了集合的重要性，并以此为基础发展出了朴素集合论，也意识到“无穷”也有无穷个不同的级别，并称之为“超穷”，意即超验（超越日常经验）的无穷。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;——是谁先翻译成“超穷”的？这绝对没有超越日常经验啊！&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%B6%85%E7%A9%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>超穷</title>
+      <link>https://ioerr.github.io/posts/chaoqiong/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chaoqiong/</guid>
+      <description>康托尔意识到了集合的重要性，并以此为基础发展出了朴素集合论，也意识到“无穷”也有无穷个不同的级别，并称之为“超穷”，意即超验（超越日常经验）</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>康托尔意识到了集合的重要性，并以此为基础发展出了朴素集合论，也意识到“无穷”也有无穷个不同的级别，并称之为“超穷”，意即超验（超越日常经验）的无穷。</p>
+</blockquote>
+<p>——是谁先翻译成“超穷”的？这绝对没有超越日常经验啊！</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

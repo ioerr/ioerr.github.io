@@ -1,326 +1,243 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Flickr on 读写错误</title>
     <link>https://ioerr.github.io/tags/flickr/</link>
     <description>Recent content in Flickr on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 28 Feb 2015 12:38:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/flickr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Flickr 照片剔重工具</title>
-        <link>https://ioerr.github.io/posts/flickrdupfinder/</link>
-        <pubDate>Sat, 28 Feb 2015 12:38:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickrdupfinder/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-虽然没有自带照片剔重功能，但开放了接口，就自然有爱好者帮忙提供工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ng-flickrdupfinder.lefant.net&#34;&gt;ng-flickrdupfinder&lt;/a&gt; 能够列出你的
-&lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt; 账号中重复的照片，经过审核后打上
-flickrdupfinder 的标签，然后在 &lt;a href=&#34;https://www.flickr.com/photos/organize&#34;&gt;Flickr
-的管理界面&lt;/a&gt;就能够&lt;a href=&#34;https://www.flickr.com/photos/me/tags/flickrdupfinder&#34;&gt;根据标签&lt;/a&gt;批量删除了。&lt;/p&gt;
-
-&lt;p&gt;作者&lt;a href=&#34;https://github.com/lefant/ng-flickrdupfinder&#34;&gt;在 Github
-共享了源代码&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;缺点有两个，一是如果重复的照片很多，需要多几次翻页，二是修改后的照片也会识别为与原片重复，所以要自己小心了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>前奏</title>
-        <link>https://ioerr.github.io/posts/qianzou/</link>
-        <pubDate>Tue, 02 Jun 2009 16:22:45 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/qianzou/</guid>
-        <description>
-
-&lt;p&gt;同一天之内，&lt;a href=&#34;http://twitter.com/&#34;&gt;Twitter&lt;/a&gt;、&lt;a href=&#34;http://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;、&lt;a href=&#34;http://www.live.com/&#34;&gt;Live&lt;/a&gt;（包括
-Hotmail）、&lt;a href=&#34;http://bing.com/&#34;&gt;Bing&lt;/a&gt; 遭到 GFW
-毒手，是前奏耶？警告耶？斩首行动耶？“&lt;a href=&#34;http://www.donews.com/Content/200906/fe171070af1e4d809779c73af5569a00.shtm&#34;&gt;巧合&lt;/a&gt;”耶？&lt;/p&gt;
-
-&lt;p&gt;Geek 扎堆的 Twitter 倒不怎么怕 GFW
-的关照，被封杀之后，各路人马&lt;a href=&#34;http://www.williamlong.info/archives/1816.html&#34;&gt;毫不费力&lt;/a&gt;的“&lt;a href=&#34;http://www.kenengba.com/post/1136.html&#34;&gt;红杏出墙&lt;/a&gt;”，&lt;a href=&#34;http://search.twitter.com/search?q=%23FuckGFW&#34;&gt;群情激愤&lt;/a&gt;，信息量倒比往常高出了许多，充分显示了
-Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale
-而不是坦克才能阻止它。&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=4967.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/4967.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-为人进出的门紧锁着，&lt;br /&gt;
-一个声音高叫着：&lt;br /&gt;
-——你不是喜欢自由吗？&lt;br /&gt;
-乖乖的翻墙吧！&lt;/p&gt;
-
-&lt;p&gt;我渴望自由，&lt;br /&gt;
-但我深深知道&lt;br /&gt;
-——我们怎能翻一辈子的墙！&lt;/p&gt;
-
-&lt;p&gt;我希望有一天，&lt;br /&gt;
-互联网的大潮袭来，&lt;br /&gt;
-将我连这网络长城一齐冲走，&lt;br /&gt;
-&lt;a href=&#34;https://friendfeed.com/calon/9c8fb588&#34;&gt;我应该在浪花与热血中得到永生&lt;/a&gt;！
-&lt;/blockquote&gt;
-曾经进过小黑屋的 Flickr 就麻烦多了，目前 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/4286&#34;&gt;Access
-Flickr!&lt;/a&gt;
-插件失效，只能用代理工具访问，也不方便分享照片。&lt;/p&gt;
-
-&lt;p&gt;另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发&lt;/p&gt;
-
-&lt;h2 id=&#34;gfw-动作的国内用户不知好歹-这次当然也不例外&#34;&gt;GFW 动作的国内用户不知好歹，这次当然也不例外。&lt;/h2&gt;
-
-&lt;p&gt;还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Flickr 删除帐号事件</title>
-        <link>https://ioerr.github.io/posts/flickr-shanchu-zhanghao-shijian/</link>
-        <pubDate>Thu, 29 Jan 2009 15:07:11 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickr-shanchu-zhanghao-shijian/</guid>
-        <description>&lt;p&gt;如果你是一个 Web
-2.0网站的付费用户，因为一个“莫须有”的理由&lt;a href=&#34;http://thomashawk.com/2009/01/how-would-you-feel-if-your-flickr-account-were-permanently-deleted.html&#34;&gt;被删除了帐号&lt;/a&gt;，包括在这个网站上的一切内容如联系人、收藏、留言等等都一同被清掉，并且不可恢复，投诉也无效，你会怎么看这个网站？&lt;/p&gt;
-
-&lt;p&gt;可怕的是，这样的事情发生在 &lt;a href=&#34;http://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-上，这个被认为是 Web
-2.0代表的服务站点&lt;a href=&#34;http://calon.weblogs.us/flickr_qiangzhi_qiyong_yahoo_id/&#34;&gt;又&lt;/a&gt;&lt;a href=&#34;http://friendfeed.com/e/2868a3e4-a23d-40a4-7e46-757cf53564e2/How-Would-You-Feel-if-Your-Flickr-Account-Were/&#34;&gt;做出了一件让用户寒心的事情&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;Shéhérazade 是付费的 Flickr Pro
-用户，她使用这个服务有6个月的时间，上传了许多自己拍摄的照片，总共有15万次左右的访问量，22个用户推荐，每张照片差不多有200个留言。但是一夕之间，这些全都没有了，全都消失得无影无踪了！没有提醒，没有警告，没有人说明原因。&lt;/p&gt;
-
-&lt;p&gt;直到她寄信去询问 Flickr 的客服人员才知道发生了什么事情：原来是 Flickr
-管理人员认为她上传了一些不是她自己拍摄的照片。&lt;/p&gt;
-
-&lt;p&gt;然而这不是真的，至少 Shéhérazade 认为是 Flickr
-搞错了。她的照片都是自己拍摄或者有权发布的，其中部分成人照片也都按照
-Flickr 的规则标记为受限图片。&lt;br /&gt;
-可是事到如今她又如何为自己辩护并要回帐号，要回属于这个帐号的一切呢？&lt;br /&gt;
-Flickr
-的答复是，一旦删除了用户的账号，它就永远的消失了，再也回不来了，无法撤销，无法回退，没有后悔药（但愿不至于如此糟糕！），它的照片、留言、关系统统都被狗吃了。现在
-Flickr 恐怕也无法证明哪些照片不是 Shéhérazade
-拍摄却上传了的，Shéhérazade
-更没有机会证明自己的清白，最关键的是，就算她是清白的，这些宝贵的数据也不会恢复了。&lt;/p&gt;
-
-&lt;p&gt;此外，Shéhérazade
-在官方论坛的客服区&lt;a href=&#34;http://www.flickr.com/help/forum/89864/&#34;&gt;发贴询问&lt;/a&gt;，&lt;a href=&#34;http://www.flickr.com/help/forum/90036/&#34;&gt;还是两次&lt;/a&gt;，均遭到了客服人员锁帖，理由是“觉得最好通过邮件一对一的交流”。简直莫名其妙，难道论坛上的用户会把客服人员吃了？难道这样处理，关注此事的其他用户就会不再关心、不再愤怒？&lt;/p&gt;
-
-&lt;p&gt;退一万步说，就算 Shéhérazade
-确实有违反站点规则的行为，难道不可以事先通知或者警告一声，让用户自己先处理违规的照片吗？如果非要删除帐号，能否允许用户先备份自己的照片？处理的时候人性化一点，与维护站点的规则，并不是完全对立的吧？&lt;br /&gt;
-如果说 Flickr 是一个活跃的社区，那么类似 Shéhérazade
-这样的用户账号就相当于社区中一个个活生生的人，现在我们看到的是因为一个莫须有的罪名，一个活人被迅速杀死，甚至挫骨扬灰毁尸灭迹，再也找不到任何存在过的痕迹，何其恐怖，如何不为自己帐号的安危担心？&lt;/p&gt;
-
-&lt;p&gt;现在 Shéhérazade
-&lt;a href=&#34;http://www.flickr.com/photos/sheherazade_is_back/&#34;&gt;注册的新帐号&lt;/a&gt;只上传了一张全黑的名为“&lt;a href=&#34;http://www.flickr.com/photos/sheherazade_is_back/3226780600/&#34;&gt;BROKEN&lt;/a&gt;”的图片。&lt;/p&gt;
-
-&lt;p&gt;如果你是 Flickr 用户，最好关注一下此事的进展，如果 Yahoo! 和 Flickr
-今后还是这样行事，那就真要好好考虑还要不要继续用它们的服务了。事实证明，就算你是付费用户也没用。&lt;/p&gt;
-
-&lt;p&gt;如果从此对 Flickr 失去信心，那么可以考虑一下国外的其他服务：&lt;br /&gt;
-&lt;a href=&#34;http://www.smugmug.com/&#34;&gt;SmugMug&lt;/a&gt;，定位比较专业摄影社区；&lt;br /&gt;
-&lt;a href=&#34;http://picasaweb.google.com/&#34;&gt;Picasa Web
-Album&lt;/a&gt;，个人感觉其实不太适合管理照片；&lt;br /&gt;
-&lt;a href=&#34;http://pix.ie/&#34;&gt;Pixie&lt;/a&gt;，号称爱尔兰的
-Flickr，很久以前就试用过，到目前还活着；&lt;br /&gt;
-&lt;a href=&#34;http://www.zooomr.com/&#34;&gt;Zooomr&lt;/a&gt;，空间无限的服务，速度不理想，未来的生存也是个疑问；好在自从
-jUploadr 支持 Zooomr 之后，批量上传方便多了；&lt;br /&gt;
-&lt;a href=&#34;http://www.ipernity.com/&#34;&gt;Ipernity&lt;/a&gt;，各个方面都很接近 Flickr
-的服务，其实04年就出现了；最喜欢它上传方式更加灵活多样，免费用户也可以下载原文件，带中文界面。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Flickr 首页改版</title>
-        <link>https://ioerr.github.io/posts/flickr-shouye-gaiban/</link>
-        <pubDate>Thu, 11 Sep 2008 13:56:55 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickr-shouye-gaiban/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://blog.flickr.net/en/2008/09/10/sneak-preview/&#34;&gt;Flickr
-首页改版&lt;/a&gt;预览：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://us.i1.yimg.com/us.yimg.com/i/ww/news/2008/09/10/homepage.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;左侧从上至下：&lt;br /&gt;
-自己的照片&lt;br /&gt;
-联系人的照片&lt;br /&gt;
-群组中的照片&lt;br /&gt;
-7天内的精彩照片&lt;/p&gt;
-
-&lt;p&gt;这些照片都可以收起来，效果就变成这样：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-09-11_200958.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-09-11_200958.png&#34; alt=&#34;Photobucket Image
-Hosting&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;右侧从上至下：&lt;br /&gt;
-上传入口&lt;br /&gt;
-Flickr Blog 链接&lt;br /&gt;
-随机入口，点击那个循环箭头的图标会切换链接&lt;br /&gt;
-合作服务&lt;/p&gt;
-
-&lt;p&gt;最大的亮点倒是切换到新首页之前满屏幕下雪的 Flickr 红蓝小球。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Flickr Pro</title>
-        <link>https://ioerr.github.io/posts/flickr-pro/</link>
-        <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickr-pro/</guid>
-        <description>&lt;p&gt;最近终于购买了 &lt;a href=&#34;http://www.flickr.com/upgrade/&#34;&gt;Flickr Pro&lt;/a&gt;
-的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr
-也是当仁不让的首选！&lt;/p&gt;
-
-&lt;p&gt;于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但
-Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在
-&lt;a href=&#34;http://www.flickr.com/photos/organize/&#34;&gt;Organize&lt;/a&gt;
-中活用照片集、筛选、搜索和“Jump to date”。&lt;/p&gt;
-
-&lt;p&gt;为了网上付款的事情，在多次被建设银行调戏之后，一怒之下把钱都取出来全部存到了招商银行，两边的服务一对比，才觉得自己像个真正的顾客了。&lt;/p&gt;
-
-&lt;p&gt;看到 Twitter 上有人提起
-&lt;a href=&#34;http://www.pspad.com/&#34;&gt;PSPad&lt;/a&gt;，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对
-Unicode
-的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆
-Unicode 字符也不能用了，看来仅适合写代码人士使用了…&lt;/p&gt;
-
-&lt;p&gt;今天的&lt;a href=&#34;http://googlechinablog.com/2008/09/blog-post_02.html&#34;&gt;大消息&lt;/a&gt;是
-&lt;a href=&#34;http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html&#34;&gt;Google
-Chrome&lt;/a&gt;（谷铬？）即将现身江湖，重复的话就不多说了，只说两点：&lt;br /&gt;
-1、从描述和截图来看，&lt;a href=&#34;http://www.google.com/chrome&#34;&gt;Chrome&lt;/a&gt; =
-Safari+Firefox+Opera+IE8+Prism？&lt;br /&gt;
-2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari
-Windows 版。&lt;/p&gt;
-
-&lt;p&gt;第二代身份证还没有到手，打电话问了一下公安局，答复说新身份证要在办理后60天才能拿到。那开始白纸黑字写30天之内是什么意思？还有人说&lt;a href=&#34;http://twitter.com/gaolei80/statuses/905561071&#34;&gt;等了8个月才拿到&lt;/a&gt;，只怕到时候我的联系方式都变了…&lt;/p&gt;
-
-&lt;p&gt;凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在
-Karlsruhe 时被 Okocha 戏耍的视频…&lt;br /&gt;
-现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke
-当正选门将了，可惜他的巅峰期只留给国内联赛和冠军杯。&lt;/p&gt;
-
-&lt;p&gt;OM 的正太 Samir Nasri 去了 Arsenal
-之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和
-Arsenal
-了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在
-Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires
-的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM
-吧，免得暴殄天物啊～&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Flickr 整合 Picnik</title>
-        <link>https://ioerr.github.io/posts/flickr-zhenghe-picnik/</link>
-        <pubDate>Wed, 05 Dec 2007 15:56:08 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/flickr-zhenghe-picnik/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt; 整合了在线图片编辑工具
-&lt;a href=&#34;http://www.picnik.com/&#34;&gt;Picnik&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00089.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00089.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;但是为什么无论是直接从 Picnik 取 Flickr 的照片：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00088.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00088.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;还是从 Flickr 进入编辑界面：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=ScreenShot00086.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00086.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;都不给我好脸色呢？ :050:&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>交互、分享地图照片</title>
-        <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
-        <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://blog.timetide.net/&#34;&gt;Owen&lt;/a&gt; 曾经在05年发起 &lt;a href=&#34;http://blog.timetide.net/archives/2005/01/21/20050121224101.php&#34;&gt;10 Places of My
-City&lt;/a&gt;
-的活动，没想到到前天&lt;a href=&#34;http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry&#34;&gt;还有人&lt;/a&gt;加上&lt;a href=&#34;http://www.technorati.com/tag/10placesofmycity&#34;&gt;这个标签&lt;/a&gt;——但现在
-Technorati 上也只查到这一个 blog 了，Flickr
-上则到06年7月为止，而且貌似还不是参与这次活动的。&lt;/p&gt;
-
-&lt;p&gt;这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n
-只爪子都数不过来。&lt;/p&gt;
-
-&lt;p&gt;2年后的现在，我们有了 &lt;a href=&#34;http://earth.google.com/&#34;&gt;Google Earth&lt;/a&gt;/&lt;a href=&#34;http://maps.google.com/&#34;&gt;Google
-Maps&lt;/a&gt; +
-&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;，&lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt;
-支持方便地标注地理位置，&lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-也支持坐标了，类似这样的活动是不是可以有更新的形式呢？&lt;/p&gt;
-
-&lt;p&gt;我的想法是这样的：&lt;br /&gt;
-1、Blogger
-首先公布自己所在的坐标，例如我的位置就在&lt;a href=&#34;http://maps.google.com/maps/ms?msa=0&amp;amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;amp;ll=28.256459,112.982111&amp;amp;spn=0.019203,0.029182&amp;amp;t=k&amp;amp;z=15&amp;amp;om=1&#34;&gt;这里&lt;/a&gt;，坐标大概是28.254200,
-112.982000；&lt;br /&gt;
-2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；&lt;br /&gt;
-3、访问 blog
-的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;这个体育场&lt;/a&gt;；&lt;br /&gt;
-4、访客记录下这个位置的坐标，通过留言等方式告诉
-blogger，如这个&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;链接&lt;/a&gt;，或28.1817°
-112.977°，或+28° 10&amp;rsquo; 54.12&amp;rdquo;, +112° 58&amp;rsquo; 37.20&amp;rdquo;等等；&lt;br /&gt;
-5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到
-&lt;a href=&#34;http://picasaweb.google.com/&#34;&gt;Picasa Web
-Album&lt;/a&gt;、&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;
-或 &lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;，标记坐标和标签，并在 blog
-上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger
-发布的 KML 地标文件。&lt;/p&gt;
-
-&lt;p&gt;这样的好处是：&lt;br /&gt;
-1、也许能够因此发现之前一直都不知道的有趣的地方；&lt;br /&gt;
-2、让宅在家里的人有动力出去放放风；&lt;br /&gt;
-3、相当于替别人进行了一次小小的旅行；&lt;br /&gt;
-4、增进与读者的交流。&lt;/p&gt;
-
-&lt;p&gt;不方便的地方有：&lt;br /&gt;
-1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio
-照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；&lt;br /&gt;
-2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；&lt;br /&gt;
-3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；&lt;br /&gt;
-4、会有人感兴趣吗？&lt;/p&gt;
-
-&lt;p&gt;这类活动的名称还没有想好，包括这篇 blog
-的名字也很难想啊~而且不知道是否重新发明了轮子…&lt;/p&gt;
-
-&lt;p&gt;我在 Panoramio
-的照片在&lt;a href=&#34;http://www.panoramio.com/user/516541&#34;&gt;这里&lt;/a&gt;，可以&lt;a href=&#34;http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;amp;ln=112.9924185&amp;amp;z=6&#34;&gt;直接在地图上查看&lt;/a&gt;，也可以下载并用
-Google Earth 打开相应的 &lt;a href=&#34;http://www.panoramio.com/kml/?user=516541&#34;&gt;KML
-地标文件&lt;/a&gt;。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/flickr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flickr 照片剔重工具</title>
+      <link>https://ioerr.github.io/posts/flickrdupfinder/</link>
+      <pubDate>Sat, 28 Feb 2015 12:38:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickrdupfinder/</guid>
+      <description>Flickr 虽然没有自带照片剔重功能，但开放了接口，就自然有爱好者帮忙提供工具。 ng-flickrdupfinder 能够列出你的 Flickr 账号中重复的照片，经过审核后打上 flickrdupfinder 的标签，然后在 Flickr 的管</description>
+      <content:encoded><![CDATA[<p><a href="https://www.flickr.com/">Flickr</a><br>
+虽然没有自带照片剔重功能，但开放了接口，就自然有爱好者帮忙提供工具。</p>
+<p><a href="http://ng-flickrdupfinder.lefant.net">ng-flickrdupfinder</a> 能够列出你的<br>
+<a href="https://www.flickr.com/">Flickr</a> 账号中重复的照片，经过审核后打上<br>
+flickrdupfinder 的标签，然后在 <a href="https://www.flickr.com/photos/organize">Flickr<br>
+的管理界面</a>就能够<a href="https://www.flickr.com/photos/me/tags/flickrdupfinder">根据标签</a>批量删除了。</p>
+<p>作者<a href="https://github.com/lefant/ng-flickrdupfinder">在 Github<br>
+共享了源代码</a>。</p>
+<p>缺点有两个，一是如果重复的照片很多，需要多几次翻页，二是修改后的照片也会识别为与原片重复，所以要自己小心了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>前奏</title>
+      <link>https://ioerr.github.io/posts/qianzou/</link>
+      <pubDate>Tue, 02 Jun 2009 16:22:45 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/qianzou/</guid>
+      <description>同一天之内，Twitter、Flickr、Live（包括 Hotmail）、Bing 遭到 GFW 毒手，是前奏耶？警告耶？斩首行动耶？“巧合”耶？ Geek 扎</description>
+      <content:encoded><![CDATA[<p>同一天之内，<a href="http://twitter.com/">Twitter</a>、<a href="http://www.flickr.com/">Flickr</a>、<a href="http://www.live.com/">Live</a>（包括<br>
+Hotmail）、<a href="http://bing.com/">Bing</a> 遭到 GFW<br>
+毒手，是前奏耶？警告耶？斩首行动耶？“<a href="http://www.donews.com/Content/200906/fe171070af1e4d809779c73af5569a00.shtm">巧合</a>”耶？</p>
+<p>Geek 扎堆的 Twitter 倒不怎么怕 GFW<br>
+的关照，被封杀之后，各路人马<a href="http://www.williamlong.info/archives/1816.html">毫不费力</a>的“<a href="http://www.kenengba.com/post/1136.html">红杏出墙</a>”，<a href="http://search.twitter.com/search?q=%23FuckGFW">群情激愤</a>，信息量倒比往常高出了许多，充分显示了<br>
+Twitter 及其第三方应用的魅力和能力，看来只有 Fail Whale<br>
+而不是坦克才能阻止它。<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=4967.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/4967.jpg" alt="Photobucket"  />
+</a></p>
+<!-- raw HTML omitted -->
+<p>我渴望自由，<br>
+但我深深知道<br>
+——我们怎能翻一辈子的墙！</p>
+<p>我希望有一天，<br>
+互联网的大潮袭来，<br>
+将我连这网络长城一齐冲走，<br>
+<a href="https://friendfeed.com/calon/9c8fb588">我应该在浪花与热血中得到永生</a>！</p>
+<!-- raw HTML omitted -->
+<h2 id="gfw-动作的国内用户不知好歹这次当然也不例外">另：每当有服务被墙挡在外面，就会有自称对政治不感兴趣的朋友出来提倡自我审查，埋怨引发<br>
+GFW 动作的国内用户不知好歹，这次当然也不例外。\</h2>
+<p>还没有照顾到的地方，还会有人因为恐惧而先促进自我审查。如果可以下结论说，有的人在网络上敢于摆出反对的姿态是因为其实不会有多少实质的损失，因而是在沽名钓誉和哗众取宠，那么在同样的损失下立即就学会了自我审查和主动施加压力推动他人的审查，是不是一种更可耻的行为呢？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Flickr 删除帐号事件</title>
+      <link>https://ioerr.github.io/posts/flickr-shanchu-zhanghao-shijian/</link>
+      <pubDate>Thu, 29 Jan 2009 15:07:11 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickr-shanchu-zhanghao-shijian/</guid>
+      <description>如果你是一个 Web 2.0网站的付费用户，因为一个“莫须有”的理由被删除了帐号，包括在这个网站上的一切内容如联系人、收藏、留言等等都一同被清掉，并</description>
+      <content:encoded><![CDATA[<p>如果你是一个 Web<br>
+2.0网站的付费用户，因为一个“莫须有”的理由<a href="http://thomashawk.com/2009/01/how-would-you-feel-if-your-flickr-account-were-permanently-deleted.html">被删除了帐号</a>，包括在这个网站上的一切内容如联系人、收藏、留言等等都一同被清掉，并且不可恢复，投诉也无效，你会怎么看这个网站？</p>
+<p>可怕的是，这样的事情发生在 <a href="http://www.flickr.com/">Flickr</a><br>
+上，这个被认为是 Web<br>
+2.0代表的服务站点<a href="http://calon.weblogs.us/flickr_qiangzhi_qiyong_yahoo_id/">又</a><a href="http://friendfeed.com/e/2868a3e4-a23d-40a4-7e46-757cf53564e2/How-Would-You-Feel-if-Your-Flickr-Account-Were/">做出了一件让用户寒心的事情</a>：</p>
+<p>Shéhérazade 是付费的 Flickr Pro<br>
+用户，她使用这个服务有6个月的时间，上传了许多自己拍摄的照片，总共有15万次左右的访问量，22个用户推荐，每张照片差不多有200个留言。但是一夕之间，这些全都没有了，全都消失得无影无踪了！没有提醒，没有警告，没有人说明原因。</p>
+<p>直到她寄信去询问 Flickr 的客服人员才知道发生了什么事情：原来是 Flickr<br>
+管理人员认为她上传了一些不是她自己拍摄的照片。</p>
+<p>然而这不是真的，至少 Shéhérazade 认为是 Flickr<br>
+搞错了。她的照片都是自己拍摄或者有权发布的，其中部分成人照片也都按照<br>
+Flickr 的规则标记为受限图片。<br>
+可是事到如今她又如何为自己辩护并要回帐号，要回属于这个帐号的一切呢？<br>
+Flickr<br>
+的答复是，一旦删除了用户的账号，它就永远的消失了，再也回不来了，无法撤销，无法回退，没有后悔药（但愿不至于如此糟糕！），它的照片、留言、关系统统都被狗吃了。现在<br>
+Flickr 恐怕也无法证明哪些照片不是 Shéhérazade<br>
+拍摄却上传了的，Shéhérazade<br>
+更没有机会证明自己的清白，最关键的是，就算她是清白的，这些宝贵的数据也不会恢复了。</p>
+<p>此外，Shéhérazade<br>
+在官方论坛的客服区<a href="http://www.flickr.com/help/forum/89864/">发贴询问</a>，<a href="http://www.flickr.com/help/forum/90036/">还是两次</a>，均遭到了客服人员锁帖，理由是“觉得最好通过邮件一对一的交流”。简直莫名其妙，难道论坛上的用户会把客服人员吃了？难道这样处理，关注此事的其他用户就会不再关心、不再愤怒？</p>
+<p>退一万步说，就算 Shéhérazade<br>
+确实有违反站点规则的行为，难道不可以事先通知或者警告一声，让用户自己先处理违规的照片吗？如果非要删除帐号，能否允许用户先备份自己的照片？处理的时候人性化一点，与维护站点的规则，并不是完全对立的吧？<br>
+如果说 Flickr 是一个活跃的社区，那么类似 Shéhérazade<br>
+这样的用户账号就相当于社区中一个个活生生的人，现在我们看到的是因为一个莫须有的罪名，一个活人被迅速杀死，甚至挫骨扬灰毁尸灭迹，再也找不到任何存在过的痕迹，何其恐怖，如何不为自己帐号的安危担心？</p>
+<p>现在 Shéhérazade<br>
+<a href="http://www.flickr.com/photos/sheherazade_is_back/">注册的新帐号</a>只上传了一张全黑的名为“<a href="http://www.flickr.com/photos/sheherazade_is_back/3226780600/">BROKEN</a>”的图片。</p>
+<p>如果你是 Flickr 用户，最好关注一下此事的进展，如果 Yahoo! 和 Flickr<br>
+今后还是这样行事，那就真要好好考虑还要不要继续用它们的服务了。事实证明，就算你是付费用户也没用。</p>
+<p>如果从此对 Flickr 失去信心，那么可以考虑一下国外的其他服务：<br>
+<a href="http://www.smugmug.com/">SmugMug</a>，定位比较专业摄影社区；<br>
+<a href="http://picasaweb.google.com/">Picasa Web<br>
+Album</a>，个人感觉其实不太适合管理照片；<br>
+<a href="http://pix.ie/">Pixie</a>，号称爱尔兰的<br>
+Flickr，很久以前就试用过，到目前还活着；<br>
+<a href="http://www.zooomr.com/">Zooomr</a>，空间无限的服务，速度不理想，未来的生存也是个疑问；好在自从<br>
+jUploadr 支持 Zooomr 之后，批量上传方便多了；<br>
+<a href="http://www.ipernity.com/">Ipernity</a>，各个方面都很接近 Flickr<br>
+的服务，其实04年就出现了；最喜欢它上传方式更加灵活多样，免费用户也可以下载原文件，带中文界面。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Flickr 首页改版</title>
+      <link>https://ioerr.github.io/posts/flickr-shouye-gaiban/</link>
+      <pubDate>Thu, 11 Sep 2008 13:56:55 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickr-shouye-gaiban/</guid>
+      <description>Flickr 首页改版预览： 左侧从上至下： 自己的照片 联系人的照片 群组中的照片 7天内的精彩照片 这些照片都可以收起来，效果就变成这样： 右侧从上至下： 上传入口</description>
+      <content:encoded><![CDATA[<p><a href="http://blog.flickr.net/en/2008/09/10/sneak-preview/">Flickr<br>
+首页改版</a>预览：</p>
+<p><img loading="lazy" src="http://us.i1.yimg.com/us.yimg.com/i/ww/news/2008/09/10/homepage.png" alt=""  />
+</p>
+<p>左侧从上至下：<br>
+自己的照片<br>
+联系人的照片<br>
+群组中的照片<br>
+7天内的精彩照片</p>
+<p>这些照片都可以收起来，效果就变成这样：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-09-11_200958.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-09-11_200958.png" alt="Photobucket Image&lt;br&gt;
+Hosting"  />
+</a></p>
+<p>右侧从上至下：<br>
+上传入口<br>
+Flickr Blog 链接<br>
+随机入口，点击那个循环箭头的图标会切换链接<br>
+合作服务</p>
+<p>最大的亮点倒是切换到新首页之前满屏幕下雪的 Flickr 红蓝小球。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Flickr Pro</title>
+      <link>https://ioerr.github.io/posts/flickr-pro/</link>
+      <pubDate>Tue, 02 Sep 2008 16:02:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickr-pro/</guid>
+      <description>最近终于购买了 Flickr Pro 的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr 也是当仁不让的首选！ 于是每天都在大量的上传积存的照</description>
+      <content:encoded><![CDATA[<p>最近终于购买了 <a href="http://www.flickr.com/upgrade/">Flickr Pro</a><br>
+的服务。其他的相册服务虽然各有特色，但是总的来说，即使付费，Flickr<br>
+也是当仁不让的首选！</p>
+<p>于是每天都在大量的上传积存的照片（所以不能保证质量）。虽然整理大量照片不如本地方便，但<br>
+Flickr 仍然是我使用过的相册服务中在这方面最强的。诀窍是在<br>
+<a href="http://www.flickr.com/photos/organize/">Organize</a><br>
+中活用照片集、筛选、搜索和“Jump to date”。</p>
+<p>为了网上付款的事情，在多次被建设银行调戏之后，一怒之下把钱都取出来全部存到了招商银行，两边的服务一对比，才觉得自己像个真正的顾客了。</p>
+<p>看到 Twitter 上有人提起<br>
+<a href="http://www.pspad.com/">PSPad</a>，看看新版本有何变化，发现功能增强了（尤其是脚本功能！还有一堆新增的贴心小功能），对<br>
+Unicode<br>
+的支持也好很多，险些要用来当作默认文本编辑器。但又发现字体只支持等宽字体，中文很难看不说，一堆<br>
+Unicode 字符也不能用了，看来仅适合写代码人士使用了…</p>
+<p>今天的<a href="http://googlechinablog.com/2008/09/blog-post_02.html">大消息</a>是<br>
+<a href="http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html">Google<br>
+Chrome</a>（谷铬？）即将现身江湖，重复的话就不多说了，只说两点：<br>
+1、从描述和截图来看，<a href="http://www.google.com/chrome">Chrome</a> =<br>
+Safari+Firefox+Opera+IE8+Prism？<br>
+2、Chrome 的重点恐怕在于移动客户端市场，桌面上最受威胁的应该是 Safari<br>
+Windows 版。</p>
+<p>第二代身份证还没有到手，打电话问了一下公安局，答复说新身份证要在办理后60天才能拿到。那开始白纸黑字写30天之内是什么意思？还有人说<a href="http://twitter.com/gaolei80/statuses/905561071">等了8个月才拿到</a>，只怕到时候我的联系方式都变了…</p>
+<p>凌晨2点，Kahn 告别赛，Bayern 对德国队。今天才刚回味了那个 Kahn 还在<br>
+Karlsruhe 时被 Okocha 戏耍的视频…<br>
+现在很多人说02年的 Kahn 如何厉害，其实98年他就应该替代老迈的 Kopke<br>
+当正选门将了，可惜他的巅峰期只留给国内联赛和冠军杯。</p>
+<p>OM 的正太 Samir Nasri 去了 Arsenal<br>
+之后表现还不错，不少曾经认为他是水货的枪迷已经改变了看法。我倒觉得现在还不能说正太已经较快的适应英超和<br>
+Arsenal<br>
+了，等这个赛季踢完了再看看总体评价吧。另一方面，正太的控球基本功很扎实，分球的头脑很清晰，加上潜力还有上升空间，如果不把他限制在<br>
+Pires 接班人的定位上的话，假以时日，他是能够超越 Hleb 甚至 Pires<br>
+的成就的——当然，如果 Arsenal 用不好他，那么还是回我们 OM<br>
+吧，免得暴殄天物啊～</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Flickr 整合 Picnik</title>
+      <link>https://ioerr.github.io/posts/flickr-zhenghe-picnik/</link>
+      <pubDate>Wed, 05 Dec 2007 15:56:08 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/flickr-zhenghe-picnik/</guid>
+      <description>Flickr 整合了在线图片编辑工具 Picnik。 但是为什么无论是直接从 Picnik 取 Flickr 的照片： 还是从 Flickr 进入编辑界面： 都不给我好脸色呢？ :050:</description>
+      <content:encoded><![CDATA[<p><a href="http://www.flickr.com/">Flickr</a> 整合了在线图片编辑工具<br>
+<a href="http://www.picnik.com/">Picnik</a>。</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00089.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00089.jpg" alt="Photobucket"  />
+</a></p>
+<p>但是为什么无论是直接从 Picnik 取 Flickr 的照片：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00088.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00088.jpg" alt="Photobucket"  />
+</a></p>
+<p>还是从 Flickr 进入编辑界面：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=ScreenShot00086.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/ScreenShot00086.jpg" alt="Photobucket"  />
+</a></p>
+<p>都不给我好脸色呢？ :050:</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>交互、分享地图照片</title>
+      <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
+      <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
+      <description>Owen 曾经在05年发起 10 Places of My City 的活动，没想到到前天还有人加上这个标签——但现在 Technorati 上也只查到这一个 blog 了，Flickr 上则到06年7月为止，而且貌</description>
+      <content:encoded><![CDATA[<p><a href="http://blog.timetide.net/">Owen</a> 曾经在05年发起 <a href="http://blog.timetide.net/archives/2005/01/21/20050121224101.php">10 Places of My<br>
+City</a><br>
+的活动，没想到到前天<a href="http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry">还有人</a>加上<a href="http://www.technorati.com/tag/10placesofmycity">这个标签</a>——但现在<br>
+Technorati 上也只查到这一个 blog 了，Flickr<br>
+上则到06年7月为止，而且貌似还不是参与这次活动的。</p>
+<p>这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n<br>
+只爪子都数不过来。</p>
+<p>2年后的现在，我们有了 <a href="http://earth.google.com/">Google Earth</a>/<a href="http://maps.google.com/">Google<br>
+Maps</a> +<br>
+<a href="http://www.panoramio.com/">Panoramio</a>，<a href="http://picasa.google.com/">Picasa</a><br>
+支持方便地标注地理位置，<a href="http://flickr.com/">Flickr</a><br>
+也支持坐标了，类似这样的活动是不是可以有更新的形式呢？</p>
+<p>我的想法是这样的：<br>
+1、Blogger<br>
+首先公布自己所在的坐标，例如我的位置就在<a href="http://maps.google.com/maps/ms?msa=0&amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;ll=28.256459,112.982111&amp;spn=0.019203,0.029182&amp;t=k&amp;z=15&amp;om=1">这里</a>，坐标大概是28.254200,<br>
+112.982000；<br>
+2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；<br>
+3、访问 blog<br>
+的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">这个体育场</a>；<br>
+4、访客记录下这个位置的坐标，通过留言等方式告诉<br>
+blogger，如这个<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">链接</a>，或28.1817°<br>
+112.977°，或+28° 10&rsquo; 54.12&quot;, +112° 58&rsquo; 37.20&quot;等等；<br>
+5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到<br>
+<a href="http://picasaweb.google.com/">Picasa Web<br>
+Album</a>、<a href="http://www.panoramio.com/">Panoramio</a><br>
+或 <a href="http://flickr.com/">Flickr</a>，标记坐标和标签，并在 blog<br>
+上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger<br>
+发布的 KML 地标文件。</p>
+<p>这样的好处是：<br>
+1、也许能够因此发现之前一直都不知道的有趣的地方；<br>
+2、让宅在家里的人有动力出去放放风；<br>
+3、相当于替别人进行了一次小小的旅行；<br>
+4、增进与读者的交流。</p>
+<p>不方便的地方有：<br>
+1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio<br>
+照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；<br>
+2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；<br>
+3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；<br>
+4、会有人感兴趣吗？</p>
+<p>这类活动的名称还没有想好，包括这篇 blog<br>
+的名字也很难想啊~而且不知道是否重新发明了轮子…</p>
+<p>我在 Panoramio<br>
+的照片在<a href="http://www.panoramio.com/user/516541">这里</a>，可以<a href="http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;ln=112.9924185&amp;z=6">直接在地图上查看</a>，也可以下载并用<br>
+Google Earth 打开相应的 <a href="http://www.panoramio.com/kml/?user=516541">KML<br>
+地标文件</a>。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

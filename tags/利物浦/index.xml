@@ -1,40 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>利物浦 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%88%A9%E7%89%A9%E6%B5%A6/</link>
     <description>Recent content in 利物浦 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Sep 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%88%A9%E7%89%A9%E6%B5%A6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>曼联租借安菲尔德的历史往事</title>
-        <link>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</link>
-        <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</guid>
-        <description>&lt;p&gt;众所周知，曼联和利物浦是英格兰足坛最著名的一对死敌，然而历史上，曼联曾经租借过利物浦的主场安菲尔德球场打过比赛。&lt;/p&gt;
-
-&lt;p&gt;在每日邮报的这则回顾曼联和利物浦如何成为死敌的报道中提到：&lt;br /&gt;
-因为足球流氓朝场内掷飞刀，曼联被足总处罚两场联赛不能使用自己的主场比赛，不得已向其他球队求助，利物浦和斯托克城伸出了援手。&lt;/p&gt;
-
-&lt;p&gt;于是，1971年8月20日，曼联在安菲尔德迎战联赛对手阿森纳，这是当时的比赛概况：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.dailymail.co.uk/i/pix/2012/01/26/article-2092364-1179D950000005DC-997_306x415.jpg&#34; alt=&#34;双方都有不少球迷耳熟能详的名字&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最终曼联3:1获胜，保持联赛第一。&lt;/p&gt;
-
-&lt;p&gt;后来曼联与利物浦成为死敌，阿森纳和曼联在英超时代一度交相辉映、势同水火，阿森纳和利物浦在英甲上演过最后时刻夺冠的经典，当年以这种形式联系起来，真是奇妙啊。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%88%A9%E7%89%A9%E6%B5%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>曼联租借安菲尔德的历史往事</title>
+      <link>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/manu-zujie-anfield-de-lishi-wangshi/</guid>
+      <description>众所周知，曼联和利物浦是英格兰足坛最著名的一对死敌，然而历史上，曼联曾经租借过利物浦的主场安菲尔德球场打过比赛。 在每日邮报的这则回顾曼联和利</description>
+      <content:encoded><![CDATA[<p>众所周知，曼联和利物浦是英格兰足坛最著名的一对死敌，然而历史上，曼联曾经租借过利物浦的主场安菲尔德球场打过比赛。</p>
+<p>在每日邮报的这则回顾曼联和利物浦如何成为死敌的报道中提到：<br>
+因为足球流氓朝场内掷飞刀，曼联被足总处罚两场联赛不能使用自己的主场比赛，不得已向其他球队求助，利物浦和斯托克城伸出了援手。</p>
+<p>于是，1971年8月20日，曼联在安菲尔德迎战联赛对手阿森纳，这是当时的比赛概况：</p>
+<p><img loading="lazy" src="https://i.dailymail.co.uk/i/pix/2012/01/26/article-2092364-1179D950000005DC-997_306x415.jpg" alt="双方都有不少球迷耳熟能详的名字"  />
+</p>
+<p>最终曼联3:1获胜，保持联赛第一。</p>
+<p>后来曼联与利物浦成为死敌，阿森纳和曼联在英超时代一度交相辉映、势同水火，阿森纳和利物浦在英甲上演过最后时刻夺冠的经典，当年以这种形式联系起来，真是奇妙啊。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

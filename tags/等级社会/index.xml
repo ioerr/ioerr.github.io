@@ -1,152 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>等级社会 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%AD%89%E7%BA%A7%E7%A4%BE%E4%BC%9A/</link>
     <description>Recent content in 等级社会 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%AD%89%E7%BA%A7%E7%A4%BE%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>鸿鹄安知燕雀之志？</title>
-        <link>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</link>
-        <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</guid>
-        <description>&lt;p&gt;在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。&lt;br /&gt;
-不认同这一志向的燕雀，都算是失败者。&lt;br /&gt;
-鸿鹄认为现实世界一向如此也只能如此，而燕雀则自有其生存之道。&lt;br /&gt;
-燕雀也可以反问一句，鸿鹄安知燕雀之志？&lt;/p&gt;
-
-&lt;p&gt;在价值观多元的社会中，鸿鹄有鸿鹄的追求，燕雀有燕雀的活法，井水不犯河水，不必计较谁高谁低。&lt;br /&gt;
-但习惯了等级社会的人，要认知到并且接受这一点，很难。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>等级社会的创新能力</title>
-        <link>https://ioerr.github.io/posts/dengji-shehui-de-chuangxin-nengli/</link>
-        <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dengji-shehui-de-chuangxin-nengli/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/haOFei&#34;&gt;haOFei&lt;/a&gt;：&lt;br /&gt;
-如果什么东西都愿意试试，又有无限量的承受犯错能力，找到很多好办法也就不奇怪了。&lt;br /&gt;
-再加上规模优势，取得大成就就自然而然了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon&#34;&gt;calon&lt;/a&gt;：&lt;br /&gt;
-如果给我无限的试验机会，试验失败死掉的却是其他人，那我的创新能力和承受能力至少能够提高一个档次。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我们通常认为，创新必然是好事，但实际上它是中性的。&lt;br /&gt;
-创新也必然伴随着未知的风险，当带来的收益高于投入的成本损失，创新才是利大于弊的好事；&lt;br /&gt;
-反之，如果创新的后果不可控，会导致大面积的破坏、死亡甚至灭绝，那么创新就是糟糕的。&lt;/p&gt;
-
-&lt;p&gt;一个类似的例子是基因变异。&lt;br /&gt;
-完全不发生任何变异，物种很容易被变化的环境及其他与时俱进的物种淘汰掉。&lt;br /&gt;
-要是基因在每一次复制过程中都发生剧烈变化，则后代能成功存活的几率也微乎其微。&lt;br /&gt;
-变异率保持在某个合理的范围内，变异才有利于物种的生存繁衍。&lt;/p&gt;
-
-&lt;p&gt;人类发展到现代，已经建立了多种机制在鼓励创新的同时也控制风险成本。&lt;br /&gt;
-例如，一方面允许通过风险投资来鼓励启动创新，失败的损失大部分由投资人承担；&lt;br /&gt;
-另一方面，即使创新者自己投资，也不至于承担失败后的所有后果。&lt;br /&gt;
-现实中对应的例子是破产制度、公共预算制度、社会救济制度等等，既降低迈出创新第一步的门槛，也保证有机会反思、改进，东山再起，最不济也不至于因为创新失败而活活饿死。&lt;br /&gt;
-甚至公共基础教育也可以看作鼓励创新的社会机制的一部分。&lt;/p&gt;
-
-&lt;p&gt;这种保护创新的机制同样有其成本，成本的付出得基于社会成员的共识和同意，假如创新成为了看不到希望的无底洞，或者会影响其他项目的绊脚石，那么创新成本的承担者有权撤回投入，及时止损，也就是说，谁付出成本，谁有权利判断创新的价值和为之付出的代价。&lt;br /&gt;
-否则，创新者当然没有试错的担心，想怎么折腾就怎么折腾。&lt;br /&gt;
-更有甚者，“创新”者还可以用强制的手段将成本转嫁给别人，比如任何等级社会中，高等级者都能利用特权转嫁试错成本给低等级者，其阻力越低，高等级者的“创新”能力就越高——古代大部分精美绝伦的艺术作品和发明创造都是为了满足有钱有闲的高等阶级而生产的。&lt;br /&gt;
-如果这种创新值得提倡，结论就会是：最没有人权的奴隶制社会，奴隶主的创新能力最强。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>82年的金智英</title>
-        <link>https://ioerr.github.io/posts/82-nian-de-jinzhiying/</link>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/82-nian-de-jinzhiying/</guid>
-        <description>&lt;p&gt;看了《82年的金智英》，虽然电影不如原著的力度，看到金智英以外婆的身份说着母亲的牺牲时，还是忍不住湿了眼眶。&lt;br /&gt;
-电影的表现比较克制，仍然传达出了身处困境的无力感。&lt;/p&gt;
-
-&lt;p&gt;韩国社会能够因为这部小说和电影引发巨大争议而不是深刻反省，真是恶臭不堪。&lt;br /&gt;
-我们其实也好不到哪里去，只是性别不平等的另一种形式。&lt;/p&gt;
-
-&lt;p&gt;国内的女权观念，至少混进了两种奇怪的东西：&lt;/p&gt;
-
-&lt;p&gt;一种是视个人权利为议价筹码，目的只是讨要物质资源用于个人消费，而非改变女性固定的社会和家庭分工，结果是更加强化男权和社会特权等级；&lt;br /&gt;
-类似于后宫争宠，要的是凌驾于其他同类之上的特权，争当后宫之主，但争来争去也不过是皇帝的玩物。看着是比平民男性风光，背后是更多女性的不幸。&lt;/p&gt;
-
-&lt;p&gt;另一种是将女性当作集体的工具，表面是平权，实际是平等地被剥夺权利和接受强制责任，还自以为平权程度世界第一。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>等级社会的特征</title>
-        <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
-        <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
-        <description>&lt;p&gt;等级社会的特征之一：&lt;br /&gt;
-人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。&lt;br /&gt;
-社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。&lt;br /&gt;
-社会等级最高的人理应享有特权。&lt;/p&gt;
-
-&lt;p&gt;特征之二：&lt;br /&gt;
-社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；&lt;br /&gt;
-社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；&lt;br /&gt;
-社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。&lt;/p&gt;
-
-&lt;p&gt;特征之三：&lt;br /&gt;
-等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>狮子王</title>
-        <link>https://ioerr.github.io/posts/shiziwang/</link>
-        <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shiziwang/</guid>
-        <description>&lt;p&gt;一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。&lt;/p&gt;
-
-&lt;p&gt;看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全是天性使然哈哈哈。&lt;/p&gt;
-
-&lt;p&gt;原版的峡谷奔牛一幕，有一个辛巴的正面特写和非常明显的希区柯克变焦。新版去掉了这一表现，感觉效果弱了很多。&lt;br /&gt;
-还有，新加的两首歌曲比不上原版中的任何一首。&lt;/p&gt;
-
-&lt;p&gt;二次元动画中的动物可以看作动物，但活灵活现会说话的三次元动物形象就有点人类的感觉了。&lt;br /&gt;
-二次元世界可以接受的拟人世界观，放在写实风格的三次元就很奇怪。&lt;br /&gt;
-比如食物们祝贺捕食者未来的国王降生，就像一只真的鸡而不是卡通形象的鸡为快餐店打广告一样怪异。&lt;br /&gt;
-雄狮因其出身和性别而具备继承王位的资格和责任，各类生物各安其位形成永恒的生命循环和社会等级，雄狮一边吃领地中其他动物，一边自诩有维护领地繁荣的责任，以及仁慈和勇敢的道德。&lt;br /&gt;
-这正是封建制度运作形式，和贵族对其领地的绝对权力与道德责任，只是通过动物来表现。&lt;br /&gt;
-当动画片看觉得理所当然，当写实的电影看就会有荒谬的感觉。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%AD%89%E7%BA%A7%E7%A4%BE%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>鸿鹄安知燕雀之志？</title>
+      <link>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/honghu-anzhi-yanque-zhi-zhi.md/</guid>
+      <description>在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。 不认同这一志向的燕雀，都算是失败者。 鸿鹄认为现实世界</description>
+      <content:encoded><![CDATA[<p>在单一维度价值观的等级社会，成为鸿鹄，获得更高的权力，建立更大的功业，是唯一正确的志向。<br>
+不认同这一志向的燕雀，都算是失败者。<br>
+鸿鹄认为现实世界一向如此也只能如此，而燕雀则自有其生存之道。<br>
+燕雀也可以反问一句，鸿鹄安知燕雀之志？</p>
+<p>在价值观多元的社会中，鸿鹄有鸿鹄的追求，燕雀有燕雀的活法，井水不犯河水，不必计较谁高谁低。<br>
+但习惯了等级社会的人，要认知到并且接受这一点，很难。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>等级社会的创新能力</title>
+      <link>https://ioerr.github.io/posts/dengji-shehui-de-chuangxin-nengli/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dengji-shehui-de-chuangxin-nengli/</guid>
+      <description>haOFei： 如果什么东西都愿意试试，又有无限量的承受犯错能力，找到很多好办法也就不奇怪了。 再加上规模优势，取得大成就就自然而然了。 calo</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><a href="https://twitter.com/haOFei">haOFei</a>：<br>
+如果什么东西都愿意试试，又有无限量的承受犯错能力，找到很多好办法也就不奇怪了。<br>
+再加上规模优势，取得大成就就自然而然了。</p>
+<p><a href="https://twitter.com/calon">calon</a>：<br>
+如果给我无限的试验机会，试验失败死掉的却是其他人，那我的创新能力和承受能力至少能够提高一个档次。</p>
+</blockquote>
+<p>我们通常认为，创新必然是好事，但实际上它是中性的。<br>
+创新也必然伴随着未知的风险，当带来的收益高于投入的成本损失，创新才是利大于弊的好事；<br>
+反之，如果创新的后果不可控，会导致大面积的破坏、死亡甚至灭绝，那么创新就是糟糕的。</p>
+<p>一个类似的例子是基因变异。<br>
+完全不发生任何变异，物种很容易被变化的环境及其他与时俱进的物种淘汰掉。<br>
+要是基因在每一次复制过程中都发生剧烈变化，则后代能成功存活的几率也微乎其微。<br>
+变异率保持在某个合理的范围内，变异才有利于物种的生存繁衍。</p>
+<p>人类发展到现代，已经建立了多种机制在鼓励创新的同时也控制风险成本。<br>
+例如，一方面允许通过风险投资来鼓励启动创新，失败的损失大部分由投资人承担；<br>
+另一方面，即使创新者自己投资，也不至于承担失败后的所有后果。<br>
+现实中对应的例子是破产制度、公共预算制度、社会救济制度等等，既降低迈出创新第一步的门槛，也保证有机会反思、改进，东山再起，最不济也不至于因为创新失败而活活饿死。<br>
+甚至公共基础教育也可以看作鼓励创新的社会机制的一部分。</p>
+<p>这种保护创新的机制同样有其成本，成本的付出得基于社会成员的共识和同意，假如创新成为了看不到希望的无底洞，或者会影响其他项目的绊脚石，那么创新成本的承担者有权撤回投入，及时止损，也就是说，谁付出成本，谁有权利判断创新的价值和为之付出的代价。<br>
+否则，创新者当然没有试错的担心，想怎么折腾就怎么折腾。<br>
+更有甚者，“创新”者还可以用强制的手段将成本转嫁给别人，比如任何等级社会中，高等级者都能利用特权转嫁试错成本给低等级者，其阻力越低，高等级者的“创新”能力就越高——古代大部分精美绝伦的艺术作品和发明创造都是为了满足有钱有闲的高等阶级而生产的。<br>
+如果这种创新值得提倡，结论就会是：最没有人权的奴隶制社会，奴隶主的创新能力最强。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>82年的金智英</title>
+      <link>https://ioerr.github.io/posts/82-nian-de-jinzhiying/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/82-nian-de-jinzhiying/</guid>
+      <description>看了《82年的金智英》，虽然电影不如原著的力度，看到金智英以外婆的身份说着母亲的牺牲时，还是忍不住湿了眼眶。 电影的表现比较克制，仍然传达出了</description>
+      <content:encoded><![CDATA[<p>看了《82年的金智英》，虽然电影不如原著的力度，看到金智英以外婆的身份说着母亲的牺牲时，还是忍不住湿了眼眶。<br>
+电影的表现比较克制，仍然传达出了身处困境的无力感。</p>
+<p>韩国社会能够因为这部小说和电影引发巨大争议而不是深刻反省，真是恶臭不堪。<br>
+我们其实也好不到哪里去，只是性别不平等的另一种形式。</p>
+<p>国内的女权观念，至少混进了两种奇怪的东西：</p>
+<p>一种是视个人权利为议价筹码，目的只是讨要物质资源用于个人消费，而非改变女性固定的社会和家庭分工，结果是更加强化男权和社会特权等级；<br>
+类似于后宫争宠，要的是凌驾于其他同类之上的特权，争当后宫之主，但争来争去也不过是皇帝的玩物。看着是比平民男性风光，背后是更多女性的不幸。</p>
+<p>另一种是将女性当作集体的工具，表面是平权，实际是平等地被剥夺权利和接受强制责任，还自以为平权程度世界第一。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>等级社会的特征</title>
+      <link>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/dengji-shehui-de-tezheng/</guid>
+      <description>等级社会的特征之一： 人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。 社会最低等级的人不配谈人权</description>
+      <content:encoded><![CDATA[<p>等级社会的特征之一：<br>
+人的权利完全取决于人的社会地位——包括但不限于其智识能力水平、财富、权力、血统、依附关系等等。<br>
+社会最低等级的人不配谈人权，并且在危机来临时应该优先牺牲。<br>
+社会等级最高的人理应享有特权。</p>
+<p>特征之二：<br>
+社会等级在我之上的人都是英明神武、深不可测的大智慧之人，我想提升自身的社会等级时除外；<br>
+社会等级和我差不多的人都是虚伪阴险、心狠手辣的潜在竞争者，我是例外；<br>
+社会等级在我之下的都是心智不全、只配受人摆布的愚夫愚妇，他们想要追上或超越我的社会等级时除外。</p>
+<p>特征之三：<br>
+等级社会是合理的制度，维护等级社会的稳定秩序比什么都重要。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>狮子王</title>
+      <link>https://ioerr.github.io/posts/shiziwang/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shiziwang/</guid>
+      <description>一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。 看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全</description>
+      <content:encoded><![CDATA[<p>一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。</p>
+<p>看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全是天性使然哈哈哈。</p>
+<p>原版的峡谷奔牛一幕，有一个辛巴的正面特写和非常明显的希区柯克变焦。新版去掉了这一表现，感觉效果弱了很多。<br>
+还有，新加的两首歌曲比不上原版中的任何一首。</p>
+<p>二次元动画中的动物可以看作动物，但活灵活现会说话的三次元动物形象就有点人类的感觉了。<br>
+二次元世界可以接受的拟人世界观，放在写实风格的三次元就很奇怪。<br>
+比如食物们祝贺捕食者未来的国王降生，就像一只真的鸡而不是卡通形象的鸡为快餐店打广告一样怪异。<br>
+雄狮因其出身和性别而具备继承王位的资格和责任，各类生物各安其位形成永恒的生命循环和社会等级，雄狮一边吃领地中其他动物，一边自诩有维护领地繁荣的责任，以及仁慈和勇敢的道德。<br>
+这正是封建制度运作形式，和贵族对其领地的绝对权力与道德责任，只是通过动物来表现。<br>
+当动画片看觉得理所当然，当写实的电影看就会有荒谬的感觉。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

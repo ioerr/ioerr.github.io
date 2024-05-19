@@ -1,32 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>求知 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B1%82%E7%9F%A5/</link>
     <description>Recent content in 求知 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B1%82%E7%9F%A5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>最廉价的自我感动</title>
-        <link>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</link>
-        <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</guid>
-        <description>&lt;p&gt;网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。&lt;br /&gt;
-所求不过一个确定的回答，只是满足了自己虚假的求知欲。&lt;br /&gt;
-“我知道了！”是这个时代最廉价的自我感动。&lt;br /&gt;
-阿基米德在浴缸中思考，而网民只需要等待别人喂的速食答案，然后喊出 Eureka！&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B1%82%E7%9F%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最廉价的自我感动</title>
+      <link>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</guid>
+      <description>网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。 所求不过一个确定的回答，只是满足了自己虚</description>
+      <content:encoded><![CDATA[<p>网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。<br>
+所求不过一个确定的回答，只是满足了自己虚假的求知欲。<br>
+“我知道了！”是这个时代最廉价的自我感动。<br>
+阿基米德在浴缸中思考，而网民只需要等待别人喂的速食答案，然后喊出 Eureka！</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,35 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>过年 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%BF%87%E5%B9%B4/</link>
     <description>Recent content in 过年 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 06 Feb 2008 12:19:20 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%BF%87%E5%B9%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>鼠年快乐！</title>
-        <link>https://ioerr.github.io/posts/shunian-kuaile/</link>
-        <pubDate>Wed, 06 Feb 2008 12:19:20 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shunian-kuaile/</guid>
-        <description>&lt;p&gt;给两个妹妹买了两支老鼠公仔，送出手之前先照张相，也祝所有的读者鼠年快乐，万事如意！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2241401363/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2337/2241401363_7b1246fd80.jpg&#34; alt=&#34;老鼠公仔 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2242190730/&#34;&gt;&lt;img src=&#34;http://static.flickr.com/2023/2242190730_f3ceda1660.jpg&#34; alt=&#34;老鼠公仔 (by
-calon)&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%BF%87%E5%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>鼠年快乐！</title>
+      <link>https://ioerr.github.io/posts/shunian-kuaile/</link>
+      <pubDate>Wed, 06 Feb 2008 12:19:20 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shunian-kuaile/</guid>
+      <description>给两个妹妹买了两支老鼠公仔，送出手之前先照张相，也祝所有的读者鼠年快乐，万事如意！</description>
+      <content:encoded><![CDATA[<p>给两个妹妹买了两支老鼠公仔，送出手之前先照张相，也祝所有的读者鼠年快乐，万事如意！</p>
+<p><a href="http://www.flickr.com/photos/calon/2241401363/"><img loading="lazy" src="http://static.flickr.com/2337/2241401363_7b1246fd80.jpg" alt="老鼠公仔 (by&lt;br&gt;
+calon)"  />
+</a></p>
+<p><a href="http://www.flickr.com/photos/calon/2242190730/"><img loading="lazy" src="http://static.flickr.com/2023/2242190730_f3ceda1660.jpg" alt="老鼠公仔 (by&lt;br&gt;
+calon)"  />
+</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,65 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>阅读 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%98%85%E8%AF%BB/</link>
     <description>Recent content in 阅读 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 19 Nov 2007 17:50:10 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Kindle 正式发布</title>
-        <link>https://ioerr.github.io/posts/kindle-zhengshi-fabu/</link>
-        <pubDate>Mon, 19 Nov 2007 17:50:10 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/kindle-zhengshi-fabu/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/&#34;&gt;Amazon&lt;/a&gt; 的电子书设备
-&lt;a href=&#34;http://www.amazon.com/kindle&#34;&gt;Kindle&lt;/a&gt; 正式发布。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-screen2._V4948245_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-whispernet._V4948240_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-ergo._V4948249_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-keyboard._V4948248_.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;售价399美金；&lt;br /&gt;
-重量300克左右；&lt;br /&gt;
-6寸、600×800分辨率、167 dpi、4级灰度的屏幕；&lt;br /&gt;
-7.5&amp;rdquo;×5.3&amp;rdquo;×0.7&amp;rdquo;的身材；&lt;br /&gt;
-256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB
-2.0接口；&lt;br /&gt;
-充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；&lt;br /&gt;
-可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；&lt;br /&gt;
-88000本书可供选择，可免费试读第一章节；&lt;br /&gt;
-与多家报纸杂志合作提供内容；&lt;br /&gt;
-可订阅250多个知名
-blog（貌似无法打开网页发表评论），免费无线接入维基百科；&lt;br /&gt;
-可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；&lt;br /&gt;
-耐操能力不错；&lt;br /&gt;
-日光下可直接阅读屏幕；&lt;br /&gt;
-直接支持的格式包括独家的
-AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的
-HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。&lt;/p&gt;
-
-&lt;p&gt;看到以上的规格功能说明和产品外观你会有什么想法？&lt;/p&gt;
-
-&lt;p&gt;说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；&lt;br /&gt;
-说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；&lt;br /&gt;
-说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM
-之类的功能，才符合我的期望；&lt;br /&gt;
-最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindle 正式发布</title>
+      <link>https://ioerr.github.io/posts/kindle-zhengshi-fabu/</link>
+      <pubDate>Mon, 19 Nov 2007 17:50:10 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/kindle-zhengshi-fabu/</guid>
+      <description>Amazon 的电子书设备 Kindle 正式发布。 售价399美金； 重量300克左右； 6寸、600×800分辨率、167 dpi、4级灰度的屏幕； 7.5&amp;quot;×5</description>
+      <content:encoded><![CDATA[<p><a href="http://www.amazon.com/">Amazon</a> 的电子书设备<br>
+<a href="http://www.amazon.com/kindle">Kindle</a> 正式发布。</p>
+<p><img loading="lazy" src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-screen2._V4948245_.jpg" alt=""  />
+</p>
+<p><img loading="lazy" src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-whispernet._V4948240_.jpg" alt=""  />
+</p>
+<p><img loading="lazy" src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-ergo._V4948249_.jpg" alt=""  />
+</p>
+<p><img loading="lazy" src="http://g-ecx.images-amazon.com/images/G/01/digital/fiona/dp/v3-keyboard._V4948248_.jpg" alt=""  />
+</p>
+<p>售价399美金；<br>
+重量300克左右；<br>
+6寸、600×800分辨率、167 dpi、4级灰度的屏幕；<br>
+7.5&quot;×5.3&quot;×0.7&quot;的身材；<br>
+256MB 存储空间，其中185MB 用于存储用户的数据，支持4GB SD 卡，USB<br>
+2.0接口；<br>
+充满电耗时2小时，关闭无线功能的情况下可使用1周时间，打开的情况每隔一天充电一次；<br>
+可使用 EVDO（国内就要等 CDMA 2000的现网升级了）；<br>
+88000本书可供选择，可免费试读第一章节；<br>
+与多家报纸杂志合作提供内容；<br>
+可订阅250多个知名<br>
+blog（貌似无法打开网页发表评论），免费无线接入维基百科；<br>
+可搜索、注释、导出批注、保存书签、查询字典、调节字体大小、在线购买书籍；<br>
+耐操能力不错；<br>
+日光下可直接阅读屏幕；<br>
+直接支持的格式包括独家的<br>
+AZW、TXT、Audible2/3/4、MP3，也可以支持经过转换的<br>
+HTML、DOC、JPEG、GIF、PNG、BMP、MOBI、PRC 格式（不支持 PDF）。</p>
+<p>看到以上的规格功能说明和产品外观你会有什么想法？</p>
+<p>说它酷吧，外形土得像旧式的电子门铃和壁挂式电话的综合体，那个分布像掉毛牙刷加传真机面板的键盘尤其扎眼，我以为这是上个世纪的产品…唯一的亮点是两侧翻页板做得很大，不必折磨小小的滚轮或按键；<br>
+说它理念先进、定位独特吧，又赶不上同类产品所获得的好感；<br>
+说它无线接入是特色功能吧，可是一来轻量级的阅读（RSS、电子邮件）交给功能越来越强的智能手机足够了，重量级的阅读（大部头文本）又不需要时时刻刻能够上网，其他在线活动又无法胜任，感觉有点别扭，二来使成本提高了不少；如果去掉无线接入功能能够降低至少一半的售价，或者增加收发邮件（貌似可以接收邮件？）、IM<br>
+之类的功能，才符合我的期望；<br>
+最后，中国的用户自然关心是否完美支持中文字体、输入和提供中文内容的书籍，后者还好说，前者恐怕会是个大难题，搞不好就变成了漫画专用阅读器了，加上网络支持问题，国内恐怕乏人问津。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSS on 读写错误</title>
+    <link>https://ioerr.github.io/tags/css/</link>
+    <description>Recent content in CSS on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更换 Hugo 主题</title>
+      <link>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/genghuan-hugo-zhuti/</guid>
+      <description>一时手痒，将自己修改后用了好几年的 Simplicity 主题，改为了 PaperMod。 同时将 Hugo 程序也升级到了最新版本。 本来是为了实现自带站内搜索功能，而不依赖于</description>
+      <content:encoded><![CDATA[<p>一时手痒，将自己修改后用了好几年的 <a href="https://github.com/eshlox/simplicity">Simplicity</a> 主题，改为了 <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>。<br>
+同时将 <a href="https://gohugo.io/">Hugo</a> 程序也升级到了最新版本。</p>
+<p>本来是为了实现自带站内搜索功能，而不依赖于 <a href="https://programmablesearchengine.google.com/">Programmable Search Engine</a>。<br>
+结果升级和更换主题后，发现一堆设置要改，许多自定义的东西要从头来，且做个记录。</p>
+<p>首先是配置站内搜索，参照主题的帮助文档和示例配置来就行。</p>
+<p>然后是首页风格，从文章列表式改成了简介首页式的。</p>
+<p>页眉的链接通过配置修改。</p>
+<p>变更了默认字体以及微调字体大小——之前的主题调整 CSS 花了不少时间，现在懒了。</p>
+<p>改了网站的副标题：To Input and Output Error is Human.</p>
+<p>发现新版本的 Hugo 仍然默认 markdown 格式不使用硬回车（hard line break）。<br>
+老版本用的 blackfriday 插件，新版本默认用 goldmark，又要改配置（hardWraps）。</p>
+<p>发现新版本的 Hugo 图片资源相对链接变了，历史文章中展示的本地图片全部失效…<br>
+于是又摸索着调整了图片资源目录，以及修改了历史文章中的图片地址。</p>
+<p>RSS 默认不输出全文，修改 RSS 模板配置。<br>
+不过自从由 <a href="https://www.inoreader.com/">Inoreader</a> 切换回本地 RSS 阅读器（<a href="https://github.com/martinrotter/rssguard">RSS Guard</a>），并且针对不同类型的订阅源分别设置是否自动打开原文后，订阅源是否输出全文似乎也没那么重要了。对那些看重访问量、精心设计了页面的 blogger 倒是好事。</p>
+<p>发现新主题默认不启用项目和文章分类，于是增加项目页面，插入分类代码，并且调整为看上去和标签（tag）并列。</p>
+<p>调整日期格式，改为自己更习惯的格式。</p>
+<p>修改生成站点时指定的默认输出目录。</p>
+<p>修改新建文章时的默认模板，改回自己更习惯的格式。</p>
+<p>关闭了主题自带的黑暗模式。</p>
+<p>增加文章大纲功能。</p>
+<p>重新配置 Giscus 评论系统、各种统计脚本。</p>
+<p>迁移 favicon、logo 等静态资源。</p>
+<p>暂时应该没有非改不可的东西了，如果发现有什么不对劲的地方，欢迎留言、来信提醒。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

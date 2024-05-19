@@ -1,48 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>猪流感 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%8C%AA%E6%B5%81%E6%84%9F/</link>
     <description>Recent content in 猪流感 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 03 May 2009 14:43:01 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%8C%AA%E6%B5%81%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>猪流感的起因</title>
-        <link>https://ioerr.github.io/posts/zhuliugan-de-qiyin/</link>
-        <pubDate>Sun, 03 May 2009 14:43:01 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhuliugan-de-qiyin/</guid>
-        <description>&lt;p&gt;猪流感闹得人心惶惶，连 Twitter 那著名的 &lt;a href=&#34;http://failwhale.com/&#34;&gt;Fail
-Whale&lt;/a&gt; 也有了 Fail Pig 版本了：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=fail-pig.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/fail-pig.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;那么猪流感的起因是什么呢？据不靠谱分析，最有可能的原因如下：&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=7611103694299485.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/7611103694299485.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=1240135630163.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/1240135630163.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=80210944942927423.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/80210944942927423.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;你看，它正在甩着哈喇子在空中飞呢！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=8235b4d7a1036e720205618f5a52e696081.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/8235b4d7a1036e720205618f5a52e696081.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同时，我们坚决反对将猪流感的起因栽赃到国人头上的行为：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=53028c88e78257e1a3429de1ee694a15.jpg&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/53028c88e78257e1a3429de1ee694a15.jpg&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;注：猪流感正式称呼是甲型H1N1流感&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%8C%AA%E6%B5%81%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>猪流感的起因</title>
+      <link>https://ioerr.github.io/posts/zhuliugan-de-qiyin/</link>
+      <pubDate>Sun, 03 May 2009 14:43:01 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhuliugan-de-qiyin/</guid>
+      <description>猪流感闹得人心惶惶，连 Twitter 那著名的 Fail Whale 也有了 Fail Pig 版本了： 那么猪流感的起因是什么呢？据不靠谱分析，最有可能的原因如下： 你看，它正在甩着哈喇子在空</description>
+      <content:encoded><![CDATA[<p>猪流感闹得人心惶惶，连 Twitter 那著名的 <a href="http://failwhale.com/">Fail<br>
+Whale</a> 也有了 Fail Pig 版本了：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=fail-pig.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/fail-pig.jpg" alt="Photobucket"  />
+</a></p>
+<p>那么猪流感的起因是什么呢？据不靠谱分析，最有可能的原因如下：<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=7611103694299485.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/7611103694299485.jpg" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=1240135630163.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/1240135630163.jpg" alt="Photobucket"  />
+</a></p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=80210944942927423.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/80210944942927423.jpg" alt="Photobucket"  />
+</a></p>
+<p>你看，它正在甩着哈喇子在空中飞呢！</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=8235b4d7a1036e720205618f5a52e696081.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/8235b4d7a1036e720205618f5a52e696081.jpg" alt="Photobucket"  />
+</a></p>
+<p>同时，我们坚决反对将猪流感的起因栽赃到国人头上的行为：</p>
+<p><a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=53028c88e78257e1a3429de1ee694a15.jpg"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/53028c88e78257e1a3429de1ee694a15.jpg" alt="Photobucket"  />
+</a></p>
+<p>注：猪流感正式称呼是甲型H1N1流感</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

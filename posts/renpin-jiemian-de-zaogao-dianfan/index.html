@@ -1,201 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>人品界面的糟糕典范 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>人品界面的糟糕典范 @ 读写错误</title>
+<meta name="keywords" content="人品界面, 手机, 设计">
+<meta name="description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="人品界面的糟糕典范" />
-<meta property="og:description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：
-1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；
-2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！
-3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；
-4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；
-5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。
-6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？
-7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？
-8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。
-这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；
-9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和 SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；
-10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;#(|\^` 
-而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； 
-
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项： 
-1、输入法； 
-2、确定（开始查找）。 
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？ 
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？ 
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？ 
-
-12、如果将联系人信息复制到 SIM 卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到； 
-
-13、“使用‘确定’键加亮空格，使用0键标记该空格。” 
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？ 
-
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。 
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。 
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候… 
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。 
-
-15、增值服务中有腾讯 QQ 之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。 
-尝试着点击，出来的信息只有“提交成功！” 
-可但是，但可是， 
-提交了什么？ 
-提交给谁了？ 
-提交了又怎样？ 
-为什么要提交？ 
-这项服务究竟是什么东西？ 
-没有人回答你。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/" />
-
-
-
-<meta property="article:published_time" content="2008-07-01T14:33:57&#43;00:00"/>
-
-<meta property="article:modified_time" content="2008-07-01T14:33:57&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="人品界面的糟糕典范">
-<meta itemprop="description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：
-1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；
-2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！
-3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；
-4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；
-5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。
-6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？
-7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？
-8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。
-这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；
-9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和 SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；
-10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;#(|\^` 
-而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； 
-
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项： 
-1、输入法； 
-2、确定（开始查找）。 
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？ 
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？ 
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？ 
-
-12、如果将联系人信息复制到 SIM 卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到； 
-
-13、“使用‘确定’键加亮空格，使用0键标记该空格。” 
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？ 
-
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。 
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。 
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候… 
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。 
-
-15、增值服务中有腾讯 QQ 之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。 
-尝试着点击，出来的信息只有“提交成功！” 
-可但是，但可是， 
-提交了什么？ 
-提交给谁了？ 
-提交了又怎样？ 
-为什么要提交？ 
-这项服务究竟是什么东西？ 
-没有人回答你。">
-
-
-<meta itemprop="datePublished" content="2008-07-01T14:33:57&#43;00:00" />
-<meta itemprop="dateModified" content="2008-07-01T14:33:57&#43;00:00" />
-<meta itemprop="wordCount" content="55">
-
-
-
-<meta itemprop="keywords" content="人品界面,手机,设计," />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="人品界面的糟糕典范"/>
-<meta name="twitter:description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：
-1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；
-2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！
-3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；
-4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；
-5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。
-6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？
-7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？
-8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。
-这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；
-9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和 SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；
-10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;#(|\^` 
-而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； 
-
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项： 
-1、输入法； 
-2、确定（开始查找）。 
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？ 
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？ 
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？ 
-
-12、如果将联系人信息复制到 SIM 卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到； 
-
-13、“使用‘确定’键加亮空格，使用0键标记该空格。” 
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？ 
-
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。 
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。 
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候… 
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。 
-
-15、增值服务中有腾讯 QQ 之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。 
-尝试着点击，出来的信息只有“提交成功！” 
-可但是，但可是， 
-提交了什么？ 
-提交给谁了？ 
-提交了又怎样？ 
-为什么要提交？ 
-这项服务究竟是什么东西？ 
-没有人回答你。"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -206,224 +49,262 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="人品界面的糟糕典范" />
+<meta property="og:description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2008-07-01T14:33:57+00:00" />
+<meta property="article:modified_time" content="2008-07-01T14:33:57+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="人品界面的糟糕典范"/>
+<meta name="twitter:description" content="在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "人品界面的糟糕典范",
+      "item": "https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "人品界面的糟糕典范",
+  "name": "人品界面的糟糕典范",
+  "description": "在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问",
+  "keywords": [
+    "人品界面", "手机", "设计"
+  ],
+  "articleBody": "在今天早上的一次乌龙事件之后，我终于对手头的这个山寨机忍无可忍了！之前说过要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：\n1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；\n2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！\n3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；\n4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；\n5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。\n6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？\n7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？\n8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。\n这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；\n9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和\nSIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；\n10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@\u0026#(|^`\n而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； 11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：\n1、输入法； 2、确定（开始查找）。 在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？\n又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？\n我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？\n12、如果将联系人信息复制到 SIM\n卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；\n13、“使用‘确定’键加亮空格，使用0键标记该空格。” 这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？\n14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。\n懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。\n于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…\n除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。\n15、增值服务中有腾讯 QQ\n之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。\n尝试着点击，出来的信息只有“提交成功！” 可但是，但可是， 提交了什么？ 提交给谁了？ 提交了又怎样？ 为什么要提交？ 这项服务究竟是什么东西？ 没有人回答你。 除了几分钟后发过来的一条要你确认交钱的短信… 根本就是在对你的理解能力进行嘲笑之后最终来一个附加伤害； 16、数据线的一头是不规范的专用接口，另一头虽然是标准 USB\n口，但不能被电脑识别，只能和专用插头连起来充电，可是这个唯一的功能是用来充电的 口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复\nUSB 标准提出者的； 17、如果你的联系人是全部存放在 SIM\n卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！\n没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；\n也没有人告诉你为什么，毕竟宇宙的终极奥秘始终都需要你自己去探索。 18、在号码簿中新增号码之后会直接返回最上级主界面，要想录入之后马上打电话？听刘欢高唱一曲“从头再来”吧。\n",
+  "wordCount" : "2370",
+  "inLanguage": "en",
+  "datePublished": "2008-07-01T14:33:57Z",
+  "dateModified": "2008-07-01T14:33:57Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/renpin-jiemian-de-zaogao-dianfan/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
-    
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2frenpin-jiemian-de-zaogao-dianfan%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      人品界面的糟糕典范
+    </h1>
+    <div class="post-meta"><span title='2008-07-01 14:33:57 +0000 +0000'>2008-7-1</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>在今天早上的一次乌龙事件之后，我终于对<a href="http://calon.weblogs.us/shouji_zhong_de_dahuoji/">手头的这个山寨机</a>忍无可忍了！<a href="http://calon.weblogs.us/shouji_zhong_de_dahuoji/">之前说过</a>要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：</p>
+<p>1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；</p>
+<p>2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！</p>
+<p>3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；</p>
+<p>4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；</p>
+<p>5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。</p>
+<p>6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？</p>
+<p>7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？</p>
+<p>8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。<br>
+这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；</p>
+<p>9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和<br>
+SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；</p>
+<h2 id="口但不能被电脑识别只能和专用插头连起来充电可是这个唯一的功能是用来充电的">10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;#(|^`<br>
+<!-- raw HTML omitted --><br>
+而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； <!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：<br>
+<!-- raw HTML omitted --><br>
+1、输入法； <!-- raw HTML omitted --><br>
+2、确定（开始查找）。 <!-- raw HTML omitted --><br>
+在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？<br>
+<!-- raw HTML omitted --><br>
+又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？<br>
+<!-- raw HTML omitted --><br>
+我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？<br>
+<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+12、如果将联系人信息复制到 SIM<br>
+卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；<br>
+<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+13、“使用‘确定’键加亮空格，使用0键标记该空格。” <!-- raw HTML omitted --><br>
+这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？<br>
+<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。<br>
+<!-- raw HTML omitted --><br>
+懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。<br>
+<!-- raw HTML omitted --><br>
+于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…<br>
+<!-- raw HTML omitted --><br>
+除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。<br>
+<!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+15、增值服务中有腾讯 QQ<br>
+之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。<br>
+<!-- raw HTML omitted --><br>
+尝试着点击，出来的信息只有“提交成功！” <!-- raw HTML omitted --><br>
+可但是，但可是， <!-- raw HTML omitted --><br>
+提交了什么？ <!-- raw HTML omitted --><br>
+提交给谁了？ <!-- raw HTML omitted --><br>
+提交了又怎样？ <!-- raw HTML omitted --><br>
+为什么要提交？ <!-- raw HTML omitted --><br>
+这项服务究竟是什么东西？ <!-- raw HTML omitted --><br>
+没有人回答你。 <!-- raw HTML omitted --><br>
+除了几分钟后发过来的一条要你确认交钱的短信… <!-- raw HTML omitted --><br>
+根本就是在对你的理解能力进行嘲笑之后最终来一个附加伤害； <!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+16、数据线的一头是不规范的专用接口，另一头虽然是标准 USB<br>
+口，但不能被电脑识别，只能和专用插头连起来充电，可是这个唯一的功能是用来充电的</h2>
+<p>口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复<br>
+USB 标准提出者的； <!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+17、如果你的联系人是全部存放在 SIM<br>
+卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！<br>
+<!-- raw HTML omitted --><br>
+没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；<br>
+<!-- raw HTML omitted --><br>
+也没有人告诉你为什么，毕竟宇宙的终极奥秘始终都需要你自己去探索。 <!-- raw HTML omitted --><br>
+<!-- raw HTML omitted --><br>
+18、在号码簿中新增号码之后会直接返回最上级主界面，要想录入之后马上打电话？听刘欢高唱一曲“从头再来”吧。</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://ioerr.github.io/tags/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/">人品界面</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E6%89%8B%E6%9C%BA/">手机</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E8%AE%BE%E8%AE%A1/">设计</a></li>
+      
+        
+          <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
+        
+          <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
+        
+          <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/xiaohe-shuangpin/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>小鹤双拼</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/zongyu-yu-xuwu-zhishang-zhaichao/">
+    <span class="title">Next »</span>
+    <br>
+    <span>《纵欲与虚无之上》摘抄</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2008-07-01 02:33">2008-07-01</time> &bull;
-          
-            
-            <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
-          
-            , 
-            <a href="/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C">百无禁忌</a>
-          
-            , 
-            <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
-          </p>
-      <h1>人品界面的糟糕典范</h1>
-      <p>
-        
-          
-            
-            <a href="/tags/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">
-              <span class="hash">#</span>人品界面</a>
-          
-            , 
-            <a href="/tags/%E6%89%8B%E6%9C%BA">
-              <span class="hash">#</span>手机</a>
-          
-            , 
-            <a href="/tags/%E8%AE%BE%E8%AE%A1">
-              <span class="hash">#</span>设计</a>
-          
-        
-      </p>
-    </header>
-    <section>
-
-<p>在今天早上的一次乌龙事件之后，我终于对<a href="http://calon.weblogs.us/shouji_zhong_de_dahuoji/">手头的这个山寨机</a>忍无可忍了！<a href="http://calon.weblogs.us/shouji_zhong_de_dahuoji/">之前说过</a>要揭批它可耻的人品界面，那么今天就是最好的时候！这回把上次提到的问题一起列出来，让大家好好看看人品设计可以糟糕到什么程度：</p>
-
-<p>1、如果用户写完短信准备保存草稿或发送的时候，发现短信空间已经用完了，作为一个负责任的手机应该怎么处理？是不是应该提示：是否删除最老的信息腾出空间呢？没有，它只会提示一句：空间已满，然后等待你对一个悲剧按下“确认”按钮，然后你就会发现之前所写的草稿就从这个世界消失了；</p>
-
-<p>2、电话簿没有快速定位功能！要么你就老老实实的一路翻下去，要么效率很低的输入汉字进行查找。这一招的目的是让用户对不够大的电话簿空间感到庆幸而不是抱怨吗？好吧，你赢了！</p>
-
-<p>3、无法更改默认输入法，也无法记忆上一次选用的输入法，即使是在同一个屏幕中，切换到下一个输入框，输入法也会自动跳回到默认状态。如果你是一个手机上的笔画输入法爱好者，维护电话簿绝对会让你对人生失去信心；</p>
-
-<p>4、浏览电话簿的时候，人名下方会自动出现对应的默认号码，但是在浏览通话记录的时候，为什么没有这个功能？要想看联系人的号码，必须点击两次看详细信息；</p>
-
-<p>5、通话记录中的图标让人迷茫。呼入和呼出的图标差别只在于箭头的方向，但好死不死呼入通话图标的箭头是指向联系人名字的，呼出通话的图标箭头则相反。</p>
-
-<p>6、在短信编辑界面要发送短信应该按哪个键？左键是调出选项菜单，但其中没有发送操作的选项，右键是清除，正确答案是呼叫键。是的，很多手机都是用呼叫键直接发送短信，但在选项菜单中就不能增加一个让菜鸟用户明白的项目吗？</p>
-
-<p>7、玩游戏的时候，按下右键是返回上级菜单。可是它既不会询问你是否真的要退出，也不会为你保留游戏状态，直接就中断了，返回之后一切归零，成功的营造出了一种恍然如隔世的感觉。退出游戏不能保存上次游戏状态倒也罢了，为什么没有任何确认提示就退出？覆水难收的教训我在现实生活中已经学到太多，不需要俄罗斯方块来教我好不好？</p>
-
-<p>8、可以建立联系人群组，但只能够在群组管理界面向指定的群组群发短信。而在短信编辑界面，你能够做的只有向单个联系人发短信，顶多一个个添加联系人。<br />
-这样做到也不是没有好处：一、你可以趁此机会重温一下那些在电话簿中沉睡万年的曾经熟悉的名字，从而让你们之间的友谊之光重新发出璀璨的光芒；二，很快你就会厌倦这样的群发短信操作，于是在肉价与油价齐飞的今天，你又可以节省一点支出了；唯一的坏处是确实会产生在现实中把联系人统统都干掉以便精简操作的念头；</p>
-
-<p>9、日期时间设置为什么会在个性化设置菜单里面啊？！难道使用火星或火奴鲁鲁时间会显得我很有个性？而且这款山寨机连电容都吝啬，每次更换电池和
-SIM 卡――甚至只是把背壳取下来――都要重新设置日期时间；</p>
-
-<p>10、快速符号表中，初始位置的符号是空格，距离初始位置最近的8个符号是：@&amp;#(|\^`
-</br><br />
-而输入“,”要移动4次，“.”要6次。这个世界真是太悲哀了； </br><br />
-</br><br />
-11、号码簿选项菜单支持数字快捷键，如调出选项菜单后点击6可以开始查找，但是输入要寻找的文字后，既不是按确定键也不是按拨号键开始查找，而是必须按左软键调出又一个选项菜单。而这个菜单只有两个选项：
-</br><br />
-1、输入法； </br><br />
-2、确定（开始查找）。 </br><br />
-在输入要查找文字的界面上有切换输入法快捷键的情况下，有多少用户会调出菜单切换输入法？
-</br><br />
-又为什么要把几乎每个用户都会按到的“确定”选项放在第二的位置？而且这一次连数字快捷键也不提供了？
-</br><br />
-我要确认开始搜索还需要按3个按键，设计者是不是觉得有的按键的质量和使用寿命超出了预期？
-</br><br />
-</br><br />
-12、如果将联系人信息复制到 SIM
-卡，那么在号码簿中手机和卡上的联系人都可以看到，但如果拔出卡并清空手机上的号码簿，再插回卡的时候，便看不到卡上的联系人信息了。这个时候你只能选择将卡上的联系人复制到手机号码簿――对，你是看不到卡中的信息，但它就是可以看得到，而且就是不让你看到；
-</br><br />
-</br><br />
-13、“使用‘确定’键加亮空格，使用0键标记该空格。” </br><br />
-这是手机上扫雷游戏的说明文字。我想问的只有一句：设计者知道“确定”键和“0”键距离有多远吗？
-</br><br />
-</br><br />
-14、你相信吗？设定每日闹钟时，你能够选择的只有闹铃的时间和铃音，而且只有一组闹铃。
-</br><br />
-懒人模式重复响铃？你够本找不到开关在哪里！更不用说调整间隔时间和响铃次数了。
-</br><br />
-于是早上的时候每隔一分钟（！）我就被闹铃骚扰一次，而且至今不知如果不手动终止，它会响铃到什么时候…
-</br><br />
-除了右键用于暂停之外，按下其他键都会导致退出懒人模式。也就是说如果你在迷迷糊糊中没有正确的按中那唯一的按键，就等着睡过头吧。
-</br><br />
-</br><br />
-15、增值服务中有腾讯 QQ
-之类的子项目，如缘分交友、快捷菜单等等，但是无任何说明，恕我鲁钝，我无法光从名字就理解其全部服务的深刻内涵。
-</br><br />
-尝试着点击，出来的信息只有“提交成功！” </br><br />
-可但是，但可是， </br><br />
-提交了什么？ </br><br />
-提交给谁了？ </br><br />
-提交了又怎样？ </br><br />
-为什么要提交？ </br><br />
-这项服务究竟是什么东西？ </br><br />
-没有人回答你。 </br><br />
-除了几分钟后发过来的一条要你确认交钱的短信… </br><br />
-根本就是在对你的理解能力进行嘲笑之后最终来一个附加伤害； </br><br />
-</br><br />
-16、数据线的一头是不规范的专用接口，另一头虽然是标准 USB</p>
-
-<h2 id="口-但不能被电脑识别-只能和专用插头连起来充电-可是这个唯一的功能是用来充电的">口，但不能被电脑识别，只能和专用插头连起来充电，可是这个唯一的功能是用来充电的</h2>
-
-<p>口有时候会松脱，导致充电失败——也就是说，它成功的使用户以为可以导入导出数据，却连基本的本职工作都会搞砸…我觉得手机的设计者如此设计纯粹就是为了丧心病狂的报复
-USB 标准提出者的； </br><br />
-</br><br />
-17、如果你的联系人是全部存放在 SIM
-卡上的，那么你将永远也看不到群组操作的选项。嘿，杰克，这真是太神奇了！
-</br><br />
-没有人在你找不到群组设置方法的时候给个提示，毕竟旁人不可能一直帮助你；
-</br><br />
-也没有人告诉你为什么，毕竟宇宙的终极奥秘始终都需要你自己去探索。 </br><br />
-</br><br />
-18、在号码簿中新增号码之后会直接返回最上级主界面，要想录入之后马上打电话？听刘欢高唱一曲“从头再来”吧。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e4%ba%ba%e5%93%81%e7%95%8c%e9%9d%a2%e7%9a%84%e7%b3%9f%e7%b3%95%e5%85%b8%e8%8c%83》&body=https%3a%2f%2fioerr.github.io%2fposts%2frenpin-jiemian-de-zaogao-dianfan%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2frenpin-jiemian-de-zaogao-dianfan%2f&text= @calon %e4%ba%ba%e5%93%81%e7%95%8c%e9%9d%a2%e7%9a%84%e7%b3%9f%e7%b3%95%e5%85%b8%e8%8c%83&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -442,5 +323,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

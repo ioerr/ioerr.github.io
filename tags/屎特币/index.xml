@@ -1,59 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>屎特币 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B1%8E%E7%89%B9%E5%B8%81/</link>
     <description>Recent content in 屎特币 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B1%8E%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>屎特币</title>
-        <link>https://ioerr.github.io/posts/shit-coin/</link>
-        <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shit-coin/</guid>
-        <description>&lt;p&gt;看到最近炒作&lt;a href=&#34;https://www.shibatoken.com/&#34;&gt;狗狗币 SHIB（Shiba Inu Coin/Shiba Token）&lt;/a&gt;，忽然想到能否搞一个“屎特币”（Shit Coin）出来。&lt;/p&gt;
-
-&lt;p&gt;其优点随便数数就有许多：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;屎，自古以来早有“黄金”之称，比信息时代才出现的比特概念早到不知道哪里去了；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以通过生物特征（残留的人体组织、细菌的 DNA 片段）保证其唯一性；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;产量受粮食资源限制，吃多少拉多少，不会无限制超发；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以通过拉稀实现无限可分；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可以随身携带，落地交易；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;交易所随处可见；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;不会浪费电力、计算力、磁盘空间，比其他虚拟币环保多了；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;可降解、施肥、发电，内含价值；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;人人皆可产出且产量相近，真正的去中心和属于人民的货币！&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;简直前途无量，只要你能说服对方相信它的价值（或者升值潜力）！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/mrseaox&#34;&gt;Mr. Sea Ox&lt;/a&gt; 则在这之前宣布他发明了 &lt;a href=&#34;https://twitter.com/mrseaox/status/1387201052622082053&#34;&gt;Proof-of-Shit&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;证明自己大便后即可挖矿拿币，消化系统资源有限&lt;br /&gt;
-第一天，所有人拼命吃饭挖矿不浪费，药店泻药售罄&lt;br /&gt;
-第二天，有余粮的财主们找穷人免费提供给食宿代其 PoS，当然都配了洗手间&lt;br /&gt;
-第三天，非洲儿童都吃上了饭&lt;br /&gt;
-之后，粮食问题，贫穷和饥饿的问题都解决了&lt;br /&gt;
-盛世无饥馁，何须耕织忙？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;注：币圈已经有 Shitcoin 的说法，一般是指无价值的垃圾数字货币。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B1%8E%E7%89%B9%E5%B8%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>屎特币</title>
+      <link>https://ioerr.github.io/posts/shit-coin/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shit-coin/</guid>
+      <description>看到最近炒作狗狗币 SHIB（Shiba Inu Coin/Shiba Token），忽然想到能否搞一个“屎特币”（Shit Coin）出来。 其优点随便数数就有许多： 屎，自</description>
+      <content:encoded><![CDATA[<p>看到最近炒作<a href="https://www.shibatoken.com/">狗狗币 SHIB（Shiba Inu Coin/Shiba Token）</a>，忽然想到能否搞一个“屎特币”（Shit Coin）出来。</p>
+<p>其优点随便数数就有许多：</p>
+<ul>
+<li>屎，自古以来早有“黄金”之称，比信息时代才出现的比特概念早到不知道哪里去了；</li>
+<li>可以通过生物特征（残留的人体组织、细菌的 DNA 片段）保证其唯一性；</li>
+<li>产量受粮食资源限制，吃多少拉多少，不会无限制超发；</li>
+<li>可以通过拉稀实现无限可分；</li>
+<li>可以随身携带，落地交易；</li>
+<li>交易所随处可见；</li>
+<li>不会浪费电力、计算力、磁盘空间，比其他虚拟币环保多了；</li>
+<li>可降解、施肥、发电，内含价值；</li>
+<li>人人皆可产出且产量相近，真正的去中心和属于人民的货币！</li>
+</ul>
+<p>简直前途无量，只要你能说服对方相信它的价值（或者升值潜力）！</p>
+<p><a href="https://twitter.com/mrseaox">Mr. Sea Ox</a> 则在这之前宣布他发明了 <a href="https://twitter.com/mrseaox/status/1387201052622082053">Proof-of-Shit</a>：</p>
+<blockquote>
+<p>证明自己大便后即可挖矿拿币，消化系统资源有限<br>
+第一天，所有人拼命吃饭挖矿不浪费，药店泻药售罄<br>
+第二天，有余粮的财主们找穷人免费提供给食宿代其 PoS，当然都配了洗手间<br>
+第三天，非洲儿童都吃上了饭<br>
+之后，粮食问题，贫穷和饥饿的问题都解决了<br>
+盛世无饥馁，何须耕织忙？</p>
+</blockquote>
+<p>注：币圈已经有 Shitcoin 的说法，一般是指无价值的垃圾数字货币。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

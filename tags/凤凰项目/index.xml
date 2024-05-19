@@ -1,40 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>凤凰项目 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%87%A4%E5%87%B0%E9%A1%B9%E7%9B%AE/</link>
     <description>Recent content in 凤凰项目 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%87%A4%E5%87%B0%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>创造真诚的环境</title>
-        <link>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</link>
-        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</guid>
-        <description>&lt;p&gt;《凤凰项目》的作者说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我现在的愿望是，在生活的各方面，都不要惧怕冲突，不怕说出真相，不怕说出真实的想法。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但不惧冲突诚实说话总是很难，特别是当我们所处的环境会惩罚诚实而奖励虚伪时。&lt;br /&gt;
-此时责怪或嘲笑他人不愿坦诚相告毫无意义，应该问的是 “我该做些什么才能创造让你不再恐惧的环境？”&lt;/p&gt;
-
-&lt;p&gt;拥有惩罚权力的人，比如管理者，或者不需要带着镣铐的人，比如置身事外的人，无法体会这种恐惧，完全不认为自己可能也有责任参与摧毁了组织中真诚与信任的基础。相反，恐惧氛围让人不敢诚实表达，短期内会让问题看上去少很多，旁观者不明就里，而管理者动机十足。&lt;/p&gt;
-
-&lt;p&gt;所以一个组织的管理者最重要的品质，就包括洞察和精确定位组织服务的目的，设置与这个目的相匹配的绩效指标，以及建立不会扭曲绩效指标偏离目的的组织文化，以便创造组织人员愿意真诚交流的环境，避免信息传递扭曲失真，进而影响整个系统的架构。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%87%A4%E5%87%B0%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>创造真诚的环境</title>
+      <link>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chuangzao-zhencheng-de-huanjing/</guid>
+      <description>《凤凰项目》的作者说： 我现在的愿望是，在生活的各方面，都不要惧怕冲突，不怕说出真相，不怕说出真实的想法。 但不惧冲突诚实说话总是很难，特别是当</description>
+      <content:encoded><![CDATA[<p>《凤凰项目》的作者说：</p>
+<blockquote>
+<p>我现在的愿望是，在生活的各方面，都不要惧怕冲突，不怕说出真相，不怕说出真实的想法。</p>
+</blockquote>
+<p>但不惧冲突诚实说话总是很难，特别是当我们所处的环境会惩罚诚实而奖励虚伪时。<br>
+此时责怪或嘲笑他人不愿坦诚相告毫无意义，应该问的是 “我该做些什么才能创造让你不再恐惧的环境？”</p>
+<p>拥有惩罚权力的人，比如管理者，或者不需要带着镣铐的人，比如置身事外的人，无法体会这种恐惧，完全不认为自己可能也有责任参与摧毁了组织中真诚与信任的基础。相反，恐惧氛围让人不敢诚实表达，短期内会让问题看上去少很多，旁观者不明就里，而管理者动机十足。</p>
+<p>所以一个组织的管理者最重要的品质，就包括洞察和精确定位组织服务的目的，设置与这个目的相匹配的绩效指标，以及建立不会扭曲绩效指标偏离目的的组织文化，以便创造组织人员愿意真诚交流的环境，避免信息传递扭曲失真，进而影响整个系统的架构。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

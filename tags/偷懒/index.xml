@@ -1,41 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>偷懒 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%81%B7%E6%87%92/</link>
     <description>Recent content in 偷懒 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 31 May 2008 01:44:14 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%81%B7%E6%87%92/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Read at Work</title>
-        <link>https://ioerr.github.io/posts/read-at-work/</link>
-        <pubDate>Sat, 31 May 2008 01:44:14 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/read-at-work/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://www.readatwork.com/&#34;&gt;Read at
-Work&lt;/a&gt;，顾名思义，就是让你在工作时偷时间读书的服务…&lt;br /&gt;
-它把文学作品做成幻灯片的形式，读者在 Web
-虚拟桌面中打开阅读，看上去就像正在看 PPT 材料…&lt;/p&gt;
-
-&lt;p&gt;比如《动物庄园》中的动物宣言幻灯片版…&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-05-31_084722.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-05-31_084722.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;遗憾的是，只有英文的少量书籍可以阅读。不过这给了我们很好的启发，因为重要的不是
-Web 桌面，而是把书籍伪装成幻灯片嘛。&lt;/p&gt;
-
-&lt;p&gt;比如这样？&lt;br /&gt;
-&lt;a href=&#34;http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;amp;current=2008-05-31_092353.png&#34;&gt;&lt;img src=&#34;http://i111.photobucket.com/albums/n154/calon_plus/2008-05-31_092353.png&#34; alt=&#34;Photobucket&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%81%B7%E6%87%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read at Work</title>
+      <link>https://ioerr.github.io/posts/read-at-work/</link>
+      <pubDate>Sat, 31 May 2008 01:44:14 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/read-at-work/</guid>
+      <description>Read at Work，顾名思义，就是让你在工作时偷时间读书的服务… 它把文学作品做成幻灯片的形式，读者在 Web 虚拟桌面中打开阅读，看上去就像正在看 PPT 材料…</description>
+      <content:encoded><![CDATA[<p><a href="http://www.readatwork.com/">Read at<br>
+Work</a>，顾名思义，就是让你在工作时偷时间读书的服务…<br>
+它把文学作品做成幻灯片的形式，读者在 Web<br>
+虚拟桌面中打开阅读，看上去就像正在看 PPT 材料…</p>
+<p>比如《动物庄园》中的动物宣言幻灯片版…<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-05-31_084722.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-05-31_084722.png" alt="Photobucket"  />
+</a></p>
+<p>遗憾的是，只有英文的少量书籍可以阅读。不过这给了我们很好的启发，因为重要的不是<br>
+Web 桌面，而是把书籍伪装成幻灯片嘛。</p>
+<p>比如这样？<br>
+<a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2008-05-31_092353.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2008-05-31_092353.png" alt="Photobucket"  />
+</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

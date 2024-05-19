@@ -1,32 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>剧透 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%89%A7%E9%80%8F/</link>
     <description>Recent content in 剧透 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 19 Aug 2007 08:11:14 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%89%A7%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>剧透服务</title>
-        <link>https://ioerr.github.io/posts/jutou-fuwu/</link>
-        <pubDate>Sun, 19 Aug 2007 08:11:14 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jutou-fuwu/</guid>
-        <description>&lt;p&gt;话说就没有一个专门用来剧透的网络服务么？&lt;/p&gt;
-
-&lt;p&gt;那些对剧透彻底免疫的人类，比如在下，对某个烂片的结尾有兴趣又觉得没有必要看完整部电影；&lt;br /&gt;
-以及追求&lt;a href=&#34;http://blog.sina.com.cn/u/561ee475010009ja&#34;&gt;剧透艺术&lt;/a&gt;的人类，比如马亲王，需要一个进行这种行为学艺术创作而不至于被广大人民群众唾弃的空间。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%89%A7%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>剧透服务</title>
+      <link>https://ioerr.github.io/posts/jutou-fuwu/</link>
+      <pubDate>Sun, 19 Aug 2007 08:11:14 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jutou-fuwu/</guid>
+      <description>话说就没有一个专门用来剧透的网络服务么？ 那些对剧透彻底免疫的人类，比如在下，对某个烂片的结尾有兴趣又觉得没有必要看完整部电影； 以及追求剧透艺</description>
+      <content:encoded><![CDATA[<p>话说就没有一个专门用来剧透的网络服务么？</p>
+<p>那些对剧透彻底免疫的人类，比如在下，对某个烂片的结尾有兴趣又觉得没有必要看完整部电影；<br>
+以及追求<a href="http://blog.sina.com.cn/u/561ee475010009ja">剧透艺术</a>的人类，比如马亲王，需要一个进行这种行为学艺术创作而不至于被广大人民群众唾弃的空间。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

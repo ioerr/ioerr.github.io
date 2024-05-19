@@ -1,41 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>赤壁 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%B5%A4%E5%A3%81/</link>
     <description>Recent content in 赤壁 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 14 Jan 2009 15:10:15 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%B5%A4%E5%A3%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>赤壁</title>
-        <link>https://ioerr.github.io/posts/chibi/</link>
-        <pubDate>Wed, 14 Jan 2009 15:10:15 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chibi/</guid>
-        <description>&lt;p&gt;为什么一些名著有那么多背离史实的情节仍然能够成为经典？因为许多“改编剧情”都是为了塑造丰满、一致、合理、可信的人物形象服务的。&lt;/p&gt;
-
-&lt;p&gt;艺术作品改编甚至伪造历史并不是什么不可接受的事情，但是无论增删改都要为同一个目的服务，不能够让你创造的人物、故事和整个氛围被割裂成几大块互不融合的形状。&lt;/p&gt;
-
-&lt;p&gt;这也许就是《莫扎特传/Amadeus》、《三国演义》是经典，而《梅兰芳》、《赤壁》只能用来赚票房的原因吧。&lt;/p&gt;
-
-&lt;p&gt;附：&lt;/p&gt;
-
-&lt;p&gt;曹操兵下江南，疾疫盛行，遂有罢兵之意，然支出庞大，财政紧张，于是纵火骗保，不料为孙权所乘，陪了保单又折兵，怀揣零钞仓惶北奔，于华容道受关羽赠金百两乃还&lt;/p&gt;
-
-&lt;p&gt;曹操对小乔说：“不折腾。”&lt;/p&gt;
-
-&lt;p&gt;东汉末年就发明了贝斯&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%B5%A4%E5%A3%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>赤壁</title>
+      <link>https://ioerr.github.io/posts/chibi/</link>
+      <pubDate>Wed, 14 Jan 2009 15:10:15 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chibi/</guid>
+      <description>为什么一些名著有那么多背离史实的情节仍然能够成为经典？因为许多“改编剧情”都是为了塑造丰满、一致、合理、可信的人物形象服务的。 艺术作品改编甚</description>
+      <content:encoded><![CDATA[<p>为什么一些名著有那么多背离史实的情节仍然能够成为经典？因为许多“改编剧情”都是为了塑造丰满、一致、合理、可信的人物形象服务的。</p>
+<p>艺术作品改编甚至伪造历史并不是什么不可接受的事情，但是无论增删改都要为同一个目的服务，不能够让你创造的人物、故事和整个氛围被割裂成几大块互不融合的形状。</p>
+<p>这也许就是《莫扎特传/Amadeus》、《三国演义》是经典，而《梅兰芳》、《赤壁》只能用来赚票房的原因吧。</p>
+<p>附：</p>
+<p>曹操兵下江南，疾疫盛行，遂有罢兵之意，然支出庞大，财政紧张，于是纵火骗保，不料为孙权所乘，陪了保单又折兵，怀揣零钞仓惶北奔，于华容道受关羽赠金百两乃还</p>
+<p>曹操对小乔说：“不折腾。”</p>
+<p>东汉末年就发明了贝斯</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

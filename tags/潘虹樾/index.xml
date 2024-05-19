@@ -1,66 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>潘虹樾 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%BD%98%E8%99%B9%E6%A8%BE/</link>
     <description>Recent content in 潘虹樾 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 17 Jul 2009 17:40:25 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%BD%98%E8%99%B9%E6%A8%BE/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>简评快女十强</title>
-        <link>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</link>
-        <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</guid>
-        <description>&lt;p&gt;刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：&lt;/p&gt;
-
-&lt;p&gt;1、郁可唯&lt;br /&gt;
-今天选歌很成功，第一轮拿到最高分有些过分，但车轮战胜出没有争议。&lt;br /&gt;
-之前偶尔几次看快女节目都没有看到她的表现，以为水平中等，现在看来只要能够保持风格，进入三甲是很有可能的。&lt;/p&gt;
-
-&lt;p&gt;2、李霄云&lt;br /&gt;
-无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合
-R&amp;B; 风格的问题。&lt;/p&gt;
-
-&lt;p&gt;3、刘惜君&lt;br /&gt;
-第一次完整听她唱歌，之前只是看过一次清唱 PK。&lt;br /&gt;
-对气息的控制很见功力，选歌从不冒险，不会随便丢分。应该至少进入前三吧。&lt;/p&gt;
-
-&lt;p&gt;4、江映蓉&lt;br /&gt;
-相当有活力有感染力，声音条件也比谈莉娜好得多。但她的选歌起伏太大，有的时候很不讨巧大众。&lt;/p&gt;
-
-&lt;p&gt;5、潘虹樾&lt;br /&gt;
-感觉她实力不算出众，不过今晚最后一首歌即使不完美，也唱出了荡气回肠的气势。&lt;/p&gt;
-
-&lt;p&gt;6、曾轶可&lt;br /&gt;
-争议最大的选手。感觉她的创作风格大同小异，总以为翻来覆去听的是同一首歌。&lt;br /&gt;
-唱歌的基本功就不说了，就算说是靠着特色的创作受到音乐界人士的喜爱走到全国十强，也只能说明大陆的创作水准太差了，竟然为这样的水平而惊艳。&lt;/p&gt;
-
-&lt;p&gt;7、谈莉娜&lt;br /&gt;
-外形和风范是我最喜欢的一位，台风极佳，感染力极强，真的很有明星的味道。&lt;br /&gt;
-希望她能够多唱唱莫文蔚的快歌。&lt;br /&gt;
-只是怕一招不慎就可能被挡在7强门外，毕竟唱功实力不敢恭维。&lt;/p&gt;
-
-&lt;p&gt;8、李媛希&lt;br /&gt;
-没有任何特色和亮点可言。我能够想到的就是缩水版的蔡依林。&lt;/p&gt;
-
-&lt;p&gt;9、黄英&lt;br /&gt;
-上一次听到她唱《阿里山的姑娘》就已经非常失败了，没想到今天唱了一个更加失败的《明月几时有》。&lt;br /&gt;
-她的声音辨识度再高，也要选择适合的歌曲来演绎才行，今天输给不在状态的谈莉娜一点也不冤枉。&lt;/p&gt;
-
-&lt;p&gt;10、潘辰&lt;br /&gt;
-抓住像《爱如潮水》这样的歌曲可以让人眼前一亮，但劲歌热舞显然非其所长，舞蹈动作极其不自然，声音处理漫不经心没有任何修饰。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%BD%98%E8%99%B9%E6%A8%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简评快女十强</title>
+      <link>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</link>
+      <pubDate>Fri, 17 Jul 2009 17:40:25 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jianping-kuainv-shiqiang/</guid>
+      <description>刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下： 1、郁可唯 今天选歌很成功，第一轮拿到最高分有些过分，但车轮战</description>
+      <content:encoded><![CDATA[<p>刚刚看完了这一届的快乐女生10强赛第一轮，恐怕看不到之后的比赛了，逐个点评一下：</p>
+<p>1、郁可唯<br>
+今天选歌很成功，第一轮拿到最高分有些过分，但车轮战胜出没有争议。<br>
+之前偶尔几次看快女节目都没有看到她的表现，以为水平中等，现在看来只要能够保持风格，进入三甲是很有可能的。</p>
+<p>2、李霄云<br>
+无论高低都能够唱出水平，我一直觉得她有冠军的实力，但今天暴露了不适合<br>
+R&amp;B; 风格的问题。</p>
+<p>3、刘惜君<br>
+第一次完整听她唱歌，之前只是看过一次清唱 PK。<br>
+对气息的控制很见功力，选歌从不冒险，不会随便丢分。应该至少进入前三吧。</p>
+<p>4、江映蓉<br>
+相当有活力有感染力，声音条件也比谈莉娜好得多。但她的选歌起伏太大，有的时候很不讨巧大众。</p>
+<p>5、潘虹樾<br>
+感觉她实力不算出众，不过今晚最后一首歌即使不完美，也唱出了荡气回肠的气势。</p>
+<p>6、曾轶可<br>
+争议最大的选手。感觉她的创作风格大同小异，总以为翻来覆去听的是同一首歌。<br>
+唱歌的基本功就不说了，就算说是靠着特色的创作受到音乐界人士的喜爱走到全国十强，也只能说明大陆的创作水准太差了，竟然为这样的水平而惊艳。</p>
+<p>7、谈莉娜<br>
+外形和风范是我最喜欢的一位，台风极佳，感染力极强，真的很有明星的味道。<br>
+希望她能够多唱唱莫文蔚的快歌。<br>
+只是怕一招不慎就可能被挡在7强门外，毕竟唱功实力不敢恭维。</p>
+<p>8、李媛希<br>
+没有任何特色和亮点可言。我能够想到的就是缩水版的蔡依林。</p>
+<p>9、黄英<br>
+上一次听到她唱《阿里山的姑娘》就已经非常失败了，没想到今天唱了一个更加失败的《明月几时有》。<br>
+她的声音辨识度再高，也要选择适合的歌曲来演绎才行，今天输给不在状态的谈莉娜一点也不冤枉。</p>
+<p>10、潘辰<br>
+抓住像《爱如潮水》这样的歌曲可以让人眼前一亮，但劲歌热舞显然非其所长，舞蹈动作极其不自然，声音处理漫不经心没有任何修饰。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

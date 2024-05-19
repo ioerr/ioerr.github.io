@@ -1,52 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>隐士 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E9%9A%90%E5%A3%AB/</link>
     <description>Recent content in 隐士 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 24 Jul 2021 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E9%9A%90%E5%A3%AB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>隐士</title>
-        <link>https://ioerr.github.io/posts/yinshi/</link>
-        <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinshi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/zhangyouruo/status/1335091693784158208&#34;&gt;丁不二&lt;/a&gt;：&lt;br /&gt;
-&lt;a href=&#34;https://t.co/LohRefUVXy&#34;&gt;住山10天，我决定离开终南山&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;即使同在一座山上，人与人之间也相隔如此之远，文化、阶级的差距依旧存在，阻碍着丽丽进入这个世界。&lt;/p&gt;
-
-&lt;p&gt;也许对于这座山来说，你上山之前属于哪里，上山以后也还是属于哪里。&lt;/p&gt;
-
-&lt;p&gt;汤臣一品是位于上海浦东的豪华社区。生活在终南山上，隐居者也没有忘记对比世俗的生活：“你别看那些人住着上万一平米的房子，其实生活得哪里有我们住山的人幸福。越是那些有钱人啊，他们的杂念越是多。晚上都睡不着觉的。”&lt;/p&gt;
-
-&lt;p&gt;无论多么想要超脱现世，寻求精神慰藉，人都不得不面对着自己沉重的肉身。&lt;/p&gt;
-
-&lt;p&gt;有新闻报道，在终南山隐修者最集中的废弃古村——大峪口安上村里，就曾发生外来隐修者偷盗抢劫、打架斗殴等一系列治安案件。当地警方逐一盘查外来隐修者身份，查获了数名通缉犯。&lt;/p&gt;
-
-&lt;p&gt;出自隐居终南数十年的一位和尚：“如果人静，那么他们在哪里都能静下来；如果人不静，那么他们就是在这里也静不下来……只要你不受欲望的困扰，只要你的心不被妄想左右，那么你是出家人还是在家人，根本没有什么区别……”&lt;/p&gt;
-
-&lt;p&gt;以上这些所谓的隐居者都应该向克里斯多夫·托马斯·奈特好好学习&lt;br /&gt;
-&lt;a href=&#34;https://t.co/VxHIDQnbH9&#34;&gt;享受30年孤寂后，一个真正的隐士如何被粗暴绑架回庸俗的生活&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1418432980968566787&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-靠偷来的燃气炉才能活下去的不是真隐士…&lt;/p&gt;
-
-&lt;p&gt;人除了智力优势外，还有基于共情理解、语言交流、假想构建、规划设计的社会组织协作能力，用来大规模生产和改造，提供更好的保障环境，不至于为了生存日日殚精竭虑。&lt;/p&gt;
-
-&lt;p&gt;重视个人，是为了抗衡社会这一没有自主意识的集体概念吞噬个体实体，防止整个群体集体发狂，或者沦为互相残杀的工具。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E9%9A%90%E5%A3%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>隐士</title>
+      <link>https://ioerr.github.io/posts/yinshi/</link>
+      <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinshi/</guid>
+      <description>丁不二： 住山10天，我决定离开终南山 即使同在一座山上，人与人之间也相隔如此之远，文化、阶级的差距依旧存在，阻碍着丽丽进入这个世界。 也许对于这</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/zhangyouruo/status/1335091693784158208">丁不二</a>：<br>
+<a href="https://t.co/LohRefUVXy">住山10天，我决定离开终南山</a></p>
+<p>即使同在一座山上，人与人之间也相隔如此之远，文化、阶级的差距依旧存在，阻碍着丽丽进入这个世界。</p>
+<p>也许对于这座山来说，你上山之前属于哪里，上山以后也还是属于哪里。</p>
+<p>汤臣一品是位于上海浦东的豪华社区。生活在终南山上，隐居者也没有忘记对比世俗的生活：“你别看那些人住着上万一平米的房子，其实生活得哪里有我们住山的人幸福。越是那些有钱人啊，他们的杂念越是多。晚上都睡不着觉的。”</p>
+<p>无论多么想要超脱现世，寻求精神慰藉，人都不得不面对着自己沉重的肉身。</p>
+<p>有新闻报道，在终南山隐修者最集中的废弃古村——大峪口安上村里，就曾发生外来隐修者偷盗抢劫、打架斗殴等一系列治安案件。当地警方逐一盘查外来隐修者身份，查获了数名通缉犯。</p>
+<p>出自隐居终南数十年的一位和尚：“如果人静，那么他们在哪里都能静下来；如果人不静，那么他们就是在这里也静不下来……只要你不受欲望的困扰，只要你的心不被妄想左右，那么你是出家人还是在家人，根本没有什么区别……”</p>
+<p>以上这些所谓的隐居者都应该向克里斯多夫·托马斯·奈特好好学习<br>
+<a href="https://t.co/VxHIDQnbH9">享受30年孤寂后，一个真正的隐士如何被粗暴绑架回庸俗的生活</a></p>
+<p><a href="https://twitter.com/calon/status/1418432980968566787">Calon</a>：<br>
+靠偷来的燃气炉才能活下去的不是真隐士…</p>
+<p>人除了智力优势外，还有基于共情理解、语言交流、假想构建、规划设计的社会组织协作能力，用来大规模生产和改造，提供更好的保障环境，不至于为了生存日日殚精竭虑。</p>
+<p>重视个人，是为了抗衡社会这一没有自主意识的集体概念吞噬个体实体，防止整个群体集体发狂，或者沦为互相残杀的工具。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

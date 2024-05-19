@@ -1,41 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>迪士尼 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%BF%AA%E5%A3%AB%E5%B0%BC/</link>
     <description>Recent content in 迪士尼 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 20 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%BF%AA%E5%A3%AB%E5%B0%BC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>狮子王</title>
-        <link>https://ioerr.github.io/posts/shiziwang/</link>
-        <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shiziwang/</guid>
-        <description>&lt;p&gt;一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。&lt;/p&gt;
-
-&lt;p&gt;看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全是天性使然哈哈哈。&lt;/p&gt;
-
-&lt;p&gt;原版的峡谷奔牛一幕，有一个辛巴的正面特写和非常明显的希区柯克变焦。新版去掉了这一表现，感觉效果弱了很多。&lt;br /&gt;
-还有，新加的两首歌曲比不上原版中的任何一首。&lt;/p&gt;
-
-&lt;p&gt;二次元动画中的动物可以看作动物，但活灵活现会说话的三次元动物形象就有点人类的感觉了。&lt;br /&gt;
-二次元世界可以接受的拟人世界观，放在写实风格的三次元就很奇怪。&lt;br /&gt;
-比如食物们祝贺捕食者未来的国王降生，就像一只真的鸡而不是卡通形象的鸡为快餐店打广告一样怪异。&lt;br /&gt;
-雄狮因其出身和性别而具备继承王位的资格和责任，各类生物各安其位形成永恒的生命循环和社会等级，雄狮一边吃领地中其他动物，一边自诩有维护领地繁荣的责任，以及仁慈和勇敢的道德。&lt;br /&gt;
-这正是封建制度运作形式，和贵族对其领地的绝对权力与道德责任，只是通过动物来表现。&lt;br /&gt;
-当动画片看觉得理所当然，当写实的电影看就会有荒谬的感觉。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%BF%AA%E5%A3%AB%E5%B0%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>狮子王</title>
+      <link>https://ioerr.github.io/posts/shiziwang/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shiziwang/</guid>
+      <description>一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。 看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全</description>
+      <content:encoded><![CDATA[<p>一家人看新技术重制版狮子王，当爹了以后才体会到这是一部坑爹的电影。</p>
+<p>看到有人说，猫科动物都喜欢把桌上的东西推下去，所以刀疤推木法沙掉落峡谷完全是天性使然哈哈哈。</p>
+<p>原版的峡谷奔牛一幕，有一个辛巴的正面特写和非常明显的希区柯克变焦。新版去掉了这一表现，感觉效果弱了很多。<br>
+还有，新加的两首歌曲比不上原版中的任何一首。</p>
+<p>二次元动画中的动物可以看作动物，但活灵活现会说话的三次元动物形象就有点人类的感觉了。<br>
+二次元世界可以接受的拟人世界观，放在写实风格的三次元就很奇怪。<br>
+比如食物们祝贺捕食者未来的国王降生，就像一只真的鸡而不是卡通形象的鸡为快餐店打广告一样怪异。<br>
+雄狮因其出身和性别而具备继承王位的资格和责任，各类生物各安其位形成永恒的生命循环和社会等级，雄狮一边吃领地中其他动物，一边自诩有维护领地繁荣的责任，以及仁慈和勇敢的道德。<br>
+这正是封建制度运作形式，和贵族对其领地的绝对权力与道德责任，只是通过动物来表现。<br>
+当动画片看觉得理所当然，当写实的电影看就会有荒谬的感觉。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

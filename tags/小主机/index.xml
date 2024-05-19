@@ -1,119 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>小主机 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%B0%8F%E4%B8%BB%E6%9C%BA/</link>
     <description>Recent content in 小主机 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%B0%8F%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自用电脑方案</title>
-        <link>https://ioerr.github.io/posts/ziyong-diannao-fangan/</link>
-        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyong-diannao-fangan/</guid>
-        <description>&lt;p&gt;近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。&lt;/p&gt;
-
-&lt;p&gt;之前的机器条件和使用环境是这样的：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台威联通 NAS 用于数据存储和备份&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;工作和自用需求有：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;需要处理、存储、管理大量照片&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;需要归档存储文档、书籍资料&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔要玩 PC 游戏，但对硬件配置要求不高&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;日常出行要能够随时处理公务&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;要方便工作时会议投影&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;电池续航时间长，在外充电方便&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔要处理视频&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;偶尔需要手绘&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最开始是考虑 iPad Pro、Surface 这类二合一平板设备。&lt;br /&gt;
-但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。&lt;br /&gt;
-Surface 性价比低，同样的价钱换来的性能太差，Pro 系列尺寸不算便携，Go 系列性能实在是不行。&lt;/p&gt;
-
-&lt;p&gt;然后是各种办公笔记本，MacBook、ThinkPad、联想小新等等，普遍的问题是屏幕尺寸太大不便携、配置稍微好一点就很贵。&lt;br /&gt;
-还考虑了 GPD 、壹号本等号称给网络工程师设计的口袋本，但一来价格也不低，二来对质量和售后不放心，三来有各种设计上的槽点无法接受。&lt;/p&gt;
-
-&lt;p&gt;接着又考虑 iPad mini 和三星 Galaxy Tab S 系列平板，综合考虑下来淘汰了三星平板，入手 iPad mini 6 64GB 版本，价格3400元左右。&lt;br /&gt;
-如此用远程桌面方式控制办公笔记本，或者连接云电脑，可以应急处理公务，同时满足读书、笔记、手绘功能。&lt;br /&gt;
-但性能方面仍然没有满足，由于网络时延影响，性能体验反而更差。&lt;br /&gt;
-在本地管理大量文件也不方便。&lt;/p&gt;
-
-&lt;p&gt;最终想到了一个可以兼顾各种需求，短板又不算很痛苦的方案：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小平板+小主机+原有笔记本+NAS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;小平板：iPad mini 6&lt;br /&gt;
-上面已经说了，随身携带很轻巧，虽然不如 Kindle 小巧，胜在阅读 PDF、epub 等通用格式，笔记记录、同步、导出更方便。&lt;br /&gt;
-作为随身的远程控制台，各方面都可以临时胜任，腾出 Kindle 给孩子看书用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;小主机：零刻 SER6 Pro&lt;br /&gt;
-买的时候7还没有上市，因此买的6 Pro 32GB 版本。&lt;br /&gt;
-CPU 性能、内存大小，办公绰绰有余，图片处理和中型游戏不在话下，视频处理能够胜任，能耗不算高，较大的缺点就是发热和风扇噪音无法兼顾。&lt;br /&gt;
-其实具体的配置不重要，根据需求选一个你觉得日常够用的随便什么机器就行。&lt;br /&gt;
-不用的时候进入低功耗状态，如果不幸死机无法唤醒，用米家应用控制小米智能插线板关电再强制重开机。&lt;br /&gt;
-另外购买一个 Ehomewei 的外接显示器，总投资在4000元左右。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;原有笔记本&lt;br /&gt;
-公司的笔记本继续发挥余热，一直丢在办公桌上就好，也不必24小时开机了。&lt;br /&gt;
-比 iPad mini 接口多，适合投影、外接设备，带着开会也不显眼。&lt;br /&gt;
-作为工作岗位上的远程控制台，原本捉襟见肘的性能就富余了。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;NAS&lt;br /&gt;
-没有开公网访问，与小主机在同一个网段网络，通过小主机传输文件。&lt;br /&gt;
-配置作为小主机的网络驱动器使用，指定盘符直接访问。&lt;br /&gt;
-Total Commander 管理文件；&lt;br /&gt;
-Everything 和 FileLocator Pro 用于快速搜索——威联通的搜索工具用不惯；&lt;br /&gt;
-Picasa 通过指定网络驱动器盘符实现索引、管理照片。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;其他投入&lt;br /&gt;
-加购一个罗技 M575 轨迹球，不到200元。&lt;br /&gt;
-办公室和家里各放一个，不用每天背着跑，进一步减轻负担。&lt;br /&gt;
-可移动可折叠升降电脑桌，不到600元，放外接显示器、键盘、轨迹球。&lt;br /&gt;
-试验了各种远程桌面工具，最终用 ZeroTier 搭建虚拟网络，用微软 Windows 自带的远程桌面作为主力。&lt;br /&gt;
-选择 Raylink、ToDesk、AnyDesk、向日葵等远程桌面工具作为备用。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;除了已有的设备外，以上总投入8300元以下。&lt;br /&gt;
-相比购买一个同等价位的高性能笔记本随身携带，背负压力少了很多；&lt;br /&gt;
-对远程接入终端的性能要求下降许多，性能较差的笔记本也能继续用下去；&lt;br /&gt;
-小主机接口更加丰富，同时续航时间长；&lt;br /&gt;
-大部分处理集中在一台电脑上，减少了程序安装、数据同步和切换场景；&lt;br /&gt;
-顺便满足了笔记、绘画的需求。&lt;/p&gt;
-
-&lt;p&gt;缺点主要是：&lt;br /&gt;
-小主机比笔记本电脑多出来的电费；&lt;br /&gt;
-网络质量差会影响体验，但因为不会远程玩时延要求高的大型游戏，影响不大；&lt;br /&gt;
-远程桌面连接不上的风险——大半年下来遇到过几次，所以准备了多个备用方案和应急处理方案，目前还没有被坑死过；&lt;br /&gt;
-远程桌面工具的网络安全隐患。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%B0%8F%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自用电脑方案</title>
+      <link>https://ioerr.github.io/posts/ziyong-diannao-fangan/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyong-diannao-fangan/</guid>
+      <description>近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。 之前的机器条件和使用环境是这样的： 一台公司</description>
+      <content:encoded><![CDATA[<p>近年来一直不满意自己的工作和家用电脑，今年换了自用电脑后，到现在基本上已经稳定，因此整理总结一下。</p>
+<p>之前的机器条件和使用环境是这样的：</p>
+<ul>
+<li>一台公司配置的工作用笔记本，性能一般，发热严重，存储空间紧张</li>
+<li>一台威联通 NAS 用于数据存储和备份</li>
+<li>一台2013年的 iMac 和一台 MacBook Air，性能一般，主要给家人用</li>
+<li>一台 Surface 3，性能一般，小毛病不少，特别是老化后充电口接触不稳定，仅用于应急处理办公文档、收发邮件</li>
+<li>一台 Kindle Paperwhite 用于读书，但阅读 PDF 书籍不方便</li>
+<li>笔记本都较重，唯有 Surface 较轻，但因为性能和不稳定容易耽误事</li>
+<li>每天背双肩包携带笔记本、电源线、鼠标上下班，走路肩痛，骑车腰痛</li>
+<li>通过 OneDrive 和天翼云盘存储、同步数据，其他同类工具因为带宽速度、同步及时率、稳定性、价格等原因被排除</li>
+</ul>
+<p>工作和自用需求有：</p>
+<ul>
+<li>需要处理、存储、管理大量照片</li>
+<li>需要归档存储文档、书籍资料</li>
+<li>偶尔要玩 PC 游戏，但对硬件配置要求不高</li>
+<li>日常出行要能够随时处理公务</li>
+<li>同时设备要便携，屏幕最大不超过10英寸，方便阅读书籍和记笔记</li>
+<li>要方便工作时会议投影</li>
+<li>电池续航时间长，在外充电方便</li>
+<li>偶尔要处理视频</li>
+<li>偶尔需要手绘</li>
+</ul>
+<p>最开始是考虑 iPad Pro、Surface 这类二合一平板设备。<br>
+但 iPad OS 系统在大量文件管理方面太差，各种限制烦人，iPad Pro 本身也不轻便，价格还昂贵，否决。<br>
+Surface 性价比低，同样的价钱换来的性能太差，Pro 系列尺寸不算便携，Go 系列性能实在是不行。</p>
+<p>然后是各种办公笔记本，MacBook、ThinkPad、联想小新等等，普遍的问题是屏幕尺寸太大不便携、配置稍微好一点就很贵。<br>
+还考虑了 GPD 、壹号本等号称给网络工程师设计的口袋本，但一来价格也不低，二来对质量和售后不放心，三来有各种设计上的槽点无法接受。</p>
+<p>接着又考虑 iPad mini 和三星 Galaxy Tab S 系列平板，综合考虑下来淘汰了三星平板，入手 iPad mini 6 64GB 版本，价格3400元左右。<br>
+如此用远程桌面方式控制办公笔记本，或者连接云电脑，可以应急处理公务，同时满足读书、笔记、手绘功能。<br>
+但性能方面仍然没有满足，由于网络时延影响，性能体验反而更差。<br>
+在本地管理大量文件也不方便。</p>
+<p>最终想到了一个可以兼顾各种需求，短板又不算很痛苦的方案：</p>
+<p><strong>小平板+小主机+原有笔记本+NAS</strong></p>
+<ul>
+<li>
+<p>小平板：iPad mini 6<br>
+上面已经说了，随身携带很轻巧，虽然不如 Kindle 小巧，胜在阅读 PDF、epub 等通用格式，笔记记录、同步、导出更方便。<br>
+作为随身的远程控制台，各方面都可以临时胜任，腾出 Kindle 给孩子看书用。</p>
+</li>
+<li>
+<p>小主机：零刻 SER6 Pro<br>
+买的时候7还没有上市，因此买的6 Pro 32GB 版本。<br>
+CPU 性能、内存大小，办公绰绰有余，图片处理和中型游戏不在话下，视频处理能够胜任，能耗不算高，较大的缺点就是发热和风扇噪音无法兼顾。<br>
+其实具体的配置不重要，根据需求选一个你觉得日常够用的随便什么机器就行。<br>
+不用的时候进入低功耗状态，如果不幸死机无法唤醒，用米家应用控制小米智能插线板关电再强制重开机。<br>
+另外购买一个 Ehomewei 的外接显示器，总投资在4000元左右。</p>
+</li>
+<li>
+<p>原有笔记本<br>
+公司的笔记本继续发挥余热，一直丢在办公桌上就好，也不必24小时开机了。<br>
+比 iPad mini 接口多，适合投影、外接设备，带着开会也不显眼。<br>
+作为工作岗位上的远程控制台，原本捉襟见肘的性能就富余了。</p>
+</li>
+<li>
+<p>NAS<br>
+没有开公网访问，与小主机在同一个网段网络，通过小主机传输文件。<br>
+配置作为小主机的网络驱动器使用，指定盘符直接访问。<br>
+Total Commander 管理文件；<br>
+Everything 和 FileLocator Pro 用于快速搜索——威联通的搜索工具用不惯；<br>
+Picasa 通过指定网络驱动器盘符实现索引、管理照片。</p>
+</li>
+<li>
+<p>其他投入<br>
+加购一个罗技 M575 轨迹球，不到200元。<br>
+办公室和家里各放一个，不用每天背着跑，进一步减轻负担。<br>
+可移动可折叠升降电脑桌，不到600元，放外接显示器、键盘、轨迹球。<br>
+试验了各种远程桌面工具，最终用 ZeroTier 搭建虚拟网络，用微软 Windows 自带的远程桌面作为主力。<br>
+选择 Raylink、ToDesk、AnyDesk、向日葵等远程桌面工具作为备用。</p>
+</li>
+</ul>
+<p>除了已有的设备外，以上总投入8300元以下。<br>
+相比购买一个同等价位的高性能笔记本随身携带，背负压力少了很多；<br>
+对远程接入终端的性能要求下降许多，性能较差的笔记本也能继续用下去；<br>
+小主机接口更加丰富，同时续航时间长；<br>
+大部分处理集中在一台电脑上，减少了程序安装、数据同步和切换场景；<br>
+顺便满足了笔记、绘画的需求。</p>
+<p>缺点主要是：<br>
+小主机比笔记本电脑多出来的电费；<br>
+网络质量差会影响体验，但因为不会远程玩时延要求高的大型游戏，影响不大；<br>
+远程桌面连接不上的风险——大半年下来遇到过几次，所以准备了多个备用方案和应急处理方案，目前还没有被坑死过；<br>
+远程桌面工具的网络安全隐患。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

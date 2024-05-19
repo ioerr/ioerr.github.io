@@ -1,261 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>鸿沟 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>鸿沟 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_* 葡桃的《鸿沟》歌词不错： SING： 我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/honggou/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/honggou/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="鸿沟" />
-<meta property="og:description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_*
-葡桃的《鸿沟》歌词不错：
- 《鸿沟》Generation Gap
-SING：
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……
-某爹：
-我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！
-盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！
-把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！
-爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！
-某娘：
-我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！
-以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！
-如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？
-不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！
-某子：
-儿实在对不起二老，你们的基因没给我一个求知的大脑！
-我天生就不是学习那块儿料，千万别把期望值定的太高！
-打死我也没那个本事去名列前茅！
-数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！
-我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！
-某2：
-我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！
-没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！
-还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！
-我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！
-某子：
-我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！
-为什么我的行为我的语言到你嘴里就夸张的要了血命？
-不跟你一般见识你是是以为我惯你穷毛病？
-某爹：
-逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！
-你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！
-喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！
-别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？
-某群体：
-Sing：
-TM这个倒霉JB世界没有一件半件事情让我顺眼！
-所有前途都是爹妈帮你提前定好路线！
-所有操蛋JB傻B老师全部都TM一个姓贱！
-我要说，干！我TM就说，干！！！
-兄弟姐妹站起来谁要是不爽请TM大声SAY NO！
-有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！
-不用管那个今天的你我在明天是否还依然有救！
-Let’s Go，不够！Let’s Go，不够！
-葡桃：
-我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！
-要我说，学生你不学习你当你是个什么东西？
-现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！
-还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！
-你可以吗？你不可以！
-真不是哥们儿我TMD瞧你不起！
-就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！
-你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！
-钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！
-哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！
-也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！
-好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！
-Cut Cut Cut！" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/honggou/" />
-
-
-
-<meta property="article:published_time" content="2005-03-03T04:42:45&#43;00:00"/>
-
-<meta property="article:modified_time" content="2005-03-03T04:42:45&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="鸿沟">
-<meta itemprop="description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_*
-葡桃的《鸿沟》歌词不错：
- 《鸿沟》Generation Gap
-SING：
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……
-某爹：
-我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！
-盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！
-把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！
-爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！
-某娘：
-我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！
-以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！
-如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？
-不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！
-某子：
-儿实在对不起二老，你们的基因没给我一个求知的大脑！
-我天生就不是学习那块儿料，千万别把期望值定的太高！
-打死我也没那个本事去名列前茅！
-数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！
-我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！
-某2：
-我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！
-没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！
-还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！
-我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！
-某子：
-我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！
-为什么我的行为我的语言到你嘴里就夸张的要了血命？
-不跟你一般见识你是是以为我惯你穷毛病？
-某爹：
-逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！
-你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！
-喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！
-别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？
-某群体：
-Sing：
-TM这个倒霉JB世界没有一件半件事情让我顺眼！
-所有前途都是爹妈帮你提前定好路线！
-所有操蛋JB傻B老师全部都TM一个姓贱！
-我要说，干！我TM就说，干！！！
-兄弟姐妹站起来谁要是不爽请TM大声SAY NO！
-有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！
-不用管那个今天的你我在明天是否还依然有救！
-Let’s Go，不够！Let’s Go，不够！
-葡桃：
-我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！
-要我说，学生你不学习你当你是个什么东西？
-现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！
-还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！
-你可以吗？你不可以！
-真不是哥们儿我TMD瞧你不起！
-就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！
-你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！
-钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！
-哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！
-也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！
-好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！
-Cut Cut Cut！">
-
-
-<meta itemprop="datePublished" content="2005-03-03T04:42:45&#43;00:00" />
-<meta itemprop="dateModified" content="2005-03-03T04:42:45&#43;00:00" />
-<meta itemprop="wordCount" content="117">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="鸿沟"/>
-<meta name="twitter:description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_*
-葡桃的《鸿沟》歌词不错：
- 《鸿沟》Generation Gap
-SING：
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……
-某爹：
-我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！
-盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！
-把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！
-爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！
-某娘：
-我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！
-以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！
-如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？
-不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！
-某子：
-儿实在对不起二老，你们的基因没给我一个求知的大脑！
-我天生就不是学习那块儿料，千万别把期望值定的太高！
-打死我也没那个本事去名列前茅！
-数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！
-我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！
-某2：
-我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！
-没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！
-还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！
-我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！
-某子：
-我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！
-为什么我的行为我的语言到你嘴里就夸张的要了血命？
-不跟你一般见识你是是以为我惯你穷毛病？
-某爹：
-逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！
-你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！
-喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！
-别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？
-某群体：
-Sing：
-TM这个倒霉JB世界没有一件半件事情让我顺眼！
-所有前途都是爹妈帮你提前定好路线！
-所有操蛋JB傻B老师全部都TM一个姓贱！
-我要说，干！我TM就说，干！！！
-兄弟姐妹站起来谁要是不爽请TM大声SAY NO！
-有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！
-不用管那个今天的你我在明天是否还依然有救！
-Let’s Go，不够！Let’s Go，不够！
-葡桃：
-我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！
-要我说，学生你不学习你当你是个什么东西？
-现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！
-还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！
-你可以吗？你不可以！
-真不是哥们儿我TMD瞧你不起！
-就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！
-你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！
-钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！
-哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！
-也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！
-好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！
-Cut Cut Cut！"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -266,253 +49,287 @@ Cut Cut Cut！"/>
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="鸿沟" />
+<meta property="og:description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_* 葡桃的《鸿沟》歌词不错： SING： 我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/honggou/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-03-03T04:42:45+00:00" />
+<meta property="article:modified_time" content="2005-03-03T04:42:45+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="鸿沟"/>
+<meta name="twitter:description" content="Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_* 葡桃的《鸿沟》歌词不错： SING： 我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "鸿沟",
+      "item": "https://ioerr.github.io/posts/honggou/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "鸿沟",
+  "name": "鸿沟",
+  "description": "Keso 家里遭了贼，损失可不小。从回复来看，BT 程度不输给猫扑啊 *_* 葡桃的《鸿沟》歌词不错： SING： 我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "Keso\n家里遭了贼，损失可不小。从回复来看，BT\n程度不输给猫扑啊 *_*\n葡桃的《鸿沟》歌词不错：\nSING：\n我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！\n我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……\n某爹：\n我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！\n盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！\n把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！\n爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！\n某娘：\n我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！\n以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！\n如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？\n不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！\n某子：\n儿实在对不起二老，你们的基因没给我一个求知的大脑！\n我天生就不是学习那块儿料，千万别把期望值定的太高！\n打死我也没那个本事去名列前茅！\n数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！\n我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！\n某2：\n我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！\n没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！\n还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！\n我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！\n某子：\n我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！\n为什么我的行为我的语言到你嘴里就夸张的要了血命？\n不跟你一般见识你是是以为我惯你穷毛病？\n某爹：\n逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！\n你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！\n喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！\n别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？\n某群体：\nSing：\nTM这个倒霉JB世界没有一件半件事情让我顺眼！\n所有前途都是爹妈帮你提前定好路线！\n所有操蛋JB傻B老师全部都TM一个姓贱！\n我要说，干！我TM就说，干！！！\n兄弟姐妹站起来谁要是不爽请TM大声SAY NO！\n有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！\n不用管那个今天的你我在明天是否还依然有救！\nLet’s Go，不够！Let’s Go，不够！\n葡桃：\n我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！\n要我说，学生你不学习你当你是个什么东西？\n现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！\n还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！\n你可以吗？你不可以！\n真不是哥们儿我TMD瞧你不起！\n就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！\n你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！\n钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！\n哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！\n也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！\n好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！\nCut Cut Cut！\n醒醒，这里不是拍电影，你一个能打十个我给你一枪就挺！\n现在动手谁先上谁TM纯牌儿脑子有病，枪打出头鸟的道理你别告诉我你从来不听！\n砸你个半身不遂也别告诉我医药费你自己摆平！\n爹妈一把屎一把尿拉扯你们到这么大真不是一般的难！\n你不能替他（她）们排忧解愁也至少别成为负担！\n你唯恐天下不乱的不要脸，他（她）们还要脸\n话说回来真有个三长二短你叫二老怎么办？\n某群体：\nSing：\nTM这个倒霉JB世界没有一件半件事情让我顺眼！\n所有前途都是爹妈帮你提前定好路线！\n所有操蛋JB傻B老师全部都TM一个姓贱！\n我要说，干！我TM就说，干！！！\n兄弟姐妹站起来谁要是不爽请TM大声SAY NO！\n有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！\n不用管那个今天的你我在明天是否依然还有救！\nLet’s Go，不够！Let’s Go，不够！\n葡桃：\n父母孩子之间的代沟就像鸿沟一样难以逾越，彼此互相缺乏了解谁也走不进谁的世界！\n可怜天下父母心，每对双亲都有望子成龙的心情，但谁又保证你们的决定有百分百的英明？\n别总对孩子的抗议说反对无效坚持否定，适当给个机会会有意想不到的吃惊！\n中国讲究言论自由，要搞独裁我看不行！\n所以要因人而议、因地制宜、因材施教，才能有你们想要的因果关系！\n我说亲爱的存在子女沟通问题的叔叔阿姨，葡桃说的在不在理？你们有没有用心去听？\n还有些父母离异，有的只顾生意，有的爸爸吃喝嫖赌成性，有的妈妈要做出墙红杏！\n这无疑是给青春期的孩子心理蒙上了阴影。所以有了压力，行为偏激，你们要反省！\n个别教职员工请注意自己的行为情操，你的工作是育人说教，不是菜场的大嫂，再没有深度的，不知所谓的叫嚣、吵闹，这个倒霉样子你跟我谈什么为人师表？我操！\n我们的祖国是花园，花园的花朵已失去往日的鲜艳！\n我们的祖国是花园，青少年别再为另类堕落的生活有丝毫的留恋！\n花园的园丁贪污着公款，听说曾辱骂我的初中校长贪了一百万！\n他（她）们个个脸上都笑开了颜，这种杂碎抓着就毙省的为祸人间！\n最后一个PART送给我七十六中班主任老师，你的巴掌打在我脸上，刻在我心上，它从未消失！\n问你是否记得我是你口中不可救药的弟子，你给我的伤害自己混然不知，你从未意识！\n请允许你的劣徒诚心诚意的请你吃屎，我发誓总有一天要站在你面前亮出中指！\n告诉你我无时无刻不在迫切想要你死，你让我恨你恨到无法停止，骂到无法控制！\n见证生命，一个在妇产科实习的男生的\nblog，开始才三天，期待不断有好的内容贴出来，记录妇产科医生和护士们的辛苦工作，记录新生命诞生的喜悦和夭折的哀痛，记录母亲们的伟大…\n",
+  "wordCount" : "2517",
+  "inLanguage": "en",
+  "datePublished": "2005-03-03T04:42:45Z",
+  "dateModified": "2005-03-03T04:42:45Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/honggou/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhonggou%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      鸿沟
+    </h1>
+    <div class="post-meta"><span title='2005-03-03 04:42:45 +0000 +0000'>2005-3-3</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p><a href="http://www.donews.net/keso/">Keso</a><br>
+<a href="http://www.donews.net/keso/archive/2005/03/03/293724.aspx?Pending=true">家里遭了贼</a>，损失可不小。从回复来看，BT<br>
+程度不输给猫扑啊 *_*</p>
+<p>葡桃的《<a href="http://www.kustar.com/LDmaozuPT/GenerationGap.mp3">鸿沟</a>》歌词不错：</p>
+<!-- raw HTML omitted -->
+<p>SING：<br>
+我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！<br>
+我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……</p>
+<p>某爹：<br>
+我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！<br>
+盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！<br>
+把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！<br>
+爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！</p>
+<p>某娘：<br>
+我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！<br>
+以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！<br>
+如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？<br>
+不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！</p>
+<p>某子：<br>
+儿实在对不起二老，你们的基因没给我一个求知的大脑！<br>
+我天生就不是学习那块儿料，千万别把期望值定的太高！<br>
+打死我也没那个本事去名列前茅！<br>
+数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！<br>
+我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！</p>
+<p>某2：<br>
+我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！<br>
+没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！<br>
+还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！<br>
+我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！</p>
+<p>某子：<br>
+我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！<br>
+为什么我的行为我的语言到你嘴里就夸张的要了血命？<br>
+不跟你一般见识你是是以为我惯你穷毛病？</p>
+<p>某爹：<br>
+逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！<br>
+你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！<br>
+喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！<br>
+别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？</p>
+<p>某群体：<br>
+Sing：<br>
+TM这个倒霉JB世界没有一件半件事情让我顺眼！<br>
+所有前途都是爹妈帮你提前定好路线！<br>
+所有操蛋JB傻B老师全部都TM一个姓贱！<br>
+我要说，干！我TM就说，干！！！</p>
+<p>兄弟姐妹站起来谁要是不爽请TM大声SAY NO！<br>
+有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！<br>
+不用管那个今天的你我在明天是否还依然有救！<br>
+Let’s Go，不够！Let’s Go，不够！</p>
+<p>葡桃：<br>
+我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！<br>
+要我说，学生你不学习你当你是个什么东西？<br>
+现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！<br>
+还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！<br>
+你可以吗？你不可以！<br>
+真不是哥们儿我TMD瞧你不起！<br>
+就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！<br>
+你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！<br>
+钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！</p>
+<p>哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！<br>
+也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！<br>
+好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！</p>
+<p>Cut Cut Cut！<br>
+醒醒，这里不是拍电影，你一个能打十个我给你一枪就挺！<br>
+现在动手谁先上谁TM纯牌儿脑子有病，枪打出头鸟的道理你别告诉我你从来不听！<br>
+砸你个半身不遂也别告诉我医药费你自己摆平！</p>
+<p>爹妈一把屎一把尿拉扯你们到这么大真不是一般的难！<br>
+你不能替他（她）们排忧解愁也至少别成为负担！<br>
+你唯恐天下不乱的不要脸，他（她）们还要脸<br>
+话说回来真有个三长二短你叫二老怎么办？</p>
+<p>某群体：<br>
+Sing：<br>
+TM这个倒霉JB世界没有一件半件事情让我顺眼！<br>
+所有前途都是爹妈帮你提前定好路线！<br>
+所有操蛋JB傻B老师全部都TM一个姓贱！<br>
+我要说，干！我TM就说，干！！！</p>
+<p>兄弟姐妹站起来谁要是不爽请TM大声SAY NO！<br>
+有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！<br>
+不用管那个今天的你我在明天是否依然还有救！<br>
+Let’s Go，不够！Let’s Go，不够！</p>
+<p>葡桃：<br>
+父母孩子之间的代沟就像鸿沟一样难以逾越，彼此互相缺乏了解谁也走不进谁的世界！<br>
+可怜天下父母心，每对双亲都有望子成龙的心情，但谁又保证你们的决定有百分百的英明？<br>
+别总对孩子的抗议说反对无效坚持否定，适当给个机会会有意想不到的吃惊！<br>
+中国讲究言论自由，要搞独裁我看不行！<br>
+所以要因人而议、因地制宜、因材施教，才能有你们想要的因果关系！<br>
+我说亲爱的存在子女沟通问题的叔叔阿姨，葡桃说的在不在理？你们有没有用心去听？<br>
+还有些父母离异，有的只顾生意，有的爸爸吃喝嫖赌成性，有的妈妈要做出墙红杏！<br>
+这无疑是给青春期的孩子心理蒙上了阴影。所以有了压力，行为偏激，你们要反省！</p>
+<p>个别教职员工请注意自己的行为情操，你的工作是育人说教，不是菜场的大嫂，再没有深度的，不知所谓的叫嚣、吵闹，这个倒霉样子你跟我谈什么为人师表？我操！</p>
+<p>我们的祖国是花园，花园的花朵已失去往日的鲜艳！<br>
+我们的祖国是花园，青少年别再为另类堕落的生活有丝毫的留恋！<br>
+花园的园丁贪污着公款，听说曾辱骂我的初中校长贪了一百万！<br>
+他（她）们个个脸上都笑开了颜，这种杂碎抓着就毙省的为祸人间！</p>
+<p>最后一个PART送给我七十六中班主任老师，你的巴掌打在我脸上，刻在我心上，它从未消失！<br>
+问你是否记得我是你口中不可救药的弟子，你给我的伤害自己混然不知，你从未意识！<br>
+请允许你的劣徒诚心诚意的请你吃屎，我发誓总有一天要站在你面前亮出中指！<br>
+告诉你我无时无刻不在迫切想要你死，你让我恨你恨到无法停止，骂到无法控制！</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><a href="http://melonia.blogboy.net/">见证生命</a>，一个在妇产科实习的男生的<br>
+blog，开始才三天，期待不断有好的内容贴出来，记录妇产科医生和护士们的辛苦工作，记录新生命诞生的喜悦和夭折的哀痛，记录母亲们的伟大…</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+        
+          <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/tiankeng-jihua-he-wakeng-xingdong/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>填坑计划和挖坑行动</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/yishu-zhexue-zhaichao-10/">
+    <span class="title">Next »</span>
+    <br>
+    <span>《艺术哲学》摘抄 \#10</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2005-03-03 04:42">2005-03-03</time> &bull;
-          
-            
-            <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
-          
-            , 
-            <a href="/categories/%E5%BC%A6%E5%8A%A8%E6%88%91%E5%BF%83">弦动我心</a>
-          </p>
-      <h1>鸿沟</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section><p><a href="http://www.donews.net/keso/">Keso</a>
-<a href="http://www.donews.net/keso/archive/2005/03/03/293724.aspx?Pending=true">家里遭了贼</a>，损失可不小。从回复来看，BT
-程度不输给猫扑啊 *_*</p>
-
-<p>葡桃的《<a href="http://www.kustar.com/LDmaozuPT/GenerationGap.mp3">鸿沟</a>》歌词不错：</p>
-
-<p><blockquote>
-《鸿沟》Generation Gap</p>
-
-<p>SING：<br />
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上都笑开颜！！<br />
-我们的祖国是花园,花园的花朵真鲜艳,温暖的阳光照耀着我们,每个人的脸上……</p>
-
-<p>某爹：<br />
-我是你爸，我看你从小长大，从你下生的那天，就希望你有文化！<br />
-盼着你功课第一，精通那个琴棋书画，想你能光宗耀祖，把咱家发扬光大！<br />
-把重点高中考上，目标直指清华北大！什么学士、硕士、博士都给老子统统拿下！<br />
-爹不管多苦、多累、多难付出多少代价，只要你能成材，少活十年我也不怕！</p>
-
-<p>某娘：<br />
-我是你的娘亲，你是我的BABY，是我配合你的DADDY，怀上了不争气的你！<br />
-以为生了个一代天骄，将来可以独领风骚，谁料你不学好，被老师称做朽木不可雕！<br />
-如此这般妈还是怕你冷着、热着、伤着，饿着，娘一颗慈母心你何时明了？<br />
-不用你尽善尽美，对我百敬千孝，只求你不要杀人放火，做人本份厚道！</p>
-
-<p>某子：<br />
-儿实在对不起二老，你们的基因没给我一个求知的大脑！<br />
-我天生就不是学习那块儿料，千万别把期望值定的太高！<br />
-打死我也没那个本事去名列前茅！<br />
-数学里有我最讨厌的符号，语文老师总是叽叽歪歪，唠里唠叨，长篇大论，啰里八嗦，没完没了！<br />
-我不搞原子弹，化学物理靠边站，什么“鼓捣猫呢”更是听着就烦！</p>
-
-<p>某2：<br />
-我说家长同志，孩子你们到底管不管？你儿纪律十分散漫，思想尤为极端！<br />
-没见过他带书包，他上课只会捣蛋，说书生百无一用，他散播反学宣言！<br />
-还纠集后进差生搞什么黑势力社团，欺男霸女他整个一个学校胡汉三！<br />
-我教育他二句，他说翻脸就翻脸，还恐吓要给俺家来个火烧圆明园！</p>
-
-<p>某子：<br />
-我说亲爱的园丁，你能否给我闭腚？拜仗着多活几年就可以对我指手划脚，发号“师”令！<br />
-为什么我的行为我的语言到你嘴里就夸张的要了血命？<br />
-不跟你一般见识你是是以为我惯你穷毛病？</p>
-
-<p>某爹：<br />
-逆子啊逆子，没想到你如此放肆，我只有你一个儿子，却让我丢尽了面子！<br />
-你个臭不要脸的小兔嵬子，说什么你有了马子，告诉我她怀了你的孩子，让我拿钱堕掉孙子！<br />
-喃爹我刚TM四十就TM的要当爷了，你个小驴操的混蛋玩儿意儿也太TM JB邪了！<br />
-别的不会你开放搞活怎么就TM这么快学了，我看咱俩的父子关系是不是也该彻底断绝了？</p>
-
-<p>某群体：<br />
-Sing：<br />
-TM这个倒霉JB世界没有一件半件事情让我顺眼！<br />
-所有前途都是爹妈帮你提前定好路线！<br />
-所有操蛋JB傻B老师全部都TM一个姓贱！<br />
-我要说，干！我TM就说，干！！！</p>
-
-<p>兄弟姐妹站起来谁要是不爽请TM大声SAY NO！<br />
-有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！<br />
-不用管那个今天的你我在明天是否还依然有救！<br />
-Let’s Go，不够！Let’s Go，不够！</p>
-
-<p>葡桃：<br />
-我说注意，孩子家长都给我闪到两边去，在葡桃这里你们谁也没有发言的权利！<br />
-要我说，学生你不学习你当你是个什么东西？<br />
-现在街上一个广告牌子掀翻砸躺十人在地，八人大本学历，一个大专文凭在读要考“鸟语六级”！<br />
-还有一个猪头是你，去跟那九人比比，看你有什么本事，有什么实力，可以跟人家在战场般的社会一较高低，维持生计！<br />
-你可以吗？你不可以！<br />
-真不是哥们儿我TMD瞧你不起！<br />
-就你这幅德性，扫大街，倒垃圾都TM嫌你档次太低！<br />
-你还真别告诉我你老子是Microsoft经理，我信，我真信，就算比尔，盖羡的子女也没说要坐吃山空，坐以待毙！<br />
-钞票再多，脑子里全是大粪有什么意义？你又算个狗屁，只不过是穷的只剩钱的傻B！</p>
-
-<p>哎，我也从喃们那种幼稚过来，也曾有你们那个叛逆心态！<br />
-也觉得，抽烟很帅、摇头很HIGH、泡妞儿很盖、禁果很怪、砍人大晒！<br />
-好像认识几个小痞子，就当自己是“抗把子”的天下无敌的古惑仔！</p>
-
-<p>Cut Cut Cut！<br />
-醒醒，这里不是拍电影，你一个能打十个我给你一枪就挺！<br />
-现在动手谁先上谁TM纯牌儿脑子有病，枪打出头鸟的道理你别告诉我你从来不听！<br />
-砸你个半身不遂也别告诉我医药费你自己摆平！</p>
-
-<p>爹妈一把屎一把尿拉扯你们到这么大真不是一般的难！<br />
-你不能替他（她）们排忧解愁也至少别成为负担！<br />
-你唯恐天下不乱的不要脸，他（她）们还要脸<br />
-话说回来真有个三长二短你叫二老怎么办？</p>
-
-<p>某群体：<br />
-Sing：<br />
-TM这个倒霉JB世界没有一件半件事情让我顺眼！<br />
-所有前途都是爹妈帮你提前定好路线！<br />
-所有操蛋JB傻B老师全部都TM一个姓贱！<br />
-我要说，干！我TM就说，干！！！</p>
-
-<p>兄弟姐妹站起来谁要是不爽请TM大声SAY NO！<br />
-有胆儿就去抽烟，喝酒，逃课，砍人请TM举手喊受！<br />
-不用管那个今天的你我在明天是否依然还有救！<br />
-Let’s Go，不够！Let’s Go，不够！</p>
-
-<p>葡桃：<br />
-父母孩子之间的代沟就像鸿沟一样难以逾越，彼此互相缺乏了解谁也走不进谁的世界！<br />
-可怜天下父母心，每对双亲都有望子成龙的心情，但谁又保证你们的决定有百分百的英明？<br />
-别总对孩子的抗议说反对无效坚持否定，适当给个机会会有意想不到的吃惊！<br />
-中国讲究言论自由，要搞独裁我看不行！<br />
-所以要因人而议、因地制宜、因材施教，才能有你们想要的因果关系！<br />
-我说亲爱的存在子女沟通问题的叔叔阿姨，葡桃说的在不在理？你们有没有用心去听？<br />
-还有些父母离异，有的只顾生意，有的爸爸吃喝嫖赌成性，有的妈妈要做出墙红杏！<br />
-这无疑是给青春期的孩子心理蒙上了阴影。所以有了压力，行为偏激，你们要反省！</p>
-
-<p>个别教职员工请注意自己的行为情操，你的工作是育人说教，不是菜场的大嫂，再没有深度的，不知所谓的叫嚣、吵闹，这个倒霉样子你跟我谈什么为人师表？我操！</p>
-
-<p>我们的祖国是花园，花园的花朵已失去往日的鲜艳！<br />
-我们的祖国是花园，青少年别再为另类堕落的生活有丝毫的留恋！<br />
-花园的园丁贪污着公款，听说曾辱骂我的初中校长贪了一百万！<br />
-他（她）们个个脸上都笑开了颜，这种杂碎抓着就毙省的为祸人间！</p>
-
-<p>最后一个PART送给我七十六中班主任老师，你的巴掌打在我脸上，刻在我心上，它从未消失！<br />
-问你是否记得我是你口中不可救药的弟子，你给我的伤害自己混然不知，你从未意识！<br />
-请允许你的劣徒诚心诚意的请你吃屎，我发誓总有一天要站在你面前亮出中指！<br />
-告诉你我无时无刻不在迫切想要你死，你让我恨你恨到无法停止，骂到无法控制！
-</blockquote>
-但是后面的部分节奏感不太好，应该可以处理得更好的。</p>
-
-<p><blockquote>
-Madfox 项目的目的，是希望仅从技术的角度出发，通过扩展
-Firefox，尝试去兼容不符合标准和规范的网站。
-</blockquote>
-想要尝试一下 <a href="http://splyb.vip.sina.com/">Madfox</a>
-的，不妨去<a href="http://splyb.vip.sina.com/http://splyb.vip.sina.com/">这里</a>下载一个试试。</p>
-
-<p><a href="http://melonia.blogboy.net/">见证生命</a>，一个在妇产科实习的男生的
-blog，开始才三天，期待不断有好的内容贴出来，记录妇产科医生和护士们的辛苦工作，记录新生命诞生的喜悦和夭折的哀痛，记录母亲们的伟大…</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e9%b8%bf%e6%b2%9f》&body=https%3a%2f%2fioerr.github.io%2fposts%2fhonggou%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fhonggou%2f&text= @calon %e9%b8%bf%e6%b2%9f&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -531,5 +348,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

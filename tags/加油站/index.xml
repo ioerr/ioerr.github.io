@@ -1,49 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>加油站 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/</link>
     <description>Recent content in 加油站 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 24 May 2008 17:02:40 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>中国，加油</title>
-        <link>https://ioerr.github.io/posts/zhongguo-jiayou/</link>
-        <pubDate>Sat, 24 May 2008 17:02:40 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhongguo-jiayou/</guid>
-        <description>&lt;p&gt;因为不开车，所以对汽油柴油供应没什么感觉，据说一直价格飞涨供应紧张？反正天天晚上都可以在附近的加油站看到排队加油的车辆：&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2517923521/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3121/2517923521_38d2a1cbf6.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-下班回家出去吃饭的时候顺便就照了几张，前几天看到的队伍更加壮观。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/calon/2517927039/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2341/2517927039_554990c1b7.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-远远可以看见出口处也给堵上了，可能是一些车辆等不及了想逆向驶进去？&lt;/p&gt;
-
-&lt;p&gt;吃完饭之后回来再看，毫无改善的迹象，估计排队的师傅们晚饭也来不及吃，还不知道要等到什么时候。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2518750226/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2105/2518750226_7870c03b8a.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;走近看看，只能站着干瞪眼，标准的束手无策。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2517935893/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2135/2517935893_dbe3f813f1.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2518758180/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3188/2518758180_94b94383ee.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;回头照照队伍的尾巴。一位坐着等太久的司机走了出来，站在那里东张西望。&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/calon/2518737796/&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2147/2518737796_51bd68035c.jpg&#34; alt=&#34;加油站&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;不禁想到了之前奥运火炬传递和地震期间一个醒目的标语：&lt;br /&gt;
-&lt;a href=&#34;http://echopic.com/lve&#34;&gt;&lt;img src=&#34;http://echopic.com/lve.jpg&#34; alt=&#34;Photo sharing and image hosting -
-EchoPic&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-“中国！加油！”&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8A%A0%E6%B2%B9%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中国，加油</title>
+      <link>https://ioerr.github.io/posts/zhongguo-jiayou/</link>
+      <pubDate>Sat, 24 May 2008 17:02:40 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhongguo-jiayou/</guid>
+      <description>因为不开车，所以对汽油柴油供应没什么感觉，据说一直价格飞涨供应紧张？反正天天晚上都可以在附近的加油站看到排队加油的车辆： 下班回家出去吃饭的时</description>
+      <content:encoded><![CDATA[<p>因为不开车，所以对汽油柴油供应没什么感觉，据说一直价格飞涨供应紧张？反正天天晚上都可以在附近的加油站看到排队加油的车辆：<br>
+<a href="http://www.flickr.com/photos/calon/2517923521/"><img loading="lazy" src="http://farm4.static.flickr.com/3121/2517923521_38d2a1cbf6.jpg" alt="加油站"  />
+</a><br>
+下班回家出去吃饭的时候顺便就照了几张，前几天看到的队伍更加壮观。</p>
+<p><a href="http://www.flickr.com/photos/calon/2517927039/"><img loading="lazy" src="http://farm3.static.flickr.com/2341/2517927039_554990c1b7.jpg" alt="加油站"  />
+</a><br>
+远远可以看见出口处也给堵上了，可能是一些车辆等不及了想逆向驶进去？</p>
+<p>吃完饭之后回来再看，毫无改善的迹象，估计排队的师傅们晚饭也来不及吃，还不知道要等到什么时候。<br>
+<a href="http://www.flickr.com/photos/calon/2518750226/"><img loading="lazy" src="http://farm3.static.flickr.com/2105/2518750226_7870c03b8a.jpg" alt="加油站"  />
+</a></p>
+<p>走近看看，只能站着干瞪眼，标准的束手无策。<br>
+<a href="http://www.flickr.com/photos/calon/2517935893/"><img loading="lazy" src="http://farm3.static.flickr.com/2135/2517935893_dbe3f813f1.jpg" alt="加油站"  />
+</a><br>
+<a href="http://www.flickr.com/photos/calon/2518758180/"><img loading="lazy" src="http://farm4.static.flickr.com/3188/2518758180_94b94383ee.jpg" alt="加油站"  />
+</a></p>
+<p>回头照照队伍的尾巴。一位坐着等太久的司机走了出来，站在那里东张西望。<br>
+<a href="http://www.flickr.com/photos/calon/2518737796/"><img loading="lazy" src="http://farm3.static.flickr.com/2147/2518737796_51bd68035c.jpg" alt="加油站"  />
+</a></p>
+<p>不禁想到了之前奥运火炬传递和地震期间一个醒目的标语：<br>
+<a href="http://echopic.com/lve"><img loading="lazy" src="http://echopic.com/lve.jpg" alt="Photo sharing and image hosting -&lt;br&gt;
+EchoPic"  />
+</a><br>
+“中国！加油！”</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

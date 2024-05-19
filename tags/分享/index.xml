@@ -1,80 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>分享 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%88%86%E4%BA%AB/</link>
     <description>Recent content in 分享 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 22 Aug 2007 16:36:27 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>交互、分享地图照片</title>
-        <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
-        <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://blog.timetide.net/&#34;&gt;Owen&lt;/a&gt; 曾经在05年发起 &lt;a href=&#34;http://blog.timetide.net/archives/2005/01/21/20050121224101.php&#34;&gt;10 Places of My
-City&lt;/a&gt;
-的活动，没想到到前天&lt;a href=&#34;http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry&#34;&gt;还有人&lt;/a&gt;加上&lt;a href=&#34;http://www.technorati.com/tag/10placesofmycity&#34;&gt;这个标签&lt;/a&gt;——但现在
-Technorati 上也只查到这一个 blog 了，Flickr
-上则到06年7月为止，而且貌似还不是参与这次活动的。&lt;/p&gt;
-
-&lt;p&gt;这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n
-只爪子都数不过来。&lt;/p&gt;
-
-&lt;p&gt;2年后的现在，我们有了 &lt;a href=&#34;http://earth.google.com/&#34;&gt;Google Earth&lt;/a&gt;/&lt;a href=&#34;http://maps.google.com/&#34;&gt;Google
-Maps&lt;/a&gt; +
-&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;，&lt;a href=&#34;http://picasa.google.com/&#34;&gt;Picasa&lt;/a&gt;
-支持方便地标注地理位置，&lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;
-也支持坐标了，类似这样的活动是不是可以有更新的形式呢？&lt;/p&gt;
-
-&lt;p&gt;我的想法是这样的：&lt;br /&gt;
-1、Blogger
-首先公布自己所在的坐标，例如我的位置就在&lt;a href=&#34;http://maps.google.com/maps/ms?msa=0&amp;amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;amp;ll=28.256459,112.982111&amp;amp;spn=0.019203,0.029182&amp;amp;t=k&amp;amp;z=15&amp;amp;om=1&#34;&gt;这里&lt;/a&gt;，坐标大概是28.254200,
-112.982000；&lt;br /&gt;
-2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；&lt;br /&gt;
-3、访问 blog
-的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;这个体育场&lt;/a&gt;；&lt;br /&gt;
-4、访客记录下这个位置的坐标，通过留言等方式告诉
-blogger，如这个&lt;a href=&#34;http://maps.google.com/maps?f=q&amp;amp;hl=zh-CN&amp;amp;geocode=&amp;amp;q=28.1817%C2%B0112.977%C2%B0&amp;amp;ie=UTF8&amp;amp;ll=28.181737,112.976961&amp;amp;spn=0.038433,0.058365&amp;amp;t=k&amp;amp;z=14&amp;amp;iwloc=addr&amp;amp;om=1&#34;&gt;链接&lt;/a&gt;，或28.1817°
-112.977°，或+28° 10&amp;rsquo; 54.12&amp;rdquo;, +112° 58&amp;rsquo; 37.20&amp;rdquo;等等；&lt;br /&gt;
-5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到
-&lt;a href=&#34;http://picasaweb.google.com/&#34;&gt;Picasa Web
-Album&lt;/a&gt;、&lt;a href=&#34;http://www.panoramio.com/&#34;&gt;Panoramio&lt;/a&gt;
-或 &lt;a href=&#34;http://flickr.com/&#34;&gt;Flickr&lt;/a&gt;，标记坐标和标签，并在 blog
-上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger
-发布的 KML 地标文件。&lt;/p&gt;
-
-&lt;p&gt;这样的好处是：&lt;br /&gt;
-1、也许能够因此发现之前一直都不知道的有趣的地方；&lt;br /&gt;
-2、让宅在家里的人有动力出去放放风；&lt;br /&gt;
-3、相当于替别人进行了一次小小的旅行；&lt;br /&gt;
-4、增进与读者的交流。&lt;/p&gt;
-
-&lt;p&gt;不方便的地方有：&lt;br /&gt;
-1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio
-照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；&lt;br /&gt;
-2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；&lt;br /&gt;
-3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；&lt;br /&gt;
-4、会有人感兴趣吗？&lt;/p&gt;
-
-&lt;p&gt;这类活动的名称还没有想好，包括这篇 blog
-的名字也很难想啊~而且不知道是否重新发明了轮子…&lt;/p&gt;
-
-&lt;p&gt;我在 Panoramio
-的照片在&lt;a href=&#34;http://www.panoramio.com/user/516541&#34;&gt;这里&lt;/a&gt;，可以&lt;a href=&#34;http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;amp;ln=112.9924185&amp;amp;z=6&#34;&gt;直接在地图上查看&lt;/a&gt;，也可以下载并用
-Google Earth 打开相应的 &lt;a href=&#34;http://www.panoramio.com/kml/?user=516541&#34;&gt;KML
-地标文件&lt;/a&gt;。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交互、分享地图照片</title>
+      <link>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</link>
+      <pubDate>Wed, 22 Aug 2007 16:36:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiaohu-fenxiang-ditu-zhaopian/</guid>
+      <description>Owen 曾经在05年发起 10 Places of My City 的活动，没想到到前天还有人加上这个标签——但现在 Technorati 上也只查到这一个 blog 了，Flickr 上则到06年7月为止，而且貌</description>
+      <content:encoded><![CDATA[<p><a href="http://blog.timetide.net/">Owen</a> 曾经在05年发起 <a href="http://blog.timetide.net/archives/2005/01/21/20050121224101.php">10 Places of My<br>
+City</a><br>
+的活动，没想到到前天<a href="http://chinayaohui.spaces.live.com/Blog/cns!E28820E2558E2898!555.entry">还有人</a>加上<a href="http://www.technorati.com/tag/10placesofmycity">这个标签</a>——但现在<br>
+Technorati 上也只查到这一个 blog 了，Flickr<br>
+上则到06年7月为止，而且貌似还不是参与这次活动的。</p>
+<p>这个活动1个 blog 通常也就参与一次，毕竟自己喜欢的地方不可能太多，n<br>
+只爪子都数不过来。</p>
+<p>2年后的现在，我们有了 <a href="http://earth.google.com/">Google Earth</a>/<a href="http://maps.google.com/">Google<br>
+Maps</a> +<br>
+<a href="http://www.panoramio.com/">Panoramio</a>，<a href="http://picasa.google.com/">Picasa</a><br>
+支持方便地标注地理位置，<a href="http://flickr.com/">Flickr</a><br>
+也支持坐标了，类似这样的活动是不是可以有更新的形式呢？</p>
+<p>我的想法是这样的：<br>
+1、Blogger<br>
+首先公布自己所在的坐标，例如我的位置就在<a href="http://maps.google.com/maps/ms?msa=0&amp;msid=101122378912155885484.0004384bce7d1200caf22&amp;ll=28.256459,112.982111&amp;spn=0.019203,0.029182&amp;t=k&amp;z=15&amp;om=1">这里</a>，坐标大概是28.254200,<br>
+112.982000；<br>
+2、然后大致描述一下自己通常能够跑到的范围，例如我在一天时间内基本可以跑到长沙市区的任意位置，不过河西陌生一点，山附近会比较容易迷路；<br>
+3、访问 blog<br>
+的访客在这个城市的地图上找到自己感兴趣的地方，如地图上颇为醒目的<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">这个体育场</a>；<br>
+4、访客记录下这个位置的坐标，通过留言等方式告诉<br>
+blogger，如这个<a href="http://maps.google.com/maps?f=q&amp;hl=zh-CN&amp;geocode=&amp;q=28.1817%C2%B0112.977%C2%B0&amp;ie=UTF8&amp;ll=28.181737,112.976961&amp;spn=0.038433,0.058365&amp;t=k&amp;z=14&amp;iwloc=addr&amp;om=1">链接</a>，或28.1817°<br>
+112.977°，或+28° 10&rsquo; 54.12&quot;, +112° 58&rsquo; 37.20&quot;等等；<br>
+5、Blogger 如果也对这个地方感兴趣，则抽空去那里跑一趟，拍摄照片后上传到<br>
+<a href="http://picasaweb.google.com/">Picasa Web<br>
+Album</a>、<a href="http://www.panoramio.com/">Panoramio</a><br>
+或 <a href="http://flickr.com/">Flickr</a>，标记坐标和标签，并在 blog<br>
+上答复提出要求的访客，能够介绍一下景点就更好。访客也可以跟踪 blogger<br>
+发布的 KML 地标文件。</p>
+<p>这样的好处是：<br>
+1、也许能够因此发现之前一直都不知道的有趣的地方；<br>
+2、让宅在家里的人有动力出去放放风；<br>
+3、相当于替别人进行了一次小小的旅行；<br>
+4、增进与读者的交流。</p>
+<p>不方便的地方有：<br>
+1、感觉相册和地图服务的结合还不够紧密，照片的定位和展示还可以做得更好，如坐标的提取和转换不够方便统一，Panoramio<br>
+照片在 GE 中更新的速度较慢，Earth 和 Maps 的坐标会有小偏差；<br>
+2、像在下这样的良牙党人有很大的几率会迷路，短期内不一定能够腾出时间跑点，天气也会是个问题；<br>
+3、有个统一的社区来做这个事情就最好了，避免重复劳动和分散注意力；<br>
+4、会有人感兴趣吗？</p>
+<p>这类活动的名称还没有想好，包括这篇 blog<br>
+的名字也很难想啊~而且不知道是否重新发明了轮子…</p>
+<p>我在 Panoramio<br>
+的照片在<a href="http://www.panoramio.com/user/516541">这里</a>，可以<a href="http://www.panoramio.com/map/?user=516541#lt=28.2134985&amp;ln=112.9924185&amp;z=6">直接在地图上查看</a>，也可以下载并用<br>
+Google Earth 打开相应的 <a href="http://www.panoramio.com/kml/?user=516541">KML<br>
+地标文件</a>。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

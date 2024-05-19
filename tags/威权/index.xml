@@ -1,39 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>威权 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%A8%81%E6%9D%83/</link>
     <description>Recent content in 威权 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%A8%81%E6%9D%83/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>为什么需要强力领袖？</title>
-        <link>https://ioerr.github.io/posts/weishenme-xuyao-qiangli-lingxiu/</link>
-        <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/weishenme-xuyao-qiangli-lingxiu/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/CaminoTexas/status/1631425934351040512&#34;&gt;徒步的骑手&lt;/a&gt;：&lt;br /&gt;
-這兩天，媒體報導&lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-03-02/china-plans-to-inject-1-9-billion-into-top-memory-chipmaker&#34;&gt;天朝官府投資19億美元研發芯片&lt;/a&gt;。&lt;br /&gt;
-會不會實現目標？不會。&lt;br /&gt;
-美日韓和美麗島等芯片技術領先者，過去幾十年都具備三個必要條件：保護知識產權、國際合作、自由市場。&lt;br /&gt;
-前天還跟一位美麗島人聊起來，他說美麗島保護知識產權大致跟民主化同步，否則台積電不可能成功。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1631443960714629120&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-天朝上人相信砸钱万能。&lt;br /&gt;
-如果砸钱一时没成功，只说明钱少时间短，需要坚定方向克服万难继续砸。&lt;br /&gt;
-基础设施、高端技术、强力武器等等全都是政府主导或扶持出来的，知识产权、自由市场、国际合作规则都是先发者给后发者下的陷阱。&lt;br /&gt;
-所以结论是，需要一个对外强硬、不择手段、高瞻远瞩和绝对权威的领袖。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%A8%81%E6%9D%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么需要强力领袖？</title>
+      <link>https://ioerr.github.io/posts/weishenme-xuyao-qiangli-lingxiu/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weishenme-xuyao-qiangli-lingxiu/</guid>
+      <description>徒步的骑手： 這兩天，媒體報導天朝官府投資19億美元研發芯片。 會不會實現目標？不會。 美日韓和美麗島等芯片技術領先者，過去幾十年都具備三個必要條</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/CaminoTexas/status/1631425934351040512">徒步的骑手</a>：<br>
+這兩天，媒體報導<a href="https://www.bloomberg.com/news/articles/2023-03-02/china-plans-to-inject-1-9-billion-into-top-memory-chipmaker">天朝官府投資19億美元研發芯片</a>。<br>
+會不會實現目標？不會。<br>
+美日韓和美麗島等芯片技術領先者，過去幾十年都具備三個必要條件：保護知識產權、國際合作、自由市場。<br>
+前天還跟一位美麗島人聊起來，他說美麗島保護知識產權大致跟民主化同步，否則台積電不可能成功。</p>
+<p><a href="https://twitter.com/calon/status/1631443960714629120">Calon</a>：<br>
+天朝上人相信砸钱万能。<br>
+如果砸钱一时没成功，只说明钱少时间短，需要坚定方向克服万难继续砸。<br>
+基础设施、高端技术、强力武器等等全都是政府主导或扶持出来的，知识产权、自由市场、国际合作规则都是先发者给后发者下的陷阱。<br>
+所以结论是，需要一个对外强硬、不择手段、高瞻远瞩和绝对权威的领袖。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

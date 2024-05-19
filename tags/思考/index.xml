@@ -1,93 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>思考 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%80%9D%E8%80%83/</link>
     <description>Recent content in 思考 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>人还有价值吗？</title>
-        <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
-        <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
-        <description>&lt;p&gt;《不合时宜》播客最近发布了一期《&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;amp;mid=2247486162&amp;amp;idx=1&amp;amp;sn=826f991907db55decfbefff7315f3c55&#34;&gt;AI狂飙的时代，人类还有价值吗？&lt;/a&gt;》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。&lt;/p&gt;
-
-&lt;p&gt;链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。&lt;/p&gt;
-
-&lt;p&gt;没有借助 AI，我自己的总结归纳如下：&lt;/p&gt;
-
-&lt;p&gt;ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。&lt;/p&gt;
-
-&lt;p&gt;人的思考有快和慢两种模式。&lt;br /&gt;
-快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；&lt;br /&gt;
-慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。&lt;br /&gt;
-之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。&lt;/p&gt;
-
-&lt;p&gt;AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。&lt;br /&gt;
-GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。&lt;br /&gt;
-ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。&lt;/p&gt;
-
-&lt;p&gt;进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。&lt;br /&gt;
-假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。&lt;br /&gt;
-现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。&lt;br /&gt;
-传统上认为女性更擅长的很多优势可能会更加重要。&lt;br /&gt;
-可能只有人和人交流的意义上所付出的劳动无法被取代。&lt;br /&gt;
-甚至人与人的情感关系会被人与 AI 的情感关系取代。&lt;/p&gt;
-
-&lt;p&gt;现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。&lt;br /&gt;
-要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。&lt;/p&gt;
-
-&lt;p&gt;AI 的多样性和差异会远远大于人类之间。&lt;br /&gt;
-AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。&lt;br /&gt;
-社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。&lt;/p&gt;
-
-&lt;p&gt;不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。&lt;br /&gt;
-面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。&lt;/p&gt;
-
-&lt;p&gt;AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。&lt;br /&gt;
-从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。&lt;br /&gt;
-要锻炼自己影响人的能力、沟通能力、团队组织能力。&lt;/p&gt;
-
-&lt;p&gt;需要深入思考的问题：&lt;br /&gt;
-如果人生观被推翻，如何重塑？&lt;br /&gt;
-即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？&lt;/p&gt;
-
-&lt;p&gt;近期其他与 ChatGPT 和 AI 相关的文章推荐：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893&#34;&gt;《GPT-4 ，通用人工智能的火花》论文内容精选与翻译&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867&#34;&gt;Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/581806122/answer/2887595601&#34;&gt;ChatGPT 有多高的技术壁垒？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/&#34;&gt;ChatGPT 会如何改变我们的生活？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/&#34;&gt;从 ChatGPT 看中美人工智能竞争&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/xuwenhao/status/1622123211835211776&#34;&gt;聊聊AI会怎么替代我们的工作吧&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/MoonAtCloud/status/1614357742260719616&#34;&gt;ChatGPT 和 Wolfram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756&#34;&gt;拆解追溯 GPT-3.5 各项能力的起源&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hanyang.wtf/p/chatgpt&#34;&gt;ChatGPT 的挑战是网上没有足够多的信息&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;amp;mid=2686324112&amp;amp;idx=1&amp;amp;sn=3dc2ad668f92f88e8243970dcd07f939&#34;&gt;GPT推进哲学问题了吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31&#34;&gt;Sam Altman谈GPT-4、ChatGPT和AI的未来&lt;/a&gt;&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人还有价值吗？</title>
+      <link>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ren-haiyou-jiazhi-ma/</guid>
+      <description>《不合时宜》播客最近发布了一期《AI狂飙的时代，人类还有价值吗？》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。 链接中有节目的全文</description>
+      <content:encoded><![CDATA[<p>《不合时宜》播客最近发布了一期《<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTc1OTQ3OQ==&amp;mid=2247486162&amp;idx=1&amp;sn=826f991907db55decfbefff7315f3c55">AI狂飙的时代，人类还有价值吗？</a>》的节目，嘉宾木遥和主播王磬展开了关于 ChatGPT 和人工智能的讨论。</p>
+<p>链接中有节目的全文内容，还是挺长的，但我觉得非常值得一读。</p>
+<p>没有借助 AI，我自己的总结归纳如下：</p>
+<p>ChatGPT 从3.0到3.5之间，建立了因果链条能力，可以做一些推断性的事。</p>
+<p>人的思考有快和慢两种模式。<br>
+快模式不经过思考，依赖于生物本能，传统意义上的神经网络模仿的是人的快思考；<br>
+慢模式要一步一步想问题，有一大堆中间步骤（简化了表述，建议读卡尼曼的原著），思维链条（COT）在模仿人类的慢思考，把一堆信息综合在一起，推出一堆中间结果，最终得到结论。<br>
+之前的 AI 都是专业领域训练和应用，ChatGPT 让人看到了通用人工智能模型的曙光。</p>
+<p>AI 在人的生活中的渗透是一个逐渐的过程，不会一下子完全取代，而是逐步冲击并且已经在发生。<br>
+GPT 的本质是一种以对话为界面的服务，帮助获取信息，一切以对话为服务形式的工作都会被改变。<br>
+ChatGPT 虽然现在有缺陷，如不够精准，使用封闭模型，可以通过改进模型和与其他检索服务结合来迅速提升。</p>
+<p>进入工业革命以来，人类认为智力劳动比体力劳动更有价值，因为机器能够在体力上胜过人类，却做不到从智力上超越人类。<br>
+假如 AI 在智力上也碾压人类，人类的价值和存在意义都可能被推翻。<br>
+现在带来优势社会地位的劳动分工，在被 AI 冲击后，可能变为弱势分工。<br>
+传统上认为女性更擅长的很多优势可能会更加重要。<br>
+可能只有人和人交流的意义上所付出的劳动无法被取代。<br>
+甚至人与人的情感关系会被人与 AI 的情感关系取代。</p>
+<p>现代的人有其时代局限性和固有惯性，会有太多的未知新生事物，站在现代根本无法预料到未来会如何，可能需要一两代人才能进入新时代。<br>
+要多关注一线的 AI 研究人员的信息而不是业界已经功成名就的人，后者知识更新更慢，或者受成见影响。</p>
+<p>AI 的多样性和差异会远远大于人类之间。<br>
+AI 也会极大地放大人和人之间技能差异所带来的资源差异，会让极少数控制AI、掌握AI的人创造价值和调动资源的能力远超一般人。<br>
+社会不平等会进一步放大，与失去存在意义相结合，可能造成整个社会不稳定。</p>
+<p>不了解事情的本质，凭着恐慌或者焦虑来做监管，会扼杀和阻碍创新，或者没有任何意义。<br>
+面对 AI 的冲击，安全保障和保持灵活性留有多个选项很重要，主动迎接变化，才能避免安全感缺失的焦虑。</p>
+<p>AI 有能力联系已有的想法进行创新，部分创新工作也能替代人工。<br>
+从无到有完全原创性的创新可能不会被 AI 替代，但这只是个安慰，对大部分人没有意义。<br>
+要锻炼自己影响人的能力、沟通能力、团队组织能力。</p>
+<p>需要深入思考的问题：<br>
+如果人生观被推翻，如何重塑？<br>
+即使工作被 AI 取代，什么能让你觉得生存于世是有意义的？</p>
+<p>近期其他与 ChatGPT 和 AI 相关的文章推荐：</p>
+<p><a href="https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893">《GPT-4 ，通用人工智能的火花》论文内容精选与翻译</a></p>
+<p><a href="https://medium.com/@catmus2048/midjourney-v5-%E6%AF%94-v4-%E6%9B%B4%E5%A5%BD%E5%90%97-%E7%BB%BC%E5%90%88%E8%AF%84%E6%B5%8B-prompt-%E5%85%A8%E5%85%AC%E5%BC%80-bd8a1d909867">Midjourney V5 比 V4 更好吗？综合评测，Prompt 全公开</a></p>
+<p><a href="https://www.zhihu.com/question/581806122/answer/2887595601">ChatGPT 有多高的技术壁垒？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-037-tinyfool-text/">ChatGPT 会如何改变我们的生活？</a></p>
+<p><a href="https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt-text/">从 ChatGPT 看中美人工智能竞争</a></p>
+<p><a href="https://twitter.com/xuwenhao/status/1622123211835211776">聊聊AI会怎么替代我们的工作吧</a></p>
+<p><a href="https://twitter.com/MoonAtCloud/status/1614357742260719616">ChatGPT 和 Wolfram</a></p>
+<p><a href="https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756">拆解追溯 GPT-3.5 各项能力的起源</a></p>
+<p><a href="https://hanyang.wtf/p/chatgpt">ChatGPT 的挑战是网上没有足够多的信息</a></p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjcxMDEwNQ==&amp;mid=2686324112&amp;idx=1&amp;sn=3dc2ad668f92f88e8243970dcd07f939">GPT推进哲学问题了吗？</a></p>
+<p><a href="https://www.linkresearcher.com/information/1f90ea1d-64f8-4b53-9456-d8b14faefb31">Sam Altman谈GPT-4、ChatGPT和AI的未来</a></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

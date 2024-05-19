@@ -1,171 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 读写错误</title>
     <link>https://ioerr.github.io/tags/</link>
     <description>Recent content in Tags on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title></title>
-        <link>https://ioerr.github.io/tags/</link>
-        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>19</title>
-        <link>https://ioerr.github.io/tags/19/</link>
-        <pubDate>Wed, 04 Jun 2008 15:58:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/19/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>19世纪</title>
-        <link>https://ioerr.github.io/tags/19%E4%B8%96%E7%BA%AA/</link>
-        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/19%E4%B8%96%E7%BA%AA/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>2009</title>
-        <link>https://ioerr.github.io/tags/2009/</link>
-        <pubDate>Fri, 01 Jan 2010 16:59:33 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/2009/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>20年</title>
-        <link>https://ioerr.github.io/tags/20%E5%B9%B4/</link>
-        <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/20%E5%B9%B4/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>21世纪</title>
-        <link>https://ioerr.github.io/tags/21%E4%B8%96%E7%BA%AA/</link>
-        <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/21%E4%B8%96%E7%BA%AA/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>64</title>
-        <link>https://ioerr.github.io/tags/64/</link>
-        <pubDate>Wed, 04 Jun 2008 15:58:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/64/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>89</title>
-        <link>https://ioerr.github.io/tags/89/</link>
-        <pubDate>Wed, 04 Jun 2008 15:58:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/89/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>8964</title>
-        <link>https://ioerr.github.io/tags/8964/</link>
-        <pubDate>Thu, 04 Jun 2009 14:03:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/8964/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>996</title>
-        <link>https://ioerr.github.io/tags/996/</link>
-        <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/996/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>Ai</title>
-        <link>https://ioerr.github.io/tags/ai/</link>
-        <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/ai/</guid>
-        <description></description>
-      </item>
-    
-      <item>
-        <title>Aigc</title>
-        <link>https://ioerr.github.io/tags/aigc/</link>
-        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/tags/aigc/</guid>
-        <description></description>
-      </item>
-    
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://ioerr.github.io/tags/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://ioerr.github.io/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://ioerr.github.io/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSS</title>
+      <link>https://ioerr.github.io/tags/rss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/rss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>主题</title>
+      <link>https://ioerr.github.io/tags/%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E4%B8%BB%E9%A2%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>折腾</title>
+      <link>https://ioerr.github.io/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPad</title>
+      <link>https://ioerr.github.io/tags/ipad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/ipad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>价值</title>
+      <link>https://ioerr.github.io/tags/%E4%BB%B7%E5%80%BC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E4%BB%B7%E5%80%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>传统</title>
+      <link>https://ioerr.github.io/tags/%E4%BC%A0%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E4%BC%A0%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>幸福</title>
+      <link>https://ioerr.github.io/tags/%E5%B9%B8%E7%A6%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E5%B9%B8%E7%A6%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>广告</title>
+      <link>https://ioerr.github.io/tags/%E5%B9%BF%E5%91%8A/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E5%B9%BF%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>文明</title>
+      <link>https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/tags/%E6%96%87%E6%98%8E/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

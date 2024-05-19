@@ -1,42 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>炸弹 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%82%B8%E5%BC%B9/</link>
     <description>Recent content in 炸弹 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 18 Feb 2010 17:54:29 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%82%B8%E5%BC%B9/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>手机电池炸弹</title>
-        <link>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</link>
-        <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</guid>
-        <description>&lt;p&gt;以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…&lt;/p&gt;
-
-&lt;p&gt;在现代信息社会，恐怖袭击若只是刀枪剑戟（想必董卓对最后一项印象深刻）或一般的火枪炸弹，未免太落后于时代，基地组织前无古人的劫机撞大楼已经成为重点防范对象，液体炸弹也曾功亏一篑，新世纪的恐怖分子需要一种新的方法，反恐部门也需要尽早做好应对准备才是啊…&lt;/p&gt;
-
-&lt;p&gt;那么，什么才是新一代的恐怖袭击手段呢？答案是：手机，准确的说：是手机电池&lt;/p&gt;
-
-&lt;p&gt;是的，手机电池才是目前最完美的恐怖袭击武器：&lt;br /&gt;
-恐怖袭击一般是穷国向富国发起的，后者的手机人均拥有量更高，目标人群几乎人手一个手机，一旦发动，可以制造大范围的伤害和恐慌&lt;br /&gt;
-手机电池作为常见物品，可以顺利通过安全检查，非常适合恐怖袭击&lt;br /&gt;
-手机使用时靠近头部这样的要害，狙击手都很难保证一发命中的部位却会主动凑过来接受攻击，实在是有天时之利，虽然现在很多人喜欢把手机拿在手上把玩，这种攻击也可以致残，使目标丧失反抗能力&lt;br /&gt;
-可研究通过手机内置信令触发引爆手机电池，远程发送信令即可实现遥控引爆，加上手机计时器还可以做成定时炸弹&lt;/p&gt;
-
-&lt;p&gt;所以，恐怖分子们可以赶紧收购并做大一家手机电池厂商，专门生产能够爆炸的手机电池，并推销给全世界&lt;br /&gt;
-而反恐部门不妨将劣质手机电池厂商列为重点监视目标，搞不好还能顺手逮到本拉登…&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%82%B8%E5%BC%B9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手机电池炸弹</title>
+      <link>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</link>
+      <pubDate>Thu, 18 Feb 2010 17:54:29 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shouji-dianchi-zhadan/</guid>
+      <description>以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命… 在现代信息社会，恐怖袭击若只是刀枪剑戟（想必董卓对</description>
+      <content:encoded><![CDATA[<p>以下内容纯属玩笑，请小朋友勿在家模仿，守法公民自动绕行，恐怖分子且当玩笑，好汉和女侠饶命…</p>
+<p>在现代信息社会，恐怖袭击若只是刀枪剑戟（想必董卓对最后一项印象深刻）或一般的火枪炸弹，未免太落后于时代，基地组织前无古人的劫机撞大楼已经成为重点防范对象，液体炸弹也曾功亏一篑，新世纪的恐怖分子需要一种新的方法，反恐部门也需要尽早做好应对准备才是啊…</p>
+<p>那么，什么才是新一代的恐怖袭击手段呢？答案是：手机，准确的说：是手机电池</p>
+<p>是的，手机电池才是目前最完美的恐怖袭击武器：<br>
+恐怖袭击一般是穷国向富国发起的，后者的手机人均拥有量更高，目标人群几乎人手一个手机，一旦发动，可以制造大范围的伤害和恐慌<br>
+手机电池作为常见物品，可以顺利通过安全检查，非常适合恐怖袭击<br>
+手机使用时靠近头部这样的要害，狙击手都很难保证一发命中的部位却会主动凑过来接受攻击，实在是有天时之利，虽然现在很多人喜欢把手机拿在手上把玩，这种攻击也可以致残，使目标丧失反抗能力<br>
+可研究通过手机内置信令触发引爆手机电池，远程发送信令即可实现遥控引爆，加上手机计时器还可以做成定时炸弹</p>
+<p>所以，恐怖分子们可以赶紧收购并做大一家手机电池厂商，专门生产能够爆炸的手机电池，并推销给全世界<br>
+而反恐部门不妨将劣质手机电池厂商列为重点监视目标，搞不好还能顺手逮到本拉登…</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

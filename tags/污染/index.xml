@@ -1,47 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>污染 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B1%A1%E6%9F%93/</link>
     <description>Recent content in 污染 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Apr 2012 10:32:31 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>流水不腐，户枢不蠹</title>
-        <link>https://ioerr.github.io/posts/liushui-bu-fu-hushu-bu-du/</link>
-        <pubDate>Mon, 16 Apr 2012 10:32:31 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/liushui-bu-fu-hushu-bu-du/</guid>
-        <description>&lt;p&gt;自打火星文以后，好久没有看到有人不满互联网语言污染、危害汉语纯洁性了，比如3月8日王佩在
-twitter
-上的七连问，就有一问是对汉语被污染痛心疾首，李华治则列举了看不顺眼的流行字词，名曰“&lt;a href=&#34;http://lihuazhi.com/542&#34;&gt;词语洁癖症&lt;/a&gt;”，这让我联想到多年来无数文化人对网络时代语言纯洁性的担忧、惊恐和愤怒。&lt;/p&gt;
-
-&lt;p&gt;说实话，某些矫情做作的用法我也看不惯，但也不用反应过度。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://twitter.com/calon/status/17807&#34;&gt;一门语言如果是活的，那么这种所谓的污染就不可避免。&lt;/a&gt;。语言不仅仅是文字的艺术品，同时也是普罗大众日常生活交流沟通的符号工具，既然是工具，在应用中不断变异以符合应用的需要，实在正常。&lt;/p&gt;
-
-&lt;p&gt;现在回头看看多年以前的网络流行词汇，伊妹儿、油菜花、酱紫、大虾、酷毙了、漂漂等等，有多少还常见？大量新鲜词汇进入日常语言的同时，大批过时的词汇也陆续死在沙滩上，这不就是一门语言活生生的演变过程么？&lt;br /&gt;
-大浪淘沙之后剩下的词汇，是少了几分文雅多了几分粗俗没错，可胜在简单粗暴、直指人心、战斗力强，显然更加适合应用。&lt;/p&gt;
-
-&lt;p&gt;要是剩下的那些海量词汇你仍然看不惯，那也没有关系，很有可能只是因为你还活得不够久，不妨看看&lt;a href=&#34;http://calon.weblogs.us/yishu_zhexue_zhaichao_10/&#34;&gt;《艺术哲学》中的论述&lt;/a&gt;，浮在表面上的东西终究要被时间一扫而空，这在语言艺术中也成立。&lt;/p&gt;
-
-&lt;p&gt;另一方面，妄想维护语言纯洁性的人除了视语言为死物之外，还自高自大自我膨胀视语言为禁脔，不过常常自命为国民文化的代表意图代为拥有和管理罢了。&lt;/p&gt;
-
-&lt;p&gt;语言属于使用它的所有人，没有人有权利声明只有自己看得下去的文字才配得上纯洁，更不用说还要别人为污染语言负责，甚至要上升到法律的高度限制他人使用语言（法国人倒是喜欢维护法语的纯洁性，不少人还挺赞赏的，可我顶多只能远远的敬佩他们的偏执，要强制我也参与维护语言的纯洁性，我可不干）。&lt;/p&gt;
-
-&lt;p&gt;在我看来，保证语言纯洁优美最好的方法，是自己为美化语言而创造、写作，要是你的文字散发出无法抵挡的魅力和优美，自然会让人折服、传播、模仿，继而发扬光大，无远弗届。&lt;br /&gt;
-真要反对的，倒应该是各种官方制造的假话、大话、套话、空话，还有无视事实、不经大脑、没有逻辑的思维，这些恶劣习惯随着强力推行公开传染，才真是汉语最大的污染源。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>流水不腐，户枢不蠹</title>
+      <link>https://ioerr.github.io/posts/liushui-bu-fu-hushu-bu-du/</link>
+      <pubDate>Mon, 16 Apr 2012 10:32:31 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/liushui-bu-fu-hushu-bu-du/</guid>
+      <description>自打火星文以后，好久没有看到有人不满互联网语言污染、危害汉语纯洁性了，比如3月8日王佩在 twitter 上的七连问，就有一问是对汉语被污染痛心疾首，李华治</description>
+      <content:encoded><![CDATA[<p>自打火星文以后，好久没有看到有人不满互联网语言污染、危害汉语纯洁性了，比如3月8日王佩在<br>
+twitter<br>
+上的七连问，就有一问是对汉语被污染痛心疾首，李华治则列举了看不顺眼的流行字词，名曰“<a href="http://lihuazhi.com/542">词语洁癖症</a>”，这让我联想到多年来无数文化人对网络时代语言纯洁性的担忧、惊恐和愤怒。</p>
+<p>说实话，某些矫情做作的用法我也看不惯，但也不用反应过度。</p>
+<p><a href="http://twitter.com/calon/status/17807">一门语言如果是活的，那么这种所谓的污染就不可避免。</a>。语言不仅仅是文字的艺术品，同时也是普罗大众日常生活交流沟通的符号工具，既然是工具，在应用中不断变异以符合应用的需要，实在正常。</p>
+<p>现在回头看看多年以前的网络流行词汇，伊妹儿、油菜花、酱紫、大虾、酷毙了、漂漂等等，有多少还常见？大量新鲜词汇进入日常语言的同时，大批过时的词汇也陆续死在沙滩上，这不就是一门语言活生生的演变过程么？<br>
+大浪淘沙之后剩下的词汇，是少了几分文雅多了几分粗俗没错，可胜在简单粗暴、直指人心、战斗力强，显然更加适合应用。</p>
+<p>要是剩下的那些海量词汇你仍然看不惯，那也没有关系，很有可能只是因为你还活得不够久，不妨看看<a href="http://calon.weblogs.us/yishu_zhexue_zhaichao_10/">《艺术哲学》中的论述</a>，浮在表面上的东西终究要被时间一扫而空，这在语言艺术中也成立。</p>
+<p>另一方面，妄想维护语言纯洁性的人除了视语言为死物之外，还自高自大自我膨胀视语言为禁脔，不过常常自命为国民文化的代表意图代为拥有和管理罢了。</p>
+<p>语言属于使用它的所有人，没有人有权利声明只有自己看得下去的文字才配得上纯洁，更不用说还要别人为污染语言负责，甚至要上升到法律的高度限制他人使用语言（法国人倒是喜欢维护法语的纯洁性，不少人还挺赞赏的，可我顶多只能远远的敬佩他们的偏执，要强制我也参与维护语言的纯洁性，我可不干）。</p>
+<p>在我看来，保证语言纯洁优美最好的方法，是自己为美化语言而创造、写作，要是你的文字散发出无法抵挡的魅力和优美，自然会让人折服、传播、模仿，继而发扬光大，无远弗届。<br>
+真要反对的，倒应该是各种官方制造的假话、大话、套话、空话，还有无视事实、不经大脑、没有逻辑的思维，这些恶劣习惯随着强力推行公开传染，才真是汉语最大的污染源。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

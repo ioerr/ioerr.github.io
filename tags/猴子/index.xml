@@ -1,64 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>猴子 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E7%8C%B4%E5%AD%90/</link>
     <description>Recent content in 猴子 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 18 Aug 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E7%8C%B4%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>现代猴子</title>
-        <link>https://ioerr.github.io/posts/xiandai-houzi/</link>
-        <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xiandai-houzi/</guid>
-        <description>&lt;p&gt;一想到猴子们每天穿着西装在办公室正襟危坐，一脸严肃地思考着如何保持盈利和增长，就想要笑啊。&lt;/p&gt;
-
-&lt;p&gt;免不了有三种感觉：&lt;br /&gt;
-一种是沐猴而冠的荒谬感，一种是佩服猿猴竟可以严密组织起来达成许多伟大的成就，一种是类似于孙悟空戴上紧箍的悲哀。&lt;/p&gt;
-
-&lt;p&gt;而我们每个人都是其中一只猴子。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>猴子的故事</title>
-        <link>https://ioerr.github.io/posts/houzi-de-gushi/</link>
-        <pubDate>Tue, 20 Nov 2007 17:02:49 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/houzi-de-gushi/</guid>
-        <description>&lt;p&gt;昨天从《&lt;a href=&#34;http://www.douban.com/subject/1751575/&#34;&gt;基督教世界科学与神学论战史&lt;/a&gt;》中摘录了一则故事发到
-Twitter 上：&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-从前，有一个快乐的法国国王在他的王国中巡游视察，他在一个省城的城门口受到了市长代表的欢迎，这位代表这样开始了他的致辞：“祝您快乐，陛下，今天上午市长大人不能来恭候您的大驾光临，理由一共有13个。第一个理由是他死了。”听到这里，国王仁慈地宣布，这第一个理由已经很充分了，他不想再麻烦市长代表继续讲另外12个理由。
-&lt;/blockquote&gt;
-结果 &lt;a href=&#34;http://vannys.blogbus.com/&#34;&gt;Vanny&lt;/a&gt;
-同学&lt;a href=&#34;http://twitter.com/msvanny/statuses/426376932&#34;&gt;要求我编个新的故事&lt;/a&gt;，我一不留神就答应了，下面是这个刚刚编的故事：&lt;/p&gt;
-
-&lt;p&gt;从前有一只猴子，它和几十个同伴一同生活在丛林中。&lt;br /&gt;
-除了不得不一起去摘桃子，这只猴子大部分时间都是无所事事的，特别喜欢若有所思的发呆，或者就是抬头看看天上的太阳呀月亮呀星星呀云朵呀一看就是半天，要么爬到树上往下面扔大大小小的苹果，要么对着树洞吱吱唔唔说些什么同伴都听不懂的话。&lt;br /&gt;
-某一天，它宣称自己发明了数学——虽然它的同伴都不懂这是什么，但它很快通过这个新发明向猴子头证明最近一个月以来桃子的产量确确实实是下降了的，而且给出了精确到小数点后两位的计算值——猴子头暂时还没有理解百分比是一个什么概念，但它很高兴其对桃子收入减少的担忧得到了某种高级理论的支持，于是在猴子头的支持下，那只猴子得以完全什么事情都不干，并教授其他的猴子学习数学。&lt;br /&gt;
-猴子们从此幸福快乐的生活着，它们享用着那只猴子陆续发明的文字、发电机、移动电话、身份证以及剃须刀，并建立了跨国公司和股票交易市场，直到某一天那只猴子发狂后从自己的别墅跳下来摔死了。&lt;br /&gt;
-其他的猴子都不明白它为什么要自杀，在检查了尸体之后它们继续去树林里到处刻“办证
-13xxxxxxxxx”的字样。&lt;/p&gt;
-
-&lt;p&gt;为什么现在即兴编故事的水准比小学时候差了很多啊～ :036:&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E7%8C%B4%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>现代猴子</title>
+      <link>https://ioerr.github.io/posts/xiandai-houzi/</link>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xiandai-houzi/</guid>
+      <description>一想到猴子们每天穿着西装在办公室正襟危坐，一脸严肃地思考着如何保持盈利和增长，就想要笑啊。 免不了有三种感觉： 一种是沐猴而冠的荒谬感，一种是佩</description>
+      <content:encoded><![CDATA[<p>一想到猴子们每天穿着西装在办公室正襟危坐，一脸严肃地思考着如何保持盈利和增长，就想要笑啊。</p>
+<p>免不了有三种感觉：<br>
+一种是沐猴而冠的荒谬感，一种是佩服猿猴竟可以严密组织起来达成许多伟大的成就，一种是类似于孙悟空戴上紧箍的悲哀。</p>
+<p>而我们每个人都是其中一只猴子。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>猴子的故事</title>
+      <link>https://ioerr.github.io/posts/houzi-de-gushi/</link>
+      <pubDate>Tue, 20 Nov 2007 17:02:49 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/houzi-de-gushi/</guid>
+      <description>昨天从《基督教世界科学与神学论战史》中摘录了一则故事发到 Twitter 上： 从前有一只猴子，它和几十个同伴一同生活在丛林中。 除了不得不一起去摘桃子，这只猴</description>
+      <content:encoded><![CDATA[<p>昨天从《<a href="http://www.douban.com/subject/1751575/">基督教世界科学与神学论战史</a>》中摘录了一则故事发到<br>
+Twitter 上：</p>
+<!-- raw HTML omitted -->
+<p>从前有一只猴子，它和几十个同伴一同生活在丛林中。<br>
+除了不得不一起去摘桃子，这只猴子大部分时间都是无所事事的，特别喜欢若有所思的发呆，或者就是抬头看看天上的太阳呀月亮呀星星呀云朵呀一看就是半天，要么爬到树上往下面扔大大小小的苹果，要么对着树洞吱吱唔唔说些什么同伴都听不懂的话。<br>
+某一天，它宣称自己发明了数学——虽然它的同伴都不懂这是什么，但它很快通过这个新发明向猴子头证明最近一个月以来桃子的产量确确实实是下降了的，而且给出了精确到小数点后两位的计算值——猴子头暂时还没有理解百分比是一个什么概念，但它很高兴其对桃子收入减少的担忧得到了某种高级理论的支持，于是在猴子头的支持下，那只猴子得以完全什么事情都不干，并教授其他的猴子学习数学。<br>
+猴子们从此幸福快乐的生活着，它们享用着那只猴子陆续发明的文字、发电机、移动电话、身份证以及剃须刀，并建立了跨国公司和股票交易市场，直到某一天那只猴子发狂后从自己的别墅跳下来摔死了。<br>
+其他的猴子都不明白它为什么要自杀，在检查了尸体之后它们继续去树林里到处刻“办证<br>
+13xxxxxxxxx”的字样。</p>
+<p>为什么现在即兴编故事的水准比小学时候差了很多啊～ :036:</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

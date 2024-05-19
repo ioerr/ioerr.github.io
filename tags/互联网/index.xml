@@ -1,530 +1,382 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>互联网 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
     <description>Recent content in 互联网 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>最廉价的自我感动</title>
-        <link>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</link>
-        <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</guid>
-        <description>&lt;p&gt;网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。&lt;br /&gt;
-所求不过一个确定的回答，只是满足了自己虚假的求知欲。&lt;br /&gt;
-“我知道了！”是这个时代最廉价的自我感动。&lt;br /&gt;
-阿基米德在浴缸中思考，而网民只需要等待别人喂的速食答案，然后喊出 Eureka！&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>理直气壮</title>
-        <link>https://ioerr.github.io/posts/lizhiqizhuang/</link>
-        <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/lizhiqizhuang/</guid>
-        <description>&lt;p&gt;冉阿让因偷面包被判5年，觉得判决不公多次越狱，刑期加重到19年。&lt;br /&gt;
-刑满释放后偷了主教的银器被抓，但主教帮他脱罪。&lt;br /&gt;
-流浪途中抢了一个孩子掉落的四十苏银币，待到转变思想，想要交还却找不到人，向路遇的神甫坦白并给了他20法郎，然后一直被通缉，罪名还包括擅离住址和隐瞒身份。为免他人蒙冤坦白身份后，再次被抓。&lt;br /&gt;
-可为了完成对芳汀的承诺，冉阿让不得不越狱逃亡去领回芳汀的女儿珂赛特。&lt;br /&gt;
-亲眼看着芳汀死去的沙威警官穷追不舍冉阿让多年。&lt;br /&gt;
-读者说，冉阿让确实犯法了啊，判罚和追捕他有什么问题吗？&lt;/p&gt;
-
-&lt;p&gt;方孝孺不肯为朱棣写即位诏书，被诛十族。&lt;br /&gt;
-读者说，他不识时务，惹怒皇帝，诛十族很正常啊。&lt;/p&gt;
-
-&lt;p&gt;苏轼屡被贬谪怀才不遇。&lt;br /&gt;
-读者说，他政治站队不坚决，活该！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/O2supplier02/status/1739444526161461389&#34;&gt;沙威痛苦了一辈子，他也疑惑，无法完美说服自己。&lt;/a&gt;最后化解不了职责和良心之间的矛盾而自杀。&lt;br /&gt;
-但今天有的人不会那么痛苦，而会理直气壮地为自己“正直、真诚、老实、自信、忠于职务、尊崇权力、维护社会秩序、捍卫绝对真理，运用无边无际的权力、道理、正义、法治精神、舆论，执行上天授予的除恶任务”感到自豪。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>互联网时代之恶</title>
-        <link>https://ioerr.github.io/posts/hulianwang-shidai-zhi-e/</link>
-        <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/hulianwang-shidai-zhi-e/</guid>
-        <description>&lt;p&gt;色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。&lt;/p&gt;
-
-&lt;p&gt;愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。&lt;/p&gt;
-
-&lt;p&gt;贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。&lt;/p&gt;
-
-&lt;p&gt;懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。&lt;/p&gt;
-
-&lt;p&gt;嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。&lt;/p&gt;
-
-&lt;p&gt;傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。&lt;/p&gt;
-
-&lt;p&gt;势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。&lt;/p&gt;
-
-&lt;p&gt;虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。&lt;/p&gt;
-
-&lt;p&gt;权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。&lt;/p&gt;
-
-&lt;p&gt;虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。&lt;/p&gt;
-
-&lt;p&gt;互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Internet 40岁</title>
-        <link>https://ioerr.github.io/posts/internet-40-sui/</link>
-        <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/internet-40-sui/</guid>
-        <description>&lt;p&gt;再过几个月就是 Internet 的40岁生日了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence &lt;a href=&#34;https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml&#34;&gt;the birth of the Internet&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包括非法交易）、传递信息（包括虚假信息）、抒发情感（包括盼望世界毁灭）、分工协作（包括扯后腿和甩锅）…？&lt;/p&gt;
-
-&lt;p&gt;有了 Internet，那些总想让别人和自己的观点一致的人越来越多，戾气与恶意也越来越重。&lt;br /&gt;
-你为什么要和我想的不一样？&lt;br /&gt;
-你比我蠢，我就秀智商；&lt;br /&gt;
-你无知，我就告诉你什么是真理；&lt;br /&gt;
-你坏，我就骂到你退网；&lt;br /&gt;
-你假装不知道，我就摇到你醒为止；&lt;br /&gt;
-你屁股歪，我就脱你的裤子…&lt;br /&gt;
-但我很有信心我自己是绝对不会错的。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>非蠢即坏</title>
-        <link>https://ioerr.github.io/posts/fei-chun-ji-huai/</link>
-        <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fei-chun-ji-huai/</guid>
-        <description>
-
-&lt;p&gt;“不是蠢就是坏”这种论断暗含的逻辑是：只要和我一般明智，就一定会得出和我一样的结论，持有一致的观点。&lt;br /&gt;
-充满了对自己才智和真理在握的莫名自负。&lt;/p&gt;
-
-&lt;h3 id=&#34;讨论之一&#34;&gt;讨论之一：&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1489948581239083018&#34;&gt;Soulogic&lt;/a&gt;：&lt;br /&gt;
-我想知道是你看到什么言论了总结出来的&lt;/p&gt;
-
-&lt;p&gt;因为对于很多显而易见的观点，非蠢即坏并不是进一步推论，而只是个语气助词罢了。&lt;br /&gt;
-而对于另外一些观点，不用非蠢即坏也同样很傲慢。&lt;br /&gt;
-所以用不用非蠢即坏我感觉大多数时候并不那么重要&lt;/p&gt;
-
-&lt;p&gt;我甚至因此学会套娃了：做出非蠢即坏推论的人显然非蠢即坏&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1489954551952134146&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-没有具体哪个言论触发，就是忽然想到。回忆了一下，可能是在回答和解释儿子问的一连串历史和战争的问题时想到的。&lt;br /&gt;
-因为在他看来不可理解的一些现象，在不同的环境下不同的人看来，完全可能是合理的。&lt;br /&gt;
-但不理解这些差异合理存在的人经常喜欢把非蠢即坏挂在嘴上。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/LeaskH/status/1491443413845409792&#34;&gt;Leask Wong&lt;/a&gt;：&lt;br /&gt;
-（谷爱凌）說“任何人都可以免费下载vpn”，不是傻就是壞。以前我傾向於認為大家“傻”，但是現在我認為就是“壞”。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1491452505439748103&#34;&gt;Soulogic&lt;/a&gt;：&lt;br /&gt;
-@calon 新鲜例子，趁热乎，我觉得是无知，可以归到傻里头，你怎么理解的&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/LeaskH/status/1491453436831088640&#34;&gt;Leask Wong&lt;/a&gt;：&lt;br /&gt;
-不是傻就是壞並不是因為要表達自己有多全知全能，我覺得樓主理解過於極端了。&lt;br /&gt;
-大部分的時候，我理解是表達一些人由於自身教育背景，或者態度的原因不願意深究，不願意理解背後的原因，相信膚淺或者被灌輸的明顯缺乏邏輯的認知。這樣的例子也很多。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1491457126111518720&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-我觉得属于很傻很天真。是不是坏，不好说，反正我不会肯定地说这就是坏。&lt;br /&gt;
-断定“非傻即坏”不是要表达自己全知全能，所以我才用“暗含的逻辑”这种说法。&lt;br /&gt;
-这种认知上的自负通常没那么明显，一般作为被评判的对象时才会感觉到。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/LeaskH/status/1491458990626467844&#34;&gt;Leask Wong&lt;/a&gt;：&lt;br /&gt;
-不是那麼簡單的，有很多東西，是需要有事非觀點和態度的。&lt;br /&gt;
-特別是公眾人物，談及自己不知道，不了解的事情，應該有一定的謙卑，否則就是壞。&lt;br /&gt;
-因為自己思維的懶惰，會對社會造成危害，會有人因為錯誤的信息做錯誤的判斷。&lt;br /&gt;
-舉個例子，如果陳冠希出來說，叫大家約炮不要戴套，我覺得就是壞。其實是一個道理。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1491461444579500034&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-认为某人傻，或者认为某人坏，有多种可能，价值取向不一样，有的人带上更多的善恶评价，或者思考的深度不一样，有的人更加武断。但这里不做批评。&lt;br /&gt;
-认为某人非傻即坏，则是另一回事——因为还没有就评判对象作出判断呢，就认为只有这两种可能，非此即彼，依据和信心从何而来？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/LeaskH/status/1491464483029532680&#34;&gt;Leask Wong&lt;/a&gt;：&lt;br /&gt;
-就是，我的意思其實就是要看具體的事情。要不然太抽象，本來討論就沒有多大意義。&lt;/p&gt;
-
-&lt;p&gt;但是我依然認為通過粉飾 VPN 在中國輕易獲取，以此來證明中國的自由和開放，GFW 的合理性等等的。作為一個公眾人物，就是壞，無疑。PS：大家可以保留不同意見。&lt;/p&gt;
-
-&lt;h3 id=&#34;讨论之二&#34;&gt;讨论之二：&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/guyanmuchan001/status/1493066556217372672&#34;&gt;孤烟暮蝉&lt;/a&gt;：&lt;br /&gt;
-在记者招待会上说“在美国看到的关于冬奥会的报道都是假的”的美国运动员，推特账号马上就被封了。（西方世界已经容不下一个说真话的人）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1493084109408989185&#34;&gt;Volfay&lt;/a&gt;：&lt;br /&gt;
-喜欢这样的灯塔国，也惋惜这样的夕阳帝国。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/chenshaoju/status/1493087142771568646&#34;&gt;陈少举&lt;/a&gt;：&lt;br /&gt;
-查了一下，账号 @Aaron_Blunck 在2020年3月27日存在。&lt;/p&gt;
-
-&lt;p&gt;但是，第二次于2021年09月05日的时候，该账号就已经被封禁。&lt;/p&gt;
-
-&lt;p&gt;结论：该账号的确被封，但是并非因为声明“在美国看到的关于冬奥会的报道都是假的”而被封。&lt;/p&gt;
-
-&lt;p&gt;ref:&lt;br /&gt;
-2020-03-27：&lt;a href=&#34;https://web.archive.org/web/20200522210749/https://twitter.com/Aaron_Blunck&#34;&gt;https://web.archive.org/web/20200522210749/https://twitter.com/Aaron_Blunck&lt;/a&gt;&lt;br /&gt;
-2021-09-05：&lt;a href=&#34;https://web.archive.org/web/20210905194312/https://twitter.com/aaron_blunck&#34;&gt;https://web.archive.org/web/20210905194312/https://twitter.com/aaron_blunck&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/chenshaoju/status/1493204594524311554&#34;&gt;陈少举&lt;/a&gt;：&lt;br /&gt;
-后续：《&lt;a href=&#34;https://mp.weixin.qq.com/s/BQNqLbpAeoZZ_qdPzJZrPQ&#34;&gt;核查|美国冬奥运动员推特账号因批评美媒被封？&lt;/a&gt;》&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1493243424040173572&#34;&gt;Volfay&lt;/a&gt;：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;没见过此人对遍布推上的对中国的造谣中伤并行考证纠正。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;老夫确实也有这个印象，核查目标似乎有一定的倾向性和选择性。&lt;br /&gt;
-cc 其本人并邀请发表看法。@chenshaoju&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/chenshaoju/status/1493245426421870592&#34;&gt;陈少举&lt;/a&gt;：&lt;br /&gt;
-就是看到了而已，顺手查一下，对于这种指责，我无可奈何。&lt;/p&gt;
-
-&lt;p&gt;附部分以前针对国内辟谣：&lt;br /&gt;
-&lt;a href=&#34;https://twitter.com/chenshaoju/status/1219829564047687680&#34;&gt;https://twitter.com/chenshaoju/status/1219829564047687680&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://twitter.com/chenshaoju/status/1190549031367217152&#34;&gt;https://twitter.com/chenshaoju/status/1190549031367217152&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://twitter.com/chenshaoju/status/1220589359319019520&#34;&gt;https://twitter.com/chenshaoju/status/1220589359319019520&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://twitter.com/chenshaoju/status/1296289687766593536&#34;&gt;https://twitter.com/chenshaoju/status/1296289687766593536&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1493250288760672262&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-“我没看到等于不存在。”&lt;br /&gt;
-“做完了所有好事才能叫正义，少一件都是助纣为虐。”&lt;br /&gt;
-“在大是大非面前竟然讲事实，必有异心。”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/chenshaoju/status/1493252208561131524&#34;&gt;陈少举&lt;/a&gt;：&lt;br /&gt;
-这事倒是让我想到几年前的“完美受害者”理论，当然，不是一码事。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1493257445388423169&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-道理相近，对受害者苛求对应对他人苛求，对施害者宽容对应对自己宽容。&lt;br /&gt;
-倾向性和选择性其实人人都有，专业媒体都做不到，何况是平凡的网友。&lt;br /&gt;
-但自以为事事客观公正，看别人都是卑鄙小人，哪里来的自信哟，无非是宽以律己严以待人罢了。&lt;br /&gt;
-要是口不择言不懂尊重的无礼之人，就更加剧了网上的戾气。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/biantaishabi/status/1493256800921079809&#34;&gt;Biantaishabi&lt;/a&gt;：&lt;br /&gt;
-所以我一直说，不能接受事实还是不好，要实事求是。&lt;br /&gt;
-不能别人好心找事实做了工作，心理上还接受不了，就去攻击做了工作的人的立场，以此来作为心理补偿，这就是不实事求是。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1493260948605333504&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-而且很多事情，光靠网上收集信息，没有实地考察，可能谁都不知道事实真相是什么。哪怕极力避免，也有可能出错。&lt;br /&gt;
-只能说，“如果事实是怎样的，我的观点是什么”。&lt;br /&gt;
-可惜太多人想的是，这么明显的事实，我怎么可能会错？&lt;br /&gt;
-既然我是对的，那观点不一样的人都是错的咯，还错得这么离谱，不就非蠢即坏了么？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>互联网的尽头</title>
-        <link>https://ioerr.github.io/posts/hulianwang-de-jintou/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/hulianwang-de-jintou/</guid>
-        <description>&lt;p&gt;这个网页号称“互联网的尽头”：&lt;a href=&#34;https://hmpg.net/&#34;&gt;The end of the Internet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;上面的内容在这里都可以完全呈现出来：&lt;/p&gt;
-
-&lt;p&gt;Congratulations!&lt;br /&gt;
-恭喜！&lt;/p&gt;
-
-&lt;p&gt;You have finally reached the end of the internet!&lt;br /&gt;
-There&amp;rsquo;s nothing more to see, no more links to visit.&lt;br /&gt;
-You&amp;rsquo;ve done it all.&lt;br /&gt;
-This is the very last page on the very last server at the very far end of the internet.&lt;br /&gt;
-你终于来到了互联网的尽头！&lt;br /&gt;
-再没有可以浏览访问的内容。&lt;br /&gt;
-你都看完了。&lt;br /&gt;
-这里就是互联网尽头的最后一台服务器上的最后一个页面。&lt;/p&gt;
-
-&lt;p&gt;You should now turn off your computer and go do something useful with the rest of your life. *&lt;/p&gt;
-
-&lt;p&gt;Suggestions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read a book&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Do some public service&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Personally interact with your neighbors that you&amp;rsquo;ve probably only met online&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Plant a tree&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Introduce yourself to those other people who live at your house (your family).&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;* Please don&amp;rsquo;t forget to turn off the lights on your way out.&lt;/p&gt;
-
-&lt;p&gt;现在你该关掉电脑，在余生中去干点有用的事情了。&lt;br /&gt;
-建议：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;读书&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;公共服务&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;和之前只在网上遇到过的邻居打打招呼&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;种一棵树&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;向同住一屋的其他人（你的家庭）介绍你自己&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;* 走的时候别忘了关灯&lt;/p&gt;
-
-&lt;p&gt;In order to save time, we will now start downloading the internet to your local drive.&lt;/p&gt;
-
-&lt;p&gt;为了节约时间，现在会把整个互联网下载到你的本地磁盘中。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../images/downloadwww.gif&#34; alt=&#34;download www&#34; /&gt;&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>回不来的信任</title>
-        <link>https://ioerr.github.io/posts/huibulai-de-xinren/</link>
-        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/huibulai-de-xinren/</guid>
-        <description>&lt;p&gt;以前是无图无真相，或者有电话录音就能坐实。&lt;br /&gt;
-后来伪造图片和音频太多太厉害，变成有视频才有真相。&lt;br /&gt;
-再后来视频也能修，变成有直播才有真相。&lt;br /&gt;
-现在连直播都可以实时“美化”，发什么形式的内容都不可全信。&lt;/p&gt;
-
-&lt;p&gt;最终，还是靠信息发布人的信用。&lt;br /&gt;
-信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。&lt;/p&gt;
-
-&lt;p&gt;同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。&lt;br /&gt;
-而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。&lt;br /&gt;
-互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。&lt;br /&gt;
-人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>网络基本真理</title>
-        <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
-        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
-        <description>
-
-&lt;p&gt;在 &lt;a href=&#34;https://twitter.com/mengite&#34;&gt;@mengite&lt;/a&gt; 的 &lt;a href=&#34;https://t.me/suez42&#34;&gt;Telegram 频道&lt;/a&gt;中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 &lt;a href=&#34;https://tools.ietf.org/html/rfc1925&#34;&gt;RFC 1925&lt;/a&gt;中就已经提到，作者是 &lt;a href=&#34;mailto:rcallon@baynetworks.com&#34;&gt;Ross Callon&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我试着将主要内容翻译如下，如有错误，欢迎指出：&lt;/p&gt;
-
-&lt;h2 id=&#34;网络十二真理&#34;&gt;网络十二真理&lt;/h2&gt;
-
-&lt;p&gt;本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。&lt;br /&gt;
-本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。&lt;br /&gt;
-本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。&lt;/p&gt;
-
-&lt;p&gt;此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;它必须得管用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;无论如何努力，无论优先级如何，你都无法提高光速。&lt;br /&gt;
-2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。&lt;br /&gt;
-6a. 总是可以通过新增间接的层次来转移问题。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它总是遵循：&lt;br /&gt;
-7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;它比你想象的要复杂得多。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;所有资源都永远不够用。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;没有万能的解决方案。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。&lt;br /&gt;
-11a. 参见 6a。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;设计协议时，无一分可减才是完美，而非无一分可增。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>World Wide Web 30周年</title>
-        <link>https://ioerr.github.io/posts/www-30-zhounian/</link>
-        <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/www-30-zhounian/</guid>
-        <description>&lt;p&gt;今天值得一提的事情，是 &lt;a href=&#34;https://artsandculture.google.com/theme/eAJS4WcKh7UBIQ&#34;&gt;World Wide Web&lt;/a&gt; &lt;a href=&#34;https://artsandculture.google.com/exhibit/rwJimV4JkYtgJw&#34;&gt;30周年&lt;/a&gt;，但大多数用户一点也不在乎 WWW 是什么，以及会变成什么样，特别是身在中国的用户：&lt;/p&gt;
-
-&lt;p&gt;根本看不到 World？&lt;br /&gt;
-“无所谓，我只需要看国内二手过滤的中文信息也挺好的。”&lt;/p&gt;
-
-&lt;p&gt;一点也不 Wide？&lt;br /&gt;
-“无所谓，对我来说，网络就是娱乐的工具。”&lt;/p&gt;
-
-&lt;p&gt;越来越不像是 Web？&lt;br /&gt;
-“无所谓，URL、超文本/超链接是什么，可以吃吗？我有封闭的应用就足够了啊。”&lt;/p&gt;
-
-&lt;p&gt;自由、通用、用于知识共享的“信息空间”？&lt;br /&gt;
-当用户都不以为然的时候，还有多少人坚持这样的理念与理想呢？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>杠精</title>
-        <link>https://ioerr.github.io/posts/gangjing/</link>
-        <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/gangjing/</guid>
-        <description>&lt;p&gt;网络上杠精出现的几率高，究竟纯粹是主观感受，还是网友中杠精的比例就很高呢？&lt;/p&gt;
-
-&lt;p&gt;我觉得原因之一也许是，当看到不一致观点的时候，人们更有意愿和动力回复，对完全赞同的内容说些什么总会觉得画蛇添足——留言说好、正确、完全赞同吧，显得言之无物，对方也觉得交流的价值不大。&lt;/p&gt;
-
-&lt;p&gt;而观点相左的人讨论时，又有很大的几率演变成意气之争，能够持续心平气和就事论事的是极少数。&lt;/p&gt;
-
-&lt;p&gt;另一方面，我们也会更加注意那些反对意见，交互的可能性高，留下深刻印象的可能性更高。&lt;/p&gt;
-
-&lt;p&gt;如此一来多几个回合，就只剩下“杠精”活跃了。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>隐私的未来</title>
-        <link>https://ioerr.github.io/posts/yinsi-de-weilai/</link>
-        <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yinsi-de-weilai/</guid>
-        <description>&lt;p&gt;最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。&lt;/p&gt;
-
-&lt;p&gt;感觉大家普遍的看法是：&lt;br /&gt;
-随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。&lt;/p&gt;
-
-&lt;p&gt;还有更加激进的看法：&lt;br /&gt;
-最终也许个人将毫无任何隐私可言。&lt;/p&gt;
-
-&lt;p&gt;我的感觉倒没有这么悲观。&lt;/p&gt;
-
-&lt;p&gt;现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。&lt;br /&gt;
-也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。&lt;br /&gt;
-那么，不重视保护隐私自然顺理成章。&lt;/p&gt;
-
-&lt;p&gt;但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。&lt;br /&gt;
-因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。&lt;/p&gt;
-
-&lt;p&gt;而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。&lt;/p&gt;
-
-&lt;p&gt;现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。&lt;/p&gt;
-
-&lt;p&gt;等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。&lt;br /&gt;
-有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>互联网才刚刚开始</title>
-        <link>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</link>
-        <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</guid>
-        <description>&lt;p&gt;看到有朋友转载评论尸的《&lt;a href=&#34;http://www.huxiu.com/article/112693/1.html&#34;&gt;互联网死了23%，这只是开始&lt;/a&gt;》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。&lt;/p&gt;
-
-&lt;p&gt;其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P 资源、破坏内容分享体系导致有价值内容的消失，移动互联网瓦解有价值的信息生产能力，还是互联网加速遗忘的速度，我都不赞同。&lt;/p&gt;
-
-&lt;p&gt;资产阶级兴起冲击特权贵族社会地位，彻底改变社会关系和大众生活方式的时候，也被后者认为品位恶俗鄙陋，道德堕落不堪。
-单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。
-哲学、科学、艺术都是有闲者的玩物，商人一开始只想拿来充数好混入上流社会，小资至今都还向往高大上的贵族式生活。
-但那是把集中优秀资源到金字塔顶的产物和全社会合作分工的产物作比较。在精英和特权阶级看不到的地方，价值和品位的提升其实远甚以往。&lt;/p&gt;
-
-&lt;p&gt;让信息流动起来，信息就会借助市场的力量自动优化配置。久而久之，如同今天中产阶级的生活水平实际远超过去的国王一样，普通人从互联网信息中获得的价值也会超过今天最离不开互联网的人。&lt;/p&gt;
-
-&lt;p&gt;互联网对人类生活的影响还才刚刚开始，有的人不能适应剧烈转变的生活习惯，所以容易哀叹旧事物的衰败和死亡，有的人则是不习惯社会等级、阶层的模糊和重新分化，所以要贬低互联网真正的价值。&lt;/p&gt;
-
-&lt;p&gt;今天当被做垃圾的大部分信息，在互联网时代之前，其实也是垃圾，只是因为封闭，大多数人接触不到感觉不到而已，也间接提升了其稀缺性，所以才显得有价值。
-但当信息流动起来，原来稀缺的东西供应丰富了，一些基础的需求满足了，更多更本质的需求才会获得更多重视，新的需求也会源源不断地产生。点对点沟通不再有阻力了，更大群体的沟通协作才有进化发展的可能。
-今天觉得互联网上的信息垃圾多，是不完全体的互联网还没有激发出足够的需求，相对无限可能，消费能力仍然不足。
-&lt;strong&gt;这不是互联网将死的前兆，恰恰说明还有广阔得多的需求空间等待开发。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;迅雷是在服务端集中了资源，但大部分的资源都是盗版，丢失云端海量文件的用户真的认为这些内容很重要吗？
-我不觉得，否则为什么用户只给迅雷付费，不为内容付费呢？
-而且已经在无数个本地保留的文件随时可以凭借传统的 P2P 网络复活。
-更不用说，没有作为流通渠道的 P2P 网络，与内容生产者何干？丝毫不影响重新创造更优质的内容。
-至于害怕政府审查的内容，有心防范的用户本就不会信任迅雷这种服务。&lt;/p&gt;
-
-&lt;p&gt;比 Wordpress.com 更集中、封闭的是 Facebook 和微信，正在全盛期的社交服务大有把整个互联网熟人关系纳入信息孤岛的趋势，有人甚至担心整个互联网被这些社交服务垄断。
-但我一点也不担心这会成真，因为互联网存在就说明信息的自由流动和开放的需求存在。&lt;/p&gt;
-
-&lt;p&gt;如果信息在孤岛内部流传就满足了用户的需求，那这样的信息就让它在孤岛上留着吧，它的使命已经完成，它的流通只需要孤岛这个封闭渠道就够了。
-但我很有信心人类的互联需求远不止于此，而只要需求存在，流出孤岛或连结节点的市场就存在。&lt;/p&gt;
-
-&lt;p&gt;再者，集中的信息孤岛和信息沉没不同，不能混为一谈。
-信息孤岛沉没的原因通常是成本过高需要转型（迅雷）或商业模式失败（BSP），而像微信这样的，未来还有无限的扩展和盈利机会。
-所以即使是信息孤岛，只要需求旺盛多样，转化为开放社区不无可能，即使维持封闭，也断无带着宝贵信息沉没的道理，在那之前，珍视信息的敏感的用户就会像老鼠一样跳船逃生。
-也就是说，只要信息服务的交换价值大到足以维持运营，就永远不用担心信息丢失，当服务的价值下降时，说明承载其上的信息的价值也早已萎缩了。&lt;/p&gt;
-
-&lt;p&gt;至于说巨大的信息孤岛沉没会造成人类文明产生断层，就更加不可能。
-人类文明的精华从来不依赖于写在固定介质上的死的信息，就像科幻小说中在石头上刻字妄想延续死掉的文明，毫无意义。
-庞贝被火山毁灭，亚历山大图书馆被人类毁灭，人类文明照样不断发展，到如今羊皮纸卷上的文字仅有考古的意义。
-互联网不过是信息交流和存储的工具之一，已经流到人类脑海中的信息和人类本身的行为才代表了文明。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最廉价的自我感动</title>
+      <link>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zui-lianjia-de-ziwo-gandong/</guid>
+      <description>网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。 所求不过一个确定的回答，只是满足了自己虚</description>
+      <content:encoded><![CDATA[<p>网络上暂时没找到靠谱的答案是常态，不要只是为了求个答案，随便听到个什么符合自己想法的说法就信以为真。<br>
+所求不过一个确定的回答，只是满足了自己虚假的求知欲。<br>
+“我知道了！”是这个时代最廉价的自我感动。<br>
+阿基米德在浴缸中思考，而网民只需要等待别人喂的速食答案，然后喊出 Eureka！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>理直气壮</title>
+      <link>https://ioerr.github.io/posts/lizhiqizhuang/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/lizhiqizhuang/</guid>
+      <description>冉阿让因偷面包被判5年，觉得判决不公多次越狱，刑期加重到19年。 刑满释放后偷了主教的银器被抓，但主教帮他脱罪。 流浪途中抢了一个孩子掉落的四十</description>
+      <content:encoded><![CDATA[<p>冉阿让因偷面包被判5年，觉得判决不公多次越狱，刑期加重到19年。<br>
+刑满释放后偷了主教的银器被抓，但主教帮他脱罪。<br>
+流浪途中抢了一个孩子掉落的四十苏银币，待到转变思想，想要交还却找不到人，向路遇的神甫坦白并给了他20法郎，然后一直被通缉，罪名还包括擅离住址和隐瞒身份。为免他人蒙冤坦白身份后，再次被抓。<br>
+可为了完成对芳汀的承诺，冉阿让不得不越狱逃亡去领回芳汀的女儿珂赛特。<br>
+亲眼看着芳汀死去的沙威警官穷追不舍冉阿让多年。<br>
+读者说，冉阿让确实犯法了啊，判罚和追捕他有什么问题吗？</p>
+<p>方孝孺不肯为朱棣写即位诏书，被诛十族。<br>
+读者说，他不识时务，惹怒皇帝，诛十族很正常啊。</p>
+<p>苏轼屡被贬谪怀才不遇。<br>
+读者说，他政治站队不坚决，活该！</p>
+<p><a href="https://twitter.com/O2supplier02/status/1739444526161461389">沙威痛苦了一辈子，他也疑惑，无法完美说服自己。</a>最后化解不了职责和良心之间的矛盾而自杀。<br>
+但今天有的人不会那么痛苦，而会理直气壮地为自己“正直、真诚、老实、自信、忠于职务、尊崇权力、维护社会秩序、捍卫绝对真理，运用无边无际的权力、道理、正义、法治精神、舆论，执行上天授予的除恶任务”感到自豪。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>互联网时代之恶</title>
+      <link>https://ioerr.github.io/posts/hulianwang-shidai-zhi-e/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/hulianwang-shidai-zhi-e/</guid>
+      <description>色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。 愤怒：动辄发怒，满身戾气，将正</description>
+      <content:encoded><![CDATA[<p>色欲：对任何事物都可以发情，任何话题都可以联想到下三路，毫不顾忌对方对色情内容的反感，以及走到真实犯罪的程度。</p>
+<p>愤怒：动辄发怒，满身戾气，将正常的交互视为对自己的攻击，由怒气来驱动行为，将生活中的不如意发泄到网上的陌生人身上，嘲讽、辱骂、诅咒，乃至发展到挖掘个人隐私和严重破坏线下生活的宁静。</p>
+<p>贪婪：恨不得将任何资源都收入囊中，为此花费无数时间和金钱，却很少利用这些资源创造价值；主动参与网络庞氏骗局，妄图不劳而获，梦想一夜暴富，又永远不知道停止脚步。</p>
+<p>懒惰：行为上，不愿意脚踏实地地付出，一干正事就5分钟热度，消费廉价、快速、低俗的娱乐内容则乐此不疲，不可自拔；思维上，网上接收的信息不假思索不做分辨照单全收，甚至主动回避需要深度思考的内容。</p>
+<p>嫉妒：只能接受自己的生活优于他人，看不得别人的好，为此爱慕虚荣、浮夸攀比，不惜干出损人不利己的蠢事，更有甚者，只要是美好的东西都想要毁掉。</p>
+<p>傲慢：自认为认知能力高人一等，远见卓识洞若观火，意见相左的他人非蠢即坏；装模作样假装谦虚，掩饰不住自鸣得意，将自尊建立在口舌之争的结果上，打嘴仗落了下风便恼羞成怒，扣帽子堵嘴巴，做诛心之论。</p>
+<p>势利：狐假虎威，欺软怕硬，以欺负弱小为乐，只认拳头不讲道理，法不责众时则蜂拥而上，担当责任时则作鸟兽散，权力面前卑躬屈膝，任何错误都能辩护，弱势面前则颐指气使，毫无同理心。</p>
+<p>虚伪：表面上一团和气，背地里造谣中伤；号称追求公平正义，实际根本不相信；说着最高调的话，干着最没品的事，还要撇干净自己的关系，只指责他人的不是。</p>
+<p>权欲：所有言行的目的，就是禁绝他人拥有独立的思想观点，剥夺按各自意愿行事的权利，和压制、取消不服从者反抗的力量，为此支持无远弗届、无孔不入、事无巨细均要插手且排他的权力巨兽，并幻想其能贯彻自己的想法。</p>
+<p>虚无：认为道德虚无，一切都是利益，道德毫无用处；历史虚无，一切都是胜利者说了算，过去可以伪造和遗忘，真理服从和服务于权力；价值虚无，一切美好的价值为了其目的的实现毁灭掉都无所谓；人的虚无，人的存在毫无意义，个人的自由和尊严不值得关注和维护；意义虚无，抛弃对一切意义的思考和追寻。</p>
+<p>互联网是现代社会技术发展的巨大成果之一，现代社会催生的虚无主义，可以说是其他所有恶的根源，是人文主义最强大的对立面，也是现代社会最难摆脱的骨髓之疾。如何对抗虚无，是人们短暂一生中迟早要面对的问题。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Internet 40岁</title>
+      <link>https://ioerr.github.io/posts/internet-40-sui/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/internet-40-sui/</guid>
+      <description>再过几个月就是 Internet 的40岁生日了。 ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence the birth of the Internet. 当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包</description>
+      <content:encoded><![CDATA[<p>再过几个月就是 Internet 的40岁生日了。</p>
+<blockquote>
+<p>ARPANET and the Defense Data Network officially changed to the TCP/IP standard on January 1, 1983, hence <a href="https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml">the birth of the Internet</a>.</p>
+</blockquote>
+<p>当年谁能想到如今人们天天在互联网上互相问候（包括家人）、交易（包括非法交易）、传递信息（包括虚假信息）、抒发情感（包括盼望世界毁灭）、分工协作（包括扯后腿和甩锅）…？</p>
+<p>有了 Internet，那些总想让别人和自己的观点一致的人越来越多，戾气与恶意也越来越重。<br>
+你为什么要和我想的不一样？<br>
+你比我蠢，我就秀智商；<br>
+你无知，我就告诉你什么是真理；<br>
+你坏，我就骂到你退网；<br>
+你假装不知道，我就摇到你醒为止；<br>
+你屁股歪，我就脱你的裤子…<br>
+但我很有信心我自己是绝对不会错的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>非蠢即坏</title>
+      <link>https://ioerr.github.io/posts/fei-chun-ji-huai/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fei-chun-ji-huai/</guid>
+      <description>“不是蠢就是坏”这种论断暗含的逻辑是：只要和我一般明智，就一定会得出和我一样的结论，持有一致的观点。 充满了对自己才智和真理在握的莫名自负。 讨</description>
+      <content:encoded><![CDATA[<p>“不是蠢就是坏”这种论断暗含的逻辑是：只要和我一般明智，就一定会得出和我一样的结论，持有一致的观点。<br>
+充满了对自己才智和真理在握的莫名自负。</p>
+<h3 id="讨论之一">讨论之一：</h3>
+<p><a href="https://twitter.com/Soulogic/status/1489948581239083018">Soulogic</a>：<br>
+我想知道是你看到什么言论了总结出来的</p>
+<p>因为对于很多显而易见的观点，非蠢即坏并不是进一步推论，而只是个语气助词罢了。<br>
+而对于另外一些观点，不用非蠢即坏也同样很傲慢。<br>
+所以用不用非蠢即坏我感觉大多数时候并不那么重要</p>
+<p>我甚至因此学会套娃了：做出非蠢即坏推论的人显然非蠢即坏</p>
+<p><a href="https://twitter.com/calon/status/1489954551952134146">Calon</a>：<br>
+没有具体哪个言论触发，就是忽然想到。回忆了一下，可能是在回答和解释儿子问的一连串历史和战争的问题时想到的。<br>
+因为在他看来不可理解的一些现象，在不同的环境下不同的人看来，完全可能是合理的。<br>
+但不理解这些差异合理存在的人经常喜欢把非蠢即坏挂在嘴上。</p>
+<p><a href="https://twitter.com/LeaskH/status/1491443413845409792">Leask Wong</a>：<br>
+（谷爱凌）說“任何人都可以免费下载vpn”，不是傻就是壞。以前我傾向於認為大家“傻”，但是現在我認為就是“壞”。</p>
+<p><a href="https://twitter.com/Soulogic/status/1491452505439748103">Soulogic</a>：<br>
+@calon 新鲜例子，趁热乎，我觉得是无知，可以归到傻里头，你怎么理解的</p>
+<p><a href="https://twitter.com/LeaskH/status/1491453436831088640">Leask Wong</a>：<br>
+不是傻就是壞並不是因為要表達自己有多全知全能，我覺得樓主理解過於極端了。<br>
+大部分的時候，我理解是表達一些人由於自身教育背景，或者態度的原因不願意深究，不願意理解背後的原因，相信膚淺或者被灌輸的明顯缺乏邏輯的認知。這樣的例子也很多。</p>
+<p><a href="https://twitter.com/calon/status/1491457126111518720">Calon</a>：<br>
+我觉得属于很傻很天真。是不是坏，不好说，反正我不会肯定地说这就是坏。<br>
+断定“非傻即坏”不是要表达自己全知全能，所以我才用“暗含的逻辑”这种说法。<br>
+这种认知上的自负通常没那么明显，一般作为被评判的对象时才会感觉到。</p>
+<p><a href="https://twitter.com/LeaskH/status/1491458990626467844">Leask Wong</a>：<br>
+不是那麼簡單的，有很多東西，是需要有事非觀點和態度的。<br>
+特別是公眾人物，談及自己不知道，不了解的事情，應該有一定的謙卑，否則就是壞。<br>
+因為自己思維的懶惰，會對社會造成危害，會有人因為錯誤的信息做錯誤的判斷。<br>
+舉個例子，如果陳冠希出來說，叫大家約炮不要戴套，我覺得就是壞。其實是一個道理。</p>
+<p><a href="https://twitter.com/calon/status/1491461444579500034">Calon</a>：<br>
+认为某人傻，或者认为某人坏，有多种可能，价值取向不一样，有的人带上更多的善恶评价，或者思考的深度不一样，有的人更加武断。但这里不做批评。<br>
+认为某人非傻即坏，则是另一回事——因为还没有就评判对象作出判断呢，就认为只有这两种可能，非此即彼，依据和信心从何而来？</p>
+<p><a href="https://twitter.com/LeaskH/status/1491464483029532680">Leask Wong</a>：<br>
+就是，我的意思其實就是要看具體的事情。要不然太抽象，本來討論就沒有多大意義。</p>
+<p>但是我依然認為通過粉飾 VPN 在中國輕易獲取，以此來證明中國的自由和開放，GFW 的合理性等等的。作為一個公眾人物，就是壞，無疑。PS：大家可以保留不同意見。</p>
+<h3 id="讨论之二">讨论之二：</h3>
+<p><a href="https://twitter.com/guyanmuchan001/status/1493066556217372672">孤烟暮蝉</a>：<br>
+在记者招待会上说“在美国看到的关于冬奥会的报道都是假的”的美国运动员，推特账号马上就被封了。（西方世界已经容不下一个说真话的人）</p>
+<p><a href="https://twitter.com/volfay/status/1493084109408989185">Volfay</a>：<br>
+喜欢这样的灯塔国，也惋惜这样的夕阳帝国。</p>
+<p><a href="https://twitter.com/chenshaoju/status/1493087142771568646">陈少举</a>：<br>
+查了一下，账号 @Aaron_Blunck 在2020年3月27日存在。</p>
+<p>但是，第二次于2021年09月05日的时候，该账号就已经被封禁。</p>
+<p>结论：该账号的确被封，但是并非因为声明“在美国看到的关于冬奥会的报道都是假的”而被封。</p>
+<p>ref:<br>
+2020-03-27：https://web.archive.org/web/20200522210749/https://twitter.com/Aaron_Blunck<br>
+2021-09-05：https://web.archive.org/web/20210905194312/https://twitter.com/aaron_blunck</p>
+<p><a href="https://twitter.com/chenshaoju/status/1493204594524311554">陈少举</a>：<br>
+后续：《<a href="https://mp.weixin.qq.com/s/BQNqLbpAeoZZ_qdPzJZrPQ">核查|美国冬奥运动员推特账号因批评美媒被封？</a>》</p>
+<p><a href="https://twitter.com/volfay/status/1493243424040173572">Volfay</a>：</p>
+<blockquote>
+<p>没见过此人对遍布推上的对中国的造谣中伤并行考证纠正。</p>
+</blockquote>
+<p>老夫确实也有这个印象，核查目标似乎有一定的倾向性和选择性。<br>
+cc 其本人并邀请发表看法。@chenshaoju</p>
+<p><a href="https://twitter.com/chenshaoju/status/1493245426421870592">陈少举</a>：<br>
+就是看到了而已，顺手查一下，对于这种指责，我无可奈何。</p>
+<p>附部分以前针对国内辟谣：<br>
+<a href="https://twitter.com/chenshaoju/status/1219829564047687680">https://twitter.com/chenshaoju/status/1219829564047687680</a><br>
+<a href="https://twitter.com/chenshaoju/status/1190549031367217152">https://twitter.com/chenshaoju/status/1190549031367217152</a><br>
+<a href="https://twitter.com/chenshaoju/status/1220589359319019520">https://twitter.com/chenshaoju/status/1220589359319019520</a><br>
+<a href="https://twitter.com/chenshaoju/status/1296289687766593536">https://twitter.com/chenshaoju/status/1296289687766593536</a></p>
+<p><a href="https://twitter.com/calon/status/1493250288760672262">Calon</a>：<br>
+“我没看到等于不存在。”<br>
+“做完了所有好事才能叫正义，少一件都是助纣为虐。”<br>
+“在大是大非面前竟然讲事实，必有异心。”</p>
+<p><a href="https://twitter.com/chenshaoju/status/1493252208561131524">陈少举</a>：<br>
+这事倒是让我想到几年前的“完美受害者”理论，当然，不是一码事。</p>
+<p><a href="https://twitter.com/calon/status/1493257445388423169">Calon</a>：<br>
+道理相近，对受害者苛求对应对他人苛求，对施害者宽容对应对自己宽容。<br>
+倾向性和选择性其实人人都有，专业媒体都做不到，何况是平凡的网友。<br>
+但自以为事事客观公正，看别人都是卑鄙小人，哪里来的自信哟，无非是宽以律己严以待人罢了。<br>
+要是口不择言不懂尊重的无礼之人，就更加剧了网上的戾气。</p>
+<p><a href="https://twitter.com/biantaishabi/status/1493256800921079809">Biantaishabi</a>：<br>
+所以我一直说，不能接受事实还是不好，要实事求是。<br>
+不能别人好心找事实做了工作，心理上还接受不了，就去攻击做了工作的人的立场，以此来作为心理补偿，这就是不实事求是。</p>
+<p><a href="https://twitter.com/calon/status/1493260948605333504">Calon</a>：<br>
+而且很多事情，光靠网上收集信息，没有实地考察，可能谁都不知道事实真相是什么。哪怕极力避免，也有可能出错。<br>
+只能说，“如果事实是怎样的，我的观点是什么”。<br>
+可惜太多人想的是，这么明显的事实，我怎么可能会错？<br>
+既然我是对的，那观点不一样的人都是错的咯，还错得这么离谱，不就非蠢即坏了么？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>互联网的尽头</title>
+      <link>https://ioerr.github.io/posts/hulianwang-de-jintou/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/hulianwang-de-jintou/</guid>
+      <description>这个网页号称“互联网的尽头”：The end of the Internet 上面的内容在这里都可以完全呈现出来： Congratulations! 恭喜！ You have finally reached the end of the internet! There&amp;rsquo;s nothing more to see, no more links to visit. You&amp;rsquo;ve done it all. This is the</description>
+      <content:encoded><![CDATA[<p>这个网页号称“互联网的尽头”：<a href="https://hmpg.net/">The end of the Internet</a></p>
+<p>上面的内容在这里都可以完全呈现出来：</p>
+<p>Congratulations!<br>
+恭喜！</p>
+<p>You have finally reached the end of the internet!<br>
+There&rsquo;s nothing more to see, no more links to visit.<br>
+You&rsquo;ve done it all.<br>
+This is the very last page on the very last server at the very far end of the internet.<br>
+你终于来到了互联网的尽头！<br>
+再没有可以浏览访问的内容。<br>
+你都看完了。<br>
+这里就是互联网尽头的最后一台服务器上的最后一个页面。</p>
+<p>You should now turn off your computer and go do something useful with the rest of your life. *</p>
+<p>Suggestions:</p>
+<ul>
+<li>Read a book</li>
+<li>Do some public service</li>
+<li>Personally interact with your neighbors that you&rsquo;ve probably only met online</li>
+<li>Plant a tree</li>
+<li>Introduce yourself to those other people who live at your house (your family).</li>
+</ul>
+<p>* Please don&rsquo;t forget to turn off the lights on your way out.</p>
+<p>现在你该关掉电脑，在余生中去干点有用的事情了。<br>
+建议：</p>
+<ul>
+<li>读书</li>
+<li>公共服务</li>
+<li>和之前只在网上遇到过的邻居打打招呼</li>
+<li>种一棵树</li>
+<li>向同住一屋的其他人（你的家庭）介绍你自己</li>
+</ul>
+<p>* 走的时候别忘了关灯</p>
+<p>In order to save time, we will now start downloading the internet to your local drive.</p>
+<p>为了节约时间，现在会把整个互联网下载到你的本地磁盘中。</p>
+<p><img loading="lazy" src="/images/downloadwww.gif" alt="download www"  />
+</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>回不来的信任</title>
+      <link>https://ioerr.github.io/posts/huibulai-de-xinren/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huibulai-de-xinren/</guid>
+      <description>以前是无图无真相，或者有电话录音就能坐实。 后来伪造图片和音频太多太厉害，变成有视频才有真相。 再后来视频也能修，变成有直播才有真相。 现在连直播</description>
+      <content:encoded><![CDATA[<p>以前是无图无真相，或者有电话录音就能坐实。<br>
+后来伪造图片和音频太多太厉害，变成有视频才有真相。<br>
+再后来视频也能修，变成有直播才有真相。<br>
+现在连直播都可以实时“美化”，发什么形式的内容都不可全信。</p>
+<p>最终，还是靠信息发布人的信用。<br>
+信用度高的，发句话也一言九鼎，本来就不信任的，站在你面前，你也怀疑他是假的。</p>
+<p>同样的一句话，如果你认为对方不怀好意，大概率会认为是在恶意攻击。<br>
+而如果是从你信任的熟人朋友口中说出来的，你可能会认为只是在调侃。<br>
+互联网上的各种争吵辱骂，一部分是因为缺乏教养和共情，另一部分则是因为这种默认对方需要戒备防范的不信任心理。<br>
+人类刚接触互联网时的单纯美好很难再回来了，因为已经没有快速建立信任的环境了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>网络基本真理</title>
+      <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</guid>
+      <description>在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 192</description>
+      <content:encoded><![CDATA[<p>在 <a href="https://twitter.com/mengite">@mengite</a> 的 <a href="https://t.me/suez42">Telegram 频道</a>中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 <a href="https://tools.ietf.org/html/rfc1925">RFC 1925</a>中就已经提到，作者是 <a href="mailto:rcallon@baynetworks.com">Ross Callon</a>。</p>
+<p>我试着将主要内容翻译如下，如有错误，欢迎指出：</p>
+<h2 id="网络十二真理">网络十二真理</h2>
+<p>本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。<br>
+本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。<br>
+本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。</p>
+<p>此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。</p>
+<ol>
+<li>
+<p>它必须得管用。</p>
+</li>
+<li>
+<p>无论如何努力，无论优先级如何，你都无法提高光速。<br>
+2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。</p>
+</li>
+<li>
+<p>如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。</p>
+</li>
+<li>
+<p>生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。</p>
+</li>
+<li>
+<p>总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。</p>
+</li>
+<li>
+<p>转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。<br>
+6a. 总是可以通过新增间接的层次来转移问题。</p>
+</li>
+<li>
+<p>它总是遵循：<br>
+7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。</p>
+</li>
+<li>
+<p>它比你想象的要复杂得多。</p>
+</li>
+<li>
+<p>所有资源都永远不够用。</p>
+</li>
+<li>
+<p>没有万能的解决方案。</p>
+</li>
+<li>
+<p>每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。<br>
+11a. 参见 6a。</p>
+</li>
+<li>
+<p>设计协议时，无一分可减才是完美，而非无一分可增。</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>World Wide Web 30周年</title>
+      <link>https://ioerr.github.io/posts/www-30-zhounian/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/www-30-zhounian/</guid>
+      <description>今天值得一提的事情，是 World Wide Web 30周年，但大多数用户一点也不在乎 WWW 是什么，以及会变成什么样，特别是身在中国的用户： 根本看不到 World？ “无所</description>
+      <content:encoded><![CDATA[<p>今天值得一提的事情，是 <a href="https://artsandculture.google.com/theme/eAJS4WcKh7UBIQ">World Wide Web</a> <a href="https://artsandculture.google.com/exhibit/rwJimV4JkYtgJw">30周年</a>，但大多数用户一点也不在乎 WWW 是什么，以及会变成什么样，特别是身在中国的用户：</p>
+<p>根本看不到 World？<br>
+“无所谓，我只需要看国内二手过滤的中文信息也挺好的。”</p>
+<p>一点也不 Wide？<br>
+“无所谓，对我来说，网络就是娱乐的工具。”</p>
+<p>越来越不像是 Web？<br>
+“无所谓，URL、超文本/超链接是什么，可以吃吗？我有封闭的应用就足够了啊。”</p>
+<p>自由、通用、用于知识共享的“信息空间”？<br>
+当用户都不以为然的时候，还有多少人坚持这样的理念与理想呢？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>杠精</title>
+      <link>https://ioerr.github.io/posts/gangjing/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/gangjing/</guid>
+      <description>网络上杠精出现的几率高，究竟纯粹是主观感受，还是网友中杠精的比例就很高呢？ 我觉得原因之一也许是，当看到不一致观点的时候，人们更有意愿和动力回</description>
+      <content:encoded><![CDATA[<p>网络上杠精出现的几率高，究竟纯粹是主观感受，还是网友中杠精的比例就很高呢？</p>
+<p>我觉得原因之一也许是，当看到不一致观点的时候，人们更有意愿和动力回复，对完全赞同的内容说些什么总会觉得画蛇添足——留言说好、正确、完全赞同吧，显得言之无物，对方也觉得交流的价值不大。</p>
+<p>而观点相左的人讨论时，又有很大的几率演变成意气之争，能够持续心平气和就事论事的是极少数。</p>
+<p>另一方面，我们也会更加注意那些反对意见，交互的可能性高，留下深刻印象的可能性更高。</p>
+<p>如此一来多几个回合，就只剩下“杠精”活跃了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>隐私的未来</title>
+      <link>https://ioerr.github.io/posts/yinsi-de-weilai/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yinsi-de-weilai/</guid>
+      <description>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。 感觉大家普遍的看法是： 随着人类社会的发展，互联网的</description>
+      <content:encoded><![CDATA[<p>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。</p>
+<p>感觉大家普遍的看法是：<br>
+随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。</p>
+<p>还有更加激进的看法：<br>
+最终也许个人将毫无任何隐私可言。</p>
+<p>我的感觉倒没有这么悲观。</p>
+<p>现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。<br>
+也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。<br>
+那么，不重视保护隐私自然顺理成章。</p>
+<p>但我们也应该看到，互联网发展带来的冲击远未结束，围绕隐私攫取利益，和因为泄露隐私损害利益，都只拉开了大幕的一角。<br>
+因为隐私泄露而被骚扰、被欺骗、被针对性差别营销、被盗取更多物质财产等等，在我们的日常生活中尚不多见，即使有，看上去也不至于像传统的违法犯罪那样严重。</p>
+<p>而在不远的将来，也许就会出现因为隐私泄露而被曝光现实身份的大批量恶性事件，也许会有人所有的网络账号全部失效或被人冒名却无法收回，也许会因此出现衣食住行基本生活都无法持续的惨状，甚至也许一夜之间资金和信用全部破产。</p>
+<p>现在只是因为互联网并没有真正深入到所有人生活中的方方面面而已，不怎么上网的人在线下可以照常生活，所以大众感受到的还只是皮肉之苦，并非切肤之痛。</p>
+<p>等到未来人类社会从根基上就离不开互联网后，大家对待隐私问题的态度绝对不会如此敷衍漠视、随意潦草，隐私的价值反而会越来越受重视，乃至于可以有面向大众专门保护隐私的收费服务和盈利企业。<br>
+有些隐私可能再也回不到过去隐秘的状态，但我相信，部分核心隐私会得到重视并被保护起来。隐私的未来不是消亡，而是有更加明确的边界。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>互联网才刚刚开始</title>
+      <link>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</link>
+      <pubDate>Tue, 21 Apr 2015 14:55:10 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/hulianwang-cai-ganggang-kaishi/</guid>
+      <description>看到有朋友转载评论尸的《互联网死了23%，这只是开始》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。 其论点无论是集中封闭的信息孤岛反互</description>
+      <content:encoded><![CDATA[<p>看到有朋友转载评论尸的《<a href="http://www.huxiu.com/article/112693/1.html">互联网死了23%，这只是开始</a>》，觉得未免太悲观，结论耸人听闻，有点哗众取宠的感觉。</p>
+<p>其论点无论是集中封闭的信息孤岛反互联网，迅雷榨干 P2P 资源、破坏内容分享体系导致有价值内容的消失，移动互联网瓦解有价值的信息生产能力，还是互联网加速遗忘的速度，我都不赞同。</p>
+<p>资产阶级兴起冲击特权贵族社会地位，彻底改变社会关系和大众生活方式的时候，也被后者认为品位恶俗鄙陋，道德堕落不堪。<br>
+单从最顶尖的文化艺术水平来看，一开始的品位鄙视不无道理。<br>
+哲学、科学、艺术都是有闲者的玩物，商人一开始只想拿来充数好混入上流社会，小资至今都还向往高大上的贵族式生活。<br>
+但那是把集中优秀资源到金字塔顶的产物和全社会合作分工的产物作比较。在精英和特权阶级看不到的地方，价值和品位的提升其实远甚以往。</p>
+<p>让信息流动起来，信息就会借助市场的力量自动优化配置。久而久之，如同今天中产阶级的生活水平实际远超过去的国王一样，普通人从互联网信息中获得的价值也会超过今天最离不开互联网的人。</p>
+<p>互联网对人类生活的影响还才刚刚开始，有的人不能适应剧烈转变的生活习惯，所以容易哀叹旧事物的衰败和死亡，有的人则是不习惯社会等级、阶层的模糊和重新分化，所以要贬低互联网真正的价值。</p>
+<p>今天当被做垃圾的大部分信息，在互联网时代之前，其实也是垃圾，只是因为封闭，大多数人接触不到感觉不到而已，也间接提升了其稀缺性，所以才显得有价值。<br>
+但当信息流动起来，原来稀缺的东西供应丰富了，一些基础的需求满足了，更多更本质的需求才会获得更多重视，新的需求也会源源不断地产生。点对点沟通不再有阻力了，更大群体的沟通协作才有进化发展的可能。<br>
+今天觉得互联网上的信息垃圾多，是不完全体的互联网还没有激发出足够的需求，相对无限可能，消费能力仍然不足。<br>
+<strong>这不是互联网将死的前兆，恰恰说明还有广阔得多的需求空间等待开发。</strong></p>
+<p>迅雷是在服务端集中了资源，但大部分的资源都是盗版，丢失云端海量文件的用户真的认为这些内容很重要吗？<br>
+我不觉得，否则为什么用户只给迅雷付费，不为内容付费呢？<br>
+而且已经在无数个本地保留的文件随时可以凭借传统的 P2P 网络复活。<br>
+更不用说，没有作为流通渠道的 P2P 网络，与内容生产者何干？丝毫不影响重新创造更优质的内容。<br>
+至于害怕政府审查的内容，有心防范的用户本就不会信任迅雷这种服务。</p>
+<p>比 Wordpress.com 更集中、封闭的是 Facebook 和微信，正在全盛期的社交服务大有把整个互联网熟人关系纳入信息孤岛的趋势，有人甚至担心整个互联网被这些社交服务垄断。<br>
+但我一点也不担心这会成真，因为互联网存在就说明信息的自由流动和开放的需求存在。</p>
+<p>如果信息在孤岛内部流传就满足了用户的需求，那这样的信息就让它在孤岛上留着吧，它的使命已经完成，它的流通只需要孤岛这个封闭渠道就够了。<br>
+但我很有信心人类的互联需求远不止于此，而只要需求存在，流出孤岛或连结节点的市场就存在。</p>
+<p>再者，集中的信息孤岛和信息沉没不同，不能混为一谈。<br>
+信息孤岛沉没的原因通常是成本过高需要转型（迅雷）或商业模式失败（BSP），而像微信这样的，未来还有无限的扩展和盈利机会。<br>
+所以即使是信息孤岛，只要需求旺盛多样，转化为开放社区不无可能，即使维持封闭，也断无带着宝贵信息沉没的道理，在那之前，珍视信息的敏感的用户就会像老鼠一样跳船逃生。<br>
+也就是说，只要信息服务的交换价值大到足以维持运营，就永远不用担心信息丢失，当服务的价值下降时，说明承载其上的信息的价值也早已萎缩了。</p>
+<p>至于说巨大的信息孤岛沉没会造成人类文明产生断层，就更加不可能。<br>
+人类文明的精华从来不依赖于写在固定介质上的死的信息，就像科幻小说中在石头上刻字妄想延续死掉的文明，毫无意义。<br>
+庞贝被火山毁灭，亚历山大图书馆被人类毁灭，人类文明照样不断发展，到如今羊皮纸卷上的文字仅有考古的意义。<br>
+互联网不过是信息交流和存储的工具之一，已经流到人类脑海中的信息和人类本身的行为才代表了文明。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

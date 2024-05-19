@@ -1,59 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>板夹 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%9D%BF%E5%A4%B9/</link>
     <description>Recent content in 板夹 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 22 Jul 2017 21:47:56 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%9D%BF%E5%A4%B9/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>板夹笔记</title>
-        <link>https://ioerr.github.io/posts/banjia-biji/</link>
-        <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/banjia-biji/</guid>
-        <description>&lt;p&gt;工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。&lt;br /&gt;
-几个月下来觉得优点还真不少。&lt;/p&gt;
-
-&lt;p&gt;首先是再也不用担心笔记本写完了要换本子。&lt;br /&gt;
-A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须提前申领办公用品才能保证有的用，也不像打孔笔记本，还得费心选择规格完全一样的打孔纸替换。&lt;/p&gt;
-
-&lt;p&gt;其次是画示意图方便多了。&lt;br /&gt;
-一般的大幅面笔记本很少有 A4幅面，拿来画图总觉得捉襟见肘，再大一点就不得不上白板。&lt;br /&gt;
-换做 A4的纸张就宽裕得多，同样的示意图还有空间写标注，能大大提升讨论效率。&lt;/p&gt;
-
-&lt;p&gt;笔记本的重量也更好控制。&lt;br /&gt;
-纸质笔记本的页数固定，大幅面和多页数是一对矛盾，否则整个笔记本的重量就无法让人接受。&lt;br /&gt;
-而板夹上的纸张完全可以随时调整，用完了就取下来，补充数张白纸就行，一般夹20张以下就足够一天使用，非常轻便。&lt;/p&gt;
-
-&lt;p&gt;纸张更适合分享。&lt;br /&gt;
-传统笔记本如果不是打孔的，要将记下的内容分享给对方，必须撕纸，可能破坏装订线不说，还可能撕得像狗啃一般，不利于强迫症患者的心灵。&lt;br /&gt;
-而板夹笔记松开夹子，抽出 A4纸交给对方就可以，毫无压力。&lt;/p&gt;
-
-&lt;p&gt;方便归档笔记。&lt;br /&gt;
-记录完成后，可以拍照归档，也可以取下内容相关的纸张装订归档，后者比默认双面书写的笔记本更加方便，也不需要撕纸。&lt;/p&gt;
-
-&lt;p&gt;方便夹带 A4幅面的纸张。&lt;br /&gt;
-有时候需要携带 A4幅面的重要文件签字，使用一般的小幅面笔记本不免会折叠纸张，而是用板夹就正好一同携带，签字时有平整的板子垫着，更加方便。&lt;/p&gt;
-
-&lt;p&gt;缺点主要是：&lt;/p&gt;
-
-&lt;p&gt;A4幅面较大，板夹可能塞不进一些较小的包随身携带。&lt;br /&gt;
-单面使用浪费纸张，双面使用则不方便翻看。&lt;br /&gt;
-没有横线或格子。&lt;/p&gt;
-
-&lt;p&gt;但相对其优点而言微不足道。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%9D%BF%E5%A4%B9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>板夹笔记</title>
+      <link>https://ioerr.github.io/posts/banjia-biji/</link>
+      <pubDate>Sat, 22 Jul 2017 21:47:56 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/banjia-biji/</guid>
+      <description>工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，</description>
+      <content:encoded><![CDATA[<p>工作这些年下来，使用的纸质笔记本也有不少了，但是总觉得有这样那样不方便的问题。于是前一段时间弄了个板夹，就是一块塑料板或木板，配上一个夹子，夹上 A4幅面的打印纸就可以当作笔记本用。<br>
+几个月下来觉得优点还真不少。</p>
+<p>首先是再也不用担心笔记本写完了要换本子。<br>
+A4的打印纸随处可得，标准通用，不像装订好的笔记本，必须提前申领办公用品才能保证有的用，也不像打孔笔记本，还得费心选择规格完全一样的打孔纸替换。</p>
+<p>其次是画示意图方便多了。<br>
+一般的大幅面笔记本很少有 A4幅面，拿来画图总觉得捉襟见肘，再大一点就不得不上白板。<br>
+换做 A4的纸张就宽裕得多，同样的示意图还有空间写标注，能大大提升讨论效率。</p>
+<p>笔记本的重量也更好控制。<br>
+纸质笔记本的页数固定，大幅面和多页数是一对矛盾，否则整个笔记本的重量就无法让人接受。<br>
+而板夹上的纸张完全可以随时调整，用完了就取下来，补充数张白纸就行，一般夹20张以下就足够一天使用，非常轻便。</p>
+<p>纸张更适合分享。<br>
+传统笔记本如果不是打孔的，要将记下的内容分享给对方，必须撕纸，可能破坏装订线不说，还可能撕得像狗啃一般，不利于强迫症患者的心灵。<br>
+而板夹笔记松开夹子，抽出 A4纸交给对方就可以，毫无压力。</p>
+<p>方便归档笔记。<br>
+记录完成后，可以拍照归档，也可以取下内容相关的纸张装订归档，后者比默认双面书写的笔记本更加方便，也不需要撕纸。</p>
+<p>方便夹带 A4幅面的纸张。<br>
+有时候需要携带 A4幅面的重要文件签字，使用一般的小幅面笔记本不免会折叠纸张，而是用板夹就正好一同携带，签字时有平整的板子垫着，更加方便。</p>
+<p>缺点主要是：</p>
+<p>A4幅面较大，板夹可能塞不进一些较小的包随身携带。<br>
+单面使用浪费纸张，双面使用则不方便翻看。<br>
+没有横线或格子。</p>
+<p>但相对其优点而言微不足道。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

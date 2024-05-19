@@ -1,100 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>歧视 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%AD%A7%E8%A7%86/</link>
     <description>Recent content in 歧视 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%AD%A7%E8%A7%86/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>差异与歧视</title>
-        <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
-        <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/volfay/status/1774108640364081295&#34;&gt;吴非盯着看～ ❁҉҉҉҉҉҉҉҉&lt;/a&gt;：&lt;br /&gt;
-各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。&lt;br /&gt;
-这事儿套到人类身上，除了政治不正确，别的没啥问题吧？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1774361388351471729&#34;&gt;Calon&lt;/a&gt;：&lt;br /&gt;
-人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。&lt;br /&gt;
-人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。&lt;br /&gt;
-越是强调自由、多元、平等的地区，以人种为单位的差异越小。&lt;/p&gt;
-
-&lt;p&gt;反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。&lt;br /&gt;
-对差异的态度取决于我们的&lt;a href=&#34;../yuanjing-zhong-de-shijie&#34;&gt;愿景&lt;/a&gt;，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>辱华</title>
-        <link>https://ioerr.github.io/posts/ruhua/</link>
-        <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ruhua/</guid>
-        <description>&lt;p&gt;伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客&lt;a href=&#34;https://twitter.com/Byron_Wan/status/1748941110616211880&#34;&gt;发生了冲突&lt;/a&gt;，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自有分寸。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/lilaoshizuikeai/status/1749165763699589313&#34;&gt;看到有人说&lt;/a&gt;，Brendan Kavanagh 在冲突后，故意弹了一首在西方很著名的带有歧视意味的《Ching Cheng Hanji》，其采样了中国戏剧《铡美案》中的音乐片段。&lt;/p&gt;
-
-&lt;p&gt;挺好奇为什么弹《铡美案》的取样音乐也算辱华，这辱华的标准也太宽泛了吧。&lt;br /&gt;
-查了一下 &lt;a href=&#34;https://knowyourmeme.com/memes/ching-cheng-hanji&#34;&gt;meme 来源&lt;/a&gt;，不得不感叹 meme 的产生和传播总是出人意料啊。&lt;/p&gt;
-
-&lt;p&gt;由此想到，辱华这个事情值得深入讨论。&lt;/p&gt;
-
-&lt;p&gt;首先，如果一段素材经过加工、传播，比如铡美案中的音乐以及最初拿它取样的歌曲，当时并没有恶意，那么它本身是否辱华？&lt;br /&gt;
-如果算是的话，那么这相当于将艺术品的解释权拱手让给了所有恶意辱华的人，一旦被其观念污染，就再也不可能回归正常的诠释。&lt;/p&gt;
-
-&lt;p&gt;其次，在日常生活中，我们所感知到的侮辱，除了使用的素材之外，更重要的是感受到的恶意。一件平平无奇的日常事物，叠加上满满的恶意，一样也可以用来侮辱人。&lt;br /&gt;
-但是现在似乎不管主观感受如何，只要出现了特定的素材，甚至相近的素材，就一律认定为辱华。还总有人把别人都察觉不到的侮辱广而告之发扬光大，主动让更多的人感觉或者感知到侮辱。&lt;br /&gt;
-如果有心智不成熟的傻逼骂我一句听不懂的话，我根本不理会，然后旁边有人主动翻译成我能听懂的话，我虽然感受到了恶意，但还是觉得没必要和这种人计较，这时有人说，你怎么可以没觉得受到侮辱，你要不上去揍他你就是孬种，我会觉得这位也是傻逼。&lt;br /&gt;
-又好比路上有一块干结的牛粪，大多数路人只当作一块臭石头，没当回事。&lt;br /&gt;
-偏偏有人要跑过去拿棍子戳烂甩得到处都是，大声喊，这里有一坨屎诶！&lt;br /&gt;
-看到其他人若无其事，还要挑起来送到每个人眼前说，屎诶，是屎诶！&lt;br /&gt;
-一般这种做法我们地方方言有句话叫，屎不臭，挑着臭，这种人叫搅屎棍。&lt;/p&gt;
-
-&lt;p&gt;第三，日常生活中我们也会遇到各种恶意，有的有明确的判断标准可以用法律手段解决，有的够不上违法或执法成本高，反应强烈反而激励对方越战越勇，比如典型的网络巨魔。&lt;br /&gt;
-在日常生活中，每个人有自己的一套解决之道，但在辱华的话题上似乎任何一方都只允许有一种观点存在。&lt;/p&gt;
-
-&lt;p&gt;第四，持个人主义观点的人可能会认为，辱华是辱的抽象集体概念，不关我个人的事。&lt;br /&gt;
-但这个前提是，对方也都是个人主义者，他不是在针对你。&lt;br /&gt;
-在线下的生活中，如果对方将对集体概念的恶意实实在在落到了具体的人身上，这个时候说与个人无关，解决不了现实问题。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>不仅是反犹主义</title>
-        <link>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</link>
-        <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</guid>
-        <description>&lt;p&gt;不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。&lt;/p&gt;
-
-&lt;p&gt;一个典型的例子，就是同样一批人，可以以反对资本主义为名，将所有资本家和企业家视为一个有原罪的整体，声称其个个为了追逐利润无所不为、丧失人性，代表“资本”在常人所不知的隐秘之处，操纵一切，腐化一切，是各种社会、政治、经济问题的罪魁祸首。&lt;/p&gt;
-
-&lt;p&gt;其他的例子还有中世纪的猎巫运动和上个世纪中的多次暴民运动。&lt;/p&gt;
-
-&lt;p&gt;在阴谋论带来的仇恨和恐慌情绪的驱使下，这个被控有罪的群体是否真有勾结共谋，是不是这个群体中所有人都罪无可恕，都已经不重要了，乌合之众们要的只有除之而后快，是充满正义和道德感的“净化”行为。&lt;/p&gt;
-
-&lt;p&gt;反犹主义背后的这种心理基础和行事逻辑，只要有条件，它可以将歧视和迫害的对象扩大许多倍，也可能针对任何人和任何群体。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%AD%A7%E8%A7%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>差异与歧视</title>
+      <link>https://ioerr.github.io/posts/chayi-yu-qishi/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chayi-yu-qishi/</guid>
+      <description>吴非盯着看～ ❁҉҉҉҉҉҉҉҉： 各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。 这事儿套到人类身上，除了政治不正确，别的没啥</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/volfay/status/1774108640364081295">吴非盯着看～ ❁҉҉҉҉҉҉҉҉</a>：<br>
+各品种狗之间没有生殖隔离，但性格、智力、体力、外形都有巨大差异。<br>
+这事儿套到人类身上，除了政治不正确，别的没啥问题吧？</p>
+<p><a href="https://twitter.com/calon/status/1774361388351471729">Calon</a>：<br>
+人种之间外形和能力的差异与狗相比要小得多。其他群体中总有人比你天赋能力更强，如果互换环境，也许你的表现更差。<br>
+人对宠物有目的地定向筛选育种，迭代速度快，人类种群的分化则基本是缓慢的自然过程，部分受文化观念的影响。<br>
+越是强调自由、多元、平等的地区，以人种为单位的差异越小。</p>
+<p>反之，歧视性的政策和观念类似于人对待宠物，会不断放大差异然后又被当做加深歧视的理由，不断循环。<br>
+对差异的态度取决于我们的<a href="../yuanjing-zhong-de-shijie">愿景</a>，如果我们希望生活在一个把人视同工具和宠物、以差异分贵贱的世界，那么在遇到其他人的种族歧视时，就不要抱怨这个符合自己愿景的世界。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>辱华</title>
+      <link>https://ioerr.github.io/posts/ruhua/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ruhua/</guid>
+      <description>伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客发生了冲突，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自</description>
+      <content:encoded><![CDATA[<p>伦敦的野生钢琴演奏者 Brendan Kavanagh（化名 Dr. K）与一群挥舞中国国旗的游客<a href="https://twitter.com/Byron_Wan/status/1748941110616211880">发生了冲突</a>，具体情况双方都有在各个社交媒体上发视频，孰对孰错各人自有分寸。</p>
+<p><a href="https://twitter.com/lilaoshizuikeai/status/1749165763699589313">看到有人说</a>，Brendan Kavanagh 在冲突后，故意弹了一首在西方很著名的带有歧视意味的《Ching Cheng Hanji》，其采样了中国戏剧《铡美案》中的音乐片段。</p>
+<p>挺好奇为什么弹《铡美案》的取样音乐也算辱华，这辱华的标准也太宽泛了吧。<br>
+查了一下 <a href="https://knowyourmeme.com/memes/ching-cheng-hanji">meme 来源</a>，不得不感叹 meme 的产生和传播总是出人意料啊。</p>
+<p>由此想到，辱华这个事情值得深入讨论。</p>
+<p>首先，如果一段素材经过加工、传播，比如铡美案中的音乐以及最初拿它取样的歌曲，当时并没有恶意，那么它本身是否辱华？<br>
+如果算是的话，那么这相当于将艺术品的解释权拱手让给了所有恶意辱华的人，一旦被其观念污染，就再也不可能回归正常的诠释。</p>
+<p>其次，在日常生活中，我们所感知到的侮辱，除了使用的素材之外，更重要的是感受到的恶意。一件平平无奇的日常事物，叠加上满满的恶意，一样也可以用来侮辱人。<br>
+但是现在似乎不管主观感受如何，只要出现了特定的素材，甚至相近的素材，就一律认定为辱华。还总有人把别人都察觉不到的侮辱广而告之发扬光大，主动让更多的人感觉或者感知到侮辱。<br>
+如果有心智不成熟的傻逼骂我一句听不懂的话，我根本不理会，然后旁边有人主动翻译成我能听懂的话，我虽然感受到了恶意，但还是觉得没必要和这种人计较，这时有人说，你怎么可以没觉得受到侮辱，你要不上去揍他你就是孬种，我会觉得这位也是傻逼。<br>
+又好比路上有一块干结的牛粪，大多数路人只当作一块臭石头，没当回事。<br>
+偏偏有人要跑过去拿棍子戳烂甩得到处都是，大声喊，这里有一坨屎诶！<br>
+看到其他人若无其事，还要挑起来送到每个人眼前说，屎诶，是屎诶！<br>
+一般这种做法我们地方方言有句话叫，屎不臭，挑着臭，这种人叫搅屎棍。</p>
+<p>第三，日常生活中我们也会遇到各种恶意，有的有明确的判断标准可以用法律手段解决，有的够不上违法或执法成本高，反应强烈反而激励对方越战越勇，比如典型的网络巨魔。<br>
+在日常生活中，每个人有自己的一套解决之道，但在辱华的话题上似乎任何一方都只允许有一种观点存在。</p>
+<p>第四，持个人主义观点的人可能会认为，辱华是辱的抽象集体概念，不关我个人的事。<br>
+但这个前提是，对方也都是个人主义者，他不是在针对你。<br>
+在线下的生活中，如果对方将对集体概念的恶意实实在在落到了具体的人身上，这个时候说与个人无关，解决不了现实问题。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>不仅是反犹主义</title>
+      <link>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/bujin-shi-fanyouzhuyi/</guid>
+      <description>不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。 一个典型的例子，</description>
+      <content:encoded><![CDATA[<p>不少人声讨纳粹的“反犹主义”，但仅仅是将被歧视和迫害的“犹太人”换成其他群体，很多人就看不出和“反犹主义”的共同点在哪里了。</p>
+<p>一个典型的例子，就是同样一批人，可以以反对资本主义为名，将所有资本家和企业家视为一个有原罪的整体，声称其个个为了追逐利润无所不为、丧失人性，代表“资本”在常人所不知的隐秘之处，操纵一切，腐化一切，是各种社会、政治、经济问题的罪魁祸首。</p>
+<p>其他的例子还有中世纪的猎巫运动和上个世纪中的多次暴民运动。</p>
+<p>在阴谋论带来的仇恨和恐慌情绪的驱使下，这个被控有罪的群体是否真有勾结共谋，是不是这个群体中所有人都罪无可恕，都已经不重要了，乌合之众们要的只有除之而后快，是充满正义和道德感的“净化”行为。</p>
+<p>反犹主义背后的这种心理基础和行事逻辑，只要有条件，它可以将歧视和迫害的对象扩大许多倍，也可能针对任何人和任何群体。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

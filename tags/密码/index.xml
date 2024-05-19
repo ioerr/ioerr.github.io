@@ -1,69 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>密码 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%AF%86%E7%A0%81/</link>
     <description>Recent content in 密码 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>如何确定一个人的身份？</title>
-        <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
-        <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
-        <description>&lt;p&gt;目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。&lt;/p&gt;
-
-&lt;p&gt;线下的服务，则通常使用身份证，结合照片、指纹等验明正身，更先进的还有外貌、声音、虹膜、身材、行为举止等，但还无法独立、精确地验证。&lt;/p&gt;
-
-&lt;p&gt;如果以后人可以克隆，外貌、身材、指纹、虹膜、声纹这些身体特征可能完全一致。&lt;/p&gt;
-
-&lt;p&gt;如果记忆可以移植，甚至脑内事先设定的密码可以读取出来，还有什么可以用来确定一个人的身份呢？&lt;/p&gt;
-
-&lt;p&gt;或者可以这样问，如果从这一时刻出现完全一模一样的两个人，决定他们身份差异的最关键因素是什么呢？&lt;/p&gt;
-
-&lt;p&gt;也许只有他们面对同一事务作出的不同选择才是终极差异？&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>双密码</title>
-        <link>https://ioerr.github.io/posts/shuang-mima/</link>
-        <pubDate>Fri, 13 May 2011 02:54:08 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shuang-mima/</guid>
-        <description>&lt;p&gt;Flickr、Tumblr、Evernote、Friendfeed
-等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。&lt;/p&gt;
-
-&lt;p&gt;与此相反，Blogger 的 Mail2Blogger
-电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。&lt;br /&gt;
-其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。&lt;/p&gt;
-
-&lt;p&gt;我觉得许多服务都应该有两个密码：&lt;br /&gt;
-一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；&lt;br /&gt;
-另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。&lt;/p&gt;
-
-&lt;p&gt;看上去很像 QQ 等服务的密码保护？对，但 QQ
-的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。&lt;/p&gt;
-
-&lt;p&gt;补充：&lt;br /&gt;
-Google
-帐号的二次验证功能中，可以设置&lt;a href=&#34;https://support.google.com/accounts/answer/185833&#34;&gt;应用专用密码&lt;/a&gt;，算是比较理想的实现了。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%AF%86%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何确定一个人的身份？</title>
+      <link>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ruhe-queding-yigeren-de-shenfen/</guid>
+      <description>目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。 线下的服务，则</description>
+      <content:encoded><![CDATA[<p>目前的网络服务，基础的身份认证凭据还是帐号密码体系，使用用户帐号、电子邮箱、手机号码等结合密码来标记个人用户身份并注册、登录。</p>
+<p>线下的服务，则通常使用身份证，结合照片、指纹等验明正身，更先进的还有外貌、声音、虹膜、身材、行为举止等，但还无法独立、精确地验证。</p>
+<p>如果以后人可以克隆，外貌、身材、指纹、虹膜、声纹这些身体特征可能完全一致。</p>
+<p>如果记忆可以移植，甚至脑内事先设定的密码可以读取出来，还有什么可以用来确定一个人的身份呢？</p>
+<p>或者可以这样问，如果从这一时刻出现完全一模一样的两个人，决定他们身份差异的最关键因素是什么呢？</p>
+<p>也许只有他们面对同一事务作出的不同选择才是终极差异？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>双密码</title>
+      <link>https://ioerr.github.io/posts/shuang-mima/</link>
+      <pubDate>Fri, 13 May 2011 02:54:08 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shuang-mima/</guid>
+      <description>Flickr、Tumblr、Evernote、Friendfeed 等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机</description>
+      <content:encoded><![CDATA[<p>Flickr、Tumblr、Evernote、Friendfeed<br>
+等服务的发布用邮箱地址都是随机的，如果用户不满意，需要自己不断刷新直到随机刷出来一个比较好记好看的地址。</p>
+<p>与此相反，Blogger 的 Mail2Blogger<br>
+电子邮箱发布地址是可以自己定义的，只要你想到一个别人猜不出来自己有比较熟悉的字符串就行。<br>
+其实这就相当于用户的第二个密码，只是限制在电子邮件应用的范围。</p>
+<p>我觉得许多服务都应该有两个密码：<br>
+一个密码专门用于管理业务内容或者只发布内容，通常用户只需要用密码登录使用服务，就算临时给朋友当公车号使用也无不可，被盗走了不至于帐号易手；<br>
+另一个密码专门用于管理帐户，可以取回第一个密码，可以删除帐号，轻易不动用。</p>
+<p>看上去很像 QQ 等服务的密码保护？对，但 QQ<br>
+的密码和密码保护机制并不是将业务和帐号的管理完全分离（这也与用户的使用习惯有关），而我认为应用的场景不同、使用的频率不同，对应的密码就应该不同，这样的实现更加简单有效。</p>
+<p>补充：<br>
+Google<br>
+帐号的二次验证功能中，可以设置<a href="https://support.google.com/accounts/answer/185833">应用专用密码</a>，算是比较理想的实现了。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

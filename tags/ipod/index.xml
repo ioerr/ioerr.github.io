@@ -1,343 +1,257 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ipod on 读写错误</title>
+    <title>IPod on 读写错误</title>
     <link>https://ioerr.github.io/tags/ipod/</link>
-    <description>Recent content in Ipod on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IPod on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 14 Oct 2011 11:17:57 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/ipod/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>移动设备触屏游戏六戒</title>
-        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
-        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
-        <description>&lt;p&gt;时常觉得 iPod/iPhone
-上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
-
-&lt;p&gt;1、图文难以识别。&lt;br /&gt;
-本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。&lt;br /&gt;
-比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。&lt;/p&gt;
-
-&lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
-
-&lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
-中变更球员名单，很容易点错球员；&lt;br /&gt;
-直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
-间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
-
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
-swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
-如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
-
-&lt;p&gt;至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。&lt;/p&gt;
-
-&lt;p&gt;3、必须双手或横屏操作，无法充分解放另一只手&lt;br /&gt;
-在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。&lt;br /&gt;
-有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。&lt;/p&gt;
-
-&lt;p&gt;4、需要实时关注，一刻不能分心&lt;br /&gt;
-漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。&lt;br /&gt;
-如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。&lt;br /&gt;
-即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。&lt;br /&gt;
-所以应该尽量采用回合制或短场景。&lt;br /&gt;
-如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。&lt;/p&gt;
-
-&lt;p&gt;5、信息量太大，不容易重新关注&lt;br /&gt;
-有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。&lt;/p&gt;
-
-&lt;p&gt;6、没有足够的成就感&lt;br /&gt;
-规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
-这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>FMHi2011</title>
-        <link>https://ioerr.github.io/posts/fmhi2011/</link>
-        <pubDate>Tue, 25 Jan 2011 04:41:27 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/fmhi2011/</guid>
-        <description>&lt;p&gt;自从入手 Kindle 3之后，iPod Touch
-就移交给老婆了（或者应该说，因为老婆想玩 iPod
-游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。&lt;/p&gt;
-
-&lt;p&gt;用了1年的 iPod Touch，主要感想如下：&lt;br /&gt;
-1、听音乐不愧是 iPod
-的老本行，如果你有购买正版音乐的习惯，又有苹果的电脑（因为 iTunes
-实在太让人抓狂了），用来购买、管理、欣赏音乐很合适。&lt;br /&gt;
-2、使用最多的应用是看书的 Stanza，有了 Kindle
-之后基本上可以把它忘了。Instapaper 能够发到 Kindle 邮箱后也不需要在 iPod
-上看 Instapaper 存档了。&lt;br /&gt;
-3、其次就是浏览网页和上 Google Talk（通过免费版的 IM+）。&lt;br /&gt;
-但屏幕太小看网页还是不舒服，后台挂 GT
-时它的弹出消息机制又很烦人，总的来说还是多任务机制的大平板才能用得尽兴。&lt;br /&gt;
-当好人修电脑的时候曾经靠 iPod
-连无线网络查资料和改路由器设置，免去了用笔记本的麻烦。&lt;br /&gt;
-4、其他的用途还有做笔记、记账。&lt;br /&gt;
-但 iPod
-的中文输入法不够好用，如果不是在电脑键盘上输入我都觉得会影响记录的时效性。&lt;br /&gt;
-而且在不支持多任务的时候，在主任务和笔记本应用的任务之间来回切换很是伤害心灵，还会有时空错乱的幻觉，这个时候我会想要可以分屏操作的设备……&lt;br /&gt;
-何况现在还随身携带小巧的纸质笔记本，打开 Evernote 的机会也就更少了。&lt;br /&gt;
-5、都说 iPod
-主要是娱乐游戏机，可是没有多少游戏能够让我长时间投入，手感、可玩性、可持续性、耗电等等都是不小的问题。&lt;/p&gt;
-
-&lt;p&gt;几个桌面游戏和 Rogue/Nethack 类游戏的 iPod 版勉强还行（如果是 iPad
-可能就好多了），什么移植大作、3D
-大作，真不对我的胃口。（也许是因为硬件配合方面没有和所谓大作的期望水准保持一致，也许是对大作越来越挑剔？）&lt;/p&gt;
-
-&lt;p&gt;而以怒鸟为代表的这类海量小游戏，还不够分量让我沉迷。管你降价还是免费，一天不到就索然无味有什么用？（可能我是审美疲劳了，比如在
-PC 上早就玩过怒鸟类型的 Flash 游戏了）&lt;/p&gt;
-
-&lt;p&gt;说了这么多 iPod 游戏的坏话打倒一片，主要目的是为了突出我强烈推荐的游戏：&lt;/p&gt;
-
-&lt;p&gt;Sports Interactive 的 &lt;a href=&#34;http://www.footballmanager.com/games?&amp;amp;game_version=ios&#34;&gt;Football Manager Handheld for iPhone/iPod
-2011&lt;/a&gt;，简称
-FMHi2011&lt;/p&gt;
-
-&lt;p&gt;虽然价格比一般的小游戏高多了，但作为足球迷、足球经营游戏爱好者，FMHi2011绝对值得拥有：&lt;br /&gt;
-它不需要格斗、音乐打击类游戏的手感；&lt;br /&gt;
-它简化了数据、界面、事件、画面和规则，不需要像巨无霸似的桌面电脑版本那样顾虑太多，战术设置选项又比
-FMHi2010的多一些，可玩性、平衡性保持得不错（甚至对从 Championship
-Manager 系列开始玩起的老玩家来说很亲切）；&lt;br /&gt;
-它的内容丰富、变化多端、自由度高，可以让你长时间沉迷；&lt;br /&gt;
-它不需要你时刻紧盯屏幕、绷紧神经，没有错过最佳操作时机的忧虑，不需要你有敏捷的反应和灵活的手指；&lt;br /&gt;
-它相对其他大作来说省电多了，体积也不超过80MB。&lt;/p&gt;
-
-&lt;p&gt;所以现在一从老婆那里拿回 iPod 我就抓紧时间玩一会儿 FMHi2011……&lt;/p&gt;
-
-&lt;p&gt;至于缺点么：&lt;br /&gt;
-价格不低，\$9.99 USD/£6.99 GBP；&lt;br /&gt;
-没有中文，不过界面常用单词中也并没有特别难的。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>iPod 免费应用推荐</title>
-        <link>https://ioerr.github.io/posts/ipod-mianfei-yingyong-tuijian/</link>
-        <pubDate>Thu, 20 May 2010 02:28:41 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ipod-mianfei-yingyong-tuijian/</guid>
-        <description>&lt;p&gt;很多人会购买 iPod 而不是
-iPhone、iPad，除了不想用联通的服务之外，很多也是因为被 iPhone
-的价格给吓到了吧。如果是这样的话，买到 iPod
-之后，如果不越狱不买黑卡，看到好用的应用也没有充裕的银子购买吧。&lt;br /&gt;
-所以，入手 iPod Touch
-5个月之后，记录一下值得推荐的免费应用，方便穷苦新手：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;学习类：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/ted-sub-ted-talks-subtitles/id412403556?mt=8&#34;&gt;TED+SUB&lt;/a&gt;&lt;br /&gt;
-观看 &lt;a href=&#34;http://www.ted.com/&#34;&gt;TED&lt;/a&gt; 节目的好工具，带字幕，可下载到本地观看。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/id353115739?mt=8&#34;&gt;有道词典本地增强版&lt;/a&gt;&lt;br /&gt;
-拥有多语种互译、本地词库、摄像头取词、生词本管理和同步等等强大实用的功能。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;电子书阅读类：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;拥有显示效果一流、屏幕够大、续航能力也不错的移动设备，不用来看电子书就是浪费啊！（好吧，自动有了
-Kindle，iPod/iPad 什么的看书时都靠边站……）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/stanza/id284956128?mt=8&#34;&gt;Stanza&lt;/a&gt;&lt;br /&gt;
-最好用的免费读书软件之一，功能可能不是最全面的，但是非常好用，配合在线书库资源，不愁没有书看。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/goodreader-lite-for-iphone/id306722910?mt=8&#34;&gt;Goodreader
-Lite&lt;/a&gt;&lt;br /&gt;
-适合阅读大体积 PDF 文件的阅读器，阅读纯文本文档也不在话下，还可以通过
-WIFI 传输文件。&lt;br /&gt;
-免费版本只能够同时保存5个文档，如果没有多本电子书并行阅读的需要，已经够用了。收费版本只要0.99美刀。&lt;/p&gt;
-
-&lt;p&gt;如果有 Kindle 账号，习惯从 Amazaon 购买电子书，可以用
-&lt;a href=&#34;http://itunes.apple.com/us/app/kindle/id302584613?mt=8&#34;&gt;Kindle&lt;/a&gt;
-的应用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/icomic-viewer/id333488734?mt=8&#34;&gt;iComic
-Viewer&lt;/a&gt;&lt;br /&gt;
-看漫画最好还是入一台 iPad，如果非要用 iPod 看的话，可以试试这个应用。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;笔记类：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;iPod 上没有可以与 Windows Mobile 平台上 ListPro
-相媲美的笔记工具，即使是收费软件也很难有那样强大和好用（除了网络同步功能）。&lt;br /&gt;
-不过，如果单纯只是随手记录信息，还是有不少好应用可用的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/evernote/id281796108?mt=8&#34;&gt;Evernote&lt;/a&gt;&lt;br /&gt;
-Evernote for iPhone/iPod 比 WM
-平台的版本好用多了，加入书签的笔记可以在本地保存。&lt;br /&gt;
-与 PC 端的同步就靠 Evernote
-的桌面客户端和网络同步服务，如果只保存文字的话，每月的流量限额也够用了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/notvetica/id451926697?mt=8&#34;&gt;Notvetica&lt;/a&gt;&lt;br /&gt;
-日程管理、提醒和笔记工具，Calvetica 的老版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/acmelists-todo-shopping-lists/id344951978?mt=8&#34;&gt;Acme
-Lists&lt;/a&gt;&lt;br /&gt;
-iPod 上的笔记工具大同小异，一般只在附加功能、细节上有所区别，Acme Lists
-算是同类笔记软件中可用性还不错的一个了。&lt;br /&gt;
-遗憾的是，目前升级后已经标价0.99美元，如果有兴趣，可以加入监视清单，等待降价到免费的时候再下载。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/betterlists/id310806307?mt=8&#34;&gt;BetterLists&lt;/a&gt;&lt;br /&gt;
-功能比 Acme Lists
-更强，收费自然也更高，曾经降价到免费，如有耐心可以慢慢等。&lt;/p&gt;
-
-&lt;p&gt;[gNotes]()&lt;br /&gt;
-用于和 Google Docs
-同步笔记。功能简单，界面简洁，如果不需要管理复杂的笔记，其实这个已经够用。&lt;br /&gt;
-但现在貌似已经在 App Store 下架了？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/simplemind-xpress-mindmapping/id305727658?mt=8&#34;&gt;SimpleMind
-Xpress&lt;/a&gt;&lt;br /&gt;
-免费的脑图应用，不过不失。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;应用发掘：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;每天 App Store 都有许多应用涨价降价，除了访问
-&lt;a href=&#34;http://appshopper.com/&#34;&gt;AppShopper&lt;/a&gt; 之外，在 iPod
-上也有专门的应用用于跟踪免费、降价和热门的应用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/bargainbin-with-push/id302951751?mt=8&#34;&gt;BargainBin&lt;/a&gt;&lt;br /&gt;
-分类列出最近免费和降价的应用，可以通过接口在后台工作，借助推送消息进行提醒。&lt;br /&gt;
-可以记录感兴趣的应用，当有价格变动时自动通知。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/hottest-apps/id339084142?mt=8&#34;&gt;Hottest
-Apps&lt;/a&gt;&lt;br /&gt;
-与 BargainBin 不同的是，Hottest Apps
-主要是监控最近热门的应用，所以两者的排序会有不同。&lt;br /&gt;
-同样也可以在后台推送消息。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;网络阅读：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/instapaper-free/id284942713?mt=8&#34;&gt;Instapaper
-Free&lt;/a&gt;&lt;br /&gt;
-保留了核心功能的 Instapaper
-免费应用，适合保存网络上看到的长文章，然后在移动设备上慢慢阅读。&lt;br /&gt;
-免费版比付费版少的实用功能有：文件夹分类、记住上次阅读位置、调整文字字体和大小、自动滚屏和翻页。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/read-it-later-free/id309597402?mt=8&#34;&gt;Read It Later
-Free&lt;/a&gt;&lt;br /&gt;
-与 Instapaper 类似的应用，取决于收藏文章时是用哪种手段。&lt;br /&gt;
-免费版比付费版少的实用功能有：Safari
-中的快速收藏、发送链接到其他常用应用、屏幕翻转一键锁定、自动标记为已读。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/rss-runner/id300885430?mt=8&#34;&gt;RSS
-Runner&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://itunes.apple.com/us/app/mobilerss-free-google-rss/id333925239?mt=8&#34;&gt;Mobile RSS
-Free&lt;/a&gt;&lt;br /&gt;
-RSS 阅读没有特别满意的应用，免费应用中这两个也算是不错了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/id453405026?mt=8&#34;&gt;iWeekly 周末画报&lt;/a&gt;&lt;br /&gt;
-内容不错，应用制作水准相对较高的电子杂志，支持离线文章和图片。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;即时通讯和 MicroBlog：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/qq/id292374528?mt=8&#34;&gt;QQ&lt;/a&gt;&lt;br /&gt;
-支持群组功能，操作也相当方便，可以访问邮箱、空间等服务。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/twitter/id333903271?mt=8&#34;&gt;Twitter&lt;/a&gt;&lt;br /&gt;
-可以说是 iPod 平台最强 twitter 客户端，是原来的
-&lt;a href=&#34;http://itunes.apple.com/us/app/tweetie-2/id333903271?mt=8&#34;&gt;Tweetie&lt;/a&gt; 被
-Twitter 官方收购之后推出的免费版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/im/id285688934?mt=8&#34;&gt;IM+&lt;/a&gt;&lt;br /&gt;
-集成多种通讯协议的工具，最大的好处是——可以直接上 Twitter。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;网络同步：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/dropbox/id327630330?mt=8&#34;&gt;Dropbox&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://itunes.apple.com/us/app/sugarsync/id288491637?mt=8&#34;&gt;SugarSync&lt;/a&gt;&lt;br /&gt;
-分别用于同步 Dropbox 和 SugarSync 的文件。其中 Dropbox 已经被墙。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;游戏：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/app/rogue/id298113808?mt=8&#34;&gt;Rogue&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://itunes.apple.com/app/inethack/id324299096?mt=8&#34;&gt;iNetHack&lt;/a&gt;&lt;br /&gt;
-如果你喜欢 Rogue 和 NetHack
-这类画面简单、历史悠久的地牢探险游戏的话，那么这两款可以算是 iPod
-上最耐玩的免费游戏了。&lt;/p&gt;
-
-&lt;p&gt;如果觉得 Rogue 的操作不容易上手，可以尝试收费的 &lt;a href=&#34;http://itunes.apple.com/us/app/rogue-touch/id303471870?mt=8&#34;&gt;Rogue
-Touch&lt;/a&gt; 以及
-&lt;a href=&#34;http://itunes.apple.com/us/app/cavern/id346653564?mt=8&#34;&gt;Cavern&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/line-up-2/id358366941?mt=8&#34;&gt;Line Up 2&lt;/a&gt;&lt;br /&gt;
-点击消除类游戏。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/virus-laboratory-lite/id348123911?mt=8&#34;&gt;Virus Laboratory
-Lite&lt;/a&gt;&lt;br /&gt;
-点击消除类游戏。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/lock-n-roll/id300364571?mt=8&#34;&gt;Lock &amp;lsquo;n&amp;rsquo;
-Roll&lt;/a&gt;&lt;br /&gt;
-规则比较特殊的消除类游戏，将随机出现的骰子放在4×4的盘面上，凑成特定的组合就可以消除掉和得到高分，直到盘面被占满，相当费脑力和考验人品。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/tap-tap-revenge-3/id326916014?mt=8&#34;&gt;Tap Tap Revenge
-3&lt;/a&gt;&lt;br /&gt;
-音乐动作类游戏，可以上网下载一些免费音乐用于游戏。不能够指望音乐有多好听就是了，反正大多数歌曲不合我的口味。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/ibomber/id316774112?mt=8&#34;&gt;iBomber&lt;/a&gt;&lt;br /&gt;
-模拟飞行投弹，娱乐性不错，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/seed-1-rise-of-darkness/id337876055?mt=8&#34;&gt;SEED&lt;/a&gt;&lt;br /&gt;
-RPG 游戏，免费已经很久了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/last-front-europe/id352978106?mt=8&#34;&gt;Last Front:
-Europe&lt;/a&gt;&lt;br /&gt;
-塔防类游戏，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/adventure-zones/id335734747?mt=8&#34;&gt;Adventure
-Zones&lt;/a&gt;&lt;br /&gt;
-主题是寻宝的回合制游戏，通过移动地图的行列来改变位置，在迷宫中找到宝藏的同时还要陷害对手，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/piyo-blocks/id331306853?mt=8&#34;&gt;Piyo
-Blocks&lt;/a&gt;&lt;br /&gt;
-宝石消除类游戏，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/linklines/id328707810?mt=8&#34;&gt;Link Lines&lt;/a&gt;&lt;br /&gt;
-连线消除类游戏，移动5个同色的小球组成一排就能够消除，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/five-in-line/id369351893?mt=8&#34;&gt;Five In
-Line&lt;/a&gt;&lt;br /&gt;
-与 &lt;a href=&#34;http://itunes.apple.com/us/app/linklines/id328707810?mt=8&#34;&gt;Link
-Lines&lt;/a&gt;
-差不多，不过小球换成了小方块，而且一直是免费的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/hex-territory-free/id352517541?mt=8&#34;&gt;Hex Territory
-Free&lt;/a&gt;&lt;br /&gt;
-六边形格子的类黑白棋翻转游戏，不同的是放下的棋子会让周围6格的其他棋子都变色，而且必须在己方已有棋子的格子附近活动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;其他实用工具：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/promodoro/id359028017?mt=8&#34;&gt;Promodoro&lt;/a&gt;&lt;br /&gt;
-有一种工作方法是将工作任务划分为25+5分钟的时间段，25分钟集中精力工作，5分钟休息。一段时间之后回头评估工作时间的效率情况，进行改进。&lt;br /&gt;
-Promodoro 就是用于这种工作方法的应用，功能比较简单，曾经免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/lockbox/id285681310?mt=8&#34;&gt;LockBox&lt;/a&gt;&lt;br /&gt;
-用于保存帐号密码、私密信息的工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/us/app/question-of-the-day/id308140693?mt=8&#34;&gt;Question Of The
-Day&lt;/a&gt;&lt;br /&gt;
-随机抽出一个问题给自己来回答，通常是有哲理有内涵的问题，可以用来抽空反思一下。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/ipod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动设备触屏游戏六戒</title>
+      <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+      <description>时常觉得 iPod/iPhone 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏： 1、图文难以识别。 本来眼神就</description>
+      <content:encoded><![CDATA[<p>时常觉得 iPod/iPhone<br>
+上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：</p>
+<p>1、图文难以识别。<br>
+本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。<br>
+比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。</p>
+<p>图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。</p>
+<p>2、指点不便，操作不灵。<br>
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld<br>
+中变更球员名单，很容易点错球员；<br>
+直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；<br>
+间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。</p>
+<p>滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的<br>
+swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；<br>
+如果游戏对操作精度很高，不建议默认采用滑动操作。</p>
+<p>至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。</p>
+<p>3、必须双手或横屏操作，无法充分解放另一只手<br>
+在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。<br>
+有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。</p>
+<p>4、需要实时关注，一刻不能分心<br>
+漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。<br>
+如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。<br>
+即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。<br>
+所以应该尽量采用回合制或短场景。<br>
+如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。</p>
+<p>5、信息量太大，不容易重新关注<br>
+有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。</p>
+<p>6、没有足够的成就感<br>
+规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。<br>
+比如 Minesweeper<br>
+这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>FMHi2011</title>
+      <link>https://ioerr.github.io/posts/fmhi2011/</link>
+      <pubDate>Tue, 25 Jan 2011 04:41:27 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/fmhi2011/</guid>
+      <description>自从入手 Kindle 3之后，iPod Touch 就移交给老婆了（或者应该说，因为老婆想玩 iPod 游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。 用了1年的 iPod To</description>
+      <content:encoded><![CDATA[<p>自从入手 Kindle 3之后，iPod Touch<br>
+就移交给老婆了（或者应该说，因为老婆想玩 iPod<br>
+游戏，所以为了看书，又不想多花钱，所以才入手了 Kindle 3）。</p>
+<p>用了1年的 iPod Touch，主要感想如下：<br>
+1、听音乐不愧是 iPod<br>
+的老本行，如果你有购买正版音乐的习惯，又有苹果的电脑（因为 iTunes<br>
+实在太让人抓狂了），用来购买、管理、欣赏音乐很合适。<br>
+2、使用最多的应用是看书的 Stanza，有了 Kindle<br>
+之后基本上可以把它忘了。Instapaper 能够发到 Kindle 邮箱后也不需要在 iPod<br>
+上看 Instapaper 存档了。<br>
+3、其次就是浏览网页和上 Google Talk（通过免费版的 IM+）。<br>
+但屏幕太小看网页还是不舒服，后台挂 GT<br>
+时它的弹出消息机制又很烦人，总的来说还是多任务机制的大平板才能用得尽兴。<br>
+当好人修电脑的时候曾经靠 iPod<br>
+连无线网络查资料和改路由器设置，免去了用笔记本的麻烦。<br>
+4、其他的用途还有做笔记、记账。<br>
+但 iPod<br>
+的中文输入法不够好用，如果不是在电脑键盘上输入我都觉得会影响记录的时效性。<br>
+而且在不支持多任务的时候，在主任务和笔记本应用的任务之间来回切换很是伤害心灵，还会有时空错乱的幻觉，这个时候我会想要可以分屏操作的设备……<br>
+何况现在还随身携带小巧的纸质笔记本，打开 Evernote 的机会也就更少了。<br>
+5、都说 iPod<br>
+主要是娱乐游戏机，可是没有多少游戏能够让我长时间投入，手感、可玩性、可持续性、耗电等等都是不小的问题。</p>
+<p>几个桌面游戏和 Rogue/Nethack 类游戏的 iPod 版勉强还行（如果是 iPad<br>
+可能就好多了），什么移植大作、3D<br>
+大作，真不对我的胃口。（也许是因为硬件配合方面没有和所谓大作的期望水准保持一致，也许是对大作越来越挑剔？）</p>
+<p>而以怒鸟为代表的这类海量小游戏，还不够分量让我沉迷。管你降价还是免费，一天不到就索然无味有什么用？（可能我是审美疲劳了，比如在<br>
+PC 上早就玩过怒鸟类型的 Flash 游戏了）</p>
+<p>说了这么多 iPod 游戏的坏话打倒一片，主要目的是为了突出我强烈推荐的游戏：</p>
+<p>Sports Interactive 的 <a href="http://www.footballmanager.com/games?&amp;game_version=ios">Football Manager Handheld for iPhone/iPod<br>
+2011</a>，简称<br>
+FMHi2011</p>
+<p>虽然价格比一般的小游戏高多了，但作为足球迷、足球经营游戏爱好者，FMHi2011绝对值得拥有：<br>
+它不需要格斗、音乐打击类游戏的手感；<br>
+它简化了数据、界面、事件、画面和规则，不需要像巨无霸似的桌面电脑版本那样顾虑太多，战术设置选项又比<br>
+FMHi2010的多一些，可玩性、平衡性保持得不错（甚至对从 Championship<br>
+Manager 系列开始玩起的老玩家来说很亲切）；<br>
+它的内容丰富、变化多端、自由度高，可以让你长时间沉迷；<br>
+它不需要你时刻紧盯屏幕、绷紧神经，没有错过最佳操作时机的忧虑，不需要你有敏捷的反应和灵活的手指；<br>
+它相对其他大作来说省电多了，体积也不超过80MB。</p>
+<p>所以现在一从老婆那里拿回 iPod 我就抓紧时间玩一会儿 FMHi2011……</p>
+<p>至于缺点么：<br>
+价格不低，$9.99 USD/£6.99 GBP；<br>
+没有中文，不过界面常用单词中也并没有特别难的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>iPod 免费应用推荐</title>
+      <link>https://ioerr.github.io/posts/ipod-mianfei-yingyong-tuijian/</link>
+      <pubDate>Thu, 20 May 2010 02:28:41 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ipod-mianfei-yingyong-tuijian/</guid>
+      <description>很多人会购买 iPod 而不是 iPhone、iPad，除了不想用联通的服务之外，很多也是因为被 iPhone 的价格给吓到了吧。如果是这样的话，买到 iPod 之后，如果不越</description>
+      <content:encoded><![CDATA[<p>很多人会购买 iPod 而不是<br>
+iPhone、iPad，除了不想用联通的服务之外，很多也是因为被 iPhone<br>
+的价格给吓到了吧。如果是这样的话，买到 iPod<br>
+之后，如果不越狱不买黑卡，看到好用的应用也没有充裕的银子购买吧。<br>
+所以，入手 iPod Touch<br>
+5个月之后，记录一下值得推荐的免费应用，方便穷苦新手：</p>
+<p><strong>学习类：</strong></p>
+<p><a href="http://itunes.apple.com/app/ted-sub-ted-talks-subtitles/id412403556?mt=8">TED+SUB</a><br>
+观看 <a href="http://www.ted.com/">TED</a> 节目的好工具，带字幕，可下载到本地观看。</p>
+<p><a href="http://itunes.apple.com/app/id353115739?mt=8">有道词典本地增强版</a><br>
+拥有多语种互译、本地词库、摄像头取词、生词本管理和同步等等强大实用的功能。</p>
+<p><strong>电子书阅读类：</strong></p>
+<p>拥有显示效果一流、屏幕够大、续航能力也不错的移动设备，不用来看电子书就是浪费啊！（好吧，自动有了<br>
+Kindle，iPod/iPad 什么的看书时都靠边站……）</p>
+<p><a href="http://itunes.apple.com/us/app/stanza/id284956128?mt=8">Stanza</a><br>
+最好用的免费读书软件之一，功能可能不是最全面的，但是非常好用，配合在线书库资源，不愁没有书看。</p>
+<p><a href="http://itunes.apple.com/us/app/goodreader-lite-for-iphone/id306722910?mt=8">Goodreader<br>
+Lite</a><br>
+适合阅读大体积 PDF 文件的阅读器，阅读纯文本文档也不在话下，还可以通过<br>
+WIFI 传输文件。<br>
+免费版本只能够同时保存5个文档，如果没有多本电子书并行阅读的需要，已经够用了。收费版本只要0.99美刀。</p>
+<p>如果有 Kindle 账号，习惯从 Amazaon 购买电子书，可以用<br>
+<a href="http://itunes.apple.com/us/app/kindle/id302584613?mt=8">Kindle</a><br>
+的应用。</p>
+<p><a href="http://itunes.apple.com/us/app/icomic-viewer/id333488734?mt=8">iComic<br>
+Viewer</a><br>
+看漫画最好还是入一台 iPad，如果非要用 iPod 看的话，可以试试这个应用。</p>
+<p><strong>笔记类：</strong></p>
+<p>iPod 上没有可以与 Windows Mobile 平台上 ListPro<br>
+相媲美的笔记工具，即使是收费软件也很难有那样强大和好用（除了网络同步功能）。<br>
+不过，如果单纯只是随手记录信息，还是有不少好应用可用的。</p>
+<p><a href="http://itunes.apple.com/us/app/evernote/id281796108?mt=8">Evernote</a><br>
+Evernote for iPhone/iPod 比 WM<br>
+平台的版本好用多了，加入书签的笔记可以在本地保存。<br>
+与 PC 端的同步就靠 Evernote<br>
+的桌面客户端和网络同步服务，如果只保存文字的话，每月的流量限额也够用了。</p>
+<p><a href="http://itunes.apple.com/app/notvetica/id451926697?mt=8">Notvetica</a><br>
+日程管理、提醒和笔记工具，Calvetica 的老版本。</p>
+<p><a href="http://itunes.apple.com/us/app/acmelists-todo-shopping-lists/id344951978?mt=8">Acme<br>
+Lists</a><br>
+iPod 上的笔记工具大同小异，一般只在附加功能、细节上有所区别，Acme Lists<br>
+算是同类笔记软件中可用性还不错的一个了。<br>
+遗憾的是，目前升级后已经标价0.99美元，如果有兴趣，可以加入监视清单，等待降价到免费的时候再下载。</p>
+<p><a href="http://itunes.apple.com/us/app/betterlists/id310806307?mt=8">BetterLists</a><br>
+功能比 Acme Lists<br>
+更强，收费自然也更高，曾经降价到免费，如有耐心可以慢慢等。</p>
+<p><a href="">gNotes</a><br>
+用于和 Google Docs<br>
+同步笔记。功能简单，界面简洁，如果不需要管理复杂的笔记，其实这个已经够用。<br>
+但现在貌似已经在 App Store 下架了？</p>
+<p><a href="http://itunes.apple.com/us/app/simplemind-xpress-mindmapping/id305727658?mt=8">SimpleMind<br>
+Xpress</a><br>
+免费的脑图应用，不过不失。</p>
+<p><strong>应用发掘：</strong></p>
+<p>每天 App Store 都有许多应用涨价降价，除了访问<br>
+<a href="http://appshopper.com/">AppShopper</a> 之外，在 iPod<br>
+上也有专门的应用用于跟踪免费、降价和热门的应用。</p>
+<p><a href="http://itunes.apple.com/us/app/bargainbin-with-push/id302951751?mt=8">BargainBin</a><br>
+分类列出最近免费和降价的应用，可以通过接口在后台工作，借助推送消息进行提醒。<br>
+可以记录感兴趣的应用，当有价格变动时自动通知。</p>
+<p><a href="http://itunes.apple.com/us/app/hottest-apps/id339084142?mt=8">Hottest<br>
+Apps</a><br>
+与 BargainBin 不同的是，Hottest Apps<br>
+主要是监控最近热门的应用，所以两者的排序会有不同。<br>
+同样也可以在后台推送消息。</p>
+<p><strong>网络阅读：</strong></p>
+<p><a href="http://itunes.apple.com/us/app/instapaper-free/id284942713?mt=8">Instapaper<br>
+Free</a><br>
+保留了核心功能的 Instapaper<br>
+免费应用，适合保存网络上看到的长文章，然后在移动设备上慢慢阅读。<br>
+免费版比付费版少的实用功能有：文件夹分类、记住上次阅读位置、调整文字字体和大小、自动滚屏和翻页。</p>
+<p><a href="http://itunes.apple.com/us/app/read-it-later-free/id309597402?mt=8">Read It Later<br>
+Free</a><br>
+与 Instapaper 类似的应用，取决于收藏文章时是用哪种手段。<br>
+免费版比付费版少的实用功能有：Safari<br>
+中的快速收藏、发送链接到其他常用应用、屏幕翻转一键锁定、自动标记为已读。</p>
+<p><a href="http://itunes.apple.com/us/app/rss-runner/id300885430?mt=8">RSS<br>
+Runner</a><br>
+<a href="http://itunes.apple.com/us/app/mobilerss-free-google-rss/id333925239?mt=8">Mobile RSS<br>
+Free</a><br>
+RSS 阅读没有特别满意的应用，免费应用中这两个也算是不错了。</p>
+<p><a href="http://itunes.apple.com/app/id453405026?mt=8">iWeekly 周末画报</a><br>
+内容不错，应用制作水准相对较高的电子杂志，支持离线文章和图片。</p>
+<p><strong>即时通讯和 MicroBlog：</strong></p>
+<p><a href="http://itunes.apple.com/us/app/qq/id292374528?mt=8">QQ</a><br>
+支持群组功能，操作也相当方便，可以访问邮箱、空间等服务。</p>
+<p><a href="http://itunes.apple.com/us/app/twitter/id333903271?mt=8">Twitter</a><br>
+可以说是 iPod 平台最强 twitter 客户端，是原来的<br>
+<a href="http://itunes.apple.com/us/app/tweetie-2/id333903271?mt=8">Tweetie</a> 被<br>
+Twitter 官方收购之后推出的免费版本。</p>
+<p><a href="http://itunes.apple.com/app/im/id285688934?mt=8">IM+</a><br>
+集成多种通讯协议的工具，最大的好处是——可以直接上 Twitter。</p>
+<p><strong>网络同步：</strong></p>
+<p><a href="http://itunes.apple.com/us/app/dropbox/id327630330?mt=8">Dropbox</a><br>
+<a href="http://itunes.apple.com/us/app/sugarsync/id288491637?mt=8">SugarSync</a><br>
+分别用于同步 Dropbox 和 SugarSync 的文件。其中 Dropbox 已经被墙。</p>
+<p><strong>游戏：</strong></p>
+<p><a href="http://itunes.apple.com/app/rogue/id298113808?mt=8">Rogue</a><br>
+<a href="http://itunes.apple.com/app/inethack/id324299096?mt=8">iNetHack</a><br>
+如果你喜欢 Rogue 和 NetHack<br>
+这类画面简单、历史悠久的地牢探险游戏的话，那么这两款可以算是 iPod<br>
+上最耐玩的免费游戏了。</p>
+<p>如果觉得 Rogue 的操作不容易上手，可以尝试收费的 <a href="http://itunes.apple.com/us/app/rogue-touch/id303471870?mt=8">Rogue<br>
+Touch</a> 以及<br>
+<a href="http://itunes.apple.com/us/app/cavern/id346653564?mt=8">Cavern</a>。</p>
+<p><a href="http://itunes.apple.com/us/app/line-up-2/id358366941?mt=8">Line Up 2</a><br>
+点击消除类游戏。</p>
+<p><a href="http://itunes.apple.com/us/app/virus-laboratory-lite/id348123911?mt=8">Virus Laboratory<br>
+Lite</a><br>
+点击消除类游戏。</p>
+<p><a href="http://itunes.apple.com/us/app/lock-n-roll/id300364571?mt=8">Lock &rsquo;n&rsquo;<br>
+Roll</a><br>
+规则比较特殊的消除类游戏，将随机出现的骰子放在4×4的盘面上，凑成特定的组合就可以消除掉和得到高分，直到盘面被占满，相当费脑力和考验人品。</p>
+<p><a href="http://itunes.apple.com/us/app/tap-tap-revenge-3/id326916014?mt=8">Tap Tap Revenge<br>
+3</a><br>
+音乐动作类游戏，可以上网下载一些免费音乐用于游戏。不能够指望音乐有多好听就是了，反正大多数歌曲不合我的口味。</p>
+<p><a href="http://itunes.apple.com/us/app/ibomber/id316774112?mt=8">iBomber</a><br>
+模拟飞行投弹，娱乐性不错，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/seed-1-rise-of-darkness/id337876055?mt=8">SEED</a><br>
+RPG 游戏，免费已经很久了。</p>
+<p><a href="http://itunes.apple.com/us/app/last-front-europe/id352978106?mt=8">Last Front:<br>
+Europe</a><br>
+塔防类游戏，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/adventure-zones/id335734747?mt=8">Adventure<br>
+Zones</a><br>
+主题是寻宝的回合制游戏，通过移动地图的行列来改变位置，在迷宫中找到宝藏的同时还要陷害对手，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/piyo-blocks/id331306853?mt=8">Piyo<br>
+Blocks</a><br>
+宝石消除类游戏，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/linklines/id328707810?mt=8">Link Lines</a><br>
+连线消除类游戏，移动5个同色的小球组成一排就能够消除，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/five-in-line/id369351893?mt=8">Five In<br>
+Line</a><br>
+与 <a href="http://itunes.apple.com/us/app/linklines/id328707810?mt=8">Link<br>
+Lines</a><br>
+差不多，不过小球换成了小方块，而且一直是免费的。</p>
+<p><a href="http://itunes.apple.com/us/app/hex-territory-free/id352517541?mt=8">Hex Territory<br>
+Free</a><br>
+六边形格子的类黑白棋翻转游戏，不同的是放下的棋子会让周围6格的其他棋子都变色，而且必须在己方已有棋子的格子附近活动。</p>
+<p><strong>其他实用工具：</strong></p>
+<p><a href="http://itunes.apple.com/us/app/promodoro/id359028017?mt=8">Promodoro</a><br>
+有一种工作方法是将工作任务划分为25+5分钟的时间段，25分钟集中精力工作，5分钟休息。一段时间之后回头评估工作时间的效率情况，进行改进。<br>
+Promodoro 就是用于这种工作方法的应用，功能比较简单，曾经免费。</p>
+<p><a href="http://itunes.apple.com/us/app/lockbox/id285681310?mt=8">LockBox</a><br>
+用于保存帐号密码、私密信息的工具。</p>
+<p><a href="http://itunes.apple.com/us/app/question-of-the-day/id308140693?mt=8">Question Of The<br>
+Day</a><br>
+随机抽出一个问题给自己来回答，通常是有哲理有内涵的问题，可以用来抽空反思一下。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

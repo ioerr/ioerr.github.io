@@ -1,40 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>官僚体制 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%AE%98%E5%83%9A%E4%BD%93%E5%88%B6/</link>
     <description>Recent content in 官僚体制 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%AE%98%E5%83%9A%E4%BD%93%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>数据党的绩效指标</title>
-        <link>https://ioerr.github.io/posts/shujudang-de-jixiao-zhibiao/</link>
-        <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shujudang-de-jixiao-zhibiao/</guid>
-        <description>&lt;p&gt;经常混足球论坛的网友应该知道，有一类足球迷叫“数据党”，因为他们评价一位球员的水平可以抛开场上表现不谈，全看 Excel 表中列出来的统计数据，以及赛后的机器自动打分。&lt;/p&gt;
-
-&lt;p&gt;比如兰帕德可以是最强的中场，因为他的进球在中场球员中最多；&lt;br /&gt;
-克洛泽可以是最强前锋，因为他在世界杯上进球最多；&lt;br /&gt;
-齐达内助攻数据不突出，作为组织中场、前腰的水平应该不怎么样，远远被高估；&lt;br /&gt;
-德罗巴寥寥几个赛季进球上双，不是一流前锋；&lt;br /&gt;
-还可以将各个维度的数据综合起来作比较，比如除了进球助攻，还有射门转换率、期望进球/失球数、进球帽子戏法次数、首开纪录和领先后进球次数、过人次数和连过数人次数、被过次数、传威胁球次数、创造机会次数、直塞球次数、传球成功率、射中门框内次数、被犯规次数、接球次数、直接任意球进球数、禁区内/外接球后进球数、进球间隔时间、球权丢失次数、被抢断次数、被侵犯次数、对抗和争顶成功率、持球时间、跑动距离、金球奖票数，转会身价和工资，以及淘汰赛上的数据，对传统强队的数据，纯头球的数据，去掉点球的数据，落后时的数据，运动战数据，阵地战数据，去掉友谊赛数据，决赛胜率，等等，可以列出一大堆做比较时用到的数据指标。&lt;/p&gt;
-
-&lt;p&gt;然而，尽管数据分析在现代足球运动中越来越重要，还远没有仅凭数据就能判断一名球员的水平的地步，特别是有的球迷一股脑将许多根本没有参考价值的数据也列入考虑，反而会误导那些不看球或看不懂球的球迷。&lt;/p&gt;
-
-&lt;p&gt;最近在读戈登·塔洛克的《官僚体制的政治》。忽然想到，官僚体制中，上级领导在无法亲自监督下属工作时，试图制定绝对准确的绩效指标来评价工作结果、核算成本与价值，像极了这种认为用数据指标就能完全取代场上表现、不看球只看数据的数据党，追求绝对科学客观的数据指标，只会用 Excel 表格评价球星的水平。&lt;br /&gt;
-数据党好歹只是在关键指标之外不断创造、收集、取舍数据指标，最终还是得由球队专业人士根据实打实的成绩来评价球员水平；而官僚体制中的领导可能在专业水平上还不如下属，可能废除掉本来管用的指标，转头去追求不能真实反映成绩的指标。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%AE%98%E5%83%9A%E4%BD%93%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据党的绩效指标</title>
+      <link>https://ioerr.github.io/posts/shujudang-de-jixiao-zhibiao/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shujudang-de-jixiao-zhibiao/</guid>
+      <description>经常混足球论坛的网友应该知道，有一类足球迷叫“数据党”，因为他们评价一位球员的水平可以抛开场上表现不谈，全看 Excel 表中列出来的统计数据，以及赛后</description>
+      <content:encoded><![CDATA[<p>经常混足球论坛的网友应该知道，有一类足球迷叫“数据党”，因为他们评价一位球员的水平可以抛开场上表现不谈，全看 Excel 表中列出来的统计数据，以及赛后的机器自动打分。</p>
+<p>比如兰帕德可以是最强的中场，因为他的进球在中场球员中最多；<br>
+克洛泽可以是最强前锋，因为他在世界杯上进球最多；<br>
+齐达内助攻数据不突出，作为组织中场、前腰的水平应该不怎么样，远远被高估；<br>
+德罗巴寥寥几个赛季进球上双，不是一流前锋；<br>
+还可以将各个维度的数据综合起来作比较，比如除了进球助攻，还有射门转换率、期望进球/失球数、进球帽子戏法次数、首开纪录和领先后进球次数、过人次数和连过数人次数、被过次数、传威胁球次数、创造机会次数、直塞球次数、传球成功率、射中门框内次数、被犯规次数、接球次数、直接任意球进球数、禁区内/外接球后进球数、进球间隔时间、球权丢失次数、被抢断次数、被侵犯次数、对抗和争顶成功率、持球时间、跑动距离、金球奖票数，转会身价和工资，以及淘汰赛上的数据，对传统强队的数据，纯头球的数据，去掉点球的数据，落后时的数据，运动战数据，阵地战数据，去掉友谊赛数据，决赛胜率，等等，可以列出一大堆做比较时用到的数据指标。</p>
+<p>然而，尽管数据分析在现代足球运动中越来越重要，还远没有仅凭数据就能判断一名球员的水平的地步，特别是有的球迷一股脑将许多根本没有参考价值的数据也列入考虑，反而会误导那些不看球或看不懂球的球迷。</p>
+<p>最近在读戈登·塔洛克的《官僚体制的政治》。忽然想到，官僚体制中，上级领导在无法亲自监督下属工作时，试图制定绝对准确的绩效指标来评价工作结果、核算成本与价值，像极了这种认为用数据指标就能完全取代场上表现、不看球只看数据的数据党，追求绝对科学客观的数据指标，只会用 Excel 表格评价球星的水平。<br>
+数据党好歹只是在关键指标之外不断创造、收集、取舍数据指标，最终还是得由球队专业人士根据实打实的成绩来评价球员水平；而官僚体制中的领导可能在专业水平上还不如下属，可能废除掉本来管用的指标，转头去追求不能真实反映成绩的指标。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

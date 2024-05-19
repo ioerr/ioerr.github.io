@@ -1,33 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>林彪 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%9E%97%E5%BD%AA/</link>
     <description>Recent content in 林彪 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 16 Oct 2007 14:33:49 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%9E%97%E5%BD%AA/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>三只鸡</title>
-        <link>https://ioerr.github.io/posts/sanzhiji/</link>
-        <pubDate>Tue, 16 Oct 2007 14:33:49 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/sanzhiji/</guid>
-        <description>&lt;p&gt;今天看了这篇《&lt;a href=&#34;http://sonicbbs.eastday.com/topicdisplay_safe.asp?TopicID=2140699&amp;amp;Page=2&amp;amp;BoardID=4&#34;&gt;苏联人的暗房技术&lt;/a&gt;》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。&lt;br /&gt;
-比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。&lt;br /&gt;
-过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。&lt;/p&gt;
-
-&lt;p&gt;还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%9E%97%E5%BD%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三只鸡</title>
+      <link>https://ioerr.github.io/posts/sanzhiji/</link>
+      <pubDate>Tue, 16 Oct 2007 14:33:49 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/sanzhiji/</guid>
+      <description>今天看了这篇《苏联人的暗房技术》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。 比如农</description>
+      <content:encoded><![CDATA[<p>今天看了这篇《<a href="http://sonicbbs.eastday.com/topicdisplay_safe.asp?TopicID=2140699&amp;Page=2&amp;BoardID=4">苏联人的暗房技术</a>》后，在吃饭的时候和我妈提到叶若夫忽然失势的事情，她则回忆了一下当年林彪外逃坠机之后，下放的农村的情况。<br>
+比如农民开始拿起了梭镖站岗放哨，平常一些可以去的地方都不准进去了，气氛紧张，感觉就像是要准备打大战一样，不过等到证实林彪已死，消息倒是很快就传下来了，说“林彪篡党夺权阴谋败露后，劫持三叉戟仓皇逃窜，坠机身亡”，他们当时也不知道“三叉戟”是什么飞机，还以为是很先进的战斗机。<br>
+过不多久，气氛缓和之后，竟然还有笑话出来了，当时和知青一起的农民在干活的时候不时谈论这件事，说，林彪已经是第二大的领导人了，为什么还要害毛主席，又说林彪这个侧（贼）拐子，偷了毛主席三只鸡（三叉戟），从后窗户逃了（仓皇逃窜）。</p>
+<p>还回忆时常会有夜间游行，如中共九大的时候，就是整个队上晚上出门，领头的走在前面拿着话筒喊口号，后面的诸位知青、农民在说笑打闹之余跟着喊喊。有时候会沿着田埂一直走到另外一个队，于是跑到熟人家里坐着聊天、烤火、喝芝麻茶，再走回来。别看悠哉游哉地挺好玩，夜间游行还有工分呢，一天总共10分工分，夜游就有0.2分，小孩子也积极响应。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

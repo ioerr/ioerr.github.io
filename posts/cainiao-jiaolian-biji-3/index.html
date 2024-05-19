@@ -1,132 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="auto">
 
-
-  <title>菜鸟教练笔记 \#3 @ 读写错误</title>
-
-<meta name="author" content="Calon">
-<meta name="description" content="Don&#39;t Panic">
-
-<meta name="generator" content="Hugo 0.34" />
-
-
-<link rel="stylesheet" href='/assets/css/main.683ef31ea1a4.css'>
-<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>菜鸟教练笔记 \#3 @ 读写错误</title>
+<meta name="keywords" content="">
+<meta name="description" content="Racing Club de Paris #3 由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pép">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/">
 
 
 
-<link rel="alternate icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" integrity="sha512-A2sVEqmNCGCac7ji4czWLqCVSn28L0U5lSobS173H+gk+QTV6rH0EH0QEnYk5mz3KPRDmEr+GKM1hfdfLrsFpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.94e852be752cf08403918d4836786a74a700e1f9d60cd237ec13a8a522af7823.css" integrity="sha256-lOhSvnUs8IQDkY1INnhqdKcA4fnWDNI37BOopSKveCM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ksxrty3n61");
-</script>
-
-
-<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="读写错误" />
-<link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="读写错误" />
-
-<meta property="og:title" content="菜鸟教练笔记 \#3" />
-<meta property="og:description" content="Racing Club de Paris #3
-由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière 球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。
-能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers 的球迷显然错过了一场惊心动魄的大战。
-开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti 连过对方两人，先拔头筹。
-之后凭借 Ronald Thomas 的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫 Sébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles Bertrand 配合扳平比分。
-Frédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用 Malfleury、Soulas 替换 Bertrand 与 Léonetti，希望抓紧剩下的10多分钟重新夺回领先优势。
-孰料对手在1分钟后将比分反超！Savidan 利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…
-这时，Bouabdellah 挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的 Poitiers 改变守势，又倾巢而出。
-此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由 Bouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员 Moine 傻站着没有一点反应，呆若木鸡。
-3:2，最后阶段的反超。
-比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。
-Bouabdellah 本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。
-两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。
-Passing、Teamwork 都不及格的 Vasseur 完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？
-后防线上 Dicanot 表现不错，Djeme 的边路助攻也是亮点，但后者的防守功力有待提高。
-Lalisse 的表现比较差劲，而他的替补 Izquierdo 虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury 的替补表演也可圈可点。
-大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/" />
-
-
-
-<meta property="article:published_time" content="2005-07-18T15:50:34&#43;00:00"/>
-
-<meta property="article:modified_time" content="2005-07-18T15:50:34&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="菜鸟教练笔记 \#3">
-<meta itemprop="description" content="Racing Club de Paris #3
-由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière 球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。
-能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers 的球迷显然错过了一场惊心动魄的大战。
-开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti 连过对方两人，先拔头筹。
-之后凭借 Ronald Thomas 的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫 Sébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles Bertrand 配合扳平比分。
-Frédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用 Malfleury、Soulas 替换 Bertrand 与 Léonetti，希望抓紧剩下的10多分钟重新夺回领先优势。
-孰料对手在1分钟后将比分反超！Savidan 利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…
-这时，Bouabdellah 挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的 Poitiers 改变守势，又倾巢而出。
-此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由 Bouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员 Moine 傻站着没有一点反应，呆若木鸡。
-3:2，最后阶段的反超。
-比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。
-Bouabdellah 本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。
-两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。
-Passing、Teamwork 都不及格的 Vasseur 完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？
-后防线上 Dicanot 表现不错，Djeme 的边路助攻也是亮点，但后者的防守功力有待提高。
-Lalisse 的表现比较差劲，而他的替补 Izquierdo 虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury 的替补表演也可圈可点。
-大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…">
-
-
-<meta itemprop="datePublished" content="2005-07-18T15:50:34&#43;00:00" />
-<meta itemprop="dateModified" content="2005-07-18T15:50:34&#43;00:00" />
-<meta itemprop="wordCount" content="73">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="菜鸟教练笔记 \#3"/>
-<meta name="twitter:description" content="Racing Club de Paris #3
-由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière 球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。
-能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers 的球迷显然错过了一场惊心动魄的大战。
-开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti 连过对方两人，先拔头筹。
-之后凭借 Ronald Thomas 的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫 Sébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles Bertrand 配合扳平比分。
-Frédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用 Malfleury、Soulas 替换 Bertrand 与 Léonetti，希望抓紧剩下的10多分钟重新夺回领先优势。
-孰料对手在1分钟后将比分反超！Savidan 利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…
-这时，Bouabdellah 挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的 Poitiers 改变守势，又倾巢而出。
-此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由 Bouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员 Moine 傻站着没有一点反应，呆若木鸡。
-3:2，最后阶段的反超。
-比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。
-Bouabdellah 本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。
-两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。
-Passing、Teamwork 都不及格的 Vasseur 完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？
-后防线上 Dicanot 表现不错，Djeme 的边路助攻也是亮点，但后者的防守功力有待提高。
-Lalisse 的表现比较差劲，而他的替补 Izquierdo 虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury 的替补表演也可圈可点。
-大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…"/>
-
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
@@ -137,168 +49,223 @@ Lalisse 的表现比较差劲，而他的替补 Izquierdo 虽然在第57分钟�
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  </head>
-  <body>
-    <nav>
   
-  
-  
-  
-  
-  
-  
-  <div class="nav">
+
+<meta property="og:title" content="菜鸟教练笔记 \#3" />
+<meta property="og:description" content="Racing Club de Paris #3 由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pép" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-07-18T15:50:34+00:00" />
+<meta property="article:modified_time" content="2005-07-18T15:50:34+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="菜鸟教练笔记 \#3"/>
+<meta name="twitter:description" content="Racing Club de Paris #3 由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pép"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "菜鸟教练笔记 \\#3",
+      "item": "https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "菜鸟教练笔记 \\#3",
+  "name": "菜鸟教练笔记 \\#3",
+  "description": "Racing Club de Paris #3 由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了 Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pép",
+  "keywords": [
     
-      <a href="/" title="Homepage">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z" fill="rgba(228,0,0,1)"></path></svg>
-      </a>
+  ],
+  "articleBody": "Racing Club de Paris #3\n由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了\nFrédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière\n球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。\n能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers\n的球迷显然错过了一场惊心动魄的大战。\n开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti\n连过对方两人，先拔头筹。\n之后凭借 Ronald Thomas\n的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫\nSébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles\nBertrand 配合扳平比分。\nFrédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用\nMalfleury、Soulas 替换 Bertrand 与\nLéonetti，希望抓紧剩下的10多分钟重新夺回领先优势。\n孰料对手在1分钟后将比分反超！Savidan\n利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…\n这时，Bouabdellah\n挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的\nPoitiers 改变守势，又倾巢而出。\n此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由\nBouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员\nMoine 傻站着没有一点反应，呆若木鸡。\n3:2，最后阶段的反超。\n比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。\nBouabdellah\n本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。\n两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。\nPassing、Teamwork 都不及格的 Vasseur\n完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？\n后防线上 Dicanot 表现不错，Djeme\n的边路助攻也是亮点，但后者的防守功力有待提高。\nLalisse 的表现比较差劲，而他的替补 Izquierdo\n虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury\n的替补表演也可圈可点。\n大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…\n再看看所攻进的3球：两个是连过数人的杰作，但是这是与半业余队的作风文明的热身赛，不能够说明太多问题，最后1个球的配合很精妙，是在两个边路大范围长传球调动之后边路传中塞入禁区得手的，这才是我想要的效果。而两个失球都与后卫盯人不够成功有关，特别是第2个失球，完全是\nDjeme\n头球争顶失败造成的，所以边路防守空虚，中后卫盯人不紧防守头球的能力有欠缺，是值得关注的重大问题。\n",
+  "wordCount" : "1164",
+  "inLanguage": "en",
+  "datePublished": "2005-07-18T15:50:34Z",
+  "dateModified": "2005-07-18T15:50:34Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/cainiao-jiaolian-biji-3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
     
-    <a href="https://cse.google.com/cse/publicurl?hl=en&amp;cx=013545684430412542782:jly1vjjeizg" onclick="window.open(this.href); return false;"  title="Search">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="mailto:calon.xu@gmail.com" onclick="window.open(this.href); return false;" title="Mail">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-3%2f&text= @calon&tw_p=tweetbutton" onclick="window.open(this.href); return false;" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.3499 5.55005C13.7681 5.55005 12.4786 6.81809 12.4504 8.39658L12.4223 9.97162C12.4164 10.3029 12.143 10.5667 11.8117 10.5608C11.7881 10.5604 11.7646 10.5586 11.7413 10.5554L10.1805 10.3426C8.12699 10.0625 6.15883 9.11736 4.27072 7.54411C3.67275 10.8538 4.84 13.1472 7.65342 14.916L9.40041 16.0142C9.68095 16.1906 9.7654 16.561 9.58903 16.8415C9.54861 16.9058 9.49636 16.9619 9.43504 17.0067L7.84338 18.1696C8.78973 18.229 9.68938 18.1875 10.435 18.0387C15.1526 17.0973 18.2897 13.547 18.2897 7.69109C18.2897 7.213 17.2774 5.55005 15.3499 5.55005ZM10.4507 8.3609C10.4983 5.69584 12.6735 3.55005 15.3499 3.55005C16.7132 3.55005 17.9465 4.10683 18.8348 5.0054C19.5462 5.00005 20.1514 5.17991 21.5035 4.35967C21.1693 6.00005 21.0034 6.71201 20.2897 7.69109C20.2897 15.3326 15.5926 19.0489 10.8264 20C7.5587 20.6522 2.80646 19.5815 1.44531 18.1587C2.13874 18.1054 4.95928 17.802 6.58895 16.6092C5.20994 15.6987 -0.278631 12.4681 3.32772 3.78642C5.02119 5.76307 6.73797 7.10855 8.47807 7.82286C9.63548 8.29798 9.91978 8.2885 10.4507 8.3609Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.instagram.com/calonxu" onclick="window.open(this.href); return false;" title="Instagram">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://www.youtube.com/@calon" onclick="window.open(this.href); return false;" title="Youtube">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.6069 6.99482C19.5307 6.69695 19.3152 6.47221 19.0684 6.40288C18.6299 6.28062 16.501 6 12.001 6C7.50098 6 5.37252 6.28073 4.93225 6.40323C4.68776 6.47123 4.4723 6.69593 4.3951 6.99482C4.2863 7.41923 4.00098 9.19595 4.00098 12C4.00098 14.804 4.2863 16.5808 4.3954 17.0064C4.47126 17.3031 4.68676 17.5278 4.93251 17.5968C5.37252 17.7193 7.50098 18 12.001 18C16.501 18 18.6299 17.7194 19.0697 17.5968C19.3142 17.5288 19.5297 17.3041 19.6069 17.0052C19.7157 16.5808 20.001 14.8 20.001 12C20.001 9.2 19.7157 7.41923 19.6069 6.99482ZM21.5442 6.49818C22.001 8.28 22.001 12 22.001 12C22.001 12 22.001 15.72 21.5442 17.5018C21.2897 18.4873 20.547 19.2618 19.6056 19.5236C17.8971 20 12.001 20 12.001 20C12.001 20 6.10837 20 4.39637 19.5236C3.45146 19.2582 2.70879 18.4836 2.45774 17.5018C2.00098 15.72 2.00098 12 2.00098 12C2.00098 12 2.00098 8.28 2.45774 6.49818C2.71227 5.51273 3.45495 4.73818 4.39637 4.47636C6.10837 4 12.001 4 12.001 4C12.001 4 17.8971 4 19.6056 4.47636C20.5505 4.74182 21.2932 5.51636 21.5442 6.49818ZM10.001 15.5V8.5L16.001 12L10.001 15.5Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="https://github.com/ioerr/ioerr.github.io/issues/new" onclick="window.open(this.href); return false;" title="Github Issue">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="currentColor"></path></svg>
-    </a>
-    <a href="/index.xml" title="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill="rgba(242,101,34,1)"></path></svg>
-    </a>
+    <h1 class="post-title entry-hint-parent">
+      菜鸟教练笔记 \#3
+    </h1>
+    <div class="post-meta"><span title='2005-07-18 15:50:34 +0000 +0000'>2005-7-18</span>&nbsp;·&nbsp;calon
+
+</div>
+  </header> 
+
+  <div class="post-content"><p><strong>Racing Club de Paris</strong> #3</p>
+<p>由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了<br>
+Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière<br>
+球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。</p>
+<p>能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers<br>
+的球迷显然错过了一场惊心动魄的大战。<br>
+开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti<br>
+连过对方两人，先拔头筹。<br>
+之后凭借 Ronald Thomas<br>
+的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫<br>
+Sébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles<br>
+Bertrand 配合扳平比分。</p>
+<p>Frédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用<br>
+Malfleury、Soulas 替换 Bertrand 与<br>
+Léonetti，希望抓紧剩下的10多分钟重新夺回领先优势。<br>
+孰料对手在1分钟后将比分反超！Savidan<br>
+利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…<br>
+这时，Bouabdellah<br>
+挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的<br>
+Poitiers 改变守势，又倾巢而出。</p>
+<p>此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由<br>
+Bouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员<br>
+Moine 傻站着没有一点反应，呆若木鸡。</p>
+<p>3:2，最后阶段的反超。</p>
+<p>比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。</p>
+<p>Bouabdellah<br>
+本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。<br>
+两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。</p>
+<p>Passing、Teamwork 都不及格的 Vasseur<br>
+完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？<br>
+后防线上 Dicanot 表现不错，Djeme<br>
+的边路助攻也是亮点，但后者的防守功力有待提高。</p>
+<p>Lalisse 的表现比较差劲，而他的替补 Izquierdo<br>
+虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury<br>
+的替补表演也可圈可点。</p>
+<p>大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…<br>
+再看看所攻进的3球：两个是连过数人的杰作，但是这是与半业余队的作风文明的热身赛，不能够说明太多问题，最后1个球的配合很精妙，是在两个边路大范围长传球调动之后边路传中塞入禁区得手的，这才是我想要的效果。而两个失球都与后卫盯人不够成功有关，特别是第2个失球，完全是<br>
+Djeme<br>
+头球争顶失败造成的，所以边路防守空虚，中后卫盯人不紧防守头球的能力有欠缺，是值得关注的重大问题。</p>
+
+
   </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+        
+          <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
+        
+      
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ioerr.github.io/posts/cainiao-jiaolian-biji-4-2/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>菜鸟教练笔记 \#4</span>
+  </a>
+  <a class="next" href="https://ioerr.github.io/posts/another-random-quote/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Another Random Quote</span>
+  </a>
 </nav>
 
-    <main>
-      
-  <article>
-    <header>
-      <p>
-        <time datetime="2005-07-18 03:50">2005-07-18</time> &bull;
-          
-            
-            <a href="/categories/%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90">互动娱乐</a>
-          </p>
-      <h1>菜鸟教练笔记 \#3</h1>
-      <p>
-        
-      </p>
-    </header>
-    <section><p><strong>Racing Club de Paris</strong> #3</p>
-
-<p>由于对人员配置、惯用战术的情况还不熟悉，我暂时将比赛指挥权全部交给了
-Frédéric，于是18日的友谊赛来临时，我混在 Poitiers 的 La Pépinière
-球场的825名球迷当中，用笔记本仔细记下各个上场球员的表现。</p>
-
-<p>能够容纳12000名观众的La Pépinière 球场空空荡荡，Poitiers
-的球迷显然错过了一场惊心动魄的大战。<br />
-开赛仅10分钟，被我描述为“怎么看都不像中场选手”的 Léonetti
-连过对方两人，先拔头筹。<br />
-之后凭借 Ronald Thomas
-的正常发挥，我们守住了球门，直至半场休息。但在70分钟时，对方在右路发动强攻，利用本方左后卫
-Sébastien Bertrand 的防守漏洞，通过一个简练直接的传中，由 Charles
-Bertrand 配合扳平比分。</p>
-
-<p>Frédéric 立刻决定换上 Poisson、Stephan，换下 Lachaab、Soler。7分钟后又用
-Malfleury、Soulas 替换 Bertrand 与
-Léonetti，希望抓紧剩下的10多分钟重新夺回领先优势。<br />
-孰料对手在1分钟后将比分反超！Savidan
-利用角球机会摆脱防守头球得分！然后心满意足的对手开始收缩防守，意图将这个比分保持到终场…<br />
-这时，Bouabdellah
-挺身而出，又是一个连过两人漂亮地射门得分，这样，两队又回到同一起跑线上，而心有不甘的
-Poitiers 改变守势，又倾巢而出。</p>
-
-<p>此后的十余分钟一片平静，直到最后一分钟，Lagnaoui 发动了一次进攻，由
-Bouabdellah 传入禁区后，Lagnaoui 自己踢出了终结的一脚球－－对方守门员
-Moine 傻站着没有一点反应，呆若木鸡。</p>
-
-<p>3:2，最后阶段的反超。</p>
-
-<p>比赛一结束，我便返回俱乐部好好分析得失，毕竟热身赛的结果并不重要。</p>
-
-<p>Bouabdellah
-本场比赛一个进球，一次助攻，评分为9分，当选本场最佳球员，而且射门的次数仅次于首发的两名前锋，抢断与过人都是3次。<br />
-两名主力前锋的头球还不错，但全队的头球争顶很吃亏。后卫的抢断次数与对方相比也处于明显的下风。</p>
-
-<p>Passing、Teamwork 都不及格的 Vasseur
-完成的传球次数竟然是全队最高，而且成功率颇高，真是出乎意料之外，但是否是只会捏软柿子呢？<br />
-后防线上 Dicanot 表现不错，Djeme
-的边路助攻也是亮点，但后者的防守功力有待提高。</p>
-
-<p>Lalisse 的表现比较差劲，而他的替补 Izquierdo
-虽然在第57分钟才上场，却在统计数据上胜过他。Malfleury
-的替补表演也可圈可点。</p>
-
-<p>大致的印象是，本队防守能力一般，尤其是两个边路，容易成为对方突破的重点。相应的，边路的进攻又是我们的特长…<br />
-再看看所攻进的3球：两个是连过数人的杰作，但是这是与半业余队的作风文明的热身赛，不能够说明太多问题，最后1个球的配合很精妙，是在两个边路大范围长传球调动之后边路传中塞入禁区得手的，这才是我想要的效果。而两个失球都与后卫盯人不够成功有关，特别是第2个失球，完全是
-Djeme
-头球争顶失败造成的，所以边路防守空虚，中后卫盯人不紧防守头球的能力有欠缺，是值得关注的重大问题。</p>
-</section>
-    <footer>
-      <div>
-          <a href="mailto:calon.xu@gmail.com?subject=评论《%e8%8f%9c%e9%b8%9f%e6%95%99%e7%bb%83%e7%ac%94%e8%ae%b0%20%5c%233》&body=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-3%2f" onclick="window.open(this.href); return false;">邮件讨论</a>
-          &#47;
-          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fioerr.github.io%2fposts%2fcainiao-jiaolian-biji-3%2f&text= @calon %e8%8f%9c%e9%b8%9f%e6%95%99%e7%bb%83%e7%ac%94%e8%ae%b0%20%5c%233&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
-          
-          
-      </div>
-      <hr/>
-      <div>
-          <script src="https://giscus.app/client.js"
-              data-repo="ioerr/ioerr.github.io"
-              data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
-              data-category="General"
-              data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
-              data-mapping="pathname"
-              data-strict="1"
-              data-reactions-enabled="0"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light_protanopia"
-              data-lang="zh-CN"
-              data-loading="lazy"
-              crossorigin="anonymous"
-              async>
-          </script>
-      </div>
-      
-    </footer>
-  </article>
-
+  </footer><script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</article>
     </main>
-    <footer>
-  <div class="powered-by">
-    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
-  </div>
-  <div class="copyright">
-    &copy; 2024 Calon.
-  </div>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        quicklink.listen();
-      });
-    </script>
-    <script src="/assets/js/main.28b0c18ba028.js"></script>
-    
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-113168340-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
-    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
       <script type="text/javascript">
       var sc_project=12868824; 
       var sc_invisible=1; 
@@ -317,5 +284,49 @@ ga('send', 'pageview');
     
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
-  </body>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
 </html>

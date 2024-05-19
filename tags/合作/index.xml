@@ -1,89 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>合作 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%90%88%E4%BD%9C/</link>
     <description>Recent content in 合作 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%90%88%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>制度演化的体系</title>
-        <link>https://ioerr.github.io/posts/zhidu-yanhua-de-tixi/</link>
-        <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/zhidu-yanhua-de-tixi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/622500821/&#34;&gt;有人提问：让你设计一套让人类繁荣强大的制度你会怎么设计？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在我看来，需要的不是一个现成的或尽静态的完美制度，而是能够不断自我演进不断优化制度的体系。&lt;/p&gt;
-
-&lt;p&gt;首先要承认人类这种生物，既有个人意识，也有集体意识，并且个人意识优先于集体。否则如果是像蚂蚁、蜜蜂那样的真社会性动物，或者像老虎那样一山不容二虎，不需要社会分工合作，下面的体系就是白搭。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;个人价值判断：承认个人是对利益和价值进行判断并承担责任的最小单元&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;多元合作：允许各种思想存在、相互交流和创新试错，允许个人根据思想或其他条件建立多种形式和规模的相互合作组织，而不是只限定唯一一种，或不允许合作&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;正向激励：保护创新成果，创新的收益能够激励创新者继续创新，或带来示范效应&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;反向保护：个人和组织承担自己创新的主要责任后果，而不能无成本、低成本将试错成本转嫁给其他个人和组织，创新带来的外部附加影响需要有补偿机制，确保创新试错的损失成本可控&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;紧急响应：允许在外部威胁危及整个社会时，临时进入紧急状态调动一切资源进行战争、迁徙或其他求生的活动，但必须要有退出机制，不能无限期不计成本大量消耗资源地总动员&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;没了。&lt;/p&gt;
-
-&lt;p&gt;现实当中设计的制度越接近上述这些要求，就越容易进入一个不断优化的循环，社会繁荣强大的可能性越高。&lt;/p&gt;
-
-&lt;p&gt;但如果环境变化的剧烈程度超过人类社会的应对能力上限，也是白搭，比如小行星过早撞地球，黑洞、超新星爆发、气候极端寒冷或炎热，等等。&lt;/p&gt;
-
-&lt;p&gt;这就要看运气了，人类社会的时代未必比恐龙时代长久。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>宣传无法解决信任问题</title>
-        <link>https://ioerr.github.io/posts/xuanchuan-wufa-jiejue-xinren-wenti/</link>
-        <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/xuanchuan-wufa-jiejue-xinren-wenti/</guid>
-        <description>&lt;p&gt;相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。&lt;br /&gt;
-只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。&lt;/p&gt;
-
-&lt;p&gt;宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。&lt;/p&gt;
-
-&lt;p&gt;确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。&lt;br /&gt;
-即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。&lt;br /&gt;
-迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。&lt;/p&gt;
-
-&lt;p&gt;将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。&lt;br /&gt;
-Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。&lt;/p&gt;
-
-&lt;p&gt;名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。&lt;/p&gt;
-
-&lt;p&gt;另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。&lt;br /&gt;
-若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。&lt;br /&gt;
-是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？&lt;br /&gt;
-如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？&lt;/p&gt;
-
-&lt;p&gt;3月18日更新：&lt;/p&gt;
-
-&lt;p&gt;说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？&lt;br /&gt;
-须知要挽回对信用的破坏，不是一朝一夕的事情。&lt;br /&gt;
-改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。&lt;/p&gt;
-
-&lt;p&gt;将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%90%88%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>制度演化的体系</title>
+      <link>https://ioerr.github.io/posts/zhidu-yanhua-de-tixi/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zhidu-yanhua-de-tixi/</guid>
+      <description>有人提问：让你设计一套让人类繁荣强大的制度你会怎么设计？ 在我看来，需要的不是一个现成的或尽静态的完美制度，而是能够不断自我演进不断优化制度的</description>
+      <content:encoded><![CDATA[<p><a href="https://www.zhihu.com/question/622500821/">有人提问：让你设计一套让人类繁荣强大的制度你会怎么设计？</a></p>
+<p>在我看来，需要的不是一个现成的或尽静态的完美制度，而是能够不断自我演进不断优化制度的体系。</p>
+<p>首先要承认人类这种生物，既有个人意识，也有集体意识，并且个人意识优先于集体。否则如果是像蚂蚁、蜜蜂那样的真社会性动物，或者像老虎那样一山不容二虎，不需要社会分工合作，下面的体系就是白搭。</p>
+<ul>
+<li>个人价值判断：承认个人是对利益和价值进行判断并承担责任的最小单元</li>
+<li>多元合作：允许各种思想存在、相互交流和创新试错，允许个人根据思想或其他条件建立多种形式和规模的相互合作组织，而不是只限定唯一一种，或不允许合作</li>
+<li>正向激励：保护创新成果，创新的收益能够激励创新者继续创新，或带来示范效应</li>
+<li>反向保护：个人和组织承担自己创新的主要责任后果，而不能无成本、低成本将试错成本转嫁给其他个人和组织，创新带来的外部附加影响需要有补偿机制，确保创新试错的损失成本可控</li>
+<li>紧急响应：允许在外部威胁危及整个社会时，临时进入紧急状态调动一切资源进行战争、迁徙或其他求生的活动，但必须要有退出机制，不能无限期不计成本大量消耗资源地总动员</li>
+</ul>
+<p>没了。</p>
+<p>现实当中设计的制度越接近上述这些要求，就越容易进入一个不断优化的循环，社会繁荣强大的可能性越高。</p>
+<p>但如果环境变化的剧烈程度超过人类社会的应对能力上限，也是白搭，比如小行星过早撞地球，黑洞、超新星爆发、气候极端寒冷或炎热，等等。</p>
+<p>这就要看运气了，人类社会的时代未必比恐龙时代长久。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>宣传无法解决信任问题</title>
+      <link>https://ioerr.github.io/posts/xuanchuan-wufa-jiejue-xinren-wenti/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/xuanchuan-wufa-jiejue-xinren-wenti/</guid>
+      <description>相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。 只知道埋怨别人</description>
+      <content:encoded><![CDATA[<p>相信宣传的威力无穷，可以包打天下的人，是不是无法理解，别人不相信你不是因为你的宣传能力不行，而是你伤害过别人，已经失掉了信用。<br>
+只知道埋怨别人不相信自己，反思的唯一结果就是我没别人宣传做得好。</p>
+<p>宣传总有弥补不了信任的时候，这不难理解，理解不了的人夸大了宣传的威力，将一部分成功的例子当作普遍规律。</p>
+<p>确实也有许多受害者反倒信任施害者的例子，可能是斯德哥尔摩症、不切实际的一厢情愿、天生的天真愚蠢等等。<br>
+即使表现得如此，怀疑的种子也可能深深埋藏于心底，直到信任的额度最终消耗殆尽，忽然态度大变。<br>
+迷信宣传的人却不知道为何屡试不爽的手段这次就失灵了，甚至连说真话对方也不相信了。</p>
+<p>将道德看作某种长期博弈下形成的规则共识的话，信任度就是对对方遵循这种共识的预期和认可程度。<br>
+Axelrod 的博弈程序比赛也好，群体选择等理论也好，都能从中立的立场解释信任与合作中道德的价值和来源。</p>
+<p>名言“你可以暂时欺骗所有的人，你甚至可以永远欺骗一部分人，但你不能永远欺骗所有的人”，也可以看作是在说，只要时间足够长，宣传总有掩盖扭曲不了现实感知的时候。</p>
+<p>另外，人类群体不是具有长期一致感知和记忆的共同体实体，而是靠民族、国家、党派等集体主义宣传塑造的概念。<br>
+若是看作一个整体，它可能是分裂、中断、记忆混乱和前后矛盾的，而且新兴的集体概念出现也不过数百年。<br>
+是否正因为如此，人类群体还没有条件形成稳定长期的规则共识呢？<br>
+如果稳定的时间够长，信奉集体层面丛林状态是永恒真理的人会不会少一些呢？</p>
+<p>3月18日更新：</p>
+<p>说到为过去付出代价，我想到改邪归正的人总是很委屈的说，我已经改了，为何还不相信我？<br>
+须知要挽回对信用的破坏，不是一朝一夕的事情。<br>
+改邪归正，重建信任，就要做好仍被误解一段时间的心理准备，不可半途而废。</p>
+<p>将是否相信某人看作贝叶斯定理的应用，就更能理解为什么有过历史污点的人需要重建信任的过程。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,41 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>友情链接 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
     <description>Recent content in 友情链接 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 20 Mar 2013 09:59:37 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>友情链接</title>
-        <link>https://ioerr.github.io/posts/youqing-lianjie/</link>
-        <pubDate>Wed, 20 Mar 2013 09:59:37 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/youqing-lianjie/</guid>
-        <description>&lt;p&gt;前阵子，&lt;a href=&#34;http://linlis.me/&#34;&gt;linlis&lt;/a&gt;
-友情链接页面下留言，问这里还加不加友情链接。&lt;br /&gt;
-我打开这个页面一看，才发现内容已经无法展示了，很久没有更新维护（上一次是05年8月），也不知道是哪一次升级之后就出了问题。&lt;/p&gt;
-
-&lt;p&gt;刚开始写 blog 时，blogsphere 还是个热闹的小圈子，虽然有 RSS
-这样的技术，也还是像1.0时代的网站和论坛站长一样，彼此都挂上友情链接。&lt;br /&gt;
-如今，大多数早期中文 blogger
-因为各种各样的原因，有的久不更新，有的转移阵地，有的干脆 404
-销声匿迹，翻看过去的友情链接（以及最近导出整理 Google Reader
-中的订阅），放眼望去尽是熟悉的名字和墓碑一样的标题，未免触景生情满心惆怅唏嘘不已，仿佛对着火腿感叹岁月的杀猪功力已堪比肉联厂。&lt;/p&gt;
-
-&lt;p&gt;所以，以前的友情链接就不恢复了，趁此机会整理一下近几年持续更新又值得订阅的
-blog，重新开&lt;a href=&#34;http://calon.weblogs.us/links/&#34;&gt;链接页面&lt;/a&gt;——和以前一样，只是单向链接，不要求对方回链。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>友情链接</title>
+      <link>https://ioerr.github.io/posts/youqing-lianjie/</link>
+      <pubDate>Wed, 20 Mar 2013 09:59:37 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/youqing-lianjie/</guid>
+      <description>前阵子，linlis 友情链接页面下留言，问这里还加不加友情链接。 我打开这个页面一看，才发现内容已经无法展示了，很久没有更新维护（上一次是05</description>
+      <content:encoded><![CDATA[<p>前阵子，<a href="http://linlis.me/">linlis</a><br>
+友情链接页面下留言，问这里还加不加友情链接。<br>
+我打开这个页面一看，才发现内容已经无法展示了，很久没有更新维护（上一次是05年8月），也不知道是哪一次升级之后就出了问题。</p>
+<p>刚开始写 blog 时，blogsphere 还是个热闹的小圈子，虽然有 RSS<br>
+这样的技术，也还是像1.0时代的网站和论坛站长一样，彼此都挂上友情链接。<br>
+如今，大多数早期中文 blogger<br>
+因为各种各样的原因，有的久不更新，有的转移阵地，有的干脆 404<br>
+销声匿迹，翻看过去的友情链接（以及最近导出整理 Google Reader<br>
+中的订阅），放眼望去尽是熟悉的名字和墓碑一样的标题，未免触景生情满心惆怅唏嘘不已，仿佛对着火腿感叹岁月的杀猪功力已堪比肉联厂。</p>
+<p>所以，以前的友情链接就不恢复了，趁此机会整理一下近几年持续更新又值得订阅的<br>
+blog，重新开<a href="http://calon.weblogs.us/links/">链接页面</a>——和以前一样，只是单向链接，不要求对方回链。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

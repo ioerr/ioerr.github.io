@@ -1,43 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>决策 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E5%86%B3%E7%AD%96/</link>
     <description>Recent content in 决策 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E5%86%B3%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>为什么读历史</title>
-        <link>https://ioerr.github.io/posts/weishenme-du-lishi/</link>
-        <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/weishenme-du-lishi/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/recatm/status/1505574195274600448&#34;&gt;Catmus 夹喵又&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我又想了想，为什么要读历史。&lt;/p&gt;
-
-&lt;p&gt;身处时局当中，即使是精英知识分子和政客家们也很难看清现实，正确预估五年内的局势。但历史真的是一遍遍重演的。&lt;/p&gt;
-
-&lt;p&gt;对渺小个人而言，读历史只能提供一点做命运决策时的直觉，比如1950年不要归国。或者别在柏林墙建起来前移居那个看起来更进步、平等、反纳粹的民主德国。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1505577491531923463&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;熟悉历史却既不能预言未来，又不能看清过去的人太多了，想要通过历史教训明白是非，是世界上最难的事之一。&lt;/p&gt;
-
-&lt;p&gt;能够确定的好处是，拉长看待人类自身和这个世界的时间尺度，有的事物放在更大尺度下，会改变我们的价值观。&lt;/p&gt;
-
-&lt;p&gt;这同样不能保证认知正确，只是提供多一种看待事物的观点角度。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E5%86%B3%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么读历史</title>
+      <link>https://ioerr.github.io/posts/weishenme-du-lishi/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weishenme-du-lishi/</guid>
+      <description>Catmus 夹喵又： 我又想了想，为什么要读历史。 身处时局当中，即使是精英知识分子和政客家们也很难看清现实，正确预估五年内的局势。但历史真的是一遍遍重演</description>
+      <content:encoded><![CDATA[<p><a href="https://twitter.com/recatm/status/1505574195274600448">Catmus 夹喵又</a>：</p>
+<p>我又想了想，为什么要读历史。</p>
+<p>身处时局当中，即使是精英知识分子和政客家们也很难看清现实，正确预估五年内的局势。但历史真的是一遍遍重演的。</p>
+<p>对渺小个人而言，读历史只能提供一点做命运决策时的直觉，比如1950年不要归国。或者别在柏林墙建起来前移居那个看起来更进步、平等、反纳粹的民主德国。</p>
+<p><a href="https://twitter.com/calon/status/1505577491531923463">Calon</a>：</p>
+<p>熟悉历史却既不能预言未来，又不能看清过去的人太多了，想要通过历史教训明白是非，是世界上最难的事之一。</p>
+<p>能够确定的好处是，拉长看待人类自身和这个世界的时间尺度，有的事物放在更大尺度下，会改变我们的价值观。</p>
+<p>这同样不能保证认知正确，只是提供多一种看待事物的观点角度。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

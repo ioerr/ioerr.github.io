@@ -1,51 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>法制 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%B3%95%E5%88%B6/</link>
     <description>Recent content in 法制 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%B3%95%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>所谓法制</title>
-        <link>https://ioerr.github.io/posts/suowei-fazhi/</link>
-        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/suowei-fazhi/</guid>
-        <description>&lt;p&gt;很多人口头推崇的“法制”，仔细一看其实是“法家秦制”的缩写。&lt;br /&gt;
-如果你认为法律存在的意义就是统治者治理国家的工具，那么“法治”确实就是“法家治理”的意思。&lt;/p&gt;
-
-&lt;p&gt;当然也有人真心觉得秦制挺好的，像李斯、韩非和商鞅，即使遭到铁拳的待遇，也绝不追悔莫及、上书自辩和逃亡造反。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>黄静案终审</title>
-        <link>https://ioerr.github.io/posts/huangjing-an-zhongshen/</link>
-        <pubDate>Sat, 08 Dec 2007 12:07:14 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/huangjing-an-zhongshen/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;http://news.sina.com.cn/c/l/2007-12-08/021414474238.shtml&#34;&gt;湘潭市中级人民法院作出终审裁定&lt;/a&gt;：驳回原审原告黄静的父母，及原审被告姜俊武关于民事责任方面的上诉请求，维持原判。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://calon.weblogs.us/huangjing_an_jingguo/&#34;&gt;一审原判结果&lt;/a&gt;是：1、姜俊武无罪；2、姜俊武赔偿原告57399.50元；3、驳回原告其余附带民事赔偿。&lt;/p&gt;
-
-&lt;p&gt;因为证据的毁损而导致司法鉴定困难，这个终审结果是可以预见到的。关键是，谁来为案件调查过程中种种明显的干扰行为负责？如何才能够保证今后不会出现另一个不明不白死去的黄静？&lt;br /&gt;
-再过几个月，就不再有多少人关心黄静案的真相与幕后玄机，这个名字会慢慢变作一个模糊的符号，只有很久才出现一次的搜索引擎关键字提醒我曾经存在这么一个人，曾经有过这么一个社会关注的案件，和一个不知何时才会实现的愿望。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%B3%95%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>所谓法制</title>
+      <link>https://ioerr.github.io/posts/suowei-fazhi/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/suowei-fazhi/</guid>
+      <description>很多人口头推崇的“法制”，仔细一看其实是“法家秦制”的缩写。 如果你认为法律存在的意义就是统治者治理国家的工具，那么“法治”确实就是“法家治理</description>
+      <content:encoded><![CDATA[<p>很多人口头推崇的“法制”，仔细一看其实是“法家秦制”的缩写。<br>
+如果你认为法律存在的意义就是统治者治理国家的工具，那么“法治”确实就是“法家治理”的意思。</p>
+<p>当然也有人真心觉得秦制挺好的，像李斯、韩非和商鞅，即使遭到铁拳的待遇，也绝不追悔莫及、上书自辩和逃亡造反。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>黄静案终审</title>
+      <link>https://ioerr.github.io/posts/huangjing-an-zhongshen/</link>
+      <pubDate>Sat, 08 Dec 2007 12:07:14 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huangjing-an-zhongshen/</guid>
+      <description>湘潭市中级人民法院作出终审裁定：驳回原审原告黄静的父母，及原审被告姜俊武关于民事责任方面的上诉请求，维持原判。 一审原判结果是：1、姜俊武无罪</description>
+      <content:encoded><![CDATA[<p><a href="http://news.sina.com.cn/c/l/2007-12-08/021414474238.shtml">湘潭市中级人民法院作出终审裁定</a>：驳回原审原告黄静的父母，及原审被告姜俊武关于民事责任方面的上诉请求，维持原判。</p>
+<p><a href="http://calon.weblogs.us/huangjing_an_jingguo/">一审原判结果</a>是：1、姜俊武无罪；2、姜俊武赔偿原告57399.50元；3、驳回原告其余附带民事赔偿。</p>
+<p>因为证据的毁损而导致司法鉴定困难，这个终审结果是可以预见到的。关键是，谁来为案件调查过程中种种明显的干扰行为负责？如何才能够保证今后不会出现另一个不明不白死去的黄静？<br>
+再过几个月，就不再有多少人关心黄静案的真相与幕后玄机，这个名字会慢慢变作一个模糊的符号，只有很久才出现一次的搜索引擎关键字提醒我曾经存在这么一个人，曾经有过这么一个社会关注的案件，和一个不知何时才会实现的愿望。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

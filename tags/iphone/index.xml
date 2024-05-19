@@ -1,126 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Iphone on 读写错误</title>
+    <title>IPhone on 读写错误</title>
     <link>https://ioerr.github.io/tags/iphone/</link>
-    <description>Recent content in Iphone on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IPhone on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 05 Oct 2017 14:49:29 +0800</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>自由的代价</title>
-        <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
-        <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
-        <description>&lt;p&gt;一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。&lt;/p&gt;
-
-&lt;p&gt;所以我一直都没有买 iPhone。&lt;/p&gt;
-
-&lt;p&gt;我承认 iPhone 的性能更加强大，产品设计品味尽管一直在走下坡路，依然非常优秀，应用的质量和生态环境甩所有竞争者一大截，安全方面更加值得信赖，硬件方面的创新也走在前列。所以只要别人不在意预算，我都会推荐买 iPhone，老婆说要买，我也毫不犹豫。只是我自己不会买来用，因为在许多细节方面，我就是受不了苹果的种种限制——尽管这都是以为了消费者为名设置的。&lt;/p&gt;
-
-&lt;p&gt;我完全清楚使用 Android 或其他系统的代价是什么，而且自问可以规避或承受。&lt;/p&gt;
-
-&lt;p&gt;Freedom is not free，自由有代价，有代价才有选择的意义。否则，既然自由这么宝贵，又不需要担心有什么损失，谁会不选择自由呢？&lt;/p&gt;
-
-&lt;p&gt;近日发生拉斯维加斯枪击事件后，美国社会进一步加强枪支管制的讨论再次成为热门，讨论的内容与以往并没有多少不同，说到底还是宪法修正案确认（确认而非赋予）的使用武器自卫的自由，及其带来的额外社会成本之间如何平衡取舍。&lt;/p&gt;
-
-&lt;p&gt;拥枪与禁枪两派的理由不需要在此逐个阐述和讨论，在我看来，这也无法靠争论确认谁对谁错，所有人达成一致意见。&lt;/p&gt;
-
-&lt;p&gt;因为自由的价值和代价在不同人眼中各不相同，这是融入不同价值观后的主观差异，而非可以客观衡量以得到唯一答案的问题。即使是同一个人，在不同时间，也可能会因为种种际遇而改变看法。&lt;/p&gt;
-
-&lt;p&gt;所以，最重要的不是当前经过合法程序达成了什么样的结论，而是民众能否通过政治讨论和实践，了解不同选择的代价究竟有多大，以及做出选择之后是否还有重新选择的可能——无法重新选择也包含在代价中。&lt;/p&gt;
-
-&lt;p&gt;当我们并不知道自由的代价有多大时，选择“自由”没有意义。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>移动设备触屏游戏六戒</title>
-        <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
-        <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
-        <description>&lt;p&gt;时常觉得 iPod/iPhone
-上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：&lt;/p&gt;
-
-&lt;p&gt;1、图文难以识别。&lt;br /&gt;
-本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。&lt;br /&gt;
-比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。&lt;/p&gt;
-
-&lt;p&gt;图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。&lt;/p&gt;
-
-&lt;p&gt;2、指点不便，操作不灵。&lt;br /&gt;
-按钮小，手指大，经常按错按钮，比如 Football Manager Handheld
-中变更球员名单，很容易点错球员；&lt;br /&gt;
-直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；&lt;br /&gt;
-间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。&lt;/p&gt;
-
-&lt;p&gt;滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的
-swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；&lt;br /&gt;
-如果游戏对操作精度很高，不建议默认采用滑动操作。&lt;/p&gt;
-
-&lt;p&gt;至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。&lt;/p&gt;
-
-&lt;p&gt;3、必须双手或横屏操作，无法充分解放另一只手&lt;br /&gt;
-在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。&lt;br /&gt;
-有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。&lt;/p&gt;
-
-&lt;p&gt;4、需要实时关注，一刻不能分心&lt;br /&gt;
-漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。&lt;br /&gt;
-如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。&lt;br /&gt;
-即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。&lt;br /&gt;
-所以应该尽量采用回合制或短场景。&lt;br /&gt;
-如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。&lt;/p&gt;
-
-&lt;p&gt;5、信息量太大，不容易重新关注&lt;br /&gt;
-有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。&lt;/p&gt;
-
-&lt;p&gt;6、没有足够的成就感&lt;br /&gt;
-规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。&lt;br /&gt;
-比如 Minesweeper
-这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>从 iPhone 看三大矛盾</title>
-        <link>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</link>
-        <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</guid>
-        <description>&lt;p&gt;曾经在&lt;a href=&#34;http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/&#34;&gt;移动通信终端的基本矛盾&lt;/a&gt;中提到过三个基本矛盾：&lt;br /&gt;
-一、显示面积和设备体积、重量的矛盾&lt;br /&gt;
-二、操作舒适性和设备体积的矛盾&lt;br /&gt;
-三、高性能、多功能与耗电量、电池贮存量的矛盾&lt;/p&gt;
-
-&lt;p&gt;现在以仍然在吸引眼球的 iPhone 为例，看看这三个矛盾是否还存在：&lt;/p&gt;
-
-&lt;p&gt;一、iPhone
-的屏幕占据了几乎整个面板正面，应该说在保持体积/面积的前提下，不可能再有扩展空间了，除非采用折叠、投影或眼镜式显示屏等方式。从目前的反响来看，没有人还嫌屏幕太小？&lt;br /&gt;
-二、无数人大赞 iPhone
-的多点触摸屏幕和软件带来的优良的操作体验，这个矛盾似乎也不成问题，但别忘了，触摸显示屏没有按键操作的反馈手感，这个问题确有不少人抱怨过。要不我们可以把塑胶泡泡粘在手指上，对着屏幕指指点点就把它挤得噼啪作响？&lt;br /&gt;
-三、最致命的问题还是在这里啊！从 iPod 到
-iPhone，电池都是遭到批评的部分，从 iPhone
-的身上我们完全看不出这个矛盾有缓解的迹象啊！&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自由的代价</title>
+      <link>https://ioerr.github.io/posts/ziyou-de-daijia/</link>
+      <pubDate>Thu, 05 Oct 2017 14:49:29 +0800</pubDate>
+      <guid>https://ioerr.github.io/posts/ziyou-de-daijia/</guid>
+      <description>一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难</description>
+      <content:encoded><![CDATA[<p>一个产品可以慢慢迭代进化，变得越来越好用，但很少有变得越来越自由的。尤其当产品的生产者对自己的审美品位相当自信时，对消费者来说这种自由更加难得。</p>
+<p>所以我一直都没有买 iPhone。</p>
+<p>我承认 iPhone 的性能更加强大，产品设计品味尽管一直在走下坡路，依然非常优秀，应用的质量和生态环境甩所有竞争者一大截，安全方面更加值得信赖，硬件方面的创新也走在前列。所以只要别人不在意预算，我都会推荐买 iPhone，老婆说要买，我也毫不犹豫。只是我自己不会买来用，因为在许多细节方面，我就是受不了苹果的种种限制——尽管这都是以为了消费者为名设置的。</p>
+<p>我完全清楚使用 Android 或其他系统的代价是什么，而且自问可以规避或承受。</p>
+<p>Freedom is not free，自由有代价，有代价才有选择的意义。否则，既然自由这么宝贵，又不需要担心有什么损失，谁会不选择自由呢？</p>
+<p>近日发生拉斯维加斯枪击事件后，美国社会进一步加强枪支管制的讨论再次成为热门，讨论的内容与以往并没有多少不同，说到底还是宪法修正案确认（确认而非赋予）的使用武器自卫的自由，及其带来的额外社会成本之间如何平衡取舍。</p>
+<p>拥枪与禁枪两派的理由不需要在此逐个阐述和讨论，在我看来，这也无法靠争论确认谁对谁错，所有人达成一致意见。</p>
+<p>因为自由的价值和代价在不同人眼中各不相同，这是融入不同价值观后的主观差异，而非可以客观衡量以得到唯一答案的问题。即使是同一个人，在不同时间，也可能会因为种种际遇而改变看法。</p>
+<p>所以，最重要的不是当前经过合法程序达成了什么样的结论，而是民众能否通过政治讨论和实践，了解不同选择的代价究竟有多大，以及做出选择之后是否还有重新选择的可能——无法重新选择也包含在代价中。</p>
+<p>当我们并不知道自由的代价有多大时，选择“自由”没有意义。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>移动设备触屏游戏六戒</title>
+      <link>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</link>
+      <pubDate>Fri, 14 Oct 2011 11:17:57 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yidong-shebei-chuping-youxi-liujie/</guid>
+      <description>时常觉得 iPod/iPhone 上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏： 1、图文难以识别。 本来眼神就</description>
+      <content:encoded><![CDATA[<p>时常觉得 iPod/iPhone<br>
+上既好玩又耐玩而且适合边走边玩的游戏实在太少，细细想了一下，可能有以下几点造成难以见到完美的快餐游戏：</p>
+<p>1、图文难以识别。<br>
+本来眼神就不怎么好，还要移动中阅读和操作，游戏就应该尽量减少文字，增加易于识别的图示，如果非得有文字，也要足够大才行。<br>
+比如 Merchant Quest 中交易物品名称的文字细如蚊，伤眼又伤心。</p>
+<p>图片、色彩混杂无序，也会乱人眼，太多游戏我一看到预览图就完全没有尝试的欲望了，典型就是各种建设经营类游戏。</p>
+<p>2、指点不便，操作不灵。<br>
+按钮小，手指大，经常按错按钮，比如 Football Manager Handheld<br>
+中变更球员名单，很容易点错球员；<br>
+直接的解决之道是扩大按钮，扩大按钮间隔，或者按钮边框不响应点击；<br>
+间接解决的办法是大改界面，比如从桌面游戏移植过来的，就不能照搬密密麻麻的界面按钮。</p>
+<p>滑动不精确，不连贯，也影响操作成功率，比如贪吃蛇类游戏 Hard Lines 的<br>
+swipe 操作模式，以手指滑动控制贪吃蛇前进方向，但稍不注意就会“打摆子”；<br>
+如果游戏对操作精度很高，不建议默认采用滑动操作。</p>
+<p>至于各种足球、ARPG、格斗游戏中超难用的虚拟方向键，我只能说很佩服那些能够忍受的真·玩家。</p>
+<p>3、必须双手或横屏操作，无法充分解放另一只手<br>
+在下雨打伞、坐公共交通工具或者一只手不得闲的情况下，仍然能够直板单手完成全部操作玩游戏，这是手机比一般游戏掌机优越的地方。<br>
+有的游戏只能双手操作，或者横屏时单手横向移动不便，影响了出台几率。</p>
+<p>4、需要实时关注，一刻不能分心<br>
+漫游状态下偶尔也是要抬头看路的，或者总会有什么突发事件转移你的注意力。<br>
+如果是即时互动的游戏，一个分心，或许就前功尽弃了，所以无形之中给人的压力不小。<br>
+即使有暂停功能，频繁暂停也会增加操作成本，而且暂停按钮太小不好按，太大则影响可视面积。<br>
+所以应该尽量采用回合制或短场景。<br>
+如果不遵循上述原则，最好也要降低分心可能得到的惩罚，如果抬抬头、瞟瞟眼就可能前功尽弃，玩家的挫折感会很高。</p>
+<p>5、信息量太大，不容易重新关注<br>
+有的游戏实在太复杂了，用户读档回到游戏中，还要花好几分钟才能搞清楚状况，等到热身结束，搞不好就要因为其他事情而不得不退出游戏了。</p>
+<p>6、没有足够的成就感<br>
+规则简单，内容贫乏，缺少养成经营元素，很难吸引用户长期重复的沉迷其中。<br>
+比如 Minesweeper<br>
+这样的经典游戏，虽然临时玩几局很有意思，可是就算玩一整天，其成就感也不会累积。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>从 iPhone 看三大矛盾</title>
+      <link>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</link>
+      <pubDate>Tue, 22 Apr 2008 16:14:02 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/cong-iphone-kan-sanda-maodun/</guid>
+      <description>曾经在移动通信终端的基本矛盾中提到过三个基本矛盾： 一、显示面积和设备体积、重量的矛盾 二、操作舒适性和设备体积的矛盾 三、高性能、多功能与耗电量</description>
+      <content:encoded><![CDATA[<p>曾经在<a href="http://calon.weblogs.us/yidongtongxinzhongduan_de_jiben_maodun/">移动通信终端的基本矛盾</a>中提到过三个基本矛盾：<br>
+一、显示面积和设备体积、重量的矛盾<br>
+二、操作舒适性和设备体积的矛盾<br>
+三、高性能、多功能与耗电量、电池贮存量的矛盾</p>
+<p>现在以仍然在吸引眼球的 iPhone 为例，看看这三个矛盾是否还存在：</p>
+<p>一、iPhone<br>
+的屏幕占据了几乎整个面板正面，应该说在保持体积/面积的前提下，不可能再有扩展空间了，除非采用折叠、投影或眼镜式显示屏等方式。从目前的反响来看，没有人还嫌屏幕太小？<br>
+二、无数人大赞 iPhone<br>
+的多点触摸屏幕和软件带来的优良的操作体验，这个矛盾似乎也不成问题，但别忘了，触摸显示屏没有按键操作的反馈手感，这个问题确有不少人抱怨过。要不我们可以把塑胶泡泡粘在手指上，对着屏幕指指点点就把它挤得噼啪作响？<br>
+三、最致命的问题还是在这里啊！从 iPod 到<br>
+iPhone，电池都是遭到批评的部分，从 iPhone<br>
+的身上我们完全看不出这个矛盾有缓解的迹象啊！</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

@@ -1,112 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>思维 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E6%80%9D%E7%BB%B4/</link>
     <description>Recent content in 思维 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>三体的遗憾</title>
-        <link>https://ioerr.github.io/posts/santi-de-yihan/</link>
-        <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/santi-de-yihan/</guid>
-        <description>&lt;p&gt;最近《流浪地球2》上映，《三体》电视剧有己方在制作或已经上映，于是不可避免地又聊起了刘慈欣和《三体》。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Jesoooor/status/1618113324524392448&#34;&gt;JC&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;很多人可能没意识到，刘慈欣其实是 1953 年出生的，现在已经 60 岁，可以说是个老人了。&lt;br /&gt;
-这是为什么，我会对他的一些笔触做苛责。包括前两部《三体》，你把它剥干净，讲的其实是叶文洁被世俗世界治愈，罗辑学会爱与被爱，最终拯救世界的故事。&lt;br /&gt;
-他写故事的方式，是一代老中人缺乏爱的能力的缩影而已。&lt;/p&gt;
-
-&lt;p&gt;但今天，2022 年了，编剧拿着他的概念，还在往集体主义，无条件服从命令，领袖为人类指明方向，男的女的王八对绿豆就相爱…这种方向去改编。&lt;br /&gt;
-就只能说我希望这电影亏穿底，然后别拍了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/Soulogic/status/1618146163827539968&#34;&gt;Soulogic&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我理解不了《了不起的盖茨比》里的价值观，在我看来是病态的、没人性的，而且我是非常认真的反复看中英对照，确认作者是支持、赞扬主角的行为的。&lt;br /&gt;
-但我理解不了没关系，至少应该承认很多人喜爱、认同《了不起的盖茨比》&lt;/p&gt;
-
-&lt;p&gt;另外这条对《三体》的解构过度了，大刘小说所有人物都是工具人、为科学概念服务的&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1618226237473984514&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我很少看到有人喜爱、认同盖茨比的价值观的，作者那是写自己，读者基本上都是虽然不认同，但不妨碍能够理解其中的悲剧色彩。&lt;/p&gt;
-
-&lt;p&gt;工具人这个确实是的，看刘慈欣描写超出他生活经验之外的人物，有种看《读者》这类杂志的感觉。不过说到底，很多小说都是拿人物当工具人，还是要看这个工具用得好不好。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;某锁推推友：&lt;/p&gt;
-
-&lt;p&gt;我知道为什么需要写小说了。&lt;br /&gt;
-当我们被困在道德的面具之下，只有借助小说中的人物才能发出内心的怒吼：“吃人的是我哥哥，我是吃人的人的兄弟。我自己被人吃了，但仍是吃人的人的兄弟。” “洛-丽-塔，我的生命之火，欲望之焰。” “消灭(娘子关火电厂)人类暴政！” 以及“山东人都是拎不清的傻X！”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1618451516926595073&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我觉得一个原因是，有的事情不是那么黑白分明，没有唯一正确的说法，需要借不同立场的人物表达不同的观点。&lt;/p&gt;
-
-&lt;p&gt;第二是塑造和树立人物可信的形象和思想逻辑，借助人物说出来的话更站得住脚，读者更容易理解和接受。&lt;br /&gt;
-所以有的人批评刘慈欣人物描写不行，有的人觉得这完全不影响小说的水平。&lt;br /&gt;
-因为后者一开始就认同作者的想法，人物于他们而言只是表达观念的工具。&lt;br /&gt;
-而前者一开始就抗拒，更需要借助人物的塑造，协助其理解人物的逻辑。&lt;br /&gt;
-如果人物大都是刻板印象的抽象代表，就无从发挥这一作用。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/orwell_benjamin/status/1618962893319569408&#34;&gt;Benjamin Orwell&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;如果你因为《三体》不喜欢刘慈欣，建议看看大刘其他作品，我个人就很喜欢《乡村教师》。&lt;br /&gt;
-如果只是不喜欢三体里面塑造的世界观宇宙观，我也不太喜欢，不过作为科幻题材最好能回到作品本身讨论，说实话没有科幻作家能摆脱社会文化环境写出完全跳出自身环境的小说。&lt;br /&gt;
-也许我们不喜欢的只是我们的这个环境。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/calon/status/1619277811797360646&#34;&gt;Calon&lt;/a&gt;：&lt;/p&gt;
-
-&lt;p&gt;我读科幻是百无禁忌，只要设想让人信服就行。&lt;br /&gt;
-读三体系列的时候是废寝忘食的状态，但一边激动万分，一边又觉得遗憾。&lt;br /&gt;
-人物塑造的问题，影响了其各自代表的观念相冲突和较量的层次，无法进一步深入，就好像绑住对手双手的交锋，太不过瘾，相比自然科学方面的设想是条瘸腿，太可惜了。&lt;/p&gt;
-
-&lt;p&gt;按照韦氏词典和阿西莫夫对科幻的&lt;a href=&#34;../shenme-shi-kehuan/&#34;&gt;定义&lt;/a&gt;，科幻谈论的不只是自然科学幻想设定这样狭窄的范围，而是想象中的科学对人类社会的影响及反应，后者是扩展想象的深度和广度，为故事带来无穷可能和趣味的重要一面，有的读者斥之为科幻软的一面，甚至要开除出科幻队伍，只能说这是牛嚼牡丹了。&lt;/p&gt;
-
-&lt;p&gt;霍布斯的利维坦设想的人类社会丛林状态不难理解，但引发了数百年来无数优秀的头脑为其争论不休，精彩的论述层出不穷，是现代政治哲学发展的一条重要脉络。&lt;br /&gt;
-基于幻想的新社会形态会如何发展，结合人类对自身肉体和精神的改造，会如何变化，有太多可以突破的地方，可惜相比另一条腿远远不够。&lt;/p&gt;
-
-&lt;p&gt;宇宙尺度的动荡，应该配上足够多元和多维的思想观念，在竞技场中激荡、融合、迸发新的闪光点。&lt;br /&gt;
-过于平面近乎于刻板印象的人物，及其思维之间的冲突，满足不了挑剔的读者，连基地系列也有同样的毛病。&lt;/p&gt;
-
-&lt;p&gt;飞机大炮、航母核弹、卫星导弹甚至死星都出现了，人物却还刚刚从方阵进化到排队枪毙，有的读者可以不在乎，但我总觉得活太糙糟蹋了上好的原料。&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>什么是科学的思维方式</title>
-        <link>https://ioerr.github.io/posts/shenme-shi-kexuede-siwei-fangshi/</link>
-        <pubDate>Wed, 16 Jul 2014 14:33:59 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/shenme-shi-kexuede-siwei-fangshi/</guid>
-        <description>&lt;p&gt;保持怀疑，寻求实证；&lt;br /&gt;
-逻辑要一致、自洽，不能自相矛盾；&lt;br /&gt;
-如无必要，勿增实体，比如不引入超自然的因素；&lt;br /&gt;
-理论假设和应用实践有明确、一致的边界，不能滥用；&lt;br /&gt;
-不涉价值、道德判断，应用科学成果涉及价值判断、社会合作，但思维不应有禁区。&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三体的遗憾</title>
+      <link>https://ioerr.github.io/posts/santi-de-yihan/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/santi-de-yihan/</guid>
+      <description>最近《流浪地球2》上映，《三体》电视剧有己方在制作或已经上映，于是不可避免地又聊起了刘慈欣和《三体》。 JC： 很多人可能没意识到，刘慈欣其实是</description>
+      <content:encoded><![CDATA[<p>最近《流浪地球2》上映，《三体》电视剧有己方在制作或已经上映，于是不可避免地又聊起了刘慈欣和《三体》。</p>
+<hr>
+<p><a href="https://twitter.com/Jesoooor/status/1618113324524392448">JC</a>：</p>
+<p>很多人可能没意识到，刘慈欣其实是 1953 年出生的，现在已经 60 岁，可以说是个老人了。<br>
+这是为什么，我会对他的一些笔触做苛责。包括前两部《三体》，你把它剥干净，讲的其实是叶文洁被世俗世界治愈，罗辑学会爱与被爱，最终拯救世界的故事。<br>
+他写故事的方式，是一代老中人缺乏爱的能力的缩影而已。</p>
+<p>但今天，2022 年了，编剧拿着他的概念，还在往集体主义，无条件服从命令，领袖为人类指明方向，男的女的王八对绿豆就相爱…这种方向去改编。<br>
+就只能说我希望这电影亏穿底，然后别拍了。</p>
+<p><a href="https://twitter.com/Soulogic/status/1618146163827539968">Soulogic</a>：</p>
+<p>我理解不了《了不起的盖茨比》里的价值观，在我看来是病态的、没人性的，而且我是非常认真的反复看中英对照，确认作者是支持、赞扬主角的行为的。<br>
+但我理解不了没关系，至少应该承认很多人喜爱、认同《了不起的盖茨比》</p>
+<p>另外这条对《三体》的解构过度了，大刘小说所有人物都是工具人、为科学概念服务的</p>
+<p><a href="https://twitter.com/calon/status/1618226237473984514">Calon</a>：</p>
+<p>我很少看到有人喜爱、认同盖茨比的价值观的，作者那是写自己，读者基本上都是虽然不认同，但不妨碍能够理解其中的悲剧色彩。</p>
+<p>工具人这个确实是的，看刘慈欣描写超出他生活经验之外的人物，有种看《读者》这类杂志的感觉。不过说到底，很多小说都是拿人物当工具人，还是要看这个工具用得好不好。</p>
+<hr>
+<p>某锁推推友：</p>
+<p>我知道为什么需要写小说了。<br>
+当我们被困在道德的面具之下，只有借助小说中的人物才能发出内心的怒吼：“吃人的是我哥哥，我是吃人的人的兄弟。我自己被人吃了，但仍是吃人的人的兄弟。” “洛-丽-塔，我的生命之火，欲望之焰。” “消灭(娘子关火电厂)人类暴政！” 以及“山东人都是拎不清的傻X！”</p>
+<p><a href="https://twitter.com/calon/status/1618451516926595073">Calon</a>：</p>
+<p>我觉得一个原因是，有的事情不是那么黑白分明，没有唯一正确的说法，需要借不同立场的人物表达不同的观点。</p>
+<p>第二是塑造和树立人物可信的形象和思想逻辑，借助人物说出来的话更站得住脚，读者更容易理解和接受。<br>
+所以有的人批评刘慈欣人物描写不行，有的人觉得这完全不影响小说的水平。<br>
+因为后者一开始就认同作者的想法，人物于他们而言只是表达观念的工具。<br>
+而前者一开始就抗拒，更需要借助人物的塑造，协助其理解人物的逻辑。<br>
+如果人物大都是刻板印象的抽象代表，就无从发挥这一作用。</p>
+<hr>
+<p><a href="https://twitter.com/orwell_benjamin/status/1618962893319569408">Benjamin Orwell</a>：</p>
+<p>如果你因为《三体》不喜欢刘慈欣，建议看看大刘其他作品，我个人就很喜欢《乡村教师》。<br>
+如果只是不喜欢三体里面塑造的世界观宇宙观，我也不太喜欢，不过作为科幻题材最好能回到作品本身讨论，说实话没有科幻作家能摆脱社会文化环境写出完全跳出自身环境的小说。<br>
+也许我们不喜欢的只是我们的这个环境。</p>
+<p><a href="https://twitter.com/calon/status/1619277811797360646">Calon</a>：</p>
+<p>我读科幻是百无禁忌，只要设想让人信服就行。<br>
+读三体系列的时候是废寝忘食的状态，但一边激动万分，一边又觉得遗憾。<br>
+人物塑造的问题，影响了其各自代表的观念相冲突和较量的层次，无法进一步深入，就好像绑住对手双手的交锋，太不过瘾，相比自然科学方面的设想是条瘸腿，太可惜了。</p>
+<p>按照韦氏词典和阿西莫夫对科幻的<a href="../shenme-shi-kehuan/">定义</a>，科幻谈论的不只是自然科学幻想设定这样狭窄的范围，而是想象中的科学对人类社会的影响及反应，后者是扩展想象的深度和广度，为故事带来无穷可能和趣味的重要一面，有的读者斥之为科幻软的一面，甚至要开除出科幻队伍，只能说这是牛嚼牡丹了。</p>
+<p>霍布斯的利维坦设想的人类社会丛林状态不难理解，但引发了数百年来无数优秀的头脑为其争论不休，精彩的论述层出不穷，是现代政治哲学发展的一条重要脉络。<br>
+基于幻想的新社会形态会如何发展，结合人类对自身肉体和精神的改造，会如何变化，有太多可以突破的地方，可惜相比另一条腿远远不够。</p>
+<p>宇宙尺度的动荡，应该配上足够多元和多维的思想观念，在竞技场中激荡、融合、迸发新的闪光点。<br>
+过于平面近乎于刻板印象的人物，及其思维之间的冲突，满足不了挑剔的读者，连基地系列也有同样的毛病。</p>
+<p>飞机大炮、航母核弹、卫星导弹甚至死星都出现了，人物却还刚刚从方阵进化到排队枪毙，有的读者可以不在乎，但我总觉得活太糙糟蹋了上好的原料。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>什么是科学的思维方式</title>
+      <link>https://ioerr.github.io/posts/shenme-shi-kexuede-siwei-fangshi/</link>
+      <pubDate>Wed, 16 Jul 2014 14:33:59 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/shenme-shi-kexuede-siwei-fangshi/</guid>
+      <description>保持怀疑，寻求实证； 逻辑要一致、自洽，不能自相矛盾； 如无必要，勿增实体，比如不引入超自然的因素； 理论假设和应用实践有明确、一致的边界，不能滥</description>
+      <content:encoded><![CDATA[<p>保持怀疑，寻求实证；<br>
+逻辑要一致、自洽，不能自相矛盾；<br>
+如无必要，勿增实体，比如不引入超自然的因素；<br>
+理论假设和应用实践有明确、一致的边界，不能滥用；<br>
+不涉价值、道德判断，应用科学成果涉及价值判断、社会合作，但思维不应有禁区。</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

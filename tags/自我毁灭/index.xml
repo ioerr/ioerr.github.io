@@ -1,37 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>自我毁灭 on 读写错误</title>
     <link>https://ioerr.github.io/tags/%E8%87%AA%E6%88%91%E6%AF%81%E7%81%AD/</link>
     <description>Recent content in 自我毁灭 on 读写错误</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
-    
-      <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E6%88%91%E6%AF%81%E7%81%AD/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>加速主义</title>
-        <link>https://ioerr.github.io/posts/jiasu-zhuyi/</link>
-        <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-        <author>
-            <name>Calon</name>
-            
-            
-        </author>
-        <guid>https://ioerr.github.io/posts/jiasu-zhuyi/</guid>
-        <description>&lt;p&gt;近几年流行一个词叫“加速”，没有看到统一的解释定义，不知道是不是与加速主义（Accelerationism）有关，即相信某种政治制度和社会组织形式（原版是指资本主义）具有自我毁灭的必然倾向，支持其快速发展就是加速其毁灭。&lt;/p&gt;
-
-&lt;p&gt;从现象上来看，最常见的就是，每当有不公义的事件发生，有的人就喜欢出来说，“加速！加速！”，十分欣喜，仿佛历史的进程又向其预料的结局迈了一大步。&lt;/p&gt;
-
-&lt;p&gt;在我看来，这些人是相信历史决定论的犬儒主义者。&lt;br /&gt;
-相信历史决定论，因此相信在历史规律下加速之后必然会是自己乐见的结果，不考虑即使存在历史规律，也不是从天而降自动发生，而是需要人的意识和行为的主动性作为基础；更何况历史很容易走入鬼打墙一般的恶性循环怪圈，除非人的智识首先能超越其上，跳出其外；&lt;br /&gt;
-是犬儒主义者，所以要为苟安于不满意的现实中无所作为，只能够口中念念有词，找个睿智又正当的理由；当暴政恶行的后果落到自己头上时，也只能用这是加速来安慰自己。。&lt;/p&gt;
-
-&lt;p&gt;不知道当年奥斯维辛集中营毒气室门口的队伍中，有没有犹太人兴奋地说，“加速！加速！”&lt;/p&gt;
-</description>
-      </item>
-    
+    <atom:link href="https://ioerr.github.io/tags/%E8%87%AA%E6%88%91%E6%AF%81%E7%81%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>加速主义</title>
+      <link>https://ioerr.github.io/posts/jiasu-zhuyi/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiasu-zhuyi/</guid>
+      <description>近几年流行一个词叫“加速”，没有看到统一的解释定义，不知道是不是与加速主义（Accelerationism）有关，即相信某种政治制度和社会组</description>
+      <content:encoded><![CDATA[<p>近几年流行一个词叫“加速”，没有看到统一的解释定义，不知道是不是与加速主义（Accelerationism）有关，即相信某种政治制度和社会组织形式（原版是指资本主义）具有自我毁灭的必然倾向，支持其快速发展就是加速其毁灭。</p>
+<p>从现象上来看，最常见的就是，每当有不公义的事件发生，有的人就喜欢出来说，“加速！加速！”，十分欣喜，仿佛历史的进程又向其预料的结局迈了一大步。</p>
+<p>在我看来，这些人是相信历史决定论的犬儒主义者。<br>
+相信历史决定论，因此相信在历史规律下加速之后必然会是自己乐见的结果，不考虑即使存在历史规律，也不是从天而降自动发生，而是需要人的意识和行为的主动性作为基础；更何况历史很容易走入鬼打墙一般的恶性循环怪圈，除非人的智识首先能超越其上，跳出其外；<br>
+是犬儒主义者，所以要为苟安于不满意的现实中无所作为，只能够口中念念有词，找个睿智又正当的理由；当暴政恶行的后果落到自己头上时，也只能用这是加速来安慰自己。。</p>
+<p>不知道当年奥斯维辛集中营毒气室门口的队伍中，有没有犹太人兴奋地说，“加速！加速！”</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>
