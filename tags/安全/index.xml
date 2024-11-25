@@ -6,8 +6,56 @@
     <description>Recent content in 安全 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 May 2011 02:54:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一纸禁令的逻辑</title>
+      <link>https://ioerr.github.io/posts/yizhi-jinling-de-luoji/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yizhi-jinling-de-luoji/</guid>
+      <description>11月11日，珠海发生驾车冲撞致多人伤亡的重大恶性案件。 网友们讨论时就畅想会不会禁车：智能驾驶系统一旦普及，谁也不能操控汽车去撞人了。 虽然可</description>
+      <content:encoded><![CDATA[<p>11月11日，珠海发生驾车冲撞致多人伤亡的重大恶性案件。<br>
+网友们讨论时就畅想会不会禁车：<a href="https://x.com/paulagent/status/1857119031792210276">智能驾驶系统一旦普及，谁也不能操控汽车去撞人了</a>。<br>
+虽然可能性不大，但按照喜欢动不动一纸禁令的逻辑，真要禁止好像也无力阻止。</p>
+<p>比如，现在有巨大的自驾出行需求，如果禁止开车上路，影响必然很大。<br>
+如果自动驾驶技术成熟了呢？<br>
+一切纳入统一管理，服从统一调度，是不是禁止私家车私自上路就有条件了？</p>
+<p>到那个时候，你想要反对禁止私家车，可能就要面对这样的质问：<br>
+有了统一提供的人人共享的自动驾驶汽车，你为什么还要自己开车、骑车、走路出门呢？<br>
+你知道这种极端自私的行为会给公共道路引入多少不可控因素，给自动驾驶指挥中心带来多少额外计算开销吗？<br>
+保留这些非标准的交通工具，你是有脱离控制伺机伤人的想法吗？<br>
+是想给好不容易创造的最安全环境抹黑拆台吗？</p>
+<p><a href="https://x.com/005c006e/status/1857162693293048025">还有网友说</a>，这思路往下走，想不违反物理定律只能降低个人能处置的能量量级。<br>
+车不让动，油能加吧？电池总不能每次出门审批通过才给装吧？<br>
+停车场一电钻下去一样能释放能量嘛。<br>
+不过这个思路确实可以继续，到时候发出声波前都要先报AI审批，那确实很难有力气整大KD，也算达到目的，而过去也算实践过可以说经验丰富。</p>
+<p>等到以后变成少数脑细胞指挥多数身体细胞的有机体了，为了保证安全，未经允许擅自说话和行动的细胞都得清除掉。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>杞人忧天</title>
+      <link>https://ioerr.github.io/posts/qiren-youtian/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/qiren-youtian/</guid>
+      <description>ZoomQuiet： AI 安全和以往最大的不同在, 这种安全留给人类反应的时间越来越短, 不像 DDT 时代,我们用20年发现有问题, 用10年修正, 整个儿生</description>
+      <content:encoded><![CDATA[<p><a href="https://x.com/zoomq/status/1840237734071607371">ZoomQuiet</a>：<br>
+AI 安全和以往最大的不同在,<br>
+这种安全留给人类反应的时间越来越短,<br>
+不像 DDT 时代,我们用20年发现有问题, 用10年修正,<br>
+整个儿生态并没崩溃;<br>
+而 AI 的安全问题可能, 几百亳秒后, 超级智能诞生,<br>
+因为最初一行道德代码中一个标点错误,<br>
+人类就消失了,我们一点儿改善/修订的机会都没有&hellip;</p>
+<p><a href="https://x.com/calon/status/1840252252650623154">Calon</a>：<br>
+我目前仍然觉得这是杞人忧天。<br>
+超级智能诞生，和超级智能能够认识、理解、改造和掌握现实世界，中间还有巨大的鸿沟。</p>
+<p>对超级智能的担忧某种程度上是人类对自身能力自负的投射和放大。<br>
+虽然人类会认为自己的智能会赶不上超级人工智能，看上去是谦虚、自卑，但实际上也可能是认为自己凭借智能优势已经成为万物之灵、世界的主宰。<br>
+如果出现一个比自己更智慧的存在，那可不得了，一定会是新的霸主，而且会无法克服并继承和放大自己的贪婪、残忍、极端…这个新的霸主一定能够凭借智慧突破认知瓶颈，无往而不利，直接飞升成仙都不为过。</p>
+<p>人类以为自己在这个境界的临门处徘徊着，只要超越自己就行了。<br>
+也许实际上还差得远呢——即使是超越了人类的超级智能，也只是鸭立鸡群的程度而已。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>双密码</title>
       <link>https://ioerr.github.io/posts/shuang-mima/</link>

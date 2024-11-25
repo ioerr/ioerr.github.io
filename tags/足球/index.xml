@@ -6,8 +6,18 @@
     <description>Recent content in 足球 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E8%B6%B3%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你不是真的热爱这个运动</title>
+      <link>https://ioerr.github.io/posts/ni-bushi-zhende-reai-zhege-yundong/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ni-bushi-zhende-reai-zhege-yundong/</guid>
+      <description>国内的论坛上只要是法国队的话题，总有人在下面千篇一律地拿肤色、血统说事，关心法兰西人血统纯正与否，白皮肤高卢人还剩几个，法国是不是都被黑人移</description>
+      <content:encoded><![CDATA[<p>国内的论坛上只要是法国队的话题，总有人在下面千篇一律地拿肤色、血统说事，关心法兰西人血统纯正与否，白皮肤高卢人还剩几个，法国是不是都被黑人移民占领了，黑人球员智商低球商低，等等等等，贫乏、雷同地说着自以为机灵的地狱笑话，对球员球队的技战术理解却贫瘠得可怜。</p>
+<p>足球将不同肤色、国籍、民族、政治立场和宗教的人集合在一起，在竞技中全力拼搏争取胜利，在运动中获得快乐、感动和激励，这就是足球的意义。我想对那些关心肤色差异胜过运动本身内容的人说，你不是真的热爱这个运动。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>数据党的绩效指标</title>
       <link>https://ioerr.github.io/posts/shujudang-de-jixiao-zhibiao/</link>
@@ -326,62 +336,6 @@
 <p>其实可能只是因为样本太少所以以为是规律。</p>
 <p>近年来06年世界杯意大利点球胜法国，16年欧洲杯上德国赢意大利，16年欧洲杯法国胜德国，输葡萄牙，荷兰点球也翻过身，西班牙大赛三连冠，所以又有谁翻身复仇了不要觉得奇怪。</p>
 <p>最终比赛还是要靠实力说话，当场次较少的时候，各种几率有可能存在，但只要时间足够长，比赛足够多，统计概率还是会慢慢靠向实力分布的情况的。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Football Chairman</title>
-      <link>https://ioerr.github.io/posts/football-chairman/</link>
-      <pubDate>Tue, 18 Aug 2015 13:26:03 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/football-chairman/</guid>
-      <description>从 Championship Manager 时代就很喜欢 Sports Interactive 的 Football Manager（FM，足球经理）系列，移动终端版 FM Handheld 也玩过很久时间，但不满意的地方还是很多。 对照移动设备触屏游戏六</description>
-      <content:encoded><![CDATA[<p>从 Championship Manager 时代就很喜欢 Sports Interactive 的 Football Manager（FM，足球经理）系列，移动终端版 FM Handheld 也玩过很久时间，但不满意的地方还是很多。<br>
-对照<a href="http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/">移动设备触屏游戏六戒</a>来看的话，第二点的按钮太小，容易误操作，第三点的必须横屏操作，第三点的信息量太大，不容易重新关注，都是 FMH 有的问题。</p>
-<p>另一款颇受欢迎的养成类型足球游戏 New Star Soccer（NSS，新星足球）<br>
-专注于球员个人的成长和人际交往，多了一点人情味，还有手动控制传球、射门、带球过人的动作成分，操作起来倒是有爽感，可在移动场景下，又有第四点需要实时关注的问题，而且移动中手动控制的误操作率会大幅上升，容易积累挫败感。<br>
-另外，由于装备、消费品的内购机制，昂贵的球鞋、营养剂等物品对技术、体力的影响很大，特别是在我看来比较奇葩的时髦值设定，有种让玩家操心赚钱、炫富、把妹/吊龟多过安心踢球的感觉，总之玩久了总觉得不太对味。</p>
-<p>有没有类似于 FMH 这样的游戏，但简化不必要的信息和指令，节奏像 NSS 一样快，又适合移动端操作呢？<br>
-比如说只关注球员转会和俱乐部人事，具体事务交给 AI 完成。</p>
-<p>然后就发现了 <a href="http://www.football-chairman.com/">Football Chairman（足球主席）</a>这款游戏。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/mockups/iphone-screen.png" alt="Football Chairman"  />
-</p>
-<p>在这款游戏中，玩家扮演的是足球俱乐部主席角色，负责的工作主要包括：<br>
-聘请教练班子（包括主教练/经理、助教、球探等）<br>
-投资建设俱乐部基础设施（比如看台、青训营、训练设施、附加商品等）<br>
-参与球员管理和转会（设置转会预算、赢球奖励、拍板转会请求、设置转会费和工资等）</p>
-<p>然后就可以坐下来看主教练指挥的战绩如何了。</p>
-<p>俱乐部的各项赛事成绩、人事管理决策、球票等球迷利益相关因素等，都会影响球迷对主席和经理的满意度，同时还要保证俱乐部盈利。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-summary.jpg" alt="Football Chairman Summary"  />
-</p>
-<p>而排兵布阵、战术变化这些，作为主席不会直接干预，只能在聘请主教练时根据教练风格做选择。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-lineup.jpg" alt=""  />
-<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-backroom.jpg" alt=""  />
-</p>
-<p>球员转会，主席也不能越俎代庖、事必躬亲，通常由主教练提出转会申请，主席决定是否砸钱。<br>
-青训球员提拔、签订职业合同也由主席拍板。<br>
-转会、租借或续约合同尽量简化，转会费、工资、合同截止日期就是全部，不用考虑非常复杂的规则，比如共有协议、分期付款这些。<br>
-当然会损失一些真实感，转会狂人想必也少了许多乐趣，但相应也让玩家少死很多脑细胞，总的来说还是利大于弊。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-contract.jpg" alt=""  />
-</p>
-<p>球员信息不像 FM 系列那样面面俱到，不需要通过许多数值判断球员水平，只能看到总体评分、个性、心情、风格等外在特质，和出场数、进球数、身价、工资等统计数据。<br>
-不过历史数据分析狂人就没有用武之地了，像我这样打开 FM 光球员历史都可以看很久的难免失望。<br>
-好在俱乐部还比较多，覆盖英格兰七级联赛，有钱的话可以换个俱乐部当主席。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-squad.jpg" alt=""  />
-<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-player.jpg" alt=""  />
-</p>
-<p>比赛画面就是非常简单的文字说明，仿佛回到了 CM 的时代，而解说内容比 CM 还少得多，影响体验乐趣。<br>
-不过本来临场指挥是主教练的工作，主席不用瞎操心，这种简化也就合理了。<br>
-在火车上半天时间我就玩了两个赛季，要是换做 FM 真不知道要花多少时间。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-match.jpg" alt=""  />
-</p>
-<p>而成就系统比较丰富，除了俱乐部本身的建设、升级和赛事锦标，还有球迷满意度、俱乐部声望、资金盈利、球员和教练养成（可以出钱让教练深造），以及内置的任务目标、成就。</p>
-<p><img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-chairman.jpg" alt=""  />
-<img loading="lazy" src="http://www.football-chairman.com/img/app-screenshots/screenshot-fans.jpg" alt=""  />
-</p>
-<p>对比<a href="http://calon.weblogs.us/yidong_shebei_chuping_youxi_liujie/">移动设备触屏游戏六戒</a>中的几个基本指标来看的话，Football<br>
-Chairman 没有明显触犯任何一条（进入游戏都比龟速的 FM 快了不知道多少，这也相当影响体验）。<br>
-如果要说有什么期待改进的，就是适当增加一点复杂度和可发展内容，让玩法更加多样。</p>
-<p>游戏分<a href="http://www.football-chairman.com/#features">免费版、基础付费版和增强付费版</a>，区别主要在于界面、画面和内容丰富程度。<br>
-在 <a href="http://www.football-chairman.com/#download">Apple Appstore、Google Play 和 Amazon Kindle Appstore</a> 都有下载。</p>
 ]]></content:encoded>
     </item>
   </channel>
