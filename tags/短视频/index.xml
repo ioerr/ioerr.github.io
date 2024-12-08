@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>短视频 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/</link>
+    <description>Recent content in 短视频 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动设备的终极形态</title>
+      <link>https://ioerr.github.io/posts/yidong-shebei-de-zhongji-xingtai/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yidong-shebei-de-zhongji-xingtai/</guid>
+      <description>若干年后，人们如此评价乔布斯： 他开创了智能手机新时代，但未臻完美，因为智能手机作为当今主流随身电子设备的前身，冗余功能太多，如通话、短信、即</description>
+      <content:encoded><![CDATA[<p>若干年后，人们如此评价乔布斯：</p>
+<p>他开创了智能手机新时代，但未臻完美，因为智能手机作为当今主流随身电子设备的前身，冗余功能太多，如通话、短信、即时通信、邮件、打字、浏览网页、听音乐、安装第三方应用等。</p>
+<p>后来消费者终于认识到，他们真正需要的功能只有三个：拍照录像、播放短视频和购物。</p>
+<p>经过优化精简后的功能和交互逻辑是这样的：</p>
+<ul>
+<li>只有屏幕和摄像头</li>
+<li>开机就自动播放短视频</li>
+<li>上划跳转到下一个</li>
+<li>下划点赞并跳转到下一个</li>
+<li>左划拍照并发布</li>
+<li>右划录像15秒并发布</li>
+<li>单击即下单</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

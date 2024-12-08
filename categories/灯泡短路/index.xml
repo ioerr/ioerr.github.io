@@ -6,8 +6,29 @@
     <description>Recent content in 灯泡短路 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动设备的终极形态</title>
+      <link>https://ioerr.github.io/posts/yidong-shebei-de-zhongji-xingtai/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/yidong-shebei-de-zhongji-xingtai/</guid>
+      <description>若干年后，人们如此评价乔布斯： 他开创了智能手机新时代，但未臻完美，因为智能手机作为当今主流随身电子设备的前身，冗余功能太多，如通话、短信、即</description>
+      <content:encoded><![CDATA[<p>若干年后，人们如此评价乔布斯：</p>
+<p>他开创了智能手机新时代，但未臻完美，因为智能手机作为当今主流随身电子设备的前身，冗余功能太多，如通话、短信、即时通信、邮件、打字、浏览网页、听音乐、安装第三方应用等。</p>
+<p>后来消费者终于认识到，他们真正需要的功能只有三个：拍照录像、播放短视频和购物。</p>
+<p>经过优化精简后的功能和交互逻辑是这样的：</p>
+<ul>
+<li>只有屏幕和摄像头</li>
+<li>开机就自动播放短视频</li>
+<li>上划跳转到下一个</li>
+<li>下划点赞并跳转到下一个</li>
+<li>左划拍照并发布</li>
+<li>右划录像15秒并发布</li>
+<li>单击即下单</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>杞人忧天</title>
       <link>https://ioerr.github.io/posts/qiren-youtian/</link>
@@ -419,30 +440,6 @@ AI的普及，其实最应该担心工作被取代的，应该是程序员？因
       <content:encoded><![CDATA[<p>经过杀死数百亿人的试验后，人类终于设计出了比自身更加理性、高效、冷静的超级电脑来控制和安排生活中的一切。</p>
 <p>某天，某人的生活因为一次错误计算而被彻底毁掉，但所有人都告诉他是他自己出了问题，因为历史证明发展到这一阶段的电脑不可能出错。</p>
 <p>这一过程不断重复，直到只剩最后一个人时，他会说“哪里不对劲”吗？</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>网络与人类社会</title>
-      <link>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/wangluo-yu-renlei-shehui/</guid>
-      <description>人与人之间的交流就像网络交互和控制： 有的时候握手失败，有的时候会丢包，有的时候会伪造篡改数据，有的时候不做任何校验。 有的网络节点只想控制对方</description>
-      <content:encoded><![CDATA[<p>人与人之间的交流就像网络交互和控制：<br>
-有的时候握手失败，有的时候会丢包，有的时候会伪造篡改数据，有的时候不做任何校验。<br>
-有的网络节点只想控制对方而忽略部分不想看到的数据反馈，有的不愿意自己计算只想接收和执行控制指令，有的时刻准备取代中心节点发布控制指令，有的则和其他节点保持平等的关系。</p>
-<p>不同层级的各种网络协议就像人与人之间的交互方式。</p>
-<p>再延伸一下，可以将各种人类社会的政治制度和计算机网络架构建立映射关系：<br>
-有的是中心节点控制的架构，有的是分布式的自组织松散网络，有的是介于两者之间的混合形式。<br>
-前者走到极端是只有巨大而唯一的中心计算节点，外围节点都只负责输入输出，相当于人类只有一个智慧体，组成它的是失去自主意识和行为能力的个人。</p>
-<p>就像计算机交互模式和网络架构没有绝对的优劣之分，人类相互之间的沟通方式和人类社会的政治制度也不必有绝对的善恶标准。<br>
-不同的模式和制度在不同环境和阶段的适应性各不相同。</p>
-<p>但如果你从根本上是个人主义者，持个人主义的价值观和方法论，那么恐怕不希望自己活得像某些类型的网络节点一样。</p>
-<p>也有人设想未来的人类社会整体看来就是一个生物（人类巨灵），个人相当于这个巨大生物身上的细胞。</p>
-<p>如果这样看的话，共情能力就相当于神经系统，感受其他细胞的痛苦；<br>
-营养输送和免疫系统相当于援助保障能力；<br>
-战争动员能力相当于瞬间的无氧运动能力。</p>
-<p>而现实是集体主义者看重动员远胜共情，没有边际成本的控制机制，狂热地燃烧和消耗组织细胞，不惜今天割肉挖疮，明天壮士断腕。</p>
-<p>所以以生物类比的话，个人主义者恐怕也不会被人类巨灵这样的概念随便忽悠——个人主义者不拒斥庞大的社会组织，相反，认为形成超大型社会组织的基础是个人主义。</p>
 ]]></content:encoded>
     </item>
   </channel>
