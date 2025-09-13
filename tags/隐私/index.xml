@@ -95,12 +95,10 @@ The average person has one boob and one testicle.<br>
       <link>https://ioerr.github.io/posts/yinsi-de-weilai/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/yinsi-de-weilai/</guid>
-      <description>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。 感觉大家普遍的看法是： 随着人类社会的发展，互联网的</description>
+      <description>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。 感觉大家普遍的看法是：随着人类社会的发展，互联网的</description>
       <content:encoded><![CDATA[<p>最近因为 Facebook 和剑桥分析的事件又掀起了隐私问题的风潮（虽然许多人如此关注此事是因为政治原因）。</p>
-<p>感觉大家普遍的看法是：<br>
-随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。</p>
-<p>还有更加激进的看法：<br>
-最终也许个人将毫无任何隐私可言。</p>
+<p>感觉大家普遍的看法是：随着人类社会的发展，互联网的发展，人们越来越不重视隐私，不断放弃更多的隐私是大趋势。</p>
+<p>还有更加激进的看法：最终也许个人将毫无任何隐私可言。</p>
 <p>我的感觉倒没有这么悲观。</p>
 <p>现阶段大多数人不在乎牺牲自己的隐私，只是因为大多数人，甚至包括互联网技术人员，还没有认清隐私泄露会有什么严重后果。<br>
 也就是说，人们目前只看到了用隐私交换得来的利益，而没有因此得到足够的惩罚。<br>
@@ -162,7 +160,7 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
       <link>https://ioerr.github.io/posts/liangmin-ye-dangbuxiaqule/</link>
       <pubDate>Thu, 16 Apr 2009 16:02:16 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/liangmin-ye-dangbuxiaqule/</guid>
-      <description>看到有人在 twitter 上提起，才在豆瓣的首页发现还有这么一条通知： 我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？ 点进去一看： 然后去查</description>
+      <description>看到有人在 twitter 上提起，才在豆瓣的首页发现还有这么一条通知： 我担任组长的小组人数超过5000人就要提交组长身份信息？凭什么？ 点进去一看： 依据国家</description>
       <content:encoded><![CDATA[<p>看到有人在 twitter<br>
 上提起，才在<a href="http://www.douban.com/">豆瓣的首页</a>发现还有这么一条通知：<br>
 <a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-16-21-53-48.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-48.png" alt="Photobucket"  />
@@ -171,16 +169,22 @@ MB，这大大影响了整句输入法的普及，语料库体积和整句正确
 <p>点进去一看：<br>
 <a href="http://s111.photobucket.com/albums/n154/calon_plus/?action=view&amp;current=2009-04-16-21-53-16.png"><img loading="lazy" src="http://i111.photobucket.com/albums/n154/calon_plus/2009-04-16-21-53-16.png" alt="Photobucket"  />
 </a></p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p><strong>依据国家相关法律、法规和政策规定</strong>，为了使组长对小组的讨论话题能进行有效管理，人数达到或超过5000(含)的小组，组长需提供个人真实信息（个人信息受到“隐私原则”保护）进行身份验证。通过组长身份验证后，小组可继续增加新成员。（2009年5月1日起生效）</p>
+</blockquote>
+<p>要求组长提供的身份信息包括：真实姓名、住址、手机号</p>
 <p>然后去查阅一下<a href="http://www.douban.com/about?policy=privacy">隐私原则</a>：</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>不经过你明确的允许，豆瓣严格确保不在网站的任何页面公开，也不向任何外部实体和个人透露你的个人信息和email地址。你的email地址的用途限于辨别你的身份和保证在你忘记密码的时候能恢复你在豆瓣的身份和数据。</p>
 <p>　　只有两种情况例外：</p>
-<p>　　1.<br>
-你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。</p>
+<p>　　1. 你通过豆瓣邀请朋友时，你的email地址将在豆瓣发出的邀请email中出现，使你的朋友能够辨别邀请的来源。</p>
 <p>　　2. <strong>政府执法部门或监管机构依法有权要求豆瓣提供你的注册信息。</strong></p>
 <p>　　豆瓣将在网站大的更新或紧急意外出现时向你发出email.<br>
 除此之外任何向你email的发送必须经过你明确的许可。</p>
-<!-- raw HTML omitted -->
+</blockquote>
+<p>那么我想问几个问题：<br>
+1、依据国家相关法律、法规和政策规定，要求人数达到或超过5000的小组组长提供个人真实信息，这里的国家相关法律、法规和政策规定是哪些？<br>
+2、这样的措施就能够使组长有效管理小组了吗？</p>
 <p>对这样的措施和理由，我无法认同，我的原则是，在基本权利得不到保障的情况下，尽量不透露身份信息给没有制约的监管者。<br>
 既然我无法改变所谓的法律法规，也无法替豆瓣承担压力，那么唯一的出路就只能是让我管理的小组停止发展，或者让那些不介意提供个人身份信息的人代替我成为组长了。</p>
 <p>是的，豆瓣夹在网络监管机构、开放的小组服务和各种活跃用户三方的缝隙中确实是很不容易，所以我在管理的“人肉搜索引擎小组”对涉及个人隐私的搜索要求都是毫不留情的尽快删除，同时尽量不做可能危害豆瓣生存的事情。然而现在这种“良民”也当不下去了，我担心别人利用人肉搜索侵犯个人隐私，自己却要供出隐私信息，这么玩下去还有什么意思？</p>

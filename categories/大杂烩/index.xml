@@ -6,8 +6,19 @@
     <description>Recent content in 大杂烩 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>互联网是粪坑吗？</title>
+      <link>https://ioerr.github.io/posts/internet-shi-fenkeng-ma/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/internet-shi-fenkeng-ma/</guid>
+      <description>看到有人抱怨互联网是粪坑，而他每天发布的内容就是引用这些他认为是“粪水”的内容，并恶毒咒骂。 我只能说，互联网上有数不清的人愚昧无知、脑残傻逼</description>
+      <content:encoded><![CDATA[<p>看到有人抱怨互联网是粪坑，而他每天发布的内容就是引用这些他认为是“粪水”的内容，并恶毒咒骂。<br>
+我只能说，互联网上有数不清的人愚昧无知、脑残傻逼、恶毒残忍、暴躁疯狂…<br>
+如果你上网就是为了盯着这些人看，那么互联网对你来说当然就是粪坑。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Think Different, Buy The Same</title>
       <link>https://ioerr.github.io/posts/think-different-buy-the-same/</link>
@@ -186,24 +197,6 @@
       <content:encoded><![CDATA[<p>近年来谈论笔记系统时经常提到一个词叫“第二大脑”，关于它主要有两种观点。</p>
 <p>一种观点认为，我们的大脑远远不完美，需要发展第二大脑来扩展记忆和智慧，与第一大脑互补，各展所长。笔记系统就是我们自己大脑之外的辅助知识系统。</p>
 <p>另一种观点认为，我们连第一大脑都没长好，就不要操心什么第二大脑了。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>一种用于结束会话的握手协议</title>
-      <link>https://ioerr.github.io/posts/yizhong-yongyu-jieshu-huihua-de-woshou-xieyi/</link>
-      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/yizhong-yongyu-jieshu-huihua-de-woshou-xieyi/</guid>
-      <description>弗格孙： 两个“最后一句”强迫症患者的聊天记录be like： A：感谢xx老师的回复，谢谢！🙏🙏🙏 B：不客气，有什么问题再叫我哈！ A：有问题再请</description>
-      <content:encoded><![CDATA[<p><a href="https://twitter.com/zanmato1984/status/1722099259116245060">弗格孙</a>：</p>
-<p>两个“最后一句”强迫症患者的聊天记录be like：<br>
-A：感谢xx老师的回复，谢谢！🙏🙏🙏<br>
-B：不客气，有什么问题再叫我哈！<br>
-A：有问题再请教，谢谢！<br>
-B：🙏🙏🙏<br>
-A：🤝🤝🤝<br>
-B：🤝🤝🤝</p>
-<p>Calon：</p>
-<p>发明了一种用于结束会话的握手协议。</p>
 ]]></content:encoded>
     </item>
   </channel>

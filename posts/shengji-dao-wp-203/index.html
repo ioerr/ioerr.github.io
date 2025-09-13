@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>升级到 WordPress 2.0.3 @ 读写错误</title>
 <meta name="keywords" content="">
-<meta name="description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：">
+<meta name="description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误： WordPress database error: [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the">
 <meta name="author" content="calon">
 <link rel="canonical" href="https://ioerr.github.io/posts/shengji-dao-wp-203/">
 
@@ -52,7 +52,7 @@
   
 
 <meta property="og:title" content="升级到 WordPress 2.0.3" />
-<meta property="og:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：" />
+<meta property="og:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误： WordPress database error: [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ioerr.github.io/posts/shengji-dao-wp-203/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2006-07-21T00:06:01+00:00" />
@@ -60,7 +60,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="升级到 WordPress 2.0.3"/>
-<meta name="twitter:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误："/>
+<meta name="twitter:description" content="从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误： WordPress database error: [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the"/>
 
 
 <script type="application/ld+json">
@@ -89,12 +89,12 @@
   "@type": "BlogPosting",
   "headline": "升级到 WordPress 2.0.3",
   "name": "升级到 WordPress 2.0.3",
-  "description": "从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：",
+  "description": "从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误： WordPress database error: [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the",
   "keywords": [
     
   ],
-  "articleBody": "从 WordPress 2.0\n升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：\n",
-  "wordCount" : "47",
+  "articleBody": "从 WordPress 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：\nWordPress database error: [You have an error in your SQL syntax; check\nthe manual that corresponds to your MySQL server version for the right\nsyntax to use near ‘AND comment_approved != ‘spam’ ORDER BY\ncomment_date’ at line 1]\nSELECT * FROM wp_comments WHERE comment_post_ID = AND\ncomment_approved\n!= ‘spam’ ORDER BY comment_date\n想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到 Adhesive 上面。\n所以以后升级还是不要偷懒的好，先停插件不是坏事。\n",
+  "wordCount" : "166",
   "inLanguage": "en",
   "datePublished": "2006-07-21T00:06:01Z",
   "dateModified": "2006-07-21T00:06:01Z",
@@ -134,23 +134,18 @@
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/search/" title="search (Alt &#43; /)" accesskey=/>
-                    <span>search</span>
-                </a>
-            </li>
-            <li>
                 <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/tags/" title="tags">
-                    <span>tags</span>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/index.xml" title="rss">
-                    <span>rss</span>
+                <a href="mailto:ioerr@duck.com" title="mail">
+                    <span>mail</span>
                 </a>
             </li>
         </ul>
@@ -164,14 +159,23 @@
     <h1 class="post-title entry-hint-parent">
       升级到 WordPress 2.0.3
     </h1>
-    <div class="post-meta"><span title='2006-07-21 00:06:01 +0000 +0000'>2006-7-21</span>&nbsp;·&nbsp;calon
+    <div class="post-meta"><span title='2006-07-21 00:06:01 +0000 +0000'>2006-7-21</span>
 
 </div>
   </header> 
 
-  <div class="post-content"><p>从 <a href="http://wordpress.org/">WordPress</a> 2.0<br>
-升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：</p>
-<!-- raw HTML omitted -->
+  <div class="post-content"><p>从 <a href="http://wordpress.org/">WordPress</a> 2.0 升级到了2.0.3稳定版。这一次偷懒没有先停止插件，结果升级后文章无法显示，报如下错误：</p>
+<blockquote>
+<p>WordPress database error: [You have an error in your SQL syntax; check<br>
+the manual that corresponds to your MySQL server version for the right<br>
+syntax to use near &lsquo;AND comment_approved != &lsquo;spam&rsquo; ORDER BY<br>
+comment_date&rsquo; at line 1]<br>
+SELECT * FROM wp_comments WHERE comment_post_ID = AND<br>
+comment_approved<br>
+!= &lsquo;spam&rsquo; ORDER BY comment_date</p>
+</blockquote>
+<p>想来想去应该只有可能是插件不兼容造成的，只好乖乖地用枚举法逐个停掉，最终定位到 <a href="http://www.asymptomatic.net/wp-hacks">Adhesive</a> 上面。<br>
+所以以后升级还是不要偷懒的好，先停插件不是坏事。</p>
 
 
   </div>
@@ -185,16 +189,25 @@
       
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://ioerr.github.io/posts/stardict-248/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>StarDict 2.4.8</span>
-  </a>
-  <a class="next" href="https://ioerr.github.io/posts/mai-jiushu/">
-    <span class="title">Next »</span>
-    <br>
-    <span>买旧书</span>
-  </a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </nav>
 
   </footer><script src="https://giscus.app/client.js"

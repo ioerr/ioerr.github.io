@@ -14,14 +14,18 @@
       <pubDate>Thu, 25 Dec 2008 08:17:34 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/xunlu/</guid>
       <description>受到 cubeecraft 的启发，用 SketchUp 做了一个方盒子版本的驯鹿应景： 不过我 SketchUp 水平不够，短时间内弄不出圣诞老人飘逸的大白胡子，所以圣诞老人就乖乖的给我消失好了… 本</description>
-      <content:encoded><![CDATA[<p>受到 <a href="http://www.cubeecraft.com/">cubeecraft</a> 的启发，用 SketchUp<br>
-做了一个方盒子版本的驯鹿应景：<br>
+      <content:encoded><![CDATA[<p>受到 <a href="http://www.cubeecraft.com/">cubeecraft</a> 的启发，用 SketchUp 做了一个方盒子版本的驯鹿应景：<br>
 <a href="http://www.flickr.com/photos/calon/3133565448/"><img loading="lazy" src="http://farm4.static.flickr.com/3287/3133565448_e70db8840a.jpg" alt="Reindeer"  />
 </a></p>
-<p>不过我 SketchUp<br>
-水平不够，短时间内弄不出圣诞老人飘逸的大白胡子，所以圣诞老人就乖乖的给我消失好了…</p>
+<p>不过我 SketchUp 水平不够，短时间内弄不出圣诞老人飘逸的大白胡子，所以圣诞老人就乖乖的给我消失好了…</p>
 <p>本来准备昨天晚上发布到 blog 上的，没想到来了个：</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>数据库连接错误<br>
+您在wp-config.php文件中提供的数据库用户名和密码可能不正确，或者无法连接到<br>
+192.168.1.11 上数据库服务器，这意味着您的主机数据库服务器已停止工作。</p>
+</blockquote>
+<p>:023:<br>
+真是“圣诞前夜的噩梦”啊~</p>
 ]]></content:encoded>
     </item>
   </channel>

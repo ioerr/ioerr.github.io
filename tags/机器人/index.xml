@@ -6,8 +6,22 @@
     <description>Recent content in 机器人 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为什么苛求机器</title>
+      <link>https://ioerr.github.io/posts/weishenme-keqiu-jiqi/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/weishenme-keqiu-jiqi/</guid>
+      <description>自动驾驶的机器人司机的安全性已经超过了人类司机，但社会为什么对机器人犯错的容忍度仍然低于对人类犯错的容忍度呢？ 我觉得原因还是人类本位主义、中</description>
+      <content:encoded><![CDATA[<p>自动驾驶的机器人司机的安全性已经超过了人类司机，但社会为什么对机器人犯错的容忍度仍然低于对人类犯错的容忍度呢？</p>
+<p>我觉得原因还是人类本位主义、中心主义心态。</p>
+<p>谁都知道人类是个什么德行，所以才会有 to err is human，人非圣贤孰能无过…<br>
+而机器人生来就是为了实现低错误甚至零错误的，否则造机器人干啥？<br>
+所以从一开始对两者要求的标准就不一样。</p>
+<p>责任定位和持续学习都可以通过法律、技术手段改善，但“机器人天生就是为了不出任何错误地干人类会犯错误的事”，这种心态只有人不是自己世界的唯一中心时才会改变吧。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>机器人三定律</title>
       <link>https://ioerr.github.io/posts/jiqiren-san-dinglv/</link>

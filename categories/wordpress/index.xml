@@ -184,7 +184,7 @@ Docs 都适用；<br>
       <content:encoded><![CDATA[<p>抽空改了个极简风格的主题 <a href="http://mnmlist.com/theme">mnmlist</a>。</p>
 <p>原主题：mnmlist v1<br>
 原作者： Leo Babauta<br>
-原作者地址： <a href="http://mnmlist.com">http://mnmlist.com</a> <br>
+原作者地址： <a href="http://mnmlist.com">http://mnmlist.com</a><br>
 原作主题地址： <a href="http://mnmlist.com/theme">http://mnmlist.com/theme</a></p>
 <p>修改主题：minimore<br>
 修改者：Calon<br>
@@ -283,24 +283,18 @@ Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方�
       <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</guid>
       <description>打算把“滞销书”升级到 WordPress 2.3 版本，如果这几天 blog 无法访问，说明正在升级，或者升级失败，或者恢复失败… 主题可能会暂时使用原版默认主题，RSS Feed 也可</description>
-      <content:encoded><![CDATA[<p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到<br>
-<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog<br>
-无法访问，说明正在升级，或者升级失败，或者恢复失败…<br>
+      <content:encoded><![CDATA[<p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到 <a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog 无法访问，说明正在升级，或者升级失败，或者恢复失败…<br>
 主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
 <p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
 <p>1、备份数据库。<br>
-使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a><br>
-插件导出数据库表。</p>
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a> 插件导出数据库表。</p>
 <p>2、备份文件。<br>
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP<br>
-备份目录的方式，但愿不要出问题…<br>
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP 备份目录的方式，但愿不要出问题…<br>
 之前也有做本地备份，应该不至于太危险。</p>
 <p>3、停用所有的插件。<br>
-<a href="http://wordpress.org/">WordPress</a><br>
-2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
+<a href="http://wordpress.org/">WordPress</a> 2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
 <p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br>
-这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是<br>
-/WP/wordpress-2.3。</p>
+这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是 /WP/wordpress-2.3。</p>
 <p>5、移走旧文件。<br>
 保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br>
 移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
@@ -314,10 +308,8 @@ Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方�
 所有的表情文件；<br>
 所有的插件；<br>
 /wp-includes/vars.php<br>
-default 主题的<br>
-comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br>
-default<br>
-主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br>
+default 主题的 comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br>
+default 主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br>
 更新 veryplaintxt 主题；<br>
 根据原来的文件修改 comments.php、header.php、style.css；<br>
 新增的页面模板文件。</p>
@@ -385,18 +377,17 @@ IT，可是挨踢只是我的14个类别之一，从现在的首页来看，话�
       <pubDate>Fri, 20 Apr 2007 16:05:59 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/yaobuyao-zijia-blog/</guid>
       <description>看到 Cathayan 抱怨 Kazix.com 的空间性价比不高，又看到 xbeta 有意自己架空间，而伍岭也邀我一起使用 ixwebhosting 的空间。 虽然 Weblogs.us 时不时的瘫痪一下，但一般只有 BSP 做出很对不起用户的事</description>
-      <content:encoded><![CDATA[<p>看到 <a href="http://blog.cathayan.org/">Cathayan</a> <a href="http://blog.cathayan.org/item/1575">抱怨 Kazix.com<br>
-的空间性价比不高</a>，又看到<br>
-<a href="http://blog.sina.com.cn/xbeta">xbeta</a><br>
-<a href="http://blog.sina.com.cn/u/46dac66f010008za">有意自己架空间</a>，而<a href="http://www.ipang.net/">伍岭</a>也邀我一起使用<br>
-<a href="http://www.ixwebhosting.com/">ixwebhosting</a> 的空间。</p>
-<p>虽然 Weblogs.us 时不时的瘫痪一下，但一般只有 BSP<br>
-做出很对不起用户的事情时，我才有搬家的想法，而在免费 BSP 中最厚道的<br>
-Weblogs.us 很对得起我。<br>
-其次自己架站比使用 BSP 还是麻烦一些，虽然以我的 blog<br>
-流量来说应该不用担心流量超标。<br>
+      <content:encoded><![CDATA[<p>看到 <a href="http://blog.cathayan.org/">Cathayan</a> <a href="http://blog.cathayan.org/item/1575">抱怨 Kazix.com 的空间性价比不高</a>，又看到 <a href="http://blog.sina.com.cn/xbeta">xbeta</a> <a href="http://blog.sina.com.cn/u/46dac66f010008za">有意自己架空间</a>，而<a href="http://www.ipang.net/">伍岭</a>也邀我一起使用 <a href="http://www.ixwebhosting.com/">ixwebhosting</a> 的空间。</p>
+<p>虽然 Weblogs.us 时不时的瘫痪一下，但一般只有 BSP 做出很对不起用户的事情时，我才有搬家的想法，而在免费 BSP 中最厚道的 Weblogs.us 很对得起我。<br>
+其次自己架站比使用 BSP 还是麻烦一些，虽然以我的 blog 流量来说应该不用担心流量超标。<br>
 然后是我<a href="http://calon.weblogs.us/2005/07/02/tantan_wo_dui_blog_de_lijie/">以前的一个说法</a>：</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>即使是金钱和技术力量都接近网民平均水准的任何一个个人，都能够在数分钟内发布以往个人站点站长花不少时间才能够发布的信息，找到免费的 BSP，注册，编辑，发布，如此而已。</p>
+</blockquote>
+<blockquote>
+<p>如果我可以不花分文享受到不错的 blog 服务，能够享受到信息发布的自由，能够让我的观点在互联网上传播，那么一个粗通英文的普通人便都可以到处找到畅所欲言的场所。</p>
+</blockquote>
+<p>而掏钱买域名买空间架站，感觉就和“低端用户”有了距离。当然，这种症状和太把自己当回事有关系…</p>
 <p>其实如果真的买了空间，也可以两边同步更新的嘛。我自己倒是没什么强大的动力非要搬家不可，不过对读者来说体验会好很多吧。</p>
 ]]></content:encoded>
     </item>

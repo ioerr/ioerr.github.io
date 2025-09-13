@@ -184,7 +184,7 @@ Docs 都适用；<br>
       <content:encoded><![CDATA[<p>抽空改了个极简风格的主题 <a href="http://mnmlist.com/theme">mnmlist</a>。</p>
 <p>原主题：mnmlist v1<br>
 原作者： Leo Babauta<br>
-原作者地址： <a href="http://mnmlist.com">http://mnmlist.com</a> <br>
+原作者地址： <a href="http://mnmlist.com">http://mnmlist.com</a><br>
 原作主题地址： <a href="http://mnmlist.com/theme">http://mnmlist.com/theme</a></p>
 <p>修改主题：minimore<br>
 修改者：Calon<br>
@@ -231,24 +231,18 @@ Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方�
       <pubDate>Tue, 25 Sep 2007 14:33:27 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/zhunbei-shengji-dao-wp-23/</guid>
       <description>打算把“滞销书”升级到 WordPress 2.3 版本，如果这几天 blog 无法访问，说明正在升级，或者升级失败，或者恢复失败… 主题可能会暂时使用原版默认主题，RSS Feed 也可</description>
-      <content:encoded><![CDATA[<p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到<br>
-<a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog<br>
-无法访问，说明正在升级，或者升级失败，或者恢复失败…<br>
+      <content:encoded><![CDATA[<p>打算把“滞销书”<a href="http://codex.wordpress.org/Upgrading_WordPress">升级</a>到 <a href="http://wordpress.org/">WordPress</a> 2.3 版本，如果这几天 blog 无法访问，说明正在升级，或者升级失败，或者恢复失败…<br>
 主题可能会暂时使用原版默认主题，RSS Feed 也可能出现异常状况。</p>
 <p>升级步骤参考<a href="http://calon.weblogs.us/zhunbei_shengji_wordpress_2/">以前的文章</a>修改而成：</p>
 <p>1、备份数据库。<br>
-使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a><br>
-插件导出数据库表。</p>
+使用 <a href="http://www.skippy.net/blog/plugins/">Database Backup</a> 插件导出数据库表。</p>
 <p>2、备份文件。<br>
-由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP<br>
-备份目录的方式，但愿不要出问题…<br>
+由于本地连接 FTP 速度较慢，因此打算使用移动文件到 FTP 备份目录的方式，但愿不要出问题…<br>
 之前也有做本地备份，应该不至于太危险。</p>
 <p>3、停用所有的插件。<br>
-<a href="http://wordpress.org/">WordPress</a><br>
-2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
+<a href="http://wordpress.org/">WordPress</a> 2.3的插件管理有了进步，不会因为某个插件不兼容问题导致整站瘫痪，所以可以跳过这一步。实在不放心就停用吧。</p>
 <p>4、下载并上传 <a href="http://wordpress.org/">WordPress</a> 2.3 文件。<br>
-这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是<br>
-/WP/wordpress-2.3。</p>
+这里是<a href="http://wordpress.org/download/">下载地址</a>，已经上传到了指定目录，目前是 /WP/wordpress-2.3。</p>
 <p>5、移走旧文件。<br>
 保留的文件：wp-config.php、.htaccess、favicon.ico 文件。<br>
 移动剩下的文件到指定的备份目录，目前是 /WP/bak_2.2.1。</p>
@@ -262,10 +256,8 @@ Font-family 采用优先雅黑和 Arial，最终回落到非衬线字体的方�
 所有的表情文件；<br>
 所有的插件；<br>
 /wp-includes/vars.php<br>
-default 主题的<br>
-comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br>
-default<br>
-主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br>
+default 主题的 comments.php、footer.php、header.php、index.php、sidebar.php、single.php、style.css；<br>
+default 主题的自定义按钮图片、blockquote.png、BtnClosed.gif、BtnOpen.gif、crowheader_new.jpg（要改为默认的名字）；<br>
 更新 veryplaintxt 主题；<br>
 根据原来的文件修改 comments.php、header.php、style.css；<br>
 新增的页面模板文件。</p>

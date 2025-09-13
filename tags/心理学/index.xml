@@ -6,16 +6,30 @@
     <description>Recent content in 心理学 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E5%BF%83%E7%90%86%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>鸽子</title>
+      <link>https://ioerr.github.io/posts/gezi/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/gezi/</guid>
+      <description>通过学习 AI 原理发现人类真的是（行为主义意义上的）鸽子和复读机。 我一直以为“人类是鸽子还是复读机？”这个问题中的鸽子是指的斯金纳实验中的鸽子，</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>通过学习 AI 原理发现人类真的是（行为主义意义上的）鸽子和复读机。</p>
+</blockquote>
+<p>我一直以为“人类是鸽子还是复读机？”这个问题中的鸽子是指的斯金纳实验中的鸽子，今天回复的时候顺手一查，才知道是“放鸽子”（即爽约，定下约定后而不赴约，出处是英语中的 gull）中的鸽子。</p>
+<p>原初的行为主义理论虽然早已经式微，但阅读斯金纳的鸽子实验论文仍然能让人联想到无数令人捧腹的人类行为，比如自认为洞察力和判断力异于鸽子，能从极为有限和偏颇的认知中提炼出放之四海的真理规律，并且在短暂的外部刺激下不断固化信念。融合认知心理学对于解释他们的行为已经是太过高端了。</p>
+<p>每个人都可能是自己所处时代的认知囚徒，所以了解历史的作用，除了在不断深入的过程中理解历史的复杂之外，还在于跳出时代的认知局限，避免成为斯金纳的鸽子——摇头晃脑、转圈跳跃、手舞足蹈…沉迷于自己发明的迷信不可自拔。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>狗和鸽子</title>
       <link>https://ioerr.github.io/posts/gou-he-gezi/</link>
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/gou-he-gezi/</guid>
-      <description>一、狗 学习过心理学的人，想必都知道马丁·塞利格曼的习得性无助（learned helplessness）实验： 塞利格曼使用了三只狗与鞍具行为来</description>
+      <description>一、狗 学习过心理学或对心理学有兴趣的人，想必都听说过马丁·塞利格曼的习得性无助（learned helplessness）实验： 塞利格曼使用了</description>
       <content:encoded><![CDATA[<p>一、狗</p>
-<p>学习过心理学的人，想必都知道马丁·塞利格曼的习得性无助（learned helplessness）实验：</p>
+<p>学习过心理学或对心理学有兴趣的人，想必都听说过马丁·塞利格曼的习得性无助（learned helplessness）实验：</p>
 <blockquote>
 <p>塞利格曼使用了三只狗与鞍具行为来做为习得无助感的试验。<br>
 第一只狗简单的被加上鞍具，随后被解下。<br>
@@ -157,7 +171,7 @@
 <li>群体认同：对本群体的成员展示更多同情，对其他群体的成员则较为冷漠</li>
 <li>生物学因素：基因、激素水平、神经系统状态、身体状态（疲劳、饥饿或是醉酒）</li>
 </ul>
-<p>许多人即使不是零度共情，也会因为这些因素的影响，一时关闭共情回路而实施残忍的行为。</p>
+<p>许多人即使不是零度共情，也会因为这些因素影响，一时关闭共情回路而实施残忍的行为。</p>
 <p>那么问题来了，既然有这么多种因素会影响共情，进而导致对同类实施残忍的邪恶行为，“恶=共情腐蚀”的理论是不是解释力太强？<br>
 也许在这么多种因素的影响下，有的人没有发生共情腐蚀也做出了一般意义上的邪恶行为，或者关闭共情回路之后仍然克制了作恶？<br>
 我觉得，不妨部分地接受作者的理论假设，承认共情与社会道德之间存在一定程度的关联关系——毕竟已经有既符合人类直觉又经过实验验证的证据，然后继续关注神经科学在这方面会有什么新发现新进展。</p>
@@ -187,7 +201,10 @@
 结果对方听了大概心里并不好受，可能导致最后事情会向不利于我的方向发展，我也会后悔为什么不干脆像有的“高情商”人士一般，表现得玲珑、圆滑一些。<br>
 但是下次再遇到类似的情境，依然没法过得了自己这一关。</p>
 <p>最近看乔纳森·布朗的《自我》一书，才发现这种现象很典型：</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>高自我监控者认为自己是实用和灵活的，<strong>要在每个情境下成为合时宜（right）的人</strong>。<br>
+在面临一个社会情境时，他们首先会辨别在这种情况下一个典型的模范应该做什么。<br>
+然后他们会用这些知识来指导自己的行为。</p>
 <p>低自我监控者却有不同的行为取向。<br>
 他们认为自己是讲原则性的，并且强调在做什么人和做什么事等问题上保持一致的重要性。<br>
 在面临一个社会情境时，他们更关注内心世界，并用自己的态度信仰和感觉来指导自己的行为。<br>
@@ -220,7 +237,9 @@
 他们享受在不同情境下做不同的人这样的生活，也具备扮演不同的角色的认知和行动技能。<br>
 相反，低自我监控者<strong>认为自己是非常讲原则的人，更看重自己在不同的情境下要“对自己真实”</strong>。<br>
 他们不太擅长把握社会情境的特征，他们的行动技能也没有很好发展。</p>
-<!-- raw HTML omitted -->
+</blockquote>
+<p>站在低自我监控者的角度来看，可能会认为高自我监控者不讲原则、爱说假话，但说到底也只是社会生活中两种不同的策略，并没有绝对的正确与否、道德高下之分。<br>
+有的低自我监控者认识到这一点之后，也许会主动改变自己的社交行为模式，有的也许会因为无力改变而产生社会焦虑，甚至产生社交恐惧症，有的则会心安理得地保持不变——也许这正符合其自我期望的社会形象。</p>
 <p>结论：所以说我们这类人首先要说服自己相信某鬼扯的结论，才能毫无压力地对别人瞎扯淡啊。</p>
 ]]></content:encoded>
     </item>
@@ -230,11 +249,9 @@
       <pubDate>Sat, 13 Nov 2010 14:20:53 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/shenme-shi-zhongyi-zhe-caishi-xiyi/</guid>
       <description>如果你对中医（或其他替代医学）和西医（现代医学）的争论感兴趣，强烈建议花点时间和耐心读完《什麼是中醫，這才是西醫》（GitHub Gist 上的备份）</description>
-      <content:encoded><![CDATA[<p>如果你对中医（或其他替代医学）和西医（现代医学）的争论感兴趣，强烈建议花点时间和耐心读完《<a href="http://wrttn.in/89db80">什麼是中醫，這才是西醫</a>》（<a href="https://gist.github.com/2246054">GitHub<br>
-Gist 上的备份</a>）这一系列的文章。</p>
-<p>没有条件翻墙或者不方便开多篇文章的读者可以看我整理的<a href="https://gist.github.com/2246054">纯文字版</a>，其中的图片就没有附上了，应该不影响理解。</p>
-<p>这个系列的文章是从<a href="http://www.wretch.cc/blog/elleryhuang">黄致翰 blog</a><br>
-上《什麼是中醫，這才是西醫》栏目中汇总而成，应该会在编辑整理后有书籍出版，但不知能否在大陆出版或者买到。</p>
+      <content:encoded><![CDATA[<p>如果你对中医（或其他替代医学）和西医（现代医学）的争论感兴趣，强烈建议花点时间和耐心读完《<a href="http://wrttn.in/89db80">什麼是中醫，這才是西醫</a>》（<a href="https://gist.github.com/2246054">GitHub Gist 上的备份</a>）这一系列的文章。<br>
+没有条件翻墙或者不方便开多篇文章的读者可以看我整理的<a href="https://gist.github.com/2246054">纯文字版</a>，其中的图片就没有附上了，应该不影响理解。</p>
+<p>这个系列的文章是从<a href="http://www.wretch.cc/blog/elleryhuang">黄致翰 blog</a> 上《什麼是中醫，這才是西醫》栏目中汇总而成，应该会在编辑整理后有书籍出版，但不知能否在大陆出版或者买到。</p>
 ]]></content:encoded>
     </item>
   </channel>
