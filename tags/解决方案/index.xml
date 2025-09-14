@@ -6,8 +6,21 @@
     <description>Recent content in 解决方案 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>荒谬的解决方案</title>
+      <link>https://ioerr.github.io/posts/huangmiu-de-jiejue-fangan/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huangmiu-de-jiejue-fangan/</guid>
+      <description>时间是世界上最宝贵的资源，目前的技术水平无法凭空产生多余的时间。 那么如何让每天有25个小时？ 有个方法是调整“小时”的定义，1小时等于3456</description>
+      <content:encoded><![CDATA[<p>时间是世界上最宝贵的资源，目前的技术水平无法凭空产生多余的时间。<br>
+那么如何让每天有25个小时？</p>
+<p>有个方法是调整“小时”的定义，1小时等于3456秒，这样一天就有25个小时了。</p>
+<p>这样的解决方案，一般人一看就会觉得很荒谬是吧。<br>
+但在现实生活中，类似的做法随处可见，人们却习以为常。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>网络基本真理</title>
       <link>https://ioerr.github.io/posts/wangluo-jiben-zhenli/</link>

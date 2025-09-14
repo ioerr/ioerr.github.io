@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>普鲁塔克 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E6%99%AE%E9%B2%81%E5%A1%94%E5%85%8B/</link>
+    <description>Recent content in 普鲁塔克 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E6%99%AE%E9%B2%81%E5%A1%94%E5%85%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>忒修斯之船</title>
+      <link>https://ioerr.github.io/posts/ship-of-theseus/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ship-of-theseus/</guid>
+      <description>普鲁塔克提出的忒修斯之船问题： 如果忒修斯的船上的腐烂的木头逐渐被替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？ 其实只要替</description>
+      <content:encoded><![CDATA[<p>普鲁塔克提出的忒修斯之船问题：</p>
+<blockquote>
+<p>如果忒修斯的船上的腐烂的木头逐渐被替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？</p>
+</blockquote>
+<p>其实只要替换任何一点就不是原来的船了，但“事物是否保持不变”是一个主观认知判断。<br>
+对不同的人而言，不同的认知分辨能力和敏感度决定了是否会视为同一艘船。<br>
+船一直在变，每个人观念中的那艘船有没有在变，才是争议之处。<br>
+类似于唯名论与唯实论之争。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
