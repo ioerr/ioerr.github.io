@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>蝉 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%9D%89/</link>
+    <description>Recent content in 蝉 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E8%9D%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>蝉</title>
+      <link>https://ioerr.github.io/posts/chan/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chan/</guid>
+      <description>看到掉落在地上四脚朝天的蝉。 它从来也不会想，为什么要在地下睡质数个年头，比如13年或17年，钻出地下后唯一的目的是交配繁衍，然后夏天没结束就</description>
+      <content:encoded><![CDATA[<p>看到掉落在地上四脚朝天的蝉。<br>
+它从来也不会想，为什么要在地下睡质数个年头，比如13年或17年，钻出地下后唯一的目的是交配繁衍，然后夏天没结束就匆匆死掉。<br>
+但是人会想，会怀疑这一切是否值得，比如《进击的巨人》中那句名言：</p>
+<blockquote>
+<p>又是为了繁殖吗？<br>
+延续种族这件事对你来说有那么重要吗？</p>
+</blockquote>
+<p>如果存在其他的通用智能，会觉得人的这种想法是 bug 还是 feature 呢？</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
