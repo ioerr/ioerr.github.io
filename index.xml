@@ -6,8 +6,102 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>偷换概念</title>
+      <link>https://ioerr.github.io/posts/touhuan-gainian/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/touhuan-gainian/</guid>
+      <description>偷换概念本身不是什么了不得的事情，偷换概念止于智者。 察觉到偷换了概念的人可以不接受，也可以向其他人揭露这种偷换，总还有对付的办法。 偷换概念后</description>
+      <content:encoded><![CDATA[<p>偷换概念本身不是什么了不得的事情，偷换概念止于智者。<br>
+察觉到偷换了概念的人可以不接受，也可以向其他人揭露这种偷换，总还有对付的办法。<br>
+偷换概念后强迫所有人都必须接受，不允许反对，不允许讨论，不允许自由阐释，确保不会被纠正，这才是偷换概念最大的问题。</p>
+<p>赵高并不是凭借过人的智慧说服大臣们认同全新的概念阐释，而是那随时可能向头上挥舞的刀剑让人指鹿为马。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>恐惧和匮乏养成的文明观</title>
+      <link>https://ioerr.github.io/posts/kongju-he-kuifa-yangcheng-de-wenmingguan/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/kongju-he-kuifa-yangcheng-de-wenmingguan/</guid>
+      <description>感觉很多人在长期恐惧和匮乏的环境中形成的价值观甚至是严重的心理疾病，已经很难再改变或修复了，只有等新一代在不那么恐惧和匮乏的环境中成长之后，</description>
+      <content:encoded><![CDATA[<p>感觉很多人在长期恐惧和匮乏的环境中形成的价值观甚至是严重的心理疾病，已经很难再改变或修复了，只有等新一代在不那么恐惧和匮乏的环境中成长之后，才能改善在人群中的占比。</p>
+<p>他们对文明的理解是这样的：<br>
+仓禀实而知礼节，所以我们先要有钱，把别人的钱都抢过来，就自然会发展出文明了。<br>
+现在讲文明的人，祖上都是当过强盗的，所以抢劫是文明的前置、必要条件。<br>
+你没有体会过穷到吃不饱饭的感觉，快饿死了当然不得不去抢劫，你说不要抢劫就是站着说话不腰疼，何不食肉糜。</p>
+<p>看到<a href="https://utopia.cool/@incognito/115142921159531352">象友发的</a>（有做精简改动）：</p>
+<blockquote>
+<p>法国人价值观里的fraternité这个词一般被翻译成“博爱”。这个词带有宗教色彩，上帝说，要爱你的邻人。<br>
+很多法国人真的信这个，这并不是一种虚伪和圣母，而是这种民族价值观强调的是人类层面上的互助。很多人发自内心地相信，当你落难了，我需要给予你人道主义的帮助，所以灾难降临到我头上，我也会得到救助。<br>
+中国人不信这个，就是因为我们早就意识到了没有人会来帮助我们，一切都要靠我们自己。我们这一代人，完全不相信人与人之间的互助，毫无安全感。</p>
+</blockquote>
+<p>再补充一个，就是不相信人可能会对其他人有无条件的善意和同理心。</p>
+<p>如果感受不到他人的善意，会说“社会本就冷漠无情”；<br>
+发现有人超出了刻板认知，就会说“这都是虚伪的圣母”，甚至期待他们被辜负和伤害；<br>
+而看到反面的恶人恶行后，则终于安心：“这个世界果然是我认识的那样”；<br>
+于是循环往复，不断强化这种认知，永远也跳不出来。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>领导驱动开发</title>
+      <link>https://ioerr.github.io/posts/ldd/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ldd/</guid>
+      <description>我们已知许多软件开发方法： 行为驱动开发（BDD - Behavior-Driven Development） 领域驱动设计（DDD - Domain-Driven Design） 测试驱动开发（TDD - Test-Driven De</description>
+      <content:encoded><![CDATA[<p>我们已知许多软件开发方法：<br>
+行为驱动开发（BDD - Behavior-Driven Development）<br>
+领域驱动设计（DDD - Domain-Driven Design）<br>
+测试驱动开发（TDD - Test-Driven Development）<br>
+数据驱动开发（DDD - Data-Driven Development）<br>
+功能驱动开发（FDD - Feature-Driven Development）<br>
+……</p>
+<p>但归根到底是 LDD，Leader-Driven Development。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>历史的作用</title>
+      <link>https://ioerr.github.io/posts/lishi-de-zuoyong/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/lishi-de-zuoyong/</guid>
+      <description>通常人们认为学习历史的作用是从中找到历史的规律，用于指导决策。 比如常见的说法有： 前车之鉴 前事不忘，后事之师 以史为镜，可以知兴替 究天人之际，通</description>
+      <content:encoded><![CDATA[<p>通常人们认为学习历史的作用是从中找到历史的规律，用于指导决策。</p>
+<p>比如常见的说法有：<br>
+前车之鉴<br>
+前事不忘，后事之师<br>
+以史为镜，可以知兴替<br>
+究天人之际，通古今之变<br>
+……<br>
+（黑格尔那句“人类从历史中学到的唯一教训就是人类无法从历史中学到任何教训”，也被认为有翻译问题，原文“daß die Geschichte die Eigenheit hat，repetiert zu werden，so lange，bis die Lektion begriffen wird.”<a href="https://www.zhihu.com/question/375768354/answer/1047982905">应该翻译为</a>“历史总是在人们认识到它的本来面目之前不断的重复运动着。”）</p>
+<p>这背后的思维是典型的经验主义，即，只要全面充分深入地了解了历史，就必然能够发现那个唯一正确的真理。<br>
+而如果总结的经验有错误，要么是收集的历史信息不全（史料问题），要么是研究方法不对或洞察能力不足（史识问题），要么是被别有用心地歪曲了或者明知正道而偏要走邪路（史德问题）。<br>
+总之，能够通过历史认识到真理这一点绝对不成问题。（也因为如此，许多人还认为，自己从“历史”的信息中“推导”出的“真理”才是最正确的那一个，那其他人可不就是“<a href="../fei-chun-ji-huai">非蠢即坏</a>”了么。）<br>
+就像是人们揶揄的“九年义务教育史观”，充斥了线性的时间、简单机械的因果、黑白分明的两极和先预设终极解释再挑拣诠释历史文献的宗教神学式研究法。</p>
+<p>而在我看来，学习历史固然可以不断了解更多关于过去的信息，帮助我们不断优化认识世界的模型，但永远要慎言掌握了绝对的真理，谨防历史成为为宗教信仰服务的工具。<br>
+新世代的历史学者们不再那么狂妄地想要提出一个终极的解释模型，而是用更多元的视角和更先进的手段，更深入地挖掘出历史更加丰富多彩的面貌。而且越是深入研究，越是能够体会其中的复杂。<br>
+因此，历史并不总是能够让我们得到可靠的规律，它的作用更体现在让人超越当下的时代，更加深刻地认识到，人是复杂的，社会是复杂的，世界更是复杂的，从而更加谦虚谨慎而非狂妄自负。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>你要…干什么？</title>
+      <link>https://ioerr.github.io/posts/ni-yao-gan-shenme/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ni-yao-gan-shenme/</guid>
+      <description>新疆夏塔景区网红吊桥断裂5人遇难24人受伤。 出事后，一群既不玩徒步也不了解徒步的人说，闲着没事干去城市绿地、公园散步就好了，非要徒步干什么？</description>
+      <content:encoded><![CDATA[<p><a href="https://world.chinadaily.com.cn/a/202508/07/WS68943b3da310ebef36290caa.html">新疆夏塔景区网红吊桥断裂5人遇难24人受伤</a>。<br>
+出事后，一群既不玩徒步也不了解徒步的人说，闲着没事干去城市绿地、公园散步就好了，非要徒步干什么？</p>
+<p>我虽然不是徒步玩家，但起码能够理解徒步的需求合理。<br>
+管理不在于将任何风险都看作致命因素，一禁了之，而是界定清楚风险等级权责，完善法规，学习更科学合理的运营方式。<br>
+如果自己不理解、不需要的活动一有点事就要禁止，那大家能够干的事情就只剩下所有人都必须的最大公约数。</p>
+<p>你要嚼口香糖干什么？有噎死的风险啊，还有人随地乱吐，我看你别吃了吧。<br>
+你骑摩托车、自行车、踩滑板、蹬轮滑干什么？走路、公交或开车不好吗？<br>
+你要刺青干什么？容易让人误会，激化社会矛盾，影响市容，保持皮肤干净不好吗？<br>
+你要上网干什么？说不定会接触什么危险的思想，还浪费公帑保护你，干脆别上了吧。<br>
+你去户外晒太阳干什么？晒太阳有皮肤癌风险，接触太多人有传染病风险，打雷刮风下雨天上飞猫都可能伤到人，你还是一直呆在屋里吧。</p>
+<p>以及最经典的那句：你要自由干什么？</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>消费者的价值观</title>
       <link>https://ioerr.github.io/posts/xiaofeizhe-de-jiazhiguan/</link>
@@ -115,87 +209,6 @@ a cause, principle, or system of beliefs held to with ardor and faith.<br>
 <p>有个方法是调整“小时”的定义，1小时等于3456秒，这样一天就有25个小时了。</p>
 <p>这样的解决方案，一般人一看就会觉得很荒谬是吧。<br>
 但在现实生活中，类似的做法随处可见，人们却习以为常。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>怎么看数字生命</title>
-      <link>https://ioerr.github.io/posts/zenme-kan-shuzi-shengming/</link>
-      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/zenme-kan-shuzi-shengming/</guid>
-      <description>数字生命，你当它是数字，还是当他/她/它是生命？ 就像有的人把狗当作宠物，有的当作亲人和朋友，有的当作食物。 有的人把自己和别人当人，也有的人不</description>
-      <content:encoded><![CDATA[<p>数字生命，你当它是数字，还是当他/她/它是生命？</p>
-<p>就像有的人把狗当作宠物，有的当作亲人和朋友，有的当作食物。<br>
-有的人把自己和别人当人，也有的人不把自己或别人当人。</p>
-<p>“是什么”，很多时候没有统一标准，取决于每个人各自怎么看。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>文化传播必须精准吗？</title>
-      <link>https://ioerr.github.io/posts/wenhua-chuanbo-bixu-jingzhun-ma/</link>
-      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/wenhua-chuanbo-bixu-jingzhun-ma/</guid>
-      <description>了解文化并精准传播很难，误读、挪用、魔改、刻板印象等等在所难免，但文化首先要传播，要让更多人热爱，然后自然会有人正本溯源。 如果批评的结果是让</description>
-      <content:encoded><![CDATA[<p>了解文化并精准传播很难，误读、挪用、魔改、刻板印象等等在所难免，但文化首先要传播，要让更多人热爱，然后自然会有人正本溯源。<br>
-如果批评的结果是让所有理解可能有偏差的人闭嘴，停止创造和传播，那这样的文化很难有多少活力。</p>
-<p>另外，浸淫在文化之中的人未必就比外人更了解某个文化，局内人可能因为各种莫名其妙的自豪感优越感耻于正视和反思文化中的糟粕，局外人反而可以有新奇而独特的观点和视角。<br>
-但现实中，前者往往以文化正统、权威自居，批评和筛选后者的文化理解。</p>
-<p>看到了曹天元的这个<a href="https://www.zhihu.com/question/1895443494971072799/answer/1899371731665281724">回答</a>，道理是类似的：</p>
-<blockquote>
-<p>任何一个合格的科普作者，都应该把传播性放在第一位，而准确性则应该为之让步。反而来，大众对于科普的期待也应该是“增长见识”，而不是“学会知识”。</p>
-</blockquote>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>忒修斯之船</title>
-      <link>https://ioerr.github.io/posts/ship-of-theseus/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/ship-of-theseus/</guid>
-      <description>普鲁塔克提出的忒修斯之船问题： 如果忒修斯的船上的腐烂的木头逐渐被替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？ 其实只要替</description>
-      <content:encoded><![CDATA[<p>普鲁塔克提出的忒修斯之船问题：</p>
-<blockquote>
-<p>如果忒修斯的船上的腐烂的木头逐渐被替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？</p>
-</blockquote>
-<p>其实只要替换任何一点就不是原来的船了，但“事物是否保持不变”是一个主观认知判断。<br>
-对不同的人而言，不同的认知分辨能力和敏感度决定了是否会视为同一艘船。<br>
-船一直在变，每个人观念中的那艘船有没有在变，才是争议之处。<br>
-类似于唯名论与唯实论之争。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>南辕北辙</title>
-      <link>https://ioerr.github.io/posts/nanyuanbeizhe/</link>
-      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/nanyuanbeizhe/</guid>
-      <description>不少人以理性和现实主义自居，但其所谓的理性和极致的现实主义，却是为了一个既不理性也不现实的目标服务。 工具的理性和实用，不能代替目标的理性和实</description>
-      <content:encoded><![CDATA[<p>不少人以理性和现实主义自居，但其所谓的理性和极致的现实主义，却是为了一个既不理性也不现实的目标服务。</p>
-<p>工具的理性和实用，不能代替目标的理性和实用，就像南辕北辙的故事：</p>
-<blockquote>
-<p>西汉·刘向《战国策·魏策四》：<br>
-今者臣来，见人于大行，方北面而持其驾，告臣曰：“我欲之楚。”<br>
-臣曰：“君之楚，将奚为北面?”<br>
-曰：“吾马良。”<br>
-臣曰：“马虽良，此非楚之路也。”<br>
-曰：“吾用多。”<br>
-臣曰：“用虽多，此非楚之路也。”<br>
-曰：“吾御者善。”<br>
-此数者愈善，而离楚愈远耳。</p>
-</blockquote>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>中国梦的典型</title>
-      <link>https://ioerr.github.io/posts/zhongguomeng-de-dianxing/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/zhongguomeng-de-dianxing/</guid>
-      <description>秦始皇是大一统中国梦的典型代表之一。 强力君主 无限权力 法家酷吏 军国机器 除了自己不是皇帝以及没法长生以外，满足了大多数人对帝国的一切幻想。</description>
-      <content:encoded><![CDATA[<p>秦始皇是大一统中国梦的典型代表之一。</p>
-<ul>
-<li>强力君主</li>
-<li>无限权力</li>
-<li>法家酷吏</li>
-<li>军国机器</li>
-</ul>
-<p>除了自己不是皇帝以及没法长生以外，满足了大多数人对帝国的一切幻想。</p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>开发方法 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95/</link>
+    <description>Recent content in 开发方法 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>领导驱动开发</title>
+      <link>https://ioerr.github.io/posts/ldd/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/ldd/</guid>
+      <description>我们已知许多软件开发方法： 行为驱动开发（BDD - Behavior-Driven Development） 领域驱动设计（DDD - Domain-Driven Design） 测试驱动开发（TDD - Test-Driven De</description>
+      <content:encoded><![CDATA[<p>我们已知许多软件开发方法：<br>
+行为驱动开发（BDD - Behavior-Driven Development）<br>
+领域驱动设计（DDD - Domain-Driven Design）<br>
+测试驱动开发（TDD - Test-Driven Development）<br>
+数据驱动开发（DDD - Data-Driven Development）<br>
+功能驱动开发（FDD - Feature-Driven Development）<br>
+……</p>
+<p>但归根到底是 LDD，Leader-Driven Development。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
