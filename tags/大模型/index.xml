@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>大模型 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 大模型 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>巴别塔建成了</title>
+      <link>https://ioerr.github.io/posts/tower-of-babel-jiancheng-le/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/tower-of-babel-jiancheng-le/</guid>
+      <description>看到有象友说： LLM把巴别塔建起来了，Youtube、Bilibili、Reddit 都在做平台自动多语言支持，还有苹果等硬件厂商做原生支持的</description>
+      <content:encoded><![CDATA[<p>看到<a href="https://nofan.xyz/@mihuan/115247148211551275">有象友说</a>：</p>
+<blockquote>
+<p>LLM把巴别塔建起来了，Youtube、Bilibili、Reddit 都在做平台自动多语言支持，还有苹果等硬件厂商做原生支持的实时翻译，说不定有一天人类可以各自用母语交流了。</p>
+</blockquote>
+<p>语言可以交流了，网络却要隔断；<br>
+网络打通了，思想有了隔阂；<br>
+巴别塔建成了，结果发现建了好几座。😂</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>转播 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%BD%AC%E6%92%AD/</link>
+    <description>Recent content in 转播 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E8%BD%AC%E6%92%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>足球比赛转播服务</title>
+      <link>https://ioerr.github.io/posts/zuqiu-bisai-zhuanbo-fuwu/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/zuqiu-bisai-zhuanbo-fuwu/</guid>
+      <description>可穿戴视频拍摄设备越来越成熟，如今足球比赛已经增加了主裁判的转播视角，有的场景看着还挺刺激，但光是裁判视角还不够过瘾，而且胸口的视角不够灵活</description>
+      <content:encoded><![CDATA[<p>可穿戴视频拍摄设备越来越成熟，如今足球比赛已经增加了主裁判的转播视角，有的场景看着还挺刺激，但光是裁判视角还不够过瘾，而且胸口的视角不够灵活。<br>
+今后估计每个球员身后都会飞着一个小型无人机，用过肩视角追踪拍摄，前提是无人机的避障能力要能够高到近距离躲避高速足球。</p>
+<p>再加上胸前或者头盔中的摄像头：<br>
+胸前的摄像头可以和数据采集胸带集成。<br>
+为了保护运动员头部健康，可能像美式橄榄球一样强制戴头盔？那正好可以集成摄像头。</p>
+<p>再加上想象了很久但一直没有大规模普及的 VR/AR 模拟转播技术，一共可以提供三种档次的转播服务，丰俭由君。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
