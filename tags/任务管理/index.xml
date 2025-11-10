@@ -13,9 +13,9 @@
       <link>https://ioerr.github.io/posts/chun-wenben-xinxi-guanli-fangan/</link>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ioerr.github.io/posts/chun-wenben-xinxi-guanli-fangan/</guid>
-      <description>一直想写一篇用纯文本格式和纯文本工具管理个人信息的文章，分享我的经验和想法。 Michael Descy 专门建立了一个网站 Plaintext Productivity，用来说明使用纯</description>
+      <description>一直想写一篇用纯文本格式和纯文本工具管理个人信息的文章，分享我的经验和想法。 看到Michael Descy专门建立了一个网站 Plaintext Producti</description>
       <content:encoded><![CDATA[<p>一直想写一篇用纯文本格式和纯文本工具管理个人信息的文章，分享我的经验和想法。</p>
-<p>Michael Descy 专门建立了一个网站 <a href="https://plaintext-productivity.net/">Plaintext Productivity</a>，用来说明使用纯文本管理信息的好处，我将会基于他的经验，谈谈我的心得。</p>
+<p>看到Michael Descy专门建立了一个网站 <a href="https://plaintext-productivity.net/">Plaintext Productivity</a>，用来说明使用纯文本管理信息的好处，我也顺着这个话题谈谈。</p>
 <h2 id="什么是纯文本">什么是纯文本</h2>
 <p>所谓纯文本，就是只用最基础的文本字符表达信息，而不使用任何特殊样式的格式。这里的特殊样式包括粗体、斜体、下划线、删除线、文字颜色、背景颜色、上标、下标等，所有字符的字体样式统一，也不会与图片、视频等非文字内容混合显示。<br>
 一般在计算机系统中保存为后缀名为 txt 的文件，实际上 <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 格式的 md 后缀文件等也都是纯文本文件。<br>
@@ -30,7 +30,7 @@ XML、JSON 等格式虽然也是文本文件，但更多是用于机器程序处
 <li>
 <p>格式通用。<br>
 有无数编辑器可以打开、阅读和编辑纯文本文件，能借助 <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>) 等工具转换成许多其他格式（HTML、PDF、LaTeX 等等），任何平台上都有可直接搜索纯文本文件内容的工具，比如 grep、<a href="http://www.ghisler.com/">Total Commander</a> 和 <a href="https://anytxt.net/">Anytxt</a>。<br>
-而 Office 格式、RTF 格式等富文本格式适用的编辑器和其他工具就少了好几个数量级。<br>
+而 Word 格式、RTF 格式等富文本格式适用的编辑器和其他工具就少了好几个数量级。<br>
 不管技术如何发展，你永远不会为找不到能纯文本编辑器而发愁，不用担心内容无法导出和转换的风险，不依赖特定的软件和平台。</p>
 </li>
 <li>
@@ -39,7 +39,7 @@ Evernote 可能活不过另一个10年。Notion，谁知道呢？<br>
 OneNote 已经算长寿的了，Microsoft Word 为兼容历史格式付出的成本令人感动，但只要计算机还存在，纯文本格式就可以一直存在，且代价极低。</p>
 </li>
 <li>
-<p>方便解析<br>
+<p>方便解析。<br>
 因此也适合于内容比对、增量备份、内容同步和版本管理。<br>
 一些二进制文件一旦变更内容，就只能全量重新备份或同步，而纯文本文件的备份、同步和版本管理可以在经过内容比对后，只关注发生变化的部分，存储空间消耗小，速度快，效率高。</p>
 </li>
@@ -55,7 +55,7 @@ OneNote 已经算长寿的了，Microsoft Word 为兼容历史格式付出的成
 更极端的情况下，就算停电、计算机和手机故障，基于易读的纯文本格式，你还能在纸质笔记本上临时对付，等电子设备恢复了能马上低成本转存。</p>
 </li>
 </ol>
-<p>当然，如果你需要丰富的文本样式、多媒体的表现形式和高级的排版与组织结构，大可不必死抱着纯文本不放。不同的场景就应该选择最适合的工具，以纯文本为中心的系统完全也可以与其他工具组合起来，各取所长，达到更好的效果。</p>
+<p>当然，如果你需要丰富的文本样式、多媒体的表现形式和高级的排版与组织结构，大可不必死抱着纯文本不放。不同的场景就应该选择最适合的信息保存格式和管理工具，以纯文本为中心的系统也可以与其他工具组合起来，各取所长，达到更好的效果。</p>
 <h2 id="为什么暂时推荐-markdown">为什么（暂时）推荐 Markdown</h2>
 <p>上面说到，<a href="https://daringfireball.net/projects/markdown/">Markdown</a> 也是一种纯文本文件，目前推荐使用这一格式的原因主要有：</p>
 <ul>
@@ -155,10 +155,11 @@ OneNote 已经算长寿的了，Microsoft Word 为兼容历史格式付出的成
 <h2 id="日志系统">日志系统</h2>
 <p>剩下的长期规划的其他工作，特别是需要经过思考和分析的工作，我仍然还是在 todo.txt 中维护，定期生成近期待办事项放进上述的日历系统。<br>
 我的生活日志也在另一个 todo.txt 文件中记录。同样通过 Workflowy 快速录入和同步，定期转存和整理。</p>
-<p>记录日志不需要操心什么计划完成时间、优先级、完成状态等等，每一行开头是日期，后面用简短的一句话描述当天的经历或感想就好。</p>
+<p>记录日志不需要操心什么计划完成时间、优先级、完成状态等等，每一行开头是日期，后面用简短的一句话描述当天的经历或感想就好。同一天的多件事情就分多行记录。</p>
 <p>所以这几者的关系是：</p>
 <p><img loading="lazy" src="https://iili.io/K6m0koQ.png" alt="任务管理、日历和日志系统关系"  />
 </p>
+<p>目前感觉良好。</p>
 <h2 id="局限和展望">局限和展望</h2>
 <p>没有万能的工具，既然选择了纯文本格式，自然也会有代价。</p>
 <p>比如上述任务管理系统，对习惯了围绕邮件管理任务的人来说就要多出不少工作量，还有人的工作流以 Slack、飞书、钉钉、企业微信和 QQ 等各种即时通信工具为中心，有的自带了任务管理功能，往往比基于纯文本的系统功能强大和易用。<br>
@@ -177,9 +178,10 @@ Markdown 编辑器可以优化内嵌图片和附件的体验，但是表格始�
 <a href="https://ploum.net/2025-09-03-calendar-txt.html">How I fell in love with calendar.txt</a><br>
 <a href="https://isene.org/hyperlist/">HyperList</a><br>
 <a href="https://taskwarrior.org/">TaskWarrior</a><br>
-<a href="https://www.calcurse.org/">calcurse</a><br>
+<a href="https://www.calcurse.org/">Calcurse</a><br>
 <a href="https://orgmode.org/">GNU Emacs Org Mode</a><br>
-<a href="https://plaintextaccounting.org/">Plain Text Accounting (PTA)</a></p>
+<a href="https://plaintextaccounting.org/">Plain Text Accounting (PTA)</a><br>
+<a href="https://workflowy.com/invite/58efd61b.lnx">Workflowy</a>（如果点击该链接注册的话，每月的条目限额能免费增加100个）</p>
 ]]></content:encoded>
     </item>
   </channel>
