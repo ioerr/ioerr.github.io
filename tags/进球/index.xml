@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>进球 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E8%BF%9B%E7%90%83/</link>
+    <description>Recent content in 进球 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E8%BF%9B%E7%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>角球有没有越位？</title>
+      <link>https://ioerr.github.io/posts/jiaoqiu-youmeiyou-yuewei/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/jiaoqiu-youmeiyou-yuewei/</guid>
+      <description>看到有网友问，足球中发角球时有没有可能越位？ 查 IFAB 的规则书，在越位部分明确提到，直接接到角球、球门球和边线球时不存在越位。 There is no offside offence if a player receives the</description>
+      <content:encoded><![CDATA[<p>看到有网友问，足球中发角球时有没有可能越位？<br>
+查 <a href="https://downloads.theifab.com/downloads/laws-of-the-game-2025-26-single-pages">IFAB 的规则书</a>，在越位部分明确提到，直接接到角球、球门球和边线球时不存在越位。</p>
+<blockquote>
+<p>There is no offside offence if a player receives the ball directly from:<br>
+• a goal kick<br>
+• a throw-in<br>
+• a corner kick</p>
+</blockquote>
+<p>在“越位位置”接角球和边线球进球有效的例子不少，接球门球进球的例子就很难找了。</p>
+<p>我能够想到的例子是：<br>
+2010年世界杯，德国和英格兰的比赛第20分钟，诺伊尔开球门球时，克洛泽在越位位置。<br>
+克洛泽先向后场反跑，然后再变向向前插接球，与厄普森对抗后洞穿了詹姆斯把守的球门。<br>
+视频回放中接球前的位置转瞬即逝，回放时也很难看清，容易看成是后插上。<br>
+但从开球的瞬间来看克洛泽应该处于后卫身后。具体见<a href="https://youtu.be/3KVzz5tr8Eo?si=zRG9-vT1zqO4xzgi&amp;t=23">第23秒</a>。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
