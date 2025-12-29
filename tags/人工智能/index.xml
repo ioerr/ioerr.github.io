@@ -6,8 +6,27 @@
     <description>Recent content in 人工智能 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日志可视化小工具</title>
+      <link>https://ioerr.github.io/projects/todotxt-log-visualizer/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/projects/todotxt-log-visualizer/</guid>
+      <description>在《纯文本信息管理方案》一文中有提到最近在用 Todo.txt 格式记日志。今天忽然想到，可以利用 AI 快速写一个网页小工具展示最近的日志记录。 生成初版的网页只要</description>
+      <content:encoded><![CDATA[<p>在《<a href="../../posts/chun-wenben-xinxi-guanli-fangan">纯文本信息管理方案</a>》一文中有提到最近在用 <a href="http://todotxt.org/">Todo.txt</a> 格式记日志。今天忽然想到，可以利用 AI 快速写一个网页小工具展示最近的日志记录。</p>
+<p>生成初版的网页只要几秒钟，调整细节花了不少时间。<br>
+虽然这个版本还不完全满意，起码已经基本可用了。</p>
+<p>链接在<a href="../../todotxt-log-visualizer.html">这里</a>，功能非常简单：<br>
+打开网页后导入 Todo.txt 格式文本文件，会自动解析和按年份、月份展示日历视图。<br>
+没有记录的月份会自动隐藏。<br>
+周六和周日有橙红色角标。<br>
+点击有日志的日期的单元格，会在下方展示日志详情。<br>
+右上角可以检索过滤。</p>
+<p><a href="https://freeimage.host/i/fWVoM0u"><img loading="lazy" src="https://iili.io/fWVoM0u.png" alt="todotxt log visualizer"  />
+</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>GFW的思维</title>
       <link>https://ioerr.github.io/posts/gfw-de-siwei/</link>
@@ -620,36 +639,6 @@ Netflix 想要先还原，再构建，就得把怎么搭桥跨越这个鸿沟想
 <p>曾经的地球霸主恐龙统治地球表面超过1亿6千万年，人类站到食物链顶端的时间还差得远，但如果坚持卢德主义，失去技术发展带来的无限可能，那么人类的未来与恐龙将没有区别，甚至可能还不如恐龙，因为自然界的进化机制会推动恐龙不断进化，而人类有能力在思想文化上故步自封，裹足不前，压倒自然的进化动力。</p>
 <p>另：最近看到冯象的《我是阿尔法》和阮一峰的《未来世界的幸存者》都表达了对机器取代人类的担忧，以及为了避免这种结局而停止技术发展的倾向。<br>
 这方面最值得说道的应该是 Kaczynski 的《工业社会及其未来》，事迹影响大，中文读者相对比较熟悉，一些对未来技术发展的思考可以引出不少有意思的话题，后续可以写个系列出来。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>机器与极权</title>
-      <link>https://ioerr.github.io/posts/jiqi-yu-jiquan/</link>
-      <pubDate>Wed, 25 Jan 2017 16:00:52 +0800</pubDate>
-      <guid>https://ioerr.github.io/posts/jiqi-yu-jiquan/</guid>
-      <description>过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题： 要防范奴隶结社造反 要操心奴隶是否会消极工作 要避</description>
-      <content:encoded><![CDATA[<p>过去奴隶主支使奴隶劳作生产，需要有暴力手段和作为帮凶的高级奴隶，要应对随之而来的权力组织问题：<br>
-要防范奴隶结社造反<br>
-要操心奴隶是否会消极工作<br>
-要避免手下叛变夺权<br>
-一方面奴隶主要控制和命令他人，一方面他也无法彻底摆脱他人。</p>
-<p>而机器代替人力，甚至代替中层管理，貌似给极权者带来了新的希望：<br>
-如果生产者和管理者都是忠诚于自己的，是否可以消除掉人类社会的组织成本呢？<br>
-或者机器只是替换掉中间的高级奴隶阶层，用忠诚的机器人暴力压制底层的人类奴隶呢？</p>
-<p>这个新的社会组织模型看上去很像中央计划经济模型：<br>
-奴隶主对应中央计划部门，负责提出发展目标和确定计划，因为权力归于一人，不存在意见冲突；<br>
-机器人搜集数据和协助制定计划，理论上比人力人脑更加可靠，功能单一也不用担心造反；<br>
-而且某些毛派深恶痛绝的官僚阶层被机器人取代之后，也就没有了他们认为导致计划经济生产总是失败的自私自利和腐败。</p>
-<p>如果底层劳动力是机器人，相当于这个“社会”只有一人，其他都是其生产机器的零件。多个社会并存时最终还是个人竞争的模型。<br>
-如果底层劳动力还是人类，那么机器人中层管理就要考虑镇压或消解底层反抗的成本，区别在于不需要考虑中层本身反叛的风险成本。</p>
-<p>这样可以引出不少有意思的问题和结论：</p>
-<ol>
-<li>只要底层奴隶的生产力在维持基本生存发展条件之外还能支撑机器人管理组织的消耗（理论上大大小于人类社会的组织成本）和极权者的意志，这个社会是否就可以一直持续下去——直到被另一个生产力更高的社会组织或文明消灭，比如说机器人完全取代人类。\</li>
-<li>人工智能高度发达，数据采集、处理和生产效率飞升，同时管理成本大大降低，是否中央计划经济就可以实现、压到自组织的市场经济并一直延续了呢？</li>
-<li>人类相对于机器人，有什么不可取代的并且足以抵消社会组织成本的生产力优势吗？</li>
-<li>人类社会的组织成本真的是影响生产力的成本，而不是某种可能优于只有忠诚的机器人的社会组织的特性吗？</li>
-<li>各种认为中央计划经济无法持续，或者无法竞争过市场经济的理论，哪些在机器人大规模应用于生产和管理后仍然成立，哪些不能成立呢？</li>
-</ol>
 ]]></content:encoded>
     </item>
   </channel>

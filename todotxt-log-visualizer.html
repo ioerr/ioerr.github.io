@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo.txt Log</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .day-cell { 
+            width: 26px; height: 26px; min-width: 26px; 
+            position: relative; overflow: hidden;
+            box-sizing: border-box;
+        }
+        .month-label { width: 50px; min-width: 50px; }
+        
+        .weekend-badge::after {
+            content: '';
+            position: absolute; top: 0; right: 0;
+            width: 0; height: 0;
+            border-style: solid; border-width: 0 6px 6px 0;
+            border-color: transparent OrangeRed transparent transparent;
+            z-index: 5;
+        }
+
+        .today-underline {
+            border-bottom: 4px solid #32CD32 !important;
+            border-bottom-left-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+
+        ::-webkit-scrollbar { height: 8px; width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+        .fade-in { animation: fadeIn 0.15s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* 新增：欢迎区悬停效果 */
+        #welcomeInfo { transition: all 0.2s; }
+        #welcomeInfo:hover { background-color: #f8fafc; transform: scale(1.01); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen pb-20 font-sans">
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4 flex-nowrap overflow-x-auto">
+            <div class="flex items-center gap-2 flex-shrink-0 mr-4">
+                <span class="text-2xl">🗓️</span>
+                <h1 class="text-lg font-bold text-slate-900 whitespace-nowrap tracking-tight">Todo.txt Log Visualizer</h1>
+            </div>
+
+            <div class="flex items-center gap-3 flex-nowrap flex-shrink-0">
+                <input type="file" id="fileInput" accept=".txt" class="hidden">
+                <label for="fileInput" class="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-lg text-sm font-semibold cursor-pointer hover:bg-indigo-100 transition-colors whitespace-nowrap border border-indigo-100 flex-shrink-0">
+                    导入日志
+                </label>
+
+                <div class="flex items-center bg-slate-100 rounded-lg p-1 shadow-inner flex-nowrap border border-slate-200">
+                    <span class="px-2 text-slate-400 text-sm">🔍</span>
+                    <input type="text" id="filterInput" placeholder="输入关键词检索..." 
+                           class="bg-transparent border-none focus:ring-0 text-sm px-2 w-32 sm:w-64 flex-grow"
+                           onkeyup="if(event.keyCode==13) applyFilter()">
+                    <button onclick="applyFilter()" class="bg-indigo-600 text-white px-4 py-1.5 rounded-md text-sm font-semibold hover:bg-indigo-700 whitespace-nowrap flex-shrink-0">
+                        确定
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="mainContainer" class="max-w-7xl mx-auto px-4 mt-8 space-y-8">
+        <div id="welcomeInfo" onclick="document.getElementById('fileInput').click()" 
+             class="text-center py-32 text-slate-400 border-2 border-dashed border-slate-200 rounded-3xl cursor-pointer">
+            <div class="text-6xl mb-4">📖</div>
+            <p class="text-lg">导入 todo.txt 格式的日志文件以开启日历视图</p>
+            <br>
+            <p class="text-lg"><a href="http://todotxt.org/">什么是 todo.txt 格式？</a></p>
+        </div>
+    </main>
+
+    <div id="detailTemplate" class="hidden">
+        <section class="detail-window mt-4 mb-10 bg-white rounded-xl shadow-xl border-l-4 border-indigo-600 overflow-hidden fade-in">
+            <div class="bg-slate-50 border-b border-slate-200 px-6 py-2.5 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <h3 class="detail-date text-sm font-bold text-slate-600"></h3>
+                    <span class="log-count text-[10px] font-bold text-indigo-700 bg-white px-2 py-0.5 rounded border"></span>
+                </div>
+                <button onclick="hideDetail()" class="text-slate-400 hover:text-red-500 text-xl font-light focus:outline-none">&times;</button>
+            </div>
+            <div class="log-content p-4 space-y-1.5 max-h-[450px] overflow-y-auto bg-white text-slate-700"></div>
+        </section>
+    </div>
+
+<script>
+    const MD_COLORS = ['#EF5350', '#EC407A', '#AB47BC', '#7E57C2', '#5C6BC0', '#42A5F5', '#29B6F6', '#26C6DA', '#26A69A', '#66BB6A', '#9CCC65', '#D4E157', '#FFEE58', '#FFCA28', '#FFA726', '#FF7043', '#8D6E63', '#78909C'];
+    
+    let rawData = {};
+    let filteredData = {}; 
+    let tagColorCache = {};
+    let activeDate = null;
+
+    const todayStr = new Date().toISOString().split('T')[0];
+
+    const fileInput = document.getElementById('fileInput');
+    fileInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        
+        const reader = new FileReader();
+        reader.onload = e => { 
+            resetAllState(); 
+            parseText(e.target.result); 
+            applyFilter(); 
+            // 隐藏欢迎区
+            const welcome = document.getElementById('welcomeInfo');
+            if(welcome) welcome.classList.add('hidden');
+        };
+        reader.readAsText(file);
+        this.value = null; 
+    });
+
+    function resetAllState() {
+        rawData = {};
+        filteredData = {};
+        tagColorCache = {};
+        activeDate = null;
+        document.getElementById('mainContainer').innerHTML = ''; 
+    }
+
+    function parseText(text) {
+        text.split('\n').forEach(line => {
+            const match = line.match(/(?:x\s)?(\d{4}-\d{2}-\d{2})/);
+            if (match) {
+                const date = match[1];
+                if (!rawData[date]) rawData[date] = [];
+                rawData[date].push(line.trim());
+            }
+        });
+    }
+
+    function getMDColor(tag) {
+        if (tagColorCache[tag]) return tagColorCache[tag];
+        let hash = [...tag].reduce((acc, char) => char.charCodeAt(0) + ((acc << 5) - acc), 0);
+        const color = MD_COLORS[Math.abs(hash) % MD_COLORS.length];
+        tagColorCache[tag] = color;
+        return color;
+    }
+
+    // 简化的关键词检索逻辑
+    function applyFilter() {
+        const keyword = document.getElementById('filterInput').value.toLowerCase();
+        filteredData = {};
+        
+        for (const date in rawData) {
+            const matches = rawData[date].filter(line => {
+                if (!keyword) return true;
+                return line.toLowerCase().includes(keyword);
+            });
+            if (matches.length > 0) filteredData[date] = matches;
+        }
+        renderAllCalendars();
+    }
+
+    function renderAllCalendars() {
+        const container = document.getElementById('mainContainer');
+        container.innerHTML = ''; 
+        
+        const dates = Object.keys(rawData);
+        if (!dates.length) return;
+
+        const years = [...new Set(dates.map(d => d.split('-')[0]))].sort((a,b) => b-a);
+
+        years.forEach(year => {
+            const yearSection = document.createElement('div');
+            yearSection.className = "mb-8 fade-in";
+
+            const card = document.createElement('div');
+            card.className = "bg-white p-6 rounded-xl shadow-sm border border-slate-200 overflow-x-auto";
+            
+            let html = `<h3 class="text-lg font-bold text-slate-800 mb-6 border-l-4 border-indigo-600 pl-3 leading-none flex items-center gap-2">📅 ${year} <span class="text-[10px] font-normal text-slate-300 tracking-[0.2em] uppercase">Calendar</span></h3>`;
+            html += `<table class="border-separate border-spacing-[3px] text-[10px]">`;
+            html += `<tr><th class="month-label"></th>`;
+            for (let i = 1; i <= 31; i++) html += `<th class="w-6 text-slate-300 font-light text-center">${i}</th>`;
+            html += `</tr>`;
+
+            for (let m = 1; m <= 12; m++) {
+                let hasLogsInMonth = false;
+                for (let d = 1; d <= 31; d++) {
+                    const dateStr = `${year}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+                    if (filteredData[dateStr]) { hasLogsInMonth = true; break; }
+                }
+
+                if (!hasLogsInMonth) continue;
+
+                html += `<tr><th class="month-label text-left text-indigo-900/60 font-bold text-xs pr-4 whitespace-nowrap">${m}月</th>`;
+                const daysInMonth = new Date(year, m, 0).getDate();
+                for (let d = 1; d <= 31; d++) {
+                    if (d <= daysInMonth) {
+                        const dateStr = `${year}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+                        const dateObj = new Date(year, m-1, d);
+                        const isWeekend = ([0,6].includes(dateObj.getDay()));
+                        const isToday = (dateStr === todayStr);
+                        const logs = filteredData[dateStr];
+                        const color = logs ? getDominantColor(logs) : '#f1f5f9';
+                        
+                        html += `<td onclick="toggleDetail('${dateStr}', '${year}')" 
+                                     class="day-cell rounded-[2px] cursor-pointer transition-all 
+                                            ${isWeekend ? 'weekend-badge' : ''} 
+                                            ${isToday ? 'today-underline' : ''}
+                                            ${logs ? 'hover:scale-110 hover:z-20 shadow-sm' : 'opacity-40 hover:opacity-100'}" 
+                                     style="background-color: ${color}" title="${dateStr}"></td>`;
+                    } else {
+                        html += `<td></td>`;
+                    }
+                }
+                html += `</tr>`;
+            }
+
+            html += `</table>`;
+            card.innerHTML = html;
+            yearSection.appendChild(card);
+            
+            const detailPlaceholder = document.createElement('div');
+            detailPlaceholder.id = `detail-placeholder-${year}`;
+            yearSection.appendChild(detailPlaceholder);
+            container.appendChild(yearSection);
+        });
+    }
+
+    function getDominantColor(lines) {
+        for (let line of lines) {
+            const match = line.match(/[\+\@]\S+/);
+            if (match) return getMDColor(match[0]);
+        }
+        return "#cbd5e1";
+    }
+
+    function toggleDetail(date, year) {
+        if (activeDate === date) {
+            hideDetail();
+        } else {
+            showDetail(date, year);
+        }
+    }
+
+    function showDetail(date, year) {
+        hideDetail();
+        const logs = filteredData[date];
+        if (!logs) return;
+
+        activeDate = date;
+        const placeholder = document.getElementById(`detail-placeholder-${year}`);
+        const template = document.getElementById('detailTemplate').cloneNode(true);
+        const windowDiv = template.querySelector('.detail-window');
+
+        template.classList.remove('hidden');
+        windowDiv.querySelector('.detail-date').innerText = `✨ 日志详情: ${date}`;
+        windowDiv.querySelector('.log-count').innerText = `${logs.length} 条`;
+        
+        const contentArea = windowDiv.querySelector('.log-content');
+        logs.forEach(line => {
+            const isDone = line.startsWith('x ');
+            const formattedLine = line.replace(/([\+\@]\S+)/g, tag => {
+                return `<span class="inline-block px-2 py-0.5 rounded text-sm font-bold text-white mr-1 mb-1 shadow-sm" style="background:${getMDColor(tag)}">${tag}</span>`;
+            });
+            const div = document.createElement('div');
+            div.className = `p-2.5 rounded border border-slate-100 bg-slate-50 text-sm leading-snug flex items-start gap-2 ${isDone ? 'opacity-40 line-through italic' : ''}`;
+            div.innerHTML = `<span class="mt-0.5">${isDone ? '✅' : '📌'}</span><div class="flex-1">${formattedLine}</div>`;
+            contentArea.appendChild(div);
+        });
+
+        placeholder.appendChild(windowDiv);
+        windowDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function hideDetail() {
+        activeDate = null;
+        document.querySelectorAll('.detail-window:not(#detailTemplate .detail-window)').forEach(win => win.remove());
+    }
+</script>
+</body>
+</html>

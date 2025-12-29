@@ -6,8 +6,27 @@
     <description>Recent content in AI on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日志可视化小工具</title>
+      <link>https://ioerr.github.io/projects/todotxt-log-visualizer/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/projects/todotxt-log-visualizer/</guid>
+      <description>在《纯文本信息管理方案》一文中有提到最近在用 Todo.txt 格式记日志。今天忽然想到，可以利用 AI 快速写一个网页小工具展示最近的日志记录。 生成初版的网页只要</description>
+      <content:encoded><![CDATA[<p>在《<a href="../../posts/chun-wenben-xinxi-guanli-fangan">纯文本信息管理方案</a>》一文中有提到最近在用 <a href="http://todotxt.org/">Todo.txt</a> 格式记日志。今天忽然想到，可以利用 AI 快速写一个网页小工具展示最近的日志记录。</p>
+<p>生成初版的网页只要几秒钟，调整细节花了不少时间。<br>
+虽然这个版本还不完全满意，起码已经基本可用了。</p>
+<p>链接在<a href="../../todotxt-log-visualizer.html">这里</a>，功能非常简单：<br>
+打开网页后导入 Todo.txt 格式文本文件，会自动解析和按年份、月份展示日历视图。<br>
+没有记录的月份会自动隐藏。<br>
+周六和周日有橙红色角标。<br>
+点击有日志的日期的单元格，会在下方展示日志详情。<br>
+右上角可以检索过滤。</p>
+<p><a href="https://freeimage.host/i/fWVoM0u"><img loading="lazy" src="https://iili.io/fWVoM0u.png" alt="todotxt log visualizer"  />
+</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>NPC 的生活</title>
       <link>https://ioerr.github.io/posts/npc-de-shenghuo/</link>
