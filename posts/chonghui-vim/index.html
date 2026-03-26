@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>重回Vim @ 读写错误</title>
+<meta name="keywords" content="Vim, Neovim, 编辑器">
+<meta name="description" content="虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件">
+<meta name="author" content="calon">
+<link rel="canonical" href="https://ioerr.github.io/posts/chonghui-vim/">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/chonghui-vim/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ksxrty3n61");
+  </script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJSTCE8ZC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJSTCE8ZC2');
+  </script>
+  
+
+<meta property="og:title" content="重回Vim" />
+<meta property="og:description" content="虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/chonghui-vim/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-03-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-03-26T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="重回Vim"/>
+<meta name="twitter:description" content="虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "重回Vim",
+      "item": "https://ioerr.github.io/posts/chonghui-vim/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "重回Vim",
+  "name": "重回Vim",
+  "description": "虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件",
+  "keywords": [
+    "Vim", "Neovim", "编辑器"
+  ],
+  "articleBody": "虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。\n主要原因是为了尝试Telescope、Lazy.nvim等插件，以及期望启动和响应速度能够快一些。\n等到Vim 9问世，经历了Bram Moolenaar去世之后，因为Neovim的不稳定，长期打开文件后窗口不响应，又重新回到了Vim，开始使用9.2的版本。\n断断续续花了2天时间切换配置、重新安装插件，插件管理改用Vim-Plug，LeaderF代替Telescope，除了Hop、Focus外，绝大多数插件可以通用或找到替代品。\n而且Windows下可以用--remote-silent参数保证所有文件都在同一个窗口中打开，而Neovim做不到或者很麻烦。\n",
+  "wordCount" : "314",
+  "inLanguage": "en",
+  "datePublished": "2026-03-26T00:00:00Z",
+  "dateModified": "2026-03-26T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/chonghui-vim/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ioerr.github.io/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ioerr.github.io/index.xml" title="rss">
+                    <span>rss</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:ioerr@duck.com" title="mail">
+                    <span>mail</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      重回Vim
+    </h1>
+    <div class="post-meta"><span title='2026-03-26 00:00:00 +0000 UTC'>2026-3-26</span>
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。<br>
+主要原因是为了尝试Telescope、Lazy.nvim等插件，以及期望启动和响应速度能够快一些。<br>
+等到Vim 9问世，经历了Bram Moolenaar去世之后，因为Neovim的不稳定，长期打开文件后窗口不响应，又重新回到了Vim，开始使用9.2的版本。</p>
+<p>断断续续花了2天时间切换配置、重新安装插件，插件管理改用Vim-Plug，LeaderF代替Telescope，除了<a href="https://github.com/phaazon/hop.nvim">Hop</a>、<a href="https://github.com/nvim-focus/focus.nvim">Focus</a>外，绝大多数插件可以通用或找到替代品。</p>
+<p>而且Windows下可以用<code>--remote-silent</code>参数保证所有文件都在同一个窗口中打开，而Neovim做不到或者很麻烦。</p>
+
+
+  </div>
+
+  <div class="post-content">
+    
+    <blockquote>欢迎邮件联系 <a href="mailto:ioerr@duck.com">ioerr@duck.com</a></blockquote>
+    <hr>
+  </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://ioerr.github.io/tags/vim/">Vim</a></li>
+      <li><a href="https://ioerr.github.io/tags/neovim/">Neovim</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</a></li>
+      
+        
+          <a href="/categories/%E5%A4%A7%E6%9D%82%E7%83%A9">大杂烩</a>
+        
+      
+    </ul>
+  </footer><div class="post-footer">
+  <script src="https://giscus.app/client.js"
+      data-repo="ioerr/ioerr.github.io"
+      data-repo-id="MDEwOlJlcG9zaXRvcnk3ODcyMDY0Mg=="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyOTM2MDQy"
+      data-mapping="pathname"
+      data-strict="1"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light_protanopia"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+  </script>
+</div>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+      <script type="text/javascript">
+      var sc_project=12868824; 
+      var sc_invisible=1; 
+      var sc_security="2b736cd7"; 
+      </script>
+      <script type="text/javascript"
+      src="https://www.statcounter.com/counter/counter.js"
+      async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics"
+      href="https://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="https://c.statcounter.com/12868824/0/2b736cd7/1/"
+      alt="Web Analytics"
+      referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"K1apcB9eUWAIknK4",ck:"K1apcB9eUWAIknK4"})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

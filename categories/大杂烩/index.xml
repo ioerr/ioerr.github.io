@@ -6,8 +6,21 @@
     <description>Recent content in 大杂烩 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/categories/%E5%A4%A7%E6%9D%82%E7%83%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重回Vim</title>
+      <link>https://ioerr.github.io/posts/chonghui-vim/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chonghui-vim/</guid>
+      <description>虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件</description>
+      <content:encoded><![CDATA[<p>虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。<br>
+主要原因是为了尝试Telescope、Lazy.nvim等插件，以及期望启动和响应速度能够快一些。<br>
+等到Vim 9问世，经历了Bram Moolenaar去世之后，因为Neovim的不稳定，长期打开文件后窗口不响应，又重新回到了Vim，开始使用9.2的版本。</p>
+<p>断断续续花了2天时间切换配置、重新安装插件，插件管理改用Vim-Plug，LeaderF代替Telescope，除了<a href="https://github.com/phaazon/hop.nvim">Hop</a>、<a href="https://github.com/nvim-focus/focus.nvim">Focus</a>外，绝大多数插件可以通用或找到替代品。</p>
+<p>而且Windows下可以用<code>--remote-silent</code>参数保证所有文件都在同一个窗口中打开，而Neovim做不到或者很麻烦。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>领导驱动开发</title>
       <link>https://ioerr.github.io/posts/ldd/</link>
@@ -164,16 +177,6 @@
 要说有的场景辣眼睛不美观，镜头调度凌乱，我也没话说，这都是主观的。<br>
 但自己啥也不懂就脑补联想到负面邪恶的东西，然后说是对方的罪过，这就戏精上身了吧。</p>
 <p>巴黎奥运会的口号是“奥运更开放”，试着抽出几分钟时间开放一点，脑子不会掉出来。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>经不起考验</title>
-      <link>https://ioerr.github.io/posts/jingbuqi-kaoyan/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/jingbuqi-kaoyan/</guid>
-      <description>都说人性经不起考验。 可能没有人性就经得起考验了吧。</description>
-      <content:encoded><![CDATA[<p>都说人性经不起考验。</p>
-<p>可能没有人性就经得起考验了吧。</p>
 ]]></content:encoded>
     </item>
   </channel>

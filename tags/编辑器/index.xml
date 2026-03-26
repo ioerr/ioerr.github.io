@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>编辑器 on 读写错误</title>
+    <link>https://ioerr.github.io/tags/%E7%BC%96%E8%BE%91%E5%99%A8/</link>
+    <description>Recent content in 编辑器 on 读写错误</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ioerr.github.io/tags/%E7%BC%96%E8%BE%91%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重回Vim</title>
+      <link>https://ioerr.github.io/posts/chonghui-vim/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/chonghui-vim/</guid>
+      <description>虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。 主要原因是为了尝试Telescope、Lazy.nvim等插件</description>
+      <content:encoded><![CDATA[<p>虽然之前没有在blog中提，但其实从Vim 8切换到Neovim已经很长时间了。<br>
+主要原因是为了尝试Telescope、Lazy.nvim等插件，以及期望启动和响应速度能够快一些。<br>
+等到Vim 9问世，经历了Bram Moolenaar去世之后，因为Neovim的不稳定，长期打开文件后窗口不响应，又重新回到了Vim，开始使用9.2的版本。</p>
+<p>断断续续花了2天时间切换配置、重新安装插件，插件管理改用Vim-Plug，LeaderF代替Telescope，除了<a href="https://github.com/phaazon/hop.nvim">Hop</a>、<a href="https://github.com/nvim-focus/focus.nvim">Focus</a>外，绝大多数插件可以通用或找到替代品。</p>
+<p>而且Windows下可以用<code>--remote-silent</code>参数保证所有文件都在同一个窗口中打开，而Neovim做不到或者很麻烦。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
