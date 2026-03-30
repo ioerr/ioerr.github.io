@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>移动应用痛点 @ 读写错误</title>
 <meta name="keywords" content="移动应用">
 <meta name="description" content="虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。 一个原因是">
 <meta name="author" content="calon">
-<link rel="canonical" href="https://ioerr.github.io/posts/yidong-yingyong-tongdian/">
+<link rel="canonical" href="http://localhost:1313/posts/yidong-yingyong-tongdian/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ioerr.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
-<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/yidong-yingyong-tongdian/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/yidong-yingyong-tongdian/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,73 +49,6 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  
-
-<meta property="og:title" content="移动应用痛点" />
-<meta property="og:description" content="虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。 一个原因是" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/yidong-yingyong-tongdian/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2014-10-11T10:11:17+00:00" />
-<meta property="article:modified_time" content="2014-10-11T10:11:17+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="移动应用痛点"/>
-<meta name="twitter:description" content="虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。 一个原因是"/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ioerr.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "移动应用痛点",
-      "item": "https://ioerr.github.io/posts/yidong-yingyong-tongdian/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "移动应用痛点",
-  "name": "移动应用痛点",
-  "description": "虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。 一个原因是",
-  "keywords": [
-    "移动应用"
-  ],
-  "articleBody": "虽然手机、平板上的移动应用越来越丰富，操作越来越简便，但大部分时候，我一点都不喜欢移动设备上使用——虽然不得不使用，但总是很痛苦。\n一个原因是应用之间的数据分享通道局限太多，对内容的操控抓得太紧。\n典型的例子就是要分享一些阅读应用中的内容，地址、标题、正文、图片等等无法像电脑浏览网页一样，给用户完全的控制权，有时甚至禁止选择文字。\n也许这样限制的初衷是防止方便盗用内容，但一来移动应用上的内容盗用并不因此就少了，有利益驱动谁也挡不住，二来用户有心整理内容，精炼消化后准备二次分享，这是有益于提升交流和内容质量的事情，现在却只能换到电脑上整理。\n既然各个应用之间是分工合作的关系，谁也不能包打天下，那么这种无形中限制数据流动的做法等于提升了用户操作成本。\n如果是不过脑子的娱乐内容也无所谓，真要干什么正经事情，还是觉得麻烦。\n第二个原因，则是移动应用并没有提供一条龙的流畅业务体验。\n作为用户，我最终想要的就是提出自己的目的，然后其他一切由应用代我搞定，最终由我在几个选项中选择最中意的那个就行。\n限于目前的软件能力，哪怕将关键数据收集、整理好，给我参考决策，也算是可以接受了。\n但现状是离这个状态还差得远。\n比如说外出游玩，有地图查询、餐饮查询、酒店预订、车船机票预定、景点旅游攻略、同城活动查询……各种应用，可是用户得一个个切换过去，查询、筛选、比对、求证、记录、下单，遇到有的条件不合适，整个流程还得重新来过。\n比如说购买自己不大熟悉的商品，在电子商务网站搜索出来的结果是很多，也有不少比价工具，但除了价格、信用之外，一眼看去也很难有可参考的信息了，有时候你要去官网找哪些是官方授权网店，有时候要比对各大电商网站翻评论，或者去专门的论坛找评测，等到终于下决心要下单了，发现还要考虑送达本地的时间等等，又得重新过滤一遍。\n又比如时下越来越流行的健康监测应用，实时、准确采集数据的功能是越来越强，但采集到的数据从整合到分析，到一票社交渠道互动，到协助改善生活习惯、健身计划，到和各种周边应用如健身器材购买升级、同城健身活动组织，乃至衣食行消费导购和理财等等等等，都还只整合了部分。\n加上第一个原因的限制，很多并无多大意义的中间信息都要亲自处理，用户就像在山谷中前进，终点仿佛就在眼前，走过去却还要上山下地。\n信息技术应该帮助信息如流水一般，朝正确的方向流动起来，现在的移动应用却像是要用户自己一桶桶地提水，装满了水再开动机器。\n当然，把移动应用做得大而全到臃肿的地步也不可取，那样比现在更加糟糕，但针对不同目的的应用之间相互串联贯通并不只有大而全一条路可以走，内部相互之间的接口通讯不给用户看到就行。\n只是这样的改变需要整个生态环境的进化才能实现了。\n",
-  "wordCount" : "1110",
-  "inLanguage": "en",
-  "datePublished": "2014-10-11T10:11:17Z",
-  "dateModified": "2014-10-11T10:11:17Z",
-  "author":{
-    "@type": "Person",
-    "name": "calon"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ioerr.github.io/posts/yidong-yingyong-tongdian/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "读写错误",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ioerr.github.io/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 
 <body class="" id="top">
@@ -123,23 +56,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ioerr.github.io/archives/" title="archives">
+                <a href="http://localhost:1313/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/categories/" title="categories">
+                <a href="http://localhost:1313/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/index.xml" title="rss">
+                <a href="http://localhost:1313/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -192,7 +125,7 @@
   </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://ioerr.github.io/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/">移动应用</a></li>
+      <li><a href="http://localhost:1313/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/">移动应用</a></li>
       
         
           <a href="/categories/%E7%81%AF%E6%B3%A1%E7%9F%AD%E8%B7%AF">灯泡短路</a>
@@ -225,7 +158,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
 
     <span>
         Powered by

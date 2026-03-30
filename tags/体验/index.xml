@@ -6,8 +6,59 @@
     <description>Recent content in 体验 on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 22 Oct 2012 09:13:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/tags/%E4%BD%93%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflowy</title>
+      <link>https://ioerr.github.io/posts/workflowy/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/workflowy/</guid>
+      <description>在之前的文章中提到过Workflowy这个服务，今天专门为它写一篇。 因为最近在移动端用结构化清单记录的需求比较强烈，而桌面端习惯用思维导图记</description>
+      <content:encoded><![CDATA[<p>在<a href="../chun-wenben-xinxi-guanli-fangan/">之前的文章</a>中提到过<a href="https://workflowy.com/">Workflowy</a>这个服务，今天专门为它写一篇。</p>
+<p>因为最近在移动端用结构化清单记录的需求比较强烈，而桌面端习惯用思维导图记录、整理思路的FreePlane不适合移动端，所以又重新拾起了注册多年的Workflowy。</p>
+<p>没想到十几年过去了，服务一直还在。<br>
+不但增加了不少功能，而且依然能够保持界面简洁、响应快速。<br>
+在你需要并好奇有没有某些功能的时候，又能够恰到好处的出现，带来意外惊喜，比如：</p>
+<ul>
+<li>聚焦条目</li>
+<li>演示模式，快速制作并替代简单风格的PPT</li>
+<li>书签、标签（@、#）</li>
+<li>时间戳自动转换</li>
+<li>镜像和复制</li>
+<li>内部链接和反向链接</li>
+<li>评论协作</li>
+<li>权限可控的分享</li>
+<li>连通Zapier</li>
+<li>转换为看板、待办清单等多种形式</li>
+<li>斜杠快捷命令</li>
+<li>模板</li>
+<li>高级条件搜索</li>
+<li>展示每个条目的新增、修改时间戳</li>
+</ul>
+<p>而且作为国外服务，多端同步的速度超快，堪比<a href="https://simplenote.com/">Simplenote</a>。<br>
+多年来一直不断更新功能，还能够保持界面清爽，体验轻快，这非常了不起，说明在体验设计上有极为深厚的功力。<br>
+比有些功能强大但臃肿、不稳定的在线服务，更让人有长期使用的意愿。<br>
+比如有了点击无序列表符号后钻入并聚焦条目的功能，它就认为完全可以将所有条目放在一个清单中管理。<br>
+而它的模仿者和竞争对手幕布、Dynalist，则提供了多目录、多文件的功能，看上去功能更强，但缺少了设计理念上的一致感。</p>
+<p>幕布和Dynalist在功能上确实更丰富，我也一度心动想要换，但有限制的地方又不能忍：</p>
+<p>幕布：</p>
+<ul>
+<li>免费版限制300条文档主题数量</li>
+<li>分享功能会暴露分享人</li>
+<li>演示模式太弱</li>
+</ul>
+<p>Dynalist：</p>
+<ul>
+<li>有莫名其妙的热键冲突</li>
+<li>字体可选项太少且无法强制替换</li>
+<li>分享链接必须登录才可看</li>
+</ul>
+<p>所以如果非要在三者中选一个，那还是选Workflowy吧，即使免费版超了条目限制，它也只是弹窗提醒，不强制要求付费，算很良心了。</p>
+<p>如果你也有使用、管理清单的需求，又还没有注册Workflowy，可以用<a href="https://workflowy.com/invite/58efd61b.lnx">我的推广链接注册</a>。<br>
+双方都可以增加免费账号每月可用的条目数量。</p>
+<p>另外，3月最新的版本，可以通过发邮件来增加条目，而且每个节点都可以有一个专属邮箱地址来收取邮件增加条目，然后所有主题配色都向免费用户开放了。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>为什么电子书翻页跳转不方便？</title>
       <link>https://ioerr.github.io/posts/weishenme-dianzishu-fanye-tiaozhuan-bufangbian/</link>

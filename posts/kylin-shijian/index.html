@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>麒麟事件 @ 读写错误</title>
 <meta name="keywords" content="">
 <meta name="description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。 Kylin服务器操作系统是国">
 <meta name="author" content="calon">
-<link rel="canonical" href="https://ioerr.github.io/posts/kylin-shijian/">
+<link rel="canonical" href="http://localhost:1313/posts/kylin-shijian/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ioerr.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
-<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/kylin-shijian/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/kylin-shijian/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,73 +49,6 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
-  
-
-<meta property="og:title" content="麒麟事件" />
-<meta property="og:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。 Kylin服务器操作系统是国" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ioerr.github.io/posts/kylin-shijian/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2006-05-17T14:11:49+00:00" />
-<meta property="article:modified_time" content="2006-05-17T14:11:49+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="麒麟事件"/>
-<meta name="twitter:description" content="在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。 Kylin服务器操作系统是国"/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ioerr.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "麒麟事件",
-      "item": "https://ioerr.github.io/posts/kylin-shijian/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "麒麟事件",
-  "name": "麒麟事件",
-  "description": "在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。 Kylin服务器操作系统是国",
-  "keywords": [
-    
-  ],
-  "articleBody": "在变态家族看到《软件界的中国芯？》一文，才知道麒麟操作系统事件这回事，于是在 DanceFire 整理的基础上再集中一下，希望有用。\nKylin服务器操作系统是国家863计划的重大研究成果，拥有完全自主版权的内核，与Linux在应用上二进制兼容，并支持64位，是中国独立研发成功的、具有完全自主知识产权的服务器操作系统。\nDanceFire 的《麒麟操作系统内核同其他操作系统内核的相似性分析》：\n麒麟操作系统中至少有60%的代码是来自于FreeBSD 5.3的源代码。……实际的麒麟操作系统与FreeBSD 5.3在源代码上的相似度很有可能会达到甚至超过90%。\n我们可以推测(但不确定)麒麟操作系统内核可能是通过以下几个步骤产生的。\n首先是在FreeBSD 5.3内核源代码的基础上进行了部分的修改，可能是为了增强与LSB的兼容性。\n然后，开发了Keta内核模块，来实现Kernel-based静态页面web加速器。\n最后，以FreeBSD的默认内核配置文件GENERIC为基础，编译了更多的可选模块进内核。这么做的目的可能是为了让内核更具有通用性。\n如果确实如此，那么生成的麒麟操作系统内核与其说是一个新的操作系统内核，不如说是被麒麟开发者打了内核补丁的FreeBSD 5.3更为恰当。\n麒麟所安装的软件大部分是GNU的开放源代码软件，这些软件遵循GPL。它要求如果对任何代码进行了修改，必须开放修改过的源代码，。但不幸的是，麒麟操作系统虽然修改了部分的代码，却没有开放出修改后的源代码。从这种意义上说，麒麟操作系统对这些GNU的开源软件有侵权嫌疑。\n《银河麒麟操作系统官方公告》：\n银河麒麟操作系统开发团队已向dancefire发出正式的邀请信，诚挚地邀请dancefire 到长沙实地进行考察，继续银河麒麟操作系统的分析工作。我们承诺向dancefire开放银河麒麟操作系统的源代码，为其分析工作提供一切便利的条件。所有分析和考察的结果，我们将在银河麒麟网站论坛上发布。\n《关于银河麒麟操作系统的说明》\nDanceFire 的一系列文章：\n《今日看到IEEE上麒麟操作系统多线程的论文，发现和FreeBSD的KSE机制很像。》\n《Kylin的Kyth和FreeBSD的libpthread多线程库所用的源文件列表对比》\n《用银河麒麟操作系统内核代替FreeBSD5.4内核启动FreeBSD系统成功》\n《用FreeBSD5.3内核代替银河麒麟操作系统内核启动银河麒麟系统成功》\n《关于麒麟操作系统相似性分析的网友回复的整理》\n#1\n#2\n#3\n#4\nFreeBSD开发组在2002年到2005年的3年间，完成了对FreeBSD的重大变革，并且发布了新的6.0系列。6.0和3年前发布的5.0的相似度只有14%了。而我们麒麟，同样是基于FreeBSD 5.0起步，三年之后，和FreeBSD 5.x主流代码的最低相似度还高达61%。很多的地方显现出来，2005年6月发布的麒麟2.0-18内核是从半年前发布的FreeBSD 5.3修改而成的。换句话说，就是开发3年之后，我们依然必须依赖于保持和FreeBSD的代码的同步来保持我们自己系统的更新，从某种意义上说，这种依赖关系也无法证明这个系统的自主性。\n在2004年的新闻报道里已经明确的说明了kylin是基于freeBSD内核。\nI am a BSD engineer from P.R.China. Now we have just finished a BSD version. It has some features:\n1)It uses BSD kernel and Linux runtime environment, that means the userland is linux applications, and it can run directly on our system without modifcation such as Oracle Database.\n2)We can support desktop environment well. The can support office suite and resource manager on our system. It is much like windows 95 interface.\n3)We have passed Linux Standard Base (LSB 1.3) for our system. Its chinese name is kylin.\n虽然我的心情很不好，但还是忍不住要来这么一段：\n正气凛然型：\n你想说明什么问题？世界上有多少人给中国付过四大发明的版权费，日本偷取景泰兰的工艺，偷中国的文字，前些日子要注册四大名著当商标，怎么没见你说个什么。韩国的狗屁教授说广州是新罗国的，也没见你说什么。freeBSD，都没有发言，你在这里闹个什么劲？有啥目地？kylin碍着你什么了？\n你丫闭嘴型：\n你要有本事自己写个操作系统，再来bs kylin，在这里乱叫一通没意义\n天下大同型：\n其实没有什么好争的，真的！没有必要这样~\n数字是阿拉伯数字，\n字母是英文字母，\n键盘是US布局，\n…..\n所有的一切都属于全人类\n…..\n何必太在意。\n情有可原型：\nkyliin也只是某country的人,利用关系,抄袭freebsd的必然产物,难道让他们重新设计一套操作系统?\n好猫型：\n希望麒麟能顶住压力，继续开发改进，提高品质。小平同志说得好：“黑猫白猫，能抓住老鼠就是好猫！”操作系统也一样，安全好用就是好系统！\n两个凡是型：\n凡是能在实际应用中产生效应的\n凡是能解决实际问题的\n都是有用的创新\n支持麒麟,支持国产不能因为出了个汉芯就去怀疑麒麟。\n天外飞仙型：\n波音飞机的部件(不是零件)来自全世界(包括中国),谁说波音公司对波音飞机没有完全自主的知识产权?\n思维混乱型：\n中国人早已丢掉了“东亚病夫”的帽子，借鉴别人的东西是正常的，吸取他人的不足，才可以把我们自己的技术更快地推向成熟。一个操作系统是何其庞大的一个软件，我想大家知道绝不是靠借鉴就可以开发出来的，更多的还是自主的水平，否则我们为什么到现在才学，我们早在早些年就可以把系统给搞定了不是吗！所以一句话，相信我们自己。看看新闻，我们的祖国在国际声誉是越来越好，我们祖国的实力是越来越强大！\n稳定推倒一切型：\n中国人毛病多，但是中国的机构，中国的政府都只百里挑一的，没理由不相信人家对吧。\n所谓的议论分子，就算你自己觉得说的有几分对，考虑一下影响嘛。如果放了一大堆烟，最后证明你是错的，不是误导了人吗？小孩子一旦带坏心里就有阴影了，你负这责任吗？肯定悄悄多一边去了，这伙人！想证明自己是行家懂得多吗？\n关你鸟事型：\n咱是粗人，高深的理论不太懂，只是觉得既然国人搞出了这么个东西来，咱就要抱着支持肯定的态度来看待，别动不动就搬出什么知识产权来恶搞！即便跟什么知识产权有牵扯，自有人家有知识产权的人来理论，人家有知识产权的人还什么都没说呢，你们在这儿叽叽喳喳个啥呢？\n思维跳跃型：\n有人一直围绕“自主产权”上做“文章”。举个例子windows，发明者在开发的过程中用的键盘，显示器，主机，编辑软件这些工具，难道这些也是他发明的吗，那能说windows不是属于拥有自主产权的吗\n崇尚经典型：\n抄freebsd怎么了，有经典的现成的东西不用，那就算开发出自主产权但又不好用的产品又有什么用楼上有几个能看懂麒麟的，就因为某某人发表的一篇文章，你们就在跟风，自己不懂就没有发言权不为祖国做贡献，来这浪费时间，你们要是觉得麒麟很差不值一提，你们帮忙开发去啊！！！\n爬行：\n不懂的站在别人肩上爬起来的人不配做人！\n不管麒麟是怎么产生的，至少比在这里乱哄的猪牛！！！\n我参与了麒麟开发，有本事的你们自己用freebsd搞个出来。\n我在这里想对Dancefire说，干你娘！\n",
-  "wordCount" : "2754",
-  "inLanguage": "en",
-  "datePublished": "2006-05-17T14:11:49Z",
-  "dateModified": "2006-05-17T14:11:49Z",
-  "author":{
-    "@type": "Person",
-    "name": "calon"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ioerr.github.io/posts/kylin-shijian/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "读写错误",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ioerr.github.io/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 
 <body class="" id="top">
@@ -123,23 +56,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ioerr.github.io/archives/" title="archives">
+                <a href="http://localhost:1313/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/categories/" title="categories">
+                <a href="http://localhost:1313/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ioerr.github.io/index.xml" title="rss">
+                <a href="http://localhost:1313/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -291,7 +224,7 @@ kyliin也只是某country的人,利用关系,抄袭freebsd的必然产物,难道
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
 
     <span>
         Powered by
