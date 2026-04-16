@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>为什么标签系统和全文检索还不够好用？ @ 读写错误</title>
 <meta name="keywords" content="内容, 匹配, 搜索, 标签, 检索, 模糊, 笔记">
 <meta name="description" content="Web 2.0 概念红火的时候，Delicious、Flickr 等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学">
 <meta name="author" content="calon">
-<link rel="canonical" href="http://localhost:1313/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/">
+<link rel="canonical" href="https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,6 +49,73 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
+  
+
+<meta property="og:title" content="为什么标签系统和全文检索还不够好用？" />
+<meta property="og:description" content="Web 2.0 概念红火的时候，Delicious、Flickr 等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2013-10-12T10:07:33+00:00" />
+<meta property="article:modified_time" content="2013-10-12T10:07:33+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="为什么标签系统和全文检索还不够好用？"/>
+<meta name="twitter:description" content="Web 2.0 概念红火的时候，Delicious、Flickr 等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "为什么标签系统和全文检索还不够好用？",
+      "item": "https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "为什么标签系统和全文检索还不够好用？",
+  "name": "为什么标签系统和全文检索还不够好用？",
+  "description": "Web 2.0 概念红火的时候，Delicious、Flickr 等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学",
+  "keywords": [
+    "内容", "匹配", "搜索", "标签", "检索", "模糊", "笔记"
+  ],
+  "articleBody": "Web 2.0 概念红火的时候，Delicious、Flickr\n等服务如日中天，其使用标签（tag）管理和检索内容的方式也颇受追捧，网站和应用程序纷纷学习。但这么些年用下来，除了\nDelicious 之外，并没有觉得标签有多好用，特别是像 Evernote\n和为知这样需要保存内容的笔记工具。\n一个原因是，不支持组合标签的标签系统就是残废。\n第二个原因是，增加标签的人工成本太高，而得到的回报不够。\n一篇内容颇丰富的笔记要保证日后能够通过标签分类筛出来，可能要增加5个以上的标签，然而还是有一定几率要靠全文搜索才能定位，甚至可能找不到。\n为什么？\n因为标签要求精确匹配，如果我增加“米塞斯”、“实在论”的标签，而检索的时候用“米瑟斯”、“唯实论”，必然抓瞎。\n于是，一方面，增加标签时要尽量多写，这样操作成本必然越来越高；\n另一方面，就是在检索时反复尝试，这样就完全体现不出标签系统的好处，特别是还有组合标签功能时，你根本不知道到底是哪个标签的筛选落空了。这样，标签还不如全文检索来得方便。\n但全文检索也解决不了上述同义、近义词的问题，要是文章内容中只出现“喜大普奔”，你轮换着搜“头顶青天”、“狂喜乱舞”那也白搭。\n更进一步，同义、近义词也有覆盖不到的时候，比如涉及“李森科”的文章通篇都没有出现“伪科学”一词，但我们在搜索这篇文章时，不记得涉及的人名，只关心主题，很可能会输入“伪科学”而不是“李森科”，于是一无所获。\n所以，大概只有等到程序能够理解自然语言的含义，才能以符合预期的方式检索信息吧。\n",
+  "wordCount" : "616",
+  "inLanguage": "en",
+  "datePublished": "2013-10-12T10:07:33Z",
+  "dateModified": "2013-10-12T10:07:33Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/weishenme-biaoqian-xitong-he-quanwen-jiansuo-hai-bugou-haoyong/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -56,23 +123,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="archives">
+                <a href="https://ioerr.github.io/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="categories">
+                <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/index.xml" title="rss">
+                <a href="https://ioerr.github.io/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -122,13 +189,13 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote<br>
   </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/%E5%86%85%E5%AE%B9/">内容</a></li>
-      <li><a href="http://localhost:1313/tags/%E5%8C%B9%E9%85%8D/">匹配</a></li>
-      <li><a href="http://localhost:1313/tags/%E6%90%9C%E7%B4%A2/">搜索</a></li>
-      <li><a href="http://localhost:1313/tags/%E6%A0%87%E7%AD%BE/">标签</a></li>
-      <li><a href="http://localhost:1313/tags/%E6%A3%80%E7%B4%A2/">检索</a></li>
-      <li><a href="http://localhost:1313/tags/%E6%A8%A1%E7%B3%8A/">模糊</a></li>
-      <li><a href="http://localhost:1313/tags/%E7%AC%94%E8%AE%B0/">笔记</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E5%86%85%E5%AE%B9/">内容</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E5%8C%B9%E9%85%8D/">匹配</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E6%90%9C%E7%B4%A2/">搜索</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E6%A0%87%E7%AD%BE/">标签</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E6%A3%80%E7%B4%A2/">检索</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E6%A8%A1%E7%B3%8A/">模糊</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E7%AC%94%E8%AE%B0/">笔记</a></li>
       
         
           <a href="/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2">人品界面</a>
@@ -159,7 +226,7 @@ Delicious 之外，并没有觉得标签有多好用，特别是像 Evernote<br>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
 
     <span>
         Powered by

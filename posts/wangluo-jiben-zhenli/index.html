@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>网络基本真理 @ 读写错误</title>
 <meta name="keywords" content="网络, 互联网, 原则, 协议设计, 解决方案, 真理, 问题, 资源">
 <meta name="description" content="在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 192">
 <meta name="author" content="calon">
-<link rel="canonical" href="http://localhost:1313/posts/wangluo-jiben-zhenli/">
+<link rel="canonical" href="https://ioerr.github.io/posts/wangluo-jiben-zhenli/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/wangluo-jiben-zhenli/">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/wangluo-jiben-zhenli/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,6 +49,73 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
+  
+
+<meta property="og:title" content="网络基本真理" />
+<meta property="og:description" content="在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 192" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/wangluo-jiben-zhenli/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-06-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-06-11T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="网络基本真理"/>
+<meta name="twitter:description" content="在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 192"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "网络基本真理",
+      "item": "https://ioerr.github.io/posts/wangluo-jiben-zhenli/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "网络基本真理",
+  "name": "网络基本真理",
+  "description": "在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 192",
+  "keywords": [
+    "网络", "互联网", "原则", "协议设计", "解决方案", "真理", "问题", "资源"
+  ],
+  "articleBody": "在 @mengite 的 Telegram 频道中看到转发的信息，优质、快速和廉价三者不可兼得的道理，在1996年4月1日（！）的互联网工程任务组（IETF）征求意见稿 RFC 1925中就已经提到，作者是 Ross Callon。\n我试着将主要内容翻译如下，如有错误，欢迎指出：\n网络十二真理 本备忘录为互联网社群提供信息。本备忘录没有规定任何类型的互联网标准。允许无限制分发本备忘录。\n本备忘录记录了服务于互联网社群网络工作的基本真理。本备忘录没有规定标准，然而所有标准都必须隐含地遵循这些基本真理。\n本备忘录中描述的真理源于许多人在很长一段时间内的广泛研究，其中一些人并未打算为这项工作出力。编辑只收集了这些真理，并感谢网络社群的最初阐明。\n此征求意见稿提供有关所有网络基础真理的信息。这些真理通常适用于网络工作，并不仅限于 TCP/IP、国际互联网或网络社群的任何其他子集。\n它必须得管用。\n无论如何努力，无论优先级如何，你都无法提高光速。\n2a. 无论怎么努力，都不能在不到9个月的时间内生出孩子。试图加快速度可能会事与愿违，绝不会如愿以偿。\n如果推力足够，猪也能飞。但这可不是好主意。天知道猪会落在哪里，待在飞猪下方太危险。\n生活中某些事物只有亲身体验才能欣赏或理解。那些既不构建也不运营网络的人，永远不会理解网络中的某些东西。\n总是可以用一个复杂且内部相互依赖的统一方案，解决多个单独的问题。大多数时候，这是个坏主意。\n转移问题（例如，将问题转移到网络体系架构的其他地方）比解决问题简单。\n6a. 总是可以通过新增间接的层次来转移问题。\n它总是遵循：\n7a. 优质、快速和廉价只能任选其中两项（不可能同时满足三项）。\n它比你想象的要复杂得多。\n所有资源都永远不够用。\n没有万能的解决方案。\n每个旧的想法都会换个名字或表现形式再次出现，无论这种新瓶装旧酒的套路是否管用。\n11a. 参见 6a。\n设计协议时，无一分可减才是完美，而非无一分可增。\n",
+  "wordCount" : "764",
+  "inLanguage": "en",
+  "datePublished": "2019-06-11T00:00:00Z",
+  "dateModified": "2019-06-11T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/wangluo-jiben-zhenli/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -56,23 +123,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="archives">
+                <a href="https://ioerr.github.io/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="categories">
+                <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/index.xml" title="rss">
+                <a href="https://ioerr.github.io/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -170,14 +237,14 @@
   </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/">网络</a></li>
-      <li><a href="http://localhost:1313/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</a></li>
-      <li><a href="http://localhost:1313/tags/%E5%8E%9F%E5%88%99/">原则</a></li>
-      <li><a href="http://localhost:1313/tags/%E5%8D%8F%E8%AE%AE%E8%AE%BE%E8%AE%A1/">协议设计</a></li>
-      <li><a href="http://localhost:1313/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">解决方案</a></li>
-      <li><a href="http://localhost:1313/tags/%E7%9C%9F%E7%90%86/">真理</a></li>
-      <li><a href="http://localhost:1313/tags/%E9%97%AE%E9%A2%98/">问题</a></li>
-      <li><a href="http://localhost:1313/tags/%E8%B5%84%E6%BA%90/">资源</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E7%BD%91%E7%BB%9C/">网络</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E5%8E%9F%E5%88%99/">原则</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E5%8D%8F%E8%AE%AE%E8%AE%BE%E8%AE%A1/">协议设计</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">解决方案</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E7%9C%9F%E7%90%86/">真理</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E9%97%AE%E9%A2%98/">问题</a></li>
+      <li><a href="https://ioerr.github.io/tags/%E8%B5%84%E6%BA%90/">资源</a></li>
       
         
           <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
@@ -206,7 +273,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
 
     <span>
         Powered by

@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>自动添加链接 @ 读写错误</title>
 <meta name="keywords" content="">
 <meta name="description" content="以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个 WordPress 插件处理中文都不尽人意，无法在 blog 上使用。不过想到 gVim 有强大易用的缩略语功能，为">
 <meta name="author" content="calon">
-<link rel="canonical" href="http://localhost:1313/posts/zidong-tianjia-lianjie/">
+<link rel="canonical" href="https://ioerr.github.io/posts/zidong-tianjia-lianjie/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/zidong-tianjia-lianjie/">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/zidong-tianjia-lianjie/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,6 +49,73 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
+  
+
+<meta property="og:title" content="自动添加链接" />
+<meta property="og:description" content="以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个 WordPress 插件处理中文都不尽人意，无法在 blog 上使用。不过想到 gVim 有强大易用的缩略语功能，为" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/zidong-tianjia-lianjie/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-10-30T05:37:15+00:00" />
+<meta property="article:modified_time" content="2005-10-30T05:37:15+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="自动添加链接"/>
+<meta name="twitter:description" content="以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个 WordPress 插件处理中文都不尽人意，无法在 blog 上使用。不过想到 gVim 有强大易用的缩略语功能，为"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "自动添加链接",
+      "item": "https://ioerr.github.io/posts/zidong-tianjia-lianjie/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "自动添加链接",
+  "name": "自动添加链接",
+  "description": "以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个 WordPress 插件处理中文都不尽人意，无法在 blog 上使用。不过想到 gVim 有强大易用的缩略语功能，为",
+  "keywords": [
+    
+  ],
+  "articleBody": "以前说过，想寻找插件实现自动添加超级链接的功能，但是找到的几个\nWordPress 插件处理中文都不尽人意，无法在 blog\n上使用。不过想到 gVim\n有强大易用的缩略语功能，为什么不用来实现这个功能呢？\n在 _vimrc 文件中写入缩略语的定义，重新打开\nVim，剩下的就不用费心了。\n这样做的好处是：\n1、输入自定义的英文字符串比每次原原本本输入完整的名称要方便得多。例如，我希望每次文中出现“维基百科”这个词的时候，自动转换为“”，那么不妨定义这个\nHTML 语句的缩略语为“Wikipedia”，这样每次只要输入该词，Vim\n就会自动转换了。\n2、不局限于在某个 blog 上使用，只要有需要，用在哪里都可以，即时你的 blog\n没有支持链接替换功能的插件，也能够享受到此功能。\n3、不必是转换为 HTML\n链接，仅仅做缩略语也很方便实用，例如懒得输入“第二次世界大战”，那就用 WII\n代替好了，而使用插件便只能老老实实输入完全符合的词组，不能够有偷懒。\n4、插件自动转换链接有时可能出现错误，但你得等到 blog\n发布之后才能够看得到。而采用这种办法，在草稿阶段就能发现错误，保证链接正确。还可以灵活选择那些地方不用转换链接。\n5、使用此方法同样可以代替\nWP-Define\n这种插件的功能，当然你还可以用来实现更多的实用功能，而不必自己写插件。\n6、如果插件不支持中文字符，那么可以用此方法绕过这个限制。\n缺点也是明显的：\n1、对于已经发布的 blog 没有作用。如果链接更改、作废了，要更新也很麻烦。\n2、不能用中文字符做缩略语。\n3、本机上的_vimrc\n文件内容需要复制到编辑时所用的机器上，当然，如果使用网上空间作存储，也不是很严重的问题，就是麻烦一点。\n4、最大的障碍：喜欢用 Vim 毕竟只是极少数人…\n",
+  "wordCount" : "674",
+  "inLanguage": "en",
+  "datePublished": "2005-10-30T05:37:15Z",
+  "dateModified": "2005-10-30T05:37:15Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/zidong-tianjia-lianjie/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -56,23 +123,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="archives">
+                <a href="https://ioerr.github.io/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="categories">
+                <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/index.xml" title="rss">
+                <a href="https://ioerr.github.io/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -165,7 +232,7 @@ HTML 语句的缩略语为“Wikipedia”，这样每次只要输入该词，Vim
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
 
     <span>
         Powered by

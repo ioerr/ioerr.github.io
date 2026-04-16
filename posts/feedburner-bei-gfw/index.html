@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>FeedBurner 被 GFW？ @ 读写错误</title>
 <meta name="keywords" content="FeedBurner, GFW">
 <meta name="description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问 feeds.feedburner.com 二级域名。是不是 GFW 所为，其他电信运营商网络会不会跟进，还需要进一步观察。 最直接">
 <meta name="author" content="calon">
-<link rel="canonical" href="http://localhost:1313/posts/feedburner-bei-gfw/">
+<link rel="canonical" href="https://ioerr.github.io/posts/feedburner-bei-gfw/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/feedburner-bei-gfw/">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/feedburner-bei-gfw/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,6 +49,73 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
+  
+
+<meta property="og:title" content="FeedBurner 被 GFW？" />
+<meta property="og:description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问 feeds.feedburner.com 二级域名。是不是 GFW 所为，其他电信运营商网络会不会跟进，还需要进一步观察。 最直接" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/feedburner-bei-gfw/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2007-08-30T09:40:18+00:00" />
+<meta property="article:modified_time" content="2007-08-30T09:40:18+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="FeedBurner 被 GFW？"/>
+<meta name="twitter:description" content="消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问 feeds.feedburner.com 二级域名。是不是 GFW 所为，其他电信运营商网络会不会跟进，还需要进一步观察。 最直接"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "FeedBurner 被 GFW？",
+      "item": "https://ioerr.github.io/posts/feedburner-bei-gfw/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "FeedBurner 被 GFW？",
+  "name": "FeedBurner 被 GFW？",
+  "description": "消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问 feeds.feedburner.com 二级域名。是不是 GFW 所为，其他电信运营商网络会不会跟进，还需要进一步观察。 最直接",
+  "keywords": [
+    "FeedBurner", "GFW"
+  ],
+  "articleBody": "\r消息本身没什么好说的：至少在电信网络内，目前已经无法正常访问\nfeeds.feedburner.com\n二级域名。是不是 GFW\n所为，其他电信运营商网络会不会跟进，还需要进一步观察。\n最直接的影响就是，许多 blog 通过 FeedBurner\n跳转的页面无法打开，鲜果等 feed 订阅服务和本地订阅工具无法正常订阅\nFeedBurner 托管的 feed。\n解决办法如下：\n1、停止 FeedBurner 的 FeedBurner Stats\n功能，去掉页面跳转。反正这个统计也是鸡肋；\n2、个人站点可使用 FeedBurner 域名绑定功能，要求订阅者更新 feed\n地址，虽然现在已经晚了；\n3、提醒用户使用国外的或国内可以正常抓取的 feed 订阅服务，如\nReader、Bloglines、抓虾、鲜果、Anothr 等，或者改用邮件订阅；\n4、换用 FeedSky 等其他 feed 托管服务，不过我不喜欢这种被撵着跑的感觉。\n如果这次是 GFW 封杀的话，那么算是对国内 blogger 杀伤力最大的一次了。\n下一个会是谁呢，Google\nReader、Bloglines、Gmail、Twitter\n还是 Del.icio.us？\n",
+  "wordCount" : "380",
+  "inLanguage": "en",
+  "datePublished": "2007-08-30T09:40:18Z",
+  "dateModified": "2007-08-30T09:40:18Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/feedburner-bei-gfw/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -56,23 +123,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="archives">
+                <a href="https://ioerr.github.io/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="categories">
+                <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/index.xml" title="rss">
+                <a href="https://ioerr.github.io/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -129,8 +196,8 @@ Reader</a>、Bloglines、Gmail、<a href="http://twitter.com/calon/statuses/2360
   </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/feedburner/">FeedBurner</a></li>
-      <li><a href="http://localhost:1313/tags/gfw/">GFW</a></li>
+      <li><a href="https://ioerr.github.io/tags/feedburner/">FeedBurner</a></li>
+      <li><a href="https://ioerr.github.io/tags/gfw/">GFW</a></li>
       
         
           <a href="/categories/%E8%BD%AF%E7%A1%AC%E6%8C%A8%E8%B8%A2">软硬挨踢</a>
@@ -159,7 +226,7 @@ Reader</a>、Bloglines、Gmail、<a href="http://twitter.com/calon/statuses/2360
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
 
     <span>
         Powered by

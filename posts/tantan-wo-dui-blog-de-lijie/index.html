@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>谈谈我对 blog 的理解 @ 读写错误</title>
 <meta name="keywords" content="">
 <meta name="description" content="开始写这一篇 blog 的时候，“滞销书”的访问量是9936，如果不出意外，今天晚上应该就可以突破10000。在我使用过的 blog 中，这是第一个访问量到5位">
 <meta name="author" content="calon">
-<link rel="canonical" href="http://localhost:1313/posts/tantan-wo-dui-blog-de-lijie/">
+<link rel="canonical" href="https://ioerr.github.io/posts/tantan-wo-dui-blog-de-lijie/">
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css" referrerpolicy="no-referrer" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://ioerr.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ioerr.github.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ioerr.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://ioerr.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ioerr.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/tantan-wo-dui-blog-de-lijie/">
+<link rel="alternate" hreflang="en" href="https://ioerr.github.io/posts/tantan-wo-dui-blog-de-lijie/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,6 +49,73 @@
 
     gtag('config', 'G-XJSTCE8ZC2');
   </script>
+  
+
+<meta property="og:title" content="谈谈我对 blog 的理解" />
+<meta property="og:description" content="开始写这一篇 blog 的时候，“滞销书”的访问量是9936，如果不出意外，今天晚上应该就可以突破10000。在我使用过的 blog 中，这是第一个访问量到5位" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ioerr.github.io/posts/tantan-wo-dui-blog-de-lijie/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-07-01T19:52:10+00:00" />
+<meta property="article:modified_time" content="2005-07-01T19:52:10+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="谈谈我对 blog 的理解"/>
+<meta name="twitter:description" content="开始写这一篇 blog 的时候，“滞销书”的访问量是9936，如果不出意外，今天晚上应该就可以突破10000。在我使用过的 blog 中，这是第一个访问量到5位"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ioerr.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "谈谈我对 blog 的理解",
+      "item": "https://ioerr.github.io/posts/tantan-wo-dui-blog-de-lijie/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "谈谈我对 blog 的理解",
+  "name": "谈谈我对 blog 的理解",
+  "description": "开始写这一篇 blog 的时候，“滞销书”的访问量是9936，如果不出意外，今天晚上应该就可以突破10000。在我使用过的 blog 中，这是第一个访问量到5位",
+  "keywords": [
+    
+  ],
+  "articleBody": "开始写这一篇 blog\n的时候，“滞销书”的访问量是9936，如果不出意外，今天晚上应该就可以突破10000。在我使用过的\nblog\n中，这是第一个访问量到5位数的。为了纪念一下，就专门用一篇文章来谈谈我对\nblog 的理解吧。\n首先从定义说起。像 Keso\n那样期待给出一个准确的blog定义，是没什么希望的，blog\n的概念与技术关系不大，与应用的关系倒更为密切，这就决定了很难根据作为本质特征的技术特点来给它下定义，只会随着用户的应用而展现出不同的特点。但是它又确实存在着一个难以描述清楚的核心，以使它不同于它工具。\n不妨想像一下电子云的概念－－你无法指出它活动的确切边界在哪里，但在统计学意义上它并不是虚无缥缈、无法界定的。同样的道理，拥有\nRSS feed、Trackback Ping、文章按日期逆序排列等等并不一定就是 blog，blog\n也未必具有这些特征，但这不妨碍大多数人很快区分出哪些是真正的\nblog，不论实现的技术如何变迁，blog 的核心总是存在。\n其次，从应用的角度说，blog\n是能够很方便快捷地在互联网上发布稳定信息的东西，又是同时强调个人与社会性的东西。\n不管 blog\n最初出现的目的是什么，不可否认的是，它的出现大大简化了人们在互联网上发布信息的过程。千万不要小看这种不起眼的简化，当发布的信息除了文字外，还有\nRSS Feed、Trackback\nPing，还有图片、声音、影像，天知道以后还有什么，当更新的频率达到长时间每天一篇或一天数篇，当发布者还要考虑文章分类、存放组织、管理评论、版面设置时，那些“站长手记”、“更新日志”等等的方便性与\nblog 的差距就显现出来了。一旦 blog\n最大程度地简化了与内容无关的设置、维护和编辑操作，大多数人会选择哪种信息发布方式？\n一旦有了更简洁明了的信息发布的需求，并且逐渐有了规模，那么，技术实现也就会马上跟上了－－blog\n应用的实在都不是什么高深莫测、难以企及的技术，只要有应用的需求，有观念的转变即可，并没有技术的瓶颈。\n于是 blog 程序和 blog 服务都出现了。个人站点的站长们都可以下载现成的\nblog 程序，稍稍配置一下马上就可以使用，几乎所有的实用功能都具备；而 BSP\n提供的 blog 服务更是大大降低了信息发布的门槛：\n它是免费的，不用你租用服务器，不用购买域名。\n编辑与发布十分方便，只要能够上网浏览打字就一切无忧，比用 IM\n聊天需要的条件还少，稍微懂一点英文与 HTML 语法，会更加方便。\n甚至它还能帮你推广你发布的内容，除了被搜索引擎关注之外， BSP\n站内的交流也不可忽视。\n那么，这和“强调个人”有什么关系呢？\n关键就在于，如此一来，即使是金钱和技术力量都接近网民平均水准的任何一个个人，都能够在数分钟内发布以往个人站点站长花不少时间才能够发布的信息，找到免费的\nBSP，注册，编辑，发布，如此而已。\n而在确保了个人使用的门槛降低之后，追求网络信息发布自由的成本也就低多了。当\nblog\n的概念普及之后，也许许多人只是把它当做转载信息的站点，许多人把它当做单纯的日记，\n当然也有人会说，blog\n应该追求“去中心化”，也就是说，大家都集中在一个地方容易被一锅端，到时候同样是没有自由可言的。去年三大中文\nBSP 齐齐停业整顿、Blogger.com、BlogSome.com、Blogs.ie、Weblogs.us\n等先后被 GFW\n封杀就是先例。然而我要说，“去中心化”并非绝对的标准，假如追求“去中心化”带来的是信息发布成本的提高，普通人进入的门槛提高，那么就不能够一味地强调“去中心化”，独立域名、租用服务器空间、在国内的还要考虑备案，这些既不是每个能够上网的人都有条件做到的，也不是一时半会儿就能够摆弄好的，如果\nblog 到最后要求大家都向这个标准看齐，而又不能够普及和丰富个人架设 blog\n所需要的技术和资源，blog\n返回曲高和寡的状态也就指日可待了，到时候别说大规模商业化的美梦会成为泡影，能不能够为大众接受并生存下去还是个问题。个人独立的理想有时是需要向众人的现实需求妥协的，这便是免费\nBSP 存在的价值。\n正因为如此，我认识的 blogger 一个个都弄空间和域名自己架设 blog\n时，我仍然会坚持在各个 BSP 之间游荡。如果我可以不花分文享受到不错的 blog\n服务，能够享受到信息发布的自由，能够让我的观点在互联网上传播，那么一个粗通英文的普通人便都可以到处找到畅所欲言的场所。\n那么什么是 blog 的社会性体现在什么地方呢？\n一方面是技术。Trackback Ping、RSS Feed、Tag/Folksonomy、Comment、Link\n等等虽然不是 blog\n的本质特征，但仍是它的重要特点，正式这些功能或者技术让各个 blogger\n之间的联系大大加强。其中，后两者是传统的功能，但是在 blog\n兴起的时候，其被重视的程度大大超过了以前－－有数量又有质量的回复被看作一个\nblog 成功的重要标志之一，而尽可能地使用超级链接受到广泛的鼓励并被认为是\nblogger 应当具备的素质。前两者则为跟踪评价、大批量订阅和监视 blog\n更新情况提供了方便。\n一方面是 blog\n的应用。始终围绕着自己，纯粹为自己而写的东西，更接近于“日记”，而\nblog，如果被看作一种属于个人的媒体，那么就自动地被赋予了一种社会属性，blog\n的应用也就随之超越了个人的范畴。正是渴望交流、渴望分享、渴望关注、渴望思考、渴望其言论与想法影响他身处的圈子、与同在一个社会的其他个体产生良性互动的用户使得\nblog 不但从技术上也从应用上超越了\nDiary/Journal，也使得如前所述的种种技术能够顺理成章地在 blog\n的世界中找到用武之地。\n另外，Blog\n的精神除了个人层面上的自由与独立思考之外，还有社会层面上的分享与交流，还有\nCreative Commons\n协议所倡导的尊重知识产权与鼓励创新和传播，blog\n所用的表达方式除了个人的自言自语之外，还有相互之间、针对第三方的开放的批评与探讨。这也是Diary/Journal\n不曾追求也没有兴趣的，也是体现出社会性的 blog 与它们的本质区别所在。\n＝＝＝＝＝＝＝＝＝＝\n从第一句话就可以看出，这篇 blog\n闷在罐子里面发酵了很久了，重新翻出来把它写完是因为最近看到了王建硕的《我关于blog商业化的三点看法》、Jason\n的《BSP模式与BLOG商业化》，受了一点跑题式的启发，不过即使是现在我也还觉得很多地方需要扩充，需要大加修改，但是从明天开始我就要销声匿迹7天，至少得上交一篇字数能够及格的东西吧？有什么要命的事回来再说吧：）\r最后顺便推荐一下胡逆天的《小叮当X》，最喜欢的当然是《戒烟》那一篇。\n",
+  "wordCount" : "2561",
+  "inLanguage": "en",
+  "datePublished": "2005-07-01T19:52:10Z",
+  "dateModified": "2005-07-01T19:52:10Z",
+  "author":{
+    "@type": "Person",
+    "name": "calon"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ioerr.github.io/posts/tantan-wo-dui-blog-de-lijie/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "读写错误",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ioerr.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -56,23 +123,23 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
+            <a href="https://ioerr.github.io/" accesskey="h" title="读写错误 (Alt + H)">读写错误</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="archives">
+                <a href="https://ioerr.github.io/archives/" title="archives">
                     <span>archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="categories">
+                <a href="https://ioerr.github.io/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/index.xml" title="rss">
+                <a href="https://ioerr.github.io/index.xml" title="rss">
                     <span>rss</span>
                 </a>
             </li>
@@ -212,7 +279,7 @@ Diary/Journal，也使得如前所述的种种技术能够顺理成章地在 blo
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">读写错误</a></span> · 
+        <span>&copy; 2026 <a href="https://ioerr.github.io/">读写错误</a></span> · 
 
     <span>
         Powered by
