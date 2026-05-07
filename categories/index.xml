@@ -6,8 +6,22 @@
     <description>Recent content in Categories on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>求知求是</title>
+      <link>https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>百无禁忌</title>
+      <link>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</guid>
+      <description></description>
+    </item>
     <item>
       <title>人品界面</title>
       <link>https://ioerr.github.io/categories/%E4%BA%BA%E5%93%81%E7%95%8C%E9%9D%A2/</link>
@@ -30,17 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>求知求是</title>
-      <link>https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/</link>
+      <title>书香剑气</title>
+      <link>https://ioerr.github.io/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/categories/%E6%B1%82%E7%9F%A5%E6%B1%82%E6%98%AF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>百无禁忌</title>
-      <link>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/categories/%E7%99%BE%E6%97%A0%E7%A6%81%E5%BF%8C/</guid>
+      <guid>https://ioerr.github.io/categories/%E4%B9%A6%E9%A6%99%E5%89%91%E6%B0%94/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +90,6 @@
       <link>https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ioerr.github.io/categories/%E4%BA%BA%E7%94%9F%E8%AE%B0%E5%BD%95/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>生活记录</title>
-      <link>https://ioerr.github.io/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</guid>
       <description></description>
     </item>
   </channel>
