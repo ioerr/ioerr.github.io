@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方块躲避游戏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            overflow: hidden;
+            background: #1a1a2e;
+        }
+        canvas {
+            display: block;
+        }
+        #gameOver {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -80px);
+            font-family: Arial, sans-serif;
+            font-size: 64px;
+            color: #ff4444;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+            display: none;
+            z-index: 100;
+        }
+        #finalTime {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -160px);
+            font-family: Arial, sans-serif;
+            font-size: 32px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            display: none;
+            z-index: 100;
+        }
+        #restartBtn {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 20px);
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            padding: 15px 30px;
+            background: #4488ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+            z-index: 100;
+        }
+        #restartBtn:hover {
+            background: #3377ee;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="finalTime"></div>
+    <div id="gameOver">Game Over</div>
+    <button id="restartBtn">重新开始</button>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const gameOverDiv = document.getElementById('gameOver');
+        const finalTimeDiv = document.getElementById('finalTime');
+        const restartBtn = document.getElementById('restartBtn');
+
+        let width, height;
+        function resizeCanvas() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        const player = {
+            x: 0,
+            y: 0,
+            size: 25,
+            speed: 4,
+            color: '#00ff88'
+        };
+        player.x = (width - player.size) / 2;
+        player.y = (height - player.size) / 2;
+
+        const keys = {
+            ArrowUp: false,
+            ArrowDown: false,
+            ArrowLeft: false,
+            ArrowRight: false
+        };
+
+        window.addEventListener('keydown', (e) => {
+            if (keys.hasOwnProperty(e.key)) {
+                keys[e.key] = true;
+                e.preventDefault();
+            }
+        });
+
+        window.addEventListener('keyup', (e) => {
+            if (keys.hasOwnProperty(e.key)) {
+                keys[e.key] = false;
+            }
+        });
+
+        const bullets = [];
+        let gameStartTime = 0;
+        let bulletMultiplier = 1;
+        let speedMultiplier = 1;
+        let isGameOver = false;
+        let gameRunning = false;
+        let lastSpecialBulletTime = 0;
+        let lastBulletPeriod = 0;
+        let finalTime = 0;
+
+        let minute2Bullet = false;
+        let minute3Bullet = false;
+        let minute4Bullet = false;
+        let minute5Bullet = false;
+
+        function getRandomSpeed(isSpecial) {
+            const baseSpeed = 4;
+            if (isSpecial) {
+                return (8 + Math.random() * 4) * speedMultiplier;
+            }
+            return baseSpeed * speedMultiplier;
+        }
+
+        function getRandomSize() {
+            return 5 + Math.random() * 3;
+        }
+
+        function getRandomColor() {
+            const colors = ['#ff4444', '#44ff44', '#4444ff'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function createBullet(isSpecial = false, customSize = null, useSpecialSpeed = false) {
+            const side = Math.floor(Math.random() * 4);
+            let x, y;
+
+            switch (side) {
+                case 0: // top
+                    x = Math.random() * width;
+                    y = -10;
+                    break;
+                case 1: // right
+                    x = width + 10;
+                    y = Math.random() * height;
+                    break;
+                case 2: // bottom
+                    x = Math.random() * width;
+                    y = height + 10;
+                    break;
+                case 3: // left
+                    x = -10;
+                    y = Math.random() * height;
+                    break;
+            }
+
+            const targetX = player.x + player.size / 2;
+            const targetY = player.y + player.size / 2;
+            const dx = targetX - x;
+            const dy = targetY - y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            let speed, size, color;
+            if (customSize !== null) {
+                size = customSize;
+                speed = useSpecialSpeed ? (8 + Math.random() * 4) * speedMultiplier : 4 * speedMultiplier;
+                color = useSpecialSpeed ? getRandomColor() : '#ffffff';
+            } else {
+                speed = getRandomSpeed(isSpecial);
+                size = isSpecial ? getRandomSize() + 2 : getRandomSize();
+                color = isSpecial ? getRandomColor() : '#ffffff';
+            }
+
+            const bullet = {
+                x: x,
+                y: y,
+                size: size,
+                color: color,
+                vx: (dx / dist) * speed,
+                vy: (dy / dist) * speed
+            };
+
+            bullets.push(bullet);
+        }
+
+        function updatePlayer() {
+            let dx = 0, dy = 0;
+
+            if (keys.ArrowUp) dy -= 1;
+            if (keys.ArrowDown) dy += 1;
+            if (keys.ArrowLeft) dx -= 1;
+            if (keys.ArrowRight) dx += 1;
+
+            if (dx !== 0 || dy !== 0) {
+                const len = Math.sqrt(dx * dx + dy * dy);
+                dx = (dx / len) * player.speed;
+                dy = (dy / len) * player.speed;
+
+                player.x = Math.max(0, Math.min(width - player.size, player.x + dx));
+                player.y = Math.max(0, Math.min(height - player.size, player.y + dy));
+            }
+        }
+
+        function checkCollision(bullet) {
+            const bulletRadius = bullet.size / 2;
+            const playerCenterX = player.x + player.size / 2;
+            const playerCenterY = player.y + player.size / 2;
+            const halfSize = player.size / 2;
+
+            const closestX = Math.max(player.x, Math.min(bullet.x, player.x + player.size));
+            const closestY = Math.max(player.y, Math.min(bullet.y, player.y + player.size));
+
+            const distX = bullet.x - closestX;
+            const distY = bullet.y - closestY;
+            const dist = Math.sqrt(distX * distX + distY * distY);
+
+            return dist < bulletRadius;
+        }
+
+        function updateBullets() {
+            for (let i = bullets.length - 1; i >= 0; i--) {
+                const bullet = bullets[i];
+                bullet.x += bullet.vx;
+                bullet.y += bullet.vy;
+
+                if (checkCollision(bullet)) {
+                    isGameOver = true;
+                    finalTime = (Date.now() - gameStartTime) / 1000;
+                    finalTimeDiv.textContent = `最终时间: ${finalTime.toFixed(3)}秒`;
+                    finalTimeDiv.style.display = 'block';
+                    gameOverDiv.style.display = 'block';
+                    restartBtn.style.display = 'block';
+                    return;
+                }
+
+                if (bullet.x < -50 || bullet.x > width + 50 ||
+                    bullet.y < -50 || bullet.y > height + 50) {
+                    bullets.splice(i, 1);
+                }
+            }
+        }
+
+        function drawPlayer() {
+            ctx.fillStyle = player.color;
+            ctx.shadowColor = player.color;
+            ctx.shadowBlur = 15;
+            ctx.fillRect(player.x, player.y, player.size, player.size);
+            ctx.shadowBlur = 0;
+        }
+
+        function drawBullets() {
+            bullets.forEach(bullet => {
+                ctx.beginPath();
+                ctx.arc(bullet.x, bullet.y, bullet.size / 2, 0, Math.PI * 2);
+                ctx.fillStyle = bullet.color;
+                ctx.fill();
+            });
+        }
+
+        function draw() {
+            ctx.fillStyle = '#1a1a2e';
+            ctx.fillRect(0, 0, width, height);
+
+            drawPlayer();
+            drawBullets();
+
+            if (gameRunning && !isGameOver) {
+                const elapsed = (Date.now() - gameStartTime) / 1000;
+                ctx.fillStyle = '#ffffff';
+                ctx.font = '20px Arial';
+                ctx.textAlign = 'right';
+                ctx.fillText(elapsed.toFixed(3), width - 20, 30);
+                ctx.textAlign = 'left';
+            }
+        }
+
+        function gameLoop() {
+            if (!isGameOver) {
+                updatePlayer();
+                updateBullets();
+            }
+            draw();
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        function startBulletGeneration() {
+            const currentTime = Date.now();
+            const elapsed = (currentTime - gameStartTime) / 1000;
+
+            if (elapsed < 1) {
+                setTimeout(startBulletGeneration, 100);
+                return;
+            }
+
+            // 每10秒增加数量倍率 (3-4倍)
+            const periodIndex = Math.floor((elapsed - 1) / 10);
+            if (periodIndex > lastBulletPeriod) {
+                const times = 3 + Math.floor(Math.random() * 2); // 3-4倍
+                bulletMultiplier *= times;
+                lastBulletPeriod = periodIndex;
+            }
+
+            // 第50秒起每秒钟增加1%
+            if (elapsed >= 50) {
+                speedMultiplier = Math.pow(1.01, elapsed - 50);
+            }
+
+            // 生成普通子弹
+            const baseCount = 3 + Math.floor(Math.random() * 3); // 3-5个
+            const count = Math.floor(baseCount * bulletMultiplier);
+            for (let i = 0; i < count; i++) {
+                createBullet(false);
+            }
+
+            // 每5秒生成特殊子弹 (从第8秒开始)
+            if (elapsed >= 8 && Math.floor((elapsed - 8) / 5) > lastSpecialBulletTime) {
+                createBullet(true);
+                lastSpecialBulletTime = Math.floor((elapsed - 8) / 5);
+            }
+
+            // 定时特殊子弹
+            if (elapsed >= 120 && !minute2Bullet) {
+                createBullet(false, 12, false);
+                minute2Bullet = true;
+            }
+            if (elapsed >= 180 && !minute3Bullet) {
+                createBullet(false, 12, true);
+                minute3Bullet = true;
+            }
+            if (elapsed >= 240 && !minute4Bullet) {
+                createBullet(false, 20, false);
+                minute4Bullet = true;
+            }
+            if (elapsed >= 300 && !minute5Bullet) {
+                createBullet(false, 20, true);
+                minute5Bullet = true;
+            }
+
+            // 下一帧继续生成
+            setTimeout(startBulletGeneration, 1000);
+        }
+
+        // 启动游戏
+        gameStartTime = Date.now();
+        gameRunning = true;
+        bulletMultiplier = 1;
+        speedMultiplier = 1;
+
+        gameLoop();
+        setTimeout(startBulletGeneration, 100);
+
+        // 重新开始按钮事件
+        restartBtn.addEventListener('click', function() {
+            isGameOver = false;
+            finalTimeDiv.style.display = 'none';
+            gameOverDiv.style.display = 'none';
+            restartBtn.style.display = 'none';
+
+            player.x = (width - player.size) / 2;
+            player.y = (height - player.size) / 2;
+
+            bullets.length = 0;
+            bulletMultiplier = 1;
+            speedMultiplier = 1;
+            lastSpecialBulletTime = 0;
+            lastBulletPeriod = 0;
+            minute2Bullet = false;
+            minute3Bullet = false;
+            minute4Bullet = false;
+            minute5Bullet = false;
+
+            gameStartTime = Date.now();
+            gameRunning = true;
+        });
+    </script>
+</body>
+</html>
