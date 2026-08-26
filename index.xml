@@ -6,8 +6,40 @@
     <description>Recent content on 读写错误</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ioerr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>欢迎来到龙餐馆</title>
+      <link>https://ioerr.github.io/posts/huanying-laidao-longcanguan/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://ioerr.github.io/posts/huanying-laidao-longcanguan/</guid>
+      <description>周日全家一起去看了电影《欢迎来到龙餐馆》。 老婆看到是沈腾主演的，以为是全家欢型喜剧片，也没了解电影内容就买票了，结果后半段看得很难受… 在电影</description>
+      <content:encoded><![CDATA[<p>周日全家一起去看了电影《欢迎来到龙餐馆》。<br>
+老婆看到是沈腾主演的，以为是全家欢型喜剧片，也没了解电影内容就买票了，结果后半段看得很难受…</p>
+<p>在电影开头看到电影英文名是《Once Upon a Time in the Middle East》，我就差点噗嗤笑出来。自从Sergio Leone的《西部往事/狂沙十万里/C&rsquo;era una volta il West/Once Upon a Time in the West》之后，太多电影用类似的名字：<br>
+《美国往事》，Once Upon a Time in America，还是Leone自己的作品，没话说。影响力巨大，这一命名格式的真正开山之作。<br>
+《黄飞鸿》系列，Once Upon a Time in China，几部曲下来，情怀和历史感都有了。<br>
+《旺角揸Fit人》，Once Upon a Time in Triad Society，吴镇宇贡献了经典演技的香港黑社会题材电影。<br>
+《墨西哥往事》，Once Upon a Time in Mexico，杀人三部曲之第三部，影片水平也对得起这个名字。<br>
+《恶战》，Once Upon a Time in Shanghai，以上海滩为背景、马永贞为主角的动作片，动作很爽，剧情很烂。<br>
+《印度往事》，Lagaan: Once Upon a Time in India，阿米尔·汗主演的印度电影，曾提名奥斯卡最佳外语片。<br>
+《好莱坞往事》，Once Upon a Time in Hollywood，昆汀·塔伦蒂诺导演的电影，虚构了与历史不一样的结局，挺好玩。<br>
+《重装上阵》，Once Upon a Time in Venice，布鲁斯·威利斯主演的平庸之作。<br>
+《加沙往事》，Once Upon a Time in Gaza，风评不佳的加沙电影。<br>
+…<br>
+没完没了写不完了，说回《欢迎来到龙餐馆》本身吧。</p>
+<p>电影开场不久后遭遇空袭的场面挺震撼，在国产片中难得有这么强的临场感和感染力，真正表达出了个人在战争中的无助和恐惧。<br>
+中段节奏、调度比较浑圆成熟，虽然套路免不了有些俗套，但故事流畅，情感调动在线。<br>
+结尾部分有些失望，故事的高潮反而在于结尾之前配角马俊生侥幸尝试的失败，和之前情节的回闪。沈腾饰演的徐福，作为主角，反而没有掀起这么强烈的情感波澜。</p>
+<p>看到论坛里面有朋友说：还不够催泪，火候就是差了那么一点点；剧情没有意外，发展几乎都能猜到，情绪就不太容易调动起来。</p>
+<p>我觉得最主要的问题是，徐福作为主角缺少有分量的“两难”选择，最大胆的选择是带那么多孩子们逃跑。就是算带孩子逃跑，遇到时间赶不上的情况，他做的也只是尽力做好最后一顿饭，想办法冒险用发芽土豆拖延时间的却是配角马俊生。</p>
+<p>救出孩子的道德驱动，在从电影开始的背景就已经交代，徐福一直爱着孩子们，到最后为了孩子冒险，这算是有首尾呼应，但不算是价值观上重大选择的考验。<br>
+没有价值观上的重大考验，没有改变原来的选择，也就缺少了足够有力量的人物弧光——同样是文牧野导演的《我不是药神》，价值观的矛盾冲突和弧光就更加有力。</p>
+<p>而且因为主角团的弱势，几乎全程都是被命运裹挟着前进，这本身没有问题，但会放大上面难有重大选择考验的问题。</p>
+<p>我想，这大概就是打动人心方面还差了那么一点点的原因。</p>
+<p>不过影片的总体水准已经非常不错了，包括大场面调度、多人物塑造、食物的设计、音乐、国际多元视角和人文关怀等等，也没有太多生硬的说教，属于难得成功的商业大片。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>世界杯结束后的感想</title>
       <link>https://ioerr.github.io/posts/shijiebei-jieshu-hou-de-ganxiang/</link>
@@ -345,21 +377,6 @@ AI 知道很多，但不知道要做什么。我知道要做什么，但很多�
 等到Vim 9问世，经历了Bram Moolenaar去世之后，因为Neovim的不稳定，长期打开文件后窗口不响应，又重新回到了Vim，开始使用9.2的版本。</p>
 <p>断断续续花了2天时间切换配置、重新安装插件，插件管理改用Vim-Plug，LeaderF代替Telescope，除了<a href="https://github.com/phaazon/hop.nvim">Hop</a>、<a href="https://github.com/nvim-focus/focus.nvim">Focus</a>外，绝大多数插件可以通用或找到替代品。</p>
 <p>而且Windows下可以用<code>--remote-silent</code>参数保证所有文件都在同一个窗口中打开，而Neovim做不到或者很麻烦。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>爹外有爹</title>
-      <link>https://ioerr.github.io/posts/die-wai-you-die/</link>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ioerr.github.io/posts/die-wai-you-die/</guid>
-      <description>《媒介·权力·性别：新中国女性媒介形象变迁与性别平等》中有这么一句话： 从此，一个以“民族国家”之名出现的父权形象取代了零散化而又无处不在的男</description>
-      <content:encoded><![CDATA[<p>《<a href="https://book.douban.com/subject/30723690/">媒介·权力·性别：新中国女性媒介形象变迁与性别平等</a>》中有这么一句话：</p>
-<blockquote>
-<p>从此，一个以“民族国家”之名出现的父权形象取代了零散化而又无处不在的男权，成了女性至高无上的权威。</p>
-</blockquote>
-<p>豆瓣用户 censored dump <a href="https://book.douban.com/annotation/149683334/">在笔记中写道</a>：<br>
-<strong>爹外有爹</strong></p>
-<p>值得加粗！</p>
 ]]></content:encoded>
     </item>
   </channel>
