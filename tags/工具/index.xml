@@ -141,7 +141,7 @@ OneNote 已经算长寿的了，Microsoft Word 为兼容历史格式付出的成
 </ol>
 <p><img loading="lazy" src="https://iili.io/KQQkBz7.png" alt="笔记管理流程"  />
 <br>
-<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<a href="https://freeimage.host/"><img src="https://iili.io/KQQkBz7.png" alt="KQQkBz7.png" border="0" /></a></p>
 <p>近年来新兴的笔记工具层出不穷，如 Roam Research、Notion、Joplin、Logseq、Heptabase、Obsidian，还有趁着人工智能东风结合 AI 的后起之秀，如 Google NotebookLM、Tana、NoteGen 等等，你方还没唱罢我就登场了。<br>
 虽说功能十分强大，特别是 Notion 这样以数据库能力为卖点，但是大部分是云端保存，专有、复杂的节点关系无法完美导出和还原，同样有数据被绑架的风险。<br>
 少数支持本地保存的工具，即使有 Vim 模式，编辑体验也不理想，仓库内容太多时还有性能问题。</p>

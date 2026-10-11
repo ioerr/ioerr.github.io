@@ -244,7 +244,9 @@ Delicious 的社交书签服务。</p>
 等软件功能不够，可以用这个支持自定义快捷键的扩展。</p>
 <p>Wapplyzer、Firebug、Hackbar 等适用性不广的扩展就不做介绍了。</p>
 <p>2006年5月6日更新：</p>
-<!-- raw HTML omitted -->
+<del>
+自从 Flickr 被部分和谐之后，[Access
+Flickr!](https://addons.mozilla.org/firefox/addon/4286)就派上了大用场。
 <p>虽然 <a href="https://addons.mozilla.org/firefox/10/">Adblock</a><br>
 有导致内存泄漏的嫌疑，但功能如此强大，还是继续用好了。<br>
 更新：目前基本不需要 Adblock 了，所以没有安装。</p>
@@ -429,7 +431,7 @@ Theme</a>，如果用过 Ubuntu<br>
 应该会感到比较亲切吧。</p>
 <p><a href="https://addons.mozilla.org/firefox/3008/">Whitehart</a> 既有 Firefox 也有<br>
 Thunderbird 版本，风格简洁，自定义选项多，目前是我的 Firefox 首选主题。<br>
-<!-- raw HTML omitted --></p>
+</del></p>
 ]]></content:encoded>
     </item>
   </channel>
